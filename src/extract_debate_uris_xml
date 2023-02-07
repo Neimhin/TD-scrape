@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+import sys
+import json
+with open(sys.argv[1]) as f:
+    obj=json.load(f)
+    for x in obj["results"]:
+        print(x["debateRecord"]["formats"]["xml"]["uri"])
