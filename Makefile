@@ -11,7 +11,10 @@ data/all_member_ids.txt: data/members1.json data/members2.json data/members3.jso
 member_debates: debates_$(notdir $(MEMBER_ID)).json
 
 data/debates_$(notdir $(MEMBER_ID)).json:
-	wget "https://api.oireachtas.ie/v1/debates?member_id=$(MEMBER_ID)" -O $@
+	wget "https://api.oireachtas.ie/v1/debates?member_id=$(MEMBER_ID)&limit=9999" -O $@
+
+data/debates_$(notdir $(MEMBER_ID)).list.txt:
+	./src/extract_debate_uris_xml data/debates_$(notdir $(MEMBER_ID)).json > $@
 
 data/member_info_$(notdir $(MEMBER_ID)).json:
 	wget "https://api.oireachtas.ie/v1/members?member_id=$(MEMBER_ID)" -O $@
