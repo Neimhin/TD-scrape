@@ -1,7 +1,16 @@
 SHELL=/bin/bash
 
-MEMBER_ID=https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14
+MEMBER_ID := https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14
+MID := $(notdir $(MEMBER_ID))
 
+list := $(foreach url,$(shell cat data/debates_$(MID).list.txt | sed 's,:,<colon>,g' | sed 's,/,<fwdslash>,g' ), data/debates.d/$(MID).d/$(url))
+
+all: $(list)
+
+data/debates.d/$(MID).d/%:
+	mkdir -p data/debates.d/$(MID).d/ ; \
+	url=$$(echo "$(@F)" | sed 's,<colon>,:,g' | sed 's,<fwdslash>,/,g') ; \
+	wget "$$url" -O "$@"
 
 data/all_member_ids.txt: data/members1.json data/members2.json data/members3.json
 	cat data/members{1,2,3}.json | \
@@ -14,7 +23,7 @@ data/debates_$(notdir $(MEMBER_ID)).json:
 	wget "https://api.oireachtas.ie/v1/debates?member_id=$(MEMBER_ID)&limit=9999" -O $@
 
 data/debates_$(notdir $(MEMBER_ID)).list.txt:
-	./src/extract_debate_uris_xml data/debates_$(notdir $(MEMBER_ID)).json > $@
+	./src/extract_debate_uris_xml data/debates_$(notdir $(MEMBER_ID)).json | uniq > $@
 
 data/member_info_$(notdir $(MEMBER_ID)).json:
 	wget "https://api.oireachtas.ie/v1/members?member_id=$(MEMBER_ID)" -O $@
