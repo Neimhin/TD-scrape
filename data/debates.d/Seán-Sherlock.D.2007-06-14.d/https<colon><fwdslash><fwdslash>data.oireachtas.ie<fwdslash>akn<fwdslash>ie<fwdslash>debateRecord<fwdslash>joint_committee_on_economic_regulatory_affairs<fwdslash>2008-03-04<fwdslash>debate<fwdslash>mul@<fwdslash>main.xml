@@ -1,0 +1,916 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2008-03-04/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2008-03-04/debate"/>
+          <FRBRdate date="2008-03-04" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_economic_regulatory_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2008-03-04/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2008-03-04/debate/mul@"/>
+          <FRBRdate date="2008-03-04" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2008-03-04/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2008-03-04/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None" eId="#vol_None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None" eId="#no_None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="CiaranCuffeGP" href="/ie/oireachtas/member/id/Ciarán-Cuffe.D.2002-06-06" showAs="Ciarán Cuffe"/>
+        <TLCPerson eId="DamienEnglishFG" href="/ie/oireachtas/member/id/Damien-English.D.2002-06-06" showAs="Damien English"/>
+        <TLCPerson eId="DiarmuidWilson" href="/ie/oireachtas/member/id/Diarmuid-Wilson.S.2002-09-12" showAs="Diarmuid Wilson"/>
+        <TLCPerson eId="FergusODowdFG" href="/ie/oireachtas/member/id/Fergus-O'Dowd.S.1997-09-17" showAs="Fergus O'Dowd"/>
+        <TLCPerson eId="JoeBehan" href="/ie/oireachtas/member/id/Joe-Behan.D.2007-06-14" showAs="Joe Behan"/>
+        <TLCPerson eId="KieranODonnell" href="/ie/oireachtas/member/id/Kieran-O'Donnell.D.2007-06-14" showAs="Kieran O'Donnell"/>
+        <TLCPerson eId="MichaelMoynihan" href="/ie/oireachtas/member/id/Michael-Moynihan.D.1997-06-26" showAs="Michael Moynihan"/>
+        <TLCPerson eId="NedOSullivan" href="/ie/oireachtas/member/id/Ned-O'Sullivan.S.2007-07-23" showAs="Ned O'Sullivan"/>
+        <TLCPerson eId="PaulCoghlan" href="/ie/oireachtas/member/id/Paul-Coghlan.S.1997-09-17" showAs="Paul Coghlan"/>
+        <TLCPerson eId="PeterKellyFF" href="/ie/oireachtas/member/id/Peter-Kelly.D.2002-06-06" showAs="Peter Kelly"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Sean Sherlock"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM GHNÓTHAÍ RIALÁLA GEILLEAGAIR A BHUNÚ</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON ECONOMIC REGULATORY AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2008-03-04">Dé Máirt, 4 Márta 2008</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2008-03-04">Tuesday, 4 March 2008</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 4 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JoeBehan">
+                Deputy Joe Behan,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PaulCoghlan">
+                Senator Paul Coghlan,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#CiaranCuffeGP">
+                Deputy Ciarán Cuffe,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#NedOSullivan">
+                Senator Ned O’Sullivan,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#DamienEnglishFG">
+                Deputy Damien English,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#DiarmuidWilson">
+                Senator Diarmuid Wilson.
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#PeterKellyFF">
+                Deputy Peter Kelly,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#KieranODonnell">
+                Deputy Kieran O’Donnell,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#FergusODowdFG">
+                Deputy Fergus O’Dowd,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#SeanSherlock">
+                Deputy Seán Sherlock,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#MichaelMoynihan">DEPUTY MICHAEL MOYNIHAN IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Joint Committee. </heading>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_11">Apologies have been received from Deputies Ardagh, Varadkar and Kirk.  I ask members to ensure that their mobile telephones are switched off and not just left in silent mode for the duration of the meeting.  Otherwise, the vibrations of the telephones when calls are received will affect the broadcast transmission adversely.</p>
+          <p eId="para_12">
+            <i>The joint committee went into private session at 4.03 p.m. and resumed in public session at 4.10 p.m.</i>
+          </p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Role and Functions: Discussion with Commission for Taxi Regulation.</heading>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_2">
+          <from>Chairman</from>
+          <p eId="para_13">The next item on our agenda is a discussion on the Commission for Taxi Regulation.  I welcome Ms Kathleen Doyle, commissioner, and Ms Jennifer Gilna, head of corporate affairs at the commission.</p>
+          <p eId="para_14">I draw witnesses' attention to the fact that while members of the joint committee have absolute privilege the same privilege does not apply to witnesses appearing before the committee.  Members are reminded of the parliamentary practice that they should not comment on, criticise or make charges against any person outside the Houses or an official, either by name or in such a way as to make him or her identifiable.</p>
+          <p eId="para_15">I propose that we hear a short presentation from Ms Doyle, Commissioner for Taxi Regulation to be followed by questions and answers from members of the committee.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_16">Good evening, Chairman and members of the committee.  After this short presentation I will be happy to discuss it in detail.  Accompanying me is Jennifer Gilna, head of corporate affairs at the commission.</p>
+          <p eId="para_17">The Commission for Taxi Regulation was established in September 2004 as an independent public body under the Taxi Regulation Act 2003.  The principal function of the commission is the development and maintenance of a regulatory framework for the control and operation of small public service vehicles, their drivers and dispatch operators.  I will probably use the abbreviated term, SPSV, throughout the meeting.  Our mission is to achieve a first class professional, efficient, safe, accessible and customer friendly service for small public service vehicle passengers and for service providers.</p>
+          <p eId="para_18">Since we were established in 2004, the commission has carried out extensive consultation on the services and vehicle standards provided by the industry.  We started a national review of vehicle standards and services in 2005.  Following from the review, we entered into a consultation process with the industry on proposals for changes in the industry.  In October 2005, we entered into a third consultation process on the national taxi metre areas and national taxi fares.  We received more than 400 submissions and met stakeholders nationally.  We also consulted the advisory council to the Commission for Taxi Regulation, which is established under Part lV of our primary legislation.  This council advises on various issues pertaining to small public service vehicles.  We carried out a regular impact assessment on forthcoming regulations and took into account the principles set out in the Government's White Paper on better regulation.</p>
+          <p eId="para_19">We introduced a number of reforms in 2006 and 2007, including a national vehicle licensing system, national register of licences, national taxi metre area, national taxi fare, national complaints system, enhanced consumer protection, improved information awareness, national consumer and industry telephone lines and stronger enforcement.</p>
+          <p eId="para_20">We commenced a fourth consultation on vehicle standards in December 2006.  We felt this consultation process was required and we received more than 190 submissions.  Again, we met stakeholders and representative bodies in the industry throughout the country and we sought advice from the advisory council to the commission.  We published our new vehicle standards in November 2007.</p>
+          <p eId="para_21">We have several new reforms planned for 2008 and 2009.  They are included in the action plan we published last week and which has been distributed to members.  Included in those are the implementation of the new vehicle standards published last November, our new skills development programme for drivers and dispatch operators throughout the country, the licensing of dispatch operators, the administration of licensing of SPSV drivers, improved services for people with disabilities, the development of national guidelines incorporating accessibility and the development of a quality assurance scheme for the industry.</p>
+          <p eId="para_22">We have a small dedicated team to meet our statutory objectives.  In the documentation given to members I have set out a list of the daily operations conducted by the commission's team.  The three core areas of licensing which we will undertake in the form of our new action plan in 2008 and 2009 are vehicle licensing, small public service vehicle driver licensing and dispatch operator licensing.</p>
+          <p eId="para_23">To date, we have ensured effective and efficient operations through outsourcing.  The document circulated sets out for members all of the areas in which we have outsourced to date including, national vehicle licensing, which is operated through 43 centres nationally, contact management with industry, consumer telephone lines which received 84,000 calls during 2007, administration support, public awareness campaigns, public relations and internal organisational requirements such as IT support and finance.  We will continue to outsource during 2008 and 2009 in respect of new reforms including, administration of SPSV driver licensing, dispatch operator licensing, the skills development programme and testing and assessment of that programme.  We will seek to employ additional staff to support these outsourcing projects.</p>
+          <p eId="para_24">On the commission's budget, the Taxi Regulation Act 2003 provides for licence fees to accrue to the commission and as such it is a self-financing body.  Currently, the fees collected are for vehicle licensing and this will extend to fees for driver licensing and dispatch operator licensing.  Also, fixed penalty charges for a number of offences are payable to the commission.  Income from fees will be applied for the purposes of meeting the commission's expenses.  Any surplus of income will be disposed of in a manner as determined by the commission with the agreement of the Minister for Transport and the Minister for Finance.</p>
+          <p eId="para_25">As provided in the Taxi Regulation Act 2003, the commission submits it accounts and annual reports to the Minister for Transport within three months of the end of each financial year.  I am happy to discuss or elaborate on any of the issues raised.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_4">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_26">I thank the commissioner for attending today.  I represent the constituency of Limerick East, primarily Limerick city where, pre-deregulation there were some 270 licensed taxis as compared with 940 to date.  I have received many representations from taxi drivers stating they are unable to earn a full-time living as taxi drivers.  They have asked me to put a number of questions to the commissioner.</p>
+          <p eId="para_27">While there many people operate taxis full-time, many others engaged in other employment operate taxis on a part-time basis at night or during peak periods.  Is there a need for the introduction of safety measures in terms of the number of hours a person should be permitted to drive?  Perhaps the commissioner would clarify the following point.  Is it stipulated that a person applying for a PSV licence must operate the taxi 39 hours a week?  The commissioner referred to enforcement officers and stated the commission is getting involved in this area.  There is a general view that while enforcement officers are doing good work, it is not sufficient.  Has the commission considered deploying full-time enforcement officers into major centres of population such as Limerick?  This would give comfort to existing taxi drivers.</p>
+          <p eId="para_28">The commissioner stated in a recent interview I heard that she does not have a problem in respect of the number of taxi licences granted given many taxi bases are unable to provide taxis during peak hours.  However, while taxi drivers will use a base during the day, most pick up clients at the kerb during peak hours and as such they collect people though not through the taxi base.</p>
+          <p eId="para_29">Deregulation was introduced to bring more taxis onto the market, a policy with which I agreed, but we have reached the point at which people's livelihoods are being put at risk.  In my city of Limerick, there are more than enough taxis but the ranks are not large enough to cater for them.  Does Ms Doyle agree it is time to conduct a review of how deregulation worked and whether control measures should be introduced in terms of safety and the number of driving hours permitted for full and part-time taxi drivers?  The situation has arisen whereby people whose livelihoods derive from driving taxis on a full-time basis are finding they have to supplement their incomes with other part-time employment.  Conversely, people who already have full-time employment are becoming part-time taxi drivers.</p>
+        </speech>
+        <speech by="#CiaranCuffeGP" eId="spk_5">
+          <from>Deputy Ciarán Cuffe</from>
+          <p eId="para_30">I welcome the delegation.  The availability of taxis and the quality of service of the taxi industry have improved over the years but a huge amount of work remains to be done and much can be learned from other cities.  Taxi numbers in the greater Dublin area have increased beyond the 30,000 mark but are that many available in a given period?  I wonder whether a large number of licences are not being used or are being taken advantage of to circumvent bus lane regulations.  A high profile case arose involving Michael O'Leary, who had the luxury of being driven in his own taxi along the bus lanes of the city.  Are other people doing the same and does Ms Doyle have data on the matter?</p>
+          <p eId="para_31">While taxis are usually in good condition, a number of vehicles are clapped out.  I had the experience of travelling in a ten year old Volkswagen Polo driven by someone who needed to use sat-nav to find Kildare Street.  What steps are being taken to ensure drivers have decent English, a basic knowledge of the streets and cars that would pass the NCT on a good day?  I am sometimes astounded by the clapped out wrecks that are still on the roads.  I note the regulator's intention to introduce a nine year old vehicle standard by 2012 but what will happen in the intervening years?  It is not acceptable that ten year old bangers are on the roads given that even in the smallest village in Germany every taxi is a Mercedes Benz of the same colour and passengers are guaranteed a certain quality of care.  We need to introduce similar policies to Ireland sooner rather than later.</p>
+          <p eId="para_32">We also need to set a date for full disabled accessibility to the fleet, whether within the next three, five or ten years, so that a wheelchair user can be confident of being able to hail a taxi without being told no accessible vehicles are available.  Surely, we can set a date and work backwards so that we can hold our heads high in respect of fleet accessibility.</p>
+          <p eId="para_33">Can we take steps towards introducing a uniform fleet colour?  It is all very well having a roof sign that is clear to all and that works but there are 101 shades in the taxi fleet.  Could we not learn from any capital city in Europe?  I would be happy to have any of the 40 shades of green as the uniform colour.  We could learn from Berlin or New York where there is a uniform fleet colour.</p>
+          <p eId="para_34">The mayor of New York has set a date for clean fuel taxis although I am not sure if it is LPG or another type clean fuel.  Could we look towards cleaner fuel for the fleet by a certain date, given the need to tackle climate change head-on?</p>
+          <p eId="para_35">I note that the taxi regulations push responsibility for the carriage of children in taxis on to parents or guardians, who must bring enough equipment to comply with the law.  Several of the taxis I used in London had fold-down children's chairs in the middle of the back seat.  Could we consider that here?  It is presumptuous to place the onus on parents to carry around a child seat.  With today's technology one could have a fold-down seat or stow a seat in the boot of a medium-sized vehicle.  This could handle the needs of children.</p>
+          <p eId="para_36">What information is available on the income of taxi drivers?  It is much tougher being a taxi driver today compared to ten years ago when it was effectively a cartel.  I welcome the increase in taxis.  Has the regulator researched the income of a taxi driver in Ireland or in the greater Dublin area?  I worry that some drivers must work all hours of the day and night to make ends meet.  That is not good for the driver or for passenger safety.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_6">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_37">I welcome the taxi regulator and her colleague.  Most of the points I wished to make have been covered.  There has been a tangible improvement in the level of service, particularly in larger urban areas such as Cork city and Dublin.  It is easier to get a taxi, day or night, than it was heretofore.  The regulator has been instrumental in bringing that about.</p>
+          <p eId="para_38">I come from Mallow, north Cork and licences there used to be issued by the local authority, which gave an element of control.  Now, we see the local authority no longer has that power, which is vested in the regulator, and there is no interaction between the local authority and the regulator in terms of provision of spaces.  In Mallow, which is typical of many towns, more and more licences are being issued but the main street or the taxi ranks cannot cope.  Has there been consultation?  The regulator's submission refers to consultation with the local authorities but has there been consultation specifically with regard to the provision of taxi spaces?  There are currently 47 taxi licences in Mallow and the town does not have the space to cope with these.</p>
+          <p eId="para_39">I differ from my colleague from the Green Party regarding the nine-year vehicle standard rule.  The German case is different in that there is a German brand, the Mercedes-Benz, in which there is national pride.  It is much easier to impose a certain type of car or colour in that scenario.</p>
+          <p eId="para_40">I would argue that as long as a vehicle is up to certain standards in respect of cleanliness and its operation, I do not see why it cannot be used as a public service vehicle.  I differ in this regard.  Given that it is his or her business, a taxi driver who has the wherewithal to invest moneys in a licence should have a certain degree of autonomy as to the vehicle that he or she could choose to use.</p>
+          <p eId="para_41">I seek clarification as to whether it is envisaged that a standard would be imposed whereby any vehicle that was more than nine years old could not be used.  While I may be wrong in this regard, I would be vehemently opposed to such a proposal.  Many vehicles, such as the aforementioned famous German marque, will go on for ten, 15 or 20 years and can be operated as effectively as any two or three year old car as long as they receive proper maintenance.  At present, people operate with older marques, many of which are more than ten years old, which are in perfectly good condition and I do not see why such vehicles cannot continue to be used.</p>
+          <p eId="para_42">While those are the basic points, I also seek clarification on the ownership of taxi licences.  My understanding is that plates will no longer be transferable.  If that assumption is correct, will it be the case that if someone invests in a taxi business, this plate, which costs approximately €6,000, will be non-transferable and cannot be used as an asset should the person in question decide to dispose of it to a family member or otherwise?  Were this to be the case, I would have an issue with it.  Someone who builds up a business and invests approximately €6,000, should be able to transfer that licence as he or she sees fit, subject to certain provisions being put in place.  It should be subject to certain rules and regulations and the person taking over the licence should adhere to certain regulations and training.  If the plates are non-transferable, perhaps the regulator will clarify the reason and expand on this subject.  I thank the regulator for her submission.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_7">
+          <from>Deputy Damien English</from>
+          <p eId="para_43">I thank the Chair for affording me the opportunity to ask some questions and make some comments.  I welcome the witnesses before the joint committee and it is good to have a discussion with them on this subject.  I probably will follow up with further questions later.  While the regulator was not around at the time, it was a pity that deregulation took place in an unstructured manner.  This created many problems and was badly handled at the time.  While everyone had the right intentions, it was badly handled and seemed somewhat rushed.  Although many of the problems have been surmounted this was a pity and members should learn from it.  While deregulation was not harmful, it should have taken place in a structured manner.  We are now catching up.</p>
+          <p eId="para_44">I refer to some of the comments that have already been made.  Probably the main issue for anyone who comes from small towns or from anywhere outside Dublin concerns the state of taxi ranks, which are unfit for purpose.  A major health and safety issue arises when a taxi rank that was built for 40 cars has 100 cars queuing up to enter it.  There is a serious problem and I fear no one is taking ownership of it.  This has gone on for years without being solved.  Who should take ownership of this issue?  Is there a duty on local authorities to sort it out?  Do local authorities need direction and funding from a Minister?</p>
+          <p eId="para_45">It is only a matter of time before people are hurt at taxi ranks that are completely overcrowded and unsuitable.  Someone must take a lead on this issue.  I wonder who is responsible for doing so because this problem is visible every day of the week and is of great concern to me.  In fairness, taxi drivers do their best to highlight the issue as much as possible without crossing local authority officials.  Taxi operators, owners and drivers are afraid to cross such officials because of the difficulties that can arise when one attempts to renew one's licence.  It can become complicated and one can experience significant delays if one causes trouble.  Such a fear exists and hopefully this matter will resolve itself in the future.</p>
+          <p eId="para_46">While it would be great to have more wheelchair-accessible taxis, the costs involved are substantial.  Would the regulator recommend the establishment of a scheme to promote such vehicles?  While a reduced licence fee applies, these vehicles are very expensive to buy.  If we believe in having more wheelchair accessible taxis, should we subsidise the cost of the vehicle?</p>
+          <p eId="para_47">Taxi drivers do a job that most would not touch.  Any sane person would run a mile from it because it is a difficult job involving serious hours, often in difficult conditions.  Regarding the treatment of taxi drivers, does Ms Doyle envisage a "customer charter" through which the rules would be clear, the customer would know how to respect and treat a taxi driver and there would be severe punishment and fines if one was out of order?  Particularly when alcohol is consumed, it is common for people to be unnecessarily aggressive and rude to taxi drivers.  There is a duty on us all to improve the manner in which drivers are dealt with.  Is there anything to do to fix this problem?  While it may be for each driver to address the problem, we are discussing people who work late nights and the early hours of the morning when it is not always easy to get control.</p>
+          <p eId="para_48">Taxi drivers must work many hours to make a living and to pay for their cars, particularly if they are modern cars of two years or three years of age.  Given the increased number of taxi plates, do we recognise the number of hours taxi drivers are being asked to work to make a living?  My colleague asked whether we should stop at this number of taxis or where would it otherwise end.  It was hoped that the number of plates would self-regulate, that is, people would not enter the business if there was no money in it.  However, there seem to be many taxis.  Should we consider freezing the number for a few years?</p>
+          <p eId="para_49">While the licensing process is difficult, what is the situation and what information is used in respect of assessing whether persons are suitable to drive or own taxis?  The Garda is involved.  Will Ms Doyle explain to the committee her ideas and opinions in this regard?  The safety of passengers is a concern of us all.</p>
+          <p eId="para_50">Regarding the provision of accommodation, there are regulations on the buildings in which people await their taxis, but people queue on the streets in most cases.  The night-time problems on our streets spread across several Departments, councils and so on.  Part of the difficulty is people hanging around on the streets and waiting to get taxis or buses.  We must go down the road of State-provided accommodation subsidised by fees from taxis, buses, etc.  In this way, people could be secure until they get their lifts home.  By "secure", I mean a place with security or gardaí.  We must face facts, namely, people are getting hurt while waiting on the streets.  A place where they could wait for lifts home may be suitable and should be considered as the committee proceeds.</p>
+          <p eId="para_51">Ms Doyle mentioned that one of her plans is to improve services for people with disabilities.  Could she elaborate on which improvements she would like to see and where she hopes the issue will go?  Ms Doyle stated that her office was in receipt of 84,000 telephone calls.  Could she explain what is occurring in that respect?</p>
+          <p eId="para_52">The regulator is self-financing and is covering its costs.  In some cases, the fees seem excessively high, as we are discussing people who do not make significant profits.  Often, I get the impression that taxi owners are an easy target for a few pounds.  Was the commission always meant to cover its costs by placing them on taxi owners?  The cost to renew a licence is €500.  While there are exceptional cases in certain circumstances, this figure seems high.  Perhaps it is justified, but will Ms Doyle elaborate on the fees?</p>
+          <p eId="para_53">There can often be considerable delays in getting one's licence and having one's car cleared.  Does Ms Doyle believe this also or is she happy with the process?</p>
+        </speech>
+        <speech by="#NedOSullivan" eId="spk_8">
+          <from>Senator Ned O’Sullivan</from>
+          <p eId="para_54">I apologise for attending late.  I was unable to follow the debate from where I was and will not speak for long because I do not want to repeat what others have said.</p>
+          <p eId="para_55">I live in Listowel where there are no taxis, but there are hackneys.  Are the commissioners involved in the regulation of hackneys?  If not, is there a corresponding body to the commission which has a regulatory function there?  What is the specific difference between a taxi and a hackney?  It is something I have not been able to find out.</p>
+          <p eId="para_56">In County Kerry there is a problem with illegal taxi drivers.  I presume it is the function of the Garda to ensure that illegal taxi drivers do not operate.  Does the commissioner have an input into that matter or views on how it can be stamped out?  In any walk of life it is very unfair to people who pay their licence and run a professional service to have to compete with pirates and parasites who, for example, pull up in front of a chip shop at 2 a.m. when business is plentiful but are not available on rainy mornings to bring people to work.</p>
+          <p eId="para_57">Since I have been a Member of the Oireachtas I have lived less than five minutes drive from Leinster House.  I usually walk here but on wet days I may take a taxi.  The fare can vary from €5.50 to €9 for the same journey.  Density of traffic or the route taken may have something to do with the variation.  Are there different charging regimes for morning and evening?  I would like to be enlightened on that matter.</p>
+          <p eId="para_58">It used be my understanding that a taxi which was available for hire had a light on top of the vehicle.  In that way one knew if one was hailing an available taxi or doing obair in aisce.  I recently asked a taxi driver who, to my surprise, pulled up when I thought he was not available should he not have been showing a light.  He replied, "I think we are meant to but sure we don't bother".  Perhaps that matter could be looked into.</p>
+          <p eId="para_59">Do the regulators have anything to do with the fact that every taxi driver in the city seems to have an encyclopaedic knowledge of the whole world and a philosophy on everything from politics to football and referees, world affairs and American eating habits?  Can one request a silent taxi driver?</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_9">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_60">Or a silent Kerryman?</p>
+        </speech>
+        <speech by="#PeterKellyFF" eId="spk_10">
+          <from>Deputy Peter Kelly</from>
+          <p eId="para_61">I welcome Ms Kathleen Doyle and Ms Jennifer Gilna.  While I am not sure who should be given the credit for it, in general the public are happy with the taxi service in recent years.  In Longford, where I come from, the taxi service is second to none.  I have no difficulty get a taxi whenever I want one.  In the main, the people who drive the taxis are decent, respectable, honest and upstanding citizens.  It is a pleasure to take a taxi with people with whom one feels safe and secure, knowing they will deliver--</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_11">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_62">The Fianna Fáil cumann.</p>
+        </speech>
+        <speech by="#PeterKellyFF" eId="spk_12">
+          <from>Deputy Peter Kelly</from>
+          <p eId="para_63">I thank Deputy O'Dowd for reminding me to thank all the taxi drivers in Longford for voting for Fianna Fáil in the last general election.  I hope I will continue to take the taxis and that they will vote for us again at the next election.</p>
+          <p eId="para_64">I have also been very lucky in Dublin.   I have no difficulty finding a taxi when I go out the gate of Leinster House.  The service is very good.  I have found Dublin taxi drivers excellent and the fares reasonable.  I may be an exception but I cannot believe I am.</p>
+          <p eId="para_65">I urge the commissioner to give consideration to small independent taxi drivers who do not have large fleets of cars and work alone, particularly in rural areas where there is not a great volume of business.  The commissioner should take steps to keep the operating costs of such drivers down and not overregulate them.  I do not have any specific questions for the commissioner.  I am sure, given her reputation, the commissioner will be well able to answer all the questions asked.</p>
+          <p eId="para_66">Perhaps the commissioner will state if in her opinion there are enough licensed taxis in the country.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_13">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_67">I apologise for being late.  I welcome the taxi regulator's report.  I have not noted in the report statistics in respect of the number of prosecutions taken by the commission.  The commissioner might elaborate on the statistics on page 18.</p>
+          <p eId="para_68">My questions relate in particular to the commission's submission to the Department of Transport.  I have read the submission and it contains some good points.  The commissioner spoke about the rural transport initiative and making taxis a part of it.  How does she see that working?  Perhaps she will elaborate on the issue of vouchers for free transport which could be used by people with disabilities.  However, it may be an issue for the Department of Social and Family Affairs.  The proposal relates to the use of vouchers once a week by elderly people living in distant communities under the rural transport initiative.  How does the commission propose to advance this proposal?</p>
+          <p eId="para_69">The commissioner referred to the programme for Government 2007 and to the commitment therein to ensure all taxis are accessible to people with disabilities.  What proportion of existing taxis meet this requirement?  I presume this requirement will be applied universally to all new taxis.  The commissioner might also address the issue of affordability of transport.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_70">I now invite the commissioner to respond to the questions asked following which members may ask supplementary questions.</p>
+        </speech>
+        <speech by="#" eId="spk_15">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_71">I can provide Deputy O'Donnell with up to date statistics in respect of the number of taxis in the Limerick area.  At the end of February 2008, there were 884 licensed small public service vehicles in the Limerick area.  This includes taxis, hackneys, limousines and wheelchair-accessible taxis.  There are 583 licensed taxis and 39 wheelchair accessible vehicles in the Limerick city and county areas.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_16">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_72">Does a person applying for a licence have to indicate whether he or she will operate the vehicle on a full-time or part-time basis?</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_73">The small public service vehicle driver licence is administered by the Garda Síochána.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_18">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_74">The taxi licence falls within the remit of the Commission for Taxi Regulation.</p>
+        </speech>
+        <speech by="#" eId="spk_19">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_75">Yes.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_20">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_76">Does the commission require a person applying for a licence to indicate the number of hours he or she intends to operate the vehicle?</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_77">The number of driver hours is covered by the Public Service Vehicle Regulations 1963 which state at section 34(2)(<i>e</i>) that a licence holder, when granted a licence, must undertake not to operate the public service vehicle for more than 11 hours in any one day in a three day period.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_22">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_78">There is no regulation to stipulate the person must provide a full-time service.  On that basis, a person could operate a taxi for half an hour a week.</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_79">That is correct.  The drivers are self-employed and choose their own hours of work.  Some of them do so seven days a week while others operate on a part-time basis for certain hours.  In some rural areas they only operate services at particularly busy times, such as Thursday through Sunday evenings.  Many drivers operate to their own hours and certainly most research their areas to ascertain the most suitable times.  Some like to work during the day, others prefer nights.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_24">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_80">While the increase in taxi numbers has worked, we are reaching the point at which people are cherry-picking hours.  Full-time drivers who may have worked in the industry for several years are finding it increasingly difficult to make a living.  Ms Doyle cannot provide details of the numbers of full-time and part-time licensees.</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_81">I cannot because that is not a requirement for licensing.  However, most self-employed independent taxi drivers are inclined to work from taxi ranks at various times throughout the week.  We held a number of information sessions around the country with dispatch operators, all of whom said they cannot meet the volume of bookings they receive.  Dispatch operators need more taxi drivers to affiliate to them to meet these bookings.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_26">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_82">That may be the case but during peak hours taxi drivers are not returning to bases.  They pick up people waiting on the kerb.  The number of taxi licences in certain areas has trebled.  Ms Doyle has answered my question on the requirement to operate a minimum number of hours.  Does she agree now is an opportune time to review the period since deregulation?  My colleague, Deputy English, made a telling point when he noted that while deregulation was good, it was not subsequently coupled with proper enforcement.  In terms of enforcement, does Ms Doyle envisage an increase in the number of enforcement officers?  By employing them on a full-time basis to ensure proper enforcement in city centres such as Limerick they would give comfort to taxi drivers.</p>
+          <p eId="para_83">In regard to the 583 licences, does that include all PSV licences?  Two licensees may drive the same car.</p>
+        </speech>
+        <speech by="#" eId="spk_27">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_84">The number I gave refers to vehicle licences, as distinct from driver licences.  There are two separate licensing processes.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_28">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_85">What is the number of driver licences?</p>
+        </speech>
+        <speech by="#" eId="spk_29">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_86">Between Limerick city and county, there are 1,536 current driver licences.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_30">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_87">Has Ms Doyle the figure for Limerick city?</p>
+        </speech>
+        <speech by="#" eId="spk_31">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_88">I do not because the figures are based on addresses.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_32">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_89">I am told by licence holders that almost 1,000 taxi drivers operate within the confines of the city.  Deregulation was introduced to provide a better service to customers, which was welcome and has worked, but enforcement has not been sufficient to match the increased number of taxis.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_33">
+          <from>Chairman</from>
+          <p eId="para_90">The point the Deputy is making is that some people have licences they use for a few hours on Saturday or Sunday nights.  They are cherry-picking peak hours.  After five years of deregulation, the question arises as to whether we should consider a minimum number of hours that people must operate to provide a level playing field.  At present there is no minimum.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_34">
+          <from>Deputy Damien English</from>
+          <p eId="para_91">Drivers who are not putting the hours in can make easy profits and more money.  People then suffer from not enough taxi drivers being available on Monday or Tuesday or at off-peak times, when one wants more.  The balance is wrong.  Apart from a fair income for all, we need to balance the supply of taxis to customers on quiet nights.  We are losing on two counts.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_35">
+          <from>Chairman</from>
+          <p eId="para_92">The difficulty is that when licences are granted, the drivers are self-employed.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_36">
+          <from>Deputy Damien English</from>
+          <p eId="para_93">It is a delicate issue and there is no simple answer.</p>
+        </speech>
+        <speech by="#NedOSullivan" eId="spk_37">
+          <from>Senator Ned O’Sullivan</from>
+          <p eId="para_94">On a point of information, the commissioner referred to 1,536 drivers licences.  I missed the figure for public service vehicle licences in the same area.</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_95">There are 583 taxis in Limerick.</p>
+        </speech>
+        <speech by="#NedOSullivan" eId="spk_39">
+          <from>Senator Ned O’Sullivan</from>
+          <p eId="para_96">There are three drivers' licences for every public service vehicle licence.</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_97">Many of the current driver licences are not operative, according to statistics from the Garda Síochána.  Many people have driver licences but do not operate vehicles.  Overall, the driver is operating it and sometimes there are two drivers operating one vehicle.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_41">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_98">Can the commissioner expand on the earlier point?</p>
+        </speech>
+        <speech by="#" eId="spk_42">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_99">Taxis, hackneys, limousines and all small public service vehicles are the only transport service available 24 hours per day, 365 days per year service.  These are self-employed drivers and it is difficult to dictate what hours they should work.  They choose their hours of work.  We have a consumer line and the feedback we have received is that at peak times there is not enough service.  This is during times when part-time drivers are working.  If we did not have these part-time drivers at peak times, the consumer would suffer.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_43">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_100">Are these complaints geographically based?</p>
+        </speech>
+        <speech by="#" eId="spk_44">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_101">They are mainly made with reference to cities at peak times.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_45">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_102">Are many from Limerick?</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_103">Not necessarily.  I do not have a breakdown of the figures and the considerable feedback we have received is that at peak times there is not a proper service.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_47">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_104">Will the commissioner carry out a review to see if the processes work and if they can be refined in terms of control systems?  Will full-time enforcement officers be appointed in the cities?</p>
+        </speech>
+        <speech by="#" eId="spk_48">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_105">The last review, a national review of service and vehicle standards, was carried out in 2005.  I intend to carry out an economic review later this year on the services provided.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_49">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_106">When will that take place?</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_107">It will take place over the time of the current action plan, late 2008 to early 2009.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_51">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_108">Will it be completed in early 2009?</p>
+        </speech>
+        <speech by="#" eId="spk_52">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_109">We hope it will be completed at that stage.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_53">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_110">How many extra enforcement officers are in place?</p>
+        </speech>
+        <speech by="#" eId="spk_54">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_111">We have nine full-time enforcement officers employed by the commission.  The gardaí are authorised officers under our legislation.  We are in the process of training the road traffic corps on the various regulations in place to support our enforcement operations.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_55">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_112">They operate nationwide.  Has the commissioner considered appointing a full-time enforcement officer in Limerick for a period?  If the regulations are made, they should be enforced.</p>
+        </speech>
+        <speech by="#" eId="spk_56">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_113">We cannot appoint enforcement officers in every county because we only have nine.  We applied to the Department of Transport for additional staff, including additional enforcement officers.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_57">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_114">How many additional enforcement officers are sought?</p>
+        </speech>
+        <speech by="#" eId="spk_58">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_115">We are looking for an additional three enforcement officers.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_59">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_116">One of these could be located in Limerick.</p>
+        </speech>
+        <speech by="#" eId="spk_60">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_117">That will be considered.  At the moment there is a rota of enforcement operations around the country.  Some of these are to respond to complaints received, others are for large events where there will be an accumulation of small public service vehicles in a particular area and others are for general city operations in taxi and hackneys.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_61">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_118">Does the commissioner seek specific tax clearance certificates for renewing the taxi licence?</p>
+        </speech>
+        <speech by="#" eId="spk_62">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_119">A tax clearance certificate is required for renewal of a licence.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_63">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_120">Specifically, when someone applies for a taxi licence will the commissioner consider this as another means of control?</p>
+        </speech>
+        <speech by="#" eId="spk_64">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_121">We will consider that.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_65">
+          <from>Chairman</from>
+          <p eId="para_122">To be fair to all members we will revert to the commissioner when members have spoken.  Then, if there are supplementary questions, we can return to the members.</p>
+        </speech>
+        <speech by="#" eId="spk_66">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_123">Deputy O'Donnell's next question was on bases and ranks.  I probably have covered the answers to his questions in this regard, as well as on the economic reviews.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_67">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_124">Yes.</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_125">If Deputy O'Donnell is satisfied, I will move on to Deputy Cuffe's questions.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_69">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_126">I thank Ms Doyle.</p>
+        </speech>
+        <speech by="#" eId="spk_70">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_127">Deputy Cuffe mentioned the number of licenses in the Dublin area and noted how some numbers are greater than 30,000.  To clarify, the current total number of licences nationally is 26,121.  As part of the reforms for the industry, all the old taxi plate numbers were changed to a unique five-digit number.  We commenced a roll-out of these numbers in April 2006 up to the present date.  We commenced the five-digit number to make it easily accessible for people to understand that five digits is what one should look for on taxi signs and on the tamper-proof discs that are displayed on the front and rear windows of all small public service vehicles.  To date, 26,121 licences have issued.  One might see higher figures than this because we started the numbering system at 10,001 in order to have a five digit number.  In addition, people who apply for licenses get a conditional offer that lasts for approximately 90 days, in which the number is given to them provisionally.  If that number is not taken up, it goes back into the pot but is not issued to anyone else.  In the main, this is to safeguard against anyone buying a taxi roof sign with that number on it and planting it on an unlicensed vehicle.  Consequently, although Deputy Cuffe might have seen numbers in excess of 30,000, the current figure for the country is 26,121.  This should cover the question raised in respect of unused license numbers.</p>
+          <p eId="para_128">As for individual licenses for those who might use bus lanes, we do not have any statistics other than for the person mentioned by Deputy Cuffe.</p>
+        </speech>
+        <speech by="#CiaranCuffeGP" eId="spk_71">
+          <from>Deputy Ciarán Cuffe</from>
+          <p eId="para_129">He is a high-profile individual.</p>
+        </speech>
+        <speech by="#" eId="spk_72">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_130">As some people have multiple licences and a large number of people have individual licenses, this is extremely hard to monitor.  However, it might come to our attention through someone reporting it to the commission or through some of our enforcement operations.</p>
+          <p eId="para_131">The Deputy raised the issue of elderly vehicles.  The idea behind introducing a nine-year age limit for the new vehicle standards was to eliminate some very old vehicles.  While I will address the brand mentioned by another member, many vehicles are unsuitable for the small public service vehicle industry.  This is being addressed through the vehicles standards by specifying a new age limit, a size limit and a particular luggage space.  Many smaller vehicles also are unsuitable for the purpose of carrying four adult passengers and in particular, of carrying three adult passengers in the rear of the vehicle.</p>
+          <p eId="para_132">The Deputy mentioned the introduction of such vehicles and how this might not happen until 2012 in some instances.  It will happen for new entrants to the industry from 1 January 2009.  However, we must respect the investment made by members of the industry.  Feedback we have received from industry members and their representative bodies indicates that most of them take out anything between a three and five year financial package to enter the industry.  Even if such a package is for an older vehicle, we must respect it and provide the drivers affected with a phasing-in period.</p>
+          <p eId="para_133">We intend to introduce an annual suitability test whereby all such vehicles will be checked on an annual basis.  At present, suitability tests only take place when someone is first licensed.  Consequently, matters such as cleanliness and the various bits and pieces inside a vehicle, such as upholstery etc., are checked only on the first time of licensing.  We will introduce an annual suitability test, subject to liaison with the Road Safety Authority, which manages the NCT contract, in order that even older vehicles will be checked annually for the various items that should be in place.</p>
+          <p eId="para_134">One of Deputy Cuffe's questions referred to the full accessibility of the fleet.  The programme for Government states that all vehicles will be fully accessible in the cities by 2010.  We are trying to increase the existing fleet.  I mentioned there are approximately 26,000 vehicles in the fleet, of which approximately 1,500 are wheelchair-accessible taxis.  We are introducing a new category of wheelchair-accessible hackney and hope to increase the fleet by at least 1,000 in the next few years, which in turn would bring the accessible part of the fleet to approximately 10% of the total.  Fully accessible vehicles are extremely expensive and we have sought a subsidy from the Minister for Transport to assist members of the industry to purchase them.  Until such time as a decision is made as to whether the subsidy will be forthcoming, we do not envisage an increase happening overnight.  This issue must be gone into in more detail.</p>
+          <p eId="para_135">The Deputy's next question was on a uniform fleet colour.  We have not considered this.  Accessibility is a key issue for us, namely, to ensure a service for people with disabilities is provided.  We have addressed this in our action plan by having all current wheelchair accessible licence holders register their contact details with the commission by 1 July 2008 so that we can ensure their bookings give priority to people with disabilities.</p>
+          <p eId="para_136">We are examining the use of cleaner fuels.  Yesterday, an electric vehicle was licensed in the Aran Islands and the national fleet has a small number of hybrid vehicles.  We will relax some of the vehicle standard requirements, such as luggage space, for those vehicles.</p>
+          <p eId="para_137">The carriage of children is a difficult matter because we cannot expect drivers to carry a number of various child restraint seats in the back of their vehicles.  However, we will explore with dispatch operators and their affiliated vehicle licence holders where the former may store seating arrangements for when customers contact them.  We will examine this issue with dispatch operators when we licence them during the coming period.</p>
+          <p eId="para_138">We covered some of the income of taxi drivers in our 2005 national review, but we do not have current details.  We can review this issue at a later stage.</p>
+          <p eId="para_139">Regarding area knowledge and command of the English language, the former is addressed by the Carriage Office in Dublin, which has a test for small public service vehicle drivers entering the industry, and public service vehicle inspectors around the country.  We will take over the administration of driver licensing from the Garda and are in discussions on how to put it in place by the end of 2008 or early 2009.  We will replace the Garda's test with a new skills development programme, including an extensive range of route knowledge selection for various counties.  We will expect anyone entering the industry to have a good command of the English language.</p>
+        </speech>
+        <speech by="#CiaranCuffeGP" eId="spk_73">
+          <from>Deputy Ciarán Cuffe</from>
+          <p eId="para_140">Ba mhaith liom Bearla nó Gaeilge.  I would have no problem with people having a full knowledge of the first national language, but having either of the two main languages would be no harm.  A fair number of people do not have a good knowledge of either and are reliant on the client or passenger to give instructions to programme the sat. nav.'s destination phonetically.  We must improve the level of English.</p>
+          <p eId="para_141">I hope the commissioner ups the ante in respect of knowledge of the operating area.  It does not need to be the equivalent of London where the bar is set high, but a driver should have a decent knowledge of the main housing estates and streets and the best way to get from the pick-up to the destination, whether in Limerick, Dún Laoghaire or Dublin.</p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_142">This is something we will include in the new driver schools programme to bring consistency to route selection and area knowledge across the country.  There will be separate modules for each county and we would expect drivers to take their own counties' modules.  If they intend to apply for hire in adjoining counties, they will be required to undertake the relevant modules.</p>
+        </speech>
+        <speech by="#CiaranCuffeGP" eId="spk_75">
+          <from>Deputy Ciarán Cuffe</from>
+          <p eId="para_143">That is good to know.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_76">
+          <from>Chairman</from>
+          <p eId="para_144">Perhaps we will allow the commissioner to complete her response, after which we will revert to her with supplementary questions.</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_145">I will answer Deputy Sherlock's questions next.  He referred to consultation in respect of the Mallow area, specifically concerning the provision of taxi ranks.  We are conducting a national audit of taxi ranks.  We declared the whole of the country a national taxi meter area in 2006.  Therefore, the number of taxi ranks must be increased.  Our officials have contacted all local authorities to determine the number of ranks and the requirements for the future.  At present we are auditing the areas overseen by local authorities but we intend to extend our investigation into other areas that require taxi ranks, such as shopping centres and hospitals, with a view to integrating them with the public transport system because taxi ranks should be located at all transport terminals.  We are, therefore, considering the issue from a wider perspective than local authority areas.  Once we get the information from local authorities, we will appoint consultants to investigate national requirements for the future in terms of providing taxi ranks.</p>
+          <p eId="para_146">We have received the same complaint from every county on the insufficiency of taxi spaces.  In many areas, taxis have started to operate for the first time and the provision of ranks in towns which did not previously have them will have to be considered.  The audit and consultancy report will outline the requirements and we intend to develop for local authorities best practice guidelines which incorporate accessibility.  We hope to complete the full audit within the lifetime of the present action plan.</p>
+          <p eId="para_147">I was asked about nine year old vehicles and models which might outlast the nine year period.  I can provide figures on some of the vehicles for which we had statistics when we released the vehicles standards publication last November.  The average age of the standard taxi and hackney vehicle is 6.5 years and 16% were older than nine years.  Only 3% of vehicles older than nine years were in the Mercedes or similar models classification.  Newer vehicles are known to be better for the environment, as well as safer.  We also investigated the average age of small public vehicles across the water and found that Leeds requires vehicles to be less than five years old, whereas in Birmingham licences cannot be renewed for vehicles which are more than eight years old.  We considered nine years to be a reasonable restriction in terms of ensuring consistency, safety and environmental protection.</p>
+          <p eId="para_148">Clarification was sought on ownership of taxi plates and transferability of taxi licences.  Last year we issued a consultation paper to the industry on the transferability, renting and leasing of licences and received 130 submissions.  We announced the result of the consultation process in our action plan.  The majority of submissions requested that the <i>status quo</i>  continue.  We have agreed that a taxi licence can continue to be transferred provided certain obligations are met by the licence holder in regard to responsibilities for the provision of services under that licence.  These obligations are set out in the action plan.</p>
+          <p eId="para_149">I think I have addressed most of Deputy Sherlock's questions.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_78">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_150">I asked about uniformity but I think Ms Doyle addressed my question.  She does not propose uniformity of vehicle make or colour.</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_151">No proposals have been made in respect of the lifetime of the present action plan.  Accessibility is our key objective during this period.</p>
+          <p eId="para_152">Deputy English criticised the way deregulation was introduced.  My office has been established since liberalisation occurred and we are trying to introduce as many reforms as possible to meet our objectives under the Taxi Regulation Act 2003.</p>
+          <p eId="para_153">In regard to who should take responsibility for taxi ranks, they are the responsibility of local authorities but, as I noted, we are conducting an audit with a view to developing best practice guidelines for the provision of ranks.  Local authority budgets provide a certain level of funding for the provision of ranks.  The position varies from county to county.</p>
+          <p eId="para_154">Deputy English referred to the high cost of wheelchair accessible vehicles.  The vehicle standards publication announced a new specification for such vehicles in November 2007.  It takes into account new EU regulations that will take effect in April 2009, extending safety standards from passenger vehicles and motorcycles to all vehicles, including wheelchair accessible vehicles.  Currently, goods vehicles are converted to wheelchair accessible vehicles but, according to the specification, this can no longer happen after April 2009.  We have incorporated this into the new vehicle standards and specification.</p>
+          <p eId="para_155">The cost will be extremely high.  The costings which we have given to the Minister for Transport for the purpose of requesting a subsidy for the purchase of such vehicles are between €55,000 and €75,000.  A subsidy will be required for these purchases.  We initially requested the Minister to provide a subsidy of 40% of the purchase price.  However, after calculating the costings, we have written to him to increase this significantly in order to ensure the provision of services for people with disabilities.  We must incentivise the provision of such services.  The only way to do this is to provide a subsidy for the purchase of these vehicles.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_80">
+          <from>Deputy Damien English</from>
+          <p eId="para_156">What percentage has been suggested?</p>
+        </speech>
+        <speech by="#" eId="spk_81">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_157">We requested a subsidy for 200 vehicles per year in the next number of years.  We await the Minister's response.</p>
+          <p eId="para_158">Deputy English also referred to the customer charter and rights and responsibilities.  Our customer charter is displayed in each taxi, hackney and limousine.  It is also displayed in the action plan submitted to members.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_82">
+          <from>Deputy Damien English</from>
+          <p eId="para_159">My question was not clear.  I know it is displayed but I suggest making it stronger.  Some do not pay much heed to it.  How can we over-emphasise how they treat the taxi driver is serious?</p>
+        </speech>
+        <speech by="#" eId="spk_83">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_160">That forms part of the public awareness campaign.  We also have consumer and driver guides.  Our public awareness campaigns promote the use of compliant small public service vehicles.  We also have a brochure that has been sent to libraries, hotels and industries.  Hundreds of thousands have been issued and include the responsibilities of customers and what they should do.  They are displayed inside the vehicle, as part of our public awareness campaign.  We will continue to issue booklets to keep people informed.  Many of those who contact our consumer line ask what are these rights and responsibilities.  We will continue to advise customers.</p>
+          <p eId="para_161">Deputy English also referred to the number of hours worked.  This issue has been covered in the discussion on full-time and part-time drivers.  The assessment of drivers as suitable and proper persons is a vetting process carried out by the Garda Síochána.  An application for an small public service vehicle requires a vetting process.  When the commission takes over from the Garda Síochána, it will only take over responsibility for administration.  The vetting process will remain, whereby the Garda Síochána will assess if an individual is a fit and proper person to operate as a small public service vehicle driver.</p>
+          <p eId="para_162">The Deputy referred to people queueing on the streets for taxis.  A number of people queue at peak times, during the weekend in particular, and the Garda Síochána manages this situation well.  It is constantly in contact with local operators to ensure taxis queue outside the appropriate venues to bring people home.  In some towns a number of cab dispatch operators are present and they will take bookings well in advance to ensure people get home safely and quickly.  This is monitored by the Garda Síochána.  This matter has been discussed in detail during our training sessions with the traffic corps of the Garda Síochána.</p>
+          <p eId="para_163">Regarding improved services for people with disabilities, in our action plan for 2008-09 we announced that current vehicle licence holders with a wheelchair accessible vehicle which comes with a significantly reduced licence fee must register with us and provide people with disabilities with a service.  Priority must be given to such a booking.  Moreover, they must record those bookings in order that if we receive complaints from people with disabilities who cannot access a service, we can follow them up with our enforcement team.</p>
+          <p eId="para_164">The Deputy also raised the number of calls we received at our call centre.  We received 84,000 calls in 2007.  We have two telephone lines, one of which is a consumer line, 1890 60 60 90, while the other is an industry line, 1890 347 347.  The majority of the calls are to the industry line, through which we received more than 72,000 calls in the full year.  They ranged from driver and vehicle licensing queries, how to become a taxi operator, how one could get in or out of the industry, rights and responsibilities, what were the new regulations, fares or taxi meter areas and a number of other issues.  We constantly are in contact with the industry.  We provide a quarterly newsletter updating it on what is happening.  A number of calls to the industry line will be triggered as a result of a letter from us on new developments or certainly on foot of the quarterly newsletter.  Taxi, hackney and limousine drivers like to talk to someone at the other end of the telephone to ascertain what a particular regulation means, what is new or what new developments there will be.  The calls to the consumer line are general queries.  They can be queries on fares and, of course, compliments or complaints.  We received 763 complaints in 2007.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_84">
+          <from>Deputy Damien English</from>
+          <p eId="para_165">That is 763 complaints out of 12,000 calls.</p>
+        </speech>
+        <speech by="#" eId="spk_85">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_166">There were 763 complaints.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_86">
+          <from>Deputy Damien English</from>
+          <p eId="para_167">There were 763 complaints out of the 12,000 calls made by the public.</p>
+        </speech>
+        <speech by="#" eId="spk_87">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_168">Yes.  The Deputy also mentioned licence fees.  The fee for a small public service vehicle taxi licence is €6,300.  The fee for a hackney licence or limousine licence is €1,000, while the renewal fees are €125.  Since coming into being, the commission has not raised any of the renewal fees.  We have stated we will review the license fees during the period of the current action plan, particularly as we will be taking over responsibility for administration of the driver licensing system from the Garda Síochána.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_88">
+          <from>Deputy Damien English</from>
+          <p eId="para_169">I refer to the lapsed licence fee of €500, which appears extremely high.  Perhaps there is a reason for this.</p>
+        </speech>
+        <speech by="#" eId="spk_89">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_170">There is.  In the past local authorities allowed a two-month grace period for taxi drivers to renew their licences.  Unfortunately, taxi drivers took that two-month grace period to mean they could operate on the streets when, in fact, they could not.  We put in place the restoration fee purely to bring them in on time, to ensure they renewed their licences on time and did not allow them to expire.  We have been helpful to the industry in that we have waived the licence restoration fee for everyone entering the new licensing system first time around.  However, second time around, it will be waived only in extremely exceptional circumstances such as, for instance, illness.</p>
+          <p eId="para_171">Deputy English mentioned timeframes in respect of setting up in the business.  We are satisfied that once an application is made for a licence, it will be processed quickly.  The main problem affecting the timeframe is that when someone produces a vehicle for testing at an NCT centre, it fails the test.  While this can cause delays, it is outside our jurisdiction.  Within the licensing process, once someone produces the appropriate documentation and has passed his or her NCT and suitability tests, we can issue a licence.  In addition, people now have the opportunity to apply for a licence in any of the 43 NCT centres nationally.  They are not obliged to go to their local NCT centre; they can go anywhere in the country.</p>
+          <p eId="para_172">I believe I have covered most of the issues raised by the Deputy.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_90">
+          <from>Deputy Damien English</from>
+          <p eId="para_173">I thank Ms Doyle.</p>
+        </speech>
+        <speech by="#" eId="spk_91">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_174">The next questioner was Senator O'Sullivan who asked about the difference between a hackney and a taxi and whether the Commission for Taxi Regulation was the appropriate body.  It is the appropriate body for the issue of all small public service vehicle licences, that is, taxis, hackneys and limousines.  The difference between a taxi and a hackney is that a taxi is a public street vehicle that can ply and stand for hire in the area in which the driver licence is operative.  However, the hackney licence is a private hire.  The hackney can travel anywhere, but it must be booked in advance by the consumer and the fare must be agreed in advance.  The same applies to limousine services.</p>
+          <p eId="para_175">Senator O'Sullivan mentioned illegal taxi drivers in County Kerry.  We have undertaken enforcement operations around the country and taken prosecutions for unlicensed vehicles and drivers.  We will continue to prosecute anyone found operating illegally.  We have a public awareness campaign to let consumers know whether they are travelling in licensed vehicles thanks to a five-digit number and a tamper-proof disc on the windscreen and rear window, which indicates how many people the vehicle is licensed to carry, the licence's expiry date and the vehicle's registration and licence number.  Constantly, we tell the consumer to watch out for the five-digit number.  The tamper-proof disc is yellow, which members have probably seen on a number of vehicles around the country.  We will separate the hackney and limousine categories, changing their discs' colours in April 2008 to blue on a hackney and silver on a limousine.  When we participated with the Garda in various training programmes, it suggested this as a way to easily identify hackneys and limousines.</p>
+          <p eId="para_176">All small public service vehicles are in the national vehicle licensing system and must have the disc displayed at while operating.  They must also have new identification on the dashboard, which includes a picture of the driver, the driver licence number and the licence's expiry date.  Drivers must carry a new smart card, which is issued by the commission and can be handed over to enforcement officers at enforcement operations.  Via a hand-held device carried by our enforcement officers, the card identifies the licensing information and makes available to the team anything about the driver's circumstances that may have changed in this respect.</p>
+        </speech>
+        <speech by="#NedOSullivan" eId="spk_92">
+          <from>Senator Ned O’Sullivan</from>
+          <p eId="para_177">Is the commission the prosecuting agent in terms of illegal taxis or is it a matter for the Garda?</p>
+        </speech>
+        <speech by="#" eId="spk_93">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_178">It is a matter for both.  Gardaí are authorised officers under our legislation, but prosecutions to date have been taken by the commission.</p>
+          <p eId="para_179">Regarding the Senator's question on fees charged by taxis at different times of the day and night, there is an initial charge followed by three different tariffs.  Between 8 a.m. and 8 p.m. the initial charge when one sits into a taxi is €3.80.  From 8 p.m. until 8 a.m., the figure is €4.10.  Various tariffs relate to the distance travelled.  The Senator referred to different charges for a journey he took, but this is usually attributable to traffic.  As there are distance and time rates, the charge can depend on traffic.  However, we tell people to hold their receipts for comparison with their previous journeys' distances and times.  If there are problems with the charges, people should telephone our consumer line.  We can investigate any perceived overcharge.  In 2007, we took a number of prosecutions for overcharging.</p>
+          <p eId="para_180">The Senator referred to the light on the roof "for hire" sign.  Under the new vehicle standards publication, which we issued last November, the light should be switched on when one is available for hire and off when one is unavailable to make the situation easily identifiable for consumers.  With our enforcement team, we will monitor the issue closely to ensure the standards are being obeyed.</p>
+        </speech>
+        <speech by="#NedOSullivan" eId="spk_94">
+          <from>Senator Ned O’Sullivan</from>
+          <p eId="para_181">Has the commission received complaints on this matter?</p>
+        </speech>
+        <speech by="#" eId="spk_95">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_182">No.  It was a casual arrangement.  While there was a regulation, it was not being adhered to.  We are specifically stating what must occur.</p>
+        </speech>
+        <speech by="#NedOSullivan" eId="spk_96">
+          <from>Senator Ned O’Sullivan</from>
+          <p eId="para_183">Good.</p>
+        </speech>
+        <speech by="#CiaranCuffeGP" eId="spk_97">
+          <from>Deputy Ciarán Cuffe</from>
+          <p eId="para_184">I note from the national vehicle standards that there is no requirement to link the taxi's sign light to the meter's status.  In many other jurisdictions, that is a requirement.  Problems arise late at night in particular, when dozens if not hundreds of people walk onto the carriageway on Camden Street or Leeson Street in their hunt for taxis.  They experience difficulties in trying to determine whether a taxi is available because the drivers are not brilliant at adhering to the requirement.  If it was a mandatory measure, people would know when a taxi was available because its light would be turned on.  I strongly advise that it be made mandatory to dissuade pedestrians from jumping into the middle of the road and thereby reducing the dangers to prospective passengers and taxi drivers.</p>
+        </speech>
+        <speech by="#" eId="spk_98">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_185">A variety of taxi metres are available in vehicles in Ireland.  We did not want to impose an additional expense on taxi drivers by requiring them to connect their lights to their metres.  It will be mandatory for a taxi to have its light switched on when it is available for hire and switched off when it is unavailable.  That will enter effect when the regulations under the vehicles standards document are implemented later this year.</p>
+          <p eId="para_186">The last question asked by Senator O'Sullivan pertained to quiet journeys.  We get considerable feedback from customers in that regard.  Taxi drivers are very chatty.  We have mentioned the issue in the customer charter so that consumers are aware they are entitled to clean vehicles and quiet journeys.  We will advise taxi drivers of the requirement that consumers should be granted a quiet journey if they so request.</p>
+        </speech>
+        <speech by="#NedOSullivan" eId="spk_99">
+          <from>Senator Ned O’Sullivan</from>
+          <p eId="para_187">If this is reported in the Official Report, I will not take a taxi for quite some time.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_100">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_188">A tribunal on taxis will be needed.</p>
+        </speech>
+        <speech by="#" eId="spk_101">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_189">Deputy Kelly asked questions but he has left the meeting, so I will proceed to Deputy O'Dowd's questions.</p>
+          <p eId="para_190">We took 16 prosecutions and 21 convictions on individual charges in 2007.  We only started to commence prosecutions in the latter part of that year because our enforcement team was recruited in early 2007 and it was mid-year before it was fully trained and operational.  On foot of complaints, investigations commence, statements are made, files are opened and evidence is gathered to determine whether a case is appropriate for prosecution.  Thus far in 2008, we have taken 22 prosecutions with 28 convictions on individual charges and a further 72 prosecutions are listed for hearing before the summer.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_102">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_191">Can Ms Doyle indicate the outcome of these cases without identifying the individuals concerned or can she publish the statistics in her annual report?</p>
+        </speech>
+        <speech by="#" eId="spk_103">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_192">Most of the prosecutions arose in respect of unlicensed vehicles or drivers and overcharging.  The fines imposed in the District Court ranged between €400 and €2,000.  Legal costs were awarded to the commission in each of the individual cases.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_104">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_193">Will they be published in the future?</p>
+        </speech>
+        <speech by="#" eId="spk_105">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_194">We will publish them in our annual report.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_106">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_195">That is fine.</p>
+        </speech>
+        <speech by="#" eId="spk_107">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_196">A number of hackneys are currently involved in the rural transport initiative providing services to the rural transport scheme.  We have investigated transport for people with disabilities, rural transport and affordability with a view to devising a scheme that could assist people with disabilities and those living in rural areas.  I met the Department of Social and Family Affairs, which considered extending the free travel scheme to people with disabilities and those in rural areas.  So far, I have received a negative response in respect of extending the free travel scheme to people in those areas.  It is something we must examine in more detail in the future to accommodate people who wish to use small public service vehicles in those areas.  The rural transport initiative engages hackneys to bring people to weekly events but that is as far as it goes.  We will discuss this with various groups over the course of the current action plan.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_108">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_197">Does the decision on that rest with the Department of Social and Family Affairs?</p>
+        </speech>
+        <speech by="#" eId="spk_109">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_198">It rests with the Department.  We made a formal representation to it.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_110">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_199">It is very socially progressive and I support the views of the commission.</p>
+        </speech>
+        <speech by="#" eId="spk_111">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_200">The programme for Government was mentioned in respect of accessible vehicles and I responded to this.  The proportion we have at present is 1,500 and we hope to extend that to at least 10% of the fleet over the next few years.  It is a matter of affordability, prices and the provision of a subsidy that will be required to extend the services.  Have I covered the matter of affordability?</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_112">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_201">It is a key matter.  We support the views of the commission and will put pressure on the Department of Social and Family Affairs so that people in isolated areas and those with disabilities can use a taxi and the free travel voucher for one trip per week.</p>
+        </speech>
+        <speech by="#" eId="spk_113">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_202">That is something we will progress further.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_114">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_203">Complaints are of the order of two per day.  This is very good in respect of the service taxi drivers provide and I compliment the commission on that.  Will external consultants be appointed to undertake the economic review?  I note that the mission statement is "to achieve a first class, professional, safe and efficient, customer-friendly service, for small public service vehicle passengers and service providers". Will the commission consider bringing forward the review as a matter of urgency?  When will the extra enforcement officers be appointed?  Is it safe if there are no controls on the number of hours during which people operate as part-time taxi drivers?  There is no control in that area.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_115">
+          <from>Deputy Damien English</from>
+          <p eId="para_204">I thank the commissioner for her answers.  She referred to applying to the Minister for additional enforcement officers.  Who can sanction these appointments, given that the commission is self-financing?  If the budget ran out, the commission could not pay for any more appointments.  Must the Minister sanction posts regardless of how they are financed?</p>
+          <p eId="para_205">What is the process after a complaint is made?  How far does the investigation go and who leads it?</p>
+          <p eId="para_206">Perhaps I missed the answer on the vetting process.  Does the commission envisage allowing soft information in the vetting process?  It has been discussed over the years, including in the Joint Committee on Education and Science, as the Chairman may remember.  Other jurisdictions allow this information; should we allow it?</p>
+          <p eId="para_207">It is not clear who can take ownership of the taxi rank issue.  The commissioner can only make a submission and write to the local authority but responsibility must lie with someone.  There is a duty on the Minister for the Environment, Heritage and Local Government to provide for this.  In the case of many councils, they will choose to repair footpaths rather than extend the taxi rank by two or three places.  The decision must be made for them, by a higher authority, or encouraged through the provision of additional money.  In general, taxi ranks are located within the boundaries of town councils, most of which have a pathetic budget.  The amount with which councillors are asked to run a town is laughable.  There is a serious issue in respect of funding and someone must take responsibility for it and must force the issue.  While I understand the commissioner cannot do everything, I am concerned this matter will fall between two stools because it pertains to funding.</p>
+          <p eId="para_208">It was noted that the commissioner made a submission to the Minister to allow people to use taxis or other rural transport initiatives, especially wheelchair accessible vehicles.  People who live in rural areas or who have certain disabilities should be issued with vouchers and allowed to choose how to use them.  Issuing the free bus pass to everyone is of little use if no bus comes near.  Perhaps such people would be better off with a financial allocation in the form of vouchers.  This would allow them to decide in the course of a year whether to use them on taxis, flexi-buses or other forms of rural transport or on buses operated by CIE.  They should be given a choice within a particular budget.  The commissioner should comment on this proposal, which I believe might work quite well.</p>
+          <p eId="para_209">In respect of the nine-year rule for cars, I understand the intent, which makes complete sense.  However, should one not consider the number of miles or kilometres on the vehicle's clock?  A four-year old car with a mileage exceeding 250,000 miles might not be the best vehicle in which to carry passengers.  Are such matters considered?</p>
+          <p eId="para_210">I presume the commission considers how such matters are conducted in other states.  Are there many places in which the state or local authorities own the vehicles and pay drivers to drive them?  While this might not go down too well here, it might have to happen in certain areas.  Everyone is agreed there is a major difference between cities and rural areas in respect of the provision of, and costs associated with, taxis.  Does the commissioner think this possibility should be considered?</p>
+        </speech>
+        <speech by="#CiaranCuffeGP" eId="spk_116">
+          <from>Deputy Ciarán Cuffe</from>
+          <p eId="para_211">I raised the age of the fleet earlier and various opinions have been aired by members.  I did so in the context of ensuring the quality of vehicles and trying to lower emissions.  I note the commission now will conduct annual checks on the quality of the vehicle.  Might the forthcoming emission bands be used in the future?  In other words, could vehicles coming from the A to C bands be considered?  Given that such vehicles often are operated in urban areas in which there are concerns in respect of pollution and carbon dioxide emissions, should we consider moving towards the lower bands in the emissions scale?  While I do not suggest that we should insist on using vehicles from bands A or B, perhaps a little leeway can be given in this regard.  I note the commission has taken steps to allow use of the Toyota Prius by granting derogation on the size of the luggage compartment.  Perhaps the commission will consider the forthcoming bandwidths for carbon dioxide emissions as a way to encourage lower emissions.  Without being prescriptive on types of fuel that might be used in the future, the commission simply could encourage particular vehicles from particular bandwidths.</p>
+        </speech>
+        <speech by="#" eId="spk_117">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_212">To answer Deputy O'Donnell's question, we intend to use external consultants for an economic review.  We will tender for it this summer and hope to undertake it later in the year.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_118">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_213">Will the commission consider bringing it forward?  That is the basis of my question.</p>
+        </speech>
+        <speech by="#" eId="spk_119">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_214">As we are trying to undertake several projects at present, it certainly will happen this year.  However, I cannot state how much further forward we can bring such a review.  We will put it on our list.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_120">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_215">I urge the commissioner to consider so doing.</p>
+        </speech>
+        <speech by="#" eId="spk_121">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_216">As for the recruitment of enforcement officers, we have made a submission to the Department of Transport for additional staff.  Under the relevant legislation, the commission may determine the amount of staff required with the consent of the Ministers for Transport and Finance.  The Minister for Transport has supported the submission, which was given to the Department last May.  However, the Department of Finance has not given the final sanction for it and we are awaiting such sanction.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_122">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_217">I will follow on from a good point made by my colleague, Deputy English.  Is it a legal requirement for the Commission for Taxi Regulation to be self-financing?</p>
+        </speech>
+        <speech by="#" eId="spk_123">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_218">It is.  We certainly are an independent public body and since we have taken over the licence fees, they have accrued to the commission for its operation.  Consequently we are self-financing.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_124">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_219">Is it a matter of seeking approval from the Department to take on enforcement officers and being required to finance their wages?</p>
+        </speech>
+        <speech by="#" eId="spk_125">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_220">We are required to finance their wages.  We will finance any additional staff wages.  Under the legislation, agreement on the number, grading and remuneration of officers is required.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_126">
+          <from>Deputy Damien English</from>
+          <p eId="para_221">It is not to approve posts.</p>
+        </speech>
+        <speech by="#" eId="spk_127">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_222">It is to approve the numbers--</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_128">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_223">It is to approve the numbers the commission can take on.</p>
+        </speech>
+        <speech by="#" eId="spk_129">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_224">Yes.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_130">
+          <from>Deputy Damien English</from>
+          <p eId="para_225">That this should be of relevance to the Minister is strange, given that the commission is responsible for paying them.  If it needs more staff and can afford to take them on, it should be allowed to do so.</p>
+        </speech>
+        <speech by="#" eId="spk_131">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_226">It is set out in the primary legislation that we must have the consent of both Ministers but we can determine the number required.  We have the Ministers' support.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_132">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_227">Does the primary legislation deem the commission to be self-financing?</p>
+        </speech>
+        <speech by="#" eId="spk_133">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_228">No.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_134">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_229">That situation evolved.</p>
+        </speech>
+        <speech by="#" eId="spk_135">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_230">We could obtain funding from the Department if we requested it; with its consent, we could borrow.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_136">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_231">There is a case to be made for the Department to fund enforcement officers.  Nothing prohibits it from doing so.</p>
+        </speech>
+        <speech by="#" eId="spk_137">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_232">There is nothing.  However, as the commission is self-financing, income is not an issue.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_138">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_233">My final point was on safety in terms of the commission's mission statement.</p>
+        </speech>
+        <speech by="#" eId="spk_139">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_234">It was related to part-time drivers.  We can examine this matter.  I mentioned the requirement under current legislation of working 11 hours on three consecutive days.  Regarding part-time drivers versus full-time drivers, the working time directive applies to employers who have full-time employees.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_140">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_235">I know.</p>
+        </speech>
+        <speech by="#" eId="spk_141">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_236">It is difficult to monitor.  We do not have any statistics for part-time drivers as to whether they are in full-time employment elsewhere.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_142">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_237">Could this issue be built into the commission's economic review process?</p>
+        </speech>
+        <speech by="#" eId="spk_143">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_238">Yes, we will examine the provision of services, including the services provided.</p>
+          <p eId="para_239">I have answered Deputy English's question on who can sanction the recruitment of enforcement officers.  The submission is before the Department of Finance which is awaiting the results of the efficiency review of Departments before making a final decision on whether it should the sanction extra posts.  That is the cause of the delay.  We may be waiting some time before we get the go ahead.</p>
+          <p eId="para_240">On the complaints process, any consumer can contact us and make a complaint via our consumer line, 1890 60 60 90.  As a result of a telephone call, a complaint form will issue to the complainant.  Alternatively, he or she can download the form from our website.  Once the form is received by the commission, the complaint is immediately investigated by a member of our enforcement team.  Various statements may be taken and evidence gathered.  It may be a case of interviewing both the complainant and the taxi driver involved.  A decision will then be made as to what should happen next - whether no further action should be taken, whether a formal warning should be issued to the driver or whether there should be a prosecution.  It will depend on the merits of the case.  The complaints process is effective, efficient and completed as quickly as possible.  When some consumers find that there may be additional requirements such as the need for them to attend a court case, follow up their complaints or make formal statements, they are not inclined to do so.</p>
+          <p eId="para_241">We are in discussions with the vetting office in respect of section 36, the only section of the Taxi Regulation Act that has not been commenced, on mandatory disqualification for a range of serious offences.  It is a retrospective provision.  When the section is commenced by the Minister - this is expected to happen during the next year - we have agreed with the vetting office that offences under the section will be vetted to determine whether someone is a fit and proper person to hold a driver licence.</p>
+          <p eId="para_242">Regarding soft information, the Garda has refused driver licences on a number of occasion on the basis of information before it.  Such decisions can be appealed to the District Court and, in the majority of cases, the information is overruled by the district justice.  It looks as if the agreement with the Garda Síochána will be that the offences outlined in section 36 will be the ones used for vetting purposes.</p>
+          <p eId="para_243">Responsibility for taxi ranks lies with local authorities.  I agree with the Deputy that they are allocated a budget and that what happens at various meetings in terms of who is lobbying for what usually determines where the funding goes.  However, we will provide guidelines for the local authorities and also intend to meet local authority representatives to try to encourage the provision of additional taxi ranks.  As many of the representative bodies, as well as individual taxi drivers, are in constant contact with the commission to complain about the lack of taxi spaces, we are highly conscious of this fact.  When the full audit has been undertaken and the full report is available to us, the commission will meet each local authority, some of which we have met already, with a view to extending the taxi ranks in their areas of responsibility.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_144">
+          <from>Deputy Damien English</from>
+          <p eId="para_244">It is important to meet the person I consider to be their boss, namely, the Minister for the Environment, Heritage and Local Government, and convince him.  The agenda should be to encourage the use of public transport, although cars are involved in this case.  My point is this issue must be taken above local authority level.</p>
+        </speech>
+        <speech by="#" eId="spk_145">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_245">Of course.  Moreover, we will provide the report for the Minister when it becomes available.</p>
+          <p eId="para_246">Deputy English raised again the issue of rural transport in respect of vouchers.  When I met senior officials from the Department of Social and Family Affairs, the first proposal I raised concerned the introduction of a voucher scheme but it was rejected immediately.  They stated the Department would consider the extension of the free travel scheme only, which did not happen either.  This matter must be explored again and is on our list for consideration.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_146">
+          <from>Deputy Damien English</from>
+          <p eId="para_247">The commission suggested a voucher scheme and it was rejected.</p>
+        </speech>
+        <speech by="#" eId="spk_147">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_248">Yes, we suggested it because we thought it was the only way around the issue.  Taxi and hackney drivers provide a door to door service.  Were the people affected to have even one or two vouchers per week, it would be highly beneficial.  We will continue to explore this suggestion.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_148">
+          <from>Deputy Damien English</from>
+          <p eId="para_249">Members will do the same.</p>
+        </speech>
+        <speech by="#" eId="spk_149">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_250">As for the nine-year rule, my earlier statement applies in that although some vehicles older than nine years may be in reasonably good condition, the research we have carried out in respect of vehicle standards indicates that newer vehicles are safer and better for the environment.  Therefore, we consider it appropriate to have an age limit.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_150">
+          <from>Deputy Damien English</from>
+          <p eId="para_251">I accept the nine-year limit.  I referred to the inverse possibility, whereby a vehicle may be only five years old but has a massive number of miles or kilometres on the clock.  Such vehicles can slip through.</p>
+        </speech>
+        <speech by="#" eId="spk_151">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_252">It must pass a roadworthiness test.  I mentioned the introduction of a suitability test.  We must ensure these measures are in place.  Small public service vehicles must undergo an annual NCT test, rather than a test every few years, as is the case for private vehicles.  This will continue to be the case.</p>
+          <p eId="para_253">Deputy English asked whether local authorities or other authorities elsewhere within the European Union owned vehicles.  The majority of bodies responsible for issuing licences for small public service vehicles in Europe are either departments of transport or local authorities.  No research we have conducted has revealed a local authority which owns vehicles.  This is not happening elsewhere in the European Union.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_152">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_254">As a final point, I refer to the review the commission is carrying out of taxi ranks and so on.  When does the commissioner expect it to be completed and the findings published?</p>
+        </speech>
+        <speech by="#" eId="spk_153">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_255">I hope the audit will be completed later this year and that publication of a report will take place early next year.  There is considerable work to be done in this regard.  We must examine existing taxi ranks and then look at all the areas in which no taxi ranks are available.  We will be obliged to trawl across the country.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_154">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_256">What is the title of the forthcoming report?</p>
+        </speech>
+        <speech by="#" eId="spk_155">
+          <from>Ms Kathleen Doyle</from>
+          <p eId="para_257">We do not have a title at present.  We envisage an audit of taxi ranks, followed by the issuing of guidelines that will incorporate the issue of accessibility nationally.</p>
+          <p eId="para_258">Deputy Cuffe referred to the quality and suitability of vehicles and the yearly check, as well as lower emissions.  We intend to examine these issues with a view to promoting vehicles with lower emissions to licenceholders.  As mentioned, some Toyota Prius cars have been licensed and we will encourage greater use of that model.  We certainly will relax vehicle standard requirements such as those pertaining to luggage space for anyone who wishes to license such a vehicle.  We also will examine fuel types.  The commission has a technical department which will keep up to date with the various fuel efficiency figures and encourage the industry to use them where practical and appropriate.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_156">
+          <from>Chairman</from>
+          <p eId="para_259">I thank the commissioner and the head of corporate affairs, Ms Gilna, for their attendance at this informative meeting.  I also thank members for their help in this regard.  The next meeting of the committee will be with the Commission for Energy Regulation and will be held on Tuesday, 1 April 2008.  It will be held at 2 p.m. because the Dáil will not be sitting on that day.</p>
+        </speech>
+        <summary eId="sum_4">The joint committee adjourned at 5.55 p.m. until 2 p.m. on Tuesday, 1 April 2008.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

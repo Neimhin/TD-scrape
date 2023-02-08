@@ -1,0 +1,546 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_agriculture_fisheries_and_food/2009-12-03/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_agriculture_fisheries_and_food/2009-12-03/debate"/>
+          <FRBRdate date="2009-12-03" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/select_committee_on_agriculture_fisheries_and_food"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_agriculture_fisheries_and_food/2009-12-03/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_agriculture_fisheries_and_food/2009-12-03/debate/mul@"/>
+          <FRBRdate date="2009-12-03" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_agriculture_fisheries_and_food/2009-12-03/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_agriculture_fisheries_and_food/2009-12-03/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AndrewDoyle" href="/ie/oireachtas/member/id/Andrew-Doyle.D.2007-06-14" showAs="Andrew Doyle"/>
+        <TLCPerson eId="BobbyAylward" href="/ie/oireachtas/member/id/Bobby-Aylward.D.2007-06-14" showAs="Bobby Aylward"/>
+        <TLCPerson eId="BrendanSmith" href="/ie/oireachtas/member/id/Brendan-Smith.D.1992-12-14" showAs="Brendan Smith"/>
+        <TLCPerson eId="EamonScanlon" href="/ie/oireachtas/member/id/Eamon-Scanlon.S.2002-09-12" showAs="Eamon Scanlon"/>
+        <TLCPerson eId="JohnnyBrady" href="/ie/oireachtas/member/id/Johnny-Brady.D.1997-06-26" showAs="Johnny Brady"/>
+        <TLCPerson eId="MartinFerrisSF" href="/ie/oireachtas/member/id/Martin-Ferris.D.2002-06-06" showAs="Martin Ferris"/>
+        <TLCPerson eId="MichaelCreed" href="/ie/oireachtas/member/id/Michael-Creed.D.1989-06-29" showAs="Michael Creed"/>
+        <TLCPerson eId="NedOKeeffe" href="/ie/oireachtas/member/id/Ned-O'Keeffe.S.1982-05-13" showAs="Ned O'Keeffe"/>
+        <TLCPerson eId="PJSheenan" href="/ie/oireachtas/member/id/P-J-Sheehan.D.1981-06-30" showAs="P. J. Sheehan"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Sean Sherlock"/>
+        <TLCPerson eId="TomSheahan" href="/ie/oireachtas/member/id/Tom-Sheahan.D.2007-06-14" showAs="Tom Sheahan"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Agriculture,_Fisheries_and_Food" href="/ie/oireachtas/role/minister/agriculture__fisheries__food" showAs="Minister for Agriculture, Fisheries and Food"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>ROGHCHOISTE UM THALMHAÍOCHT, IASCAIGH AGUS BIA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON AGRICULTURE, FISHERIES AND FOOD</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2009-12-03">Déardaoin, 3 Nollaig 2009</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2009-12-03">Thursday, 3 December 2009</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 12.30 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#BobbyAylward">Deputy Bobby Aylward,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#EamonScanlon">Deputy Eamon Scanlon,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#MichaelCreed">Deputy Michael Creed,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#TomSheahan">Deputy Tom Sheahan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#AndrewDoyle">Deputy Andrew Doyle,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#PJSheenan">Deputy P.J. Sheehan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MartinFerrisSF">Deputy Martin Ferris,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#SeanSherlock">Deputy Seán Sherlock,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#NedOKeeffe">Deputy Edward O’Keeffe,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#BrendanSmith">Deputy Brendan Smith <i>(Minister for Agriculture,</i>
+                                    </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td/>
+              <td>
+                <p eId="para_11">
+                  <i>Fisheries and Food).</i>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#JohnnyBrady">DEPUTY JOHNNY BRADY IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Estimates for Public Services 2009</heading>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Vote 31 — Department of Agriculture, Fisheries and Food (Supplementary)</heading>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_12">Dáil Éireann has referred one Supplementary Estimate to the committee.  Our task is to consider the Estimate, vote on it and return it to the Dáil.</p>
+          <p eId="para_13">On behalf of the committee, I welcome the Minister for Agriculture, Fisheries and Food, Deputy Brendan Smith, who will speak on the Supplementary Estimate.  I welcome his officials.  I call on the Minister to make his opening statement.</p>
+        </speech>
+        <speech by="#BrendanSmith" as="#Minister_for_Agriculture,_Fisheries_and_Food" eId="spk_2">
+          <from>Minister for Agriculture, Fisheries and Food (Deputy Brendan Smith)</from>
+          <p eId="para_14">I am pleased to present this technical Supplementary Estimate to the members of this committee.</p>
+          <p eId="para_15">I want to acknowledge the economic and budgetary difficulties and the difficulties in the public finances against which the 2010 budget is being prepared.  I am not seeking a net increase in my Department's Vote but rather to provide for additional expenditure of €18.437 million on the gross side of the Vote which will be matched by an equivalent amount of additional appropriations-in-aid.  The increases in appropriations-in-aid were not anticipated when the Department's Vote was settled originally.  Some €17.7 million of the additional amount arises from the EU co-funding contribution to expenditure on the disposal and destruction of livestock and pigmeat product withdrawn from the market in December 2008.  The remaining €727,000 relates to additional receipts associated with the technical and financial costs of market intervention which have increased in 2009 in line with the increased use of EU market supports in the dairy sector.</p>
+          <p eId="para_16">I also take the opportunity in this Supplementary Estimate to show adjustments between subheads that have been facilitated by savings elsewhere in the Vote.  These adjustments are being made in order to ensure that maximum use is made of all funds available to my Department in 2009.</p>
+          <p eId="para_17">I introduce the Supplementary Estimate against the background of a most difficult year for family farm incomes and am particularly anxious to ensure that the maximum possible level of payments is issued by my Department before the end of December this year to assist farm families with the income, cash flow and credit difficulties they are encountering at this time.  The Department has already made every effort to alleviate the situation.  Deputies will be aware that this year, for the first time, my Department issued an advance of 70% of the single payment scheme payments which commenced on 15 October and began issuing the remaining balance on Tuesday, 1 December.  As of that date, expenditure under the single payment scheme stood at €1.228 billion, the highest ever at this stage of the year, and the highest proportion of the single payment scheme paid in any EU member state at this point.  When these payments are combined with expenditure under the upland sheep, bioenergy, suckler cow, REPS, disadvantaged areas, land mobility and afforestation schemes, payments to farmers this year will exceed €2 billion.  The single farm payment is well in excess of 95% of the total payment, as issued already.</p>
+          <p eId="para_18">In so far as the Supplementary Estimate is concerned, the principal measure I wish to provide for is in the area of onfarm investments and, specifically, the allocation of an additional €70 million to the farm waste management scheme.  The additional funding is being provided from both savings in the Vote and from the additional appropriations-in-aid to which I have already referred.</p>
+          <p eId="para_19">I am sure Deputies will be familiar with the scheme and are as convinced as I am of its merits.  The revised version of the scheme was introduced in March 2006 with attractive grant rates to assist farmers in meeting the requirements of the nitrates directive.  It represents the largest ever investment in Irish farm infrastructure and payments in excess of €750 million have been issued already to beneficiaries and participants of the scheme.</p>
+          <p eId="para_20">Earlier this year, it was decided to make the remaining payments under this scheme on a phased basis with 40% being paid in 2009 as claims were processed, a further 40% in 2010 and the remaining 20% in 2011.  In addition, a special <i>ex gratia </i>payment not exceeding 3.5% of the value of the deferred amount will be made in 2011 to those farmers whose grants were partially deferred.</p>
+          <p eId="para_21">Of the additional funding being provided, €25 million has been transferred from other subheads to enable my Department to pay the first instalment of 40% due to farmers under the scheme this year.  The remaining €45 million will enable the Department to bring forward payment of the second instalment of 40% which would otherwise have been paid to farmers in early 2010.  I am glad to be able to bring forward these payments and we will proceed with the payment of the remainder of the second 40% tranche early in the new year.</p>
+          <p eId="para_22">In addition, a further €15 million is being provided for the farm improvement scheme for 2009 which will bring the total allocation for this scheme this year to €30 million, compared with an expenditure level of €12.9 million in 2008.  The additional allocation in this case will enable the Department to continue to pay farmers all grants due to them on the basis of claims submitted to date.  A sum of €15 million was originally allocated to the farm improvement scheme in 2009 and the further funding is required to meet claims in respect of work completed this year.  Those claims and payments are up to date.  To date this year, 1,845 payments, totalling €24.69 million, have been made to farmers under this scheme.</p>
+          <p eId="para_23">The Supplementary Estimate also provides for additional expenditure of €39 million in REPS payments this year bringing total expenditure under that scheme in 2009 to an unprecedented €369 million.  This compares with a Revised Estimates provision of €330 million.  More than 17,000 applications for the REPS 4 scheme had been received by the closing date of 15 May 2009 and approximately 7,000 of these were new applicants, who had not been involved in REPS previously.  My officials have been working to complete all necessary administrative checks and field inspections to enable payments to REPS 4 participants to begin and I am confident that payments will issue in the week beginning 13 December.  This will be a very welcome and necessary boost to farm incomes at a time of heavy demands on farm families.  I issued a statement asking people who have yet to send back documentation to the Department in respect of REPS 3 to do so as soon as possible so that we can process those forms and get payments out during December.  Deputies will be aware that I announced the closure of REPS 4 to new entrants in July this year because we simply could not afford to maintain a scheme of this nature at that level of subscription.  Nevertheless, contracts are being honoured and payments to all existing participants are continuing.  I expect the payments in the remaining years of the scheme to exceed €1 billion.</p>
+          <p eId="para_24">My Department is in negotiation with the Commission to secure approval for a new agri-environment scheme to be funded under a revised rural development programme and I am in discussion with the Minister for Finance, Deputy Lenihan, on the funding for the scheme.  I hope to be in a position to announce details of the new scheme in the near future.</p>
+          <p eId="para_25">Finally, the Supplementary Estimate also provides funding for the Department to pay an additional €1.288 million to meet maturing liabilities under the food institutional research measure, which is the primary national funding mechanism for food research in third level colleges and Teagasc.  It is a competitive programme which typically involves multidisciplinary teams from two or more institutions working on projects to develop generic food technologies, and which builds expertise and capability in key areas of food research and is an important source of innovation for the industry.</p>
+          <p eId="para_26">The additional funding sought will be used to finance ongoing projects under the programme.  These are performing well and overall the programme of research has exceeded expectations in terms of the progress achieved to date.  The Supplementary Estimate will bring the total expenditure for FIRM in 2009 to over €14 million.  This, the committee will agree, is a very substantial commitment to the development of the knowledge economy as it applies to the food sector.</p>
+          <p eId="para_27">The savings to which I referred will come from a number of headings, including the pigmeat recall scheme, Bord Iascaigh Mhara and the Department's administrative budget.  The savings arise from reduced levels of activity and staff and other administrative savings, and I am satisfied that these are genuine savings and that all current liabilities are being discharged.</p>
+          <p eId="para_28">Before I conclude, I want to refer briefly to the plight of farmers and others affected by severe flooding around the country.  I have seen at first hand the devastation caused by the extraordinary weather events in affected areas.  In response to the situation, on 25 November I announced the provision of a targeted fodder aid scheme.  This is in addition to an initial allocation by Government of €10 million for a humanitarian assistance scheme to be administered by the Department of Social and Family Affairs.</p>
+          <p eId="para_29">The fodder aid scheme is targeted at farmers in the west, midlands and south west who suffered damage to fodder, including silage, hay, concentrates or straw, caused by flooding in November 2009.  I have ensured the scheme will be as simple as possible for farmers to access and that payment will issue to deserving cases without delay.  My staff will take as sympathetic an approach as possible to examining claims, carrying out inspections and expediting payments.  I will be prioritising the areas most badly affected and ensuring that payments begin within the next two weeks.</p>
+          <p eId="para_30">These are very difficult times for many farm families and I commend the Supplementary Estimate to the committee in order to help relieve the situation.  I thank the Chairman.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_31">I thank the Minister and welcome him to the committee.  We compliment him on introducing the payments for the farm waste management scheme and REPS.  We all know he is under a lot of pressure, given the budgetary situation.  He is working very hard regarding those who cannot apply for REPS 4.  It is to be hoped there will be developments in that area in the near future.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_4">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_32">I am tempted to tell the Chairman to speak for himself.  I have reservations about what we are doing today.  The manner in which the information is presented to members of the committee is almost deliberately designed to confuse.  I have consulted with colleagues and there seems to be an air of confusion on this side of the House regarding what is involved.  It smacks of bad management of the financial resources given to the Minister's Department.</p>
+          <p eId="para_33">At a time when it deliberately picked the pockets of farmers, took bread off the tables of farm families and forced them to seek financial support elsewhere, we now find there are substantial savings in its budget which would have obviated the necessity for cuts to fundamental schemes, such as payments for disadvantaged areas and suckler cows and the closure of REPS.  We now find that unspent moneys, which could have been delivered to individual farm families under various guises, will now be used to pay liabilities under REPS and the farm waste management scheme which do not accrue in 2009 but in 2010.</p>
+          <p eId="para_34">The Dáil debate on the Foreshore and Dumping at Sea (Amendment) Bill is due to start in less than an hour, so unfortunately I will have to leave the meeting.  The Bill is sponsored by the Minister's Department and the Minister of State, Deputy Killeen, will attend the debate.</p>
+          <p eId="para_35">I have a number of specific questions.  Where are the savings in the administrative budget?  We need more clarity on that as there is a deficit of information.  We need details on the administrative savings.  I received the one page briefing note from the Department.  Point 3 says the increases in appropriations-in-aid arises as a result of additional EU co-funding, €17.7 million of which relates to expenditure on the disposal and destruction of livestock and pigmeat product withdrawn from the market in December 2008, and €737,000 of which relates to the technical and financial costs of market intervention.</p>
+          <p eId="para_36">My understanding of appropriations-in-aid is that they are non-Exchequer funded income streams for the Department.  The Minister thinks these are as a result of EU funding, something on which I would like clarity.  Are we using EU funding as appropriations-in-aid?  Was there an income stream for individual pig farmers or others affected by the pork dioxin crisis?  We are paying funding to the Department under some guise or other to the tune of €17.7 million.  The situation is not clear to me and I would like more information on it.</p>
+          <p eId="para_37">Payments for the farm waste management scheme total some €85 million, of which €45 million relates to the 40% tranche due in 2010.  Some €25 million of the funding relates to payments which were due to be paid in 2009.  There was 40:40:20 liability over a three-year period.  I understand the 40% liability equated to some €220 million.  We now appear to be paying €25 million which was due as part of the 40% liability.  Why was the liability not discharged when farmers are in major financial difficulties with their financial institutions and bank loans?</p>
+          <p eId="para_38">Another question springs to mind.  There is an opportunity to deal with one of the legacy issues of the farm improvement scheme which was retrospectively suspended and from which a number of farmers were disqualified between 1 and 20 October, if my recollection is correct.  Savings of some €85 million were made, which would have dealt with one legacy issue which is still hanging over the Department.  Farmers are unsure how they will be treated, in respect of applications submitted before the announcement of the suspension of the scheme.</p>
+          <p eId="para_39">I come back to my original question concerning the savings in subhead C.  We have a deficit of information about the detail of those savings.  Where were the administrative savings made?  I would like to question in more detail those involved with the pork dioxin contingency fund.  This time last year, we sat at a meeting for emergency Supplementary Estimates where some €180 million of Exchequer funding was provided.</p>
+          <p eId="para_40">In a Dáil reply on 26 November, the Minister stated that to date a total of €69 million had been paid to qualifying applicants under the pigmeat recall scheme, €30 million of which was paid to private producers and €39 million to secondary processors.  Some €35 million was paid in 2008 and €43 million in 2009.  A further €5 million was paid during 2009 for the rendering of affected products.  Last year an Estimate of €180 million was approved but we have paid out only €69 million to date.  Who did the mathematics on the amount of funds required for a Supplementary Estimate rushed through this committee last year and approved by the Oireachtas?  If there was a genuine understanding as to the requirement 12 months ago, how is it that the drawdown was only €69 million?  Is there an expected liability under the pork dioxin contamination fund that the Exchequer will have to meet in 2010?</p>
+          <p eId="para_41">A recurring theme for the past couple of years' Supplementary Estimates is that given the complexities involved, it would be better if the main spokespersons could get a detailed briefing from Department officials before they come to the committee.  I am unhappy with what I can only conclude is a deliberate attempt to confuse by the manner in which this Supplementary Estimate is presented.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_5">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_42">If the Minister had a white beard I would probably call him Santa Claus because of the timing of this Supplementary Estimate.  Perhaps I am a little cynical about the timing.  If there were savings already in the Department's Vote when were those savings identified and could these moneys have been discharged earlier?  The experience on the ground is such that farmers were put to the pin of their collar and if this funding was available sooner and could have been discharged sooner, it would have alleviated much of the hardship.  I am cynical about the fact that the payments are being processed on 3 December.  The manner in which the Estimate is presented to us is confusing.  I have some degree of intelligence but we are being bamboozled with a set of figures which are difficult to wade through and analyse exactly what is at play.  In his press release the Minister said:</p>
+          <p class="indent_1" eId="para_43">This is not additional Exchequer money, but discharges liabilities earlier than previously planned and is possible because of savings arising on the Department's Vote and the use of EU receipts and will improve the cashflow situation of farmers due to REPS payments and FWMS grants early next year.</p>
+          <p eId="para_44">When was this identified?  Was it only identified in the last few days?  If it had been identified earlier I would like to know exactly when because it could have alleviated much hardship.  I will not repeat the questions posed by Deputy Creed?  However, I do have a specific question in regard to the humanitarian aid scheme.  I am concerned as to how it will filter down to farmers who are experiencing hardship.  I looked at the criteria for the scheme and I find they are suitably vague.  Has any liaising taken place between the Department of Social and Family Affairs and the Department of Agriculture, Fisheries and Food?  Will a set of strict criteria be outlined for individual farmers in order that there is no confusion as to their entitlements.  If a farmer in dire financial straits is eligible under the terms of the scheme and presents to the Department of Social and Family Affairs, I am concerned that no bureaucratic barrier would be put in place.  I want to ensure the scheme is simplified in such a way that people can avail of it.  The Minister has said the amount available is €10 million and I understand there is an additional €2 million.  I would like to know a little more about how the Minister proposes to administer the scheme.</p>
+        </speech>
+        <speech by="#TomSheahan" eId="spk_6">
+          <from>Deputy Tom Sheahan</from>
+          <p eId="para_45">I will be brief as Deputy Creed has already covered most of the issues.  Given the funding being made available under this Vote and the forthcoming budget, things will be put in perspective on Wednesday next.  What would be the position if this type of operational programme was taking place in each Department?</p>
+          <p eId="para_46">I have one query for the Minister on REPS which I raised this morning.  Two recently widowed women came to me this week whose REPS payments were due in September and whose husbands have since died.  They were told that the REPS plan dies with the holder of the herd number.  These women have young families.  The payments were due in September and they have been told they will not get the REPS payments.  Perhaps the Minister will deal with that issue.</p>
+        </speech>
+        <speech by="#EamonScanlon" eId="spk_7">
+          <from>Deputy Eamon Scanlon</from>
+          <p eId="para_47">Thankfully we are here.  That 40% of the farm waste management grants will be paid early is welcome. That is a major improvement given that last year we wondered whether there would be enough money to pay any of the grants.  I welcome the fact that people will receive a 40% grant.  In fairness to the Minister, nobody will be out of pocket and it is important to recognise that.</p>
+          <p eId="para_48">I am aware from speaking with my constituents that people have been paid REPS 3 but when will REPS 4 begin to be paid?  As has been said by previous speakers, farmers are under horrendous pressure due to weather conditions, fodder problems and flooding and need the money and the sooner it is paid the better.  In fairness to the Minister, he is doing his best.  There is no doubt that a 40% payment will ease the pressure on the banks and farmers.  It is easy to be critical but he is doing his best for farmers and we should welcome that fact.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_8">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_49">I also compliment and support the Minister on the Supplementary Estimate.  He has done a fantastic job under difficult circumstances in a very tight budgetary situation and has brought forward to December the payments due in January.  Farmers have had a tough year as a result of weather conditions and falling prices.  That the Minister was able to bring forward all payments by a month as well as 40% of the farm waste management grant is praiseworthy.  He must be complimented on what he has done for farming.  Many farm families will be happier this Christmas given that the grants are paid, as an earlier speaker said, by Santa Claus.  It is important that farm families will have money this Christmas following a bad year.</p>
+          <p eId="para_50">The plans for afforestation were cut by 8% last year.  I hope there will be no reduction in planting this year given the need to increase our afforestation to 10,000 hectares which was the aim a couple of years ago.  However, we have slipped back to 6,000 hectares.  We need to increase planting for many reasons including CO2 emissions.  Afforestation will be taken into consideration in 2012 and it is important that we get back to planting up to 10,000 hectares plus per year.  I appreciate the budgetary situation is bad but installation aid and the farm retirement schemes which were dropped last year had a major impact on young farmers.  We had a presentation yesterday from Macra na Feirme who emphasised that 7% of farmers are under the age of 35.  It is important that we bring back the installation aid and farm retirement schemes whenever the budgetary situation allows it.  They are a way of ensuring that land is passed on to young people who, with no disrespect to aged people, are the future farmers.</p>
+          <p eId="para_51">I also welcome the fodder aid scheme.  With the bad weather and flooding in the west and south west, the €2 million fodder aid scheme will be very important to farmers in those areas.  Luckily, the south east did not have a similar problem.  I would prefer the new environmental scheme that is being proposed to REPS, especially for people who are in REPS 2 and REPS 3 and are in no man's land at present.  It should be targeted and capped.  One of the problems we have had over the years with grants to farmers is that they are not targeted or capped.  There should be a decent payment under this environmental scheme to the people who have come out of REPS.  The average payment in REPS was between €5,000 and €7,000 per annum.  I realise there is a budgetary problem but, if possible, similar amounts of money should be made available under the environmental scheme.  If it is a small amount of money such as €1,000 or €2,000, it will have no effect.  People are depending on that money.</p>
+          <p eId="para_52">I compliment the Minister on bringing forward the direct payments to December and on paying out the 40% under the farm waste management scheme this month.  I very much appreciate it for the farming community.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_9">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_53">I congratulate the Minister on the good news he had for us this morning.  He seems to have taken over the role of Santa Claus where distributing good news to the farming community is concerned.  However, there are a few issues on which I hope the Minister will elaborate.  I doubt the wisdom of the Minister's suspension of REPS.  That scheme was very good.  It was created to deal with environmental and other issues.  The Minister should re-examine the value of the four REP schemes down through the years, until REPS 4 was suspended to new applicants last July.  This has created a fair amount of dissension among young farmers who came into the scheme and are trying to improve their holdings and the conditions that appertain to environmental matters.  The Minister should continue a scheme that was so successful throughout the country.</p>
+          <p eId="para_54">The reduction of the forestry premia by 8% earlier this year had a detrimental effect on forestry in this country.  It was envisaged four years ago that we would increase our planting acreage to approximately 15,000 hectares each year.  Unfortunately, it has slipped back each year.  We are going down the hill instead of bringing forestry into full production.  In addition, from an environmental point of view forestry is a major element in meeting our commitments regarding carbon.  We should restore confidence in the forestry sector.  The farmers who signed up for the scheme were guaranteed their premia for 20 years but now they are faced with a reduction of 8% this year.  That is not the proper approach to the forestry programme.  I expect the Minister to do more on this issue.</p>
+          <p eId="para_55">I do not know where the Minister got the sudden surge of funds.  Did it take the recent flooding of the Shannon, Lee, Bandon and Ilen rivers to flush the money out of the Department?  Was he storing up a kitty that should have been disbursed to the poor misfortunate farmers all along?  Take the example of the farm improvement scheme.  Farmers borrowed billions to complete their schemes on time but they are finding it hard to repay their loans to the banks.  The Minister should look more favourably on them and try to finalise any adjustments that are pending in their claims for payment.</p>
+          <p eId="para_56">I admire the Minister's courage in doling out the money to the farmers before Christmas.  It will be known as the farmers' Christmas bonus while other sections of the community will get no Christmas bonus.  They will have a lean Christmas, but at least some of the farmers will be very thankful to the Minister for issuing the cheques to them before Christmas week.  I have to thank him for his approach in that respect.  Let us hope he will have better tidings to come.  We will await those when he considers it the appropriate time.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_10">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_57">I welcome the Minister and his delegation.  He has had a very difficult year but he managed it very well.  The world economy is in a big crisis but the Minister, Deputy Brendan Smith, has done very well in the agriculture area.  Many farmers are not as critical about him as they were about other Ministers, even in successful times.</p>
+          <p eId="para_58">I am glad he is introducing a new agri-environmental scheme.  I hope that when it is introduced it will be simple and not involve much red tape.  I hope farmers will not have to deal with the regulations they currently endure and that they will not be over-burdened by inspections and what happens in difficult times, especially in a year such as this.  The Minister was successful in getting a tranche of money, approximately €16 million, for the dairy industry.  How does he propose to distribute that money?  He got it some time ago as a type of supplement to the bad price for milk this year.  What procedures are being put in place for the distribution of that money?  There should be no red tape attached; it should go directly to the farming milk suppliers in some form or other.  There also should not be any side shows, as usually happens.  There should not be any money for side shows and other ideas that are unnecessary on the farming scene.</p>
+          <p eId="para_59">What is the position regarding genetic modification, GM, in Brussels and Ireland?  Europe and Ireland will be at a serious disadvantage if we do not acknowledge the GM scene.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_11">
+          <from>Chairman</from>
+          <p eId="para_60">Deputy, we will not have that discussion now.  It is not relevant to the Estimates.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_12">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_61">The Minister might answer the question because it is in the interest of livestock farmers to have some progress on that.</p>
+        </speech>
+        <speech by="#MartinFerrisSF" eId="spk_13">
+          <from>Deputy Martin Ferris</from>
+          <p eId="para_62">I thank the Minister for his presentation.  How advanced are the negotiations on the new agri-environmental scheme?  How does he envisage them proceeding, particularly regarding what aspects of the environment it is hoped will be covered?  Like Deputy O'Keeffe, I hope the formula for participating in the scheme is not as bureaucratic as in other schemes.</p>
+          <p eId="para_63">With regard to the fodder aid scheme, is the fodder available?  My understanding is that there is a shortage of fodder, certainly in my local area and it has not been affected by flood damage.  Is fodder available and, if so, what will it cost the Department?</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_64">Thank you, Deputy.  There is plenty of fodder in County Meath for those who wish to buy it.  I call the Minister.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_15" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_65">My neighbours in Meath would never overcharge in the sale of products and there would be good value available for Deputy Ferris's constituents if they need them.</p>
+          <p eId="para_66">I thank the committee members for their observations.  I am surprised with some of the comments on the achievement of these savings and of additional funding to some subheads.  We have not been sitting around saving money and only issuing it now.  Nobody's income has been affected by the decision on the closure of new entrants to REPS 4 because that measure only takes effect from 2010.  It is the highest level of expenditure ever, provided we get this supplementary measure through and supported.  I hope it will be.  Some €369 million will be spent on REPS this year.</p>
+          <p eId="para_67">I sent out a statement the other day asking people who had received the C1 form from the Department in respect of REPS 3 to return that to the Department because we want to get those payments out.  We cannot issue them unless we get those forms back into the Department and we can ensure a quick turnaround once they are received.</p>
+          <p eId="para_68">Deputy Scanlon asked when REPS 4 payments would commence.  They will commence as early as possible in the week beginning 13 December because we must have all administrative checks carried out on all applications prior to the issuing of any payments.</p>
+          <p eId="para_69">There is no lack of transparency in these Estimates and these additional funds available to us now.  The reason we need a Supplementary Estimate is that the €70 million appropriations-in-aid from the European Union have become available to us and to convert those receipts into expenditure we need the approval of the House.</p>
+          <p eId="para_70">On the other measures taking place, we have moved money around from different subheads where there was less demand.  On the dioxins, for example, there was a facility of up to €180 million made available this time last year based on the best estimate available at that time of the totality of product within the affected area.  At that time the industry's best estimate to us was that there could be 46,000 tonnes of product affected by the recall.  That figure has dropped to 30,000 tonnes which ensured that the facility available to us need not all be drawn down.</p>
+          <p eId="para_71">In the meantime I have been in a position, with the approval of the Minister for Finance, to spend some of this money that had been allocated to the Department under the dioxin heading and other headings.  It was estimated that €220 million would represent the 40% due under the farm waste management scheme.  The 40% equates to €245 million.  All of the 40% applicants have been paid.  Some €244 million has been paid.  In effect, we have been able to pay 40% to everybody who has a legitimate claim with us and we are bringing forward €45 million of the €245 million that was due to be paid in 2010.  That is where that €45 million is going.  It is bringing forward that particular payment.</p>
+          <p eId="para_72">On the farm improvement scheme, the provision for that subhead for 2010 is €15 million.  We have been able to transfer an additional €15 million to the farm improvement scheme and those payments are right up to date.</p>
+          <p eId="para_73">Deputy Creed mentioned the farm improvement scheme in general.  That scheme was introduced.  It had a cash-limited funding of €79 million.  When applications to the value of €79 million were received by 24 October 2007, that scheme closed but provision is being made to honour all of the applicants whose applications were received prior to that date, and we have a substantial amount of that overall scheme paid out already.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_16">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_74">The Minister states that €45 million is in respect of the 40% tranche due in 2010, bringing it forward.  However, that still leaves €25 million that is being paid under farm waste management in 2009.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_17" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_75">That is already paid.  Instead of paying €220 million as the 40% tranche, we have paid out in excess of €244 million.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_18">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_76">We are being asked to retrospectively approve it.  It has happened.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_19" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_77">That was still within our own Vote.  We have authority to move money within subheads.  The reason I am presenting these figures to the committee is to be totally transparent and show what the outturn for the year will practically be.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_20">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_78">The Department has paid €245 million.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_21" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_79">Some €244 million plus.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_22">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_80">Is that more than 40%?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_23" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_81">No.  That is 40%.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_24">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_82">What will the Minister require to meet the outstanding balance in 2010?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_25" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_83">It would have been €245 million, but we are bringing forward €45 million of that and next year we will be paying €200 million under farm waste management.  Is that clear enough?  I am bringing forward €45 million of it.</p>
+          <p eId="para_84">The reason for this, as I stated earlier, is that the appropriations-in-aid have come forward from Europe and we are able to offset that against expenditure.  We have paid everybody practically under the farm waste management scheme — the 40%.  We will be paying again early in 2010 the second 45% tranche.</p>
+          <p eId="para_85">The farm improvement scheme was a cash-led scheme up to €79 million.  That closed at the particular date to which I referred.  We have made substantial payments already.  This year we are paying out €30 million under that scheme instead of €15 million.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_26">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_86">I asked about those who were caught between the date it was announced and the date to which it was backdated.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_27" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_87">I have no provision to allow those applicants proceed at this point in time because we will finish off the scheme.  There will be a substantial demand on our funds this year because much of the work will be completed at the end of this year and in the early part of next year.  I want to pay off the €79 million that has already been committed.</p>
+          <p eId="para_88">Deputy Sherlock asked why we did not pay earlier.  As I explained, much of this funding has already gone out under different headings.  The REPS payments would not have issued yet, but the REPS 4 will be issuing from 13 December and the REPS 3 are issuing as people supply the relevant data to us.</p>
+          <p eId="para_89">Deputy Sherlock also asked about the humanitarian aid.  That programme is operated by the Department of Social and Family Affairs.  My Department's fodder scheme is a €2 million facility.</p>
+          <p eId="para_90">I take this opportunity to compliment the farm organisation and the individuals with that organisation in the different areas who did Trojan work to help out their neighbours and their local communities.  I myself saw that at first hand.</p>
+          <p eId="para_91">The scheme that we have introduced——</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_28">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_92">I apologise for cutting across the Minister.  The humanitarian aid scheme is important.  I know it is administered by the Department of Social and Family Affairs.  A person who would normally present to a community welfare officer would be someone who would not have means.  If farmers have to present, they would be deemed ordinarily to have means and therefore the criteria by which they will be judged by the CWO will be much different than, for example, a normal person who would apply.  That is why there must be some liaison between the Departments to ensure that where farmers present to a community welfare officer there are clear guidelines which do not make it a stringent affair or that the rules are not overly bureaucratic for the person who appears.  That is really my point.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_29" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_93">I accept Deputy Sherlock's point.  The Minister for Social and Family Affairs, Deputy Mary Hanafin, has outlined that the scheme is there to get help to people as rapidly as possible with the least amount of form filling and delays.</p>
+          <p eId="para_94">On the fodder scheme, Deputy Ferris asked about the availability of fodder.  Our esteemed Chairman has offered some fodder at good value coming from County Meath.  Naturally, the fodder aid can assist in the purchase of concentrates as well as hay or silage if it is available.</p>
+          <p eId="para_95">We want to get money out as rapidly as possible to people.  We have provided a simplified form.  Both our own Department officials in the affected areas and Teagasc officials, along with representatives of farm organisations, are helping individuals to fill out forms if they need particular help, and our staff will be active on the ground in ensuring that people who need assistance would get it as quickly as possible.</p>
+          <p eId="para_96">The Government approved on Tuesday week last the €10 million humanitarian scheme and the €2 million fodder scheme.  We had in place 48 hours later this particular fodder aid scheme.  It is on the basis of providing assistance as rapidly as possible to those people who need it.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_30">
+          <from>Chairman</from>
+          <p eId="para_97">I heard a member of the IFA from Galway speaking about the matter.  The fodder scheme introduced a few years ago was badly handled at the time.  In some cases farmers who deserved it did not get enough while others who were selling fodder also got it.  That happened ten or 12 years ago and I never want to see that happening again.  Whoever administers it should ensure that will not happen.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_31" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_98">I appreciate what the Chairman says.  We want to ensure that the people who are affected and have lost fodder will be the recipients.  We would hope there will be no abuse of the scheme.  That is why we need some level of inspection and verification.  That will be in place.  At the same time the verification process will be aimed at ensuring a quick turnaround and getting help out to people.</p>
+        </speech>
+        <speech by="#MartinFerrisSF" eId="spk_32">
+          <from>Deputy Martin Ferris</from>
+          <p eId="para_99">Is the Department liaising with the farming organisations on the fodder aid scheme?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_33" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_100">The farming organisations communicated with the Department last Saturday and Sunday about that scheme.  They expressed their happiness with the quick response and the simple nature of the form.  Did the Deputy have a particular concern?</p>
+        </speech>
+        <speech by="#MartinFerrisSF" eId="spk_34">
+          <from>Deputy Martin Ferris</from>
+          <p eId="para_101">The farming organisations have their ear to the ground and they should have a direct input into any fodder aid scheme.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_35">
+          <from>Chairman</from>
+          <p eId="para_102">Deputies Scanlon and Doyle have contributions to make on the fodder scheme.  I shall call them and anyone else who wants to talk about that scheme, as we shall not be returning to that matter.</p>
+        </speech>
+        <speech by="#EamonScanlon" eId="spk_36">
+          <from>Deputy Eamon Scanlon</from>
+          <p eId="para_103">Where do farmers apply for these forms?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_37" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_104">They are available at a local Teagasc office or the local Department office.  People with Internet access can download it from the web.  Some of our inspectors will be out on the ground and will help people complete forms if they need assistance.  However, they are as widely available as is possible.  Representatives of the farming organisations have been in discussion with departmental officials on an ongoing basis since the problems arose.  They have expressed satisfaction with the simple nature of the form.  From a public auditing point of view we also need to provide some means of inspection or verification.  However, we want to ensure a quick turnaround time and get help to people as quickly as possible</p>
+        </speech>
+        <speech by="#AndrewDoyle" eId="spk_38">
+          <from>Deputy Andrew Doyle</from>
+          <p eId="para_105">The community welfare officers and others in the Department of Social and Family Affairs have limited experience in processing these types of forms.  It is not something they deal with on an ongoing basis.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_39" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_106">Our Department is running the fodder aid scheme.</p>
+        </speech>
+        <speech by="#AndrewDoyle" eId="spk_40">
+          <from>Deputy Andrew Doyle</from>
+          <p eId="para_107">I thought the Minister said it was being run by the Department of Social and Family Affairs.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_41" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_108">No, that is the humanitarian aid scheme.</p>
+        </speech>
+        <speech by="#AndrewDoyle" eId="spk_42">
+          <from>Deputy Andrew Doyle</from>
+          <p eId="para_109">So it will be processed by the Department of Agriculture, Fisheries and Food.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_43" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_110">The single payment scheme section of the Department based in Portlaoise co-ordinates it.  It has all the data on every farm.</p>
+        </speech>
+        <speech by="#AndrewDoyle" eId="spk_44">
+          <from>Deputy Andrew Doyle</from>
+          <p eId="para_111">It would help if the Department of Agriculture, Fisheries and Food could provide staff to help the people administering the humanitarian aid, because they are overwhelmed as it is.  There is a ten to 12-week waiting list for job-seekers benefit.  I do not believe they have the wherewithal or manpower to manage this.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_45" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_112">Our job is to administer the fodder aid scheme.  In the past year some personnel from our Department transferred to the Department of Social and Family Affairs.  I wish to return to an issue Deputy Creed mentioned.  He asked from where some of the savings came.  There has been a substantial saving in the Department's administrative budget.  That relates to a reduction in the number of personnel in the Department.  During 2009 the number has declined by 380 people, which equates to salary savings of approximately €6.5 million annually.  We have achieved savings of €2 million in the travel subhead because, as Deputies will be aware, travel allowances were reduced by 25%.  We have some expenditure on the capital side relating to the maintenance of offices and a proposal to upgrade the IT network in some of the local offices.  That has been superseded by the rationalisation and reorganisation of local offices throughout the country and enhanced new regional offices.  That saving on the Department's administrative budget exceeds €17.6 million, which is a substantial saving that is being diverted to other on-farm programmes.  People asked about this earlier.  If we did not spend that money and diverted it with the concurrence of the Minister for Finance I am sure people would complain bitterly at the end of the year that we returned money to the Department of Finance instead of transferring it to other subheads and programmes.  We have done so and spent much of the money already.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_46">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_113">That explains part of the savings.  From where are the other savings coming under subhead C?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_47" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_114">Dioxin.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_48">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_115">Is it just administration and the dioxin area?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_49" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_116">Bord Iascaigh Mhara has been able to achieve some savings.  We still need to make a provision for dioxin because we anticipate some claims coming in before the end of the year.  The full facility that was made available this year and voted on by this committee and the House is not being drawn down.  The full drawdown has not yet happened because we are still awaiting claims.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_50">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_117">Do all the savings come from pork dioxin, administration and BIM or are there other subheads involved?  Does the Minister have the full list of savings?</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_51">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_118">Can we get a note as to where these savings have been achieved?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_52" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_119">We can get that for the Deputies.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_53">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_120">Could we get it now?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_54" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_121">I do not have it with me.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_55">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_122">It is extraordinary to be asked to deal with Estimates without such information.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_56" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_123">The subheads are identified in what has been provided.  Savings in subheads C82, G——</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_57">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_124">Can the Minister identify the specific schemes where savings were made?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_58" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_125">The subheads were as follows: dioxin, €82 million; early retirement, €4 million; Bord Iascaigh Mhara grant-in-aid, €3 million; legal costs, €856,000; and administration, €17.123 million.  That gives a total of almost €107 million.  The extra receipts which were converted into expenditure which have come from the European Union——</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_59">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_126">Are they the appropriations-in-aid?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_60" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_127">Yes.  The EU co-funding for dioxin measures was €17.7 million.  The EU had to repay us €700,000 for provision we had made for intervention.  This means the total funds for transfer is €125 million.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_61">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_128">From a budgeting and accounting point of view, are all schemes co-funded with the EU accounted for under appropriations-in-aid?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_62" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_129">They are, but we would have made provision on the basis that those receipts might not become available to us during the course of this year.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_63">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_130">The Minister spoke about flooding.  An issue likely to arise is the capacity of farmers to be compliant with a host of individual schemes and cross-compliance consequences arising from the flooding.  The Minister needs to make a clear statement that a very practical and tolerant approach will be taken to individual cases where for a host of reasons people will not be able to get out to do work associated with, for example, the REP scheme or other obligations they have to the Department.  The Minister might take this opportunity to send that signal.  It is not a charter for wholesale deviation by farmers, but we need a signal that Department of Agriculture, Fisheries and Food officials working on the ground will show some tolerance to the circumstances in which individual farmers find themselves.</p>
+          <p eId="para_131">The Minister might need to have discussions with the Minister for Finance on this issue.  In extreme circumstances farmers may now be obliged to dispose of assets, particularly livestock assets.  This may have a consequence with regard to continuing entitlement to levels of payment under the farm assist scheme.  It may affect one's entitlement at a later stage to higher education grants, for example, because it will show as a receipted income in 2009.  We need it to be classified as an exceptional <i>force majeure</i> income.  It should be correlated at a later stage with the restocking that will take place in 2010, if farmers have the heart and the stomach to get back into this enterprise.  We need such a signal from the Department on these matters.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_64" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_132">I will convey to the Minister for Finance the Deputy's point about the need for tolerance when arrangements are put in place in foot of these difficulties.  Income may appear to be higher than normal this year as a result of destocking, etc.</p>
+          <p eId="para_133">Earlier this week, I responded to media queries about the farm inspections that take place to ensure there is compliance with the criteria for the various schemes.  I would like to state clearly that farm inspections will be suspended in severely flooded areas, but will continue as normal in unaffected areas.  If a farm that has been selected for inspection is found to have suffered from flooding, a sympathetic approach will be taken.  No farmer will incur sanctions as a result of flooding damage.  The Department's inspectorate is dealing with these matters in a practical and sympathetic manner.</p>
+          <p eId="para_134">The committee has discussed the substantial Exchequer funding that has been invested in the farm waste management scheme.  There is a top class level of farm infrastructure, including animal accommodation, throughout the country.  If farmers had not been given an opportunity to invest in good on-farm facilities, we would have a huge problem on our hands.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_65">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_135">Will farmers be allowed to empty facilities that are now full of water?</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_66">
+          <from>Chairman</from>
+          <p eId="para_136">Common sense will prevail everywhere.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_67">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_137">It appears that farmers will need permission to empty dirty——</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_68" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_138">It is important that the State's investment of €1.5 billion in this area in recent years has been extremely well used.  In emergency cases, farmers will be permitted to pump water out of flooded tanks for animal welfare reasons.  The Department's inspectorate is assisting people by giving them advice.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_69">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_139">Should they contact the Department or should they take such action unilaterally?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_70" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_140">They should notify the Department if they can.</p>
+          <p eId="para_141">Deputy Aylward made a number of points about afforestation.  There has been a substantial programme of afforestation over recent years.  As a consequence of the level of take-up of the 20-year scheme, it was deemed necessary to reduce the forestry premium by 8%.  The levels of expenditure and demand are growing each year, as more and more people participate in the scheme.  The Minister of State, Deputy Killeen, has been actively promoting forestry and working with the various representative organisations.  A substantial programme will be provided for in 2010.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_71">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_142">Will the programme continue in its current form for the next couple of years, or will a new version of it be introduced?  Will the 8% cut that was announced last year be retained?</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_72" as="#Minister_for_Agriculture,_Fisheries_and_Food">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_143">It will be retained.  Decisions on premium payment levels for next year will be made in the context of next week's budget.  It is a very important scheme.</p>
+          <p eId="para_144">Deputy Sheehan spoke, as he has done on many occasions, about the importance of the early retirement, installation aid and rural environment protection schemes.  The applications of those who were affected by the suspension of the early retirement scheme are being processed at present.  I hope to be able to reach a conclusion on them relatively soon.</p>
+          <p eId="para_145">Deputy Sheahan mentioned two cases of deceased participants in the rural environment protection scheme.  I cannot give him an answer from the top of my head, but if he gives me the details of the two cases I will ensure they are dealt with as sympathetically as possible.  I do not want to give him an answer without being sure of the position.</p>
+          <p eId="para_146">Deputy Ned O'Keeffe referred to the problems of the past year in the context of the global economic difficulties, including the reduction in commodity prices.  This year, we spent a considerable amount of time making sure the EU activated market support measures, such as export refunds, aid to private and public storage and intervention, earlier than usual.  Those important measures continued after August.  Naturally, we would have liked them to have been activated at higher levels of payment.  The huge downward pressure on prices made it extremely important for us to put a floor under prices.  There has been a welcome upward adjustment in dairy prices at international level.  We hope that will continue.</p>
+          <p eId="para_147">Payments under the €300 million dairy fund that has been provided by the EU will be made directly to those who produce milk in 2009.  I would have liked such payments to have started this year, but the details of the scheme have not yet been finalised by the Commission.  We have made provision to start making payments under the scheme quickly, as soon as we receive permission to do so.  It has not yet been approved by the relevant EU management committee.</p>
+          <p eId="para_148">The issue of genetic modification, which is a bone of contention at EU level, is important as the EU tries to reduce the price of feedstuffs.  Three Departments — Agriculture, Fisheries and Food, Health and Children and Environment, Heritage and Local Government — are dealing with the matter in this jurisdiction.  Perhaps the joint committee can have a detailed discussion on the issue at a later date.</p>
+          <p eId="para_149">I would like to conclude by informing Deputy Ferris that we are engaging in consultation with the EU about the agri-environment scheme, which he mentioned.  Negotiations with the Department for Finance on the level of funding to be provided under the scheme are also continuing.  The amount of money being provided this year under the rural environment protection scheme — €369 million — will be the highest ever level of payment under the scheme.</p>
+          <p eId="para_150">I thank the Chairman and the members of the select committee for facilitating us with this Supplementary Estimate.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_73">
+          <from>Chairman</from>
+          <p eId="para_151">I thank the Minister and his officials for attending this meeting.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_4">
+        <heading>Message to Dáil. </heading>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_74">
+          <from>Chairman</from>
+          <p eId="para_152">In accordance with Standing Order 87, the following message will be sent to the Dáil:</p>
+          <p class="indent_1" eId="para_153">The Select Committee on Agriculture, Fisheries and Food has completed its consideration of the following Estimates for public services for the year ending 31 December 2009: Vote 31 — Department of Agriculture, Fisheries and Food (Supplementary).</p>
+        </speech>
+        <summary eId="sum_4">The select committee adjourned at 1.40 p.m. <i>sine die</i>.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

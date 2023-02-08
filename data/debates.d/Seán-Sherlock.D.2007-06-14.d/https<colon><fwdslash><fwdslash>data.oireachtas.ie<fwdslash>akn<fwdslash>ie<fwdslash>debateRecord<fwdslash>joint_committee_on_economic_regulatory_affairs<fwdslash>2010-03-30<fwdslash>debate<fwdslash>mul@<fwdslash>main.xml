@@ -1,0 +1,379 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-03-30/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-03-30/debate"/>
+          <FRBRdate date="2010-03-30" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_economic_regulatory_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-03-30/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-03-30/debate/mul@"/>
+          <FRBRdate date="2010-03-30" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-03-30/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-03-30/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" eId="#vol_None" showAs="Vol. None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" eId="#no_None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="DamienEnglishFG" href="/ie/oireachtas/member/id/Damien-English.D.2002-06-06" showAs="Damien English"/>
+        <TLCPerson eId="JoeBehan" href="/ie/oireachtas/member/id/Joe-Behan.D.2007-06-14" showAs="Joe Behan"/>
+        <TLCPerson eId="JohnODonoghue" href="/ie/oireachtas/member/id/John-O'Donoghue.D.1987-03-10" showAs="John O'Donoghue"/>
+        <TLCPerson eId="KieranODonnell" href="/ie/oireachtas/member/id/Kieran-O'Donnell.D.2007-06-14" showAs="Kieran O'Donnell"/>
+        <TLCPerson eId="MichaelMoynihan" href="/ie/oireachtas/member/id/Michael-Moynihan.D.1997-06-26" showAs="Michael Moynihan"/>
+        <TLCPerson eId="NedOSullivan" href="/ie/oireachtas/member/id/Ned-O'Sullivan.S.2007-07-23" showAs="Ned O'Sullivan"/>
+        <TLCPerson eId="PaulCoghlan" href="/ie/oireachtas/member/id/Paul-Coghlan.S.1997-09-17" showAs="Paul Coghlan"/>
+        <TLCPerson eId="SeanArdagh" href="/ie/oireachtas/member/id/Seán-Ardagh.D.1997-06-26" showAs="Seán Ardagh"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Sean Sherlock"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM GHNÓTHAÍ RIALÁLA GEILLEAGAIR A BHUNÚ</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON ECONOMIC REGULATORY AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2010-03-30">Dé Máirt, 30 Márta 2010</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2010-03-30">Tuesday, 30 March 2010</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 3.30 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#SeanArdagh">Deputy Seán Ardagh,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PaulCoghlan">Senator Paul Coghlan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JoeBehan">Deputy Joe Behan,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#NedOSullivan">Senator Ned O’Sullivan.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#DamienEnglishFG">Deputy Damien English,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#KieranODonnell">Deputy Kieran O’Donnell,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#JohnODonoghue">Deputy John O’Donoghue,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#SeanSherlock">Deputy Seán Sherlock,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">In attendance: Deputy Margaret Conlon.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#MichaelMoynihan">DEPUTY MICHAEL MOYNIHAN IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_5">The joint committee met in private session until 3.50 p.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Financial Regulation of Credit Unions: Discussion.</heading>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_9">On behalf of the committee I welcome Mr. Brendan Logue, former Registrar of Credit Unions, who is appearing before the committee to discuss the regulation of credit unions and the various credit union issues we have been discussing in recent weeks.</p>
+          <p eId="para_10">Before we begin, I draw witnesses' attention to the fact that members of this committee have absolute privilege but this same privilege does not apply to witnesses appearing before it.  I remind members of the long-standing parliamentary practice to the effect that they should not comment on, criticise or make charges against a person outside the Houses or an official by name in such a way as to make him or her identifiable.  I invite Mr. Logue to proceed to his presentation.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_11">I served as Registrar of Credit Unions from September 2003 until I retired from the position in December 2009.  The Registrar of Credit of Unions acts as the delegate of the Central Bank and Financial Services Authority of Ireland, and is responsible for the regulation of credit unions in the State in accordance with the provisions of the Credit Union Act 1997, as amended.</p>
+          <p eId="para_12">I am working on the assumption that the committee is interested in the way credit union regulation works, what problems are associated with the function and how regulation of the movement might be improved.  The views I am expressing are my own and should not necessarily be taken as representing those of the Central Bank and Financial Services Authority of Ireland.</p>
+          <p eId="para_13">The credit union movement has, up to now, survived the financial crisis in better condition than most other providers of credit.  I attribute this to the following factors: the business model enshrined in the Credit Union Act; the inherent common sense of most credit union directors; and strict regulation before and during the financial crisis.</p>
+          <p eId="para_14">Taken in consolidated form, the movement appears to be in reasonably good financial shape but certain individual credit unions are suffering financial stress in the liquidity and solvency sense.  Such stresses are increasing steadily due to the deteriorating economic conditions, and changes in policy within the movement and determined regulatory action will be needed to prevent future financial difficulties in the movement.  The quality of the loan books would be a matter requiring particular regulatory attention and the degree to which loan rescheduling takes place will require an enhanced focus.</p>
+          <p eId="para_15">As members are aware, the Minister has requested the regulatory authority to carry out a strategic review of the movement and this is in the course of preparation.  While the Credit Union Act has many admirable features that have served credit unions well, I nevertheless believe that short-term protective legislative measures should be introduced in advance of any structural recommendations that might arise later out of the review.  I will mention some of these later.</p>
+          <p eId="para_16">Regardless of its apparently reasonable financial state, it cannot be ignored that the movement has suffered financial damage as a result of the crisis.  Serious losses were sustained on certain inappropriate investments and on certain non-personal business and property-type loans during the past two years.  Such losses arose from historic errors of policy within the movement and partially from the inability of the regulatory system to change such policies arising from the structure of the Credit Union Act.</p>
+          <p eId="para_17">In general, the Registrar of Credit Unions does not have powers to make regulations for the movement as a whole that have the force of law.  Such powers as do exist in this regard are narrowly defined and difficult to structure for general regulatory use.  While regulatory directions can be issued by the Registrar of Credit Unions these can be applied, in most cases, only to individual credit unions on a case-by-case basis.  Consequently, such directions usually operate as corrective rather than preventive measures.  Most powers to make regulations are reserved to the Minister under the provisions of the Credit Union Act.  Change to section 35 is a current case in point where the Minister's power to alter its provisions is enshrined in subsection (6).  Many of the other regulatory powers of the Minister are to be found in section 182 of the Act.</p>
+          <p eId="para_18">Arising from these statutory provisions, the process by which the Registrar of Credit Unions seeks to make changes in regulations in response to economic conditions usually becomes politicised.  This is because a ministerial statutory instrument is required to effect most changes in regulation.  This can result in serious delays in the implementation of changes and in dilution of the needed changes arising from conflicting stakeholder positions.  This represents a serious defect in the regulatory structure and process.  An example of this was the inability of the Registrar of Credit Unions to introduce regulations in 2004 limiting investments by credit unions of their surplus funds to specified safe investment instruments.  Existing provisions in the Credit Union Act that might have been used to address this problem were found to be unsuitable and difficult to apply.  As a result of this problem it was not until late 2006 that diluted limits could be published and then only in the form of a guidance note.  The use of guidance notes as a default from the issuance of regulations by the Registrar of Credit Unions is not satisfactory from a regulatory point of view.</p>
+          <p eId="para_19">The movement is host to a number of representative bodies.  These are not always in agreement with each other on matters of movement policy.  This can give rise to conflicting pressures on policy makers.  In this environment the process of policy development for the sector based on a consensus approach poses a significant challenge.</p>
+          <p eId="para_20">While the governance of the movement is, in theory, quite democratic, in its actual operation it is generally not so.  This often gives rise to governance problems.  Typically, very few members attend their credit union AGMs and consequently take no part in the election of directors and supervisors.  Notification to members of vacancies on boards and supervisory committees is inadequate in most credit unions and, typically, a proper canvassing of the membership seeking nominations for vacancies does not take place.  Personal details of nominees standing for election are rarely supplied to members making it difficult for members to decide on the suitability of the candidates seeking office.  This gives rise to the risk that some credit unions can fall under the control of a limited circle of people who generally do not welcome newcomers to their boards.</p>
+          <p eId="para_21">There are no statutory limits to the term of service of directors and supervisors nor are there provisions for the rotation of the holders of such positions.  Equally, there are no provisions for minimum standards of fitness and probity to qualify persons for election or appointment to officer positions in credit unions.  Many of the losses that have been sustained in investments and business loans by credit unions can be attributed, in part, to the inadequacy of the personal skill sets of some directors and managers.  Consequently, I believe that changes to the way credit union directors and supervisors are elected, and the means by which they can qualify for officer positions need to be introduced without delay.  Such qualifications also need to be applied in the case of management appointments.</p>
+          <p eId="para_22">In a period when credit unions are sustaining increased stress due to the economic conditions there has been no progress on the introduction of an agreed centralised liquidity support mechanism for credit unions, as already proposed by the Registrar of Credit Unions.  Nor is there an agreed centralised solvency support mechanism for credit unions which sustain losses that threaten their stability.  While the savings protection scheme of the Irish League of Credit Unions has performed a useful, if limited, function in this regard, the existence and the operation of the SPS are matters of some conflict between the main representative associations.  Consequently, proposals for the introduction of statutory provisions for the liquidity and solvency support of credit unions appear to have become paralysed.</p>
+          <p eId="para_23">It may be desirable, where financial events dictate, to enforce the consolidation of smaller dysfunctional credit unions into more viable units.  No provisions currently exist in law for the Registrar of Credit Unions to do this.  The alternative of the liquidation of a credit union in the absence of any workable alternative could have damaging effects on confidence in the movement as a whole.</p>
+          <p eId="para_24">While the strategic review of the movement is to be welcomed as a means of reshaping the movement for the future, short-term legislative changes to address the issues I mentioned are also now needed.  As the old saying goes, "A stitch in time saves nine."</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_25">I thank Mr. Logue.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_4">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_26">I welcome the former Registrar of Credit Unions.  He is certainly not pulling any punches, which we welcome.  Sometimes what is needed is plain language.  Is Mr. Logue aware that the Central Bank Reform Bill has been published?  What are his views on the section 35 issues we have been addressing here in recent weeks?</p>
+          <p eId="para_27">Mr. Logue's submission referred to the appointment of officers through the AGM.  Is he suggesting that there should be changes to that mechanism?  While he will forgive me if I am misinterpreting what he said, perhaps his view is that the person appointed is the lowest common denominator, but he or she might not always be the right person for a job on a board.  Any credit union board member I have ever met was appointed because he or she has a significant body of experience and knows his or her individual credit union intimately.  Is he suggesting that there should be a regulatory framework for the appointment of particular officers to boards and that there should be rules governing that?  I know there will be in-house rules.  Stemming from that, the voluntary nature of credit unions is such that I would have certain concerns if we were to apply barriers to entry for certain persons by virtue of the fact that they do not hold certain financial qualifications.  At the same time I have an open mind on it.</p>
+          <p eId="para_28">The committee has been offered differing views on the reporting mechanism for the Registrar of Credit Unions.  One view is that the regulatory framework for credit unions should be housed under a Department.  Another view is that it should be housed under the umbrella of the Central Bank of Ireland, but that the reporting mechanism should be either directly to the director or to an assistant director.  There might be sense in having a reporting procedure that ensures that within the regulatory office under the umbrella of the Central Bank of Ireland there would be a board that contains experts in the credit union field to which each of the credit unions or each of the bodies would then report.  It seems that within the Financial Regulator's office there might have been a dearth of intimate knowledge on the workings of the credit unions.  It is fair to say that Mr. Logue's role as registrar was one which was quite effectual — I do not mean to plámás in saying that — in that he had a very firm hand in terms of the rules and regulations.  However, if a new regulatory regime comes in, we need to find how the credit union movement would best fit into that new regulatory regime, where it would be housed, where the reporting should be and whether there should be a separate board or body of people with specific expertise within the regulatory house under the Central Bank of Ireland to deal with credit unions.</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_29">Section 35 is the hot issue of the moment in many respects.  This section of the Credit Union Act has served the credit union movement very well.  It acts as an asset liability management tool.  I accept it is a bit on the crude side, but has been nevertheless very effective.  As regards the cry for the limits to be lifted and the subsequent apparent agreement that a lifting of the limits is to take place, I would say the following.  From a regulatory point of view, I took the view when in office that if a person was unable to service his or her loan, there was an obligation on the credit union to deal with that person in a reasonable and fair manner.  However, if it carried out a reasonable and fair rescheduling with that person, the facts and realities of that rescheduling should be reflected in the accounting system.  This issue is the nub of the problem.  Should provisions be made in respect of rescheduled loans which are by my definition anyway impaired, regardless of the reasons behind the inability of the member to repay, and should there be sufficient liquidity available in the credit union to take account of the slow down of the inflow of cash that will consequently arise?</p>
+          <p eId="para_30">I have always taken the view that if someone falls into arrears with the repayment of a loan, by definition that loan is impaired and therefore by definition a provision of some sort should recognise that.  Section 110 of the Act imposes very strict accounting rules on the preparation of the accounts of credit unions.  One of the fundamental principles enunciated in that section is prudence.  I believe it is prudent to make a provision for such events as a rescheduling of loans.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_6">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_31">A credit union customer of long standing, for example 20 years, who had a car loan, might lose his job and his financial circumstances would change literally overnight.  He may be paying a set amount per week over a fixed period of time.  While he might default on one or two of those payments he might take responsibility and go in to visit his credit union manager.  If that loan can be stretched out for a longer period of time on a reduced payment on the proviso that he will honour his commitments, is that not part of the credit union ethos?  It allows for a degree of flexibility and there is an element of trust.  By and large the ratio of impairments for credit union customers is probably negligible — I do not have exact figures.  However, where a degree of flexibility is shown, the likelihood is that the loan will be repaid albeit over a period of time, by relaxing the section 35 provisions the credit union would take cognisance of the realities of the situation in which we find ourselves at the moment.</p>
+        </speech>
+        <speech by="#" eId="spk_7">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_32">I agree that the ethos of the credit union movement is one that should allow flexibility to the member in a situation such as the one the Deputy describes.  I would fully support the proposed changes to section 35 to permit that to happen.  One of the big dangers in rescheduling is that the loan book could become hollowed out without anybody becoming aware of it, in a situation where one default after another in the rescheduling situation could result in an unprovided for bad debt.  That would be very dangerous for the credit union movement.  Regrettably, I have to say that the arrears in credit unions are rising at a very rapid rate.  The figures indicate they would have increased by more than 50% in the period of the last quarter of 2008 to the last quarter of 2009.  I am looking at an accounting issue here, rather than the reasonable flexibility the Deputy advocates.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_8">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_33">If Mr. Logue agrees with the changes to section 35 and takes flexibility into account how can he address that in the accounting procedures to ensure there is no profligacy and that he keeps a tight stricture on those same procedures?</p>
+        </speech>
+        <speech by="#" eId="spk_9">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_34">One of the conditions of the proposed change is that a provision of 20% will have to be made in respect of any rescheduled loan, and if there is a second default on the rescheduled loan a 100% provision will have to be made.  Some people may say that is heavy-handed but I think it is prudent.</p>
+        </speech>
+        <speech by="#JohnODonoghue" eId="spk_10">
+          <from>Deputy John O’Donoghue</from>
+          <p eId="para_35">I welcome Mr. Logue and thank him for his very frank contribution.  Mr. Logue says he is of the view that serious losses were sustained on what he described as "certain inappropriate investments".  Will he give some examples of what he means?  I note also that while credit unions themselves have been arguing that the regulations which apply to them are too inflexible and too strict, Mr. Logue believes these regulations are corrective, or rather that the directions which flow from the regulator are usually of a corrective rather than a preventive nature.  In this context he appears to state there is a serious defect in that in certain situations the hands of the regulator are tied because of what Mr. Logue describes as the "politicisation" of the process.  I am sure he will accept that the very ethos of credit unions is that they are owned by the membership and are voluntary in terms of directorship, and that in those circumstances it is necessary to be able to take certain circumstances into account rather than have very strict measures which would be applied in a catch-all catch-one way.</p>
+          <p eId="para_36">Mr. Logue stated that credit unions very often are manned by, or their authorities often comprise, people who have been there for a long time because there are no limits to the terms of service.  He states that this is not a desirable progression but would he not accept that we are talking about a volunteer movement?  Whether one is dealing in a sporting context or an economic one, when there are volunteers one ends up with the same minority of people doing the lion's share of the work.  I should not say this happens always but very often it does.  In politics, sport or any other voluntary endeavour, when one begins to insist on certain terms and changes of individuals, far from improving the organisation one will actually disimprove it by taking out, very often, the people who do most and are most willing to help.</p>
+        </speech>
+        <speech by="#" eId="spk_11">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_37">The Deputy made some very interesting points.  I shall deal with the last one first.  I agree that it may appear to be destructive of a good board to insist on the rotation of officer positions.  However, in my view this works as a double-edged weapon.  If there is an entrenched officer group who are good at the job, committed and expert, that is pretty good, it is fine and nobody can object to it but the opposite can be the case as well, unfortunately.  My personal preference was always for rotation of officer positions.  I do not mean that a director should be dismissed from the board but rotation of the officer positions is a beneficial concept because new officers will have new ideas and one hopes they will have the appropriate skills to deal with those ideas.  At the same time, around the board table, there will be the combined expertise of a previous chairman, perhaps a treasurer, a secretary and so on.  The spread of knowledge and expertise can be enhanced in that fashion.</p>
+          <p eId="para_38">Regarding the qualifications for officer positions on which the Deputy touched, as did Deputy Sherlock, I am not in favour of requiring <i>per se</i> that professional qualifications of a financial nature be mandatory for such positions.  I suggest, however, that some knowledge of the business of a credit union or financial institution, or other skills in corporate affairs would be a desirable qualification for such positions.  I do not suggest that the entire credit union board be made up of accountants or solicitors or other professionals.  That is not in the ethos of the movement.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_12">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_39">God forbid.</p>
+        </speech>
+        <speech by="#" eId="spk_13">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_40">God forbid.  With regard to regulatory directions, the subject of the Deputy's second question, the problem we encountered was that when economic situations developed within the credit union movement, or generally, we were not able to issue regulations which were in advance of action — in other words, regulations which would apply to all credit unions and would steer the movement in a particular safe direction.  We could not issue those regulatory directions but what we could do was issue regulatory directions to individual credit unions, though only as a corrective measure not as a preventive one.  I hope the members can understand the important distinction between those two things.  It is the financial model of credit unions which is enshrined in the Act, and the existing regulations as issued by the Minister, that have protected the credit union movement from a lot of the excesses that might otherwise have taken place.  Therefore, what I argue for here is that the regulator, the Registrar of Credit Unions, should be given the power to create regulations which are currently reserved only for the Minister.  That does not mean all of them, of course, but some of them.</p>
+          <p eId="para_41">Regarding inappropriate investments, Deputy O'Donoghue asked what type of investments we are discussing.  They ranged over a vast variety of instruments but the most publicly notable instrument on which losses were incurred were the so-called "perpetual bonds".  These were bonds which collapsed in value when the financial crisis took place, depending on the issuer and so on, and for a variety of reasons.  There were many other inappropriate instruments — the list is too long to go into here.  The instruments which caused these losses were in fact permissible under the rather outdated provisions of the Trustee (Authorised Investment) Order which was issued in 1998 and which had the unintended effect of widening the capacity of credit unions to invest in these types of instruments.</p>
+          <p eId="para_42">After a struggle, we succeeded in bringing that situation under control and one hopes there will be no repetition of the losses that occurred in that regard.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_14">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_43">Is Mr. Logue referring specifically to the amendment to the Trustee (Authorised Investments) Order that allowed credit unions to invest in such investments?  There was a relaxing of the order in, I believe, 2006 which if I am not mistaken allowed credit unions to undertake such investments.  It could be argued that this change to the regulation, although it did not exactly force credit unions to invest outside their normal investment vehicles, meant that if they wanted to do so this was perhaps the only way for them to go.  It is one school of thought.  I do not necessarily say I subscribe to it myself.</p>
+        </speech>
+        <speech by="#" eId="spk_15">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_44">May I answer that question?  The position was that under the terms of the Credit Union Act, credit unions were authorised to invest only in those instruments which were listed in the trustee order.  In 1998, the then Minister amended the trustee order to make it more open for trustees generally to invest in instruments which would be more reflective of the modern world and so on but that had the unintended effect, because of the link between that order and the Credit Union Act, of opening up the gates to all sorts of investments in which credit unions could invest.  I issued a guidance note in 2006 which demanded the restriction of investments by credit unions to certain specified instruments in certain percentages but the losses that subsequently emerged were almost 100% in instruments purchased before that date.  It had the desired effect.  There were some losses after that date but the majority of them occurred before that date.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_16">
+          <from>Deputy Damien English</from>
+          <p eId="para_45">Some of the questions have been asked.  In regard to section 35, our concern as Deputies and politicians, is that the credit union is meant to be the place where common sense prevails.  One is not dealing with a large institution that will not listen to a restructuring plan.  The majority of us believe that due to unnecessary legislation, credit unions were blocked from trying to facilitate people in trouble and in rescheduling and so on.  I think they are best placed to decide as they know the people.  This comes back to the members of the board and the officers.  They should not all have to be trained accountants and solicitors.  A local person who knows everybody in the town is much more useful than an accountant because he or she will know the person's history and family.  That is key.</p>
+          <p eId="para_46">As one with a background in accountancy, I accept the importance of prudence.  I question whether it is possible to legislate for prudence.  Prudence means that those with information make the right decision in a prudent manner.  It is slightly unfair that legislation should dictate the rules.  The officers of a credit union, in most cases, should be in a much better position to allow common sense and be prudent given that they know all the facts.  Permission to do that should be given back to the Registrar of Credit Unions.  That certain aspects are dictated is slightly harsh and heavy on credit unions because that takes from their prudence.  It is not just an accountancy issue.  It has an effect on the dividend being paid out and the profits of a credit union.  It is not just an accounting movement on paper, perhaps I am wrong but that is my reading of it and it can affect the dividend being paid out.  It is important that those credit unions in profit and doing well should still be allowed pay a dividend because they want to hold their customers and encourage savings.  That is all part of the education of the credit union movement.  It is not only about loans.  If one is cut off it will affect the other.</p>
+          <p eId="para_47">The former registrar mentioned that arrears have increased.  That is possibly due to the fact that credit unions were not allowed reschedule some loans.  Many of these arrears could have been prevented if credit unions had more scope in rescheduling.  The witness alluded to an issue I raised previously with the Department of Finance, that we do not need a Bill for this to be changed.  The Minister has the power to do it, if I understand Mr. Logue correctly, under subsection (6).  My concern is that the Bill could be delayed for another while, that there would not be any changes and the arrears would get worse.  Does the Minister have the power to make these changes without the Bill?  Maybe he does not want to do that, but that is a different matter.</p>
+          <p eId="para_48">Reading between the lines, obviously in the past, the former Registrar of Credit Unions had a difficulty with some of the representative bodies.  Certainly there are question marks.  We need some guidance on this issue because it was apparent there were very clear differences.  We do not know who is right or who is wrong or whose motives are right or wrong.  Is there an issue with these bodies and their motives and what they are about?  It is an issue we must examine.</p>
+          <p eId="para_49">There appears to be some concern coming through from Mr. Logue's presentation.  Will Mr. Logue be part of the review body given that he has invaluable experience?  While not every credit union loved him or agreed with his approach he still has six years or more experience which may be useful in this area.</p>
+          <p eId="para_50">In regard to the savings protection scheme, Mr. Logue said it is useful but limited.  Given that I have heard concerns expressed, good and bad, will the witness elaborate further, perhaps at a later stage?  As a committee we want to know what is right and wrong in the event that changes have to be made.  The witness said there are no provisions for minimum standards of fitness for election or appointment to officer positions in credit unions.  Will he please elaborate?  I would be concerned as to where that is going because some credit unions vary in respect of what is available to them in terms of expertise from the small village to the large town.  Does the witness favour a relaxation of some of the regulations or change to some of the laws to allow, in effect, a two-tier credit union, whereby a credit union in an urban centre wants to progress to providing new services?  What are his thoughts on that issue?  I appreciate that is part of the review process but it would be useful to hear his views because some credit unions are in a position to do much more.  While I do not want credit unions to become banks, they might lose some of their clients if they do not move with the times and adjust some of the services provided.</p>
+          <p eId="para_51">I note that one of the Dublin credit unions is involved with the enterprise board to provide loans to small business.  I would appreciate Mr. Logue's comments.  I spoke on the issue a few months ago and I favour the idea if it is managed properly.  There appears to be a good deal of money in credit unions that could be put to good use in small businesses given that nobody else wants to help them.</p>
+          <p eId="para_52">In regard to the changes to supervisory structures and the reporting structures of credit unions, at different meetings here there was a suggestion to move the whole regulatory section to the Department of Enterprise, Trade and Employment.  Should the model in place be maintained given that it appears to have worked in the past, based on the fact that the majority of credit unions are okay compared with the banks?  In terms of the reporting structure of the Registrar of Credit Unions, should there be a specific ombudsman?</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_53">I might take the questions in reverse order.  With regard to the reporting structure of the Registrar of Credit Unions I believe it is appropriate for that to remain within the Central Bank.  Where the reporting within the Central Bank happens is a matter for the bank.  I agree with Deputy Sherlock's point that there is a need for a body of understanding to exist within the Central Bank about credit unions more than currently exists.  That would be helpful.</p>
+          <p eId="para_54">With regard to the operation of the position of Registrar of Credit Unions, the key question is the Act and the powers contained in the Act for the Registrar of Credit Unions.  The reporting structure within the Central Bank appears to make sense because, as a major provider of consumer finance, credit unions have an interaction with the other financial institutions in various forms as providers of insurance services and so on.  There would be a synergy in having the two reporting to the same organisation, separate but parallel within the same organisation.</p>
+          <p eId="para_55">The Deputy asked about the financing of SMEs.  We issued a guidance note in 2007 dealing with that issue which advocated that credit unions should be very careful about this area.  It is very laudable but it is of a higher risk than is normal in consumer finance especially because most boards of credit unions do not have the expertise to evaluate risk in commercial situations.  We recommended that they be careful about evaluation, to take external advice if necessary about the quality of the applicant, to seek projections, to have an enhanced oversight of the progress of the particular SME it is lending to, to put a limit on the overall level of loans that would go to such purposes, and to ensure the level of such loans would not impair the stability of the credit union.  We never wanted to micromanage credit unions in that sense but to leave them their freedom and let their common sense determine what should and should not be done but within a framework which protects its stability.</p>
+          <p eId="para_56">On the qualifications needed for members of a board and so forth, we need to protect the ethos of credit unions with regard to their governance.  The problem is as follows.  The credit unions claim to be democratic but the democratic system within credit unions is not working properly.  Consequently members have no incentive or insufficient knowledge of options when it comes to exercising their right to attend the AGM.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_18">
+          <from>Deputy Damien English</from>
+          <p eId="para_57">It is a bit like local elections or democracy in general I am afraid.</p>
+        </speech>
+        <speech by="#" eId="spk_19">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_58">I suppose it probably is.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_20">
+          <from>Deputy Damien English</from>
+          <p eId="para_59">I take the point and understand what Mr. Logue is saying.</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_60">I am not saying that they need to be qualified in the formal professional sense.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_22">
+          <from>Deputy Damien English</from>
+          <p eId="para_61">Should board members have some qualifications?</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_62">They should have some expertise.  The members who elect them should be given details of their expertise and commitment to the credit union.  With regard to provision of services, section 48 of the Act is a bit too restrictive.  It is a cumbersome part of the Act which makes the approval of additional services too long-winded and I agree it should be changed.</p>
+          <p eId="para_63">The SPS is a subject that gives rise to great passion — let me put it like that — within the credit union movement.  There is strong disagreement between the CUDA group of credit unions and the Irish League of Credit Unions as to how it should operate.  We always took a positive view of the SPS.  It has succeeded in stabilising a number of credit unions in the past.  It has never been called on in a major sense.  This is one of the problems.  It is necessarily limited with regard to the amount of funding available to it.  When in office I proposed that there should be a statutory provision that could be used if a more significant requirement for solvency support particularly were needed.  Any of the credit unions that have been supported by the SPS so far have been relatively small credit unions.  However, as the Deputy knows there are some very big ones.  The capacity of the SPS to deal with a big default is one that I would question.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_24">
+          <from>Deputy Damien English</from>
+          <p eId="para_64">How does it work?  Who is in charge of it?</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_65">The Irish League of Credit Unions is in charge of it.  The CUDA group would maintain there have been difficulties with its operation in the sense that it is purely discretionary.  Its operation is not set down in a series of detailed rules and requirements.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_26">
+          <from>Deputy Damien English</from>
+          <p eId="para_66">It should be.</p>
+        </speech>
+        <speech by="#" eId="spk_27">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_67">That would need to be tightened up in any situation whether voluntary or statutory.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_28">
+          <from>Deputy Damien English</from>
+          <p eId="para_68">Would Mr. Logue recommend a statutory process?</p>
+        </speech>
+        <speech by="#" eId="spk_29">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_69">Absolutely.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_30">
+          <from>Deputy Damien English</from>
+          <p eId="para_70">It seems correct.</p>
+        </speech>
+        <speech by="#" eId="spk_31">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_71">I am not — as far as I am aware — part of the review body.  It is possible I might be asked to give some input, but I do not know.</p>
+          <p eId="para_72">With regard to section 35, I agree with the Deputy on the ethos of the credit union movement, which underpins his remarks if I understood them correctly, as being supportive and helpful to the membership.  That is the great strength of the credit unions.  The Act requires prudent accounting.  I agree that prudence is a matter of opinion.  The Act also requires the Registrar of Credit Unions to implement the provisions of the Act.  When I was in the job I took a certain interpretation of that statutory obligation.  I know other interpretations are open in the sense that the Deputy implied.  As he said, they pay us big bucks to make those decisions.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_32">
+          <from>Deputy Damien English</from>
+          <p eId="para_73">I previously asked Department of Finance officials whether the issue is down to interpretation of the Credit Union Act as it is not black and white.  After the review it might become clearer how that should be interpreted and how it should be enforced.  Grey areas cause problems.</p>
+        </speech>
+        <speech by="#" eId="spk_33">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_74">They do.  Was there anything else?</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_34">
+          <from>Deputy Damien English</from>
+          <p eId="para_75">I asked about the Minister's ability to make changes.  Mr. Logue advocates urgency in making changes as do we.  Does the Minister have the power without new legislation?</p>
+        </speech>
+        <speech by="#" eId="spk_35">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_76">The Minister has the power to make changes to section 35 as specified in that subsection.  However, he does so by means of statutory instrument.  The statutory instrument process is apparently impeded by the Central Bank Reform Bill process, which is the cause of the delay.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_36">
+          <from>Deputy Damien English</from>
+          <p eId="para_77">Reading between the lines, Mr. Logue appears to have issues with some of the different bodies.  It might only be the issue of how they get on with each other.  Is there anything we need to consider or know about, or is it all running smoothly?  I understand section 32 provides that people are required to have on deposit 20% of the value of their overall borrowings.  Some of the groups that have appeared before the committee have called for that to be reviewed.  What are Mr. Logue's thoughts on that?</p>
+        </speech>
+        <speech by="#" eId="spk_37">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_78">Is this the section which requires credit unions to hold a minimum——</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_38">
+          <from>Deputy Damien English</from>
+          <p eId="para_79">No.  A member wishing to borrow €10,000 would be required to have €2,000 in savings or in shares.  Is that worth considering?  It has been mentioned by some of the groups that have appeared before the committee.</p>
+        </speech>
+        <speech by="#" eId="spk_39">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_80">It has never emerged as a major issue in my time as regulator.  It is a strange section.  It never surfaced as a major issue for me.  Regarding the question on the various representative associations, the movement is well represented by a number of groups.  There is the Irish League of Credit Unions, CUDA, CUMA, the National Supervisors Forum, the Credit Union Advisory Committee and a range of things.  We have always maintained a friendly if professional relationship with all of them.  We have been accused of bias in the past, which I reject out of hand.  We have always had very open communications with them.  I do not deny that at times we had fiery meetings with them.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_40">
+          <from>Deputy Damien English</from>
+          <p eId="para_81">That is what it is all about.</p>
+        </speech>
+        <speech by="#" eId="spk_41">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_82">The communications have never been interrupted and have always been open.</p>
+        </speech>
+        <speech by="#JoeBehan" eId="spk_42">
+          <from>Deputy Joe Behan</from>
+          <p eId="para_83">I thank Mr. Logue for answering the questions we all had in our minds.  Is there any difference between the management, operations or solvency of staff credit unions versus district or local credit unions?  Have they got the same strengths and weaknesses or is one stronger than the other?</p>
+        </speech>
+        <speech by="#" eId="spk_43">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_84">The Deputy is asking about the difference between the community credit union and what we used to call the industrial credit union.  The advantage the industrial credit union has is that it has access to salary deductions in respect of loan repayments and therefore in theory at least should have fewer defaults on loan repayments.  On the other hand in many of the large industrial credit unions the membership has matured over the years and consequently they have more savers than borrowers.  The challenge that faces them is how to deploy those very considerable resources in many respects, whereas in community credit unions that is generally not the case although some break that rule.  They have a different way of operating.  The industrial credit unions are more self-contained with closed membership, whereas the community credit union is more of a public event, so to speak.  Otherwise they operate under the same set of rules.</p>
+        </speech>
+        <speech by="#JoeBehan" eId="spk_44">
+          <from>Deputy Joe Behan</from>
+          <p eId="para_85">Given that Mr. Logue is saying that the industrial credit unions might have more money to lend than the community credit unions, is there scope for having co-operation between both so that local credit unions might have more access to funds to lend to borrowers?</p>
+        </speech>
+        <speech by="#" eId="spk_45">
+          <from>Mr. Brendan Logue</from>
+          <p eId="para_86">I would not generalise.  Some industrial credit unions have excess liquidity and some community credit unions have excess liquidity.  The legislation gives flexibility for a credit union to lend to another credit union should another credit union be short of liquidity.  It has not been used frequently, but the facility exists if needed.  Most credit unions are not short of liquidity, but a very small minority are.  So liquidity is not a big problem in the credit union movement.  On a consolidated basis there is certainly good liquidity.  The big challenges are management of the loan book, the capacity to lend to good quality borrowers, management of the arrears situation and good credit control.  Cost control is another requirement that is currently becoming much more important due to shrinking margins.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_46">
+          <from>Chairman</from>
+          <p eId="para_87">I thank Mr. Logue for his frank presentation.  It was refreshing and will form part of the report we are preparing on credit unions.  I also thank him for coming in at short notice.  I thank the members.</p>
+        </speech>
+        <summary eId="sum_6">The joint committee adjourned at 4.40 p.m. until 2.30 p.m. on Wednesday, 14 April 2010.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

@@ -1,0 +1,894 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_communications_energy_and_natural_resources/2010-05-19/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_communications_energy_and_natural_resources/2010-05-19/debate"/>
+          <FRBRdate date="2010-05-19" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/select_committee_on_communications_energy_and_natural_resources"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_communications_energy_and_natural_resources/2010-05-19/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_communications_energy_and_natural_resources/2010-05-19/debate/mul@"/>
+          <FRBRdate date="2010-05-19" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_communications_energy_and_natural_resources/2010-05-19/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_communications_energy_and_natural_resources/2010-05-19/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_18" refersTo="#bill.2010.6.dail.3.amd_11" outcome="#lost">
+            <count eId="vote_1-count_1" value="5" refersTo="#ta" href="#qty_1"/>
+            <count eId="vote_1-count_2" value="7" refersTo="#nil" href="#qty_2"/>
+          </voting>
+        </parliamentary>
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" eId="#vol_None" showAs="Vol. None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" eId="#no_None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="notmoved" href="/ie/oireachtas/ontology#NotMoved" showAs="Not Moved"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCConcept eId="agreed" href="/ie/oireachtas/ontology#Agreed" showAs="Agreed"/>
+        <TLCConcept eId="withdrawn" href="/ie/oireachtas/ontology#Withdrawn" showAs="Withdrawn"/>
+        <TLCConcept eId="lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCEvent eId="bill.2010.6.dail.3" href="/ie/oireachtas/bill/2010/6/dail/3" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_1" href="/ie/oireachtas/bill/2010/6/dail/3/amd_1" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 1"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_1.lost" href="/ie/oireachtas/bill/2010/6/dail/3/amd_1/lost" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 1 (Lost)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_10" href="/ie/oireachtas/bill/2010/6/dail/3/amd_10" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 10"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_10.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_10/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 10 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_11" href="/ie/oireachtas/bill/2010/6/dail/3/amd_11" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 11"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_11.lost" href="/ie/oireachtas/bill/2010/6/dail/3/amd_11/lost" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 11 (Lost)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_12" href="/ie/oireachtas/bill/2010/6/dail/3/amd_12" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 12"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_12.lost" href="/ie/oireachtas/bill/2010/6/dail/3/amd_12/lost" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 12 (Lost)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_13" href="/ie/oireachtas/bill/2010/6/dail/3/amd_13" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 13"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_13.withdrawn" href="/ie/oireachtas/bill/2010/6/dail/3/amd_13/withdrawn" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 13 (Withdrawn)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_14" href="/ie/oireachtas/bill/2010/6/dail/3/amd_14" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 14"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_14.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_14/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 14 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_15" href="/ie/oireachtas/bill/2010/6/dail/3/amd_15" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 15"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_15.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_15/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 15 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_16" href="/ie/oireachtas/bill/2010/6/dail/3/amd_16" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 16"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_16.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_16/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 16 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_17" href="/ie/oireachtas/bill/2010/6/dail/3/amd_17" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 17"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_17.lost" href="/ie/oireachtas/bill/2010/6/dail/3/amd_17/lost" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 17 (Lost)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_18" href="/ie/oireachtas/bill/2010/6/dail/3/amd_18" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 18"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_18.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_18/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 18 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_19" href="/ie/oireachtas/bill/2010/6/dail/3/amd_19" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 19"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_19.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_19/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 19 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_2" href="/ie/oireachtas/bill/2010/6/dail/3/amd_2" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 2"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_2.lost" href="/ie/oireachtas/bill/2010/6/dail/3/amd_2/lost" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 2 (Lost)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_20" href="/ie/oireachtas/bill/2010/6/dail/3/amd_20" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 20"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_20.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_20/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 20 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_21" href="/ie/oireachtas/bill/2010/6/dail/3/amd_21" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 21"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_21.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_21/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 21 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_22" href="/ie/oireachtas/bill/2010/6/dail/3/amd_22" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 22"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_22.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_22/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 22 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_23" href="/ie/oireachtas/bill/2010/6/dail/3/amd_23" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 23"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_23.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_23/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 23 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_24" href="/ie/oireachtas/bill/2010/6/dail/3/amd_24" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 24"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_24.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_24/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 24 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_25" href="/ie/oireachtas/bill/2010/6/dail/3/amd_25" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 25"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_25.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_25/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 25 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_26" href="/ie/oireachtas/bill/2010/6/dail/3/amd_26" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 26"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_26.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_26/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 26 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_27" href="/ie/oireachtas/bill/2010/6/dail/3/amd_27" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 27"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_27.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_27/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 27 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_28" href="/ie/oireachtas/bill/2010/6/dail/3/amd_28" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 28"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_28.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_28/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 28 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_29" href="/ie/oireachtas/bill/2010/6/dail/3/amd_29" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 29"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_29.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_29/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 29 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_3" href="/ie/oireachtas/bill/2010/6/dail/3/amd_3" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 3"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_3.lost" href="/ie/oireachtas/bill/2010/6/dail/3/amd_3/lost" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 3 (Lost)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_30" href="/ie/oireachtas/bill/2010/6/dail/3/amd_30" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 30"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_30.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_30/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 30 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_31" href="/ie/oireachtas/bill/2010/6/dail/3/amd_31" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 31"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_31.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_31/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 31 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_32" href="/ie/oireachtas/bill/2010/6/dail/3/amd_32" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 32"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_32.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_32/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 32 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_33.notmoved" href="/ie/oireachtas/bill/2010/6/dail/3/amd_33/notmoved" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 33 (Not Moved)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_34" href="/ie/oireachtas/bill/2010/6/dail/3/amd_34" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 34"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_34.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_34/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 34 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_35" href="/ie/oireachtas/bill/2010/6/dail/3/amd_35" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 35"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_35.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_35/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 35 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_36" href="/ie/oireachtas/bill/2010/6/dail/3/amd_36" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 36"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_36.lost" href="/ie/oireachtas/bill/2010/6/dail/3/amd_36/lost" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 36 (Lost)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_37.notmoved" href="/ie/oireachtas/bill/2010/6/dail/3/amd_37/notmoved" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 37 (Not Moved)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_38.notmoved" href="/ie/oireachtas/bill/2010/6/dail/3/amd_38/notmoved" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 38 (Not Moved)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_39.notmoved" href="/ie/oireachtas/bill/2010/6/dail/3/amd_39/notmoved" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 39 (Not Moved)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_4" href="/ie/oireachtas/bill/2010/6/dail/3/amd_4" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 4"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_4.lost" href="/ie/oireachtas/bill/2010/6/dail/3/amd_4/lost" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 4 (Lost)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_40" href="/ie/oireachtas/bill/2010/6/dail/3/amd_40" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 40"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_40.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_40/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 40 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_41" href="/ie/oireachtas/bill/2010/6/dail/3/amd_41" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 41"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_41.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_41/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 41 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_42" href="/ie/oireachtas/bill/2010/6/dail/3/amd_42" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 42"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_42.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_42/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 42 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_43" href="/ie/oireachtas/bill/2010/6/dail/3/amd_43" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 43"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_43.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_43/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 43 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_44" href="/ie/oireachtas/bill/2010/6/dail/3/amd_44" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 44"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_44.withdrawn" href="/ie/oireachtas/bill/2010/6/dail/3/amd_44/withdrawn" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 44 (Withdrawn)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_45" href="/ie/oireachtas/bill/2010/6/dail/3/amd_45" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 45"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_45.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_45/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 45 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_5" href="/ie/oireachtas/bill/2010/6/dail/3/amd_5" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 5"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_5.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_5/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 5 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_6" href="/ie/oireachtas/bill/2010/6/dail/3/amd_6" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 6"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_6.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_6/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 6 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_7" href="/ie/oireachtas/bill/2010/6/dail/3/amd_7" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 7"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_7.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_7/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 7 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_8" href="/ie/oireachtas/bill/2010/6/dail/3/amd_8" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 8"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_8.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_8/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 8 (Agreed)"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_9" href="/ie/oireachtas/bill/2010/6/dail/3/amd_9" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 9"/>
+        <TLCEvent eId="bill.2010.6.dail.3.amd_9.agreed" href="/ie/oireachtas/bill/2010/6/dail/3/amd_9/agreed" showAs="Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Dáil Committee Stage - Amendment No. 9 (Agreed)"/>
+        <TLCPerson eId="CharlesFlanagan" href="/ie/oireachtas/member/id/Charles-Flanagan.D.1987-03-10" showAs="Charles Flanagan"/>
+        <TLCPerson eId="EamonRyanGP" href="/ie/oireachtas/member/id/Eamon-Ryan.D.2002-06-06" showAs="Eamon Ryan"/>
+        <TLCPerson eId="JimmyDevinsFF" href="/ie/oireachtas/member/id/Jimmy-Devins.D.2002-06-06" showAs="Jimmy Devins"/>
+        <TLCPerson eId="JoeMcHugh" href="/ie/oireachtas/member/id/Joe-McHugh.S.2002-09-12" showAs="Joe McHugh"/>
+        <TLCPerson eId="JohnBrowne2" href="/ie/oireachtas/member/id/John-Browne.D.1982-12-14" showAs="John Browne"/>
+        <TLCPerson eId="MJNolan" href="/ie/oireachtas/member/id/M-J-Nolan.S.1982-05-13" showAs="M. J. Nolan"/>
+        <TLCPerson eId="MattieMcGrath" href="/ie/oireachtas/member/id/Mattie-McGrath.D.2007-06-14" showAs="Mattie McGrath"/>
+        <TLCPerson eId="MichaelMoynihan" href="/ie/oireachtas/member/id/Michael-Moynihan.D.1997-06-26" showAs="Michael Moynihan"/>
+        <TLCPerson eId="MichaelWDArcy" href="/ie/oireachtas/member/id/Michael-D'Arcy.D.2007-06-14" showAs="Michael D'Arcy"/>
+        <TLCPerson eId="PeterKellyFF" href="/ie/oireachtas/member/id/Peter-Kelly.D.2002-06-06" showAs="Peter Kelly"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Sean Sherlock"/>
+        <TLCPerson eId="SimonCoveney" href="/ie/oireachtas/member/id/Simon-Coveney.D.1998-10-23" showAs="Simon Coveney"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Communications,_Energy_and_Natural_Resources" href="/ie/oireachtas/role/minister/communications__energy__natural_resources" showAs="Minister for Communications, Energy and Natural Resources"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>ROGHCHOISTE UM CHUMARSÁID, FUINNIMH AGUS ACMHAINNÍ NÁDÚRTHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON COMMUNICATIONS, ENERGY AND NATURAL RESOURCES</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2010-05-19">Dé Céadaoin, 19 Bealtaine 2010</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2010-05-19">Wednesday, 19 May 2010</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 9.45 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JohnBrowne2">Deputy John Browne,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#JoeMcHugh">Deputy Joe McHugh,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#SimonCoveney">Deputy Simon Coveney,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#MichaelMoynihan">Deputy Michael Moynihan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelWDArcy">Deputy Michael D’Arcy,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#EamonRyanGP">Deputy Eamon Ryan <i>(Minister for</i>
+                                    </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#JimmyDevinsFF">Deputy Jimmy Devins,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <i>Communications, Energy and</i>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#CharlesFlanagan">Deputy Charles Flanagan,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10"><i>Natural Resources)</i>,</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#PeterKellyFF">Deputy Peter Kelly,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#SeanSherlock">Deputy Seán Sherlock.*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#MattieMcGrath">Deputy Mattie McGrath,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td/>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Deputies Noel J. Coonan and Liz McManus, respectively.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#MJNolan">DEPUTY M. J. NOLAN IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2" refersTo="#bill.2010.6.dail.3">
+        <heading>Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010: Committee Stage</heading>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_14">The meeting has been convened for consideration of the Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010 which was referred to the select committee by order of the Dáil on 12 November 2010.</p>
+        </speech>
+        <summary refersTo="#agreed" eId="sum_5" title="decision">Sections 1 and 2 agreed to.<entity refersTo="#bill.2010.6.dail.3.sec_1.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_2.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_6">SECTION 3</summary>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_2">
+          <from>Chairman</from>
+          <p eId="para_15">Amendments Nos. 1 to 4, inclusive, 11, 12, 17, 36 to 39, inclusive, are related and will be discussed together.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_3">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_16">I move amendment No. 1:<entity refersTo="#bill.2010.6.dail.3.amd_1" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_17">In page 6, between lines 13 and 14, to insert the following:</p>
+          <p class="indent_2" eId="para_18">" "bioethanol" shall only be deemed to constitute a biofuel in the case of ethylalcohol ex CN (Combined nomenclature) sub heading Taric code 2207 1000 with an alcohol content of at least 99 per cent volume the properties of which comply at least with the requirements set in document EN 15376:2007 by the EU Committee for Standardisation (CEN) or any subsequent revisions to this document;".</p>
+          <p eId="para_19">There has already been significant debate on this matter.  I take the Minister's Second Stage point about the introduction of regulations after enactment and the time lags in notifications to the European Commission.  This amendment, however, is to lay down in the legislation a definitive move to stimulate local bio-fuel production.  The domestic bio-fuel industry has supported our amendments in this regard.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_4">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_20">Before we go into the amendments, will the Minister clarify if bio-gas is included in these definitions in section 3?</p>
+        </speech>
+        <speech by="#EamonRyanGP" as="#Minister_for_Communications,_Energy_and_Natural_Resources" eId="spk_5">
+          <from>Minister for Communications, Energy and Natural Resources (Deputy Eamon Ryan)</from>
+          <p eId="para_21">Under section 44B of the principal Act, it is intended to provide a gas-to-liquid conversion factor which would mean bio-gas would be covered by the legislation.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_6">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_22">I can see why these amendments have been grouped together but they are dealing with slightly different points.</p>
+          <p eId="para_23">I support Deputy McManus's amendments but I understand why the Minister has difficulty with them.  He has proposed a compromise by which he can introduce new standards through ministerial order after the legislation is enacted.  There was much debate about this in the Seanad and on Second Stage in the Dáil.</p>
+          <p eId="para_24">These amendments would reassure domestic bio-fuel producers that we are serious about legislating for quality assurances.  This is about ensuring we also give our domestic producers a competitive advantage through customs tariffs.</p>
+          <p eId="para_25">I hope the Minister will accept my amendment No. 11 because it will not impact on his compromise.  Instead, it seeks to have the Minister consider the capacity of domestic producers to supply bio-fuel to meet domestic market demands when he is considering the percentage of blend required.  If he or any future Minister decides to increase to a 10% bio-fuel blend, then this provision will allow him to consider whether domestic producers could meet this demand.  That is a reasonable request which has not been forwarded by any lobbyists.</p>
+          <p eId="para_26">Amendment No. 12 is similar to amendment No. 11 in that it seeks to have the Minister consider the various custom tariff policies and other national policies adopted by EU member states to promote domestic production of bio-fuels to supply market demand.</p>
+          <p eId="para_27">Amendment No. 17 is in my and Deputy McManus's names.  It is essentially a compromise we hope the Minister will accept if he does not accept amendments Nos. 1 to 4, inclusive.  It simply provides for the Minister to use TARIC codes when considering quality and purity issues, particularly around ethanol.  The domestic industry needs some assurances in this regard.  Accepting this amendment will not weaken the legislation but provide a TARIC code framework for the way quality issues will be assessed.  It is a compromise amendment proposed by Ethanol Ireland and other domestic interest groups which believe it will strengthen their hand in this regard.</p>
+          <p eId="para_28">Amendment No. 38 is more or less the same principle as amendment No.17, so I do not really need to address that because it is the same argument.  Amendment No. 37 introduces an element which needs to be spelt out somewhat more in the legislation.  I know the Minister on a personal level has strong views about this as it concerns security of supply issues.  This requires the Minister to have regard to a whole series of different things when determining future decisions relating to this legislation and it is introducing the provision that he must have regard to increasing the level of security of supply of transport fuels.  In the context of the debate we had in the Dáil two weeks ago on security of supply, that is something we should spell out in the legislation and I believe this is probably the appropriate place to insert it, unless the Minister can suggest a better place.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_7" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_29">My apologies for being so late.  I propose to take amendments Nos. 1 to 4, inclusive, 11, 12 and 36 to 39, inclusive, together.  On Committee Stage and Report Stage of the Bill in the Seanad the issue arose as regards specifying particular TARIC codes for ethanol under the obligation, on the basis that it would promote indigenous industry.  Having consulted with the Attorney General's office a new section 44X was added in order to provide power for the Minister to make an order specifying the fuel standards required in order for fuel to meet the obligation.  By introducing this section I will, once the Bill is enacted, be able to move to make a statutory instrument setting out the measure that is required around specifying a TARIC code and putting that through the notification procedure to the European Commission in due course.  By taking this course of action now, we are ensuring that there is no undue delay in progressing the legislative process and in bringing the obligation into force.</p>
+          <p eId="para_30">The amendments tabled by the Deputies opposite, which bear a close resemblance to those put forward in the Seanad, are effectively already dealt with in this amendment.  As explained previously, there is little to be gained by specifying the precise standards required in primary legislation, as the flexibility around being able to adjust the standards on an ongoing basis is critical.</p>
+          <p eId="para_31">I should also point out that IS EN15376 is already the relevant standard for ethanol in Ireland, and for this reason I do not propose to accept the Opposition's proposed amendments Nos. 1 to 4, inclusive, 11, 12, 17 and 36 to 39, inclusive.  Perhaps I should add to some of the comments made this morning.  I understand the motive and intent behind them and the various amendments tabled by the Opposition.</p>
+          <p eId="para_32">One reason we want to specify TARIC codes by statutory instrument rather than in primary legislation is that we want flexibility and there may be other codes.  We could see down the line that it might not be a question of doing this on a TARIC code basis, and there could be an evolution of other codes or standards that we might need to set out within a statutory instrument.  Therefore, if we are to be very specific around a particular coding system, this would reduce that level of flexibility.  This is something we have to watch.</p>
+          <p eId="para_33">We all agree that for a variety of reasons one of the key motivations we have is to try to support indigenous production.  How exactly this is to be done is something that may best be determined as time evolves and the possibility we are stitching in here by using the statutory instrument mechanism is the right course.</p>
+          <p eId="para_34">I understand Deputy Coveney's amendment in that one may look at indigenous production in that very explicit manner, as a factor in our considerations, but we have to be careful since we are operating within a free trade system where the rules are fairly explicit and can be pursued.  While obviously we have to consider what our domestic production levels are, it is something that is best done in the use of those secondary instruments rather than necessarily in primary legislation.</p>
+          <p eId="para_35">This is going to evolve.  Within the European process we have stitched in various review stages.  We have to review it anyway, to reach the 10% target as to what the level will be as regards other renewable fuels coming in.  Establishing the general obligation system while using the statutory instrument mechanism to adjust it is the right process.  To be specific under primary legislation would weaken our ability to be flexible.  While I understand the amendments have the very positive intent of supporting indigenous production, in the long-run we shall be better served by giving ourselves the flexibility necessary to adjust standards and codes as we go on.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_8">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_36">I understand the point the Minister is making as regards amendment Nos. 1 to 4, inclusive, but if my colleague wants to press them I will support him.</p>
+          <p eId="para_37">However, I am surprised, particularly in relation to amendment No. 11, that the Minister does not believe this is a factor which should be considered.  When assessing the percentage bio-fuel mix in the future, one of the factors the Minister should consider is the capacity of domestic producers to supply bio-fuel to meet market demands.  As regards amendment No. 12, one of the factors he should consider is what other countries are doing in this area.  Surely that should be stitched into the legislation.</p>
+          <p eId="para_38">The legislation states, "For the purpose of a review under this section, the Minister shall have regard...", and that is reviewing the percentage of bio-fuels — the 4% we were introducing.  If we are going to increase or reduce it at some stage in the future, the legislation already says the Minister shall have regard to the effect of the bio-fuel obligation on fuel prices in the State.  That is a domestic consideration, and it stipulates he shall have regard to the reports required to be submitted to the Commission of the European Communities on progress in the promotion of use of energy from renewable sources pursuant to Article 22 of the directive.  Therefore, we have to take EU directives into account.</p>
+          <p eId="para_39">All I am saying is that the Minister should have regard to the capacity of domestic producers to supply increased levels of bio-fuels and that he should also look at what other countries are doing to support domestic production.  We all agree that where possible we want to see bio-fuels that are used in Ireland produced in Ireland.  We cannot block imports from other European countries, and neither should we, but we can put market conditions in place that make it as advantageous as possible for people to produce the bio-fuels that will be used in Ireland here at home, and give farmers and companies here the option to do that.</p>
+          <p eId="para_40">I shall press amendments Nos. 11 and 12, while I can understand the Minister's points on the other amendments and I believe what he says makes some sense.  However, amendments Nos. 11 and 12 are in a different category.  They have nothing to do with TARIC codes, and neither have they anything to do with quality.  They are simply asking any future Minister who might not have the same grasp of this issue as the present incumbent to have regard to what other countries are doing and to the capacity to produce bio-fuels domestically in Ireland, as that industry develops into the future.  I do not believe that is too much to ask.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_9" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_41">We must have regard to the directives.  This is primarily being driven by European directives and legislation.  That is a good thing, as it gives us a scaled response that will help establish a stable market.</p>
+          <p eId="para_42">Crucially as well, we are involved in a very sensitive world trade issue here and we have to be very careful in our legislation in terms of explicit reference to some of the considerations that the Deputy has mentioned.  However, we may weaken our hand if we are explicit in that.  It is better to put it into secondary legislation.</p>
+        </speech>
+        <summary eId="sum_7" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2010.6.dail.3.amd_1.lost" name="amendment"/>
+                </summary>
+        <speech by="#SeanSherlock" eId="spk_10">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_43">I move amendment No. 2:<entity refersTo="#bill.2010.6.dail.3.amd_2" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_44">In page 6, between lines 38 and 39, to insert the following:</p>
+          <p class="indent_2" eId="para_45">" "commencement date" shall mean 1 January 2013;".</p>
+        </speech>
+        <summary eId="sum_8" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2010.6.dail.3.amd_2.lost" name="amendment"/>
+                </summary>
+        <speech by="#SeanSherlock" eId="spk_11">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_46">I move amendment No. 3:<entity refersTo="#bill.2010.6.dail.3.amd_3" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_47">In page 7, between lines 3 and 4, to insert the following:</p>
+          <p class="indent_2" eId="para_48">" "EN15376" shall have the meaning prescribed to it in document "EN 15376:2007 Automotive fuels — Ethanol as a blending component for petrol — Requirements and test methods" or any subsequent revisions to this document by the EU Committee for Standardisation;".</p>
+        </speech>
+        <summary eId="sum_9" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2010.6.dail.3.amd_3.lost" name="amendment"/>
+                </summary>
+        <speech by="#SeanSherlock" eId="spk_12">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_49">I move amendment No. 4:<entity refersTo="#bill.2010.6.dail.3.amd_4" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_50">In page 8, between lines 4 and 5, to insert the following:</p>
+          <p class="indent_2" eId="para_51">" "Taric code 2207 1000" shall have the meaning prescribed to it in Commission Regulation EC NO 948/2009 of 30 Sept 2009 amending Annex 1 to Council Regulations (EEC) No. 2658/87 on the tariff and statistical nomenclature and on the Common Customs Tariff.  The duty is to be applied in accordance with Taric code 2207 1000 — Undenatured ethyl alcohol of an alcoholic strength by volume of 80% vol or higher;".</p>
+        </speech>
+        <summary eId="sum_10" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2010.6.dail.3.amd_4.lost" name="amendment"/>
+                </summary>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_13">
+          <from>Chairman</from>
+          <p eId="para_52">Amendments Nos. 5 to 7, inclusive,14, 15, 19, 20, 34 and 35 are related and may be taken together.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_14" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_53">I move amendment No. 5:<entity refersTo="#bill.2010.6.dail.3.amd_5" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_54">In page 8, line 36, after "publication" to insert "on its website".</p>
+          <p eId="para_55">These amendments are inserted for further clarification purposes.  They are largely of a technical nature and I propose they be accepted on that basis.</p>
+        </speech>
+        <summary eId="sum_11" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_5.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_15" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_56">I move amendment No. 6:<entity refersTo="#bill.2010.6.dail.3.amd_6" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_57">In page 8, line 37, to delete "The Agency" and substitute "For the purposes of paragraph (<i>a</i>), the Agency”.</p>
+        </speech>
+        <summary eId="sum_12" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_6.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_16" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_58">I move amendment No. 7:<entity refersTo="#bill.2010.6.dail.3.amd_7" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_59">In page 9, line 19, after "period" to insert "not less than".</p>
+        </speech>
+        <summary eId="sum_13" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_7.agreed" name="amendment"/>
+                </summary>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_17">
+          <from>Chairman</from>
+          <p eId="para_60">Amendments Nos. 8 to 10, inclusive, and 21 to 32, inclusive, are related and may be taken together.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_18" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_61">I move amendment No. 8:<entity refersTo="#bill.2010.6.dail.3.amd_8" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_62">In page 9, to delete lines 23 to 34 and substitute the following:</p>
+          <p class="indent_2" eId="para_63">"(3) The specified amount, referred to in subsection (1), for the purpose of determining the biofuel obligation, shall be expressed in litres and shall be calculated by reference to—</p>
+          <p class="indent_3" eId="para_64">(<i>a</i>) the relevant disposals of petroleum products by each obligated party during the obligation period concerned, and</p>
+          <p class="indent_3" eId="para_65">(<i>b</i>) the percentage rate provided for by section 44D(1).”.</p>
+          <p eId="para_66">Amendment No. 22 is inserted for further clarity in respect of the value of each biofuel certificate to each litre of biofuel for compliance with the obligation.  The subsequent amendments Nos. 23 to 32, inclusive, are technical amendments arising from the insertion of amendment No. 22.  These amendments are put forward on the basis of contracts with industry, which raises a question as to whether the extant draft would be open to interpretation.  The amendments are designed to remove that doubt and I propose they be accepted.</p>
+        </speech>
+        <summary eId="sum_14" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_8.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_19" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_67">I move amendment No. 9:<entity refersTo="#bill.2010.6.dail.3.amd_9" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_68">In page 9, to delete lines 35 to 44 and substitute the following:</p>
+          <p class="indent_1" eId="para_69">"44D.—(1) The percentage rate referred to in section 44C(3)(<i>b</i>) shall be—</p>
+          <p class="indent_2" eId="para_70">(<i>a</i>) such percentage as stands specified by order under subsection (2), or</p>
+          <p class="indent_2" eId="para_71">(<i>b</i>) where no amount stands so specified, 4.166 per cent.”.</p>
+        </speech>
+        <summary eId="sum_15" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_9.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_20" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_72">I move amendment No. 10:<entity refersTo="#bill.2010.6.dail.3.amd_10" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_73">In page 10, to delete lines 4 to 8 and substitute the following:</p>
+          <p class="indent_2" eId="para_74">"(<i>b</i>) The Minister may revoke an order under this subsection without providing for a percentage rate, in which case the percentage rate specified in subsection (1)(<i>b</i>) shall apply.”.</p>
+        </speech>
+        <summary eId="sum_16" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_10.agreed" name="amendment"/>
+                </summary>
+        <speech by="#SimonCoveney" eId="spk_21">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_75">I move amendment No. 11:<entity refersTo="#bill.2010.6.dail.3.amd_11" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_76">In page 10, between lines 12 and 13, to insert the following:</p>
+          <p class="indent_2" eId="para_77">"(<i>b</i>) the capacity of domestic producers to supply biofuel to meet domestic market demands,”.</p>
+        </speech>
+        <summary eId="sum_17">Amendment put.<entity refersTo="#bill.2010.6.dail.3.amd_11" name="amendment"/>
+                </summary>
+        <debateSection name="division" eId="dbsect_3">
+          <summary title="division" eId="sum_18">The Committee divided: Tá, <quantity normalized="5" refersTo="#ta" eId="qty_1">5</quantity>; Níl, <quantity normalized="7" refersTo="#nil" eId="qty_2">7</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_4">
+            <p eId="para_78">Tá</p>
+            <p eId="para_79">
+              <person refersTo="#SimonCoveney">Coveney, Simon.</person>
+            </p>
+            <p eId="para_80">
+              <person refersTo="#MichaelWDArcy">D’Arcy, Michael.</person>
+            </p>
+            <p eId="para_81">
+              <person refersTo="#CharlesFlanagan">Flanagan, Charles.</person>
+            </p>
+            <p eId="para_82">
+              <person refersTo="#JoeMcHugh">McHugh, Joe.</person>
+            </p>
+            <p eId="para_83">
+              <person refersTo="#SeanSherlock">Sherlock, Seán.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_5">
+            <p eId="para_84">Níl</p>
+            <p eId="para_85">
+              <person refersTo="#JohnBrowne2">Browne, John.</person>
+            </p>
+            <p eId="para_86">
+              <person refersTo="#JimmyDevinsFF">Devins, Jimmy.</person>
+            </p>
+            <p eId="para_87">
+              <person refersTo="#PeterKellyFF">Kelly, Peter.</person>
+            </p>
+            <p eId="para_88">
+              <person refersTo="#MattieMcGrath">McGrath, Mattie.</person>
+            </p>
+            <p eId="para_89">
+              <person refersTo="#MichaelMoynihan">Moynihan, Michael.</person>
+            </p>
+            <p eId="para_90">
+              <person refersTo="#MJNolan">Nolan, M. J.</person>
+            </p>
+            <p eId="para_91">
+              <person refersTo="#EamonRyanGP">Ryan, Eamon.</person>
+            </p>
+          </debateSection>
+          <summary eId="sum_19" title="decision" refersTo="#lost">Amendment declared lost.<entity refersTo="#bill.2010.6.dail.3.amd_11.lost" name="amendment"/>
+                    </summary>
+        </debateSection>
+        <speech by="#SimonCoveney" eId="spk_22">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_92">I move amendment No. 12:<entity refersTo="#bill.2010.6.dail.3.amd_12" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_93">In page 10, between lines 18 and 19, to insert the following:</p>
+          <p class="indent_2" eId="para_94">"(<i>c</i>) the various custom tariff policies and other national policies adopted by EU member States to promote domestic production of biofuels to supply market demand,”.</p>
+        </speech>
+        <summary eId="sum_20" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2010.6.dail.3.amd_12.lost" name="amendment"/>
+                </summary>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_23">
+          <from>Chairman</from>
+          <p eId="para_95">Amendments Nos. 13 and 33 are related and may be discussed together.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_24">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_96">I move amendment No. 13:<entity refersTo="#bill.2010.6.dail.3.amd_13" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_97">In page 10, line 33, to delete "the internet" and substitute "the Minister's website".</p>
+          <p eId="para_98">These are straightforward technical amendments.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_25" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_99">Any information proposed to be put on-line, as outlined in the sections referred to, will be posted on my Department's and the agency's websites but will not solely be on either one or the other.  Therefore, I do not propose to accept the amendments.</p>
+        </speech>
+        <summary eId="sum_21" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2010.6.dail.3.amd_13.withdrawn" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_26" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_100">I move amendment No. 14:<entity refersTo="#bill.2010.6.dail.3.amd_14" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_101">In page 10, line 39, after "publication" to insert "on the internet".</p>
+        </speech>
+        <summary eId="sum_22" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_14.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_27" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_102">I move amendment No. 15:<entity refersTo="#bill.2010.6.dail.3.amd_15" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_103">In page 10, line 40, to delete "The Minister" and substitute "For the purposes of paragraph (<i>a</i>), the Minister”.</p>
+        </speech>
+        <summary eId="sum_23" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_15.agreed" name="amendment"/>
+                </summary>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_28">
+          <from>Chairman</from>
+          <p eId="para_104">Amendments Nos. 16 and 18 are cognate and will be discussed together.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_29" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_105">I move amendment No. 16:<entity refersTo="#bill.2010.6.dail.3.amd_16" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_106">In page 15, lines 51 and 52, to delete "biodegradable waste or residue" and substitute the following:</p>
+          <p class="indent_2" eId="para_107">"biodegradable waste, residue, non-food cellulosic material, lignocellulosic material or algae".</p>
+          <p eId="para_108">This addition is made in order to clarify that bio-fuel produced from non-food cellulosic material, lignocellulosic material or algae can also be considered eligible for certification under the obligation.  These bio-fuels are classified as second generation bio-fuels and, as such, do not compete with fuel crops for land or resources.  Given that we have dealt with drafting questions, we can now insert these into the Bill.  Reflecting their importance, these fuels will receive double certificates under the scheme.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_30">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_109">I strongly support the amendments which serve to facilitate what will be in the future an important industry in Ireland, that is, the production of bio-fuels from waste.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_31" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_110">To go back to the Deputy's earlier question, the production of gas from waste will also be eligible for double certificates.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_32">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_111">Yes, I had assumed that would be the case.</p>
+        </speech>
+        <summary eId="sum_24" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_16.agreed" name="amendment"/>
+                </summary>
+        <speech by="#SimonCoveney" eId="spk_33">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_112">I move amendment No. 17:<entity refersTo="#bill.2010.6.dail.3.amd_17" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_113">In page 16, line 39, after "concerned" to insert "and is classified under certain Taric codes".</p>
+        </speech>
+        <summary eId="sum_25" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2010.6.dail.3.amd_17.lost" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_34" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_114">I move amendment No. 18:<entity refersTo="#bill.2010.6.dail.3.amd_18" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_115">In page 18, lines 2 and 3, to delete "biodegradable waste or residue" and substitute the following:</p>
+          <p class="indent_2" eId="para_116">"biodegradable waste, residue, non-food cellulosic material, lignocellulosic material or algae".</p>
+        </speech>
+        <summary eId="sum_26" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_18.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_35" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_117">I move amendment No. 19:<entity refersTo="#bill.2010.6.dail.3.amd_19" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_118">In page 18, line 4, to delete "The Agency" and substitute "For the purposes of paragraph (<i>a</i>), the Agency”.</p>
+        </speech>
+        <summary eId="sum_27" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_19.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_36" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_119">I move amendment No. 20:<entity refersTo="#bill.2010.6.dail.3.amd_20" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_120">In page 18, line 22, after "publication" to insert "on its website".</p>
+        </speech>
+        <summary eId="sum_28" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_20.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_37" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_121">I move amendment No. 21:<entity refersTo="#bill.2010.6.dail.3.amd_21" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_122">In page 19, line 27, to delete "the amount of".</p>
+        </speech>
+        <summary eId="sum_29" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_21.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_38" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_123">I move amendment No. 22:<entity refersTo="#bill.2010.6.dail.3.amd_22" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_124">In page 19, between lines 35 and 36, to insert the following subsection:</p>
+          <p class="indent_2" eId="para_125">"(2) For the purposes of subsection (1)(<i>b</i>), each biofuel obligation certificate shall have a value equivalent to one litre of the specified amount calculated in accordance with section 44C(3) for the purpose of determining the biofuel obligation.”.</p>
+        </speech>
+        <summary eId="sum_30" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_22.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_39" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_126">I move amendment No. 23:<entity refersTo="#bill.2010.6.dail.3.amd_23" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_127">In page 19, line 36, to delete "(2) Within 28 days" and substitute "(3) Within 28 days".</p>
+        </speech>
+        <summary eId="sum_31" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_23.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_40" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_128">I move amendment No. 24:<entity refersTo="#bill.2010.6.dail.3.amd_24" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_129">In page 19, line 46, to delete "(3) Where an" and substitute "(4) Where an".</p>
+        </speech>
+        <summary eId="sum_32" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_24.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_41" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_130">I move amendment No. 25:<entity refersTo="#bill.2010.6.dail.3.amd_25" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_131">In page 19, lines 47 and 48, to delete "subsection (2)" and substitute "subsection (3)".</p>
+        </speech>
+        <summary eId="sum_33" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_25.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_42" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_132">I move amendment No. 26:<entity refersTo="#bill.2010.6.dail.3.amd_26" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_133">In page 20, line 3, to delete "(4) For the" and substitute "(5) For the".</p>
+        </speech>
+        <summary eId="sum_34" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_26.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_43" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_134">I move amendment No. 27:<entity refersTo="#bill.2010.6.dail.3.amd_27" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_135">In page 20, line 8, to delete "subsection (2) or (3)" and substitute "subsection (3) or (4)".</p>
+        </speech>
+        <summary eId="sum_35" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_27.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_44" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_136">I move amendment No. 28:<entity refersTo="#bill.2010.6.dail.3.amd_28" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_137">In page 20, line 11, to delete "(5)(<i>a</i>) Subject to” and substitute “(6)(<i>a</i>) Subject to”.</p>
+        </speech>
+        <summary eId="sum_36" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_28.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_45" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_138">I move amendment No. 29:<entity refersTo="#bill.2010.6.dail.3.amd_29" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_139">In page 20, line 29, to delete "(6) A biofuel" and substitute "(7) A biofuel".</p>
+        </speech>
+        <summary eId="sum_37" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_29.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_46" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_140">I move amendment No. 30:<entity refersTo="#bill.2010.6.dail.3.amd_30" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_141">In page 20, line 39, to delete "subsection (2)" and substitute "subsection (3)".</p>
+        </speech>
+        <summary eId="sum_38" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_30.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_47" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_142">I move amendment No. 31:<entity refersTo="#bill.2010.6.dail.3.amd_31" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_143">In page 20, lines 40 and 41, to delete "subsection (3)" and substitute "subsection (4)".</p>
+        </speech>
+        <summary eId="sum_39" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_31.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_48" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_144">I move amendment No. 32:<entity refersTo="#bill.2010.6.dail.3.amd_32" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_145">In page 21, line 5, to delete "section 44I(2)" and substitute "section 44I(3)".</p>
+        </speech>
+        <summary eId="sum_40" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_32.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_41" title="decision">Amendment No. 33 not moved.<entity refersTo="#bill.2010.6.dail.3.amd_33.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_49" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_146">I move amendment No. 34:<entity refersTo="#bill.2010.6.dail.3.amd_34" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_147">In page 22, line 29, after "publication" to insert "on the internet".</p>
+        </speech>
+        <summary eId="sum_42" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_34.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_50" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_148">I move amendment No. 35:<entity refersTo="#bill.2010.6.dail.3.amd_35" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_149">In page 22, line 30, to delete "The Minister" and substitute "For the purposes of paragraph (<i>a</i>), the Minister”.</p>
+        </speech>
+        <summary eId="sum_43" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_35.agreed" name="amendment"/>
+                </summary>
+        <speech by="#SeanSherlock" eId="spk_51">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_150">I move amendment No. 36:<entity refersTo="#bill.2010.6.dail.3.amd_36" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_151">In page 30, to delete lines 38 to 51 and in page 31, to delete lines 1 to 3 and substitute the following:</p>
+          <p class="indent_2" eId="para_152">"44X.—(1) Subject to subsections (2) and (3), the Minister, having regard to the need to increase the security of supply of transport fuels, to promote the use of biofuels that meet certain minimum standards and to ensure the protection of consumers of biofuels, may make regulations prescribing minimum standards and specifying certain EU Taric codes in relation to biofuels consumed or disposed of by sale or otherwise in the State, which are required to be met for the purpose of making an application under section 44G for a biofuel obligation certificate.</p>
+          <p class="indent_2" eId="para_153">(2) Regulations under this section may prescribe—</p>
+          <p class="indent_3" eId="para_154">(<i>a</i>) different minimum standards and Taric codes in respect of different classes of biofuels, and</p>
+          <p class="indent_3" eId="para_155">(<i>b</i>) different dates in respect of the coming into force of different minimum standards prescribed by the regulations.”.</p>
+        </speech>
+        <summary eId="sum_44" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2010.6.dail.3.amd_36.lost" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_45" title="decision">Amendments Nos. 37 to 39, inclusive, not moved.<entity refersTo="#bill.2010.6.dail.3.amd_37.notmoved" name="amendment"/>
+                    <entity refersTo="#bill.2010.6.dail.3.amd_38.notmoved" name="amendment"/>
+                    <entity refersTo="#bill.2010.6.dail.3.amd_39.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_52">
+          <from>Chairman</from>
+          <p eId="para_156">Amendments Nos. 41 to 43, inclusive, are consequential on amendment No. 40.  Amendments Nos. 40 to 43, inclusive, will be discussed together.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_53" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_157">I move amendment No. 40:<entity refersTo="#bill.2010.6.dail.3.amd_40" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_158">In page 31, between lines 7 and 8, to insert the following:</p>
+          <p class="indent_2" eId="para_159">"(<i>b</i>) the Minister for Agriculture, Fisheries and Food,”.</p>
+          <p eId="para_160">This amendment ensures the Minister for Agriculture, Fisheries and Food is included in the list of those to be consulted when regulations are being made under the Bill in regard to bio-fuel standards.  Amendments Nos. 41 to 43, inclusive, are consequential technical amendments arising from the insertion of amendment No. 40.</p>
+        </speech>
+        <summary eId="sum_46" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_40.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_54" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_161">I move amendment No. 41:<entity refersTo="#bill.2010.6.dail.3.amd_41" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_162">In page 31, line 8, to delete "(<i>b</i>) The National” and substitute “(<i>c</i>) the National”.</p>
+        </speech>
+        <summary eId="sum_47" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_41.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_55" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_163">I move amendment No. 42:<entity refersTo="#bill.2010.6.dail.3.amd_42" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_164">In page 31, line 10, to delete "(<i>c</i>) the Revenue” and substitute “(<i>d</i>) the Revenue”.</p>
+        </speech>
+        <summary eId="sum_48" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_42.agreed" name="amendment"/>
+                </summary>
+        <speech by="#EamonRyanGP" eId="spk_56" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_165">I move amendment No. 43:<entity refersTo="#bill.2010.6.dail.3.amd_43" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_166">In page 31, line 11, to delete "(<i>d</i>) the Agency” and substitute “(<i>e</i>) the Agency”.</p>
+        </speech>
+        <summary eId="sum_49" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_43.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_50" title="decision">Section 3, as amended, agreed to.<entity refersTo="#bill.2010.6.dail.3.sec_3.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_51">SECTION 4.</summary>
+        <speech by="#SeanSherlock" eId="spk_57">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_167">I move amendment No. 44:<entity refersTo="#bill.2010.6.dail.3.amd_44" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_168">In page 31, between lines 25 and 26, to insert the following:</p>
+          <p class="indent_2" eId="para_169">"(<i>b</i>) by substituting the following for the definition of “Minister”:</p>
+          <p class="indent_3" eId="para_170">" ‘Minister' means the Minister for Communications, Energy and Natural Resources;",".</p>
+          <p eId="para_171">This technical amendment is self-explanatory.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_58" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_172">The definition of "Minister" is already outlined in the principal Act and there is no requirement to repeat it.  Therefore, I do not propose to accept the amendment.</p>
+        </speech>
+        <summary eId="sum_52" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2010.6.dail.3.amd_44.withdrawn" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_53" title="decision">Section 4 agreed to.<entity refersTo="#bill.2010.6.dail.3.sec_4.agreed" name="section"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_54" title="decision">Sections 5 to 20, inclusive, agreed to.<entity refersTo="#bill.2010.6.dail.3.sec_5.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_6.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_7.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_8.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_9.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_10.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_11.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_12.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_13.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_14.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_15.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_16.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_17.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_18.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_19.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_20.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_55">NEW SECTION</summary>
+        <speech by="#EamonRyanGP" eId="spk_59" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_173">I move amendment No. 45:<entity refersTo="#bill.2010.6.dail.3.amd_45" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_174">In page 37, before section 21, but in Chapter 1, to insert the following new section:</p>
+          <p class="Center" eId="para_175">"CHAPTER 2</p>
+          <p class="Center" eId="para_176">Amendment of Fuels (Control of Supplies) Act 1982</p>
+          <p class="indent_1" eId="para_177">21.—Section 7 of the Fuels (Control of Supplies) Act 1982 is amended—</p>
+          <p class="indent_2" eId="para_178">(<i>a</i>) in subsection (3), by substituting the following for all of the words from “shall be liable on summary conviction” to the end of the subsection:</p>
+          <p class="indent_3" eId="para_179">"shall—</p>
+          <p class="indent_4" eId="para_180">(i) on summary conviction, be liable to a fine not exceeding €5,000 or to imprisonment for a term not exceeding 12 months, or to both, or</p>
+          <p class="indent_4" eId="para_181">(ii) on conviction on indictment, be liable to a fine not exceeding €20,000 or to imprisonment for a term not exceeding 2 years, or to both.",</p>
+          <p class="indent_3" eId="para_182">and</p>
+          <p class="indent_2" eId="para_183">(<i>b</i>) by inserting the following after subsection (5):</p>
+          <p class="indent_3" eId="para_184">"(6) Where an offence under this section is committed by a body corporate and is proved to have been committed with the consent or connivance of, or to be attributable to any neglect on the part of a person being a director, manager, secretary or other officer of such body corporate or a person who was purporting to act in any such capacity, that person shall be guilty of an offence and shall be liable to be proceeded against and punished as if he or she were guilty of the first-mentioned offence.".".</p>
+          <p eId="para_185">This amendment updates the penalties for an offence under section 7 of the Fuels (Control of Supplies) Act 1982.  The Fuels (Control of Supplies) Acts 1971 and 1982 empower the Minister for Communications, Energy and Natural Resources, in the event of a fuel emergency and on foot of an order made by the Government, to make orders or give directions relating to the control, acquisition, supply, distribution or marketing or fuels in the State.  Section 7 of the Fuels (Control of Supplies) Act 1982 provides for the appointment of authorised officers in a fuel emergency to inspect premises and obtain information on the control, acquisition, supply, distribution or marketing or fuels.  The existing section 7(3) provides that:</p>
+          <p class="indent_1" eId="para_186">Any person who—</p>
+          <p class="indent_2" eId="para_187">(<i>a</i>) obstructs or impedes an authorised officer in the exercise of any of the powers conferred on him by this section,</p>
+          <p class="indent_2" eId="para_188">(<i>b</i>) refuses to produce any record or document which an authorised officer lawfully requires him to produce,</p>
+          <p class="indent_2" eId="para_189">(<i>c</i>) produces or causes to be produced or knowingly allows to be produced to an authorised officer any record or document which is false in any material respect knowing it to be false, or</p>
+          <p class="indent_2" eId="para_190">(<i>d</i>) wilfully fails or refuses to comply with any lawful requirement of an authorised officer under subsection (1)(<i>b</i>) of this section,</p>
+          <p class="indent_1" eId="para_191">shall be guilty of an offence, and shall be liable on summary conviction to a fine not exceeding €634 or, at the discretion of the Court, to imprisonment for a term not exceeding twelve months or to both such fine and such imprisonment.</p>
+          <p eId="para_192">Given the important role to be played by an authorised officer during the course of fuel emergencies, it is proposed that the penalties provided for under section 7(3) be updated.  In this regard, the amendment increases the fine on summary conviction from €634 to €5,000, introduces a penalty on conviction on indictment of €20,000 or imprisonment for a term not exceeding two years or both and provides for the lifting of the veil of incorporation in respect of such events under section 7.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_60">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_193">While I am not objecting to the amendment, I seek clarification.  Section 20 deals with breaches of the law under the Fuels (Control of Supplies) Act 1971.  It refers to a breaking of the rules relating to bio-fuels mix, falsifying documentation and so on.  Does the amendment relate to preventing or inhibiting the Garda or any other authorised officer from testing, asking questions or visiting a site?</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_61" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_194">Yes.  Should there be an emergency necessitating the use of the powers provided in the 1971 and 1982 Acts to control the sale, distribution and marketing of fuels, the authorised officer will oversee any cases in which someone acts illegally or fraudulently in the operation of such a market.  The amendment provides for an increase in the fines to be imposed for such breaches.</p>
+        </speech>
+        <summary eId="sum_56" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2010.6.dail.3.amd_45.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_57" title="decision">Sections 21 to 27, inclusive, agreed to.<entity refersTo="#bill.2010.6.dail.3.sec_21.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_22.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_23.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_24.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_25.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_26.agreed" name="section"/>
+                    <entity refersTo="#bill.2010.6.dail.3.sec_27.agreed" name="section"/>
+                </summary>
+        <summary eId="sum_58" title="decision" refersTo="#agreed">Title agreed to.<entity refersTo="#bill.2010.6.dail.3.title.agreed" name="section"/>
+                </summary>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_62">
+          <from>Chairman</from>
+          <p eId="para_195">I thank the Minister, his officials and members for their attendance.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_63">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_196">I am not sure we have ever got through Committee Stage of a Bill as quickly as we have today.  It is a reasonable morning's work.  The reason might be that I have not waffled on for as long as I normally do.</p>
+          <p eId="para_197">I wish to flag an issue.  This morning I was expecting to see a significant amendment tabled by the Minister to introduce a windfall levy for electricity generators.  That is not happening because of a misunderstanding or a lack of preparation.  The basic reason has been outlined to me.  However, it is not acceptable to introduce, as I understand the Minister plans to do, a significant new section which many would regard as almost a new Bill.  It will introduce a very complex provision to put in place a legal basis for a windfall levy for energy generators in respect of the carbon they are producing.  From the point of view of the Opposition, introducing such a significant amendment on Report Stage, even if the Bill will be recommitted to allow a more extensive discussion, is totally unacceptable.  We will have not have an opportunity to amend the provision the Minister will introduce.  It will not really be an amendment but a piece of legislation.  The Bill has gone through all Stages in the Seanad and almost all Stages in the Dáil and at the very last Stage when we will not have an opportunity to make amendments and will only have an opportunity to make limited comments, the Minister will introduce a provision to raise between €70 million and €100 million for the State.  It will have a significant impact on energy generators and there are issues that will need to be teased out.</p>
+          <p eId="para_198">The Minister knows that I am in favour of what he is trying to do, but I cannot allow legislation to be passed in the way in which I understand he proposes to introduce it.  We have flagged these concerns previously when significant new elements of legislation were introduced on both Committee and Report Stages.  We are going down a very dangerous road in not preparing properly for legislation and introducing significant new sections at the last minute when there is not time for proper scrutiny or debate.  We are, essentially, trusting the Minister, his officials and officials in the Office of the Attorney General to get it right, but that is not how legislation should be introduced.  The Minister is not allowing me and other Opposition Deputies to do our job.  This is something about which we should be very concerned.  The Minister's hands may be tied in this regard.  However, we should not have reached this stage.  I want to flag the issue at this stage because I presume we will be taking Report Stage next week or the following week.  I did not want to pretend that I am happy with it because I am not.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_64">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_199">We are all agreed on the need to transpose the directive and to adopt a proper approach in meeting our bio-fuels obligations.  While there might be a different emphasis on certain aspects of the directive, there is broad agreement on the need to do it properly and act with haste.  I am three years into my first mandate here.  I fail to understand why we are legislating in this way.  It seems to me that the windfall levy — the carbon levy — should be provided for in a completely separate and distinct Bill.  Given its importance, I do not understand why it is being tacked on to this legislation.  This legislative provision is not a mere administrative detail.  It will have serious permutations for industry.  I do not doubt that it will be challenged.  The lawyers will have a field day on this one.  I do not understand why the amendment in question is to be introduced on Report Stage.  It does not make sense.  Many of the procedures that govern this House belie common sense.  It does not make an ounce of sense for the Government to proceed in this manner.  I wonder why that is the case.  I assume the Minister is relying on the advice of the Attorney General.  Perhaps the amendment was not presented to us on Committee Stage because advice is outstanding.  I do not know.  It does not make sense for this Legislature to introduce something as significant as a carbon levy in this manner, as part of the Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010.  The Labour Party does not support the manner in which it is being introduced.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_65" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_200">I hear what the Deputies have to say.  I understand their concerns and the points they are making.  I expected us to be able to debate this on Committee Stage.  The Bills Office made its call, in conjunction with the committee secretariat, as it is entitled to do.  During the Report Stage debate, we will have to recommit to Committee Stage in order to debate the amendment.  Provision will be made for amendments to be taken as part of that process.  I am glad we have briefed the Deputies opposite, at least, so they are not ill-informed about the basic provisions we are seeking to introduce.  It will be possible for further amendments to be proposed when the Bill goes to the Seanad.  The system allows us to consider the proposal and amend it, if necessary.  Deputy Sherlock's frustration with the workings of the House is understandable.  I share it on many occasions.  The reality behind this measure, from my perspective, is that we are seeking to introduce this measure by 1 July next.  That will give us a three-month lead-in time before revenues start to arrive in October.  It will also allow us to assist large energy companies for which this is a matter of urgency.  This will help us to maintain competitiveness and to retain jobs.  The nature of the workings of the House means that it would have been impractical to try to get a new Bill up and running and passed by the House in that sort of timeframe.  While I understand members' concerns about using a Committee Stage amendment in this way, I believe it is the best means of achieving the public policy objective of putting a price on carbon across the economy.  I am committed to proceeding in this manner because I see it as the only practical means of achieving our goal.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_66">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_201">How will we be able to propose amendments to the Minister's amendment?  What will happen in practice — it has happened before — is that when this section is recommitted to Committee Stage, we will debate it straight away and make a decision on it.  I do not see how we can put amendments together just after seeing the Minister's amendment for the first time.  Perhaps that is not fair, as we may see the amendment beforehand.  We will be debating the amendment for the first time.  The manner in which the legislative process works is that when an amendment is debated and accepted as part of a Bill, one takes advice on it before proposing a new amendment to the amended part of the Bill.  That process will not happen in this case unless some kind of delay is provided for between the recommittal to Committee Stage and the Report Stage itself.  That is not my understanding of how it works, however.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_67" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_202">I am speaking on the basis of my understanding that some amendments have already been submitted by Deputy McManus.  Perhaps the clerk to the committee can assist us in this regard.  As I understand it, we have an opportunity to arrange the timing of the debate in a manner that will give us some flexibility.  I would like as much time as possible to be available to consider these amendments.  I am in the hands of the clerk.  I understood it would be possible for the amendments that have started to come in to be reintroduced.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_68">
+          <from>Chairman</from>
+          <p eId="para_203">Perhaps we will go into private session to allow the clerk to clarify the matter.</p>
+          <p eId="para_204">The select committee went into private session at 11.05 a.m. and resumed in public session at 11.15 a.m.</p>
+        </speech>
+        <summary eId="sum_59">Bill reported with amendments.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_6">
+        <heading>Message to Dáil.</heading>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_69">
+          <from>Chairman</from>
+          <p eId="para_205">In accordance with Standing Order 87, the following message will be sent to the Dáil:</p>
+          <p class="indent_1" eId="para_206">The Select Committee on Communications, Energy and Natural Resources has completed its consideration of the Energy (Biofuel Obligation and Miscellaneous Provisions) Bill 2010 and has made amendments thereto.</p>
+        </speech>
+        <summary eId="sum_60">The select committee adjourned at 11.15 a.m. until 9.45 a.m. on Thursday, 10 June 2010.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

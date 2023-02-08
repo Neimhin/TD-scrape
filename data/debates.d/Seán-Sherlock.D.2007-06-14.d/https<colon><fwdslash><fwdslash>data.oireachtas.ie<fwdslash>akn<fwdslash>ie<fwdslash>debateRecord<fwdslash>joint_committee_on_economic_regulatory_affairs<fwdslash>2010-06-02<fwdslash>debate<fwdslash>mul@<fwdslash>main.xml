@@ -1,0 +1,671 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-06-02/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-06-02/debate"/>
+          <FRBRdate date="2010-06-02" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_economic_regulatory_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-06-02/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-06-02/debate/mul@"/>
+          <FRBRdate date="2010-06-02" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-06-02/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2010-06-02/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" eId="#vol_None" showAs="Vol. None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" eId="#no_None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="ArthurMorganSF" href="/ie/oireachtas/member/id/Arthur-Morgan.D.2002-06-06" showAs="Arthur Morgan"/>
+        <TLCPerson eId="DamienEnglishFG" href="/ie/oireachtas/member/id/Damien-English.D.2002-06-06" showAs="Damien English"/>
+        <TLCPerson eId="DiarmuidWilson" href="/ie/oireachtas/member/id/Diarmuid-Wilson.S.2002-09-12" showAs="Diarmuid Wilson"/>
+        <TLCPerson eId="FergusODowdFG" href="/ie/oireachtas/member/id/Fergus-O'Dowd.S.1997-09-17" showAs="Fergus O'Dowd"/>
+        <TLCPerson eId="JoeBehan" href="/ie/oireachtas/member/id/Joe-Behan.D.2007-06-14" showAs="Joe Behan"/>
+        <TLCPerson eId="JohnODonoghue" href="/ie/oireachtas/member/id/John-O'Donoghue.D.1987-03-10" showAs="John O'Donoghue"/>
+        <TLCPerson eId="KieranODonnell" href="/ie/oireachtas/member/id/Kieran-O'Donnell.D.2007-06-14" showAs="Kieran O'Donnell"/>
+        <TLCPerson eId="MichaelMoynihan" href="/ie/oireachtas/member/id/Michael-Moynihan.D.1997-06-26" showAs="Michael Moynihan"/>
+        <TLCPerson eId="NedOSullivan" href="/ie/oireachtas/member/id/Ned-O'Sullivan.S.2007-07-23" showAs="Ned O'Sullivan"/>
+        <TLCPerson eId="PaulCoghlan" href="/ie/oireachtas/member/id/Paul-Coghlan.S.1997-09-17" showAs="Paul Coghlan"/>
+        <TLCPerson eId="PeterKellyFF" href="/ie/oireachtas/member/id/Peter-Kelly.D.2002-06-06" showAs="Peter Kelly"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Sean Sherlock"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM GHNÓTHAÍ RIALÁLA GEILLEAGAIR A BHUNÚ</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON ECONOMIC REGULATORY AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2010-06-02">Dé Céadaoin, 2 Meitheamh 2010</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2010-06-02">Wednesday, 2 June 2010</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 1 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JoeBehan">Deputy Joe Behan,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PaulCoghlan">Senator Paul Coghlan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#DamienEnglishFG">Deputy Damien English,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#NedOSullivan">Senator Ned O’Sullivan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#PeterKellyFF">Deputy Peter Kelly,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#DiarmuidWilson">Senator Diarmuid Wilson.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#KieranODonnell">Deputy Kieran O’Donnell,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#JohnODonoghue">Deputy John O’Donoghue,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#FergusODowdFG">Deputy Fergus O’Dowd,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#SeanSherlock">Deputy Seán Sherlock,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">In attendance: Deputy Arthur Morgan.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#MichaelMoynihan">DEPUTY MICHAEL MOYNIHAN IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_5">The joint committee met in private session until 1.10 p.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business Regulation: Discussion with High Level Group on Business Regulation</heading>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_11">The high level group on business regulation is attending to discuss the work of the group in identifying ways to reduce the administrative burden on business arising from regulation.  On behalf of the committee I welcome the following: Mr. Seán Gorman, chairman of the group, Department of Enterprise, Trade and Innovation; Liam Berney, ICTU; Steve MacFeely, CSO; Joe Allen, Department of the Environment, Heritage and Local Government; Breda Power, Department of Enterprise, Trade and Innovation; John P. Kelly, Department of Enterprise, Trade and Innovation; Mark Fielding, ISME; and Norman Gillanders, Revenue Commissioners.</p>
+          <p eId="para_12">By virtue of section 17(2)(<i>l</i>) of the Defamation Act 2009, you are protected by absolute privilege in respect of the evidence you are to give this committee.  If you are directed by the committee to cease giving evidence in relation to a particular matter and you continue to so do, you are entitled thereafter only to a qualified privilege in respect of your evidence.  You are directed that only evidence connected with the subject matter of these proceedings is to be given and you are asked to respect the parliamentary practice to the effect that, where possible, you should not criticise nor make charges against any person(s) or entity by name or in such a way as to make him, her or it identifiable.</p>
+          <p eId="para_13">This meeting will be webcast live and therefore can be seen live and worldwide on the Internet.  I invite Mr. Gorman to proceed with the presentation.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_14">I thank the Chairman for the invitation to address the joint committee and for the opportunity to inform it of the progress made by the high level group in identifying ways to reduce the administrative burden on business, arising from regulation.</p>
+          <p eId="para_15">I will outline some of the simplification initiatives the group has been driving over the past two years, as well as our main plans for the immediate future.  While the work of the group is aimed at all business, it is of particular benefit to small and medium enterprises because, by their nature, they feel the burdens more and therefore benefit more from the simplifications we achieve.</p>
+          <p eId="para_16">The high level group was established in 2007 to act as a standing dialogue between Government, business and unions on administrative burden issues, arising from legislation.  The group acts as a clearing house for specific red tape issues and concrete business suggestions for simplification.</p>
+          <p eId="para_17">The terms of reference of the group specifies that its remit is to identify the administrative burdens placed on businesses, in particular small and medium sized enterprises, arising from regulation or other administrative requirements, particularly in the areas of taxation; health and safety regulation; employment law; environmental regulations; company law and statistical returns; to determine ways to reduce and simplify administrative burdens and to eliminate them where they are unnecessary.</p>
+          <p eId="para_18">The group in its work is focused on identifying ways in which the paperwork associated with regulation can be simplified and the information flow between business and Government can be streamlined.  In approaching its work the group is concerned to ensure that administrative savings to business are effected without undermining the policy objectives behind the regulation.  This means that the protection afforded to workers or the environment, for example, will not be weakened as a result of reducing the cost to businesses of administering the regulation concerned.  In fact, the group believes that enabling regulations to be dealt with more efficiently by businesses and the regulating authority would help to improve compliance and, therefore, make regulation even more effective.</p>
+          <p eId="para_19">We need to keep in mind, even as we focus on reducing regulatory burdens, that regulation has a positive purpose.  Every society needs regulation to ensure its proper functioning.  It provides a shared understanding between business, citizens and Government.  It defines duties, rights and obligations.  The challenge, therefore, is to balance competing interests, for example, businesses and consumers; employers and employees; growth and the environment.  To remain competitive, we must have enough regulation to ensure a level playing-field for business, but not so much that we increase business costs unduly.</p>
+          <p eId="para_20">The primary source of our laws, regulations and rules is the Oireachtas, including the Government, the Dáil and the Seanad, the European Union, including the EU Commission, the Council of Ministers and the European Parliament.  Essentially, our laws, regulations and rules originate in the democratic political processes and institutions.</p>
+          <p eId="para_21">According to the OECD and relative to other EU countries, Ireland is not heavily regulated.  This is its view, notwithstanding the fact that the Oireachtas in the advancement of social and economic objectives and our membership of the European Union, has given rise to a big increase in the laws, regulations and rules which affect our daily lives.</p>
+          <p eId="para_22">The feedback from the business community to the high level group is clear.  The community perceives itself to be heavily burdened with laws, regulations and rules and that the associated administrative burdens and costs are ever growing.</p>
+          <p eId="para_23">I will give some details of the work of the high level group in tackling specific burdens highlighted by the business community and the 25% administrative burden reduction programme being co-ordinated across Government by my Department using the standard cost model mechanism.  Both of these processes are designed to reduce the administrative burdens caused by information obligations placed on business by legislation.  Our ultimate aim is not deregulation, nor is it designed to undermine the socio-economic policy objectives of the law.  Accordingly, in cutting red tape we have adopted a systematic, stepped approach.  We are listing relevant legislation; prioritising the most burdensome, measuring the burdens using the standard cost model and planning the simplification measures to achieve the 25% reduction target.</p>
+          <p eId="para_24">We are in close contact with businesses and business representative groups, through seminars, workshops and meetings, in order to validate the identification and prioritisation of the most burdensome obligations; their measurement results; and the planned simplification measures.</p>
+          <p eId="para_25">This brings me to the last of my preliminary remarks and on to the subject of regulatory impact analysis of new legislation.  The high level group welcomes the latest review by the Department of the Taoiseach of the regulatory impact analysis process.  Eliminating red tape before it becomes enshrined in law is clearly the more commonsense approach.  Implementation of the regulatory impact analysis process on new legislative proposals is a sound first step in achieving this goal.</p>
+          <p eId="para_26">The high level group's work programme is largely driven by business in consultation with other stakeholder interests, including the ICTU.  The work programme originated in submissions made to the business regulation forum which preceded our group and suggestions from business made at workshops carried out on behalf of the high level group.  We are open to new items being proposed by group members at any time.</p>
+          <p eId="para_27">Since its inception, the group has tackled almost 70 red tape issues.  Thirty of these have already been processed to finality and a further 38 live items are currently at various stages of delivery.  The processed items consist of those which have either been fully completed or have been found to be intractable but we have reached agreement in the group on those issues.  To give the committee a sense of what we have achieved in the revenue area, the Revenue Commissioners have introduced less frequent VAT3 returns for small traders and in addition, approximately 65% of traders are currently accounting for VAT on the cash basis, rather than the invoice basis, thus improving their cash-flow position.  Revenue is now offsetting redundancy rebates paid by the Department of Enterprise, Trade and Innovation, against a firm's tax liabilities.  This improves the cash-flow position of firms at a time when they need it most.  Revenue launched a new version of its website in December 2008, to make accessing information and services as easy and intuitive as possible, gathering them in logical clusters under primary headings.  Revenue's on-line service, ROS, offers business and individuals a quick, secure and cost-effective method to manage their tax affairs online.  Following a detailed and wide-ranging consultation process with tax practitioners, industry representative bodies, software providers and customers, Revenue introduced phase one of mandatory e-filing and e-paying for large companies and Departments with effect from 1 January 2009.  Phase two of mandatory e-filing commenced in January 2010 and will apply to other large companies, other public bodies and local authorities.</p>
+          <p eId="para_28">We have been working closely with the Central Statistics Office.  Following agreement on a common business identifier, the CSO and Revenue are collaborating to match their databases, allowing the CSO to receive relevant business registration data from Revenue.  As a result of obtaining this data, the CSO has been able to discontinue its annual business register inquiry to businesses.  The sample size for this survey was 51,400 businesses in 2007.  From reference year 2010, the CSO also plans to incorporate corporation tax and income tax returns in the processing of surveys conducted under the structural business statistics regulation.  It is envisaged that this will lead to a reduction of 80% to 90% in the number of businesses with fewer than ten persons employed which are sampled.  The CSO has also reduced the sample size of its quarterly earnings survey, thereby reducing the overall burden on business.  In 2009 the CSO published its second comprehensive response burden report.  It found that 67% of enterprises in Ireland did not receive any CSO questionnaires in 2008.  The CSO is continuing to make efforts to reduce burdens where possible.</p>
+          <p eId="para_29">In our Department, we are responding to a request from the group.  A facility to allow the direct payment of redundancy rebates to Revenue, as I mentioned earlier, has been put in place to ease the burden on businesses with outstanding tax obligations.  Substantial progress was also made during 2009 in streamlining the application process for employment permits, including the design of a new back office system which has been completed, and we are now working on the build phase.  The Health and Safety Authority has produced a number of guides to help businesses, in particular small businesses, to comply with health and safety legislation.</p>
+          <p eId="para_30">In addition to these initiatives, it is often the case that simple guidance and straightforward information can help businesses to understand their legal responsibilities more readily and thus make it easier for them to comply with regulations.  For example, the Companies Registration Office, CRO, recently produced an information note to guide companies wishing to change their annual return date in order that it will coincide with their Revenue filing date.  This simple initiative will allow an increasing number of companies to reduce the duplicated effort that may previously have resulted from filing similar information on two different dates.</p>
+          <p eId="para_31">In the Department of the Environment, Heritage and Local Government a number of simplified procedures have been introduced in regard to waste collection permits.  In addition, the Minister for the Environment, Heritage and Local Government, Deputy John Gormley, has recently announced the establishment of a local government efficiency review group to review the cost base, expenditure of and numbers employed in local authorities.</p>
+          <p eId="para_32">The Department of Transport has introduced new regulations during 2009 to streamline the permit system for wide and long vehicles on major interurban routes.  Only a single permit is now required to transport such loads along designated national routes between major cities and ports.  The Department, in conjunction with the Road Safety Authority, is expanding the number of designated routes, where feasible.</p>
+          <p eId="para_33">In order to understand and demonstrate the use of the standard cost model for measuring administrative burdens, the high level group measured eight different information obligations during 2007-08.  Some five of these measurements were of simplifications that we had already completed and the group has reported on more than €20 million of cost savings for business in its 2008 reports.  Those cost savings have arisen in redundancy payments totalling €1.2 million, audit exemptions thresholds totalling €3.735 million, tax clearance certificates totalling €0.3 million, CRO annual returns totalling €10 million and VAT registration totalling €5.4 million, a total of €20.635 million.</p>
+          <p eId="para_34">Further simplification processes are now proceeding.  We are currently measuring the savings gained from initiatives we have taken.  The administrative costs associated with the three areas concerned are €8 million for waste collection permits, €247,000 for road haulage permits and €650,000 for employment permits, a total burden of €8.8 million.  It is intended that the benefits arising from simplification work being carried out on these three items will also be included in the cross-Government measurement process and will contribute to the 25% reduction target.  Since we first met in July 2007, the members have been particularly interested in identifying and driving projects to reduce duplication of data requests falling on business.  By their nature, many of these are co-operative projects between different Departments and agencies.</p>
+          <p eId="para_35">One of the key projects of the group is the facilitation of XBRL filing of company accounts.  XBRL offers significant opportunities for businesses to automate and streamline their reporting to Government.  The project is being worked on jointly by Revenue, CSO and CRO.  Revenue, CRO and CSO have agreed that the three organisations could share financial data from the single filing of financial statements by a company and that this would reduce the filing burden on business.  XBRL is seen as an ideal way of facilitating such a single filing because it provides for a uniform language for describing financial data elements and a platform for the easy communication and manipulation of financial data.  Revenue decided recently that it would work towards the implementation of XBRL for receiving financial statements and computations.  The roll-out date for XBRL implementation is likely to be towards the end of 2011.</p>
+          <p eId="para_36">The CRO and Revenue have worked closely in recent months to facilitate companies wishing to file electronically with the CRO and to offer the facility of using the Revenue e-signature.  In addition, the CRO will shortly accept annual accounts in pdf format.  It is envisaged that the facility to accept pdf accounts will be available in quarter 3 of 2010, allowing the companies annual return and its attachments to be filed completely electronically.  We are also focusing on a number of issues under the responsibility of the Department of the Environment, Heritage and Local Government, including waste licenses.</p>
+          <p eId="para_37">The issue of risk-based enforcement has occupied quite a deal of attention and time in the group.  We have been working on this in consultation with the group members and across business.  To develop the potential of risk-based enforcement, the Department of Enterprise, Trade and Innovation has convened a small group of agencies to consider how best to develop the risk-based enforcement regime in Ireland.  The current participants in this group are Revenue, the National Employment Rights Authority, the Health and Safety Authority, the Office of the Director of Corporate Enforcement, the Food Safety Authority of Ireland, the Environmental Protection Agency and the Private Security Authority.</p>
+          <p eId="para_38">The group is considering the range of issues and obstacles that must be tackled and solved in order to move this agenda forward.  Its first objective is to develop processes for secure, accurate and controlled data sharing between the participating agencies in order that they can identify their potential clients more readily, calculate risk more precisely and reduce the burden of inspections on compliant businesses through more accurate identification of those who are likely to be non-compliant.  The risk-based enforcement group will submit a report to the high level group before the end of the year on this issue.</p>
+          <p eId="para_39">In parallel with the current real time work of the high level group, it is also involved in the overall exercise of helping to guide and achieve the European Union target which has been adopted by the Government of reducing administrative burdens overall by 25% by 2012.  In practice, we break this into two streams, namely, the measurement and reduction within our Department and the co-ordination of measurement and monitoring of reductions achieved by other Departments.</p>
+          <p eId="para_40">In 2009, we engaged EPS Consulting to measure administrative burdens in three key areas of regulation, that is, company law, employment law and health and safety law.  We used the standard cost model as the basis for this measurement.  We are now carrying out a series of simplification workshops with stakeholders to determine how best to reduce the measured burdens.  I have asked the officials in these three areas to report to the high level group with their plans in the autumn.</p>
+          <p eId="para_41">Across wider Government agencies, the CSO also measured the burdens arising for business as a result of its surveys.  All remaining Departments with regulations affecting business have been invited by the Department of Enterprise, Trade and Innovation to participate in a centralised measurement project.  A prioritised list of information obligations covering all remaining areas is almost complete and will be circulated to the high level group for its inputs and validation shortly.</p>
+          <p eId="para_42">While responsibility for delivering on the 25% reduction in the administrative burdens on business lies with individual Departments, the members of the high level group are now assisting at every stage of the measurement process.  We are helping Departments to prioritise the most important information obligations for measurement, working as part of stakeholder groups to validate the measurement process and validating the measurement results to ensure that they are realistic and representative.</p>
+          <p eId="para_43">We are giving effect to that for a series of workshops which are aimed at identifying the most practical ways that the measured burdens can be reduced.  In our Department we have targeted three workshops.  Two have already taken place, one on 11 May dealing with company law and the second on 1 June on employment law, and the third will be scheduled shortly to examine health and safety issues.  Union officials are also invited to attend the workshops to ensure that workers' protections are not undermined by any of the emerging simplification plans.</p>
+          <p eId="para_44">It is intended that as administrative burden measurement is completed in other areas, similar simplification workshops will be organised to brainstorm fresh ideas for red tape reduction.  The high level group will continue to play a key role in this process.  Neither the work of the high level group itself nor the 25% cross-measurement and reduction project could proceed successfully without the continuing input from our key stakeholders.  It is business costs that we are aiming to reduce, therefore it is a business understanding of these costs and business-friendly solutions that we must find.</p>
+          <p eId="para_45">We have taken a lot of care, from the Government and administration sides, not to try to decide ourselves what is most pressing or relevant to business.  We have gone out and asked businesses to tell us where it is hurting most and the areas in which they are most interested in having work focused.  We look forward to continuing the work with the high level group and to the engagement this afternoon.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_46">I thank Mr. Gorman.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_4">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_47">I wish to address the staffing quotient assigned to the high level group from the various Departments and ask if enough staff have been assigned to the task at hand.  If the target is a reduction of 25% by 2012, it would appear there are not enough staff to deal with it adequately to move the agenda forward.  I am concerned that it is not moving as quickly as it might.  Given that this process started in 1999 and has been through two transitions and that we are in an economic downturn, there is a serious urgency about this because of the cost implications for business.  There may not have been the same urgency about this two or three years ago.  It is necessary to ensure an adequate staffing quotient.</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_48">In our own Department a unit is dedicated to this particular exercise which is servicing both the high level group and the needs of other Departments in the context of their aiming to achieve the 25% reduction target.  We have a full-time assistant principal officer, a full-time higher executive officer and an executive officer dedicated to this work in my Department with support from a principal officer and an assistant secretary and my own input.  In each of the other Departments which are participating in the 25% reduction target across the board, we have a nominated individual who has responsibility for driving the exercise and liaising with us.  What I do not have within each Department is the extensive wider resources that are backed in behind this person but that is a matter for each of those individual Departments.</p>
+          <p eId="para_49">We have put much effort into training those who will be involved in the simplification exercise in the other Departments.  We have run training courses and have given them clear guidelines as to what they form and how they should go about preparing this exercise and to take a consistent approach.  We have also asked them to deal with these issues on a prioritised basis.  One of the things we have learned in the high level group is that one can go at everything and probably achieve very little or go at a prioritised list of issues which helps potentially to achieve more.  This is the approach we have taken and is the norm across the EU, including at EU Commission level.  Those Departments are working on the prioritisation of those information obligations that are putting the heaviest burden on business.  What we have learned from international experience and from our own experience is that about 5% of information obligations tend to generate 90% of the burden.  One can always do with more staff but we have put the maximum resources possible from our own Department into it.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_6">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_50">Information gathering places a major cost burden on businesses. Obviously the CSO has certain obligations by dint of EU legislation and that, I presume, is what is meant by an intractable issue, as mentioned.  I am sure that the business groups, the SFA and ISME have referred to this specifically in this committee.  If that is an intractable issue and there a pre-existing regulatory burden, the question arises as to whether the CSO is an active partner on a weekly, monthly, quarterly basis with the high level group to ensure that burden is reduced.  Is there a practical relationship there?</p>
+        </speech>
+        <speech by="#" eId="spk_7">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_51">Very much so and we have a representative of the CSO here today.  The CSO is a standing and very active member of our group and has sought a reduction in the regulatory agenda with great enthusiasm.  It has done a tremendous amount of work with the group, our Department and other Departments, particularly Revenue.  The CSO has also carried out a very interesting exercise and, with the permission of the Chairman, I will invite our colleague from the CSO to comment on it.  It has not just reduced specific burdens in specific instances — a couple of which I mentioned in my introductory remarks — it has quantified the actual burden it places on businesses.  I ask my colleague from the CSO to give us a sense of the achievements so far and the interesting information that has come out of its own survey of the burden it places directly on businesses.</p>
+        </speech>
+        <speech by="#" eId="spk_8">
+          <from>Mr. Steve MacFeely</from>
+          <p eId="para_52">I thank the Chairman.  The CSO takes the issue of burden very seriously.  The more burden placed on businesses the greater the competitive disadvantage at which they are placed.  In the past, it is fair to say the CSO was on the back foot, a great deal of new EU legislation had been passed and our main focus had been on trying to meet those regulations.  In recent years we have become very active, now that those surveys are established, in trying to make them more efficient.  As far back as 2004 we began measuring burden which we perceived as the first step in assessing what were the most burdensome surveys and the extent of the burden.  When we began to take initiatives to reduce burden, we could see whether those initiatives were working.</p>
+          <p eId="para_53">Since 2008 we have been systematically measuring all surveys and we publish those data on our website.  In co-operation with the Department of Enterprise, Trade and Innovation we have adopted its standard cost model to compare the results.  Previously we had been using the EUROSTAT recommended methodology.  The standard cost model measures the burden in terms of money rather than time.  From those studies, we estimate that the CSO imposes a burden of approximately €10 million per annum on Irish businesses.  That accounts for about 0.5% of total regulatory burden and is consistent with findings in other countries.  The UK Chamber of Commerce has estimated the same figures for the UK.  They are roughly the same estimates across Europe as measured by EUROSTAT and other outside associations.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_9">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_54">On what quantitative or qualitative analysis is it based or what is the underlying assumption?</p>
+        </speech>
+        <speech by="#" eId="spk_10">
+          <from>Mr. Steve MacFeely</from>
+          <p eId="para_55">There are two methodologies.  Using the EUROSTAT methodology we asked enterprises the time it took to complete forms and we can apply standard wage costs.  The standard cost model is a more complex methodology where one goes out and interviews businesses.  We go through each of the forms and ask how long it took to fill in the form, how long each question took, which questions were the more difficult, which of those data did they need for their own purposes which were additional, and asked them to quantify how much that cost.  It is based on information provided by the enterprises themselves.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_11">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_56">That is fair enough.  The employers representatives might have a view on that which I am sure we will get to as we progress.  In trying to achieve a 25% reduction, is it possible to quantify at this stage the percentage achieved on the work programme?  Has 50%, 70% or 80% of the work programme been achieved?  Will the CSO hit its targets in terms of reducing the burden?  Could the timescale potentially move out again?  I would like to get a sense of where it is at and whether the targets are being achieved.  I have the work programme here. I have a specific question on the Health and Safety Authority.  From a HSA perspective, how is the regulatory burden being reduced in terms of the wealth of health and safety legislation impacting on business?  What actions are being taken to reduce that burden on businesses?  I can speak with more authority from a local authority perspective whereby the simple issue of filling a pothole now requires a myriad of man hours.  I assume the same is applicable in a business sense in that if one wants to carry out works to one's premises or whatever there is a regulatory burden on businesses.  Are the representatives teasing out those issues also with the HSE?</p>
+        </speech>
+        <speech by="#" eId="spk_12">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_57">The target is to achieve the 25% by the end of 2012.  I am not in a position at this point to tell the Deputy a percentage achieved to date.  Most Departments are in the measurement stage now on the basis of the approach I described, which is their prioritisation approach.  I stress again the reason for the prioritisation approach.  The United Kingdom did an across the board baseline measurement that cost it €30 million.  Having done that, and I am not singling out the UK because it was one of the leaders into this space, it discovered that 5% of what we impose causes 90% of the administrative cost.</p>
+          <p eId="para_58">We have asked the Departments to try to identify that 5% which generates the 90% burden, and they are doing that in a three step process.  First, they are identifying it, second, they are having stakeholder consultation and, third, they share with us in the high level group what that 5% looks like.</p>
+          <p eId="para_59">We have an instruction from Government to meet the target by the end of 2012.  The Government has signed up to the EU target.  We have to and will work to deliver on that.</p>
+          <p eId="para_60">Regarding the HSA, in our own Department, as part of the 25% target the health and safety legislation is one of the particular areas we have identified as one that imposes a significant burden.  It is not just one that we have identified but we are getting feedback from businesses that it is a particular concern.  We have this measurement exercise and the workshops under way directly with businesses to discuss the nature of the burden and, most importantly, how the businesses see us driving the HSA to reduce that burden.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_13">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_61">Does Mr. Gorman have a timeline for the completion of that process?</p>
+        </speech>
+        <speech by="#" eId="spk_14">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_62">The workshop on health and safety will take place probably before the end of June and we would have those measurement reports from the three areas of company law, employment law and health and safety back to the high level group by our next meeting in the autumn.  The timeline will be to drive the change in the context of the 2012 deadline.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_15">
+          <from>Deputy Damien English</from>
+          <p eId="para_63">I have some questions for Mr. Gorman and I may come back to him later with others.</p>
+          <p eId="para_64">My concern is about the 2012 deadline.  That deadline was put in place in 2007, or before that, when everything was rosy and we were doing grand as a country but we are under pressure now, and many businesses are under pressure, and I would have thought we would have tried to fast-track the deadline and achieve much more.  We do not seem to have made much progress in terms of results.  Progress has been made on getting ready to achieve results and so on but there seems to be a lack of urgency.  That may be an unfair comment but it seems to be the case.  I would have thought we should try to achieve a 2010 deadline and make some changes quickly to reduce the cost of business.  Mr. Gorman might comment on that aspect and if I am being unfair, he might tell me the reason.</p>
+          <p eId="para_65">It is clear from reading Mr. Gorman's statement and the statements of the Minister of State, Deputy Kelleher, that this exercise is about trying to tweak the way we do business, reduce the paperwork and reduce the costs but that is not the case.  I understood from the outset that Mr. Gorman's group was examining some of the laws that might no longer be required but from what I have read here that is not the case.  I may be mistaken but I assume from talking to many business groups that come before this committee that from their point of view some laws are unnecessary, although perhaps not from a Government point of view.  I understood this forum would tease out those issues also.  Is that not the case or can it include that?  Only last week retailers were before this committee and it is questionable whether some of the regulations are needed.  There was probably a reason they were brought in initially but I understood that is what Mr. Gorman's group intended to do but from reading all the material before us it appears that is not the case.  It seems it will only examine how the administrative burden can be reduced and so on.  Those are my two main points.</p>
+          <p eId="para_66">The feedback from much of our committee work is that the implementation of many of the EU rules, the follow up process and the way Ireland treats EU rules, be it for small businesses, agricultural areas or whatever, is a major problem here compared to other countries.  That is not just people's opinion.  Everybody one talks to appears to have the impression that other countries have a much more relaxed way of enforcing the rules.  Is that issue being examined?  Do we go over the top, so to speak, in how we enforce measures?  Are many of the EU directives meant to be guidelines or strict rules because at every meeting we have we get the strong sense that business owners in Ireland are almost depressed at this stage compared to what they are hearing from other countries?  Is that part of what Mr. Gorman's group is doing or can he come back to me with answers on that?</p>
+          <p eId="para_67">In terms of this process, Mr. Gorman mentioned workshops with the Minister but according to the Minister, when the workshops have concluded the business interests such as IBEC, ISME, the Small Firms Association and workshop participants will be invited by the Minister to give him input on his Department's simplification.  Are they not all part of Mr. Gorman's body?  Are they not already at the table?  There seems to be toing and froing and time wasting going on.  I believe this process could move much quicker and that people could sit down at the table, make a list of all the concerns and work through them there and then and get some answers but it seems to be an ongoing process.  I do not believe we are getting very far with the process and I am concerned we will not achieve reductions of 25% or 30% in 2012.  At that stage many businesses will have closed for other reasons but this will have a major part in helping that process.</p>
+          <p eId="para_68">Those are my concerns more so than questions.  I welcome the report.  At least we are much better informed of what is happening but I ask that we consider how to speed up the process.</p>
+        </speech>
+        <speech by="#" eId="spk_16">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_69">I will make a number of comments.  In terms of urgency, this process is being treated with a good degree of urgency.  The reason the high level group on business regulation was established in the first instance was to get an engagement with business on immediate and real-time problems caused by the burden of regulation.  What the Minister and the Government sought to achieve for the group was that rather than waiting on the major exercise of the 25% target running to 2012 to deliver, there was a more pressing need for an engagement with business on what is hurting it most and whether we can do something now.  Whatever we achieve will feed into the bigger target.  That is the reason we set up this particular group and the reason we have ISME, the SFA and groups like that working with us.  That is part of the urgency.  I accept the urgency is greater than ever given the stresses and strains of the business environment and we are pushing as hard and fast as we can in that regard, with support from the business groups on the group.</p>
+          <p eId="para_70">On the EU rules on transposition of EU directives and regulation, there is a constant and understandable frustration that the system is often accused of gold plating when we transpose directives.  I cannot speak for other Departments generally but we would say we do not do that.  We often have to be careful that in transposing we transpose in a sufficiently adequate way to ensure we do not end up having problems with the European Commission later for failure to transpose properly and comprehensively.  These directives are agreed at EU level.  The approach taken is to transpose them as required and within the scope and scale of the directives as they are handed down.  My Department has never set out to try to over-layer or gold plate in that regard.</p>
+          <p eId="para_71">On the business input and what the Deputy described as much toing and froing, reporting back and all of that, the business input is crucial and it is happening at two levels.  The first level is the point I made about the urgency of response.  Rather than waiting for the big agenda to move forward, we set up this group to work directly with business and asked businesses what aspects were hurting them most.  That has generated an engagement with business in its own right.  There were particular and specific workshops built around that.  The work programme, the details of which the committee has, emerged from what businesses told us were the aspects that were hurting them most.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_17">
+          <from>Deputy Damien English</from>
+          <p eId="para_72">Did that work programme change much from what we thought it would have been at the start of this process?</p>
+        </speech>
+        <speech by="#" eId="spk_18">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_73">Yes.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_19">
+          <from>Deputy Damien English</from>
+          <p eId="para_74">It did.</p>
+        </speech>
+        <speech by="#" eId="spk_20">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_75">We reviewed it with businesses at the end of last autumn and they added a number of issues to the programmes that were newly pressing on them.  We did this through the members of the group.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_21">
+          <from>Deputy Damien English</from>
+          <p eId="para_76">With regard to the gold plating, does discussion take place at European level on the implications and impact of the imposition of rules and regulations on business?  Does the group get an opportunity to voice the concerns expressed by businesses in Ireland that some of these rules are excessive compared to the practice pertaining in other countries?  I accept it is not Mr. Gorman's job to go to France or Spain and point out that a practice is not right but do he or the Minister get an opportunity to put forward the view that we, as a country, feel slightly hard done by in this regard?</p>
+        </speech>
+        <speech by="#" eId="spk_22">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_77">Under the approach taken to the engagement with rules emerging from the EU process at official, ministerial and Government level, many factors are examined, including the overall objective sought to be achieved on foot of the regulation.  Sometimes it is a safety aspect, in terms of worker protection, that must be addressed.  We also constantly examine the implications of regulations for business and competitiveness and we would bring our views on that to the table.  Often there is a trade-off between having to do something at the core, perhaps to protect the worker or the public from some risk, and setting that off against the risk of undue burden and over-regulation.  It is a constant theme of our engagement in Brussels and a constant filter through which we put proposals for regulation, as we participate in the process.  We are one of a group of 27.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_23">
+          <from>Deputy Damien English</from>
+          <p eId="para_78">I understand how the process works.  My question relates to what happens after that.  It is evident when one visits some countries that they do not enforce directives in the way they are enforced here.  I know that Mr. Gorman would not want to inform on other countries——</p>
+        </speech>
+        <speech by="#ArthurMorganSF" eId="spk_24">
+          <from>Deputy Arthur Morgan</from>
+          <p eId="para_79">Why not?</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_25">
+          <from>Deputy Damien English</from>
+          <p eId="para_80">——but is the issue of some countries being lax in implementing the rules ever discussed?  Such a lax approach in other countries impacts negatively on this country, on business people here and on those involved in the export sector.  Is that issue ever discussed or it is a no-go area?  It is a major concern.</p>
+        </speech>
+        <speech by="#" eId="spk_26">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_81">I cannot comment on what I think of other countries.  We deal with a proposal on the basis of how we interpret and filter what it might mean for the objective sought to be achieved by it, whether it be the safety aspect or some other aspect of business, and we push it that way.  The Commission is also undertaking regulatory impact assessments of its regulations and that is a help.</p>
+          <p eId="para_82">When we move to the transposition phase of an EU directive into Ireland law we engage in extensive consultation with the stakeholders here to enable us to understand from them what might be the implications of the directive and its transposition in a particular way.  Through that further stage of consultation, as we go through the transposition process, we take all of those factors into account.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_27">
+          <from>Deputy Damien English</from>
+          <p eId="para_83">The Joint Committee on European Scrutiny also examines directives prior to them being transposed into law.  Such consideration of proposals is useful.</p>
+        </speech>
+        <speech by="#ArthurMorganSF" eId="spk_28">
+          <from>Deputy Arthur Morgan</from>
+          <p eId="para_84">I thank Mr. Gorman for the run-down on that process.  The XBRL facility is long overdue and the link between the CRO and Revenue marks a great improvement for the business sector.  With the constant filing of returns to the same people in the past, those people must have wondered whether the people at Government or administrative level ever talk to each other.  Therefore, it is good to see some movement in that respect.</p>
+          <p eId="para_85">I have a few brief questions.  How many areas would the group be examining at any one time?  Would it have three or four items on its agenda or what is its capacity in that regard?  Are there obstacles or difficulties in some of the areas that it would have thought could have been improved at the beginning of the process?  For example, health and safety provisions are an obvious significant cost to business, yet they have to be measured and tempered with the safety of the public and employees in a business.  Such provisions involve a huge additional cost for businesses.  Are there obstacles in areas with which the group deals and, if so, how is it working its way through those?  Do many rows occur?  Do Mr. Mark Fielding and Mr. Liam Berney have to be separated on occasion or in practical terms is there a decent working relationship through which difficulties can be sorted out?  There are competing interests, for example, between health and safety considerations and other areas.</p>
+          <p eId="para_86">What was the response to the workshops the group held in May?  Did it get good feedback on other areas that could be improved?  Even being a member of this committee, I can be stale on what is happening in practice and I regularly have a conversation with a business person over a mug of tea about the difficult areas of the business and administrative burdens he or she faces, unnecessarily in his or her view.  It is a way of teaming up with people in business.  I would be interested to hear how the workshops were received.</p>
+        </speech>
+        <speech by="#" eId="spk_29">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_87">The Deputy asked about the number of areas we are examining.  We are examining five key areas where businesses told us they have problems.  The first area is taxation.  We are not examining the rates of tax but the burden of complying with tax law.  The second area is health and safety, to which the Deputy adverted.  The third area is employment law.  The fourth area is environmental regulations, of which understandably there are much more than there were traditionally.  The fifth area is company law and the related area of statistical returns.</p>
+          <p eId="para_88">There can be obstacles such as the example of obligations to EUROSTAT referred to by Deputy English.  We have overcome turf wars and patch wars and in the group there is an open and honest approach by, for example, people from the HSA who are prepared to work with the National Employment Rights Authority and other bodies to examine how they can streamline activities, whether it be inspections, an approach to risk-based enforcement or data and information sharing, not least from an enforcement point of view but also from a burden point of view.  Some of the data sharing informs enforcement.  I have found that some of those obstacles that I expected might have been much more rigid and harder to resolve have been pleasantly overcome.  The people we have engaged with across the Government system and through agencies have been very willing and open to working with us to come up with practical examples of where they can co-operate to the benefit of business.  The co-operation between the CSO and the CRO is a classic example of that.  The Revenue Commissioners have been particularly good about working with all of us.</p>
+          <p eId="para_89">On the issue of the HSA, there is a trade-off between the need for compliance and the administrative burden.  I do not think that Mr. Liam Berney and Mr. Mark Fielding have fallen out but the members of the group make the valuable contribution of bringing different perspectives to the work.  There is a good balance of business people, Government, agency and Department people and the Irish Congress of Trade Unions represented by Mr. Liam Berney and that makes for interesting discussion at times.  We have managed to work our way through any issues that might arise.  It is important to point out that it is not a question of turning our back on the need to protect workers or the public, if chemicals are being transported or whatever the case might be, but about accepting that there is a certain compliance level required in the public and national interest while at the same time working together to see if we can make the administrative burden lighter by simplifying a form or asking  a company to submit returns once a year rather than ten times a year.  On the workshops and the extent to which the two recent ones have been successful or otherwise and the mood from those workshops, I will ask Mr. John Kelly, who has been involved in these directly, to make some observations.</p>
+        </speech>
+        <speech by="#" eId="spk_30">
+          <from>Mr. John P. Kelly</from>
+          <p eId="para_90">The workshops are being organised in the three areas we have already measured.  We have prioritised the information obligations and we have measured the burdens in those areas, that is, health and safety, company law and employment law.  When we get to these meetings and workshops we already have a list of specific information obligations which we are proposing to simplify to reduce the burden in those particular areas in respect of those information obligations.  The agenda for the seminars is those lists of information obligations.  What we are seeking from the seminars is ideas from the people on the ground, the businesses and other representative organisations, on what precisely we can do in respect of each of those information obligations to reduce the administrative burden in their day-to-day operations.  We are careful when introducing the meeting to say that we are not about undermining the policy objective of the regulations.  What we are interested in is finding practical and pragmatic ways of removing the red tape so people waste less time on fulfilling these information obligations.</p>
+          <p eId="para_91">We also give some suggestions about ways of thinking about reducing the administrative burdens.  By focusing on the pragmatic, doable things we can do to reduce costs, we eliminate any tensions that might arise in respect of whether it is a good or bad thing or whether the policy is being undermined.  That is not a factor in these seminars.  This is simply to get ideas from them.  It is also to listen to them about their other areas of concern in respect of specific irritants or burdens which they believe we have missed.  We are anxious to take on board all suggestions.  We also tell them that if something occurs to them after the meeting, they should contact us again and we will take it on board.  As the Secretary General said, we intend to produce, immediately, a simplification plan in particular areas which will achieve the 25% target by 2012.</p>
+          <p eId="para_92">We have had two seminars so far, one on company law and yesterday we had one on employment law.  The company law seminar was attended by approximately 30 participants.  I considered it an extremely useful exchange of views.  Again, the company law seminar appears to have provoked a great response because there were in excess of 50 participants in the employment law seminar.  There was a very lively exchange of views yesterday but we also got some very good ideas from the participants.  We hope to follow-up on that by getting some type of written feedback from them as well as to how they think we should proceed.  The important thing about them is that we are listening to the people upon whom the burdens are actually placed and we are getting their views as to how we can eliminate them.</p>
+        </speech>
+        <speech by="#ArthurMorganSF" eId="spk_31">
+          <from>Deputy Arthur Morgan</from>
+          <p eId="para_93">It is an ongoing job.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_32">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_94">I thank Mr. Gorman and his colleagues for appearing before the committee.  There is a 25% target for 2012.  In the current environment the SME sector is under significant pressure.  Is there a yearly target?  I would have thought it would be important to show in each year up to 2012 how that saving will be made.  I doubt that in the normal way a business would state that it would increase its sales by 20% five years hence; it would state it on an annual basis.  Perhaps Mr. Gorman would expand on the percentage reduction to date.</p>
+          <p eId="para_95">I note that the group met five times in 2009 and plans to meet five times in 2010.  Is that a resource issue?  The need to reduce the regulation burden on businesses is critical.  Why is the group not meeting monthly?  How many people are involved at administrative level dealing specifically with the high level review group?  My view is that the establishment of the high level group on business regulation is fantastic.  However, it appears that the bulk of the work is being done by individual Departments.  Looking at various projects over the years, such as the e-government and other projects, if the group had been a stand alone body, properly resourced with a proper secretariat, it would make ground far more quickly.  The worry is that the group is going down into the tentacles of the Departments, each Department is different and it is seeking to arrive at commonality over time.  Will the witnesses address that issue?</p>
+          <p eId="para_96">Mr. Gorman said that according to the OECD, Ireland, relative to other EU countries, is not heavily regulated, but that the feedback the high level group gets from the business community is clear — it perceives itself to be heavily burdened with laws, regulations and rules and the associated administrative burdens and costs are ever growing.  What is the group's opinion?  The group's terms of reference are that it takes what exists by way of regulation as gospel, yet various countries in Europe have adopted a more liberal interpretation of regulation.  The problem is that Ireland is an exporting nation and an increasing amount of our exports go to the European markets.  However, there is a perception in the SME sector in this country that the level of regulatory requirements is far more severe here.  The simple things mentioned by people who appeared before the committee regarding regulation of the sale of produce included eggs being a certain size.  They might appear to be minor but they are extremely important.  Perhaps Mr. Gorman would address that.</p>
+          <p eId="para_97">A total of €10 million per annum is the regulatory burden for businesses for the CSO.  How many businesses are filing forms with the CSO at present and what is the cost per business?  One must acknowledge where things have worked and certainly the Revenue Commissioners on-line system, ROS, has worked well.  It has reduced the burden significantly.  The CSO has made strides in that area but has more strides to make.  However, people have huge burdens in terms of the CSO.  It strikes me as a very low figure.  Perhaps Mr. MacFeely could tell us the number of businesses filing returns and the cost per business.</p>
+          <p eId="para_98">Finally, the witnesses said they have tackled almost 70 red tape issues and are looking at the big potential hits.  They used a specific term but I cannot find it.  What are the big issues they have hit?  Of the 38 live items, which will they hit?  There is an urgency in this area.  The model that has been set up, in the high level review group, is very good.  I do not mean any disrespect to Departments but I am not certain the implementation model used will result in a speedy outcome.</p>
+          <p eId="para_99">All those involved in business could tell us how are being stymied.  In every company, one member of staff must spend at least one day per week filling out various forms to comply with regulations.  Despite doing their jobs as required, business people are petrified because officials from various bodies appear from nowhere.  The business community needs certainty on the issue of targets.</p>
+          <p eId="para_100">Why does the high level group meet only five times per annum?  Why does it not meet every month?  Is there a problem with resources?  Could it operate as a stand-alone entity?</p>
+          <p eId="para_101">While the workshops are valid, I suspect much of the information they provide to the high level group is probably already available through ISME, the Small Firms Association and other organisations.  These practical issues facing those working at ground level are what business is about.  The model for the high level group is great and it does great work but we must identify how we can expedite the process.  Do the terms of reference preclude the group from examining whether regulations here are more onerous than those in force in other European Union countries.  I wish members of the high level group well in their work.</p>
+        </speech>
+        <speech by="#" eId="spk_33">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_102">On the frequency of meetings, historic and planned, resources are not a direct factor.  Most of the work is done off-site rather than in the five annual meetings, which are about driving the agenda, getting reports back and capturing what has been done.  The real work is done at desks in Departments and across Departments.  The timing and frequency of meetings are  based on the need to ensure sufficient time is available between them to allow people to progress issues in the intervening period.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_34">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_103">If an urgent issue arises in a Department, it normally manifests itself in frequent meetings over a short period.  The joint committee has had a dozen or more meetings with various groups, many of which are barely hanging on.  We have reached crisis point.</p>
+          <p eId="para_104">I note the group will take a risk-based approach to enforcement.  Why not have defined regulation implemented by means of a rules-based approach, as we had with the banking system?  Rather than having a thick file to go through, we should focus on covering the key areas in business, in other words, the key fundamentals that cannot be ignored.  It is a matter of ensuring that we have a regulatory system that ticks all the boxes but does not result in businesses being more preoccupied with form filling than generating the revenue needed to continue.  Companies are preoccupied with bureaucracy because they are afraid of fines and so forth.</p>
+        </speech>
+        <speech by="#" eId="spk_35">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_105">To return to the frequency of meetings, it appears to be working, although we can keep it under review.  It does not mean that matters must wait until we meet.  A great deal is progressed off-site and something could be done weeks or perhaps a month before the group meets again.  Nothing is necessarily on hold or in a vacuum until the group meets.  However, we will keep the frequency of meetings under review.  The measurement exercises in which Departments identify the prioritised areas of burden will generate a large amount of work in terms of pushing and tracking what is happening.  We will set targets based on these exercises as the results are returned to us.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_36">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_106">The group does not have annual targets.</p>
+        </speech>
+        <speech by="#" eId="spk_37">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_107">No, not at present because we are in the phase of the exercise of trying to capture the 5%.  We are working on all 70 items on our agenda as a block.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_38">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_108">The years covered are 2009, 2010, 2011 and 2012.  As we are halfway through 2010, only two and a half years remain.  Based on a reduction in the regulatory burden of 25%, effectively a 10% reduction per annum is required.  When will the high level group issue a report that breaks things down to basics and indicate that regulation on business will be reduced by, say, 8% or 9% by the end of 2010 and a further 10% in 2011 and 2012, respectively?  When will we see that level of detail?</p>
+        </speech>
+        <speech by="#" eId="spk_39">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_109">We will see that level of detail when the Departments complete the quantification and measurement exercises early in the new year.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_40">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_110">That will be in 2011.</p>
+        </speech>
+        <speech by="#" eId="spk_41">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_111">Yes.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_42">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_112">The high level group will then have 18 months to implement a 25% reduction in the regulatory burden.</p>
+        </speech>
+        <speech by="#" eId="spk_43">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_113">Yes, and some of that 25% reduction may require legislation which in itself is a challenge.  It is, therefore, a challenge to meet the target by the end of 2012.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_44">
+          <from>Deputy Damien English</from>
+          <p eId="para_114">Is the target to have the plan written or implemented by the end of 2012?</p>
+        </speech>
+        <speech by="#" eId="spk_45">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_115">It is to deliver the 25%.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_46">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_116">Does Mr. Gorman expect to have reduced the regulatory burden by 25% by the end of 2012?</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_117">Yes, that is what we are aiming for and that is what we have been told to achieve.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_48">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_118">Mr. Gorman will have to forgive me if my understanding of the information obligations provided to us is incorrect.  On health and safety, let us take IO/20, risk assessments, and IO/13, safety statements.  The administrative costs associated with these were €167 million for the former and €146 million for the latter.  As a percentage of the overall burden, these amounted to 51% and 44%, respectively.  How, in practical terms, is it proposed to reduce the burden of these two areas by 25% by the end of 2012?  I am sceptical about the possibility that the Health and Safety Authority will be hauled over the coals and legislation amended by the end of 2012.</p>
+          <p eId="para_119">I do not get a sense of urgency, which is the reason I questioned the staffing quotient applied to this mechanism in the first instance.  Mr. Gorman alluded to a parliamentary question I tabled recently.  The secretariat for the high level group is provided by the company law review group and business regulation section, which currently have a staff of eight.  The high level group cannot achieve what it hopes to deliver with this staffing quotient, notwithstanding the fact that other Departments feed into the process.</p>
+          <p eId="para_120">I will now address Mr. MacFeely, the representative of the Central Statistics Office.  Business interests are making a case that one could take representative samples as opposed to complete figures to reduce the regulatory burden.  The Legislature requires a greater sense of urgency in this regard given the current economic circumstances.  We need a substantive means of identifying, at a minimum on a quarterly basis, whether the targets are being met.  In the work programme some of the targets are characterised by the colours red, orange and green.  I will choose a random example.  The description given on the Companies Registration Office and Revenue annual returns is that the CRO and Revenue are working together to find ways to reduce duplication.  It refers to milestones completion co-ordination meetings between the CRO and Revenue and then it is given a green light, and then that an information note has been produced by the CRO to help companies which wish to change their ARDs and can be found in paragraph 7.  How does a company alter its ARD?</p>
+          <p eId="para_121">Presumably, that is real and that has happened.  However, there is so much more within those work programme documents which are totally aspirational.  I am the type of person who likes to see a target date and an action and whether or not it has been achieved, and much of it has not been achieved.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_49">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_122">When will the Departments come back to this high level group with their programmes outlining what they will do?</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_123">September.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_51">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_124">How long has that been sitting on their desk?  When were they initially given the task of carrying that out?</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_52">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_125">The bottom line is that it is not an apportioning of blame either; it is an apportioning of resources.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_53">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_126">This is in order that we would understand.  When would they have been issued with the task of coming up with this?  How long is this ongoing?</p>
+        </speech>
+        <speech by="#" eId="spk_54">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_127">I do not have the exact date but, roughly, it would have been 2008.  I will get the exact date for the committee.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_55">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_128">Roughly, two years.  We might as well be frank.   We might as well cut to the chase.  The review group is of a high level.  It includes great people.  It is representational.  It is simple.  If the group goes to any business person, he or she will tell it where the key areas are.  The CSO is a major area and, meaning no disrespect to Mr. MacFeely, the small business sector finds it very difficult.  Other areas have been improved.</p>
+          <p eId="para_129">Getting back to the point, each Department has had two years to come up with this.  That is too long.  If businesses were operating that way, they could not survive.  I put it to the group that it will not be in a position to come up with how the 25% target it is looking to meet will be implemented until probably the middle of 2011 because it will have a report done early in 2011.  The question is what resources the group needs to work with the Departments to come up with these plans in a quicker fashion and to set targets and take the easy questions out first.  There must be areas that can be dealt with in a straightforward fashion and we are asking the group what can be done to resources so that this high level group becomes not only a review group but an implementation group.</p>
+          <p eId="para_130">This is about better government.  It has nothing to do with the staff working in the Departments because they have work to do.  Are there separate sections within each Department allocated to this or are these staff who are doing their daily work being asked to do this additional work as well?</p>
+          <p eId="para_131">In my view, this is of such importance and could be so ground breaking that this group should be an executive group made up of staff pulled from each Department — some from the Department of Justice, Equality and Law Reform and from the Department of the  Environment, Heritage and Local Government.  The review group should then come up with a high level executive group under it which would work with each of the individual Departments and report to the review group, which becomes, for want of a term, a fast highway to bring in better and reduced regulation in Ireland and means business.  The problem at present is that the group is curtailed by what each Department is doing.  If the group got the resources, would Mr. Gorman proceed with that model?</p>
+        </speech>
+        <speech by="#" eId="spk_56">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_132">We need to understand the role of the high level group.  We are looking across tax, the CSO, the environment and a number of areas in our own Department which are classically the company law, employment law and the health and safety area.  The involvement of those Departments and the commitment exercised by them is critical.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_57">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_133">Nobody disagrees with that.</p>
+        </speech>
+        <speech by="#" eId="spk_58">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_134">Any separate stand-alone group could not go into the details of those individuals Acts, rule or regulations at that remove.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_59">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_135">Is there anyone specifically assigned in each Department to this and——</p>
+        </speech>
+        <speech by="#" eId="spk_60">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_136">There is.  There is a nominated——</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_61">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_137">——doing nothing else?</p>
+        </speech>
+        <speech by="#" eId="spk_62">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_138">Some of them may be doing something else.  I cannot say they are doing nothing else.  There is a nominated individual in each Department with responsibility for this and who is tasked with delivering their contribution.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_63">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_139">Why does it take two to three years to come up with better regulation when I would assume that 80% of it is probably known already?</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_64">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_140">How often does Mr. Gorman chat to the Minister?</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_65">
+          <from>Deputy Damien English</from>
+          <p eId="para_141">The 25% target has caused the problem.  We are obsessed with measurement all of a sudden.  We in the Opposition are guilty of that because we were calling for a measurement tool as well.  I regret we did because they seem to spend three or four years measuring everything before getting any work done.</p>
+          <p eId="para_142">The top-down approach seems wrong.  Instead, should all the lobby groups, the SFA, ISME, etc., give their list of concerns to the high level group, as they have done at committee meeting for the past two or three years and the group approach each Department with their concerns asking for a plan of action?  The Departments are spending two or three years coming in with their ideas of where they can tweak matters and what is priority, it then goes back to groups some of which are already represented on the high level group, the group goes out to workshops and it comes back in again, and we do not really get anywhere.</p>
+          <p eId="para_143">I note there are many more workshops planned by each Department.  Why do we have all the lobby groups representing all the people if we must have workshops on top of that?  It seems we are spiralling round, toing and froing, up and down, we will not really get anywhere and at the end of the day there still will not be buy-in from either side.  The group has the Departments giving it their lists and the group is then going to workshops asking are they happy with this list of ideas, and then the workshops give the group some more suggestions for changes, as Mr. Gorman stated.  The process then probably starts again.  Somebody has a list in each group of measures that should be taken.  Can that list be sent to the Department to be addressed?</p>
+          <p eId="para_144">We hear from all the groups we talk to, first, that there is a lack of common sense in this regard.  We have lost common sense in this country and it is costing us dearly in money and jobs.</p>
+          <p eId="para_145">The second issue is the sense of cat and mouse, of them and us.  If all of these rules and regulations are meant to be for everyone's benefit, which most of them are, be it health and safety, food production or making of toys, there is no buy-in from both sides.  It seems as though the staff come down from the Department to catch you out and there is a hullabaloo, rather than come to assess you, work with you and try to make this better for everybody.  The attitude from both sides is a big problem.  My concern is it seems none of that will be addressed in this process.</p>
+        </speech>
+        <speech by="#" eId="spk_66">
+          <from>Mr. Liam Berney</from>
+          <p eId="para_146">There has been much talk at this meeting about the needs of business and it is quite understandable why that would be so, but I want to make a couple of comments about what clearly is a very high expectation on the committee's part about what this group can and cannot deliver.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_67">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_147">We need to understand.</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Mr. Liam Berney</from>
+          <p eId="para_148">If the Deputy would let me finish, it seems to be a very high expectation.  It seems to me it is quite acceptable, from some of what we have heard, that business produce a list and it is absolutely expected on the part of members of the committee that the list would be delivered upon.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_69">
+          <from>Deputy Damien English</from>
+          <p eId="para_149">All groups.</p>
+        </speech>
+        <speech by="#" eId="spk_70">
+          <from>Mr. Liam Berney</from>
+          <p eId="para_150">Please let me finish.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_71">
+          <from>Deputy Damien English</from>
+          <p eId="para_151">I wish to correct that.</p>
+        </speech>
+        <speech by="#" eId="spk_72">
+          <from>Mr. Liam Berney</from>
+          <p eId="para_152">I just wanted to make a couple of points.  There is some discussion about risk assessment and the health and safety statements, to which Deputy Sherlock made reference.  These are not in legislation for no reason.  They are in legislation to ensure that we have safe workplaces.  I would caution against undue haste.  If you were to eliminate both of those requirements tomorrow, would there be deaths in workplaces and on farms?  Would the committee then be prepared to risk the fact that fatalities could take place by the elimination of measures that were put in place for good reason?  I merely caution against undue haste to seek to eliminate regulations that are in place for good reason.</p>
+          <p eId="para_153">Everybody here who has been involved in this work has recognised that there are elements in the system which perhaps were unnecessary and duplicative and that we have worked together to try to eliminate them, but I urge the committee to be very careful not to seek people to proceed with undue haste and at the same time undermine the spirit and the very reason the regulation was put in place.  The high level group has agreed among itself that it will not recommend or seek measures that will undermine the core principles of regulation.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_73">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_154">We agree with Mr. Berney on that.</p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from>Mr. Liam Berney</from>
+          <p eId="para_155">Employment regulation did not cause this economic crisis and is not responsible for it.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_75">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_156">It is the interpretation of it.</p>
+        </speech>
+        <speech by="#" eId="spk_76">
+          <from>Mr. Liam Berney</from>
+          <p eId="para_157">Health and safety regulation did not cause the economic crisis in which we find ourselves.  I am in regular contact with my trade union colleagues in Europe and I am aware that we are very lightly regulated in this country.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_77">
+          <from>Deputy Damien English</from>
+          <p eId="para_158">I wish to make a point.  Much of the health and safety legislation was changed as a result of something that happened in my county.  I wish to make it clear to Mr. Berney and his colleagues that it is not health and safety legislation we are discussing.  What we are concerned about is the buy-in, namely, understanding why it is necessary to have something and ensuring that it works well for everybody.  We are not interested in the cat-and-mouse games people play in order to try to get away with something.  We are discussing buy-in and agreeing that something must be done at a lower level.  We are also interested in working on implementation.</p>
+          <p eId="para_159">I am not stating that many of these requirements should be removed.  However, I asked if there was a list of those which are not needed.  I do not want our guests to be of the impression that we are stating that some of this must be cut out.  When I refer to groups, I mean lobby groups on all sides.  Everyone's concerns should be highlighted and we can then work through them.  Those which cannot be dealt with should be put to one side and those which are important should be placed on the other.  Those that are left will be the ones with which we can deal.  Perhaps our guests have already done this.  However, taking three to five years to achieve this is costing the country.</p>
+          <p eId="para_160">The health and safety regulations relating to potholes are in place as a result of a serious incident that occurred in my county.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_78">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_161">We are discussing reducing a cost burden, particularly in the context of the fact that risk assessments cost €167 million and safety statements cost almost €146 million.  No one is opposed to the idea of reducing the legislative burden or the need to ensure that workplaces are safe.  No one in his or her right mind would seek to compromise on that.  However, an entire industry has grown up around health and safety and the implementation of legislation relating thereto.  The regulatory regime relating to the HSA and similar bodies has mushroomed in recent years.  Representatives from the HSA came before the committee and I invite our guests to consider the figures they provided in respect of accommodation costs alone.</p>
+          <p eId="para_162">We are trying to examine matters such as those to which I refer.  I do not believe what we are doing in this regard is wrong.  Nor is it wrong for us to try to change or streamline the position in any way.  No member is trying to reduce the need for proper assessment but a common-sense approach should be taken.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_79">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_163">Our guests' point is valid.  Much of the regulation we are discussing is basic in nature.  In respect of the €10 million to which Mr. MacFeely referred, did the CSO quantify how much it is costing per business?  I am not stating that the CSO does not do good work but there is a sense that this is a major burden on the office.</p>
+        </speech>
+        <speech by="#" eId="spk_80">
+          <from>Mr. Steve MacFeely</from>
+          <p eId="para_164">I will take the Deputy's question and a point Deputy Sherlock raised in order to place the matter in context.  There are approximately 200,000 enterprises operating in Ireland.  The most recent year for which we published burden metrics was 2008.  Approximately 134,000 of the enterprises to which I refer did not receive forms from us.  On average, therefore, we are operating on a 30% sample.  Obviously, this will differ by sector and by——</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_81">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_165">So 134,000 out of 200,000 businesses did not receive forms.</p>
+        </speech>
+        <speech by="#" eId="spk_82">
+          <from>Mr. Steve MacFeely</from>
+          <p eId="para_166">Those are approximate numbers.  We publish the detailed numbers——</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_83">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_167">What are we talking about in approximate terms?</p>
+        </speech>
+        <speech by="#" eId="spk_84">
+          <from>Mr. Steve MacFeely</from>
+          <p eId="para_168">In an average year, 67% of businesses do not hear from us at all.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_85">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_169">Therefore, 67,000 businesses file forms with the CSO.</p>
+        </speech>
+        <speech by="#" eId="spk_86">
+          <from>Mr. Steve MacFeely</from>
+          <p eId="para_170">Yes.  Obviously, however, it differs by sector.  In small, specialised sectors the sampling rate is higher.  In very large sectors, the sampling fraction is much lower.  It also differs in the context of a sector's importance to the economy.  We probably hit pharmaceutical or computer companies a little harder but this is because they are vital to understanding the nature of the economy.</p>
+          <p eId="para_171">We are due to publish a report shortly which will detail the costs by sector and size class.  I do not have the figures to hand but cost would differ very much in respect of the size of an enterprise and the sector in which is operates.  A multinational that deals in several sectors — for example, it might operate in the production and services sectors and it might also operate a fleet of trucks — will be hit quite hard.  It is unlikely that a small enterprise would be multisectoral and, as a result, such a concern would not be hit nearly has hard.  If the €10 million is spread across the entire enterprise population, I believe it works out at €23 per enterprise.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_87">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_172">So it would be €150 per annum for the 67,000 enterprises to which forms are sent.</p>
+        </speech>
+        <speech by="#" eId="spk_88">
+          <from>Mr. Steve MacFeely</from>
+          <p eId="para_173">That is on the sample.  However, it must be spread across the entire population because we rotate the samples.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_89">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_174">How many businesses are filing returns in respect of the €10 million?  Is it the 67,000 to which I refer?</p>
+        </speech>
+        <speech by="#" eId="spk_90">
+          <from>Mr. Steve MacFeely</from>
+          <p eId="para_175">Yes.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_91">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_176">So that is €150 per business.  Many businesses have informed us that half of their employees' time is spent completing forms.  We could be referring here to people who earn €300 or €500 per week.  Therefore, the €150 divides down to less than €2 per week.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_92">
+          <from>Deputy Damien English</from>
+          <p eId="para_177">That is a week out of the working year.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_93">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_178">It is less than a week, it is €150.  It comes down to the cost to the employer.  The latter employs someone to complete these forms.  The issue of time does not come into it.  A figure of €150 per annum divides down to less than €12 per month.  Mr. MacFeely will appreciate that ordinary citizens or those who own SMEs would state that these figures do not stand up to scrutiny.  Is that a fair comment?</p>
+        </speech>
+        <speech by="#" eId="spk_94">
+          <from>Mr. Steve MacFeely</from>
+          <p eId="para_179">No, I would not agree.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_95">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_180">If one divides €150 by 12, one arrives at a figure of approximately €12 per month.  Even if someone is only completing one quarter of a form, he or she would take two or three hours to do so.  The point I am making is that we should deal with the problem as it stands.  I take Mr. Berney's point regarding regulation.  I am sure he would agree that it would be great if a way could be found to enforce the regulations in a practical way.  Would it be possible to find such a way?</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_96">
+          <from>Chairman</from>
+          <p eId="para_181">Many groups have come before the committee to discuss the cost of regulation to business.  Ultimately, we want to protect as many businesses as possible.  Small business people in my area, particularly those involved in the smaller, cottage food industries, etc., have approached me in respect of this matter.  Is it necessary for seven different inspectors from the Health and Safety Authority to visit the premises of a small business which employs two or three people?  On the agriculture side, a farm could be visited by up to 17 inspectors.  That is where the cost of regulation arises because these people do not interpret anything relating to health and safety issues, etc.  Up to 14 different inspectors could visit any of the small pubs cum food outlets located throughout the country.  In addition, a concern which produces cottage cheese and which employs one or two people or one where 35 cows are milked could be visited by 17 inspectors.  Surely the high level business group should be examining ways to streamline the system of inspections.</p>
+        </speech>
+        <speech by="#" eId="spk_97">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_182">That is one of the areas we are examining.  We are approaching it from two perspectives.  One is the risk-based approach I talked about earlier and the other is exploring the potential for joint inspections or inspections where an inspector might feed back information or warning signals to some other body as distinct from having many visits.  It is a complex area that we are working through because the disciplines involved can be varied and specialised.  If one is examining food safety, employment law or the use of chemicals as against some other aspect of regulation, whether that is filing accounts or returning forms to the CSO, they are all terribly different and diverse.</p>
+          <p eId="para_183">With regard to enforcement authorities concerned with employment law, health and safety law and food safety, we are looking for the extent to which we can do the risk-based inspection.  The pattern we see is if companies are in trouble on one front, they are often in trouble on more fronts.  It is not always the case but it is often the case and, therefore, one tends to find the problem is often greater than first perceived.  That is what risk-based enforcement is about.</p>
+          <p eId="para_184">Then we are looking at the extent to which we can have joint inspections and there are different views on that.  This will be part of the ongoing exercise.  If we can reduce the number of inspections by having one inspector as against 14, to take the extremes of that spectrum, it would be great.  It may not be practical to get from 14 to one where, for example, dangerous chemicals have to be inspected or somebody has to check whether employer is paying his workers correctly or another aspect of regulation that needs to be enforced must be looked at.  It is difficult to telescope all that down into one and that is what we are working through as part of the 25% piece.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_98">
+          <from>Deputy Damien English</from>
+          <p eId="para_185">Representatives of a number of groups who have appeared before the committee said they know how to fill in the forms or implement the laws.  Laws can be introduced but the average person on the street is busy and does not have time to check every new law and read about it.  Leaflets might be sent in the post but they are probably thrown in the bin or put on the top shelf.  Is it proposed that staff would float around in each county and visit businesses to prevent problems and to talk issues through?  I acknowledge various bodies are engaged but no specific person physically moves around to visit companies, to talk them through issues and to point out, for example, they might be checked up on in six months.  That alone would be a major help.</p>
+        </speech>
+        <speech by="#" eId="spk_99">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_186">We started with NERA regarding that discussion.  Anybody who has a business tends to employ somebody and, therefore, NERA is a common reference point in terms of inspections.  We have been engaged much more in advocacy with the authority.  It has held seminars around the country and its officials are talking to businesses.  Mostly, they give advance notice that they are coming.  It is not that problems can be hidden but it is a reasonable approach to helping people.  We are pushing the Office of Director of Corporate Enforcement, for example.  Its officials do a great deal of advocacy for companies.  They draw up both guidelines and hold seminars and to this through different media.  The area of advocacy and help is very much to the fore and it is something we are continuing to push because part of the burden can be the sheer challenge of understanding the complexities of what is involved.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_100">
+          <from>Deputy Damien English</from>
+          <p eId="para_187">One can have advocacy and all the information meetings one wants but that will not beat having a one-stop-shop in every town or county where staff can be visited or from where the staff can go out to businesses.  Many people will not attend seminars or county council meetings to discuss issues.  If someone is out and about trying to meet them and to prevent problems, a great deal of hassle could be saved on all sides.  I acknowledge one cannot do everything but seminars and workshops are not the solution.  If 30 people attend a workshop, it is not a lot.  We have workshops and we are lucky to get ten people.  One cannot beat having one-stop-shops to provide information and to help.</p>
+          <p eId="para_188">Mr. Gorman referred to NERA.  Most businesspeople want to do everything right and they should have nothing to be afraid of if they are but they could make little mistakes and then they are afraid they are in big trouble.  The law might say that but it might not happen in practice.  Fear can build up and, by mistake, a business could end up trouble.  If more information flowed at an earlier stage in this and other areas, that would be prevented.  The majority of businesses have good intentions.  A few bad apples results in new laws that punish everybody.</p>
+        </speech>
+        <speech by="#" eId="spk_101">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_189">NERA is a good example.  It runs a call centre which is available to both employees and employers providing information and clarification on what is the obligation on the one hand and the entitlement on the other.  They are prepared to and can make available through their information service a response where companies feel they need to understand or to be helped in understanding.  That is a good example of what the Deputy has suggested.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_102">
+          <from>Deputy Damien English</from>
+          <p eId="para_190">I am referring to the balance between the number of staff involved in advocacy versus enforcement.  If there are too many in enforcement, we are failing.</p>
+        </speech>
+        <speech by="#" eId="spk_103">
+          <from>Mr. Seán Gorman</from>
+          <p eId="para_191">We are strong on pushing the advocacy piece.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_104">
+          <from>Chairman</from>
+          <p eId="para_192">The group will hopefully will appear before us again in the not too distant future with an update on how everything is progressing.  We will keep that issue at the top of our agenda because we can sense the frustration at all levels in this regard.  I thank the witnesses and the members.</p>
+        </speech>
+        <summary eId="sum_6">The joint committee adjourned at 3 p.m. until Tuesday, 15 June 2010.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

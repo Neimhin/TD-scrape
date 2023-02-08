@@ -1,0 +1,969 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_climate_action/2018-12-05/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_climate_action/2018-12-05/debate"/>
+          <FRBRdate date="2018-12-05" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/32/joint_committee_on_climate_action"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_climate_action/2018-12-05/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_climate_action/2018-12-05/debate/mul@"/>
+          <FRBRdate date="2018-12-05" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_climate_action/2018-12-05/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_climate_action/2018-12-05/debate/mul@.akn"/>
+          <FRBRdate date="2020-02-20" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#debates">
+        <TLCPerson eId="BrianStanley" href="/ie/oireachtas/member/id/Brian-Stanley.D.2011-03-09" showAs="Brian Stanley"/>
+        <TLCPerson eId="BridSmith" href="/ie/oireachtas/member/id/Bríd-Smith.D.2016-10-03" showAs="Bríd Smith"/>
+        <TLCPerson eId="EamonRyanGP" href="/ie/oireachtas/member/id/Eamon-Ryan.D.2002-06-06" showAs="Eamon Ryan"/>
+        <TLCPerson eId="GraceOSullivan" href="/ie/oireachtas/member/id/Grace-O'Sullivan.S.2016-04-25" showAs="Grace O'Sullivan"/>
+        <TLCPerson eId="JackChambers" href="/ie/oireachtas/member/id/Jack-Chambers.D.2016-10-03" showAs="Jack Chambers"/>
+        <TLCPerson eId="MaireDevine" href="/ie/oireachtas/member/id/Máire-Devine.S.2016-04-25" showAs="Máire Devine"/>
+        <TLCPerson eId="MarcellaCorcoranKennedy" href="/ie/oireachtas/member/id/Marcella-Corcoran-Kennedy.D.2011-03-09" showAs="Marcella Corcoran Kennedy"/>
+        <TLCPerson eId="MichelleMulherin" href="/ie/oireachtas/member/id/Michelle-Mulherin.D.2011-03-09" showAs="Michelle Mulherin"/>
+        <TLCPerson eId="RichardBruton" href="/ie/oireachtas/member/id/Richard-Bruton.S.1981-10-08" showAs="Richard Bruton"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Seán Sherlock"/>
+        <TLCPerson eId="ThomasPringle" href="/ie/oireachtas/member/id/Thomas-Pringle.D.2011-03-09" showAs="Thomas Pringle"/>
+        <TLCPerson eId="TimDooley" href="/ie/oireachtas/member/id/Timmy-Dooley.S.2002-09-12" showAs="Timmy Dooley"/>
+        <TLCPerson eId="TomNeville" href="/ie/oireachtas/member/id/Tom-Neville.D.2016-10-03" showAs="Tom Neville"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole eId="Minister_for_Communications,_Climate_Action_and_Environment" href="/ie/oireachtas/role/minister/communications__climate_action__environment" showAs="Minister for Communications, Climate Action and Environment"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN COMHCHOISTE UM GNÍOMHÚ AR SON NA HAERÁIDE</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Joint Committee on Climate Action</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2018-12-05">Dé Céadaoin, 05 Nollaig 2018</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2018-12-05">Wednesday, 05 December 2018</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Tháinig an Comhchoiste le chéile ag 02:00 p.m.</summary>
+        <summary class="Center" eId="sum_2">The Joint Committee met at 02:00 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_3">Comhaltaí a bhí i láthair / Members present:</summary>
+          <table>
+            <tr>
+              <th>
+                <p eId="para_1">Teachtaí Dála / Deputies</p>
+              </th>
+              <th>
+                <p eId="para_2">Seanadóirí / Senators</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JackChambers">Jack Chambers</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#MaireDevine">Máire Devine</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MarcellaCorcoranKennedy">Marcella Corcoran Kennedy</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#MichelleMulherin">Michelle Mulherin</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#PatrickDeering">Pat Deering</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#GraceOSullivan">Grace O'Sullivan.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#TimDooley">Timmy Dooley</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#JohnLahart">John Lahart</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#TomNeville">Tom Neville</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#ThomasPringle">Thomas Pringle</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#EamonRyanGP">Eamon Ryan</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#SeanSherlock">Sean Sherlock</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#BridSmith">Bríd Smith</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_16">
+                  <person refersTo="#BrianStanley">Brian Stanley.</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_4">I láthair / In attendance: Deputy Seán Haughey.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#HildegardeNaughton">Teachta / Deputy Hildegarde Naughton sa Chathaoir / in the Chair.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="" eId="dbsect_2">
+        <heading>Third Report of the Citizens' Assembly: Discussion (Resumed)<recordedTime time="2018-12-05T14:00:00+00:00"/></heading>
+        <speech by="#" eId="spk_1">
+          <from> Chairman<recordedTime time="2018-12-05T14:00:00+00:00"/></from>
+          <p eId="para_17">I welcome members and viewers who may be watching on Oireachtas TV to the 15th public session of the Oireachtas Joint Committee on Climate Action. We have received apologies from Deputies Martin Heydon and Mary Butler and Senator Ian Marshall. Before I introduce the witnesses, at the request of the broadcasting unit, members and visitors in the Public Gallery are requested to ensure their mobile phones are switched off or placed in flight mode.</p>
+          <p eId="para_18"> We will wait for the Minister and his team to join us.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_2">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T14:00:00+00:00"/></from>
+          <p eId="para_19">As the Chairman has noted previously, opening statements are being provided to the committee late. While it is not the fault of the clerk, today we received the opening statements eight minutes into the meeting.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from> Chairman<recordedTime time="2018-12-05T14:00:00+00:00"/></from>
+          <p eId="para_20">I agree with the Deputy.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_4">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T14:00:00+00:00"/></from>
+          <p eId="para_21">The agenda refers to an engagement, but does not offer any explanation of the function or purpose of the meeting. There should be more explanation as to what the meeting is about.</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from> Chairman<recordedTime time="2018-12-05T14:00:00+00:00"/></from>
+          <p eId="para_22">The purpose of the meeting is to have the Minister outline his vision as it relates to our work in examining the report of the Citizens' Assembly.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_6">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T14:00:00+00:00"/></from>
+          <p eId="para_23">That is fair enough but the few words provided here do not explain that. Whether the witnesses are officials from the Department, the Minister or guests from outside, we should get their opening statements in good time.</p>
+        </speech>
+        <speech by="#" eId="spk_7">
+          <from> Chairman<recordedTime time="2018-12-05T14:00:00+00:00"/></from>
+          <p eId="para_24">We should get them well in advance.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_8">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T14:00:00+00:00"/></from>
+          <p eId="para_25">I know the clerk and his staff do their best.</p>
+        </speech>
+        <speech by="#" eId="spk_9">
+          <from> Chairman<recordedTime time="2018-12-05T14:00:00+00:00"/></from>
+          <p eId="para_26">I take the Deputy's point and I agree with him. I understand the Minister's opening statement was submitted to the secretariat of the Joint Committee on Communications, Climate Action and Environment. That was the reason for the delay. I apologise and take the Deputy's point on board.</p>
+          <p eId="para_27"> On behalf of the committee, I extend a warm welcome to the Minister for Communications, Climate Action and Environment, Deputy Richard Bruton, and his officials to today's meeting. Before we commence, I advise the witnesses that by virtue of section 17(2)(<i>l</i>) of the Defamation Act 2009, they are protected by absolute privilege in respect of their evidence to the committee. However, if they are directed by the committee to cease giving evidence on a particular matter and continue to so do, they are entitled thereafter only to a qualified privilege in respect of their evidence. They are directed that only evidence connected with the subject matter of these proceedings is to be given and asked to respect the parliamentary practice to the effect that, where possible, they should not criticise or make charges against any person, persons or entity by name or in such a way as to make him, her or it identifiable. </p>
+          <p eId="para_28"> Members are reminded of the long-standing ruling of the Chair to the effect that they should not comment on, criticise or make charges against a person outside the House or an official either by name or in such a way as to make him or her identifiable.</p>
+          <p eId="para_29">I now call on the Minister for Communications, Climate Action and the Environment to make his opening statement.</p>
+        </speech>
+        <speech by="#RichardBruton" as="#Minister_for_Communications,_Climate_Action_and_Environment" eId="spk_10">
+          <from>Minister for Communications, Climate Action and Environment (Deputy Richard Bruton)<recordedTime time="2018-12-05T14:10:00+00:00"/></from>
+          <p eId="para_30">I thank the Chairman and committee for the invitation. I am new to this job and I am sure many of those here are better informed than I am on some of the challenges but I can report on the blunt message from Katowice this week where I attended the UN climate change conference. It will not come as a surprise to the committee that the themes were stark. One was that the window to act in respect of climate disruption is fast closing and we have a limited time to get our house in order globally if we are to respond. The second point is that, by and large, the technology to deliver the targets being set is there now. It is not a question of inventing new approaches but implementing those technologies and delivering the necessary change. The third point is that the consequences of failure are appalling in terms of the impact on the natural environment, the environment of many countries, migration, and the disruption of economic and social life around the globe, quite apart from the experiences we know about, such as the severe weather events that are in our daily news. It was a blunt message and it puts in context the work the committee is undertaking. It has undertaken this on the back of the Citizens' Assembly and its 17 recommendations. The defining issue of this century is whether we can address this adequately as a nation and as a global community.</p>
+          <p eId="para_31"> The numbers for Ireland are not good. We can see what happened. The benchmark was set in 2005 and, in the early years as the recession took hold, our emissions fell rapidly. By 2011, they were down by 11.4%. They were well on target for a 20% reduction at that stage but since the recovery started, it has become clear that we did not decouple economic recovery from emissions growth. It has grown to the point that, based on forecasts for 2020, the big industry, emission trading scheme, ETS, sector which has a cap and trade model, has done pretty okay. It will be down 37% because we have successfully made many changes in the power sector and others. In the non-ETS sector, however, which has to come down 20% we will be down only 1%. In harsh terms we are 95% off target.</p>
+          <p eId="para_32"> The growth in emissions since 2011 has been led by sectors we all know about: 13% in agriculture and industry, and 7% in transport. The energy, residential and commercial sectors have sustained downward progress in the sum total of their emissions. There are, however, challenges in every sector for which we are responsible. The committee is examining the policy options. I can give it a flavour of these. Our carbon in transport is 1.6 tonnes per head of population, putting us fifth highest in the EU, 90% of our journeys are single passenger and only 16% of houses are either A or B rated. As we go down the ratings the carbon impact escalates dramatically, from 1 tonne per annum for the low-rated ones to 11 tonnes per annum in the poorly-rated ones. Carbon per dwelling is approximately 50% higher in Ireland than in the rest of Europe, which is a challenge. </p>
+          <p eId="para_33"> The national mitigation plan, NMP, was published in July 2017 and was an important first step. It was to set a direction, putting up the signposts for where we are going but did not describe itself as a roadmap. The challenge we now face is to do the more detailed roadmapping and develop the policy tools that will get us there. </p>
+          <p eId="para_34"> The national development plan, NDP, project 2040, is a significant statement because not only does it indicate a commitment to invest €30 billion in climate action and sustainable transport, which is a significant part of the €116 billion in the project, it has set important policy objectives, such as increasing the number of houses whose energy rating is improved to 45,000 per annum, taking Moneypoint out of the system by 2025, increasing our ambitions for renewable energy, getting 500,000 electric vehicles, EVs, onto the road, and establishing the climate fund, the first tranche of which we put out last week. That is a small piece of the jigsaw but, for example, we will create a network of electric vehicle chargers around the country, which will support 40,000 electric vehicles compared with the 7,000 that are there now. No matter what way we cut it, and estimates have been done, which the committee will see in the presentation and the transition statement, the NDP, along with changes in biofuels and some other measures, will take 22 million tonnes out of the target. Even allowing for what we are allowed in the transition, where we can take into account forestry and our better performance in ETS, we still have a long way to go. We have approximately 25 million tonnes for which we do not have policies to deliver the change we need to make. </p>
+          <p eId="para_35"> To meet our targets for 2030, we need to be ambitious in every sector of activity. In transport, we need to be more ambitious regarding EVs; for a modal shift in buildings, about retrofitting, and heating systems; in power, we need to be more ambitious with renewables; in industry with biofuels; in agriculture with farming methods and forestry and so on. Coming from my background, it is important that we do not just set targets but that we develop concrete policy tools and actions that will be delivered against a rigid timescale with people accountable for delivering actions, which will be whole-of-Government endorsed in order that we can ride shotgun on their delivery. I have worked in the education sector and more relevantly on the Action Plan for Jobs where we faced similar challenges. Ambitious delivery was necessary and we needed a whole-of-Government approach. </p>
+          <p eId="para_36">This will not be resolved by a capital programme alone. It will require every Department, community, individual and enterprise playing a role, but the public sector must accept responsibility in showing leadership in this area, partly because it controls many of the policy tools but also because it must demonstrate it is serious about this.</p>
+          <p eId="para_37"> Regarding the approach I am taking, the committee will probably demand detailed lists which we are only at the early stage of developing. There are six policy headings where I believe step change is achievable. Five of them were outlined in a letter to the committee; one was omitted. I will have to correct the letter to ensure it is not omitted. The six items probably self-recommend.</p>
+          <p eId="para_38"> One is the regulatory framework. Clearly there are major areas of the regulatory framework relating to the foreshore, the mandates given to State companies and the standards set in various codes. That is important.</p>
+          <p eId="para_39"> The second is how we get the adoption of known technologies in all those sectors we know about. The EV is a good example where laying down an infrastructure to deal with range anxiety is an important first step in helping us realise those achievements. In agriculture, members will have seen the work Teagasc has done in identifying changes in agricultural methods that could, if fully implemented, deliver change. Clearly, we have to find a way of implementing some of those changes. With regard to renewables, heat pumps and many areas, the adoption of known technologies is a key challenge.</p>
+          <p eId="para_40"> The third category relates to addressing market failure. Deputy Eamon Ryan has rightly singled out carbon tax as a key area where we need a clear trajectory. The reasons are clear. In producing carbon, we are doing damage to our global environment for which we are not paying. Economists call that an externality. Doing damage but not taking it into account in decision-making makes no sense. We have to find a way of allowing people to take into account the damage they do. From a behavioural point of view, it is important.</p>
+          <p eId="para_41"> For example, each of the 3.2 million vehicles on Irish roads will be replaced before 2030. How do people make their minds up about that decision? If there is no carbon-price trajectory, they will make up their minds on a business-as-usual basis. If there is a carbon-price trajectory, they then factor in what it will cost to run such a vehicle in three, four or ten years. We must encourage people not to lock themselves into high-carbon-use technologies. That is the importance of having a carbon tax trajectory. As the Taoiseach said on a number of occasions in the Chamber, that can be recycled back to people through tax breaks. This is about getting them to change their behaviour and not to collect tax. It is to create the opportunity that people avoid high-carbon activities and do other things. It is not a smash-and-grab.</p>
+          <p eId="para_42"> There are many other areas of market failure, including the circular economy and the concept that we do not take into account the full cost throughout the cycle of product from inception to waste. The other area of market failure clearly is funding. In many cases where we are trying to fund investment, the payback times will be relatively long compared with someone borrowing in the consumer market. They will also not necessarily be secured on an asset. We need to be imaginative on how we will fund that. That covers the market-failure package.</p>
+          <p eId="para_43"> There is also the opportunity side of this. Many Deputies will be aware that while a low-carbon economy can be presented as being all about behavioural change, it is also about great opportunities for people who move first. For those who are leaders and not followers, there are great opportunities to be innovative, create employment and get out there with new technologies. We clearly need a policy to develop that. That is partly about management development. It is also about innovative hubs, supporting activities, and helping people who are being displaced in one sector to find opportunities either by retraining, new research and development and so on. It is an important part of the agenda.</p>
+          <p eId="para_44"> The fifth area is the public sector leading by example. Clearly the public sector is not only an exemplar of good practice, but also a significant player in procurement, with the €116 billion capital programme and how that is shaped and evaluated. When Mr. Robert Watt, the Secretary General of the Department of Public Expenditure and Reform, appeared before the committee I believe he signalled that he anticipated a price of carbon from a public expenditure point of view of €100 million in 2030 and €265 million in 2050. That gives a scale of his Department's attitude to how it should be doing the cost-benefit analysis of individual projects that come to it, which ones should get priority and how projects should be framed in their make-up to pass cost-benefit analysis when they come to be delivered. There are many other ways, including the smart infrastructure that we set up, smart metering and so on.</p>
+          <p eId="para_45"> The final area - I do not know how it got dropped out of the letter - is at the heart of this. It is how we engage citizens and communities to come on board the challenge we all share. Some successful initiatives have been sponsored by SEAI. There is increasing emphasis in community involvement in the renewable area. Last week, we had Deputy Stanley's initiative on microgeneration and community. There is also simple information and being able to understand how changes in individuals' lifestyle can make an impact on our performance.</p>
+          <p eId="para_46"> The Department of Communications, Climate Action and Environment is going through each sector using that framework to identify the areas with the greatest scope for change. Clearly we need to develop the best policies that can be implemented at the least cost. There is no point in expensive measures. We must be conscious that other priorities need to be met in both public expenditure and personal lives. We have to look to the least-cost ways of achieving the targets and we have to be ambitious.</p>
+          <p eId="para_47"> Beyond 2030, we need to start exploring the possibility not just of the 80% reduction in carbon use by 2050, but zero-carbon usage by 2050. That is the message that is coming from Katowice. We need to be even more ambitious than we have been and we are not delivering the targets we set.</p>
+          <p eId="para_48"> I hope that is helpful to the committee. I am keen to work with the committee, which has representation from every party and those of no party. We have some good ideas here to work through. We will work, and we expect to work, to a timeframe after the committee has completed its work. We are targeting producing a cross-government plan by the end of February. Of course, just as the committee is doing, we will also have to work across government with other Departments to sweat the proposals that may emerge and can be included in the plan. There is potential for working together on what is an enormous challenge.</p>
+          <p eId="para_49"> I thank the committee for the opportunity to contribute.</p>
+        </speech>
+        <speech by="#" eId="spk_11">
+          <from> Chairman<recordedTime time="2018-12-05T14:20:00+00:00"/></from>
+          <p eId="para_50">I thank the Minister. He announced this all-government plan for tackling climate change and reaching our 2030 targets and beyond. I presume that is based on his previous work in the Department of Jobs, Enterprise and Innovation where he had an Action Plan for Jobs. How does that work within Departments? Is it from the Department of the Taoiseach down?</p>
+          <p eId="para_51">I presume that every Department was brought in to say what it could do to reduce our unemployment figures. I commend the Minister on the work he has done in reducing unemployment from 15% to 5%. This committee has to look at governance and oversight beyond the work of the committee and how that works within Departments from the Office of the Taoiseach down.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_12" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:30:00+00:00"/></from>
+          <p eId="para_52">The model we had then was to identify up to 200 actions per year right across the spectrum of Government. Each action was timelined. During the course of the year, the then Department of Business, Enterprise and Innovation then reported on the progress of those targets to the Cabinet committee, chaired by the Taoiseach. We published, in each quarter, the extent to which actions had or had not failed. The Americans say it is important to be able to bite with the President's teeth. The fact that the Taoiseach will be holding a Secretary General to account for failing to deliver in certain areas where commitments had been made is an important element of delivery and shifting the agenda.</p>
+          <p eId="para_53"> It was not a static plan. There were some actions that stretched across five or ten years but there was a review each year to see which were working and which were not working so well, to establish why some things had failed and others were successful. There was a consultative element in its evolution. Similarly, the various climate consultations that are occurring at regional level are an important way not only to buy in support for the initiative but also to get feedback on what is possible and viable and what is being overlooked.</p>
+        </speech>
+        <speech by="#" eId="spk_13">
+          <from> Chairman<recordedTime time="2018-12-05T14:30:00+00:00"/></from>
+          <p eId="para_54">Should our national policy position be enshrined in legislation?</p>
+          <p eId="para_55"> The first round of the climate action fund was announced last week designating €77 million for seven projects. I understand that has the potential to reduce annual emissions by more than 200,000 tonnes. Those seven projects leverage about €300 million. How does the Minister see the next rounds of that climate action fund rolling out? Will specific areas and technologies that will help us with our 2030 targets and beyond be targeted? There is a concern about the measures and actions currently in place. How would the Minister like to see that climate action fund spent on technologies that will come on board to help us reach our targets?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_14" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:30:00+00:00"/></from>
+          <p eId="para_56">To answer the question on legislation, we will need regulatory change. We will need legislation in areas like foreshore. There is a need for guidelines and standards. We need to consider whether an omnibus item of legislation will be produced to enshrine all of those or whether they will be developed individually. There are legislative or statutory bottlenecks that are holding sectors back. Foreshore is a clear example of where we need legislation enacted to support an offshore wind sector.</p>
+          <p eId="para_57"> I am open-minded about putting targets into legislation. Doing that will not achieve the targets, policies make that happen, but inserting targets in legislation concentrates the mind. The committee will probably have a view on that. Targets can be good and useful.</p>
+          <p eId="para_58"> The first round of the climate action fund had about 300,000 tonnes on the emissions trading system, ETS, side and about 200,000 tonnes on the non-ETS side. The network of road lighting was on the ETS side. It could be criticised for being very strongly public sector-led, although there were applications coming from the private sector. It probably needs to evolve. We probably need to consider having expressions of interest at an earlier stage and having boot camps, for want of a better word, to help projects come forward to be competitive in the context of what it would do. The headings are probably still relevant but, to get a wider engagement, the State companies or the big companies with the networks, or the local authorities, were in a position to come forward for the first bid. It is important that we got out of the traps and they are really good projects in their own right but we need to broaden it and do more than a simple call for projects for the next round. There needs to be a bit of preliminary support work to get good projects emerging and to get clusters to form to make them happen.</p>
+        </speech>
+        <speech by="#ThomasPringle" eId="spk_15">
+          <from>Deputy Thomas Pringle<recordedTime time="2018-12-05T14:30:00+00:00"/></from>
+          <p eId="para_59">I thank the Minister for his opening statement. Different officials representing Departments, including the Minister's Department, have appeared before the committee from way back. Their attitude was that this process does not mean anything and does not have an impact on their work. Is that still the attitude of the Department? If things can change in the space of a couple of weeks, who is to say it will not change and fall back again in the future? What basis is there to say this climate action will continue? The Minister needs to step up and do an awful lot more to deal with climate action. I am worried whether the commitment is there from Government and Departments. It has been starkly evident that all of the Departments to appear before the committee consider this to be a nuisance rather than anything else. The Minister's Department was one of the most stark in this regard and that is worrying. How does the Minister feel about that and how will that progress?</p>
+          <p eId="para_60"> Who is actually going to co-ordinate this at Government level? Will it be the Department of Communications, Climate Action and Environment? Who will take ownership of it? The Secretary General from the Department of Agriculture, Food and the Marine stated in here that methane was not a climate gas. Will that be the cross-governmental attitude in the future? Who will deal with that? That is important and needs to be clarified before we go on.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_16" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:30:00+00:00"/></from>
+          <p eId="para_61">Working cross-Government has not been easy and we have not been good at it in this country. The Deputy is absolutely right to ask if a global ambition that requires everyone to move will be treated by people as an added extra and not their core work. The key to that not happening is the mandate of the Taoiseach and the decision of Government, both of which I have received. These requirements need to underpin reportage and require commitment that timelines are expected to be delivered. That is the key.</p>
+          <p eId="para_62"> As to co-ordination, the Action Plan for Jobs is the best model that I have worked on. It was jointly overseen by my Department and the Department of the Taoiseach. There was dual oversight. It was not a lonely Department of Communications, Climate Action and Environment appealing to the big Departments to suss up and shape up. I reiterate we were biting with the President's teeth, or the Taoiseach's teeth in that case, when accountability came knocking on the door. Those are important elements if it is to sustain its impetus.</p>
+          <p eId="para_63"> The work of the Oireachtas and groups around the country in sustaining interest will also be hugely important.</p>
+        </speech>
+        <speech by="#ThomasPringle" eId="spk_17">
+          <from>Deputy Thomas Pringle<recordedTime time="2018-12-05T14:30:00+00:00"/></from>
+          <p eId="para_64">Does the Minister see a role for the Committee on Climate Action? His Department certainly did not see a role for the committee earlier in the process.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_18" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:30:00+00:00"/></from>
+          <p eId="para_65">The role of the Committee on Climate Action is a matter for the Oireachtas, not for me. The Committee on Climate Action has a fixed term and a mandate to deliver. There is no doubt that the oversight of my Department, whether it reverts back to the standard committee or remains under this single purpose committee, will stand and fall over whether we successfully deliver on the climate action agenda. We have communications and other really important things too, but climate action will be central and Oireachtas oversight is central to any public service performance.</p>
+        </speech>
+        <speech by="#ThomasPringle" eId="spk_19">
+          <from>Deputy Thomas Pringle<recordedTime time="2018-12-05T14:30:00+00:00"/></from>
+          <p eId="para_66">How has it come about that the Government realised that climate change is happening? Has it been about for years? It seems as if there has been no recognition that climate change has been happening because not much has happened.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_20" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_67">I do not think that is fair. The national mitigation plan was produced in July 2017, which is some time ago. The numbers tell their own story. For a while, due to the impact of the recession, Ireland looked as if it was going well. It was when the recovery came that we realised that the type of structural change that needed to happen had not happened. The national mitigation plan was the first whole-of-Government address of the issue. Undoubtedly, it would be easier if we had started earlier but equally one must bear in mind that it was a lost decade. We all know that. One can look at other sectors of our economic and social provision. We were unable to make the investments in health and other sectors in those years that one would have wanted. I will not comment on what has happened before me.</p>
+        </speech>
+        <speech by="#ThomasPringle" eId="spk_21">
+          <from>Deputy Thomas Pringle<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_68">The committee has seen instances on a number of occasions where, for example, the Department of Education and Skills was refusing to fund new boilers for schools if they were not oil boilers. That is the current criterion. It is crazy but that is type of climate reaction we have.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_22" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_69">I agree with the Deputy. When I was the Minister for Education and Skills, although we included retrofit energy as a big part of the ten-year plan, I also had to say most days that getting bums on seats was my top priority and that I had to cater for 20,000 more pupils than in the previous year. One of the messages Robert Watt is signalling is that this must change and that there must be a reappraisal of the priorities in big spending Departments such as the Department of Education and Skills. If I was there now I would be expecting whoever was in this seat to be forcing that agenda on me. Hopefully, with support across the Government, we can get changes in the type of attitude the Deputy has described. I do not know enough about boilers in schools to give the Deputy a detailed answer but he is correct that some of these attitudes must change. We must find ways of doing that.</p>
+        </speech>
+        <speech by="#ThomasPringle" eId="spk_23">
+          <from>Deputy Thomas Pringle<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_70">My point, and it is not a slight on the Minister, is that this is only happening now. We have known that climate change has been happening for years but the Government is only getting to grips with it now. How do we know it will be sustained into the future and that-----</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_24" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_71">To be fair, the national mitigation plan published in July 2017, and a great deal of work preceded it, set out clear directions. It outlined the spheres where we have to make changes and what changes needed to occur. It has rightly been criticised for not being a roadmap. The climate advisory committee is a strong critic that what we need is a proper roadmap, not a series of signposts, but that is what we are doing now. It is a natural evolution of the mitigation plan followed by the national development plan, which has some big spending commitments for a decade, followed by this detailed work which we must do to underpin those ambitions with the type of policy tools that will make them happen.</p>
+        </speech>
+        <speech by="#ThomasPringle" eId="spk_25">
+          <from>Deputy Thomas Pringle<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_72">I have a final question. Regarding the announcement last week of the areas for retrofitting, there was €17.5 million for retrofitting public lighting on roads. How much does the Minister expect each local authority will be able to get of that €17.5 million?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_26" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_73">The funding was only 10%. It is a €175 million programme in that case and the funding was-----</p>
+        </speech>
+        <speech by="#ThomasPringle" eId="spk_27">
+          <from>Deputy Thomas Pringle<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_74">Some 90% will have to come from the local authorities.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_28" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_75">Yes, it will have to be funded elsewhere so-----</p>
+        </speech>
+        <speech by="#ThomasPringle" eId="spk_29">
+          <from>Deputy Thomas Pringle<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_76">Where will they get it from?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_30" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_77">This is a very rapid payback. Funding of lighting would not be at the challenging end of funding. Obviously, the Department and the local authorities must come up with how they fund it. This was priming the pump to get something done to make an impact on climate change. As it is well developed, they will be borrowing for it, which is natural enough. It is the type of area where one can borrow to deliver because it has a rapid payback. The more challenging areas in funding will be the ones that have a slower payback. It had the lowest proportionate grant because it was largely self-funding, as well as the fact that it was in the ETS sector, and we are really seeking change in the non-ETS sector. Six of the seven projects were in the non-ETS sector, such as transport and so forth.</p>
+        </speech>
+        <speech by="#" eId="spk_31">
+          <from> Chairman<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_78">The next speaker is Senator Mulherin. The Senator has ten minutes although I will give an indication after three minutes.</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_32">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_79">Ireland's national policy position on climate change is a reduction of at least 80% compared with our 1990 levels of emissions across the energy, built environment and transport sectors, as well as an approach to carbon neutrality in agriculture and land use, by 2050. Can the Minister explain what an approach to carbon neutrality in agriculture means? What pathway does he envision for meeting his definition of carbon neutrality? We can make houses passive and do all sorts of things but we cannot adjust cattle. There are certain realities in that regard. Can he explain the approach to carbon neutrality?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_33" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_80">It is certainly not a phrase I coined, but Teagasc gives a fair start to the explanation. Although I have agriculture in my background I will not pretend I understand it but it has outlined proposals that have-----</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_34">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_81">I am sorry but there is a division in the Seanad on the Finance Bill. I must go.</p>
+        </speech>
+        <speech by="#" eId="spk_35">
+          <from> Chairman<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_82">Will I move on to another speaker?</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_36">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_83">Yes, that is probably best as it will be at least ten minutes. Is that okay with the Minister? I have a few more questions.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_37" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_84">I will deal with that question if the Senator has the time.</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_38">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_85">I am not sure.</p>
+        </speech>
+        <speech by="#" eId="spk_39">
+          <from> Chairman<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_86">You have the time because it has just been called. We will just finish this question.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_40" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_87">My understanding is that Teagasc has set out a framework where that phrase would be defined. It has different areas relating to biofuels, afforestation and sequestration through afforestation and a section on farm methods. From memory, each of the three has the potential to deliver 3 million tonnes in reduction from agriculture from a 20 million tonnes base. It is very significant if they were all done. The substantial-----</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_41">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_88">It says approach to carbon neutrality; it does not say carbon neutral.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_42" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_89">I presume taking 9 million tonnes from the 20 million tonnes would be an approach to carbon neutrality. One would not be there yet.</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_43">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_90">Chairman, I am being called to the Seanad.</p>
+        </speech>
+        <speech by="#" eId="spk_44">
+          <from> Chairman<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_91">We will record the answer and the Senator can contribute again later.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_45" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_92">The challenge there is how to implement those changes. They are technically possible but how does the sector take them on board, take ownership of that agenda and deliver it?</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from> Chairman<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_93">Deputy Dooley is next.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_47">
+          <from>Deputy Timmy Dooley<recordedTime time="2018-12-05T14:40:00+00:00"/></from>
+          <p eId="para_94">I welcome the Minister and thank him for his honest appraisal of the current position of the Government and the Department. This committee has been trying to move matters forward in as non-adversarial and non-partisan a manner as possible. The Minister's frank analysis is helpful is assisting us in trying to do that. The Chairman asked the Minister about targets. I published a Bill that seeks to reintroduce targets. The reason is that in Ireland, we are quite good generally and culturally at doing something tomorrow, next week or next year. When one speaks to policy makers, as the Minister indicated with regard to the Department of Education and Skills, there is always another priority that seems to be far greater at a point in time. As climate change is something in the future, we tend to leave it on the back burner. I recall talking about this in 2009 and 2010 when people were talking about 2020 and 2030 targets. We are nearly at those dates and we are a long way off the targets.</p>
+          <p eId="para_95"> We are probably safe to some extent because for the past three or four years the concern was all about what it was going to cost us. As we were coming out of an economic downturn, money was a priority and that captured people's attention. Now we have more money than we had and people have moved on. The focus is now on the damage that is being done and the window the Minister rightly identified for when we can make some changes. We must be about action from now on.</p>
+          <p eId="para_96">The Minister talked about the mitigation plan of July 2017 not really being the full suite of policies needed by 2020. Does the Minister hope that his next mitigation plan will have a more comprehensive suite of measures with clearly set out implications? Many will have negative implications and it is better to address it up-front. The Department of Agriculture, Food and the Marine gave one of the better presentations here. It seemed to have given it more thought and one might say that so it should. It was in a position to say that if we need to do more, we can do more, but that will have a significant impact on the economy. We need to have that debate. If we are going to have a significant impact on climate change, our economy will have to change significantly and there will be cost implications. Anything we can do to push that up front is good.</p>
+          <p eId="para_97"> Carbon tax did not happen in the budget. There is no point in going back over that. Does the Minister see himself or the Department being in a position to publish their trajectory for the next ten years or the trajectory that we should be on? I do not want to play the politics of this. There was a discussion at a recent Fine Gael gathering about significant tax cuts for a certain squeezed middle. The political debate from that centred around tax-raising measures being carbon taxes. We have seen what happened in France this week, where people have become mightily frustrated with the inability of the Government to reinvest the carbon tax into measures to decarbonise the economy. I think only 5% of what is collected goes into the decarbonisation fund. People are ahead of us and understand what needs to be done, but they will not want the State to become dependent on carbon tax as we have on so many other duties and levies, whether on fossil fuels, cigarettes or alcohol. We need to be clear that the moneys collected are ring-fenced and used to decarbonise the economy, such as in assisting and supporting cleaner and greener energy generation, for example, offshore generation.</p>
+          <p eId="para_98"> The Minister talked about foreshore licences. There will be a requirement for much greater interventions than just offshore energy. It is nascent technology, especially in deep sea, so will require significant support from the State, but that is where there is long-term potential for us. If we manage to bridge that gap and harness the wind in that zone, we will have significant benefits to economic activity elsewhere. There are other areas, such as investment in the deep retrofitting of homes. The moneys collected in taxation need to be seen to be used. We need guidelines for onshore wind generation. It is not done by the Minister's Department but he will have to drive it. We know how good Government is regardless of who is there, with one Department passing the buck to the other. That happened with the Airbnb issue during the week, where no one wanted to carry the can. This is a much bigger issue than Airbnb so somebody will have to be prepared to take those tough decisions. I think the Minister has the experience, ability and leadership capacity to do it. I think he will find, from my experience on this committee, that there is willingness to do this in a bipartisan way. Deputy Bruton is the Minister so he will have to lead and we will be beside him on that.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_48" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:50:00+00:00"/></from>
+          <p eId="para_99">One has to be careful with what targets are put in legislation. If one says it is fair that every sector takes a 30% cut, the cost of that in some sectors may be dramatically different from others. One has to be careful in setting a target because one then forces perhaps a very high-cost solution in one sector. We were just talking about agriculture. The impact of setting the same target in agriculture as in some other sector could be quite high for certain rural communities. It is important that we have sectoral targets. We have to work through policy options and towards the targets so that they are consistent about where we get to but do not overprescribe. That is the only advice I have.</p>
+          <p eId="para_100"> We aim to have a comprehensive suite of measures. The Deputy rightly signalled that there will be a balance to strike. Some sectors will argue that reducing carbon is a significant handicap to our sector. If this was a smoking chimney and the Deputy said he needed to continue to have a smoking chimney in the middle of his community to support a business he was running, people would give him short shrift. There is not much difference here. Damage is being done and we need to factor that into decision-making. The challenge in some areas is how we get people to take decisions which factor that in. The message will be that where carbon continues to be used for whatever reason, it has to be used very effectively. There have to be good, effective minimisation policies in place. Having carbon use mitigated by carbon sequestration is not a full end but that is the message.</p>
+          <p eId="para_101"> With regard to the carbon tax, if one had built spending plans on the back of the plastic bag tax, one would be pretty disappointed because people just stopped using plastic bags. In an ideal world, people would stop using carbon so the amount of money raised from this tax would fall rapidly. It is instructive to see what happened in Paris. If people see they are paying for certain behaviours but getting something back, they can also see that taxpayers are not having money taken off them but are being nudged towards doing certain things. One would hope that it would be easier to sell a carbon tax in that context.</p>
+          <p eId="para_102"> Of course we will need mitigation measures and they will cost money but, at the end of the day, mitigation measures and whether they should be in the form of penalties, incentives, tax breaks or whatever, have to stand on their own and on their merits. I am sure the Minister, Deputy Donohoe, and his Department would say that one cannot create a charmed area of public spending that is guaranteed the money. If we are making an investment in climate change and arguing for an incentive for whatever, we will have to show that that is the best use of public money against carbon targets and other targets. Public spending rules must still apply but they have to factor in the price of carbon. It was very positive to see that come from the Department of Public Expenditure and Reform. I recognise that offshore generation is at an earlier stage of development. That is correct. I thank Deputy Dooley for the positive support. This is not a partisan issue. We have to deliver it as a group of politicians.</p>
+        </speech>
+        <speech by="#" eId="spk_49">
+          <from> Chairman<recordedTime time="2018-12-05T14:50:00+00:00"/></from>
+          <p eId="para_103">I will bring Senator Mulherin back in. Did she miss that vote because of us? I am sorry.</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_50">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T14:50:00+00:00"/></from>
+          <p eId="para_104">I did, but the Government is not falling.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_51" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T14:50:00+00:00"/></from>
+          <p eId="para_105">Did Senator Mulherin not get there on time?</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_52">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T14:50:00+00:00"/></from>
+          <p eId="para_106">I was banging the gates of heaven and could not get in.</p>
+        </speech>
+        <speech by="#" eId="spk_53">
+          <from> Chairman<recordedTime time="2018-12-05T14:50:00+00:00"/></from>
+          <p eId="para_107">We will keep an eye on the screen here.</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_54">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T14:50:00+00:00"/></from>
+          <p eId="para_108">I know the Minister referred to Teagasc and the definition of approaching carbon neutrality. Did he answer what pathway he sees for agriculture towards carbon neutrality by 2050? How will that work?</p>
+          <p eId="para_109">It is fair to say that agriculture has been singled out for particular criticism for carbon emissions, and we need only look at the Citizens' Assembly. We all know, however, that we are the most carbon efficient when it comes to dairy, fifth best when it comes to beef, and we have great ambitions to do better. Does the Minister see it as a difficulty or obstacle for us that in the EU compliance regime we are given no credit or recognition for the fact that we produce food more carbon efficiently than other EU countries? Notwithstanding all of the efforts that farmers have made when it comes to the sector being assessed, other than it being put into the general pot to consider what our carbon emissions are, they get no credit for it and their hands are tied. Surely this is not fair. People have to be fed. Being fed is not optional. We know that world markets show that more people are getting the protein in their diet from dairy and beef. The demand is there. If we do not supply it, another country will fill that gap, I have no doubt. I am not talking about another EU country but a country that does not have the same strict standards as we do.</p>
+          <p eId="para_110"> We are encouraging farmers towards renewables, microgeneration and perhaps anaerobic digestion and solar panels, but I am very concerned that while we speak about these things as options for farmers, we need clarification that if farmers are given State grant aid to put a solar panel on a roof or are assisted with anaerobic digestion, it will not give them a credit on their farms whereby they can state they are reducing their emissions, taking personal responsibility and going whatever way they can on the road towards carbon neutrality on their farm, but instead it is all put into the general pot. I am not saying it is not a good thing if more people use solar panels, but we need to have a more tailored approach to farming given the efforts farmers have made and the successes they have had. This needs to be recognised and put out there.</p>
+          <p eId="para_111"> I have a question on the carbon tax. Farmers were identified by the Citizens' Assembly in particular for an additional carbon tax in certain circumstances, but I want to ask about the bigger picture. This is a worldwide problem. Are Middle Eastern and OPEC oil-producing countries being taxed? What is the principle? What are their commitments? The problem is fossil fuels and that is what we are trying to rid our system of. They are producing them. How will they pull back on them? Will they be carbon taxed in some way? Have they signed up to it?</p>
+          <p eId="para_112"> As I see it, if a carbon tax is put on fuel in this country, which was not done in the recent budget and which I believe was a wise move, it will be the consumer who pays it. We are here asking farmers potentially to take on an additional cost, as nothing has been decided, but what about the big oil-producing countries providing to the market and making it so cheap and attractive? I have my doubts. We keep being told about the oil that is still there and there is the debate about peak oil, but we have to drill down into this. There are ramifications for individuals in a sector that has a lot of positivity and has a lot to add to our economy.</p>
+        </speech>
+        <speech by="#" eId="spk_55">
+          <from> Chairman<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_113">I will let the Minister in as the Senator has asked a number of questions.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_56" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_114">I do not have a pathway for agriculture. In each sector we have to work out these pathways. The Senator made the point rightly that Irish agriculture is more efficient in milk production and that the carbon intensity of milk is lower in Ireland than anywhere else, but the EU still had to set national targets. Where there were big sectors such as this, they brought them inside the emissions trading system, ETS, cap and trade model. Some sectors were brought in so, for example, if we were efficient in wind power we could get it onto our grid and get credits in the ETS. Agriculture has not been considered for the cap and trade arena, but in such an arena, whoever brings in a carbon efficient measure can sell carbon credits and get a direct return.</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_57">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_115">Is that not fundamentally a flaw? We cannot change that with regard to how we protect farming.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_58" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_116">It would be impossible for the EU to devise for that. In Ireland alone we have 350,000 enterprises so it would be very difficult if we multiply this by 27 member states. It would be very difficult to have cap and trade targets for all of those multiple sectors. It would be very difficult to administer. The reason cap and trade was done was there were a small number of large producers and this was a good way of getting a cost-effective change. There were critics of it, as the Deputy probably knows. They are facing a 43% reduction in the ETS and they are not being allowed off scot free. They have to reduce their carbon emissions by 43%.</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_59">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_117">I want to make a point.</p>
+        </speech>
+        <speech by="#" eId="spk_60">
+          <from> Chairman<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_118">Very briefly.</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_61">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_119">Under Mercosur as we speak, we are bringing in beef from Argentina to the EU. I dare say it is not at the races compared with us when it comes to carbon efficiency. It seems ridiculous, if our true aim is to reduce carbon emissions, to give no recognition to the people who have done so. There is a fundamental flaw in the compliance regime.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_62" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_120">This goes to the heart of it. This is why we have a Paris Agreement. This is why it has to be a multilateral approach. The Senator is absolutely right that the country that decides to do nothing and be a free rider enjoys an improved environment if every other country in the world takes their responsibility seriously, but how can we as a small wealthy country with a small trading economy say we will not take our responsibility because we are afraid someone else somewhere else may take a free rider, so to speak, and not carry their responsibility? This is an existential-----</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_63">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_121">I am saying it should be-----</p>
+        </speech>
+        <speech by="#" eId="spk_64">
+          <from> Chairman<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_122">Let the Minister finish.</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_65">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_123">The Minister said I said it was a free ride. I would just like to be clear I am not saying it is a free ride.</p>
+        </speech>
+        <speech by="#" eId="spk_66">
+          <from> Chairman<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_124">I do not think he said that.</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_67">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_125">He did.</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from> Chairman<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_126">Let the Minister finish answering the question.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_69" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_127">We are facing a profound challenge to the globe. In adopting measures, we cannot be looking over our shoulder and asking what the Arabs or Russians are doing. We have to take responsibility. We have to do it in a way that recognises other pressures, which is why it is important the measures we adopt are consciously least cost, which means least cost in terms of their social impact and impact on our communities. We cannot say let us not think about carbon tax because someone might not be paying it. Carbon tax is a tax on final users. It is a tax that will mean that in the way we live, eat, sleep and work we will take into account the price of carbon, regardless of whether it is manufactured in Polish coal mines or Arab oilfields. We will seek to cut our intensity of carbon use and we will use price to do it. That is what the issue is about. It is not a production tax. It is a tax on the final user.</p>
+          <p eId="para_128"> With regard to grants and credits, some of the investment on farms can give a payback and Teagasc's work shows there is payback for very many of them. We are not asking people to do something whereby they are playing for the board, as we used to say in cards, whereby people take a sacrifice on themselves for no return. This is improving the efficiency of their operation, allowing them generate their own power and heat and sell it into the grid when they have surplus. Some of these are very positive economic opportunities for farmers to take on. Of course, they may have to be promoted by tariffs into the grid.</p>
+        </speech>
+        <speech by="#" eId="spk_70">
+          <from> Chairman<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_129">I will move on to Deputy-----</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_71">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_130">My question was not answered.</p>
+        </speech>
+        <speech by="#" eId="spk_72">
+          <from> Chairman<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_131">Was there a question that was not answered?</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_73">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_132">It was not answered.</p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from> Chairman<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_133">What was it?</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_75">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T15:00:00+00:00"/></from>
+          <p eId="para_134">The Minister basically said that carbon tax is not a tax on production but on the end consumer. The farmer is a primary producer, as are the OPEC oil-producing countries, and we are not applying the same principle in our conversation about the farmers.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_76" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_135">I know there is a carbon tax proposal from the Citizens' Assembly. I presume that is being evaluated.</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_77">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_136">There is one from the Climate Change Advisory Council as well.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_78" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_137">I did not say it was a policy that would be easy to implement but we do have to find a way in terms of how agriculture is going to adapt. That is a question for the committee. How are we going to develop intervention tools that can help agriculture to be a part of the change we all have to undertake?</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_79">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_138">I will keep my questions short and perhaps the Minister could keep his answers short. I have four or five-----</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_80" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_139">The Deputy is like a senior counsel. He has been watching Deputy Sherlock.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_81">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_140">In page 39 of the national transition statement, transport is dealt with. The three major pillars are set out fairly well - the car fleet, public transport and then walking and cycling. That is the logical order although it might be turned the other way around in terms of priority. They are included, which is welcome. In respect of the charging network for electric vehicles, EVs, €10 million was announced the other day in the first round of funding from the climate action fund. If I heard the Minister's opening remarks correctly, he said we would move to half a million EVs by 2025. The €10 million will support a fleet of 40,000 EVs. At that pace, does the Minister foresee us being able to reach our target at this rate of investment? The issue of ownership of the network is very important. Until recently, the ESB was being told by the regulator that it had to divest itself of it, as I understand. What is the situation now? I do not think the State should be boxed in by the EU on this matter. The ESB is there and has the network. It is easy for it to put in new charging points, including home charging points, from public electric lighting columns. Will it be owned and run by the ESB?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_82" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_141">There were roughly 2,000 electric vehicles purchased this year, bringing the total to 7,000. The expectation is that the number purchased will double next year, so another 4,000. The support for a fleet of 40,000 gives us headroom for a few years but it is by no means thought of as a charging network for 500,000 vehicles, which is the target for 2030. It is a matter of kick-starting the system. The issue of range anxiety, which is at the heart of it, will be addressed. This funding is for 180 fast chargers and 500 other chargers. Clearly, over time, the network is going to expand very rapidly if we are to deliver our target, and 500,000 may not be ambitious enough. If we are to move forward, we need to be more ambitious. The regulator has changed its approach to the ESB and its role in respect of the charging network.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_83">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_142">Is the Minister saying that the ESB will now be allowed to run that as a commercial semi-State?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_84" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_143">It is setting up the network. Obviously, it will be doing it in partnership with others so I expect other players will come in over time. The application is to be validated and the full detail of where and with whom is to be worked out. The other thing I should say is that those who buy electric vehicles get €600 towards a home charger, so they can have a charger of their own. Presumably the 7,000 vehicles have 7,000 home chargers in place, so there is a network. We will have to build that network. These measures are front-loading the chargers so that people can feel confident to buy. By the time up to 40,000 vehicles have been purchased, we will have to have anticipated that and will have to have pushed the provision out well beyond that again.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_85">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_144">There will have to be a rapid acceleration between now and 2025.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_86">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_145">Undoubtedly, but this is about kick-starting the system and getting a system of sufficient scale that people have the confidence to buy.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_87">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_146">Staying with transport, within the transition statement is a reference to the biofuel obligation scheme. It places an obligation on fuel suppliers to include a proportion of biofuels in the fuel supplied. The obligation was to move from the current 8% to 11% from January 2019. What is the state of readiness for the biofuel mix changes to happen by January? What kind of challenges does the Minister anticipate in terms of reaching the 11% target? There may be an argument about land use and all that but the move to 11% is in the transition statement.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_88" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_147">I do not think that target will present a problem but as we push on, problems will emerge. This has been done in consultation with the industry but there is no doubt that in going further again, there are challenges at each stage. My understanding is that this particular increase is within their capacity.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_89">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_148">The Department feels we will reach it. On the green bond, the National Treasury Management Agency has been successful with the first green bond. How much has been raised? Does the Government or the Department have any plans for individual green bonds for individual businesses, farmers or householders?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_90" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_149">The green bond raised €3 billion. I cannot remember the coupon but it was a very keen rate; I am sure we can get the figure for the Deputy. I do not know the projects for which it is being deployed but I know it was oversubscribed by several multiples. There is a market for raising funds for green bonds. The challenge in respect of some of the more difficult investments to fund will be to find funding vehicles that can avail of green bonds and other appetite in the sector. We will have to think a little bit outside the box. In the case of farming, which we were just talking about, we might look at the role of co-ops. There are other players we may need to enlist to be able to facilitate-----</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_91">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_150">The plan would be to lend that money to private sector projects, is that correct?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_92" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_151">This is public sector funding.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_93">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_152">It is just public sector funding.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_94" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_153">Yes.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_95">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_154">I thank the Minister. We have a very narrow portfolio of renewable energy, mainly onshore wind. Our difficulties with that have been well rehearsed. The planning reform needed for offshore is a very cumbersome process at the moment. I am not advocating that we burn all the planning laws or anything but there is wide recognition that we need to consolidate them. It should be dealt with by one body, perhaps a local authority, in that functional area along the shoreline of a particular part of the State. There was some provision made for offshore wind in the renewable energy support scheme. The heads of a Bill in respect of the planning reform needed for offshore development have been published. Has any progress been made on that legislation?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_96" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:10:00+00:00"/></from>
+          <p eId="para_155">I understand that foreshore legislation is a big part of the barrier to offshore. Planning regulations may be an issue as well. For as long as I have been in politics, there has been talk of reforming the Foreshore Acts. This goes back a long time. My understanding of the difficulty is that they are trying to accommodate in one fell swoop the transport, fishery, and offshore wind needs. It is complex legislation.</p>
+          <p eId="para_156">The issue will be whether, in the case of offshore wind, one could develop some sort of purpose-built instrument that would allow the development of that asset or whether it has to remain within the much wider context of foreshore activity.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_97">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_157">Given the potential we have to use offshore wind, we need to deal with the lack of planning legislation. Offshore wind represents an area of rapid growth.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_98" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_158">A recent report stated we have a window in which to get this right but that it is not an indefinite window.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_99">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_159">I am flagging this so the Minister might take action on it. He might take a note of it.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_100" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_160">I am not sure whether there are heads of a Bill.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_101">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_161">There were heads of a Bill.</p>
+          <p eId="para_162"> My last question is on the first round of funding from the climate action fund for various projects. One of my criticisms is that it is a bit Dublin centred although the seven projects are all very worthy in their own right. The Bord na Móna transition is not included and there is no allocation for that organisation. We know from meeting Bord na Móna representatives that they need funding to make the transition.</p>
+          <p eId="para_163"> The three peat stations are moving to biomass. The Edenderry plant is 50% co-fired with biomass. It is a little crazy that we are converting the peat plants to biomass without having the supply chain in this country. We have talked about diversification in farming. Before I came in here, I met representatives of Friends of the Earth and when I go out I will meet representatives of the IFA. They have contrasting positions. Bearing those in mind, we have to make sure we have a supply chain. Some work has been done, particularly regarding forestry waste and thinnings, but an issue arises over hemp and other agricultural products. I flagged this a lot with the Minister's predecessor. I wish to flag it with the current Minister because we could end up in crazy circumstances in which we will be hauling biomass material from the far side of the world to here. It will look clean going into the power station but the carbon footprint associated with getting the material here will be substantial. Environmental damage is being done in some of the countries where the biomass material is coming from, including countries in South America, in terms of deforestation. I am flagging this as an area for action. Is any work being done on this? </p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_102" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_164">On the climate action fund, there were two Dublin-based district heating schemes but the other schemes were largely national. There was the scheme for electric vehicles and there were schemes associated with public lighting and natural gas. The latter was agriculture-based, using natural gas injection. Therefore, there was a mix. The schemes were not all Dublin-based. There were two district heating schemes in Dublin but that is because the incinerator is there. Some of the network piping has been installed in anticipation of the possibility. There is the capacity to reach 50,000 homes. There was another scheme in Tallaght. On the next occasion, we will be seeking to have more engagement from regional and community groups and clusters of enterprises with common sectoral-----</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_103">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_165">What about semi-State bodies?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_104" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_166">And the semi-State bodies.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_105">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_167">I am flagging this now because I know there will be another round coming, in the next six months or whatever.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_106" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_168">Yes, there will be another round. Obviously, there is independent adjudication so decisions have to be based on the quality of the proposals. There was a marking system. The marking system covered the impact on carbon emissions, the degree of innovation and so on. A very fair marking system was put in place. The schemes that won were ones that could have a wide community impact, to be fair to them. Some of the others were more individual, with enterprises proposing combined heat and power facilities. They did not pass the rating tests. Whether we need to change the rating tests, I do not know. They sounded like good tests to me. I signed off on them at some stage after seeing them. They seemed to be correctly weighted. Certainly, we will be working to have more clusters of enterprises and sectors of opportunity, including and definitely from the midlands.</p>
+          <p eId="para_169"> I do not know whether there is work on a sub-supply sector for biomass.</p>
+        </speech>
+        <speech by="#BrianStanley" eId="spk_107">
+          <from>Deputy Brian Stanley<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_170">It is an important issue.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_108" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_171">It is part of the bio-economy strategy that is being developed. There are sustainability criteria applied to imported biomass material.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_109">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_172">I welcome the Minister. He has been very open and engaging. I perceive from him a sense of energy regarding what needs to be done here. With that in mind, is the all-of-Government approach modelled on a Cabinet sub-committee whereby all the line Departments will report directly to the Taoiseach via the Minister's Department?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_110" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_173">Obviously the detail of that has to be worked out. I doubt if it will involve establishing a separate Cabinet committee. I do not know yet. We will have to decide the best model and hear people's input. I chair a high-level group of assistant secretaries, representing five Departments. That group will probably be key. Whether the Taoiseach chooses to have an individual Cabinet committee for this agenda or whether it becomes part of a wider initiative remains to be seen. The important point is that the structure overseen by the Taoiseach will have the endorsement from the top that gives it impetus.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_111">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_174">My view, bearing in mind that I was involved in the action plan for jobs with the Minister, is that having clear metrics to be measured and clear targets is the only way to reach milestones. We now need to start reaching serious milestones. If it is perceived that the mechanism in question is one by which people turn up without identifiable actions, right down to the micro level, it might fail.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_112" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_175">The approach we will seek to adopt will involve identifying the policy initiatives and, as we have done in other such exercises, setting a quarter by which they will be delivered. It will also involve overseeing the delivery and working with the Oireachtas and other groups to populate the coming year's agenda. This is not a static process whereby we decide in February that this is it for all time and that we should just continue to implement as before. It is evolving.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_113">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_176">May I ask about carbon budgeting as a tool? The Minister spoke highly of the intervention of the Secretary General of the Department of Public Expenditure and Reform, Mr. Watt. Is is envisaged that carbon budgeting will be used as a tool by line Departments to ensure a decarbonisation agenda? Representatives of the IPCC who were before the committee spoke about the successful application of carbon budgets. They gave the example from France. Is it being considered here as a tool?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_114" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_177">I am certainly open to the consideration. I understand the Government will be given proposals on carbon budgeting. This year the investments related to climate action are being separated in the ordinary REV but there are proposals being developed.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_115">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_178">Do we have a timeline for those? Perhaps the Minister could report back even if he does not have one now.</p>
+        </speech>
+        <speech by="#" eId="spk_116">
+          <from> Chairman<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_179">Could the Minister provide a note on that, if possible?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_117" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_180">Yes.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_118">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_181">If we are to reflect accurately the recommendations of the Citizens' Assembly in producing our own report, carbon budgeting will be one of the areas-----</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_119" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_182">One sees the aggregate impact, then, in each Department.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_120">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-12-05T15:20:00+00:00"/></from>
+          <p eId="para_183">Indeed. We would welcome any move towards that.</p>
+          <p eId="para_184"> The Minister gave very specific examples, including on market failure and regulatory frameworks. I am sure he is interested in ensuring the deep retrofitting of buildings, including public buildings, private dwellings and schools. We had very positive engagement with the Tipperary Energy Agency. I believe strongly that if the Minister were to visit Nenagh and speak to staff in the agency, he would note three bespoke examples. One is a primary school, one is a municipal health centre and the third is a house. The Tipperary model is a very good stakeholder model based on a social enterprise model. </p>
+          <p eId="para_185">If the Minister could engage on replicating it regionally or right across the country, it would be possible to use the carbon fund, and also possibly the green fund, in a way that would allow a financing instrument to bring the model to fruition.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_121" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:30:00+00:00"/></from>
+          <p eId="para_186">Four climate action regional offices have been put in place and this will be part of their mandate. Each year, the SEAI encourages community-based initiatives. At present, it has a call out for such an initiative in respect of a mixture of schools, enterprises and homes. We will address this matter by finding clusters within our communities or across enterprises that can create the impetus for change. I very much recognise the value of this. There are some instruments already in place but we need to see if they can be improved upon.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_122">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-12-05T15:30:00+00:00"/></from>
+          <p eId="para_187">The SEAI is an agency of the Minister's Department. I respectfully ask him to examine the Tipperary model and kick the tyres in that regard. It is an excellent model.</p>
+          <p eId="para_188"> The other point relates to the just transition. If the Minister cannot respond now, he can come back to me. The language of the just transition has gained serious traction. It refers to fairness for workers who are moving into a decarbonised society to ensure that there are supports and social protection-type structures put in place so that the transition is just. This matter has been discussed with the Irish Congress of Trade Unions, ICTU. Will the Minister consider engaging with ICTU to see if funding similar to that available in Spain and other countries could be put in place? In the mining industry in Spain, for example, a €250 million fund was put in place to assist workers who are getting out of the sector. I am merely putting this on the agenda for further discussion, perhaps offline.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_123" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:30:00+00:00"/></from>
+          <p eId="para_189">I fully agree that we need to look at how this will impact different regions and areas and what we can do to respond to the challenges it creates. It will be around retraining, new opportunities, setting up enterprises, and seeding enterprise hubs. Some of the machinery for that is already in place. When I was Minister for Jobs, Enterprise and Innovation, the Department had regional enterprise bodies, which are generally led by someone from the private sector, with representatives from all relevant entities involved. We have regional enterprise funds, disruptive technology funds, climate changes funds and funds for rural and urban areas. Some of the material we have put out relates very much to the development of bottom-up initiatives but if there is need for additional catalysts to bring this together, I am open to that. The conference in Poland is taking place in Silesia, which is located in the depths of Polish coal-mining country. The emphasis there is very much on how to develop a transition for such a region to a new economy.</p>
+        </speech>
+        <speech by="#MarcellaCorcoranKennedy" eId="spk_124">
+          <from>Deputy Marcella Corcoran Kennedy<recordedTime time="2018-12-05T15:30:00+00:00"/></from>
+          <p eId="para_190">I thank the Minister and his officials for coming before the committee. My question may not be fair but I will ask it in any event. In view of the challenge we are facing in the context of the need for climate action, is it not time that we had a Minister whose sole responsibility would be to steer us through the transition to decarbonise our economy? In other words, should we not have a Minister with responsibility for climate action?</p>
+          <p eId="para_191"> My other question relates to the climate action regional offices and where they are based. It is great that a whole-of-Government approach is being taken - this is something that has been strongly advocated at these hearings - but we also need a whole-of-society approach. I hear that in what the Minister is saying but it is important to recognise that every single person needs to be engaged. There are great opportunities to get the message out in that regard. We need to focus on communications in respect of what is happening on climate change. That brings me to the role which can be played by RTÉ and Met Éireann. Has RTÉ, as the State broadcaster, done enough to address the fact that the climate is changing? Are the station's correspondents focusing on the latter in their news reports? Forecasters from Met Éireann broadcast many times daily. Is there an opportunity for them in this regard? If legislation is needed, it could be fast-tracked.</p>
+          <p eId="para_192"> I agree with Deputy Sherlock about the unions and the just transition forum they have advocated to manage this. There is a question as to whether a new or, given that Ireland is a small country, an existing organisation would do this. My question relates to the unions being influencers for 800,000 to 900,000 workers they represent. They could be massive influencers. There is a tremendous opportunity for them to communicate on climate change and, perhaps, negotiate on behalf of their members in respect of matters such as electric or hybrid vehicles.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_125" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:30:00+00:00"/></from>
+          <p eId="para_193">I would caution against having a stand-alone Minister with responsibility for nothing other than climate action. The process must be Government-led. The key to success is the amount of effort made put into the challenge by other Departments rather than the one with "Climate Action" in its title. That requires the authority coming from Cabinet and the Taoiseach, not from one individual member of the Government. In the past, we have occasionally salved our consciences by putting some words into a Minister's title and stating that the job was done because we had a Minister for "X". The quality of what we do will be judged by the quality of the actions that we bring forward and our ability to implement them on time. I do not believe that packaging it off into one corner will work, although I acknowledge that others take a different view.</p>
+          <p eId="para_194"> I have no reason to criticise RTÉ or Met Éireann. The latter is involved in a very ambitious project relating to prediction, flooding and so on, which is designed to improve our capability in the context of adaptation and anticipation. I am sure both organisations are doing excellent work. At a broader level, every State agency should have a carbon mandate and a responsibility in procurement, at its lowest level. State agencies should also be working on those areas in respect of which they can play a role in influencing policy.</p>
+          <p eId="para_195"> Bord na Móna was mentioned. It could have such a profound influence on what is happening across entire communities, as well as fulfilling its core role of operating as a commercial enterprise. We need to examine how we can recast some of the mandates of our State agencies and integrate the expectation that their client bases will undertake change in the context of their work. That may only involve a soft nudge or it may involve a harder one, but we need to get every agency thinking about it. There will soon be results for public buildings and how well certain Departments have been doing. I have had sight of some of the relevant information prior to publication and, although it is not complete, the range of performers, from low to high, is evident. Low performers should have a mandate that they are expected to report annually as to why they continue to perform below par and whether there is a justifiable reason for that. We need to think about lifting the mandate of organisations. We will need to enlist the help of all groups - including trade unions and community groups - that can influence people's behaviour in the context of climate change.</p>
+          <p eId="para_196">I do not know about block purchases. That is probably a matter for its own membership as to whether it is an advantage. However, the GAA, for example, looked seriously at energy retrofitting. I do not know whether that developed, but I know the organisation was certainly looking into it a couple of years ago, and is a project that might be revived.</p>
+        </speech>
+        <speech by="#MarcellaCorcoranKennedy" eId="spk_126">
+          <from>Deputy Marcella Corcoran Kennedy<recordedTime time="2018-12-05T15:40:00+00:00"/></from>
+          <p eId="para_197">I asked a question about where the climate action regional offices are located.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_127" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:40:00+00:00"/></from>
+          <p eId="para_198">They are located on the Atlantic seaboard north, Atlantic seaboard south, the Dublin metropolitan region and the eastern and midlands region. The lead authorities are Mayo County Council, Cork County Council, Dublin City Council and Kildare County Council.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_128">
+          <from>Deputy Eamon Ryan<recordedTime time="2018-12-05T15:40:00+00:00"/></from>
+          <p eId="para_199">I firmly believe that with collective action in this country our society and this State can address this issue. I believe that because of my own experience in government during a very difficult period. However, in 2011 we were on target to meet our 2020 targets. We were on 11% and were heading in the right direction. While much of that was due to the recession, and in particular the loss of transport, EPA analysis at the time showed that half of it was due to political commitment. The Department of Justice and Equality had a collective agreement in this area. I was working in the Minister's job at the time, and had a sense that the regulators, the agencies, the business community and the public were all behind the shift and we were going to be able to do it. We were the first country in the world to introduce a charging network for electric vehicles. We had to practically shoot through the Department of Finance in what was the toughest budget, in 2009, but we got it through. During the toughest time we managed to put money aside for the greenway in Mayo, which is an incredible example of what can be done when sustainable travel is promoted. We got everyone behind a retrofitting scheme for homes, which is the best investment we can make. It took off and the public loved it as it led to better and healthier homes. We set a 40% target for electricity, which everyone at the time said was impossible and could not be done. We are going to be late achieving the target but we will get there. We had leadership. We set higher building standards, which helped to set up Irish companies which export insulation materials across the world because we are good at it. We can be good when we approach an issue collectively.</p>
+          <p eId="para_200"> I apologise for being political here, but what went wrong after that was not just that a recession hit us. We were able to achieve some of the things I outlined in the teeth of a recession. The problem was that Fine Gael took its eye off the climate agenda; it had no interest in it. The public service also did a disservice to the public by not holding the line in terms of thinking long term and making sure we stuck to what we knew we had to do. The national mitigation plan is recognised as an unmitigated disaster. Climate Action Network Europe assessed how the different countries are engaging in the recent European climate process and rates Ireland just above Poland, which is an incredible disgrace for our country. We learned that there was no consideration of climate in our national development plan which runs until 2040. John FitzGerald was right when he said that we are completely off course and heading in the wrong direction. I have to say that unfortunately the first three or four presentations we heard today from our public service were deeply disappointing, culminating in the jaw-dropping moment when the head of the Science Foundation Ireland reassured the committee that we should not worry about climate change because technological solutions, including carbon capture technologies, will become available. It beggared belief. </p>
+          <p eId="para_201"> We are at a point of change. Various Deputies have mentioned that we should act with a common purpose and agree that now is the time for change. I attended the Stop Climate Chaos meeting earlier at Buswells Hotel. People were genuinely worried. They can see it happening and can read all the statistics, which show that we are 95% off target. There is a sense that the Oireachtas is not doing anything, and people are really anxious about that. I told them that we are changing, and that now is the time for change. Things are about to turn in a really dramatic way, and I hope that this committee can help achieve that goal. It means changing everything. </p>
+          <p eId="para_202"> The Minister said that there are six different categories. Does he believe we should structure our approach in that way? Is that how he plans to approach the European Commission in terms of carrying out a report under those six headings? I would add a seventh; we have to look at the whole concept of systems change and how we use our land. We should start with a national land use plan that really thinks big and brave about the type of farming done in Ireland and where it is done, about wilderness, about how we bring back biodiversity, which is connected to this climate issue, where we put forestry and what type of forestry we should have, and considers what we should do with our sea area, which is massive and which could be turned into a marine conservation area as part of our contribution to the global fight against the loss of biodiversity and climate change. I believe we are at the point of change, but the annual transition statement, presented yesterday to the Seanad by the Minister for Transport, Tourism and Sport, was a further disgrace. We all know the Department of Transport, Tourism and Sport has been completely absent from any discussions on climate change. It is an open secret. There was no recognition yesterday that the fundamental system change we have to make is to ensure that there is less demand for transport and to reverse the trend we have seen of ever-lengthening commutes. There was a 30% increase in the number of people commuting for over an hour between 2011 and 2016. That has to stop. The Department of Transport, Tourism and Sport seems to have no knowledge of that. The Minister said correctly that 90% of the cars we pass every morning have a single occupant. We have to think about systems change and get away from this car-based, individual, atomised system and move towards one where car sharing and cycling is the absolute norm and that public transport is given the first priority. Transport Infrastructure Ireland is solving our gridlock and climate transport problems by widening all the approach roads to Dublin at the moment. If we are at a moment of change there has to be brutal recognition that TII is fundamentally confused, misguided and wrong, and it needs to change. The national development plan does not achieve our objectives and must change. </p>
+          <p eId="para_203"> The Minister has said he will submit this plan to the European Commission in February. We were always working on the assumption that this-----</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_129" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:40:00+00:00"/></from>
+          <p eId="para_204">That is a separate issue. We have to deliver something in December anyway.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_130">
+          <from>Deputy Eamon Ryan<recordedTime time="2018-12-05T15:40:00+00:00"/></from>
+          <p eId="para_205">The reason we wrote the letter to ask about the additional projects was that it is perhaps difficult for public servants to be honest in a committee. If we have to go into private session we should do it, by all means. We wondered whether there were additional projects because there is a shortfall, as the Minister recognised, and wanted to get an understanding of those projects so that we could write our report in a way that would help the Department and the Minister in the task it faces. What is the timeline here? Are we going to write a first plan that admits that we are at this point of change and that we do not have all our plans worked out yet? It will take us some time to work on this system change, including the internal governance change, which I agree with the Minister on. Could this committee help by getting agreement before Christmas on the carbon tax issue? We should acknowledge that it will provide a dividend for citizens, as the Taoiseach has suggested and as the Green Party has also said. Would it help if we could agree on that as one of the items of system change we need? What is due in February if that is-----</p>
+        </speech>
+        <speech by="#" eId="spk_131">
+          <from> Chairman<recordedTime time="2018-12-05T15:40:00+00:00"/></from>
+          <p eId="para_206">The all-Government action plan is due in February. I am going to let the Minister answer the Deputy, who has spoken for much more than his allotted five minutes.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_132" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:40:00+00:00"/></from>
+          <p eId="para_207">The December document is a requirement of the European Union. We have to produce a draft energy and climate policy in December 2018 and a completed policy in December 2019. There is a one year window between the draft and the completion of the policy. I am working to a similar deadline to the Deputy and aim to have a whole-of-Government policy in place by February. What we submit to the EU in the next couple of weeks will contain many of the elements we know about, including initiatives in the national development plan, the national mitigation plan and other initiatives already in place. Much of what we already know of will be included in that, but there are areas we have to push further on where we do not have established consensus on, and that is the work I have to do between now and next September. Hopefully, there will be a degree of cross-party support for some of the initiatives.</p>
+          <p eId="para_208">That is my understanding. The last word is not what goes in to the EU in December, nor does it regard it as the last word. It regards it as a draft.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_133">
+          <from>Deputy Eamon Ryan<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_209">To conclude, would it help the Minister if we could get some kind of agreement here? We will not get agreement on everything because it is so difficult and such a huge challenge. It is bigger than the jobs task, as I said to the Taoiseach a number of weeks ago. However, would it help the Minister if we were to get agreement on proposals that, for example, we go for 20,000 ha of continuous cover forestry that really restores our biodiversity and do likewise in restoring our peatlands or consider using Bord na Móna as one of the key vehicles to deliver a deep retrofit of 45,000 houses? Does the Minister want these big, chunky projects from us? What does he want? What does he think this committee could do that would help his Department in this process? We will not have it all written by Christmas but we could set ourselves on the right iterative and constant process and track to get ourselves to the sort of system change we need.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_134" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_210">That is what would be helpful. It is a matter of setting an ambition that must be not only ambitious but also achievable and realistic. I do not expect the committee to go down to the granular level at which we will have to engage at cross-departmental level. Carbon tax is self-evident. As for forestry, again, we are well off the targets we have set ourselves, as I understand it. Bigger areas and direction of change would be really important for the committee. It cannot be the case that all the mystery of solving this is just left to someone else. The committee cannot propose that we have a million electric vehicles on the road by 2030 and not give us some kind of indication of the route that would get us there.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_135">
+          <from>Deputy Eamon Ryan<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_211">That is what the national development plan did.</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_136">
+          <from>Deputy Tom Neville<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_212">I apologise for being late. I was caught up in another committee. I have just a few pointers. I was part of the delegation that met the Tipperary Energy Agency. I found the trip extremely educational. I do not have an environmental or climate background but I have an interest in the area. As Deputy Sherlock said, we need to look at this more and consider rolling it out more across the councils or local government. We have a blueprint there. The grassroots or people on the ground and local government are mentioned in the briefing we got today. This would be my emphasis, given my background in local government. However, the biggest reservation I have about all this and whatever decision we will make in January will be how it will be communicated and how we will implement it on the ground. We must get that right, and I am talking as a collective. I could be very political here if I wanted to be but I will remove the politics from this. If whatever agreement we put in place is to work, our communication strategy will be vital. I stress that if we do not communicate it properly and we lose the ground on it, we will set ourselves back further. I would stress to whoever will be the communications lead on this that that should be front and centre. It is all very fine putting a good solution together, but if we cannot implement it or if people on the ground do not buy into it, we will be setting ourselves back. We have plenty of experience of this down through the years where we have got it wrong. I very much agree with the Minister that we must be ambitious but also realistic. I am not a climate denier. We know what is happening and we know it is out there but, as I said, it all goes back to how this will interact with human nature and on the ground and how people will buy into it.</p>
+          <p eId="para_213"> Some work on this has been done in other committees. Specifically, the Joint Committee on Agriculture, Food and the Marine has done a report on climate change. I do not want to come in with one big sweeping stick and make these massive changes that, again, will not work or be able to be implemented on the ground and which people will not buy into. This goes back to the kernel of agriculture. I represent a rural, agricultural community. This is on the minds of the people I represent. Farmers are talking about it because they understand that issues are coming down the tracks; it has been spoken about on the airwaves and it is becoming more politically mainstream. We must be mindful of this and take on board what the agriculture industry is coming back to us with because that is a huge part of who we are and our economy. It is our natural resource.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_137" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_214">That is very wise counsel. There is no doubt but that we will fail if we do not get communities to engage. Much of this is about people changing the way they travel, work and heat and insulate their homes and the choices they make in all kinds of lifestyle areas. To make this effective, one must be aware of the constraints with which people are living their lives. One cannot come in from Mars with some view of the perfect way to live, so this will be challenging. Equally, one cannot pay for the adjustment. The sorts of changes that will have to be made are beyond the State's capacity to fund. To take as an example the housing sector, I think €50 billion would be needed if we were to upgrade our housing to the level stated. The national development plan is making €4 billion in total available, I think. There are many individual homes and communities, and we are going to have to find ways other than subsidies to encourage people to make this happen. It cannot just be by fiat; we must bring people with us. The urgency is the other side of it. We do not have the time to say this will be done over an extended period during which one will hardly notice the difference. It must be done rapidly. This is why we have some of the best minds in politics together in this room to try to come up with ways in which we will do this. It is not easy and I do not pretend it is, but I go back to what I said at the beginning. The window for doing anything about this is closing very rapidly, so we do not have the time to hang back. As the Prime Minister of Fiji said, we are all in the same canoe. If we puncture the canoe, we all go down together. We would not avoid the impact of the kind of disruption that would happen globally if we failed to respond to this. We must therefore act with conviction and belief in the importance of this while also recognising communities' role in buying into it. That is the challenge. All suggestions will be gratefully received. I cannot do this on my own. Collectively, the body politic must square up to this.</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_138">
+          <from>Deputy Tom Neville<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_215">One big thing about getting this right is managing the transition.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_139" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_216">It is.</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_140">
+          <from>Deputy Tom Neville<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_217">It is not about getting from A to B in one bang. Managing that transition is the key to success.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_141" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_218">There will not be big buckets of money to deliver it, though. That is-----</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_142">
+          <from>Deputy Tom Neville<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_219">That is where we must get creative then.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_143" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_220">Yes. We must be creative.</p>
+        </speech>
+        <speech by="#BridSmith" eId="spk_144">
+          <from>Deputy Bríd Smith<recordedTime time="2018-12-05T15:50:00+00:00"/></from>
+          <p eId="para_221">Deputy Corcoran Kennedy suggested earlier that there should be a Minister dedicated to climate change. I have a certain sympathy with the suggestion but the matter is a little more interesting because the first recommendation of the special Citizens' Assembly on this issue was for a new independent body with a broad range of functions and powers in respect of climate change. This was to ensure as a matter of urgency that the body would be "resourced appropriately, operated in an open and transparent manner, and be given a broad range of new functions and powers in legislation to urgently address climate change". The reason I read this out is that when this was before the Department of Public Expenditure and Reform, I think it was Robert Watt who responded in an extraordinarily passionate way in opposition to it. He was absolutely, 1,000% against the idea of an independent body overseeing the implementation of climate change policy. It struck me how deeply he felt about it. I would not mind if the Minister would comment on this because I think that is what is needed to ensure that not just the Minister but the next Government and the Government after that do what is required.</p>
+          <p eId="para_222">As we have been discussing, the challenge is enormous. Transition is the big issue. I argue, however, that events in France and Australia indicate to us that the question of a just transition is not all it seems on paper. Deciding to put a carbon tax on fuel, heating, etc., does not cut the mustard even if there are dividends that are given back to the poor. France is a good example because it is not unlike here.</p>
+          <p eId="para_223"> Most of the blockades in response to the issue took place in Paris and the outskirts of the city. Reading the background to these events, what has happened is that people have been pushed out of the city. They are now living in satellite towns and cities elsewhere. At the same time, public transport has been reduced, with some 11,000 km of railway track being removed. I am not proposing we do anything like that here. It is a different scale of a country. The resentment, however, that average French workers - not the very poor - have towards the French Government derives from their having been pushed out of the cities, being forced to use their cars and then being told that they have to pay for it. In addition, the wealth tax in France was reduced at the same time. </p>
+          <p eId="para_224"> A just transition has to be that - it has to be just. If it is unjust, then, as all of us have argued here, communities, people and workers, like those in Bord na Móna, will not buy into it. Why is the Minister opposing the Bill People Before Profit is, hopefully, about to put before the Dáil? The Bill is intended to stop the issuing of any further licences for offshore fossil fuel exploration. When we raised this with representatives of the Intergovernmental Panel on Climate Change, IPCC, who appeared before this committee, I asked Professor Sonia Seneviratne if she thought this Bill would make a difference or had a role to play in fighting climate change. Her answer was that we have to make every effort not to add additional CO2, and engaging in further oil exploration is, therefore, not a solution. What was said makes sense. It would make sense for Ireland to turn away from fossil fuel as a source. Any additional CO2 emitted will contribute to the problem and yet the Minister and his Government are opposing this Bill when it has received broad cross-party support. </p>
+          <p eId="para_225"> The other point I would like to put to the Minister is an argument against a carbon tax on the average person. A carbon tax should be placed instead on the profits of the fossil fuel companies. An economist told this committee yesterday that to put a carbon tax on the profits of fossil fuel companies would require an EU-wide response. In other words, corporation tax rates would have to be agreed on a European basis. This Government, and this country, however, consistently resists that sort of approach. We do not have much time left and the Minister has acknowledged that this is urgent. There is not much of a window left to address this issue. We are all up the same creek without a paddle. Can we get this right? Can we put the taxes on industries instead of on ordinary people and can we get support from the Minister's party for a simple Bill which seeks to halt the issuing of any further licences for offshore fossil fuel exploration? </p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_145" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T16:00:00+00:00"/></from>
+          <p eId="para_226">I think Deputy Smith misunderstands the purpose of a carbon tax. It is not to raise money. A carbon tax is to ensure people pay for the carbon damage their activities cause. In an ideal world this carbon tax would eventually raise no funds. It is not a question of finding some profitable enterprise and raising funds from it. This is about getting people to change their attitude to how they heat their home, choose their travel options, etc. That is the purpose of a carbon tax. It is to signal to every enterprise, home and community that when we create carbon we are, to use the Deputy's word, doing something that is "unjust". We are causing damage for which we are not paying. Carbon tax is being widely canvassed as one instrument we need to use to tackle that unfair use of resources.</p>
+          <p eId="para_227"> It is one I believe profoundly we should do. People are going to make decisions about the car they are going to drive, the boiler they are going to install, the insulation they are going to use in their home, etc. If there are different balances between the cost and the benefits of doing that, people will change their behaviour. We have seen that with all sorts of other examples where people take stock of cost-benefit. It is not all going to be done through pricing. It also has to be done by bringing the community with us. Deputy Neville was very clear on that. This involves much more than a few smart instruments and that is why ideas of just transition and involving, respecting and trying to help communities manage the change facing them are really important.</p>
+          <p eId="para_228"> Turning to the use of carbon in our economy, even the most optimistic projections of how we decarbonise our economy do not see fossil fuels disappear. They will remain an element of our energy profile for decades to come. We will have other activities that will offset that. The real issue, however, is to stop carbon being part of the way we behave in our lives and to come up with policies to bring that about. It is a different question, if we are using gas, whether that should be gas we find in the Irish Sea or gas that we get from Russia or the Arab countries. Deciding not to explore in any of our waters for fossil fuels would mean we would become dependent on Russia, or some other locations, to provide what will remain an element of our energy make-up. We have to have regard to the security of our supply of energy as well as the carbon agenda. The EU recognises that there is a balance to be struck. That is why I think ending the search for fossil fuels is not the correct approach.</p>
+          <p eId="para_229"> Regarding the establishment of a new body, I did not hear Mr. Watt. My own view is that this is an intensely political issue. It is about how politicians elected to make decisions for the community can resolve the inherent conflict in changing the behaviour of people to the extent necessary. Creating some independent outside body, that is not elected or accountable and which is outside of what we do here and the accountability of politicians, would not deliver the sort of just transition of which Deputy Smith has spoken. I am also referring to the kind of balanced response Deputy Neville mentioned. One might say that is coming from a politician, and I have been a politician all my life. I see the merit in politics, and our job is to try to resolve these conflicts. We may not be very good at it but, as Winston Churchill said, democracy is the worst form of Government until the alternatives are tried. That is the case. We have to muddle along, find solutions and be accountable for the decisions we take. People will kick us out if they do not like what we do.</p>
+        </speech>
+        <speech by="#BridSmith" eId="spk_146">
+          <from>Deputy Bríd Smith<recordedTime time="2018-12-05T16:00:00+00:00"/></from>
+          <p eId="para_230">I recognise that one of the aspects of the implementation of a carbon tax is to attempt to change behaviour. It is to stick the cart before the horse, however, to do what has been done in France. People there were put in the position of having to spend much of their already reduced income on getting to and from work when public transport was not up to scratch. Only yesterday, the cost of a cash fare on a bus in Dublin went up again. It now costs €3 to go from Donnybrook to Stillorgan village, which is only a couple of stops.</p>
+          <p eId="para_231">There has been an increase of 87% in the cash cost of transport in Dublin since 2011. If we had such an increase in our wages, that would be great. We are pushing people off public transport and into private cars. This is particularly true in the satellite towns. We all know that the M50 looks like gridlock. We need to provide an alternative and we need to retrofit homes. The fuel poverty rate in Ballyfermot is 25%. People are already deciding whether to eat a hot meal or to turn on their gas for the winter. This plan will penalise them even further, even if the Government decides to give them back a bit. It is not that I do not recognise the need for it, but I suggest the cart is being put before the horse. No alternative is being provided. The Government is being completely contradictory in its failure to answer questions about how corporations are taxed on the wealth they make. Even though we are facing an urgent situation, this aspect of the matter is not being addressed by Governments. Funds are needed to retrofit homes and to increase public transport. That money could come from the sort of tax that is being considered. This possibility is not being addressed at a political level.</p>
+        </speech>
+        <speech by="#" eId="spk_147">
+          <from> Chairman<recordedTime time="2018-12-05T16:10:00+00:00"/></from>
+          <p eId="para_232">I am conscious there is a vote in the Seanad. I will bring the Minister in briefly.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_148" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T16:10:00+00:00"/></from>
+          <p eId="para_233">The truth is that we have to do all of the things that have been mentioned. We have to invest. The price of the fuel that is chosen is an important factor when encouraging people to invest in better energy systems. If we want to see more people using public transport, we must acknowledge that the price of the fuel they use in their private cars is part of what will determine their decisions. It is not the only factor, however. We cannot put off serious climate action until metro systems are in place. That will not meet the challenge we face. The opportunity to address this matter is closing fast. The price of carbon is an important element of this issue. Of course we have to protect people who will be impacted by whatever we decide to do, especially the vulnerable. That has been always the case. To be fair to the Sustainable Energy Authority of Ireland, its warmer homes initiative, which is operating in the Deputy's constituency-----</p>
+        </speech>
+        <speech by="#BridSmith" eId="spk_149">
+          <from>Deputy Bríd Smith<recordedTime time="2018-12-05T16:10:00+00:00"/></from>
+          <p eId="para_234">It is completely insufficient.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_150" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T16:10:00+00:00"/></from>
+          <p eId="para_235">-----has been very successful where it has been applied.</p>
+        </speech>
+        <speech by="#" eId="spk_151">
+          <from> Chairman<recordedTime time="2018-12-05T16:10:00+00:00"/></from>
+          <p eId="para_236">I will bring in Senator Grace O'Sullivan because she allowed Deputy Bríd Smith to come in before her. Senator Devine will be after her.</p>
+        </speech>
+        <speech by="#GraceOSullivan" eId="spk_152">
+          <from>Senator Grace O'Sullivan<recordedTime time="2018-12-05T16:10:00+00:00"/></from>
+          <p eId="para_237">I thank the Minister for coming in. I have been feeling somewhat optimistic during the course of this meeting. The Minister said at the outset that he recognises the urgency of this matter and the need for ambition.</p>
+          <p eId="para_238"> I would like to pick up on the point made by Deputy Bríd Smith about licences. If the Government were to withdraw from the issuing of any new licences as part of a "keep it in the ground" approach, it would go a long way. The Government can send a strong signal to the people of Ireland that it is serious about the issue of climate change and global warming by saying there will be no more exploration. Equally, keeping Moneypoint closed would go a long way. Hardly anyone has noticed that it has been closed for the past two months. We have managed to get most of our energy through renewables and gas. We should keep Moneypoint closed as a way of recognising the urgency of the climate change problem we face.</p>
+          <p eId="para_239"> Earlier this week, I attended a public meeting organised by a climate action group in Midleton, County Cork. I was there as a representative of the Green Party and representatives of Fianna Fáil, Sinn Féin and the Labour Party were also in attendance. The Minister's Fine Gael colleagues were invited, but none of them showed up. A similar meeting was held two years ago, when I had just come into politics with the Green Party. Again, there was no one from Fine Gael in attendance on that occasion. I suggest that their non-attendance represents a significant lost opportunity for the Government. I noticed a palpable difference in the sense of urgency among the people who attended this year's meeting. As others have said today, fear and anger are beginning to set in and questions are starting to be asked. It is clear from the report of the Citizens' Assembly that the citizens are ahead of the politicians. I agree that communication is critical. As the Minister has said, he has been in politics for years. I have not been in politics for quite as long. If the Government does not move on this issue, it will lose ground and it will tie a noose around all our necks. We will all suffer as a result of the Government's inaction with regard to climate change.</p>
+          <p eId="para_240"> The Minister spoke about the investment of €30 million under Project Ireland 2040, but I ask him to re-examine that plan in the context of climate proofing. Will he consider increasing the funding and resources being given to the Climate Change Advisory Council to help the council to develop its functions in support of Government agencies and businesses and to seek opportunities to decouple economic activity from greenhouse gas emissions? As the Minister has said, there are many opportunities out there. If the Government does not benefit from the leadership it needs to show it where to make changes, I am afraid it will just not happen.</p>
+          <p eId="para_241"> The final matter I would like to raise also relates to money. There is no doubt about the need for urgency. Is there any chance that some of the rainy day fund of approximately €1.5 billion could be put into new technologies like solar panels, heat pumps and microgeneration? In light of the seriousness of what we are talking about, could some of the rainy day fund be used to ensure public buildings, particularly schools and hospitals, have solar panels and are properly insulated?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_153" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T16:10:00+00:00"/></from>
+          <p eId="para_242">The rainy day fund has been established for fiscal stability. It involves setting aside resources that are temporary in nature as a feature of the present stage of the economic cycle. I think that is a prudent approach to the public finances. The Senator will have read the comments of the Irish Fiscal Advisory Council, which has taken issue with the approach we are taking, even with the rainy day fund. It is important that we are increasing investment in the public sector by 25% this year. All of that is being funded out of taxation. The golden rule used to be that a Government should borrow to fund its capital expenditure, but should not borrow for current expenditure. We are using taxation to fund all of our capital expenditure. Much of that is designed to try to create a more climate-resilient economy. I believe that by expending investment, we are showing ambition for the decade ahead.</p>
+          <p eId="para_243"> While I take Deputy Eamon Ryan's criticism, I suggest that a certain view of what Project Ireland 2040 is trying to achieve must be taken. It is completely different from anything that has been done previously. As I have said, I have been around for a long time. I have never before seen a Government try to put a solid investment behind a vision of a regionally balanced, compact, connected and sustainable programme. The growth in cities like Waterford, Cork, Galway and Limerick, which will be on a fixed footprint, will be 50% faster than the growth in Dublin. The Project Ireland 2040 plan is a really ambitious statement of where we are trying to get to. While I would be the first to admit we do not have all the tools to get us there, I do not accept that the plan was drawn up with no consideration of the sort of carbon-resilient community we need to create. I believe such consideration is at the heart of the plan. We have to do a lot of building out from the plan to make it purposeful.</p>
+          <p eId="para_244"> I have met Professor John FitzGerald of the Climate Change Advisory Council. I would certainly support useful research in this area. We have put out the disruptive technology fund. We also have the climate action fund and the other funds. We are looking to tap into bottom-up solutions. We do not pretend that the solutions to all of these challenges are in Merrion Street.</p>
+          <p eId="para_245"> I think it is simplistic to say that Moneypoint should not be used.</p>
+          <p eId="para_246">We need to build out our renewables so that we do not need to use it. It is there as a reserve. It will be the last plant to be brought into the grid much of the time. We are moving to 55% renewables by 2030 and that is probably not enough. We probably should be more ambitious. We will phase out Moneypoint but that has to be planned. It is not a case of switching it off, going home and saying we do not use it any more until we have interconnection and other ways of ensuring that we can have renewables. The ESB has to deliver power when it is there. Similarly, keeping it in the ground will not reduce carbon emissions at all. It just changes where the fossil fuels we use are sourced. I do not agree that it is a signal and the trouble with a signal like that is that it is not encouraging any of the behavioural change that needs to happen. It is purely a political signal that will not shift the dial on our carbon emissions. I want to concentrate on changes that will have an impact that we will start to see quickly. </p>
+        </speech>
+        <speech by="#GraceOSullivan" eId="spk_154">
+          <from>Senator Grace O'Sullivan<recordedTime time="2018-12-05T16:20:00+00:00"/></from>
+          <p eId="para_247">On Monday the Minister of State at the Department of Communications, Climate Action and Environment, Deputy Canney, launched guidelines for local authorities to plan for making an impact on climate change. A guideline has been set for 30 September 2019. Could that be brought forward?</p>
+          <p eId="para_248"> What will we do in 2019? Everybody talks about 2020 and 2030 but what can we do right here and now to mitigate and adapt for 2019?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_155" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T16:20:00+00:00"/></from>
+          <p eId="para_249">The guidelines for local authorities are for the adaptation. I do not know what date. I will have to come back to the committee with the date on which they will become effective.</p>
+          <p eId="para_250"> We are trying to come up with a set of policy instruments that we will start to implement in 2019 and will evolve. I do not have a list to hand but the purpose of this work is that together, we develop that list. It will not be just for 2019 but it would be very disappointing if we do not have significant actions for 2019. </p>
+        </speech>
+        <speech by="#MaireDevine" eId="spk_156">
+          <from>Senator Máire Devine<recordedTime time="2018-12-05T16:20:00+00:00"/></from>
+          <p eId="para_251">In the chapter on nearly zero energy buildings, NZEB, there is a target for public buildings and dwellings. Does the Minister know how many public buildings are under construction or completed which meet the specifications of the energy performance of buildings directive of 2018? On what date precisely did this come in? I hope it covers the new development or construction of the new children's hospital and the two satellites at Tallaght and Blanchardstown, which is the biggest construction for health in the history of the State. I happen to live next door to it and would like to know if they are included in the energy performance or did they just miss it? It would have been prudent to include them because this plan has been on the table for some time.</p>
+          <p eId="para_252"> The warmth and well-being insulation grants and the various other schemes have been rolled out successfully in Dublin South Central. We need to do this more quickly and a lot more of it – there are millions of homes to be retrofitted, apart from the new buildings. The criteria for the grant are quite limited. Could the Minister include or expand those criteria to include age, for the most senior of our citizens, who are those most affected by ill-health? Cold, poor insulation and fuel poverty have a detrimental effect on their health. While people are struggling and money is tight, they become more green aware, even though the priority is the food on the table. They want to play their part. There must be some incentive for people to carry out that green wish, whatever it may be. Certainly that urgency is beginning to be felt, not just among those who have the money and leisure to do it but also those who find that money is tight and hard to come by. We need to encourage their green awareness.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_157" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T16:20:00+00:00"/></from>
+          <p eId="para_253">The new buildings directive came in under the energy performance of buildings directive of 2018. It aims to have all new buildings as near zero energy buildings by 2020. This predates my arrival in the Department. I do not know whether the buildings the Senator mentioned came in under that or what their energy specification is.</p>
+        </speech>
+        <speech by="#" eId="spk_158">
+          <from> Chairman<recordedTime time="2018-12-05T16:20:00+00:00"/></from>
+          <p eId="para_254">Maybe the Minister could find that out and send it to us.</p>
+        </speech>
+        <speech by="#MaireDevine" eId="spk_159">
+          <from>Senator Máire Devine<recordedTime time="2018-12-05T16:20:00+00:00"/></from>
+          <p eId="para_255">They might run on smart technology in order that the patient, parent and child, will arrive and be taken through the entrance, to reception, waiting room and doctors by smart technology.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_160" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T16:20:00+00:00"/></from>
+          <p eId="para_256">I do not have the answer to that.</p>
+        </speech>
+        <speech by="#" eId="spk_161">
+          <from> Chairman<recordedTime time="2018-12-05T16:20:00+00:00"/></from>
+          <p eId="para_257">The Senator might ask for that in a note.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_162" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T16:20:00+00:00"/></from>
+          <p eId="para_258">The Sustainable Energy Authority of Ireland, SEAI, reviews the criteria for grants. The warmer homes scheme applies and there was a three-year pilot scheme of 900 homes in a specific community healthcare organisation area, namely, CHO 7. It differed in that it was not just a grant. The HSE was also working on it to identify the clients and in so doing it secured a lower fall-off of people who considered it. There was a very high take-up. It was a pilot to see would this have an impact on health, as well as on energy. It is drawing together the evidence.</p>
+          <p eId="para_259"> In the long term, we have to find a way. We will always be funding people with low incomes and poor health and we will have to find the resources for that. We will not be able to fund all the change that happens in the household sector. We will have to find some ways to encourage people other than from State grants to bring the building energy rating, BER, for their houses up. That is one of the challenges. We will not have the money to fund all the change that is needed on this agenda. We have to recognise that while coming up with clever grant schemes is a small part of it, the estimate is €50 billion in housing alone and the State will not be able to fund that across all sectors. We have to think outside the box to find other instruments to encourage the funding of these changes. </p>
+        </speech>
+        <speech by="#JackChambers" eId="spk_163">
+          <from>Deputy Jack Chambers<recordedTime time="2018-12-05T16:20:00+00:00"/></from>
+          <p eId="para_260">Last week in the Dáil the Taoiseach mentioned his intention to change and amend the carbon tax. He seemed to defer to what this committee decides and its consensus. Can the Minister set out some provisional pathway for what he sees as the changes in this regard? The Minister said he started funding the climate action measures of the local authority regional offices in 2018. Does he have a progress update on how they are functioning or operating and what they have done in the 12-month window they have had to operate?</p>
+          <p eId="para_261"> The Minister has not given much detail of how the building regulations are being amended under the energy performance of buildings directive of 2018. What is the timeline on that?</p>
+          <p eId="para_262">Maybe the Minister can provide further information on it. The Minister also mentioned the sovereign green bond at a low interest rate that allows Ireland incur specific climate related expenditure. How much did we-----</p>
+        </speech>
+        <speech by="#" eId="spk_164">
+          <from> Chairman<recordedTime time="2018-12-05T16:30:00+00:00"/></from>
+          <p eId="para_263">Is it €3 billion?</p>
+        </speech>
+        <speech by="#JackChambers" eId="spk_165">
+          <from>Deputy Jack Chambers<recordedTime time="2018-12-05T16:30:00+00:00"/></from>
+          <p eId="para_264">I do not see it in the statement. The Minister might outline how much that was for. Is it for climate related measures only? How many years has that bond been issued for?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_166" as="#Minister_for_Communications,_Climate_Action_and_Environment">
+          <from>Deputy Richard Bruton<recordedTime time="2018-12-05T16:30:00+00:00"/></from>
+          <p eId="para_265">On the carbon tax, I am clear, as the Taoiseach is, that we need to have a trajectory of where the carbon tax will be in 2025 and in 2030 and a pathway to get there. The Taoiseach indicated that he was supportive of it, as was Deputy Eamon Ryan, the leader of the Green Party. The Taoiseach made the comment that it would be good if the committee as a whole reached consensus around a trajectory for it. Such a consensus would help its implementation. We all will be aware that some of these changes, although necessary, can be difficult to implement.</p>
+          <p eId="para_266"> I have not commented on a specific pathway. The Deputy will probably be aware that the climate advisory committee indicated it would be €80 a tonne by 2030. The Secretary General of the Department of Public Expenditure and Reform talked of €100 a tonne in public service projects by the same date and indicated that this is likely to grow rapidly thereafter. It is an important signal, as I stated, to encourage decision-making.</p>
+          <p eId="para_267"> There are local adaptation strategies being developed. These are due by 30 September 2019. Part of the work of the climate offices is to develop that. I must get the Deputy more detail on their work to date.</p>
+          <p eId="para_268"> The new regulations are in respect of renovations. Where a home renovation constitutes more than 25% of the surface of the building envelope, one must have the entire building brought up to a higher energy performance standard. That is coming in on 1 April 2019.</p>
+          <p eId="para_269"> My understanding is that the green bond is a public bond for public investments. There is a very substantial appetite for that sort of investment. The NTMA raised funding to the tune of €3 billion at a low coupon and it was very much oversubscribed. It is for State investments in the green area.</p>
+        </speech>
+        <speech by="#" eId="spk_167">
+          <from> Chairman<recordedTime time="2018-12-05T16:30:00+00:00"/></from>
+          <p eId="para_270">I thank the Minister and his officials for coming before us this afternoon. We have a great deal of work to do over the next few weeks and months and we look forward to working with the Minister on that. As there is no other business, we will adjourn.</p>
+        </speech>
+        <summary eId="sum_6"> The joint committee adjourned at 4.33 p.m. until 12.30 p.m. on Wednesday, 12 December 2018.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

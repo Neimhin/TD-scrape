@@ -1,0 +1,688 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/seanad/2014-03-06/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/seanad/2014-03-06/debate"/>
+          <FRBRdate date="2014-03-06" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/house/seanad/24"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/seanad/2014-03-06/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/seanad/2014-03-06/debate/mul@"/>
+          <FRBRdate date="2014-03-06" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/seanad/2014-03-06/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/seanad/2014-03-06/debate/mul@.akn"/>
+          <FRBRdate date="2018-12-18" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_16" outcome="#carried" refersTo="#sum_15">
+            <count eId="vote_1-count_1" href="#qty_1" refersTo="#ta" value="23"/>
+            <count eId="vote_1-count_2" href="#qty_2" refersTo="#nil" value="14"/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#debates">
+        <TLCConcept eId="#lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#carried" href="/ie/oireachtas/ontology#DeclaredCarried" showAs="Declared Carried"/>
+        <TLCConcept eId="#staon" href="/ie/oireachtas/ontology#StaonVote" showAs="Staon Vote"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCPerson eId="AideenHayden" href="/ie/oireachtas/member/id/Aideen-Hayden.S.2011-05-25" showAs="Aideen Hayden"/>
+        <TLCPerson eId="BrianODomhnaill" href="/ie/oireachtas/member/id/Brian-Ó-Domhnaill.S.2007-07-23" showAs="Brian Ó Domhnaill"/>
+        <TLCPerson eId="CaitKeane" href="/ie/oireachtas/member/id/Cáit-Keane.S.2011-05-25" showAs="Cáit Keane"/>
+        <TLCPerson eId="CatherineNoone" href="/ie/oireachtas/member/id/Catherine-Noone.S.2011-05-25" showAs="Catherine Noone"/>
+        <TLCPerson eId="ColmBurke" href="/ie/oireachtas/member/id/Colm-Burke.S.2011-05-25" showAs="Colm Burke"/>
+        <TLCPerson eId="DarraghOBrien" href="/ie/oireachtas/member/id/Darragh-O'Brien.D.2007-06-14" showAs="Darragh O'Brien"/>
+        <TLCPerson eId="DavidCullinane" href="/ie/oireachtas/member/id/David-Cullinane.S.2011-05-25" showAs="David Cullinane"/>
+        <TLCPerson eId="DenisLandy" href="/ie/oireachtas/member/id/Denis-Landy.S.2011-05-25" showAs="Denis Landy"/>
+        <TLCPerson eId="DenisODonovan" href="/ie/oireachtas/member/id/Denis-O'Donovan.S.1989-10-01" showAs="Denis O'Donovan"/>
+        <TLCPerson eId="EamonnCoghlan" href="/ie/oireachtas/member/id/Eamonn-Coghlan.S.2011-05-25" showAs="Eamonn Coghlan"/>
+        <TLCPerson eId="HildegardeNaughton" href="/ie/oireachtas/member/id/Hildegarde-Naughton.S.2013-07-19" showAs="Hildegarde Naughton"/>
+        <TLCPerson eId="IvanaBacik" href="/ie/oireachtas/member/id/Ivana-Bacik.S.2007-07-23" showAs="Ivana Bacik"/>
+        <TLCPerson eId="JamesHeffernan" href="/ie/oireachtas/member/id/James-Heffernan.S.2011-05-25" showAs="James Heffernan"/>
+        <TLCPerson eId="JimWalsh" href="/ie/oireachtas/member/id/Jim-Walsh.S.1997-09-17" showAs="Jim Walsh"/>
+        <TLCPerson eId="JohnKelly" href="/ie/oireachtas/member/id/John-Kelly.S.2011-05-25" showAs="John Kelly"/>
+        <TLCPerson eId="KatherineZappone" href="/ie/oireachtas/member/id/Katherine-Zappone.S.2011-05-25" showAs="Katherine Zappone"/>
+        <TLCPerson eId="LabhrasOMurchu" href="/ie/oireachtas/member/id/Labhrás-Ó-Murchú.S.1997-09-17" showAs="Labhrás Ó Murchú"/>
+        <TLCPerson eId="MarcMacSharry" href="/ie/oireachtas/member/id/Marc-MacSharry.S.2002-09-12" showAs="Marc MacSharry"/>
+        <TLCPerson eId="MarieLouiseODonnell" href="/ie/oireachtas/member/id/Marie-Louise-O'Donnell.S.2011-05-25" showAs="Marie-Louise O'Donnell"/>
+        <TLCPerson eId="MarieMoloney" href="/ie/oireachtas/member/id/Marie-Moloney.S.2011-05-25" showAs="Marie Moloney"/>
+        <TLCPerson eId="MarkDaly" href="/ie/oireachtas/member/id/Mark-Daly.S.2007-07-23" showAs="Mark Daly"/>
+        <TLCPerson eId="MartinConway" href="/ie/oireachtas/member/id/Martin-Conway.S.2011-05-25" showAs="Martin Conway"/>
+        <TLCPerson eId="MaryAnnOBrien" href="/ie/oireachtas/member/id/Mary-Ann-O'Brien.S.2011-05-25" showAs="Mary Ann O'Brien"/>
+        <TLCPerson eId="MaryMoran" href="/ie/oireachtas/member/id/Mary-Moran.S.2011-05-25" showAs="Mary Moran"/>
+        <TLCPerson eId="MichaelComiskey" href="/ie/oireachtas/member/id/Michael-Comiskey.S.2011-05-25" showAs="Michael Comiskey"/>
+        <TLCPerson eId="MichaelMullins" href="/ie/oireachtas/member/id/Michael-Mullins.S.2011-05-25" showAs="Michael Mullins"/>
+        <TLCPerson eId="MichaelWDArcy" href="/ie/oireachtas/member/id/Michael-D'Arcy.D.2007-06-14" showAs="Michael D'Arcy"/>
+        <TLCPerson eId="NedOSullivan" href="/ie/oireachtas/member/id/Ned-O'Sullivan.S.2007-07-23" showAs="Ned O'Sullivan"/>
+        <TLCPerson eId="PaddyBurke" href="/ie/oireachtas/member/id/Paddy-Burke.S.1993-02-17" showAs="Paddy Burke"/>
+        <TLCPerson eId="PaschalMooney" href="/ie/oireachtas/member/id/Paschal-Mooney.S.1987-04-25" showAs="Paschal Mooney"/>
+        <TLCPerson eId="PatONeill" href="/ie/oireachtas/member/id/Pat-O'Neill.S.2011-05-25" showAs="Pat O'Neill"/>
+        <TLCPerson eId="PaulBradford" href="/ie/oireachtas/member/id/Paul-Bradford.S.1987-04-25" showAs="Paul Bradford"/>
+        <TLCPerson eId="PaulCoghlan" href="/ie/oireachtas/member/id/Paul-Coghlan.S.1997-09-17" showAs="Paul Coghlan"/>
+        <TLCPerson eId="SeanDBarrett" href="/ie/oireachtas/member/id/Sean-D-Barrett.S.2011-05-25" showAs="Sean D. Barrett"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Seán Sherlock"/>
+        <TLCPerson eId="SusanOKeeffe" href="/ie/oireachtas/member/id/Susan-O'Keeffe.S.2011-05-25" showAs="Susan O'Keeffe"/>
+        <TLCPerson eId="TerryBrennan" href="/ie/oireachtas/member/id/Terry-Brennan.S.2011-05-25" showAs="Terry Brennan"/>
+        <TLCPerson eId="TerryLeyden" href="/ie/oireachtas/member/id/Terry-Leyden.D.1977-07-05" showAs="Terry Leyden"/>
+        <TLCPerson eId="ThomasByrne" href="/ie/oireachtas/member/id/Thomas-Byrne.D.2007-06-14" showAs="Thomas Byrne"/>
+        <TLCPerson eId="TonyMulcahy" href="/ie/oireachtas/member/id/Tony-Mulcahy.S.2011-05-25" showAs="Tony Mulcahy"/>
+        <TLCPerson eId="TrevorOClochartaigh" href="/ie/oireachtas/member/id/Trevor-Ó-Clochartaigh.S.2011-05-25" showAs="Trevor Ó Clochartaigh"/>
+        <TLCEvent eId="bill.2013.92.seanad.dail_amd" href="/ie/oireachtas/bill/2013/92/seanad/dail_amd" showAs="County Enterprise Boards (Dissolution) Bill 2013: [Seanad Bill amended by the Dáil] Report and Final Stages (Seanad)"/>
+        <TLCRole eId="Acting_Chairman" href="/ie/oireachtas/role/office/acting_chairman" showAs="Acting Chairman"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Education_and_Skills" href="/ie/oireachtas/role/minister_state/education__skills" showAs="Minister of State at the Department of Education and Skills"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Jobs,_Enterprise_and_Innovation" href="/ie/oireachtas/role/minister_state/jobs__enterprise__innovation" showAs="Minister of State at the Department of Jobs, Enterprise and Innovation"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>SEANAD ÉIREANN</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>SEANAD ÉIREANN</docProponent>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2014-03-06">, 06 Márta 2014</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2014-03-06">Thursday, 06 March 2014</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Chuaigh an Cathaoirleach i gceannas ar 10:30 a.m.</summary>
+        <summary class="Center" eId="sum_2">Machnamh agus Paidir.</summary>
+        <summary class="Center" eId="sum_3">Reflection and Prayer.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Seanad<recordedTime time="2014-03-06T10:30:00+00:00"/></heading>
+        <speech by="#PaddyBurke" eId="spk_1">
+          <from> An Cathaoirleach<recordedTime time="2014-03-06T10:30:00+00:00"/></from>
+          <p eId="para_1">I have received notice from Senator Martin Conway that, on the motion for the Adjournment of the House today, he proposes to raise the following matter:</p>
+          <p class="indent_1" eId="para_2">The need for the Minister for Health to reopen the existing facility at St. Joseph's Hospital, Ennis, County Clare, which was built to provide respite and long-term care for patients suffering from dementia.</p>
+          <p eId="para_3">I have also received notice from Senator Fidelma Healy Eames of the following matter:</p>
+          <p class="indent_1" eId="para_4">The need for the Minister for Transport, Tourism and Sport to work with Galway City Council to provide funding for the overall redevelopment of Salthill promenade to take account of the totality of needs, leisure amenities and flood defences.</p>
+          <p eId="para_5">I regard the matter raised by Senator Martin Conway as suitable for discussion on the Adjournment and it will be taken at the conclusion of business. I regret that I have had to rule out of order the matter raised by Senator Fidelma Healy Eames, as the Minister has no official responsibility in the matter.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="orderofBusiness" eId="dbsect_3">
+        <heading>Order of Business<recordedTime time="2014-03-06T10:30:00+00:00"/></heading>
+        <speech by="#IvanaBacik" eId="spk_2">
+          <from>Senator Ivana Bacik<recordedTime time="2014-03-06T10:30:00+00:00"/></from>
+          <p eId="para_6">The Order of Business is No. 1, County Enterprise Boards (Dissolution) Bill 2013 [<i>Seanad Bill amended by the Dáil</i>] - Report and Final Stages, to be taken at 11.45 a.m.</p>
+        </speech>
+        <speech by="#DarraghOBrien" eId="spk_3">
+          <from>Senator Darragh O'Brien<recordedTime time="2014-03-06T10:30:00+00:00"/></from>
+          <p eId="para_7">The Government's legislative proposals for the spring-summer session this year include No. 23, the consumer protection and competition Bill. That legislative measure has been on the A list for five Oireachtas sessions. One aspect of the Bill is to amalgamate the National Consumer Agency and the Competition Authority. However, a more important aspect of it is to provide for a statutory code of conduct for the grocery goods sector, giving effect to the recommendations of the advisory group on media mergers. As regards that element of it, the Committee on Agriculture, Food and the Marine has reached cross-party agreement on a number of recommendations that would lead in particular to ensuring the proper labelling of Irish produce. In addition, they would ensure a ban on below-cost selling, particularly in the grocery and agriculture sectors.</p>
+          <p eId="para_8">I attended a meeting last night in Rush with our agriculture spokesperson, Deputy Éamon Ó Cuív, which was attended by over 50 producers of vegetables and other crops. The Christmas period nearly destroyed this sector. Many of the multiples were selling carrots for €0.09 and broccoli for €0.06 - all below cost. This industry is effectively on its knees. We welcome the fact that the Government is moving with the Consumer Protection and Competition Bill but this is the fifth session during which it has been on the A list, which is supposed to be a priority list. The Bill was to have been published this session. I ask the Deputy Leader to make contact with the Minister for Jobs, Enterprise and Innovation to see if it will be published. To assist her in this, my understanding is that the main problem with the Bill concerns legal elements relating to the merging of the National Consumer Agency and the Competition Authority rather than with the statutory code of practice. If there is an issue with this, I ask that the Minister publish the draft of what is proposed regarding the statutory code of practice. This will give the sector, particularly the agriculture and horticulture sectors, an opportunity to see what the Government is proposing so we can work at this stage to strengthen the Bill and put forward amendments to it. At this stage, it is crucially important. People are losing trust because this has been on the A list five times, but it has yet to be published. I would very much appreciate it if the Deputy Leader could follow up and report back in the next week or so as to when the Government intends to publish what is very important legislation. That would be excellent.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_4">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_9">I fully understand the concerns expresseded by Senator Darragh O'Brien and know the Deputy Leader will answer more fully. Below-cost selling has bedevilled the industry not just today or yesterday but for years. We heard from representatives from this industry at a meeting of the former Oireachtas Joint Committee on Enterprise and Small Business. All of the farmers and market gardeners in north Dublin are long suffering, but the Deputy Leader will deal with that issue in a few minutes.</p>
+          <p eId="para_10"> Tourism in Ireland is improving. The hotel survey referred to by our good colleague yesterday might have included five star hotels. I do not know. We have had years of steep decline and need some little lift right across the board. Thankfully, it is happening. Ireland in general and Killarney, in particular, are able to offer exceptional value because we have a range of accommodation, as I discussed with a number of Senators on an individual basis yesterday.</p>
+        </speech>
+        <speech by="#DarraghOBrien" eId="spk_5">
+          <from>Senator Darragh O'Brien<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_11">We are having our Ard-Fheis there.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_6">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_12">Fianna Fáil is holding its Ard-Fheis in Killarney because of the value it is getting.</p>
+        </speech>
+        <speech by="#TerryLeyden" eId="spk_7">
+          <from>Senator Terry Leyden<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_13">It is a work in progress.</p>
+        </speech>
+        <speech by="#DarraghOBrien" eId="spk_8">
+          <from>Senator Darragh O'Brien<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_14">We are staying in hostels rather than five star hotels.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_9">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_15">Everybody is welcome in Killarney. They should keep visiting. One can stay in a good B&amp;B for as little as €30 per night.</p>
+        </speech>
+        <speech by="#DarraghOBrien" eId="spk_10">
+          <from>Senator Darragh O'Brien<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_16">I thought the Senator was going to put us up.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_11">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_17">We have the range to accommodate not just Fianna Fáil but everybody - visitors from home and abroad.</p>
+        </speech>
+        <summary eId="sum_4">(Interruptions).</summary>
+        <speech by="#KatherineZappone" eId="spk_12">
+          <from>Senator Katherine Zappone<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_18">It is always a pleasure to follow Senator Paul Coghlan. I was interested to read this week our Taoiseach's opinion piece where he said in <i>The Irish Times</i> that "while we are moving in the right direction, too many of our people have yet to feel the recovery in their own lives". He then went to discuss the issue of jobs as that is a critical theme for the Government at this stage. While we have had a debate about jobs, I suggest people want financial justice and jobs. This would mean the lower paid getting a living wage, as the Minister for Social Protection also identified in terms of priorities this week, in oder that at some point we no longer have lower paid jobs but living wage jobs; more middle income jobs which are being hollowed out and jobs at the higher end where there is more income and equality. That would be financial justice.</p>
+          <p eId="para_19"> The people want financial well-being as well and my question to the Deputy Leader relates to this. I want to raise the continuing lack of financial and legal assistance and support to people trying to negotiate with banks in respect of their mortgage debts. Unless people have the assistance of MABS or various not-for-profit advocacy services, there is no assistance available until after the lender has made an offer. At that stage, the lenders fund a service whereby people can get information from an accountant but only on that particular offer and its implications. The Free Legal Advice Centres service has stated for some time that this is an ineffective approach. People need consistent support in respect of their legal and financial situation as they are going through the negotiation process with the lender. The Department of Social Protection set up a working group to assess independent financial advice services and whether they are meeting its objectives. Consultation took place and a report was published. When it was published, stakeholders who had input into the review of the service attended a seminar. The Minister announced important changes at the seminar, which are to be welcomed. Under these changes, people will have access to advice at the beginning of the process when they are filing their financial statement. The Minister also announced that legal and financial advice would be provided to people at risk of losing their homes. I ask the Deputy Leader to ask the Minister about the implementation of these changes. I understand negotiations with the various advisory bodies and lenders are only beginning. What resources are being put into these changes? Are they being given priority?</p>
+        </speech>
+        <speech by="#SeanDBarrett" eId="spk_13">
+          <from>Senator Sean D. Barrett<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_20">The European People's Party, EPP, will be in Dublin in the next couple of days. The Taoiseach is in Brussels this morning attending the summit of heads of state discussing the issue of Russia, Ukraine and Crimea. I draw the attention of the House to the danger that we might slip into sanctions and the importance of negotiations before people start to talk of sanctions. I looked at some of the literature in the area. An article in International Organization by Daniel W. Drezner states that:</p>
+          <p class="indent_1" eId="para_21">To analysts, the policymaker's reliance on sanctions is puzzling; the scholarly assessment of sanctions is that they fail to yield significant concessions. There is a long and distinguished line of authors who argue that sanctions do not work. This negative assessment has hardened since the end of the Cold War. </p>
+          <p eId="para_22">The author must have known that Senator Ivana Bacik would be replying today because his article goes on to state, "Even international lawyers that stress the role of international institutions argue that sanctions are a weak tool of enforcement". Lest we drift into sanctions and adopt a load of policies that do not work, I stress the importance of the negotiations knowing that, based on the record of sanctions they probably will not work, and the importance of agreement. I wish the Taoiseach and the EPP well when they discuss these issues.</p>
+        </speech>
+        <speech by="#CaitKeane" eId="spk_14">
+          <from>Senator Cáit Keane<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_23">I refer to the Paddy Power advertisement relating to betting on the outcome of the trial of Oscar Pistorius. The Advertising Standards Authority in the United Kingdom has asked for the advertisement to be withdrawn, which has been done pending an investigation. I do not know why it was done pending an investigation. There were 124,000 online complaints about the advertisement. Paddy Power is taking bets on the trial of Oscar Pistorius, which is disgraceful. We are concerned here with the death of a woman. It is outrageous that any betting company would do this. I can do no more than ask in Seanad Éireann for Paddy Power to voluntarily remove this campaign in Ireland. As of this morning, betting is still going on. If Paddy Power does not have the decency to act, people in Ireland should do the decent thing and abandon it for this week. It is a good business but taking bets on this is wrong. The Advertising Standards Authority of Ireland has done nothing about it while the authority in the United Kingdom has. The advertisement is not being shown in Ireland, but the betting is happening here online and in bookies. I do not know what we can do about it other than bring it to people's attention. Perhaps this is what Paddy Power wants. It is getting great publicity out of it, but it is bad publicity on the back of a dead woman. If any of us goes into branches of Paddy Power and bets on it, we should hang our heads in shame. People should not go into branches of Paddy Power at all. We should show it what we are made of.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_15">
+          <from> An Cathaoirleach<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_24">I call Senator Paschal Mooney. I apologise. I call Senator Labhrás Ó Murchú.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_16">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_25">Bad week.</p>
+        </speech>
+        <speech by="#LabhrasOMurchu" eId="spk_17">
+          <from>Senator Labhrás Ó Murchú<recordedTime time="2014-03-06T10:40:00+00:00"/></from>
+          <p eId="para_26">The issue I wish to raise is causing grave concern - indeed panic - in a particular community.</p>
+          <p eId="para_27">Many are saying it is a matter of life or death. I refer to the emergency ambulance service and, in particular, the service in the Cashel-Tipperary area. Two ambulances currently provide this service and it is planned to remove one of these ambulances. The area in question is exceptionally expansive. Most people have had experience of this ambulance service and they know how necessary it is for prompt action; very often it is a matter of life or death. I can understand where rationalisation is necessary from time to time but sometimes it becomes a statistical issue of just deciding that Cashel-Tipperary will have one emergency ambulance. The people who are saying this is a life or death situation are not exaggerating. There is panic in that community and I would not like to think, having brought it to the notice of the House, considering the public meetings taking place and the correspondence exchanged, that if there is not a positive responsible response to this we may be asking later how did we allow this to happen. I ask the Deputy Leader to bring it to the notice of both the HSE and the Minister for Health. The clock is ticking on this issue. I would appreciate an urgent response within the next 24 hours, if possible.</p>
+        </speech>
+        <speech by="#SusanOKeeffe" eId="spk_18">
+          <from>Senator Susan O'Keeffe<recordedTime time="2014-03-06T10:50:00+00:00"/></from>
+          <p eId="para_28">I raise the matter of the EU study of domestic violence which is incredibly difficult to read. It is shocking. It is more shocking when on last night's 9 o'clock news it merited a line in the middle of several other news items, including an argument about whether Garth Brooks should play five concerts at Croke Park. This is when, in the course of that study, 62 million women reported having been raped, burned, beaten, bullied or abused or have been subjected to violence in some form. The figures are one in three women in Europe, one in four women in Ireland, yet it merits about one minute on the main evening news and today's newspapers have not highlighted the report because it is no longer regarded as an item of news. We no longer care because either the figures are too shocking or we have heard them too many times. We do not seem to know what to do about this issue. I do not even want to think what the response would be if it were 62 million men who were the subject of such abuse. We have become inured. There is probably no point in asking a question nor any point in asking for a debate because we do not seem to be making any progress. The figures seem to be going up. We may hang our heads in shame - as might Senator Cáit Keane - about Paddy Power's betting antics, but surely we should have our heads completely hung in shame over these figures. We do not seem to be making any progress. Perhaps there is a point at which we just give up, go home and say we do not care about the women of our own country and across the European Union who are being treated in this manner.</p>
+        </speech>
+        <speech by="#DavidCullinane" eId="spk_19">
+          <from>Senator David Cullinane<recordedTime time="2014-03-06T10:50:00+00:00"/></from>
+          <p eId="para_29">I had no intention of raising this issue, but I support Senator Cáit Keane's comments on Paddy Power. It is despicable that any bookmaker would take bets on the outcome of any trial, not least a murder trial. It is very insensitive and should not be happening. I hope the company learns from this and that it does the right thing. It is intolerable and deplorable and it should be condemned.</p>
+          <p eId="para_30"> I raise an issue from my own home city and county of Waterford where yesterday in Dungarvan, 32 jobs losses were announced in Young Microbrush Limited, which is based in Dungarvan town. I offer my sympathies and support to those 32 workers who will lose their jobs. The House had a very good debate yesterday on An Action Plan for Jobs. The Minister for Jobs, Enterprise and Innovation, was present for the debate. I raised with him a number of concerns about the unemployment figures. While there are some encouraging signs there seems to be a polarisation of growth, in that some parts of the country are not experiencing the levels of growth that they should have, the south east being one of those areas. The city and county of Waterford have very high levels of unemployment, in fact, the highest in the State and the same is true for the south-east region. Waterford merits particular attention. I continue to raise this matter in the House at every opportunity. It is crucial that when creating jobs it is done equally across the State and the island. Only a number of weeks ago, Honeywell Process Solutions in Waterford announced its closure with more job losses. The situation of continuous jobs losses is very difficult for the people of Waterford city and county. We seem to have the highest levels of unemployment in the State, yet we are not getting the support from the Government, despite the promises.</p>
+          <p eId="para_31"> I remind the Deputy Leader that the Joint Committee on Jobs, Enterprise and Innovation published a report on the south east which made a series of recommendations. Ten priority recommendations were listed by the committee, most of which have not been implemented. If these were implemented it would create a level playing field and would support job creation and job retention in Waterford city and county and across the south east. While I welcome the creation of jobs in any part of the State, I am sure the Deputy Leader will agree that we must ensure that all cities and counties in all parts of the State benefit from An Action Plan for Jobs.</p>
+        </speech>
+        <speech by="#TerryBrennan" eId="spk_20">
+          <from>Senator Terry Brennan<recordedTime time="2014-03-06T10:50:00+00:00"/></from>
+          <p eId="para_32">We are all familiar with the damage done by the storms in the west, south west, south east and the north east. Many scenic areas popular with tourists suffered damage. I had occasion to visit an area where the road had disappeared and people's homes were cut off. In conjunction with restoration work, I ask that local authorities consider installing footpaths at little extra cost. I visited one of the most scenic areas in the country, the Ballagan shore and Whitestown shore in north County Louth. In the interest of tourists and locals alike local authorities should consider installing footpaths.</p>
+        </speech>
+        <speech by="#JamesHeffernan" eId="spk_21">
+          <from>Senator James Heffernan<recordedTime time="2014-03-06T10:50:00+00:00"/></from>
+          <p eId="para_33">There is a famous ballad from my county entitled, <i>Shanagolden</i>. The Cathaoirleach may know it. I will not sing it-----</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_22">
+          <from> An Cathaoirleach<recordedTime time="2014-03-06T10:50:00+00:00"/></from>
+          <p eId="para_34">Most Senators know every town in the country.</p>
+        </speech>
+        <speech by="#JamesHeffernan" eId="spk_23">
+          <from>Senator James Heffernan<recordedTime time="2014-03-06T10:50:00+00:00"/></from>
+          <p eId="para_35">I will give the Senator a bar of the song later:</p>
+          <p class="indent_1" eId="para_36"> The cold wind from the mountains comes calling soft to me, </p>
+          <p class="indent_1" eId="para_37"> The smell of scented heather brings bitter memories, </p>
+          <p class="indent_1" eId="para_38"> The wild and lonely eagle all in the summer sky, </p>
+          <p class="indent_1" eId="para_39"> Flies high o'er Shanagolden where my young Willie lies. </p>
+          <p eId="para_40">The song is a romantic ballad about a lad who died for Irish freedom and is buried in Shanagolden. The eagle in the sky is one of the strongest and potent symbols of freedom, strength and of romance to some extent. We are very proud in my neck of the woods of the very fine work of Dr. Allan Mee from Ballyorgan who reintroduced the species to our skies. Senator Paul Coghlan from Killarney knows it well. Dr. Mee deserves great praise for this achievement. However, Dr. Mee has been frequently in the news because of what can only be described as an atrocity against this fantastic species. Yesterday and today these pictures graced the pages of the newspapers-----</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_24">
+          <from> An Cathaoirleach<recordedTime time="2014-03-06T10:50:00+00:00"/></from>
+          <p eId="para_41">Displaying photographs in the House is not permitted.</p>
+        </speech>
+        <speech by="#JamesHeffernan" eId="spk_25">
+          <from>Senator James Heffernan<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_42">One of these fantastic white-tailed eagles, a fledgling, was brutally shot down by senseless idiots.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_26">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_43">Once, there were no eagles in County Tipperary.</p>
+        </speech>
+        <speech by="#JamesHeffernan" eId="spk_27">
+          <from>Senator James Heffernan<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_44">If we are trying our best and spending a great deal of taxpayers' money trying to reintroduce endangered species to our skies and countryside, there must be a deterrent for any fool who would harm a fantastic species in this way.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_28">
+          <from> An Cathaoirleach<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_45">Does the Senator have a question for the Leader?</p>
+        </speech>
+        <speech by="#JamesHeffernan" eId="spk_29">
+          <from>Senator James Heffernan<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_46">Could we ascertain if people can be sentenced for this? I would be prepared - the Government should consider doing this - to offer a substantial reward for any information leading to the capture of the perpetrators of this stupid and mindless act.</p>
+        </speech>
+        <speech by="#CatherineNoone" eId="spk_30">
+          <from>Senator Catherine Noone<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_47">I welcome the fact that the European People's Party, EPP, started our conference in the conference centre today. It is the largest political grouping in Europe and Fine Gael is one of its founding members.</p>
+        </speech>
+        <speech by="#DarraghOBrien" eId="spk_31">
+          <from>Senator Darragh O'Brien<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_48">Fantastic.</p>
+        </speech>
+        <speech by="#CatherineNoone" eId="spk_32">
+          <from>Senator Catherine Noone<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_49">This is a major boost for Dublin and was quite a coup for the Taoiseach. I am happy that we will all attend the conference to welcome our counterparts to Dublin.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_33">
+          <from> An Cathaoirleach<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_50">Does the Senator have a question for the Leader?</p>
+        </speech>
+        <speech by="#DarraghOBrien" eId="spk_34">
+          <from>Senator Darragh O'Brien<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_51">Be sure to enjoy it.</p>
+        </speech>
+        <speech by="#CatherineNoone" eId="spk_35">
+          <from>Senator Catherine Noone<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_52">The Deputy Leader will not be attending-----</p>
+        </speech>
+        <speech by="#DarraghOBrien" eId="spk_36">
+          <from>Senator Darragh O'Brien<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_53">Why not?</p>
+        </speech>
+        <speech by="#CatherineNoone" eId="spk_37">
+          <from>Senator Catherine Noone<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_54">-----but she would be welcome. I do not have a question.</p>
+        </speech>
+        <summary eId="sum_5">(Interruptions).</summary>
+        <speech by="#DarraghOBrien" eId="spk_38">
+          <from>Senator Darragh O'Brien<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_55">Is Silvio Berlusconi still allowed to attend?</p>
+        </speech>
+        <speech by="#PaschalMooney" eId="spk_39">
+          <from>Senator Paschal Mooney<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_56">Following yesterday's comments on the tourism industry and the pricing regime that seems to be developing, I was not surprised that Senator Paul Coghlan rose to defend the honour and integrity of the industry in Killarney. He did so again this morning. However, the published survey was not kind to Killarney. That saddens me because it is a premier tourism area.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_40">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_57">We do not know how-----</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_41">
+          <from> An Cathaoirleach<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_58">The Senator has already made his contribution.</p>
+        </speech>
+        <speech by="#PaschalMooney" eId="spk_42">
+          <from>Senator Paschal Mooney<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_59">Of more concern are the reports that have emanated in recent weeks and been highlighted in today's newspapers that despite a reduction in the unemployment rate, 11.9% of our people are still unemployed. There are 3,000 vacancies in the hospitality sector. The Irish Hotels Federation and others have called for the Government, through the new post-FÁS training organisation SOLAS, to set up apprenticeships in the hospitality sector. Unquestionably, such jobs would have substantial advantages, but those who are interested in the sector seem to be emigrating. The hotel sector which is about to experience a significant increase in tourist numbers this year may need to look to eastern Europe and elsewhere for people to fill these jobs. This is a pity, given the fact that so many young people in Ireland are unemployed. Will the Deputy Leader respond to the suggestion that SOLAS could be prompted to set up a number of apprenticeships, which would encourage young people to become involved in the hospitality sector?</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_43">
+          <from>Senator Michael D'Arcy<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_60">I raise the issue of the number of people and, in particular, properties affected by the construction of wind farms. I am speaking as an ardent supporter of the renewable energy sector, particularly wind energy. I have knowledge of this issue from people who did not object to the farms' construction. They are honourable, good and decent people. That said, their properties have been adversely affected. Sometimes, the noise is much worse than anyone anticipated. The turbines have been constructed, but what can be done now? A portion of the renewable energy feed in tariff, REFIT, that is paid to the renewable energy sector should be set aside for properties that have been adversely affected. They could be retrofitted to tackle sound issues and so on. People who have not objected to these farms and others who have and whose properties are adversely affected should not need to put their hands in their pockets to pay for these works. We should consider this suggestion, as it is a legitimate case, and debate the matter. I find it difficult to continue supporting wind energy when people are being more badly affected than any of us expected.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_44">
+          <from>Senator Paul Bradford<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_61">I might be remiss, as my question may have been asked in the past day or two. Might the House consider replicating the positive debate in the Lower House on the next two years of the programme for Government? I am surprised that people have been critical of the Dáil for spending two or three days discussing the political and policy options that can be considered prior to the next general election.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_45">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_62">Red shirts and left-wingers.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_46">
+          <from>Senator Paul Bradford<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_63">It would be appropriate to hold a similar debate in this House. It is something for which I asked previously. At various times, each Senator has asked that a Minister attend the House to address one subject or another. It could be helpful to set aside a number of days, not necessarily consecutively, in the next month or so to debate the progress on the programme for Government so far and what remains to be done.</p>
+          <p eId="para_64"> I also welcome the EPP congress in Dublin. It will be a positive meeting.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_47">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_65">The Senator will be there, please God.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_48">
+          <from>Senator Paul Bradford<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_66">My information on the instigation of the conference differs somewhat from Senator Catherine Noone's, but I wish all of the delegates well and hope they will reflect on the EPP's values and principles, in particular those set out in the document it published in October.</p>
+        </speech>
+        <speech by="#TonyMulcahy" eId="spk_49">
+          <from>Senator Tony Mulcahy<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_67">I support the comments made by Senator Susan O'Keeffe. We should invite the Minister for Justice and Equality to take this afternoon out of his schedule and hold a debate on domestic physical assault and violence. He should be present. The draft Bill is before the committee, but I would like to hear his opinion on where we should go this year and whether we will pass legislation before next year. Senator Susan O'Keeffe is right, in that we can no longer accept the current situation. Unfortunately, since I spoke at the justice committee a number of weeks ago, a further 1,000 or 1,500 assaults have probably been committed but will not result in convictions. It is critical that we ask the Minister to attend and provide an overview of where he views this legislation going. Why should we not hold a public debate on this matter? Domestic violence has been the scourge of society since time began. Let us hold a public debate on it. Will the Deputy Leader formally invite the Minister to attend the House? We can raise the bar. We must go some way towards solving this problem in 2014.</p>
+        </speech>
+        <speech by="#BrianODomhnaill" eId="spk_50">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2014-03-06T11:00:00+00:00"/></from>
+          <p eId="para_68">Will the Deputy Leader arrange for a debate on the Commission for Energy Regulation, CER, in the light of its decision to permit Bord Gáis to increase gas prices next year by an average of €13 per household? My worst fears are not being allayed. Irish Water is only consulting the CER on the prices that consumers will pay for water. Year on year, the CER has allowed electricity and gas prices to increase substantially. The House must debate the role of the CER, its functions and powers and why it appears to be above questioning by the Oireachtas. I ask that such a debate be organised as quickly as possible, given the new water charges being placed on households.</p>
+          <p eId="para_69"> I refer to the major difficulties being faced by individuals with the Department of Social Protection, a Department headed up by a Labour Party Minister. Individuals who have been in receipt of disability payments, invalidity pension payments and other illness-related payments for many years are now being reviewed and even though their medical circumstances have deteriorated, the payments are being withdrawn. This is a cosy little arrangement by the Minister for Social Protection who is not changing the goalposts and not cutting the schemes but the officials in the Department will tell one unofficially that they have been told to cut back and they are cutting back on the sick, the disabled and the elderly. It is a disgrace. The Minister for Social Protection must come to this House and explain to us the reason that is happening. I will give the Leader concrete evidence of cases where it is happening. I ask that the Deputy Leader liaise with her colleague, the Minister for Social Protection, and arrange for her to come to the House for a wide-ranging debate on the goings-on in her Department.</p>
+        </speech>
+        <speech by="#MichaelMullins" eId="spk_51">
+          <from>Senator Michael Mullins<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_70">I join colleagues in welcoming our visitors from the European People's Party, EPP, throughout Europe. Sixteen Heads of State, 2,000 delegates and 500 members of the press will attend, which will give a significant boost to the economy of Dublin. I have no doubt they will be well looked after and I hope they will bring back a positive message of Ireland on their return home.</p>
+          <p eId="para_71"> I share Senator Paschal Mooney's concerns about sections of the hospitality industry that tend to hike prices when they have a captive audience. If we want to grow and expand our tourist numbers, the hospital industry must be central to that and ensure it gives good value for money to visitors to the country.</p>
+          <p eId="para_72"> I join Senator Terry Brennan in welcoming that significant work has commenced on repairing damage cause by the recent floods. In my county of Galway almost €10 million has been allocated for work on roads, piers and cemeteries. That will give a boost to the construction sector but I ask the Leader if we could invite the Minister of State with responsibility for the Office of Public Works, Deputy Brian Hayes, back to the House to discuss and review how we will tackle some of the long-term issues that have arisen as a result of the recent floods. I refer, in particular, to difficulties in Ardrahan and Gort, in south Galway, and in the Shannon Callows. People are still marooned in their houses in south Galway. There is a long-term problem in south Galway that must be addressed. A significant number of State agencies should be brought together as a matter of urgency and we need to begin to address that in the very near future as soon as the flood waters have receded. Very significant tracks of agricultural land will be out of commission for a protracted period and there are issues in the area that must be urgently addressed. I would appreciate it if the Leader could organise that debate with the Minister of State, Deputy Brian Hayes, as a matter of urgency.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_52">
+          <from>Senator Ivana Bacik<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_73">Senator Darragh O'Brien referred to an item of legislation that had been on the A list for some time. He will appreciate that quite a number of items on the A list were not reached over a period owing to the necessity to bring forward emergency legislation, troika related legislation and so on, but I am happy to report to him that the consumer protection and competition Bill is close to completion and should be published in April. I have made inquiries and established this. We all agree with him on the importance of the legislation. As he stated, there have been difficulties with the merger, in particular, and in framing the provisions on it. We all appreciate the difficulties being faced in the sector, particularly by market gardeners and those involved in the retail sector. It is important legislation.</p>
+          <p eId="para_74"> Senator Paul Coghlan spoke about the issue of tourism and reminded us of the exceptional value to be had in Killarney, a theme to which he often returns. We held the Labour Party annual conference there in December and were very impressed by the hospitality on offer.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_53">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_75">Please God, Fianna Fáil will be impressed also.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_54">
+          <from>Senator Ivana Bacik<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_76">Senator Paschal Mooney also raised this issue. I must report to him that I had some cake in the café of the National Library of Ireland on Tuesday of this week and found it to be excellent value and excellent cake. It was probably unfortunate to pick one particular venue.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_55">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_77">The Deputy Leader will have us all eating cake.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_56">
+          <from>Senator Ivana Bacik<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_78">We all appreciate the need to ensure good value.</p>
+        </speech>
+        <speech by="#PaschalMooney" eId="spk_57">
+          <from>Senator Paschal Mooney<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_79">The Deputy Leader must be easily satisfied.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_58">
+          <from>Senator Ivana Bacik<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_80">I am always satisfied by good cake.</p>
+        </speech>
+        <speech by="#PaschalMooney" eId="spk_59">
+          <from>Senator Paschal Mooney<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_81">There was nothing wrong with its quality; it was the quantity that was at issue.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_60">
+          <from> An Cathaoirleach<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_82">The Deputy Leader to continue, without interruption.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_61">
+          <from>Senator Ivana Bacik<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_83">There is excellent cake to be had in the café of the National Library of Ireland.</p>
+        </speech>
+        <speech by="#PaschalMooney" eId="spk_62">
+          <from>Senator Paschal Mooney<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_84">The Deputy Leader could not stand over it.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_63">
+          <from> An Cathaoirleach<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_85">Please, Senator.</p>
+        </speech>
+        <speech by="#PaschalMooney" eId="spk_64">
+          <from>Senator Paschal Mooney<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_86">The Deputy Leader could not stand over the quantity.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_65">
+          <from>Senator Ivana Bacik<recordedTime time="2014-03-06T11:10:00+00:00"/></from>
+          <p eId="para_87">Senator Katherine Zappone raised the issue of the lack of financial assistance for persons facing arrears on their mortgage. This is an issue on which everybody shares concern. As the Senator knows, the Government has engaged in the biggest shake-up of personal insolvency law in a century. Part of the difficulty has been, until now, our archaic and difficult law on bankruptcy, leaving people with a real problem in terms of the ultimate sanction for banks. We have conducted the biggest shake-up of personal insolvency law through the personal insolvency legislation. Mortgage interest relief has been given to those who bought their first home during the bubble and the Central Bank has set targets for banks in resolving mortgage arrears cases. There are sanctions for banks which fail to meet these targets and we are starting to see signs that these policies are working. We have seen a modest decline in the number falling into arrears each month since August and a decline in the number of primary home mortgages in arrears for more than 90 days. That is not in any way to belittle the real difficulties still facing many people in repaying their mortgage. Already, over 70,000 mortgage holders have had their mortgage restructured and, under the personal insolvency legislation, we now have a framework, whereby people can reach debt settlement and personal insolvency arrangements through the modernised and updated bankruptcy procedure. I am told the new personal insolvency service will open its doors by the summer and although the banks are already engaging to try to seek restructuring and solutions for mortgage holders, there will be a new service in place shortly.</p>
+          <p eId="para_88"> Senator Sean D. Barrett referred to the EPP conference, an issue raised by a number of colleagues. We all welcome any large gathering in Dublin. A significant number of conferences have been held since the Convention Centre was completed which has undoubtedly given a huge boost to tourism, in Dublin in particular.</p>
+          <p eId="para_89"> Senator Sean D. Barrett also spoke about the danger in drifting into sanctions and kindly supplied me with the article by Mr. Daniel Drezner, which is most interesting, on the danger of sanctions as a weak tool of enforcement in international law. That is well known. Financial sanctions have been suffered by Russia as a result of its actions in Crimea and we see the loss in the value of the rouble and the losses Russian shares have suffered. That may act as an inhibitor; we all very much hope it will. We join the Senator in wishing the Taoiseach and other European leaders well at the summit today. It seems that the Ukrainian Government has been admirably restrained in its response to Russian provocation and has made clear its desire to allow for disengagement by Russia without the need for the imposition of sanctions and, certainly, without the need for an escalation. We all hope the crisis can be de-escalated without the need for the imposition of sanctions, but they must be maintained as a possible route.</p>
+          <p eId="para_90"> Senator Cáit Keane referred to the Paddy Power issue and the Oscar Pistorius trial bets. Senator David Cullinane put it correctly when he said it was despicable for any bookie to take bets on the outcome of a murder trial, with which no one would disagree.</p>
+          <p eId="para_91"> Senator Cáit Keane also raised the relevant issue of the powers of the Advertising Standards Authority of Ireland which she contrasted with the British Advertising Standards Authority which was asked to withdraw the advertisement. I had issues with the inability of the Advertising Standards Authority of Ireland to take action on different types of advertising, particularly online, but the Senator is right that we should ask consumers to express their disapproval by not giving more business to Paddy Power while the advertisements are displayed.</p>
+          <p eId="para_92"> Senator Labhrás Ó Murchú spoke about delays in the emergency ambulance service. We all read with alarm about delays in specific cases recently. The Senator asked that I bring the matter to the notice of the Health Service Executive and the Minister for Health. I can certainly write to the Minister, but it might be worth the Senator's while raising it on the Adjournment, particularly if there are specific instances of concern to which we can refer.</p>
+          <p eId="para_93"> Senator Susan O'Keeffe commented on the European-wide study of domestic violence. I attended in the Mansion House yesterday the launch of the survey by the European Union Agency for Fundamental Rights, FRA, in conjunction with Safe Ireland and Rape Crisis Network Ireland. I agree with the Senator that the study shows shocking statistics of domestic and sexual violence against women. The Joint Committee on Justice, Defence and Equality is engaging in hearings on the issue and we will be making recommendations on how to improve the effectiveness of the legal response to domestic violence. We have already heard some clear recommendations for reform, for example, the introduction of a specific offence of domestic violence which, as Senator Marie Moloney reminded me, was the subject of a Labour Party motion in the House. Following Senator Tony Mulcahy's eloquent contribution to the joint committee, for which I was present - it was very powerful - we are all conscious of the need to ensure a clearer pro-arrest strategy is adopted by An Garda Síochána when dealing with specific instances of domestic violence. We also heard some encouraging reports from organisations dealing with the perpetrators and seeking to address the behaviour of the male perpetrators of domestic violence - for the most part the perpetrators are male - something that has, perhaps, been neglected in the past. I share Senator Susan O'Keeffe's concern about how long this has been ongoing. I believe the Minister is keen to introduce reforms and domestic violence legislation is promised. The Joint Committee on Justice, Defence and Equality will be feeding into it; therefore, we can debate the issue in the House.</p>
+          <p eId="para_94"> Senator David Cullinane commented on the Paddy Power issue, one with which I have dealt, as well as the jobs issue. He pointed to the unfortunate job losses in Dungarvan yesterday. We all share and extend our sympathy and support to the individual workers affected and their families. I imagine that during the debate on jobs yesterday the Senator referred to the position in the south east, in particular. The Minister for Education and Skills, Deputy Ruairí Quinn, is opening a new premises in Waterford today at the NebLabs building, the headquarters of the Telecommunications, Software and Systems Group, TSSG. The Government is well aware of the difficulties, in particular those faced in the south east. As colleagues will be aware, some 5,000 new jobs are being created nationally every month, but there are areas which, even during the boom times, did not receive the same benefits in terms of job creation and they need to be targeted now.</p>
+          <p eId="para_95"> Senator Terry Brennan commented on the issue of flood damage and called on local authorities to consider installing footpaths in north County Louth along the Ballagan shore. The issue might be raised through the councils because it seems sensible that the opportunity be taken to improve and enhance public facilities while the restoration work is being undertaken in the aftermath of the floods. There would be an obvious benefit to the construction industry locally also.</p>
+          <p eId="para_96"> Senator James Heffernan referred to a ballad which I did not know before. He also mentioned the white-tailed eagles. I heard the report on "Morning Ireland" on the shocking and senseless shooting of a particular white-tailed eagle in County Tipperary. It is important that anyone who knows anything about it bring the information to the Garda. It was a criminal offence. As the Senator said, it is senseless and outrageous to do this to such an endangered species. Senator Paul Coghlan reminds me that the bird was reared in Killarney and that there is a Killarney connection.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_66">
+          <from>Senator Paul Coghlan<recordedTime time="2014-03-06T11:20:00+00:00"/></from>
+          <p eId="para_97">They were Norwegian chicks brought up in Killarney.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_67">
+          <from>Senator Ivana Bacik<recordedTime time="2014-03-06T11:20:00+00:00"/></from>
+          <p eId="para_98">I imagine that the Garda is investigating the matter. The point was made this morning that the issue should be publicised. It is important that it be publicised and that anyone with information bring it to the Garda.</p>
+          <p eId="para_99"> Senator Catherine Noone adverted to the conference of the European People's Party. She welcomed the thousands of delegates and 500 journalists attending. While I am fond of my colleagues in Fine Gael, I will pass on the kind invitation to attend the conference, although I thank her for it.</p>
+          <p eId="para_100"> Senator Paschal Mooney commented on the pricing regime in tourism, an issue with which I have dealt, and the issue of apprenticeships in the hospitality sector. It is a positive suggestion which I imagine the Senator made yesterday morning during our debate on the reform of the further education and training and apprenticeship systems. It seems far more sensible, particularly if recruitment is being carried out abroad, at a time when we have large numbers on the unemployment register, particularly young people, to offer apprenticeships here. I heard one young woman speak about her experience in the catering and hospitality industry and in becoming a general manager at the age of 24 years. There is an immense opportunity at a young age for those involved in the sector.</p>
+          <p eId="para_101"> Senator Michael D'Arcy commented on the subject of wind farms. Like him, I am a strong supporter of renewable energy projects, but I agree with him on issues concerning sound, light and so on. We debated the matter in the House during the debate on Senator John Kelly's Bill which was passed on Second Stage. We are seeking to pursue the issue. I have asked before for the Minister to come to the House to deal with it and we can renew that request.</p>
+          <p eId="para_102"> Senator Paul Bradford called for a debate on the programme for Government similar to the debate in the Dáil this week. It is a good idea. This week we had the focus on job creation in our debates in the Seanad, but I will put it to the Leader that we might also debate the setting of priorities for the remainder of the term of office of the Government. I realise there was some negative feedback, but it is important that a Government take stock half way through or three years into its term to consider the priorities to be set for the remaining two years.</p>
+          <p eId="para_103"> Senator Tony Mulcahy supported Senator Susan O'Keeffe on the issue of domestic violence and asked for the Minister for Justice and Equality to come to the Seanad to debate the proposals for reform of the Joint Committee on Justice, Defence and Equality. I will ask the Leader whether we might have such a debate. It is useful to have the report of the Joint Committee on Justice, Defence and Equality and that we have concrete proposals before us which we can feed into the legislation the Minister is preparing on the issue.</p>
+          <p eId="para_104"> Senator Brian Ó Domhnaill called for a debate on the Commission for Energy Regulation. I will certainly ask for such a debate to be arranged. The Senator also asked for the Minister for Social Protection to come to the House. She has been here many times and I imagine she would be willing to come again. A wide-ranging debate was sought on social protection payments.</p>
+          <p eId="para_105"> Senator Michael Mullins welcomed the EPP to Dublin. He referred to 16 Heads of Government and the boost the conference would provide for Dublin's economy. He also referred to the hospitality industry and Senator Terry Brennan's comments on flood damage. We can seek to have the Minister of State, Deputy Brian Hayes, return to the House in due course to update us on the long-term issues arising. We are all aware that there are places, including south Galway, where people are still suffering the immediate effects of flood damage, but other long-term issues arise from the restoration and repair works, on which I will ask for a debate after the St. Patrick's Day break.</p>
+        </speech>
+        <summary eId="sum_6"> Order of Business agreed to.</summary>
+        <summary eId="sum_7">
+          <i>Sitting suspended at 11.25 a.m. and resumed at 11.50 a.m.</i>
+        </summary>
+      </debateSection>
+      <debateSection name="orderofBusiness" eId="dbsect_4">
+        <heading>Sixteenth Report of the Committee of Selection: Motion<recordedTime time="2014-03-06T11:50:00+00:00"/></heading>
+        <speech by="#DenisODonovan" eId="spk_68">
+          <from> An Leas-Chathaoirleach<recordedTime time="2014-03-06T11:50:00+00:00"/></from>
+          <p eId="para_106">The Committee of Selection reports that it has appointed Senator Ned O'Sullivan to the Joint Committee on Public Service Oversight and Petitions.</p>
+          <p eId="para_107"> The Committee of Selection reports that it has discharged Senator Ivana Bacik from membership of the Seanad Public Consultation Committee at her own request, and has appointed Senator Katherine Zappone in substitution for her.</p>
+          <p eId="para_108"> I move: "That the report be laid before the Seanad."</p>
+        </speech>
+        <summary eId="sum_8"> Question put and agreed to.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_5">
+        <heading>Visit of US Delegation<recordedTime time="2014-03-06T11:50:00+00:00"/></heading>
+        <speech by="#PaschalMooney" as="#Acting_Chairman" eId="spk_69">
+          <from>Acting Chairman (Senator Paschal Mooney)<recordedTime time="2014-03-06T11:50:00+00:00"/></from>
+          <p eId="para_109">It is a great honour for me to welcome members of the 69th New York State Volunteers, under the command of Colonel Jim Tierney, and accompanied by Senator Mark Daly. Very few Irish people need to be reminded of the strong historical connections between this country and the Fighting 69th, one of the most famous US army regiments. Those of us who have had the honour of parading down Fifth Avenue in New York will be very familiar with the parade formation of the Fighting 69th and the affection in which they are held by Irish Americans. As it is reciprocated here among Irish citizens, it is a particular honour for this House to welcome the volunteers from the Fighting 69th.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="billReport" refersTo="#bill.2013.92.seanad.dail_amd" eId="dbsect_6">
+        <heading>County Enterprise Boards (Dissolution) Bill 2013: [Seanad Bill amended by the Dáil] Report and Final Stages<recordedTime time="2014-03-06T11:50:00+00:00"/></heading>
+        <speech by="#PaschalMooney" as="#Acting_Chairman" eId="spk_70">
+          <from>Acting Chairman (Senator Paschal Mooney)<recordedTime time="2014-03-06T11:50:00+00:00"/></from>
+          <p eId="para_110">This is a Seanad Bill which has been amended by the Dáil. In accordance with Standing Order 118, it is deemed to have passed its First, Second and Third Stages in the Seanad and is placed on the Order Paper for Report Stage. On the question, "That the Bill be received for final consideration," the Minister of State may explain the purpose of the amendments made by the Dáil. This is looked upon as the report of the Dáil amendments to the Seanad. For Senators' convenience, I have arranged for the printing and circulation of the amendments. Senators may speak only once on Report Stage. I remind them that the only matters which may be discussed are the amendments made by the Dáil.</p>
+        </speech>
+        <summary eId="sum_9"> Question proposed: "That the Bill be received for final consideration."</summary>
+        <speech by="#SeanSherlock" as="#Minister_of_State_at_the_Department_of_Jobs,_Enterprise_and_Innovation" eId="spk_71">
+          <from>Minister of State at the Department of Jobs, Enterprise and Innovation (Deputy Sean Sherlock)<recordedTime time="2014-03-06T11:50:00+00:00"/></from>
+          <p eId="para_111">The amendments to section 8 and section 12 were agreed on Committee Stage in the Dáil on 18 February. I thank Members of this House for their prompt consideration of the Bill so soon after that date. Both amendments relate to the superannuation benefits of the existing pensioners of the county enterprise boards and the schemes themselves.</p>
+          <p eId="para_112"> Sections 12(1) to 12(3), inclusive, provide for Forfás, Enterprise Ireland or a local authority to accept staff into their employment who were previously employed by a county enterprise board on terms and conditions no less favourable in relation to remuneration. Current employees of the county enterprise boards will, upon dissolution, become members of the Forfás superannuation scheme, the Enterprise Ireland superannuation scheme or a local authority superannuation scheme as appropriate. This is provided for in section 12(5)(a). It provides for their entitlement to superannuation - pension benefits - to be calculated and paid by the body that accepted them into their employment. This was already in the Bill as laid down. As it stands today, Enterprise Ireland does not have a superannuation scheme but will establish one once the Forfás legislation - the Industrial Development (Forfás Dissolution) Bill 2013 - has been passed and enacted. This Bill allows Enterprise Ireland to become an employer in its own right.</p>
+          <p eId="para_113"> The amendment to section 12(5)(b) deals with the existing and deferred pensioners from the county enterprise boards. The amendment to section 8 ensures the liability for those pensioners does not transfer to Enterprise Ireland. The amendment to section 12(5)(b) allows for the responsibility and liability of those pensioners to transfer to the Minister for Jobs, Enterprise and Innovation and for those pensions to be calculated and paid by the Minister. The amendment to section 12(5)(c) ensures the functions in relation to any existing pension schemes that were vested in a county enterprise board will now be vested in the Minister for Jobs, Enterprise and Innovation.</p>
+        </speech>
+        <speech by="#SeanDBarrett" eId="spk_72">
+          <from>Senator Sean D. Barrett<recordedTime time="2014-03-06T11:50:00+00:00"/></from>
+          <p eId="para_114">It is an honour to welcome the Fighting 69th. They are very welcome. I also welcome the Minister of State. </p>
+          <p eId="para_115"> We had a comprehensive discussion on industrial development yesterday. The Minister for Jobs, Enterprise and Innovation was here for some hours and there was an interesting exchange of views on where we stood. There is genuine pleasure at the 61,000 jobs added in the past 12 months. It is an area of policy that is working very well.</p>
+          <p eId="para_116"> I offer my support and good wishes to the Minister of State in the amendments he is proposing to the Bill. This is a very dynamic area. He needs to change his suite of policy instruments and institutions and not have them become encrusted in traditions such that they no longer fulfil roles. Retiring schemes, bodies and organisations in favour of novelty innovation is a key element of the Department, and we need innovation in the way it operates. I am happy, on behalf of the independent university Senators, to support the Minister of State's amendments.</p>
+          <p eId="para_117"> This job is complex, as we found out yesterday in respect of the large decline in the number of young people at work in Ireland since this recession started. However, we are fighting back. The 61,000 jobs were created on a low measure of economic growth last year at 1%. To increase employment in the private sector by 4.5% with such low growth shows that many policies are working, but we cannot become complacent. The absorption of Forfás into the Department was to strengthen the Department, according to the Minister. He said it traditionally was a weak Department with very strong agencies. If the Minister of State believes arrangements at local level could generate more employment and we can add another 61,000 jobs this year, that will be a step forward. It is a pleasure that the policy is being tested and is working overall. It is very necessary. Irish unemployment is now below the European average, but we all feel the European average is far too high. A whole suite of measures is needed and the new thinking in this Bill is important.</p>
+          <p eId="para_118"> The Minister of State, Deputy Ciarán Cannon, was also in the House yesterday. He impressed us by saying Ireland must move from a very small number of apprenticeships - I think he mentioned that there were 24 or 25 - to the German, Swiss and Austrian models, where there are more than 300 apprenticeships. Nothing stays still in the vital area of trying to ensure full employment in the modern economy. The dynamics of change are vital and we all hope the changes envisaged here work and that the local enterprise offices are a success. On that basis, I will be supporting the measures being put before us by the Minister of State.</p>
+        </speech>
+        <speech by="#MichaelMullins" eId="spk_73">
+          <from>Senator Michael Mullins<recordedTime time="2014-03-06T11:50:00+00:00"/></from>
+          <p eId="para_119">I am pleased to support the amendments. I certainly agree with Senator Sean D. Barrett. We must continue to innovate on how we create jobs. Nothing stands still and I acknowledge the fine contribution the county and city enterprise boards have made over the years. Some very fine people worked in those organisations and it is only right and proper that we would resolve their pension superannuation and transfer those in an orderly fashion.</p>
+          <p eId="para_120"> It is critical that the new local enterprise offices work in the small towns and villages of rural Ireland. Major industry, particularly foreign direct investment, will go into the major centres of population in Dublin, Cork and Galway. Small towns such as Ballinasloe, Loughrea, Athenry and Gort will be dependent on local enterprise offices to kick-start economic activity and encourage entrepreneurial people to get started.</p>
+        </speech>
+        <summary eId="sum_10">I hope the one-stop shop will cut through much of the red tape and bureaucracy. The county councils need to be more pro-enterprise and pro-business. I hope the merger of local enterprise offices with the local authorities will help foster that business culture within the local authorities that may have been lacking down through the years. This is a new initiative that will be tried and hopefully it will deliver. Senator Sean D. Barrett said that although 61,000 jobs had been created in the past 12 months, we needed to accelerate the pace of job creation and instil and restore confidence in the local economy. The renewed emphasis on manufacturing is encouraging, as many of the traditional manufacturing enterprises have ceased to operate and have gone to lower cost economies in the past decade. Let us hope there will be a renewed emphasis on manufacturing in the higher skill areas.</summary>
+        <summary eId="sum_11"> I compliment the Minister for Jobs, Enterprise and Innovation, Deputy Richard Bruton, and the Minister of State, Deputy Sean Sherlock, on An Action Plan for Jobs and the real commitment to driving it. What sets this plan above other plans from the past is that it is a whole-of-government approach, with every Department having an input, and the Taoiseach is driving it. That there is a real commitment from the line Ministers is significant. I hope the target of getting unemployment below the European average by the end of the year and well below 10% by 2016 will be achieved. They are measurable objectives and, obviously, Government will be held to account. This Government will be judged in 2016 on how well it has delivered on job creation and on how it has got the economy going. </summary>
+        <summary eId="sum_12"> We look forward to seeing the plan for the construction industry rolled out shortly. I firmly believe that without a reasonable level of activity in the construction industry we will not see economic recovery in rural parts of the country. </summary>
+        <summary eId="sum_13"> I am pleased to support the amendments and look forward to the local enterprise offices making a real contribution to job creation and economic activity throughout the country.</summary>
+        <speech by="#NedOSullivan" eId="spk_74">
+          <from>Senator Ned O'Sullivan<recordedTime time="2014-03-06T12:00:00+00:00"/></from>
+          <p eId="para_121">I welcome the Minister of State and wish him continued success in his portfolio. We will not offer any resistance to the amendments, but Fianna Fáil has serious reservations in respect of the overall Bill and the impact it may have on job creation. We believe it is more about the illusion of reform than the actual delivery of jobs. Whereas we have the height of respect for local authorities which do a great job in what they are qualified at - the provision of infrastructure, roads, housing and so on - we are not satisfied that they are the competent bodies to be involved in spearheading new businesses and all that involves. Therefore, we will oppose the Bill.</p>
+        </speech>
+        <speech by="#DenisLandy" eId="spk_75">
+          <from>Senator Denis Landy<recordedTime time="2014-03-06T12:00:00+00:00"/></from>
+          <p eId="para_122">I welcome the Minister of State, Deputy Sean Sherlock, for the final stages of the legislation. It is good to see that the issue was brought back by way of amendments which were highlighted. It is good that legislation is scrutinised in such a way as to ensure there are no gaps. When Senator Ned O'Sullivan said his party would oppose the legislation, I thought he was going to present the Japanese model as an alternative to the one we are putting forward, being an expert on how the Japanese economy operates, but, unfortunately, he did not.</p>
+        </speech>
+        <speech by="#NedOSullivan" eId="spk_76">
+          <from>Senator Ned O'Sullivan<recordedTime time="2014-03-06T12:00:00+00:00"/></from>
+          <p eId="para_123">Bloodstock is what I am good at.</p>
+        </speech>
+        <speech by="#DenisLandy" eId="spk_77">
+          <from>Senator Denis Landy<recordedTime time="2014-03-06T12:00:00+00:00"/></from>
+          <p eId="para_124">Notwithstanding that, I understand Senator Ned O'Sullivan might have some concerns about the Bill, but having read the legislation and the various debates on it I am satisfied that the movement from county enterprise boards, which were in place for more than 20 years, as stated by Senator Michael Mullins, to local enterprise offices is a good one. Furthermore, I am convinced by the fact that an issue that was of concern - namely, that we might lose some of the expertise in the county enterprise boards - is no longer a concern, as the staff will remain with the local enterprise offices for a minimum of three years in order to bed them in, and after that other staff can be brought in from the broader local authority area.</p>
+          <p eId="para_125"> Around 750,000 jobs are provided through small businesses. The whole intention of the concept of local enterprise offices is to enhance and grow small indigenous business in Ireland. I am pleased that local enterprise offices provide much more autonomy and accountability at local level, given the make-up of their boards. As one who cut my teeth and spent most of my career in local government, I consider it important that there be accountability to local communities. I see that happening through this legislation. For that reason, I dispel any notion of a Japanese model that might be introduced here. I support the legislation.</p>
+        </speech>
+        <speech by="#SeanSherlock" as="#Minister_of_State_at_the_Department_of_Jobs,_Enterprise_and_Innovation" eId="spk_78">
+          <from>Minister of State at the Department of Jobs, Enterprise and Innovation (Deputy Sean Sherlock)<recordedTime time="2014-03-06T12:00:00+00:00"/></from>
+          <p eId="para_126">I thank the Senators who support the legislation. A service level agreement is in place to underpin the establishment of the local enterprise offices. The local enterprise offices will be supported by Enterprise Ireland's own microenterprise and small business division, which has established a centre of excellence that is responsible for developing an improved environment for small and medium-sized businesses, the businesses that are the core of the economy. I do not see how that could be a bad thing; in fact, it is quite a progressive move. Following the dissolution of the 35 county enterprise boards and the transfer of their functions, assets and liabilities to Enterprise Ireland, the staff will still be ring-fenced and will retain their expertise and responsibility for enterprise policy and budgets. We regard this as a progressive move. We see the establishment of a first-stop shop for entrepreneurs, existing small business owners or micro-businesses as a positive step forward. That it is underpinned by a service level agreement, ultimately with Enterprise Ireland, gives it a very firm foundation.</p>
+        </speech>
+        <summary eId="sum_14"> Question put and agreed to.</summary>
+        <debateSection name="division" eId="dbsect_7">
+          <summary eId="sum_15">Question put: "That the Bill do now pass."</summary>
+          <summary title="division" eId="sum_16">The Seanad divided: Tá, <quantity refersTo="#ta" normalized="23" eId="qty_1">23</quantity>; Níl, <quantity refersTo="#nil" normalized="14" eId="qty_2">14</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_8">
+            <p eId="para_127">Tá</p>
+            <p eId="para_128">
+              <person refersTo="#IvanaBacik">Bacik, Ivana.</person>
+            </p>
+            <p eId="para_129">
+              <person refersTo="#SeanDBarrett">Barrett, Sean D.</person>
+            </p>
+            <p eId="para_130">
+              <person refersTo="#TerryBrennan">Brennan, Terry.</person>
+            </p>
+            <p eId="para_131">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_132">
+              <person refersTo="#EamonnCoghlan">Coghlan, Eamonn.</person>
+            </p>
+            <p eId="para_133">
+              <person refersTo="#PaulCoghlan">Coghlan, Paul.</person>
+            </p>
+            <p eId="para_134">
+              <person refersTo="#MichaelComiskey">Comiskey, Michael.</person>
+            </p>
+            <p eId="para_135">
+              <person refersTo="#MartinConway">Conway, Martin.</person>
+            </p>
+            <p eId="para_136">
+              <person refersTo="#MichaelWDArcy">D'Arcy, Michael.</person>
+            </p>
+            <p eId="para_137">
+              <person refersTo="#AideenHayden">Hayden, Aideen.</person>
+            </p>
+            <p eId="para_138">
+              <person refersTo="#CaitKeane">Keane, Cáit.</person>
+            </p>
+            <p eId="para_139">
+              <person refersTo="#JohnKelly">Kelly, John.</person>
+            </p>
+            <p eId="para_140">
+              <person refersTo="#DenisLandy">Landy, Denis.</person>
+            </p>
+            <p eId="para_141">
+              <person refersTo="#MarieMoloney">Moloney, Marie.</person>
+            </p>
+            <p eId="para_142">
+              <person refersTo="#MaryMoran">Moran, Mary.</person>
+            </p>
+            <p eId="para_143">
+              <person refersTo="#TonyMulcahy">Mulcahy, Tony.</person>
+            </p>
+            <p eId="para_144">
+              <person refersTo="#MichaelMullins">Mullins, Michael.</person>
+            </p>
+            <p eId="para_145">
+              <person refersTo="#HildegardeNaughton">Naughton, Hildegarde.</person>
+            </p>
+            <p eId="para_146">
+              <person refersTo="#MaryAnnOBrien">O'Brien, Mary Ann.</person>
+            </p>
+            <p eId="para_147">
+              <person refersTo="#MarieLouiseODonnell">O'Donnell, Marie-Louise.</person>
+            </p>
+            <p eId="para_148">
+              <person refersTo="#SusanOKeeffe">O'Keeffe, Susan.</person>
+            </p>
+            <p eId="para_149">
+              <person refersTo="#PatONeill">O'Neill, Pat.</person>
+            </p>
+            <p eId="para_150">
+              <person refersTo="#KatherineZappone">Zappone, Katherine.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_9">
+            <p eId="para_151">Níl</p>
+            <p eId="para_152">
+              <person refersTo="#ThomasByrne">Byrne, Thomas.</person>
+            </p>
+            <p eId="para_153">
+              <person refersTo="#DavidCullinane">Cullinane, David.</person>
+            </p>
+            <p eId="para_154">
+              <person refersTo="#MarkDaly">Daly, Mark.</person>
+            </p>
+            <p eId="para_155">
+              <person refersTo="#JamesHeffernan">Heffernan, James.</person>
+            </p>
+            <p eId="para_156">
+              <person refersTo="#TerryLeyden">Leyden, Terry.</person>
+            </p>
+            <p eId="para_157">
+              <person refersTo="#MarcMacSharry">MacSharry, Marc.</person>
+            </p>
+            <p eId="para_158">
+              <person refersTo="#PaschalMooney">Mooney, Paschal.</person>
+            </p>
+            <p eId="para_159">
+              <person refersTo="#TrevorOClochartaigh">Ó Clochartaigh, Trevor.</person>
+            </p>
+            <p eId="para_160">
+              <person refersTo="#BrianODomhnaill">Ó Domhnaill, Brian.</person>
+            </p>
+            <p eId="para_161">
+              <person refersTo="#LabhrasOMurchu">Ó Murchú, Labhrás.</person>
+            </p>
+            <p eId="para_162">
+              <person refersTo="#DarraghOBrien">O'Brien, Darragh.</person>
+            </p>
+            <p eId="para_163">
+              <person refersTo="#DenisODonovan">O'Donovan, Denis.</person>
+            </p>
+            <p eId="para_164">
+              <person refersTo="#NedOSullivan">O'Sullivan, Ned.</person>
+            </p>
+            <p eId="para_165">
+              <person refersTo="#JimWalsh">Walsh, Jim.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_17">Tellers: Tá, Senators Paul Coghlan and Aideen Hayden; Níl, Senators Paschal Mooney and Ned O'Sullivan.</summary>
+          <summary title="decision" refersTo="#carried" eId="sum_18">Question declared carried.</summary>
+        </debateSection>
+        <speech by="#PaddyBurke" eId="spk_79">
+          <from> An Cathaoirleach<recordedTime time="2014-03-06T12:20:00+00:00"/></from>
+          <p eId="para_166">When is it proposed to sit again?</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_80">
+          <from>Senator Ivana Bacik<recordedTime time="2014-03-06T12:20:00+00:00"/></from>
+          <p eId="para_167">Next Tuesday at 2.30 p.m.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_10">
+        <heading>Adjournment Matters<recordedTime time="2014-03-06T12:20:00+00:00"/></heading>
+        <debateSection name="debate" eId="dbsect_11">
+          <heading>Hospital Accommodation Provision<recordedTime time="2014-03-06T12:20:00+00:00"/></heading>
+          <speech by="#TerryBrennan" as="#Acting_Chairman" eId="spk_81">
+            <from>Acting Chairman (Senator Terry Brennan)<recordedTime time="2014-03-06T12:20:00+00:00"/></from>
+            <p eId="para_168">Ba mhaith liom fáilte a chur roimh an Aire Stáit go dtí an Seanad.</p>
+          </speech>
+          <speech by="#MartinConway" eId="spk_82">
+            <from>Senator Martin Conway<recordedTime time="2014-03-06T12:20:00+00:00"/></from>
+            <p eId="para_169">Cuirim fáilte roimh an Aire Stáit go dtí an Teach arís.</p>
+            <p eId="para_170"> I have raised this important issue because I was contacted by a family member of a patient who suffers from dementia. A pre-existing purpose-built dementia unit was located at St. Joseph's Hospital, Ennis, County Clare with significant support from the taxpayer. Unfortunately, the unit is still not operational and has not been staffed and activated. It was designed to house patients in need of respite care on a short-term basis and to provide care, on a long-term basis, for patients who suffer from dementia, particularly patients who have psychiatric and psychological challenges. The latter creates enormous challenges for families trying to care for loved ones who are patients. It is bad enough to suffer dementia but added complications means providing care can become very challenging. The high dependency unit at Ennis General Hospital is run by nurses, doctors and staff and they do a wonderful job. They try to accommodate patients, but they are under enormous strain owing to the significant number of people presenting for care. </p>
+            <p eId="para_171"> Dementia is a condition that puts a lot of pressure on families and the number of sufferers is increasing which leads to a lot of pressure on the system. It is projected that there will be a dramatic increase in the number of dementia sufferers in the future. Part of this is due to an aging population. That poses health challenges, even though an aging population is good.</p>
+            <p eId="para_172"> Dementia is also a condition that is close to the hearts of many people in the House. Many families have loved ones who suffer from it. Therefore, I would like an integrated support service provided. A key component of an integrated support service is the operation of the specially designated and purpose-built unit at St. Joseph's Hospital in Ennis. There is no reason for the unit to be left idle. It should have the necessary resources and be up and running. It would provide an important additional service for the people of County Clare, particularly those whose loved ones suffer from dementia with the added complications I outlined.</p>
+          </speech>
+          <speech by="#SeanSherlock" as="#Minister_of_State_at_the_Department_of_Education_and_Skills" eId="spk_83">
+            <from>Minister of State at the Department of Education and Skills (Deputy Sean Sherlock)<recordedTime time="2014-03-06T12:20:00+00:00"/></from>
+            <p eId="para_173">I thank the Senator for raising the issue. While dementia can bring many challenges both for the person with the condition and people caring for them, thankfully there is an increasing recognition that people can live and live well with dementia for a number of years as long as the right supports are in place. I am pleased to advise the Senator that the first ever comprehensive strategy that is specifically dedicated to dementia in Ireland is at an advanced stage of development. Our overarching policy is committed to supporting people to live in dignity and independence in their own homes and communities for as long as possible and to support access to quality long-term residential care where appropriate. We will continue to develop health services around the country, wherever possible, to enhance quality provision and patient safety.</p>
+            <p eId="para_174"> The HSE has operational responsibility for the delivery of health and social services, including those at facilities such as St. Joseph's Hospital, Ennis. St. Joseph's Hospital is predominantly an older person's public residential unit that provides a range of care including long stay, short stay, respite, palliative and consultant-led rehabilitative care. I must stress that the facility caters for people with varying levels of dementia also.</p>
+            <p eId="para_175"> In County Clare consultant-led mental health beds for older persons are used at Cappahard Lodge and in the acute psychiatric unit. Without question, the service is well aware that a more appropriate environment is desirable. In this context, beds used by the older person's service at St. Joseph's Hospital were refurbished for the intended takeover by the mental health service. The refurbished beds are not operated by the mental health service, but they are open and being used to very good effect. The HSE is exploring every opportunity to redirect existing mental health resources to move the refurbished beds under the direction of that service. A sub-committee was put in place this year and will shortly determine if such is possible. It must be stressed that it was never intended or indicated that new additional resources would be available for such beds, as they were intended to replace existing beds and, therefore, would be resource neutral.</p>
+            <p eId="para_176"> The HSE will have a definitive position on the matter by the summer. This is one part of a multidisciplinary response by mental health services to dementia in County Clare. In the wider context of developments of old age psychiatry, Clare Mental Health Services has a dedicated consultant-led team for psychiatry of old age which caters for a potential population of approximately 14,500 older people aged over 65 years. This is based in Cappahard Lodge, Ennis and consists of a non-consultant hospital doctor, nursing, psychology, social worker and occupational therapy care.</p>
+            <p eId="para_177">As part of development funding allocated to the mid-west, an additional five staff were allocated and are in place in psychiatry of later life in County Clare. There are advanced plans to develop a day care centre on the St. Joseph's Hospital site specifically for people with dementia, and the HSE is in the final stages of negotiations on this matter.</p>
+            <p eId="para_178"> The needs of older people are and will remain a very high priority. The resources that are available will be applied to provide the best possible mix of supports and services in a way that most effectively matches the needs and preferences of older people, with a particular focus on enabling people to live as independently as possible within their own communities.</p>
+          </speech>
+          <speech by="#MartinConway" eId="spk_84">
+            <from>Senator Martin Conway<recordedTime time="2014-03-06T12:30:00+00:00"/></from>
+            <p eId="para_179">While I am pleased with the comprehensive reply, I would like this service to open tomorrow, as I am sure would the person who contacted me, who has a loved one who needs the service. Nonetheless, I am realistic and realise it may not happen tomorrow.</p>
+            <p eId="para_180"> I note the Minister of State's reply referred to a timeline of this summer which I welcome, although cautiously, as I would like to see that timeline honoured. I would like the Minister of State to communicate to the Minister for Health who he is representing today that I would like further clarification on this timeline. I know a lot of work is taking place in the background and note the Minister of State said it was expected that this service would be cost-neutral. What I would say in response is that, given the specialised type of care that would be required to support this unit, it would be very difficult to make it cost-neutral by simply having this service as a replacement for other services that were being provided at St. Joseph's Hospital. The other services that were being provided perhaps did not require the level of interaction and specialised care that this unit requires, and, therefore, it was probably being ambitious to expect it to be cost-neutral. I would like further clarification through the Minister of State on this issue because I will be revisiting it on the Adjournment, probably in six to eight weeks.</p>
+          </speech>
+          <speech by="#SeanSherlock" eId="spk_85" as="#Minister_of_State_at_the_Department_of_Education_and_Skills">
+            <from>Deputy Sean Sherlock<recordedTime time="2014-03-06T12:30:00+00:00"/></from>
+            <p eId="para_181">I thank the Senator for his response. I will certainly raise this issue, not only with the Minister for Health but also with the Minister of State, Deputy Kathleen Lynch, who has a specific area of responsibility in this regard and I am taking the Adjournment on her behalf. I note the Senator said he would raise this matter again on the Adjournment in the Seanad within the next six to eight weeks. If I may advise, if the Senator was in a position to approach the Minister of State directly, I am sure she would be more than delighted to discuss this in person with him.</p>
+            <p eId="para_182"> I also note the manner in which the issue was raised with the Senator by a constituent of his whose family member is acutely affected by the provision of these services. We want to ensure we supply these services appropriately and, as I said, bearing in mind at all times the dignity of the people who need these services. It is taking time. There is a timeline and we would be very hopeful of sticking to that timeline.</p>
+          </speech>
+          <speech by="#MartinConway" eId="spk_86">
+            <from>Senator Martin Conway<recordedTime time="2014-03-06T12:30:00+00:00"/></from>
+            <p eId="para_183">I will certainly speak to the Minister of State, Deputy Kathleen Lynch, directly. I thank the Minister of State, Deputy Sean Sherlock, for giving of his time on this matter.</p>
+          </speech>
+          <summary eId="sum_19"> The Seanad adjourned at 12.35 p.m. until 2.30 p.m. on Tuesday, 11 March 2014.</summary>
+        </debateSection>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

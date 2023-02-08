@@ -1,0 +1,887 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2008-03-05/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2008-03-05/debate"/>
+          <FRBRdate date="2008-03-05" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_agriculture_fisheries_and_food"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2008-03-05/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2008-03-05/debate/mul@"/>
+          <FRBRdate date="2008-03-05" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2008-03-05/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2008-03-05/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None" eId="#vol_None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None" eId="#no_None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AndrewDoyle" href="/ie/oireachtas/member/id/Andrew-Doyle.D.2007-06-14" showAs="Andrew Doyle"/>
+        <TLCPerson eId="BobbyAylward" href="/ie/oireachtas/member/id/Bobby-Aylward.D.2007-06-14" showAs="Bobby Aylward"/>
+        <TLCPerson eId="EamonScanlon" href="/ie/oireachtas/member/id/Eamon-Scanlon.S.2002-09-12" showAs="Eamon Scanlon"/>
+        <TLCPerson eId="FrancisOBrien" href="/ie/oireachtas/member/id/Francis-O'Brien.S.1989-10-01" showAs="Francis O'Brien"/>
+        <TLCPerson eId="JohnCartyFF" href="/ie/oireachtas/member/id/John-Carty.D.2002-06-06" showAs="John Carty"/>
+        <TLCPerson eId="JohnnyBrady" href="/ie/oireachtas/member/id/Johnny-Brady.D.1997-06-26" showAs="Johnny Brady"/>
+        <TLCPerson eId="MattieMcGrath" href="/ie/oireachtas/member/id/Mattie-McGrath.D.2007-06-14" showAs="Mattie McGrath"/>
+        <TLCPerson eId="MichaelCreed" href="/ie/oireachtas/member/id/Michael-Creed.D.1989-06-29" showAs="Michael Creed"/>
+        <TLCPerson eId="PJSheenan" href="/ie/oireachtas/member/id/P-J-Sheehan.D.1981-06-30" showAs="P. J. Sheehan"/>
+        <TLCPerson eId="PaulBradford" href="/ie/oireachtas/member/id/Paul-Bradford.S.1987-04-25" showAs="Paul Bradford"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Sean Sherlock"/>
+        <TLCPerson eId="TomHayes" href="/ie/oireachtas/member/id/Tom-Hayes.S.1997-09-17" showAs="Tom Hayes"/>
+        <TLCPerson eId="TomSheahan" href="/ie/oireachtas/member/id/Tom-Sheahan.D.2007-06-14" showAs="Tom Sheahan"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM THALMHAÍOCHT, IASCAIGH AGUS BIA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON AGRICULTURE, FISHERIES AND FOOD</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2008-03-05">Dé Céadaoin, 5 Márta 2008</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2008-03-05">Wednesday, 5 March 2008</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 11.30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#BobbyAylward">
+                Deputy Bobby Aylward,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PaulBradford">
+                Senator Paul Bradford,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#MichaelCreed">
+                Deputy Michael Creed,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#JohnCartyFF">
+                Senator John Carty,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#AndrewDoyle">
+                Deputy Andrew Doyle,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#FrancisOBrien">
+                Senator Francis O’Brien.
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MattieMcGrath">
+                Deputy Mattie McGrath,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#EamonScanlon">
+                Deputy Eamon Scanlon,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#TomSheahan">
+                Deputy Tom Sheahan,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#PJSheenan">
+                Deputy P. J. Sheehan,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#SeanSherlock">
+                Deputy Seán Sherlock,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">In attendance: Deputy Tom Hayes.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#JohnnyBrady">DEPUTY JOHNNY BRADY IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_5">The joint committee met in private session until 11.40 a.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Compensation Payments: Discussion with National Roads Authority. </heading>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_12">On behalf of the joint committee, I welcome Mr. Michael Egan and Mr. Martin Fagan from the National Roads Authority.  The purpose of the meeting is to discuss the delays in the payment of compensation to farmers for land acquired by the National Roads Authority.  At the outset, I wish to draw to the witnesses' attention the fact that while members of the joint committee have absolute privilege, the same privilege does not apply to witnesses appearing before the joint committee.  Members are reminded of the long-standing parliamentary practice to the effect that they should not comment on, criticise or make charges against a person outside the Houses or an official by name or in such a way as to make him or her identifiable.  I invite Mr. Egan to make his presentation.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_13">I thank the Chair and members.  The National Roads Authority, NRA, in conjunction with local authorities, is currently undertaking the most extensive roads improvement programme in the history of the State.  On 1 January 2008, 458 km of new roads were under construction and we expect to start work on a further 169 km in the course of the year.  The authority is on track to complete the major interurban network between Dublin and other cities by the end of 2010, in line with policy objectives set by the Government in the National Development Plan 2007-2013 and Transport 21.  The benefits of this work are now apparent throughout the country.  Travel times are being reduced, safer roads are being provided and access to the regions is being improved with important social and economic benefits.</p>
+          <p eId="para_14">The authority is conscious of the implications the national roads programme may have for landowners and has taken a number of initiatives to inform those concerned of the road planning process, how compulsory purchase procedures operate, their entitlements to compensation and the mechanisms available to determine payments due where agreement cannot be reached through negotiation.</p>
+          <p eId="para_15">Funding for the national roads programme is allocated by the authority to local authorities, which generally undertake road scheme planning, acquire the necessary lands and place construction contracts.  The authority's primary concerns in respect of land acquisition are to ensure that statutory procedures and requirements are observed and that local authorities operate in a consistent and transparent manner when dealing with compensation claims and determining compensation offers.  The authority and local authorities also liaise with the Irish Farmers Association in the application of the terms of an agreement reached in 2001, which supplements the provisions of long-standing compulsory purchase law.</p>
+          <p eId="para_16">The Constitution guarantees the right to private property.  This right only can be interfered with in exceptional circumstances, namely, in respect of common good considerations.  Legislation governing the acquisition of land is complex and spans more than 150 years of enactments.  Local authorities principally rely on the provisions of the Housing Act 1966 to acquire land for a number of uses, including housing, sanitation, the environment and roads.  The National Roads Authority is charged with the provision and maintenance of a safe and efficient system of national roads.  This function is carried out in conjunction with local authorities, which typically use their powers of compulsory purchase to provide the necessary land for road schemes.  The NRA provides funding for national road schemes.  All schemes are subject to rigorous cost benefit and safety analysis, from the initial stages of planning to the delivery stage.  A scheme comes into being when a need has been identified by way of a needs study.  Essentially, a need equates to a deficiency in the existing network, such as a poor level of service.  Once a need has been identified and funding has been agreed with the authority, a more detailed analysis of options to address the deficiency can commence.  These stages consist of a constraints study, route selection options and preferred route selection.</p>
+          <p eId="para_17">This is a brief description of what in practice is a highly detailed route selection and route planning process that considers many factors, including impacts on farms, homes and local communities.  Public consultation is undertaken at various phases in the process, including the route selection options stage.  It is at this point that local landowners will become aware that there may be an impact on their landholding because of a proposed scheme.  The decision to proceed with the preferred route for a road scheme is made following evaluation of all aspects of the scheme, including engineering design, cost benefit analysis, land acquisition and environmental issues.</p>
+          <p eId="para_18">This will be followed by the preparation of an environmental impact statement, where relevant, and publication of the compulsory purchase order.  The public is invited to make representations on the scheme by way of public notice and each affected landowner will be notified of his or her inclusion in the aforementioned order.  This documentation is submitted to An Bord Pleanála, which can approve the scheme or, on receipt of representations, hold an oral hearing into the scheme and approve, reject or approve with modifications, based on the report of the inspector who held the oral hearing.</p>
+          <p eId="para_19">The role of An Bord Pleanála and the statutory procedures involved constitute mechanisms that protect citizens' rights and ensure that acquisition of land can take place only after the common good has been comprehensively established.  Assuming the scheme receives the approval of the board, the local authority can commence the acquisition process.  It has a period of 18 months within which to do this by service of a notice to treat.  This notice establishes the interest to be acquired and the date of valuation of that interest.  Landowners are required to submit a detailed claim for compensation within six weeks of the date of the notice to treat.  In practice, this deadline is rarely met and in some cases local authorities may still be awaiting a claim a year or more after service of the notices concerned.</p>
+          <p eId="para_20">Local authorities engage the services, by way of competitive tender, of professional valuers and agronomists to advise and negotiate on claims received.  The negotiation process can take months or years depending on the complexity of the case and the willingness of the parties to negotiate.  The NRA monitors the acquisition process to ensure that correct procedures are followed, that there is consistency of approach and that the process is open and transparent.  The authority has established a liaison committee with the IFA, which meets to address issues as they arise.  The authority also liaises with other stakeholders such as the Chartered Institute of Arbitrators, Irish branch, to ensure that procedures put in place are adhered to and, where appropriate, improved.</p>
+          <p eId="para_21">In 2001 the NRA, together with the then Department of the Environment and Local Government and the Irish Farmers Association, entered into an agreement that sought to improve and streamline the acquisition process, including arrangements for the payment of compensation.  The provisions of the agreement included the introduction of new timescales for the making of offers and completion of negotiations.  It also provided for the payment of €5,000 per acre for goodwill extended through the co-operation of landowners in the road planning and land acquisition process.</p>
+          <p eId="para_22">Local authorities may enter on to land following service of a notice of entry.  This is to ensure that the progress of the scheme cannot be impeded by one individual, which could have serious financial penalties for the local authority under the provisions of current Government contracts and could defer indefinitely the travel and safety benefits that new road schemes deliver to the wider community.  Where agreement on compensation for land required for national road schemes cannot be reached, either party can refer the case to the Chartered Institute of Arbitrators for assessment under the 2001 agreement or to the property arbitrator, who will convene a hearing to examine the issues and issue an award.  The assessment under the 2001 agreement is non-binding, whereas the award of the property arbitrator is binding on both parties and is legally enforceable.</p>
+          <p eId="para_23">The vast majority of cases are settled by agreement without recourse to either the assessment or arbitration processes.  Once agreement is reached, the matter will be referred to the local authority law agent or solicitor for completion.  Local authorities are obliged by law to register all land transactions with the Land Registry, now known as the Property Registration Authority.</p>
+          <p eId="para_24">Registration of land requires a number of checks and guarantees to be in place prior to registration.  The NRA is aware of many cases of payment to landowners being held up because of defects in title.  Such defects must be resolved prior to any payment being made.  Typically, such defects may include issues such as disposal of sites to family members without proper access or rights of way definition, the siting of a septic tank on adjoining land not held within the land being acquired, or problems with probate, wills and unpaid taxes.  Such defects may take months to resolve, all of which could delay the payment of compensation to a landowner.  The foregoing is a brief synopsis of the process required from the inception of a road scheme to the final delivery.  The process is complex but does include various checks and balances to ensure the rights of landowners are upheld within the context of the common good.</p>
+          <p eId="para_25">To conclude, the NRA has allocated a substantial portion of the overall roads programme budget for the acquisition of land and property.  This proportion has risen from 10% in 2003 to 23% in 2007.  The authority will continue this substantial commitment over the coming years.  Since 2003, the authority has expended €1.37 billion on the acquisition of land and property, including €383 million in 2007.  I thank the Chairman and the committee for allowing us the opportunity to explain our role and the procedures in the land acquisition process.  I am happy to deal with any questions members may have.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_26">I have a few queries before I hand over to the spokespersons.  Farmers are concerned about several unresolved issues.  Farmers have had to purchase land in lieu of land they have lost.  They are paying very high interest on that land and have still not got an agreement or a settlement with the NRA.  Another issue that will become critical in the next month or six weeks is the fact that they do not have an agreement from the NRA for access where their land is being divided.  They have no guarantee that they will be able to let their cows out and get access under bridges or wherever they must go.  Farmers are becoming very worried at this stage.</p>
+          <p eId="para_27">The NRA agreed to compensate farmers who were subject to compulsory purchase.  This was an agreement reached with the Minister and the Irish Farmers Association.  To date, no analysis of how many farmers have been paid within 30 days has been carried out.  Perhaps Mr. Egan would be able to give me those numbers.</p>
+          <p eId="para_28">Farmers are very concerned about the delay in the payment of compensation.  They are not being kept informed of potential delays.  People in my area, particularly in respect of the M3, are informing me of these issues.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_4">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_29">I welcome Mr. Egan and Mr. Fagan to the meeting.  One of the problems about which Members of both Houses are concerned is the difficulty in providing channels of accountability for agencies like the NRA.  Other agencies, such as the HSE, come to mind.  The fact that representatives of the NRA are here is welcome.</p>
+          <p eId="para_30">I would like to digress and have a long conversation about the merits of the Macroom bypass and moving it up the scale of construction projects but I will stick to the items on the agenda.  Mr. Egan referred to the agreement with the landowners and the Department in 2001.  Farmers are of the opinion that this agreement is not worth the paper it is written on in respect of the manner in which the NRA now deals with individual cases.  I have a list of examples here and I am sure Senator Bradford and Deputy Sherlock would probably be able to elaborate on cases, for example, in respect of the Fermoy bypass, where landowners have been waiting for 12 months, 18 months or two years after the agreement.</p>
+          <p eId="para_31">There may be myriad legal reasons, such as probate or title, but the real problem in respect of individual landowners is the deficit of information coming back from the NRA about why delays exist.  This is unacceptable.  There is a real-time value for the money compensation that is agreed today and if it is paid in two or three years time, that value is significantly depreciated.</p>
+          <p eId="para_32">There is probably a good case to be made for payment on account of a substantial proportion pending resolution of title if there are problems with it or probate.  It would not be unreasonable to expect the NRA to perhaps pay 75% of the agreement and pay the outstanding balance once outstanding issues of title have been resolved.  As the Chairman stated, people want to reinvest their money.  For example, there is roll-over relief if one reinvests in agricultural land.  Farmers are entirely held to ransom by virtue of the fact that they have given the land for road construction and cannot get on with their business until they are paid.  I would like to know, as the Chairman requested, the percentage of farmers who are paid full compensation within 30 days of the agreement.  I suspect it is not high.</p>
+          <p eId="para_33">The activities of agents acting on behalf of landowners appear to cause difficulty.  I have seen this at first hand.  Mr. Egan might comment on this.  Myriad agents, who are like bees around a honey pot, are approaching landowners claiming to be acting on their behalf and writing letters to them telling what they should do.  Clarity with regard to the individual agents acting on behalf of individual farmers needs to be resolved very early on.  I have seen a case where multiple agents believe they are acting on behalf of individual landowners.  That confusion probably does not help the situation.</p>
+          <p eId="para_34">Broadly speaking, there is dissatisfaction, which is why the delegation from the NRA is here.  We would like to see a commitment to honour the agreement of December 2001 and that where there are difficulties, people would be told because information is not fed back to people much of the time.  Information enables them to resolve the problem, whether it is access, title or probate.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_5">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_35">I also welcome Mr. Fagan and Mr. Egan to the meeting.  The basis on which the gentlemen are here is that there is a strong perception within this committee that there is a problem, the existence of which is being communicated to us by landowners.  We feel it necessary to bring this issue to the fore.</p>
+          <p eId="para_36">In terms of the submission that has been made, we all agree that Transport 21 exists and acknowledge the work that has been done by the NRA and the infrastructural projects taking place.  I have certain issues with regard to the Mallow northern relief road.  I can only speak about a specific project where landowners negotiated positions, agreed to cede their properties — which is effectively what this is about — to the project to deliver a northern relief road and waited untold months for the notices to treat to be served to be told that there was a change in Government policy and that this would not be expedited.  There was a sense that landowners had entered into this in good faith and were then told that the whole thing was off the cards because of Government policy.  It is very frustrating for landowners who, either themselves or through their agents, have expended resources and bought into a process to be told that it is not now happening.</p>
+          <p eId="para_37">In practical terms, there should be a review of the December 2001 agreement because it is clearly not working to the landowners' advantage.  There are problems with it and the 30-day aspect of it.  Once title and other issues have been resolved, in many instances, it is clear that compensation is not being paid within the 30-day period.  I wonder whether the NRA feels there is scope for a legislative process to review that agreement.  If we are talking about land which the NRA is seeking to obtain for an infrastructural project for the common good and given that the significant sum of over €1.37 billion has been expended on the acquisition of land since 2003 and will probably increase in the future, perhaps the basis of such agreements for the acquisition of land should be put on a statutory footing.  For example, where a landowner has not received his or her agreed compensation after a certain period, he or she would have a recourse to law.  I do not expect the National Roads Authority to answer this question but the matter should be examined and put on a firmer footing.  It is the perception of landowners that it is operating on an <i>ad hoc</i> basis.  The 2001 agreement is not working in favour of the landowners who bought into it and became active stakeholders.  The process must be reviewed.</p>
+        </speech>
+        <speech by="#FrancisOBrien" eId="spk_6">
+          <from>Senator Francis O’Brien</from>
+          <p eId="para_38">I welcome Mr. Egan and Mr. Fagan to the meeting.  The National Roads Authority has done good work, especially in County Monaghan where three bypasses have been built, namely, Carrickmacross, Monaghan and Castleblayney.  The last bypass is not complete but it is open and functional.  However, complaints have been made about its two-plus-one structure.  This is all I will state because the NRA and the gentlemen in attendance should be familiar with the complaints.  If they are not, they could easily learn of them from Monaghan County Council which has received several.</p>
+          <p eId="para_39">Nevertheless, the three bypasses are welcome and have alleviated the traffic from Donegal and Derry to Dublin and within Monaghan and surrounding areas.  The three towns became bottlenecks in recent years.  When the Carrickmacross and Monaghan bypasses were built, Castleblayney became a nightmare until its bypass opened.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_40">I ask members to concentrate on the issue under discussion.  This is not a local authority meeting.</p>
+        </speech>
+        <speech by="#FrancisOBrien" eId="spk_8">
+          <from>Senator Francis O’Brien</from>
+          <p eId="para_41">As regards farmers--</p>
+        </speech>
+        <summary eId="sum_6">(Interruptions).</summary>
+        <speech by="#FrancisOBrien" eId="spk_9">
+          <from>Senator Francis O’Brien</from>
+          <p eId="para_42">Like Deputy Sherlock, I am only equipped to discuss my own county.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_10">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_43">That was not meant as a complaint.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_11">
+          <from>Chairman</from>
+          <p eId="para_44">Allow Senator O'Brien to continue.</p>
+        </speech>
+        <speech by="#FrancisOBrien" eId="spk_12">
+          <from>Senator Francis O’Brien</from>
+          <p eId="para_45">As the Chairman outlined at the outset, the farmers' significant problem is the responsibility of the NRA because of the gap between it, its agents, the farmers' agents and local authorities.  The problem arises everywhere and is unfair to farmers because they are being kicked around, so to speak, a matter touched on by Deputy Sherlock.  I do not mean to offend our guests.</p>
+          <p eId="para_46">For the common good and the good of road users, the farmers in question have had their land taken via compulsory purchase order.  In my county, young farmers' small holdings, in which families were reared and educated and from which teachers and other successful young people were produced, have been divided, which makes me feel bad.  The NRA passes the issue to Monaghan County Council and Ó Buachalla property consultants, with which a discussion is difficult.  It is ridiculous that no one can give the farmers answers.  While they do not want to go to arbitration, they will do so because they are not being given satisfactory answers.  The issue sticks out like a sore thumb to be seen to by the NRA, Ó Buachalla property consultants and others, but no one is listening.</p>
+          <p eId="para_47">There are several such cases, but a number of people are very satisfied.  I must give the other side of the story because the same problem did not seem to occur in respect of the Carrickmacross bypass.  Were those people better compensated?  I apologise for pushing this matter but farmers feel hard done by.  The 2001 agreement between the Irish Farmers Association and the NRA was to the benefit of farmers and required the same compensation levels nationally.  However, this has not come about.  If I am wrong, I will stand corrected.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_13">
+          <from>Chairman</from>
+          <p eId="para_48">Again, I warn members to concentrate on the particular issue in respect of which our guests were invited to the meeting.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_14">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_49">I welcome Mr. Fagan and, in particular, Mr. Egan with whom I have dealt in the south east for many years while I was chairman of the South East Regional Authority and the southern assembly.  At the time, we lobbied Mr. Egan to have money spent in the south east and south.  I compliment him and the National Roads Authority on providing the resultant money, especially in respect of the M9 from Waterford through Kilkenny in my constituency, which will come to fruition in 2010.</p>
+          <p eId="para_50">There are concerns.  I went through the NRA consultation procedure with my agent in the past two years.  It was not an easy time.  Such decisions are significant for farmers.  While the roads must be built, a great deal of pain and disturbance is caused.  Greenfield sites and land that has traditionally been farmed are suddenly erased and roads are pushed through them.  They are forced on farmers and landowners and cause considerable disquiet.  As a politician, I have dealt with upset landowners and their spouses who have gone through tough periods trying to make up their minds.</p>
+          <p eId="para_51">I will not mention names but consultants employed by the NRA can be callous and cold in their dealings with individuals.  My local authority in Kilkenny is not like that, however, as the agent and co-ordinator in my case were friendly, open and ready to meet people.  Two years after working for the NRA on the M9 in the south east, the consultant in question worked for the farmers on a number of schemes under way in the south east, namely, the Waterford roundabout, which includes the road to Kilkenny, the M9 and the New Ross bypass.  The Piltown and Mooncoin bypasses are coming on stream.  One day, a consultant representing the NRA is rigid, tough and will not give on certain matters and, within a year or two, represents the farmers on the other side of the equation.  This is a conflict of interest.</p>
+          <p eId="para_52">The difference in compensation and the discrepancy between what landowners get cause much disquiet down our way.  Each deal is individual to the landowner, but there could be a difference within a radius of two or three miles.  In one case, there was a difference of €50,000 paid per acre within a radius of eight miles.  It was too much and wrong.  I will not mention the money involved but I know the difference.  That is wrong and has caused disquiet among landowners, especially farmers.  I agree with the NRA that 90% of landowners, including myself, have accepted compensation without going to arbitration.  Those who are going through the arbitration process are very annoyed.  Within four miles of where I live there is a difference of €30,000 in what landowners are getting.  There is a difference in land such as beet land or wheat land but grass land that produces silage or grass for animals generally produces the same amount, 12 to 15 tonnes per year.  There is not much difference unless one ploughs it and uses it for wheat or beet.  This is not taken on board by the consultant representing the NRA.  When things go wrong, the consultants close shop and will not talk to anyone.  They will not talk to the farmer's representative and this is wrong.</p>
+          <p eId="para_53">Senator Francis O'Brien referred to €5,000, which is being used as a coercive measure.  If farmers do not do a deal within a certain time, they lose €5,000.  It should be left out of it.  The Irish Farmers Association fought for this measure a few years ago but when I did my deal, the €5,000 was included in every offer I received.  I did some wheeling and dealing with the NRA and it increased the amount by a few euro but if I did not accept the offer, I would lose the €5,000 and revert to the original price.  It is a trying time for landowners.  This is not meant as criticism but to raise points.</p>
+          <p eId="para_54">I refer to road closures.  It happened in my area yesterday.  Usually the contractors ask landowners but this time they put a notice in the newspaper last week stating they were closing the road until May.  That is not good enough.  Farmers are crossing this road ten or 15 times per day, particularly now when they spreading manure for spring time.  It is not right to put a notice, without consultation, saying that the road will be closed until May.  I contacted my local representative on the council and he managed to come to some agreement to keep the road open as much as possible and to grant tractor access.  That should have been done previously.  A notice in the newspapers is not good enough, with 16 farmers finding the road closed.  The people using the road should be contacted personally and told.  It is a matter of good publicity and public relations to inform them that the road will be closed or negotiate some kind of access to it.  If landowners did not have access to the road they would have had to drive the tractor an additional seven miles, five times a day.  That is not good enough.  When the contractor met the farmers on Monday, an agreement was reached and access was granted.  It is half sorted, as such.</p>
+          <p eId="para_55">In my area there are many minor roads and county roads.  The traffic and lorries of the contractors mean the roads are in a fierce mess.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_15">
+          <from>Chairman</from>
+          <p eId="para_56">Again, we are going away from what the delegation was invited to address.  This is a county council matter and this is not a county council meeting.  We all have these problems and I ask the Deputy to concentrate on the issue at hand.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_16">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_57">It is not a county council matter.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_17">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_58">Deputy Aylward is suffering withdrawal symptoms.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_18">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_59">It is not a county council matter in that there is agreement with the contractor under the guidelines on taking over the land.  There is agreement with local authorities that contractors would reinstate these roads to a certain condition.  I have photographs to prove it.  Now, the county council is stating that the contractor--</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_19">
+          <from>Chairman</from>
+          <p eId="para_60">Deputy Aylward should contact the director of services.  That is what I did.  I must be tough on this matter.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_20">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_61">One is blaming the other and the roads are deteriorating into a bad state.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_21">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_62">I welcome the gentlemen from the National Roads Authority and compliment them on the progress, investment and speed in the past 15 years, which nobody could have envisaged.  I welcome the recent design, operate and deliver contracts, and the on-time delivery built into the projects.  This is saving us money and providing better infrastructure ahead of schedule.  The sum of money paid to farmers, €1.7 billion, is phenomenal.  I compliment the farmers — the main stakeholders — without whom we would have no roads.</p>
+          <p eId="para_63">As chairman of South Tipperary County Council I signed 170 compulsory purchase orders.  Although I had no problem signing them, I saw the effect afterwards and it is too powerful a weapon.  Once compulsory purchase orders were used, negotiations, care and sensitivity disappeared.  The project had to go ahead, the contractor was appointed and he had to deliver for a fixed price.  The contractor must be conscious of making his money.  Understanding of farmers, communities and householders who live on the edge of the road is needed because there is a major impact on them.  There must be respect for the people whose property is on the edge of these projects.</p>
+          <p eId="para_64">Agents can claim they are the best if they get good prices.  They canvass a lot and one would think it is a local election when they start.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_22">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_65">It is a lot more local than that.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_23">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_66">I know.  Unfortunately it has become a major part of road building.  It has become an industry across the board.  Often the agents are working on both sides.  There should be a time limit specifying how long they must wait after retiring from one side before they work for the other.</p>
+          <p eId="para_67">There are shortcomings in the design of link roads, such as in the two-plus-one road.  I do not want to be parochial but we are here to represent our constituencies.  We had a junction into Cahir town off a bypass 20 years ago and it was a fine job.  We now have a junction that I would describe as no better than a horse and cart.  It is a disgrace to have such a junction.  I can talk to the delegation through the Chair because they have responsibility.  The buck is passed between the NRA and the engineers.  Consultants were involved in the design scheme but it is beyond my realm as a public representative to carry out these studies.  We received poor value for money.  The two-plus-one road in Cahir is a great relief to the town but if a lorry or an agricultural vehicle breaks down, the road is blocked.  The people who designed it have a lot to answer for.  It is the same situation in Monaghan.  While the junction is safe and a great asset to the town, it is terrible.  One cannot pass two vehicles on the narrow path, there is no hard shoulder and it is stupid.  I have contacted the county council but it will not change it.  It is not even lighted and it is dangerous.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_24">
+          <from>Chairman</from>
+          <p eId="para_68">Deputy McGrath, please.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_25">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_69">I am one of the people who called for the NRA to appear and we have a responsibility to put these questions because this is our opportunity.  The payment should be put on a statutory basis.  If there are problems, to which the delegation referred, such as when a site is sold and a septic tank remains, that should not be reason for holding up the payment.  Good will exists and the landowners are envious if they see traffic using the road and contractors paid when they have not been paid.  People get depressed over this and I do not blame them because it is a major financial burden.  There should be a statutory instrument to ensure that they are paid 80% and 20% is kept on hold.</p>
+          <p eId="para_70">I agree with the point made about the €5,000 hello money.  We stopped supermarkets from doing this years ago.  If the person is a nice person and does not give out to the contractors on the road, he can retain the payment.  It should be possible to give the breakdown of farmers who have been paid.  We meet many farmers who have not been paid but also many who are very happy and have had no problem.  We must commend the NRA and council officials on that.</p>
+          <p eId="para_71">However, we also hear about problems which people have, such as the closure of roads.  Many roads are temporarily closed and more respect must be given to communities with regard to this.  Major issues are raised with regard to the quality of timber fencing.  I am not an expert and only time will tell how long they last.  All in all, I believe we must have more transparency and more respect not only for landowners but also for communities through which the roads go because sometimes they are divided permanently.</p>
+          <p eId="para_72">I must compliment the NRA.  Several months ago, I and a colleague formed a deputation to meet it about a particular road closure.  Unfortunately, in many cases locals — I do not mean farmers but the community — do not see the advertisements and do not get involved.  A road was closed and the local people lost out.  Funding was agreed but six months later the county council does not have a design for it.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_26">
+          <from>Chairman</from>
+          <p eId="para_73">The Deputy should raise this with the director of services or the county manager.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_27">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_74">I have done so on a regular basis but nothing is happening.  I wish to make the point that these are powerful people and we respect the difficult job they do.  However, we must have answers for the public.</p>
+        </speech>
+        <speech by="#TomHayes" eId="spk_28">
+          <from>Deputy Tom Hayes</from>
+          <p eId="para_75">I do not need to say anything after that.  I am delighted the NRA is here and providing us with an opportunity to discuss what is an extremely important issue.  We have major disruption but nobody can be at fault.  Large roads are being built, which is a major undertaking, so we are bound to have disruption.</p>
+          <p eId="para_76">Apart from the disruption, other issues which affect people are raised.  I wish to bring to the attention of the committee an instance with regard to the new road from Cashel to Mitchelstown.  I beg the Chairman's indulgence because he may rule me out of order as it is a specific matter and may be a little removed from the main issue.  However, it is concerned with the road.  An outbreak of TB has occurred on some of finest farms close to the new road being built.  TB had not been found in any of these herds for many years.  They were all clear.  An area has been affected with TB because of the disturbance of the land through which the NRA has worked.</p>
+          <p eId="para_77">I am in favour of roads.  They are good and of benefit to the county.  We will see major benefits in Tipperary because of the road.  Can these people be helped?  I am aware of the compensation available but is this taken into account with regard to disturbance?  Will the delegation comment on this because an argument with the Department is in progress?  One person must sell his holding because of disagreements he has had on this matter with the Department of Agriculture, Fisheries and Food.  I am very concerned that these people have no protection and no one is helping them.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_29">
+          <from>Chairman</from>
+          <p eId="para_78">I have no problem inviting veterinary officials from the Department before the committee to speak to us about a difficulty which may exist.  The Deputy outlined what seems to be an extremely serious problem which none of us wants to see happen.</p>
+        </speech>
+        <speech by="#TomHayes" eId="spk_30">
+          <from>Deputy Tom Hayes</from>
+          <p eId="para_79">It has got to be explored.  A large number of farmers in the New Inn area close to Cashel are very concerned about the outbreak of TB in the area.  The road has gone through the area and one farm is on the market because of a disagreement with the Department of Agriculture, Fisheries and Food.  I want this to be brought to a head because it is a genuine problem.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_31">
+          <from>Chairman</from>
+          <p eId="para_80">I shall ask the clerk to request a meeting with veterinary officials from the Department.</p>
+        </speech>
+        <speech by="#TomHayes" eId="spk_32">
+          <from>Deputy Tom Hayes</from>
+          <p eId="para_81">I thank the Chairman.</p>
+          <p eId="para_82">I will be as brief as possible on my next point, which is on compensation.  Any time a road goes through a person's farm, disruption is caused to the family and the farming programme for generations to come.  The first thing they need is compensation to be paid directly so they can go to the bank or auctioneer or provide for the problems which they face.  The payment system is ludicrous because it is slow.  I can instance examples because we dealt with many landowners with regard to the Cashel to Mitchelstown road.</p>
+          <p eId="para_83">I do not want to knock the NRA or the local authorities but we should have a compensation package which pays 90% upfront the day the compulsory purchase order is put on paper.  This would give people freedom to make decisions as they progress.  It would relieve a great deal of anxiety and pressure.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_33">
+          <from>Senator Paul Bradford</from>
+          <p eId="para_84">I welcome the NRA representatives.  They have heard an interesting discussion from our side of the House.  I will not disagree with anything stated.  I wish to make an observation on the 2001 agreement.  We discussed it previously but I am not sure whether it was at a meeting of the Oireachtas Joint Committee on Agriculture, Fisheries and Food or the Oireachtas Joint Committee on the Environment, Heritage and Local Government.</p>
+          <p eId="para_85">It seems the 2001 agreement is as much part of the problem as it is part of the solution.  I am sure it was negotiated and signed in good faith.  If I recall, it was the then IFA president and now construction guru, Mr. Parlon, who led the negotiations for the IFA.  The language used reminds me of the language used in Northern Ireland agreements where one had to be able to interpret one sentence in various ways and everybody had to be kept happy by allowing extremely vague language.</p>
+          <p eId="para_86">I recall examining the agreement and the language.  Perhaps it was not designed in this way but it ended up being capable of being interpreted differently by two or three sides.  It is not as precise or tied down as it should be.  Perhaps the NRA, the Department and the farming organisations should examine it.  An agreement should be clearly understood and understandable.  It was too open-ended and vague.  It includes phrases on value for money and disturbance which one can interpret in many ways.  Perhaps all sides were under pressure to come to an agreement.  An agreement was made but not one which is as precise, accurate or sure-footed as we require and I would like to see it reviewed.</p>
+          <p eId="para_87">We appreciate the need for road progress, we welcome it and congratulate the NRA on its efforts.  However, compensation for landowners on whose former lands the roads are being built is crucial.  I recall raising the point of the farmers whose land was ceded for the Fermoy bypass 18 months or two years after the same thing happened in Youghal, which is 15 or 20 miles away, and very different levels of compensation were paid.  It is like what Deputy Aylward stated, if farmer A gets a certain amount and farmer B from not too far away receives a significantly different amount it creates its own difficulty.  I ask the stakeholders to review the agreement.  We cannot dictate to the farming organisations what they should do but I was never happy with the 2001 agreement.  It was much too vague.</p>
+          <p eId="para_88">I have a question for the delegation and I do not require specific figures, statistics or averages.  Will the NRA indicate on a percentage basis over the course of the past eight, nine or ten years the average settlement per acre?  Has it increased or decreased and by what percentage?  We hear from farmers who claim they received less than what was on offer years ago.  Does an acre of ground now cost the NRA more or less than it did six or seven years ago?</p>
+        </speech>
+        <speech by="#EamonScanlon" eId="spk_34">
+          <from>Deputy Eamon Scanlon</from>
+          <p eId="para_89">Much of what I intended to say has been covered already but I wish to refer to the two plus one roads.  We saw a fair improvement on the N4 with the Dromod-Rooskey bypass but I agree with previous speakers that while the two plus one system is very welcome it is still not the answer.  If there is a breakdown on part of a two plus one road, the whole road is blocked.  We should avoid building such roads in the future.</p>
+          <p eId="para_90">On the issue of dividing farms, I know that the price per acre looks substantial and on certain farms it might be very beneficial to the farmer to get a good price for two acres, but where one has a small farm of 50 or 60 acres and a road goes through the middle of it, taking one or two acres out of it makes the farm practically useless.  We should allow people to keep as much of their land together as possible.  In fairness, some councils try to do this, but others do not.  I am aware of some cases in that regard.</p>
+          <p eId="para_91">In fairness to the NRA, a lot of good work has been done and many jobs have been completed on time and within budget.  However, in the mid-1990s we selected a route for the N4, for the last stretch from Castlebaldwin to Collooney.  We are now in 2008 and while the testing and final design has been done there are many farming families along that road who cannot get planning permission for houses for young people.  We have neither one thing nor the other.  While the route has been selected, we do not have a new road.  The old road is still in use and people are being held up in relation to planning.  That is happening right across the country, not just in Sligo. The timeframe between the route selection and the work being carried out should be defined in order that people know it will happen in, say, five, seven or ten years' time.  Here we are, almost 13 years on and still there are people waiting to get planning permissions.</p>
+        </speech>
+        <speech by="#TomSheahan" eId="spk_35">
+          <from>Deputy Tom Sheahan</from>
+          <p eId="para_92">I shall probably be the briefest contributor because coming from south Kerry, I do not see a lot of the NRA on my side of the country.  I can safely say there are no farmers in south Kerry in any dispute with the NRA because it has not built a road there in so long.</p>
+          <p eId="para_93">May I ask a question on deadlines and dates?  I note there are 80 roads listed here that are in the planning stage.  Is there a timeframe on the planning stage because from my information, there are some roads that have been in the planning stage for approximately 20 years?  There is one primary route in Kerry.  We probably have the smallest number of national primary roads and the greatest number of national secondary and county roads in the country.  There is one proposed route from Farranfore to Killarney, to bypass Killarney, but I spoke with the county manager recently, who is of the opinion that it will be another ten years before anything happens on that front.  I believe the last costing on that road was €90 million and I would hate to think what it will cost if it is going to be in the planning stage for another ten years.</p>
+          <p eId="para_94">It is unfortunate but we have been made an island in Kerry since the launch of the national development plan, with its hubs and gateways.  There is an interconnecting route between Limerick and Cork but Kerry has been pushed out.  There is an understanding among the local representatives in Kerry that the NRA does not like to visit Kerry because of its bad roads.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_36">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_95">The Deputy has the lakes of Killarney.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_37">
+          <from>Chairman</from>
+          <p eId="para_96">I call Deputy P. J. Sheehan.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_38">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_97">The Chairman kept the good wine until last.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_39">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_98">I thank Mr. Fagan and Mr. Egan for attending this morning.</p>
+          <p eId="para_99">What percentage of farmers are still awaiting payment from the NRA schemes that are in progress since 2002?  Is the NRA satisfied with the process of settlements and payments that are being made?  How many schemes have encountered delays in finalising payment with the land owners?  Is there a desire to have a more humane approach to estimating the value of acquisition of lands from the farmers concerned?  Why has the Bantry bypass or relief road been on the back burner of the NRA for the past 11 years?  Bantry is the town most critically in need of a relief road in the whole country.  Why is the Bandon to Innishannon project still subject to final design?  That is the only project in south-west Cork mentioned in the NRA's catalogue for 2007, 2008 and 2009.</p>
+          <p eId="para_100">Taking into consideration all of the above, is there a dragging of feet regarding the valuations that are placed on the lands of the farmers concerned?  Who objects to the valuation certificates that come in from the farmers regarding the land that is being acquired?  Who acts as referee between the land agents who submit the valuations and the Department, which accepts it as a valid price?  Payments to the people concerned should be speeded up.  It is bad enough to lose some of one's farm, up to 50% in some cases, to the NRA but then one has to wait years for compensation.  If farmers buy extra land, they are faced with heavy interest payments.  There should be a <i>modus operandi </i>set up to expedite the payments to the people concerned.  I admit that the NRA has encountered severe difficulties, such as the so-called snail in the plains of Kildare that held up the Kildare bypass for years.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_40">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_101">What about the Kerry slug?</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_41">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_102">That is not to mention other species of wild life.  Deputy Tom Hayes spoke this morning about a serious epidemic of tuberculosis in the farms adjacent to the big bypasses that are being built in Tipperary.  While we all welcome the overall approach, is the NRA aware that when wildlife such as the badger is disrupted from his den, he travels at least seven miles a night to get clear of the machinery and the din of modern technology.  He goes into the neighbouring farms and he could be the cause of the explosion of TB in mid-Tipperary.  I am not a veterinary officer but I have a fair amount of practical experience in my 50 years as a member of a local authority.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_42">
+          <from>Senator Paul Bradford</from>
+          <p eId="para_103">There is a lot to be said for the badger, at the same time.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_43">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_104">I hope the Deputy is not advocating badger baiting now.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_44">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_105">He did more than seven miles himself.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_45">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_106">These are basic facts.</p>
+          <p eId="para_107">Finally, what genius advised the NRA of an Atlantic corridor from Malin Head down to Limerick, but which did not touch south Kerry, Clare or south west Cork?  Not one mile of the Atlantic corridor touches those places.  How can we have an Atlantic corridor that is 50 miles from the Atlantic Ocean?</p>
+        </speech>
+        <speech by="#TomSheahan" eId="spk_46">
+          <from>Deputy Tom Sheahan</from>
+          <p eId="para_108">In the middle of the country.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_47">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_109">In the middle of the country.  In the name of heavens, who is codding who?</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_48">
+          <from>Chairman</from>
+          <p eId="para_110">I doubt there are many snails in west Cork.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_49">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_111">The Kerry slug has gone into west Cork.</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_112">We appreciate the many complimentary comments made by many committee members regarding the progress being made on the national roads programme.  Regarding the specific issues of concern to members, I will try to deal with the key points.</p>
+          <p eId="para_113">The authority fully recognises that the scale of the roads programme currently being undertaken will impact on many people, and farmers in particular.  That is inevitable when roads are constructed.  As I noted in my initial presentation, almost 460 km of roads were under construction at the start of the year and that figure will increase by 160 km this year.  We will thus enter uncharted territory in terms of road development and a number of farmers will be confronted by the compulsory purchase order process for the first time.</p>
+          <p eId="para_114">We recognise the need to provide information on the process.  We have sought to address information gaps at various stages in the road planning process through extensive public consultation fronted by local authorities and the consultants working on their behalf.  This is in line with standard NRA practice, which we believe is the best approach.  People should be made aware of the potential implications for their farms, landholdings and homes and the legal procedures involved.  Their rights to participate, object or have their concerns addressed should be also explained during the course of the public consultation.  We have published a number of procedural guidance documents in that regard, one of which, the Guide to Process and Code of Practice for National Road Project Planning and Acquisition of Property for National Roads, attempts to summarise the process.  In regard to the information gap, we have requested local authorities to appoint project liaison officers as contact points for the main road schemes around the country.  If a farmer has concerns about compensation claims, accommodation works issues or difficulties with the contractor, we need a response mechanism.  For example, the farm's water supply may be severed.  The primary way to air concerns and have them addressed is through the local authority.</p>
+          <p eId="para_115">Some €360 million in 2006 and €383 million last year was spent on land acquisition, which are clearly substantial sums of money.  In the vast majority of cases, compensation is agreed through negotiation on the part of valuers employed by county councils.  The authority itself does not directly employ valuers although we fund the engagement of expert advice on the part of local authorities to engage in a fair and reasonable manner with similar expert valuers employed by the individual landowners.  The fees of the latter are included in the overall compensation package.  We seek to operate on a level playing pitch, so it is not a case of the local authority having all the expertise or seeking to outmanoeuvre individual landowners.</p>
+          <p eId="para_116">In accordance with the 2001 agreement, various timescales are set as objectives.  The degree to which these are met varies.  In a significant numbers of cases, difficulties arise for farmers in meeting the two month deadline specified in the agreement for submission of the initial compensation claim following service of the notice to treat.  We have encouraged local authorities to engage valuers earlier in the process — even before approval is given by An Bord Pleanála — so they can do their homework in terms of assessing the value of land and the extent to which individual farms can be affected by road schemes.  That puts them in a good position once approval is given by An Bord Pleanála to engage in a genuine and informed manner with valuers employed by individual landowners.</p>
+          <p eId="para_117">Clearly, the circumstances of each case will vary.  Several members remarked on differences in compensation paid to individual farmers.  That reflects the nature of the impact of road schemes and the extent to which individual landholdings vary in terms of quality of land and farming activity.  Our standard approach to local authorities is to track land values through auctions and other sales in the localities affected by road schemes, which we refer to as comparators, and use these as the basis for determining the basic valuation of the land concerned.  The comparators are made available to landowners and their valuers, who have the opportunity if they so wish to propose other comparators with which local authorities may not be familiar.  Depending on the particular circumstances, compensation may also reflect the impact of severance, disturbance or injurious affection.  The degree to which these three factors will arise differs from farm to farm and according to where the road is located.  Inevitably, the sums paid to farmers, even those in the same locality, vary substantially.  I hope that, through the consultation process and the liaison officer mechanism, grey areas can be better explained than was the case in the past.</p>
+          <p eId="para_118">Valuers acting for the local authorities should treat their counterparts and land owners with courtesy, care and respect.  They are paid by the taxpayer to provide a service, so individual cases which give rise to concerns should be raised initially with the local authority liaison officer.  The NRA would be happy to respond to any continuing difficulties.</p>
+          <p eId="para_119">The agreement concluded in 2001 did not provide for a standard rate of compensation throughout the country.  It simply supplemented the well-established legislation which has been in place for hundreds of years and is supported by a body of case law. However, it introduced timescale objectives and addressed the issue of awareness among farmers.  In conjunction with local authorities, we have endeavoured to deliver these elements of the agreement.  Inevitably, individuals will feel disgruntled by the process and the way they are treated.  Their expectations of the value of their land may differ greatly from the advice of their own valuers.  The NRA, through the local authorities and the valuers they contract, will offer what we believe to be a fair price.  It is a take it or leave it situation because we do not compel anyone to accept our offers nor do we link payment of goodwill moneys to acceptance within a particular timeframe.  We are concerned, however, about situations in which the issue of compensation is left on the back burner for a long time and we have therefore urged local authorities to move more promptly than they have in the past to refer cases which are outstanding for prolonged periods to the assessment mechanism introduced under the 2001 agreement with the IFA.  That mechanism is a non-binding and independent arbitration process which can suggest a compensation award.  We have urged local authorities to generally accept the recommended award rather than appeal it further to the statutory arbitrator unless exceptional circumstances arise.  Approximately 95% of compensation claims are concluded through negotiation and, of the residual 5%, only a small number — perhaps a total of 200 — have been referred to the non-binding assessment mechanism.</p>
+          <p eId="para_120">I find it difficult to believe there has been a wholesale failure to deal with farmers in a reasonable manner or to deliver on the 2001 agreement.  For whatever reason, a rump element remains, and title can be implicated in this.  The authority meets periodically with the IFA to review the operation of the agreement.  Our most recent meeting last Friday was constructive and no major issues in terms of non-delivery of the agreement were identified, although aspects of particular cases were discussed.  The level of funding that has gone through the land compensation is a telling message.  At the end of 2006, when the 2001 agreement was due to terminate, the IFA approached the NRA and asked that the agreement be continued as is for the duration of the current national development plan, to the end of 2013.  That speaks of how the IFA perceives the agreement.  It has certain advantages.  There are ripples from time to time, which our discussions with the IFA are intended to address.  Through that mechanism, and the liaison officers on our schemes I have mentioned, we hope the bulk of the areas of concern can be addressed and the NRA will pick up any residual issues brought to its attention.</p>
+          <p eId="para_121">On the 30 day issue, all sorts of title aspects can kick in.  The 30 day target is extremely ambitious, but it is possible and in a significant number of cases once title is bedded down and agreement is concluded the title is paid after approximately two months.  It can take longer but that is an achievable objective and is being met to a reasonable degree around the country.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_51">
+          <from>Chairman</from>
+          <p eId="para_122">Does Mr. Egan have a figure on that?</p>
+        </speech>
+        <speech by="#" eId="spk_52">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_123">I have no specific figure.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_53">
+          <from>Chairman</from>
+          <p eId="para_124">Could Mr. Egan report back to us with the figures?</p>
+        </speech>
+        <speech by="#" eId="spk_54">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_125">We will investigate that with the local authorities, which would have the specific details.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_55">
+          <from>Chairman</from>
+          <p eId="para_126">Mr. Egan outlined a number of cases gone to arbitration.</p>
+        </speech>
+        <speech by="#" eId="spk_56">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_127">Approximately 200 are gone to assessment under the 2001 agreement.  That is non-binding and it would be a smaller number again--</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_57">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_128">How many go to court?</p>
+        </speech>
+        <speech by="#" eId="spk_58">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_129">To the State arbitrator?  We are talking about double figures.</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from>Mr. Martin Fagan</from>
+          <p eId="para_130">Less than 1% of all cases.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_60">
+          <from>Chairman</from>
+          <p eId="para_131">We will have supplementary questions in a minute.</p>
+        </speech>
+        <speech by="#" eId="spk_61">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_132">Again, the fixed price contract approach was mentioned.  That should have no bearing on the amount of compensation paid to farmers.  Using the fixed price mechanism, contractors will be expected by the authority to come in on or below budget, but we do not cap the compensation paid for land.  That is a separate process.</p>
+          <p eId="para_133">I recognise the concern that has been expressed on the closure of roads and how it can impact on the local community, particularly farmers.  That process follows a legal route and the notices should be published by county councils, availing of powers in the Roads Acts.  Ideally if there is to be major disruption that should be supplemented by local radio messages to get the word out.  If there are residual difficulties, the projects liaison officer should be the ideal contact point to address those.</p>
+          <p eId="para_134">The NRA piloted a limited number of two-plus-one roads.  Following an evaluation we have decided in general we will not adopt them on a wide scale basis.  We will adopt a two-plus-two type.  This is not quite as elaborate as a full dual carriageway, with grade-separated junctions, that is the overpass and underpass.  However there would be two lanes on either carriageway.  That should get over some of the disruptions due to breakdowns mentioned.</p>
+          <p eId="para_135">On planning roads, we have sought to wash out of the system any outstanding schemes caught at a particular stage in the planning process where we have not got to the final point of identifying the preferred route.  This will bring clarity to the local community and help it identify where we need to reserve a particular route and release other road corridors that had been under examination.  In that scenario the release corridors can be subject to planning permission for housing or other development.  The bars must continue to apply on the preferred route that has been chosen to be taken forward.  The NDP and Transport 21 mapped out a clear agenda for the NRA between now and 2010 especially on deadlines to complete specific projects, particularly the major inter-urban routes from Dublin to Limerick, Cork, Waterford and Galway, and the M1.  The M1 is fully open to traffic to the Border.  We have clear marching instructions from the Government in the context of the NDP and Transport 21 to press to a significant degree the development of the Atlantic corridor that was mentioned from Letterkenny along the west coast through Sligo and Galway and down to Limerick, Cork and Waterford.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_62">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_136">Mr. Egan veered to his left then.</p>
+        </speech>
+        <speech by="#" eId="spk_63">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_137">That is Government policy.  The Government identified the route and we are committed to delivering on it.  Those are the priorities.  There will be other projects, but we are seeking to wash through the system any projects that were caught at midstream in planning so the freeze on planning development applications can be lifted.</p>
+          <p eId="para_138">There were comments on the language of the agreement and I have a high degree of sympathy.  Like many agreements there was something in it for everybody.  In the NRA's defence we did not negotiate the final terms of the agreement.  The NRA is a signatory to the agreement.  It is an understandable process.  People will get what they will from it.  When the IFA came knocking on our door at the end of 2006 to continue the agreement as is, it recognised the terminology can work to a high degree.  Certain grey areas are open to multiple interpretations and have created certain ripples — I would not escalate the scale of the difficulty beyond that.</p>
+          <p eId="para_139">I hope I am covering the key issues.  Mallow was mentioned and while I appreciate the Chairman's interest in confining the agenda to the core issue of delays to payment, it is relevant.  The NRA found that due in particular to dramatically escalating land prices associated in part with changes in land zoning around Mallow, previous estimates in 2006 of €12.6 million or €16.6 million for the entire scheme rose to over €50 million.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_64">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_140">I would like a bit of that money.</p>
+        </speech>
+        <speech by="#" eId="spk_65">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_141">The scheme cost increased from €16.6 million to €50 million in a relatively short number of years and the value for money did not stack up.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_66">
+          <from>Chairman</from>
+          <p eId="para_142">Was the land rezoned after the route was chosen?</p>
+        </speech>
+        <speech by="#" eId="spk_67">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_143">Some of it was.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_68">
+          <from>Chairman</from>
+          <p eId="para_144">That is outrageous.</p>
+        </speech>
+        <speech by="#" eId="spk_69">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_145">We raised the issue with Cork County Council in the course of its development plan and local area plan zoning proposals.  We were left with no alternative but to advise Cork County Council that the NRA was not in a position to fund that road.  It did not represent good value for money.  As a consequence, farmers who anticipated their land would be taken have been discommoded to the extent that the CPO process has been terminated and will not proceed to the normal end of the land being acquired and compensation being paid.  We regret that this has happened and farmers have been impacted in that way but in the interests of protecting the taxpayer and ensuring value for money within the roads programme the NRA had no alternative in those circumstances.  We recognise the traffic needs of Mallow and have no intention of abandoning it.  We are working to address it as part of a bigger project involving a section of the Atlantic between Croom and Blarney.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_70">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_146">Did Mr. Egan mention Macroom?  Is it on his radar?</p>
+        </speech>
+        <speech by="#" eId="spk_71">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_147">I said Croom and Blarney.  We will pick up the link to Mallow and we are optimistic we will come up with a more cost-effective and, in traffic terms, a more beneficial solution for Mallow.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_72">
+          <from>Senator Paul Bradford</from>
+          <p eId="para_148">Does Mr. Egan have any idea on the timeframe for progress on Mallow?</p>
+        </speech>
+        <speech by="#" eId="spk_73">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_149">It is difficult to set a specific timeframe but it is being actively planned.  By the end of next year we aim to have reached the point of completing the compulsory purchase order process.  There is every prospect of this moving relatively quickly because the main part of the Mallow solution is part of the Atlantic corridor, which has a high priority in the national development plan.</p>
+          <p eId="para_150">A number of questions related to specific figures for delays and Bantry bypass was mentioned.  There is a funding difficulty with regard to national secondary roads.  Given the priorities set out in the NDP and Transport 21, the bulk of funding available to the authority will be spent on national primary roads.  We are only in a position to fund limited work on national secondary roads, including a Bantry bypass, and, generally, this will not involve substantial land acquisition.  Until we get over the hump of 2010 and the major inter-urban demands--</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_74">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_151">We completed the Skibbereen bypass five years ago.</p>
+        </speech>
+        <speech by="#" eId="spk_75">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_152">We did and there is a small number of them.  We are developing a national secondary road in Kilkenny at the moment and there is a small level of such activity around the country, which will continue in the medium term.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_76">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_153">There is no evidence of that in west Cork.</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_154">I am referring to the Kilkenny inner relief road.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_78">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_155">Kilkenny is getting everything.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_79">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_156">May I ask about reinstating grade 5 rural roads?</p>
+        </speech>
+        <speech by="#" eId="spk_80">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_157">The NRA makes funding available to county councils when roads are completed or almost completed to ensure they are left in a reasonable condition.  If heavy traffic arrived on the road too soon after road construction it would simply rip up what had been done.  There is a right time and a wrong time to do this.  It is standard practice for the authority to provide funding towards the back end of the construction of a new road to address the road surface situation.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_81">
+          <from>Chairman</from>
+          <p eId="para_158">I suggested to our county manager that potholes should be filled.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_82">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_159">I am not talking about potholes, I am talking about roads.  We are referring to 2010.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_83">
+          <from>Chairman</from>
+          <p eId="para_160">If the Deputy has a supplementary question I ask him to be quick.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_84">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_161">This is 2008 and I am talking about 2010 so there are two years to go on the programme for these minor roads.  We cannot wait two years for them to be finished because, due to Readymix lorries and so on, the roads will not be there in two years.</p>
+        </speech>
+        <speech by="#" eId="spk_85">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_162">If there are specific cases of concern like the one the Deputy has raised they should be brought to the attention of the county council, which can liaise with us.</p>
+          <p eId="para_163">I hope this addresses the key issues.</p>
+        </speech>
+        <speech by="#TomSheahan" eId="spk_86">
+          <from>Deputy Tom Sheahan</from>
+          <p eId="para_164">There was still no mention of Kerry.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_87">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_165">South Kerry and south-west Cork have been written off.  We cannot get tourists because we have no ferry service.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_88">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_166">If there are roads the tourists will leave.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_89">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_167">I am sorry that I did not raise the matter of the Macroom bypass as we have covered everything else but I am sure the delegation will note my interest in the lack of progress in this area.</p>
+          <p eId="para_168">Regarding payment on account, sometimes it seems an issue is to be resolved with agreement on all sides but, for reasons outside the control of the landowner, this does not happen.  In such circumstances 70% of the payment could be made and, pending resolution of outstanding issues, the balance could be paid later.  Conveyancing can take months so, rather than holding up the process, could this possibility be examined?</p>
+          <p eId="para_169">Does the local authority or the NRA appoint a valuer?  The local authority acts on an agency basis for the NRA but I am told the NRA head office second guesses the local authority's valuer and does not accept the valuations of valuers acting on behalf of the State.  This seems to further convolute matters because there is no point in buying a dog and barking oneself.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_90">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_170">I thank the witnesses for their explanations, though I do not accept them all.  Reference was made to two-plus-one roads; what will happen when they are built and what will happen to the poor junctions?  I mentioned one such junction but there are a number of them.  I understood the contractor was obliged in all contracts to maintain all affected roads within 2 km of the road works scheme.  This maintenance should apply until a road is opened; why should we seek money from the NRA or council?  I am worried that the bills from all jobs facing the NRA will be too big to be paid because the original construction of the roads was not good enough.</p>
+          <p eId="para_171">Regarding the IFA and the low number of complaints that are not dealt with, the IFA is not representative of everyone and that should be clear today.  We all know people in our constituencies who contact us regularly on this matter.</p>
+          <p eId="para_172">Farmers have no options if a liaison officer who has been attached to several road schemes in the same area is unacceptable to them.  They have nowhere to turn and this is not satisfactory.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_91">
+          <from>Senator Paul Bradford</from>
+          <p eId="para_173">I have a brief supplementary question that may have been answered in Mr. Egan's comprehensive reply, which I just missed.  What is the general figure, as a percentage, relating to settlements in the past eight to ten years?</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_92">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_174">Consultants may be appointed to work for a county council and then, within a short period, work for farmers on another project in the same area.  This happened in the Kilkenny-Waterford region and it is wrong.  There should be a designated period during which a consultant who has represented officialdom cannot represent land owners in the same area.  Mr. Egan is well aware of the area and people I am referring to.  Farmers only a few miles from me are now being represented by people I could not deal with for two years.</p>
+        </speech>
+        <speech by="#TomSheahan" eId="spk_93">
+          <from>Deputy Tom Sheahan</from>
+          <p eId="para_175">Perhaps Mr. Egan would comment on plans for Kerry because projects for the county all seem to be at planning stage, some for 20 years.  It would be remiss of me not to mention the issue of the Killarney bypass.  Killarney Town Council has recently been informed that the NRA will allow a roundabout on the Killarney bypass to allow the HSE access its land.  The council sought access to the bypass to alleviate traffic congestion for some years and its members feel this decision is a slap in the face.  Over the years they had no success in discussing the alleviation of traffic congestion with the NRA yet a roundabout is to be placed at the spot where St. Finian's Hospital is for sale, where the HSE owns 40 acres of land.</p>
+          <p eId="para_176">Reference was made to this matter earlier but it would be remiss of me not to mention the issue because there is consternation among the people of Killarney.  When the town is blocked people are not able to access the bypass and move traffic out of Killarney, yet a roundabout is to be built to access valuable land to be sold by the HSE.  There appears to be a cosy cartel between the HSE and NRA, two bodies that seem not to be answerable to anyone in the Houses of the Oireachtas.  When one asks the Minister for Transport a question on roads he replies he does not have responsibility for them.  My colleagues remind me that the Minister for Health and Children has no responsibility for this issue either and that we must contact these two authorities.</p>
+          <p eId="para_177">I raise this issue because there is consternation in the town council where for years members have sought access to the bypass to be provided.  This is now to be presented to the HSE so its land can be accessed for developments.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_94">
+          <from>Chairman</from>
+          <p eId="para_178">The Chairman of the Joint Committee on the Environment, Heritage and Local Government will have my life for raising issues that fall within his remit.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_95">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_179">These issues do not fall within his remit either.  Mr. Egan stated that the Constitution guarantees the right to private property.  Only in exceptional circumstances, for the common good, can this right be interfered with.</p>
+          <p eId="para_180">There is also the constitutional guarantee of fair compensation for citizens for land that is acquired from them.  Our forefathers fought for the three Fs: freedom of sale and fixity of tenure.  I cannot remember the third one as I do not have them off by heart.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_96">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_181">Fair rent.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_97">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_182">Mr. Egan mentioned in his statement that the NRA, along with the Department of the Environment, Heritage and Local Government and the Irish Farmers Association, entered into an agreement in 2001 which sought to improve and streamline the acquisition process, including arrangements for payment of compensation.  Among the provisions of the agreement was the introduction of new timescales for the making of offers and completion of negotiations.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_98">
+          <from>Chairman</from>
+          <p eId="para_183">The Deputy should note that this meeting is to finish at 1.30 p.m.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_99">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_184">It also provided for a goodwill payment of €5,000 per acre.  Was that a special incentive agreed with the IFA?  This is an important matter that we must thrash out here.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_100">
+          <from>Chairman</from>
+          <p eId="para_185">Many people, including myself, would give the local agent the job of representative.  In a situation in which the local agent recommends that I should accept compensation, but other agents have not recommended to their clients to accept the compensation offered, is it true to say that those who accept are going to be worse off than the people who delay the process, who will end up getting more money?  That is what many people are worried about, and I can understand their concerns.</p>
+          <p eId="para_186">Deputy Aylward mentioned the closing of roads.  There are usually two or three months' notice of the closing of a road in the local papers, and it is read out in the local church that the road would be closed on a particular date.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_101">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_187">I was talking about a case in which it was one week.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_102">
+          <from>Chairman</from>
+          <p eId="para_188">No, it was longer than that.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_103">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_189">In the case about which I talked last week, it was one week.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_104">
+          <from>Chairman</from>
+          <p eId="para_190">Mr. Egan mentioned this himself, but I did not hear it on our local radio.  Perhaps councils differ in this respect.  I suggest, particularly for the M3, that a weekly notice be given of when roads are to close.  Could that be done?  I must say that when a group of farmers in Carnaross, an area which Mr. Egan knows well, approached me about the road being closed and I negotiated on their behalf with the officials, they came up with a solution.  They gave the farmers keys in order that they could use the road for agricultural purposes.  It is difficult in some places, while in other places it can be done.  I know the NRA is very forthcoming where possible about giving access to segregated land.  I thank the NRA very much for its co-operation.  Every politician that goes into the office in his or her local county has found the officials to be very forthcoming.</p>
+        </speech>
+        <speech by="#" eId="spk_105">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_191">I will not say very much but will ask my colleague Mr. Fagan to deal with most of the issues that have been raised.  Obviously the IFA does not represent all landowners and farmers, but I have referred to the IFA a lot in my comments throughout the meeting, mainly because the IFA is the party to the agreement concluded in 2001 with the Department of the Environment, Heritage and Local Government.  As I said, the authority is a signatory to that and we are committed to attempting, to the best of our ability, to deliver on it.  We have separate discussions with the ICMSA, which is the next most representative farmers' body, and we seek to progress issues in a co-operative fashion with that body through that mechanism.</p>
+          <p eId="para_192">With regard to the Killarney bypass, the best thing I can do is to offer to come back to Deputy Sheehan on the specifics.  I have been out of the office for a week, but I have read about recent developments in Killarney.  I know from past experience that we have worked with Kerry County Council on a junction strategy for Killarney and for Tralee.  Our basic concern would be that the national road traffic function of national roads should not be compromised by junctions in the wrong place, too many junctions or junctions catering for the wrong form of development.  A balance must be struck between catering for long-distance traffic and locally generated traffic and this may in some cases mean separate roads to cater for local traffic.  Thus, compromises or other solutions may be required.  As I said, I will come back to the Deputy with the specifics on the recent developments involving access to a HSE facility via a roundabout.  My colleague Mr. Fagan will deal with the other questions that were asked.</p>
+        </speech>
+        <speech by="#" eId="spk_106">
+          <from>Mr. Martin Fagan</from>
+          <p eId="para_193">For the information of members, I am a surveyor and a valuer.  I liaise directly with the valuers and am involved in appointing valuers for particular schemes.  A couple of issues were raised with regard to compensation.  We have made interim payments to landowners depending on the circumstances of their acquisitions.  Quite often it is a case in which the family home is involved.  We would compensate the landowner for the full value of the land we are acquiring, which could be a house and lands, and allow the landowner to remain in the family home until he or she has made alternative arrangements.  We give interim payments, but it depends on the individual circumstances.</p>
+          <p eId="para_194">The issue of interest payments for the purchase of alternative land was raised.  If a genuine case is put to a local authority that land is to be purchased and that it will incur a cost, that is a disturbance item and can be compensated for.  We have paid such compensation.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_107">
+          <from>Chairman</from>
+          <p eId="para_195">What if the person involved is paying high interest in the interim?</p>
+        </speech>
+        <speech by="#" eId="spk_108">
+          <from>Mr. Martin Fagan</from>
+          <p eId="para_196">We would pay that as a cost if the person purchases, and can prove he or she has purchased, land to replace land that we are acquiring, yes.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_109">
+          <from>Chairman</from>
+          <p eId="para_197">I know a man who paid close to €1 million for land two or three months ago.  He still does not have an agreement, and he is paying high interest.  Is Mr. Fagan saying that man could put in a claim for part of that interest?</p>
+        </speech>
+        <speech by="#" eId="spk_110">
+          <from>Mr. Martin Fagan</from>
+          <p eId="para_198">For part of that interest.  I cannot say exactly because it depends on how much land we are acquiring.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_111">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_199">If we look at it another way, people who are not able to buy land are not getting anything.  What if there is no land available to buy?</p>
+        </speech>
+        <speech by="#" eId="spk_112">
+          <from>Mr. Martin Fagan</from>
+          <p eId="para_200">If there is no land available to buy, that is a different issue.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_113">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_201">One person is getting an advantage merely because he or she is able to buy land, while another person--</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_114">
+          <from>Chairman</from>
+          <p eId="para_202">The person is paying interest.  It is different.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_115">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_203">We are all looking for land to replace the land we lost.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_116">
+          <from>Chairman</from>
+          <p eId="para_204">No, it is different.</p>
+        </speech>
+        <speech by="#" eId="spk_117">
+          <from>Mr. Martin Fagan</from>
+          <p eId="para_205">Some landowners want to purchase new lands to add to their farms, while others do not.  It all depends on the individual circumstances.  In certain cases land severed from one farm would be used as part of the compensation package for an adjoining landowner in lieu of payment.  In other words, if we have land that is to be surplus to our requirements — these could be small areas, because we try to minimise the amount of land we take for road schemes — we could agree, as part of a compensation package, to the exchange of land as opposed to payment on account.  It is not strictly payment of a certain amount of money.</p>
+          <p eId="para_206">There were a couple of issues with regard to valuers.  We pointed out here that they are appointed by way of competitive tender.  They will act for the local authority only on a particular scheme, but they are free to act for landowners elsewhere in the country on a different scheme.  This is no different from any other professional, such as a solicitor who acts one day for one client and another day for another.  They will act for the local authority only on that particular scheme.  Obviously they cannot take any other work in that area.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_118">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_207">What if the lands are adjoining, and it is the same land but a different scheme?</p>
+        </speech>
+        <speech by="#" eId="spk_119">
+          <from>Mr. Martin Fagan</from>
+          <p eId="para_208">If it is a different scheme, yes.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_120">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_209">If the land on one side--</p>
+        </speech>
+        <speech by="#" eId="spk_121">
+          <from>Mr. Martin Fagan</from>
+          <p eId="para_210">They are professional people who are appointed to act on one scheme and that scheme only for the local authority.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_122">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_211">The complaint I get from local landowners is that one day the agents are working on one side and another day on another side in the same area.</p>
+        </speech>
+        <speech by="#" eId="spk_123">
+          <from>Mr. Martin Fagan</from>
+          <p eId="para_212">I see it as being no different from any other--</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_124">
+          <from>Chairman</from>
+          <p eId="para_213">From a solicitor, an accountant or anyone else.</p>
+        </speech>
+        <speech by="#" eId="spk_125">
+          <from>Mr. Martin Fagan</from>
+          <p eId="para_214">Absolutely.  It is no different.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_126">
+          <from>Chairman</from>
+          <p eId="para_215">That is fair enough.</p>
+        </speech>
+        <speech by="#" eId="spk_127">
+          <from>Mr. Martin Fagan</from>
+          <p eId="para_216">Mr. Michael Egan has already mentioned that we met, not just the IFA — we are very conscious of that as it is the biggest body — but also the ICMSA and local groups representing landowners who may have issues.  We have tried to address those issues as best we can.</p>
+          <p eId="para_217">I wish to mention the value of land.  Mr. Egan has tried to explain how the valuers who are acting on behalf of the local authorities look at what land has been sold and how much it made, as close as possible to the date of the notice to treat.  That is the date on which land is valued.  We make that information available to the agent who is acting for a landowner.  If there is information, or sales that have been missed, genuine open-market sales that should be brought to the attention of the valuer acting for the local authority, those will be factored into it.  That is how the value of land is decided.  It is important to note that over the last ten years we have gone through the most sustained boom in land values.  That is reflected in how much we are expending of the overall roads budget on land acquisition.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_128">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_218">I asked Mr. Egan about the contract and if there was an obligation to maintain 2 km each side of the project.  That is what I was told in Tipperary.  If so, that should be done before they finish rather than have them looking for money.  What is going to happen with the poor junctions that were referred to, or the two-plus-one roads already there which are dangerous?</p>
+        </speech>
+        <speech by="#" eId="spk_129">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_219">The two-plus-one roads are not dangerous as such.  That is not the reason the authority has changed its approach.  About two years ago we started piloting this particular road type.  For the benefit of members who may not be familiar with it, there are two lanes on one side of the carriageway and a single lane on the opposite side.  At approximately two kilometre intervals that configuration alternates, allowing the opportunity to pass on the two-lane section and reducing potential frustration in drivers.  In that sense it is safer.  A physical barrier down the centre minimises the risk of head-on collisions so there are actually safety benefits.</p>
+          <p eId="para_220">We abandoned this road type for a number of reasons.  We had concerns that in situations where traffic volumes were likely to grow significantly — and we are not talking here about the limited number of cases to date —  there would be an increasing tendency of traffic trying to leapfrog as it comes to the end of the two-lane section.  That was one point.  When we reviewed road design and costings, we were satisfied that for modest additional expenditure, we could get a two-plus-two lane solution, a dual-carriageway configuration on both sides.  This would give us a longer service lifespan for the road and in that sense it represented better value for money.  We decided to do it on that basis for the future.  That is to be our greenfield strategy.</p>
+          <p eId="para_221">The limited number of two-plus-one roads in existence have a significant lifespan and we would expect to operate them for the foreseeable future on that basis.  In the longer term they will be due for upgrading, but that is the current strategy.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_130">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_222">I accept they are safe but they have no hard shoulder.  If a HGV pulls in, or a lorry breaks down at night, there could be a serious accident.  I have grave misgivings and I think it is outrageous that consultants got a fortune to design these roads.  I have serious concerns about these roads which are atrocious.  Large amounts of land was taken but there is no hard shoulder.  I did not get an answer about whether the contractors are obliged to maintain the two kilometres of road.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_131">
+          <from>Senator Paul Bradford</from>
+          <p eId="para_223">In defence of the NRA, which is often attacked, the Cork-Mallow two-plus-one project is working superbly.  Of all the miles of road I travel across the length and breadth of the country, I feel most safe on that particular stretch.  The figures speak for themselves.  On a road which, sadly, had been the cause of numerous fatalities, there has not been one since the two-plus-one opened.  It is a great source of road discipline.  I was unaware of the NRA's change of policy towards a full two-plus-two design.  My view, which may be a minority one, is that the two-plus-one created road discipline.  A driver had to wait only two kilometres to reach a full passing out lane.  I was very happy with it.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_132">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_224">It is likewise in Piltown.  Since the two-plus-one was introduced on a road where there had been many deaths, there has only been one accident, and no fatalities.</p>
+        </speech>
+        <speech by="#EamonScanlon" eId="spk_133">
+          <from>Deputy Eamon Scanlon</from>
+          <p eId="para_225">I know the road that Senator Bradford mentioned.  That road is much wider than the recent two-plus-ones.  That is the problem.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_134">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_226">I accept that the Piltown and Cahir roads are safe.  I have not driven on the Cork-Mallow section.  If there is no hard shoulder, that is where the danger lies.  The roads are safe and I like the concept as long as there is a hard shoulder.  The land taken was intended to facilitate the installation of a hard shoulder.  Everything will break down some time.  I fear the consequences.</p>
+        </speech>
+        <speech by="#" eId="spk_135">
+          <from>Mr Michael Egan</from>
+          <p eId="para_227">We will continue to monitor three or four of the two-plus-one roads.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_136">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_228">Is the Mallow road different from the Cahir one?</p>
+        </speech>
+        <speech by="#" eId="spk_137">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_229">Not essentially.  Where there are two lanes, obviously if there is a breakdown, there should be no difficulty in passing.  Even where there is a single lane there is a somewhat wider side margin on the road to allow for that.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_138">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_230">If it can be seen.</p>
+        </speech>
+        <speech by="#" eId="spk_139">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_231">We will continue to monitor and if difficulties arise we will address them.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_140">
+          <from>Chairman</from>
+          <p eId="para_232">The delegates will respond to Deputy McGrath's question.</p>
+        </speech>
+        <speech by="#" eId="spk_141">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_233">Regarding the issue of the contractor, unfortunately I cannot be specific. The situation may vary from contract to contract but my understanding is that there is very limited liability attaching to the contractor.  I will have to check that and come back to the committee.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_142">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_234">I signed the contract on the clear understanding that the contractors were going to maintain the roads.  Who is going to do so if the contractor does not?  He is destroying them.  It should be built into the contract.  My understanding was for two kilometres each time.  The contractor did honour that as many times as it was asked.  I am talking about when the road will be completed, the contractor is gone and the road is--</p>
+        </speech>
+        <speech by="#" eId="spk_143">
+          <from>Mr. Michael Egan</from>
+          <p eId="para_235">They will go out to remove soil or stone or whatever may have fallen on the road.  I will check the specifics and report back.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_144">
+          <from>Chairman</from>
+          <p eId="para_236">The committee thanks Mr. Egan and Mr. Fagan for their presentation and for answering its questions today.  It was a good discussion and I compliment them on the good work they are doing.  There have been difficulties with payments, access and so forth but it is to be hoped that, with meetings such as this and co-operation with the farmers, all of those problems can be resolved.</p>
+          <p eId="para_237">I believe that the committee should seek a meeting with Commissioner Peter Mandelson immediately because the effects of his WTO proposals are going to be detrimental to agriculture in this country.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_145">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_238">I support the Chairman.  The decisions that may be made over the next 12 months could be most important for farmers, particularly Irish farmers.  That is a great idea and I second it.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_146">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_239">I fully support it.  I was not satisfied with the meeting in Belfast.  We did not get any support.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_147">
+          <from>Chairman</from>
+          <p eId="para_240">I was disappointed with that.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_148">
+          <from>Deputy P.J Sheehan</from>
+          <p eId="para_241">There should be a meeting with Mr. Mandelson as soon as possible.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_149">
+          <from>Senator Paul Bradford</from>
+          <p eId="para_242">Regarding the meeting in Belfast, there was a certain political sensitivity.  It was still a positive meeting but I fully support the Chairman's suggestion.</p>
+        </speech>
+        <summary eId="sum_7">The joint committee adjourned at 1.29 p.m. until 9.30 a.m. on Thursday, 13 March 2008.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

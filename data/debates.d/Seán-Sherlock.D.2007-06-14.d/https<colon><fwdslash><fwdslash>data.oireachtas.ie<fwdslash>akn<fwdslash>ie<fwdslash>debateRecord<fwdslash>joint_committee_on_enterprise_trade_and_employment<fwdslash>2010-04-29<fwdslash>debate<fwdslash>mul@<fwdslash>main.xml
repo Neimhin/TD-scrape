@@ -1,0 +1,606 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_enterprise_trade_and_employment/2010-04-29/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_enterprise_trade_and_employment/2010-04-29/debate"/>
+          <FRBRdate date="2010-04-29" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_enterprise_trade_and_employment"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_enterprise_trade_and_employment/2010-04-29/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_enterprise_trade_and_employment/2010-04-29/debate/mul@"/>
+          <FRBRdate date="2010-04-29" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_enterprise_trade_and_employment/2010-04-29/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_enterprise_trade_and_employment/2010-04-29/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" eId="#vol_None" showAs="Vol. None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" eId="#no_None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="ChrisAndrews" href="/ie/oireachtas/member/id/Chris-Andrews.D.2007-06-14" showAs="Chris Andrews"/>
+        <TLCPerson eId="DamienEnglishFG" href="/ie/oireachtas/member/id/Damien-English.D.2002-06-06" showAs="Damien English"/>
+        <TLCPerson eId="DiarmuidWilson" href="/ie/oireachtas/member/id/Diarmuid-Wilson.S.2002-09-12" showAs="Diarmuid Wilson"/>
+        <TLCPerson eId="DonnieCassidyFF" href="/ie/oireachtas/member/id/Donie-Cassidy.S.1982-05-13" showAs="Donie Cassidy"/>
+        <TLCPerson eId="EamonScanlon" href="/ie/oireachtas/member/id/Eamon-Scanlon.S.2002-09-12" showAs="Eamon Scanlon"/>
+        <TLCPerson eId="FrankFeighan" href="/ie/oireachtas/member/id/Frank-Feighan.S.2002-09-12" showAs="Frank Feighan"/>
+        <TLCPerson eId="IvorCallely" href="/ie/oireachtas/member/id/Ivor-Callely.D.1989-06-29" showAs="Ivor Callely"/>
+        <TLCPerson eId="JohnPaulPhelan" href="/ie/oireachtas/member/id/John-Paul-Phelan.S.2002-09-12" showAs="John Paul Phelan"/>
+        <TLCPerson eId="MargaretConlon" href="/ie/oireachtas/member/id/Margaret-Conlon.D.2007-06-14" showAs="Margaret Conlon"/>
+        <TLCPerson eId="MartinFerrisSF" href="/ie/oireachtas/member/id/Martin-Ferris.D.2002-06-06" showAs="Martin Ferris"/>
+        <TLCPerson eId="MichaelFitzpatrickFF" href="/ie/oireachtas/member/id/Michael-Fitzpatrick.D.2007-06-14" showAs="Michael Fitzpatrick"/>
+        <TLCPerson eId="MichaelKennedy" href="/ie/oireachtas/member/id/Michael-Kennedy.D.2007-06-14" showAs="Michael Kennedy"/>
+        <TLCPerson eId="NedOKeeffe" href="/ie/oireachtas/member/id/Ned-O'Keeffe.S.1982-05-13" showAs="Ned O'Keeffe"/>
+        <TLCPerson eId="RoryOHanlon" href="/ie/oireachtas/member/id/Rory-O'Hanlon.D.1977-07-05" showAs="Rory O'Hanlon"/>
+        <TLCPerson eId="SeanPower" href="/ie/oireachtas/member/id/Seán-Power.D.1989-06-29" showAs="Seán Power"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Sean Sherlock"/>
+        <TLCPerson eId="SeymourCrawford" href="/ie/oireachtas/member/id/Seymour-Crawford.D.1992-12-14" showAs="Seymour Crawford"/>
+        <TLCPerson eId="ShaneMcEntee" href="/ie/oireachtas/member/id/Shane-McEntee.D.2005-03-11" showAs="Shane McEntee"/>
+        <TLCPerson eId="WilliamPenrose" href="/ie/oireachtas/member/id/Willie-Penrose.D.1992-12-14" showAs="Willie Penrose"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM FHIONTRAÍOCHT, TRÁDÁLA AGUS FOSTAÍOCHTA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON ENTERPRISE, TRADE AND EMPLOYMENT</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2010-04-29">Déardaoin, 29 Aibreán 2010</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2010-04-29">Thursday, 29 April 2010</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 11 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#ChrisAndrews">Deputy Chris Andrews,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#IvorCallely">Senator Ivor Callely,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#DamienEnglishFG">Deputy Damien English,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#DonnieCassidyFF">Senator Donie Cassidy,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelFitzpatrickFF">Deputy Michael Fitzpatrick,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#JohnPaulPhelan">Senator John Paul Phelan.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#NedOKeeffe">Deputy Edward O’Keeffe,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#SeanPower">Deputy Seán Power,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">In attendance: Deputies Johnny Brady, Margaret Conlon, Seymour Crawford, Frank Feighan, Martin Ferris, Michael Kennedy,  Shane McEntee, Rory O'Hanlon, Eamon Scanlon, Seán Sherlock and Noel Treacy, and Senator Diarmuid Wilson.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#WilliamPenrose">DEPUTY WILLIE PENROSE IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_5">The joint committee met in private session until 11.15 a.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Quinn Insurance Limited: Discussion. </heading>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_9">I welcome the delegation from Quinn Insurance Limited which has appeared at short notice at the suggestion of Deputy English.  All members of the joint committee are fully aware of the uncertain position and worries of Quinn Insurance employees.  In the past three weeks Members on all sides of the Houses have actively sought a resolution of the difficulties and uncertainty surrounding the company.  The joint committee is pleased employees of the company have come before it to express their views.  I only wish the circumstances were different.  Members are supportive of the employees' case and have been in contact with Quinn Insurance staff as late as yesterday.  We are aware of the importance of the company's business and the employment it provides across Ireland and in England.</p>
+          <p eId="para_10">The meeting will take the form of a question and answer session.  The delegation can take as read the support of members which they have expressed on numerous occasions in private and public, including at meetings with staff of the company.  I draw attention to the fact that members of the joint committee have absolute privilege but this same privilege does not apply to witnesses appearing before the committee.  Members are reminded of the parliamentary practice to the effect that they should not comment on, criticise or make charges against a person outside the Houses or an official either by name or in such a way as to make him or her identifiable.  It is standard procedure for the Chairman to issue this advice.  I ask Mr. Lynch to commence the presentation.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from>Mr. Joe Lynch</from>
+          <p eId="para_11">On behalf of my colleagues in Quinn Insurance Limited, I thank the joint committee for allowing us this opportunity to make a presentation.  A document we prepared last night has been circulated to members.</p>
+          <p eId="para_12">Like everyone else, we were shocked to read media reports this morning indicating that 800 jobs were at risk in Quinn Insurance.  It is outrageous that company employees should learn their fate from the media.  This is not surprising, however, when one considers that when the Financial Regulator re-opened one line of our business 15 days ago, employees learned of the decision through the media.  This most recent action reinforces the importance of this meeting.  We appreciate members' attendance.</p>
+          <p eId="para_13">The Financial Regulator made two separate decisions on 30 March impacting on Quinn Insurance Limited.  At 9 a.m. he banned the company from writing or renewing business in the United Kingdom market.  At 11 a.m., in an <i>ex parte</i> hearing, the High Court granted the Financial Regulator’s request to place Quinn Insurance in provisional administration.  By following the procedure in the order the Financial Regulator ensured the board of Quinn Insurance would not have a right of appeal, as it was no longer in control of the company.  He also ensured the appointed administrators, as recommended by him, were immediately constrained in fulfilling their legal duty, under the Insurance Act 1983, of placing the company on a sound financial footing.  A more logical course of action may have been for the Financial Regulator to first appoint the administrators to the company, allow them the time to exercise due diligence and examine the books and, ultimately, to decide what segments, if any, were unprofitable and should cease to trade.  Instead, a blanket ban was imposed on the entire Northern Ireland and Great Britain market and a laborious process ensued to get just one of the profitable lines reopened, as occurred 15 days ago.</p>
+          <p eId="para_14">As representatives of Quinn Insurance employees and the many service providers affected by current circumstances, we are here to provide oral evidence for the joint committee.  We will briefly provide an overview of the ruling by the Financial Regulator who had a number of concerns which led him to the decision to place Quinn Insurance in administration.  These included solvency margins, guarantees provided for Quinn Group subsidiaries and governance procedures.</p>
+          <p eId="para_15">There has been considerable media speculation and debate on both sides as to whether the company should be in administration.  When Quinn Insurance withdrew its objection to the Financial Regulator's move to place the company in full administration on Thursday, 15 April, both the company and its employees expected this move would hastily pave the way for re-entry to the Northern Ireland and Great Britain market.  Some 31days later, the ban has been lifted in only 10% of the market, that is, the market for provisional drivers.  It is difficult to comprehend the reasons for the delay, given that a business plan was submitted to the administrators just eight days after the company had been placed in provisional administration.  The plan clearly demonstrated that numerous segments of the book were highly profitable.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Mr. Liam O’Neill</from>
+          <p eId="para_16">The announcement of both the ban and the placing of the company in administration came as a total shock to the staff of Quinn Insurance, although we have become accustomed to it at this stage.  We are reliably informed that the company has out-performed in the Republic of Ireland and UK markets in the published figures for every year since 2005.  Not surprisingly, Quinn Insurance was affected by the recession in 2009, as was the insurance industry as a whole, but it was very much in an upward cycle and had forecast significant growth in the UK market in 2010.  In the first quarter of this year the company had a 15% improved earned premium income on a motor claims profit of €16 million.</p>
+          <p eId="para_17">For more than four weeks employees have been very proactive in voicing their concerns about the future of Quinn Insurance and ultimately the future of their jobs.  They have been particularly vocal on the issue of the Northern Ireland-Great Britain ban that was imposed and have been persistently calling for its removal.</p>
+          <p eId="para_18">Our approach has been varied.  We have met some of the representatives present today and have had and are continuing to have meetings with politicians north of the Border.  This, combined with several rallies held in Cavan, Dublin and Enniskillen, has been successful in highlighting to the general public, through the media, the plight of employees.  This was crucial to us as the media hype surrounding other issues was overshadowing the message we needed to convey, that we had felt all along that the massive repercussions of the current problem had not been fully understood either by politicians or the media.  Perhaps today's newspaper reports will finally change this.</p>
+          <p eId="para_19">Quinn Insurance has 2,800 employees in Ireland, north and south of the border, of whom some 1,500 are employed in roles which directly facilitate business in Northern Ireland and Great Britain.  This number is further inflated by upwards of 700 service providers such as claims managers who also work in direct relation to Northern Ireland-Great Britain business.  An additional 1,000 jobs had been projected in the next three years.  How many other Irish companies are creating employment in the current climate?  The reopening of 10% of the market secures very few of these jobs and is not sustainable on its own.  There are hundreds of employees who have been prevented from doing their jobs for more than four weeks and this number will rapidly increase in the coming weeks if this issue is not addressed immediately.  We do not have to tell the committee that this is simply not sustainable, for us or any other business.  How can employees based in offices in Cavan, Navan, Dublin, Enniskillen, Derrylin, Manchester and London have any form of job security?  In the Republic alone, the figure tallies above 2,000, more than half of whom are directly affected by the Northern Ireland-Great Britain ban.  Today, of all days, the people concerned are feeling utterly dejected, angry and frustrated.</p>
+          <p eId="para_20">Quinn Insurance pays the 1,500 employees whose roles involve the Northern Ireland-Great Britain business over €40 million in wages every year.  A further €26.5 million is paid to those service providers servicing the Northern Ireland-Great Britain market.  Can we honestly say we can risk that level of salary and income tax being taken out of economy, bearing in mind it will never be replaced?  The staff are highly trained and skilled men and women who have had the opportunity to remain on the island of Ireland and contribute to it both socially and economically in a positive fashion.  They are building and buying homes, getting married and starting families in their home counties because they have been able to forge a lifestyle there that once would only have been possible in urbanised areas.  If their jobs go, what is there to incentivise them to stay?  Could Ireland sustain a mass exodus?  If those who become unemployed stay, what will be the cost of social welfare?  This would surely warrant a full economic impact study.</p>
+        </speech>
+        <speech by="#" eId="spk_4">
+          <from>Mr. Darragh O’Neill</from>
+          <p eId="para_21">It is worth calculating the cost of having an additional 2,000 families on social welfare payments.  I suspect the cost would rapidly escalate far beyond the cost of any solution.  Local businesses would certainly struggle without the spending power of 2,000 Quinn Insurance employees.  Some members have heard in person the concerns and fears being expressed by businesses nationwide.</p>
+          <p eId="para_22">The impact of any job losses in Quinn Insurance would very quickly lead to economic disaster for entire communities.  In fact, it is conservatively estimated that for every Quinn Insurance employee made redundant, there could be a knock-on negative impact on at least six jobs within that employee's community.  The only way to prevent this disaster for Ireland's economy is by lifting immediately the ban on the business pertaining to Northern Ireland and Great Britain.</p>
+          <p eId="para_23">Let us talk from a purely commercial point of view.  Quinn Insurance is losing between €1 million and €1.5 million a day while the ban is in place.  We are 31 days out of the UK market, at a cost of €46.5 million, which will amount to €547.5 million per annum.  To put this in context, how many indigenous Irish companies generate a turnover of more than €500 million?  One should consider that, prior to administration, our UK market turnover alone exceeded that figure.</p>
+          <p eId="para_24">Quinn Insurance had projected significant growth in the next three years.  It is the only Irish insurer which exports business to the United Kingdom.  This is precious export business on which the Republic is heavily reliant, as confirmed in the Davy stockbroker report published this week.  It stated Ireland's road to recovery would be export-led.  UK business accounts for over 50% of Quinn Insurance's book.  We understand there may have been segments of it that were not profitable and recognise that professional indemnity was an issue of concern in 2009.  We had taken measures to address this and are already seeing the results of these actions.  However, what is incomprehensible is that a blanket ban was imposed instead of identifying those areas that were highly profitable and allowing us to continue trading in these areas.</p>
+          <p eId="para_25">The Financial Regulator has repeatedly voiced that his priority is the 1.3 million policyholders of Quinn Insurance.  As it stands, UK commercial, private motor and home insurance customers are contacting us to renew their policies and we have had no choice but to turn away their business.  This is business we cannot retrieve for at least 12 months, even if the restrictions are lifted.  This is causing great anxiety and frustration among the employees who are at the coalface advising new and existing customers that we cannot take their business.  They are being forced to turn business away that could help them to save their jobs.  We have 1.3 million customers, of whom 55% are in the United Kingdom.  This means we are losing 2,000 customers daily.  Within 12 months, the customer base in the United Kingdom will be completely eradicated.  This equates to 62,000 customers lost in the 31 days since the implementation of the ban.  That we are still receiving a huge number of inquiries daily testifies that there is an appetite in the markets and a willingness to do business with Quinn Insurance.  Further evidence of this is the fact that in the Republic where no restrictions have been implemented Quinn Insurance has extremely high levels of renewals and new business.  This is a sure indication of the loyalty that our customers in the United Kingdom would show to us if given the opportunity.</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from>Mr. Liam Maguire</from>
+          <p eId="para_26">We have very many loyal customers, some of whom have been with us for more than 15 years.  Some have six-figure premiums and very low claims ratios.  They are the epitome of good business.  It simply does not make sense that these customers are prohibited from doing business with us.</p>
+          <p eId="para_27">It should be noted that each of the customers we have to turn away must approach a new insurance firm with which he or she has no relationship and of which he or she has no experience.  No consideration has been given to these commercial customers who are unable to renew their policies.  Creating a new policy is more expensive than renewing a policy with one's current insurer.  This is having a huge detrimental impact on many of our Northern Ireland and British customers.</p>
+          <p eId="para_28">Let me describe two real policyholder experiences.  First, a customer trading with Quinn Insurance for the past few years had to seek alternative insurance cover at an additional premium cost of £100,000 when we were prohibited from renewing his policy.  Second, a customer tendered for a substantial contract but was refused at the tender stage owing to the fears in the UK market about his firm being insured with Quinn Insurance.  It is difficult to comprehend how the Financial Regulator considers this to be protecting policyholders.  A large number of customers based in Northern Ireland and Great Britain trade directly and frequently with businesses in the Republic.  Therefore, there is an indirect but significant knock-on effect on Irish businesses.  If nothing else, this warrants an approach of assessing each commercial customer on a case-by-case basis.</p>
+          <p eId="para_29">Quinn Insurance has changed the face of the insurance market in Ireland, North and South, since it was introduced to it 14 years ago.  It has, in turn, made similar progress in the UK market.  By introducing competition to the market and with its unique and robust operational model, it has reduced the cost of premiums by an average of 40%.  If it were eradicated from the market, it is inevitable these premiums would climb once more.  This is a burden most households and businesses could do without in such troubled economic times.  Members in this room insured with Quinn Insurance value their consumer choice, just like all of their constituents.</p>
+          <p eId="para_30">It would be remiss of us not to recognise the impact any decision made about Quinn Insurance would have on the Quinn Group.  There should be cognisance of the 2,700 additional jobs sustained by the group, of which more than 1,000 are in the Republic of Ireland.  In addition, the Quinn Group has demonstrated its commitment to achieving sustainable economic growth in Ireland for 37 years, contributing €1.3 billion to the Exchequer in tax.  As employees, we believe the Quinn Group needs to be part of an eventual solution, as this is the only way we can guarantee that jobs will be kept and kept where they are located.  No other external investor has invested so heavily in these forgotten rural regions, nor would they have any reason to maintain employment there.  We understand there is significant external investor interest in Quinn Insurance and that as many as 50 expressions of interest are on the table.  The irony is that this is proof, if proof was needed, that Quinn Insurance is a viable, sustainable and profitable business.</p>
+        </speech>
+        <speech by="#" eId="spk_6">
+          <from>Ms Mona Birmingham</from>
+          <p eId="para_31">We do not want to address this committee in the coming weeks to seek help and aid for thousands of employees who will have been made redundant.  We have a solution that will avoid such a situation.  We all need to be proactive in stopping the loss of 800 jobs in the near future rather than just reacting after it has happened.  The immediate reopening of 100% of the Northern Ireland-UK market would be an easy and straightforward solution that would ensure unnecessary job losses were prevented.  The administrators should have been put in a position where they assessed the market and only then imposed a ban on writing insurance for parts of the market that had proved to be unprofitable.  If this had been done, we would not have been starting at the figure 0% of the market.  By doing what he did the Financial Regulator unnecessarily put hundreds of jobs at risk.  We are talking about people's lives.  This is now about damage limitation in minimising needless job losses, while allowing the administrators to conduct a due diligence process on the business.  We want the Financial Regulator to accept this.  We need to save Quinn Insurance for the employees, policyholders and this fragile economy.  What will our elected representatives do to avoid this crisis?</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_32">I thank the delegation for its presentation.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_8">
+          <from>Deputy Damien English</from>
+          <p eId="para_33">It is good to hear at first hand from the employees, as we have been getting only bits and pieces so far.  This gives the committee the full picture, which means it can exert pressure to have some fast decisions made on the matter and the markets reopened.</p>
+          <p eId="para_34">It was wrong that the employees heard about the job losses through the media, not the Financial Regulator or the administrators.  Some employees informed me that they nearly crashed their cars this morning when they heard the news on radio driving to work.  That is fundamentally wrong and the committee agrees it is not the way to do business.  Has there been any word from the administrators about reopening the market 100%?  Does it mean that every day it is closed, job losses are mounting?</p>
+        </speech>
+        <speech by="#" eId="spk_9">
+          <from>Ms Mona Birmingham</from>
+          <p eId="para_35">We needed it to be open yesterday and 31 days ago.  We have spoken about the financial loss but not the employees who are not sleeping at night owing to worry.  We are taking about people's lives.  Time has been wasted.  The market must be reopened with immediate effect.  There are rumours about what levels of the market the Financial Regulator will reopen.  We have had our hopes raised so many times that we do not know what to believe.  We will only believe it when we see it.  We are calling for a reopening of the market 100%, followed by an incremental shutdown as the administrators see fit.  To us that is the most logical approach and the only way jobs can be saved.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_10">
+          <from>Deputy Damien English</from>
+          <p eId="para_36">It is disappointing that it was not done that way.  The administrators should have been given the opportunity to go back to the Financial Regulator to inform him from which parts of the market the company needed to be withdrawn.  The committee supports the workers and will try to have a decision made quickly on the reopening of the market.  However, it cannot lecture the regulator on what he does, but we can ask him to address the matter with more urgency.  It is wrong that 15 days later Quinn Insurance still only has access to 10% of the UK market.  I thank the delegation for putting all the facts and figures in front of the committee.</p>
+        </speech>
+        <speech by="#" eId="spk_11">
+          <from>Mr. Liam O’Neill</from>
+          <p eId="para_37">We believe we are losing between €1 million and €1.5 million a day, a large amount for any organisation.  Jobs are going every day we procrastinate on the decision to reopen the market.  As Ms Birmingham said, we would prefer if we had a reopening of the market 100% with immediate effect.</p>
+        </speech>
+        <speech by="#" eId="spk_12">
+          <from>Mr. Darragh O’Neill</from>
+          <p eId="para_38">One has to question why, two hours prior to being placed in administration, there was a ban imposed on trading in the UK market.  The correct procedure would have been to place the company in administration, the administrators could then have conducted a full due diligence exercise on the accounts and decided what elements of the business were profitable.  There should not have been this broad-brush stroke to close down every element of the business.  Instead of starting at 0% and working upwards, it should have started at 100% and moved downwards.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_13">
+          <from>Chairman</from>
+          <p eId="para_39">Deputy English is a model of what we want at the committee.  His questions were sharp and elicited precise answers from the delegation.</p>
+        </speech>
+        <speech by="#SeanPower" eId="spk_14">
+          <from>Deputy Seán Power</from>
+          <p eId="para_40">I thank the delegation for the presentation.  It is no surprise to hear about their frustrations.  I acknowledge the contribution the Quinn Group has made during the years in providing employment in areas in which others were reluctant to invest.  It has been sad to watch developments in the past few weeks.  It is a group which has been an important player in Ireland in many ways.</p>
+          <p eId="para_41">Were the employees surprised that the Quinn Group had removed its objections to the Financial Regulator's decision to place the company in full administration?  The employees have made a big play about the business in Northern Ireland and Great Britain.  Is it correct that the loss made in that market last year was €44 million?  Only a few weeks ago we were blaming the regulatory system for not taking action with regard to the banks' liquidity requirements.  Now the Financial Regulator has taken action and one of the results will, I accept, be job losses.  That said, there are several other factors at play that have contributed to the present difficulties.  I accept the employees have not contributed in this regard but one has to look at the manner in which the business operated and the way money was taken out of the company by the family as well as the cross-subsidisation that occurred.  Have the witnesses any comment to make on that?</p>
+          <p eId="para_42">We would like to see Quinn Insurance survive and I hope that as a result of the efforts that are now being made through the actions of the Financial Regulator, we will see a stronger company eventually.  It would appear to me that it cannot be saved in its present form but it is vital, I believe, that Quinn Insurance is retained and strengthened.  There is no grey area as regards regulation.  The requirements are in place to protect the customer and it is important this objective is adhered to.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_15">
+          <from>Chairman</from>
+          <p eId="para_43">There are a number of questions there from Deputy Seán Power.  We allowed members to ask three or four questions and the witnesses may decide for themselves who is the most appropriate person to answer a particular question or even all of them.  However, all speakers must address the committee through the Chair.  We do not allow any cross-firing here.</p>
+        </speech>
+        <speech by="#" eId="spk_16">
+          <from>Mr. Liam Maguire</from>
+          <p eId="para_44">I thank the Chairman for clarifying that.  I was about to respond to the Deputy's first question without realising that he had more.</p>
+          <p eId="para_45">In his first question, the Deputy asked whether we were surprised about the company voluntarily going into full administration.  From our viewpoint that speaks volumes about the perspective the Quinn group has had over the past 37 years and especially in the past two years when we have had one of the deepest recessions the country has ever experienced.  One must realise how frantically and hard the group has worked to maintain jobs.  The fact that we have not had any redundancies in Ireland during any period of recession is truly a testament to it.  It is important to maintain that standard through the administration process because of the two decisions that were made by the Financial Regulator.  One will certainly impact on the other.  The ban on underwriting new business in Northern Ireland and Britain is equivalent to more than 50% of our business and the impasse was going to be detrimental to the longer-term future of this business, so something had to give.  The company took a very prudent approach in this by saying, in effect, that we would work with the regulator if it meant there was an opportunity to lift this ban and secure the 1,500 jobs.  Unfortunately, the only concession we have had to date after this very strong gesture from the company has been a lifting of the ban on underwriting insurance for provisional drivers, which is 10% of our business.</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from>Mr. Liam O’Neill</from>
+          <p eId="para_46">I can take the second question on the loss made in the UK.  While we are not privy to all the financial data, at no point have we denied the fact that the UK operation made a loss last year.  Indeed, it was addressed in the presentation that 2009 was a particularly difficult year for all insurers.  There were a number of contributing factors, including the general economic downturn and recessionary conditions which made it a very difficult trading year for all insurers.</p>
+          <p eId="para_47">The media speculation in Britain is that the figures emanating from the UK will be very poor this year.  We believe, as indicated in the presentation, that we have outperformed the marketplace over a sustained period.  One needs to look at insurance not over a single 12-month period, say, but over a much longer time interval.  We have been trading in the UK since 2005 and we believe our performance there in that period has outstripped the marketplace and that we have performed very strongly.</p>
+          <p eId="para_48">It is no secret that our professional indemnity business took a heavy hit last year.  That was widely reported in the various media.  Again, when one looks at how the property market performed in 2009, there are no big surprises.  We are not angling for that business especially.  We had taken proactive steps in advance of this situation in any event, so we believed this was in hand.</p>
+          <p eId="para_49">We believe, because of our robust claims model and committed workforce and service providers, that we have the infrastructure, business model and people in place to address whatever issues may arise in terms of the losses made in 2009.  Early indications for 2010 show that we are returning to a very profitable situation.  Indeed, there is only 2% of a differential in the Irish and UK markets between the loss ratios.  Again, we ask ourselves why we have taken the position we have in the UK market <i>vis-à-vis</i> the marketplace in the Republic.  We believe we have a very strong business, hence our argument for 100% of that being re-opened for the UK.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_18">
+          <from>Deputy Damien English</from>
+          <p eId="para_50">Can Mr. O'Neill indicate whether all the sectors were making good profits?</p>
+        </speech>
+        <speech by="#" eId="spk_19">
+          <from>Mr. Liam O’Neill</from>
+          <p eId="para_51">Yes, they were.</p>
+        </speech>
+        <speech by="#" eId="spk_20">
+          <from>Ms Mona Birmingham</from>
+          <p eId="para_52">I wish to address the third point, namely, the solvency margins and the liquidity referred to.  No one employee in Quinn Insurance disputes the need for regulation, even of a strenuous nature.  No one is questioning the Financial Regulator's motives in terms of putting Quinn into administration if there was a solvency issue.  There were other issues to do with guarantees and governance.</p>
+          <p eId="para_53">Our understanding is that what Seán Quinn and the Quinn group asked for was time, not money.  Probably I am out of turn in saying this but this has been granted to the VHI time and again.  There seems to be a certain level of hypocrisy and double standards, but perhaps this is probably not the place to say that.</p>
+          <p eId="para_54">As employees, we understand there are issues and the company has acknowledged this.  There is ongoing dialogue and discussion towards addressing those issues.  No one is saying the Financial Regulator was heavy-handed in questioning the solvency margins.  What we are questioning is the procedure he followed.  As we have said, he imposed a 100% blanket ban on Northern Ireland and British business and two hours later went to the High Court to place Quinn in administration.  I do not believe it was a coincidence that this meant Quinn Insurance could not appeal the decision of the UK ban and that the administrators were powerless to lift it.  That is what we are talking about and it is what we believe has put jobs at unnecessary risk.  The solvency is a secondary issue which we believe is being addressed by the company, lawyers, the Financial Regulator and the administrators.  What is not being addressed, or at least with the absolute urgency and immediacy required, is the jobs issue and the fact the UK ban must be lifted now.</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from>Mr. Liam Maguire</from>
+          <p eId="para_55">Obviously the potential risk to policyholders was the reason for the solvency concerns.  That may or may not have been justified, but certainly given the ban in Northern Ireland and Britain, there was a definite and immediate risk to jobs.  That is why we were so surprised at the immediacy of that initiative.</p>
+        </speech>
+        <speech by="#MargaretConlon" eId="spk_22">
+          <from>Deputy Margaret Conlon</from>
+          <p eId="para_56">I welcome the Quinn representatives.  We have met all too often, I suppose, in recent weeks.</p>
+          <p eId="para_57">I share their frustration this morning about the media reports.  We received the very same information as the witnesses.  I have taken phone calls from people today saying that we must have known.  The fact is we did not know until we read the newspapers this morning.  I agree it is not the way to do business and it is regrettable that employees, management and those involved at the highest level find out through the media.</p>
+          <p eId="para_58">How frequent is communication between the administrators and the Financial Regulator and how up to date are the administrators with what is going on in the Office of the Financial Regulator?  Is any of that information filtering down to the Quinn group and its employees?  I have said, time and again, that there seems to be an information deficit.  We are hearing it on the grapevine and reading it in the media, but we do not have any definitive information.  It is good that the witnesses are present to give us the facts and figures but there is a deficit of information.</p>
+          <p eId="para_59">It is recognised and accepted that some lines of the British and Northern Ireland business are unprofitable.  The witnesses say they want an immediate 100% reopening of that market.  The 10% of business that has already been written is obviously very profitable, so if the Financial Regulator was to allow Quinn access to the full proportion of the business that is profitable, what percentage would need to be written in Britain and Northern Ireland?  My last question is about the reputational damage that has been done.  What percentage of lost customers in the UK would be ready to row back in with Quinn Insurance if things changed tomorrow?</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from>Ms Mona Birmingham</from>
+          <p eId="para_60">I will address the first issue, which was about lines of communication.  I reiterate the frustration expressed about the fact that employees and the public heard of 800 potential job losses in the newspapers this morning.  That crystallises what has been happening over the past four weeks.  It is not necessarily the fact that we are hearing this through the media, but we are certainly not the priority in the communication of anything.  When the Financial Regulator lifted the 10% ban, we heard that in the media and we were not informed.  Whether it is good or bad news, we are definitely not high on the list of priorities for communication.</p>
+          <p eId="para_61">We met the administrator for the first time on Wednesday evening and we asked him about communication with the Financial Regulator.  He has told us that he is in communication with the regulator every day, if not several times a day, so that dialogue is definitely ongoing.  When we pushed for information on what has been submitted, what is likely to reopened and so on, the gates came down.  We are not being told anything, and that is part of the problem.  We are shouting and pushing, but nobody is telling us anything, even though we are four weeks into this.  It shows a blind disrespect for employees.  We do not matter in this equation as far we can make out.  Decisions being made by administrators or the Financial Regulator are affecting us, but it does not seem to matter that we should be told.</p>
+          <p eId="para_62">The administrators hold committee meetings and committees have been set up in each centre to start the redundancy process, but the news was drip fed prior to that.  So much speculation has been bandied about concerning the percentage to be re-opened, when it is likely to happen and so on.  To be honest, committee members here probably know as much as we do at this stage.</p>
+        </speech>
+        <speech by="#" eId="spk_24">
+          <from>Mr. Joe Lynch</from>
+          <p eId="para_63">We recognise that the jobs of the administrator and the Financial Regulator are quite complex.  This is not a simple business to understand.  We recognise the right and the responsibility of the Financial Regulator to regulate all entities.  There is no dispute about that.  However, re-opening the business is what prevents job losses and regardless of the amount of communication that is going on, there has been a reticence on the part of the body politic to get involved because of the lack of distinction between the two issues.  The people in this room may have felt they could not get involved because it would impinge on the independence of the office of the Financial Regulator, so it is important to draw the distinction and say we have no issue with that and would indeed welcome that should it be applied to all insurance companies.  However, the current issue is that the procedure by which the market was closed was wrong and it is easy to restore it pretty quickly.  Regardless of the amount of communication taking place, we must keep focusing on the core issue, which is to get the UK market re-opened and to prevent the needless loss of jobs.</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from>Mr. Darragh O’Neill</from>
+          <p eId="para_64">Prior to being placed in administration, we had 1.3 million customers in Ireland and the UK.  We have been losing an average of 2,000 customers per day as we have been unable to write new business, and that equates to 60,000 customers since the ban started.  Prior to going into administration, we were writing 5,000 to 6,000 new policies every week in private motor insurance alone.  That might give members an indication of the new business we have lost over recent weeks, and that is without touching on the commercial market or any other aspects of our business.  We have lost in excess of 20,000 new customers since we have been placed into administration, not to mind the customers we have lost through the commercial business as well.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_26">
+          <from>Deputy Damien English</from>
+          <p eId="para_65">That is potentially more than 80,000.</p>
+        </speech>
+        <speech by="#" eId="spk_27">
+          <from>Mr. Liam Maguire</from>
+          <p eId="para_66">We have many frustrated customers at this stage who are trying to renew their business.  As Mr. O'Neill pointed out, we were losing 2,000 per week but we were also writing new business, so those policyholders are getting frustrated because they cannot insure with us.  Many of them have been very profitable.</p>
+          <p eId="para_67">We are not privy to the information on what percentage is profitable, because the business plan that was resubmitted by the administrator to the Financial Regulator eight days after the ban was put in place was prepared by the company and sent through the administration.  However, we believe that the percentage that is profitable is significant.  This protracted information flow back and forth from the regulator is frustrating.  When we contacted the regulator's office, he received information from the administrator, asked several more questions and sent them back to the administrator before saying he could not approve something he had not got.</p>
+          <p eId="para_68">We are speculating on whether the market will move one way or another.  It is very frustrating for employees who are ready to write new business and policyholders ready to place their business with us.  We understand fully the need for responsible regulation, but we feel he is speculating rather than regulating.</p>
+        </speech>
+        <speech by="#MartinFerrisSF" eId="spk_28">
+          <from>Deputy Martin Ferris</from>
+          <p eId="para_69">I thank the delegates for their presentation.  All parties are very concerned with the current situation, especially about the potential job losses.  Reading the newspapers this morning was quite frightening, especially given the state of the economy at the moment and the strain being placed on our services.</p>
+          <p eId="para_70">The witnesses stated that the company is losing €1.3 million per day since the ban came in and that losses now total about €46 million.  If the ban is lifted, what is the potential of getting those policies back?  Are they gone for good?  We were asked what we were doing in this crisis as elected representatives.  My understanding is that there was a meeting last night between members of each party and the employees, and there is an absolute commitment from the Opposition parties to support the company's position.  As a member of an all-Ireland party, I am very conscious of the situation in the Border regions and the employment provided by the Quinn group in those regions.</p>
+          <p eId="para_71">It was also stated that it is now about damage limitation to minimise needless job losses while allowing the administrator conduct due diligence of the group's business.  Is there communication between the company and the employees to the delegates' satisfaction?  We are all in this together.  The only way we can get out of it is by working together and trying to achieve the least pain possible and the survival of the company in general.</p>
+        </speech>
+        <speech by="#" eId="spk_29">
+          <from>Mr. Darragh O’Neill</from>
+          <p eId="para_72">Deputy Ferris asked what the chances are of getting the business in the UK back.  We believe it will be a severe task regarding the commercial business but there is a willingness among all the employees, across both Ireland and the UK, to put a plan together to fight to get that business back.  We are confident that, while we have lost it and the contracts and policies are in terms of 12 months, we will endeavour to get all those policyholders back.  However, it may be quite difficult because the damage has been done.  Our reputation has been damaged by the draconian measures taken by the regulator in placing a ban on our UK business and in not allowing us to trade in the market.</p>
+          <p eId="para_73">There is a vast difference between administration in Ireland and administration in the UK.  Administration in Ireland is as it is.  In the UK, it is the same form as liquidation here.  Many of the policyholders in the UK believe that Quinn Insurance is going into liquidation, which is not correct, but there was no clarification of that fact by the regulator or the administrators.  A letter was sent out to policyholders but the damage had been done at that stage.  It is very difficult to repair this because the perception may have been that the company was going into liquidation and people will ask how they could trust such a company for the future.</p>
+          <p eId="para_74">We have a huge hill to climb but we have the willingness and the desire to do that.  We believe that, given time, we can do it, but time is of the essence.  The sooner we get back into that market, the sooner we can start contacting our policyholders and the brokers to explain that this is where we were, this is where we are now, this is the process that happened in between and that we can build this business back up.</p>
+        </speech>
+        <speech by="#MartinFerrisSF" eId="spk_30">
+          <from>Deputy Martin Ferris</from>
+          <p eId="para_75">Has Mr. O'Neill any indication of the extra cost that has been inflicted on policyholders who have gone elsewhere?</p>
+        </speech>
+        <speech by="#" eId="spk_31">
+          <from>Mr. Darragh O’Neill</from>
+          <p eId="para_76">We believe it is between 25% and 50%, which is huge.</p>
+        </speech>
+        <speech by="#MartinFerrisSF" eId="spk_32">
+          <from>Deputy Martin Ferris</from>
+          <p eId="para_77">That is money which is coming out of the economy.</p>
+        </speech>
+        <speech by="#" eId="spk_33">
+          <from>Mr. Darragh O’Neill</from>
+          <p eId="para_78">Quinn Insurance has been a very competitive insurer in the UK markets.  There has been a fear of Quinn among our competitors in the UK markets for the past number of years because we are very good at what we do.  We have a fast-track process that is unique to Quinn Insurance which means we can deal with claims in a much faster and more effective way.</p>
+          <p eId="para_79">We have a 4% share of the UK market and our plan was to grow that market to 8% within the next 18 months.  Bucking the trend in the market for the past five years has not gone unnoticed by our competitors in the UK, and it was widely reported in the media last Sunday that our competitors were lobbying the FSA not to allow Quinn back into the UK market.  One would ask why.  It is because of a fear of us, not because we are going into administration.  They are afraid of Quinn because what we did was right.  I would like to repeat the point on the urgency of getting back into that market and to say we can fight that corner.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_34">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_80">I have an interest because we have a substantial number of jobs in the health area in Cork.  I come from the Fermoy area and I hope those jobs are safe.</p>
+          <p eId="para_81">Are we in Ireland looking for higher solvency margins <i>vis-à-vis</i> the UK and other European countries?  There are insurance directives from the EU.  Can the witnesses update me on what the insurance directives state in regard to solvency?  That is the key to this issue.  We have to work within the context of Europe.</p>
+          <p eId="para_82">On the guarantees by the Quinn group subsidiaries, I take it the insurance business was guaranteeing other activities of the company.  Can they be withdrawn?  Will it help the situation if they are or have they already been withdrawn?</p>
+          <p eId="para_83">It is obvious to me that Quinn Insurance was hurting the UK insurers and taking market share.  It no doubt targeted this and put a budget in place to reduce the price of premiums.  Did that happen?  The UK market is highly competitive, as we know, and is very international.  Was that part of the problem that brought about the issue reported in the Sunday newspapers such as <i>The Sunday Times</i>?  Was the company taking share from other companies, which is the norm in the society in which we live?  Was it cutting its premiums to get that share of the market?</p>
+          <p eId="para_84">We in this country live in a democracy.  The regulator works under an Act of the Oireachtas.  We put the law in place on this island of Ireland, and I am glad to say we have that right as a democracy.  If the regulator goes over the top and keeps going as he is going — we have gone from one daft extreme to the other — we will all be eating grass.</p>
+        </speech>
+        <speech by="#" eId="spk_35">
+          <from>Ms Mona Birmingham</from>
+          <p eId="para_85">With regard to solvency levels, we believe solvency levels in the EU are 125%.  Irish regulation is to have 150%, as we understand it, and we believe also that Ireland is the only country in Europe to demand such high solvency levels.  What I want to reiterate is that——</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_36">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_86">Are we in breach of European law by seeking the higher rate?</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_37">
+          <from>Deputy Damien English</from>
+          <p eId="para_87">No, a country is entitled to look for more if it wants but it cannot go below EU levels.</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from>Ms Mona Birmingham</from>
+          <p eId="para_88">I return to the point that, as unfair as that may seem, it is what it is and, again, we are not disputing that.</p>
+          <p eId="para_89">There are three different issues, one of which concerns the subsidiaries, to which the Deputy referred, and another of which is solvency.  We go back to the point that we believe each and every one of these issues is being addressed by the company, the lawyers, the regulator and so on.  We believe the guarantees are being addressed, we believe the solvency is being addressed and we hope there is a plan being brokered that will address all those issues.</p>
+          <p eId="para_90">This will take time.  It will take weeks or months, if not years.  I do not know as I am not privy to that information.  The point is that, in the interim, we need that ban lifted because, as and when the deal is done, the issues are addressed and a plan is brokered, there may not be a business to go back to.  In the interim, we need to keep the company trading as well and as normally as we can.  Part of that is reopening the UK market and addressing perceptions in the UK.  We are itching to get at that.  We are well equipped and well able to address the issues that policyholders will have but we are not being allowed to do it.  That is what we are asking for at present.</p>
+        </speech>
+        <speech by="#" eId="spk_39">
+          <from>Mr. Liam Maguire</from>
+          <p eId="para_91">With regard to the investment part of the development of the UK market, it is pertinent that, from a Quinn group perspective as well as a Quinn Insurance perspective, we have recognised the need for a number of years to get a foothold in the UK market.  We have done so with our building products, our glass products and also with the insurance products because, obviously, we need to diversify and expand out of the Irish market.</p>
+          <p eId="para_92">There has been considerable investment in the UK market.  I was involved with the £300 million glass plant in the Chester area which has given long-term and sustainable jobs.  It is a fantastic, modern plant.  These are the things one has to do, which we all recognise.  One has to invest in a new market.  We are the second largest insurer in Ireland and we want to expand and grow.  There are limited opportunities for growth in Ireland and there are huge opportunities for growth in the UK market.  However, one cannot just walk into that market.  One has to invest and spend money to make money, which we recognise.</p>
+          <p eId="para_93">The year 2009 was a difficult one, not just for us but for everybody in the marketplace.  We are not in the business of making losses on a long-term basis.  We are in the business of making profit.  We have a proven track record over 37 years of making profit.  If there are issues, we will address them and fix them.  We do not need a regulator to tell us that.  We will respond before that.  We addressed the issue of professional indemnity last October.  It is fixed for 12 months, so the ban is irrelevant as we will not look at that part again until October.  That is done on a blanket renewal.</p>
+          <p eId="para_94">On the issue of the UK market, rather than looking at one year, we say we should look at the cycle.  Insurance is about cycles and we have been making money in the UK from 2005 to 2008.  Everybody has had a difficult year in 2009 but that cannot just be looked at historically.  We have taken corrective actions and those actions were coming through.  We do that as a business in every division and every area.</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from>Mr. Darragh O’Neill</from>
+          <p eId="para_95">To answer Deputy O'Keeffe's question on the guarantees, the people who had guaranteed the loans on Quinn Insurance flew in from banks in America and the UK following Quinn Insurance having been placed in provisional administration.  They had spoken to the regulator.  They said they would lift the guarantees but time was needed.  The opportunity was not given to provide that time.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_41">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_96">What was the timeframe?</p>
+        </speech>
+        <speech by="#" eId="spk_42">
+          <from>Mr. Darragh O’Neill</from>
+          <p eId="para_97">We were placed in provisional administration the next day.  They flew in on a Monday and we were placed in administration on the Tuesday.  Guarantees of that level cannot be lifted overnight.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_43">
+          <from>Deputy Damien English</from>
+          <p eId="para_98">So the company met the regulator prior to that announcement and offered to lift the guarantees.</p>
+        </speech>
+        <speech by="#" eId="spk_44">
+          <from>Mr. Darragh O’Neill</from>
+          <p eId="para_99">Yes, but it would have taken time.  It was not going to happen in 24 hours.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_45">
+          <from>Deputy Damien English</from>
+          <p eId="para_100">I accept that.  It is clear that is a given.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_46">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_101">What is the ratio of premiums to claims?</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from>Mr. Liam Maguire</from>
+          <p eId="para_102">In terms of the frequency of claims?</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_48">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_103">Yes.  I understand there is a measure within insurance companies regarding the amount of premium that the company gets versus the amount of the claims.  Was it 10, 15, or 40%?</p>
+        </speech>
+        <speech by="#" eId="spk_49">
+          <from>Mr. Liam Maguire</from>
+          <p eId="para_104">I do not have those figures to hand.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_50">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_105">The witnesses may not have the figures.  They might be confidential.</p>
+        </speech>
+        <speech by="#" eId="spk_51">
+          <from>Mr. Liam Maguire</from>
+          <p eId="para_106">The solvency issues are complex.  Actuaries study for ten years to understand them.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_52">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_107">I thank the Chairman and the members for allowing this issue to be brought before the committee so quickly.  I know Quinn Insurance might not think that is the case but in political terms the issue has been reasonably fast-tracked.</p>
+          <p eId="para_108">Quinn Insurance has, once again, given a very clear explanation of how the whole thing happened.  I want to move away from the history of it because we are all aware of that at this stage.  We are where we are and we can all question why certain things were done.  However, the committee's main purpose for the past few weeks, since we met on Easter Saturday, has been to try to get the UK market opened.</p>
+          <p eId="para_109">Mr. Joe Lynch raised questions about what action has been taken and what politicians are doing.  We met the administrators on Tuesday and the regulator that evening, and we have continually met senior politicians at ministerial level, the regulator, the administrators and all the other parties ever since.  We have been trying to apply whatever pressure we can without getting into the legal issues of where we stand in respect of taking wrongful action against the regulator, which unfortunately is part of the system.</p>
+          <p eId="para_110">There has been a lot of speculation.  I cannot understand how Quinn Insurance has not got its message across to the media clearly.  Only last week it was said to me that Quinn Insurance lost more than £40 million in the UK last year and that it does not have the proper staff to organise its system.  Those people do not understand the way Quinn Insurance has worked extremely successfully over the years, here and elsewhere, in settling claims and dealing with other matters at minimal cost to the company and subsequently to the customer.  It is important to get the message across because there are people out to criticise — we heard a bit of that here this morning — and break the company.</p>
+          <p eId="para_111">Yesterday we met, as an all-party Oireachtas group, some Quinn Insurance personnel in the hotel across the road.  I brought the issue to my party and I know other Members have done the same with theirs.  There was unanimous support from my party leader and all members that attended the parliamentary party meeting last night.  They support the message being sent to the regulator that we need action fast.  I hope this committee will decide unanimously to send a recommendation to the regulator to open up the market as quickly as possible.  I propose that we do that if possible.</p>
+          <p eId="para_112">On the issue of the 150% solvency level, do the outside insurance companies that operate in Ireland and which might have an interest in Quinn Insurance have to meet that level, although they are not based here?  I put that question not only to Quinn Insurance as employers but in the hope that the media will carry it.  All we want is fair play.  To put it bluntly, we know our own State company in the health insurance business does not meet all the regulations.  One has to wonder whether the opposition that is involved meets the regulations.</p>
+          <p eId="para_113">A question was put to me this morning by a very annoyed Quinn Insurance worker.  I refer to it with a non-political attitude because we have tried since the day the problems started to keep the group non-party political.  The worker asked why the Irish Government can underwrite Greece to the tune of €500 million as a guaranteed loan to help that country out of its problems — I know why it has to do that — and yet it could not, in the short term at least, make support available to the biggest company in the Border region we represent which needs €150 million to solve its problems.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_53">
+          <from>Chairman</from>
+          <p eId="para_114">Deputy Crawford——</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_54">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_115">That is the question I have been asked.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_55">
+          <from>Chairman</from>
+          <p eId="para_116">The questions are for Quinn Insurance.  Deputy Crawford asked whether everyone who is in the same type of business must adhere to the 150% solvency level, which is a very relevant question.</p>
+        </speech>
+        <speech by="#" eId="spk_56">
+          <from>Ms Mona Birmingham</from>
+          <p eId="para_117">I will answer that and Mr. Joe Lynch can come in after me.  The way it works is that Quinn Insurance is an Irish company, and is therefore regulated by the Irish regulator.  It is licensed in the UK by the Financial Services Authority but it still abides by the Irish regulation standards for solvency.  Therefore, it is possible and probable that there are insurance entities operating in Ireland that are regulated by the English regulatory body, for example, and licensed by the Irish regulatory body.  They have Irish customers, but they do not necessarily have to meet Irish regulatory solvency levels.</p>
+        </speech>
+        <speech by="#" eId="spk_57">
+          <from>Mr. Joe Lynch</from>
+          <p eId="para_118">I could not have put that better myself.  The host country determines the solvency requirements.</p>
+        </speech>
+        <speech by="#" eId="spk_58">
+          <from>Mr. Liam Maguire</from>
+          <p eId="para_119">Deputy Crawford mentioned the €150 million mark.  To reiterate what my colleague said earlier, Quinn Insurance was not, prior to the current situation, looking for any money.  It was just looking for time to address the potential gap.  The company had a €230 million surplus, but under the requirement to meet 150% solvency levels, it needed €310 million, which left a gap of €80 million.  The company had committed to addressing that gap before the end of 2010, so it was not unrealistic for it to request additional time in which to do so.  I accept, with regard to the figure of €150 million, that there are varying actuarial valuations in relation to the potential gap, which is currently being reviewed, but that was the company's perspective.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_59">
+          <from>Chairman</from>
+          <p eId="para_120">I call two members together: Deputy Rory O'Hanlon and Deputy Shane McEntee.  I have no doubt they will adhere to the rules.</p>
+        </speech>
+        <speech by="#RoryOHanlon" eId="spk_60">
+          <from>Deputy Rory O’Hanlon</from>
+          <p eId="para_121">As I come from the relevant constituency, I recognise the tremendous contribution that Seán Quinn and his employees have made to the region during the past 40 years.  It has been a phenomenal success story in economic and social development.</p>
+          <p eId="para_122">I appreciate all the information the witnesses have given the committee and the questions they have asked.  They asked what we, as elected representatives, are going to do in the crisis.  We are all caught in the same position and we have to look at where we are, not where we would like to be.</p>
+          <p eId="para_123">As the delegates are aware, the four parties represented here in the Dáil have worked together.  In my 33 years in this House, this has been the first time in which they have done so.  We met on a regular basis during the week after Easter and not alone was every Oireachtas Member from the constituency I represent involved but so also were those from the entire region.  I greatly appreciate that the Chairman joined us on behalf of the Labour Party.  We all were singing from the same hymn sheet, which is important.</p>
+          <p eId="para_124">We met numerous staff members and Ministers on the issue.  We also met management, the administrators and the regulator.  I must make my position clear.  I fully respect the independence of the regulator and it is not for members to tell the regulator what to do.  That is the position they are in.  That post was established in response to an outcry from the public that a regulator was needed who would be given complete independence to do the job and that is what has been done.  In the long term, this is not the issue because as Mr. Liam Maguire stated, the Financial Regulator sought answers and the administrator has provided them.  Based on those answers, it is hoped that the British and Northern Ireland market will be opened up.</p>
+          <p eId="para_125">I call for this decision to be expedited because two questions must be addressed as a matter of urgency.  The first concerns the opening of that market and the second, as Ms Mona Birmingham acknowledged there will be some rationalisation of jobs, is to ascertain how to protect the maximum number of jobs.  I hope the regulator has sufficient information by now from the administrator to make a positive decision and hope that the British and Northern Ireland market will be reopened, as a matter of urgency, because that is fundamental to the success everyone seeks.</p>
+          <p eId="para_126">The other question is how one can protect the jobs.  Obviously, the staff, management and administrators have been in negotiation with numerous different people and agencies to ascertain how that might be done.  The Oireachtas Members certainly have made the case numerous times to Ministers.  At approximately 2 p.m. today, following yesterday's meeting, it is hoped that representatives of the different parties will meet again to ascertain how they can move forward in a united fashion to do whatever they perceive to be necessary to ensure that both objectives are achieved, that is, the reopening of the markets and the protection of jobs.  Is there anything else the delegates believe Oireachtas Members can or should do, other than using whatever influence they have to expedite a decision on the Northern Ireland and British market and to continue to press to ensure that jobs are maintained in whatever way that can be done?</p>
+        </speech>
+        <speech by="#ShaneMcEntee" eId="spk_61">
+          <from>Deputy Shane McEntee</from>
+          <p eId="para_127">There always is great opportunity at a committee with cross-party consensus.  Something must come out of this.  There are two items on my bottom line.  What do the delegates want members to do?  The other point I have written down pertains to the 1.3 million customers and I note that no other Irish company deals with 1.3 million people.  As a committee, members cannot allow that base to be lost.  I am here to represent no one but the workers.  While they may have done so under the Quinn brand name, these people have built up a base of 1.3 million people from scratch, most of which is outside the country.</p>
+          <p eId="para_128">I was a salesman and started with an English company in the Republic.  I started with a single customer, namely, myself, and built it up to 300.  One had leaders and loss leaders and one was obliged to sell to people at a loss to get customers and I know what that is like.  As Ms Birmingham rightly noted, members should start calling the shots.  Whoever leaked to the newspapers this morning, from whatever office, is a coward.  If one is unable to face the people whom members are here to represent and tell them the truth without leaking it first to a newspaper, one should not be in the position one is in.  The administrator and regulator must be told that 1.3 million people are part of this company's base and that instead of dallying with regard to what is happening, they should tell the people the truth.  They are not the people to decide.  As Ms Birmingham has rightly said, 100% of the business should be opened up.  My sales experience tells me that, in respect of the 20% of the business they suggest might not be profitable, the delegates know it will be profitable in two years' time.</p>
+          <p eId="para_129">I note that members also have been messed around.  I attended a meeting on the first day I met Ms Emma Woods and Ms Lisa Kavanagh at which I thought everyone would be together.  However, another meeting was taking place downstairs, which disgusted me.  I have not yet ascertained how one could have a meeting with half the staff and elected representatives from one party upstairs while another meeting was held downstairs with the other half of the staff and the other parties.  Are members not being told he truth?</p>
+          <p eId="para_130">I propose that this committee should ask the regulator and the administrator to open up everything now, because he is costing long-term and short-term jobs.  When the crunch comes, he is costing billions of euros.  It is only when one sees in writing the figure of 1.3 million customers that one understands what these people have achieved.  As a group, members will let these people down unless they stand up to what happened regarding the newspapers this morning and unless they begin to demand that the English market be opened up.  As I stated yesterday, I have in my possession documents regarding what is happening in England, where they are trying to screw us.  Basically, they are trying to screw Irish people who have worked hard.  If 10% of the market has been opened, the administrator should spend money to advertise on English radio that the Irish Government and every member of this joint committee are behind this company.  If 10% of the business is open, the administrator should spend as much money on advertising there as here in Ireland.  Moreover, when 20% of the market is opened, such expenditure should be increased accordingly and the administrator thereby should take on the people in England who do not want us.</p>
+        </speech>
+        <speech by="#" eId="spk_62">
+          <from>Mr. Joe Lynch</from>
+          <p eId="para_131">I applaud the responses of Deputies O'Hanlon and McEntee.  The answer is "Yes", we want them to do what they have just said.  However, speed is of the essence and a massive sense of frustration exists that this is slipping through our fingers and that we are dithering while Rome burns.  This market is costing us between €1 million and €1.5 million per day.  All we want members to do is to proceed with courage without impinging on the independence of the regulator.  Members should bear in mind the cost of job creation and Deputy McEntee mentioned that those with experience of sales know what it is like to generate a lead and how hard it is to get a lead.  However, as Mr. Darragh O'Neill mentioned earlier, we only have 4% of the United Kingdom market and we are generating 6,000 policies a week.  There is a massive market there with massive job creation capability within the company.  We simply need to leverage that and not to lose it.  All we want members to do is to help us.  We are frustrated and are feeling somewhat helpless as to how we can proceed.  We need members to be brave for us and to push that forward.</p>
+        </speech>
+        <speech by="#ShaneMcEntee" eId="spk_63">
+          <from>Deputy Shane McEntee</from>
+          <p eId="para_132">I have a question for Ms Birmingham.  Does she envisage that any of the business will not make money in the long term?</p>
+        </speech>
+        <speech by="#" eId="spk_64">
+          <from>Ms Mona Birmingham</from>
+          <p eId="para_133">No, the Deputy is quite correct.  We stated that there are segments that are unprofitable, such as, for example, professional indemnity insurance.  We are not stupid and can see that as well as anyone else.  However, we have addressed this and have put in place measures in order that — as Mr. Liam O'Neill said it is a seasonal thing — when October comes around again professional indemnity will be profitable.  There is not a company in the world that is profitable in respect of 100% of every single avenue it has pursued.  It cannot be disputed that it is part of business to have unprofitable lines.  This reverts to the question as to whether one should examine a single year, during which the country was in the worst recession ever witnessed, and judge a company's performance on that year alone or should one examine the history of the company and the cycles within its industry and make judgments on that basis.  Both the question and the answer are obvious.</p>
+        </speech>
+        <speech by="#DiarmuidWilson" eId="spk_65">
+          <from>Senator Diarmuid Wilson</from>
+          <p eId="para_134">I thank the Chairman for convening this meeting at short notice and I welcome the representatives of the Quinn employees, some of whom I have met on a regular basis.  I hope we will meet in happier times before long and I wish them well.  I endorse everything Deputy O'Hanlon said on the all-party Oireachtas group that has worked on this issue since Easter.  I especially pay tribute to one of the public representatives who was drafted in at short notice and had scheduled a few days off that could not be taken.  I thank the public representatives from the Cavan-Monaghan constituency and from Northern Ireland for the efforts made.  Political representatives have taken a 32-county approach and I welcome that.  I agree with everything said in the presentation by the Quinn employees.  We have reiterated those points as a group at every opportunity possible in the Seanad, in the media and outside.  We will continue to do so until we have a positive outcome.</p>
+          <p eId="para_135">The administrators are genuinely attempting to rectify the problem.  They were handcuffed by the regulator.  Taking away the ability of someone to write 55% of the business and expecting the business to continue to make profits means someone does not know much about economics.  I will not get in any deeper because everyone is aware of the relationship between me and the regulator.</p>
+          <p eId="para_136">Regarding communication, it is appalling that staff woke up this morning to read in national newspapers of the danger of 800 staff losing jobs.  I hope it is like most of what else appears in our national newspapers — lies.  The administrators stated publicly that it is their wish that staff will be first to know of any redundancies to be made and I welcome that approach.</p>
+          <p eId="para_137">Perhaps the following question was asked while I was out of the room; there was a vote in the Seanad.  The delegation stated that professional indemnity cover was loss-making.  What percentage of the UK business involves professional indemnity?  I hope we have positive news about the UK market before the close of business this evening.  I have written to the Chairman of the Oireachtas Joint Committee on Economic and Regulatory Affairs, of which I am a member, and requested him to convene an emergency meeting to discuss the situation and the 1,500 potential job losses as a result of the delay in opening the UK market.  I requested that Mr. Elderfield and his officials be present at the meeting.  I will keep the Chairman informed of the situation.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_66">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_138">Quinn Insurance Limited arrived in an insurance market inhabited by an old boys' network.  Quinn Insurance Limited opened up the sector and that is to be welcomed.  What comes across in the submissions is that the Quinn Group is hungry for new business and this means new jobs in the regions we are talking about.  I represent Cork East, in which Fermoy is located.  I visited the branch in the Eastgate Business and Retail Park in Cork.  Quinn Group employees have massive loyalty to the group and having a coterie of loyal employees means people want to strive for new business.  I realise the constraints on us because of the difficulty in making a direct political intervention as a result of the new culture with regard to the regulatory framework.  However, facilitating the Quinn Group making its case means that the regulator is listening.  I have a particular interest in Quinn Healthcare.  I would like to get a sense of the permutations of today's announcement and what this means within other businesses in the Quinn Group.  Quinn Healthcare is a highly profitable business and has slaughtered many sacred cows in terms of the old boys' network that existed within that business.  It continues to have to pay €39 million per year to keep another company afloat.  Will today's announcement have an impact on other businesses in the Quinn Group?  It would be a shame if the current system had a negative impact on other businesses.  That would be unnecessary and is preventable.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_67">
+          <from>Chairman</from>
+          <p eId="para_139">We will accept if the delegation is not in a position to answer some of the difficult questions posed.  Perhaps an educated guess can be provided.</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Ms Mona Birmingham</from>
+          <p eId="para_140">I apologise if I have missed some questions.  We estimate that professional indemnity cover in the UK amounts to 3% of the market.  While we acknowledge this was unprofitable in 2009, measures were taken to make it profitable.  If that does not reopen, we still have 97% of the book there.</p>
+          <p eId="para_141">Regarding Quinn Healthcare and other entities and the effects of Quinn Insurance Limited on this, Quinn Healthcare is not in administration.  This is not being accurately reported.  This company is functioning as normal, is highly profitable and meets all solvency requirements.  It would be stupid of us to think there will not be a knock-on effect.  This concerns protection and reputation and these companies are under the one name, Quinn.  There is no point in saying that there will not be effects for Quinn Direct, Quinn Healthcare, Quinn Group, Quinn Radiators, Quinn Glass and so on.  Our presentation notes that it would be remiss of us not to talk about 2,700 additional employees who will be affected.  Quinn Insurance Limited is a major part under the umbrella of the Quinn Group.  If this is taken away, part of the function of the group will be taken away.  I am not saying the group will not survive or will not continue to trade but I am saying there will be an impact.  Jobs are at risk in those areas unless we can get the UK market open.  We suggest keeping Quinn Insurance Limited with the Quinn Group to protect jobs.  There is great loyalty to the Quinn Group, as Deputy Sherlock said.  It is not blind loyalty, it is loyalty for a reason.  Quinn Group is a massive employer and is a good employer.  It is a fair employer, it pays good wages and trains us to be highly skilled, professional people.  If we lose our jobs there, no one else can offer us the opportunities offered by the Quinn Group.</p>
+        </speech>
+        <speech by="#" eId="spk_69">
+          <from>Mr. Darragh O’Neill</from>
+          <p eId="para_142">Regarding the comments of Deputy O'Hanlon and Senator Wilson on what can be done, we recognise that the regulator will offer another piece of the market.  We have been given 10% and I do not doubt he will offer another niche, perhaps 5% or 10%.  By the time we have been fed these percentages, there will be no business to go back to.  We need to see a sustainable chunk of business to allow us back into the marketplace.  The regulator has not yet looked at the commercial book, which is a major element.  The private motor segment can be turned on through the aggregators if we are allowed to re-enter the market.  The commercial book is far more difficult because it goes back through the broker.  The commercial market is very broker driven in the UK.  I ask the public representatives to expedite the process.  We are all aware of this.  I take this opportunity to thank Deputies Crawford and Wilson.  We recognise and thank them, along with all of the other parties, for the efforts that have been made since Easter Saturday.  It has not gone unrecognised by any of the employees throughout Quinn Insurance.  I take this opportunity to thank everyone.</p>
+        </speech>
+        <speech by="#FrankFeighan" eId="spk_70">
+          <from>Deputy Frank Feighan</from>
+          <p eId="para_143">I have a letter from Senator Joe O'Reilly, explaining that he is in Strasbourg and has raised this issue with the President of the Council of Europe and other officials.  He is very supportive.</p>
+          <p eId="para_144">It is hard to believe that it is a month since, when driving to Dublin at 12.50 p.m. on 30 March, I found out that administrators had been called into the Quinn Group.  I represent the constituency of Roscommon-South Leitrim and I know how much it impacts in my area and how important the Quinn Group is in Leitrim.  At 2.30 p.m. on that day I went into the Dáil Chamber and sought the Adjournment of the Dáil under Standing Order 32 to discuss a matter of national importance, namely, the protection of jobs in the Quinn Group and to assure the policy holders.</p>
+          <p eId="para_145">This is a national issue.  I attended the first meeting on Easter Saturday.  We met the regulator, the administrators and the governor of the Central Bank.  We met Quinn employees and I met Sean Quinn for the first time.  The leader of my party had met him.  We also met the Minister for Finance.  However, we are still here a month later with jobs haemorrhaging.  It is quite obvious that Sean Quinn has ruffled feathers.  He took on the establishment in everything he has done, in cement, glass manufacturing and insurance, and there is a bias.  There are financial markets in Frankfurt, London, Dublin 2 and Dublin 4.  The delegates stated that they would bring people in the national press to Derrylin and show them Ballyconnell, Navan and Cavan.  Did they take up the offer?  Until they see where the jobs are they will not fully understand not only the local implications but the national implications.  Half of the country states that Quinn deserves what he got and the other half knows the reality, which starts with jobs.</p>
+          <p eId="para_146">I know what the Quinn Group has done.  Bricklayers and lorry drivers have been upskilled and are now working in the financial markets and about time too.  For many years, we never saw an airline pilot because it was a little club.  There was also a club of financial regulators in this country and around the world because it was jobs for the boys.  What Quinn has done is put people in with experience and know-how and by God they are better than them.  It is upstairs, downstairs, and it is about time we got rid of it.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_71">
+          <from>Chairman</from>
+          <p eId="para_147">Does the Deputy have a question?</p>
+        </speech>
+        <speech by="#FrankFeighan" eId="spk_72">
+          <from>Deputy Frank Feighan</from>
+          <p eId="para_148">Yes.  Have the reporters gone to see what exactly the Quinn Group has done?  I fully agree with Deputy O'Hanlon; there has been cross-party, cross-Border and cross-community discussion but a month later Quinn Group employees are still trying to do their business.  People from that area went to London and New York.  Do we realise what times we are in?  We are in a recession and here we were, exporting our know-how and keeping jobs in Ireland.  It is a "no-brainer" and the sooner someone listens to the delegation the better.</p>
+          <p eId="para_149">I respect the regulator's independence but something needs to be done or these jobs will go.  We are speaking about families.  Getting out of the recession starts and ends with jobs.  I employ people.  I try my best and do everything possible to maintain them.  If a regulator looked at my business it would be well gone.  I try to ensure people are not on the dole queue but in this country it seems we are happy to let people go on the dole queue and we do not let them work their way back into the game again.  We have to protect jobs.  There is no point in speaking about creating jobs if we cannot protect them.  That is why we are here today.  We must be united.  Everyone is united but we hear a great deal of nonsense.  I will puke if I hear any more that we are doing our best, because nothing has been done.</p>
+        </speech>
+        <speech by="#DonnieCassidyFF" eId="spk_73">
+          <from>Senator Donie Cassidy</from>
+          <p eId="para_150">I thank the Chairman for convening the meeting so this discussion could take place today.  Senator Wilson, as the Government Whip in the Seanad, has been briefing me on the whole affair on a daily basis.  Seven years ago we sat in this room and started the insurance inquiry.  I can definitely state as the former Chairman, who held the position for almost five years, that we would not be in the position we are in today with regard to premiums were it not for Quinn Direct and Kevin Lunney who led the company's delegations to our committee meetings at the time, and the FBD to a smaller degree.</p>
+          <p eId="para_151">As we all know, at that time the second largest expenditure on the balance sheet of every employer was insurance premia.  We introduced four Bills and Quinn Direct led the way.  I fully support the workers.  My parish is on the Ulster Border, next to Cavan, and I know the impact on the area of what Quinn has done through the years.  I have known Sean and his wife for 30 years.  What they have done has been a miracle.  It is one of the most outstanding achievements by any human being in my lifetime, and I have been in business with my family for 45 years.</p>
+          <p eId="para_152">Having stated all of that, and we are where we are today, I believe there is a serious challenge facing the Government and the financial regulator, whose independence we acknowledge.  I hear that 10% of the business is not performing in the greatest downturn in our lifetime by a mile — and a 90 year old friend of mine stated he never saw anything like the downturn we are experiencing at present — but with all of that going on there is bound to be 10% or 20% of the business which is not making a profit.  It baffles me how it takes a month to decide that 80% of it is in a profitable position.</p>
+          <p eId="para_153">The correspondence before us here states that 6,000 policies a day are at risk.  We are all trying to do everything we can for jobs and I congratulate the all-party 32-county effort being made under the Chairman's stewardship.  However, we must be serious today.  Will the Chairman adjourn this meeting to see what progress can be made?  We will not go away.  This is the committee charged by the Government to be responsible for enterprise, trade and employment.  We have had a huge opportunity to help and we are here today as the conduit from Government.  The delegates are the professionals and we are here to try to do whatever we can to ensure their business will return at speed.  If this means that people must work 18 hours on a bank holiday Saturday, Sunday or Monday that is their duty; it is what they get paid for and this includes the financial regulator and everyone concerned with the management of Quinn Direct.</p>
+          <p eId="para_154">I propose that having heard what we heard we will do everything we can and I know the Chairman has done much.  This meeting should be adjourned to note the reason 80% of the company cannot be allowed to return to their desks and places of work in this climate.  We should adjourn until we get a resolution to this problem.</p>
+          <p eId="para_155">The DIRT inquiry under Mr. Jim Mitchell was the most successful inquiry in the history of this House.  This committee's inquiry into the insurance industry reduced premia by 40%, 50% and so on.  In the hotel sector I have personal experience of premia being reduced by huge amounts.  This committee can stand proud of its achievements, including under the Chairman's stewardship.  We can stand proud of what we have done for the insurance industry.  As Irishmen and Irishwomen we can certainly state in the year of the 94th anniversary of the 1916 Rising that our friends, Quinn Direct, have played a crucial and important role in getting every policy-holder's premium reduced to what it is today.</p>
+          <p eId="para_156">This week, I received a quote for a premium on my family home insurance, which was an increase of 80%.  Unfortunately, it is not with Quinn Direct.  This is an example of what will happen if anything happens to Quinn Direct insurance.  As former Chairman of this committee, I predict that it will not stop at my receipt of a premium quote increased by 80% from another insurance company this week; commercial entities will see an increase of 100% to 200% and we will return to the bad old days of a very sophisticated and difficult industry to get a handle on.  We did this.  There is an achievement in bringing the cost of insurance cover down to manageable levels for private and commercial motor vehicles.  The cost of public liability and employers' liability insurance has also been brought down.  No matter what it is, members of this committee can stand tall on the issue.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_74">
+          <from>Chairman</from>
+          <p eId="para_157">The Senator has moved away from asking questions.</p>
+        </speech>
+        <speech by="#DonnieCassidyFF" eId="spk_75">
+          <from>Senator Donie Cassidy</from>
+          <p eId="para_158">The Chairman should consider adjourning and reconvening at a later date when we can assess what progress has been made.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_76">
+          <from>Chairman</from>
+          <p eId="para_159">There will be no adjournment, as we are proposing to contact the Financial Regulator to achieve our goals.  That is the way to do it.</p>
+        </speech>
+        <speech by="#DonnieCassidyFF" eId="spk_77">
+          <from>Senator Donie Cassidy</from>
+          <p eId="para_160">That is the Chairman's decision.  If 80% of the business is sound and profitable, we should consider what can be done.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_78">
+          <from>Chairman</from>
+          <p eId="para_161">We will ask about that matter.  Does anybody else want to comment?</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from>Mr. Joe Lynch</from>
+          <p eId="para_162">All we are asking for is responsible regulation in a fragile economy.  One should be cognisant of the cost of the creation of jobs and their value to the economy.  There is one issue that was not raised.  We spoke about the jobs that could be lost, but in the commercial sector, to which Mr. O'Neill alluded, there are two major companies in the United Kingdom which are so impressed by our fast-track model that they would like us to manage their claims processing system.  It has nothing to do with the insurance business, but they can see how we manage the processing of claims properly.  That represents another opportunity to employ between 100 and 150 people.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_80">
+          <from>Chairman</from>
+          <p eId="para_163">That is an interesting piece of information.  We have three speakers left.</p>
+        </speech>
+        <speech by="#EamonScanlon" eId="spk_81">
+          <from>Deputy Eamon Scanlon</from>
+          <p eId="para_164">Much has been said today and I am glad I have an opportunity to speak, as I am not a member of the committee.  I represent Sligo-North Leitrim, a constituency in which people know the benefits of the work done during the years by the Quinn Group of companies and Seán Quinn and his family.</p>
+          <p eId="para_165">On the issue of competitiveness in the insurance market, I remember fighting the cause for young people who could not obtain insurance cover or were quoted a figure of £3,000 or £4,000.  When Quinn Insurance arrived on the scene, a driver aged 18 years with a provisional licence was given the opportunity to obtain cover.  I have six children who benefited from cheap insurance premiums from Quinn Insurance.  It is important, therefore, that we do everything we can for the company.  I am here to support whatever efforts we can make in that regard.  Ultimately, it all comes down to solvency.  I thank the representatives for the information provided and briefing me on what is happening.  Solvency levels here are 150% and in England, 125%.  The figure for Quinn Insurance is 107%.  If that level could be increased to 125%, we might be able to encourage the Financial Regulator to accept it.  That would allow the insurer to operate in the English market, a crucial element of what we are talking about.  I fully support everything that has been said today and will do anything possible to help.  I wish the delegation well.</p>
+        </speech>
+        <speech by="#MichaelFitzpatrickFF" eId="spk_82">
+          <from>Deputy Michael Fitzpatrick</from>
+          <p eId="para_166">I will be brief and apologise for having to leave the meeting earlier.  As a Cavan man, I fully understand what is happening in the county where I earned my first few bob.  I know what it was like in the 1950s and 1960s there.  I have seen what has happened in north Kildare, in particular, where Hewlett Packard and Intel have done a tremendous job.  I fully support the delegation and know the Chairman is very committed to helping in whatever way he can.  He has my full support.</p>
+        </speech>
+        <speech by="#MichaelKennedy" eId="spk_83">
+          <from>Deputy Michael Kennedy</from>
+          <p eId="para_167">While doing other things, I was listening on the monitor.</p>
+          <p eId="para_168">I come from an insurance brokerage background and I am happy to say my company deals with Quinn Direct and hopes it will be able to continue to do so.  In support of other speakers and the delegation, I know Quinn Insurance revolutionised the insurance market when it arrived on the scene and brought competition to it.  Without its participation in the insurance business, we will return to the bad old days when there were high premiums, no competition and people did not have a choice.</p>
+          <p eId="para_169">I spoke to Mr. Elderfield.  I wrote to him after meeting delegations from Dublin North, the constituency I represent.  He told me a decision would be made within days.  This was before he received the new business plan from the administrator.  Given the representations made by the delegation, how close is it to the administrator?  I got the impression in some of my discussions that staff were not as up to date as they should have been.  With regard to the UK market and the business model submitted, how confident is the delegation that it will work in attracting business?</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_84">
+          <from>Chairman</from>
+          <p eId="para_170">Unfortunately, because of the vagaries of the voting system, we must adjourn.  On behalf of the joint committee, I have asked the Financial Regulator to take steps to make a decision to allow Quinn Insurance Limited immediate access to the profitable sections of the Northern Ireland and British markets as a matter of urgency.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_85">
+          <from>Deputy Damien English</from>
+          <p eId="para_171">As we have covered most of the issues involved, we should send the letter to the Financial Regulator as soon as possible.  There has been an excellent presentation of the facts by everybody.  This has been a worthwhile exercise.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_86">
+          <from>Chairman</from>
+          <p eId="para_172">If there is any issue on which the delegation wishes to communicate, it can do so in writing.</p>
+        </speech>
+        <speech by="#" eId="spk_87">
+          <from>Mr. Liam Maguire</from>
+          <p eId="para_173">I thank the Chairman for organising the meeting and giving us this opportunity to make a presentation.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_88">
+          <from>Chairman</from>
+          <p eId="para_174">If the delegation prefers, we could come back after a suspension.</p>
+        </speech>
+        <speech by="#" eId="spk_89">
+          <from>Ms Mona Birmingham</from>
+          <p eId="para_175">There is no need, as we have covered all of the bases, unless there is anything else anyone wishes to raise.</p>
+        </speech>
+        <speech by="#WilliamPenrose" as="#Chairman" eId="spk_90">
+          <from>Chairman</from>
+          <p eId="para_176">I thank the delegation for its attendance.</p>
+        </speech>
+        <summary eId="sum_6">The joint committee adjourned at 1 p.m. until 2 p.m. on Tuesday, 11 May 2010.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>
