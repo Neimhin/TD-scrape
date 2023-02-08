@@ -7,4 +7,6 @@ f = sys.argv[1]
 with open(f) as fp:
     soup = bs(fp, 'lxml')
     speeches = soup.findAll("speech", {"by": '#' + speaker})
-    print(len(speeches))
+    for speech in speeches:
+        ps = speech.findAll("p")
+        print(ps)

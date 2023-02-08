@@ -1,9 +1,12 @@
-SHELL=/bin/bash
+SHELL 		:= /bin/bash
+PYTHON		:= python3.8
+MEMBER_ID 	:= https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14
+MID 		:= $(notdir $(MEMBER_ID))
 
-MEMBER_ID := https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14
-MID := $(notdir $(MEMBER_ID))
+list 		:= $(foreach url,$(shell cat data/debates_$(MID).list.txt | sed 's,:,<colon>,g' | sed 's,/,<fwdslash>,g' ), data/debates.d/$(MID).d/$(url))
 
-list := $(foreach url,$(shell cat data/debates_$(MID).list.txt | sed 's,:,<colon>,g' | sed 's,/,<fwdslash>,g' ), data/debates.d/$(MID).d/$(url))
+test:
+	python src/get-speeches-by-speaker "data/debates.d/$(MID).d/https<colon><fwdslash><fwdslash>data.oireachtas.ie<fwdslash>akn<fwdslash>ie<fwdslash>debateRecord<fwdslash>committee_of_public_accounts<fwdslash>2021-02-09<fwdslash>debate<fwdslash>mul@<fwdslash>main.xml" SeanSherlock
 
 all: $(list)
 
