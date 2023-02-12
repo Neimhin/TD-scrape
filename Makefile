@@ -1,3 +1,4 @@
+.ONESHELL:
 SHELL 		:= /bin/bash
 PYTHON		:= python3
 MEMBER_ID 	:= https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14
@@ -9,11 +10,17 @@ tsv_list	:= $(foreach f,$(list),$(dir $f)tsv/$(notdir $f).tsv)
 
 
 utts: data/utterances_$(MID).tsv
+EG := eg
 test-utt: 
 	$(PYTHON) src/get-speeches-by-speaker $(EG) SeanSherlock
 
-data/utterances_$(MID).tsv: src/get-speeches-by-speaker $(tsv_list)
-	cat "data/debates.d/$(MID).d/tsv/*.tsv" > "$@"
+data/utterances_$(MID).tsv: $(tsv_list) src/get-speeches-by-speaker backup-tsv
+	for f in $(<D)/*; do
+		cat "$$f" >> "$@"
+	done
+
+backup-tsv:
+	-mv "data/utterances_$(MID).tsv" "data/utterances_$(MID).tsvBAK"
 
 all: $(list)
 
