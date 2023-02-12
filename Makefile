@@ -3,6 +3,7 @@ SHELL 		:= /bin/bash
 PYTHON		:= python3
 MEMBER_ID 	:= https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14
 MID 		:= $(notdir $(MEMBER_ID))
+MEMBER_TAG_REF := SeanSherlock
 DEBATES_XML := data/debates.d/$(MID).d/\%:
 
 list 		:= $(foreach url,$(shell cat data/debates_$(MID).list.txt | sed 's,:,<colon>,g' | sed 's,/,<fwdslash>,g' ), data/debates.d/$(MID).d/$(url))
@@ -12,7 +13,7 @@ tsv_list	:= $(foreach f,$(list),$(dir $f)tsv/$(notdir $f).tsv)
 utts: data/utterances_$(MID).tsv
 EG := eg
 test-utt: 
-	$(PYTHON) src/get-speeches-by-speaker $(EG) SeanSherlock
+	$(PYTHON) src/get-speeches-by-speaker $(EG) $(MEMBER_TAG_REF)
 
 data/utterances_$(MID).tsv: $(tsv_list) src/get-speeches-by-speaker backup-tsv
 	for f in $(<D)/*; do
@@ -23,9 +24,9 @@ backup-tsv:
 	-mv "data/utterances_$(MID).tsv" "data/utterances_$(MID).tsvBAK"
 
 all: $(list)
-
-data/debates.d/$(MID).d/tsv/%.tsv: $(@D) data/debates.d/$(MID).d/%
-	$(PYTHON) src/get-speeches-by-speaker "$<" SeanSherlock > "$@"
+data/debates.d/$(MID).d/tsv/%.tsv: PROG := src/get-speeches-by-speaker
+data/debates.d/$(MID).d/tsv/%.tsv: $(@D) data/debates.d/$(MID).d/% $(PROG)
+	$(PYTHON) $(PROG) "$<" $(MEMBER_TAG_REF) > "$@"
 
 data/debates.d/$(MID).d/tsv/:
 	mkdir -p $@

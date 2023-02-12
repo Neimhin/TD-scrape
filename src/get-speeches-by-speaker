@@ -19,5 +19,7 @@ with open(f) as fp:
         ps = speech.findAll("p")
         text = mktext(ps)
         t = speech.find("recordedTime")
+        if t:
+          t = t["time"]
         f = speech.find("from").getText()
-        print(speaker, f,t["time"],text,sep='\t')
+        print(speaker, f, t, text, sep='\t')
