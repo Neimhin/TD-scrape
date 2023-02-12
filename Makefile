@@ -2,15 +2,27 @@ SHELL 		:= /bin/bash
 PYTHON		:= python3.8
 MEMBER_ID 	:= https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14
 MID 		:= $(notdir $(MEMBER_ID))
+DEBATES_XML := data/debates.d/$(MID).d/\%:
 
 list 		:= $(foreach url,$(shell cat data/debates_$(MID).list.txt | sed 's,:,<colon>,g' | sed 's,/,<fwdslash>,g' ), data/debates.d/$(MID).d/$(url))
+tsv_list	:= $(foreach f,$(list),$(dir $f)tsv/$(notdir $f).tsv)
 
-test:
-	python src/get-speeches-by-speaker "data/debates.d/$(MID).d/https<colon><fwdslash><fwdslash>data.oireachtas.ie<fwdslash>akn<fwdslash>ie<fwdslash>debateRecord<fwdslash>committee_of_public_accounts<fwdslash>2021-02-09<fwdslash>debate<fwdslash>mul@<fwdslash>main.xml" SeanSherlock
+
+utts: data/utterances_$(MID).tsv
+test-utt: clean-test-utt $(firstword $(tsv_list))
+	head "$(lastword $^)"
+clean-test-utt:
+	-rm "$(firstword $(tsv_list))"
+
+data/utterances_$(MID).tsv: src/get-speeches-by-speaker $(tsv_list)
+	cat data/debates.d/$(MID).d/*.tsv > $@
 
 all: $(list)
 
-data/debates.d/$(MID).d/%:
+data/debates.d/$(MID).d/tsv/%.tsv: data/debates.d/$(MID).d/%
+	python src/get-speeches-by-speaker "$<" SeanSherlock > "$@"
+
+data/debates.d/$(MID).d/%.xml:
 	mkdir -p data/debates.d/$(MID).d/ ; \
 	url=$$(echo "$(@F)" | sed 's,<colon>,:,g' | sed 's,<fwdslash>,/,g') ; \
 	wget "$$url" -O "$@"
