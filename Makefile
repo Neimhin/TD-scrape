@@ -9,10 +9,8 @@ tsv_list	:= $(foreach f,$(list),$(dir $f)tsv/$(notdir $f).tsv)
 
 
 utts: data/utterances_$(MID).tsv
-test-utt: clean-test-utt $(firstword $(tsv_list))
-	head "$(lastword $^)"
-clean-test-utt:
-	-rm "$(firstword $(tsv_list))"
+test-utt: 
+	$(PYTHON) src/get-speeches-by-speaker $(EG) SeanSherlock
 
 data/utterances_$(MID).tsv: src/get-speeches-by-speaker $(tsv_list)
 	cat "data/debates.d/$(MID).d/tsv/*.tsv" > "$@"

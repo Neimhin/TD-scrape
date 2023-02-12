@@ -1,12 +1,22 @@
-#!/usr/bin/env python3.8
+#!/usr/bin/env python3
 from bs4 import BeautifulSoup as bs
 import sys
+import re
+
+def mktext(ps):
+  text = ""
+  for p in ps:
+    text += p.getText()
+  return text
 
 speaker = sys.argv[2]
 f = sys.argv[1]
 with open(f) as fp:
-    soup = bs(fp, 'lxml')
-    speeches = soup.findAll("speech", {"by": '#' + speaker})
+    soup = bs(fp, 'xml')
+    speeches = soup.find_all("speech", {"by": '#' + speaker})
+    sdate = soup.find_all("recordedTime")
     for speech in speeches:
         ps = speech.findAll("p")
-        print(ps)
+        text = mktext(ps)
+        t = speech.find("recordedTime")
+        print(t["time"],text,sep='\t')
