@@ -1,5 +1,5 @@
 SHELL 		:= /bin/bash
-PYTHON		:= python3.8
+PYTHON		:= python3
 MEMBER_ID 	:= https://data.oireachtas.ie/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14
 MID 		:= $(notdir $(MEMBER_ID))
 DEBATES_XML := data/debates.d/$(MID).d/\%:
@@ -15,12 +15,15 @@ clean-test-utt:
 	-rm "$(firstword $(tsv_list))"
 
 data/utterances_$(MID).tsv: src/get-speeches-by-speaker $(tsv_list)
-	cat data/debates.d/$(MID).d/*.tsv > $@
+	cat "data/debates.d/$(MID).d/tsv/*.tsv" > "$@"
 
 all: $(list)
 
-data/debates.d/$(MID).d/tsv/%.tsv: data/debates.d/$(MID).d/%
-	python src/get-speeches-by-speaker "$<" SeanSherlock > "$@"
+data/debates.d/$(MID).d/tsv/%.tsv: $(@D) data/debates.d/$(MID).d/%
+	$(PYTHON) src/get-speeches-by-speaker "$<" SeanSherlock > "$@"
+
+data/debates.d/$(MID).d/tsv/:
+	mkdir -p $@
 
 data/debates.d/$(MID).d/%.xml:
 	mkdir -p data/debates.d/$(MID).d/ ; \
