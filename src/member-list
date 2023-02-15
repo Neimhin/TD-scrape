@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+import sys
+import json
+file_name = sys.argv[1]
+TAB="\t"
+
+with open(file_name) as f:
+    o = json.load(f)
+
+if(not "results" in o):
+    raise Exception("no results")
+
+for m in o["results"]:
+    mem = m["member"]
+    print(mem["pId"],mem["memberCode"],mem["uri"],sep=TAB)
