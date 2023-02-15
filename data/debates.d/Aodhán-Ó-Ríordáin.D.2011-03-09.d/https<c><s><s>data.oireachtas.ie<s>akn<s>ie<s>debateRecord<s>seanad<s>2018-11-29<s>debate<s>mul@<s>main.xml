@@ -1,0 +1,1152 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/seanad/2018-11-29/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/seanad/2018-11-29/debate"/>
+          <FRBRdate date="2018-11-29" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/house/seanad/25"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/seanad/2018-11-29/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/seanad/2018-11-29/debate/mul@"/>
+          <FRBRdate date="2018-11-29" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/seanad/2018-11-29/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/seanad/2018-11-29/debate/mul@.akn"/>
+          <FRBRdate date="2019-09-25" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_21" outcome="#carried" refersTo="#sum_20">
+            <count eId="vote_1-count_1" href="#qty_1" refersTo="#ta" value="22"/>
+            <count eId="vote_1-count_2" href="#qty_2" refersTo="#nil" value="5"/>
+          </voting>
+          <voting eId="vote_2" href="#sum_62" outcome="#lost" refersTo="#sum_61">
+            <count eId="vote_2-count_1" href="#qty_3" refersTo="#ta" value="14"/>
+            <count eId="vote_2-count_2" href="#qty_4" refersTo="#nil" value="15"/>
+          </voting>
+          <voting eId="vote_3" href="#sum_75" outcome="#lost" refersTo="#sum_74">
+            <count eId="vote_3-count_1" href="#qty_5" refersTo="#ta" value="9"/>
+            <count eId="vote_3-count_2" href="#qty_6" refersTo="#nil" value="16"/>
+          </voting>
+          <voting eId="vote_4" href="#sum_80" outcome="#lost" refersTo="#sum_79">
+            <count eId="vote_4-count_1" href="#qty_7" refersTo="#ta" value="9"/>
+            <count eId="vote_4-count_2" href="#qty_8" refersTo="#nil" value="16"/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#debates">
+        <TLCConcept eId="#lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#carried" href="/ie/oireachtas/ontology#DeclaredCarried" showAs="Declared Carried"/>
+        <TLCConcept eId="#staon" href="/ie/oireachtas/ontology#StaonVote" showAs="Staon Vote"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCPerson eId="AidanDavitt" href="/ie/oireachtas/member/id/Aidan-Davitt.S.2016-04-25" showAs="Aidan Davitt"/>
+        <TLCPerson eId="AliceMaryHiggins" href="/ie/oireachtas/member/id/Alice-Mary-Higgins.S.2016-04-25" showAs="Alice-Mary Higgins"/>
+        <TLCPerson eId="AndrewDoyle" href="/ie/oireachtas/member/id/Andrew-Doyle.D.2007-06-14" showAs="Andrew Doyle"/>
+        <TLCPerson eId="AnthonyLawlor" href="/ie/oireachtas/member/id/Anthony-Lawlor.D.2011-03-09" showAs="Anthony Lawlor"/>
+        <TLCPerson eId="AodhanORiordan" href="/ie/oireachtas/member/id/Aodhán-Ó-Ríordáin.D.2011-03-09" showAs="Aodhán Ó Ríordáin"/>
+        <TLCPerson eId="BrendanGriffinFG" href="/ie/oireachtas/member/id/Brendan-Griffin.D.2011-03-09" showAs="Brendan Griffin"/>
+        <TLCPerson eId="BrianODomhnaill" href="/ie/oireachtas/member/id/Brian-Ó-Domhnaill.S.2007-07-23" showAs="Brian Ó Domhnaill"/>
+        <TLCPerson eId="CatherineArdagh" href="/ie/oireachtas/member/id/Catherine-Ardagh.S.2016-04-25" showAs="Catherine Ardagh"/>
+        <TLCPerson eId="CatherineNoone" href="/ie/oireachtas/member/id/Catherine-Noone.S.2011-05-25" showAs="Catherine Noone"/>
+        <TLCPerson eId="ColmBurke" href="/ie/oireachtas/member/id/Colm-Burke.S.2011-05-25" showAs="Colm Burke"/>
+        <TLCPerson eId="DavidNorris" href="/ie/oireachtas/member/id/David-PB-Norris.S.1987-04-25" showAs="David P.B. Norris"/>
+        <TLCPerson eId="DenisODonovan" href="/ie/oireachtas/member/id/Denis-O'Donovan.S.1989-10-01" showAs="Denis O'Donovan"/>
+        <TLCPerson eId="DiarmuidWilson" href="/ie/oireachtas/member/id/Diarmuid-Wilson.S.2002-09-12" showAs="Diarmuid Wilson"/>
+        <TLCPerson eId="DrJamesReilly" href="/ie/oireachtas/member/id/James-Reilly.D.2007-06-14" showAs="James Reilly"/>
+        <TLCPerson eId="EoghanMurphy" href="/ie/oireachtas/member/id/Eoghan-Murphy.D.2011-03-09" showAs="Eoghan Murphy"/>
+        <TLCPerson eId="FintanWarfield" href="/ie/oireachtas/member/id/Fintan-Warfield.S.2016-04-25" showAs="Fintan Warfield"/>
+        <TLCPerson eId="FrancesBlack" href="/ie/oireachtas/member/id/Frances-Black.S.2016-04-25" showAs="Frances Black"/>
+        <TLCPerson eId="FrankFeighan" href="/ie/oireachtas/member/id/Frank-Feighan.S.2002-09-12" showAs="Frank Feighan"/>
+        <TLCPerson eId="IvanaBacik" href="/ie/oireachtas/member/id/Ivana-Bacik.S.2007-07-23" showAs="Ivana Bacik"/>
+        <TLCPerson eId="JerryButtimer" href="/ie/oireachtas/member/id/Jerry-Buttimer.S.2007-07-23" showAs="Jerry Buttimer"/>
+        <TLCPerson eId="JohnOMahony" href="/ie/oireachtas/member/id/John-O'Mahony.D.2007-06-14" showAs="John O'Mahony"/>
+        <TLCPerson eId="KevinHumphreys" href="/ie/oireachtas/member/id/Kevin-Humphreys.D.2011-03-09" showAs="Kevin Humphreys"/>
+        <TLCPerson eId="KieranODonnell" href="/ie/oireachtas/member/id/Kieran-O'Donnell.D.2007-06-14" showAs="Kieran O'Donnell"/>
+        <TLCPerson eId="LynnRuane" href="/ie/oireachtas/member/id/Lynn-Ruane.S.2016-04-25" showAs="Lynn Ruane"/>
+        <TLCPerson eId="MaireDevine" href="/ie/oireachtas/member/id/Máire-Devine.S.2016-04-25" showAs="Máire Devine"/>
+        <TLCPerson eId="MariaByrne" href="/ie/oireachtas/member/id/Maria-Byrne.S.2016-04-25" showAs="Maria Byrne"/>
+        <TLCPerson eId="MarkDaly" href="/ie/oireachtas/member/id/Mark-Daly.S.2007-07-23" showAs="Mark Daly"/>
+        <TLCPerson eId="MartinConway" href="/ie/oireachtas/member/id/Martin-Conway.S.2011-05-25" showAs="Martin Conway"/>
+        <TLCPerson eId="MichelleMulherin" href="/ie/oireachtas/member/id/Michelle-Mulherin.D.2011-03-09" showAs="Michelle Mulherin"/>
+        <TLCPerson eId="NealeRichmond" href="/ie/oireachtas/member/id/Neale-Richmond.S.2016-04-25" showAs="Neale Richmond"/>
+        <TLCPerson eId="NedOSullivan" href="/ie/oireachtas/member/id/Ned-O'Sullivan.S.2007-07-23" showAs="Ned O'Sullivan"/>
+        <TLCPerson eId="NiallODonnghaile" href="/ie/oireachtas/member/id/Niall-Ó-Donnghaile.S.2016-04-25" showAs="Niall Ó Donnghaile"/>
+        <TLCPerson eId="PadraigMacLochlainn" href="/ie/oireachtas/member/id/Pádraig-MacLochlainn.D.2011-03-09" showAs="Pádraig MacLochlainn"/>
+        <TLCPerson eId="PatrickODonovan" href="/ie/oireachtas/member/id/Patrick-O'Donovan.D.2011-03-09" showAs="Patrick O'Donovan"/>
+        <TLCPerson eId="PaulDaly" href="/ie/oireachtas/member/id/Paul-Daly.S.2016-04-25" showAs="Paul Daly"/>
+        <TLCPerson eId="RayButler" href="/ie/oireachtas/member/id/Ray-Butler.D.2011-03-09" showAs="Ray Butler"/>
+        <TLCPerson eId="RobbieGallagher" href="/ie/oireachtas/member/id/Robbie-Gallagher.S.2016-04-25" showAs="Robbie Gallagher"/>
+        <TLCPerson eId="TerryLeyden" href="/ie/oireachtas/member/id/Terry-Leyden.D.1977-07-05" showAs="Terry Leyden"/>
+        <TLCPerson eId="TimLombard" href="/ie/oireachtas/member/id/Tim-Lombard.S.2016-04-25" showAs="Tim Lombard"/>
+        <TLCPerson eId="VictorBoyhan" href="/ie/oireachtas/member/id/Victor-Boyhan.S.2016-04-25" showAs="Victor Boyhan"/>
+        <TLCEvent eId="bill.2018.109.seanad.4" href="/ie/oireachtas/bill/2018/109/seanad/4" showAs="Greyhound Racing Bill 2018: Report Stage (Seanad)"/>
+        <TLCRole eId="Acting_Chairman" href="/ie/oireachtas/role/office/acting_chairman" showAs="Acting Chairman"/>
+        <TLCRole eId="Minister_for_Housing,_Planning_and_Local_Government" href="/ie/oireachtas/role/minister/housing__planning__local_government" showAs="Minister for Housing, Planning and Local Government"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Agriculture,_Food_and_the_Marine" href="/ie/oireachtas/role/minister_state/agriculture__food__marine" showAs="Minister of State at the Department of Agriculture, Food and the Marine"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Public_Expenditure_and_Reform" href="/ie/oireachtas/role/minister_state/public_expenditure__reform" showAs="Minister of State at the Department of Public Expenditure and Reform"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Transport,_Tourism_and_Sport" href="/ie/oireachtas/role/minister_state/transport__tourism__sport" showAs="Minister of State at the Department of Transport, Tourism and Sport"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>SEANAD ÉIREANN</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>SEANAD ÉIREANN</docProponent>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2018-11-29">, 29 Samhain 2018</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2018-11-29">Thursday, 29 November 2018</docDate>
+      </block>
+      <block name="volume">
+        <docNumber refersTo="#vol_261">Vol. 261</docNumber>
+      </block>
+      <block name="number">
+        <docNumber refersTo="#no_11">No. 11</docNumber>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Chuaigh an Cathaoirleach i gceannas ar 10:30 a.m.</summary>
+        <summary class="Center" eId="sum_2">Machnamh agus Paidir.</summary>
+        <summary class="Center" eId="sum_3">Reflection and Prayer.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Seanad<recordedTime time="2018-11-29T10:30:00+00:00"/></heading>
+        <speech by="#DenisODonovan" eId="spk_1">
+          <from> An Cathaoirleach<recordedTime time="2018-11-29T10:30:00+00:00"/></from>
+          <p eId="para_1">I have received notice from Senator Frank Feighan that, on the motion for the Commencement of the House today, he proposes to raise the following matter:</p>
+          <p class="indent_1" eId="para_2">The need for the Minister for Transport, Tourism and Sport to put plans in place to address the road dangers posed by the Cootehall and Croghan road junctions on the N4 between Carrick-on-Shannon and Boyle.</p>
+          <p eId="para_3">I have also received notice from Senator Victor Boyhan of the following matter:</p>
+          <p class="indent_1" eId="para_4">The need for the Minister for Public Expenditure and Reform to provide an update on the implementation of the programme for Government commitment to examine the possibility of extending the remit of the Comptroller and Auditor General to include expenditure by local authorities.</p>
+          <p eId="para_5">I have also received notice from Senator Aodhán Ó Ríordáin of the following matter:</p>
+          <p class="indent_1" eId="para_6">The need for the Minister for Education and Skills to provide an update on the need for a permanent building for Dún Laoghaire Educate Together primary school.</p>
+          <p eId="para_7">I have also received notice from Senator Lynn Ruane of the following matter:</p>
+          <p class="indent_1" eId="para_8">The need for the Minister for Housing, Planning and Local Government to amend the definition of "political purposes" in section 22 of the Electoral Act 1997, as amended, to alleviate the effect the Act is currently having on civil society organisations' participation in public affairs.</p>
+          <p eId="para_9">I have also received notice from Senator Brian Ó Domhnaill of the following matter:</p>
+          <p class="indent_1" eId="para_10">To call on the Minister for Children and Youth Affairs to provide equitable remuneration to múinteoirí réamhscoile.</p>
+          <p eId="para_11">The matters raised by the Senators are suitable for discussion. I have selected Senators Feighan, Boyhan, Ó Ríordáin and Ruane and they will be taken now. Senator Ó Domhnaill may give notice on another day of the matter that he wishes to raise.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Commencement Matters<recordedTime time="2018-11-29T10:30:00+00:00"/></heading>
+        <debateSection name="debate" eId="dbsect_4">
+          <heading>Road Safety<recordedTime time="2018-11-29T10:30:00+00:00"/></heading>
+          <speech by="#DenisODonovan" eId="spk_2">
+            <from> An Cathaoirleach<recordedTime time="2018-11-29T10:30:00+00:00"/></from>
+            <p eId="para_12">Cuirim fáilte roimh an Aire Stáit, an Teachta Griffin. The Senator has four minutes to outline his case.</p>
+          </speech>
+          <speech by="#FrankFeighan" eId="spk_3">
+            <from>Senator Frank Feighan<recordedTime time="2018-11-29T10:30:00+00:00"/></from>
+            <p eId="para_13">Unfortunately, this is a long-standing issue. The junctions in question are on a section of the N4 between Carrick-on-Shannon and Boyle, namely, a right turn to Cootehall and a left turn to Croghan. It is a road that I travel every day, so I am familiar with the issues.</p>
+            <p eId="para_14"> There is plenty of cumulative and anecdotal evidence to suggest that these are very dangerous junctions that have led to numerous collisions. Drivers turning right to Cootehall or left to Croghan face considerable danger, not from the cars travelling directly behind, but from other vehicles travelling even farther back that may be driving at speed in what is a 100 km/h zone. Their drivers would not be aware of a car in the middle of the road preparing to make a turn, which is leading to accidents.</p>
+            <p eId="para_15"> This section of the N4 is extremely busy, with large volumes of traffic travelling on it every day. Transport Infrastructure Ireland, TII, has stated that only a few accidents have been recorded on it, but when one speaks to local people, they give a different story. They say that the number of accidents taking place is in the double figures and campaigners are now advising them to document fully the number of crashes at the two turns.</p>
+            <p eId="para_16"> The level of concern among local people is high. More than 750 people from the area have signed a petition and a recent public meeting on the matter saw over 150 people in attendance. Many recounted their experiences of the accidents that have taken place at the junctions. One woman who had lived in a house opposite the Cootehall junction for more than 25 years told the meeting that she had left the area a number of years ago because of all the crashes.</p>
+            <p eId="para_17"> Local people are fearful that someone will be seriously injured or there will be a loss of life if the matter is not addressed. Roscommon County Council made road signage and lining improvements to the section approximately a year and a half ago, but it is clear that more needs to be done. I urge the Minister for Transport, Tourism and Sport, Deputy Ross, the Minister of State and the TII to ensure that all possible improvement options are considered before lives are lost. I have raised this matter with the Minister and TII. The latter is due to meet Oireachtas Members next Tuesday in Leinster House to discuss it, which is welcome.</p>
+          </speech>
+          <speech by="#BrendanGriffinFG" as="#Minister_of_State_at_the_Department_of_Transport,_Tourism_and_Sport" eId="spk_4">
+            <from>Minister of State at the Department of Transport, Tourism and Sport (Deputy Brendan Griffin)<recordedTime time="2018-11-29T10:30:00+00:00"/></from>
+            <p eId="para_18">I am taking this debate on behalf of my colleague, the Minister, Deputy Ross. I thank Senator Feighan for raising this important matter. The Minister has responsibility for overall policy and funding in respect of the national roads programme. The planning, design and implementation of individual national road projects is a matter for the TII under the Roads Acts 1993 to 2015 in conjunction with the local authorities concerned. Within its capital budget, the assessment and prioritisation of individual projects is a matter in the first instance for the TII in accordance with section 19 of the Roads Act.</p>
+            <p eId="para_19"> Ireland has just under 100,000 km of road in its network and the maintenance and improvement of national, regional and local roads places a substantial financial burden on local authorities and the Exchequer. Due to the national financial position, there were large reductions in Exchequer funding available for roads expenditure after the financial crisis. The Building on Recovery: Infrastructure and Capital Investment 2016-2021 and capital plan review allocations mark a significant step forward in restoring funding to the levels needed to maintain the road network in a steady state condition and allow for investment in road improvement schemes.</p>
+            <p eId="para_20"> Each year, TII carries out a collision analysis of the entire national road network in compliance with the EU road infrastructure safety management directive to identify locations that have high concentrations of collisions. The 1 km section of the N4 in the vicinity of the Cootehall and Croghan junctions was identified in the 2016 analysis and TII provided funding to Roscommon County Council, which is the road authority for the area, to enable improvement works to be implemented at the location. These works, which included improved signage and road markings, were undertaken by the council in late 2016 and early 2017.</p>
+            <p eId="para_21"> The location that the Senator referenced was not identified in collision analyses of the network undertaken since the implementation of those works. However, the absence of sites from the locations identified in the analyses does not preclude a road authority from submitting a feasibility report to TIl for safety improvement works at other locations on the national road network. For example, additional information on unreported collisions may be available to the road authority from local people of which TII is unaware.</p>
+            <p eId="para_22"> In order for TII to consider such proposals relating to national roads, the road authority is required to carry out an analysis of the collision history at the location, design an appropriate scheme to deal with the safety issues identified, carry out an economic appraisal of the proposal, fully cost the scheme and prioritise it in the context of other works being proposed by the road authority.</p>
+          </speech>
+          <summary eId="sum_4">The Minister understands arrangements are being made by Roscommon County Council to monitor traffic flows and driver behaviour on the relevant section of the N4 and additional safety improvement measures that may be proposed by the council arising from this exercise will be considered for funding by Transport Infrastructure Ireland.</summary>
+          <summary eId="sum_5"> I thank the Senator for raising the matter. We all know that safety is paramount on any road, including local, regional and national routes. I will speak to the team in Transport Infrastructure Ireland about this matter. I am certainly willing to work with the Senator into the future on any proposal Roscommon County Council may bring forward concerning this stretch of road. If it is of that much concern to the Senator, I am certainly very open to working with him to see if we can address the issue. We all know that while we might improve a dangerous section of road, one never knows the number of lives that might be saved, although it is fair to believe lives would be saved. If it is something we can do, I am certainly willing to work with the Senator on the issue.</summary>
+          <speech by="#FrankFeighan" eId="spk_5">
+            <from>Senator Frank Feighan<recordedTime time="2018-11-29T10:40:00+00:00"/></from>
+            <p eId="para_23">I thank the Minister of State for his positive response. In some ways, there has not been reporting of accidents on the road, which I am at a loss to understand. Perhaps Garda reports, etc. have not made their way to Transport Infrastructure Ireland. I compliment and thank members of the community who are now collating the information. There have been many accidents on the road and I have no doubt that the information will provide a very strong argument to obtain funding for it. I am delighted that Roscommon County Council is monitoring traffic flows and driver behaviour on the road and look forward to seeing the report. We need to obtain the information and meet representatives from Transport Infrastructure Ireland. If it gives the go-ahead to the project, I have no doubt that the Government will provide the necessary funding.</p>
+          </speech>
+        </debateSection>
+        <debateSection name="debate" eId="dbsect_5">
+          <heading>Local Authority Finances<recordedTime time="2018-11-29T10:40:00+00:00"/></heading>
+          <speech by="#VictorBoyhan" eId="spk_6">
+            <from>Senator Victor Boyhan<recordedTime time="2018-11-29T10:40:00+00:00"/></from>
+            <p eId="para_24">I thank the Minister of State for coming into the House to take this matter. In essence, I am seeking an update on the Government's commitment in A Programme for a Partnership Government which states:</p>
+            <p class="indent_1" eId="para_25">We will also examine the possibility of extending the remit of the Comptroller and Auditor General and the Public Accounts Committee to include expenditure by local authorities. We will ensure that local government funding, structures and responsibilities strengthen local democracy.</p>
+            <p eId="para_26">I do not doubt that commitment. Sitting county councillors tell me that they are experiencing some difficulty even in having time on their agendas to consider the local government auditor's report. We know that local authorities are audited through the internal structures of the Department of Housing, Planning and Local Government that deal with the local government audit service. Most local authorities have only received in the past two or three weeks the local government auditor's report for 2017. I know that in one case in Dún Laoghaire councillors only had approximately ten minutes to consider a very detailed report, in which a number of very strong issues of concern were raised by the auditor. We know that the Committee of Public Accounts has expressed an interest in having representatives of local authorities come before it and that the Government is committed to doing something. It is just a question of when or having a timeframe for it. There is a real need for accountability. Local government is spending an exceptionally large amount. I picked up the Supplementary Estimates for public services, in which document we can see the substantial amount committed to by the Government. I do not doubt its commitment to funding local authorities, but we must have accountability.</p>
+            <p eId="para_27"> Yesterday when I contacted the National Oversight and Audit Commission, it told me that although it could inquire into matters, ultimately, there was no provision for sanctions. The local government audit service also confirmed to me that, ultimately, it had no powers to impose sanctions either. The bottom line is that county managers, or chief executives as we know them today, must be held to account. It is time we had them before the Committee of Public Accounts or a similar body to account for how they spend public money. I am interested in hearing the Minister of State's response.</p>
+          </speech>
+          <speech by="#PatrickODonovan" as="#Minister_of_State_at_the_Department_of_Public_Expenditure_and_Reform" eId="spk_7">
+            <from>Minister of State at the Department of Public Expenditure and Reform (Deputy Patrick O'Donovan)<recordedTime time="2018-11-29T10:40:00+00:00"/></from>
+            <p eId="para_28">The Senator is correct. The programme for Government outlines this commitment under the heading of local government reform. The Senator will be glad to know that in the past couple of months I have been doing some work on the matter with my officials in the Department of Public Expenditure and Reform. The Minister, Deputy Donohoe, and I are former members of the Committee of Public Accounts, as is the Minister for Housing, Planning and Local Government, Deputy Eoghan Murphy. I have committed publicly to extending the role of the Comptroller and Auditor General to cover the local authority sector. There is no reason the Comptroller and Auditor General cannot cover local authority services. As somebody who served on the committee, I found it very frustrating that we were unable to have chief executives, or county managers as they were known, before it.</p>
+            <p eId="para_29"> The Minister and I have discussed this issue on a number of occasions. Within the Department we have worked up a proposal jointly with the Department of Housing, Planning and Local Government. I hope it will be brought before the Government shortly in order that we can examine the possibility of putting in place an implementation group between the Departments of Public Expenditure and Reform and Housing, Planning and Local Government, with a view to extending the remit. There is no reason Members of the Houses should not have access to information on the funding voted by the Houses for the local authorities. They have access to that level of information, scrutiny, oversight and audit in every other single element of voted expenditure. I cannot explain and will not attempt to duck, dive or conceal the fact that it has not happened up to now, as it should have. There is no reason for the chief executives of local authorities not to be here. They should be held to account. It is what happens in the case of the chief executives of other agencies and Accounting Officers of Departments who are held to account by the Committee of Public Accounts, of which I was a member, as were the other two Ministers. The Senator is absolutely right that there is no reason this should not happen.</p>
+            <p eId="para_30"> I can update the Senator as we move along, but he will be glad to know that this matter has been discussed by me on a number of occasions with the other two Ministers, both of whom agree with me. My officials in the Department of Public Expenditure and Reform have liaised with officials in the Department of Housing, Planning and Local Government and I hope, as Minister of State with responsibility for this matter, to be in a position to bring a proposal to the Government shortly. It is very frustrating for members of the Committee of Public Accounts and other Members of the Oireachtas that there is no scrutiny to this level of such a large Vote from which funding is allocated by the Houses to the local authority sector.</p>
+          </speech>
+          <speech by="#DenisODonovan" eId="spk_8">
+            <from> An Cathaoirleach<recordedTime time="2018-11-29T10:40:00+00:00"/></from>
+            <p eId="para_31">It sounds as if the Senator is pushing an open door.</p>
+          </speech>
+          <speech by="#VictorBoyhan" eId="spk_9">
+            <from>Senator Victor Boyhan<recordedTime time="2018-11-29T10:40:00+00:00"/></from>
+            <p eId="para_32">I thank the Minister of State who clearly is very committed to dealing this issue. It is one of the strongest and most robust responses I have heard from any Minister in my short period in the House. I say, "Well done" to the Minister of State. I will have no doubts in leaving here today that the Minister of State and the Government are strongly committed to this initiative. I thank him most sincerely.</p>
+          </speech>
+          <speech by="#DenisODonovan" eId="spk_10">
+            <from> An Cathaoirleach<recordedTime time="2018-11-29T10:40:00+00:00"/></from>
+            <p eId="para_33">It is nice to see the Minister of State speaking off the cuff and without referring to notes. Clearly, he is on top of his brief.</p>
+          </speech>
+        </debateSection>
+        <debateSection name="debate" eId="dbsect_6">
+          <heading>School Accommodation Provision<recordedTime time="2018-11-29T10:40:00+00:00"/></heading>
+          <speech by="#AodhanORiordan" eId="spk_11">
+            <from>Senator Aodhán Ó Ríordáin<recordedTime time="2018-11-29T10:40:00+00:00"/></from>
+            <p eId="para_34">I thank the Minister of State for taking this matter. I refer to an Educate Together national school in Dún Laoghaire and the need for permanent accommodation for Gaelscoil Cholmcille on Oscar Traynor Road.</p>
+            <p eId="para_35"> Representations have been made by Councillor Deirdre Kingston of the Labour Party in Dún Laoghaire asking for progress in the acquisition of a permanent site for a new Educate Together national school in Dún Laoghaire. It is currently located in temporary accommodation which is not fit for purpose. It is cramped for students and not a very positive learning environment. There are no indoor facilities or spaces in which to engage in exercise or movement, with the result that in bad weather children must remain in the classroom for the entire school day.</p>
+            <p eId="para_36">Furthermore, the temporary accommodation is located beside a special school for children on the autism spectrum. We will need to consider the impact more children starting next year and more noise will have on their learning experience. The school is located on a small residential road and traffic is a problem now. Next year there will be bigger numbers. The area immediately around the school is also very unsuitable and unsafe when walking with young children. There are missing pathways, no safe crossings and narrow roads, on which traffic reverses. </p>
+            <p eId="para_37"> Councillor Kingston understands the Department has been reviewing a site for about a year. The question we are asking is where is this site and when does the Minister expect construction to begin. Furthermore, the Department recently bought a site in Blackrock. For what will it be used? Will it be used for the new Dún Laoghaire school? It is important that the Minister prioritise this site and move to tender stage. The demand for school places in Dún Laoghaire is huge and every year parents are worried about what school their child will be able to get into. We need to do all we can to meet demand and ensure every child will be assured of a school place in his or her community.</p>
+            <p eId="para_38"> I appreciate that the Minister of State is here to discuss the Educate Together school in Dún Laoghaire and look forward to hearing his response, but I wish to refer to Gaelscoil Cholmcille on Oscar Traynor Road. I was in the school yesterday for the celebration of Bliain na Gaeilge. The children's celebration of music and song was incredible. Wonderful work is ongoing in the school which has been waiting for a permanent building for 22 years. While I appreciate the Minister of State is here to talk about the Educate Together school in Dún Laoghaire, this issue is still ongoing and I would appreciate hearing his comments on it. Perhaps he might ask the Minister what can be done about it. However, we will concentrate this morning on the Educate Together school in Dún Laoghaire.</p>
+          </speech>
+          <speech by="#DenisODonovan" eId="spk_12">
+            <from> An Cathaoirleach<recordedTime time="2018-11-29T10:50:00+00:00"/></from>
+            <p eId="para_39">The Senator is trying to get two results for the price of one.</p>
+          </speech>
+          <speech by="#PatrickODonovan" eId="spk_13" as="#Minister_of_State_at_the_Department_of_Public_Expenditure_and_Reform">
+            <from>Deputy Patrick O'Donovan<recordedTime time="2018-11-29T10:50:00+00:00"/></from>
+            <p eId="para_40">Whatever about the previous issue, I thank the Cathaoirleach for his compliments. </p>
+            <p eId="para_41"> I am taking this Commencement matter on behalf of the Minister for Education and Skills, Deputy McHugh. I thank the Senator for raising it. I am happy to clarify the position on the development of permanent accommodation for Dún Laoghaire Educate Together national school.</p>
+            <p eId="para_42"> Following a national demographic exercise, it was determined that the opening of a new primary school in September 2017 was required to ensure there would be sufficient primary school places to serve the Dún Laoghaire school planning area. Following a patronage appointment process, Educate Together was appointed as patron of the new school. The school is located in interim accommodation on the grounds of the Red Door School in Monkstown Grove in Monkstown. Dún Laoghaire Educate Together national school has two class groups and there is sufficient accommodation for the school for the 2018-19 school year. Additional accommodation will be required from September 2019 onwards. Departmental officials will work to put the necessary arrangements in place to ensure the school will continue to have suitable interim accommodation, pending delivery of a permanent school building.</p>
+            <p eId="para_43"> The Department is committed to providing a permanent accommodation solution. In that regard, a project to deliver a 16-classroom school building for Dún Laoghaire Educate Together national school has been included in the Department’s six-year capital programme. The acquisition of a site is required to facilitate the delivery of the project. The Senator will appreciate that the acquisition of school sites in highly developed urban areas where land is extremely scarce presents particular challenges for the Department. Not surprisingly, that has proved to be the case in Dún Laoghaire. While a number of potential site options were identified with the assistance of officials in Dún Laoghaire-Rathdown County Council, to date, all have proved to be either unsuitable or unavailable for acquisition. Nonetheless, departmental officials continue to work towards the provision of a suitable site for Dún Laoghaire Educate Together national school and have been engaging with relevant parties, with a view to putting an appropriate solution in place. At this juncture it is not possible to give a timeframe as the Department is still working to identify an optimum solution for the school. Negotiations with a property owner or other external exigencies may influence the timeframe for delivery of the site. However, the process is being progressed as quickly as possible, with a view to securing a site at the earliest possible date. Once a site for the school has been secured, the project to deliver permanent accommodation can be progressed to the architectural planning process. On behalf of the Minister, I assure the Senator that the provision of a permanent school building in a suitable location is a priority for the Department and that officials are working to advance the project as quickly as possible.</p>
+          </speech>
+          <speech by="#AodhanORiordan" eId="spk_14">
+            <from>Senator Aodhán Ó Ríordáin<recordedTime time="2018-11-29T10:50:00+00:00"/></from>
+            <p eId="para_44">I thank the Minister of State for his reply. I appreciate that officials are working hard to secure the site and engaged with Dún Laoghaire-Rathdown County Council to facilitate its acquisition. The Minister of State might be in a position to clarify whether the site acquired in Blackrock is earmarked for Dún Laoghaire Educate Together national school. I also ask him to pass on to the Minister my comments on Gaelscoil Cholmcille on Oscar Traynor Road. I appreciate that these issues are difficult. I also know that departmental officials are doing their absolute best, but the school does not want to engage in a campaign that will last five, ten or 15 years. I appreciate that officials are working hard, but the parents are hoping the goodwill behind the establishment of the school will not turn sour when people do not see movement. I ask the Minister of State to facilitate a discussion between the Minister and the board of management of Gaelscoil Cholmcille.</p>
+          </speech>
+          <speech by="#DenisODonovan" eId="spk_15">
+            <from> An Cathaoirleach<recordedTime time="2018-11-29T10:50:00+00:00"/></from>
+            <p eId="para_45">On the last point, the Senator might write to the Minister. If there is no progress, he can raise the matter again in the Commencement debate.</p>
+          </speech>
+          <speech by="#PatrickODonovan" eId="spk_16" as="#Minister_of_State_at_the_Department_of_Public_Expenditure_and_Reform">
+            <from>Deputy Patrick O'Donovan<recordedTime time="2018-11-29T10:50:00+00:00"/></from>
+            <p eId="para_46">I will bring the Senator's views on the Gaelscoil to which he has referred and Dún Laoghaire Educate Together national school to the attention of the Minister.</p>
+          </speech>
+          <speech by="#DenisODonovan" eId="spk_17">
+            <from> An Cathaoirleach<recordedTime time="2018-11-29T10:50:00+00:00"/></from>
+            <p eId="para_47">The Minister of State is free to go. The Minister for Housing, Planning and Local Government is taking the last Commencement matter. I welcome him to the Chamber.</p>
+          </speech>
+        </debateSection>
+        <debateSection name="debate" eId="dbsect_7">
+          <heading>Lobbying Reform<recordedTime time="2018-11-29T10:50:00+00:00"/></heading>
+          <speech by="#LynnRuane" eId="spk_18">
+            <from>Senator Lynn Ruane<recordedTime time="2018-11-29T10:50:00+00:00"/></from>
+            <p eId="para_48">I thank the Cathaoirleach for selecting my Commencement matter and the Minister for appearing in the Seanad to take it. </p>
+            <p eId="para_49"> I raise an issue of deep concern to many civil society groups involved in public advocacy campaigning and working within organisational structures to effect positive changes in public life. In this country we have an incredibly rich and proud tradition of civil society activism. Civil society led the way on issues of economic and social justice, allowing for Ireland's growth into a more progressive and modern state, as in the recent campaigns for marriage equality and the repeal of the eighth amendment. We owe a lot to civil society and its constituent organisations. The State needs to ensure it is positively supporting their work and role through its laws. It must not act as a barrier to the fair and reasonable advocacy in which the organisations engage.</p>
+            <p eId="para_50"> The situation is that the State is unfairly, unnecessarily and without a reasonable basis interfering in the work of civil society organisations. As the Minister will be aware, the Electoral Act 1997 sets out stringent rules for donations to political parties, political candidates and third parties. It provides that where donations are received to be spent for "political purposes", all of the requirements for the making of a statutory declaration to the Standards in Public Office Commission kick in. That is as it should be, as the regulation of political spending is a strong and welcome feature of our democracy, one that has resulted in an extraordinarily high level of trust and confidence in the electoral system by international comparisons. In 2001 the definition of "political purposes" was extended beyond relating solely to elections. It was redefined to include "to present, directly or indirectly, the policies or a particular policy". This definition is far broader than one that relates just to elections and could feasibly relate to the work of any civil society organisation in advocating for any policy change. Potentially, we are talking about the work of Tidy Towns committees, community organisations and residents' associations, bodies that could never have been intended to be subject to this high standard of compliance. The practical effect of the change is that civil society organisations engaging in normal public advocacy work have become subject to a wide range of unnecessary and burdensome donation prohibitions and statutory declarations. They are entirely justifiable in an electoral context, but I believe they were a completely unintended consequence of the broadening of the definition of "political purposes" for civil society organisations. </p>
+            <p eId="para_51"> We have a real problem, which is why I am raising the issue with the Minister. We need to rethink the definition of "political purposes" in section 22 of the Act and assess whether it is fit for purpose. It was reported recently in <i>The Sunday Business Post </i>that the advocacy group Equate Ireland had been forced to close in the face of this wide definition being weaponised by a lobbyist on the other side of a policy issue. Complaints to the Standards in Public Office Commission were used to interfere in the valid and fair advocacy work of the organisation. The unclear nature of the definition became the focus point of a High Court case involving Amnesty International. The ruling was against the Standards in Public Office Commission.</p>
+            <p eId="para_52">While this definition remains too vague, unclear and uncertain, the State will continue to be open to legal action. In fairness to the former Minister, Mr. Dempsey, who introduced this change, I do not think it was intentional. It has, nonetheless, caused major problems. The law has been specifically criticised by the European Union Agency for Fundamental Rights for threatening the basic democratic right to freedom of association. On the international stage, Ireland is one of the strongest defenders of strong civil society spaces, playing a leading role in developing the EU guidelines on human rights defenders and sponsoring the Human Rights Council's resolution on civil society space. It is simply hypocritical for Ireland to play this role internationally when our domestic laws are so problematic.</p>
+            <p eId="para_53"> A number of groups, including Amnesty International, the Irish Council for Civil Liberties, ICCL, and others, have come together as the Coalition for Civil Society Freedom to advocate specifically for this change. It has produced an excellent report, entitled Keeping the People's Voice in Power. Has the Minister read the report? If not, will he commit to reading it and then meeting those groups as soon as possible? I believe this was an unintended mistake caused by poorly phrased legislative drafting. It is a bad law that is hampering the work of some excellent organisations in this country. We cannot stand over it any longer. I urge the Minister to consider changing this as a priority and I look forward to his response.</p>
+          </speech>
+          <speech by="#EoghanMurphy" as="#Minister_for_Housing,_Planning_and_Local_Government" eId="spk_19">
+            <from>Minister for Housing, Planning and Local Government (Deputy Eoghan Murphy)<recordedTime time="2018-11-29T11:00:00+00:00"/></from>
+            <p eId="para_54">I thank Senator Ruane for raising this issue. At the outset, I congratulate her on her recent award. It was well achieved and well deserved. I thank the Senator for giving me the opportunity to address Seanad Éireann on this important matter. The Electoral Act 1997, as amended, provides the statutory framework for dealing with political donations and sets out the regulatory regime covering a wide range of issues such as the funding of political parties but also the reimbursement of election expenses, the establishment of election expenditure limits, the disclosure of election expenditure, the setting of limits on permissible donations, the prohibition of certain donations, the disclosure of donations, and the registration of third parties who accept donations given for political purposes which exceed the limit of €100.</p>
+            <p eId="para_55"> The Act also provides for the independent supervision of this regime by the Standards in Public Office Commission, SIPO. It has published a number of guidelines to inform election candidates, Members of the Houses of the Oireachtas, Members of the European Parliament, political parties, corporate donors and third parties of their obligations under the Act. My Department is aware of the issues raised by a number of civil society groups, having particular regard to this definition of "political purposes” as provided for in section 22(2)(aa) of the Act. My Department also notes their views that it may bring a wide range of non-government organisations within the scope of the Act. As Senator Ruane has pointed out, that may in turn affect the means by which they legitimately raise funds to run their normal day-to-day operations. I am also aware that SIPO has raised this issue in its annual reports over the years and, in its most recent annual report, it has recommended that an “electoral commission should be established, and a comprehensive review of the Electoral Acts should take place, preferably in the context of the creation of an electoral commission”.</p>
+            <p eId="para_56"> It is envisaged that the establishment of such an electoral commission would bring significant change to the oversight of the electoral system in the State when it is established. Plans to establish an electoral commission are being advanced in my Department. That is being done in accordance with the commitment in A Programme for a Partnership Government and having regard to the recommendations earlier this summer, in the report of the interdepartmental group on the security of Ireland's electoral process and disinformation, that this work should be expedited and that the issue of spending limits and transparency requirements around referendums and electoral events should be examined further.</p>
+            <p eId="para_57"> In this context, I hope to announce shortly, with the Minister of State, Deputy Phelan, a public consultation on establishing an electoral commission. Submissions received over the course of the proposed consultative process will be carefully analysed and will inform the development of future proposals to Government on this matter. There will likely be a wide range of views, from all perspectives, on the appropriateness or otherwise of the definition of "political purposes" in the Electoral Acts, a definition that has been in place since 1997. My Department will be pleased to consider any submissions or views that interested parties may wish to make on the important issue raised by Senator Ruane.</p>
+          </speech>
+          <speech by="#LynnRuane" eId="spk_20">
+            <from>Senator Lynn Ruane<recordedTime time="2018-11-29T11:00:00+00:00"/></from>
+            <p eId="para_58">I thank the Minister. I acknowledge the role of the proposed electoral commission and how crucial that will be to advancing further where we are with elections and referenda. It was made very clear, however, during debates in this Chamber - I think it was with the Minister of State, Deputy Phelan - that an electoral commission could take a considerable amount of time to establish. In the time we would have to wait, we could risk other organisations ending up in the same position as Equate Ireland and having to close their doors. A relatively small amendment is required and it could be made instead of having to wait for the establishment of the electoral commission. Will the Minister consider introducing such an amendment? If not, there is support in this Chamber for considering legislative options on an Opposition cross-party basis. I would much prefer, however, if the Minister's Department could look at accelerating an amendment. It could do that much faster than we can. The organisations are worried about having to wait for an electoral commission, which could take many years to happen.</p>
+          </speech>
+          <speech by="#EoghanMurphy" eId="spk_21" as="#Minister_for_Housing,_Planning_and_Local_Government">
+            <from>Deputy Eoghan Murphy<recordedTime time="2018-11-29T11:00:00+00:00"/></from>
+            <p eId="para_59">At the moment the Department is expediting a number of things we need to do in respect of our political progress. It is important to recognise that the public has a high degree of trust and faith in the system and in the integrity of the system. As we make important changes that we need to make, such as establishing an electoral commission and modernising our electoral register, which are two projects happening in tandem at the moment, we have to make sure we are protecting the integrity of that system. A number of things are being expedited and we are doing a regulatory impact assessment, RIA, on the establishment of an electoral commission. That will be launched in a couple of weeks and will run through into the first or second quarter of 2019. It will be a public consultation on four different proposals for an electoral commission and what powers it might have.</p>
+            <p eId="para_60"> We are going to have a wide debate during that public consultation on things such as definitions, what should be permitted as expenditure, who should be allowed from outside of our country to donate or spend money, inside or outside of election times, and how these things are defined. I, and most people who have been consulted on this, believe that we should not go for a big-bang approach to establishing an electoral commission. We should instead phase it in over time. Going through that public consultation and debate might allow us then to establish a list of our priorities for reform.</p>
+            <p eId="para_61"> As we progress reform to the stage of establishing an electoral commission, perhaps over a period of two years after the end of the public consultation in the first or second quarter of next year, what are the priorities if we are not going to wait until the electoral commission has been established and everything is done? If we are going to do it in a phased approach, what are our priorities? We will have space to consider that in the short period in front of us. It is not the intention of the Act to have any kind of chilling effect on civil society engagement. Senator Ruane noted two recent examples where civil society has been the driving force and has brought the politicians behind it and on board to a successful result. I used to work in the area of international arms control where absolutely nothing would have happened with the ban on landmines were it not for civil society on the international stage. Many Irish organisations played a fundamental role in that.</p>
+            <p eId="para_62"> I know directly from that experience, as well as the more recent experiences we have had here in Ireland, the importance of civil society. We do not want to have a chilling effect. We want transparency on what is happening and an understanding of what is allowed and what is not allowed. I know we need to look at the regulation of spending or a definition of "political purposes", and we will. I just do not want to look at it in isolation. I also do not want any delay. I hope that over the next three to four months we will, through that public consultation and then as the Oireachtas, establish a roadmap for priorities to get to a point where we then have a statutory, fully fledged electoral commission. I hope we can come to an understanding and a timeline for that during the process.</p>
+          </speech>
+          <summary eId="sum_6">
+            <i>Sitting suspended at 11.08 a.m. and resumed at 11.30 a.m.</i>
+          </summary>
+        </debateSection>
+      </debateSection>
+      <debateSection name="orderofBusiness" eId="dbsect_8">
+        <heading>Order of Business<recordedTime time="2018-11-29T11:30:00+00:00"/></heading>
+        <speech by="#JerryButtimer" eId="spk_22">
+          <from>Senator Jerry Buttimer<recordedTime time="2018-11-29T11:30:00+00:00"/></from>
+          <p eId="para_63">The Order of Business is No. 1, motion regarding the appointment of Mr. Justice Seán Ryan to the disclosures tribunal, to be taken on conclusion of the Order of Business without debate; No. 2, motion regarding the horse and greyhound racing fund regulations, back from committee, to be taken on conclusion of No. 1 without debate; and No. 3, Greyhound Racing Bill 2018 - Report and Final Stages, to be taken at 12.45 p.m. and to adjourn not later than 3 p.m., if not previously concluded.</p>
+        </speech>
+        <speech by="#CatherineArdagh" eId="spk_23">
+          <from>Senator Catherine Ardagh<recordedTime time="2018-11-29T11:30:00+00:00"/></from>
+          <p eId="para_64">I welcome the ladies in the Public Gallery from Mercy Secondary School in Inchicore. I particularly wish to mention the transition year class who are doing a project on the lack of amenities in their area, Inchicore, and the lack of resources for their school as part of the Young Social Innovators programme. They are very passionate about the area. Their school is the only girls school in Inchicore and is attended by many girls from the area. The students told me that the school has a pitch but there are no nets in the goals, which is extraordinary. These young girls are campaigning passionately to ensure that Inchicore is the best place in which to live and has amenities to allow them to play, shop, live and work. I spoke to them at length before the Order of Business. They are very concerned by the lack of housing in the Inchicore area. I commend them on their project and wish them every success. I hope the project does well in the competition.</p>
+        </speech>
+        <speech by="#TerryLeyden" eId="spk_24">
+          <from>Senator Terry Leyden<recordedTime time="2018-11-29T11:30:00+00:00"/></from>
+          <p eId="para_65">We should all move to Inchicore.</p>
+        </speech>
+        <speech by="#CatherineArdagh" eId="spk_25">
+          <from>Senator Catherine Ardagh<recordedTime time="2018-11-29T11:30:00+00:00"/></from>
+          <p eId="para_66">I wish to raise the issue of homeless figures. Some 415 families, including 893 children, registered as homeless in the last quarter for which figures are available. That is a significant increase on the previous quarter, when only 383 families presented as homeless in the capital. Senators are aware that supply is the underlying issue. However, I have raised this issue in the House every week since I was elected and have seen little improvement in that regard. Land in the St. Michael's Estate area of Inchicore, the area with which these girls are concerned, has been lying vacant for almost a decade and a half. There is a great deal of talk about housing being built but nothing has materialised and that is of great concern. The students in the Gallery are concerned. This is not a matter about which children should be concerned. They should not have to worry about homeless figures and people in their class looking for homes. It is not right for them to take those concerns on board at such a young age. I have a concern regarding the plan of the Minister, Deputy Eoghan Murphy, to deal with rough sleeping over the winter months. It often becomes a crisis at the last minute even though we know it is on the way. What is the rough sleeping plan for the capital for the coming months?</p>
+          <p eId="para_67"> I congratulate the GAA on hurling and camogie being added to the UNESCO list of protected cultural activities. They are among the oldest and fastest field sports in the world. The GAA deserves credit on receiving this accolade.</p>
+        </speech>
+        <speech by="#DenisODonovan" eId="spk_26">
+          <from> An Cathaoirleach<recordedTime time="2018-11-29T11:30:00+00:00"/></from>
+          <p eId="para_68">On that subject, we must not forget that a former Senator, the Minister of State, Deputy John Paul Phelan, threw the ball in, if Senators will excuse the pun, and he should be acknowledged for that. I call Senator Boyhan.</p>
+        </speech>
+        <speech by="#VictorBoyhan" eId="spk_27">
+          <from>Senator Victor Boyhan<recordedTime time="2018-11-29T11:30:00+00:00"/></from>
+          <p eId="para_69">I have just come from an ongoing presentation by Deputy Harty who represents County Clare and is a great champion of health services in both Houses. Members from both Houses are in attendance. Deputy Harty addressed several very serious issues and cervical cancer in particular. Three Australian experts are at the presentation and will then go to meet the HSE and senior Government officials.</p>
+          <p eId="para_70"> It is a very important piece of work and prompted me to look again at page 54 of A Programme for a Partnership Government, a section entitled, A Decisive shift of the Health Service to Primary Care. It states that the Government is committed to funding and delivering 80 additional primary care centres. I ask the Leader to organise, when practical and possible, a debate on those promised 80 additional community care centres across the country which are of great importance. If politicians make promises, they must deliver on them. Many people are disappointed when people make promises but do not deliver on them. This commitment is in the programme for Government. Progress has been made on it but I am unsure to what extent.</p>
+          <p eId="para_71"> It was St. Brigid's Day, 1 February, when the Taoiseach last appeared in the House. Much has happened since then and I ask the Leader, with the agreement of the House, to invite the Taoiseach to come to the House before the Christmas recess.</p>
+          <p eId="para_72">I think we would both benefit from a period of engagement and discussion on the floor of this Chamber. I therefore ask the Leader to confirm he will pass on this invitation. I appreciate that it is ultimately a matter for the Taoiseach.</p>
+          <p eId="para_73"> I wish to touch on the issue of local government. We are coming up to the last day in November and we have a commitment that we will have an interim report on the terms and conditions and pay of local elected members. We are all in contact with local councillors. I can tell the House that this week alone eight long-standing, capable county councillors have decided they will not run in the next local elections. Every week I hear news directly from councillors of people who say they can no longer stay in local government because of the dearth of finance and support and the need to attend meetings for longer hours. This must be a wake-up call to all Members of this House, of all parties and none, to address the reasons people are not staying in local government. We need these people, this experience and this exchange of views, backgrounds and traditions. The time has come for us in this House to unite to strengthen and support local government. Will the Leader indicate today, if he can, when this interim report will be done? We should have another debate very soon on the powers of local government and supporting elected members to do their job.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_28">
+          <from>Senator Kevin Humphreys<recordedTime time="2018-11-29T11:40:00+00:00"/></from>
+          <p eId="para_74">I thank the Members of the House who attended the information meeting on Alzheimer's and dementia in the audiovisual room. It is one of the hidden diseases and those affected do not get the support they should get. The simple ask of the group that presented is an additional eight advisers for dementia and Alzheimer's to be connected to the primary care centres. I would like to see the day when we might have an adviser in every primary care centre. This is very important.</p>
+          <p eId="para_75"> I also wish to raise an element of the housing crisis that is not very often raised in this House. I raised this specific issue last week. I refer to the Central Bank's press release yesterday in which it advised young people that they will have to wait for supply. It does not propose to increase the loans they can access but states that supply will solve the problem. This is like the time I raised the issue of Airbnb and short-term lets about two years ago. It was not acknowledged it was a problem. There is a very new problem, certainly in the greater Dublin area, that even where supply is coming online, the apartment blocks are being bought up in their entirety by investment groups such as real estate investment trusts, REITs, and pension funds. Young people who have done everything right - got an education, done their training, saved their 10% deposit - now find they cannot purchase a home in which to start their lives. This is a crying shame and is starting to become what I would call a real problem. It represents the early days of another crisis affecting hard-working young families who want the opportunity to purchase their own homes.</p>
+          <p eId="para_76"> A balance is needed in all this when it comes to professional landlords in order that adequate rental accommodation would be available at affordable prices in our cities. The balance has gone the wrong way, however, and we now see young couples who are trying to start their lives and wish to buy an apartment not getting an opportunity to purchase. They see the apartment block coming up out of the ground and the units being developed and then they read in the newspapers that professional investors have bought out the whole block. This is a real issue and we need the Minister for Housing, Planning and Local Government to discuss it before it gets out of hand. As a political body we let short-term lets get out of hand. Now we are talking about legislation on this before Christmas and implementation in June. If, however, we do not get the supply correct for all the different sectors of the market, we will roll into another crisis. Let us respond, be proactive and ensure a balance within what people are capable of buying. I thank the Cathaoirleach for giving me a little extra time.</p>
+        </speech>
+        <speech by="#ColmBurke" eId="spk_29">
+          <from>Senator Colm Burke<recordedTime time="2018-11-29T11:40:00+00:00"/></from>
+          <p eId="para_77">I wish to raise the Supreme Court decision yesterday that section 249(1) of the Social Welfare Consolidation Act 2005 is unconstitutional. This subsection provides that someone in prison is not entitled to receive a pension. The case involved someone who was convicted of rape. The court ordered that he is entitled not only to be paid his pension but also to receive €10,000 in compensation. This is a very serious decision. Yes, the Supreme Court is correct that there is a separation of powers. It found that the Act is unconstitutional. There is, however, no word as to how the victims have been treated. People may not be aware that the victims in this case, as far as I am concerned, could now apply to court for a garnishee order looking for the moneys not to be paid to this person but to be held in court and paid to the people who suffered injury and loss as a result of his crime. We need to look at this decision very quickly in order that if the courts need additional powers when passing sentence, they would also make an order that any pension to which such a person is entitled would go into a fund that would then go back to the victims. It is wrong that someone who has been convicted of such a crime can receive a benefit from the State while serving a sentence while the victims do not receive any recognition or compensation for the loss and injury they have suffered. This is a matter on which we should immediately bring the Minister for Justice and Equality before the House to see what amendments can be made and how we can ensure that the pension goes to the victims and not the person serving the sentence. We need to do this at the earliest possible date.</p>
+        </speech>
+        <speech by="#DenisODonovan" eId="spk_30">
+          <from> An Cathaoirleach<recordedTime time="2018-11-29T11:40:00+00:00"/></from>
+          <p eId="para_78">Before I call Senator Leyden, I welcome to the Public Gallery residents of Warrenmount, Senator Ardagh's area. They are very welcome. I hope they enjoy their day in Leinster House.</p>
+        </speech>
+        <speech by="#TerryLeyden" eId="spk_31">
+          <from>Senator Terry Leyden<recordedTime time="2018-11-29T11:40:00+00:00"/></from>
+          <p eId="para_79">I propose an idea and make a request concerning Roscommon town team. These town teams, developed under the local government, are doing great work in every town in the countryside. Their work is very important and I commend them on it. I ask the directors of Iarnród Éireann, Irish Rail, that the company provide facilities at every station to advertise the town in question - for instance, the benefits of stopping at Roscommon town en route from Westport to Heuston Station. If all the attractions of the town were displayed, we would have a very captive audience. There are very good locations and very attractive stations. People do not realise that Roscommon, for instance, is the site of an old abbey, a 13th century castle, the Church of the Sacred Heart and the burial place of the last King of Connacht. All these attractions could be advertised to get people to stop even for a few hours and get the following train onward. I would like to see this extended to towns such as Castlerea, Boyle and Carrick-on-Shannon. I will make a case to Iarnród Éireann to allow the local authorities, in particular the town teams, to erect information plaques at railway stations. I have noticed that Tullamore railway station, for instance, has some very attractive artwork, so it is doing something in this regard. It would be a worthwhile exercise because economically we need to promote all our towns.</p>
+          <p eId="para_80"> In this regard, Senator Hopkins said last week, I think, that she wanted an additional, later train from Dublin to Westport, and I certainly support her on this. The last such train is at 6.15 p.m., and a later train would be of great benefit. Furthermore, I appeal to Iarnród Éireann that there is a need for more carriages on the western train to Westport. It is a very popular service and on many occasions the trains are overcrowded and people have nowhere to sit. We should look at the rolling stock and invest more in our railway stations, railway lines and in the provision of approved services. Nonetheless, generally speaking, I compliment Iarnród Éireann on the quality of its trains and its time schedules, which are perfect. There is another train called the Belmond Grand Hibernian, which people are not aware of. It is a tourist train which stops in stations all over the countryside, and I commend the company on its work.</p>
+        </speech>
+        <speech by="#FintanWarfield" eId="spk_32">
+          <from>Senator Fintan Warfield<recordedTime time="2018-11-29T11:50:00+00:00"/></from>
+          <p eId="para_81">World Aids Day, which will take place on Saturday, presents an opportunity for the global community to evaluate or fight to eradicate HIV and AIDS. This time last year, when we had statements to mark the occasion, this House was in unison in stating that rising HIV transmission rates are unacceptable and our current responses inadequate. While accessible antiretroviral therapy in the form of PrEP looks like it is on its way, we are lagging behind many of our European counterparts, and very little has changed since the end of last year. While testing was noted as a key priority in the sexual health strategy in 2015, no real further investment in testing has been forthcoming. A high rate of late diagnosis is the result. The Gay Men’s Health Service on Baggot Street, which provides a targeted response, is still operating in a condemned building and with limited resources. Too often the State takes advantage of those who are willing to go above and beyond their duty, in this case, the staff of the service.</p>
+          <p eId="para_82"> Relationships and sexuality education is still under review. We need more urgency in implementing change. I was in a secondary school this week and noted it does not appear anything has changed in relationships and sexuality education since I was in school nine years ago. We must not continue to fail more generations in that regard.</p>
+          <p eId="para_83"> The HIV transmission rate is up 8.7% on last year. Next year, I want to stand in this House and recognise the work of the Government in decreasing transmission rates. I call on the Government to engage with activists who are campaigning for an Irish AIDS memorial, that is, a physical site of remembrance to serve as a place to grieve, remember loss and give hope.</p>
+        </speech>
+        <speech by="#NealeRichmond" eId="spk_33">
+          <from>Senator Neale Richmond<recordedTime time="2018-11-29T11:50:00+00:00"/></from>
+          <p eId="para_84">In the last hour, the European Commission announced the rolling out of the second round of the DiscoverEU interrail ticket project. This was launched last year following strong campaigning by our MEP, Brian Hayes, in conjunction with Manfred Weber, the leader of the European People's Party group in the European Parliament. The scheme is very simple. It gives 18 year olds across Europe the chance to obtain a free one-month interrail ticket to mark their 18th birthday in order that they might have the ability to discover why Europe is as it is, its history, geography and landscape and everything else that goes with it. I was very fortunate to go interrailing twice in my student years. It is vital that the youth of today get to visit places such as Auschwitz, Paris, Berlin and Rome to learn their full history. I call on the Leader to invite the Minister for Transport, Tourism and Sport to the Chamber to discuss how many Irish people were among the 15,000 awarded grants under the first round. What is the aspiration for the second round, amounting to 12,000 grants this year?</p>
+        </speech>
+        <speech by="#DenisODonovan" eId="spk_34">
+          <from> An Cathaoirleach<recordedTime time="2018-11-29T11:50:00+00:00"/></from>
+          <p eId="para_85">I thank the Senator for his usual brevity.</p>
+        </speech>
+        <speech by="#AidanDavitt" eId="spk_35">
+          <from>Senator Aidan Davitt<recordedTime time="2018-11-29T11:50:00+00:00"/></from>
+          <p eId="para_86">I was shocked this morning by a matter that I was aware was rumbling on but that seems to have come to a head, namely, the actions of the Competition and Consumer Protection Commission against the Restaurants Association of Ireland. There seems to be a concerted campaign against the restaurant industry by the State body for quite a while. I ask both parties to sit down and tease out the issues. The commission is a State entity and it seems to be hounding the association and its members. The membership has come under pressure since the decision to raise the VAT rate on hospitality businesses by 50%. The association has spoken of a general increase in wages in the sector of 20% in recent years. The industry is having a tough time already.</p>
+          <p eId="para_87"> The Restaurants Association of Ireland has been under investigation and has had many demands placed on it in respect of having staff undergo competition training and making regular reports to the commission. Strange requests and demands are being made of an organisation which represents a large number of people and businesses, many of which are relatively small. It certainly provides the best information it can and it is very helpful. The commission would make better use of taxpayers' money if it were studying several problems facing us. Personal contract plans, PCPs, for example, have been discussed here on a number of occasions. These loans are causing tremendous distress to many people. In recent months, a scandal has emerged regarding various medical parts and medicines. This has been revealed in investigative journalism in <i>The Irish Times</i> and also by the BBC. There are many issues on which the commission could spend time that would be more productive from the perspective of the taxpayer. It may be worthwhile to call the commission before the Committee of Public Accounts to determine what work it is doing. I am just curious about it. I genuinely believe the commission is singling out the Restaurants Association of Ireland, slightly unfairly. I hope that whatever information is given is correct. Having read it, I certainly feel it is. If the commission believes there is something amiss, perhaps its staff could sit down with the staff of the association and sort these matters out.</p>
+        </speech>
+        <speech by="#RayButler" eId="spk_36">
+          <from>Senator Ray Butler<recordedTime time="2018-11-29T11:50:00+00:00"/></from>
+          <p eId="para_88">I welcome An Bord Pleanála’s decision last week that Narconon-Scientology needs planning permission for its drug rehabilitation centre in Ballivor. I spoke at length in the House about this facility. Meath County Council's planning section said it did not need planning permission. Section 5 was used to change the usage of the building in question from a nursing home to a drug-related rehabilitation facility. The change was not publicised and went ahead. Nobody in the community of Ballivor knew about it until there were leaks from the local authority. It was terrible to see how split the community was. The matter will be back with Meath County Council if Narconon seeks planning permission again. The facility will use drug-related methods that are not HSE or HIQA approved. It is located beside schools, a playground, a community centre and a playschool. We have all read about and seen what Narconon and Scientology really are around the world. I want the Minister responsible for local government to legislate to stop section 5 from being used without its use being publicised. What I really want is for Meath County Council to step up to the mark and do the right thing for Meath, including Ballivor, by preventing the facility from ever going ahead.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_37">
+          <from>Senator Ivana Bacik<recordedTime time="2018-11-29T11:50:00+00:00"/></from>
+          <p eId="para_89">I congratulate Senator Frances Black on the passage last night of Committee Stage of the Control of Economic Activity (Occupied Territories) Bill 2018, which the Labour Party was proud to support. I commend her on obtaining cross-party support for it. I hope the Government will see fit not to oppose the legislation on a further Stage. I have been actively vocal on the issue of rights for Palestinian people at the foreign affairs committee, as have my Labour Party colleagues elsewhere, including former Tánaiste Eamon Gilmore. Ireland has a good track record on rights for Palestinians. I consider the Bill to be in that spirit and in keeping with the move to recognise international law and breaches of international law in terms of the settlements.</p>
+          <p eId="para_90"> I thank Deputy Michael Harty for organising a briefing this morning on cervical cancer with the Royal College of Physicians of Ireland. We have had a debate on the CervicalCheck controversy but the briefing this morning indicates the need for a more broad debate on the benefits of vaccination programmes and public health programmes more generally.</p>
+          <p eId="para_91">The message from the Royal College of Physicians was important, namely, that it is possible to eradicate diseases such as cervical cancer through progressive public health policies such as the HPV vaccination programme and screening programmes such as CervicalCheck, which of course is not diagnostic but rather is screening. There was very positive news from this morning's briefing that take-up of the HPV vaccine across Irish schools has risen to 65% this September, a 15% increase on previous years. We also heard from the Australian expert, Professor Marion Saville, about the likely elimination of cervical cancer in Australia as a result of a successful vaccination and screening programme.</p>
+          <p eId="para_92"> I commend those involved in organising the briefing. It was a positive story to emerge out of what has been a very depressing, negative and distressing series of stories about CervicalCheck, and it reminds us of the vital importance that screening and vaccination programmes play in promoting public health and, ultimately, leading to the elimination of disease.</p>
+        </speech>
+        <speech by="#FrankFeighan" eId="spk_38">
+          <from>Senator Frank Feighan<recordedTime time="2018-11-29T12:00:00+00:00"/></from>
+          <p eId="para_93">Before I got involved in politics, I was chairperson of the Lough Key Forest Park action group. Lough Key Forest Park is beside Boyle in County Roscommon and is a wonderful amenity. At the time, Coillte owned the park, but it could not draw down investment from Europe because it was a semi-State body. We came up with the idea that the local authority would get involved. By setting up Moylurg Rockingham DAC, Roscommon County Council and Coillte were able to draw down €20 million and we now have a state-of-the-art tourist facility in Lough Key Forest Park, with tree canopy walks and Boda Borg. It is one of the major tourist attractions in the country.</p>
+          <p eId="para_94"> It has now come to my notice that McDermott Castle in Castleisland, a fairy-tale castle and one of the most impressive in the country, is for sale now on BidX1 at a guide price of €90,000. I do not know why it was in private ownership, but this is a wonderful chance for the State, whether the Office of Public Works, OPW, or Moylurg Rockingham DAC, to buy that island. It is in the interests of the community and the country because it is part of our physical history. I have written to the Minister asking that the OPW would investigate purchasing this island. It will not be lived in, but it is part of our historical amenities. Maybe the OPW could talk to Moylurg Rockingham and come to an arrangement whereby it could also be bought by it. Either way, this castle should be in the hands of the State, or the people of our country, and it makes a lot of sense.</p>
+        </speech>
+        <speech by="#RobbieGallagher" eId="spk_39">
+          <from>Senator Robbie Gallagher<recordedTime time="2018-11-29T12:00:00+00:00"/></from>
+          <p eId="para_95">I raise the plight of a substantial number of Garda recruits who have been badly inconvenienced and left out of pocket because of the last-minute decisions of Garda management. Thankfully, 200 new Garda recruits have just completed their training. They had been posted to different stations throughout the country. I understand nine were due to go to the Cavan-Monaghan division, four to Carrickmacross, two to Monaghan town and three to Bailieborough in County Cavan. Donegal, for example, was due to get 13.</p>
+          <p eId="para_96"> The plans were changed at the last minute and now Garda management has reallocated these Garda recruits to six major urban centres throughout the country - Dublin, Cork, Limerick and a few others. Those recruits will not now be coming to other towns throughout the country to which they were initially allocated until late January. That is disappointing because the people in Cavan-Monaghan were looking forward to additional gardaí on the streets over the Christmas period and God knows there are many towns throughout the country crying out for more gardaí on the streets.</p>
+          <p eId="para_97"> The other issue I have is how Garda management could make a decision like this at the last minute. It is very unfair on the young gardaí in question, many of whom, I understand, had accommodation booked in the towns in which they were to be stationed. Some of these recruits, because their training had finished, were entitled to and had booked holidays. Those who had will lose their money, and those who had sought accommodation would have had to have paid booking deposits if they were successful in getting accommodation. They also may have had to have paid rent there for a month when they will not be there. They also now have to seek accommodation in one of those six major centres where they are going to be allocated for one month. That is going to be a difficult task.</p>
+          <p eId="para_98"> Perhaps the Leader will bring this to the attention of the Minister for Justice and Equality. Why did Garda management leave this decision to the last minute? Surely somebody would have foreseen that these gardaí were going to be needed for traffic duty over the Christmas period and therefore should not have been allocated stations around the country as had been done. It is unfair and shows no duty of care or respect to those young members of An Garda Síochána who are about to commence their careers.</p>
+        </speech>
+        <speech by="#MariaByrne" eId="spk_40">
+          <from>Senator Maria Byrne<recordedTime time="2018-11-29T12:00:00+00:00"/></from>
+          <p eId="para_99">I welcome the recommendation from the European Parliament Committee on Employment and Social Affairs relating to the European Globalisation Fund. In the past, the European Globalisation Fund has been used for companies where there were redundancies of more than 500 people. The committee recommends that number be brought down to accommodate companies where 200 employees or more are made redundant.</p>
+          <p eId="para_100"> The European Globalisation Fund has given a great start to companies like Dell, Andersen Ireland and Waterford Crystal in the past. Those companies availed of this fund and upskilled, retrained, rebranded and recreated jobs. Thankfully, Ireland is creating more jobs than it is losing, but it is reassuring to know this recommendation is being put in place to reduce the number of employees made redundant before there is access to this fund. If there were to be redundancies in any company, there is a fund to which they could apply to upskill, retrain and give a fresh start to employees. This is welcome news.</p>
+        </speech>
+        <speech by="#JerryButtimer" eId="spk_41">
+          <from>Senator Jerry Buttimer<recordedTime time="2018-11-29T12:00:00+00:00"/></from>
+          <p eId="para_101">I thank the 13 Members of the House for their contributions to the Order of Business.</p>
+          <p eId="para_102"> I join the Cathaoirleach and Senator Ardagh in welcoming the students from the Mercy secondary school, Inchicore, and the people from the Warrenmount residents association to the House today.</p>
+          <p eId="para_103"> Senators Ardagh and Humphreys raised the issue of housing. The Minister for Housing, Planning and Local Government, Deputy Eoghan Murphy, will come to the House in the coming weeks. It is important to recognise that 5,000 new homes were completed by the end of the third quarter of this year, with 3,000 student bed spaces completed as well. Senator Ardagh, in her wonderful introduction of the students, neglected to mention that the Government has committed to the rejuvenation and regeneration of the Kilmainham and Inchicore areas. She should highlight to the students the importance of the St. Michael's-----</p>
+        </speech>
+        <speech by="#CatherineArdagh" eId="spk_42">
+          <from>Senator Catherine Ardagh<recordedTime time="2018-11-29T12:00:00+00:00"/></from>
+          <p eId="para_104">How many plans have there been? How many have been implemented?</p>
+        </speech>
+        <speech by="#JerryButtimer" eId="spk_43">
+          <from>Senator Jerry Buttimer<recordedTime time="2018-11-29T12:00:00+00:00"/></from>
+          <p eId="para_105">Senator Ardagh should highlight to the students the fact that the Government is committed to St. Michael's estate with a variety of models of delivery of housing. I wish the students well in their project.</p>
+          <p eId="para_106"> The Cathaoirleach and Senator Ardagh rightly mentioned the good news that camogie and hurling have been recognised by UNESCO. I commend the Minister for Business, Enterprise and Innovation, Deputy Humphreys, on her work. As the Cathaoirleach said, praise is also due to former Senator and now Minister of State, Deputy John Paul Phelan, who was the person who threw the ball in, as it were.</p>
+          <p eId="para_107"> Senators Boyhan and Bacik raised the issue of the briefing presented today by Deputy Michael Harty, the chair of the Committee on Health. Senator Bacik is correct about vaccination and the necessity for a very strong public health campaign. I thank Senators Bacik and Boyhan for raising the matter today.</p>
+          <p eId="para_108"> Senator Boyhan raised the issue of the programme for Government and I think he mentioned page 54. He should recognise that the Government has opened a number of primary care centres. The Minister for Health, Deputy Harris, was the Minister who established Sláintecare. He has put in place the building blocks to ensure further primary care centres are opened and that the model of healthcare is delivered in community for people. That is a commitment under the programme for Government and in the Sláintecare report.</p>
+          <p eId="para_109"> We have requested the Taoiseach to come to the House. It may not be possible before Christmas.</p>
+        </speech>
+        <speech by="#VictorBoyhan" eId="spk_44">
+          <from>Senator Victor Boyhan<recordedTime time="2018-11-29T12:00:00+00:00"/></from>
+          <p eId="para_110">That is interesting.</p>
+        </speech>
+        <speech by="#JerryButtimer" eId="spk_45">
+          <from>Senator Jerry Buttimer<recordedTime time="2018-11-29T12:00:00+00:00"/></from>
+          <p eId="para_111">Is that interesting?</p>
+        </speech>
+        <speech by="#VictorBoyhan" eId="spk_46">
+          <from>Senator Victor Boyhan<recordedTime time="2018-11-29T12:00:00+00:00"/></from>
+          <p eId="para_112">It is welcome.</p>
+        </speech>
+        <speech by="#JerryButtimer" eId="spk_47">
+          <from>Senator Jerry Buttimer<recordedTime time="2018-11-29T12:10:00+00:00"/></from>
+          <p eId="para_113">The Taoiseach is very aware of what happens in the House and the progress of different items of legislation. I am mindful of the fact that the Seanad reform committee is due to complete its work on 11 December or thereabouts; therefore, it might be premature to have him come to the House before then, but that is my personal opinion. It might be more appropriate to invite him to come here after the report has been published, but he is very much aware of the request made. I have spoken to him on a number of occasions and he is keen to return. Senator Boyhan is well aware that we have a pressing number of items of legislation to be completed before the Christmas break, but we will see if the Taoiseach's diary allows him to come before then. If he does not come before Christmas, we will certainly have the debate with him in the new year.</p>
+          <p eId="para_114"> I do not have information to hand on the progress of the report on local government. Although we have had a number of debates on local government, I am happy to invite the Minister of State at the Department of Housing, Planning and Local Government, Deputy Phelan, to come to the House for a further debate on the matter. As Senators are aware, councillors retire all of the time, not just in this cycle. There have always been renewals, replacements and retirements. We wish all of those who will announce their retirement well and those who will contest the next elections every success. </p>
+          <p eId="para_115"> I commend Senator Humphreys on his work as part of the all-party Oireachtas group on Alzheimer's disease and dementia. We need to invest more and conduct further research into ways to combat such extraordinary illnesses. I very much welcome the establishment of the all-party group, members of which tabled a Commencement matter on 21 November to highlight the issue of dementia. I am happy to invite the Minister for Health to come to the House to discuss it. The Senator is right that we need to have an ongoing debate and investment. </p>
+          <p eId="para_116"> Senator Colm Burke made reference to a Supreme Court decision and called on us to reflect on it. The judgment and the decision are interesting and the Senator rightly made reference to the victim. We need to debate the matter. I am happy to invite the Minister for Justice and Equality to come to the House to debate it. </p>
+          <p eId="para_117"> Senator Leyden referred to Irish Rail. I am happy to invite the Minister for Transport, Tourism and Sport to come to the House to discuss the matter. The Senator articulated his excellent idea about publicising and advertising local towns in train stations. </p>
+          <p eId="para_118"> Senator Warfield mentioned World AIDS Day, which is not a celebratory but a commemorative event, as well as the need to increase the visibility of the issue of HIV-AIDS. He made that point that an increase of 8.7% in the rate of transmission of HIV was far too high. We did make some progress in combating the problem, but we are moving in the wrong direction again. As the Senator knows, I am very supportive of the idea of having an Irish AIDS memorial which we will achieve through collaboration and working together. He is right - it is important to remember and commemorate those who have died. Yesterday, I think, was the anniversary of the death of Vincent Hanley. We all know of people who are living with HIV-AIDS and who died from it. We have come a long way as a society. The Senator made the point that we needed to improve sex education and the sexual health strategy. We do need to be more proactive in that regard. We have made some changes in how sex education is taught in schools, but a lot of work remains to be done. I will be happy to work with the Senator on the matter. </p>
+          <p eId="para_119"> Senator Davitt referred to the Restaurants Association of Ireland and the investigation carried out by the Competition and Consumer Protection Commission. He made valid points about restaurants that took bookings. Some do not charge a booking fee but some do. What happens if people do not arrive? The restaurant loses revenue as a result of a table not available to other customers. The Committee of Public Accounts or the line committee would be the best choice to debate the issue. If the Senator was to table a Commencement matter, he might receive a full response on it from the Minister for Transport, Tourism and Sport.</p>
+          <p eId="para_120"> Senator Richmond mentioned that the European Commission had announced the rolling out of the second phase of the DiscoverEU inter-rail ticket project. I am happy to invite the Minister for Transport, Tourism and Sport to come to the House to outline the number of Irish students who have been awarded tickets. </p>
+          <p eId="para_121"> Senator Butler referred to the decision made by An Bord Pleanála on the application of the Church of Scientology for planning permission for a centre at Ballivor, County Meath. His points were well made. </p>
+          <p eId="para_122"> I have answered the point made by Senator Bacik.</p>
+        </speech>
+        <speech by="#IvanaBacik" eId="spk_48">
+          <from>Senator Ivana Bacik<recordedTime time="2018-11-29T12:10:00+00:00"/></from>
+          <p eId="para_123">Yes.</p>
+        </speech>
+        <speech by="#JerryButtimer" eId="spk_49">
+          <from>Senator Jerry Buttimer<recordedTime time="2018-11-29T12:10:00+00:00"/></from>
+          <p eId="para_124">Senator Feighan referred to Moylurg Rockingham DAC. He also mentioned that a castle in Castleisland, County Roscommon, had been offered for sale at a modest guide price of €90,000. I agree with him that it would be eminently sensible for the Office of Public Works to buy the property.</p>
+          <p eId="para_125"> Senator Gallagher raised an issue related to An Garda Síochána. Notwithstanding the fact that it is late in the day in the deployment to different places of 200 new Garda recruits, I suggest the Senator has selective memory, given that his own party did something similar when in government. He made the point that young gardaí would be discommoded and I believe the issue needs to be addressed. However, it is an operational matter, for which Assistant Commissioner Twomey has responsibility. The Garda Commissioner and his management team have to balance it with the need for higher visibility of members the force at this time of year in policing traffic on roads. Such policing is welcome. It is important that, as legislators, we stand against drink driving and with the people in ensuring the roads are safe. Last Monday I attended a meeting of the joint policing committee of Cork County Council, at which the Garda chief superintendent was very concerned about the increase in the incidence of traffic accidents and drink driving. Gardaí will be on leave between 5 and 17 January for working at this time of year. The new recruits will then go to the stations to which they have been allocated. While I accept that the Garda was very late in announcing its decision, I welcome what the Garda Commissioner is doing. </p>
+          <p eId="para_126"> Senator Byrne mentioned the European Globalisation Fund and highlighted its importance. Senator Colm Burke was very involved with the Dell workers when he was a Member of the European Parliament. The fund should be utilised.</p>
+        </speech>
+        <summary eId="sum_7"> Order of Business agreed to.</summary>
+      </debateSection>
+      <debateSection name="motion" eId="dbsect_9">
+        <heading>Disclosures Tribunal: Motion<recordedTime time="2018-11-29T12:10:00+00:00"/></heading>
+        <speech by="#JerryButtimer" eId="spk_50">
+          <from>Senator Jerry Buttimer<recordedTime time="2018-11-29T12:10:00+00:00"/></from>
+          <p eId="para_127">I move:</p>
+          <p class="indent_1" eId="para_128">That, notwithstanding anything in Standing Orders, the Resolution of Seanad Éireann of 14th November 2018, in relation to the Tribunal of Inquiry into protected disclosures made under the Protected Disclosures Act 2014 and certain other matters, be amended by the substitution of "Honourable Mr. Justice Sean Ryan" for "Honourable Mr. Justice Seán Ryan" in both places where it occurs.</p>
+        </speech>
+        <summary eId="sum_8"> Question put and agreed to.</summary>
+      </debateSection>
+      <debateSection name="motion" eId="dbsect_10">
+        <heading>Horse and Greyhound Racing Fund Regulations 2018: Motion<recordedTime time="2018-11-29T12:10:00+00:00"/></heading>
+        <speech by="#JerryButtimer" eId="spk_51">
+          <from>Senator Jerry Buttimer<recordedTime time="2018-11-29T12:10:00+00:00"/></from>
+          <p eId="para_129">I move:</p>
+          <p class="indent_1" eId="para_130">That Seanad Éireann approves the following Regulations in draft:</p>
+          <p class="indent_2" eId="para_131">Horse and Greyhound Racing Fund Regulations 2018, </p>
+          <p class="indent_1" eId="para_132">copies of which were laid in draft form before Seanad Éireann on 20th November 2018.</p>
+        </speech>
+        <summary eId="sum_9"> Question put and agreed to.</summary>
+        <summary eId="sum_10">
+          <i> Sitting suspended at 12.20 p.m. and resumed at 12.45 p.m.</i>
+        </summary>
+      </debateSection>
+      <debateSection name="billReport" refersTo="#bill.2018.109.seanad.4" eId="dbsect_11">
+        <heading>Greyhound Racing Bill 2018: Report Stage<recordedTime time="2018-11-29T12:50:00+00:00"/></heading>
+        <speech by="#CatherineNoone" as="#Acting_Chairman" eId="spk_52">
+          <from>Acting Chairman (Senator Catherine Noone)<recordedTime time="2018-11-29T12:50:00+00:00"/></from>
+          <p eId="para_133">I remind the House that a Senator may speak only once on amendments on Report Stage, except the proposer of an amendment who may reply to the discussion. On Report Stage each non-Government amendment must be seconded. Amendment No. 1 is in the names of Senators Ó Domhnaill and Norris. Amendments Nos. 1 to 15, inclusive, are related. Amendment No. 4 is a physical alternative to No. 3. Amendments Nos. 5 to 13, inclusive, and No. 15 are consequential on amendment No. 3. Therefore, amendments Nos. 1 to 15, inclusive, may be discussed together.</p>
+        </speech>
+        <speech by="#BrianODomhnaill" eId="spk_53">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T12:50:00+00:00"/></from>
+          <p eId="para_134">I move amendment No. 1:</p>
+          <p class="indent_1" eId="para_135">In page 12, line 14, to delete “8 ordinary members” and substitute “6 ordinary members”.</p>
+          <p eId="para_136">I thank my colleague, Senator Norris, for seconding the amendments, the first of which, amendment No. 1, relates to the composition of the Irish Greyhound Board. It brings us back to the discussion we had on Committee Stage. A board of six members would be of sufficient size, given that its performance has not been good. It has not performed well in the financial stewardship of the industry. However, I am willing to withdraw the amendment if the Minister of State is willing to accept amendment No. 4 which is similar to an amendment proposed by my colleague, Senator Paul Daly, which was accepted in the early stages of debate on Committee Stage. It proposed that two members of the board be representatives of the Irish Greyhound Owners and Breeders Federation. </p>
+          <p eId="para_137"> One of the big bones of contention within the greyhound sector up until now has been the fact that ordinary owners and breeders have not been heard or listened to. As key stakeholders, they have had no input into the running of the sector. They have many concerns which we have discussed about the drugs issue, animal welfare, artificial insemination and many other issues which are covered in various amendments. Having these key stakeholders represented on the board is absolutely essential. It is my understanding the current forum structure, although welcome and a step in the right direction, does not give the Irish Greyhound Owners and Breeders Federation statutory powers. It is a little like the health forums; it is a bit of a talking shop. It has no statutory powers to represent the views of those in the grassroots. Input at board level is required. </p>
+          <p eId="para_138"> The Minister simply selects an owner and a breeder at will. That has been the position up until now, not just under Fine Gael but also under previous Ministers of other parties. I fundamentally disagree with the making of political appointments to State boards and preferred candidates being selected based on the colour of their political skin. That is wrong. The membership of the Irish Greyhound Board should be decided at arm's length from the Minister and the only way to do this is to allow the federation to propose two members to represent it. They could be chosen at its annual general meeting or under whatever structure on which it might decide. There would be a gender balance in the names proposed in that there would be one woman and one man who would be representative of the federation. The names would be forwarded to the Minister and, if acceptable to him or her, accepted as the democratically elected representatives of the federation. The significance of the amendment and having two people representing the owners and breeders on the board cannot be overstated. It is important to have stakeholder buy-in at every level. </p>
+          <p eId="para_139"> Amendment No. 14 also concerns the composition of the board. Under the current structure, where a board member's term expires, there is no necessity for that member to vacate his or her position and be replaced. It is a very grey area in the legislation. The term of a board member may have expired, but he or she can continue for an indefinite period. That is wrong. There should be definite periods of board membership. I am proposing that a member of the board "shall, with immediate effect, vacate their Board position which will be immediately filled by the appointment of another person so that no vacancy arises”. That is important, as otherwise there would be a person sitting on the board for longer than the time period prescribed in the legislation and who could remain on it indefinitely. Whether that is the intention of the legislation, it will be its effect. Therefore, the matter needs to be cornered off at this juncture. </p>
+          <p eId="para_140"> We are trying to improve the accountability, transparency and governance of the organisation. There have been questions about all of these issues in the past, particularly the stewardship of the organisation, as highlighted by the Oireachtas Joint Committee on Agriculture, Food and the Marine. A proposal made to the committee was that any member should serve no more than two consecutive terms for no longer than a total of six years. Under the Minister's proposals, a member could serve two consecutive terms of four years each, or for a total of eight years. Without a definite duration, someone could end up with continued membership of the board for much longer, which would be wrong. That is the basis of the amendment.</p>
+          <p eId="para_141"> They are the amendments in my name. I believe the rest of those in the grouping are Government amendments.</p>
+        </speech>
+        <speech by="#DavidNorris" eId="spk_54">
+          <from>Senator David Norris<recordedTime time="2018-11-29T12:50:00+00:00"/></from>
+          <p eId="para_142">I second the amendment. I will be uncharacteristically brief, particularly given the fact that I can only speak once. </p>
+          <p eId="para_143"> It is fair enough to delete the reference to "8 ordinary members" and substitute it with "6 ordinary members". I support that proposal, although I am not passionate about it. The amendment which is of critical importance is the one the Government has accepted, amendment No. 3. It deals with something for which we argued very strongly on a previous occasion. It proposes:</p>
+          <p class="indent_1" eId="para_144">To delete lines 26 to 34 and substitute the following:</p>
+          <p class="indent_2" eId="para_145">“(2) Of the ordinary members of the Board—</p>
+          <p class="indent_3" eId="para_146">(a) one or more than one shall be a veterinary practitioner of at least 5 years standing, and</p>
+          <p class="indent_3" eId="para_147">(b) one or more than one shall be a person with a detailed knowledge of the greyhound industry."</p>
+          <p eId="para_148">The Minister of State has done well. This is a very important amendment because it brings detailed professional knowledge right into the centre of the forum, where it is required. It is a very good deal. Most of the Government amendments are technical amendments which tinker around with words and phrases and so on. Therefore, I do not intend to speak to them. </p>
+          <p eId="para_149"> Again, amendment No. 14 seems logical, although I do not know whether it is necessary. I wonder if the Acting Chairman could tell me what other amendments are included in this grouping. I only heard the reference to amendments Nos. 1 to 15, inclusive. There were other scattered ones and I would like to see if there is any important one.</p>
+        </speech>
+        <speech by="#LynnRuane" eId="spk_55">
+          <from>Senator Lynn Ruane<recordedTime time="2018-11-29T13:00:00+00:00"/></from>
+          <p eId="para_150">I welcome Government amendment No. 3, which deletes my original amendment on the veterinary practitioner. I thank the Minister of State. We are always concerned that when a Bill comes back to the Seanad or goes to the Dáil, an attempt will be made to remove our amendments. It is nice to see a good amendment being introduced which will ensure the provision we are seeking stays in place. This is an extremely important measure.</p>
+        </speech>
+        <speech by="#PaulDaly" eId="spk_56">
+          <from>Senator Paul Daly<recordedTime time="2018-11-29T13:00:00+00:00"/></from>
+          <p eId="para_151">I would welcome some clarification on these amendments. I beg to differ with Senator Ruane. The Government amendment proposes to delete line 26, whereas the Senator's amendment concerning veterinary practitioners is included in the text prior to that line. This amendment waters down my amendment, which was accepted on Committee Stage, providing that there would be representation from the independent small tracks, and the owners, breeders and trainers. The provision regarding veterinary practitioners remains. In opposing this amendment, which waters down the amendment I had passed on the last occasion, I will not be interfering with the provision on representation from among veterinary practitioners because that is provided for prior to line 26.</p>
+          <p eId="para_152"> To reiterate what I said on the last occasion, it is vitally important that independent tracks are represented among the eight members of the board. I am glad Senator Ó Domhnaill is not pushing his amendment to reduce the board to six members because that figure is much too small. The board will control fixtures and the regulation of racing in this country, and if small track owners do not have a voice on it, I can guarantee, based on my experience in another area, that the board will make decisions that favour bigger tracks over independent tracks and the smaller operators will not have a voice. As Senator Ó Domhnaill stated, a representative from the owners and trainers is a person who has experience as well as knowledge. We all have some knowledge of the greyhound industry. Anyone who has been to a greyhound racing track will know how it works, how to place a bet and the principle of racing. We all have that level of knowledge but what is required here is experience and people who have had an input into the industry. My amendment, which was passed on Committee Stage, makes provision for the inclusion of such persons on the board. The Government amendment waters down my amendment and I cannot support it. </p>
+        </speech>
+        <speech by="#AliceMaryHiggins" eId="spk_57">
+          <from>Senator Alice-Mary Higgins<recordedTime time="2018-11-29T13:00:00+00:00"/></from>
+          <p eId="para_153">I recognise the concern about this amendment. The inclusion on the board of a veterinary practitioner was our key focus. Does amendment No. 4, proposed by Senators Ó Domhnaill and Norris, which deals with having members of the Irish Greyhound Owners and Breeders Federation on the board address one part of Senator Paul Daly's concern? If the Minister was able to accept amendment No. 4, would it perhaps ameliorate one of the Senator's concerns? While it would not address the issue of small track owners, perhaps the inclusion of a member from among the owners would help allay his concerns. I hope we are able to progress the Bill. </p>
+        </speech>
+        <speech by="#PaulDaly" eId="spk_58">
+          <from>Senator Paul Daly<recordedTime time="2018-11-29T13:00:00+00:00"/></from>
+          <p eId="para_154">May I respond?</p>
+        </speech>
+        <speech by="#CatherineNoone" as="#Acting_Chairman" eId="spk_59">
+          <from>Acting Chairman (Senator Catherine Noone)<recordedTime time="2018-11-29T13:00:00+00:00"/></from>
+          <p eId="para_155">No. Does the Minister of State wish to respond?</p>
+        </speech>
+        <speech by="#AndrewDoyle" as="#Minister_of_State_at_the_Department_of_Agriculture,_Food_and_the_Marine" eId="spk_60">
+          <from>Minister of State at the Department of Agriculture, Food and the Marine (Deputy Andrew Doyle)<recordedTime time="2018-11-29T13:00:00+00:00"/></from>
+          <p eId="para_156">I will discuss amendments Nos. 1 to 15, inclusive. Amendments Nos. 5 to 13, inclusive, and amendment No. 15 are consequential on other amendments in this group.</p>
+          <p eId="para_157"> When Indecon carried out its review of Bord na gCon in 2014, the organisation had debts of €23 million, largely due to the investment in Limerick stadium. This debt has hindered the development of the industry ever since. That report was critical of the skill set of the board, or lack thereof. While there was an implicit criticism that the lack of skills was a contributing factor in the decision to develop Limerick stadium without proper capital appraisal or cost-benefit analysis, there was explicit criticism of the Limerick development and its governance. Indecon stated: "Based on the analysis and documentation available to Indecon, it is hard to conclude anything other than the fact that there was inadequate appraisal of the Limerick capital investment."</p>
+          <p eId="para_158"> Indecon identified a number of skill gaps in the make-up of the board. Principal among these was the need for a depth of financial expertise, with a requirement for more than one board member to have financial qualifications and senior professional experience. In addition, the board identified the requirement for a senior legal professional, a marketing expert and a veterinary expert. While I am not entirely in favour of singling out one specific skill to be set down in primary legislation, in view of the animal welfare and integrity role of the board I am happy to set down the requirement for veterinary expertise. However, based on past experience, where the board was dominated by industry representatives, I believe it would be wholly inappropriate for the majority of the ordinary members to be made up of industry representatives. I accept Senator Ó Domhnaill's intention not to press his first amendment, but if it was pressed, it should be noted that a board of six with four representatives from the industry would have a 66% representation from industry. A board with eight members would have 50% ordinary members. These amendments totally disregard the recommendations of the Indecon reports, commissioned by the then Minister, the Tánaiste, Deputy Coveney, and I believe they would be a totally retrograde step. </p>
+          <p eId="para_159"> The industry must change its approach to avoid any danger that it will repeat the mistakes of the past. It should also be pointed out that this board is responsible for regulating the industry, unlike Horse Racing Ireland, where the Turf Club carries out the regulatory controls, and will be responsible for drafting regulations to give effect to provisions set out in this Bill. It would, therefore, appear to be wholly inappropriate for 66%, or indeed 50%, of the board to be made up of representatives of those to whom those regulations will apply. I accept, however, that there should be some industry representation on the board. I am, therefore, proposing an amendment to allocate one or more places on the board to persons with detailed industry knowledge, which would allow for some flexibility while maintaining a balance in favour of a skilled board. Owners, trainers and members of the various stakeholder groups have the ability to become members of the board. In the past, they have come through the Public Appointments Service, PAS. </p>
+        </speech>
+        <speech by="#DavidNorris" eId="spk_61">
+          <from>Senator David Norris<recordedTime time="2018-11-29T13:00:00+00:00"/></from>
+          <p eId="para_160">Has the Minister tabled this amendment yet?</p>
+        </speech>
+        <speech by="#AndrewDoyle" eId="spk_62" as="#Minister_of_State_at_the_Department_of_Agriculture,_Food_and_the_Marine">
+          <from>Deputy Andrew Doyle<recordedTime time="2018-11-29T13:00:00+00:00"/></from>
+          <p eId="para_161">It is amendment No. 3. Senator Ó Domhnaill's amendment No. 14 concerns board members stepping down immediately once their term ends. The current wording is a safeguarding provision and is a standard provision in modern legislation, including the Horse Racing Ireland Act 2016. The board will have to take into account the skill gaps that have to be filled at any point in time. This provision allows time to find a suitably qualified board member to fill that gap.</p>
+        </speech>
+        <speech by="#BrianODomhnaill" eId="spk_63">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T13:00:00+00:00"/></from>
+          <p eId="para_162">The Minister of State is absolutely correct in saying that the Indecon report, at section 3, dealt with the composition of the board and made recommendations. It even expanded on the Australian review which considered board composition. The recommendation of the Indecon report was that a board comprised of between six and nine members was optimal for effectiveness and efficiency. He is correct that the skills gap was identified, and I am glad it will be addressed. I agree fully with the Minister of State about the absolute lack of financial oversight and skills on the board. There were serious shortcomings in Bord na gCon in terms of internal financial reviews. In fact, no internal financial reviews or audits were carried out. There was no internal audit committee. These are very serious issues, particularly given that this board was receiving almost €310,000 per week from the State. This is an opportune time to deal with this issue, and I welcome the Minister of State's intervention.</p>
+          <p eId="para_163">On the particular amendments, I fully understand Senator Paul Daly's concern that amendment No. 3 will remove his previously accepted amendment. On amendment No. 3, I agree that there should be veterinary expertise on the board. I am not sure if that is provided for in the composition of the board.</p>
+        </speech>
+        <speech by="#AndrewDoyle" eId="spk_64" as="#Minister_of_State_at_the_Department_of_Agriculture,_Food_and_the_Marine">
+          <from>Deputy Andrew Doyle<recordedTime time="2018-11-29T13:10:00+00:00"/></from>
+          <p eId="para_164">It is.</p>
+        </speech>
+        <speech by="#BrianODomhnaill" eId="spk_65">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T13:10:00+00:00"/></from>
+          <p eId="para_165">If it is, that is fine. It was something we discussed on Committee Stage the other day. It is crucial from an animal welfare standpoint.</p>
+          <p eId="para_166"> My amendment No. 4 is important because it takes the grassroots into consideration. I am not suggesting that the Minister of State will do it but there will be many Ministers coming after him. The Minister of State might even have the senior portfolio after the next general election. Who knows? He might be in a different Department. There will be other Ministers. I merely want to put at arm's length the ministerial appointment of two ordinary members representative of the sector given the interference that could happen if they do not come through the democratic structure of the federation. The federation should decide who it wants on the board and put those names forward to the Minister. That would be more democratic and acceptable to all of the stakeholders to whom I have spoken. That is certainly what they want.</p>
+          <p eId="para_167"> The reason I included in the initial amendment the reduction of the board to six members is because the federation was quite happy to have no membership on the board if it saved resources. It gives an insight into the thinking of the Irish Greyhound Owners and Breeders Federation that it was willing to give up even membership of the board if it thought the board would run more efficiently and effectively. I am suggesting here, however, that there is a need, given all of the concerns and given the depressed nature of the sector. We are dealing with a lot of people whose hearts have been invested in raising pups into racing dogs for the greyhound racing sector down through the years and they are deeply depressed at the state of the sector because of what has gone on. That is why they need a voice at the table where the decisions and the oversight take place. I ask that the Minister of State would consider amendment No. 4 in that regard.</p>
+          <p eId="para_168"> In terms of amendment No. 14, I accept what the Minister of State stated about the expertise. However, I am trying to create certainty with amendment No. 14 because then we will know for certain that someone's term has expired in July 2019 and we can be planning ahead to have another person in place. If we are not doing that, what will happen is July 2019 will roll around, the board member will not be replaced, he or she will continue on indefinitely and there will be no urgency in replacing that person. That sends out the wrong message. It is one of the recommendations of the Joint Committee on Agriculture, Food and the Marine, which the Minister of State chaired successfully.</p>
+          <p eId="para_169"> It is crucial that we include this amendment because then we can plan forward. It is not a question of reducing the pool of potential candidates to fill positions. If two members of the board are coming from the federation anyway and there are six members who will have certain expertise, there would not be any difficulty in finding excellent candidates to fill these board positions, whether they are linked to the sector or not, as long as they have the relevant expertise, whether that is veterinary, finance or whatever else.</p>
+          <p eId="para_170"> Given what has happened, this is important for the planning of board appointments in this case. I would even ask that the Minister of State accept this and review it in three years to see if it is working. If there is a difficulty with it at that stage, he could return to the fallback position. This is an important amendment to the composition of the board. It provides clarity and certainty. It will ensure that there is a turnover when there should be and that it is not allowed to roll on, with people serving on the boards for almost two decades, which is wrong. There should be a finality to board membership. That is the purpose of that amendment.</p>
+        </speech>
+        <summary eId="sum_11"> Amendment, by leave, withdrawn.</summary>
+        <summary eId="sum_12"> Government amendment No. 2:</summary>
+        <summary eId="sum_13">In page 12, to delete lines 21 and 22.</summary>
+        <summary eId="sum_14"> Amendment agreed to.</summary>
+        <summary eId="sum_15"> Government amendment No. 3:</summary>
+        <summary eId="sum_16">In page 12, to delete lines 26 to 34 and substitute the following:</summary>
+        <summary eId="sum_17">"(2) Of the ordinary members of the Board— </summary>
+        <summary eId="sum_18">(a) one or more than one shall be a veterinary practitioner of at least 5 years standing, and</summary>
+        <summary eId="sum_19">(b) one or more than one shall be a person with a detailed knowledge of the greyhound industry.".</summary>
+        <debateSection name="division" eId="dbsect_12">
+          <summary eId="sum_20">Amendment put: </summary>
+          <summary title="division" eId="sum_21">The Seanad divided: Tá, <quantity refersTo="#ta" normalized="22" eId="qty_1">22</quantity>; Níl, <quantity refersTo="#nil" normalized="5" eId="qty_2">5</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_13">
+            <p eId="para_171">Tá</p>
+            <p eId="para_172">
+              <person refersTo="#VictorBoyhan">Boyhan, Victor.</person>
+            </p>
+            <p eId="para_173">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_174">
+              <person refersTo="#JerryButtimer">Buttimer, Jerry.</person>
+            </p>
+            <p eId="para_175">
+              <person refersTo="#MariaByrne">Byrne, Maria.</person>
+            </p>
+            <p eId="para_176">
+              <person refersTo="#MartinConway">Conway, Martin.</person>
+            </p>
+            <p eId="para_177">
+              <person refersTo="#MaireDevine">Devine, Máire.</person>
+            </p>
+            <p eId="para_178">
+              <person refersTo="#FrankFeighan">Feighan, Frank.</person>
+            </p>
+            <p eId="para_179">
+              <person refersTo="#AliceMaryHiggins">Higgins, Alice-Mary.</person>
+            </p>
+            <p eId="para_180">
+              <person refersTo="#KevinHumphreys">Humphreys, Kevin.</person>
+            </p>
+            <p eId="para_181">
+              <person refersTo="#AnthonyLawlor">Lawlor, Anthony.</person>
+            </p>
+            <p eId="para_182">
+              <person refersTo="#TimLombard">Lombard, Tim.</person>
+            </p>
+            <p eId="para_183">
+              <person refersTo="#MichelleMulherin">Mulherin, Michelle.</person>
+            </p>
+            <p eId="para_184">
+              <person refersTo="#CatherineNoone">Noone, Catherine.</person>
+            </p>
+            <p eId="para_185">
+              <person refersTo="#DavidNorris">Norris, David.</person>
+            </p>
+            <p eId="para_186">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_187">
+              <person refersTo="#JohnOMahony">O'Mahony, John.</person>
+            </p>
+            <p eId="para_188">
+              <person refersTo="#BrianODomhnaill">Ó Domhnaill, Brian.</person>
+            </p>
+            <p eId="para_189">
+              <person refersTo="#NiallODonnghaile">Ó Donnghaile, Niall.</person>
+            </p>
+            <p eId="para_190">
+              <person refersTo="#DrJamesReilly">Reilly, James.</person>
+            </p>
+            <p eId="para_191">
+              <person refersTo="#NealeRichmond">Richmond, Neale.</person>
+            </p>
+            <p eId="para_192">
+              <person refersTo="#LynnRuane">Ruane, Lynn.</person>
+            </p>
+            <p eId="para_193">
+              <person refersTo="#FintanWarfield">Warfield, Fintan.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_14">
+            <p eId="para_194">Níl</p>
+            <p eId="para_195">
+              <person refersTo="#MarkDaly">Daly, Mark.</person>
+            </p>
+            <p eId="para_196">
+              <person refersTo="#PaulDaly">Daly, Paul.</person>
+            </p>
+            <p eId="para_197">
+              <person refersTo="#AidanDavitt">Davitt, Aidan.</person>
+            </p>
+            <p eId="para_198">
+              <person refersTo="#NedOSullivan">O'Sullivan, Ned.</person>
+            </p>
+            <p eId="para_199">
+              <person refersTo="#DiarmuidWilson">Wilson, Diarmuid.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_22">Tellers: Tá, Senators John O'Mahony and Michelle Mulherin; Níl, Senators Diarmuid Wilson and Paul Daly..</summary>
+          <summary title="decision" refersTo="#carried" eId="sum_23">Amendment declared carried.</summary>
+        </debateSection>
+        <speech by="#DenisODonovan" eId="spk_66">
+          <from> An Cathaoirleach<recordedTime time="2018-11-29T13:20:00+00:00"/></from>
+          <p eId="para_200">Amendment No. 4 cannot be moved as it was discussed with amendment No. 1 and is a physical alternative.</p>
+        </speech>
+        <summary eId="sum_24"> Amendment No. 4 not moved.</summary>
+        <summary eId="sum_25"> Government amendment No. 5:</summary>
+        <summary eId="sum_26">In page 12, line 35, to delete "(2) The chairperson" and substitute the following:</summary>
+        <summary eId="sum_27">"(3) The chairperson".</summary>
+        <summary eId="sum_28"> Amendment agreed to.</summary>
+        <summary eId="sum_29"> Government amendment No. 6:</summary>
+        <summary eId="sum_30">In page 13, line 1, to delete "(3) Subject to" and substitute the following:</summary>
+        <summary eId="sum_31">"(4) Subject to".</summary>
+        <summary eId="sum_32"> Amendment agreed to.</summary>
+        <summary eId="sum_33"> Government amendment No. 7:</summary>
+        <summary eId="sum_34">In page 13, line 3, to delete "(4) On the commencement" and substitute the following:</summary>
+        <summary eId="sum_35">"(5) On the commencement".</summary>
+        <summary eId="sum_36"> Amendment agreed to.</summary>
+        <summary eId="sum_37"> Government amendment No. 8:</summary>
+        <summary eId="sum_38">In page 13, line 7, to delete "(5) A person" and substitute the following:</summary>
+        <summary eId="sum_39">"(6) A person".</summary>
+        <summary eId="sum_40"> Amendment agreed to.</summary>
+        <summary eId="sum_41"> Government amendment No. 9:</summary>
+        <summary eId="sum_42">In page 13, line 9, to delete "(6) A member" and substitute the following:</summary>
+        <summary eId="sum_43">"(7) A member".</summary>
+        <summary eId="sum_44"> Amendment agreed to.</summary>
+        <summary eId="sum_45"> Government amendment No. 10:</summary>
+        <summary eId="sum_46">In page 13, line 12, to delete “(7) A member” and substitute the following:</summary>
+        <summary eId="sum_47">“(8) A member”.</summary>
+        <summary eId="sum_48"> Amendment agreed to.</summary>
+        <summary eId="sum_49"> Government amendment No. 11:</summary>
+        <summary eId="sum_50">In page 13, line 17, to delete “(8) If a member” and substitute the following:</summary>
+        <summary eId="sum_51">“(9) If a member”.</summary>
+        <summary eId="sum_52"> Amendment agreed to.</summary>
+        <summary eId="sum_53"> Government amendment No. 12:</summary>
+        <summary eId="sum_54">In page 13, line 21, to delete “(9) A person” and substitute the following:</summary>
+        <summary eId="sum_55">“(10) A person”.</summary>
+        <summary eId="sum_56"> Amendment agreed to.</summary>
+        <summary eId="sum_57"> Government amendment No. 13:</summary>
+        <summary eId="sum_58">In page 13, line 26, to delete “(10) Where a member” and substitute the following:</summary>
+        <summary eId="sum_59">“(11) Where a member”.</summary>
+        <summary eId="sum_60"> Amendment agreed to.</summary>
+        <speech by="#BrianODomhnaill" eId="spk_67">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T13:30:00+00:00"/></from>
+          <p eId="para_201">I move amendment No. 14:</p>
+          <p class="indent_1" eId="para_202">In page 13, lines 28 to 30, to delete all words from and including “the” in line 28 down to and including line 30 and substitute the following:</p>
+          <p class="indent_2" eId="para_203">“the member shall, with immediate effect, vacate their Board position which will be immediately filled by the appointment of another person so that no vacancy arises.”.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_15">
+          <summary eId="sum_61">Amendment put: </summary>
+          <summary title="division" eId="sum_62">The Seanad divided: Tá, <quantity refersTo="#ta" normalized="14" eId="qty_3">14</quantity>; Níl, <quantity refersTo="#nil" normalized="15" eId="qty_4">15</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_16">
+            <p eId="para_204">Tá</p>
+            <p eId="para_205">
+              <person refersTo="#FrancesBlack">Black, Frances.</person>
+            </p>
+            <p eId="para_206">
+              <person refersTo="#VictorBoyhan">Boyhan, Victor.</person>
+            </p>
+            <p eId="para_207">
+              <person refersTo="#MarkDaly">Daly, Mark.</person>
+            </p>
+            <p eId="para_208">
+              <person refersTo="#PaulDaly">Daly, Paul.</person>
+            </p>
+            <p eId="para_209">
+              <person refersTo="#AidanDavitt">Davitt, Aidan.</person>
+            </p>
+            <p eId="para_210">
+              <person refersTo="#MaireDevine">Devine, Máire.</person>
+            </p>
+            <p eId="para_211">
+              <person refersTo="#AliceMaryHiggins">Higgins, Alice-Mary.</person>
+            </p>
+            <p eId="para_212">
+              <person refersTo="#DavidNorris">Norris, David.</person>
+            </p>
+            <p eId="para_213">
+              <person refersTo="#NedOSullivan">O'Sullivan, Ned.</person>
+            </p>
+            <p eId="para_214">
+              <person refersTo="#BrianODomhnaill">Ó Domhnaill, Brian.</person>
+            </p>
+            <p eId="para_215">
+              <person refersTo="#NiallODonnghaile">Ó Donnghaile, Niall.</person>
+            </p>
+            <p eId="para_216">
+              <person refersTo="#LynnRuane">Ruane, Lynn.</person>
+            </p>
+            <p eId="para_217">
+              <person refersTo="#FintanWarfield">Warfield, Fintan.</person>
+            </p>
+            <p eId="para_218">
+              <person refersTo="#DiarmuidWilson">Wilson, Diarmuid.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_17">
+            <p eId="para_219">Níl</p>
+            <p eId="para_220">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_221">
+              <person refersTo="#RayButler">Butler, Ray.</person>
+            </p>
+            <p eId="para_222">
+              <person refersTo="#JerryButtimer">Buttimer, Jerry.</person>
+            </p>
+            <p eId="para_223">
+              <person refersTo="#MariaByrne">Byrne, Maria.</person>
+            </p>
+            <p eId="para_224">
+              <person refersTo="#MartinConway">Conway, Martin.</person>
+            </p>
+            <p eId="para_225">
+              <person refersTo="#FrankFeighan">Feighan, Frank.</person>
+            </p>
+            <p eId="para_226">
+              <person refersTo="#AnthonyLawlor">Lawlor, Anthony.</person>
+            </p>
+            <p eId="para_227">
+              <person refersTo="#TimLombard">Lombard, Tim.</person>
+            </p>
+            <p eId="para_228">
+              <person refersTo="#MichelleMulherin">Mulherin, Michelle.</person>
+            </p>
+            <p eId="para_229">
+              <person refersTo="#CatherineNoone">Noone, Catherine.</person>
+            </p>
+            <p eId="para_230">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_231">
+              <person refersTo="#DenisODonovan">O'Donovan, Denis.</person>
+            </p>
+            <p eId="para_232">
+              <person refersTo="#JohnOMahony">O'Mahony, John.</person>
+            </p>
+            <p eId="para_233">
+              <person refersTo="#DrJamesReilly">Reilly, James.</person>
+            </p>
+            <p eId="para_234">
+              <person refersTo="#NealeRichmond">Richmond, Neale.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_63">Tellers: Tá, Senators David Norris and Brian Ó Domhnaill; Níl, Senators Michelle Mulherin and John O'Mahony..</summary>
+          <summary title="decision" refersTo="#lost" eId="sum_64">Amendment declared lost.</summary>
+        </debateSection>
+        <speech by="#DenisODonovan" eId="spk_68">
+          <from> An Cathaoirleach<recordedTime time="2018-11-29T13:50:00+00:00"/></from>
+          <p eId="para_235">There is an equality of votes. Therefore, pursuant to Article 15.11.2° of the Constitution, I must exercise my casting vote. I vote against the question in this case, the result of the vote now being: Tá, 14; Níl, 15. The amendment is declared lost.</p>
+        </speech>
+        <summary eId="sum_65"> Government amendment No. 15:</summary>
+        <summary eId="sum_66">In page 13, line 31, to delete "(11) The Board" and substitute the following:</summary>
+        <summary eId="sum_67">"(12) The Board".</summary>
+        <summary eId="sum_68"> Amendment agreed to.</summary>
+        <speech by="#NedOSullivan" as="#Acting_Chairman" eId="spk_69">
+          <from>Acting Chairman (Senator Ned O'Sullivan)<recordedTime time="2018-11-29T13:50:00+00:00"/></from>
+          <p eId="para_236">Amendments Nos. 16, 18, 22 and 26 to 29, inclusive, are related and may be discussed together by agreement. Is that agreed? Agreed.</p>
+        </speech>
+        <speech by="#LynnRuane" eId="spk_70">
+          <from>Senator Lynn Ruane<recordedTime time="2018-11-29T13:50:00+00:00"/></from>
+          <p eId="para_237">I move amendment No. 16:</p>
+          <p class="indent_1" eId="para_238">In page 20, line 13, after "make" to insert "appropriate".</p>
+          <p eId="para_239">I thank the Minister of State for his time today.</p>
+        </speech>
+        <speech by="#AliceMaryHiggins" eId="spk_71">
+          <from>Senator Alice-Mary Higgins<recordedTime time="2018-11-29T13:50:00+00:00"/></from>
+          <p eId="para_240">I second the amendment.</p>
+        </speech>
+        <speech by="#LynnRuane" eId="spk_72">
+          <from>Senator Lynn Ruane<recordedTime time="2018-11-29T13:50:00+00:00"/></from>
+          <p eId="para_241">I have tabled amendments Nos. 26 and 29 as they were tabled on Committee Stage to ensure we keep the health and welfare of the greyhounds at the centre of this industry among our top considerations as we debate the Bill. My amendment No. 29 would give the greyhound board regulatory powers to set out the provisions for the health and welfare of a greyhound after it retires from its racing career. We need to ensure we take as much responsibility for greyhounds' welfare after their time in racing is over as we do during their time racing. I welcome Government amendment No. 28, which has the same policy intention and which I will happily accept before withdrawing my own amendment No. 29. I thank the Minister of State for his engagement and for listening to our concerns in the Seanad and in our meeting. I very much appreciate that and the Bill is stronger as a result.</p>
+          <p eId="para_242"> We debated amendment No. 26 extensively on Committee Stage and I do not propose to rehash the arguments. This section would be strengthened a great deal if our amendment is effected. In other sections the Minister of State has proposed exhaustive lists of regulatory powers for the board and the use of the word "may" can be argued to be appropriate but we are talking about five subparagraphs in section 29(1). We simply cannot say this is an unreasonable regulatory burden. That it is untrue. This section is important and it should be compulsory for regulations to be made on every issue listed in the subsection. The Minister of State is wrong with this and I urge him to accept the amendment.</p>
+        </speech>
+        <speech by="#AliceMaryHiggins" eId="spk_73">
+          <from>Senator Alice-Mary Higgins<recordedTime time="2018-11-29T13:50:00+00:00"/></from>
+          <p eId="para_243">I give my support to the Senator's concern for the welfare and treatment of greyhounds after their time racing. I recognise that the Government refers to their racing and breeding careers. As my colleague mentioned, we are willing to withdraw our amendment No. 29 in recognition that the Government has come a distance to meet us by proposing amendment No. 28. I have a small remaining concern that will need consideration. Our amendment No. 29 speaks specifically to the health and welfare of a racing greyhound but amendment No. 28 speaks about provision for the "rehoming" of greyhounds. I recognise that the Minister of State has come a distance to meet us on this and previously he spoke about prevailing animal welfare legislation.</p>
+          <p eId="para_244"> I would have liked the phrasing around welfare to have been explicit in the Government amendment as it is important there should be some monitoring of what welfare and health conditions tend to apply. For example, if a pattern emerges perhaps it could be dealt with through animal and welfare legislation but maybe animal welfare inspectors should be apprised of the matter. Perhaps there should be checks on rehoming processes to ensure no bad patterns emerge in terms of health and welfare. I welcome the Government amendment and that the Minister of State has taken this concern seriously and addressed it. I just wanted to flag that some follow-up work should be done to ensure the Minister of State's amendment achieves what I accept to be its good policy intention, which is to serve the health and welfare of greyhounds.</p>
+          <p eId="para_245"> I will speak briefly to amendments Nos. 16 and 18. We will not rehash the full discussion of "may" versus "shall", as my colleague noted. However, I have put forward a complementary approach that would make it easier for the Minister of State to accept the substitution of "shall" for "may". When we spoke previously the Minister of State expressed the concern that if the Bill stated "shall make regulations" rather than "may make regulations", there is a danger that the regulations could, in some sense, be contradictory to other legislation and provisions therein. In amendments Nos. 16 and 27, I indicate that we might put the word "appropriate" before "regulations". By inserting the word "appropriate", there is a clear indication that only such regulations as are appropriate and which are compatible with existing legislation or regulatory regimes should be made. This is an attempt to respond to the Minister of State's concerns and to be constructive. If he accepts amendment No. 27, he should perhaps be in a position to also accept amendment No. 26. The same issue applies in respect of amendments Nos. 16 and 18.</p>
+          <p eId="para_246">Will the Minister of State consider accepting this amendment? Even if not, I hope he will ensure this legislation is effective and not just aspirational. If we have the term “may make regulations” in every section, there is a danger that regulations may not be made in respect of all of these issues. I am sure the Minister of State does not want to put forward a Bill which runs the risk of being toothless. Will he accept this amendment or come up with his own version for the Dáil Stages?</p>
+        </speech>
+        <speech by="#BrianODomhnaill" eId="spk_74">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T14:00:00+00:00"/></from>
+          <p eId="para_247">I support the amendments tabled by Senators Ruane and Higgins. I acknowledge the Government’s amendment No. 28, which is welcome. Amendment No. 22, in my name, is in the same thrust as that of Senators Ruane’s and Higgins’s, namely, the necessity to ensure the board actually does its job instead of giving provision that the board may do its job. My amendment is simple and concerns artificial insemination.</p>
+        </speech>
+        <speech by="#AndrewDoyle" eId="spk_75" as="#Minister_of_State_at_the_Department_of_Agriculture,_Food_and_the_Marine">
+          <from>Deputy Andrew Doyle<recordedTime time="2018-11-29T14:00:00+00:00"/></from>
+          <p eId="para_248">As I stated on Committee Stage, I am opposed in principle to compelling Rásaíocht Con Éireann to make regulations. The provisions set out here are enabling provisions, all of which may not be required to be made at this time. By necessity, this is an exhaustive list of the principles and policies which Rásaíocht Con Éireann may wish to regulate for. It was never intended that Rásaíocht Con Éireann would make regulations in respect of all of these provisions in the immediate future. These provisions will future-proof the legislation in order that, should it become necessary or desirable to regulate those matters in future, Rásaíocht Con Éireann would have the power to do so. In particular, regulations would also have to be examined to determine their compatibility with other domestic and European law.</p>
+          <p eId="para_249"> The discretionary nature of the regulation-making power is essential to ensure there is no conflict with other legislation. Different policy considerations may also arise with regard to whether such legislation is necessary or desirable in the future. I have examined Senator Higgins's suggestion for the inclusion of the word “appropriate”. As the making of regulations could only be appropriate to the enabling provisions, taking into account other legislation, the addition of the word would make no difference. For these reasons, it would clearly not be appropriate to impose an obligation on Rásaíocht Con Éireann to make regulations in respect of matters as set out in the Bill.</p>
+          <p eId="para_250"> With particular reference to amendment No. 29, making provision for the health and welfare of a racing greyhound which has been retired by its owner, breeder or trainer, I have tabled amendment No. 28, which addresses the Senators’ concerns but does not oblige Rásaíocht Con Éireann to provide for greyhounds in perpetuity. My amendment will allow Rásaíocht Con Éireann to create a fund for the rehoming of greyhounds at the end of their racing or breeding careers. Once rehomed, the greyhound will be the responsibility of its new owner. The risk with the Senators’ wording is that it could be interpreted as meaning that Rásaíocht Con Éireann would be obliged to provide for the greyhounds after rehoming.</p>
+          <p eId="para_251"> It is the intention of Rásaíocht Con Éireann to include a section on retirement planning in its code of practice for the welfare of greyhounds, advising owners that if they are not in a position to look after their greyhounds in retirement or otherwise, to find the greyhound a suitable family home. The Irish Retired Greyhound Trust, funded through the Irish Greyhound Board, arranges new homes for retired greyhounds in Ireland and abroad. In addition, many private rehoming agencies are active in providing similar services.</p>
+          <p eId="para_252"> I will have to make an amendment to amendment No. 28 to rectify a typographical error later when we come to it.</p>
+        </speech>
+        <speech by="#LynnRuane" eId="spk_76">
+          <from>Senator Lynn Ruane<recordedTime time="2018-11-29T14:00:00+00:00"/></from>
+          <p eId="para_253">I thank the Minister of State for accepting the amendment with regard to the retirement of greyhounds.</p>
+          <p eId="para_254"> On amendment No. 16 and the inclusion of the word “appropriate”, however, I do not think the Minister of State's response made much sense and was actually contradictory. He spoke about how the list is never meant to be exhaustive, that there may be regulations we want to make in the future, that they may not be necessary now, and that they may regulate but not necessarily for all. Inserting the word “appropriate” would ensure that animal welfare was not compromised. Animal welfare is a problem now and it is not about future-proofing it. It is about ensuring it is as strong as it can be now. The term “to have as appropriate” would fit perfectly with everything the Minister of State has said about the necessity of different regulations at different times, some of which are not necessary now. That means it would not be appropriate to have them now but it might be appropriate to create regulations at a later date.</p>
+          <p eId="para_255"> I do not think the Minister of State’s response made much sense.</p>
+        </speech>
+        <speech by="#AliceMaryHiggins" eId="spk_77">
+          <from>Senator Alice-Mary Higgins<recordedTime time="2018-11-29T14:00:00+00:00"/></from>
+          <p eId="para_256">Animal welfare is a pressing issue right now. I believe it needs to be treated exceptionally.</p>
+        </speech>
+        <summary eId="sum_69"> Amendment put and declared lost.</summary>
+        <summary eId="sum_70"> Government amendment No. 17:</summary>
+        <summary eId="sum_71">In page 22, lines 14 and 15, to delete “or where agreement has been reached with the other greyhound racing jurisdiction”.</summary>
+        <summary eId="sum_72"> Amendment agreed to.</summary>
+        <speech by="#AliceMaryHiggins" eId="spk_78">
+          <from>Senator Alice-Mary Higgins<recordedTime time="2018-11-29T14:00:00+00:00"/></from>
+          <p eId="para_257">I move amendment No. 18:</p>
+          <p class="indent_1" eId="para_258">In page 22, line 24, to delete “may” and substitute “shall”.</p>
+        </speech>
+        <speech by="#LynnRuane" eId="spk_79">
+          <from>Senator Lynn Ruane<recordedTime time="2018-11-29T14:00:00+00:00"/></from>
+          <p eId="para_259">I second the amendment.</p>
+        </speech>
+        <summary eId="sum_73"> Amendment put and declared lost.</summary>
+        <speech by="#NedOSullivan" as="#Acting_Chairman" eId="spk_80">
+          <from>Acting Chairman (Senator Ned O'Sullivan)<recordedTime time="2018-11-29T14:00:00+00:00"/></from>
+          <p eId="para_260">Amendments Nos. 19 to 21, inclusive, are related and may be discussed together.</p>
+        </speech>
+        <speech by="#BrianODomhnaill" eId="spk_81">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T14:00:00+00:00"/></from>
+          <p eId="para_261">I move amendment No. 19:</p>
+          <p class="indent_1" eId="para_262">In page 26, line 15, after “sires” to insert the following:</p>
+          <p class="indent_2" eId="para_263">“, subject to a maximum service by any one sire to 120 in any one calendar year, in order to support young sires”.</p>
+        </speech>
+        <speech by="#LynnRuane" eId="spk_82">
+          <from>Senator Lynn Ruane<recordedTime time="2018-11-29T14:00:00+00:00"/></from>
+          <p eId="para_264">I second the amendment.</p>
+        </speech>
+        <speech by="#BrianODomhnaill" eId="spk_83">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T14:00:00+00:00"/></from>
+          <p eId="para_265">I thank the Minister for accepting amendment No. 17 which was originally tabled by me and Senator Norris. These amendments relate to the area of artificial insemination. I spoke at length on Committee Stage about the artificial insemination of greyhounds, frozen semen and the need for this to be comprehensively dealt with once and for all. Amendment No. 19 endeavours to have a maximum service by any one sire of 120 in any calendar year.</p>
+          <p eId="para_266">At the moment, there is no maximum limit. As I said on Committee Stage, the issue with frozen semen is that there are dogs that have been dead for years and yet their semen continues to be used. That is despite the fact that a death limit was applied under regulations brought in in 2005 by the then Department of Agriculture and Food. I read a copy of the statutory instrument which said that there was a two-year death limit. That was revoked in 2014 but the revocation did not have retrospective application, as was outlined by the then Minister for Agriculture, Food and the Marine, Deputy Coveney, in the Dáil.</p>
+          <p eId="para_267"> Semen taken from any dog prior to 2014 cannot, therefore, be used legally, yet it does continue to be used and used in facilities licensed by the Irish Greyhound Board. As it happens, I went on to the website of one of those licensed premises. There are dogs there that are dead since the 1990s and their frozen semen is still being advertised online this morning. That is in total contravention of the regulations set out by the Irish Greyhound Board and by the Department of Agriculture, Food and the Marine. It is, however, allowed to continue.</p>
+          <p eId="para_268"> I do not know why that is the case. Every time I ask a question on this I get some kind of vague answer from the Irish Greyhound Board. It is not being dealt with. The background to the issue is that it is a major cause of concern in the industry. Why is that? As I understand it, anyone who has money can avail of the frozen semen. The price comparison is between €500 up to about €7,000. Many ordinary owners and breeders cannot afford to artificially inseminate their dogs because of the cost involved. Given that there are, according to the figures I have, about five or six operators in the State licensed by the Irish Greyhound Board, this is effectively a cartel. Those operators should be complying with the regulations set down by the Irish Greyhound Board and they are clearly not doing this.</p>
+          <p eId="para_269"> As I said the other day, there is one operator, based in the Six Counties, flaunting the fact that he has £5 million of frozen semen available and that he is going to become wealthy as a result. That is wrong and that is the background to these amendments. Amendment No. 19, my first amendment, is a reasonable one. It is to have a maximum service, by any one sire, of 120 in any calendar year. It would support the ordinary grassroots industry because it cannot compete with this industry within an industry. It is turning into an economic minefield.</p>
+          <p eId="para_270"> Amendment No. 20 refers to line 16 on page 26 of the Bill and concerns the controls put in place by the board. Amendment No. 21 is to compel the board to act on this situation by inserting into the Bill: "The Board shall, within three months of enactment of this legislation, make regulation prohibiting to use of frozen semen for artificial insemination of greyhounds.” That would deal with the regulation issue as well. I am not a scientific expert but what I have read suggests frozen semen has an indefinite lifespan. That is to say that it can be frozen back in 1962 and still be used today. It has an indefinite lifespan. That is wrong.</p>
+          <p eId="para_271"> These amendments are intended to create competition within the sector, to protect the interests of current owners and breeders and to allow people who want to breed dogs to stay in the sector. From what I can gather, if what is happening at the moment is allowed to continue, what will happen is that we will end up with a situation where the ordinary owners and breeders will not be able to compete. They will leave the sector and we will end up with very few stakeholders in this great greyhound industry in years to come.</p>
+          <p eId="para_272"> The industry is at a crossroads. The question is whether the board can be trusted to deal with this when it has not dealt with it thus far. We read stories of dogs that died back in 1992 and 1997 and their semen is still being used today to impregnate other dogs and then the dogs that result from that impregnation run and win. If a person has money and is able to invest it in the greyhounds, it seems he or she can get ahead in this sector. That is wrong. It is not a level playing field. I am trying to correct that and that is the rationale behind amendment No. 21.</p>
+          <p eId="para_273"> There has been no limit since 2014 but prior to that there was a two-year limit. Amendment No. 21 is, therefore, compatible with the objectives of the 2005 regulations from the then Department of Agriculture and Food because they refer to frozen semen of two years or more. One part of that was amended in 2014. These amendments on artificial insemination are to clean up this area. If the Minister of State is not willing to accept the amendments, what are the alternatives to deal with this issue?</p>
+          <p eId="para_274"> The Department of Agriculture, Food and the Marine report, which I referred to previously, stated that this issue had to be dealt with immediately. That was in January 2016. We are now nearing the end of 2018 and it has not been dealt with yet. If the Minister of State is not willing to accept these amendments, does he really have confidence that the Irish Greyhound Board is dealing with this issue? Has he been informed as to why the board is not dealing with this issue and why it licensed operators to provide frozen semen centres and licensed premises that continue to flout the law? I refer to those premises that continue to advertise and promote, right up to this morning, the sale of semen from dogs that have been dead for more than 20 years. Those are my questions in the event that the Minister of State is not willing to accept these amendments.</p>
+        </speech>
+        <speech by="#AndrewDoyle" eId="spk_84" as="#Minister_of_State_at_the_Department_of_Agriculture,_Food_and_the_Marine">
+          <from>Deputy Andrew Doyle<recordedTime time="2018-11-29T14:10:00+00:00"/></from>
+          <p eId="para_275">With regard to section 26 and to deal with the Senator's amendments, the Irish Coursing Club, ICC, is responsible for the identification and registration of greyhounds in the Irish greyhound stud book. Detailed rules governing the practice of artificial insemination of greyhounds were set down in the Artificial Insemination of Greyhounds Regulations, SI 561 of 2005. They were made by Bord na gCon under section 39 of the 1958 Act. Those regulations included a two-year time limit on the use of semen for artificial insemination following the death of a stud dog. Any unused semen thereafter had to be destroyed.</p>
+          <p eId="para_276"> I understand this measure was introduced to lessen the possibility of an increase in inbreeding in the population caused by owners using only a limited set of sires. The measure would have created greater genetic variation in stud dogs being used, hence reducing inbreeding. As a result of the operational difficulties, such as verifying the date of death of certain stud dogs, particularly foreign-based dogs, in the implementation of certain provisions of the Artificial Insemination of Greyhounds Regulations, Bord na gCon consulted industry stakeholders, including the Irish Coursing Club, in June 2007. That consultation was on the suitability of the 2005 regulations in the context of meeting current industry requirements. A decision was taken at that time to request the board to vary the limit by removing it from the 2005 regulations.</p>
+          <p eId="para_277">One of the reasons cited at the time was that such a limit does not exist in any other jurisdiction. Bord na gCon decided in 2014, having consulted with the Irish Coursing Club, to remove the two-year limit on the use of semen following the death of a stud greyhound. Arising from this decision and with the consent of the Department of Agriculture, Food and the Marine, new regulations were introduced by Bord na gCon which came into effect on 1 November 2014, removing this two-year limit on semen from an expired sire.</p>
+          <p eId="para_278"> To assist the board in respect of the development of this area, in 2015 Bord na gCon commissioned a scientific study into inbreeding in Irish greyhounds by Professor Donagh Berry, a Teagasc geneticist. The conclusions of the report by Professor Berry were that excellent pedigree information exists for the Irish greyhound population, which is crucial for the quantification of inbreeding levels at an individual animal and population level. The rate of accumulation of inbreeding in recent years is 0.15% per year which translates to a rate of 0.89% per generation. This accumulation of inbreeding is lower than the maximum recommended threshold of 1% per generation, set out the by the World Food and Agriculture Organization in 1998. In summary, Professor Berry's conclusion is that there is no inbreeding problem in the Irish greyhound population, inferring that this measure was never required in the first place.</p>
+        </speech>
+        <speech by="#BrianODomhnaill" eId="spk_85">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T14:20:00+00:00"/></from>
+          <p eId="para_279">I thank the Minister of State. Let me give an example of how the issue of a level playing field was dealt with in 2014. Prior to 2014 an issue arose when the popular sire, Top Honcho, died at the age of 14 years back in 2007, but litters were bred from his semen in 2010, 2011 and 2012. His 2010 offspring had won 361 races in total, taking home a combined €51,545.</p>
+          <p eId="para_280"> There is a financial incentive for those who can afford to breed from him. I have not heard anything from the Minister of State or the Irish Greyhound Board, IGB. I appreciate that the Minister of State's contribution is based on the information provided to him through his Department from the Irish Greyhound Board. The IGB has failed to deal with this issue. It has failed to listen to the recommendations or heed the recommendations of the agriculture committee report. If this is allowed to continue, it will diminish the number of breeders that we have in the country. If that continues, we will not be talking about the greyhound racing industry in Ireland in ten years' time because there will be no industry.</p>
+          <p eId="para_281"> In Florida and in different US states they are shutting down the greyhound racing sector because of lack of interest due to the vested interests. Breeding by artificial insemination is a vested interest in the sector. There is a cartel in the sector and there is an economic rationale and benefits for those who are involved. Unfortunately those who are involved in the cartel are growing and it is becoming financially more viable for them to sustain the dogs, yet the ordinary punter, the breeder and the owner cannot compete, in particular the ordinary man who breeds a litter of greyhounds. The objectives of the different types of breeders are not compatible and then one will have a winner and a loser. The only way to intervene is to have a policy intervention. That was the rationale for these amendments.</p>
+          <p eId="para_282"> I appreciate that the Minister of State's hands are tied, but I will be pressing these amendments.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_18">
+          <summary eId="sum_74">Amendment put: </summary>
+          <summary title="division" eId="sum_75">The Seanad divided: Tá, <quantity refersTo="#ta" normalized="9" eId="qty_5">9</quantity>; Níl, <quantity refersTo="#nil" normalized="16" eId="qty_6">16</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_19">
+            <p eId="para_283">Tá</p>
+            <p eId="para_284">
+              <person refersTo="#FrancesBlack">Black, Frances.</person>
+            </p>
+            <p eId="para_285">
+              <person refersTo="#VictorBoyhan">Boyhan, Victor.</person>
+            </p>
+            <p eId="para_286">
+              <person refersTo="#MaireDevine">Devine, Máire.</person>
+            </p>
+            <p eId="para_287">
+              <person refersTo="#AliceMaryHiggins">Higgins, Alice-Mary.</person>
+            </p>
+            <p eId="para_288">
+              <person refersTo="#PadraigMacLochlainn">Mac Lochlainn, Pádraig.</person>
+            </p>
+            <p eId="para_289">
+              <person refersTo="#BrianODomhnaill">Ó Domhnaill, Brian.</person>
+            </p>
+            <p eId="para_290">
+              <person refersTo="#NiallODonnghaile">Ó Donnghaile, Niall.</person>
+            </p>
+            <p eId="para_291">
+              <person refersTo="#LynnRuane">Ruane, Lynn.</person>
+            </p>
+            <p eId="para_292">
+              <person refersTo="#FintanWarfield">Warfield, Fintan.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_20">
+            <p eId="para_293">Níl</p>
+            <p eId="para_294">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_295">
+              <person refersTo="#RayButler">Butler, Ray.</person>
+            </p>
+            <p eId="para_296">
+              <person refersTo="#JerryButtimer">Buttimer, Jerry.</person>
+            </p>
+            <p eId="para_297">
+              <person refersTo="#MariaByrne">Byrne, Maria.</person>
+            </p>
+            <p eId="para_298">
+              <person refersTo="#MartinConway">Conway, Martin.</person>
+            </p>
+            <p eId="para_299">
+              <person refersTo="#PaulDaly">Daly, Paul.</person>
+            </p>
+            <p eId="para_300">
+              <person refersTo="#FrankFeighan">Feighan, Frank.</person>
+            </p>
+            <p eId="para_301">
+              <person refersTo="#AnthonyLawlor">Lawlor, Anthony.</person>
+            </p>
+            <p eId="para_302">
+              <person refersTo="#TimLombard">Lombard, Tim.</person>
+            </p>
+            <p eId="para_303">
+              <person refersTo="#MichelleMulherin">Mulherin, Michelle.</person>
+            </p>
+            <p eId="para_304">
+              <person refersTo="#CatherineNoone">Noone, Catherine.</person>
+            </p>
+            <p eId="para_305">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_306">
+              <person refersTo="#JohnOMahony">O'Mahony, John.</person>
+            </p>
+            <p eId="para_307">
+              <person refersTo="#NedOSullivan">O'Sullivan, Ned.</person>
+            </p>
+            <p eId="para_308">
+              <person refersTo="#DrJamesReilly">Reilly, James.</person>
+            </p>
+            <p eId="para_309">
+              <person refersTo="#NealeRichmond">Richmond, Neale.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_76">Tellers: Tá, Senators Alice-Mary Higgins and Brian Ó Domhnaill; Níl, Senators Michelle Mulherin and John O'Mahony.</summary>
+          <summary title="decision" refersTo="#lost" eId="sum_77">Amendment declared lost.</summary>
+        </debateSection>
+        <speech by="#BrianODomhnaill" eId="spk_86">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T14:30:00+00:00"/></from>
+          <p eId="para_310">I move amendment No. 20:</p>
+          <p class="indent_1" eId="para_311">In page 26, line 16, to delete "controlling or".</p>
+        </speech>
+        <speech by="#NedOSullivan" eId="spk_87" as="#Acting_Chairman">
+          <from>Senator Ned O'Sullivan<recordedTime time="2018-11-29T14:30:00+00:00"/></from>
+          <p eId="para_312">I second the amendment.</p>
+        </speech>
+        <summary eId="sum_78"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#BrianODomhnaill" eId="spk_88">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T14:30:00+00:00"/></from>
+          <p eId="para_313">I move amendment No. 21:</p>
+          <p class="indent_1" eId="para_314">In page 26, between lines 20 and 21, to insert the following:</p>
+          <p class="indent_2" eId="para_315">“(2) The Board shall, within three months of enactment of this legislation, make regulation prohibiting to use of frozen semen for artificial insemination of greyhounds.”.</p>
+        </speech>
+        <speech by="#NedOSullivan" eId="spk_89" as="#Acting_Chairman">
+          <from>Senator Ned O'Sullivan<recordedTime time="2018-11-29T14:30:00+00:00"/></from>
+          <p eId="para_316">I second the amendment.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_21">
+          <summary eId="sum_79">Amendment put: </summary>
+          <summary title="division" eId="sum_80">The Seanad divided: Tá, <quantity refersTo="#ta" normalized="9" eId="qty_7">9</quantity>; Níl, <quantity refersTo="#nil" normalized="16" eId="qty_8">16</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_22">
+            <p eId="para_317">Tá</p>
+            <p eId="para_318">
+              <person refersTo="#FrancesBlack">Black, Frances.</person>
+            </p>
+            <p eId="para_319">
+              <person refersTo="#VictorBoyhan">Boyhan, Victor.</person>
+            </p>
+            <p eId="para_320">
+              <person refersTo="#MaireDevine">Devine, Máire.</person>
+            </p>
+            <p eId="para_321">
+              <person refersTo="#AliceMaryHiggins">Higgins, Alice-Mary.</person>
+            </p>
+            <p eId="para_322">
+              <person refersTo="#PadraigMacLochlainn">Mac Lochlainn, Pádraig.</person>
+            </p>
+            <p eId="para_323">
+              <person refersTo="#BrianODomhnaill">Ó Domhnaill, Brian.</person>
+            </p>
+            <p eId="para_324">
+              <person refersTo="#NiallODonnghaile">Ó Donnghaile, Niall.</person>
+            </p>
+            <p eId="para_325">
+              <person refersTo="#LynnRuane">Ruane, Lynn.</person>
+            </p>
+            <p eId="para_326">
+              <person refersTo="#FintanWarfield">Warfield, Fintan.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_23">
+            <p eId="para_327">Níl</p>
+            <p eId="para_328">
+              <person refersTo="#ColmBurke">Burke, Colm.</person>
+            </p>
+            <p eId="para_329">
+              <person refersTo="#RayButler">Butler, Ray.</person>
+            </p>
+            <p eId="para_330">
+              <person refersTo="#JerryButtimer">Buttimer, Jerry.</person>
+            </p>
+            <p eId="para_331">
+              <person refersTo="#MariaByrne">Byrne, Maria.</person>
+            </p>
+            <p eId="para_332">
+              <person refersTo="#MartinConway">Conway, Martin.</person>
+            </p>
+            <p eId="para_333">
+              <person refersTo="#PaulDaly">Daly, Paul.</person>
+            </p>
+            <p eId="para_334">
+              <person refersTo="#FrankFeighan">Feighan, Frank.</person>
+            </p>
+            <p eId="para_335">
+              <person refersTo="#AnthonyLawlor">Lawlor, Anthony.</person>
+            </p>
+            <p eId="para_336">
+              <person refersTo="#TimLombard">Lombard, Tim.</person>
+            </p>
+            <p eId="para_337">
+              <person refersTo="#MichelleMulherin">Mulherin, Michelle.</person>
+            </p>
+            <p eId="para_338">
+              <person refersTo="#CatherineNoone">Noone, Catherine.</person>
+            </p>
+            <p eId="para_339">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_340">
+              <person refersTo="#JohnOMahony">O'Mahony, John.</person>
+            </p>
+            <p eId="para_341">
+              <person refersTo="#NedOSullivan">O'Sullivan, Ned.</person>
+            </p>
+            <p eId="para_342">
+              <person refersTo="#DrJamesReilly">Reilly, James.</person>
+            </p>
+            <p eId="para_343">
+              <person refersTo="#NealeRichmond">Richmond, Neale.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_81">Tellers: Tá, Senators Alice-Mary Higgins and Brian Ó Domhnaill; Níl, Senators Michelle Mulherin and John O'Mahony..</summary>
+          <summary title="decision" refersTo="#lost" eId="sum_82">Amendment declared lost.</summary>
+        </debateSection>
+        <speech by="#BrianODomhnaill" eId="spk_90">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T14:50:00+00:00"/></from>
+          <p eId="para_344">I move amendment No. 22:</p>
+          <p eId="para_345"> In page 26, line 34, to delete “may” and substitute “shall”.</p>
+        </speech>
+        <speech by="#AliceMaryHiggins" eId="spk_91">
+          <from>Senator Alice-Mary Higgins<recordedTime time="2018-11-29T14:50:00+00:00"/></from>
+          <p eId="para_346">I second the amendment.</p>
+        </speech>
+        <summary eId="sum_83"> Amendment, by leave, withdrawn. </summary>
+        <speech by="#BrianODomhnaill" eId="spk_92">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T14:50:00+00:00"/></from>
+          <p eId="para_347">I move amendment No. 23:</p>
+          <p eId="para_348"> In page 27, to delete lines 4 to 6 and substitute the following:</p>
+          <p class="indent_1" eId="para_349">“(e) stringent prohibition, in line with best international practices, class A substances (drugs) that may be found in samples taken from a racing greyhound by reference to the substance and the nature of the sample taken from the greyhound;”.</p>
+        </speech>
+        <speech by="#AliceMaryHiggins" eId="spk_93">
+          <from>Senator Alice-Mary Higgins<recordedTime time="2018-11-29T14:50:00+00:00"/></from>
+          <p eId="para_350">I second the amendment.</p>
+        </speech>
+        <speech by="#DenisODonovan" eId="spk_94">
+          <from> An Cathaoirleach<recordedTime time="2018-11-29T14:50:00+00:00"/></from>
+          <p eId="para_351">Amendments Nos. 23 to 25, inclusive, are related and may be discussed together.</p>
+        </speech>
+        <speech by="#BrianODomhnaill" eId="spk_95">
+          <from>Senator Brian Ó Domhnaill<recordedTime time="2018-11-29T14:50:00+00:00"/></from>
+          <p eId="para_352">This amendment is based on the recommendations of the Joint Committee on Agriculture, Food and the Marine report of 2016 and the recommendation around having a zero-tolerance policy on prohibited substances made therein. Class A-type drugs are administered to greyhounds for a multitude of reasons, including to make the greyhound faster or slower, depending on how the betting arithmetic works in a given race. There are criminal links to that sector, with some of the criminal gangs of this country involved. I know the Minister of State is aware of that. The difficulty is the perception that this is creating. It also raises the issue of animal welfare. Nobody should be feeding banned class A drugs to greyhounds. As I mentioned on Committee Stage, those drugs include cocaine, beta blockers and other performance supporting drugs like Viagra. Many types of drugs are being fed to these greyhounds for one reason or another. This is happening on an ongoing basis. We see dogs winning races involving big stakes which subsequently test positive for drugs.</p>
+          <p eId="para_353"> The purpose of this amendment is to introduce an internationally-acceptable standard to replace the grey area that suggests it is okay if greyhounds are given some drugs, which is the impression given by the Irish Greyhound Board. It may not be the intention, but it is definitely the impression given. While that impression remains, a certain perception builds up around the entire sector. I am seeking a stringent prohibition, in line with best international practice, which would mean that class A drugs found in samples taken from a racing greyhound, by reference to the substance and the nature of the sample taken from the greyhound, are banned completely. There is no place for those who indulge in such practices in greyhound racing. </p>
+          <p eId="para_354"> We all have pets at home. We may have dogs that we care for. Family members often say that a dog is like an extension of the family, or like the son or daughter some couples never had. Would anyone here feed their dog Viagra, testosterone, cocaine, amphetamines, beta blockers or a mixture of all of those substances? There is no way anyone here would do that to his or her pet, so why the hell should we be allowing such substances to be fed to greyhounds?</p>
+          <p eId="para_355"> The efforts of the Department to ban them have not worked to date. It is very unfair on many in the sector that this grey area is abused by a small number of individuals in the industry, either to try to win races, lose races or manipulate the probabilities and increase or decrease the chances of winning the stakes with the bookmakers. It is very wrong and is an area which certainly must be cleaned up from an animal welfare standpoint and in order to bring transparency to the industry. With this amendment I am suggesting that we take a zero-tolerance approach to drugs.</p>
+          <p eId="para_356"> I gave the example of what is being done in Australia. The laboratory which tests for drugs in Australia, where there is an industry comparable with the Irish industry, has a zero-tolerance approach. It is true that there is a laboratory tolerance, but I understand there is such a threshold in laboratories all over the world. The laboratories in Australia, however, have a zero-tolerance approach to drugs within the greyhound racing sector. We do not have such an approach and my argument is that such an approach should be introduced. This Bill presents an opportunity to do so. It is in line with the all-party, cross-party recommendations in the 2016 report. The Indecon report indicated-----</p>
+        </speech>
+        <speech by="#DenisODonovan" eId="spk_96">
+          <from> An Cathaoirleach<recordedTime time="2018-11-29T14:50:00+00:00"/></from>
+          <p eId="para_357">Senator Ó Domhnaill has the floor, but we are up against the clock.</p>
+        </speech>
+        <summary eId="sum_84"> Debate adjourned.</summary>
+        <speech by="#DenisODonovan" eId="spk_97">
+          <from> An Cathaoirleach<recordedTime time="2018-11-29T15:00:00+00:00"/></from>
+          <p eId="para_358">When is it proposed to sit again?</p>
+        </speech>
+        <speech by="#MichelleMulherin" eId="spk_98">
+          <from>Senator Michelle Mulherin<recordedTime time="2018-11-29T15:00:00+00:00"/></from>
+          <p eId="para_359">Next Tuesday at 2.30 p.m.</p>
+        </speech>
+        <summary eId="sum_85"> The Seanad adjourned at 3 p.m. until 2.30 p.m. on Tuesday, 4 December 2018.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

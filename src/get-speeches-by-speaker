@@ -9,17 +9,24 @@ def mktext(ps):
     text += p.getText()
   return text
 
+def date_from_file(filename):
+  return re.search('\d{4}-\d{2}-\d{2}', filename).group()
+
 speaker = sys.argv[2]
+
 f = sys.argv[1]
+date_from_f = date_from_file(f)
 with open(f) as fp:
-    soup = bs(fp, 'xml')
-    speeches = soup.find_all("speech", {"by": '#' + speaker})
-    sdate = soup.find_all("recordedTime")
-    for speech in speeches:
-        ps = speech.findAll("p")
-        text = mktext(ps)
-        t = speech.find("recordedTime")
-        if t:
-          t = t["time"]
-        f = speech.find("from").getText()
-        print(speaker, f, t, text, sep='\t')
+  soup = bs(fp, 'xml')
+  speeches = soup.find_all("speech", {"by": '#' + speaker})
+  sdate = soup.find_all("recordedTime")
+  for speech in speeches:
+    ps = speech.findAll("p")
+    text = mktext(ps)
+    t = speech.find("recordedTime")
+    if t and "time" in t:
+      t = t["time"]
+    else:
+      t = None
+    f = speech.find("from").getText()
+    print(speaker, f,date_from_f, t, text, sep='\t')

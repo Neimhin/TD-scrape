@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+import json
+import sys
+file = sys.argv[1]
+
+with open(file) as f:
+    o = json.load(f)
+
+
+if(not "results" in o):
+    exit()
+
+for r in o["results"]:
+    q = r["question"]
+    house = q["house"]
+    print(q["by"]["memberCode"], q["date"], q["questionType"],house["houseCode"] + house["houseNo"], q["showAs"],sep='\t')
