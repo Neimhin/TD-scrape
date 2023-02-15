@@ -1,0 +1,586 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_jobs_social_protection_and_education/2011-11-23/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_jobs_social_protection_and_education/2011-11-23/debate"/>
+          <FRBRdate date="2011-11-23" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/31/joint_committee_on_jobs_social_protection_and_education"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_jobs_social_protection_and_education/2011-11-23/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_jobs_social_protection_and_education/2011-11-23/debate/mul@"/>
+          <FRBRdate date="2011-11-23" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_jobs_social_protection_and_education/2011-11-23/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_jobs_social_protection_and_education/2011-11-23/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AineCollins" href="/ie/oireachtas/member/id/Áine-Collins.D.2011-03-09" showAs="Áine Collins"/>
+        <TLCPerson eId="AnthonyLawlor" href="/ie/oireachtas/member/id/Anthony-Lawlor.D.2011-03-09" showAs="Anthony Lawlor"/>
+        <TLCPerson eId="AodhanORiordan" href="/ie/oireachtas/member/id/Aodhán-Ó-Ríordáin.D.2011-03-09" showAs="Aodhán Ó Ríordáin"/>
+        <TLCPerson eId="BrendanGriffinFG" href="/ie/oireachtas/member/id/Brendan-Griffin.D.2011-03-09" showAs="Brendan Griffin"/>
+        <TLCPerson eId="BrendanSmith" href="/ie/oireachtas/member/id/Brendan-Smith.D.1992-12-14" showAs="Brendan Smith"/>
+        <TLCPerson eId="CiaranCannon" href="/ie/oireachtas/member/id/Ciaran-Cannon.S.2007-07-23" showAs="Ciarán Cannon"/>
+        <TLCPerson eId="DamienEnglishFG" href="/ie/oireachtas/member/id/Damien-English.D.2002-06-06" showAs="Damien English"/>
+        <TLCPerson eId="DeirdreClune" href="/ie/oireachtas/member/id/Deirdre-Clune.D.1997-06-26" showAs="Deirdre Clune"/>
+        <TLCPerson eId="JoanCollins" href="/ie/oireachtas/member/id/Joan-Collins.D.2011-03-09" showAs="Joan Collins"/>
+        <TLCPerson eId="JohnHalligan" href="/ie/oireachtas/member/id/John-Halligan.D.2011-03-09" showAs="John Halligan"/>
+        <TLCPerson eId="JohnKelly" href="/ie/oireachtas/member/id/John-Kelly.S.2011-05-25" showAs="John Kelly"/>
+        <TLCPerson eId="MaryMitchellOConnor" href="/ie/oireachtas/member/id/Mary-Mitchell-O'Connor.D.2011-03-09" showAs="Mary Mitchell O'Connor"/>
+        <TLCPerson eId="MichaelMullins" href="/ie/oireachtas/member/id/Michael-Mullins.S.2011-05-25" showAs="Michael Mullins"/>
+        <TLCPerson eId="OliviaMitchell" href="/ie/oireachtas/member/id/Olivia-Mitchell.D.1997-06-26" showAs="Olivia Mitchell"/>
+        <TLCPerson eId="RayButler" href="/ie/oireachtas/member/id/Ray-Butler.D.2011-03-09" showAs="Ray Butler"/>
+        <TLCPerson eId="RichardBruton" href="/ie/oireachtas/member/id/Richard-Bruton.S.1981-10-08" showAs="Richard Bruton"/>
+        <TLCPerson eId="SeanCroweSF" href="/ie/oireachtas/member/id/Seán-Crowe.D.2002-06-06" showAs="Seán Crowe"/>
+        <TLCPerson eId="SeanKyne" href="/ie/oireachtas/member/id/Seán-Kyne.D.2011-03-09" showAs="Seán Kyne"/>
+        <TLCPerson eId="TomFleming" href="/ie/oireachtas/member/id/Tom-Fleming.D.2011-03-09" showAs="Tom Fleming"/>
+        <TLCPerson eId="WillieODea" href="/ie/oireachtas/member/id/Willie-O'Dea.D.1982-03-09" showAs="Willie O'Dea"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Jobs,_Enterprise_and_Innovation" href="/ie/oireachtas/role/minister/jobs__enterprise__innovation" showAs="Minister for Jobs, Enterprise and Innovation"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Education_and_Skills" href="/ie/oireachtas/role/minister_state/education__skills" showAs="Minister of State at the Department of Education and Skills"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM POIST, COIMIRCE, SHÓISIALACH AGUS OIDEACHAS</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON JOBS, SOCIAL PROTECTION AND EDUCATION</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2011-11-23">Dé Céadaoin, 23 Samhain 2011</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2011-11-23">Wednesday, 23 November 2011</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 9.30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#RayButler">Deputy Ray Butler,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#DeirdreClune">Senator Deirdre Clune,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#AineCollins">Deputy Áine Collins,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#JohnKelly">Senator John Kelly,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#JoanCollins">Deputy Joan Collins,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#MichaelMullins">Senator Michael Mullins.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#SeanCroweSF">Deputy Seán Crowe,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#TomFleming">Deputy Tom Fleming,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#BrendanGriffinFG">Deputy Brendan Griffin,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#JohnHalligan">Deputy John Halligan,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#SeanKyne">Deputy Seán Kyne,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#AnthonyLawlor">Deputy Anthony Lawlor,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#OliviaMitchell">Deputy Aodhán Ó Ríordáin,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#WillieODea">Deputy Mary Mitchell O'Connor,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#AodhanORiordan">Deputy Willie O'Dea, </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_16">
+                  <person refersTo="#BrendanSmith">Deputy Brendan Ryan,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_17">Deputy Brendan Smith,</p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">In attendance: Deputy Jonathan O'Brien.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#DamienEnglishFG">DEPUTY DAMIEN ENGLISH IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Scrutiny of EU Legislative Proposals</heading>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_18">The first proposal is from the Department of Education and Skills.  COM (2011) 336 is a proposal for a regulation of the European Parliament and of the Council amending Regulation (EC) No. 1927/2006 establishing the European Globalisation Adjustment Fund.  It is proposed that this does not warrant further scrutiny.  Members should note that we will discuss this issue at a meeting in the new year.  Is that agreed?  Agreed.</p>
+          <p eId="para_19">The second proposal is COM (2011) 421, proposal for a decision of the European Parliament and of the Council on the mobilisation of the European Globalisation Adjustment Fund in accordance with point 28 of the inter-institutional agreement of 17 May 2006 between the European Parliament, the Council and the Commission on budgetary discipline and sound financial management.  The application is from Denmark and the Department of Education and Skills is the lead Department.  It is proposed that this does not warrant further scrutiny.  Is that agreed?  Agreed.</p>
+          <p eId="para_20">The final proposal is COM (2011) 664, proposal for a decision of the European Parliament and of the Council on the mobilisation of the European Globalisation Adjustment Fund in accordance with point 28 of the inter-institutional agreement of 17 May 2006 between the European Parliament, the Council and the Commission on budgetary discipline and sound financial management.  This application is from Portugal and, again, the Department of Education and Skills is the lead Department.  It is proposed that this does not warrant further scrutiny.  Is that agreed?  Agreed.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Education, Youth and Culture Council: Discussion with Minister of State</heading>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_2">
+          <from>Chairman</from>
+          <p eId="para_21">I welcome the Minister of State at the Department of Education and Skills, Deputy Ciarán Cannon, who will stay with us until approximately 10.30 a.m.  I apologise that we are beginning a little late.  Members are reminded of the long-standing parliamentary practice to the effect that they should not comment on, criticise or make charges against a person outside the Houses or an official, either by name or in such a way as to make him or her identifiable.  I invite the Minister of State to give his briefing on the next EU Council of Ministers meeting on education, youth and culture, scheduled for 28 November.</p>
+        </speech>
+        <speech by="#CiaranCannon" as="#Minister_of_State_at_the_Department_of_Education_and_Skills" eId="spk_3">
+          <from>Minister of State at the Department of Education and Skills (Deputy Ciarán Cannon)</from>
+          <p eId="para_22">I thank the Chairman for the opportunity to brief the committee on the next meeting of the Education, Youth and Culture Council in Brussels next Monday.  Members have received copies of my presentation.  Rather than going through it in detail, I will focus on the key aspects of Monday's agenda.  Before doing so, I will set some context for ongoing European discussions on education and training.</p>
+          <p eId="para_23">Under the treaties governing the European Union, member states have full responsibilityfor the content of teaching, organisation of education systems and their cultural and linguistic diversity.  The EU's role in education is to encourage and facilitate co-operation and support and to supplement the actions of member states.  In practice, the Commission and member states work together on a range of education and training policy areas in line with member states' mutual priorities and with the objective of sharing best practice between national experts.  All of this is done in the context of Education and Training 2020, which is the EU's strategic framework for co-operation on education in the coming decade, as agreed by Ministers in 2009.</p>
+          <p eId="para_24">Within the context of Education and Training 2020, the role of the Council is to set the agenda for European co-operation on specific themes and to identify where collaborative work can take place.  The main products of the Council meetings are usually texts such as resolutions and conclusions.  They do not involve binding EU legislative measures or any requirement for any member state to change its law.  How member states choose to engage in any proposed agenda for co-operation is a matter for each of them, in line with their national priorities and resources.</p>
+          <p eId="para_25">I will now turn to Monday's agenda.  It has been a feature of some Council meetings to hold a policy debate on discussion on a current issue.  The theme of Monday's meeting - members will agree it is very topical - is investing effectively in education and training in a time of crisis.  The aim of the discussion is to consider the impact of the crisis on our education systems.  The Ministers present will also share views on how the efficiency and effectiveness of investment in education and training can be improved in the context of reduced resources.  I look forward to hearing from EU colleagues the types of measures they have taken.  My intervention will focus on the current budgetary challenges and will update the Council on the measures taken to date, including those aimed at improving efficiency and effectiveness.</p>
+          <p eId="para_26">The Council will also be adopting four texts.  These are a resolution on a renewed European agenda for adult learning; conclusions on the modernisation of higher education; conclusions on language competences to enhance mobility; and conclusions on a benchmark for learning mobility.  These texts have been developed and agreed over recent months at the education committee, which is the working group of officials who prepare the agenda for the Council.  Officials from my Department have actively participated in this process and we accept the agreed content.  Given the consensus which has been achieved, we anticipate that the texts will be adopted by the Council without further discussion at this stage.  The overriding intention of all four texts is to progress the overall agenda set by the EU 2020 strategy, which is the European strategy for growth and development.</p>
+          <p eId="para_27">The resolution on a renewed European agenda for adult learning is focused on the crucial work of enabling adults to improve their ability to adapt to changes in the labour market and to society.  It identifies various avenues for co-operation and enhancement, such as improved information and guidance, employer engagement in workplace-based learning, flexible pathways and quality assurance.  It also highlights the importance of second-chance education, including basic literacy and numeracy skills.</p>
+          <p eId="para_28">The Council conclusions on the modernisation of higher education recognise the key role played by higher education in driving job creation and economic growth.  The text identifies a range of reforms needed to increase the quality and quantity of higher education graduates, create more effective governance in funding mechanisms, strengthen what is known as the knowledge triangle between education, research and business, and increase the internationalisation of European higher education.  The European Commission will support these efforts in several ways.  There has been much coverage of international university rankings in recent weeks.  The Commission is ambitious to develop an independent European ranking and information tool for profiling higher education institutions, which will be called U-Multirank.  It will improve labour market intelligence, establish a high-level expert group to analyse key topics and develop an EU-international higher education strategy.</p>
+          <p eId="para_29">The conclusions on language competences to enhance mobility reflect a particular priority of the Polish Presidency.  The conclusions invite member states to enhance the provision, quality and relevance of our language teaching.  Member states and the Commission are invited in the conclusions to continue to support language learning through the EU programmes on education, training and youth, in particular the Lifelong Learning Programme 2007-2013 and a successor programme, Erasmus for All, on which Commissioner Vassiliou will today launch a communication in Brussels.</p>
+          <p eId="para_30">Also related to the overarching theme of mobility are the Council's conclusions on a benchmark for learning mobility, the conclusions of which ask member states to agree to adopt mobility benchmarks for 2020 in respect of higher education and initial vocation education and training.  The aim is that by 2020, some 20% of new higher education graduates and 6% of 18 to 34 year olds with an initial vocational educational and training qualification will have completed an initial study or training period abroad.  Once again, the EU mobility programmes will be a crucial instrument in helping Europe to meet this average.</p>
+          <p eId="para_31">That is my synopsis of what will be discussed next Monday.  I am happy to discuss any of the issues in more detail and look forward to members' interventions.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_4">
+          <from>Chairman</from>
+          <p eId="para_32">Thank you, Minister.  I remind members that we must finish our discussion on this issue by 10.25 a.m.  I call Deputy Brendan Smith, who will be followed by Deputy Tom Fleming.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_5">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_33">I join with the Chairman in welcoming the Minister and his officials and I thank him for his presentation.  The Minister stated that the EU Commission has no competence and is limited in terms of what it can do in the area of education.  It can, however, try to promote co-operation.</p>
+          <p eId="para_34">I welcome that adult learning is being given particular credence.  Yesterday, we had an opportunity to discuss with organisations the importance of adult education and its role in the new framework in terms of the amalgamation of VECs, the establishment of the new education and learning boards and SOLAS.  It is good to see adult learning headlined.  The Minister referred to publication of the Commission documents supporting growth and jobs and the need to ensure more people have access to gaining a third level qualification.  A heartening statistic in the Minister's presentation is that Ireland is ranked first in the EU in terms of its having achieved a 49% rate in this regard.  Perhaps the Minister will say when Ireland first achieved this ranking in respect of 49% of people having completed tertiary or equivalent education.  The growth in participation at third level has grown by 60% in the past decade and we would all like to see it grow further.</p>
+          <p eId="para_35">I welcome that the EU is seeking to establish an independent ranking for itself.  In other fora, people have spoken of the need for a European credit rating agency which might be more successful in terms of its ratings than were international ratings given to banking institutions prior to autumn 2008.  It is hoped such an agency would be more successful in identifying weaknesses.</p>
+          <p eId="para_36">With regard to funding, the Minister stated: "... Member States and the Commission are invited to continue to support mobility for the purpose of language learning" and "... significantly increased funding be allocated to the next generation of these programmes under the next Multi-annual Financial Framework".  Are we currently in receipt of specific funding towards those programmes?  When does the next multi-annual financial framework commence?   I am sure the Minister will be putting forward the view that supporting programmes and encouraging co-operation would be much easier if specific funding was provided by the EU to such necessary programmes and in respect of all the areas mentioned by the Minister.</p>
+        </speech>
+        <speech by="#TomFleming" eId="spk_6">
+          <from>Deputy Tom Fleming</from>
+          <p eId="para_37">There is a big emphasis on mobility and interaction between the various states in Europe.  Language is paramount in the progression of policies.  The enormous amount of migration within the EU these days emphasises the importance of the pursuit of languages, the flexibility of languages and the need for more interaction between member states.   Has Ireland put in place a programme, similar to those in place in Germany and in particular France, to enhance opportunities for our citizens, be it in the area of adult education or in respect of graduates of third level education at the standard age?  We will need a broader prospective going forward, in particular in terms of people acquiring employment.</p>
+        </speech>
+        <speech by="#CiaranCannon" eId="spk_7" as="#Minister_of_State_at_the_Department_of_Education_and_Skills">
+          <from>Deputy Ciarán Cannon</from>
+          <p eId="para_38">Deputy Smith is correct in pointing out that there is a significant emphasis on adult learning, in particular lifelong learning.  This will feature heavily in our discussions next Monday.  It is an opportune time for us to begin discussing this in the context of what we are doing in Ireland in terms of SOLAS.  In the past, all other strands of our education system have had a unique brand.  SOLAS will do excellent work in recognising the valuable work being done through our further education system and the interventions we are providing for people who wish to engage in lifelong learning, in particular the cohort who recently became unemployed and urgently need to up-skill and move back into the labour market or at least closer to it.</p>
+          <p eId="para_39">On the Deputy's question in regard to the ranking, as far as I am aware the first indicators were in 2009.  As the Deputy stated we were the first with a 49% tertiary attainment.  It is interesting to note that each member state has set an individual target in this area for 2020.  Ireland's target is 60%.  It is hoped we will be moving towards that figure in the coming years.  We receive dedicated EU funding of €10 million per annum for lifelong learning.  This allows us to engage in some of the mobility programmes which Deputy Fleming spoke about earlier, including programmes such as Comenius for national schools.  Students of a national school in my constituency recently took a trip to Cyprus, which they enjoyed immensely.  There are excellent cultural exchanges taking place between primary school pupils.  The school concerned has built upon that visit and now uses Skype to communicate regularly with the school in Cyprus.  Face to face exchange is being built upon in our schools through the use of new technology.   A more interesting programme is the Erasmus programme, which I am sure the Deputy is well aware of.  It is funded through the €10 million received from the EU lifelong learning fund.</p>
+          <p eId="para_40">Deputy Fleming spoke about languages and mobility.  We are fortunate.  I am learning rapidly as I travel abroad to sell Irish education that one of our principal languages is English.  It is at this point almost the language of education internationally.   It is the language of commerce and of industry.  We are at a massive advantage in having English as one of our two primary languages.  It is important, if we are to benefit to the maximum from being part of an enlarged EU, that we provide for greater language provision in our schools.  However, given the difficult situation in which we now find ourselves in terms of curriculum reform and the limited resources available to us, the Government will have to prioritise particular curriculum reforms in the medium to long term.  The Government has chosen to prioritise strengthening of our achievements in literacy and numeracy.  We have particular challenges in the area of literacy, in particular adult education and literacy.  We are moving towards a point where we will give our tutors and teachers in the area of further education and training a certain degree of expertise to establish early on in any training or further education programme whether a learner has literacy or numeracy difficulties.  In any training or further education programme where learners have literacy or numeracy difficulties, we will be able to incorporate a specific module for those people in order to address those challenges.  Significant resources will be provided.  We are considering the implementation of reforms in Irish, maths and science and changes to the junior certificate curriculum.  It is a case of doing the best with the limited resources available.  In that context, languages will not be at the top of our list of priorities as literacy, numeracy, maths and science must take priority in the immediate future.</p>
+        </speech>
+        <speech by="#AodhanORiordan" eId="spk_8">
+          <from>Deputy Aodhán Ó Ríordáin</from>
+          <p eId="para_41">I thank the Minister of State for his presentation.  It states:</p>
+          <p class="indent_1" eId="para_42">Under the Treaties governing the European Union, Member States have full responsibility for the content of teaching and the organisation of education systems and their cultural and linguistic diversity.</p>
+          <p eId="para_43">Does a conflict arise between our education system and EU equality legislation or frameworks?  I refer specifically to section 37 of the Equality Act which provides for the promotion of a religious ethos in schools and which impacts on admissions policies and the rights of gay teachers.</p>
+          <p eId="para_44">I refer to the Council resolution on the renewed European agenda for adult learning.  Our provision of second-chance education lacks a formalised adult literacy policy.  It is one thing to have a curriculum but it is another matter to have an adult literacy policy embedded in the system for second-chance students with a low level of literacy.  The body previously known as FÁS did not have such a policy.  I hope SOLAS will have policies to deal with early school leavers or second-chance education participants.</p>
+          <p eId="para_45">I am interested in the modernisation of higher education and the U-Multirank development.  What are the criteria for these rankings?  I refer to the Minister of State's comments on European languages.  Will he agree that the level of knowledge of modern European languages is deficient?  Is there scope in the proposals for a new junior certificate curriculum for more emphasis on oral language acquisition?  One oral examination at the end of a period of learning a language, be it Irish or a European language, often in the leaving certificate year, is not sufficient.  I suggest an oral examination at junior certificate level as a means of promoting the proficiency in a modern European language.</p>
+        </speech>
+        <speech by="#CiaranCannon" eId="spk_9" as="#Minister_of_State_at_the_Department_of_Education_and_Skills">
+          <from>Deputy Ciarán Cannon</from>
+          <p eId="para_46">Deputy Ó Ríordáin referred to likely challenges that might arise to section 37 of the Equality Act.  A directive is in preparation within the group I will attend next Monday.  The Minister for Justice and Equality is working to ensure that we comply as best we can with the terms of the Act.  That is as much detail as I can give the Deputy but I will provide him with any further details.</p>
+          <p eId="para_47">The Deputy is correct that adult literacy provides a significant challenge, especially in the case of those returning to education who may have left education without having attained junior or leaving certificate standard.  In many cases they left education during the construction boom.  There is significant and ongoing co-operation and consultation between NALA and AONTAS, two groups which are facing up to that challenge and setting strategies and policies.  When SOLAS comes into being, it will have a policy in that area.  As I stated in response to Deputy Brendan Smith, we must empower our tutors and those engaging in further education so that they can assess the literacy and numeracy competency of students in order to address any deficits.  This will be a significant part of the work of SOLAS.</p>
+          <p eId="para_48">I agree with the Deputy that more emphasis on oral skills is required in foreign languages and in our own native language. We need to move away from being overly-concerned with the machinery of the language such as the grammar and other rules.  It should be the ambition to have students at junior certificate level equipped to conduct a basic conversation in a language such as French, German or Irish.  Significant progress has been made with continental languages but we have failed to give our children competency in our own native language.  I have a son doing the junior certificate who is a reasonably intelligent young man but, like most of his classmates, he is unable to conduct a basic conversation in a language he has been studying for nine years.  I agree that this is a significant failing and it needs to be urgently assessed.</p>
+        </speech>
+        <speech by="#SeanKyne" eId="spk_10">
+          <from>Deputy Seán Kyne</from>
+          <p eId="para_49">I refer to the Council conclusions which state:</p>
+          <p class="indent_1" eId="para_50">[B]y 2020, an EU average of at least 20% of new higher education graduates should have had a higher education-related study or training period abroad;</p>
+          <p eId="para_51">What is the percentage with regard to Irish students and how will this percentage be achieved?  I raised the matter of language teaching at a previous meeting with the Minister, Deputy Quinn.  Is it possible to increase the time that trainee teachers spend in the Gaeltacht to study the language?  It is often regarded as a celebratory holiday at the end of term rather than a serious study project.  Is it possible to emphasise to student teachers the importance of oral language teaching skills?</p>
+          <p eId="para_52">A delegation from Germany appeared before the committee recently.  A question was asked about higher education.  One of the delegates asked who was doing the real work while so many people were attending college.  We explained that higher education encompassed many different aspects such as institutes of technology and apprenticeships and not just university education.  What is the definition used in Europe for higher education?  Is higher level education in Germany the same as in Ireland?  It seems the German delegate was somewhat confused.</p>
+        </speech>
+        <speech by="#JohnHalligan" eId="spk_11">
+          <from>Deputy John Halligan</from>
+          <p eId="para_53">What is the time schedule for the proposed adoption of the four texts?  Will there be a yearly review?  The Minister of State referred to improving the ability of adults to adopt to change in the labour market and to support the development and growth in jobs through higher education modernisation.  I presume this would include a cost factor.  I ask the Minister of State to specify if any European funding is available?  I imagine that it would cost money to work through some of these texts.  Is this funding from the Government or from Europe?</p>
+        </speech>
+        <speech by="#CiaranCannon" eId="spk_12" as="#Minister_of_State_at_the_Department_of_Education_and_Skills">
+          <from>Deputy Ciarán Cannon</from>
+          <p eId="para_54">The texts to which we refer will be adopted on Monday.  There has been significant consultation for the past number of months to bring them to the point where they are ready for adoption and they will be adopted on Monday.  It is up to each member state, as time and resources allow, to implement the requirements set out in the texts.  There is very little budgetary support - perhaps none - behind these texts.  Again, most of it would need to come from within our internal resources.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_13">
+          <from>Chairman</from>
+          <p eId="para_55">Deputy Kyne had questions.</p>
+        </speech>
+        <speech by="#CiaranCannon" eId="spk_14" as="#Minister_of_State_at_the_Department_of_Education_and_Skills">
+          <from>Deputy Ciarán Cannon</from>
+          <p eId="para_56">My Galway compatriot.  As to the figure of 20% mobility, which is our ambition for 2020, we are now in the area of 2% to 3%, mostly done through the Erasmus scheme, of which I am sure the Deputy is well aware.  The sum of €10 million from the EU would not lead one to conclude we will be able to expand significantly on that in the very near future.  Again, it is a matter of prioritisation.  Rather than expanding on our educational budget over the coming three or four years we need to save €350 million.  I do not see much opportunity for an expansion of that programme in the near future.</p>
+          <p eId="para_57">As to Irish colleges and end-of-education celebrations, I was in a gaelscoil in Athenry on Monday morning, talking to seven year old children who had fluent Irish.  They carried out extraordinary conversations in the language and this was completely normal for them.  If we are serious about giving our children the competency to speak our national language we must look at the standard of teacher training.  I would question the competency of some of our current trainees and whether when they move away from text-based teaching they have the conversational skills the Deputy referred to, which are so important.  I agree with the Deputy that the intervention of going to Connemara, or wherever, is an important part of that process and needs more emphasis.</p>
+          <p eId="para_58">What was the final question?</p>
+        </speech>
+        <speech by="#SeanKyne" eId="spk_15">
+          <from>Deputy Seán Kyne</from>
+          <p eId="para_59">The definition of higher education.</p>
+        </speech>
+        <speech by="#CiaranCannon" eId="spk_16" as="#Minister_of_State_at_the_Department_of_Education_and_Skills">
+          <from>Deputy Ciarán Cannon</from>
+          <p eId="para_60">It is standard across the EU.  It means moving from second-level education to another form of education.  There is a process ongoing to standardise that definition throughout the EU so that when one talks about attainment one does so on a level playing field and the figures we mention will apply throughout the EU.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_17">
+          <from>Deputy Mary Mitchell O’Connor</from>
+          <p eId="para_61">I want to ask about language teaching.  One size does not fit all in either primary or secondary school, yet in a secondary school, for example, if a child is a leaving certificate student, he or she may have to study three languages.  That child might have dyslexia, may be at a loss and will not make up the points needed.  He may opt out and the student who is not as bright will definitely have opted out.  I say "he" because normally it is boys who have dyslexia.  He does not want to study Irish or a continental language but may be interested in doing something in the arts, or in mathematics.  However, at that juncture he is forced to study these subjects.</p>
+          <p eId="para_62">We must have a root and branch examination.  Do we need three languages as well as mathematics for the leaving certificate, especially for boys?  The Minister of State mentioned children leaving school who do not speak Irish.  There are children coming out of school who have had resource teaching and all sorts of inputs, yet they cannot read.  We must go back and ask why those children are not achieving.  Everybody talks about honours mathematics after the leaving certificate results.  There is a huge national debate on that but nobody worries about the children who have failed their leaving certificate, not in mathematics but in other subjects, because they cannot read.  I realise the Minister of State is picking up matters at the end of the route when people have failed, but I believe we must go back to the beginning and ask why they are failing, if we are to be genuine.</p>
+          <p eId="para_63">Why are we teaching French in our schools?  That seems to be the continental language most taught, with Spanish and German in a few secondary schools.  Perhaps I am wrong but French is spoken only in France.  I do not know if many of our graduates or those who are unemployed are going to France looking for work.  I wonder if French is the language we really need.  Should we consider teaching a different continental language?  I ask the Minister of State to take a look at the subject choices in secondary schools, then to look at primary schools and see what is going wrong.  It is not a matter of throwing more money or resources at it.  Something more fundamental is wrong.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_64">Does Deputy Halligan want to add to that?</p>
+        </speech>
+        <speech by="#JohnHalligan" eId="spk_19">
+          <from>Deputy John Halligan</from>
+          <p eId="para_65">I refer to an earlier question, arising from the Minister's submission which stated that there would be adoption of the proposals by 28 November.  I revert to the four texts.  As I read them there is no question in my mind it will require a certain amount of finance to implement all of them.  The Minister of State has not been very forthcoming in explaining exactly to us how much; he stated it would be a small sum.  Might we return here again next year, having adopted the proposals but having been unable to implement many of them because of lack of finance?  What finance is available?  When the Minister of State speaks of "very little" what is the sum?  Can we adopt any of the proposals?</p>
+          <p eId="para_66">Some of the actions proposed will undoubtedly require some finance, even if only for research.  If we return next year can we be confident we will have adopted the four proposals?  I would be doubtful of that.</p>
+        </speech>
+        <speech by="#CiaranCannon" eId="spk_20" as="#Minister_of_State_at_the_Department_of_Education_and_Skills">
+          <from>Deputy Ciarán Cannon</from>
+          <p eId="para_67">I refer to Deputy Mitchell O'Connor's points.  It is moving somewhat outside my area of competency to discuss the leaving certificate curriculum, subject choice and so on.  The Deputy will be aware of the significant reforms proposed for the junior certificate cycle which will eat significantly into our resources in the coming years.  It is questionable whether we can engage in such a procedure or practice with regard to the leaving certificate.  I agree with the Deputy there is a significant cohort of young people who find it very difficult to operate in what is a very high-pressure leaving certificate environment.  I take on board her concerns and commit to pass them on to the Minister.</p>
+          <p eId="para_68">Deputy Halligan made a valid point.  I stressed that the four areas under discussion, which will be decided upon on Monday, are simply suggestions that were made across a number of policy areas throughout the European Union.  The EU is to move forward collectively to try to incorporate elements of the proposals into the separate national education systems.  At this point, the most honest answer is that we may not have the resources to implement one, two, three or even any of the proposals.  Each country brings home a learning experience from the engagement and decides how to implement at its own pace the reforms suggested.  Some move on the suggested reforms quickly because they have the resources, others do not and we are probably in the latter group.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_21">
+          <from>Chairman</from>
+          <p eId="para_69">I will conclude the meeting if no member has a further question.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_22">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_70">Is Commissioner Vassiliou responsible for training as well as for education?  What is her exact title and what are her duties?</p>
+        </speech>
+        <speech by="#CiaranCannon" eId="spk_23" as="#Minister_of_State_at_the_Department_of_Education_and_Skills">
+          <from>Deputy Ciarán Cannon</from>
+          <p eId="para_71">I am informed by my colleague she has responsibility for education, training, culture and youth.</p>
+        </speech>
+        <speech by="#BrendanSmith" eId="spk_24">
+          <from>Deputy Brendan Smith</from>
+          <p eId="para_72">It is unfortunate that education and training do not fall within the commissionership of Ms Máire Geoghegan-Quinn because that has an enormous budget and research investment.  There appears to be a very small budget for education within the Commission, probably because it has no particular competence.</p>
+        </speech>
+        <speech by="#RayButler" eId="spk_25">
+          <from>Deputy Ray Butler</from>
+          <p eId="para_73">I follow Deputy Kyne's remarks on when we met the deputy from Germany and the education Minister.  Much of the problem with the Celtic tiger in regard to second and third level education was that it became the fashion to send one's children for further education.  Most colleges and universities are businesses and, naturally, they filled more posts as students moved in and they came up with new and further subjects.  Colleges must return now to what is relevant.  Given the limited budget the Minister of State has at his disposal, he will have to bring in relevant courses.  I am sure many subjects will be dropped as we move on, in both second and third level education.</p>
+          <p eId="para_74">I served on many boards of management and found out, as Deputy Mitchell O'Connor described, that mainstream school does not suit everybody.  We might be going off the beaten path a little bit here.  Mainstream school does not suit everybody.  We are lucky to have Youthreach in places like Trim and Kells.  People can go to Youthreach if mainstream school does not kick in for them.  When I wanted people from the Youthreach system to speak to teachers in other areas, to make it clear that there is a way out for pupils whom mainstream school does not suit, I found there was a lot of snobbery in many schools.  I found it hard to get that message across.  The pupils suffered in the long run.  Other options are available if mainstream school does not work.  The Minister of State should be pushing them.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_26">
+          <from>Chairman</from>
+          <p eId="para_75">I accept that not all of the issues that have been raised relate to the subject of this meeting.  The Minister of State can respond to them if he wishes.  The committee will follow up on all of these issues.  Does anyone have any final questions before I ask the Minister of State to wrap up?</p>
+        </speech>
+        <speech by="#MichaelMullins" eId="spk_27">
+          <from>Senator Michael Mullins</from>
+          <p eId="para_76">I have some brief questions.</p>
+        </speech>
+        <speech by="#CiaranCannon" eId="spk_28" as="#Minister_of_State_at_the_Department_of_Education_and_Skills">
+          <from>Deputy Ciarán Cannon</from>
+          <p eId="para_77">Perhaps I could respond to Deputies Smith and Butler.</p>
+        </speech>
+        <speech by="#MichaelMullins" eId="spk_29">
+          <from>Senator Michael Mullins</from>
+          <p eId="para_78">I will be brief.  Some previous speakers asked whether resources will be available to achieve the various items that the Minister of State listed.  Is it not the case that as part of our ongoing development of education within our budgets, we should be addressing some of these issues on an ongoing basis?  Should we not be evaluating our performance in language teaching and training, for example, as a matter of course within our own system?  We do not need the EU to tell us what we need to do to address some of the shortcomings and urgent issues that need to be dealt with within our education system.  I would like to support what Deputies Mitchell O'Connor and Butler have said about the need to look after students who do not fit into the conventional education system.  We are fortunate that Youthreach and other facilities are available to youngsters who drop out of school at an early age.  We should make sure we continue to invest in those facilities in the future.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_30">
+          <from>Chairman</from>
+          <p eId="para_79">I will allow Deputy Mitchell O'Connor to make a final comment on the same issue.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_31">
+          <from>Deputy Mary Mitchell O’Connor</from>
+          <p eId="para_80">The education sub-committee received a substantial presentation from the Irish Vocational Education Association yesterday on the establishment of SOLAS as a replacement for FÁS.  The representatives of the association spoke about mergers and putting resources in place.  Does that not tie in with what we are doing?  Will we not be duplicating what it is doing?  Does its agenda not involve looking after people who are seeking work or needing to be retrained?  The Minister of State spoke about resources.  Will SOLAS not be the body that will be doing this?</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_32">
+          <from>Chairman</from>
+          <p eId="para_81">I ask the Minister of State to wrap up.</p>
+        </speech>
+        <speech by="#CiaranCannon" eId="spk_33" as="#Minister_of_State_at_the_Department_of_Education_and_Skills">
+          <from>Deputy Ciarán Cannon</from>
+          <p eId="para_82">Deputy Smith asked about the funding.  I understand the Commission is seeking to increase the education and training fund by 73% next year.  This significant increase reflects the priority the Commission is affording to this area for the future.</p>
+          <p eId="para_83">Deputy Butler asked about the relevance of our approach to education and training to the demands of the labour market.  Significant work is being done in this area.  When I attended a conference of European and Asian education Ministers in Copenhagen approximately three months ago, I was told that Ireland is seen internationally as one of the leading lights in forging very strong links between industry and education.  That is particularly true of our institutes of technology.  In my home county of Galway, a significant medical devices hub is beginning to emerge on the outskirts of Galway city.  Galway-Mayo Institute of Technology is creating unique modules in Galway to service that industry, particularly in the areas of mechanical engineering, biology and biotechnology.  We are excelling in that area.  We are seen as one of the best examples of that in the world.</p>
+          <p eId="para_84">I do not really understand the question that was asked by Deputy Mitchell O'Connor.  SOLAS is bringing the further education and training sectors together as a single unique and distinct organisation.  The VECs, which will be known as local education and training boards when they finally come into being, will form the architecture for the delivery of all further education and training throughout the country.  There will be no duplication.  One of the reasons we are establishing SOLAS is to remove duplication.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_34">
+          <from>Deputy Mary Mitchell O’Connor</from>
+          <p eId="para_85">It will address these shortcomings.</p>
+        </speech>
+        <speech by="#CiaranCannon" eId="spk_35" as="#Minister_of_State_at_the_Department_of_Education_and_Skills">
+          <from>Deputy Ciarán Cannon</from>
+          <p eId="para_86">Yes, it will.  That is correct.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_36">
+          <from>Chairman</from>
+          <p eId="para_87">I thank the Minister of State and his officials for coming to today's meeting.  I wish the Minister of State good luck at the meeting he is attending on 28 November next.  I hope he will be successful.</p>
+        </speech>
+        <summary eId="sum_5">Sitting suspended at 10.25 a.m. and resumed at 10.35 a.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_4">
+        <heading>Competitiveness Council: Discussion with Minister for Jobs, Enterprise and Innovation</heading>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_37">
+          <from>Chairman</from>
+          <p eId="para_88">I welcome the Minister for Jobs, Enterprise and Innovation, Deputy Bruton, to the committee meeting.</p>
+          <p eId="para_89">Members are reminded of the long-standing parliamentary practice to the effect that members should not comment on, criticise or make charges against a person outside the Houses or an official either by name or in such a way as to make him or her identifiable.  By virtue of section 17(2)(<i>l</i>) of the Defamation Act 2009, witnesses are protected by absolute privilege in respect of their evidence to this committee.  However, if they are directed by the committee to cease giving evidence on a particular matter and they continue to do so, they are entitled thereafter only to qualified privilege in respect of their evidence.  They are directed that only evidence connected with the subject matter of these proceedings is to be given and they are asked to respect the parliamentary practice to the effect that, where possible, they should not criticise or make charges against any person, persons or entity by name or in such a way as to make him, her or it identifiable.</p>
+          <p eId="para_90">I invite the Minister to make his opening statement.</p>
+        </speech>
+        <speech by="#RichardBruton" as="#Minister_for_Jobs,_Enterprise_and_Innovation" eId="spk_38">
+          <from>Minister for Jobs, Enterprise and Innovation (Deputy Richard Bruton)</from>
+          <p eId="para_91">I thank the Chair.  I am accompanied by Mr. Philip Kelly, assistant secretary, EU and trade division, Mr. Thomas Murray, principal officer, EU affairs unit, Ms Imelda Hardiman, assistant principal officer, intellectual property unit, Ms Florence Kelly, higher executive officer, intellectual property unit, Mr. Aidan Hodson, principal officer, science and technology unit, and Mr. Pat Kelly, assistant principal officer, science and technology unit.</p>
+          <p eId="para_92">The forthcoming EU Council of Ministers' meeting on competitiveness will take place over two days, 5 and 6 December, which coincides with budget day.  On the first day, Ireland will be represented by the Minister of State, Deputy Perry, and on the second day, the Deputy Permanent Representative of Ireland to the EU, Ambassador Tom Hanney, will attend on behalf of the Government.</p>
+          <p eId="para_93">The most significant item on the agenda on the first day is the reform of the patent system which will allow a much cheaper way for companies to get patent protection across 25 EU member states - two have declined to participate.  It will simplify the procedure for language translations and will be a more satisfactory arrangement, a reform the Government supports.  To make the proposals work, there will have to be an EU system of enforcing patent rights which will be in the form of a common court between the member states involved.  They will have an international agreement on this and finance the court.  This innovation will require a referendum in Ireland some time in the future.  In the past, there have been successful referenda in this area so the principle is already there.</p>
+          <p eId="para_94">The European Commission has proposed a directive on interconnecting registers of companies in EU member states, arising from the need for national registers to communicate with each other with regard to cross-border mergers and branch activity.  Again, the Government supports this proposal.</p>
+          <p eId="para_95">Another item on the agenda relates to a Single Market forum held under the Polish EU Presidency.  It made a declaration recommending speedy passage of the proposed Single Market initiatives.  The Council has agreed 12 priorities to be progressed under this initiative by the end of 2012.  Many of these are in areas of interest for Ireland such as tackling red tape, enhancing opportunities for small and medium-sized enterprises and electronic commerce.  These are supported by the Government.</p>
+          <p eId="para_96">One interesting initiative is the proposed establishment of a business and competitiveness programme for small and medium-sized enterprises.  It will be new under the multi-annual framework from 2014 to 2020 with up to €2.4 billion from the EU dedicated to it.  The negotiations for the programme's development will intensify under the Danish EU Presidency.  Ireland has an interest in the shaping of this programme and the opportunities it will throw up.</p>
+          <p eId="para_97">The second day will be dominated by the debate on the future of the Horizon 2020 EU research programme which will operate from 2014 to 2020.  It will replace the Seventh Framework Programme, FP 7.  The new programme, which will be under the Commissioner for Research, Innovation and Science, Máire Geoghegan-Quinn, will be 30% larger than its predecessor with funding of up to €80 billion.  There will be significant changes such as putting a greater emphasis on problem-solving in society as opposed to basic research, greater industry involvement in the shaping of research priorities, more emphasis on downstream activities such as pilot-testing and obstacles to commercialisation, all of which will be of interest to Ireland.  Just as the Department is doing its own research prioritisation under Jim O'Hara, hopefully we will be able to exploit the more commercial and problem-solving orientated aspects of the new programme.  All Europe faces the same dilemma of seeking to get more value out of this important platform which has been created in Europe.  Compared with the US and others, Ireland would not be sweating off scientific assets as effectively in terms of patents and disclosures.</p>
+          <p eId="para_98">There will be a discussion on the EU Space Council.  Many may ask if this is relevant to Ireland.  It is in the sense that the systems involved can be used for the support and protection of fisheries, flood protection, volcanic ash cloud monitoring as well as emergency and disaster responses.  This would also be of clear commercial relevance because several Irish companies have successfully developed business opportunities out of the Council's programmes.  It is not only of relevance in terms of global significance but it has been of commercial value to Irish business.  That gives members a bird's-eye view of the Council's agenda.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_39">
+          <from>Chairman</from>
+          <p eId="para_99">I call on Deputy O'Dea.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_40">
+          <from>Deputy Willie O’Dea</from>
+          <p eId="para_100">I welcome the improvement in the framework programme for research and innovation.  Would it be possible for the Minister or a person in the Department to do a note as to what precisely can be accessed under this programme?  I note what the Minister had to say on the extension of the ambit of the programme to new areas.  I would like some detail on that.</p>
+          <p eId="para_101">In regard to business competitiveness and the SME programme, how will that apply and what funding will we be able to access under that programme?  There is a unitary application process for patents but there is no unitary European patent.  How far away are we from that?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_41" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_102">I can provide a briefing for the joint committee on the Eighth Framework Programme.  The Seventh Framework Programme was €59 billion and over the period, Ireland will get approximately €600 million of funding from it, which is a little higher than 1% of the fund, or a little higher if one excludes some of the additions in which Ireland did not participate.  We have been boxing to our weight, if not above our weight in terms of getting access to the existing research programme.</p>
+          <p eId="para_103">The new research programme has provided broad direction so there will be issues around aging.  They have three or four headings, such as excellent science, industrial leadership and societal challenges.  The new element arises under societal challenges, including health; demographic change and well-being; food security; sustainable agriculture; bio-economy; secure, clean and efficient energy; smart green and integrated transport; climate action; resource efficiency and raw materials; and inclusive, innovative and secure societies.  The extent to which we participate depends on the details of the programmes developed and the extent to which we can compete in competitive bidding to get involved in different programmes.  I will arrange to provide details on that but clearly, the reorientation of the programme suits us.  The details are to be announced on 30 November by the Commission so we will soon have more details of that.</p>
+          <p eId="para_104">The second question relates to SMEs.  That programme is to be developed.  The details are only forthcoming, for example, activities to improve European competitiveness; developing SME policy and promoting SME competitiveness in line with the goals of the small business act; tourism; new business concepts for sustainable user-driven design based goods; and supports towards the internationalisation of SMEs.  Again, we will compete for funding under the programmes.  Clearly we would have an ambition to play a significant part in that programme.  It is a new area as hitherto there has not been a similar one focused on SMEs.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_42">
+          <from>Deputy Willie O’Dea</from>
+          <p eId="para_105">When will the details of that be publicised?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_43" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_106">The details are being negotiated.  It is not starting until January 2013, so it will be developed in the course of next year.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_44">
+          <from>Deputy Willie O’Dea</from>
+          <p eId="para_107">When can we get more detail on it?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_45" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_108">We can send the Deputy what we have but the detail will become clearer later.  We have had the Eighth Framework Programme broad prospectus for some time but it will only gain traction on 30 November when one sees what it contains and where one might position oneself to take advantage of it.  It is at the fairly high level, but we will send the Deputy whatever we have.</p>
+          <p eId="para_109">The ambition is that the Patent Court will apply in 2014-15.  This directive, which we support, is going through Parliament.  It has had its first reading.  There is a desire to move rapidly.  It was held up, as members may know, for a very long time because two countries were not willing to support it and eventually they moved ahead as 25 countries under the enhanced co-operation provision.  I believe there is momentum behind it but it will require each of the 25 member states to ratify it.  There is many a slip between the cup and the lip.</p>
+        </speech>
+        <speech by="#SeanCroweSF" eId="spk_46">
+          <from>Deputy Seán Crowe</from>
+          <p eId="para_110">Is the Minister saying that the unitary patent will enable Irish holders of patents to seek protection for them, and save them €15 million per year?  Is it the case at present that when one is lodging a patent one must do so in each separate country?  Is that where the savings will be made?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_47" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_111">Yes.</p>
+        </speech>
+        <speech by="#SeanCroweSF" eId="spk_48">
+          <from>Deputy Seán Crowe</from>
+          <p eId="para_112">Did the Minister give a date?  Does one apply on a yearly basis or is it to the lifetime of the patent?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_49" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_113">Is the Deputy asking about the saving element?</p>
+        </speech>
+        <speech by="#SeanCroweSF" eId="spk_50">
+          <from>Deputy Seán Crowe</from>
+          <p eId="para_114">No.  How long does a patent last?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_51" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_115">About 20 years is the norm.  One has to renew it.</p>
+        </speech>
+        <speech by="#SeanCroweSF" eId="spk_52">
+          <from>Deputy Seán Crowe</from>
+          <p eId="para_116">Will the saving be made from a unitary patent applying across the European states, rather than having to lodge a separate patent application in each country?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_53" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_117">Exactly, and requiring translation.  There are now three standard languages, so one does not have to translate it into, say, Greek or Bulgarian.</p>
+        </speech>
+        <speech by="#SeanCroweSF" eId="spk_54">
+          <from>Deputy Seán Crowe</from>
+          <p eId="para_118">The Minister referred to a dedicated €2.4 billion programme for the SMEs.  That sounds great but how do Irish SMEs access this programme, and will it be more accessible and easier to access?  Will there be supports for companies that will try to draw down some of this fund?  When one is running a small or medium enterprise, the focus is on the product and the difficulty is finding the time to draw down the funds.  Will there be support to make it easier?  People talk about the form filling.  SMEs would like to hear a signal from the Council meeting that the application process will be made easier.  It is good to have a fund of €2.4 billion but if one feels that one does have the resources to access it, it makes no difference.  Will there be supports to do that?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_55" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_119">Let me give the Deputy some statistics on translation costs.  Translation of patents costs Irish industry approximately €6 million and in respect of an individual patent, validating it in 13 countries could cost €20,000.  Of that, almost €14,000 will arise from translation costs.  In practice, companies would not undergo the cost of translating it into the language of every state, effectively making their patent vulnerable because they have not covered all states.  The 25 member states grouping cuts out costs and leaves them in a win-win situation.</p>
+          <p eId="para_120">When the Deputy asked about access by Irish SMEs to the fund, it will be something like access to the research programmes in that they will develop programmes following which Ireland, through Enterprise Ireland, county enterprise boards or existing structures, will seek to access them and integrate them into programmes that are made easily available to SMEs.  It will not be a question of companies having to apply to Brussels for their access.</p>
+        </speech>
+        <speech by="#SeanCroweSF" eId="spk_56">
+          <from>Deputy Seán Crowe</from>
+          <p eId="para_121">Is there any way of beefing up the support in Ireland for the SMEs so that they will be able to access the fund?  The one criticism is that people would love to be able to access the fund but the amount of paperwork and the time and energy required to complete it means the business will suffer.  Some businesses have indicated that this is actually the case.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_57" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_122">That is a valid point.  The Minister of State, Deputy Perry, recently brought forward a report by the advisory group on small business, the membership of which comprises individuals involved in the area and also those from organisations which represent small businesses.  Much of the thrust of that report focuses on the need to reduce red tape, streamline processes, carry out an audit of licences and remove obstacles.  The report will make a significant contribution in respect of this matter and its recommendations will be implemented over time.  The work of the Minister of State and the group to which I refer is at an advanced stage.  We hope to use the report to make matters easier for businesses.  The need to simplify matters is the most recurrent theme.</p>
+        </speech>
+        <speech by="#SeanCroweSF" eId="spk_58">
+          <from>Deputy Seán Crowe</from>
+          <p eId="para_123">In the context of the forthcoming Council meeting, would it be sensible to make that point as part of the overall discussion?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_59" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_124">Yes.  The Minister of State will also be present at the meeting and he and I will ensure that it is made.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_60">
+          <from>Chairman</from>
+          <p eId="para_125">Does Senator Clune wish to add anything?</p>
+        </speech>
+        <speech by="#DeirdreClune" eId="spk_61">
+          <from>Senator Deirdre Clune</from>
+          <p eId="para_126">No.  I thank the Minister for his replies.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_62">
+          <from>Chairman</from>
+          <p eId="para_127">The Minister is getting a decent run at this meeting.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_63">
+          <from>Deputy Willie O’Dea</from>
+          <p eId="para_128">As Deputy Crowe indicated, it is going to be extremely difficult for SMEs to access this funding.  That is particularly the case when even we cannot discover what is intended.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_64" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_129">That is a fair point.  At present, all we really have is an envelope with the figure €2.4 billion written on it.  Until we open the envelope - which will not be until next year - the relevant details will not be available to us.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_65">
+          <from>Deputy Willie O’Dea</from>
+          <p eId="para_130">I am asking about this matter because I thought I heard one of the Minister's officials state that it is due to commence in January.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_66" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_131">The Danish Presidency is due to commence in January.  The money relates to the period 2014 to 2020.  The shaping of the programme will take place next year.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_67">
+          <from>Deputy Willie O’Dea</from>
+          <p eId="para_132">That is fine.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_68">
+          <from>Chairman</from>
+          <p eId="para_133">The committee can discuss that matter and provide the Minister with feedback in respect of it.  Does the Minister wish to make any concluding remarks?</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_69" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_134">No.  I merely wish to thank the committee for its interest.  As with all European meetings, progress is slow.  It is similar to building a wall brick by brick; with every brick one puts in place, one is creating something permanent.  It is important that we should take an interest and shape matters in our interests and those of the wider EU.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_70">
+          <from>Deputy Willie O’Dea</from>
+          <p eId="para_135">Like the euro.</p>
+        </speech>
+        <speech by="#SeanCroweSF" eId="spk_71">
+          <from>Deputy Seán Crowe</from>
+          <p eId="para_136">It is probably more a case of paper by paper rather than brick by brick.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" as="#Chairman" eId="spk_72">
+          <from>Chairman</from>
+          <p eId="para_137">I thank the Minister for engaging with the committee today.  The programme for Government sets out that we should try to receive briefings in respect of all Council meetings.  According to the Minister's officials, he is obliged to attend 11 or 12 such meetings each year.  We will not ask him to address the committee in respect of every one of those unless he really wants to do so.  However, perhaps it would be good if we met on two or three occasions per year in order to discuss all issues relevant to the work of the Council.  I hope we will be able to build on what has been achieved today.  On behalf of members, I thank the Minister.</p>
+        </speech>
+        <speech by="#RichardBruton" eId="spk_73" as="#Minister_for_Jobs,_Enterprise_and_Innovation">
+          <from>Deputy Richard Bruton</from>
+          <p eId="para_138">I thank the Chairman.</p>
+        </speech>
+        <summary eId="sum_6">The joint committee adjourned at 10.55 a.m. until 9.30 a.m. on Wednesday, 7 December 2011.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>
