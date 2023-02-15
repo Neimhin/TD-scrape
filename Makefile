@@ -60,3 +60,8 @@ data/members2.json:
 
 data/members3.json:
 	curl -X GET "https://api.oireachtas.ie/v1/members?skip=2000&limit=1000" -H  "accept: application/json" > $@
+
+data/all_member_refs.txt:
+	for f in data/debates.d/Seán-Sherlock.D.2007-06-14.d/*; do
+		cat $$f | ./src/refers-to ;
+	done | sort -u > $@
