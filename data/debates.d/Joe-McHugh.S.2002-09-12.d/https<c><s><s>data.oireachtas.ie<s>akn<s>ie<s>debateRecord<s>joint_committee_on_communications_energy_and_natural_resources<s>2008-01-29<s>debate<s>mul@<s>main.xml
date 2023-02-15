@@ -1,0 +1,749 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-01-29/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-01-29/debate"/>
+          <FRBRdate date="2008-01-29" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_communications_energy_and_natural_resources"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-01-29/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-01-29/debate/mul@"/>
+          <FRBRdate date="2008-01-29" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-01-29/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-01-29/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None" eId="#vol_None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None" eId="#no_None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="BrendanKenneally" href="/ie/oireachtas/member/id/Brendan-Kenneally.D.1989-06-29" showAs="Brendan Kenneally"/>
+        <TLCPerson eId="EamonRyanGP" href="/ie/oireachtas/member/id/Eamon-Ryan.D.2002-06-06" showAs="Eamon Ryan"/>
+        <TLCPerson eId="JoeMcHugh" href="/ie/oireachtas/member/id/Joe-McHugh.S.2002-09-12" showAs="Joe McHugh"/>
+        <TLCPerson eId="JoeOReilly" href="/ie/oireachtas/member/id/Joe-O'Reilly.S.1989-10-01" showAs="Joe O'Reilly"/>
+        <TLCPerson eId="JoeOToole" href="/ie/oireachtas/member/id/Joe-O'Toole.S.1987-04-25" showAs="Joe O'Toole"/>
+        <TLCPerson eId="JohnCreganFF" href="/ie/oireachtas/member/id/John-Cregan.S.1998-06-23" showAs="John Cregan"/>
+        <TLCPerson eId="LizMcManus" href="/ie/oireachtas/member/id/Liz-McManus.D.1992-12-14" showAs="Liz McManus"/>
+        <TLCPerson eId="MariaCorrigan" href="/ie/oireachtas/member/id/Maria-Corrigan.S.2007-07-23" showAs="Maria Corrigan"/>
+        <TLCPerson eId="MattieMcGrath" href="/ie/oireachtas/member/id/Mattie-McGrath.D.2007-06-14" showAs="Mattie McGrath"/>
+        <TLCPerson eId="MauriceCummins" href="/ie/oireachtas/member/id/Maurice-Cummins.S.2002-09-12" showAs="Maurice Cummins"/>
+        <TLCPerson eId="MichaelWDArcy" href="/ie/oireachtas/member/id/Michael-D'Arcy.D.2007-06-14" showAs="Michael D'Arcy"/>
+        <TLCPerson eId="NedOKeeffe" href="/ie/oireachtas/member/id/Ned-O'Keeffe.S.1982-05-13" showAs="Ned O'Keeffe"/>
+        <TLCPerson eId="NoelCoonan" href="/ie/oireachtas/member/id/Noel-Coonan.S.2002-09-12" showAs="Noel Coonan"/>
+        <TLCPerson eId="PeterKellyFF" href="/ie/oireachtas/member/id/Peter-Kelly.D.2002-06-06" showAs="Peter Kelly"/>
+        <TLCPerson eId="SeymourCrawford" href="/ie/oireachtas/member/id/Seymour-Crawford.D.1992-12-14" showAs="Seymour Crawford"/>
+        <TLCPerson eId="ShaneMcEntee" href="/ie/oireachtas/member/id/Shane-McEntee.D.2005-03-11" showAs="Shane McEntee"/>
+        <TLCPerson eId="SimonCoveney" href="/ie/oireachtas/member/id/Simon-Coveney.D.1998-10-23" showAs="Simon Coveney"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Communications,_Energy_and_Natural_Resources" href="/ie/oireachtas/role/minister/communications__energy__natural_resources" showAs="Minister for Communications, Energy and Natural Resources"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM CHUMARSÁID, FUINNIMH AGUS ACMHAINNÍ NÁDÚRTHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON COMMUNICATIONS, ENERGY AND NATURAL RESOURCES</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2008-01-29">Dé Máirt, 29 Eanáir 2008</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2008-01-29">Tuesday, 29 January 2008</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 2.30 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#NoelCoonan">Deputy Noel J. Coonan,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#MariaCorrigan">Senator Maria Corrigan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#SimonCoveney">Deputy Simon Coveney,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#MauriceCummins">Senator Maurice Cummins,+</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#SeymourCrawford">Deputy Seymour Crawford,+</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#JoeOReilly">Senator Joe O’Reilly,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MichaelWDArcy">Deputy Michael D’Arcy,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#JoeOToole">Senator Joe O’Toole.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#PeterKellyFF">Deputy Peter Kelly,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#BrendanKenneally">Deputy Brendan Kenneally,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#ShaneMcEntee">Deputy Shane McEntee,+</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#MattieMcGrath">Deputy Mattie McGrath,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#JoeMcHugh">Deputy Joe McHugh,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#LizMcManus">Deputy Liz McManus,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#NedOKeeffe">Deputy Edward O’Keeffe,*</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_16">
+                  <person refersTo="#EamonRyanGP">Deputy Eamon Ryan (<i>Minister for</i>
+                                    </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_17">
+                  <i>Communications, Energy and</i>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_18"><i>Natural Resources</i>),</p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Deputy Michael Moynihan.</summary>
+          <summary eId="sum_4">+In the absence of Deputies Noel J. Coonan and Simon Coveney, and Senator Joe O'Reilly, respectively, for part of meeting.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#JohnCreganFF">DEPUTY JOHN CREGAN IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_6">The joint committee met in private session until 2.40 p.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>All-Island Electricity Grid: Discussion with Minister for Communications, Energy and Natural Resources. </heading>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_19">I welcome the Minister for Communications, Energy and Natural Resources, Deputy Eamon Ryan, and his officials.</p>
+        </speech>
+        <speech by="#EamonRyanGP" as="#Minister_for_Communications,_Energy_and_Natural_Resources" eId="spk_2">
+          <from>Minister for Communications, Energy and Natural Resources (Deputy Eamon Ryan)</from>
+          <p eId="para_20">I thank the Chairman.  I am pleased to be here.  It may be helpful in discussing the national issue to allow Deputies and Senators to investigate or ask questions about specific projects.  One issue of current interest to members is a concept to be put forward through the planning process for the development of a North-South interconnection which involves two sections of transmission pipeline in the Cavan-Meath area.  Before commenting briefly on that I wish to give an outline of the national picture.</p>
+          <p eId="para_21">The chief technical adviser in the Department is Mr. Bob Hanna.  I suggest to the Chairman that he may be able to give a presentation outlining some of the details which would provide a framework for our general understanding in this area.  This is a hugely important study.  It was instigated in the relationship that is developing on an all-island basis towards co-operation on energy policy which has benefit for both sides of the Border.  Members will be aware there have been significant advances and development in that regard recently.  The development of the single electricity market has allowed us to combine the markets North and South with significant benefits in cost savings to the Irish people, as there are efficiencies to be gained from operating a single market.  Competition is easily introduced in a single electricity market and greater security of supply is achieved where we can apply it.</p>
+          <p eId="para_22">The North-South bodies that are involved include the Department, the transmission operator, EirGrid, and the energy regulators on both sides of the Border.  They are engaged in the single electricity market but they were also involved in the drafting of an all-island grid study which was published earlier this month.  I will leave Mr. Bob Hanna to go through the details of that.  The study is hugely significant in that it shows that we have the energy ability in the short term to generate at least 42% of our electricity from renewable sources.  We should not see that as a limit but rather as a launching pad for further endeavours in the development of our natural, sustainable indigenous energy resources.  I refer primarily to development of onshore wind and existing hydro plants.  There is also potential in terms of generating electricity from the agriculture sector using biomass and CHP, from new technologies, offshore wave and tidal energy and a whole range of other new technologies that we hope to see evolving in the future.</p>
+          <p eId="para_23">That interest we have in trying to develop renewable sources of energy is central to the development of the economy and society.  As a country we are exposed to depleting fossil fuel resources.  We have currently an excessive dependence on gas fired power stations within our electricity mix.  We are dependent on the North Sea for 85% of gas and that is depleting by approximately 10% per annum.  To avoid this country being completely dependent on long-distance gas supplies in the near future we need to develop our indigenous resources.  We also have to develop the renewable supplies for generating electricity because it will help us reduce our emissions by 20% which we are committing to now on a European Union level to achieve by 2020.  If there is international agreement, there is to be a 30% reduction by 2020.  We will not be able to come anywhere near meeting these targets unless we develop our renewable energy resources on a very ambitious basis.  Developing these resources will result in great potential to generate employment, wealth and industrial expertise here rather than exporting our energy money by paying for gas from far-distant Russia or oil from Qatar.</p>
+          <p eId="para_24">One should realise the importance of generating a secure electricity supply to the general development of our economy.  We talk about Ireland becoming a knowledge economy, but when we consider where jobs are being created at present, we should note it is often in areas that are very electricity dependent.  Data server companies and many of the new electronic industries that are becoming centres for employment require electricity at a competitive price.  We can produce competitively priced electricity through the development of renewable sources of energy.  Wind power is cheaper than any of its fossil fuel alternatives.  If we want Ireland to maintain its position as an attractive location for investment in and the development of new digital technologies, we must have a secure and clean electricity supply.  It is clear from the all-island grid study that the greatest constraint in this regard is the development of our grid.  Without upgrading our grid to suit the new supply, we will not be able to tap into the cheap resources.</p>
+          <p eId="para_25">It is also clear from the study — Mr. Hanna can elaborate on this — that we must make investment decisions very quickly on the type of electricity future we are to have.  It will be much more expensive and difficult if we hedge our bets now and try in five or ten years to invest in a grid that suits renewable energy sources.  The nature of grid development is such that it is much easier and cheaper to achieve one's goal from the outset on the basis of a common aim  than to proceed by operating in fits and starts.  There are significant policy reasons underlining my belief that we should develop our grid and industry to suit renewable energy in the future.  It will result in great economic and social benefits.  If we do not get electricity into certain areas, employment will not follow.  If we do not cut back our emissions by developing renewable energy sources, we will be constrained severely by our international agreements.</p>
+          <p eId="para_26">A significant opportunity presents itself, therefore, as does a difficulty.  This involves considering some 5,000 km of new distribution network connections.  I refer to the smaller local connections, akin to country roads, that connect local businesses and houses to the grid.  The study shows that, in the South, some 650 km of transmission network will need to be reinforced.  This involves the larger-capacity system that provides the backbone of the whole network.  We are required on a national basis to develop our grid in a way that delivers renewable energy that will reduce our emissions and the cost of electricity and provide jobs throughout the country.</p>
+          <p eId="para_27">It is very easy to elaborate on the national picture, but one advantage of this committee is that it allows us to discuss the specifics.  I am glad the Chairman indicated in his work programme that he is interested in having a series of meetings during which grid development will be considered.  I am very pleased that EirGrid, the State company with responsibility for the transmission network, has agreed to appear before the committee next week.  It is using the committee as a forum in which to explain its thinking on the planning in which it is engaged.  This is a useful function of the committee in an area that is very much of interest to representatives and members of the public nationally.</p>
+          <p eId="para_28">I will not elaborate on the North-South interconnector other than to paint a broad picture regarding its origins.  It arose from the single electricity market and the development of the all-island grid study.  It originated as relevant parties, North and South, met to determine the key projects that need to be developed so energy transmission can work best on a North-South basis.  There has been no proper interconnection in the recent past because of the political situation.  It was possible, however, in 1995 to re-establish that North-South electricity connection which allows us now to operate on an all-island basis.  We can use approximately 330 MW of that transmission connection to provide the market link between North and South.  Such a link is not sufficient for the market to work best because if the line goes down the market connection is completely lost, besides there is insufficient capacity to provide for proper market functioning and for the development of the renewable resources we need.</p>
+          <p eId="para_29">The study in which our Departments, energy regulators and transmission operating companies are involved shows a need for further North-South interconnection.  That set in train the examination of an interconnected line from Tyrone to Woodstown in County Meath, in two sections.  EirGrid is trying to implement the policy decision of both Governments as included in the White Paper on energy policy, the programme for Government and a range of other policy statements in this area, and to build the interconnection.</p>
+          <p eId="para_30">Committee members will welcome the possibility of questioning EirGrid on the contentious technical issues such as whether this could or should be an underground connection.  I am confident that EirGrid will avail of the opportunity to respond to some of those questions because it has signalled its intention to publish some information for the purposes of the committee in advance of that meeting.  That is a beneficial development.  Meath County Council and others have engaged consultants.  The more technical, health and safety and energy information that becomes available on the issue the better.  This committee is the perfect forum for dealing with that information.</p>
+          <p eId="para_31">Our chief technical adviser, Mr. Bob Hanna, could give a brief outline presentation on the all-island grid study which provides a useful background for understanding the project.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Mr. Bob Hanna</from>
+          <p eId="para_32">I refer to the document circulated to committee members.  The all-island grid study is the first comprehensive assessment of the ability of the high voltage transmission network to absorb large amounts of electricity from renewable sources.  The objective of the study was to assess the technical feasibility and the relative costs and benefits of the various profiles for increased renewables.  We need to do this because we are moving into uncharted waters with the fast-growing penetration of renewables and our weakly interconnected system.  Other countries with a high level of renewable penetration are strongly interconnected with neighbouring countries and grid systems.  Nobody else is in our situation.  This study is the due diligence necessary for us to plan.</p>
+          <p eId="para_33">The study took two years and approximately €1 million worth of world class research and has attracted attention from other countries, the International Energy Agency and engineering consultants around the world.  It comprises four parts, first, an internationally tendered resource study undertaken by ESB International, portfolio development, a screening study to develop alternative profiles with varying levels of fuel price and carbon penetration, conventional generation and renewable penetration.  Then Danish consultants undertook a large computer despatch study which simulated the operation of the grid minute by minute over a year, with varying wind levels, despatch and plant coming and going.  The third part was an engineering study of what this means for the grid, where we need to take it and the cost.</p>
+          <p eId="para_34">A techno-economic summary was done which puts all this in context.  A diagram of the workstreams shows how all these fit together.  This diagram shows the portfolios that were selected by the screening study.  What it conveys is that six different alternative scenarios were envisaged by the study.  One is, effectively, business as usual in 2020 and the others express a more ambitious view of the future, with high levels of renewable penetration.  Portfolio 6 is an extreme case with 8,000 MW of wind in 2020.  If that is compared with today, we have about 1,000 MW on the island system as a whole, so one can see a very big penetration.  The other portfolios have varying amounts of fossil fuel technology.  One has a high penetration of coal, one a high penetration of gas-fired combined cycle plant and one has a high percentage of more flexible plant.  However, they demonstrate a renewable penetration from 16% capacity to 59%.  Those were the options reviewed in the various parts of the study.</p>
+          <p eId="para_35">The sheet with the map indicates what the resource study and summary found.  That is telling us where the renewable resource is.  It is not surprising to find it is mainly to the west of the country.  It also shows what amounts are featured for the different portfolios.  Immediately, one can see that the main resource is where the grid largely is not, and that is the challenge.</p>
+          <p eId="para_36">Briefly, the study found that developers would have to spend between €4 billion and €11 billion by 2020 to achieve the different scenarios.  Portfolio 1, which is effectively business as usual by 2020, would involve an investment of €4 billion by renewable developers.  Portfolio 5, which is 42% penetration, would require €11 billion.  Members will notice that portfolio 6 has disappeared and that is because the workstream 2 despatch study found it was a non-viable outcome.  Technically it could not be achieved without major security risks for the network.</p>
+          <p eId="para_37">The next diagram shows the length of new connections to the network required for all these renewable projects to come on board for the different portfolios.  As the Minister said, for portfolio 5 that requires a distribution connection of 5,000 km, connecting the project to the nearest point on the transmission network.  To put this in context, currently we have in the order of 100,000 km of distribution line in the Republic of Ireland.  Portfolio 1, on the other hand, would require 1,700 km.</p>
+          <p eId="para_38">The next page shows the length of transmission network reinforcement, the high voltage main power supply and power transportation network.  These are the big pylons.  In portfolio 1, business as usual, we would require 75 km of additional transmission reinforcement over and above what we have today.  For portfolio 5, we would require more than 600 km of transmission network reinforcement, new high voltage lines.  Again, to put that in context, there is about 6,500 km of transmission network in the State.  To give some feel for what this might look like, a transmission pylon of 110 kV is about 18 m in height.</p>
+          <p eId="para_39">The following slide shows the cost of this for the different portfolios.  Under portfolio 1, the cost would be €70 million by 2020 for the Republic and for the high penetration portfolio 5, it would be €655 million, or for the island as a whole, approximately €1 billion of transmission system reinforcement.  Again, putting that in context, the value of the transmission network is in the order of €2 billion so it is not an order of magnitude away from the current valuation.</p>
+          <p eId="para_40">The next line shows how a different approach, or different futures, would impact on security of supply for fuel imports.  The diagram with the yellow bars at the bottom essentially shows we would import much less gas under the high renewable penetration portfolios.  Portfolio 4 is a special case because there is quite a bit of coal in that mix.  We increase our security of supply by depending less on imported fuel and more on renewable sources in the system.  We also change the mix slightly.</p>
+          <p eId="para_41">The next slide shows the impact on carbon emissions.  This slide compares portfolios 2, 3, 4 and 5 with portfolio 1, which is the base case.  It shows that if we went through the portfolio 5 route, we would have 25% less in carbon emissions than if we did the business as usual route.  One portfolio shows an increase in emissions if we have a high coal content in our conventional power station mix.</p>
+          <p eId="para_42">The next complicated slide attempts to show the overall beneficial impact on society of going in different directions.  The headline figures at the top of the bar chart show that if we stay with business as usual and do nothing special, we will need to invest around €3 billion per annum just to stand still.  If we go the higher renewable penetration route of portfolio 5, it will also cost us €3 billion per annum, which includes the cost of conventional operators, developers, CO2, fuel imports and renewable production.  The overall societal impact is not that different from portfolio to portfolio, but the different shape and make-up of each column shows that the impact varies and falls differently on different stakeholders.  The table at the bottom of the page shows that if we go the higher renewable sources route, we will have 15 megatonnes of carbon emissions nationally by 2020.  That is approximately the position that the Republic was in back in 2006, so we can work hard to get back to where we were.  However, we must remember that in 1990 the country produced about 11 million tonnes of carbon emissions.</p>
+          <p eId="para_43">The key findings of the international study demonstrated that renewable penetration by an energy demand of up to 42% is technically feasible.  The higher penetration at 59% was shown not to be feasible.  The overall cost to society of leaving business as usual or of converting to higher renewable sources is broadly the same, but the balance is different for the different stakeholders.  Under all portfolios, the principle form of renewable generation will be mainly onshore wind, as well as some offshore wind and ocean energy under the higher renewable sources penetration by 2020.  The higher renewable sources penetration requires fewer imported fuels and provides the highest carbon savings compared to all the other options.</p>
+          <p eId="para_44">The final workstream report was published two or three weeks ago.  The reports of the other workstreams, which are more technical and have more limited appeal, will be published this Friday.  They will be available from the Department and the Department in Northern Ireland on CD ROM.  Workstream 1, which is the resource assessment, will also be available on hard copy.</p>
+          <p eId="para_45">This is not the end of the story.  We had to make a number of assumptions during this and we have to revisit them with time.  This was conceived more than two years ago.  At that time, the price of gas for the study was set at 60 cent per therm.  The price of gas today on the futures market is 54 cent per therm.  We are nearly at the level we predicted by 2020.  The price of carbon in the study is assumed at €30 per tonne.  The price of carbon today is €21.40 per tonne.  Therefore, those assumptions were very conservative.  As those prices move up, the benefits from the study of the higher renewable sources penetration become even greater.  We need to do some further work to help people to understand what it means.  For the grid, some short-term dynamic studies on a second by second basis need to be done, as well as some network planning studies.  This study was conceived on a bottom-up basis and it does not set itself in any particular market conditions, so the different market players will now be able to take this good piece of public due diligence and set it in the market of today and the market of 2020 to see what it means for them.</p>
+          <p eId="para_46">The methodology of the study was unable to look at very high energy efficiency measures, simply because this has not been done anywhere in the world.  It is important to see whether we can minimise the work we all have to do by revisiting the work stream 4 part with aggressive demand side measures for high levels of energy efficiency, which is more compatible with Government policy.  From Friday, we will start to hold briefing sessions in which we can provide feedback to the various stakeholders who helped us to conduct the study.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_4" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_47">That was a broad and quick outline of an incredibly detailed and complex piece of work.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_5">
+          <from>Chairman</from>
+          <p eId="para_48">A great deal of information has been outlined in this study, including many ambitious targets, and several choices must be made.  I remind members that we are here today to discuss the all-Ireland study.  During the course of his remarks, the Minister mentioned a local issue on which members may have questions.  Having listened to members' concerns, we have agreed to meet EirGrid next week and, having consulted the committee, I have decided to devote a major part of that meeting to the local issue in question.  It is therefore important that we do not get bogged down in debate on the issue today and I ask members to co-operate in that regard.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_6">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_49">Before asking questions, I seek clarification on the legislative programme.  We were promised that the Bill on the transfer of assets from ESB to EirGrid would be published.  However, it has not yet been published and we have instead been promised a Bill on the east-west connector.  Has there been a change of policy?  It is bewildering that the Green Paper said one thing whereas the White Paper said another.  What exactly is happening in respect of the proposed transfer of assets to EirGrid?</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_7" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_50">We wanted to bring legislation that would allow EirGrid to take on the debt for the construction of the east-west interconnector.  It is purely a matter of timing that it is being published first.  Certain urgency exists in respect of all these projects.  The Chairman referred to ambitious targets but I do not consider this ambitious.  Much of what we are doing is based on urgency.  There is urgency around the development of the funding mechanism for the east-west interconnector.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_8">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_51">Therefore the former priority in the Department in regard to the transfer of assets from the ESB is no longer an urgent matter.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_9" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_52">We face a wide range of priorities in the area of energy.  The publication of this all-island study was crucial.  The opening and establishment of the single electricity market, on which I commend EirGrid, is one of the most--</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_10">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_53">I am only asking about legislation.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_11" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_54">--successful examples in the world of a co-operative project and was a priority.  The development of renewable sources of energy is a priority.  I could continue all day setting out our priorities.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_12">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_55">I might ask my questions now because I am afraid the Minister might continue all day.  I welcome the report as useful research in terms of setting out a road map.  Is it now Government policy to adopt the 42% renewable energy objective by 2020 or are we still aiming for 33.3%?  In regard to the significant investments that will be required if we are to move in that direction, will the customers be landed with the cost?  I pay tribute to the ESB for being an effective company but at every stage it has footed the bill, which in effect meant the customers had to pay.  How will this be managed if the target is to be achieved?</p>
+          <p eId="para_56">I accept what the Chairman has advised in regard to the North-South interconnector and am conscious that others here are much more familiar with the terrain than I am, but it is not reasonable for people to have the idea that the Minister is removed from this and that everybody else will have to provide the information.  As the Minister who sanctions such projects, does he not agree he must be satisfied that the safest and most cost-effective option has been chosen?  Will the Minister clarify the investigations his Department has undertaken on the advantages and disadvantages of overground and underground?  Some of the figures in circulation appear to have no basis in research.</p>
+          <p eId="para_57">I would like to ask about the back-up required if we were to move to renewables in such a significant way, especially wind energy, which is volatile.  The issue of back-up is inherent in this proposal.  The Minister's reliance in this report is on gas-fired power stations.  I represent a county that has a remarkable piece of engineering, an easy-to-understand, technologically sophisticated storage facility based on the use of water, Turlough Hill.  While we talk about storage utilities, there is no provision for them in this report.  There is no reliance on the kind of utility that has already been developed over many years in Turlough Hill.  When that utility was commissioned in 1974 it met 20% of winter peak daily demand.  Why has that form of storage not been incorporated to make our energy infrastructure efficient, secure for the future and environmentally sound?</p>
+          <p eId="para_58">Mr. Hanna  acknowledged the cost discrepancies and this is a significant matter.  Dr. Colin Campbell, chairman of the Association for the Study of Peak Oil and Gas, said the outdated figures called the entire plan into question, particularly as the price of gas would rise in future as it becomes more scarce.  Dr. Campbell said:</p>
+          <p class="indent_1" eId="para_59">The price assumptions are clearly wrong.  British gas prices are going through the roof at the moment and will stay high.</p>
+          <p eId="para_60">If we are to embark on an ambitious and laudable project to increase the proportion of renewables, we must know that we are not going to run ourselves into great financial difficulties because the financial projections are not accurate.  Will the Minister clarify how that approach can be justified when it is so determined by costs outside our knowledge?  All we know is that the costs will increase.  The alternatives to gas-fired generation may be the way to go, returning to my point about storage.</p>
+          <p eId="para_61">There are many more questions I would like to ask, but we will have further opportunities to do so.  The Minister has a system in place for onshore wind tariffs.  Will he clarify the policy on offshore wind?</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_13" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_62">I will answer the questions in turn.  I have always said Government targets are not a limit to one's ambitions.  While the Government White Paper states that 33% of electricity should come from renewables by 2020, it is clear in this report that we can exceed that and the Government will not stop at 33%.  We should go for the optimised renewables package and beyond.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_14">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_63">Does the Minister have the Minister for Finance's commitment to go to 42%?</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_15" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_64">There is cross-Government commitment to developing renewables in this country to the best of our potential.  I will tell the Deputy why because it answers her second question on the cost implication.  Dr. Campbell is correct, the cost implications for this country of relying on gas, oil or any imported fossil fuels are more risky and expensive.  This report shows, taking all the factors into account, that option five is not significantly more expensive than those options that include greater use of fossil fuels.  This is the greatest indicator that this is the way we should go because the upside risk in higher fuel prices is greater.  As Mr. Hanna stated, in those circumstances the relative benefits of a renewables package will be far greater.</p>
+          <p eId="para_65">The cost risk lies with fossil fuels.  The cost of wind will not change as it is zero today and will be zero in 2020.  We cannot be certain of the cost of gas in 2020 but I am inclined to believe it will be more expensive, possibly even more so than the targets set out here.  That is all the more reason for the Government to be ambitious, set high targets and signal to EirGrid, the ESB and anyone else in the sector that this is our intention and should be a direction for their investment.</p>
+          <p eId="para_66">The majority of investment is in the private sector, amounting to €10 billion or €11 billion on an all-island basis.  People tend to think that is a significant amount and wonder how it can be raised.  That money will be easily raised as people will invest because of a return from doing so.  The State's investment in the grid must occur anyway because the grid needs strengthening.  The question is where the investment will be.  It makes eminent sense in considering this figure to invest in renewables because that will bring about a cost-competitive response for the whole economy.  That is the view across Government.</p>
+          <p eId="para_67">With regard to the Department's responsibility, it is involved on a co-operative basis between North and South, with the energy regulator and with transmission operators.  The Department's responsibility is to set broad policy direction, such as the development of renewables and energy efficiency as primary goals.  We need greater interconnection and an all-island approach is the correct policy direction to take.</p>
+          <p eId="para_68">Responsibility for implementing projects on the ground, or carrying out the policy, lies with the likes of EirGrid, which is State-owned and has relevant experts on how a transmission system operates.  That expertise should not exist, with regard to particular projects, within the Department.  I trust and rely on the likes of EirGrid, on behalf of the State and its people, in considering the best way of implementing policy.</p>
+          <p eId="para_69">I will allow Mr. Hanna to deal with the question of storage in more detail.  There will be a variety of methods of storage rather than just pumped storage.  There is a possibility of us developing battery storage connecting to wind power and other supplies.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_16">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_70">I do not mean to cut across the Minister but in looking at the options, there is absolutely no difference.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_17" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_71">I will let Mr. Hanna address that issue but I will finish my point if I can remember it.  Technologies will develop and this must be flexible.</p>
+        </speech>
+        <speech by="#" eId="spk_18">
+          <from>Mr. Bob Hanna</from>
+          <p eId="para_72">The methodology of the study included pumped storage, which is in all the scenarios. The study demonstrated that under all scenarios and despatch studies, no additional pumped storage came in as an option as it is much more expensive than the other available options.  The existing level of pumped storage is factored into the methodology.  Turlough Hill is working just as hard in each of these scenarios as it has done to date.  I agree it is a terrific asset.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_19" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_73">I remember what I was going to say.  Crucially, this study answers the question which has been out there forever and a day with regard to renewables.  People always argued the results are variable as sometimes the wind does not blow very hard and the power which can come from the system is therefore limited.  This report, which is of international significance, indicates that even with that constraint, we can get the level up to 42%.  That is before we start mixing in other renewable supplies, such as wave, tidal and offshore wind.  That would lead to an even greater figure.  Variability is an issue but should not constrain us in getting to the 42% level.I hope to make an announcement on an offshore wind refit scheme next week.</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_20">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_74">On a point of information, is the Department in such an unhealthy financial state that the best we can get is a photocopy of a report that is so important and dependent on colour and graphs?</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_21" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_75">I regret we do not have the ability to display it on a screen.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_22">
+          <from>Chairman</from>
+          <p eId="para_76">I understand the report was forwarded to each member via e-mail and could have been printed in colour.  Members could have brought the copy with them, which is normal practice.</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_23">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_77">Things must be bad in the Department.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_24">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_78">I apologise to our guests for being somewhat late and I have a number of questions that lead on from those of Deputy McManus.</p>
+          <p eId="para_79">I wish to clarify the issue of storage.  The point has been made that we should maximise the benefits of increasing the grid's reliance on renewable energy for power generation by increasing storage capacity; this could be done in the case of power generated by wind.  No matter how supportive one is of energy generated by wind, the wind will not always blow when one needs power and it will often blow when one does not need power.  At off-peak times and during the night wind turbines may turn and produce power but at peak times in 2007 only 1% of electricity was generated by wind turbines.  This is despite the fact that when the wind blows there is a far higher capacity than this.</p>
+          <p eId="para_80">Deputy McManus and I find it extraordinary that when one moves from portfolio 1 to portfolio 5 the same storage figure applies, and I accept that this relates to Turlough Hill.  There is no ambition evident in the portfolios to aggressively promote new ways of storing power, be it through hydrogen, batteries or the pumping of water up hills.  If a move is to be made to portfolio 5 or portfolio 4 then it will be necessary to spend money supporting and promoting wind power.  It does not appear that time or money has been spent on prioritising the matter of storage.  If we are to maximise the potential of renewable resources we must store the excess energy they produce at off-peak times for use at peak times.  This is a more sensible way of providing back-up power than using thermal backup, which may entail the use of coal and gas based power stations where turbines spin but from which we do not take power.  I would appreciate a more detailed response on the issue of storage.</p>
+          <p eId="para_81">Another surprise deriving from comparisons of the different portfolios is the unchanging nature of the figure relating to peat and coal based power plants.  People have spoken of "low hanging fruit" that can be plucked to help us reduce emissions and make strides towards the climate change strategy commitments we have made.  One of the things we can do in this regard is phase out peat as a fuel source, because it is filthy, and replace it with renewable fuel sources, such as wood biomass, which can be grown on Irish farms.  We should examine the use of peat in new power stations and replace it with more environmentally friendly fuel sources.</p>
+          <p eId="para_82">My final question relates to the underground-overground argument and I know the Chairman does not want a long discussion of this subject today but this area is not the responsibility of EirGrid alone.  The Minister has a responsibility in this matter that relates to policy as he is, ultimately, responsible for energy policy in Ireland.  We need infrastructure that links North and South and we need a 400 kV line where one has been proposed but it is a question of whether it should go underground or overground.  The suggestion this committee could create a compromise with which all sides will be happy is nonsense because we are not qualified to do so.  The lobby groups would appreciate it if the Minister committed to fund, or mandate EirGrid to fund, a genuinely independent study of the proposed route to consider the various options and their costs and what is technically possible from an engineering point of view.</p>
+          <p eId="para_83">Similar debates to those currently taking place in Meath, Cavan and Monaghan have occurred in other European countries.  Issues such as whether such infrastructure should be under or overground, whether it should use AC or DC lines, and many other complex technical arguments have been discussed.  It would be helpful if the Minister, as a broker in this discussion, would commit his Department to carrying out an independent study by a respected consultant and present it to us for consideration, rather than having EirGrid come in here and tell us why something is not possible.  Unfortunately, trust has totally broken down between EirGrid and the communities involved.  That is why the Minister needs to show some leadership and imagination in this dispute.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_25" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_84">First, I would like to knock one thing on the head.  I did not come to the committee looking for agreement or compromise among parties on a particular project.  That is not what the committee should do.  However, it provides an interesting forum in which some technical issues can be worked out.  There will be further opportunity for this when An Bórd Pleanála is given a role in the assessment of projects through the critical infrastructure Bill.  Under this Bill, An Bórd Pleanála will assess various different aspects of proposed infrastructure, including environmental, health and general policy issues.  That is the appropriate location for discussion on a decision by an independent body.  It is not the job of the Minister to intervene in this process; rather, it is to set out the broad policy context, which I am happy to do.</p>
+          <p eId="para_85">It has rightly been pointed out that emissions from peat-burning plants are a serious issue.  This is one of the reasons people are now considering the possibility of co-firing wood materials within peat-fired power stations in order to reduce CO2 emissions, even though that in itself presents questions in terms of the supply of material.  In addition, the carbon market itself may have an effect by rendering certain types of plant difficult to run if the price of carbon reaches a certain point.</p>
+          <p eId="para_86">Mr. Hanna can give more details with regard to portfolios, but my understanding is that portfolio 5, for example, assumes the operation of coal-fired rather than peat-fired stations.  In this regard, the Department has sponsored a major geological study of the possibilities for carbon storage on a clean coal basis in the location of the plants or in alternative locations.  It is clear that by 2020 we cannot introduce new coal-fired power plants which are still emitting carbon at the current levels.  We need to find a technological solution to ensure that the issue of emissions is tackled.  That will be more expensive, and thus will result in the production of expensive electricity, but it has a benefit in that it will allow a more diverse portfolio of fuel supplies.  As I said, if we are to keep the overall costs down, it is essential that we are not reliant on any one fuel supply, particularly gas.  I will ask Mr. Hanna to contribute on the issue of storage as he knows the technical details of what was taken into account and why particular technologies were or were not considered.</p>
+        </speech>
+        <speech by="#" eId="spk_26">
+          <from>Mr. Bob Hanna</from>
+          <p eId="para_87">Essentially, these are least-cost-generation profiles.  In other words, all the information the consultants had about the costs and characteristics of different types of generation was applied to enable a computer model to fill the portfolios by progressively introducing the next most expensive type of generation.  This is an entirely objective procedure.  Under this process, only the existing storage stayed in play.  Further pump storage was not taken into account.  The interconnection we will have by 2012 provides the same benefits as additional storage but at a much lower cost.</p>
+          <p eId="para_88">The area in which the Minister has considered additional storage possibilities is not pump storage but energy storage through the potential for gas storage.  Together with his colleague in Northern Ireland he has just completed an all-island study of strategic gas storage which provides information similar to this, for the purpose of due diligence, which allows us to consider whether the storage of gas which could be used for power generation will result in an increase in the security of supply of the system.  The Minister will talk about this on another occasion.</p>
+          <p eId="para_89">To be clear, pump storage as a technology was included in the way the modelling and analysis work was undertaken but new pump storage did not come in under any scenario because it was much more expensive than other options.  Each of these systems works without additional storage.  In terms of the balance between renewable plant and conventional plant interconnection, each of these portfolios has the same level of stability in terms of power system security.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_27" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_90">Can I respond to this also?  This is not a static.  This is our best analysis at present.  As we introduce smart metering in every house in the country in the next five years we will have a system where we can vary the actual load and manage the demand for electricity to suit the variable supply.  That, in a sense, is a form of storage.  We may well move towards the electric car so that at night when the wind is blowing and there is not an actual use for it, it can be plugged in and charged.  We might look to switching off as an option.  Instead of turning on an additional power plant at the peak demand time of 5.30 p.m., which is very expensive because it takes time to crank it up, 100,000 fridges throughout the country could be turned off just to get over that half hour peak.  If other storage technologies are introduced which assist us and become economic or close to economic, by all means we will introduce them to help our system.  It will require a range of different solutions to get over the energy challenge facing us.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_28">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_91">I hope the Minister will not limit his views on storage to back up power or spare power.  The main advantage to storage is that we are maximising the use of every turbine to get power from it and use that power when it is appropriate to use it--</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_29" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_92">I fully support that.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_30">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_93">--as opposed to it just being an alternative to, for example, interconnection.  To compare the two on a like with like basis is incorrect.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_31" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_94">I fully support that.  If we can find pump storage that works in that sense, by all means let us do that.  What is starting to happen already, however, with our single electricity market North and South, is that there is a clear price in an open and transparent market.  While it peaks currently, which would make it very economic to have storage, as we evolve a variety of different solutions and try to reduce that demand at peak time, that peak price may not spike as much as it is doing now and that may make the economics of pump storage less attractive.  We very much support the principle of developing any storage technologies that assist us in the development of renewables.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_32">
+          <from>Chairman</from>
+          <p eId="para_95">Having heard from the main spokespersons, I will now call the members who have indicated they wish to contribute.  I call Senator Joe O'Reilly who will be followed by Senator Joe O'Toole, Deputy Michael D'Arcy and Deputy Seymour Crawford.</p>
+        </speech>
+        <speech by="#JoeOReilly" eId="spk_33">
+          <from>Senator Joe O’Reilly</from>
+          <p eId="para_96">In deference to your recommendation at the outset of the meeting, Chairman, I will confine my comments as best I can to asking the Minister about broad policy issues and the political direction he will be giving on a number of issues.  In the words of Truman, the buck will stop on the Minister's desk regarding these major questions.</p>
+          <p eId="para_97">My first question arises from the question raised by Deputy Simon Coveney.  Will the Minister agree that to put in place and fund at Government level, whether directly through EirGrid or through the Department, an independent study by renowned experts acknowledged by the local action groups that want the cables laid underground and the EirGrid personnel who argue that for cost reasons they should be put over ground, to examine the question of laying the cables overground or underground and the route will establish public confidence in the process and will further inform the Minister in his decisions, this committee and the Oireachtas?</p>
+          <p eId="para_98">To develop a point raised by my colleague, Deputy Coveney, and notwithstanding that we have a remit in this area and are proud to do this and will seek to continue to do it, is it not the case that with the best will in the world, this committee cannot examine every technical aspect, every professional report on health issues, every environmental impact study and the ultimate costs of this process on tourism and so on?  While we will do the broadstroke work, the technical analysis that would satisfy the general public and inform the Department, the Minister and the Oireachtas could usefully be done by independent expertise funded by EirGrid.  We should do this.  What is the Minister's policy position?  Is he for or against it?  I pray his answer is that he is in favour of it.  We cannot put a sufficient premium on objective knowledge and fact in a serious process such as this one.</p>
+          <p eId="para_99">If in the process of such analysis under such an independent study as I recommended and on the basis of all the information available it became clear to the Minister from technical data that the cables could be run underground at a reasonable cost, albeit at a higher cost in the immediate term, would it be his position within reason that the best option would be for the cables to be run underground?  Given the high litigation costs in running cables overground, the cost of maintenance, the impact of that process on tourism and the environment and, ultimately, the health costs — and I understand from legal friends that in such circumstances there would be a potential rash of litigation based on health considerations and, loss of property values — if it emerged that the cost of laying the cables underground could be kept reasonable, would the Minister have no policy objection to it and would he proceed with it in that scenario?</p>
+          <p eId="para_100">In deference to the Chairman, who does not want us to go into the technical detail and bearing in mind that we will go more into the nuts and bolts detail next week when that will be our brief, given that the jury is out on the health issue in light of the Draper report and the SAGE report, will the Minister opt for the precautionary principle, which is the internationally accepted norm when there is a doubt around health considerations?  Bearing that in mind, I hate to confess that when I was growing up it was considered perfectly healthy to smoke cigarettes.  Will the Minister accept that we should opt for the precautionary principle and within the context of reasonable cost, opt for the underground route?  I would like the Minister to address those three broadstroke policy questions which are not technical.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_34">
+          <from>Chairman</from>
+          <p eId="para_101">I call Senator O'Toole and the Minister can then reply to both members.</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_35">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_102">We are like lemmings heading for a cliff edge on this issue.  It is interesting that the Minister's presentation did not deal with EirGrid but rather with generation and connections for ordinary people.  He spoke about a vertical system of generation, the grid and the network from the generator to the house.  I have not heard a case for the establishment of a separate national grid.  It has been a disaster anywhere I have examined such establishments in other countries.  A major investment is required in this area.  It will be a case of proceeding either as we did with Aer Lingus where we could not afford to pay for planes that needed to be purchased and the company was sold or as we did with Eircom where we invested the money and subsequently sold the company and, in that way we would create a few dozen more Irish millionaires in five or six years' time.</p>
+          <p eId="para_103">There is no case being made for EirGrid.  EDF in France is probably the strongest electricity company in Europe.  It is now calling the shots.  If we continue the way we are going, the switch to turn off the grid in Ireland in 15 or 20 years' time will be in Paris.  That is what has happened in New Zealand.  They did exactly what we have been talking about.  The consequence was that the capital was without power for three weeks because the company that owned the grid refused to pay the money to connect to the network.  If that is what such a company would do in a capital city, it will be a case of tough luck for Mrs. Murphy seeking a connection down in Belmullet in 15 years' time.  There is a serious problem in this respect and I want this debate to be rooted in a policy position.  The Minister will be aware that two years ago I showed him a French electricity bill which demonstrated that 80% of that country's generation came from nuclear power.  I agree with the Minister's points about generation and new technology.  Although he did not say what they were, I presume that part of that would be nuclear.  The committee needs to know the difference between nuclear fission and fusion, as well as the impact and possibilities of both in terms of the debate the Minister wants to have.  Generally, I tend to agree with his viewpoint on it.  He also talked about a knowledge economy, but why is France the only country in Europe that is doing all the global research on fusion?  What are we doing about new technologies?  What is happening here?  Are we funding fellowships, for instance?  The future of energy will come from hydrogen and there is plenty of it around.  Are we doing anything to support research work in that area?  I do not know where that will lead but it seems we are going down a slippery slope.</p>
+          <p eId="para_104">The storage question has not been answered.  It is completely wrong for Mr. Hanna to say that the interconnector will deal with the storage question because it will not.  The interconnector will be going back into another system equally dependent on a particular amount of sustainable energy, which will eventually go back into a European company that owns it.  France currently owns the interconnector between western and eastern Europe.  It controls all that and can switch on and off as it wishes.  It has different peak times because it covers about five different time zones.  The assumption that by putting it back into the grid it will compensate for storage is illogical because the model does not work.</p>
+          <p eId="para_105">The Minister also mentioned batteries but one would need a battery the size of Mount Leinster to deal with the issue of storage in Leinster, not to mind nationally.  Battery technology does not have the capacity to store the kind of energy levels referred to by Deputies McManus and Coveney.  These are major issues.  We should discuss why EirGrid needs to be a separate company, although not today because the issue is too wide.  We should have a vertically integrated electricity service comprising generation, grid and network, as happens in the strongest electricity companies in Europe.  We are effectively breaking them up in order to make it easy to sell them off.  I am not coming at this matter from a leftist viewpoint — that is coincidental.  In practical terms we are setting up our structure to lose it in future.</p>
+          <p eId="para_106">I accept Deputy McManus's point that the ESB has been extraordinarily effective and efficient nationally and internationally.   At the moment, the ESB is using technology to build huge generating capacity in northern Spain and further afield.  That is an example to all of us but I do not see how what we are discussing today is good for Irish consumers or voters.  The main parties will see this as an issue about which we do not need to worry.  Nobody will shout "Stop" until it is far too late.  We will be here in future talking about the cost of electricity in the same way as we talk about the cost of mobile phone calls now.  Recent documentation on electricity costs is very worrying.  I am not sure of the figures but perhaps 40% of generation is privatised in the Single Market.  I do not have a difficulty with that but the day we have a company holding the strategic key, which is the grid, we will lose political control and every other kind of control.  We have seen that happen in other countries and it will happen here.  We are making a serious error in doing this and I am glad the legislation to establish it is somewhat delayed.  I do not know where it will finish.</p>
+          <p eId="para_107">May I ask a question?  I will finish on this point.  Two or three winters ago, we had to bring in portable generators to protect ourselves from the cold.  As I recall it, we found it difficult to get some of the private generators to agree to help us at that time.  Do I recall correctly that we had to continue to use some stations which were due to be closed, such as Bellacorick and Caherciveen, because we could not depend on the private generators to support us in our efforts to keep the cost of electricity down?  Perhaps the representatives of the Department do not know the answer to that question.  I hope the answer I am given to that question, on the record, is absolutely correct.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_36" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_108">I will respond to Senator O'Reilly first, although there is some overlap between the points he made and those made by Senator O'Toole.  I welcome the decision of Meath County Council to undertake an independent study.  I am pleased that representatives of EirGrid are willing to come to a meeting of this committee to provide much more detailed information about some of the issues relating to costing etc.  The fundamental point we have to remember is that EirGrid is a public company — it is owned by the Irish people — and does not have a profit motive.  It is not as if somebody is trying to make a profit from this development.  EirGrid is a State-owned asset.  The company does not have any interest in making life difficult for itself at the expense of the Irish people.  It is not trying to make a profit in this case before getting out of the country as quickly as possible.  If it was technically possible for EirGrid to do something easier and more acceptable to the public, it would not face any disincentive if it tried to do so.</p>
+        </speech>
+        <speech by="#JoeOReilly" eId="spk_37">
+          <from>Senator Joe O’Reilly</from>
+          <p eId="para_109">That is why EirGrid should agree to show objectively that what it is doing is right.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_38" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_110">I think EirGrid will do so at a meeting of this committee and throughout the public consultation process, including An Bord Pleanála hearings which no doubt will take place.  EirGrid has to take into account a variety of variables, including cost, which is a significant issue.  If it is looking at a large cost, it has to bear in mind that it will be met from taxpayers' money.  I do not refer to any specific project.  The overall development of the grid that is needed will impose a significant cost on the purses of Irish taxpayers.  It is right that public companies take such considerations into account when operating on behalf of the public.  EirGrid has to consider technical issues like how easy it will be to repair the facilities which are developed or whether existing services can be maintained if repair difficulties arise.  The technical issues faced by those involved in transmission are different from those encountered by power companies.  If EirGrid was a power company concerned with nothing other than connecting the power it generates to the grid, it would not have to worry about certain technical issues because it would only be dealing with its own plant.  One of the technical issues to be considered by EirGrid is its duty to deliver electricity to the industries in a given area.  We do not want to switch off the electricity supply to a data centre, a chip production plant or even a hospital, although most facilities of that nature have back-up power services.  EirGrid has to take its broad public policy role into account.</p>
+          <p eId="para_111">EirGrid is developing local supply opportunities for business people.  People in the area under discussion will be able to develop enterprises.  There is a difference between an underground long-distance connection into which one cannot connect locally and one which is part of the synchronised transmission system and which one can take into account.  EirGrid has to take all such factors into account on behalf of the public good.  It also has to bear in mind certain health issues.  Its staff, who do not have a personal profit motive, are motivated by the Government's policy decision to develop the interconnection system.  EirGrid should take into account, and has taken into account, a range of different issues, including cost, technical issues relating to supporting the grid and health considerations.  One of the attractions EirGrid sees in being able to make its case at this forum is that it will be able to tease out some of those details in an open, on-the-record, formal and democratic manner.</p>
+          <p eId="para_112">I remind Senator O'Toole that absolutely nobody is talking about selling the grid, as a State asset, into private hands.</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_39">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_113">Why are we breaking it into three then?</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_40" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_114">It has already been split up.  A policy decision was made several years ago that EirGrid would operate independently of the ESB.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_41">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_115">It is functionally but not structurally separate from the ESB.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_42" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_116">It operates as a separate entity.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_43">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_117">It is not--</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_44" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_118">It is legally separate from the ESB and must act independently.  A range of companies is selling electricity into the system and they want to connect to the grid.  One cannot have a system in which an independent company favours one company over another.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_45">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_119">That is not happening.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_46">
+          <from>Chairman</from>
+          <p eId="para_120">Please allow the Minister to continue without interruption.  I will allow members to ask further questions subsequently.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_47" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_121">I am fully confident that EirGrid is acting independently.  That is the crucial policy decision.  In contrast to other jurisdictions, its assets remain in State ownership and it is not intended to change that position.</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_48">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_122">How can the Minister say that?</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_49" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_123">The shareholder is the Irish public.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_50">
+          <from>Chairman</from>
+          <p eId="para_124">Please allow the Minister to continue without further interruption.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_51" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_125">Is the Senator aware of anyone who suggests the position is otherwise?</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_52">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_126">I am suggesting that we are following exactly the same track that was followed in the cases of Eircom and Aer Lingus.  If the company is broken up into three parts, I will lay a bet with the Minister that in ten years' time, if we are both around, the State will no longer own the grid.  I do not understand the statement regarding giving preference to one company over another when they sell electricity into the grid.  The sale of electricity must take place in a fair manner and the means to achieve this is known as regulation.  It is not necessary to establish EirGrid as an independent entity to achieve that objective.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_53" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_127">EirGrid will remain in State ownership.  The transmission assets are in State ownership and there is no plan to change that.  I am not aware of any party or individual either considering or recommending another option.  If one suggests we could take an alternative policy direction and return to having a single, centralised State company involved in generation, distribution and transmission--</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_54">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_128">That is not--</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_55" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_129">That is what Senator O'Toole suggested.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_56">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_130">The Minister should read the Green Paper.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_57">
+          <from>Chairman</from>
+          <p eId="para_131">Please allow the Minister to respond.  I will allow members to ask supplementary questions afterwards.</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_58">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_132">I referred to breaking up the company into three parts with responsibility for generation, the network and the grid, respectively.  The Minister referred to breaking up the company in other ways.  I did not pass any comment on his statement in that regard, nor am I suggesting it is a good idea.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_59" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_133">EirGrid legally operates as a separate entity.  That is the current position.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_60">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_134">That is precisely the point.  If it is not broken, why fix it?</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_61">
+          <from>Chairman</from>
+          <p eId="para_135">I ask members to desist from interrupting.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_62" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_136">The current position is the correct one.  As I indicated, EirGrid's job is to work on the policy direction we are setting out in this portfolio.  It is already working on its own transmission development plan to match the Government's policy objectives.  This requires significant investment in the east-west interconnector, the North-South interconnector and other transmission networks.  As I indicated, these are to develop renewables and energy efficiency.  The ESB distribution, supply and generation companies have an equally important if not more crucial job in that respect.  As the supply company, the ESB has a significant investment requirement to develop our distribution network to fit into a sophisticated, flexible electricity supply system which matches demand to supply much more carefully.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_63">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_137">Is the Minister changing Government policy in this area?</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_64">
+          <from>Chairman</from>
+          <p eId="para_138">I have been very fair to members.  Please allow the Minister to continue without interruption.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_65" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_139">We have a significant opportunity and responsibility to develop renewable electricity by introducing sophisticated smart metering down to the supply level.  I am neither interested nor do I intend to break up the ESB.  I have informed the ESB that it has a major opportunity and responsibility in this area to help deliver the electricity services we need for the 21st century.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_66">
+          <from>Chairman</from>
+          <p eId="para_140">Members agreed that Mr. Hanna would leave the meeting at 4 p.m.</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_67">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_141">I asked two further questions.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_68">
+          <from>Chairman</from>
+          <p eId="para_142">I will ensure responses are given.  The Minister will remain in attendance.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_69" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_143">The Senator is correct that we have come very close to having insufficient power in recent years and have operated peaking plant on an emergency basis or, at least, on a much more full-time basis than we would wish.  Operating this plant is expensive but has been necessary because circumstances were so tight and we faced difficulties.  There have been positive developments in the past year, particularly the development of the single electricity market which creates a much more transparent, open and flexible market system.  This makes it easier for people to follow developments in the market and gives great confidence in terms of investment.</p>
+          <p eId="para_144">We are also developing renewable energy sources.  Currently, wind is powering approximately 10% of our needs.  It is fairly typical now for us that 10% of electricity generated is coming from renewable energy.  We have the opportunity in the next ten years to bring that level up from 10% to 40%, which will give us more security than anything else.  That will not be easy.  It will require significant investment and involve difficult issues such as grid development and planning permission.  However, it is the best bet for us to take to get away from the situation where we were dependent on emergency power.</p>
+          <p eId="para_145">Senator O'Toole stated the storage issue is still a factor.  If somebody has a storage solution--</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_70">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_146">Hydrogen.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_71" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_147">Senator O'Toole is correct.  There may well be storage solutions to develop.  It is difficult to be certain about whether hydrogen or electricity will be the technological winner.</p>
+          <p eId="para_148">The Energy Research Council is engaged in bringing together the energy expertise from various academic institutions.  It is currently working on an energy research strategy to identify where we should invest our resources and how we should develop them.  The Government made a decision in the programme for Government to ask Science Foundation Ireland, which is our key research development expert, to take on a third leg in its strategy.  To date it has been restricted to information technology and the bio-pharmacy area but the programme for Government states we want it to look at energy in recognition of the crucial importance of this issue.  This research work will determine which of these solutions will work best.  Hydrogen technology is not sufficiently advanced at present but it may well be in 2020, although how and in what technological format has yet to be decided.</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_72">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_149">Hydrogen comes into the equation in two ways; one is generation, which I will leave to one side for the moment.  I agree with the Minister's latter point.  The reason I referred to hydrogen in connection with a storage facility is that generally speaking the amount of energy required to separate hydrogen from H2O is more or less the same as the amount of energy it creates afterwards with no waste whatever.  It would not take much work to use hydrogen as a storage facility.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_73">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_150">I will refer to planning only, as I am aware Deputies McEntee and Crawford wish to contribute.  Senator O'Toole referred to Mrs. Murphy in Belmullet.  She is probably getting her planning objection ready for the wind farm that will be built beside her.  Anybody who has ever been involved in local authorities will know that if somebody wants to build a wind farm with turbines of 100 m plus, objections will arise.</p>
+          <p eId="para_151">Does the Planning and Development (Strategic Infrastructure) Act govern private development?  The Minister made the point that between €4 billion and €11 billion worth of funds will be needed to put the system in place.  He also indicated that the bulk of funding will be from the private sector.  If the legislation is not relevant to private development, the Minister and his colleague in the Department of the Environment, Heritage and Local Government, Deputy Gormley, will have to change the planning laws.  If the legislation is changed to facilitate the building of industrial wind farms there will be a rash of objections from people living within close range of those farms.</p>
+          <p eId="para_152">In other parts of Europe wind farms are on flat plains where the wind is very strong.  What appears to be the case is that if the wind is not strong enough with a 60 m turbine the tendency is to make it bigger and get wind higher up.  I have more to say about this matter but I wish to allow Deputies Crawford and McEntee to contribute.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_74">
+          <from>Chairman</from>
+          <p eId="para_153">Does the Minister wish to respond briefly?  We will then take questions from Deputies Crawford and McEntee.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_75" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_154">The Planning and Development (Strategic Infrastructure) Act does apply to private developments.  An example is the current LNG facility which has been proposed for Tarbert.  It has to go through the exact same procedures.  The legislation does and will apply.  Approximately half of the planning applications for wind farms have been turned down by the relevant authorities or An Bord Pleanála.  There is a check within the system in terms of planning.</p>
+          <p eId="para_155">The resources we have in wind terms are way ahead of any other European country, other than Scotland.  We have a multiple of the resources which allows us to get more from less.  Compared with countries like Germany, the south of Spain, or elsewhere, our land mass in regard to the wind power is relatively small.  Wind farms can be integrated into the landscape in a sustainable way.  There is a limit to wind energy development and it is therefore crucial that we engage in the first tranche as soon as possible.  This makes economic sense because it will subsidise the fossil fuel system.  When we proceed beyond the first tranche, planning constraints may come into play and there will be a need to develop offshore wind farms and wave and tide-based projects, in addition to hydrogen or other storage facilities.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_76">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_156">We must build the wind farms where the wind is, namely, on the higher peaks.  However, the bulk of planning permission refusals, whether by local authorities or An Bord Pleanála, have been on the basis of a loss in aesthetic value.  One cannot have it every way.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_77" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_157">The reality is that there are already a significant number of wind energy projects with planning permission in the gate 2 and 3 processes.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_78">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_158">They should be dedicated to the grid because EirGrid was not facilitating wind farms that were not connected to, or associated with, the ESB.  The Minister was talking about independence.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_79" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_159">I agree and that is why I say the development of the grid is crucial.  The key point is that EirGrid was one of the main experts or bodies behind the all-island grid study.  It is as much the study of EirGrid and its counterparts in Northern Ireland as it is that of anybody else.  That EirGrid is saying it is possible to achieve 42% penetration shows its thinking on the development of renewables has changed.  It is very positive about the possibilities.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_80">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_160">I thank Deputy Coonan for allowing me to speak as would a member of this committee.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_81">
+          <from>Chairman</from>
+          <p eId="para_161">Deputy Coonan returned to the Chamber before we had an opportunity to call on Deputy Crawford.  I must look after members first and give them precedence and then call on other attendees.   That is a long-standing precedent.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_82">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_162">I thank the Chairman.  I thank the Minister and his colleagues for attending today.  I specifically thank the Minister for stating in his opening address that he wanted to account for the fact that some Members in attendance wanted to speak on the interconnector and the issues regarding the proposed pylons in Monaghan, Cavan and Meath.</p>
+          <p eId="para_163">I welcome the Minister's commitment to the effect that the Government will support alternative energy development nationally.  I hope such development occurs because, for many years, there were major delays before private companies were allowed enter the business, as stated by my colleague Deputy D'Arcy.</p>
+          <p eId="para_164">I welcome the development of an all-Ireland grid and I heard the Minister state clearly that it is Government policy.  Does he support the use of pylons in the development of the grid?  Has he studied the cost of laying cables underground or under the sea?  Will he finance an independent study on the costs of each approach or direct EirGrid to do so?  I fully realise cost is an issue but one must also take into account the cost to one's health.  Having lost a brother to asbestos poisoning, I am perhaps more experienced than most regarding the health issues that can arise.  The cost-benefit analysis should be totally independent; otherwise nobody will believe the findings.  Many people, particularly those in Cavan-Monaghan, question why the proposed route was suddenly extended from Meath into Cavan-Monaghan rather than through a flatter area or through Louth into Northern Ireland.</p>
+          <p eId="para_165">The Minister stated EirGrid is an independent body.  If the Minister nominates all the board members he must surely have a say in it.  I want to know whether he is in favour of an overground connection.  Are the figures available to show that an underground connection is feasible?  The Minister mentioned repairs and so on, and it has been suggested that it might cost 10% or 20% more, and spoke at length about the cost of the national grid.  However, has any study been done to compare the costs of full or partial under and overground connections?</p>
+        </speech>
+        <speech by="#ShaneMcEntee" eId="spk_83">
+          <from>Deputy Shane McEntee</from>
+          <p eId="para_166">I thank members for the opportunity to speak on this issue.  I am here not to provoke anybody but to be educated.  I welcome the study on the all-island interconnection, which offers a fantastic vision for the next 20 years.  Everybody, educated or not, no matter where they work, realises that we do not have to depend on oil or gas anymore.  It is a great time for this Minister, particularly, as we recognise that we can develop energy from water, farm produce or wind.</p>
+          <p eId="para_167">The Minister told me one day in the Dáil that he is responsible for this project.  I would like to think that he will not allow An Bord Pleanála or any other body to oversee its progress.  This document could have been introduced to the committee nine months ago, then to the public.  Instead it was given to the public without any proper information with the result that people in Louth, Meath and Cavan have no faith in EirGrid.  That faith must be restored.  This is essential because the project must progress quickly.  The Minister has time, since the project was halted yesterday, to try to unravel this mess before our next meeting when EirGrid will address the committee.  The simple solution is for the Minister to go back to the representatives from all parties and walks of life in those counties and start at the beginning with the study.  He must show them the costs of the underground and overground connections and ask them where we should go from there.</p>
+          <p eId="para_168">I have dealt with these people all my life and they are reasonable.  They want this project to go ahead.  It is a great opportunity to spread electricity the length and breadth of Ireland and not have all the jobs in one place, such as Dublin.  This has to happen or we will find ourselves in the same position as we did in Roscommon for ten years.  I presume that the Minister, like his colleague, the Minister for Transport, Deputy Dempsey, has been informed that the project has been put on hold since yesterday and that will continue for ten years.  The Minister has an opportunity before the next meeting to get the relevant bodies, lobby groups and EirGrid together.  He must not pass this buck.  He is the Minister with responsibility for energy and will be a good one, because this is a green issue.  However, EirGrid is taking an unhealthy approach which is not green.</p>
+          <p eId="para_169">I speak as an ordinary and not very well-educated Deputy.  The Minister has an opportunity in the next week to go back to the drawing board, meet these people and present the study to them.  However, it should not be rammed down people's throats, because it is not going to happen.  These people have educated themselves day in, day out over the last four or five months.  The project must go ahead, but the Minister should get someone to do it, not Meath County Council.  As Deputy Coveney said, the Minister should pay, on behalf of the Irish people, whether it costs up to ten times what was spent previously.  It is no good relying on the rubbish that was thrown out to the people.  I guarantee that if the Minister comes back with a straight answer and shows the people this all-Ireland study, the project will progress in six months, rather than ten years, as now seems apparent.  Yesterday was the start of it.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_84">
+          <from>Chairman</from>
+          <p eId="para_170">Deputy Coveney has a final question.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_85">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_171">My question is on the same issue.  I genuinely believe people are trying to be helpful rather than political on this issue.  There is an information deficit and that is the problem.  As a result, concerns have been built up because of the lack of information on what is possible, the health risks and the cost.  Ultimately, energy users will pay if there is going to be an added cost.  As a basis for discussion and decision, we need independent acceptable information so that tough decisions may be made, if necessary.</p>
+          <p eId="para_172">The reality is that there has been a significant breakdown of trust between EirGrid, which has the responsibility for putting this infrastructure in place, and the public who will be inconvenienced.  Most of the representative groups have told me and colleagues that the place to start is with the facts.  Rather than having consultants offering different views at varying times, let us get a study done on the route to indicate what is and is not possible, and how much the different options will cost, whether fully or partially underground or overground.  These are the types of solutions they came up with in Denmark, for example, with a very similar project.</p>
+          <p eId="para_173">Engineering firms have told me it is possible to put this type of infrastructure underground, but certain compromises are involved in particular areas.   I believe there will be constructive discussion if there is an independent study to show what is possible, regardless of EirGrid.  That is the only way the project can be moved forward at this stage.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_86">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_174">I am not sure whether it will happen, and I do not know if the interconnector is going underground.  However, I have the feeling that the EirGrid Bill is being buried and what we are now hearing is a flip-flop.  I am just looking for clarification.</p>
+          <p eId="para_175">There was no question of structural separation being raised in the Green Paper on energy.  It only appeared in the White Paper on energy.  It is in the programme for Government and the promise is that it will proceed in 2008.  There is no sign of the legislation, which has clearly been put back and there is a funding requirement.  It is estimated that it might cost somewhere between €60 million and €80 million for this particular structural separation to occur.</p>
+          <p eId="para_176">I agree with the Minister that functional separation is working very well and nobody is complaining.  I believe that is the test.  The Minister now needs to say whether he is going to structurally separate EirGrid from the ESB in 2008.  If so, when will the legislation be published?</p>
+        </speech>
+        <speech by="#JoeMcHugh" eId="spk_87">
+          <from>Deputy Joe McHugh</from>
+          <p eId="para_177">I am glad the Minister is here, and I welcome him.  This is a great opportunity to debate all these issues.  In a radio interview over Christmas the Minister used the term "climate change" about 18 times.  We are living in a period when climate change is not just a local or an Irish phenomenon, but a global question.  Whether we like it or not, it is upon us.  The private sector will lead the way, even though policy might sometimes stimulate initiative.  I congratulate the Minister because, while in Opposition, he was a great advocate of efforts to alleviate climate change.  It is an international phenomenon and the private sector must take the lead.</p>
+          <p eId="para_178">There is a lack of overall vision on the part of the Government, with each Minister putting forward his or her pet projects.  Has the Minister had any consultation with his colleague, the Minister for Transport, Deputy Dempsey, who is from County Meath?  The latter was in the news two weeks ago announcing the development of the rail system between Dublin and Navan.  It is to be welcomed by all, not least the people of Meath.  This investment project will cost upwards of €578 million, but was described by the then chief executive officer of Iarnród Éireann as economically unviable.</p>
+          <p eId="para_179">The Minister for Communications, Energy and Natural Resources has a pivotal role to play in terms of vision.  Why is the Government not taking a broader view in respect of environmental issues?  I notice Councillor Owen Brannigan from County Monaghan is in the Gallery.  People in Cavan, Monaghan, Tyrone, Fermanagh and Donegal have no access to rail services.  It is unsatisfactory that the tail track is coming only as far as Navan.  There is an opportunity to introduce rail services into counties Monaghan, Cavan, Fermanagh, Tyrone and Donegal, where no rail track currently exists.</p>
+          <p eId="para_180">The Minister for Communications, Energy and Natural Resources is an advocate of efforts to alleviate climate change and to reduce CO2 emissions.  Facilitating greater use of rail is an effective means of reducing CO2 emissions.  I ask the Minister to show leadership on this matter.  He should speak to his Cabinet colleague, the Minister for Transport, and examine the possibility of opening up new railway lines and laying electricity ducting along those tracks, as has been done in Denmark.  Moreover, they should consider the possibility of ducting not only for electricity but also for fibre optic cables.</p>
+          <p eId="para_181">Why is there no interconnection in terms of a larger plan for the State?  Instead, progress is merely piecemeal.  A certain issue is raised, such as overhead pylons, and the public immediately reacts to that particular issue, after which it is the turn of politicians to react.  There is no overriding vision.  Will the Minister consult with the Minister for Transport to consider the possibility of integrating services?  That is the type of vision needed.  The Minister has the leadership to advocate such a proposal and bring it forward.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_88">
+          <from>Chairman</from>
+          <p eId="para_182">While I admire Deputy McHugh's ingenuity, I am not sure his questions remain within the remit of this committee.  He has gone from climate change to transport.  I ask the Minister to respond to Deputies' questions.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_89" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_183">I will deal first with Deputy Crawford's question regarding further information on the overground-underground issue.  I have asked EirGrid to present detailed back-up information at a meeting of this committee so that members have an opportunity to analyse and question it.  The company has signalled its intention to do so.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_90">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_184">EirGrid had already indicated it has no such information.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_91" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_185">I will not pre-empt what EirGrid plans to do in the interim before its representatives appear before the committee.  The company has indicated its intention to present more information.  The appropriate place to do so is here, where public representatives can ask questions on behalf of their constituents and examine the issue in more detail.  Likewise, it would be beneficial if a local authority, such as Meath, Cavan or Monaghan County Council, were to seek further details or commission work.</p>
+          <p eId="para_186">In terms of routing, why is it a case of Meath, Monaghan, Cavan and Tyrone versus County Louth?  A variety of issues may arise in that regard.</p>
+          <p eId="para_187">Moreover, the information shown to me leads me to believe that a failure to develop the grid in the Cavan-Monaghan region will give rise to real difficulties in respect of access to electricity in the near future.  This constitutes a development issue for the region and is a reason the routing may be selected to the west rather than to the east.</p>
+          <p eId="para_188">Moreover, one must take into account overall national grid development.  The all-Ireland grid study signalled that development was required in Northern Ireland in particular, as well as County Donegal, in respect of tapping into renewable sources.  Consequently, one must build a grid on a systematic basis that will support such development.  This would not happen were it to be located further to the east or to the west.  This decision was complex and multifaceted and has not been entered into lightly.</p>
+          <p eId="para_189">I refer to the origins of the project and the sense that this issue landed on everyone's desks last October.  While I do not know whether any members present also served on this joint committee previously, this project was well-flagged two to three years ago.  A delegation from this joint committee visited EirGrid and was shown the route directions that were under consideration, as well as the likely timelines that would come into effect.  It was made absolutely clear to public representatives and members of this joint committee that this project was on track, as were the reasons behind it.  Such information was publicly available so it is not as though the project suddenly arose in October.  I distinctly remember the visit by a delegation from this joint committee to EirGrid in which detailed discussions were held that were open to questions on individual issues.</p>
+          <p eId="para_190">Moreover, in its former manifestation under the previous Government, this joint committee engaged senior consultants of international repute to consider the issue of electromagnetic radiation and published a significant report in this regard.  There has been continual analysis and consideration of this project.  More than any other group, this joint committee has been engaged in such work during the past three to four years and a continuum exists in this regard.  EirGrid was publicly engaged, particularly in its dealings with public representatives, on difficulties that arose and on various aspects of the plans as the project went through the planning system from the concept stage onwards.  The detailed discussions with public representatives of all parties, which lasted several hours, led to a common understanding regarding the reasoning behind the project plans.  It is not as though this issue landed on members' desks last October.</p>
+          <p eId="para_191">I refer to a question raised by Deputy McEntee and the call to return to the drawing board and to start that process again.  One cannot have a process in which one returns continually to the start.  We have gone through this process in a public and planned way for the past two or three years.</p>
+        </speech>
+        <speech by="#ShaneMcEntee" eId="spk_92">
+          <from>Deputy Shane McEntee</from>
+          <p eId="para_192">I understand that.  My point is that--</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_93">
+          <from>Chairman</from>
+          <p eId="para_193">Deputy McEntee should not interrupt the Minister as I have stopped other members from so doing.  I will allow the Deputy to come back in and he can give a brief response.  I apologise to the Minister.  I must prevent members from interrupting to be fair to others.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_94" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_194">I wished to make that point.</p>
+          <p eId="para_195">Moreover, to a certain extent this is difficult because there is limited expertise on this subject in Ireland, some of the best of which is within EirGrid.  It would not be appropriate for the Government to begin to undermine the State's centre of excellence by stating it did not trust the latter and by opting for an independent study that would assess its work in this regard.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_95">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_196">EirGrid has stated it has no problem with an independent study.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_96" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_197">It is in EirGrid's interests to develop projects with as much public support as possible.  Its interests lie in getting through the planning stage.  It is not in its interests to go down a difficult route simply for the sake of it.  As a public company, it is in its interests to get the balance right across a range of variables.</p>
+          <p eId="para_198">As for Deputy Coveney's comments on the information deficit, such a deficit must be addressed if it exists.  It is regrettable that, to date, the public consultation process has not proceeded as smoothly as I would have wished with regard to disseminating such information, as well as the various reasons behind it.  I hope that one of the advantages to bringing the information issue before the joint committee is that this is a rational sane forum in which it is possible for everyone to hear questions being answered.  Moreover, it gives public representatives the chance to ask detailed questions.  This is the most appropriate place in which to begin to address any such information deficit and people can take whatever positions or views they wish.  No one is being restrictive in terms of questions and the views that might emerge from the committee or outside.  This is the exact location where the facts can be determined and teased out and questions can be asked.  My experience has shown that committees are perfectly capable of and suited to getting into what are often very technical and detailed questions and bringing in international experts.  If there is a search for another independent view on it, committees are capable of bringing in people, regardless of the issue, to allow people to ask the questions they wish to ask.  Why not do it here where it is on the record in a democratic forum and where it is easy for people to see their public representatives engaged in that work?</p>
+          <p eId="para_199">In respect of the question raised by Deputy McManus, the issue of the transmission assets is one of a series of issues which we are progressing.  It was always said that this process would not be easy in terms of transmission assets and that we would not just bull-headedly go ahead but would discuss matters with the unions and the company engaged in a very complicated process to try to deliver what is set out in the Government White Paper.  Nothing has changed in that regard.</p>
+          <p eId="para_200">In respect of Deputy McHugh's comment--</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_97">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_201">It was to be in 2008.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_98" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_202">It is still 2008.  We are in the first month of 2008.</p>
+          <p eId="para_203">When I take that road to Derry and Donegal, where one follows the old Omagh rail line which was shut down in 1961 and which pretty much followed the route through Monaghan, Cavan, up to Strabane and on to Derry, with a branch to Lifford, I think it would be great for us on a long-term basis to start developing those assets.  I will work with the committee in terms of trying to convince my Government colleagues and others of the sense of such a long-term proposal.</p>
+          <p eId="para_204">I mention climate change on a regular basis because it is standing starkly before us as the greatest issue of our time which we must address.  The European Commission report released last week which set out how we can address it brings the matter centre stage in all our political, economic and social analysis for the first time.  We do not have the option of escaping our obligations.  We have everything to gain from taking them on in terms of cutting our fossil fuel bill and creating jobs here but we cannot ignore it anymore.  In particular, transport is an area where very serious questions must be answered.  Rail transport is a major part of that, as are planning policy and a range of different policies, which are for another day.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_99">
+          <from>Chairman</from>
+          <p eId="para_205">Deputy McEntee may give a brief response.</p>
+        </speech>
+        <speech by="#ShaneMcEntee" eId="spk_100">
+          <from>Deputy Shane McEntee</from>
+          <p eId="para_206">I did not mean to go back to 2002.  I know that this was ready last May at election time and it was well that they held it back until October.  I am simply saying that EirGrid carried out a bad public relations exercise last October.  Given, that it has been stopped from even announcing the route, there is a great opportunity for proper relationships to be set up under the Minister's guidance.  He will get the respect of everybody if he does so.  However, if he leaves it outside his control, we will be dealing with this issue in ten years' time.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_101">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_207">Any benefit this line will bring will be too late for Monaghan General Hospital because its closure was announced today.  There has been a lack of information.  The first time EirGrid brought us in as individual Deputies was last autumn, a few weeks before it went public.  I am not and never have been a member of this committee.  EirGrid has failed dismally to give us any indication of what efforts it has made to either privately or independently produce a cost factor in respect of overground or underground options.  EirGrid told us that it is not possible to do this.  We are told that it is possible in other countries like Denmark, which has already been mentioned here.</p>
+          <p eId="para_208">I asked the Minister if he would like to see pylons going up in that context if he lived in that area in light of the damage they will do to property.  I certainly want to see an all-Ireland grid.  Quietly, behind the scenes, I possibly worked a little harder than most in this House to see an all-Ireland solution so I want to see the situation working.</p>
+          <p eId="para_209">As part of that all-Ireland agreement, the Taoiseach announced that there would be a dual carriageway from Dublin to Derry.  Perhaps this is part of the answer in respect of Deputy McHugh's comments, namely, that not just road transport but railways and fibre optic cable connections could be addressed in that context.</p>
+        </speech>
+        <speech by="#EamonRyanGP" eId="spk_102" as="#Minister_for_Communications,_Energy_and_Natural_Resources">
+          <from>Deputy Eamon Ryan</from>
+          <p eId="para_210">I take Deputy Crawford's view point.  EirGrid is planning this matter to minimise the disruption to the local community.  Everyone would recognise that this must be done.  A variety of route options are being considered.  The committee has the opportunity to represent the community and tease out the details as much as possible, which would be beneficial to all concerned.  As Deputy McEntee stated, we need the facts and clarity of information.  There is potential to tease out many of the issues and I would be happy for the Department to provide whatever support it could to the committee to take on the work as part of a process that I hope will have a significant benefit.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_103">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_211">Would the Minister support an independent study?</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_104">
+          <from>Chairman</from>
+          <p eId="para_212">I remind members that EirGrid will visit the committee next week at which time this matter will be debated.  It is our intention to hear the opinions of a representative group of the communities involved.  The committee must agree on whether it will take independent advice regarding this issue.  We will leave the discussion and I thank the Minister for his time.</p>
+        </speech>
+        <summary eId="sum_7">The joint committee adjourned at 4.30 p.m. until 9.30 a.m. on Wednesday, 6 February 2008.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

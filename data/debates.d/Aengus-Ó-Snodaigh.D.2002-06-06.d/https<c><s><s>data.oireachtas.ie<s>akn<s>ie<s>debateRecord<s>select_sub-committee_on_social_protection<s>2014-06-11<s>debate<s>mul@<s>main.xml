@@ -1,0 +1,853 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2014-06-11/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2014-06-11/debate"/>
+          <FRBRdate date="2014-06-11" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/31/select_sub-committee_on_social_protection"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2014-06-11/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2014-06-11/debate/mul@"/>
+          <FRBRdate date="2014-06-11" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2014-06-11/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2014-06-11/debate/mul@.akn"/>
+          <FRBRdate date="2018-12-18" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_9" outcome="#lost" refersTo="#sum_8">
+            <count eId="vote_1-count_1" href="#qty_1" refersTo="#ta" value="3"/>
+            <count eId="vote_1-count_2" href="#qty_2" refersTo="#nil" value="6"/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#debates">
+        <TLCConcept eId="#lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#carried" href="/ie/oireachtas/ontology#DeclaredCarried" showAs="Declared Carried"/>
+        <TLCConcept eId="#staon" href="/ie/oireachtas/ontology#StaonVote" showAs="Staon Vote"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="AnthonyLawlor" href="/ie/oireachtas/member/id/Anthony-Lawlor.D.2011-03-09" showAs="Anthony Lawlor"/>
+        <TLCPerson eId="AodhanORiordan" href="/ie/oireachtas/member/id/Aodhán-Ó-Ríordáin.D.2011-03-09" showAs="Aodhán Ó Ríordáin"/>
+        <TLCPerson eId="BrendanRyanDublin" href="/ie/oireachtas/member/id/Brendan-Ryan.S.2007-07-23" showAs="Brendan Ryan"/>
+        <TLCPerson eId="DenisNaughten" href="/ie/oireachtas/member/id/Denis-Naughten.S.1997-01-28" showAs="Denis Naughten"/>
+        <TLCPerson eId="JimDaly" href="/ie/oireachtas/member/id/Jim-Daly.D.2011-03-09" showAs="Jim Daly"/>
+        <TLCPerson eId="JoanBurtonLAB" href="/ie/oireachtas/member/id/Joan-Burton.D.1992-12-14" showAs="Joan Burton"/>
+        <TLCPerson eId="JoanCollins" href="/ie/oireachtas/member/id/Joan-Collins.D.2011-03-09" showAs="Joan Collins"/>
+        <TLCPerson eId="JoannaTuffy" href="/ie/oireachtas/member/id/Joanna-Tuffy.S.2002-09-12" showAs="Joanna Tuffy"/>
+        <TLCPerson eId="RayButler" href="/ie/oireachtas/member/id/Ray-Butler.D.2011-03-09" showAs="Ray Butler"/>
+        <TLCPerson eId="WillieODea" href="/ie/oireachtas/member/id/Willie-O'Dea.D.1982-03-09" showAs="Willie O'Dea"/>
+        <TLCEvent eId="bill.2014.47.dail.3" href="/ie/oireachtas/bill/2014/47/dail/3" showAs="Social Welfare and Pensions Bill 2014: Committee Stage (Dáil)"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole eId="Minister_for_Social_Protection" href="/ie/oireachtas/role/minister/social_protection" showAs="Minister for Social Protection"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>TBA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Select Sub-Committee on Social Protection</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2014-06-11">Dé Céadaoin, 11 Meitheamh 2014</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2014-06-11">Wednesday, 11 June 2014</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">The Select Committee met at 01:00 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JoanBurtonLAB">Deputy Joan Burton (Minister for Social Protection)</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#WillieODea">Deputy Willie O'Dea</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#RayButler">Deputy Ray Butler</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#AodhanORiordan">Deputy Aodhán Ó Ríordáin</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#JoanCollins">Deputy Joan Collins</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#AengusOSnodaighSF">Deputy Aengus Ó Snodaigh</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#JimDaly">Deputy Jim Daly</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#BrendanRyan">Deputy Brendan Ryan.</person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">In attendance: Deputies Anthony Lawlor and Denis Naughten.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#JoannaTuffy">DEPUTY JOANNA TUFFY IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+        <summary eId="sum_5">
+          <i>The select sub-committee met in private session until 1.13 p.m.</i>
+        </summary>
+      </debateSection>
+      <debateSection name="debate" refersTo="#bill.2014.47.dail.3" eId="dbsect_2">
+        <heading>Social Welfare and Pensions Bill 2014: Committee Stage<recordedTime time="2014-06-11T13:10:00+01:00"/></heading>
+        <speech by="#JoannaTuffy" eId="spk_1">
+          <from> Chairman<recordedTime time="2014-06-11T14:10:00+01:00"/></from>
+          <p eId="para_9">This meeting has been convened for the purpose of considering the Social Welfare and Pensions Bill 2014, which has been referred to the select sub-committee by order of the Dáil on 5 June 2014.  The Bill provides for the strengthening of the residency requirement for entitlement to means-assessed social welfare pensions such as child benefit; continued payment of family income supplement, FIS, for 52 weeks regardless of changes in circumstances; extending the Department's powers to recover social welfare overpayments; extending social insurance coverage to the spouses and or civil partner of a self-employed contributor where that spouse or civil partner is participating in that person's business; and amending the Pensions Act to clarify the notification procedures and situations where action is proposed by the Pensions Authority.</p>
+          <p eId="para_10">  I welcome the Minster for Social Protection, Deputy Burton, and the officials from her Department.  My intention is for the committee to conclude its consideration of the Bill this afternoon, as we must be gone by 3.45 p.m.  Is that agreed?  Agreed.  I refer members to the grouping of amendments for the purpose of this debate.  I hope everyone has that list.</p>
+          <p eId="para_11">  Before we proceed to our consideration of the Bill, we agreed in private session that Deputy Lawlor could raise an issue.</p>
+        </speech>
+        <speech by="#AnthonyLawlor" eId="spk_2">
+          <from>Deputy Anthony Lawlor<recordedTime time="2014-06-11T14:10:00+01:00"/></from>
+          <p eId="para_12">I thank members for allowing me to comment on a matter that I will raise on Report Stage.  It relates to the definition of a trustee in terms of pension schemes and those who are allowed to vote for trustees.  As the Bill excludes deferred members, it is my intention to table an amendment that will allow deferred members to have voting rights in this regard and to become trustees.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_3">
+          <from> Chairman<recordedTime time="2014-06-11T14:10:00+01:00"/></from>
+          <p eId="para_13">Does the Minister wish to respond now?  She does not need to if she does not want to.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" as="#Minister_for_Social_Protection" eId="spk_4">
+          <from>Minister for Social Protection (Deputy Joan Burton)<recordedTime time="2014-06-11T14:10:00+01:00"/></from>
+          <p eId="para_14">If the Deputy wants to table an amendment, we can discuss it in due course.</p>
+        </speech>
+        <summary eId="sum_6"> Sections 1 and 2 agreed to.</summary>
+        <summary eId="sum_7">SECTION 3</summary>
+        <speech by="#JoannaTuffy" eId="spk_5">
+          <from> Chairman<recordedTime time="2014-06-11T14:10:00+01:00"/></from>
+          <p eId="para_15">We have agreed that amendments Nos. 1 to 8, inclusive, will form a composite proposal and be discussed together.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_6">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T14:10:00+01:00"/></from>
+          <p eId="para_16">I move amendment No. 1:</p>
+          <p class="indent_1" eId="para_17">In page 6, to delete lines 7 to 9.</p>
+          <p eId="para_18">A number of further amendments are consequential on this one.  Given the tight timeframe, however, they were not proposed in the exact order desired by the Bills Office.  They deal with the primary issue, that is, the removal of An Post from the Social Welfare Consolidation Act 2005, which brings all of the relevant Social Welfare Acts together and in which specific mention is made of An Post.  Indeed, An Post is given preferential status.  For longer than I can remember, An Post has been the preferred vehicle for the delivery of social welfare payments.  This served a number of purposes.  First, there was a post office in virtually every town and village, which meant easy access for people collecting child benefit, jobseeker's benefit or its equivalent and pensions.  In recent years, this contract with the Government became vital to post offices.</p>
+          <p eId="para_19">  Second, the preference served a purpose in respect of social welfare.  It helped to reduce the opportunity for fraudulent transactions, for example, where people used multiple IDs or were outside the country.  People had to present at post offices and sign on, especially in small towns.  Even in cities, staff knew who was claiming because people had to present in person, be it once per month in respect of child benefit or once per week in respect of other benefits.  If the Department moves away from this system, there is a danger of a greater degree of fraud being committed.  For example, if a payment is made into a bank account, that account can be accessed from virtually anywhere in the world.</p>
+          <p eId="para_20">The Department has encouraged people to present with bank details so a payment can be made in that fashion as an option. I am of the firm belief that as a fraud control the process should take place in a post office.</p>
+          <p eId="para_21"> I was not present when the Minister responded to my initial comments on Second Stage but I have read that she stated there is no danger to the An Post contract. There is always a danger as An Post has the contract for two years, with the possibility of another four years, so it could lose the contract in future. If the amendments from the Minister are accepted, the recognition that being named in legislation gives to An Post will be eroded. If that happened, many post offices around the country would end up closing, which is a concern that has been raised by the Irish Postmasters' Union which lobbied us recently. It has not come about just this year because four or five years ago the same concern was raised when the social welfare contract was discussed and up for grabs. The Minister may be inclined to guarantee this but she is not likely to hold her position forever, and perhaps she will not even hold the office in the near future. There is, therefore, no guarantee that the preferential treatment An Post has received until now will be protected.</p>
+          <p eId="para_22"> The Minister has also made the argument that EU competition rules demand that we take such a step. My amendment would reinstate An Post but it would not totally exclude the opportunity to have, as the Minister described, another payment service provider, as that is also mentioned. An Post may not be able to deliver a service in a particular area, for example. If Ireland argued for the importance of the post office network, including the social benefits, which we should have done until now in Europe, we would receive some recognition and support. If required, we should look to change the attitude of Europe to the post office.</p>
+          <p eId="para_23"> I have a brother-in-law involved with the Communication Workers' Union and he has indicated that postal services across Europe have been under severe pressure, with the unions organising in Europe to try to protect the postal delivery service. Post offices have changed and moved with the times but if they were to lose a contract like this, I doubt that many would survive. If the public service obligation is on the Government rather than An Post to ensure postal services exist, the only way to guarantee a service is still to deliver it through An Post. The State could go much further if it wanted to protect a State institution rather than a private company like a bank. In many ways, the State could put much more money through the accounts of An Post, including wages or grants delivered through An Post, etc. That would add to An Post's future viability, and given the current state of the country, it would be important.</p>
+          <p eId="para_24"> There is a recognition that changes are being made but my principal point for section 3 is to ensure that current recognition given in legislation to An Post would remain, albeit slightly changed in line with the Minister's comments. An Post should be a named organisation and therefore have preferential status for any future contracts. I will be moving my other amendments.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_7">
+          <from>Deputy Willie O'Dea<recordedTime time="2014-06-11T14:20:00+01:00"/></from>
+          <p eId="para_25">I will be moving amendments Nos. 4 and 8, and I support all the amendments Nos. 1 to 8, inclusive.  With the benefit of reflection, I am unsure whether we will achieve our desired objective but as the previous speaker indicated, that is due to the tight timeframe.  We discussed Second Stage of this Social Welfare and Pensions Bill last week and I received a communication from the Bills Office to ask me to hurry in submitting amendments.  That is despite the fact that there is a specific commitment in the programme for Government to allow at least two weeks for reflection and consideration between Second and Committee Stages of a Bill.  I asked the Taoiseach about it recently and he told me this was a question of priorities.  We are at least 75%, if not more, into the life of this Government and that proposal in the programme for Government is pretty fundamental to the way we do business in the House.  We should not just shunt legislation through like we are producing material in a factory.  I wish the Government would get on and make the appropriate change, as it would help us achieve the time and space to properly draft amendments.</p>
+          <p eId="para_26">  I would be happy if the Minister could introduce the appropriate amendments to meet the objective we are trying to achieve.  She, along with every Member in these Houses, is aware of the social and economic importance of the post office network to this country.  We are also aware that An Post is under severe pressure, with unavoidable changes in technology and electronic communications resulting in a position where the revenue of all post offices in countries around the world has steadily declined.  An Post is currently heavily dependent on two Government contracts involving the National Treasury Management Agency and the Department of Social Protection.  It is not desirable for a great State organisation like An Post to be unduly dependent on one or two Government contracts.  I am committed to the idea that An Post should diversify and take on more responsibilities, with arrangements perhaps being made for all Government payments to go through it, including motor tax, etc.  An Post could get some banking functions.  We are aware of cases in rural Ireland particularly of bank branches closing but there is An Post infrastructure and services could be provided locally.  Importantly, nothing should be done at this stage to fundamentally undercut the future revenue stream of the post office, because until a Government implements such desirable changes, it is essential for us to maintain what we have.</p>
+          <p eId="para_27">  I take account of the Minister's reply on Second Stage regarding European rules, etc.  The Social Welfare Consolidation Act 2005 is the basic legislation which brought together all the social welfare provisions in 2005, and this Bill is essentially an amendment of that Act.  An Post is specifically mentioned in that legislation.</p>
+          <p eId="para_28">In other words, the legislation is framed against a backdrop where An Post is seen as the service provider for social welfare payments. That is being removed and we oppose it. One must ask, in a situation that is tenuous, what signal this gives. It certainly adds fuel to the fire generated by the Irish Postmasters' Union. I am sure its members will be on the media in the next few days to claim that their worst fears are being realised. The Government has assured the IPU, both publicly and privately, that it is totally committed to the future of An Post, but this legislation states the opposite. It is clearing the way and allowing for a situation where the fundamental contract for social welfare payments will be operated through an organisation other than An Post.</p>
+          <p eId="para_29"> I realise there are technical difficulties owing to European regulations and so forth, but this is sending a deplorable signal. The technological advances the Minister is trying to accommodate in section 3 could be accommodated easily by retaining the reference to An Post. That would give those who are trying to save An Post and the people who are committed to its future the necessary reassurance. If the amendments before the Minister are legally inadequate to do the job we wish to do, she should bring forward her own in order that those who have been assured and reassured by various Ministers that they are committed to the future of An Post will see that these reassurances have some weight.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_8">
+          <from>Deputy Denis Naughten<recordedTime time="2014-06-11T14:30:00+01:00"/></from>
+          <p eId="para_30">There are two matters I wish to discuss, the first of which is the broader issue of the time between Second Stage and Committee Stage.  It is unfair that there is such a tight window between the two Stages and there is no reason for it.  There is no urgency for the Bill to be completed by the end of the week.  The idea behind it is that it is supposed to be a more considered measure than the (No. 2) Bill introduced at the end of last year, on which the debate was guillotined by the House.  The Minister will be aware of an issue that has come to the fore in the last couple of days, that the compensation of those who were neglected when under the auspices of the State, for example, young people who were compensated by the HSE owng to neglect, is subject to means assessment by her Department, even though the compensation of every other victim such as the victims of Magdalen laundries and so forth is exempt from calculation under the social welfare system.  We are not learning from the past in ensuring mistakes made in the past are not repeated in the future.  It is disappointing that provision has not been made in the legislation and I hope the Minister will reconsider the issue in advance of Report Stage.</p>
+          <p eId="para_31">  The amendment before us seeks to refer to An Post rather than "payment service provider".  There are genuine concerns among the public about the operation and viability of the sub-post office network.  I received a telephone call just before this meeting about Cappataggle sub-post office in County Galway.  It has been given one month stay of execution following the passing of the postmistress.  It is not good enough that a guillotine automatically hangs over a sub-post office as soon as the postmaster or postmistress passes away.</p>
+          <p eId="para_32">  There is a far greater argument for the retention of the sub-post office network than has been articulated to date - to deal with the issue of fraud which has been mentioned by previous speakers.  Tremendous work is done by my constituents in the control section in Carrick-on-Shannon-----</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_9" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T14:30:00+01:00"/></from>
+          <p eId="para_33">I am glad the Deputy is aware of it.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_10">
+          <from>Deputy Denis Naughten<recordedTime time="2014-06-11T14:30:00+01:00"/></from>
+          <p eId="para_34">I am very aware of it.  A sum of €332 million was calculated in control savings last year based on the actions of that section of the Department.  The staff do tremendous work, but it would be interesting to examine the level and frequency of fraud in respect of payments collected by electronic means and through banks, payments collected in the major post offices and sub-post offices.  I suspect that any such analysis would quickly show that there was far less fraud taking place in respect of payments collected in sub-post offices.  The postmaster or postmistress knows the individuals who come to the sub-post office to collect these payments.  Given the focus on fraud - it is correct that there should be such a focus - the sub-post office network has an important role to play, a role that has been ignored up to now.  Person-to-person payments were reintroduced by the Minister's predecessor, former Deputy Mary Hanafin, because of the level of fraud perpetrated through the electronic payments system.</p>
+          <p eId="para_35">  There is another matter that is ignored, even though it could help to improve efficiency not only in the Minister's Department but also in others.  It is far more efficient to process an application submitted online and many Government agencies, including the Revenue Commissioners, the Department of Agriculture, Food and the Marine and the Department of Transport, Tourism and Sport in respect of driving licences, are trying to incentivise people to submit their applications in this way.  However, there is a problem with a cohort of people who are unable to use these online systems.  In the case of social welfare, I suspect that the vast majority of applications are made on hard copy.  If the Department gave postmasters and postmistresses a role in assisting with the submission of applications online, it would streamline and speed up the processing of these applications within the Department and ensure all of the required documentation was provided from the start, reducing the need for follow-up queries.  Giving postmasters and postmistresses a direct role in that regard would make it far more difficult for another operator to compete directly with the local post office network in providing that service.</p>
+          <p eId="para_36">  That brings me to the excuse made, that it must be open to everybody owing to EU competition rules.  The Minister could set very simple criteria which would benefit the delivery of the service, one of which could be that the operator have a minimum number of outlets and that they be located not just in local towns but also serve rural communities.  Many of the major retailers will be unable to compete on that level.  The operator could be required to assist people in filling in forms and submitting them online.  Many operators would be unable to deal with this.</p>
+          <p eId="para_37">  Another matter that is ignored is that postmasters and postmistresses must sign the Official Secrets Act.  Many of the other service providers being proposed would not have to do this.  We are talking about very personal and private information and people do not necessarily wish it to be known that they are in receipt of a social assistance payment.  Based on the level of the social assistance payment they receive, one can quickly calculate their other income.  That issue must be taken into account in any provision made regarding the roll-out of a payments collection function to other service providers.</p>
+          <p eId="para_38">  These issues have been ignored to a great extent by the Department to date.</p>
+          <p eId="para_39">I ask and urge the Minister to reconsider those issues and consider the amendment that has been put forward here. </p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_11">
+          <from>Deputy Joan Collins<recordedTime time="2014-06-11T14:40:00+01:00"/></from>
+          <p eId="para_40">I do not know whether I have to but I will declare before the debate that I was a post office clerk and a member of the Communications Workers Union.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_12">
+          <from> Chairman<recordedTime time="2014-06-11T14:40:00+01:00"/></from>
+          <p eId="para_41">The Deputy is not now.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_13">
+          <from>Deputy Joan Collins<recordedTime time="2014-06-11T14:40:00+01:00"/></from>
+          <p eId="para_42">I fully support the amendments put forward by Deputy Ó Snodaigh.  The fact that An Post has been omitted from the 2005 Consolidation Act is the key thing.  An Post should be allowed remain in the legislation in order to allow for the continuation of the Consolidation Act.  An Post, as a potential service provider, should not be taken out of the legislation.</p>
+          <p eId="para_43"> I have said a lot on this matter that I will not repeat here.  It is a fact that 18% of Irish people do not have bank accounts and 23% do not have Internet access.  There is a social aspect to An Post and its 1,100 post offices serve the population very well.  As has been said, An Post gives people an opportunity to interact with staff and pay bills by making small payments of €10 or €15 which is very important when people are experiencing straitened times and must carefully budget in order to pay bills.  </p>
+          <p eId="para_44">  An Post should be included in the legislation.  I do not see why the Minister cannot leave it in because leaving it in will not cause a major problem.  Taking An Post out of it is a negative signal, particularly to post office workers.  A commitment was given in the programme for Government to do as much as possible to keep post offices vibrant in any way possible.</p>
+          <p eId="para_45">  I agree with Deputy Naughten's point about the tendering process.  Aspects of the process can request that a service provider meet the level of service provided by post offices.  An Post has 1,100 outlets that provide services to 38% of the population.  People can get assistance to fill out forms, etc. in the post office which is an important social service and, therefore, should protect the services within the post office network.  It is not a question of me, or other Deputies, having a quintessential affection for the post office.  The truth is they play a key role in urban and rural communities.  Therefore, the Minister should accept Deputy O'Snodaigh's amendments.   </p>
+          <p eId="para_46">  An Post can develop services.  When I worked in the post office staff were asked whether they wanted their wages paid into their bank accounts.  Many of us opted to have our wages paid into our post office savings accounts, an arrangement that worked very well.  An Post can provide a similar service in other instances and it is an option that could be examined.  </p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_14" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T14:40:00+01:00"/></from>
+          <p eId="para_47">I thank the Deputies for their contribution on the issue, particular of An Post which is a very important issue.  We seem to agree that An Post services are very important from an economic, commercial and social point of view.  I am glad to hear Deputies support An Post.  I am sure that An Post will appreciate their support and the fact that they see the social and commercial role that it plays.</p>
+          <p eId="para_48">  The timescale for the publication of the Bill was raised by Deputy Naughten, and I think Deputy Ó Snodaigh referred to it on Second Stage.  I want to explain one point.  The timescales involved in progressing most social welfare and pension Bills are dictated by the need to implement various measures agreed in the annual budget, within the required times.  The time available between the publication of Bill and progressing through the Oireachtas is, therefore, dictated by when the annual budget is announced, and when the various budgetary measures are to come into force.  As has been said in recent years, these time pressures have been eased somewhat by bringing the budget day back to mid-October, at the latest, instead of early December.  This allows for the social welfare budget Bill to be published earlier and more time for the Bill to be considered, by the Oireachtas, before the normal early January implementation dates for many of the measures.</p>
+          <p eId="para_49">  The main reason this Bill needs to be enacted before the summer recess is in order to comply with the 5 August 2014 deadline for the transposition of Articles 7 and 8 of the EU Directive 2010/41.  The directive provides equal treatment between men and women engaged in an activity in a self-employed capacity - and we have discussed this matter on a number of occasions at this committee - in so far as it relates to ensuring that the spouse or civil partner of a self-employed worker can benefit from social protection in accordance with national law.  That means that we are introducing into law in Ireland, for the first time, the right of the spouse of a self-employed person or worker, who is involved in the business, to access social insurance.  That means, as I said on Second Stage, that they can access a contributory pension.  That is particularly important because many of the spouses are likely to be women.  They can access maternity benefit.  They can also access widows' or widowers' pensions.  We reckon that there may be about 5,000 people who will avail of this provision, of which the majority will be women.  </p>
+          <p eId="para_50">  The date by which the Bill must be enacted is 5 August.  I understand that people would like more time.  However, implementing the directive will be of significant benefit to a lot of small businesses around the country where there is a couple working in the small business.  I just wanted to make the point about the date of the deadline which faces this Bill.</p>
+          <p eId="para_51">  With regard to section 3, I do not propose to accept amendments Nos. 8 and 9 and shall explain why.  There may be a slight misunderstanding on the part of some of the Deputies.  I share everybody's view, who has spoken, that An Post provides a valuable service and we want to see it retained.  </p>
+          <p eId="para_52">  I was delighted to sign a contract with An Post last December.  The service is valued by our clients in social protection, communities and by people here in the Houses.  The contract was awarded to An Post following a public procurement contract.  Section 3 updates the legal framework behind the new contract.  It strengthens the role that An Post plays as an integral part of a robust and a proactive payments regime.  There is a legal reasoning behind it.  </p>
+          <p eId="para_53">  The aim of the draft legislation being proposed is to remove the specification of An Post from primary legislation and move to a more objective approach to reflect the reality of the contract in place.  The position of An Post as a provider of cash payments is set out in enormous detail in the regulations, in the secondary legislation.  </p>
+          <p eId="para_54">  An Post is an independent contractor, subject to contractual responsibilities, rights and remedies, in the delivery of the cash services to the Department of Social Protection's social welfare clients.  It delivers these services to a very high quality and to a very large number of our clients who are located up and down the country.  They, in turn, are very supportive and appreciative of its service.</p>
+          <p eId="para_55">  I understand the motive behind the amendments but the ones proposed by the Deputies could be viewed as seeking to ring-fence the role of An Post as the only possible payment service provider for the Department.  This cannot be supported because that would be legally very unsafe and could be interpreted as being contrary to EU directives on fair competition, procurement and State aid.  That is exactly the opposite, having listened to the discussion, of what the Deputies clearly desire.  </p>
+          <p eId="para_56">The removal of the specification of An Post from the existing legislation does not interfere with the service. It does not diminish or jeopardise it. The contract, which I signed with the chief executive of An Post before Christmas, is now in place and will remain in place for up to six years. The services must then be re-advertised. It is open to any player in the market to enter a bid to deliver the services. These are the rules we must abide by and that is what the legislation must reflect. We cannot sanction any perception that An Post enjoys a legal status in primary legislation that could be viewed by others, who might contest An Post's winning the contract, as restrictive in so far as it relates to welfare payments. I understand and appreciate the motives of Deputies' comments but this is the legal advice available to us. As the legislation stands, it could be perceived that fees were not being charged for services to specific standards but, rather, that expenses are being paid in an agreement entered into by me, as Minister, the Minister for Public Expenditure and Reform and An Post without public advertisement. This is contrary to what actually happened. This is what someone who wished to contest the winning of the contract by An Post could allege. Deputies have enough experience of situations like this arising with other contracts. This is not the reality and the revisions to the legislation are proposed to reflect this.</p>
+          <p eId="para_57"> Protecting the integrity of expenditure is critical at Government and departmental level. The key is tackling fraud and abuse within the social welfare system. We must ensure the necessary legislation is in place to support An Post to carry out its duties in this regard, as agreed under the contract. The current amendments enhance our opportunities and allow for more stringent fraud and control measures to be carried out by An Post in conjunction with the Department. For example, the amendments provide An Post with the power to withhold payments to a client if it is not satisfied the person presenting has adequately authenticated his or her identity. They enable An Post to confiscate a public services card or social services card and surrender it in instances of fraud or where it considers the card is not being used lawfully. Everyone here, and Deputy Joan Collins more than most, has been in post office and has seen post office queues when people are collecting various payments. The role of An Post in respect of checking identities and verifying that payments are going to the right people is critical to deterring and detecting fraud but we must include it in legislation. It is a key service specified in the contract as part of the conditions for whoever wins the contract. We are updating the legislation to include the provision in the legislation. It was not done before and the informal arrangement was that An Post might check. People familiar with post offices know this but we are including it in the contract as a requirement.</p>
+          <p eId="para_58"> As Minister, preventing and detecting fraud and error is critical to saving money that people pay in PAYE and PRSI for a good social welfare service. People want to ensure the payments go to the right people and we have had conversations about this before. It is now reflected in the legislation. The legislation also strengthens the capacity for an exchange of information between the Department and An Post, which is critical, and such exchanges will be invaluable to officers in my Department when cases are being prepared for prosecution. This is important work in terms of the relationship with the post office and the requirements in the contract for this work to be undertaken. It is important that, if these situations arise, it is possible for An Post to communicate with the Department properly and legally on such matters. The proposals provide a new resilience and robustness to underpin the cash payment services on a statutory basis. I assure Deputies Ó Snodaigh and O'Dea and others that the proposals strengthen the position of An Post. The contract gives some certainty to An Post in the delivery of cash services, enabling it to build from a firm foundation for potential future contracts. Every Member in the room knows that, under EU procurement laws, it must be put out a contract. This provides a firm base and a resilience that An Post will be in position to continue to bid should it wish, as I assume it will, to bid for future contracts.</p>
+          <p eId="para_59"> No other Department has given any certainty on the future of the An Post business model but, because it is so important to me as Minister and to the Department as a provider of services, we have thoughtfully looked at how to ensure that, legally, different elements of the service are underpinned, subject to having robust legislation and regulations that meet EU procurement laws. The position of An Post as a provider of cash payments is set out in detailed regulations in secondary legislation. Amendments to these regulations in respect of payment service providers will continue to recognise and reflect the position of An Post as a provider of cash payments.</p>
+          <p eId="para_60"> A number of Deputies referred to An Post becoming involved in the provision of other services. In recent legislation I updated the household budgeting regulations to enhance that service if customers of An Post wish to avail of it. I have taken a number of steps as Minister and dealt with the EU requirements. Deputy Willie O'Dea is familiar with the case taken by another party, which contested the An Post position. The ruling of the EU court was to make a requirement for a competition. An Post entered the competition and won the contract for two years, renewable for a further four years, and I hope that with this legislation underpinning the services it provides it will continue to be interested in providing important business services for the Department.</p>
+          <p eId="para_61">My Department is a significant customer of An Post's services, in terms of both mail delivery and the contract for the delivery of social welfare payments in cash. To give the Deputies an indication of the scale and volume of the business, during 2013 An Post handled 14 million mail items to a value of €11.5 million for us, as well as some 43.7 million over-the-counter cash payment transactions with a value of over €57 million. It is a very important segment of the services we provide to the customers and clients of the Department and is extremely significant business for An Post.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_15">
+          <from>Deputy Joan Collins<recordedTime time="2014-06-11T15:00:00+01:00"/></from>
+          <p eId="para_62">The Minister made a point about fraud.  We have had this debate previously.  I believe the Minister places an over-emphasis on fraud and that it is not as bad as she suggests.  The vast majority of people are not trying to devise ways to defraud the system.  While I have no problem with including mechanisms to reduce the possibilities for defrauding the State, a significant proportion of the €332 million referred to by the Minister is not related to fraud but to errors and accidental overpayments.  I was contacted recently by a person who collected his father's old age pension because his father has been ill for a long time.  He has been going to the same post office, using ID that was signed by the police.  He does not have a passport or driving licence.  However, instructions have been sent to An Post from the Department to the effect that if staff do not intervene in cases of suspected fraud, then An Post could be liable for any money lost.  As a result, staff in post offices are coming down much more heavily on people, and this individual was refused payment of his father's pension for about five weeks until we intervened on his behalf.  When the Department requires organisations to be more diligent and insists that people be required to produce passports or other specific types of identification, that can have knock-on effects.  Some balance is needed in this regard.</p>
+          <p eId="para_63">  I ask the Minister to clarify the situation regarding An Post's contract for social welfare payments.  Why does the Minister need to change the legislation?</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_16" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:00:00+01:00"/></from>
+          <p eId="para_64">It is a new contract that I have just signed.  An Post won the contract.  I wish to be very clear about that.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_17">
+          <from>Deputy Joan Collins<recordedTime time="2014-06-11T15:00:00+01:00"/></from>
+          <p eId="para_65">We are all clear on that.  An Post won the contract but it won it under the terms of the current legislation.  Why does the Minister need to change it now?  On the question of the time allowed for the submission of amendments-----</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_18" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:00:00+01:00"/></from>
+          <p eId="para_66">I will explain that issue.  I said that it was to provide an additional resilience relating to the fact that An Post won the contract.  I am glad that An Post won the contract but I want to ensure that the contract is resilient and robust because I want An Post to continue to provide services.  In the past, the provision of services by An Post has been legally protested in the context of EU procurement rules.  The European courts have ruled that competitive tendering is required for the contract.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_19">
+          <from>Deputy Joan Collins<recordedTime time="2014-06-11T15:00:00+01:00"/></from>
+          <p eId="para_67">We have raised issues about how that tendering process should support organisations such as An Post because it provides the service through its post office network throughout the country.  I am not convinced by the Minister's argument.  Perhaps the option of "payment service provider and/or An Post" could be examined again.</p>
+          <p eId="para_68">  There is also an issue with the time allowed.  Larger parties have the ability to move quickly to submit amendments but it is very difficult for Independent Deputies or smaller parties to submit amendments quickly on complex legislation.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_20">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:00:00+01:00"/></from>
+          <p eId="para_69">I will follow up on the last point about the mechanisms for this and other social welfare legislation.  I welcomed the fact that the budget was brought forward to October.  I have been my party's spokesperson on social protection for some time and have had to deal with guillotines being applied to virtually every social welfare Bill in the last ten or 12 years.  On rare occasions, the No. 2 Bill or the Bill that usually appears in May or June has allowed us some time to consider the legislation properly.  The Minister might remember that last year we still ended up with a guillotine, despite the fact that the budgetary change was supposed to allow us to have a number of weeks, if not months, in which to consider social welfare legislation - from October to December.  However, because the Government had lost its majority in the Seanad, it brought the Bill forward, guillotined it and forced us to deal with the legislation without proper time and consideration.</p>
+          <p eId="para_70">  In this instance, there is only one aspect that requires the haste that we are seeing with this Bill - namely, section 16, which the Minister rightly said refers to the EU directive from 2010.  The directive was passed on 7 July 2010 and was supposed to be implemented within two years.  The Minister sought an extension of two years.  Despite the fact that the directive was passed in 2010, the Government has failed in all of the legislation enacted in the two years since 2012 to address it and now, at the last minute, we are addressing it.  It is not our fault that this Bill is being rushed.  The Bill itself, in the main, other than the section we are dealing with here, is not very controversial and should not take a lot of time to debate.  In fact, section 16 itself is not particularly controversial and could have been a standalone Bill in itself, albeit a very short one, which would allow us to pass the directive.  Most of what is contained in the Bill is a tidying up of other legislation and the social welfare code and could have been included in other social welfare legislation to be debated now or in the future.  </p>
+          <p eId="para_71">  The timeframe is very tight for the Department, the Bills Office and ourselves in terms of putting together amendments and dealing with the complexity of the social welfare code.  One has to access other legislation and try to track back over the changes.  It is a pity that this aspect of the Government's promise in the programme for Government is being flouted again.  </p>
+          <p eId="para_72">  To turn to the issue at hand,there is obvious merit in some of these changes.  It is important to ensure a good exchange of information between An Post and the Department so that An Post has the ability to deter fraud, along with the Department itself.  I welcome that aspect, but the problem is that An Post is being deleted from the primary legislation and is being replaced with the term "payment service provider".   There is an inherent danger in that.  An Post won the contract, but part of winning it was that it was specified in legislation that it was the payment provider.</p>
+          <p eId="para_73">If it had not won it, the Minister would have had to change the legislation because it would no longer have been able to address what was set out in law. If nothing else, I believe it has to have prepared bidder status, given the recognition of its role. The role may be economic and commercial but, in particular, it is a social role. There is no guarantee that anyone else who may win the contract in the future in six years' time would have the same attitude and ethos of An Post. From what the Minister has said so far, she is treating An Post as just a commercial entity rather than as an integral part of a public service delivery mechanism. It is not similar to Bank of Ireland or Rabobank, and that difference needs to be recognised. That is what was acknowledged in legislation. The effect of section 3(b) is to delete the provisions of section 5(4) of the Social Welfare Consolidation Act 2005 whereby: "Any expenses incurred by An Post under <i>Part 2 </i>(determined on the basis that may be agreed on between the Minister, the Minister for Finance and An Post) shall be paid by the Minister out of the Social Insurance Fund to An Post...". In effect, the Minister is deleting the reference to An Post and substituting "a payment service provider". This is repeated further on when the Minister deletes from section 242(1)<i>(c)</i> the words "in consultation with An Post, the payment of specified benefits through An Post" and substitutes "the payment of specified benefits through a payment service provider", and in the insertion by section 3(<i>f</i>) of the phrase " ‘specified agency’ means a payment service provider..." instead of the original definition in the Social Welfare Consolidation Act 2005, which states: " "specified agency" means An Post...". The Minister may seek to continue the good relationship with An Post as the preferred agency but another Minister may not in the future.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_21" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:10:00+01:00"/></from>
+          <p eId="para_74">It may be dangerous to suggest that the State prefers any tenderer when it is an open tender competition under EU rules.  Let me stress that An Post applied for the contract and won it.  It is important to specify that, Deputy.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_22">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:10:00+01:00"/></from>
+          <p eId="para_75">That may be the technical nature of the Bill, but I still believe that prepared bidder status should be granted to An Post or others in such contracts.  The movement in European thinking away from the concept of a social Europe and towards a commercial Europe is a danger.  It is not just a danger in terms of An Post but a danger in the approach to the delivery of social welfare services as a whole.  That is the reason I have argued against the putting out to tender of the delivery of unemployment services through JobPath.  This again undermines a public service when one starts to commercialise it by putting JobPath out to tender.  The result of that tender will potentially undermine the delivery of services in the public good, as it is opening up all services to a commercial entity.  Regrettably, the State pursued this agenda with tremendous speed during the era of the Fianna Fáil-Progressive Democrats Government.  Every single State-----</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_23">
+          <from> Chairman<recordedTime time="2014-06-11T15:10:00+01:00"/></from>
+          <p eId="para_76">Deputy, I do not think that is relevant to our discussion.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_24">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:10:00+01:00"/></from>
+          <p eId="para_77">This is what underlies the thinking.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_25">
+          <from> Chairman<recordedTime time="2014-06-11T15:10:00+01:00"/></from>
+          <p eId="para_78">We cannot have speeches.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_26">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:10:00+01:00"/></from>
+          <p eId="para_79">The Minister responded and I am replying to her points, outlining that An Post has a preferred status of some sort, because she states that the Bill strengthens it.  There is no mention of An Post now in the social welfare code as having any additional status.  There was an agenda and I think this Bill continues the agenda to open up the delivery of all services.</p>
+          <p eId="para_80">  The Minister argued also during her concluding remarks on Second Stage that a great many transactions are made through An Post, but that people will seek to use electronic fund transfers, EFTs, more and more.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_27">
+          <from> Chairman<recordedTime time="2014-06-11T15:10:00+01:00"/></from>
+          <p eId="para_81">Deputy, we have spent a long time on this point.  If we want to conclude at 3.45 p.m. and not resume tomorrow, we must remember that.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_28">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:10:00+01:00"/></from>
+          <p eId="para_82">I have no problem, but I will not be rushed on this point.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_29">
+          <from> Chairman<recordedTime time="2014-06-11T15:10:00+01:00"/></from>
+          <p eId="para_83">We agreed at the beginning of the meeting that we would finish today, but we must be out of the room at 3.45 p.m.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_30">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:10:00+01:00"/></from>
+          <p eId="para_84">I have no problem with that, but as I have said, this is the most controversial part of the Bill.  I am responding to the Minister, who raised this issue.</p>
+          <p eId="para_85">  I have argued that more and more transfers from the State should go through An Post, which prevents fraud, although it is awkward for some people to get to a post office in person to claim their payments.  If we are serious in our efforts to tackle fraud, most people will collect their payments from An Post, but more and more the Department is asking for bank details so that the amounts paid by An Post are decreasing in proportion to the number of people signing on.</p>
+          <p eId="para_86">  I will press amendment No. 1 in my name.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_31">
+          <from>Deputy Willie O'Dea<recordedTime time="2014-06-11T15:10:00+01:00"/></from>
+          <p eId="para_87">I take the Minister's point on the deadline for implementing the EU directive, but even if she considers that the provisions of section 16 should be in this Bill, as opposed to in standalone legislation, surely, when the time of the deadline was known, it would have been possible to publish the Bill a week or two sooner so that the Second Stage debate would have been earlier.  Why publish the Bill when one knows one will have to rush the debate on amendments in order to meet the deadline?  Surely the Bill could have been published earlier?  There is a commitment in the programme for Government, as the Minister is well aware, that there be at least a fortnight between the Second and Committee Stages of a Bill.  It comes down to publishing the Bill in time so that there will be a reasonable gap between the Second Stage debate and the consideration of amendments.</p>
+          <p eId="para_88">  The Minister states she is strengthening the position of An Post through the changes she is making here today and that An Post is very strongly represented in the secondary legislation.  It seems a bit perverse to me.  Up to now, An Post was specifically mentioned in the primary legislation, and the Minister now proposes to take it out of the primary legislation, yet she maintains she is strengthening its position.  The Minister's contention seems to boil down to the argument that if one does not take out the reference to An Post from the primary legislation, then the contract being entered into is vulnerable to a challenge.  I do not accept that argument.  The Minister states that it might be challenged and that it could be interpreted as being contrary to this or that aspect of an EU directive.  Are we not great Europeans?  We in this sovereign State must legislate in such a way that there is no possibility whatsoever that anything we do could even be challengeable.  I think a great deal more work should have been done on this and we should have had more discussion with the relevant staff in the legal affairs section of the European Commission, because there is no doubt that this sends out a horrendous signal to the workers with An Post, to the postmasters and to people who genuinely fear for the future of An Post.  All of us have attended large public meetings.  The net reality of the legislation is that the law is being changed to allow for the possibility that even the social welfare contract will be handed to somebody else.</p>
+        </speech>
+        <speech by="#BrendanRyanDublin" eId="spk_32">
+          <from>Deputy Brendan Ryan<recordedTime time="2014-06-11T15:20:00+01:00"/></from>
+          <p eId="para_89">On the reference to An Post in the principal legislation, will the Minister consider the possibility of introducing an amendment on Report Stage to provide for the retention of this reference, perhaps followed by the words "or any other payment service provider" or similar text?  This could satisfy the requirement she outlined.</p>
+        </speech>
+        <speech by="#RayButler" eId="spk_33">
+          <from>Deputy Ray Butler<recordedTime time="2014-06-11T15:20:00+01:00"/></from>
+          <p eId="para_90">As someone with a background in the retail sector, I understand the point the Minister makes about the need to issue tenders for contracts and the possibility that challenges would be made under European legislation.  That An Post will have the contract for the next six years is welcome.  Could the legislation include a requirement on the minimum number of pay-out points to be provided under the contract?  Such a provision would narrow the field and, I am sure, position An Post at the head of the group of contenders given the number of pay-out points available to it.</p>
+          <p eId="para_91">  Post offices in rural areas must be supported by local people, which means they must use them for more than receiving payments.  They should, for example, buy goods in shops where the post office is located.  Having a post office and shop in one location does not guarantee that the shop will remain open.  People should be mindful of the need to support the shops in which post offices are located. </p>
+          <p eId="para_92">  With the abolition of town councils, post offices should play a much greater role in communities, for example, in terms of parking fines.  An Post has a major part to play in the renewal of local authorities. </p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_34" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:20:00+01:00"/></from>
+          <p eId="para_93">On a general legal point, I have been advised that designing tenders to favour one potential bidder may be legally suspect, as anyone who has been involved in contracts will be aware.</p>
+          <p eId="para_94">  To address a point raised by Deputies Joan Collins, Brendan Ryan and Ray Butler, the standards specified in the contract require that the outlets where the services are to be delivered are available for 95% of clients within 3 km in an urban area and 95% of clients within 15 km in a rural area.  As such, the contract will include the specification the Deputies suggested.  To tender for the contract, the bidder must have the potential to have a wide and relatively dense coverage of points at which the services may be provided.  While An Post is in a position to meet this specification, many other potential tenderers will not be able to meet this requirement.  </p>
+          <p eId="para_95">  The import of Deputy Ó Snodaigh's comments is that clients of the Department should be forced to visit a post office in person to collect social welfare payments.  Clients of the Department have been offered a choice of payment for some time.  Many people who retire and have been in employment - this relates to an issue discussed earlier - are likely to have a bank account.  Such persons are likely to indicate a preference for having a retirement pension or other payment made to a specified bank account.  It would be interesting to ascertain how many of the Deputies present collect child benefit in person at their local post office.  The general evidence shows that when people apply for child benefit, applicants with a bank account tend to opt to use that option.</p>
+          <p eId="para_96">  This is another area An Post has sought to develop by expanding and developing the range of banking type services it provides.  I hope the company will address this issue developmentally because there is no doubt, as Deputy Joan Collins noted, that significant numbers of people are not comfortable with electronic banking and are comfortable collecting cash payments.  The Department recognises this and hence the emphasis on the widespread availability of a cash payment service.</p>
+          <p eId="para_97">  For at least two decades, people on retirement pensions or in receipt of child benefit have been able to nominate a bank account for payment and those who have bank accounts tend to avail of this option.  The collection of a payment in person is applicable primarily to jobseekers.  As the Minister with responsibility for addressing fraud, I am anxious that this continue because an issue arises in respect of proof of identity.  In a number of cases people have been found to have had other people collect payments on their behalf.  The Department has introduced controls in airports and so forth to detect people residing outside the jurisdiction who are visiting the country to collect payments to which they were no longer properly entitled.  We stop such payments and, where appropriate, prosecute the individuals in question.  I introduced the legislation necessary to carry out this function because all taxpayers, whether in work or otherwise, contribute taxes and PRSI to pay for a good, solid social welfare system.  They demand and are entitled to a high level of reassurance that the Department will seek, when making payments of almost €20 billion per annum, to keep fraud and error to a minimum.  </p>
+          <p eId="para_98">  On the latter point, the most recent figures, which are for 2012, show that €97 million was recovered.  The overall level of error is approximately 8% and 42% of this is accounted for by suspected fraud.  Third party error by the customer, that is, where he or she makes a misstatement or error, accounts for a further 37% and departmental errors account for approximately 8%.  Cases involving it transpired that people had been left a significant estate and were collecting payments to which they were not entitled accounted for the remaining 13%.  Recoveries in these areas continue to be significant and amounted to approximately €97 million in 2012. </p>
+          <p eId="para_99">  I am aware that Deputy O'Dea was a legal practitioner.  He will be aware, therefore, that in 2007, the contract held by An Post was challenged.  This challenge was not a figment of someone's imagination and further challenges could be taken.  Given that the Deputy was a member of the Government at that time perhaps he will indicate, subject to Cabinet confidentiality requirements, whether that issue and what could be done to secure An Post's future position were discussed.  There were no indications of this when I arrived in the Department.  However, the contract was challenged in 2007.  While I understand the motives of the Deputies, the position of the contract in law must be resilient.</p>
+          <p eId="para_100">Critical to the contract is the spread of services but also the provision of vital services now included in law that strengthen the position of the service provider, An Post, in the role of detecting fraud and errors and probably, more importantly, deterring fraud and errors. People will know that when they go to the local post office, there will be an eagle eye and that if somebody's first cousin or somebody else shows up, that person will be questioned to have their identity and entitlement to the payment checked. I can understand the reason the Deputy's constituent was upset when they were challenged to have their identity checked.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_35">
+          <from>Deputy Joan Collins<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_101">The payment was stopped for four weeks.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_36" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_102">We are talking about very large sums of money.  We have to ask An Post to confirm and verify identities. When people are going to collect such payments, it would be advisable to bring some form of identification with them.  I am aware that there have been many informal arrangements during the years.  As the Deputy and I know, there has been significant movement of people around and in and out of the country and, as Minister for Social Protection, I stand over asking An Post to verify identities in order to deter fraud and errors.  The message must be sent that An Post is doing this job for all those who pay tax and PRSI.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_37">
+          <from>Deputy Joan Collins<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_103">The issue has been well ventilated.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_38">
+          <from> Chairman<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_104">I call Deputy Denis Naughton and ask him to be brief.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_39">
+          <from>Deputy Denis Naughten<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_105">I wish to make two points.  While the legislation must be in place by 5 August, we are early in June and is the Minister saying an extra week cannot be provided for the taking of Committee Stage?  That is not the case.  I am pleased she has outlined the geographic provisions included in the contract.  The figure for rural areas is 15 km for 95% of recipients.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_40" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_106">Yes, 15 km.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_41">
+          <from>Deputy Denis Naughten<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_107">That is a round trip of 19 miles for many vulnerable people living in rural areas to collect social assistance payments, some of whom have to hire a taxi to collect them.  There is a lack of understanding of the hardship this can cause for individuals and communities when the local post office closes.  Having to take a round trip of 19 miles for a person who has to hire a taxi can use up a significant amount of their overall budget for a particular week.  When the contract comes up for renewal, I ask the Minister to examine the 15 km threshold because communities are becoming more isolated owing to the reduction in the size of the sub post office network.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_42">
+          <from>Deputy Willie O'Dea<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_108">I was in government in 2007 when this case was taken.  Without breaching Cabinet confidentiality, of course, the matter was discussed, but it did not require a change in legislation.  I do not see why it requires a change in legislation now, seven years later.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_43">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_109">Obviously, it was challenged.  If it still went ahead, it meant that the procurement process was resilient.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_44" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_110">When did that occur?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_45">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_111">In 2007.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_46" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_112">No, this contract is the first since the legal case was taken in 2007.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_47">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_113">Obviously, it failed.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_48" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_114">No.  Deputy Willie O'Dea would be more familiar with the matter.  The case was won and under EU law it was required to go to tender.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_49">
+          <from>Deputy Willie O'Dea<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_115">To have a competition.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_50" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_116">Yes, under competition law.  </p>
+          <p eId="para_117">  To reply to the question raised by Deputy Denis Naughton, Report Stage will be taken in the Dáil on 18 June.  The Bill will be brought to the Seanad on 2 July and Committee Stage will be taken 9 July and Report and Final Stages on 15 July, in and around the time the House will rise for the summer.  The Bill will be dealt with in the Houses practically every week between now and the summer recess.</p>
+        </speech>
+        <speech by="#BrendanRyanDublin" eId="spk_51">
+          <from>Deputy Brendan Ryan<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_118">I ask the Minister to respond to my suggestion on a phrase which reads "An Post or any other payment service provider".</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_52" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:30:00+01:00"/></from>
+          <p eId="para_119">It will include An Post which is specified everywhere in the regulations.  When we come back to the issue, perhaps I might have a more detailed reply.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_3">
+          <summary eId="sum_8">Amendment put: </summary>
+          <summary title="division" eId="sum_9">The Committee divided: Tá, <quantity refersTo="#ta" normalized="3" eId="qty_1">3</quantity>; Níl, <quantity refersTo="#nil" normalized="6" eId="qty_2">6</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_4">
+            <p eId="para_120">Tá</p>
+            <p eId="para_121">
+              <person refersTo="#JoanCollins">Collins, Joan.</person>
+            </p>
+            <p eId="para_122">
+              <person refersTo="#WillieODea">O'Dea, Willie.</person>
+            </p>
+            <p eId="para_123">
+              <person refersTo="#AengusOSnodaighSF">Ó Snodaigh, Aengus.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_5">
+            <p eId="para_124">Níl</p>
+            <p eId="para_125">
+              <person refersTo="#JoanBurtonLAB">Burton, Joan.</person>
+            </p>
+            <p eId="para_126">
+              <person refersTo="#RayButler">Butler, Ray.</person>
+            </p>
+            <p eId="para_127">
+              <person refersTo="#JimDaly">Daly, Jim.</person>
+            </p>
+            <p eId="para_128">
+              <person refersTo="#AodhanORiordan">Ó Ríordáin, Aodhán.</person>
+            </p>
+            <p eId="para_129">
+              <person refersTo="#BrendanRyanDublin">Ryan, Brendan.</person>
+            </p>
+            <p eId="para_130">
+              <person refersTo="#JoannaTuffy">Tuffy, Joanna.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_10"/>
+          <summary title="decision" refersTo="#lost" eId="sum_11">Amendment declared lost.</summary>
+        </debateSection>
+        <summary eId="sum_12"> Amendments Nos. 2 to 8, inclusive, not moved.</summary>
+        <summary eId="sum_13"> Section 3 agreed to.</summary>
+        <summary eId="sum_14"><b>
+					</b>Section 4 agreed to.</summary>
+        <summary eId="sum_15">NEW SECTION</summary>
+        <speech by="#JoanBurtonLAB" eId="spk_53" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:40:00+01:00"/></from>
+          <p eId="para_131">I move amendment No. 9:</p>
+          <p class="indent_1" eId="para_132">In page 8, between lines 4 and 5, to insert the following:</p>
+          <p class="indent_2" eId="para_133">
+            <b>“Further amendment of section 2(1) of Principal Act</b>
+          </p>
+          <p class="indent_2" eId="para_134"><b>5. </b>The Principal Act is amended in section 2(1) by inserting the following definitions:</p>
+          <p class="indent_4" eId="para_135">“ ‘EEA Agreement’ means the Agreement on the European Economic Area signed at Oporto on 2 May 1992, as adjusted by all subsequent amendments to that Agreement;</p>
+          <p class="indent_4" eId="para_136">‘European Economic Area’ means the European Economic Area created by the EEA Agreement;</p>
+          <p class="indent_4" eId="para_137">‘member state of the European Economic Area’ means a state which is a contracting party to the EEA Agreement;”.”.</p>
+          <p eId="para_138">This amendment clarifies the powers contained in the Social Welfare Consolidation Act enabling the Minister for Social Protection to make regulations providing for refunds of employer PRSI contributions in the case of certain seafarers employed on board vessels registered in a member state of the European Union or the European economic area who are providing scheduled passenger services between points of these states.  This is a technical amendment proposed by the Office of the Parliamentary Counsel in the light of certain provisions contained in sections 5 and 10.  Section 5 relates to refunds of employer PRSI contributions in respect of certain seafarers.  Section 10 provides for changes in the application of the habitual residence condition for entitlement to certain social welfare payments.  Both sections make reference to member states of the European economic area.  While the term "member state of the European Union" is defined for the purposes of the Social Welfare Consolidation Act 2005, the term "member state of the European economic area" is not so defined.  The purpose of the amendment is to provide a definition of the term "member state of the European Economic Area" to be included in section 2(1) of the Social Welfare Consolidation Act.  A member state of the European economic area is defined as a state that is a contracting party to the European economic area agreement, that is, the 28 existing member states of the European Union with Iceland, Norway and Liechtenstein.</p>
+          <p eId="para_139">  By way of background, there is a scheme of PRSI refunds of employer PRSI paid in respect of seafaring employees.  This commenced a long time ago in 1996-97 on foot of proposals brought forward by the then Department of the Marine.</p>
+          <p eId="para_140">This was part of a package of concessions on income tax and PRSI applicable to seafarers, which this reflects. This amendment has been widely welcomed by people who have an interest in this area of economic activity and seafarers, employers and unions.</p>
+        </speech>
+        <summary eId="sum_16"> Amendment agreed to. </summary>
+        <summary eId="sum_17"> Sections 5 and 6 agreed to. </summary>
+        <summary eId="sum_18">SECTION 7</summary>
+        <speech by="#JoannaTuffy" eId="spk_54">
+          <from> Chairman<recordedTime time="2014-06-11T15:50:00+01:00"/></from>
+          <p eId="para_141">Amendment No. 10 in the name of Deputy Aengus Ó Snodaigh has been ruled out of order.  It proposes to amend section 7, which provides that social welfare payments in respect of a qualified adult will not be payable for a periods when the qualified adult is resident outside the State or in prison or detained in legal custody.  This amendment proposes to limit the periods for which payments will be restricted.  The amendment could therefore involve a charge on the Exchequer as it would result in higher levels of payment under these circumstances.  It must therefore be ruled out of order in accordance with Standing Order 156(3).</p>
+        </speech>
+        <summary eId="sum_19"> Amendment No. 10 not moved.</summary>
+        <summary eId="sum_20"> Question proposed: "That section 7 stand part of the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_55">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:50:00+01:00"/></from>
+          <p eId="para_142">I will probably resubmit my amendment on Report Stage.  While the ruling is that it would impose a charge on the Exchequer, it would do if this Bill had passed.  It would not do so because it leaves the<i> status quo</i> as it is.  It is difficult for us in opposition to argue to leave the<i> status quo</i> in these instances.  This is a change and I am not opposed to the change.  I am seeking recognition of cases where somebody is on remand or is detained for a medical or mental health assessment.  These instances are not of long duration but there is no recognition of the suspension of the payment because a person is imprisoned.  That is what my amendment tried to capture.  I am not opposed to the change <i>per se</i>.  I want recognition of occasions when strange circumstances arise that might mean somebody should be entitled to the payment.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_56" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:50:00+01:00"/></from>
+          <p eId="para_143">The social assistance payments are means-tested and are payable on the basis of income need.  In general a person who is detained in prison or legal custody is disqualified for payment throughout the period of detention.  Disqualification applies to claimants and recipients as well as to qualified adults of the claimant or recipient.  This disqualification is informed by the principle that where a person is in prison or has otherwise been detained, his or her needs are being met by the agency of the State responsible for his or her imprisonment or detention.  Deciding officers have the scope to adjudicate on claims for social assistance payments having due regard to the need for adequate scheme controls while at the same time recognising the reality of people’s lives.  In this regard, while there is a general disqualification for receipt of social assistance payments where the claimant or recipient is resident outside the State, payment is allowed for short periods while abroad on holidays and for other immediate family emergencies, including attending a funeral or attending to a relative who has fallen ill.  These arrangements will also apply following the extension of disqualification to the qualified adult of a claimant or recipient where the qualified adult is resident outside the State for similar reasons.</p>
+          <p eId="para_144">  If, however, a person is abroad for any extended period of time in order to care for a sick or disabled relative that person may qualify for income support from that other State and it would not be appropriate in these circumstances to continue income support under the Irish social welfare system. </p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_57">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:50:00+01:00"/></from>
+          <p eId="para_145">I can envisage cases where somebody, a qualified adult, is referred to a mental institution who has commitments to pay bills in the family home.  Removal of a payment in such an instance may cause additional hardship.  The Minister needs to be careful not to make this black and white, to rule out all such instances.  The intention behind my amendment was positive.  It recognises that if someone is abroad or in prison for a long period he or she has to make alternative arrangements and cannot be dependent on the State but there may be periods when the person is on remand, or suffering mental or physical illness, and if that person’s payment provides the main income in the household, there may be a case to continue the payment for a short period.  These instances would probably be the exception rather than the rule.  That is what I was trying to capture in my amendment.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_58" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T15:50:00+01:00"/></from>
+          <p eId="para_146">The prohibitions we are discussing are of long standing in respect of benefits.  A qualified adult allowance cannot be paid if that adult is absent from the State but no such provision exists in respect of the working age assistance schemes, such as jobseeker’s allowance; the pre-retirement allowance; supplementary welfare allowance; disability allowance and farm assist where the qualified adult, normally the partner or the spouse of the main recipient of the assistance is not resident in the State or is in prison or otherwise detained in legal custody.  The amendment speaks for itself.  After I became Minister I made an arrangement with the Department of Justice and Equality such that where a person is sentenced to a term of imprisonment his or her personal public service, PPS, details are forwarded to the Department of Social Protection because the prison system or detention arrangements are providing for the person’s maintenance.  We want to be very sure that people in receipt of payments are lawfully resident in the State.  We felt that it was important to strengthen the legislation in this regard.</p>
+          <p eId="para_147">  In cases of exceptional hardship there is recourse to the community welfare service, as Deputies know.  It is very risky to pay money for extended periods to somebody who is resident abroad because notwithstanding the Deputy’s examples, the person may have just left the State and it is an additional risk to pay people abroad, except when they have notified us that they are leaving for short-term purposes, a holiday or family bereavement.  That is understandable and is allowed for. </p>
+        </speech>
+        <summary eId="sum_21"> Question put and agreed to.</summary>
+        <summary eId="sum_22">SECTION 8</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_59">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T15:50:00+01:00"/></from>
+          <p eId="para_148">I move amendment No. 11:</p>
+          <p class="indent_1" eId="para_149">In page 12, between lines 8 and 9, to insert the following:</p>
+          <p class="indent_2" eId="para_150">“(3) Section 232 of the Principal Act is amended by inserting the following subsection after subsection (3):</p>
+          <p class="indent_3" eId="para_151">“(4) The Minister shall provide a copy of any regulation or variation to a regulation that she proposes to make under this section to the Joint Oireachtas Committee on Education and Social Protection and the Committee shall, having considered the proposal or proposals, report back to the Minister before any such regulation or variation to a regulation may commence.”.”.</p>
+          <p eId="para_152">  In the main this section is welcome and I am not trying to be awkward but because this is a change in the definition of family for the purposes of the family income supplement, in order for a person whose child is not normally a member of the household to be entitled to family income supplement, the person must be providing for the child. </p>
+          <p eId="para_153">This legislation will mean that in circumstances they must also be wholly or substantially maintaining the spouse or civil partner. The Minister will define by regulation the meaning of "normally residing in the household". The problem with a regulation is that the House does not have sight of the regulation. My amendment is an attempt to ensure that whatever regulation will provide that definition will be brought before this committee - as should be the case with other regulations which should come before committees of the Houses - so that we can consider regulations and make proposals for changes or suggestions to the Minister before the regulation is signed off. </p>
+          <p eId="para_154"> FLAC is the only organisation that has prepared a commentary on this Bill and it raises concerns about this section. I suggest the Minister studies those proposals to deal with areas of concern to FLAC, albeit that the organisation said it did not have sufficient time to study the Bill in detail. FLAC suggests that section 8(4) be removed and revised to ensure all families in need of an adequate income to support their children be treated equally with regard to eligibility for family income supplement, regardless of the relationship status of the parents. This is a much broader proposal than what was intended by the Minister but it is worth considering. My proposal may be able to capture some of those points. The Minister will bring the regulation and the definition to the committee for discussion among ourselves and with groups such as FLAC before such a regulation is passed.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_60" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_155">Family income supplement is a weekly tax-free support targeted at low-income workers who have children.  The purpose of the support is to provide an incentive to such workers to take up or to stay in employment rather than claiming a social welfare payment.  FIS provides a crucial support for over 44,000 working families and almost 100,000 children.  Over €280 million is allocated to FIS for 2014.  It is in keeping with the purpose of the FIS scheme in a situation where a claimant for FIS is living apart from his or her spouse or civil partner and children.  It has been the practice to pay FIS in these cases where the claimant is maintaining both his or her spouse or civil partner and his or her children.  This does not include payment of FIS in regard to former cohabitees, due to the practical difficulties of establishing that there was a former cohabitation.</p>
+          <p eId="para_156">  With regard to other social welfare schemes, payment of a qualified child increase may be made to a separated parent living apart from a child, provided that maintenance of an amount equivalent to the qualified child increase rate which is currently €29.80 per week, is being paid in respect of that child.  As the FIS payment is made in respect of a family in cases where parents are separated, support is provided on the basis that the spouse or civil partner is also being wholly or mainly maintained.  The relevant legislative provisions relating to entitlement in cases where the worker is living apart from his or her spouse or civil partner and children, is not fully clear and section 8 clarifies the entitlement to FIS in these circumstances.</p>
+          <p eId="para_157">  Section 8 redefines what constitutes a family for FIS purposes and affirms that FIS cannot be paid to a claimant who is maintaining a child where that child does not reside with the claimant, unless the claimant is also maintaining his or her separated spouse or civil partner with whom the child is residing.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_61">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_158">My amendment does not run contrary to the proposal, but rather it deals with the regulation.  We are happy enough that at least progress is being made and I will not oppose the section.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_62" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_159">It makes the situation clearer for deciding officers.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_63">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_160">When is it intended to publish the regulation if this Bill is passed in July?</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_64" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_161">As soon as possible.  A commencement order is required for this section.  It will be as soon as we can get the regulation through.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_65">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_162">Can the Minister provide a draft of that regulation which would be helpful in our deliberations?</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_66" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_163">We do not have a draft.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_67">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_164">The difficulty is that we are dealing with a new definition of family.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_68" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_165">It will have to be in accordance with what has been described in the Bill.  There is no intention to do anything different.  It will require some legal work which will take some time.  I anticipate that we should have it within a number of months, probably a month or two after the Bill.  It will be available when the House resumes for the autumn term and it will be made available to all Deputies once it is drafted.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_69">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_166">I thank the Minister.</p>
+        </speech>
+        <speech by="#BrendanRyanDublin" eId="spk_70">
+          <from>Deputy Brendan Ryan<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_167">On a related matter, I am interested in the definition of family in the Bill.  The section refers to his or her spouse, civil partner or cohabitant.  My attention is drawn to another payment, the widowed or surviving civil partner grant which only applies to spouse or civil partner and does not apply to a cohabitant.  This seems to be an anomaly.  This is an issue on which a previous response was unsatisfactory.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_71" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_168">I will come back to the Deputy on this point.  There are legal liability relationships between the spouse or the civil partner which may not exist in respect of other potential partnerships.  I will obtain a legal advice on that point for the Deputy.</p>
+        </speech>
+        <summary eId="sum_23"> Amendment, by leave, withdrawn.</summary>
+        <summary eId="sum_24"> Section 8 agreed to.</summary>
+        <summary eId="sum_25">SECTION 9</summary>
+        <speech by="#JoannaTuffy" eId="spk_72">
+          <from> Chairman<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_169">Amendment No. 12 has been ruled out of order in accordance with Standing Order 156(3), because the Bill provides that a family income supplement payment can be stopped during a 52-week period due to a specified change of circumstances and if these circumstances change again, the payments can become payable at the rate which had been due to be paid at the beginning of the 52-week period.  This amendment proposes that the rate payable on the recommencement of this 52-week period would be recalculated at the time the supplement recommences.  This could result in a higher rate of supplement becoming payable which would involve a charge on the Exchequer.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_73">
+          <from>Deputy Willie O'Dea<recordedTime time="2014-06-11T16:00:00+01:00"/></from>
+          <p eId="para_170">It would also lead to a lower rate of supplement being paid and could save money for the State, which is quite bizarre.  We will resubmit the amendment on Report Stage.</p>
+        </speech>
+        <summary eId="sum_26"> Amendment No. 12 not moved.</summary>
+        <summary eId="sum_27"> Section 9 agreed to. </summary>
+        <summary eId="sum_28">SECTION 10</summary>
+        <speech by="#JoanBurtonLAB" eId="spk_74" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:10:00+01:00"/></from>
+          <p eId="para_171">I move amendment No. 12a:</p>
+          <p class="indent_1" eId="para_172">In page 13, to delete lines 32 to 34 and substitute the following:</p>
+          <p class="indent_1" eId="para_173">"(b) the person is a worker or a self-employed person, residing in the State pursuant to article 7 of Directive 2004/38/EC of the European Parliament and of the Council of 29 April 2004, from—".</p>
+          <p eId="para_174">This amendment is required to clarify the category of persons who are not required to satisfied the habitual residence condition, HRC, due to or arising from their employment or self-employment in the State.  This provision is in accordance with EU principles of free movement, which specify that the person must be a worker or self-employed person residing in the member state pursuant to Article 7 of Directive 2004/38/EC of the European Parliament and of the Council of 29 April 2004.</p>
+        </speech>
+        <summary eId="sum_29"><b>
+					</b>Amendment agreed to.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_75">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:10:00+01:00"/></from>
+          <p eId="para_175">I move amendment No. 13:</p>
+          <p class="indent_1" eId="para_176">In page 14, between lines 11 and 12, to insert the following:</p>
+          <p class="indent_2" eId="para_177">"(1A) The Minister shall produce regulations governing the method by which the requirement in paragraph (a) of subsection (1) to remain habitually resident in order for any entitlement to subsist may be controlled or verified by the Department and these regulations must ensure that any such control method or review procedure adopted results in consistent decision-making and is not overly burdensome on those affected.",".</p>
+          <p eId="para_178">The provision in section 10 regarding the habitual residence condition represents a welcome change in this area and a helpful clarification.  It is an issue that has caused a great deal of confusion and is something I encounter regularly in my constituency office.  However, in its submission on the Bill, the Free Legal Advice Centres, FLAC, point out that the wording of the provision is unnecessarily opaque and may actually lead to further confusion and misinterpretation by decision makers.  The submission highlights a lack of clarity as to whether the provisions refer only to persons and their family members who have been less than 12 months in their host countries or to all workers.  This is clearly a complex area of policy and we should, as in all legislation, be seeking to simplify the language, if at all possible, without undermining the intention.</p>
+          <p eId="para_179">  The Department should have the ability to take action to ensure social welfare payments are only made to those persons who are entitled to them.  We are all agreed on that and it is something I have consistently encouraged.  We have some concern, however, regarding the eventual outworking of these provisions and whether additional safeguards might be necessary.  We must avoid a scenario where an unfair burden is placed on people by requiring them repeatedly to jump through hoops to prove their habitual residence.  Once a person has proved that status, he or she should not have to keep doing so every few months, with all of the bureaucracy that entails.  People should not be reluctant to leave the State to visit relatives, for example, for fear their payments will be cut off.</p>
+          <p eId="para_180">  The provisions in section 10 seem at first reading to address concerns that have been raised in this regard over the years.  I welcome these changes in the main.  This is a complicated area of policy, as I said, which is further complicated by our EU membership and the implications of the common travel area.  The phrase "social welfare tourism" often comes up in discussions of this issue.  Certainly, we should not facilitate people who would come here to avail of a beneficial social welfare system, but that must be set against our responsibilities as a developed state to ensure that people who come here to work and who pay taxes in this State also benefit from our social protection provision.  In fairness, the change to the existing regime set out in this section will address some of the difficulties in this regard.  We must ensure, however, that the provisions are enforced properly across the board.  One of the problems heretofore is that there has been a variety of interpretations by deciding officers in different parts of the country, with those interpretations being subsequently overturned by the social welfare appeals office in some cases.</p>
+          <p eId="para_181">  My amendment proposes that the Minister would produce regulations governing the method by which the requirement in regard to habitual residence will be controlled or verified.  It is a simple amendment and I am interested in the Minister's view of whether I have put the right construction on it.  If the issue I am raising is already captured in law and I have read the provision incorrectly, I look forward to her clarification.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_76" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:10:00+01:00"/></from>
+          <p eId="para_182">I do not propose to accept this amendment.  The five factors which determine habitual residence are already laid down in subsection 246(4) of the Social Welfare Consolidation Act 2005, as amended by section 30 of the Social Welfare and Pensions Act 2007, as follows:</p>
+          <p class="indent_1" eId="para_183">...a deciding officer or the Executive, when determining whether a person is habitually resident in the State, shall take into consideration all the circumstances of the case including, in particular, the following:</p>
+          <p class="indent_2" eId="para_184">(<i>a</i>) the length and continuity of residence in the State or in any other particular country;</p>
+          <p class="indent_2" eId="para_185">(<i>b</i>) the length and purpose of any absence from the State;</p>
+          <p class="indent_2" eId="para_186">(<i>c</i>) the nature and pattern of the person’s employment;</p>
+          <p class="indent_2" eId="para_187">(<i>d</i>) the person’s main centre of interest; and</p>
+          <p class="indent_2" eId="para_188">(<i>e</i>) the future intentions of the person concerned as they appear from all the circumstances.</p>
+          <p eId="para_189">This is not an exhaustive list and the underlying principle is to establish where the person's centre of interest lies, as demonstrated from an assessment of all the facts.  These five factors are derived from EU legislation, namely, Article 11 of Regulation 987/2009, and from European Court of Justice jurisprudence, including the 1997 Swaddling case and the Knock case, C-102/91, among others.</p>
+          <p eId="para_190">  My Department has produced extensive guidelines on the habitual residence condition, which are freely available to all staff members and the public.  These guidelines are regularly updated to take account of changing circumstances and changes in domestic and EU jurisprudence.  Where a person is dissatisfied with a deciding officer or designated person's decision in regard to the HRC, he or she may seek a review of that determination and-or submit an appeal to the social welfare appeals office.  There is no charge for requesting a review or making an appeal.</p>
+          <p eId="para_191">  As the elements for the decision-making process are already laid down in primary legislation and there are adequate means of redress through the review appeal procedures, it is unnecessary to provide secondary legislation as proposed in the Deputy's amendment.  While I understand the point the Deputy is raising, I am satisfied that we have an extensive set of indicators in regard to HRC.  We also have an extensive review and appeals procedure, which many other jurisdictions do not have to the same extent.</p>
+        </speech>
+        <summary eId="sum_30"> Amendment by leave withdrawn.</summary>
+        <summary eId="sum_31"> Question proposed: "That section 10 stand part of the Bill." </summary>
+        <speech by="#WillieODea" eId="spk_77">
+          <from>Deputy Willie O'Dea<recordedTime time="2014-06-11T16:20:00+01:00"/></from>
+          <p eId="para_192">I have a point on the section.  Is the Minister aware of the submission we received from FLAC?  It suggests the newly inserted subsection says subsections 1(d) and 1(e) are unnecessary and add nothing to what preceded them.  Not only this but they could give rise to wrong interpretations.  FLAC recommends that these provisions be deleted so perhaps the Minister could consider this between now and Report Stage.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_78" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:20:00+01:00"/></from>
+          <p eId="para_193">In regard to the comments made by FLAC, section 246 (1)(b) means a citizen of a state of the European Economic Area, EEA, who is a worker or self-employed person in this State is habitually resident in the State for the duration of their employment or while in self-employment, in accordance with Directive 2004/38/EC.  Section 246 1(c) extends this provision to family members of workers or self-employed people who are EU or EEA citizens.  Directive 2004/38/EC extends some worker status rights to EU and EEA citizens who have involuntarily become unemployed or are temporarily unable to work because of illness or accidental injury.</p>
+          <p eId="para_194">  Certain conditions apply to the retention of worker status rights.  For example, a person wishing to retain status must register as unemployed and fulfil any conditions attaching to that registration.  The length of time worker or self-employed status is retained depends on the length of the preceding employment or fixed-term employment contract.  A person who has become involuntarily unemployed within the first 12 months of employment or after completion of a fixed-term contract of less than one year and who has registered as unemployed retains worker status for no less than six months.  Such a person may be entitled to claim a means-tested allowance from the State without having to satisfy the habitual residence condition, HRC.  Currently when that person loses his or her worker status the Department has no way to review his or her habitual residence condition and this is the net point.  Subsection 1(<i>d</i>) will give the Department the power to review the HRC of a person who has lost worker status to ensure that condition and any other relevant condition is met throughout the duration of any claim for a means-tested payment.</p>
+          <p eId="para_195">  Section 246 (1)(<i>e</i>) extends those powers of review to family members whose HRC rights are derived from the worker status of the principal worker.  It should be noted that the review or application of the habitual residence condition does not mean that someone who has lost worker status or rights derived therefrom will fail to satisfy the HRC as each case will be dealt with on its own merits using the five factors and any other circumstance that appears relevant.  A person who has been in employment for a period longer than 12 months retains worker status for a longer, but not indefinite, period.  The host member state is entitled to impose conditions other than those relating to habitual residence for entitlement to means-tested payments that conform with those imposed on nationals of that host member state.  For example, we require people on jobseeker's allowance to make themselves available for work.  This simply ensures that if a person is staying in a state, and qualifies, he or she will be subject to the same conditions as a national, long-term resident or citizen of the host member state.</p>
+        </speech>
+        <summary eId="sum_32"> Question put and agreed to. </summary>
+        <summary eId="sum_33"> Sections 11 to 13, inclusive, agreed to</summary>
+        <summary eId="sum_34">NEW SECTION</summary>
+        <speech by="#JoanBurtonLAB" eId="spk_79" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:20:00+01:00"/></from>
+          <p eId="para_196">I move amendment No. 14:</p>
+          <p class="indent_1" eId="para_197">In page 16, after line 35, to insert the following:</p>
+          <p class="indent_1" eId="para_198">
+            <b>“Making and termination of appointments</b>
+          </p>
+          <p class="indent_1" eId="para_199"><b>14. </b>The Principal Act is amended—</p>
+          <p class="indent_2" eId="para_200">(a) in section 250—</p>
+          <p class="indent_3" eId="para_201">(i) in subsection (1), by inserting the following after “those appointments”:</p>
+          <p class="indent_4" eId="para_202">“and the Minister may at any time terminate an appointment under this subsection whether or not the appointment was for a fixed period”,</p>
+          <p class="indent_3" eId="para_203">(ii) by inserting the following subsections after subsection (1):</p>
+          <p class="indent_4" eId="para_204">“(1A) An appointment as a social welfare inspector shall cease—</p>
+          <p class="indent_5" eId="para_205">(a) if the Minister terminates the appointment,</p>
+          <p class="indent_5" eId="para_206">(b) if it is made for a fixed period, on the expiry of that period, or</p>
+          <p class="indent_5" eId="para_207">(c) if the person ceases to be an officer of the Minister.</p>
+          <p class="indent_4" eId="para_208">(1B) A member of the Garda Síochána seconded by the Minister for a purpose referred to in subsection (1) has conferred on him or her all the powers and duties conferred on a social welfare inspector by this section and may exercise those powers and duties under and in accordance with this Act.</p>
+          <p class="indent_4" eId="para_209">(1C) A member of the Garda Síochána exercising a power or duty of a social welfare inspector shall continue to be under the general direction and control of the Commissioner of the Garda Síochána.</p>
+          <p class="indent_4" eId="para_210">(1D) A member of the Garda Síochána exercising a power or duty of a social welfare inspector shall continue to have conferred on him or her and may exercise the powers and duties of a member of the Garda Síochána for purposes other than the purposes of this Act, as well as for the purposes of this Act.”,</p>
+          <p class="indent_3" eId="para_211">(iii) by inserting the following subsection after subsection (7):</p>
+          <p class="indent_4" eId="para_212">“(7A) A member of the Garda Síochána seconded by the Minister for a purpose referred to in subsection (1) shall be given a certificate of his or her secondment, and on entering any premises or place for the purposes of Parts 2, 3, 4, 5, 6, 7, 8 and 12 and this Part shall, if so requested, produce that certificate.”,</p>
+          <p class="indent_3" eId="para_213">and</p>
+          <p class="indent_3" eId="para_214">(iv) in subsection (16), by deleting “in uniform” in each place where it occurs,</p>
+          <p class="indent_3" eId="para_215">and</p>
+          <p class="indent_2" eId="para_216">(b) in section 299—</p>
+          <p class="indent_3" eId="para_217">(i) in subsection (2), by inserting the following after “such allowance”:</p>
+          <p class="indent_4" eId="para_218">“and the Minister may at any time terminate an appointment under this subsection whether or not the appointment was for a fixed period”,</p>
+          <p class="indent_3" eId="para_219">and</p>
+          <p class="indent_3" eId="para_220">(ii) by inserting the following subsection after subsection (2):</p>
+          <p class="indent_4" eId="para_221">“(3) An appointment as a designated person under subsection (2) shall cease—</p>
+          <p class="indent_5" eId="para_222">(<i>a</i>) if the Minister terminates the appointment,</p>
+          <p class="indent_5" eId="para_223">(<i>b</i>) if it is made for a fixed period, on the expiry of that period, or</p>
+          <p class="indent_5" eId="para_224">(<i>c</i>) where the person is an officer of the Minister, if that person ceases to be an officer of the Minister.”.”.</p>
+          <p eId="para_225">This provides for members of the Garda Síochána to exercise, where appropriate, the powers and duties of social welfare inspectors.  It enables the secondment of gardaí to my Department to assist with fraud investigation work.  My Department recently published its new compliance and anti-fraud strategy for 2014 to 2018 and it recognises that we must remain alert to new and emerging forms of social welfare fraud and that our approach must be flexible and dynamic in structure.  Gardaí seconded to work in the Department will be provided with powers under the Social Welfare Acts and this will enable them to work directly with inspectors from the Department's special investigation unit.  They will perform relevant social welfare investigation functions.  It is envisaged that this secondment will be for a period of 12 months.  Secondees will undertake the full range of investigative duties in detecting and combating social welfare fraud.  They will retain the powers of gardaí throughout secondment and will work closely and collaboratively with other compliance and fraud investigation agencies to ensure social welfare fraud is comprehensively deterred and detected.  In serious cases of fraud the gardaí assigned to my Department will be actively engaged in the detection and prosecution of such cases.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_80">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:20:00+01:00"/></from>
+          <p eId="para_226">I have no major issue with this amendment as it is in line with changes in recent years such as multi-agency task forces.  I do have an issue with the deletion of subsection 16 on the fact that a Garda must be in uniform.  Why is this a requirement?  Social welfare inspectors do not wear a uniform so they can act undercover.  The same applies to the Revenue Commissioners, though they have a uniform when on duty.  It is not the case that every official of the State at a checkpoint is out of uniform and undercover.  It was specifically inserted in the legislation that the Garda Síochána or Customs and Excise officer in uniform would accompany a social welfare inspector in the event of an operation against a social welfare fraudster.  This was to ensure it was recognised as a State operation.  I do not recall the Criminal Asset Bureau, CAB, legislation that allowed secondment to Revenue of gardaí in a similar manner to this legislation.  The crimes in those circumstances were on a different level to the fraud that is under discussion here.  I am concerned that nobody would be identifiable and in uniform.  Not only will members of the Garda not be uniform under this provision but Customs and Excise officers also.  Everyone would be in plain clothes.  Have there been incidents that made those involved feel it would be better to be undercover?  Undercover social welfare inspectors investigate specific fraud cases.</p>
+          <p eId="para_227">If social welfare inspectors have that level of evidence that they would require to go undercover with members of An Garda Síochána and Customs and Excise, they should hand it over to An Garda Síochána because it is a criminal matter at that stage. I will not push the amendment to a vote, as I am not opposed to the section <i>per se.</i></p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_81" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_228">The Deputy has acknowledged that the development of multi-agency task forces has been key in detecting and deterring social welfare fraud but obviously it is used in a variety of other situations.  For instance, people might be familiar with the fact that there is multi-agency co-operation in regard to taxi ranks to ensure that the people who are on taxi ranks are properly registered for the purposes of income tax, employment and PRSI.  The multi-agency has been an important development in saving taxpayers in terms of fraud and detecting fraud.  The gardaí will retain their warrant card and their authorisation.</p>
+          <p eId="para_229">  In the case of the CAB there are specific powers under the CAB legislation and, as the Deputy is aware, social welfare officers work with and within the CAB and are seconded to it.  In this particular case the gardaí are coming into the Department of Social Protection to beef up the capacity of the Department in investigations and detection.  It will allow the members of the Garda Síochána to exercise the powers and duties of a social welfare inspector and it facilitates them being seconded to the Department to assist with and undertake fraud investigation work.  The gardaí who are seconded will be provided with powers.  This will enable them to work as and with inspectors from the Department's special investigation unit.  They will perform relevant social welfare investigation functions but will remain gardaí as well.  Officers will investigate, collate and assemble suitable evidence to enable a deciding or designated officer to review an entitlement to social welfare payments and in certain circumstances to use this in legal proceedings.  </p>
+          <p eId="para_230">  We are doing this to enhance the investigative functions of the Department for the purposes of the control of fraud in social welfare schemes.  This sanction has been provided for these temporary assignments.  The Department of Public Expenditure and Reform has approved the secondment of 20 Garda officers for assignment to the unit and people will know that the special investigations unit is headquartered in Carrick-on-Shannon and also operates in areas where there may be specific risks.  During the period I have been Minister I have examined how we can support the people in the special investigations unit to ensure that with a spend of €20 billion we deter fraud, that if fraud occurs on a small-scale basis and where it is significant that we prosecute, and that we send out a message that the Department of Social Protection is not a soft touch in regard to fraud and abuse.  I feel very strongly that not only do I have responsibility to people such as our retired people in regard to social welfare payments but that I have an enormous responsibility to taxpayers paying income tax and PRSI who want to see social welfare money directed particularly to the people who qualify and to those who need it.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_82">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_231">I am conscious of the time and I will not delay the debate other than to say that I will return to this matter on Report Stage.  I am concerned to ensure that we do not end up with a duplication of roles.  For example, with regard to the role of the CAB, we were  promised many years ago that it would not only concentrate on high level crime but that its focus would start to filter down.  I am trying to imagine what 20 Garda officers being seconded to the Department - rather than social welfare officers being seconded to the CAB - would achieve that the CAB would not have achieved in the first place, which was to go after fraud and criminal activity.  I have argued that there should be more social welfare inspectors.  I am not opposed  to the section <i>per se</i>, rather I am concerned that there might be a duplication of roles and I will return to this matter on Report Stage.</p>
+        </speech>
+        <summary eId="sum_35"> Amendment agreed to.</summary>
+        <summary eId="sum_36"> Section 14 agreed to. </summary>
+        <summary eId="sum_37">SECTION 15</summary>
+        <speech by="#JoannaTuffy" eId="spk_83">
+          <from> Chairman<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_232">Amendment No. 15 in the name of Deputy Ó Snodaigh has been ruled out of order because exempting the grants could reduce the amount of money recouped and therefore impose a charge on the Exchequer.  Accordingly, it has been ruled out of order in accordance with Standing Order 1563.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_84">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_233">I argue that it should not have been ruled out of order because it is the existing practice.  It has been ruled out of order perhaps because it is contrary to the future recovery of money in this instance.</p>
+        </speech>
+        <summary eId="sum_38"> Amendment No. 15 not moved.</summary>
+        <speech by="#WillieODea" eId="spk_85">
+          <from>Deputy Willie O'Dea<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_234">I move amendment No. 16:</p>
+          <p class="indent_2" eId="para_235">In page 19, between lines 29 and 30, to insert the following:</p>
+          <p class="indent_1" eId="para_236">"(2) The powers conferred on the Minister by <i>sections 13</i>, <i>14 </i>and <i>15 </i>shall not be utilised until after the Department of Social Protection make all reasonable efforts to recover these payments through installed repayments.".</p>
+          <p eId="para_237">The Bill contains provisions with regard to where the Department of Social Protection or any other Department gets into a situation where it owes somebody money, say, a lump sum.  I am not talking about people who are guilty or fraud but a person who, on the other hand, might owe money to the Department because of a genuine error on their part or on the part of Department, and sometimes if a person becomes entitled to a lump sum there might be a pressing need.  We are talking about people by and large who are living on social welfare.  There might be a pressing need for a lump sum outlay on, say, an essential item of household furniture or due to some illness.  I am not objecting to the idea that if one owes the Department money or<i> vice versa</i>, that one payment can be offset against the other, but each individual situation should be considered and the priority should be to be to get back money somebody owes the Department by way of instalments.  The Department can now seek up to 15% of the principal payment per week.  We had a briefing from some of the Minister's officials a week or two ago and I understand that this will be the practice - that offsetting a statutory lump sum against a lump sum owed will be exceptional.  If that is the case, that should be written into the legislation.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_86">
+          <from> Chairman<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_238">I call Deputy Ó Snodaigh and I ask him to be brief as we want to conclude the Bill.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_87">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_239">I would cite an example, which will back up what Deputy O'Dea said, of a person who was in receipt of a Sustainable Energy Authority of Ireland grant bearing in mind that such a grant is not paid until the person has spent the money.  People apply to their bank or credit union on the basis that they will get the money back by way of the grant in six months time.  If in the meantime the State, under this provision, makes a call on that money, the person concerned would have the expectation of obtaining a grant of, say, €3,000 for insulation and suddenly the State, having discovering something untoward whether through its fault or the fault of the person, can take that €3,000, leaving the person high and dry without any ability to make their repayment.  We should be careful to ensure that in such circumstances money in respect of grants that are payable, be it a sustainable energy grant, disability grant or other grant, should not be taken straightaway.  The matter should be discussed with the person involved and account should be taken of his or her ability to pay the amount involved.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_88">
+          <from> Chairman<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_240">I call Deputy Naughten and I ask him to be brief.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_89">
+          <from>Deputy Denis Naughten<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_241">To give another example, one that I raised with the Minister previously, namely, that a small cohort of children receive compensation from the Health Service Executive on their 18th birthday because the HSE failed in its responsibility to protect them while they were minors.  In such circumstances, if the moneys are due it is to compensate the young people and I hope the money would be used to assist with their education or to provide necessary psychological support.  It should not be used for the purpose outlined or should not be the primary source of funding it.  I hope the Minister will come back on Report Stage to deal with the broader issue I raised with her privately and in the House, namely, that the payments in question – there are only a handful of them – should be excluded from the social welfare calculation in the same way as compensation payments made to women under the Magdalen laundries redress scheme.  It is an anomaly and I call on the Minister to deal with it as a matter of urgency.</p>
+          <p eId="para_242">  Sadly, I cannot table an amendment because it would result in a cost to the Exchequer and, accordingly, the amendment would be ruled out of order, as has happened in the past.  If we are serious about recognising abuse and where the State has ignored its responsibilities today, never mind what went on historically, then surely those who are being neglected today where that has been acknowledged by the State should be treated in a similar manner to those who receive payments for historical abuse.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_90" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_243">I assure Deputies that discretion is always exercised.  Deputy O’Dea referenced the fact that for instance the recovery in instalments for someone on social welfare income is up to 15% of the main payment received by the individual and it does not affect their spouse or qualified child or adult increases.  The recovery of overpayments is important.  My recollection is that last year it amounted to €73 million.  If one thinks about something that is properly prized in the social welfare system such as the free travel scheme, the cost of that to the Department is €77 million.  In an era when funding is extremely restricted for all the reasons of which people are aware it is important that we recover social welfare payments.</p>
+          <p eId="para_244">  I have given examples previously, in particular of people who may have left the social welfare system who are now in work and have other occupations.  We have come across incidents where people no longer have a social welfare income and we are not in a position to recover.  People in places such as Carrick-on-Shannon would be familiar with that.  The same individuals could have fairly extensive bank accounts for instance and they would be in a position to repay money that is outstanding but because they have moved away, thankfully, from being on social welfare, that has not been possible up to now.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_91">
+          <from> Chairman<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_245">If we do not complete consideration of the Bill today we will come back tomorrow at 2 p.m.  Are members agreeable to that?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_92">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_246">I forgot about an amendment that I hoped to propose, which I proposed previously on the Employment Appeals Tribunal and recovery of payments.  The State loses out in unfair dismissals cases because when an award is made the social welfare is deducted from the payment but the State never gets the money back.  I will table an amendment on the issue on Report Stage.  A substantial amount of the overpayments recovery from last year was due to the recovery of an overpayment of a week’s worth of fuel allowance.  That was the equivalent of approximately €12 million.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_93" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_247">I did not include the recovery of fuel allowance in the total.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_94">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_248">I may introduce an amendment on Report Stage.  In some cases the Department is going as far back as 30 years to recover payment, whereas if I look for my tax back I can only go back four years.  There is an anomaly in that regard.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_95" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_249">We do not look for interest or penalties whereas the tax authorities do.  It is important to bear that in mind as well.  Individual social welfare officers exercise significant discretion in individual cases, in particular where there may be a severe hardship impact.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_96">
+          <from> Chairman<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_250">We are over time.  That is fine if we wish to return to business tomorrow but we have many amendments still to address.</p>
+        </speech>
+        <summary eId="sum_39"> Amendment, by leave, withdrawn.</summary>
+        <summary eId="sum_40"> Section 15 agreed to.</summary>
+        <summary eId="sum_41">NEW SECTION</summary>
+        <speech by="#JoanBurtonLAB" eId="spk_97" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_251">I move amendment No. 17:</p>
+          <p class="indent_1" eId="para_252">In page 19, between lines 29 and 30, to insert the following:</p>
+          <p class="indent_1" eId="para_253">
+            <b>“Discrimination on grounds of age in relation to employment schemes and other schemes and programmes</b>
+          </p>
+          <p class="indent_1" eId="para_254"><b>16. </b>(1) Section 359A (inserted by section 29 of the Social Welfare and Pensions Act 2010) of the Principal Act is amended by inserting the following subsection after subsection </p>
+          <p class="indent_1" eId="para_255">(1): </p>
+          <p class="indent_2" eId="para_256">“(1A) For the purposes of subsection (1), a reference to employment includes a reference to self-employment.”.</p>
+          <p class="indent_1" eId="para_257">(2) The Principal Act is amended by inserting the following section after section 359A:</p>
+          <p class="indent_1" eId="para_258">“<b>Discrimination on grounds of age in relation to employment schemes and other schemes and programmes</b></p>
+          <p class="indent_1" eId="para_259"><b>359B. </b>(1)The Minister, in respect of a class of persons prescribed by the Minister under subsection (2), may discriminate on the grounds of age in—</p>
+          <p class="indent_4" eId="para_260">(a) providing, or arranging for and co-ordinating the provision of, a scheme, programme or assistance under section 359A(1)(a),</p>
+          <p class="indent_4" eId="para_261">(b) assisting, whether financially or otherwise, in the provision of a scheme, programme or assistance referred to in section 359A(1)(a),</p>
+          <p class="indent_4" eId="para_262">or</p>
+          <p class="indent_4" eId="para_263">(c) providing for any scheme or programme under section 359A(2).</p>
+          <p class="indent_3" eId="para_264">(2) The Minister may prescribe a class or classes of persons for the purposes of subsection (1) where, on the basis of the information relating to the unemployment rate, the participation rate, or the average duration of unemployment compiled by the Central Statistics Office under section 10 of the Statistics Act 1993 and contained in the most recently published survey for the time being known as the Quarterly National Household Survey—</p>
+          <p class="indent_4" eId="para_265">(a) the unemployment rate for the class of persons is higher than the national unemployment rate,</p>
+          <p class="indent_4" eId="para_266">(b) the participation rate for the class of persons is lower than the national participation rate, or</p>
+          <p class="indent_4" eId="para_267">(c) the average duration of unemployment the class of persons is higher than the average national duration of unemployment.</p>
+          <p class="indent_3" eId="para_268">(3) Before 1 August 2016 and every 2 years after 2016, the Minister</p>
+          <p class="indent_3" eId="para_269">shall—</p>
+          <p class="indent_4" eId="para_270">(a) carry out a review of the operation, effectiveness and impact of this section,</p>
+          <p class="indent_4" eId="para_271">(b) consider whether the prescribing of a class or classes of persons under subsection (2) continues to be necessary, having regard to the matters referred to in paragraph (a), (b) or (c) of that subsection,</p>
+          <p class="indent_4" eId="para_272">(c) make such findings as he or she thinks appropriate consequent on the review and consideration, and </p>
+          <p class="indent_4" eId="para_273">(d) cause a written report of his or her findings resulting from the review and consideration to be prepared and laid before each House of the Oireachtas.</p>
+          <p class="indent_3" eId="para_274">(4) Section 11 of the Employment Equality Act 1998 shall not apply in relation to the performance by the Minister of his or her functions under this section.”.”.</p>
+          <p eId="para_275">The amendment relates to young people, unemployment and the youth guarantee.  To summarise, it will allow us to extend certain entitlements to young people who qualify for the guarantee.  I can send Deputies a note on the details of how the measure will operate if that is helpful.  The change is essential to the operation of the youth guarantee which we are piloting at the moment in Ballymun and which we propose to roll out to the rest of the country.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_98">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_276">I have problems with the section but given the time constraints I am willing to put them on hold because they relate to positive discrimination.  We must be careful about going down that route.  I will table an amendment to that effect.</p>
+        </speech>
+        <summary eId="sum_42"> Amendment agreed to.</summary>
+        <summary eId="sum_43"> Section 16 agreed to.</summary>
+        <summary eId="sum_44">NEW SECTION</summary>
+        <speech by="#JoanBurtonLAB" eId="spk_99" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_277">I move amendment No. 18:</p>
+          <p class="indent_1" eId="para_278">In page 20, between lines 13 and 14, to insert the following:</p>
+          <p class="indent_1" eId="para_279">
+            <b>“Specified bodies</b>
+          </p>
+          <p class="indent_1" eId="para_280"><b>17. </b>Schedule 5 of the Principal Act is amended in paragraph 1(4) by inserting “Irish Water,” after “Health and Social Care Professionals Council,” (inserted by section 20 of the Social Welfare and Pensions (No. 2) Act 2009).”.</p>
+          <p eId="para_281">This is to provide for the authorised use of personal public service numbers, PPSNs, for the purpose of carrying out transactions in respect of Irish Water.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_100">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_282">I am opposed to the change and will oppose it on Report Stage.</p>
+        </speech>
+        <summary eId="sum_45"><b>
+					</b>Amendment agreed to.</summary>
+        <summary eId="sum_46"> Sections 17 to 19, inclusive, agreed to.</summary>
+        <summary eId="sum_47">SECTION 20</summary>
+        <speech by="#WillieODea" eId="spk_101">
+          <from>Deputy Willie O'Dea<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_283">I move amendment No. 19:</p>
+          <p class="indent_1" eId="para_284">In page 21, between lines 30 and 31, to insert the following:</p>
+          <p class="indent_2" eId="para_285">“(2) Failure of the trustees to notify members of changes as outlined under this section shall be deemed an offence as prescribed under section 3 of the Pensions Act 1990.”.</p>
+          <p eId="para_286">A new obligation is imposed on trustees but there is no sanction if they do not fulfil the obligation.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_102" as="#Minister_for_Social_Protection">
+          <from>Deputy Joan Burton<recordedTime time="2014-06-11T16:30:00+01:00"/></from>
+          <p eId="para_287">I am prepared to talk to Deputy O’Dea about the policy development which is ongoing in this space and which will be subsequently addressed.  I will give my note to him.  I wish to make clear that a trustee, employer, PRSA provider, adviser, actuary or any other person who contravenes a provision of the Act is guilty of an offence and, second, under section 3 it is already an offence for a trustee to fail to notify members where the pension authority makes a direction for a scheme to restructure.  I will ask the officials to give Deputy O’Dea a copy of the note.</p>
+        </speech>
+        <summary eId="sum_48"> Amendment, by leave, withdrawn.</summary>
+        <summary eId="sum_49"> Section 20 agreed to.</summary>
+        <summary eId="sum_50"> Sections 21 and 22 agreed to.</summary>
+        <summary eId="sum_51">TITLE</summary>
+        <summary eId="sum_52"> Question proposed: "That the Title be the Title to the Bill."</summary>
+        <speech by="#DenisNaughten" eId="spk_103">
+          <from>Deputy Denis Naughten<recordedTime time="2014-06-11T16:50:00+01:00"/></from>
+          <p eId="para_288">I will bring forward an amendment on Report Stage on a vaccine compensation scheme.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_104">
+          <from> Chairman<recordedTime time="2014-06-11T16:50:00+01:00"/></from>
+          <p eId="para_289">That is noted.  I thank the Minister and her officials for attending and I also thank committee members.</p>
+        </speech>
+        <summary eId="sum_53"> Question put and agreed to.</summary>
+        <summary eId="sum_54"> Bill reported with amendments.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_6">
+        <heading>Message to Dáil<recordedTime time="2014-06-11T15:50:00+01:00"/></heading>
+        <speech by="#JoannaTuffy" eId="spk_105">
+          <from> Chairman<recordedTime time="2014-06-11T16:50:00+01:00"/></from>
+          <p eId="para_290">In accordance with Standing Order 87, the following message will be sent to the Dáil:</p>
+          <p class="indent_1" eId="para_291">The Select Sub-Committee on Social Protection has completed its consideration of the Social Welfare and Pensions Bill 2014 and has made amendments thereto.</p>
+        </speech>
+        <summary eId="sum_55"> The select sub-committee adjourned at 3.50 p.m. <i>sine die</i>.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

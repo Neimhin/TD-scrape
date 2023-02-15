@@ -1,0 +1,872 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2006-03-22/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2006-03-22/debate"/>
+          <FRBRdate date="2006-03-22" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/joint_committee_on_european_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2006-03-22/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2006-03-22/debate/mul@"/>
+          <FRBRdate date="2006-03-22" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2006-03-22/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2006-03-22/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None" eId="#vol_None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/164" showAs="No. 164" eId="#no_164"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="AnnOrmonde" href="/ie/oireachtas/member/id/Ann-Ormonde.S.1993-02-17" showAs="Ann Ormonde"/>
+        <TLCPerson eId="BarryAndrewsFF" href="/ie/oireachtas/member/id/Barry-Andrews.D.2002-06-06" showAs="Barry Andrews"/>
+        <TLCPerson eId="BernardAllen" href="/ie/oireachtas/member/id/Bernard-Allen.D.1981-06-30" showAs="Bernard Allen"/>
+        <TLCPerson eId="BillyGodfreyTimminsFG" href="/ie/oireachtas/member/id/Billy-Timmins.D.1997-06-26" showAs="Billy Timmins"/>
+        <TLCPerson eId="DanWallace" href="/ie/oireachtas/member/id/Dan-Wallace.D.1982-12-14" showAs="Dan Wallace"/>
+        <TLCPerson eId="DerekMcDowell" href="/ie/oireachtas/member/id/Derek-McDowell.D.1992-12-14" showAs="Derek McDowell"/>
+        <TLCPerson eId="DonLydon" href="/ie/oireachtas/member/id/Don-Lydon.S.1987-04-25" showAs="Don Lydon"/>
+        <TLCPerson eId="JohnDeasyFG" href="/ie/oireachtas/member/id/John-Deasy.D.2002-06-06" showAs="John Deasy"/>
+        <TLCPerson eId="JohnEllis" href="/ie/oireachtas/member/id/John-Ellis.S.1977-10-27" showAs="John Ellis"/>
+        <TLCPerson eId="MaeSextonPD" href="/ie/oireachtas/member/id/Mae-Sexton.D.2002-06-06" showAs="Mae Sexton"/>
+        <TLCPerson eId="PaudgeConnolly" href="/ie/oireachtas/member/id/Paudge-Connolly.D.2002-06-06" showAs="Paudge Connolly"/>
+        <TLCPerson eId="PaulBradford" href="/ie/oireachtas/member/id/Paul-Bradford.S.1987-04-25" showAs="Paul Bradford"/>
+        <TLCPerson eId="RuairiQuinn" href="/ie/oireachtas/member/id/Ruairí-Quinn.S.1976-07-01" showAs="Ruairí Quinn"/>
+        <TLCPerson eId="SeamusKirk" href="/ie/oireachtas/member/id/Seamus-Kirk.D.1982-12-14" showAs="Seamus Kirk"/>
+        <TLCPerson eId="WillieODea" href="/ie/oireachtas/member/id/Willie-O'Dea.D.1982-03-09" showAs="Willie O'Dea"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Defence" href="/ie/oireachtas/role/minister/defence" showAs="Minister for Defence"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN COMHCHOISTE UM GHNÓTHAÍ EORPACHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON EUROPEAN AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2006-03-22">Dé Céadaoin, 22 Márta 2006</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2006-03-22">Wednesday, 22 March 2006</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 2 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#BernardAllen">
+                Deputy B. Allen,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#MaeSextonPD">
+                Deputy M. Sexton,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#BarryAndrewsFF">
+                Deputy B. Andrews,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#DanWallace">
+                Deputy D. Wallace,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#PaudgeConnolly">
+                Deputy P. Connolly,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#PaulBradford">
+                Senator P. Bradford,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#SeamusKirk">
+                Deputy S. Kirk,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#DonLydon">
+                Senator D. Lydon,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#AengusOSnodaighSF">
+                Deputy A. Ó Snodaigh,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#DerekMcDowell">
+                Senator D. McDowell,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#RuairiQuinn">
+                Deputy R. Quinn,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#AnnOrmonde">
+                Senator A. Ormonde.
+              </person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">In attendance: Deputy B. Timmins.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#JohnDeasyFG">
+   DEPUTY J. DEASY IN THE CHAIR.
+  </person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Joint Committee.</heading>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_13">Apologies have been received from Senator Dardis. Is it agreed that we go into private session to discuss private business? Agreed.</p>
+          <p eId="para_14">The joint committee went into private session at 2.05 p.m. and resumed in public session at 2.55 p.m.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>EU Battle Groups: Ministerial Presentation.</heading>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_2">
+          <from>Chairman</from>
+          <p eId="para_15">On behalf of the joint committee, I welcome the Minister for Defence, Deputy O'Dea, and his officials, Mr. Michael O'Donoghue, assistant secretary; Mr. Ciaran Murphy, principal officer, and Mr. John Nolan, assistant principal officer. I apologise for the delay in calling the delegation.</p>
+        </speech>
+        <speech by="#WillieODea" as="#Minister_for_Defence" eId="spk_3">
+          <from>Minister for Defence (Deputy O’Dea)</from>
+          <p eId="para_16">Ireland has been and remains a staunch supporter of the Charter of the United Nations and the primacy of the Security Council in the maintenance of international peace and security. We take very seriously our obligation under the charter to make armed forces, assistance and facilities available to the Security Council in order to contribute to international peace support operations. To this end Ireland has always sought to remain at the forefront of the development of multinational arrangements in such operations, both in the United Nations and international organisations, including the European Union and the OSCE. Our participation under the European Union's European Security and Defence Policy, ESDP, is a continuation of our long and honourable tradition of support for multilateral arrangements in the maintenance of international peace and security. The European Security and Defence Policy is an integral part of the Common Foreign and Security Policy which encompasses the European Union's international obligations in the maintenance of international peace and security. Military capabilities are but one element among a wide range of instruments which the Union can deploy in this regard, which include economic, political, administrative rule of law instruments, etc.</p>
+          <p eId="para_17">ln the Headline Goal 2010 the European Union set itself the objective, <i>inter alia, </i>of being able “to respond with rapid and decisive action applying a fully coherent approach to the whole spectrum of crisis management operations covered by the Treaty on the European Union”. A key element of the headline goal is the capability to deploy forces at high readiness, broadly based on the battle groups concept. Like many others, I find the term “battle group” unfortunate. It has connotations that some will exploit to raise baseless fears. Nonetheless, it is the underlying concept on which we should focus, not the term itself which is a technical military one for a rapidly deployable force, usually of battalion size which, with support elements, comprises approximately 1,500 personnel.</p>
+          <p eId="para_18">The ambition of the European Union to be able to respond rapidly to emerging crises has been and continues to be a key objective of the development of the European Security and Defence Policy. The tasks to be carried out under the policy, the so-called Petersberg Tasks, are defined in the Amsterdam treaty as "humanitarian and rescue tasks, peacekeeping tasks and tasks of combat forces in crisis management, including peacemaking". Our participation under the European Security and Defence Policy and in the Petersberg Tasks has been endorsed and supported directly by the people in the referendum on the Treaty on European Union,TEU, and the subsequent referenda on the Amsterdam and Nice treaties. Our participation under the European Security and Defence Policy is also fully in accordance with our traditional support for the United Nations and obligations as a member of the international community to respond to crises, events and humanitarian disasters, wherever they occur. The European Union has the potential to play an increasing role in responding to emergency crises, providing humanitarian relief and supporting the maintenance of international peace and security in furtherance of the aims of the United Nations and the UN Charter. Accepting this role is not just an EU ambition, it is also an EU obligation and an obligation for Ireland as a member of both the European Union and the United Nations.</p>
+          <p eId="para_19">Ireland favours the development of the European Union's rapid response capability in support of UN authorised missions and is positively disposed towards participation in battle groups in this regard. To this end, I established the interdepartmental group to examine all issues relating to Ireland's potential participation in an EU-led rapid response mission. The group reported in November 2005 and its report has since been considered by the Cabinet sub-committee on European affairs and, informally, the Government.</p>
+          <p eId="para_20">Battle group commitments can be met within the 850 ceiling on the number of military personnel serving overseas set by the Government in the White Paper on Defence in 2000. Moreover, participation by the Defence Forces in EU battle groups raises no policy issues in terms of Ireland's commitment and approach to the maintenance of international peace and security which is and will remain grounded in the framework of the UN Charter. There is no conflict between Ireland's participation in regional arrangements, including EU battle groups, and our traditional policy of support for the United Nations. Participation in any EU operation remains subject to a national sovereign decision. Our current policy on the triple lock will not be compromised by participating in battle groups.</p>
+          <p eId="para_21">As part of its study, the interdepartmental group has recommended some changes to current legislation in the light of the increasing range of operations where military forces can play a role and the need for increased interoperability and training in order that we can be more effective and efficient once deployed. It is important to the development of capabilities and the ongoing training of the Defence Forces that they can undertake training overseas and learn from best practice in other countries. While not conclusive, the study raised possible questions as to whether Defence Forces personnel could be sent overseas to undertake such training which is essential to the development and maintenance of high standards in the military and our existing peace support operations, where we work alongside many other armies. I intend to introduce amending legislation to put this issue beyond doubt.</p>
+          <p eId="para_22">Moreover, in the light of developments since the Defence Act was amended in 1960 to provide for participation in UN peace support operations, for the avoidance of doubt, it is intended to update the wording in the Act to reflect more closely current practice in the formulation of UN Security Council resolutions endorsing peace support operations. The triple lock requirement of UN, Government and Dáil approval will stand irrespective. I also propose to provide for the participation of Defence Forces personnel in humanitarian operations in response to natural and man-made disasters such as the tsunami in south-east Asia or the earthquake in Pakistan. Currently, personnel must volunteer for service with a civil undertaking, in the same manner as ordinary citizens, and cannot be deployed at the behest of the Government. These issues are important and must be addressed. The requirement for this amending legislation arises, irrespective of our participation in battle groups. It is my hope, with the co-operation of the Oireachtas which I expect will be readily forthcoming, to have the necessary legislation enacted before the summer recess.</p>
+          <p eId="para_23">Following on from consideration of the report of the interdepartmental group, discussions with other like-minded nations on a potential contribution by Ireland to a battle group have commenced. A delegation comprising representatives from the Departments of Defence and Foreign Affairs and the Defence Forces met its Swedish counterpart in Stockholm on 9 and 10 March to discuss possible participation by the Defence Forces in the Nordic battle group. Our representatives outlined Ireland's position on battle group participation and international peacekeeping generally and made a presentation on the capabilities which Ireland could make available to such a group. These range from smaller niche capabilities up to an APC mounted light infantry company group of approximately 200 personnel, plus support elements. This is being considered by Sweden, the framework nation for the Nordic battle group. Further consultations between the Defence Forces and the Swedish armed forces and between officials of the respective Ministries are planned. Any decision on a specific contribution to a battle group will be subject to formal Government approval.</p>
+          <p eId="para_24">Battle groups are no panacea. They will not take over the role of larger forces deployed by the United Nations on peace support operations. However, in specific circumstances they have the potential to stabilise a situation and create the conditions to enable a more substantive force to be deployed.</p>
+          <p eId="para_25">The development of the battle group concept and Ireland's participation are strongly supported by the United Nations which clearly appreciates the benefits of having such a capability available to it. In his speech at McKee Barracks last year and address to the National Forum on Europe on 14 October 2004 the United Nations Secretary General, Kofi Annan, specifically stressed how important strengthened EU capacities, in particular rapid deployment capability, were to the United Nations. In March 2005, in his major report on UN reform entitled, In Larger Freedom, he called on the international community to support the efforts by the European Union, the African Union and others to establish standby capacities as part of an interlocking system of peacekeeping capacities.</p>
+          <p eId="para_26">I am satisfied the development of the EU battle group concept provides another dimension and vehicle, within which Ireland can contribute further to the United Nations and its international peace support operations. I am also keenly aware of the potential which battle groups can offer in support of UN operations, one of the key objectives of the concept. This is a further way of expressing Ireland's commitment to the United Nations and its principles. As such, Ireland will continue to contribute to the development of the EU battle group concept in co-operation with like-minded nations and will remain at the forefront of developments within the international community in assisting international peace support operations.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_4">
+          <from>Chairman</from>
+          <p eId="para_27">I thank the Minister. If the legislation is enacted before the summer recess, how soon could we participate in a battle group?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_5" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_28">We have begun discussions with Sweden, the framework nation for the Nordic battle group, a multinational battle group, consisting of Sweden, Finland, Norway and Estonia. I understand the outcome of the meeting held in Stockholm on 9 and 10 March was positive. We explained to the Swedes what we could provide and they listened. Obviously, nothing can happen until the necessary legislation is in place. If it is in place by the summer recess, I imagine something could take place early next year. I am told it would probably be towards the latter end of next year that we would be in a position to participate.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_6">
+          <from>Chairman</from>
+          <p eId="para_29">Assuming it happens, to where would the 200 personnel go and what would they do? Has any location been targeted in that regard?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_7" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_30">No. The need for a battle group will be considered on a case-by-case basis. The European Union must decide.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_8">
+          <from>Chairman</from>
+          <p eId="para_31">Nothing has been identified.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_9" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_32">It has not yet identified any place for the deployment of a battle group. Ireland is contributing seven officers at headquarters and 419 troops to the UN mission in Liberia. They are part of a joint team with the Swedes, constituting the rapid reaction force. There is little difference between what we anticipate as being battle groups and what the joint Irish-Swedish force is doing in theatre.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_10">
+          <from>Chairman</from>
+          <p eId="para_33">The Minister spoke of a ceiling of 850 personnel serving abroad to meet UN as well as battle group obligations. Is that correct?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_11" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_34">Yes.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_35">Will that place a strain on our UN obligations? The Minister referred to a figure of 426 personnel in Liberia. Where else are personnel deployed?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_13" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_36">We have approximately 230 personnel in Kosovo, approximately 54 in Bosnia and one or two in various locations around the globe. I believe the total number serving abroad is approximately 766. We plan to downsize the number committed to Liberia from June. The objective is to have this phased out by the end of the year, provided the situation there continues to stabilise. We had decided to downsize our operations in Kosovo, where we have over 200 troops, in 2004. However, due to a renewal of difficulties there in March 2004 this plan was put on hold.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_37">There will be no difficulty in staying within that ceiling.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_15" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_38">That is correct. There will be no problem.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_16">
+          <from>Deputy Allen</from>
+          <p eId="para_39">I welcome the Minister and his officials. The concept of the EU battle group is based on the ability to respond rapidly to global crises. Given that the Irish situation requires Government, Dáil and UN Security Council approval is there some conflict in our position as regards the triple lock and the principles of EU battle groups? The UN sometimes has long and laborious debates before taking decisions and some of the permanent members of the Security Council can impose a veto, as they did in Macedonia. Does the Minister see a conflict of principle between our triple lock and our stated willingness to become involved in battle groups, as these are defined? From what the Minister has said I presume that the only country that has been approached by Ireland as regards potentially forming a battle group is Sweden. Are there any EU countries that Ireland would deem to be unsuitable for partnership or involvement within EU battle groups?</p>
+          <p eId="para_40">To address the nitty gritty of Irish potential, is there a need for the Permanent Defence Force to dramatically improve its equipment and technology to be able to co-operate effectively with our EU partners?  What scale of involvement is expected from the Army, the Naval Service and the Air Corps? The Minister has clarified the position as regards getting involved in training missions prior to any involvement in battle groups and the fact that there is need for legislation on this. My main concern, however, is that we will be hamstrung and that there is a serious contradiction in retaining the triple lock and becoming involved effectively. We will avoid any future embarrassment about wanting to get involved while remaining hamstrung by the triple lock.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_17" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_41">Deputy Allen has raised a number of interesting points. As regards potential conflict, assuming that Ireland joins the Nordic battle group, it is true we would be the only country in that multinational body with a legal requirement for a United Nations resolution. My understanding, however, is that while there is no legal requirement in these other countries, it is regarded almost as a political imperative to have United Nations sanction. Generally speaking, these countries will not move without that.</p>
+          <p eId="para_42">I accept there could be a situation where there is an immediate pressing urgency and people have to move. In the event, Ireland could not participate without United Nations sanction. Deputy Allen is right about that. To put that position forward as Government policy reflects the will of the people. It is our foreign policy and we have a commitment to the people that we will not get involved in foreign military adventures unless these are sanctioned by the United Nations. That is the decision of this Government and in formulating that policy we are reflecting the will of the people</p>
+          <p eId="para_43">Some countries will not want to get involved in certain parts of the world, for historical reasons but Ireland is not carrying such historical baggage. There can be a number of reasons one or other of the countries involved in a multinational battle cannot, will not or is hesitant about getting involved. That is why the people putting the multinational battle groups together will provide for inbuilt redundancy arrangements in order that there are alternatives to call on if one or more of the participants cannot get involved.</p>
+          <p eId="para_44">Deputy Allen asked whether there were any EU countries with which Ireland would not participate. I understand about 17 multinational and four single nation battle groups are being proposed. There will be no room to participate with countries providing the single national battle groups. These are the United Kingdom, Germany, Italy and France.</p>
+          <p eId="para_45">As regards equipment and technology, there is some misunderstanding as regards the types of operations in which the battle groups will be involved which, essentially, will be at the more intensive end of the Petersberg Tasks and chapter 7-type operations. That is precisely what Ireland is involved in at Liberia at the moment. When we were deploying troops to Liberia, the Oireachtas rightly raised issues as to whether they had sufficient force protection assets, equipment, etc., to participate in a mission of this type. It has been found that they have.</p>
+          <p eId="para_46">There was a meeting in Stockholm, as I said, on 9 and 10 March, where we explained to the framework nations of the Nordic battle group what was available to us. My information is that they were quite impressed by that. Therefore, I do not see any need immediately or in the short term to acquire any further equipment or technology. The Army has certainly never been better equipped. It has first-rate equipment and technology, which is highly admired worldwide.</p>
+          <p eId="para_47">As regards the Deputy's question about the Naval Service and the Air Corps, we will not be deploying any naval assets such as ships or aircraft. However, individual members of the Naval Service or the Air Corps can participate.</p>
+          <p eId="para_48">The Deputy asked me another question——</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_18">
+          <from>Deputy Allen</from>
+          <p eId="para_49">Are there any unsuitable countries?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_19" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_50">No countries are unsuitable, but we have spoken to Sweden, as I have said. We have also had very preliminary discussions with Finland and Austria.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_20">
+          <from>Deputy Allen</from>
+          <p eId="para_51">Does the Minister believe our delay and indecisiveness in reaching a position meant that some countries had paired off while others had entered into alliances so that we were left with a limited choice? Will he say where the people's will has been expressed as regards the triple lock and where have they expressed the view that China can effectively veto the decisions of the Government and the Dáil? As a sovereign nation, Ireland should have the right to make such decisions for itself.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_21" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_52">I totally reject Deputy Allen's unwarranted insinuation as regards indecisiveness. There is no indecisiveness. There were a number of obstacles which had to be overcome.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_22">
+          <from>Deputy Quinn</from>
+          <p eId="para_53">The lack of Cabinet seats in Limerick East.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_23" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_54">Ways have to be found to deal with matters within the law and according to the Constitution. There were also questions about inter-operability with other countries and how we will fit into the scheme, generally. To my knowledge no battle group has been deployed as yet.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_24">
+          <from>Deputy Allen</from>
+          <p eId="para_55">The Minister said, however, that 17 of the 25 had made decisions as regards——</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_25" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_56">If Deputy Allen listens, he will hear what I am saying.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_26">
+          <from>Deputy Allen</from>
+          <p eId="para_57">I am listening. Part of the problem——</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_27" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_58">No battle group has been deployed as yet.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_28">
+          <from>Chairman</from>
+          <p eId="para_59">The Minister should be allowed to finish.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_29" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_60">Deputy Allen cannot resist an audience.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_30">
+          <from>Deputy Allen</from>
+          <p eId="para_61">I wish I had the briefing document in plenty of time in order that I might have digested it.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_31" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_62">If he had more time, would it have made more sense, with respect? Deputy Allen is his party's spokesman on foreign affairs. Perhaps he would make more sense if he had more time. He can take as much as he likes.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_32">
+          <from>Deputy Allen</from>
+          <p eId="para_63">The Minister has a habit of pointing guns, but I would ask him not to point fingers now.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_33" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_64">He might get away with interrupting Government spokesmen in the Dáil. He will not, however, interrupt me. I will make my case and he will not shout me down.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_34">
+          <from>Chairman</from>
+          <p eId="para_65">Outside of interruptions, let us keep matters non-personal.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_35">
+          <from>Deputy Allen</from>
+          <p eId="para_66">Keep it level, boy.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_36" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_67">The Deputy can direct those remarks to his colleague as well.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_37">
+          <from>Deputy Allen</from>
+          <p eId="para_68">Keep it civilised now.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_38" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_69">No battle group has been deployed yet and there is no indecisiveness. Our capacity to participate in battle groups and the extent to which we will involve ourselves are matters which have yet to be worked out. We have begun the process of determining what the level of participation will be and it will become evident as soon as the legislation is enacted. I look to Fine Gael and the other parties in Opposition to help us enact it quickly.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_39">
+          <from>Deputy Allen</from>
+          <p eId="para_70">We will have to see it first.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_40">
+          <from>Chairman</from>
+          <p eId="para_71">Does Deputy Allen wish to respond?</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_41">
+          <from>Deputy Allen</from>
+          <p eId="para_72">No, the Minister has said enough to show that he is short on detail.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_42">
+          <from>Chairman</from>
+          <p eId="para_73">Is there any potential for co-ordination with NATO?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_43" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_74">No.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_44">
+          <from>Chairman</from>
+          <p eId="para_75">There will not be.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_45" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_76">Sometimes NATO assets may be used by a battle group, depending on the circumstances.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_46">
+          <from>Chairman</from>
+          <p eId="para_77">Can the Minister say what the level of use would be?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_47" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_78">It will depend on particular circumstances on a case-by-case basis. If NATO was involved in a scenario and a battle group was also deployed to it, the group might use NATO assets already available <i>in situ.</i>
+                    </p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_48">
+          <from>Chairman</from>
+          <p eId="para_79">NATO and battle group forces could——</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_49" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_80">I refer to the use of NATO equipment.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_50">
+          <from>Chairman</from>
+          <p eId="para_81">In fairness, the equipment would have to be operated by NATO personnel.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_51" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_82">It should be noted that Ireland is not the only country with a decision-making process. Others have quite elaborate systems.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_52">
+          <from>Deputy Andrews</from>
+          <p eId="para_83">I welcome the Minister, who has brought a bit of life to the committee.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_53" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_84">I make no apologies for responding when I am attacked. What did Sinn Féin say about that?</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_54">
+          <from>Deputy Quinn</from>
+          <p eId="para_85">There is an outbreak of McDowellism in the Cabinet.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_55" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_86">We get military advice over here.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_56">
+          <from>Deputy Andrews</from>
+          <p eId="para_87">I disagree with the Minister in that I do not object to the term "battle group". I am tired of euphemism and the watering down of phrases to placate people. The phrase "climate change" is used to placate people who are worried about global warming being understood to mean what it does. The phrase I object to is "triple lock" as the lock is only a single one. Every decision is controlled by the Executive which controls the Government in the Dáil.</p>
+          <p eId="para_88">I agree with Deputy Allen, who I do not think was referring to indecision on the Minister's part, but rather to the forms of indecision which have been an embarrassment to the entire EU in the context of events in central Africa in the 1990s. Serious events have been taking place for the last ten years in the Republic of the Congo where elections in June are likely to result in the wheels again falling off the wagon. The Congo is almost entirely lawless and 3 million people have died there due to famine, war and displacement, but we have not lifted a finger to help. It is not the Minister's fault, but an EU-wide problem.</p>
+          <p eId="para_89">We are obsessed with regulations and acting in certain prescribed manners to ensure we do not offend people who would take advantage of the phrase "battle groups". It is an absolute embarrassment to us all. If the legislation will take until early next year to be effective but things go wrong in the Congo in the next three months, we will not be prepared legislatively to address what happens. What is the difference in the way in which the Government will be able to react in three months and its ability to react after nine months when the legislation is ready? What will be the qualitative differences in our ability to react at one time and the other to a major crisis in central Africa similar to the one which occurred in Rwanda? We did nothing about Rwanda whatsoever. Given the real possibility that the Congo may fall into complete lawlessness in June, are we in a position to do anything about it?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_57" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_90">As there appears to be some confusion, I should explain matters a little more clearly. Agreement to participate in a multinational battle group will not mean a country is called on all the time. Battle groups will be on standby for a period of six months. Until the end of 2006, one battle group will be on standby in each six-month period and from the end of 2006 there will be two on standby. From 1 January 2007, therefore, the EU will have the capacity to deploy on two operations simultaneously. Ireland will, therefore, be called upon to be on standby for a six-month period once every three years.</p>
+          <p eId="para_91">I did not coin the term "battle group". The difficulty with it is that people who are obsessed with the idea that participation compromises Irish neutrality are inclined to refer to battle groups to suggest that there is a qualitative difference between their activities and peacekeeping. Such people suggest Irish soldiers will be storming citadels, engaging in acts of aggression and attacking armies but that will not be the case. Battle groups will be involved in chapter 7 missions which will be structured in such a way as to respond to a need for speed.</p>
+          <p eId="para_92">The term "triple lock" refers to the fact that three criteria will have to be met before Ireland can engage in a UN peacekeeping operation. There must be a UN resolution, a Government decision and, third, approval by the Dáil. Members may call it a single, double or triple lock if they wish.</p>
+          <p eId="para_93">A request has been made to provide backup for the substantial MONUC force which is already in place in the Congo. The supplementary force of approximately 400 soldiers to assist during the course of the election will be based in Kinshasa. A further force will be termed an "over the horizon force" and based in Europe or a neighbouring African state. Proposals to supply these forces have been put to the EU and various commitments have already been made. It should be noted that quite a few EU states which are bigger than Ireland have made no commitment at all, while we have suggested sending ten soldiers. Nobody has come back to us on the proposal. The bulk of the force, or 90%, will most likely be supplied by France and Germany. Mr. Javier Solana and others have been in touch with the Government as the problem is not so much one of numbers but the need for the force to be multinational in structure. If people want us to supply more soldiers or consider sending equipment or other expertise, we are prepared to consider their requests favourably.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_58">
+          <from>Deputy Andrews</from>
+          <p eId="para_94">The legislation will mean that the Government will supply perhaps 50 soldiers to a battle group which will be placed on stand-by for a six-month period. Where will the group be based?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_59" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_95">The soldiers will be sent abroad, presumably to the framework nation for training. Soldiers appointed to a battle group will train together.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_60">
+          <from>Deputy Andrews</from>
+          <p eId="para_96">If an incident then occurs in the Congo or elsewhere, will the Dáil have to approve the particular mission at that point?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_61" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_97">Yes. There will be no difference between how we could respond to a crisis in the Congo now and how we will be able to respond on foot of the legislation in nine month's time. The Nordic battle group will not be ready to deploy until the end of 2007 or even 1 January 2008. As I understand it, there are already two battle groups on standby, which means the EU has the ability to intervene in the Congo if necessary. While Ireland would not be included, one of the single-nation battle groups could be deployed.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_62">
+          <from>Deputy Quinn</from>
+          <p eId="para_98">The Minister and his officials are very welcome to the committee. It is good to see them here as the issue under discussion is about far more than simply defence. The Petersberg Tasks have a much wider remit than that. My sense as the Labour Party spokesman is that the issue is intervention in states which have failed or, like Kosovo or Bosnia Herzegovina, are on the brink of failure. At issue are states on the periphery of the European Union which, like Albania, find it difficult to sustain infrastructural frameworks of civic society. We have moved on from the idea of forming political and military alliances to go to war against people.</p>
+          <p eId="para_99">Our direct experience on this island is that soldiers make good fighters but lousy policemen and local community operators. It is not in their training. It was suggested to me in the modern barracks in Cavan town by a senior Army officer some years ago that if we wished to offer humanitarian aid to a failed state within the framework of a battle group or unilaterally or in the context of an agreed-decision making process, a military command structure would be necessary to provide direction in a crisis situation. A senior newspaper editor in Kosovo told me that the European Union would have been far more effective had it deployed a refuse collection contingent of half a dozen refuse trucks and support staff to clear the accumulated debris on the streets of Pristina than it was by putting guys with blue or yellow hats and guns to stand on street corners. That summary analysis can be elaborated on if necessary.</p>
+          <p eId="para_100">Could Ireland include a core group of technical specialists from our local government infrastructure to ensure the electricity system or water supply would function, garbage would be collected or primary school infrastructure be maintained to re-establish normality in a state undergoing civic stress? Soldiers do not have these capacities which do not form part of their training but health boards, the ESB and local government do. As the lead Department, has the Department of Defence considered the idea of enlisting technical specialists under, for the sake of argument, the FCA to allow them to put their names down as volunteers? The Department of Foreign Affairs takes the names of volunteers to act as election monitors. For example, a number of people were cleared through the Department of Foreign Affairs to participate in the monitoring of the elections in Belarus.</p>
+          <p eId="para_101">Many non-governmental organisations have gone out under the operational control of independent agencies in somewhat stable situations. Given the history of Irish neutrality and the values which underpin it, the Department of Defence should consider a wider net of recruitment for skilled personnel who could travel with the Army and be accountable to it. Technically, those people might have to be members of the FCA. The horror which is currently Iraq means there are only four hours of electricity available there per day. A GI from South Carolina is not in a position to provide the services the people in Iraq need. I do not know if this issue is on the radar screen in the Department of Defence. The genuine fear of many on the left in Europe about battle groups, armies and the post-colonial experience is that the plans on the table will make for an imperial Europe in a new guise. While I can see its emotional strength, I do not share the analysis. However, it is susceptible to distortion. Unless we change perceptions by providing a civilian support system for the maintenance and resurrection of failed states, we will be categorised as having fallen into the cliché of being simply another imperialist force like the one in Iraq.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_63" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_102">That is an interesting analysis. Deputy Quinn mentioned that there are four hours of electricity available in Iraq per day, but I have just returned from Liberia, a country in which there has not been any electricity for 12 years except in a few locations owned by foreigners with their own generators. But for the participation of UNMIL, Liberia would hardly be on the map at all at this stage.</p>
+          <p eId="para_103">I take the Deputy's point about a corps of skilled civilian volunteers. I am glad he feels the Department of Defence is the lead agency as others have taken a different view. The Minister for Foreign Affairs has taken the lead and is progressing matters through his Department.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_64">
+          <from>Deputy Quinn</from>
+          <p eId="para_104">In an openly failed state scenario, as in the example of Liberia, the discipline and rigour of a military infrastructure is required to protect personnel, provide a clear and authoritative command structure and mobilise skills which can reintroduce infrastructure like electricity, water and sewerage. That is the nature of what we are looking at in the context of globalisation. There are approximately 20 failed states. I would like to know if we can offer the capability I am talking about. In another context, John O'Shea of GOAL argued that what was needed after the tsunami in east Asia was a military structure to facilitate the delivery of humanitarian aid and the maintenance of civic order.</p>
+          <p eId="para_105">I am groping. I do not have a solution or know what the thinking is in the Department of Defence. However, we know from the streets of Belfast and Baghdad that soldiers who are overly armed and wearing uniforms and large, black helmets are very threatening to ordinary civilians. They may come as liberators as they did in Belfast in the early 1970s, but they leave as villains. Soldiers are not designed for that kind of work.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_65" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_106">I do not agree with Deputy Quinn. We are inundated with requests to continue the mission in Liberia.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_66">
+          <from>Deputy Quinn</from>
+          <p eId="para_107">I accept the need for soldiers in Liberia. I am speaking about a general principle.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_67" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_108">There is a very significant difference between the UN deployment of a peacekeeping force to keep peace and protect people's lives and what happened in Belfast where soldiers were deployed for quite different reasons. I am informed that the UN overseas missions in Liberia and elsewhere work with NGOs and UN civilian agencies on programmes, such as those outlined by the Deputy, in an advisory capacity. As the Deputy knows, the military also has its specialists in various fields. The Minister for Foreign Affairs has decided that a civilian corps along the lines the Deputy outlines is desirable and should be progressed. He is taking the lead in that matter.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_68">
+          <from>Deputy Timmins</from>
+          <p eId="para_109">Deputy O'Dea should wrestle the lead from him.</p>
+        </speech>
+        <speech by="#DanWallace" eId="spk_69">
+          <from>Deputy D. Wallace</from>
+          <p eId="para_110">I welcome the Minister and his officials to outline the Department's views on Irish participation in EU battle groups. It is important to record our appreciation of the role the Defence Forces have played throughout the world for so long. Some of my own family members are in the Defence Forces and they have been to Liberia and Kosovo. I have heard first-hand information about the situation on the ground in those countries.</p>
+          <p eId="para_111">Deputy Quinn referred to training and various jobs and functions. The Minister referred to overseas training, but until now the Defence Forces have carried out an excellent job having been trained domestically. Has the Minister identified areas in which they will need additional training or will the role of soldiers change in being sent abroad? Will members of the Defence Forces be sent abroad to develop some expertise they do not have currently?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_70" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_112">It is not simply a question of expertise, but of interoperability, which is the ability to operate with soldiers from other countries. To do that, especially in a battle group-type situation, they need to be familiar with the command and control structures of the troops. We have gotten away with this so far. We are operating United Nations missions alongside other troops, for example, with the Swedes in Liberia. We have gotten away with this up to now. An ideal situation would be to allow troops to train together in advance of a mission. That has not been possible up to now because the Defence Act 1960 specifically prohibits it.</p>
+          <p eId="para_113">The general view is that if Ireland is to participate in battle groups, which will be, generally speaking, involved in operations at the more intense end of the Petersberg Tasks, prior training in the interests of the safety of the troops and of the efficacy of the operation is a <i>sine qua non. </i>We cannot send troops abroad for training because we are legally prohibited from doing so and it is for that reason I am proposing changes to the Defence Acts. If we do change the law, not only will we be in a position to send troops abroad to train as part of battle groups but we will also be in a position to send troops to train as part of ordinary United Nations missions should that be necessary. I believe that will be necessary in some cases.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_71">
+          <from>Senator McDowell</from>
+          <p eId="para_114">I welcome the Minister to the joint committee. While I believe his presentation has been genuinely informative I am not terribly enthusiastic about what I have heard. The background information provided by the Department clearly points out that we are unlikely to be called upon to make any meaningful contribution before 2010 because existing battle groups are already in place. The 850 troops ceiling as set out in the White Paper on Defence amounts to only 100 more troops than are currently actively deployed around the world. The Minister stated in response to Deputy Andrews that this would not add anything to our capacity to intervene. I may be paraphrasing unfairly but that is what I understood the Minister of mean. If I am correct, it is a great pity that is so.</p>
+          <p eId="para_115">It has taken a long time to put together these battle groups or rapid reaction forces, as they are usually called. It is worth remembering that this concept arose as a result of our singular incapacity to intervene during the Balkans crisis in the 1990s and in the genocide in Rwanda almost ten or more years ago. This is a good example of how the European Union can manage not to make a decision. I am not blaming the Minister or Government for this. The Union has been appallingly indecisive and lacking in this regard. It is clear that what we will end up with will be a faint shadow of what was originally intended, namely, a significant force capable of rapid reaction. It is clear the new force will not be capable of rapid reaction and will not be a significant one.</p>
+          <p eId="para_116">I put it to the Minister that in terms of the Irish contribution and the difference this will make to us and, even in terms of the European Union's capacity to respond, this new force will not make much difference.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_72" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_117">I will first clarify what I said to Deputy Andrews. If we are part of the Nordic battle group, which seems most likely, the passing of legislation will not make any difference to what we can do as part of that group because the Nordic battle group has not yet gone into action.</p>
+          <p eId="para_118">I stated earlier that it is unlikely we will be participating in any way other than in a niche capacity up to 2010 but that is not necessarily the case. Much will depend on what those in the multinational battle group we are likely to join want. I could envisage our deploying up to 300 people to a particular battle group.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_73">
+          <from>Senator McDowell</from>
+          <p eId="para_119">What would be the likely complement of the battle group?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_74" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_120">It would be 1,500 and would have support capabilities. Senator McDowell referred to the Irish contribution to overseas commitments. The figure of 850 is 10% of our standing Army.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_75">
+          <from>Senator McDowell</from>
+          <p eId="para_121">What I meant was that any additional contribution which Ireland would make by virtue of the development of battle groups over and above what it already does would be very slight.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_76" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_122">We can contribute to peacekeeping in two ways. We have always contributed by joining the United Nations when it undertakes to restore peace and order in more unfortunate parts of the world and that will continue. The battle group concept is simply an addition to that which enables the United Nations, usually through the aegis of local organisations such as the EU or African Union, to move quickly to stabilise a situation. We were never going to be a single nation battle group because 1,500 troops needed to form a battle group is above the 850 ceiling permitted under our legislation. We will in the future make a significant contribution. Even if in the short term that contribution is small, it will consist mainly of expertise and advice and so on and will be significant.</p>
+          <p eId="para_123">I disagree with the Senator that the battle group concept will not add to the EU's capacity to restore order, it will. In 2006 there will be two battle groups on stand-by ready to move within five to ten days' notice to any location up to approximately 6,000 km from Brussels. That will be very significant. The problem now is that whether one addresses these issues the traditional way, namely, the blue hat operation, or whether one does so through an agency such as the EU, it takes a while to get troops into theatre. The new battle groups will add a significant dimension and will mean that troops who are appropriately trained and equipped can be in theatre within five to ten days. That will make a significant difference.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_77">
+          <from>Senator McDowell</from>
+          <p eId="para_124">They will obviously be able to do so only following the passing of a Security Council resolution.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_78" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_125">There are three potential functions for any battle group. The first is as a stand-alone operation to restore order. It is true 1,500 people may not be equal to that task but they could cope with such an exercise in the short term. The usual function of a battle group is to stabilise a situation until the cavalry arrives. The second would be to support United Nations peacekeeping forces. What will happen in the vast majority of cases will be that the battle group will stabilise situations and retain order until such time as the main force arrives. That is the envisaged role of the battle groups.</p>
+          <p eId="para_126">All of the military people — I am not an expert — with whom I have spoken believe the establishment of battle groups is enormously significant. One could point to various countries in the world wherein massacres occurred and where a battle group would not have been effective but one can equally point to others where they could have been effective. The very possibility of or appearance of troops on the ground can give people pause for thought. The unanimous military view of all of those with whom I have spoken is that the rapid response capability will be hugely significant to European Union and United Nations peacekeeping capabilities.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_79">
+          <from>Senator McDowell</from>
+          <p eId="para_127">Was this first discussed in Helsinki?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_80" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_128">Yes.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_81">
+          <from>Senator McDowell</from>
+          <p eId="para_129">At that time the measure and contribution was significantly higher though I cannot recall the numbers now. It appears to me that our ambition in this regard has been seriously downgraded. If we deployed 1,500 troops to Dafur in the morning I am not sure it would make any difference. That number of people could get lost in the middle of eastern or western Sudan. I am struck by the fact that the measure of our ambition in this regard has seriously diminished over the intervening ten years.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_82" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_130">No, the Helsinki headline goal was a different concept.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_83">
+          <from>Senator McDowell</from>
+          <p eId="para_131">This has taken over from that concept.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_84" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_132">No, we are still aspiring to meet the Helsinki goal by 2010. That concept involves mustering an army of up to a maximum of 60,000 to be deployed after 60 days for up to one year. The battle groups concept is different. The intention is to deploy a battalion into a particular troubled spot within five to ten days. Work on realisation of the Helsinki goal continues. This concept has not taken over from it, it is a separate operation which in terms of being achieved has come in front of the Helsinki goal. We still aspire to the development of a large rapid reaction force.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_85">
+          <from>Senator McDowell</from>
+          <p eId="para_133">I take it we are not getting very far with it. I have not heard much discussion on it lately.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_86" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_134">As I understand it, some progress has been made. The EU4 operation is an example of that type of concept which has worked extremely well. The aspiration is to put the operation together formally in the way envisaged under Helsinki 2010 and the general view is that this will be achieved by 2010 or shortly thereafter.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_87">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_135">Some interesting contributions have been made by others. I have had this argument with the Minister previously. I was interested in what Deputy Quinn had to say in terms of the concept of humanitarian operations and using our expertise. When the Minister is putting together the changes to the Defence Act it is important that he looks at that issue. It was mentioned that he is changing the legislation to allow for participation by Defence Forces personnel in humanitarian operations rather than asking them to volunteer and to take it on a civilian basis. It is a pity that had not happened before, as there would have been a quicker response from Ireland to the tsunami or other disasters. We have expertise readily available in semi-State bodies. For example, the ESB has been around the world setting up power stations. One is not talking about seconding or ordering people, there are people within many organisations in Ireland who would love to volunteer but with the guarantee that there would be protection. That is an interesting aspect of the changes the Minister is talking about to the Defence Act. I suggest he work with the Department of Foreign Affairs. I agree with Deputy Quinn that if one is encouraging people who volunteer into war zones — effectively that is what it is — they must have protections or, at least, know they have the protection of Irish soldiers.</p>
+          <p eId="para_136">The Minister said he sees no conflict with our existing commitments. I disagreed with him on this issue on a number of occasions. If one takes 200 troops to operate in a battle group abroad out of 850, that means 200 fewer are left to take part in UN-led operations, unless the number is increased. Senator McDowell hinted that we may need to increase the numbers available for overseas operations. At present the number is 850 troops. Recently the Minister mentioned taking 300 which would leave only 550 available for the normal UN-led duties for which we have been praised for many years.</p>
+          <p eId="para_137">The other problem concerns the military inter-operability. This will greatly increase Ireland's military spending. The Minister told me previously that we have to buy new equipment but will do so through the EU arms agency and will save money in that way. If one is planning on military training abroad that will increase the costs. If Sweden, Finland or any of the other countries which will be part of our battle group decide to change their military hardware the onus would be on us to ensure we change also. Therefore, our military spending would be out of our hands and we would not have as much control as at present.</p>
+          <p eId="para_138">If the Defence Act is to be amended to allow for training overseas, I presume Sweden and Finland will ask why they cannot train in Ireland. Obviously that has implications; I am not saying it should but they would obviously seek reciprocation.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_88">
+          <from>Deputy Quinn</from>
+          <p eId="para_139">Does the Deputy have a problem with that?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_89">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_140">No, but if one is going down that road I would have a problem with battle groups. If we are moving one way the logic is that we should do both and should be open and say that is what we are planning, rather than leaving it and saying we will change the Defence Act to allow for training overseas.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_90">
+          <from>Deputy Quinn</from>
+          <p eId="para_141">Does the Deputy wish to point it out to them?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_91">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_142">The Minister probably knows as he has been to the Glen of Imaal on a number of occasions. Unlike the Minister I have no problem with the title "battle groups" and he should not continue to repeat that it is an unfortunate term. It is specifically a battle group, because under thePetersbergTasks it is about peace enforcement. It gets laborious and tedious if the Minister continues to repeat that he has a problem with it. The title is correct and everybody else recognises it. Whether we agree with the concept is the problem. It is better than peace brigades which the Minister suggested. Some people, including the former Taoiseach, John Bruton, have said there is very little difference between peace enforcement and war making. That still stands.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_92">
+          <from>Chairman</from>
+          <p eId="para_143">As the Deputy has made a number of points I invite the Minister to respond.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_93" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_144">I indicated to Deputy Quinn that I agree with his fundamental point about the availability of expertise. The Department of Foreign Affairs has taken the lead in this matter. I take the Deputy's point that there may be something we can do in the context of changes to the Defence Act. I will certainly consider that issue and speak to the Department of Foreign Affairs. At present if we want to send troops to help in a disaster such as the tsunami or the earthquake in Pakistan we are in no position to legally require them to go. We have to depend on them to volunteer. That is one change I am making to the Defence Act.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_94">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_145">I welcome that.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_95" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_146">In regard to what the Deputy said about the conflict between our commitment to traditional peacekeeping and our participation in battle groups, I do not necessarily accept there is a conflict. It is not an either-or situation. Let us think about this. We are likely to be part of a multinational battle group which will be on standby for a period of six months, once every three years. While I mentioned 200 or 300 troops, that is probably the highest number that will be provided in the short term. We will be part of a group on standby for six months once every three years that may never be called into action. Therefore the whole complement of 850 will be available to be deployed elsewhere.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_96">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_147">It cannot be deployed anywhere else if it is on standby.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_97" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_148">It will be on standby in our colleges. I take the Deputy's point. Whatever troops we are making available to the battle group will be on standby for a six month period. Even if they are deployed they will have to be on standby for the six month period. The initial period of deployment of a battle group is 30 days. The most it can be deployed for with resupply is approximately 120 days, that is four months. That will arise only once every three years, whereby whatever contribution we are making to the appropriate battle group will be on standby.</p>
+          <p eId="para_149">At present we contribute to peacekeeping by either joining up with the European Union on an authorised operation or by providing troops directly to the United Nations, the traditional blue helmet operations. The battle group participation is a further extension of that. Between battle groups and whatever else we are doing for peacekeeping, we are ready to commit up to 850 troops, 10% of our standing Army, from a population of just under 4 million which is high by international standards.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_98">
+          <from>Deputy Quinn</from>
+          <p eId="para_150">What would be an average comparison, let us say, for a small or medium-sized country with a population of 10 million?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_99" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_151">I will get the figures for the Deputy. I have examined them and think we are high by comparison. I do not anticipate that we will have to purchase a lot of new equipment. We went to Stockholm to speak to the Swedes. We told them what we were prepared to bring to the table. It is my understanding that they were quite happy with this. As regards the equipment which I have examined——</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_100">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_152">I saw the pictures.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_101" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_153">——and is available to the Irish Army, it is very modern and top of the range. The force protection assets we have provided are regarded as sufficient to make the Army as safe as it can humanly be in any situation fraught with danger such as the chapter 7 missions in Liberia. Therefore, I do not anticipate that we will have to buy any new equipment. There is a move at European level, through the European Defence Agency, to regularise the market in defence equipment procurement. The intention is that for whatever money we or other countries spend on defence equipment, there will be better value and a better bang for one's buck.</p>
+          <p eId="para_154">Deputy Ó Snodaigh asked why personnel cannot train here. In the case of the Nordic battle group, the Swedes could possibly provide 850 or 900 troops, while Ireland would provide as few as 20. Would it be realistic to bring 850 Swedish troops here for training if we were only providing 20? It would be much handier to send 20 or so Irish troops abroad. Sweden and other countries fully understand and appreciate our position. Our advice from the Attorney General is that under the terms of the Constitution no other armies are entitled to be on Irish soil.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_102">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_155">Unless they are US soldiers at Shannon Airport.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_103" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_156">It was designed to deal with an organisation with which the Deputy would be more familiar than I. The fact of the matter is, however, that we cannot have any foreign armies here. That is the position under the Constitution.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_104">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_157">Foreign armies, yes.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_105" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_158">We cannot have any armies here other than Óglaigh na hÉireann — the Defence Forces — not the IRA.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_106">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_159">There are US soldiers at Shannon Airport, including their commander in chief.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_107">
+          <from>Chairman</from>
+          <p eId="para_160">I think I know where this is going.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_108" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_161">That is the Attorney General's interpretation of the Constitution which every other country understands and appreciates.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_109">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_162">Bar the United States.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_110" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_163">No, including the United States.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_111">
+          <from>Deputy Timmins</from>
+          <p eId="para_164">I will be brief for fear of flogging to death the point raised by Deputy Quinn. When British troops went to Northern Ireland, the Israelis to Lebanon and the Americans to Iraq, there was a welcome for them from the general population. They won the war but not the peace. This battle group will act quickly but will not stay anywhere for a long period. It is part of our policy in Fine Gael to have members of a public affairs section travel with the  peacekeepers. We are talking about a small group comprising staff from the Department of Foreign Affairs or civilians from the Department of Defence who would liaise between peacekeepers and humanitarian groups such as the ESB and health technicians.</p>
+          <p eId="para_165">The Irish Army served in the Lebanon for 20 years but when we left, the civilian administration remained. Such structures need to be built once peace has been achieved. It is equally important for the Department of Defence to be the lead Department in this respect. I am not advising the Minister for Defence to start fighting with the Minister for Foreign Affairs at the Cabinet table. However, the remit of the Department of Defence is not as wide as that of the Department of Foreign Affairs which has plenty of work to do. The Minister for Defence could certainly seek to have the role of his Department expanded. No one has the same expertise as that Department and the military to do this job. In the months ahead when we read the reports on the tsunami — while it may look honourable on television and many have done good things — the inefficiency and waste involved will become apparent. The only ones who can do such a job are military personnel. The Government should revisit this point.</p>
+          <p eId="para_166">As regards enacting legislation to allow foreign armies to train here, I understood there was no such constitutional impediment. However, the Minister says there is. I regret this because foreign armies should be able to train here. We have a successful UN school that accepts unarmed personnel from around the globe. It has worked successfully in recent years.</p>
+          <p eId="para_167">This commitment will place a certain strain on the military. We all know there can be a difficulty in finding volunteers because as they become older troops are reluctant to serve abroad. When will we see legislation to permit members of the Reserve Defence Force to participate in overseas operations?</p>
+          <p eId="para_168">Does the Minister agree it is inevitable that for perfectly good reasons the European Union may have to intervene without a UN resolution? We all have great affection for the United Nations but it is a politically flawed organisation which is cumbersome and slow. I am not seeking to get involved in a political conflict with the Minister over the triple lock mechanism but if I were Minister for Defence, I might prefer to operate without it. It would make life much easier for the Minister if he could make decisions on a case by case basis instead of having to wait for China or America to decide what our foreign policy should be. It may be argued that the United Nations needs to be reformed — it does — but I do not think we should wait for that to happen. I would like to hear the Minister's views on these points.</p>
+          <p eId="para_169">The Minister may feel he is in a political straight-jacket but does he think it would be better if we did not have the triple lock mechanism? Surely we are mature enough as a nation to decide such matters on a case by case basis. Has the time come to put the question to the people in a referendum? The Minister mentioned the will of the people but this issue has never been put to them. The Government should examine the idea of holding a referendum on whether Ireland should participate in EU battle groups without a UN mandate but by making our own decisions. We held off from doing this for fear it might impact negatively on a vote for the EU constitution which has been parked for now. If we went out and honestly sold this idea, however, it might be different. What turns the public off is what it sees as covert erosion of our neutrality. If the case was made in black and white, matters might be otherwise. The Minister should put to his Cabinet colleagues the idea of holding a referendum on this issue.</p>
+          <p eId="para_170">I have never sat at the Council of Ministers, unlike Deputy Quinn and the Minister. It must be embarrassing to sit with one's EU colleagues from Latvia, Cyprus and elsewhere, while being caught in this straight-jacket, whereby one cannot participate in an EU battle group without engaging the triple lock mechanism.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_112">
+          <from>Deputy Quinn</from>
+          <p eId="para_171">We provided for the triple lock in the Nice 2 referendum.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_113">
+          <from>Deputy Timmins</from>
+          <p eId="para_172">I am aware of that but it was included as a sop to the public. I do not know what influence it has had, if any. I am also aware that Fine Gael supported its inclusion at the time.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_114">
+          <from>Deputy Quinn</from>
+          <p eId="para_173">The Minister is too polite to remind Deputy Timmins of that fact.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_115">
+          <from>Deputy Timmins</from>
+          <p eId="para_174">I am trying to be honest. I would like to hear the Minister's views on the matter.</p>
+          <p eId="para_175">My final point concerns a political sting. I notice that the Fianna Fáil press office is working overtime in stating the differences between Fine Gael and the Labour Party. The triple lock mechanism is the cornerstone of the difficulty for them. I understand the Progressive Democrats are opposed to the concept. I heard one of their spokespersons say so. Is it difficult, therefore, to work in government with a party opposed to the triple lock mechanism?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_116" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_176">When I have been privileged to sit at the Council of Ministers, I have never had occasion to feel embarrassed about anything. Perhaps that is because I am not as easily embarrassed as Deputy Timmins.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_117">
+          <from>Deputy Timmins</from>
+          <p eId="para_177">That is for sure.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_118" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_178">I have never felt embarrassed. On a number of occasions, in discussions on battle groups and the European Security and Defence Policy, the triple lock mechanism has been raised at Cabinet which is united behind the concept. Nobody has expressed the slightest reservations about it.</p>
+          <p eId="para_179">As Deputy Quinn pointed out, there is the Seville Declaration in the Nice treaty which the people supported. If Deputy Timmins says it was only offered as a sop, presumably the reason it was offered was it made the treaty more attractive.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_119">
+          <from>Deputy Timmins</from>
+          <p eId="para_180">Exactly.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_120" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_181">My judgment is that the majority of the people support neutrality and the idea that Ireland should not get involved in any military adventures or operations abroad without the sanction of the United Nations, Ireland's lodestar in these matters. It is simply a difference of opinion. I have my opinion and I believe it coincides with that of the majority of people in this country. That is the position our constituents want us to have.</p>
+          <p eId="para_182">Deputy Timmins made interesting suggestions. He made a strong plea for the abolition of the triple-lock mechanism. Having taken questions on Defence in the Dáil and taken various debates and listened to the contributions of the different parties across the floor which aspire to form the next Government, there is a fundamental difference here between Fine Gael and the Green Party, and the Labour Party is somewhere in the middle. The Labour Party supports the triple-lock mechanism.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_121">
+          <from>Deputy Quinn</from>
+          <p eId="para_183">Yes, we drafted the amendment for the constitutional referendum on it.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_122" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_184">The Green Party is——</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_123">
+          <from>Deputy Timmins</from>
+          <p eId="para_185">They are not with us. They could be with the Minister's party.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_124">
+          <from>Deputy Quinn</from>
+          <p eId="para_186">They never got to Mullingar.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_125" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_187">If they are with us, there will be a triple-lock mechanism at least.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_126">
+          <from>Deputy Timmins</from>
+          <p eId="para_188">What status has Ireland's declaration to the Nice treaty? The mandarins from the Department of Foreign Affairs might look at it. I remember coming across a declaration to the treaty which was mathematically incorrect in terms of qualified majority voting. I will not elaborate on it too much here but I do not know how it was changed afterwards.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_127">
+          <from>Deputy Sexton</from>
+          <p eId="para_189">I thank the Minister for his contribution here today. Is there any proposal to raise the 850 troops ceiling? Although I acknowledge that 10% of the Army is a considerable proportion <i>vis-à-vis</i> the contribution of other armies, I still maintain that Ireland has a valuable contribution to make and has a moral obligation to do so. I agree with Deputy Timmins that the Reserve Defence Force should be considered in that regard.</p>
+          <p eId="para_190">The Minister mentioned in passing something to do with the volunteer element of troops' service on these missions. He might clarify the change in that regard. I also encourage him to continue to state, when speaking about battle groups, that it is an unfortunate,  dreadful term. It still conjures up all those images of boys and their toys and sends all the wrong signals to the public, who see it not as the reactionary force but a pro-action force. All who wish to do so can use it against those of us who agree with it in principle. Deputy Quinn used a better term.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_128">
+          <from>Deputy Quinn</from>
+          <p eId="para_191">Peace enforcement force.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_129">
+          <from>Deputy Sexton</from>
+          <p eId="para_192">I thoroughly agreed with the term rapid reaction force because it had all the connotations required but, as the Minister stated, the talks are still ongoing and it will probably be called the rapid reaction force when those talks have concluded. Therefore, we cannot go that way.</p>
+          <p eId="para_193">The Minister mentioned that the EDA is regularising the procurement of equipment. I am pleased to hear that because it seems one can buy armaments over the Internet. Nobody seems able to stop such activity. A simple project was undertaken recently by novices who were able to procure arms over the Internet. I wonder whether that issue will form part of it.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_130" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_194">On Deputy Sexton's first question, there is much misconception about the extent of our commitment. As I stated, it is 850 personnel, which amounts to 10% of the standing Army. If one sends 850 people abroad for a six-month period, which is the general procedure, it means one must have another 850 in training in addition to the 850 who were abroad and have just returned. It is a heavy commitment. It is a question of sustainability. There are no proposals to increase this number. I am advised that under the terms of our arrangement with the United Nations standing agency we can surpass the 850 limit by small amounts from time to time if the necessity arises.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_131">
+          <from>Chairman</from>
+          <p eId="para_195">This was set by the Government in the White Paper in 2000.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_132" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_196">To clarify the point about the volunteers, at present where the Government's view is it is a good idea to send military personnel to help with a humanitarian mission, we must put the word out to soldiers asking for volunteers to go to the scene of the disaster concerned. Essentially, we are changing the Defence Act to give the Government the right to deploy troops on a humanitarian mission. My understanding is we are stuck with the term "battle group".</p>
+          <p eId="para_197">The arms market is fragmented. The EDA is trying to unify it in order that people will purchase from a single source to regularise the position to ensure better value for money.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_133">
+          <from>Deputy Sexton</from>
+          <p eId="para_198">Is it for that purpose rather than to monitor who is buying arms?</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_134">
+          <from>Deputy Quinn</from>
+          <p eId="para_199">One tank size, one fighter size or rifle size.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_135" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_200">Exactly.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_136">
+          <from>Chairman</from>
+          <p eId="para_201">Who pays for this? If, for instance, 200 personnel of whom the Minister spoke involve themselves in a battle group, is it paid for from Exchequer funding, European funding or elsewhere?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_137" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_202">Our participation in battle groups will be on the basis that costs lie where they fall, in other words, we will meet whatever costs we incur. Essentially, it is funded by the Exchequer.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_138">
+          <from>Deputy Quinn</from>
+          <p eId="para_203">It is not like UN funding.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_139">
+          <from>Chairman</from>
+          <p eId="para_204">Would the Minister agree it is completely different to UN funding then?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_140" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_205">There is a number of common costs such as transportation, communications, etc.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_141">
+          <from>Chairman</from>
+          <p eId="para_206">This is borne by the State. At present, how does that differ to UN funding?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_142" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_207">After a long delay we get a partial refund of approximately 80%.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_143">
+          <from>Deputy Sexton</from>
+          <p eId="para_208">I meant to ask other questions. There was talk of NATO equipment being used. There should be a joint action by all participants in these battle groups to provide that a certain number of armaments or whatever is necessary are available to them for that deployment to the area concerned, rather than require any one nation state to invest in major equipment. Even if it was to be NATO's equipment, people would not have any difficult with that.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_144" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_209">Most participants in multinational battle groups are members of NATO anyway.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_145">
+          <from>Deputy Sexton</from>
+          <p eId="para_210">Is there no impediment on us using it?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_146" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_211">No.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_147">
+          <from>Deputy Quinn</from>
+          <p eId="para_212">Is it correct to state that where it has been feasible and possible, Irish armaments and equipment are similar to those of NATO as a general standard in the interest of interoperability? It makes sense. I do not have a difficulty with it.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_148" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_213">I take Deputy Quinn's point. We buy the best on the market. Comparability to what is available to NATO countries, particularly ones like Sweden, with which we are likely to be working, is a consideration when we are buying stuff.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_149">
+          <from>Deputy Quinn</from>
+          <p eId="para_214">Is it because they have their own armaments industry?</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_150" as="#Minister_for_Defence">
+          <from>Deputy O’Dea</from>
+          <p eId="para_215">Yes.</p>
+        </speech>
+        <speech by="#JohnEllis" as="#Chairman" eId="spk_151">
+          <from>Chairman</from>
+          <p eId="para_216">I thank the Minister and his officials for attending.</p>
+        </speech>
+        <summary eId="sum_5">Sitting suspended at 4.20 p.m., resumed in private session at 4.22 p.m. and adjourned at 4.25 p.m. until noon on Wednesday, 29 March 2006.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

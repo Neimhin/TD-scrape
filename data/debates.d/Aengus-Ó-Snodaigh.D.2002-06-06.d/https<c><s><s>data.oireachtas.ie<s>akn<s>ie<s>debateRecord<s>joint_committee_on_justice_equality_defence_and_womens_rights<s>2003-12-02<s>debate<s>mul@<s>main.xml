@@ -1,0 +1,988 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-02/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-02/debate"/>
+          <FRBRdate date="2003-12-02" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/joint_committee_on_justice_equality_defence_and_womens_rights"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-02/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-02/debate/mul@"/>
+          <FRBRdate date="2003-12-02" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-02/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-02/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference showAs="Vol. 1" href="ie/oireachtas/debateRecord/vol/1" eId="#vol_1"/>
+          <oir:numberReference showAs="No. 43" href="ie/oireachtas/debateRecord/vol/1/no/43" eId="#no_43"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="BarryAndrewsFF" href="/ie/oireachtas/member/id/Barry-Andrews.D.2002-06-06" showAs="Barry Andrews"/>
+        <TLCPerson eId="BreedaMoynihanCronin" href="/ie/oireachtas/member/id/Breeda-Moynihan-Cronin.D.1992-12-14" showAs="Breeda Moynihan-Cronin"/>
+        <TLCPerson eId="CharlieOConnorFF" href="/ie/oireachtas/member/id/Charlie-O'Connor.D.2002-06-06" showAs="Charlie O'Connor"/>
+        <TLCPerson eId="FinianMcGrath" href="/ie/oireachtas/member/id/Finian-McGrath.D.2002-06-06" showAs="Finian McGrath"/>
+        <TLCPerson eId="JimGlennonFF" href="/ie/oireachtas/member/id/Jim-Glennon.S.2000-06-09" showAs="Jim Glennon"/>
+        <TLCPerson eId="JimWalsh" href="/ie/oireachtas/member/id/Jim-Walsh.S.1997-09-17" showAs="Jim Walsh"/>
+        <TLCPerson eId="JoeCostelloLAB" href="/ie/oireachtas/member/id/Joe-Costello.S.1989-10-01" showAs="Joe Costello"/>
+        <TLCPerson eId="JohnDeasyFG" href="/ie/oireachtas/member/id/John-Deasy.D.2002-06-06" showAs="John Deasy"/>
+        <TLCPerson eId="MarieHoctorFF" href="/ie/oireachtas/member/id/Máire-Hoctor.D.2002-06-06" showAs="Máire Hoctor"/>
+        <TLCPerson eId="MichaelMcDowellPD" href="/ie/oireachtas/member/id/Michael-McDowell.D.1987-03-10" showAs="Michael McDowell"/>
+        <TLCPerson eId="MichaelMulcahyFF" href="/ie/oireachtas/member/id/Michael-Mulcahy.S.1994-12-13" showAs="Michael Mulcahy"/>
+        <TLCPerson eId="PaulMcGrath" href="/ie/oireachtas/member/id/Paul-McGrath.D.1989-06-29" showAs="Paul McGrath"/>
+        <TLCPerson eId="PeterKellyFF" href="/ie/oireachtas/member/id/Peter-Kelly.D.2002-06-06" showAs="Peter Kelly"/>
+        <TLCPerson eId="SeanArdagh" href="/ie/oireachtas/member/id/Seán-Ardagh.D.1997-06-26" showAs="Seán Ardagh"/>
+        <TLCPerson eId="SheilaTerry" href="/ie/oireachtas/member/id/Sheila-Terry.S.2002-09-12" showAs="Sheila Terry"/>
+        <TLCPerson eId="TonyKett" href="/ie/oireachtas/member/id/Tony-Kett.S.1997-09-17" showAs="Tony Kett"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Justice,_Equality_and_Law_Reform" href="/ie/oireachtas/role/minister/justice__equality__law_reform" showAs="Minister for Justice, Equality and Law Reform"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM DHLÍ AGUS CEART, COMHIONANNAS, COSAINT AGUS CEARTA NA mBAN</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON JUSTICE, EQUALITY, DEFENCE AND WOMEN’S RIGHTS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2003-12-02">Dé Máirt, 2 Nollaig 2003</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2003-12-02">Tuesday, 2 December 2003</docDate>
+      </block>
+      <block name="volume">
+        <docNumber refersTo="#vol_1">Vol. 1</docNumber>
+      </block>
+      <block name="number">
+        <docNumber refersTo="#no_43">No. 43</docNumber>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 9.30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">Members Present:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#BarryAndrewsFF">Deputy B. Andrews,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#BreedaMoynihanCronin">Deputy B. Moynihan-Cronin,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JoeCostelloLAB">Deputy J. Costello,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#MichaelMulcahyFF">Deputy M. Mulcahy,*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#JohnDeasyFG">Deputy J. Deasy,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#CharlieOConnorFF">Deputy C. O’Connor,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MarieHoctorFF">Deputy M. Hoctor,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#TonyKett">Senator T. Kett,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#FinianMcGrath">Deputy F. McGrath,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#SheilaTerry">Senator S. Terry,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#PaulMcGrath">Deputy P. McGrath,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#JimWalsh">Senator J. Walsh.</person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Deputies D. O'Donovan, D. McGinley and P. Power, respectively.</summary>
+          <summary eId="sum_4">In attendance: Deputy A. Ó Snodaigh.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#SeanArdagh">
+   DEPUTY S. ARDAGH in the chair.
+  </person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Review of Criminal Justice System: Presentations.</heading>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_13">I welcome our guests and viewers of TG4 who are following this series of hearings over six days as part of our legislative and administrative review of the criminal justice system. This is the third hearing held by the joint committee. The hearings have been organised in the context of real public concern at recent developments and questions being asked as to whether there is a need for reform of certain areas of the criminal justice system.</p>
+          <p eId="para_14">To date, the joint committee has met Victim Support; the probation and welfare service; Dr. Gerard Hogan, senior counsel and law lecturer; the Law Society of Ireland, Dr. Paul O'Mahony, Trinity College Dublin, an expert in criminal law; and the Irish Prisons Service. Today, we are meeting representatives of the Bar Council and the Irish Human Rights Commission. Following our hearings, a report will be presented to the Minister for Justice, Equality and Law Reform which will contain the text of the relevant submissions received and the recommendations of the committee as to what legislative and/or other changes are necessary to bring about an improvement in the current situation.</p>
+          <p eId="para_15">I shall briefly explain the format of the meeting. I am delighted to welcome the representatives of the Bar Council and the Irish Human Rights Commission. Each group will, in turn, make a brief presentation, after which two members of the joint committee will lead questions, to be followed by their Oireachtas colleagues. At the very end we hope to hold a general discussion and will conclude at 11.30 a.m. I extend a warm welcome to Dr. Maurice Manning, president, Irish Human Rights Commission, and thank him for bringing the members of the commission together within a short period of time and responding so comprehensively to our request. I ask him to introduce his colleagues.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from>Dr. Maurice Manning</from>
+          <p eId="para_16">Before I do, I wish to say a general word about our approach today. It is important that we do this with the Chairman's permission. We greatly welcome the opportunity to be present and the fact that this is very much a consultative forum. Like every other group, the Irish Human Rights Commission comes with its own particular view of the world. As a commission, a brief has been given to us - in general terms under the Good Friday Agreement and in specific terms by the Houses of the Oireachtas - within which we must work.</p>
+          <p eId="para_17">It is important for us to stress what we bring to the joint committee. We are not an enforcement agency, not directly involved in criminal law and not social workers. Our job is to promote and protect human rights enshrined in the Constitution and international agreements to which we are a party. In so doing, we see no contradiction between an effective, efficient and fair criminal justice system and a system with a strong human rights content. On the contrary, any justice system not rooted in respect for human rights will be flawed and ultimately self-defeating. That is why we welcome the deliberative nature of today's proceedings and the opportunity the committee affords us to spell out some of our concerns. These concerns and our views will be expressed first by Professor William Binchy and then by Mr. Michael Farrell and Ms Nuala Kelly. I ask Professor Binchy to make some general observations.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Professor William Binchy</from>
+          <p eId="para_18">I shall speak very briefly on points of general import. The first, which may come as no surprise in the context of the Irish Human Rights Commission, is that human rights protection is not in any sense the enemy of the criminal justice system, rather it is an integral part. This was always recognised in common law, however flawed that perception might have been. It is also recognised in the Constitution; the European Convention on Human Rights, which has now been incorporated into domestic law; and several other instruments relating to human rights protection. In that context, it is also worth mentioning that when pressure on the criminal justice system is at its strongest, the need for human rights protection is also at its greatest. If we review the history of these islands over several years, this proposition can be established.</p>
+          <p eId="para_19">There are three areas I wish to mention by way of generality. My colleague, Mr. Michael Farrell, will then pick up on the specifics while Ms Nuala Kelly will pick on various points from a different angle.</p>
+          <p eId="para_20">First, I shall address the question of proof beyond reasonable doubt. As the joint committee knows, the criminal test is and always has been proof beyond reasonable doubt. It is worth stressing that this actually means that people about whom there is a serious suspicion of wrongdoing will walk free. When they do, it is not a failure of the criminal justice system but the system working as intended. The powers of the State to take away people's liberty and property - formerly their lives - are really strong and awesome. The view of society, expressed through its criminal justice system, has been that these powers should not be imposed on individuals unless one is sure beyond reasonable doubt that he or she has committed the offence in question. The inevitable consequence is that people about whom there is a suspicion will walk free but that is the criminal justice system working as intended rather than in some sense being tripped up.</p>
+          <p eId="para_21">My second point relates to the rules of evidence. It is worth stressing that they are, or should be, in place simply to assist the process of rational decision-making. They are not in place for any other purpose. Any rule of evidence designed to fill in gaps in the prosecution case or insist that the accused convict himself or herself and sacrifice the right not to self-incriminate is not satisfactory. Traditionally, the rules of evidence have shown a respect for human rights protection.</p>
+          <p eId="para_22">I mention two areas, both of which can be scrutinised in terms of their specific rules but which nonetheless manifest a concern for human rights protection. The rule against hearsay is one example and the rule against proof of previous convictions is another where the law operates with a sensitivity that prejudice might outweigh rational decision-making. We are all subject to prejudice. The rules are in place to anticipate a sense of prejudice within society at any particular moment.</p>
+          <p eId="para_23">My third point relates to specificity of offences. Offences must be defined with a degree of clarity because if we are in a situation where people, before they act, are uncertain as to whether they will fall within the scope of the criminal law or can act freely, their conduct is clouded and restricted. Offences must be clear. It is not good enough to define an offence which will certainly catch criminals but may also catch others acting in a perfectly lawful fashion.</p>
+          <p eId="para_24">Those are the main points I wish to stress. A final point worth mentioning is that law must be general in its scope and have general application to all members of society. Therefore, a law which is designed to target an individual is unacceptable. Society may be conscious of what is taking place at any particular stage and may have a view that particular individuals are acting in a particular way and showing up a particular area of law that needs attention. However, the notion that a law can be legitimately passed which targets an identified person fails the principles of legality. One can certainly address the social and legal issues that need consideration in this context but the rule that emerges must have general application to all members of society.</p>
+        </speech>
+        <speech by="#" eId="spk_4">
+          <from>Mr. Michael Farrell</from>
+          <p eId="para_25">We very much welcome the joint committee's decision to hold hearings on these issues. It means that issues of crime and criminal justice can be discussed in a more measured and reflective way than some of the recent discussions on the topic. We very much agreed with the Minister for Justice, Equality and Law Reform when he said recently in the Dáil that it would be disproportionate because of difficulties in one particular case to suggest that the criminal justice system had collapsed and that its constitutional and legal basis had been discredited.</p>
+          <p eId="para_26">As our president, Dr. Manning, said, our role in a discussion like this is to put forward and defend the fundamental rights established over the years by the Constitution and the international human rights treaties to which we are a party. It is from that standpoint that we approach some of the proposals that have been made recently about dealing with crime and that are reflected in the points in the committee's letter of invitation. Part of our function is to comment generally on administrative or operational aspects of the criminal justice system.</p>
+          <p eId="para_27">We should also preface our remarks by saying that we agree with comments that were made by the report of the National Crime Forum, set up by the previous Government, which stated:</p>
+          <p eId="para_28">What is undeniable, however, is that the socio-economic conditions of a given community are one factor which can encourage offending behaviour and that those conditions are the proper responsibility of society as a whole, not of the offending member.</p>
+          <p eId="para_29">We believe that poverty and disadvantage provide a fertile breeding ground for crime and that law enforcement measures alone cannot eradicate crime without strategies and commitments to put an end to the social conditions in which it thrives. In addition, we point out that there is a clear link between the failure, contrary to our European Convention obligations, to provide adequate supports, including residential care for troubled and disturbed young people, and their subsequent involvement in crime. That came across fairly clearly on the television programme last night.</p>
+          <p eId="para_30">Turning to some of the specific points raised in the committee's letter of invitation, the first point refers to ways of dealing with witness intimidation. Witness intimidation is not a phenomenon unique either to Ireland or to recent proceedings which have caused a lot of controversy. There is a whole variety of means which are fully compatible with our common law system and our international human rights obligations for protecting both witnesses and the rights of the accused when the question of intimidation arises. They include providing full protection for persons giving evidence, both within and outside the boundaries of the courtroom proceedings. They could include limiting the access of the entire public to witness evidence, although that raises other issues of justice being administered in public - it is probably one of the measures we would least like to see used - and giving adequate witness support to vulnerable witnesses.</p>
+          <p eId="para_31">There have been specific suggestions that we should follow a decision of the Canadian Supreme Court, in the Queen v. K.G.B., which held that where a witness - usually a prosecution witness - who has made an earlier statement withdraws that statement in court, the original statement could then be used in evidence. The current legal position here is that that can not be done. Such a prior inconsistent statement, as it is called, can be used to test the witness's credibility but it can not be used as evidence in its own right. It has to be said that sometimes putting the original statement to the witness vigorously in cross-examination can lead to the witness going back to, and re-affirming, that original statement, even if he or she had previously withdrawn it. That happened recently in a case in the Special Criminal Court, which is concluded so it is all right to refer to it.</p>
+          <p eId="para_32">There have traditionally been serious concerns in the common law system about relying on prior statements that have been repudiated in subsequent live evidence in the court. Such prior statements are often made in police stations without the benefit of a lawyer being present, and it must be remembered that there is still no right in this country to have a lawyer present during questioning. They are often made by frightened, vulnerable or highly suggestible people and there have been many examples, both here and in the UK, of people wrongly confessing to crimes - one thinks only of the Dean Lyons case, for instance - and it is equally likely that people make incorrect or misleading statements of evidence.</p>
+          <p eId="para_33">We believe that the due process rights of accused persons, as protected by Article 6 of the European Convention, may be impaired by putting in place a system of statement admissibility which, taken together with the lack of access to a lawyer by the people making the statement, fails to fully protect the accused in the criminal justice system. It also should be borne in mind that sometimes statements are made incriminating other people by persons who want to minimise their own involvement in an incident. So there can be a lot of reasons why the original statement made, rather than the subsequent withdrawal, was flawed. The witnesses who make these prior statements are not under oath at the time they make them and are not subject to cross-examination, which can show up flaws and contradictions in a witnesss statement. In addition, the jury, which is the trier of fact eventually, cannot see the demeanour and behaviour of a witness when he or she is making this sort of preliminary statement. In a bid to meet these types of concerns, the Canadian courts have laid down a number of preconditions for such previous statements being made admissible: the witness should be warned of the consequences of making the statement before he or she has made it; and the statement should be made under oath and should be videotaped.</p>
+          <p eId="para_34">However, all that is quite cumbersome and difficult. In our own law, we already have a system whereby, if there is concern that a witness may not maintain his or her evidence in court, the witness can be asked to swear a deposition prior to the trial, and that deposition has the advantage of being subject to live cross-examination by defence counsel, etc., which is absolutely crucial to testing evidence.</p>
+          <p eId="para_35">So we have existing safeguards within our law. We have actually a new provision in the 1999 Act for the admissibility of depositions in a trial and we suggest that our existing law should be tested to the ultimate before making such a radical change as suggested in the Canadian system. Certainly if any such change is made, we would suggest that such statements would have to be videotaped and a lawyer would have to be present while they are made - as should really be the case in all interrogations.</p>
+          <p eId="para_36">The third point of the committee's letter also raises the question of using videotaped statements. That raises some the points that I have already mentioned, that is, it means that the trier of fact, the jury, does not have available to it the live cross-examination, which is so crucial in a criminal system and which is defended by the European Court of Human Rights. Again, that should be used very sparingly because it is not at all ideal. It should be used, we would suggest, only by consent by both parties or where there is some really exceptional reason, such as where a person is gravely ill and cannot attend in court.</p>
+          <p eId="para_37">The fourth point raises the question of jury trial and impact on jury trial. There have been suggestions that gangland type cases should be tried in the Special Criminal Court or that some other form of non-jury court should be used for such trials. The UN human rights committee has already found that Ireland is in breach of its international human rights obligations, in a case called Kavanagh v. Ireland, for sending a non-paramilitary case for trial before the Special Criminal Court without giving adequate reasons for doing so. To do more of this without clear and adequate reasons would just mean more breaches of the international obligations of the State.</p>
+          <p eId="para_38">In addition to that, jury trial is laid down in the Constitution. It is a cornerstone of our criminal justice system. If there is a significant problem of jury intimidation - that has not been proved because the big case that raised this, a trial from Limerick, is now proceeding in front of a jury - there are many measures which could be taken to protect juries short of abolishing jury trial. Juries could be transported to the court from a distance so that they could not be followed. Juries could, if necessary, be sworn in anonymously. In most extreme cases, juries could even be shielded from the public sitting in court and could be seen only by the legal teams, etc. All these measures should be taken before there is any question of trying to withdraw the fundamental right of a jury trial.</p>
+          <p eId="para_39">The point on resources for policing, etc., would not be our function but we would take the opportunity to reiterate our belief that it is very important that a Garda ombudsman be put in place as soon as possible in order to generate more confidence by disadvantaged and alienated communities in the Garda Síochána so that they have more trust in, and more willingness to co-operate in the fullest possible way with, the gardaí.</p>
+          <p eId="para_40">There have been suggestions of creating a new offence of membership of a criminal gang and also of using a chief superintendent's opinion in evidence, as in the IRA and other paramilitary cases in the Special Criminal Court. We would urge the greatest caution about that. There is a world of difference between a criminal gang and an organisation like the IRA, which is named in the legislation, which has a clear structure, whose members are sworn in and which is a sort of coherent organisation.</p>
+          <p eId="para_41">The concept of a criminal gang is incredibly loose. How would one define a criminal gang? Does it extend from major drug dealers down to robbers who organise to steal handbags in stores in town? It is virtually impossible to define. We think it is not really effective.</p>
+          <p eId="para_42">On the chief superintendent's opinion, there are serious questions already about the admissibility of that under the European human rights legislation. To use that in regard to something as amorphous and vague as a criminal gang would be stretching the criminal law to a point where it infringes on the rights of the accused. We said at the beginning that the question of social and economic rights is also important to the question of the debate on crime. My colleague, Nuala Kelly, will deal with that area.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_5">
+          <from>Chairman</from>
+          <p eId="para_43">Thank you, Mr. Farrell. You dealt well with the points we set out and your contribution has been helpful and useful.</p>
+        </speech>
+        <speech by="#PeterKellyFF" eId="spk_6">
+          <from>Ms Nuala Kelly</from>
+          <p eId="para_44">I want to make three points, which may sometimes be considered the points to which people do not want to listen at the end of a presentation, but nonetheless we believe they are important in terms of placing in context the overall set of problems being addressed by the Oireachtas committee.</p>
+          <p eId="para_45">We welcome the conducting of the review and acknowledge the seriousness of the challenges facing the criminal justice system in general terms and as a result of recent developments. A long-term and multifaceted approach is needed to address the problems effectively. We commend to the committee's attention the report of the National Crime Forum in 1998 and the subsequent research by the crime council. One interesting point to draw from it was the consensus those involved reached, that any solution had to transcend politics, if severe disadvantage and serious crime problems were not to tear apart the social fabric of our communities. It is clear that a multilevel approach with regard to local groups, central agencies and other relevant actors is needed and that a multidisciplinary strategy is also needed to deal with the complexity of the issues. Responding to crime directly may well solve some immediate and grave problems, but it is unlikely to create the conditions that would encourage the longer-term prevention of crime.</p>
+          <p eId="para_46">A second point is that it is essential that we take into account the underlying socio-economic conditions when trying to address the problems. It is widely recognised that specific areas of Ireland are suffering from severe disadvantage and all the indices of poverty. Studies have shown the high correlation between poverty and crime. We have little to add to that knowledge, but we must make the point that reference to the broader human rights principles and norms can help to address the challenges we face. It is important to re-affirm the interdependence of civil and political rights with economic, social and cultural rights. The issues under discussion today are frequently understood only in the context of civil and political rights. However, a joined-up, integrated approach requires that policies and practice be informed by the international standards on economic, social and cultural rights, as well as civil and political rights to which Ireland is a party.</p>
+          <p eId="para_47">In so far as our record has already been subjected to international scrutiny, the UN Economic, Social and Cultural Rights Committee has been critical of Irish Government practice to date. In terms of strict observations on the realisation of rights, the Irish Government may say that it is not doing badly, but in the committee's view - I refer to the international committee tasked with monitoring the implementation of the treaty to which we are party - our practice does not comply with international obligations to which we have agreed. I will quote two examples from its report of 2002 in regard to poverty issues in particular. Concluding observation 19 states that the committee is concerned that the State party, despite the committee's recommendations in 1999, has still not adopted a human rights based approach to the national anti-poverty strategy. Concluding observation 31 states that the committee re-affirms the State party's obligation to make the covenant rights enforceable in domestic legislation and confirms that whether or not the State party takes this step, it still has a legal obligation to integrate economic, social and cultural rights into the national anti-poverty strategy. The obligation to ensure progressive realisation of the rights guaranteed by the treaty does not mean that we can defer indefinitely the realisation of the rights to decent housing, a standard of living, participation, education and health. We already have the existing frameworks, policies and ideas in the context of the EU and national commitments to eradicate poverty and social exclusion. The national anti-poverty strategy, the national action plan on social exclusion, Sustaining Progress and programmes on social and economic cohesion all create the context in which some of the work to tackle crime can be conceptualised.</p>
+          <p eId="para_48">Most of the EU measures are premised on the common belief that access to social rights is essential to the prevention of social tension and social conflict. The problem here seems to be that there is a lack of political commitment at a co-ordinated and national level to implement them and invest, in a more targeted way, in more than merely the physical infrastructure.</p>
+          <p eId="para_49">A third point is that we need an integrated approach. There is a need to develop an approach which will access every social policy decision in terms of social inclusion and cohesion. The concept of disproportionate adverse impact and indirect discrimination, especially for public policy actions, which for the most part have poor people as beneficiaries, must become an important benchmark for assessing decisions to add or remove a policy provision. In other words, we need to insert a culture of human rights principles into public policy administration alongside the culture of accounting principles. The Human Rights Commission's role in this is to support that process by highlighting the human rights values in international law that the State has already agreed to implement.</p>
+          <p eId="para_50">The social forces that give rise to the trends in drug use and drug dealing, gangland killings and violence need to be addressed at least as much as the individual cases. Recognising the context for anti-social and violent trends is not to condone the behaviour or outcome. There is no real distinction between poverty eradication and fighting crime. Fighting poverty and protecting the dignity of all human beings is also about the prevention of crime.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_51">Thank you, Ms Kelly. I have one question. Michael Farrell mentioned the programme broadcast last night, which I believe most of us saw. The number of people who are intimidated and terrified by those 60 young people far exceeds 60. I would say that 60 people would phone me or call to my clinic in this regard and the position would be similar in the case of other Deputies. Last night, after "Questions and Answers", a number of viewers contributed by telephone and said that those young people should be put away and that their parents should be made responsible. Surely the human rights of the people who are terrified and intimidated should be respected? Given that the number of such people is so great, is there not a good deal to be said for putting away these young people? From a human rights point of view, would Professor Binchy like to answer that question?</p>
+        </speech>
+        <speech by="#" eId="spk_8">
+          <from>Professor Binchy</from>
+          <p eId="para_52">I thank the Chairman for targeting me. To structure the options and the alternatives in that way is to work on a fundamental misunderstanding of how the criminal law operates. Intimidation should not be part of our society - there is no question about that. In putting forward that proposition, one is not saying anything inconsistent. The human rights of individuals who are prosecuted should be protected. Those two propositions are not antithetical. The challenge for any society is to formulate its laws, their structure, content and mode of enforcement. This involves resources, financial commitment and personnel commitment. Society has to do what is necessary to get on top of intimidation, but the short cut of, to quote the Chairman, simply putting people away without regard to due process or to such people's civil rights is not the way to go. There is the possibility that innocent people may be put away on the basis of the noise of a baying crowd, which is always a dangerous noise to which to listen. One should never defer to people when their prejudices are at their highest and their emotions at their strongest. That is the time when the criminal legal system must be protective of the human rights of the individuals involved. There have been too many cases, of which we are all familiar, where the crowd has been baying and individuals have suffered injustice.</p>
+          <p eId="para_53">The challenge is not that one does nothing or that we have a criminal system that is inefficacious but rather that we have one that works on the ground. It may be too late at the courtroom stage to try to get the system on the ground to work. If there is a challenge from the point of view of practical efficacy, it may be necessary to ensure that resources be increased and multiplied. Let us not forget the dimension Ms Kelly mentioned, that it is curious that these problems happen to be taking place in circumstances and in sectors of society where deprivation is at its strongest. It does not require a genius to work out the connection there. Hypothesis one is that these people have a particular problem with criminality, and hypothesis two is that these people have a particular problem with making ends meet and securing the basic necessities of their lives. I respectfully say that society has an agenda here, but it is primarily of a social and economic nature and we should not sacrifice civil rights which are necessary to protect individuals in the legal system.</p>
+        </speech>
+        <speech by="#" eId="spk_9">
+          <from>Dr. Manning</from>
+          <p eId="para_54">I am sure the Chairman did not mean what he suggested, the logical follow-up to which happened in Northern Ireland 30 years ago, where part of the mob bayed for people who were involved in anti-social behaviour to be put away without trial; that was called internment. The logical follow-up to what the Chairman suggested is that the mob should be followed. I know he is not making that point. However, we should bear in mind that if we start locking people up, far greater harm will follow.</p>
+        </speech>
+        <speech by="#BreedaMoynihanCronin" eId="spk_10">
+          <from>Deputy B. Moynihan-Cronin</from>
+          <p eId="para_55">While I understand it is not the role of the Human Rights Commission to comment on the administration or the operation of the criminal justice system, it is important that the committee hears all sides of the argument. That is the reason I welcome the members of the commission to this meeting and I welcome its report. Does the commission agree there is a difficulty with the intimidation of witnesses and that this issue must be addressed?</p>
+        </speech>
+        <speech by="#" eId="spk_11">
+          <from>Mr. Farrell</from>
+          <p eId="para_56">Of course, we do. However, I doubt that it is as big an issue as has been highlighted by one particular case which arose in an area where there are serious problems. As one cannot say much about that Limerick case, perhaps it is better to talk about other cases from Limerick.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_57">We can talk about the subject in general and exclude referring to that case.</p>
+        </speech>
+        <speech by="#" eId="spk_13">
+          <from>Mr. Farrell</from>
+          <p eId="para_58">There are some areas, however, where there appears to be a code of conduct within the criminal fraternity of not vindicating their grievances in court. They do it themselves. It is an issue of trying to create more confidence in the criminal justice system and the Garda as a better way of dealing with the issues. There is a problem with intimidation but how does one deal with it? One offers supports to witnesses. It is not possible to place them all in a witness protection programme, which can be difficult for witnesses, but they can be offered every possible type of protection. If there is a feeling people might not give their evidence in court, they can give depositions before the trial in a less hyped-up situation and where they might feel safer doing it. However, this must provide more protection for the traditional rights in our criminal justice system whereby the defendant must be allowed to test the evidence through cross-examination. If we do not have this, people will lose belief in the system as being fair. That would create even more alienation. The roots of crime are the alienated communities which no longer believe in the system.</p>
+        </speech>
+        <speech by="#BreedaMoynihanCronin" eId="spk_14">
+          <from>Deputy B. Moynihan-Cronin</from>
+          <p eId="para_59">We regularly hear about the high profile cases. However, when representatives of Victim Support came before the joint committee earlier this week, they pointed out that in certain cases, where the people involved were travelling up from the country by train, the suspect and the witness could be on the same train. That is a type of intimidation. I accept that we might be highlighting an issue that arose recently but this problem has been ongoing for many years and has never been addressed. Simple matters such as this need to be addressed.</p>
+        </speech>
+        <speech by="#" eId="spk_15">
+          <from>Mr. Farrell</from>
+          <p eId="para_60">It is amazing that simple things like this have not been addressed. One is witnesses travelling on the same train as the accused. Another lies within the structure of the courtrooms where not only witnesses but also victims and their families are gathered. Our courtrooms are chaotic. Victims might find themselves sitting beside the family of the accused and vice versa. That is extremely difficult and stressful for all sides. Witnesses might have to wait in court, again sitting beside the accused. It should be a simple matter, although it will cost money, for the courts to be reorganised in order that there are separate seating areas for the victims and their families and separate rooms in which witnesses can wait until they are called. There should also be a different exit they can use in order that they need not be brought into direct contact with the accused. Such contact obviously increases the level of fear and intimidation they may suffer. These are simple problems which can be easily solved.</p>
+        </speech>
+        <speech by="#BreedaMoynihanCronin" eId="spk_16">
+          <from>Deputy B. Moynihan-Cronin</from>
+          <p eId="para_61">The commission suggests there are ways to provide full protection for those giving evidence. How would it be provided? Does the commission have any difficulty with the use of videotapes in Garda stations? Would it recommend that this facility be made available in all Garda stations? As a body charged with protecting human rights, will it comment on the lack of resources and supports for fighting poverty which, in many cases, leads to anti-social behaviour and crime?</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from>Mr. Farrell</from>
+          <p eId="para_62">The commission supports videotaping. Ironically, people in the human rights community have been calling for this for years. This is largely seen as a defence for the suspect being questioned but we have always said it is also a defence for the Garda and society generally. Videotaping protects the accused from being intimidated by gardaí when being questioned, protects gardaí against false allegations of abuse and provides a better and more reliable picture of what is said in custody. As it is cheap and easy, there is no excuse for not having it. It has been policy for years and should be available in every Garda station where somebody is being questioned. Every questioning session should be on videotape. It is in everybody's interest - the defence, the prosecution and society in general.</p>
+          <p eId="para_63">The protection of witnesses does not, strictly, come within our remit. It is largely an operational matter for the Garda. The Deputy referred to simple things such as not travelling on the same train as the accused. Witnesses should be given facilities to travel separately to court. It could be in a Garda car or they could be given taxi vouchers and so forth. There should also be separate rooms for witnesses in order that they can come in and out of court without coming into contact with the accused. Other operational measures are outside our remit.</p>
+          <p eId="para_64">I wish to refer to the Chairman's remarks about locking up all of the young people concerned. An important statistic was mentioned by the governor of Mountjoy Prison, Mr. John Lonergan, in the television programme last night. He said 77% of the inmates of the adult prison had come from St. Patrick's Institution, the juvenile prison, which indicates that simply locking up young people does not remove them from a life of crime but tends to confirm them in that life. Of course, some have to be locked up but we need measures to try to take them from a life of crime and, if possible, prevent them from getting involved.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_65">The third question was about resources.</p>
+        </speech>
+        <speech by="#" eId="spk_19">
+          <from>Mr. Farrell</from>
+          <p eId="para_66">As I mentioned, a high proportion of the young people who become involved in crime come from problem families in disadvantaged neighbourhoods. Some are psychopathic and so forth but they are the aberration. The vast bulk of crime arises from disadvantaged neighbourhoods, problem or broken families and so forth. They need support which it is worthwhile providing. Consider the cost over the years of a young person who becomes involved in crime. The money provided to give supports to the family would, even on an economic basis, be a good investment in preventing a life of crime and depredation and all the suffering and intimidation it visits on the general community.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_20">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_67">I welcome the commission. Many of the matters highlighted by it have also been highlighted by other witnesses who have come before the joint committee. These include witness intimidation; prior inconsistent statements, on which Professor Gerard Hogan gave an excellent presentation; and building new courthouses where juries and witnesses can be free of intimidation. Many common themes are emerging. I have two main questions. One relates to the Special Criminal Court and whether serious or heavyweight crimes should and can be tried there. Is there a legal problem under the European Convention on Human Rights with using the Special Criminal Court to process the most serious crimes?</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from>Professor Binchy</from>
+          <p eId="para_68">Mr. Farrell mentioned a case where there was a problem but that was on the focused and distinctive question of ascribing cases to the court without giving adequate reasons. That is not a wider point of objection, in principle.</p>
+          <p eId="para_69">I was a member of the Hederman committee which dealt with the Offences Against the State Act and one of a minority of three which dealt with the issue of the Special Criminal Court. Essentially, the right to a jury trial is - I believe my colleagues would also argue this as individuals - a tremendously valuable part of society, rather than handing the trial over to a judge based court.</p>
+          <p eId="para_70">It is interesting to note that other countries do not set up criminal courts to deal with gangland-type activities. They maintain the jury trial system. The United States is an example. It has had a history of organised crime going back many years and it has not resorted, nor could it resort constitutionally, to the use of a court like the Special Criminal Court. It is a question of judgment, but the basic value of a jury trial is tremendously important. It retains a connection between society, the individual and the criminal justice system. This should be sacrificed only in circumstances of oppressive and demonstrable need. That case has not been made in the context of the situation in Ireland today.</p>
+          <p eId="para_71">The fact that people speak strongly about an issue and that emotions are raised does not necessarily prove that there is a need in these circumstances to resort to the Special Criminal Court. It is very easy to do so, but I believe this case has not been made.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_22">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_72">I take it that there is nothing specifically in the European Convention on Human Rights which rules out the use of the Special Criminal Court in dealing with serious crime cases.</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from>Professor Binchy</from>
+          <p eId="para_73">This has not been said but it is not to suggest that the use of the court could not, in particular circumstances, be held to constitute a violation of the European Convention on Human Rights. There is no doubt about this. If one takes the baseline question on whether the convention rules out the court completely, the correct answer, under present jurisprudence, is that it does not do so completely in all cases.</p>
+          <p eId="para_74">It is worth mentioning an issue that has been mentioned in Ireland recently, especially by the Minister for Justice, Equality and Law Reform. The common law system has traditionally had considerably more protections in it in terms of civil rights than the civil law system. The systems are quite different. This is not to denigrate the civil law system, but it is inquisitorial and places no emphasis on jury trials. The European convention is dealing not only with the common law system but overwhelmingly with countries with civil law systems. It is no surprise that in the context of the European convention, there is no emphasis on jury trial because it does not coincide with the traditions of the civil law system. In our common law system, the emphasis throughout has been on jury trial and it is in this context that we should speak.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_24">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_75">In his excellent presentation, Professor Binchy states that the targeting of individuals is not acceptable and that a distinguishing feature of law is the generality of its application. Nobody would argue with this. However, since 1996, the Criminal Assets Bureau legislation has been enacted, there have been supergrass trials and there is, I am sure, some undercover policing, etc. More proactive policing and investigation is required. This was also touched upon by Dr. Hogan.</p>
+          <p eId="para_76">Much of our criminal law has been updated but much more is based on jurisprudence and laws that are 100 to 150 years old. However, criminals and thugs are not that old. They are sophisticated, move internationally, are heavily financed and organised, and use subterranean channels. Some would say that tackling highly organised, serious crime - Professor Binchy mentioned the American experience - necessitates thinking of undercover policing and targeting people. Correct me if I am wrong, but the CAB legislation reduced the burden of proof from a criminal level to a civil level, implying that one only had to establish, on the balance of probability, if assets are illegal. Professor Binchy's paper does not address whether there is a breach of the European Convention on Human Rights in this regard.</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from>Professor Binchy</from>
+          <p eId="para_77">While the Deputy has raised interesting points, there is a difference between targeting individuals and having law that is capable of operating against individuals. If I were to propose the anti-Michael Mulcahy law, it would be a question of targeting him and focusing the law upon him. This, he may be relieved to hear, would be unconstitutional.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_26">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_78">It might be popular.</p>
+        </speech>
+        <speech by="#" eId="spk_27">
+          <from>Professor Binchy</from>
+          <p eId="para_79">If I were to pass a law of general application - I will not state its content so as not to embarrass the Deputy further - which might have specific application in the Deputy's context and others who fall within its bounds, that is fine. Therefore, there is no inconsistency. The CAB principle targets individuals under principles of generality which are laid down.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_28">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_80">Does Professor Binchy have no problem with the CAB?</p>
+        </speech>
+        <speech by="#" eId="spk_29">
+          <from>Professor Binchy</from>
+          <p eId="para_81">Not on the basis of its targeting individuals. The second point the Deputy raised concerned the civil burden of proof. This is an issue in the sense that it is about the seizure of property rather than convicting a person of an offence. There are constitutional issues surrounding this legislation, but these comprise a separate question. Proposals that law should not be designed to target an identifiable individual are not inconsistent with the CAB.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_30">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_82">In his presentation, Mr. Farrell referred to creating a new offence of membership of a criminal gang. He also referred to the opinion of a chief superintendent regarding evidence of such membership. While he urged caution he did not say whether the Human Rights Commission would oppose such a move. Will he clarify this?</p>
+          <p eId="para_83">On Deputy Mulcahy's question and Mr.Binchy's response that jury trial is laid down in the Constitution as a cornerstone, the logic is that the Special Criminal Court would be unconstitutional because it does not involve a jury trial. Does this follow? If so, does the Human Rights Commission oppose its existence now and will it do so in the future?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_31">
+          <from>Chairman</from>
+          <p eId="para_84">An interesting question.</p>
+        </speech>
+        <speech by="#" eId="spk_32">
+          <from>Mr. Farrell</from>
+          <p eId="para_85">The question of a chief superintendent's opinion raises considerable questions under the European convention. This was dealt with in a recent case in the Special Criminal Court, which seemed to be of the view that there were considerable problems in relying on a chief superintendent's opinion, largely because his opinion is usually based on anonymous sources. He will give evidence that he believes somebody is a member of the IRA, for example, on the basis of information over which he claims privilege. This means one cannot go back and look at that evidence, whether it is from those who have a personal grievance against the accused or otherwise. In view of this, there are many problems with a chief superintendent's opinion in terms of it being a type of evidence. Any extension of it to even wider areas should be treated with great caution.</p>
+          <p eId="para_86">Deputy Ó Snodaigh asked whether the Human Rights Commission is totally opposed to the use of chief superintendent's opinion. That may not touch on the nature of the work of the commission, but it leads to the question of the use of the Special Criminal Court. The commission is considering emergency legislation and has not yet developed a policy position on it. Therefore, I cannot state categorically what our position is other than by restating what Professor Binchy stated, namely, that it raises considerable problems.</p>
+          <p eId="para_87">Deputy Mulcahy mentioned the European convention. It does not have a position on the Special Criminal Court but the International Covenant on Civil and Political Rights, which is a UN convention, did hold that, in the Kavanagh case, it was wrong for the DPP to send a case to the Special Criminal Court without giving clear reasons for doing so and giving the accused an opportunity to say why those reasons did not apply. This also figures with other Special Criminal Court cases but this was the one on which the judgment was made.</p>
+          <p eId="para_88">The European convention's problem is not with jury trial or non-jury trial because continental countries have the latter. It is concerned with discrimination. If our system is based on jury trial, why should some not be afforded the right to it? There must be a very strong reason why they should be deprived of it and they must be given an opportunity to rebut that reason. We do not have a mechanism for this at the moment and this is a serious flaw in respect of this emergency-type court. We have jury trials all the time in very serious cases. They work and they give people the protection of being tried by their peers, who generally, dare I say it, have a more common sense approach to these matter than judges sitting alone.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_33">
+          <from>Deputy Costello</from>
+          <p eId="para_89">I am delighted to see the Irish Human Rights Commission in place, promoting and protecting human rights. Is it beyond possibility that we will have a definition of organised criminal gangs? We deal with membership of an illegal organisation under emergency legislation in the Special Criminal Court. Would it be possible to deal similarly with participation in organised illegal drugs activities, as all drugs have to come into the country from abroad and all large-scale drug activity has a link to international crime?</p>
+        </speech>
+        <speech by="#" eId="spk_34">
+          <from>Professor Binchy</from>
+          <p eId="para_90">To respond to an aspect of the Deputy's first point - this is an entirely personal response - I think it is a bad idea and futile to start trying to make an analogy with paramilitary organisations. To start defining gangs in that way is, I think, a dead end. However, that is not to suggest - as I said it is a personal thought - that the element of organisation in the commission of a crime, that is, more than one person inter-relating with another person, could not be an exacerbating factor when it comes to sentencing. The element of organisation could perhaps be subject to a definition itself, not in terms of gangs - that is, as I have said, a dead end - but perhaps of criminal conspiracy, always a very dangerous area to get into and a port of last resort in terms of prosecution. The notion of organisation as an exacerbating factor is perhaps something that could be looked at, but not in terms of defining gangs as such. Mr. Michael Farrell raised a question as to the point of triviality at which one stops using the word 'gang'. It is a difficult word and the level of organisation is not necessarily there. I suggest that as an exacerbating factor it might be a consideration when it comes to sentencing or the definition of the offence, but not defining 'gang membership' as itself an offence.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_35">
+          <from>Senator J. Walsh</from>
+          <p eId="para_91">My question relates to the Chairman's first question, but I respectfully suggest that the core point was side-stepped by the commission. I think we all accept the need to incorporate good human rights principles to avoid miscarriages of justice, of which the Birmingham Six and the Guildford Four are prime examples. However, on the other side, there would be a wide body of opinion that a miscarriage of justice was visited on the late Veronica Geurin and Brian Fitzgerald as society failed to address the well-known and active criminals in advance of these high profile murders. The principles of the Convention on Human Rights must apply to society in general in the same way as the law. I do not think that has been acknowledged in the presentation.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_36">
+          <from>Chairman</from>
+          <p eId="para_92">That puts it up to the delegation from the Human Rights Commission.</p>
+        </speech>
+        <speech by="#PeterKellyFF" eId="spk_37">
+          <from>Ms Nuala Kelly</from>
+          <p eId="para_93">To relate it to the Chairman's first question, it is right to say it is a shocking fact that approximately 60 children are enough to intimidate people throughout the country. There is a great deal of sociological material on how groups operate, gangs and so on, and they are extremely difficult to define. If there are interventions during very early childhood and the teenage years, then we are not only protecting the rights of those children but the rights of the broader community.</p>
+          <p eId="para_94">From my experience of working in working class communities where there were extensive socio-economic, cultural and criminal problems, very few of the individuals were bad - some were. It is doubtlessly true that when interventions are made and children are taken out of the gang context - I do not mean completely removed from their community - it can have an impact. It can also help to change a culture. When we talk about economic, social and cultural rights we are not talking about a concept that is totally alien to us all, but of respecting the basic dignity of everybody. If we are to try to address the short-term problems of victims and those who have to appear in court, we should address these issues and the longer-term problems that give rise to them in the first instance, otherwise we will continually operate a fire brigade approach.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_38">
+          <from>Chairman</from>
+          <p eId="para_95">I know there is a large number of questions on human rights. I hope we will have time to deal with them after the Bar Council makes its presentation.</p>
+        </speech>
+        <speech by="#" eId="spk_39">
+          <from>Mr. George Birmingham SC</from>
+          <p eId="para_96">On behalf of the Bar Council, we are very pleased to have been invited and given the opportunity to take part in these deliberations. Let me introduce my colleagues, Mr. Shane Murphy, senior counsel, who practises in the area of criminal law as well as other areas and both prosecutes and defends. Taking up an issue that arose during the last session, he also has considerable experience of the CAB legislation and its implementation in the courts.</p>
+          <p eId="para_97">My other colleague, Ms Una Ní Raifeartaigh, is both a distinguished practitioner and academic. She held the position of Reid Professor of Criminal Law at Trinity and members will be conscious that her two immediate predecessors both ended up as President of Ireland.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_40">
+          <from>Chairman</from>
+          <p eId="para_98">I wish her well.</p>
+        </speech>
+        <speech by="#" eId="spk_41">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_99">Mr. Gerry Carroll is the director of the Bar Council and will be known to a number of members as a former very distinguished public servant.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_42">
+          <from>Chairman</from>
+          <p eId="para_100">Before Mr. Birmingham continues, let me remind the delegates that while Members of the Oireachtas enjoy parliamentary privilege, delegates do not enjoy the same privilege.</p>
+        </speech>
+        <speech by="#" eId="spk_43">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_101">I am not sure whether I am to interpret that as some sort of a yellow card.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_44">
+          <from>Chairman</from>
+          <p eId="para_102">I received a yellow card for not stating it earlier.</p>
+        </speech>
+        <speech by="#" eId="spk_45">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_103">We are grateful for the invitation and appreciative of the tone being struck by this committee in its deliberations, which are thoughtful, reflective and balanced.</p>
+          <p eId="para_104">Because most of us operate and practise in the area of criminal law, both prosecuting and defending, we have an opportunity to see issues from both sides. The Bar Council does not have a party line on these issues. The issues the committee is grappling with involve judgments of a philosophical, ideological and political nature and the Bar Council and its members come from a very wide spread of philosophical, political and ideological opinions. Those who practise in the area of criminal law are of all politics and of none. Even this morning, members will have little difficulty in finding differences of approach and nuance among the three of us.</p>
+          <p eId="para_105">It is clear from the opening statement that there is no room whatever for complacency, but it is equally the case that there is no room for panic. We are very reassured by the tone of the letter of invitation from the clerk of the committee which made the point that the system "was fundamentally sound" and we say that is so. A measure of this is perhaps the contents of the annual report published by the Director of Public Prosecutions which indicates that, taking one year with another, something of the order of 90% of cases prosecuted on indictment end in convictions, either as a result of people pleading guilty or because cases are contested, go to trial and end in a conviction.</p>
+          <p eId="para_106">Taken as a whole, this suggests there is no general problem with the system. The question then is whether there is a particular problem when the crimes under investigation have been committed by some form of organised criminal gang or group. The answer is that there is no evidence of a particular problem. Our experience, as practitioners in the courts, does not suggest that, in general, the courts are incapable of dealing with organised crime. It can be said we only deal with the cases that actually get to court, and could be said that perhaps the problem is that in the particular area of organised crime cases are not getting to court because a judgment has been made a step further back that there is not sufficient evidence to make prosecution a realistic prospect. That is something the joint committee can and, I am sure, will probe with the Director of Public Prosecutions and the Garda when its members speak to them.</p>
+          <p eId="para_107">In so far as we, from time to time, are asked to advise on whether prosecutions should be brought and on the areas of concern to the committee such as drugs and gang-related crime, we do not see any specific, particular or unique problem of general application. That some individual cases will fail and end in acquittals is not a system failure. It is the nature of a criminal justice system that is adversarial and requires the prosecution to prove its case beyond reasonable doubt that some prosecutions will fail. If it were otherwise, we would be replacing a system of trial in a court of law with some system of certification of guilt by the prosecution authority, whether the Garda or the Director of Public Prosecutions.</p>
+          <p eId="para_108">While, in general, the system works well and in our view there are no problems of widespread and general application, there are areas of difficulty. One on which the joint committee has focused is the problem of what happens when the evidence the prosecution expects to be available is no longer available because expected witnesses have had a change of heart. To put the matter in context, our system is adversarial in nature. The expectation is that each side will assemble its witnesses and bring them to court and that they will tell their story and make themselves available for cross-examination by the other side. Linked with this is the fact that in our system only one side bears any particular onus. The onus is always and exclusively on the prosecution.</p>
+          <p eId="para_109">The expectation is that the prosecution will be able to assemble its witnesses and bring them to court, that they will give their evidence which will be available for assessment by the jury or, in the Special Criminal Court, the judges hearing the case. It sometimes happens that the individuals expected to come along and give evidence do not do so, either because they refuse to take the oath, because they claim to have forgotten whatever it was they had first given in evidence or because they gave a version that is now wholly and totally inconsistent with what they had previously said. This is an area on which the joint committee has focused in its work to date.</p>
+          <p eId="para_110">Why does this happen? There is no one answer. The most dramatic and sinister example is where a citizen comes into possession of information on a crime, perhaps because he or she happened to be an eye witness, volunteers the information to the Garda, then comes under specific and direct threat and decides that he or she cannot go through with it by giving evidence and decides to withdraw. While that is the most dramatic example, it is also perhaps the rarest. More typically in the situation where somebody withdraws evidence or does not proceed to give evidence as expected, that person's initial involvement with the Garda will have been a reluctant one. It may be the case that he or she will have been interviewed by the Garda in the course of the investigation at some stage as a suspect. He or she may have been interviewed because he or she was close to and was believed to know something about the movements and activities of the principal suspect. In such circumstances it is much easier to understand how an initial willingness and enthusiasm will wane. Sometimes individuals are shocked and horrified by the nature of a crime to the extent that they will be willing at an early stage to co-operate with the Garda but as time passes, that initial willingness fades and other factors come into play such as a sense of loyalty to a relative, neighbour, long-term friend or associate or perhaps their own community.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_46">
+          <from>Chairman</from>
+          <p eId="para_111">Are other colleagues of Mr. Birmingham going to take part in the presentation?</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_112">With your permission, they shall come in on specific aspects.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_48">
+          <from>Chairman</from>
+          <p eId="para_113">Yes, I am just looking at the matter from the point of view of time. Please continue by addressing the salient points.</p>
+        </speech>
+        <speech by="#" eId="spk_49">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_114">There are different reasons people will prove less enthusiastic. The question is what can one do about it, to ensure that in a greater number of cases the prosecution will have available the evidence it hopes to have. The single most important thing we could do is speed up the criminal system. With delays, the opportunity for direct intimidation and changes of heart for the reasons I have mentioned and the capacity for people to intimidate themselves by becoming afraid and apprehensive about the implications of the course of conduct on which they have embarked are all increased. Therefore, if cases could be speeded up, the situation would be improved considerably. We have suggested that one way to do this would be to make greater and earlier use of the system of taking depositions from witnesses identified as vulnerable or perhaps reluctant. This is only available after return for trial. We have suggested moving it back in order that in a situation where the Garda comprehends problems down the line, this could be done at a very early stage.</p>
+          <p eId="para_115">In a limited number of cases in recent times a witness protection programme has been invoked and used. We very much wish to see it being put on a statutory basis. The joint committee will be aware that the for the first time the Court of Criminal Appeal recently had an opportunity to express a view on the operation of the programme. It clearly emerges from the judgment of the court in a recent high profile case that the Judiciary is concerned about its <i>ad hoc </i>nature. There is a very clear need to put the system on a statutory basis.</p>
+          <p eId="para_116">The joint committee has been looking at extending the operation of the Special Criminal Court. The Chairman is nodding his head but it has been suggested that some committee members have been looking at this. Contrary to the popular view, the Special Criminal Court is not confined to hearing cases of a subversive or terrorist nature. There is, though, a certain difficulty about a situation where one side to the case, the Director of Public Prosecutions, can decide which cases go there. This may be a problem in terms of expanding its activities.</p>
+          <p eId="para_117">As an alternative, we have suggested that in cases where problems are anticipated, a jury trial can proceed but with additional safeguards. We have suggested that in appropriate cases the jury might hear the case at a distance by video link in order that the jurors would not have to be present in court to be observed. We have suggested that the panel could be anonymous and that even the limited information now provided on names, addresses and occupations could in appropriate cases and following an application to a judge be withheld.</p>
+          <p eId="para_118">We have looked at the question of gangland offences and see difficulties. The first difficulty we see is the concept of what is a gang. If one thinks back even to one's own school days where most of us will at one stage or other have been gang members, one may wonder were we really because people drift in and out. It seems to us that there are very considerable difficulties and, not to repeat points made earlier, the contrast between the organisations which are the subject of a suppression order and in respect of which charges are brought for membership of an illegal organisation, is very sharp. If one is a member of the IRA or INLA, one is a member of an oath-bound organisation with a constitution, standing orders and all the structures of a paramilitary organisation such as officers, headquarters staff, etc. It is entirely different. We see a significant problem in this area.</p>
+          <p eId="para_119">I wish to mention two other topics that we think might be looked at by this committee when it comes to report, the first of which is the question of tainted acquittals. What happens if somebody is acquitted of a crime and it then emerges subsequently that there has been interference with witnesses or that there has been intimidation? Supposing it emerges so clearly that people are convicted of having intimidated witnesses should that acquittal stand? It seems to me that is a matter that the Oireachtas can and should look at.</p>
+          <p eId="para_120">Another area we would invite the Oireachtas to examine is disclosure, which has a particular relevance in the case of serious crime, organised crime and perhaps the related area of subversive crime. It is the obligation of the prosecution not just to tell the defence what the case against the accused is going to be, but also to disclose any material in their possession which would assist the defence in mounting a case of its own or assist the defence in undermining the prosecution case. In most cases that is of limited application. If it is a domestic murder, by and large there is not going to be a great deal to disclose.</p>
+          <p eId="para_121">However, if one looks at the area of gangland, the prosecution or the Garda may be in possession of vast amounts of material. Where, for example, the trial is for a killing that is supposed to have occurred as part of a gangland feud, it is very likely that the Garda will have files on all of the other incidents that have formed part of that feud. Does the Garda have to disclose all of those or does it only have to disclose selectively? This is an area which we would say, with respect, merits the urgent intervention by legislation. In the United States and in Canada, such has been the level of demands for disclosure that it has earned the phase, certainly by the prosecuting community, that its members are subjected to grey mail. We would ask you, Chairman, to look at that.</p>
+          <p eId="para_122">By way of introducing my colleague, Una Ní Raifeartaigh BL, who will speak next, I would say that this is not the first time that the Oireachtas has addressed this issue. In 1999 the Oireachtas legislated in this area against a background of a case that had caused very considerable public disquiet. I refer to the prosecutions of those responsible for the killing of Garda Jerry McCabe. The Oireachtas legislated and introduced a number of specific proposals with which my colleague, Ms Ní Raifeartaigh BL, will deal. My colleague, Shane Murphy SC, will then have some general remarks to make and will also make some specific housekeeping suggestions in terms of making the system more efficient on a day to day basis and in terms of providing greater protection for individual people who have decided, perhaps with reluctance, that they are prepared to fulfil their duties as citizens and give evidence in a criminal case.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_50">
+          <from>Chairman</from>
+          <p eId="para_123">Perhaps we will take some questions from the committee and both Mr. Murphy and Ms. Ní Raifeartaigh will be able to incorporate what they were going to say into some of the answers.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_51">
+          <from>Senator J. Walsh</from>
+          <p eId="para_124">I compliment the Bar Council for an interesting presentation which was constructive and incisive and also advocated a measured response to the issue of crime. The comments on depositions, tainted acquittals and disclosure were particularly interesting.</p>
+          <p eId="para_125">In all of this, we are looking for a balance to avoid miscarriages of justice. Given that only a small proportion of offenders are brought to trial in the first instance, would the Bar Council accept that the anti-terrorism legislation introduced following the Omagh bombing, including the establishment of the Criminal Assets Bureau, both of which have been reasonably effective, constitute an acknowledgement in the present system that the bar of proof is perhaps too high?</p>
+        </speech>
+        <speech by="#" eId="spk_52">
+          <from>Mr. Shane Murphy SC</from>
+          <p eId="para_126">I do not think so. What those events demonstrate is the fact that effectively in the circumstances of a particular crisis, where a particular challenge is delivered to the system, the system has to be flexible and decide how it can respond. In both of those examples, that is how the system replied to particular challenges and difficulties.</p>
+          <p eId="para_127">Mention has been made of the Criminal Assets Bureau legislation. It is important to emphasise that the focus of that legislation is towards the possession of property which directly or indirectly represents the proceeds of criminal activity. So there is a property-based focus seeking to identify the money which represents the ultimate motive and source of opportunity for criminals in the course of their conduct, as opposed to focusing on people and individuals for their relevant conduct in the commission of criminal offences. It is important that the system can respond flexibly, but each response needs to be thought out very carefully, taking the long view and making sure that it is one that produces the desired effect but preserves the existing safeguards that exist injurisprudence.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_53">
+          <from>Senator J. Walsh</from>
+          <p eId="para_128">On a similar point, the Bar Council underlined that the right of silence, which would be underpinned by the Constitution and the convention on human rights, is something to be preserved. Given that following the Omagh bombing legislation was introduced which allowed the judge to make an inference from the failure of the accused to give evidence, is it possible to extend that template? I put it to the delegation that society in general probably would not make a great distinction between the effects of a terrorist act and, on the other hand, the activities of drug barons who have a devastating effect on communities and society, although one is more high profile than the other. Is there a need to look at such areas which to date would have been regarded as something to be avoided?</p>
+        </speech>
+        <speech by="#" eId="spk_54">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_129">First, the right to silence has a constitutional base here. Second, it has a very clear European convention base - the case with which most will be familiar is the Saunders case in England arising out of the Guinness distillers controversy. It is not a case where we are at large.</p>
+          <p eId="para_130">Equally it is clear, both under the Constitution and under the convention, that the right is not absolute and that there is some scope for legislation, along the lines of the 1998 Offences Against the State (Amendment) Act, allowing for the drawing of inferences in appropriate circumstances and with safeguards. For example, under the 1998 Act, while inferences can be drawn from a failure to answer questions, somebody cannot be convicted exclusively on that basis. There is scope for further examination. For example, the legislation in Northern Ireland in this area has been upheld by the European court in the Murray case. Therefore, it is not a no-go area, but it is an area where it is necessary to move with caution.</p>
+        </speech>
+        <speech by="#" eId="spk_55">
+          <from>Ms Una Ní Raifeartaigh BL</from>
+          <p eId="para_131">If I may address the issue of legislation that has been introduced in response to particular atrocities or particular crimes, practitioners in general are concerned - it is of more general application than what we are discussing today - about what I might call a general neglect of attention to criminal legislation for the day to day bread and butter issues that effect practitioners.</p>
+          <p eId="para_132">I have spoken to colleagues and practitioners over the past few weeks in this regard. There is a general sense - I apologise for coming in with a criticism - that the Oireachtas will only act when there is a particular outrage or atrocity that attracts attention, but that in fact the criminal justice system is marching along day after day and in general there are loopholes, problems and issues to be addressed which are not addressed. They tend to be addressed only if they will be pro-prosecution. Defence issues tend to be neglected because there is not any political capital in it.</p>
+          <p eId="para_133">In any event, the only issues that tend to be addressed are in response to particular atrocities. I wish here to make the case more generally, at least in the issues that are arising today, for a committee that would consider a package of measures in greater detail with a view to helping form the foundations for specific legislation on, say, witness intimidation or the issue of organised crime. In fact these issues are overlapping, but not necessarily equal. Witness problems can arise in cases where there is no organised crime and organised crime can present problems other than witness intimidation or witness problems, so we should not completely merge the two issues.</p>
+          <p eId="para_134">The committee to which I refer should examine a package of measures. In our written submissions we have stated that there is a range of potentially ten areas where we could look at measures to be taken. We suggest that such a committee would examine those carefully at some remove from the political process and that in the course of its deliberations there would be an input by practitioners. Some time would need to be given to this exercise. In our written submission we simply touched on measures but, as the committee is getting the impression from everything that is being said today, there are considerable angles to all of them. There are pros and cons in terms of their effectiveness, resources, the practicalities and whether they comply with the provisions of the Constitution and the European convention. That is my first point.</p>
+          <p eId="para_135">Second, I make the case for a standing committee, perhaps akin to the criminal law revision committee in England. While the Law Reform Commission reviews criminal issues from time to time, it primarily reviews substantive law. Issues of procedural and evidential law arise for practitioners all the time in practice but they are not examined on a regular basis. They need to be kept under constant review and perhaps even be the subject of yearly reports. My response is that those items of legislation cause concern, although perhaps not for the same reasons the Senator identified.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_56">
+          <from>Senator J. Walsh</from>
+          <p eId="para_136">That is an interesting point to which I would like to return.</p>
+          <p eId="para_137">With regard to the anonymity of witnesses, Ms Ní Raifeartaigh mentioned that the ability to cross-examine meaningfully was diminished through the anonymity provision but acknowledged that in exceptional circumstances one could deviate from the norm. Can she offer examples where such circumstances apply? A related technical point is, who prescribes anonymity in such cases? Could it apply in the case of proscribed gangs and on foot of an application by a chief superintendent to the court, or how would the representatives envisage the mechanical side of the measure operating?</p>
+        </speech>
+        <speech by="#" eId="spk_57">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_138">There is already a precedent in that there is statutory provision for officers of the Criminal Assets Bureau to give evidence anonymously. I suppose we are saying there may be analogous areas where there would be a case to be made, for example, in the case of undercover gardaí. A situation might arise where a task force of gardaí, Customs and Excise officials and representatives of the Department of Social and Family Affairs had targeted a gang and there might be a fear that because they had targeted that gang, it might put them or their families at risk. If that was so, it is appropriate that consideration would be given to allowing them to give evidence anonymously but we are saying it would be better for the Oireachtas to address the issue now and put in place a system to ensure there would be a provision whereby an application could be made to a judge setting out that established criteria had been met rather than wait until the problem arises and then flap around asking why nobody had thought of this in advance. That is what we are seeking to target.</p>
+        </speech>
+        <speech by="#" eId="spk_58">
+          <from>Mr. Murphy SC</from>
+          <p eId="para_139">There is a template in the Criminal Assets Bureau whereby officers, defined by law, can effectively do so, given the protection the Act provides in regard to evidence given by the chief superintendent in charge of the bureau but that is easier and more focused than the problems we are discussing because it is directed towards a class of persons who operate for the Criminal Assets Bureau. There is no reason terminology could not be deployed in a wider sense where there were specific criteria set down that a judge could examine and decide whether it was a claim well made.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_59">
+          <from>Senator J. Walsh</from>
+          <p eId="para_140">Reference was made to a standing committee. Part of the Bar Council's recommendations is that this committee should examine the position in other common law jurisdictions to check where best practice applies. When Dr. Paul O'Mahony from Trinity College was before us yesterday, he made the point that we should also look at the Napoleonic laws in continental Europe and see how we could combine them with those in common law jurisdictions and extract from them the best principles of human rights and liberties. Is that something to which the representatives would subscribe?</p>
+        </speech>
+        <speech by="#" eId="spk_60">
+          <from>Ms Ní Raifeartaigh BL</from>
+          <p eId="para_141">I agree that in considering proposals for reform we should look at as broad a range of models as possible. I would not say it should be confined to common law jurisdictions but it underlines my point that if we intend to do this, that kind of research takes time and effort. It must not be forgotten also that all of those materials would be in French, German and so on. We would need serious researchers who would know how to do this task and be paid to do it. We would also need people to consider the proposals and suggest policy recommendations.</p>
+          <p eId="para_142">Let me use this opportunity to say that in terms of the European convention, there has been mention of this. Areas of concern where we might well be in breach of the convention and which are of immense practical importance are that of police surveillance, which was mentioned, and the interception of telephone communications - policing measures in modern society. The European convention lays down stringent requirements for states and how they regulate this type of activity by the police. In England, for example, there are five or six major items of legislation relating to interception and they are always trying to catch up with the latest pronouncement in regard to the European convention. We have completely neglected this and sooner or later are likely to fall foul of it. Alternatively, the police will be rendered inactive because we will not know what to do, or it will be afraid that if it does it, it will not know how to do it properly. That is important.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_61">
+          <from>Senator Terry</from>
+          <p eId="para_143">The representatives are welcome and I thank them for their presentation which provides excellent information for us. It is good that it is in layman's terms.</p>
+          <p eId="para_144">Mr. Birmingham suggested that we should put the allowing of depositions in the District Court on a statutory basis so that they would be made pre-trial and videotaped and then used as evidence in the trial. He also mentioned that this was already provided for in the Criminal Justice Act 1999. Can he explain the reason these procedures are not used extensively because it appears to be a very good way of providing for witnesses to give evidence? Does he consider depositions could be made in a Garda station in the presence of a peace commissioner? Do they have to be made in the District Court? More importantly, why are these procedures not being used extensively?</p>
+        </speech>
+        <speech by="#" eId="spk_62">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_145">They are used from time to time. In my experience they have not been used extensively as a response to actual, threatened or feared intimidation. Perhaps one of the reasons for this is that they may be available too late. We make the point that the best way of cutting off intimidation, avoiding a situation where people frighten themselves and lose their nerve and preventing a situation where people respond to peer pressure is to get their evidence as quickly as possible. That is the reason we have made the suggestion that if we bring it back in time and allow a deposition to be taken before the return for trial stage, the opportunity to use the procedure will be extended. Currently, a deposition arises only after somebody has been returned for trial and there will already have been a significant time lag because before a person is returned for trial, essentially all of the other statements have to be assembled.</p>
+        </speech>
+        <speech by="#" eId="spk_63">
+          <from>Mr. Murphy SC</from>
+          <p eId="para_146">It could also be said we have legislation in place since 1992 to videotape depositions but the Criminal Evidence Act 1992 limits the cases to a very small category, usually those dealing with children or those involving sexual offences, and makes specific provision that such a deposition can be used as evidence in the subsequent trial. There is a need, therefore, to re-examine whether one could broaden the categories of offences which could be subject to this particular view.</p>
+          <p eId="para_147">The second point is that in terms of the 1999 Act, one of the problems of which the committee must be aware is that in many cases witnesses who are subject to intimidation will not admit this fact. Therefore, one does not have a complaint of intimidation. What one does have is a witness who, without warning, begins to change his or her direction. It is where the Garda has a concern that witnesses may be subject to intimidation that we think it is important that this pre-trial facility of deposition should be available to ensure the witness cannot resile from his or her appearance, whether he or she was on drugs at the time, in bad health or under pressure. All of these are often very subtle influences brought to bear with the result that in many cases, contrary to what one might expect, intimidated witnesses make no complaint because they do not dare. In the circumstances, it is really a question of seeing whether the legislation can be provided in a format which will enable the prosecuting authorities to investigate and deploy it at an early stage.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_64">
+          <from>Senator Terry</from>
+          <p eId="para_148">Does such a deposition have to be made in the District Court? Is there any facility for it to be made in a Garda station?</p>
+        </speech>
+        <speech by="#" eId="spk_65">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_149">The procedure is that one is brought before a judge in the District Court.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_66">
+          <from>Senator Terry</from>
+          <p eId="para_150">Does Mr. Birmingham believe that is still the best way? Is there a mechanism that would make it easier for an individual to make a deposition, given that going into court can be quite intimidating?</p>
+        </speech>
+        <speech by="#" eId="spk_67">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_151">If we are considering a situation where the evidence would be used - the assumption is that this is a person who will effectively get cold feet later for whatever reason - if one could even contemplate using it at the trial, I would have thought the minimum formalities would have to be that the evidence would be given on oath, videotaped and that there would be an opportunity, either when first given and-or at the trial, to cross-examine the person in relation to what he or she had said. I think the Senator is moving quite a distance in contemplating using what is said in the presence of a judge of the District Court more extensively. To go back and say one would also use what had been said in front of the sergeant in a Garda station is perhaps taking a step further.</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Ms Ní Raifeartaigh BL</from>
+          <p eId="para_152">I would like to make three distinct points on the question of videotaped depositions and statements in Garda custody. The first is that there were very good reasons in the first place, in accordance with the hearsay rule, that prior inconsistent statements were not introduced in evidence. Any measure to change that position should constitute the least interference with those reasons in the first place. They relate to things such as the formality of the occasion, the fact that it was on oath, the fact that one can observe the demeanour of the witness and so forth. My personal opinion is that depositions would be better than a statement in a Garda station because it is the measure of least interference with what led to the rule in the first place. It is a matter which will have to be given careful consideration.</p>
+          <p eId="para_153">Why are these measures not used more frequently? There are probably many reasons but at least one is lack of knowledge about them. That leads me to the more general point that many of the measures that will tackle the problem of organised crime and interference with witnesses are scattered in different parts of legislation and common law. It will not have escaped the committee's attention, for example, that the hostile witness procedure is in an 1865 statute. Even practitioners have trouble unravelling the sections and understanding them. It is high time, perhaps, that these measures were put in one place. If a garda were at an early stage of prosecuting a trial, for example, and he thought there might be problems, he or she could at least go to one place and know where to find the answers.</p>
+          <p eId="para_154">Another problem, and I cannot underline this sufficiently, is resources. In the case of children, the Criminal Evidence Act 1992 introduced both videotaped depositions and videotaped Garda statements for children giving evidence in sexual cases. The depositions element has been introduced, resourced and is being used but the other element has not yet been implemented. This is partly because it has not been resourced and partly because training for the gardaí has to be put in place to enable them to take statements appropriately, which can then be used in a trial. A committee was set up three or four years ago to look at this in detail and draw up guidelines. Its report has been submitted for consideration. This gives a sense of the money that is needed for video recording and the practical aspects of the training and so forth that is required. Depositions require less in terms of infrastructure.</p>
+          <p eId="para_155">Resources are most important. It is disgraceful that there is not enough videotaping of accused persons when their statements are used to convict them. One wonders why we are discussing the extra step of videotaping witnesses. We need to put these things in the right order, by ensuring that the accused is videotaped before we think about videotaping witnesses. That is a personal view.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_69">
+          <from>Senator Terry</from>
+          <p eId="para_156">With regard to strengthening the law on offences potentially arising out of the failure of a witness to uphold his or her pre-trial statement, the submission outlines a number of offences which deal with this. In the case of a witness who is reluctant to give evidence because of intimidation, has section 41 of the Criminal Justice Act of 1999 been used against the person responsible for the intimidation or is it difficult to ascertain from the witness the person who is carrying out the intimidation?</p>
+        </speech>
+        <speech by="#" eId="spk_70">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_157">There have been few prosecutions. The reason is that, by and large, people who are scared into not giving evidence will be equally scared of saying the reason they are scared is that Joe Bloggs told them their house would be burnt down.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_71">
+          <from>Senator Terry</from>
+          <p eId="para_158">Therefore, it is seldom used?</p>
+        </speech>
+        <speech by="#" eId="spk_72">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_159">I can think of only a handful of cases.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_73">
+          <from>Senator Terry</from>
+          <p eId="para_160">Was the case taken against the person who was causing the intimidation?</p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_161">Yes, and there are some cases before the courts at present in which people stand charged with that offence. However, it is hard to imagine how one could prove it unless those who had been intimidated were prepared to give evidence. If the intimidation was initially sufficiently effective that they changed their stories and refused to give evidence at trial, what confidence could one have that, at a later stage, they will have the strength to give evidence against the person who first intimidated them from giving evidence? There is a problem.</p>
+        </speech>
+        <speech by="#" eId="spk_75">
+          <from>Mr. Murphy SC</from>
+          <p eId="para_162">The fundamental challenge is to make witnesses feel the system is there to protect them and that they can trust the system without recurring fear for their personal safety and without necessarily entering a witness protection programme. Part of the problem is that the current system seems to have frailties with regard to how individual witnesses are isolated and feel isolated from the process after they have made their witness statement. The biggest single contribution to that isolation is the delay between making the statement and arriving in court to give evidence. In some cases it can be more than two years. That is a long time for somebody to have to sit quietly, day after day, thinking about the evidence and the consequences of giving evidence. To accelerate that process would be the single biggest contribution to reducing the fear factor that might otherwise apply.</p>
+          <p eId="para_163">There are two other practical steps which have been mentioned, namely, transportation from provincial areas to Dublin for court cases to be provided by the State and, second, the need to separate witnesses from the trial process. There is a further problem, however. I have had the experience, in circumstances where there were concerns about intimidation, where witnesses would not go to a different room, even though they were offered it, and would not avail of transport when it was offered. The question is whether this needs to be made part of the process.</p>
+          <p eId="para_164">At present, every witness is served with a subpoena which obliges him or her to come to the court. That is the sole obligation. Some thought might be given to extending the power of the subpoena, by statute if necessary, to direct the person to come to court, to follow the directions of the judge to sit in a particular witness room, to come into court when directed by the court and to avail of transport to be provided to and from the court. That would remove the choice. At present, the witness who is offered travel or a separate room is seen to choose to take that transport or to go into that room. One further protection for witnesses is the removal of choice. They can genuinely claim it is a directive of the court and they must respond to it. They can be seen not to make a choice that isolates them but effectively to have no choice but to co-operate with these necessary physical moves.</p>
+          <p eId="para_165">The physical separation of witnesses is very important. In our current system, there simply is insufficient space and facilities to separate witnesses. In other common law countries, however, there has been a process for some time of separating witnesses before they give their evidence so there is no question of physical exposure to people of whom they might be afraid.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_76">
+          <from>Senator Terry</from>
+          <p eId="para_166">Mr. Murphy spoke about accelerating the trial process. I believe that would be helpful, particularly for a witness who has two years, and possibly more than that, to think about the case. According to the submission, alleviating this problem will require more judges. Is that the only thing that will help to accelerate the process?</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from>Mr. Murphy SC</from>
+          <p eId="para_167">The experience of the Dublin Circuit Criminal Court has shown that is the best way to deal with the situation. When more judges were provided that court succeeded in reducing the waiting time to between three and four months from the time a case arrives in court to the time a date can be fixed for trial. That is a remarkable change from five years ago. The Central Criminal Court has a significant problem. There are only between four and five judges available at a given time and that limitation of resources means the court cannot respond as rapidly as it would like or have as many trials as it would wish. As a result, the delay factor persists. More judges is the only solution to that problem.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_78">
+          <from>Senator Terry</from>
+          <p eId="para_168">Has Mr. Murphy a figure in mind?</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from>Mr. Murphy SC</from>
+          <p eId="para_169">Given the present numbers, and my colleagues might agree or disagree with this, if an extra three judges were operating on a regular basis, it would make a significant inroad. The court itself has expressed its concern. It sought to sit, for the first time, throughout the month of September, which is otherwise a legal vacation, in an effort to break down the backlog. There is a problem now with the increase in the number of serious crimes against the person which are arriving before the Central Criminal Court. We believe it is in the public interest to address that by accelerating the confrontation with justice, as it were, to ensure the accused person gets a speedy trial and that all the participants, in the form of witnesses, are speedily brought to court.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_80">
+          <from>Deputy Costello</from>
+          <p eId="para_170">Are those three judges an addition to the appointment of two judges which we have approved in legislation?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_81">
+          <from>Chairman</from>
+          <p eId="para_171">Are you talking about High Court or Circuit Court judges?</p>
+        </speech>
+        <speech by="#" eId="spk_82">
+          <from>Mr. Murphy SC</from>
+          <p eId="para_172">We are talking about High Court judges.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_83">
+          <from>Deputy Costello</from>
+          <p eId="para_173">We have just passed legislation to provide for the appointment of two extra High Court judges. Does the delegation mean three judges in addition to those?</p>
+        </speech>
+        <speech by="#" eId="spk_84">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_174">As I understand it, those judges are due to take up roles in commissions or inquiries.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_85">
+          <from>Deputy Costello</from>
+          <p eId="para_175">They are two extra judges. Are more judges required?</p>
+        </speech>
+        <speech by="#" eId="spk_86">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_176">Yes.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_87">
+          <from>Deputy Costello</from>
+          <p eId="para_177">The legislation specifically refers to a ceiling of two judges. Is something wrong with that?</p>
+        </speech>
+        <speech by="#" eId="spk_88">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_178">That ceiling should be raised. The problems with delay are problems at Central Criminal Court level, which is basically the High Court exercising its criminal function. It principally deals with rape and murder cases. The other place where there is significant delay at present is the Special Criminal Court. The problem there is that many of the trials tend to be lengthy.</p>
+          <p eId="para_179">I will explain what happens at present. The Central Criminal Court will hold a list to fix dates and it will assign dates for trials. At present, this is well over a year in advance. It will assign more cases to start on a particular day than it expects to have judges because, like hotels that overbook, it assumes some people will plead guilty, some injured parties or victims will withdraw their complaints and other things will go wrong. If a case that is listed does not proceed or is missed out on the Monday morning - consider the trauma of that for the family of the rape victim or the rape victim - the case goes back into the list. When it goes back into the list, it may well be that other cases will be afforded priority because there will be other cases involving people in custody, as assumed in this case. Sometimes a case may not be taken on two or three occasions, which is extremely unfortunate and difficult for the person facing trial. If a person who has agonised over whether he will come forward and make a complaint, perhaps relating to prolonged sexual abuse, finds his case being put off and perhaps put off repeatedly, it must have a truly devastating effect on his psyche.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_89">
+          <from>Chairman</from>
+          <p eId="para_180">Has Michael Farrell of the Human Rights Commission a different view on any of the comments made by the Bar Council? I saw him jotting down some information. When he replies the members may ask questions, to which members of either the Human Rights Commission or the Bar Council may reply, as they see fit.</p>
+        </speech>
+        <speech by="#" eId="spk_90">
+          <from>Mr. Farrell</from>
+          <p eId="para_181">The Bar Council has a professional practitioner's viewpoint. I am a professional practitioner myself but I am not speaking in that capacity. One can identify with much of what has been said. Mr. Shane Murphy referred to the segregation of witnesses, a point I had raised myself. I am sure he would agree that there is a slight problem in this regard, namely, that if witnesses come to court accompanied by gardaí or are in witness rooms guarded by gardaí, there may be a perception that they are being unduly influenced to side with the prosecution. There are ways around this. For example, civilians could staff the witness rooms and provide transport to court. The perception of undue influence could be challenged in court if it arose. This is a very practical issue which, if resolved, could make an enormous difference.</p>
+          <p eId="para_182">Mr. Birmingham mentioned the question of enormous delays in the Special Criminal Court. On a practical level, this court requires three judges to sit. It takes High Court, Circuit Court and District Court judges out of the system for quite a long period. Apart from the much more important issue of the preservation of jury trial, the use of judges in the Special Criminal Court clogs up the system.</p>
+          <p eId="para_183">The examples given of anonymous witnesses related to witnesses within the system, such as State officials, people from the CAB, etc. The legislation provides for this anonymity for definite reasons. However, there is a problem regarding anonymous witnesses who are not professional officers. In order to cross-examine, it is necessary for the defence to be treated as an equal of the prosecution and for it to know something about from where a witness is coming. Therefore, if the witness is an accomplice in a gang, the defence needs to know this because it may colour the witness's evidence and credibility. If the witness bears malice towards the accused, this needs to be known. Anonymity needs to be balanced with information that should legitimately be made known to the defence.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_91">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_184">On the broader issue of crime, some submissions we have received so far state that more effective legislation is required while others state that social and educational disadvantage should be tackled. From Mr. Birmingham's experience of events since the murder of Veronica Guerin, what hard evidence exists to suggest that new legislation works? Since her murder there has been an increase in the incidence of organised crime. Does Mr. Birmingham agree that the solution to the issue is effective policing, modernisation of the justice system and making it more effective, taking a more long-term view on social education and disadvantage and assisting troubled teenagers and children, as mentioned by the Human Rights Commission? Surely this is the best way forward. Does the Bar Council agree?</p>
+        </speech>
+        <speech by="#" eId="spk_92">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_185">We are here as practitioners to tell the committee about our experience of the system in the courts and we do not want to get involved in the political judgments legislators have to make. However, my personal view is that it does not seem to be a case of "either/or" or that there is a choice between tackling the social and economic factors that lead to crime and making sure people are safe in their homes. In the neighbouring island, there was a soundbite that summarised very succinctly a dual approach that offered toughness on crime and toughness on the causes of crime.</p>
+          <p eId="para_186">Nothing in our submission has suggested a need for dramatic new legislation. We have offered a balanced approach that suggests the system in general is working well across the board, even when it is required to deal with organised crime and serious gangland activities. Our approach requires that one responds to difficulties in so far as they exist and are seen to be emerging. An early response can be more nuanced and balanced. If problems are allowed to get out of hand, by ignoring them, legislative intervention might be an altogether cruder instrument.</p>
+        </speech>
+        <speech by="#" eId="spk_93">
+          <from>Mr. Murphy SC</from>
+          <p eId="para_187">On issues that may be affected by legislative policy, it is my experience that the biggest problems we encounter every day when sourcing criminal activity are the role of drugs, the collapse of family and particularly the collapse of marriage in working class areas, including the absence of long-term commitment of any kind, civil or religious.</p>
+          <p eId="para_188">The design of public housing projects must also be considered. If we are to have a preventative policing model, it is clear from the evidence we deal with as prosecutors and as defence counsel that the physical layout of public housing projects is inimical to proper policing because everybody on the inside can see everybody coming in from the outside and nobody from the outside can participate fully. These are structural and strategic issues the committee can determine in terms of their consequences, which we see in the cases that come before us.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_94">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_189">What is the view of the Human Rights Commission on the Bar Council's position on juries not being physically present and using the video link as an alternative to the Special Criminal Court?</p>
+        </speech>
+        <speech by="#" eId="spk_95">
+          <from>Professor Binchy</from>
+          <p eId="para_190">Mr. Farrell has already listed it as a possibility.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_96">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_191">Does your organisation support it?</p>
+        </speech>
+        <speech by="#" eId="spk_97">
+          <from>Professor Binchy</from>
+          <p eId="para_192">It is not something that would be objected to in principle but it would be a last resort.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_98">
+          <from>Deputy P. McGrath</from>
+          <p eId="para_193">I, too, welcome the representatives. We heard the word "balance" used a lot by both groups in reference to the balance of rights, etc. There has been very little mention of the victims today. Victims very often feel let down by the system and feel they are pushed aside, perhaps by the barristers and courts, and this can lead to major difficulties for them. For example, a family came to see me last week whose 12 year old daughter was abused. The offender is due for release shortly and the family has no input into whether that offender will live next door to them or in the same town or whether he will have access to them. How do the two groups envisage the rights of the victim being protected to the same extent as it may appear that the offender is receiving protection?</p>
+        </speech>
+        <speech by="#" eId="spk_99">
+          <from>Ms Ní Raifeartaigh BL</from>
+          <p eId="para_194">They are not mutually incompatible. I and most practitioners would welcome measures that would keep victims informed of developments at the very least. Sometimes it falls to us to act as liaison officers and to hold consultations simply to reassure people as to what is happening and to inform them of trial dates. In a sense, this is not really our job. The main issue is that we are frequently not qualified to deal with very distressed people.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_100">
+          <from>Deputy P. McGrath</from>
+          <p eId="para_195">Would Ms Ní Raifeartaigh favour building into legislation a provision whereby those channels would be kept open?</p>
+        </speech>
+        <speech by="#" eId="spk_101">
+          <from>Ms Ní Raifeartaigh BL</from>
+          <p eId="para_196">Off the top of my head, I really do not know whether legislation or practical measures without legislation are necessary. However, a measure of some kind is necessary. It is very important to keep victims informed, at the very least. There are certain limited ways in which they can participate and we have already seen this work in respect of the introduction of victim impact statements, which were a very useful measure.</p>
+          <p eId="para_197">It is also important to bear in mind that, apart from the participation aspects that affect victims, the results are also important. It is important to remember that a conviction is very important to victims. There is a two-pronged approach. There is no point in catering to the feel good factor of victims if there is ultimately an acquittal because there are so many loopholes in the law that the prosecutor cannot bring the case home. One needs to make sure the system works well, produces convictions where appropriate and that the victim is treated with respect and dignity as he goes through the system. That is lacking and has not been addressed. I do not know whether it should be done by way of legislation but I suspect practical measures are really important, for example, a liaison person to deal with victims, whether located in the Garda station or outside. One has to bear in mind that barristers are not qualified to deal with people. Those who have been subjected to sexual abuse or children are often very distressed. While barristers are human and compassionate, they are not qualified to deal with such distress and also subject to constraints in terms of what can be discussed. People may not always appreciate this point but it should be addressed.</p>
+        </speech>
+        <speech by="#" eId="spk_102">
+          <from>Mr. Murphy SC</from>
+          <p eId="para_198">We have put forward measures with a view to identifying the needs of witnesses, the most important of whom are often the victims. From our experience, the central issue for victims is the delay and the reason that it takes so long to come to trial. If this issue could be addressed, it would help to alleviate many other problems. It is my experience that, as a matter of practice, most barristers who prosecute in the Central Criminal Court comply with the standing direction from the Director of Public Prosecutions to meet the victims before the case to discuss the process with them. However, part of the rules of the criminal law, as Ms Ní Raifeartaigh suggests, is that we cannot talk about the contents of the case with them as it might affect their testimony. We are directed to speak to them about the process and answer any questions they may have before the trial.</p>
+        </speech>
+        <speech by="#PeterKellyFF" eId="spk_103">
+          <from>Ms Kelly</from>
+          <p eId="para_199">We agree with Ms Ní Raifeartaigh's contribution. There is definitely a need of support for the victim, both in court and elsewhere. I think those in the community from which the accused comes also are victims and need to be protected also in terms of resources. This goes back to the question of economic, social and cultural rights; where there is a need to address questions of violence against women and children; how to teach young boys and girls confidence to withstand bullying and be able to resist the pressure to participate in gangs and so on. It takes resources to do this. We have run a number of extremely effective pilot schemes for victims during the past 20 years. The Rape Crisis Centre and others who provide support for victims will elaborate on this. Many of the pilot schemes have not been given the resources to continue their work. The highest accolade that we can give to the projects is to continue to resource them. For example, we could resource projects that involve community policing and partnerships with local communities and central agencies.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_104">
+          <from>Deputy Costello</from>
+          <p eId="para_200">The Bar Council recommended that the witness protection programme be put on a statutory basis. The submission from the Irish Prisons Service pointed out that the informal arrangements in the recent case were enormously costly in terms of personnel and accommodation, everyone in Arbour Hill Prison had to be vetted, 40 places were taken up and massive resources were needed to do this. Is it practical to do this? What does the Irish Human Rights Commission think of the proposal?</p>
+        </speech>
+        <speech by="#" eId="spk_105">
+          <from>Mr. Birmingham SL</from>
+          <p eId="para_201">There are practical considerations when someone is being admitted to the system. The Deputy has mentioned one of them. The person will spend time in custody and it will not be easy for the prison authorities to guarantee his or her safety which will have resource implications. We look at the problem from a slightly different basis, that is, given that we have a programme, let us make sure it works. The problem is that those who enter the programme are likely to be the subject of very intense cross-examination as to their motivation, the benefits they will receive and what the future holds for them. It may well be that the outcome of all of this is that their evidence is left under a cloud of suspicion. The result is that the community having invested all of the resources, whether the 40 prison places for the corridor left open in Arbour Hill Prison, there is not the public benefit there might otherwise be because their evidence is under a cloud of suspicion. It seems that the way to resolve the matter is to have greater transparency, that one has established criteria as to how a person can apply or be invited onto the programme; as to who makes the decision to admit him or her to the programme; and, if the person enters the programme, as to what are his rights and responsibilities. As long as this is left in the air, trials will be longer and the community will get less value for what it has invested.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_106">
+          <from>Deputy Costello</from>
+          <p eId="para_202">What about European Convention on Human Rights infringements in that area?</p>
+        </speech>
+        <speech by="#" eId="spk_107">
+          <from>Professor Binchy</from>
+          <p eId="para_203">I will volunteer a view on that matter. Obviously, it depends on the actual substantive content of the programme. The present situation, as Mr. Birmingham mentioned, was criticised by the court of appeal. I see grave dangers in this area - not an objection, in principle - but if I say the word "supergrass", rather than the words "witness protection programme", I think it will revive memories of the dangers in this area. This is not to suggest for one moment that a programme cannot be created but it needs to be very sensitive to the requirements of due process in this area. Improper incentives should be given to individuals to give tainted evidence.</p>
+          <p eId="para_204">As regards resources, they look large when viewed in isolation but when viewed against the wider social concerns to which members have been directing their attention in the past weeks, that amount of money will seem relatively small. If it is necessary to spend the money to provide the necessary security in the prison, society has to say, "So be it."</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_108">
+          <from>Chairman</from>
+          <p eId="para_205">We have only a couple of moments left and three members offering.</p>
+        </speech>
+        <speech by="#BreedaMoynihanCronin" eId="spk_109">
+          <from>Deputy B. Moynihan-Cronin</from>
+          <p eId="para_206">Does the Irish Human Rights Commission agree with the view of Mr. Gerard Hogan, senior counsel, that in terms of protecting the rights of the accused, the Irish legal system compares reasonably favourably with those of other signatories to the European convention as measured by successive complaints against the State to the European Court of Human Rights?</p>
+        </speech>
+        <speech by="#" eId="spk_110">
+          <from>Professor Binchy</from>
+          <p eId="para_207">I do not want to hog the microphone but Mr. Hogan made a good point. I think what he said was true. There is a tendency to talk down the Irish Constitution. The Constitution, in some respects, has worked very effectively in the protection of human rights in the criminal justice context. One has to record that in other respects it has not. I do not think the measure of resort by way of appeal to the European Court of Human Rights is infallible. There may be a variety of reasons to explain it. It is true to say the Constitution has stood up well in that area. The European convention, as we mentioned, had the civil law model in its perspective and sometimes sets the bar of human rights protection relatively lower. It is not the only measure. I think Mr. Hogan's point is correct.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_111">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_208">I support the call of the Bar Council for additional judges but the question is where to put them. I was involved in a court case recently and was moved three times in the space of two weeks. The conditions in the building were cramped and the equipment was not working. I presume the Bar Council will call for additional courtroom accommodation that will meet the standard as discussed, as well as additional judges.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_112">
+          <from>Chairman</from>
+          <p eId="para_209">I am sure everybody will agree with the Deputy's comment.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_113">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_210">Does the Bar Council see a role for the Irish Human Rights Commission in the proposed working group?</p>
+        </speech>
+        <speech by="#" eId="spk_114">
+          <from>Mr. Birmingham SC</from>
+          <p eId="para_211">Absolutely, I think it is a sensible idea.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_115">
+          <from>Chairman</from>
+          <p eId="para_212">On that note of agreement, we will conclude today's discussion. I thank all our guests from the Bar Council and the Irish Human Rights Commission for appearing. The joint committee will note all of the comments and contributions and take them into account when preparing its report. If there are other matters to be raised, the committee will be delighted to receive them by post or electronic mail and the secretariat will be delighted to take them on board. We will be meeting representatives from the Irish Council for Civil Liberties, the Courts Service and another Reid Professor of Criminal Law in Trinity College, Ms Ivana Bacik. I thank everyone for attending the meeting and also TG4 viewers. I look forward to meeting everyone on Friday at 9.30 a.m.</p>
+        </speech>
+        <summary eId="sum_6">The joint committee adjourned at 11.30 a.m. until 9.30 a.m. on Friday, 5 December 2003.</summary>
+      </debateSection>
+      <debateSection name="prelude" eId="dbsect_3">
+        <summary class="Center" eId="sum_7">The Joint Committee met at 3.40 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_8">Members Present:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_213">
+                  <person refersTo="#JoeCostelloLAB">Deputy J. Costello,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_214">
+                  <person refersTo="#FinianMcGrath">Deputy F. McGrath,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_215">
+                  <person refersTo="#JimGlennonFF">Deputy J. Glennon,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_216">
+                  <person refersTo="#CharlieOConnorFF">Deputy C. O’Connor,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_217">
+                  <person refersTo="#MarieHoctorFF">Deputy M. Hoctor,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_218">
+                  <person refersTo="#JimWalsh">Senator J. Walsh.</person>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_4">
+        <heading>EU Agreement: Ministerial Presentation</heading>
+        <speech by="#MichaelMcDowellPD" as="#Minister_for_Justice,_Equality_and_Law_Reform" eId="spk_116">
+          <from>Minister for Justice, Equality and Law Reform (Deputy McDowell)</from>
+          <p eId="para_219">I thank the members of the joint committee for allowing me to bring before you for consideration this EU proposal for an agreement between the European Union and the Republic of Iceland and the Kingdom of Norway on the application of certain provisions of the 2000 Convention on Mutual Assistance in Criminal Matters and the 2001 protocol thereto. This proposal is before the joint committee on foot of motions in line with the advice of the Office of the Attorney General in relation to seeking the prior approval of the Houses of the Oireachtas on EU-related instruments. A similar motion is before the Seanad.</p>
+          <p eId="para_220">The intention of the measure is to apply certain provisions of the EU 2000 Convention on Mutual Legal Assistance in Criminal Matters and the 2001 protocol thereto to Norway and Iceland with a view to improving judicial co-operation in criminal matters between the member states of the European Union and Norway and Iceland. The Justice and Home Affairs Council agreed the mandate for these negotiations in December 2002 and a number of meetings have taken place to progress the matter since. The original mandate also provided for the mechanisms of the framework decision on the European arrest warrant to be applied to Norway and Iceland. However the extradition arrangements are now being dealt with as a separate issue.</p>
+          <p eId="para_221">At the meeting of the Justice and Home Affairs Council on 27 November 2003 agreement was reached on the draft Council decision authorising the signature of the agreement with Norway and Iceland before the end of the year and it is expected that the proposal will be adopted at the forthcoming EU Environmental Council on Monday, 8 December 2003. The reason for this is that the Justice and Home Affairs Council will not meet again in December.</p>
+          <p eId="para_222">I will now outline the main provisions of the agreement. Article 1.1 of the draft agreement identifies the articles from the 2000 convention that are to be applied in relations between member states and Iceland and Norway and Article 1.2 identifies the articles to apply from the 2001 protocol. Article 1.3 specifies that declarations made by member states under certain articles of the EU mutual assistance convention and the protocol to the convention shall also be applicable in relations with Iceland and Norway.</p>
+          <p eId="para_223">Article 2.1 provides for exchange of information on case law developments for the purpose of arriving at as uniform an application and interpretation as possible of the provisions in Article 1. In that context a mechanism is to be set up to ensure regular mutual transmission of case law. Article 2.2 allows Norway and Iceland the right to submit statements or written observations to the European Court of Justice for preliminary rulings concerning the interpretation of the provisions in Article 1. Article 2.bis provides for Norway and Iceland to request member states to report problems encountered concerning the execution of a request for a practical solution to Eurojust.</p>
+          <p eId="para_224">Article 3 contains a provision whereby any dispute between either Norway or Iceland and a member state regarding the interpretation or the application of the agreement or any of the provisions referred to in Article 1 of the agreement may be referred to a representative group of the governments of the member states of the EU and of Norway and Iceland with a view to its settlement within six months. Article 3.bis provides for a review of the agreement to be carried out no later than five years after its entry into force, which is a customary provision.</p>
+          <p eId="para_225">Article 4 is a standard provision dealing with ratification procedures. Article 5 provides that the accession by new member states of the EU to the EU 2000 mutual assistance convention and its protocol will create rights and obligations under the present agreement, in order that we do not have to renegotiate this when new countries join the EU in May. Article 6 is a standard provision dealing with arrangements for termination of the agreement. Article 7 makes provision for notification to the Council of Europe.</p>
+          <p eId="para_226">There are two declarations to the agreement. The first declaration provides for consultation between Norway or Iceland or one of the member states where there is a necessity to do so to enable the most effective use to be made of the agreement, with a view to preventing any dispute regarding the practical implementation and interpretation of the agreement. The second declaration provides for Norway and Iceland to make inquiries through contact points of the European judicial network to establish which judicial authority of a member state has the territorial competence to initiate and execute requests for mutual assistance. The changes to Irish law necessitated by this agreement will be included in the Criminal Justice (International Co-operation) Bill which is currently being drafted. These proposals will, in due course, be brought before both Houses of the Oireachtas in the normal way.</p>
+          <p eId="para_227">I commend the motion to the joint committee.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_117">
+          <from>Deputy Costello</from>
+          <p eId="para_228">I thank the Minister. What matters and criminal issues will come under the 2001 protocol? He said extradition arrangements would be dealt with as a separate issue. When will that be done? The Minister said that changes in the Criminal Justice (International Co-operation) Bill would be necessary. What is the urgency in dealing with this in the Environmental Council on 8 December? Why not wait until the Justice and Home Affairs Council meets next year?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_118" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_229">I signalled political agreement with this measure last week when I indicated we had a constitutional obligation to get permission under Article 29. I indicated to the Council that I anticipated getting that but in order not to delay this further it will go to the other Council as an A item on the list, without further debate, once Ireland and some other countries get constitutional obligations out of the way. It will be adopted as a Council item without further debate like an item on the Order of Business being adopted without debate and it does not require further input from the Justice and Home Affairs Ministers. That is the technical basis for it going to another meeting.</p>
+          <p eId="para_230">The Italian Presidency was going to have one further meeting of Justice Ministers and one meeting for Interior Ministers on 19 December and there would have been no problem dealing with this at those meetings, but they have now been cancelled. The next Justice and Home Affairs Council meeting will be in the Irish Presidency sometime in February, which is a long way off. I did not want our constitutional problem to hold the agreement up as everyone was content to ratify it before Christmas if they could. That is what is happening.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_119">
+          <from>Mr. Costello</from>
+          <p eId="para_231">What are the implications? Will there be variations in the criminal justice Bill we pass into law?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_120" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_232">There will not be variations at this point. We are one of the last pieces in the jigsaw and once we have signalled that we have complied with our constitutional requirements it will go through, as all the negotiations were complete when I went to Brussels last week. If the Italian Presidency had had a Council meeting of the Justice and Home Affairs Council on 19 December I could have signalled that we had already completed this and it could have been dealt with there. The Attorney General's view had matured on this issue. Originally his office's preliminary view was that this did not warrant an Article 29 resolution but then they had a deeper look at the matter and decided there was. In those circumstances I did not want to be the stick-in-the-mud who was holding this up.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_121">
+          <from>Mr. Costello</from>
+          <p eId="para_233">We must be clear on this as we will be discussing the European arrest warrant on Friday and the co-operation Bill sometime in the future. Those will be elements of our legislation so we will have agreed to this mutual agreement before any legislation comes before the House.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_122" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_234">We will have agreed that the EAW applies, in certain respects and subject to certain conditions, to Norway and Iceland when it comes into effect, but it must come into effect. We have an international obligation to bring it in. Under Irish constitutional law the Houses are now obliged to bring the framework decision into effect from 1 January. It is not presumptuous of me to assume this will be done. We will be in default if we do not do so. I am not taking a liberty with what is required. Our embodiment of the EAW framework decision in Irish law is for us to do. Whatever it is, it will apply multilaterally between the European Union, Iceland and Norway.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_123">
+          <from>Deputy Costello</from>
+          <p eId="para_235">While we will embrace the framework, we are entitled to do so in our own fashion.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_124" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_236">That is correct. We have an obligation to transpose the framework decision into domestic legislation, but the agreement does not compromise the degree of latitude open to us in doing so.</p>
+          <p eId="para_237">The Deputy asked about the relevant articles of the MLA convention. These include Article 8 - restitution of articles obtained by criminal means to their rightful owner; Article 9 - temporary transfer of persons held in custody for purposes of investigation; Article 10 - hearing by video conference; Article 11 - hearing of witnesses and experts by telephone conference; Article 13 - the setting up of joint investigations teams; Article 14 - covert investigations; Articles 15 and 16 - criminal and civil liability regarding officials and Articles 17 to 21 - interception of telecommunications. Other more standard provisions, such as formalities and procedures in the execution of requests, bilateral arrangements and reservations will also apply.</p>
+          <p eId="para_238">On the 2001 protocol, provisions in relation to requests for information on bank accounts and banking transactions, together with monitoring of banking accounts and bank secrecy, as well as provisions on confidentiality and an obligation to inform, an additional request for mutual assistance under Article 6 and political offences provisions under Article 9 are the main provisions applicable under the protocol.</p>
+          <p eId="para_239">The Deputy referred earlier to extradition. A separate extradition agreement is being drafted at EU level and Ireland is participating in the process. We got permission to do so at an earlier meeting. It was intended initially to have this as part of the judicial co-operation agreement which would cover both extradition and mutual legal assistance matters. The proposed extradition agreement is likely to incorporate aspects of the European arrest warrant. Several issues require detailed consideration before an agreement can be finalised. In these circumstances, it was agreed that MLA and extradition will proceed separately.</p>
+          <p eId="para_240">With regard to the timescale for the adoption of the extradition agreement, it is a very detailed proposal and, given recent experiences with other extradition agreements, the Council is likely to undertake a two stage process involving two Council decisions. It is unclear at this stage what the likely timeframe will be. It may require detailed examination and it is unlikely to be presented to the Council until some time late in the Irish Presidency at the earliest. The extradition arrangement may be a matter for the Dutch Presidency.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_125">
+          <from>Deputy Costello</from>
+          <p eId="para_241">That is a comprehensive list of items on mutual recognition.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_126" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_242">I can give the Deputy a list of the others. Article 2 - provisions in the MLA 2000 convention in regard to the Schengen aquis; Article 3 - proceedings in connection with which mutual assistance; Article 5 - sending and service of procedural documents; Article 6 - transmissions of requests for mutual assistance - these are all Shengen type arrangements which are not being included; Article 7 - spontaneous exchange of information; Article 12 - controlled deliveries and Article 23 - personal data protection. These will not apply to Norway and Iceland. In regard to the protocol, Article 8 - provisions relating to fiscal offences, and Article 10 - forwarding refusals to the Council and involvement of euro, are excluded.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_127">
+          <from>Senator J. Walsh</from>
+          <p eId="para_243">I have two questions arising from what the Minister said regarding the items open for mutual agreement between the parties. One relates to the hearing of witnesses by telephone. Given some of the other debates, will he expand on this and in what circumstances will it apply? Perhaps he will also elaborate on bank accounts, information being made available and an obligation to inform.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_128" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_244">Article 10 is long. It provides that if a person is in one member state's territory and has to be heard as a witness or expert by the judicial authority of another member state, the other member state may, where it is not desirable or possible to be heard in person, request that hearing to take place by video conference as provided for in the article.</p>
+          <p eId="para_245">Article 11 provides that if a person is in one member state and has to be heard as a witness or expert by judicial authority of the other member state, the latter may, where its national laws so provide, request assistance of the former member state to enable the hearing to take place by telephone conference. We do not have this in our law. I have never heard of it. Unless things have dramatically changed since I left the Law Library, I have never heard of telephone conferences. These things may come.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_129">
+          <from>Senator J. Walsh</from>
+          <p eId="para_246">It has not been in our submissions so far. What about bank accounts?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_130" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_247">That is in the protocol. Each member state is entitled, under the conditions set out in the article, to take the measures necessary to determine, in answer to a request sent by another member state, whether a natural or legal person who is the subject of a criminal investigation holds or controls one or more accounts of whatever nature in any bank located in its territory and, if so, to provide all the details of the identified accounts. One member state can, under the agreement, ask, say, Iceland or Norway whether a person being investigated appears to have accounts in either country and vice versa. There is also provision for monitoring accounts. We can ask Iceland or Norway to keep an eye on transactions in an account to help us with a criminal investigation. It is not just a matter of freezing the account or grabbing it. It is a matter of telling us that it exists and what is happening in regard to it.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_131">
+          <from>Senator J. Walsh</from>
+          <p eId="para_248">Is there protection for individuals? Obviously one would not wish to interfere where there was a presumption of guilt. Are there any bona fide criteria which can be applied before triggering this search because it is a significant invasion of privacy?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_132" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_249">MLA in Ireland requires the intervention of the courts. The Garda cannot operate it without judicial sanction. If one comes here, MLA is supervised by the District Court. It is not a matter of gardaí running around to a bank and saying they want details of this, that or the other to be sent to Iceland. In Ireland these issues have a judicial layer of regulation.</p>
+          <p eId="para_250">There have been no incoming or outgoing requests from Iceland on mutual legal assistance. There have been no outgoing requests from us to Norway. In the last six years six requests have been received from Norway. The requests for assistance related to tax fraud, serious assault, drug trafficking, money laundering and vandalism.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_133">
+          <from>Deputy Costello</from>
+          <p eId="para_251">Does it refer to our citizens looking for assistance? Would Norwegian nationals have come here?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_134" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_252">It would be normally the Norwegian authorities investigating their own nationals. It is not confined solely to their own nationals. It could be an Irish citizen who is involved as a suspect in a Norwegian case.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_135">
+          <from>Deputy Costello</from>
+          <p eId="para_253">Personal data protection, which is included in other member states, is missing from the agreement.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_136" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_254">There must be a problem in regard to Norwegian and Icelandic law or policy. They do not particularly want it. It has not been sought by them. Perhaps their personal data protection law does not operate in the same way as ours. They may not want the particular article applied to them. Article 23 of personal data protection provides that personal data communicated under the convention may be used by the member state to which they have been transferred for a limited number of purposes. It deals with controls over the use of personal data supplied. It may well be that other member states do not wish the criteria to apply to them. Generally, the information can only be used for the purpose for which it is supplied. It is being introduced to try to cut back on the possible wider use of personal data. It may be - I am not sure about this - that Icelandic or Norwegian law does not correspond to the European Union on this. They may have a policy objection to it.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_137">
+          <from>Deputy Costello</from>
+          <p eId="para_255">Do they feed into the mutual recognition Framework Document agreed between the European Union and the United States?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_138" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_256">No.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_139">
+          <from>Deputy Costello</from>
+          <p eId="para_257">There was a great deal of scope in terms of availability of personal data in that regard.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_140" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_258">I do not think there is a connection between them.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_141">
+          <from>Deputy Costello</from>
+          <p eId="para_259">That would be open to various items such as terrorist activities and so on.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_142" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_260">I cannot elaborate more. I do not think a nexus exists between the two agreements.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_143">
+          <from>Senator J. Walsh</from>
+          <p eId="para_261">Am I right in thinking - I am sure the Minister will have an affirmative answer in this regard and that I have misunderstood him - that the mutual recognition in its application will at all times be subject to our domestic law? Does it override domestic law?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_144" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_262">As I indicated earlier, we are currently drafting new legislation to cover mutual legal assistance on an international basis.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_145">
+          <from>Senator J. Walsh</from>
+          <p eId="para_263">Mutual recognition will be subject to that legislation.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_146" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_264">Current legislation in this area is limited but we are hoping to codify the area. Drafting is almost complete and we will soon have a memorandum for Government on it. I am worried about pouring more Bills into the office of the parliamentary counsel while not getting other Bills through the Houses of the Oireachtas. I do not want to overstretch that office's capacity to deal with my legislative requests when I am not succeeding in getting the Bills out at the other end.</p>
+          <p eId="para_265">The work of that office is not done once a Bill has been published. It has to re-engage with the process when a Bill reaches Committee Stage. There is such an accumulation of justice legislation in the Oireachtas that I will require a great number of draftsmen to deal with Committee Stages of legislation. The parliamentary counsel is limited in terms of the amount of resources he has available to me. My Department is ready to move on the mutual legal assistance legislation but I have to make choices about progressing Committee Stage hearings of other Bills and dragging the draftsmen into that process or asking them to deal with primary legislation. It is juggling act and it is difficult to keep on top of it.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_147">
+          <from>Chairman</from>
+          <p eId="para_266">Is that a criticism?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_148" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_267">No, it is not. It is a squeak of frustration. I am not blaming anybody for it; it is a fact of life. Publishing Bills takes the pressure off me but I must try to have them enacted. The entire legislative process is discredited if a pile of published legislation is not being processed.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_149">
+          <from>Chairman</from>
+          <p eId="para_268">The Minister can be assured this committee will always facilitate and assist him in that regard.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_150">
+          <from>Deputy Costello</from>
+          <p eId="para_269">How much legislation is currently on the books?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_151">
+          <from>Chairman</from>
+          <p eId="para_270">The Minister has broad shoulders.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_152" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_271">Deputy Costello feels I am doing too much work, I know that.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_153">
+          <from>Chairman</from>
+          <p eId="para_272">Is the joint committee recommending there should be no further debate of the motion in the Dáil or Seanad?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_154">
+          <from>Deputy Costello</from>
+          <p eId="para_273">No.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_155" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_274">Have we given up making such recommendations?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_156">
+          <from>Chairman</from>
+          <p eId="para_275">Yes.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_157">
+          <from>Deputy Costello</from>
+          <p eId="para_276">We should dispose of that tradition. We should not dictate to the Dáil.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_158">
+          <from>Chairman</from>
+          <p eId="para_277">I am doing what I am told. I thank the Minister and his officials for attending the meeting.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_5">
+        <heading>Messages to the Dáil and Seanad.</heading>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_159">
+          <from>Chairman</from>
+          <p eId="para_278">In accordance with Standing Order 85, the following message will be sent to the Dáil:</p>
+          <p eId="para_279">The Joint Committee on Justice, Equality, Defence and Women's Rights has completed its consideration of the motion that Dáil Éireann approves the exercise by the State of the option or discretion provided by Article 1.11 of the Treaty of Amsterdam to take part in the adoption of the following proposed measure:</p>
+          <p eId="para_280">Draft Council Decision concerning the signature of the agreement between the European Union and the Republic of Iceland and the Kingdom of Norway on the application of certain provisions of the 2000 Convention on Mutual Assistance in Criminal Matters and the 2001 Protocol thereto, a copy of which proposed measure was laid before Dáil Éireann on 26 November 2003.</p>
+          <p eId="para_281">In accordance with Standing Order 67, the following message will be sent to the Seanad:</p>
+          <p eId="para_282">The Joint Committee on Justice, Equality, Defence and Women's Rights has completed its consideration of the motion that Seanad Éireann approves the exercise by the State of the option or discretion provided by Article 1.11 of the Treaty of Amsterdam to take part in the adoption of the following proposed measure:</p>
+          <p eId="para_283">Draft Council Decision concerning the signature of the agreement between the European Union and the Republic of Iceland and the Kingdom of Norway on the application of certain provisions of the 2000 Convention on Mutual Assistance in Criminal Matters and the 2001 Protocol thereto, a copy of which proposed measure was laid before Dáil Éireann on 26 November 2003.</p>
+        </speech>
+        <summary eId="sum_9">The joint committee adjourned at 4.05 p.m. until 3.15 p.m. on Tuesday, 16 December 2003.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

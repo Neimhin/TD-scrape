@@ -1,0 +1,535 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2003-05-14/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2003-05-14/debate"/>
+          <FRBRdate date="2003-05-14" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/joint_committee_on_european_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2003-05-14/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2003-05-14/debate/mul@"/>
+          <FRBRdate date="2003-05-14" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2003-05-14/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2003-05-14/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference showAs="Vol. 1" href="ie/oireachtas/debateRecord/vol/1" eId="#vol_1"/>
+          <oir:numberReference showAs="No. 26" href="ie/oireachtas/debateRecord/vol/1/no/26" eId="#no_26"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="AnnOrmonde" href="/ie/oireachtas/member/id/Ann-Ormonde.S.1993-02-17" showAs="Ann Ormonde"/>
+        <TLCPerson eId="BarryAndrewsFF" href="/ie/oireachtas/member/id/Barry-Andrews.D.2002-06-06" showAs="Barry Andrews"/>
+        <TLCPerson eId="DerekMcDowell" href="/ie/oireachtas/member/id/Derek-McDowell.D.1992-12-14" showAs="Derek McDowell"/>
+        <TLCPerson eId="DonLydon" href="/ie/oireachtas/member/id/Don-Lydon.S.1987-04-25" showAs="Don Lydon"/>
+        <TLCPerson eId="GayMitchell" href="/ie/oireachtas/member/id/Gay-Mitchell.D.1981-06-30" showAs="Gay Mitchell"/>
+        <TLCPerson eId="JimOKeeffe" href="/ie/oireachtas/member/id/Jim-O'Keeffe.D.1977-07-05" showAs="Jim O'Keeffe"/>
+        <TLCPerson eId="JohnDardis" href="/ie/oireachtas/member/id/John-Dardis.S.1989-10-01" showAs="John Dardis"/>
+        <TLCPerson eId="MaeSextonPD" href="/ie/oireachtas/member/id/Mae-Sexton.D.2002-06-06" showAs="Mae Sexton"/>
+        <TLCPerson eId="MarianHarkinIND" href="/ie/oireachtas/member/id/Marian-Harkin.D.2002-06-06" showAs="Marian Harkin"/>
+        <TLCPerson eId="MichaelMulcahyFF" href="/ie/oireachtas/member/id/Michael-Mulcahy.S.1994-12-13" showAs="Michael Mulcahy"/>
+        <TLCPerson eId="PatCarey" href="/ie/oireachtas/member/id/Pat-Carey.D.1997-06-26" showAs="Pat Carey"/>
+        <TLCPerson eId="PaulBradford" href="/ie/oireachtas/member/id/Paul-Bradford.S.1987-04-25" showAs="Paul Bradford"/>
+        <TLCPerson eId="RuairiQuinn" href="/ie/oireachtas/member/id/Ruairí-Quinn.S.1976-07-01" showAs="Ruairí Quinn"/>
+        <TLCPerson eId="SeanHaughey" href="/ie/oireachtas/member/id/Seán-Haughey.S.1987-04-25" showAs="Seán Haughey"/>
+        <TLCPerson eId="TomKitt" href="/ie/oireachtas/member/id/Tom-Kitt.D.1987-03-10" showAs="Tom Kitt"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Foreign_Affairs" href="/ie/oireachtas/role/minister_state/foreign_affairs" showAs="Minister of State at the Department of Foreign Affairs"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM GHNÓTHAÍ EORPACHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON EUROPEAN AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2003-05-14">Dé Céadaoin, 14 Bealtaine 2003</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2003-05-14">Wednesday, 14 May 2003</docDate>
+      </block>
+      <block name="volume">
+        <docNumber refersTo="#vol_1">Vol. 1</docNumber>
+      </block>
+      <block name="number">
+        <docNumber refersTo="#no_26">No. 26</docNumber>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 4.05 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">Members Present:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#BarryAndrewsFF">Deputy B. Andrews,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#RuairiQuinn">Deputy R. Quinn,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#PatCarey">Deputy P. Carey,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#MaeSextonPD">Deputy M. Sexton,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MarianHarkinIND">Deputy M. Harkin,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#PaulBradford">Senator P. Bradford,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#SeanHaughey">Deputy S. Haughey,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#JohnDardis">Senator J. Dardis,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#TomKitt">Deputy T. Kitt (<i>Minister of State at the Department of Foreign Affairs</i>),</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#DonLydon">Senator D. Lydon,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#MichaelMulcahyFF">Deputy M. Mulcahy,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#DerekMcDowell">Senator D. McDowell,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#JimOKeeffe">Deputy J. O’Keeffe,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#AnnOrmonde">Senator A. Ormonde.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#AengusOSnodaighSF">Deputy A. Ó Snodaigh,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#GayMitchell">
+   DEPUTY G. MITCHELL in the chair.
+  </person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>General Affairs and External Relations Council.</heading>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_16">The purpose of today's meeting is a discussion with the Minister of State at the Department of Foreign Affairs, Deputy Tom Kitt, on the forthcoming General Affairs and External Relations Council meeting. I welcome the Minister of State. As he has to go to Strasbourg after this meeting, we will try to get through the agenda as quickly as possible.</p>
+          <p eId="para_17">The normal procedure is for the Minister of State to make an opening statement. After that, we will deal with external relations and general affairs separately in a round of questions. Regarding the agenda, members have been circulated with a list of eight points from the last meeting. Number 31 is very interesting. It concerns eavesdropping at a meeting. I do not know the background to that, but I presume that it has been dealt with. Perhaps the Minister of State might make his opening comments, after which we will take questions in two separate sections: one on external relations and the other on general affairs.</p>
+        </speech>
+        <speech by="#TomKitt" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs" eId="spk_2">
+          <from>Minister of State at the Department of Foreign Affairs (Deputy Kitt)</from>
+          <p eId="para_18">I am very pleased to be able to attend the committee to discuss the agenda of the forthcoming meeting of the General Affairs and External Relations Council to take place in Brussels on 19 and 20 May. As is standard, the Council is divided into two sessions, one devoted to general affairs and the other to external relations. I propose to deal with general affairs first, after which I will turn to the external relations agenda. While I do not intend to comment on each agenda item, I am happy to take questions from members of the joint committee on any of them.</p>
+          <p eId="para_19">On general affairs, there is the issue of preparation for the European Council in Thessaloniki. Beginning with the general affairs agenda, the Council will review preparations for the European Council in Thessaloniki due to be held on 20 and 21 June 2003. At the meeting of the General Affairs and External Relations Council, the Presidency is expected to present an annotated draft agenda for the European Council. The principal item for discussion in Thessaloniki is the European Convention. It is not yet clear how debate on that will be structured at the Council, nor is it clear if either of the convention's vice-presidents will attend. It is not expected that there will be lengthy discussions of the topic. The Council is taking place shortly after the debate in the convention tomorrow and Friday - 15 and 16 May - on the draft articles of the institutions and on external action.</p>
+          <p eId="para_20">I know that the committee has been following the debate on the convention very closely and that members will already be familiar with its content and with the amendments put forward by the Government. I am also aware that the Minister of State, Deputy Roche, had an extensive discussion with members on those draft articles on Friday, 9 May.</p>
+          <p eId="para_21">I will now turn to the reform of staff regulations. Discussion of the Commission's proposals to reform the EU staff regulations is continuing. Proposals were tabled by Commissioner Kinnock in April 2002. The debate is focusing on proposals relating to salaries, pensions and career structures. COREPER is meeting today in an effort to make progress before next week's Council. There have been recent signs of advances on what is a complicated file. Ireland has always supported the broad aims of the reform process, which is to improve the efficiency, effectiveness and accountability of the Commission. We, like the majority of member states, have raised questions about elements of the Commission's proposals. We will work with partners to reach an agreement as soon as possible, and we will encourage the Presidency to continue its good work towards this objective.</p>
+          <p eId="para_22">On external relations, Ministers are due to discuss current developments in Iraq and the Middle East peace process over a working lunch. Since the last meeting, the conflict in Iraq has effectively concluded with the collapse of the regime of Saddam Hussein and President Bush has announced the end of major combat operations. The Government welcomed the fact that the conflict had ended after a relatively short period and with casualties lower than some had predicted. Nevertheless, there are continuing reports of isolated incidents of combat and of ongoing disorder in Baghdad and other major cities. The Government has, from the outset, urged all parties to the conflict to respect their obligations under international humanitarian law, in particular their obligations towards the civilian population of Iraq. We welcome the measures being taken to restore order and to facilitate the return of Iraqi police and public servants to their duties.</p>
+          <p eId="para_23">At the ceremony of the signature of the accession treaty in Athens on 16 and 17 April, the EU Presidency issued a statement on Iraq, welcoming the presence of the UN Secretary General at the ceremony and welcoming his appointment of a special advisor on Iraq. It called on the coalition to ensure that it carried out its responsibilities to provide humanitarian assistance and urgent medical relief and to protect the cultural heritage of Iraq. It called for the UN to be allowed to play a central role in reconstruction and for support from Iraq's neighbours in supporting stability in the country. It reaffirmed the commitment of the EU to assisting in such reconstruction efforts and its commitment to the Middle East peace process. The matter will inevitably be an important agenda item at the coming General Affairs and External Relations Council. The United States has introduced a draft Security Council resolution at the UN in New York. We welcome the fact that this resolution has been tabled and that discussion can now begin in earnest on the wide range of issues which must be addressed in post-war Iraq. The Government hopes that this discussion will lead to greater clarity on issues, such as the role of the UN, including the role of UN weapons inspectors.</p>
+          <p eId="para_24">At the Council, Ministers will also consider the Middle East peace process. Discussion will cover the response of the parties to the road map and its implementation. Partners who have visited the region recently will brief on their contacts. The Presidency's Foreign Minister, Georges Papandreou, is there at the moment and the EU High Representative, Javier Solana, travelled to the region earlier this week.</p>
+          <p eId="para_25">After the confirmation of the new Palestinian cabinet by the Palestinian Legislative Council, presentation of the road map occurred on 30 April. The Government welcomes this development, which is a significant step forward. We believe that this initiative offers the greatest hope for some time in the search for peace in the region and we are hopeful that it will bear fruit. To do so, all the parties involved must act to implement the road map comprehensively and we look forward to its immediate implementation.</p>
+          <p eId="para_26">We have also followed with great interest the visit of US Secretary of State, Colin Powell, to the major players in the region to present the Administration's views on the future and we hope that these efforts to advance the peace process will be successful. The Government continues to support the work of the quartet in its efforts to achieve a just and lasting peace in the region.</p>
+          <p eId="para_27">In accordance with established practice and with the conclusions of the Copenhagen European Council, this month's General Affairs and External Relations Council will see EU Foreign and Defence Ministers meeting in joint session on 19 May. Defence Ministers will also attend a capabilities commitment conference in the margins of the Council and will be asked to endorse a declaration on EU military capabilities. Approval will also be sought for the ongoing development of capabilities for EU crisis management operations under the so-called European capabilities action plan, ECAP. The text of the declaration will later be attached to the formal Council conclusions to be adopted during the joint session with Foreign Ministers. Agreed arrangements provide that involvement by member states in these matters should occur on a voluntary basis. This principle will continue to be upheld at next week's Council.</p>
+          <p eId="para_28">The Council conclusions will also cover civilian aspects of crisis management and conflict prevention. Significant progress has been achieved across the four civilian priority areas - police, rule of law, civilian administration and civil protection. A further report on implementation of the 2001 EU programme for the prevention of violent conflicts is scheduled to be submitted to the Thessaloniki European Council.</p>
+          <p eId="para_29">Ministers are also likely to note progress achieved in other areas of European security and defence policy, ESDP, including arrangements for rapid response in crisis management circumstances, common training for both civilian and military aspects, desktop-level crisis management exercises and dialogue with Mediterranean partners.</p>
+          <p eId="para_30">Finally, and following on from the declaration of initial operationality made at the Laeken European Council in December 2001, it is anticipated that the Council will recommend that the European Council declare the EU fully operational in its ability to conduct military crisis management operations. This will be a significant development and reflects the fact that the first operations under ESDP have already commenced. As the committee will be aware, an EU police mission has been under way in Bosnia-Herzegovina since January of this year, while an EU military monitoring and stabilisation operation was launched in the Former Yugoslav Republic of Macedonia in March.</p>
+          <p eId="para_31">In view of the central role played by the EU in the promotion of democracy, stability and reform in the western Balkans, the circumstances in the region are a standard agenda item for meetings of the General Affairs and External Relations Council. The Council is expected to welcome the successful election of Mr. Filip Vujanovic as President of Montenegro on 11 May, following two failed elections in Montenegro in December and February. The Council will also welcome the recent decision by the Supreme Defence Council of Serbia and Montenegro to establish civilian control over the armed forces, which marks a significant step in the reform process of the country.</p>
+          <p eId="para_32">Progress on economic harmonisation between Serbia and Montenegro will be discussed by Ministers. The Council will also stress the importance it attaches to the full implementation of the framework agreement in the Former Yugoslav Republic of Macedonia. The Minister, Deputy Cowen, is in the western Balkans this week to discuss bilateral issues and to prepare for the Irish Presidency of the Council of Ministers. He will meet with senior political figures and representatives of the international community in Serbia, Montenegro, Bosnia-Herzegovina, Kosovo and the Former Yugoslav Republic of Macedonia.</p>
+          <p eId="para_33">The General Affairs and External Relations Council will discuss preparations for the EU-Russia summit in St. Petersburg on 31 May, including EU priorities, and the status of negotiations with Russia on a proposed joint declaration to emerge from the summit. The St. Petersburg summit comes at an important time for EU-Russia relations, in the context of the imminent enlargement of the EU, and the post-Iraq situation. The summit will be an opportunity to set clear directions for the EU-Russia relationship in the years ahead. The Taoiseach will attend the summit and we are working with our EU partners to ensure that it is a success.</p>
+          <p eId="para_34">The Council will also discuss a range of development co-operation related issues, including the implementation by the EU of the commitments given at the International Conference on Financing for Development in March 2002. The most important of these commitments was that the EU should collectively increase average EU ODA from 0.33% of GNI in 2002 to 0.39% of GNI by 2006. In order to achieve this, member states with ODA levels below 0.33% of GNI will have to increase their ODA levels. Ireland, whose ODA reached 0.41% of GNP, is comfortably above the current EU average.</p>
+          <p eId="para_35">Ireland has pressed for and strongly supports this monitoring exercise of the Monterey commitments by the Commission. We would hope to continue the exercise during the Irish EU Presidency in 2004 when Ministers should have a further discussion on how we are living up to these vital ODA commitments.</p>
+          <p eId="para_36">In addition to ODA, the EU made commitments in a number of other areas. At the General Affairs and External Relations Council meeting, I will highlight the issue of debt relief and will welcome the Commission's intention of undertaking a detailed analysis of debt sustainability. This is an issue on which Ireland has a detailed policy set out in the debt strategy, which I launched in July last year. We believe that the current international debt relief mechanism, the heavily indebted poor countries initiative, is not resulting in a sustainable exit from the debt treadmill for the world's poorest countries.</p>
+          <p eId="para_37">I am happy to take questions from members on any of the agenda items listed for discussion at the General Affairs and External Relations Council meeting on Monday and Tuesday.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_38">We will deal with the agenda in two sections, as usual. We will deal with external relations first, including items 1 to 8 and possible A points, and then general affairs, items 1 to 7. A possible A point is the annual review of the Common Position on Nigeria. The Minister will be aware that this committee met the Nigerian ambassador and raised serious concerns about the death penalty passed on a woman for alleged adultery in Nigeria. We were given to understand this matter would be pursued and raised in every way possible. Did the Minister of State find any way to raise that at the meeting? What is proposed is uncivilised. There are strong feelings about it and no opportunity should be lost to make that known. If we are reviewing the Common Position, we should look at the whole area of human rights.</p>
+          <p eId="para_39">As the Minister of State knows, I am concerned that, under the European security and defence policy items, there is one regarding military capabilities. It states:</p>
+          <p eId="para_40">Ministers are likely to note the Helsinki force catalogue 2003, HFC 2003, which is an updated list of military capabilities, pledged by the EU member states as well as planned contributions for the period 2004 to 2007. In addition, Ministers will be asked to endorse the Helsinki progress catalogue 2003, HPC 2003, which provides an in-depth analysis of the EU's military requirement.</p>
+          <p eId="para_41">In the spirit of how we are supposed to do our business, that is have an input to these meetings before Ministers attend them, we do not have the capacity to do so in this case, because we have no idea what is in this. I understand that there may be a confidentiality requirement. However, a similar confidentiality requirement applies to the vetting of certain second and third pillar issues regarding the scrutiny sub-committee. There is in place a protocol between the committee and the Department of Foreign Affairs for dealing with confidential issues, yet here we are, talking about issues in advance and I do not know what they are and neither, I assume, do the other members. This is unsatisfactory and runs counter to the spirit, if not the letter, of the legislation, which is supposed to give us the opportunity to vets these things in advance.</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_4" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_42">I will respond to that before members put their questions.</p>
+          <p eId="para_43">On Nigeria, I wish to assure members that we have raised the matter bilaterally with the Nigerians and I thank the Chairman for raising the matter here because I raised it, as did the Minister for Foreign Affairs, with the Nigerians here. It has also been raised by the European Union and we will pursue it at both levels - bilaterally and at EU level.</p>
+          <p eId="para_44">The Chairman referred to the Helsinki catalogue, which I will clarify because I am conscious it is a matter of concern. Ministers are expected to note the Helsinki force catalogue 2003. This comprises an updated list of military capabilities, pledged by EU member states as well as planned contributions for the period 2004 to 2007. Ministers will also be asked to endorse the Helsinki progress catalogue 2003, which provides an in-depth analysis of the EU's military requirements for crisis management tasks, identifies shortfalls and their implications and makes concrete proposals. These documents are classified confidential, as is the case with much of the documentation relating to the development of military capabilities for EU crisis management tasks.</p>
+          <p eId="para_45">Having regard to the EU security regulations, it is not within our discretion to make this documentation available to the joint committee. In reality, these documents are of a detailed, technical nature. However, a declaration of EU military capabilities is currently being finalised in Brussels with a view to adoption by Ministers for Defence and the Council meeting on Monday. This declaration, which will be annexed to the Council conclusions, will summarise and assess progress in the area of military capabilities and we will make copies of this declaration available to the joint committee as soon as it is approved.</p>
+          <p eId="para_46">Ireland's national contribution has been slightly refined in responding to the Helsinki force catalogue, but our contribution remains within the threshold of 850 troops, in line with the original commitment which the Government decided to make towards the EU headline goal at the first capabilities conference in November 2000. This contribution of 850 is also double-hatted with our commitment to the UN standby assistance arrangements. That is as much as I can tell the committee at this stage.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_5">
+          <from>Chairman</from>
+          <p eId="para_47">I realise the Minister of State has come to the committee to take the Minister's brief. Will he ask the Department of Foreign Affairs to put in place a protocol similar to that for scrutiny, where confidential issues have a protocol in place? In the meantime, I will check with the Chairmen of other European committees of member states to see what is in place.</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_6" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_48">I will.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_7">
+          <from>Senator McDowell</from>
+          <p eId="para_49">I did not understand what the Minister of State said regarding the Irish commitment. To what extent and in what way has it been refined? My understanding was that the commitment was for 850 troops with armoured personnel carriers. Is that still the commitment? While I understand the Minister of State, even if he wanted to, is not in a position to give us any information on what is in the dossier, the view is generally held - whether informed or not - that the EU is well behind in terms of putting together the capabilities that were envisaged in Helsinki. Will the Minister of State comment on that general perception that preparation is lagging considerably?</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_8" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_50">This is an issue which has just arisen at the meeting but I am told that it is within the ceiling of 850 troops. We do not have details of the refinements but I will be happy to give details.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_9">
+          <from>Senator McDowell</from>
+          <p eId="para_51">Are we still committed to contributing up to 850 troops?</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_10" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_52">Yes.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_11">
+          <from>Senator McDowell</from>
+          <p eId="para_53">There is a general perception that the EU is well behind in terms of getting together the capabilities that were committed in Helsinki. I do not want details, but will the Minister of State comment on that perception?</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_12" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_54">I am told there are two operations - a military and a police operation already up and running. I presume this issue will be clarified at Monday's meeting and we will revert back to the committee.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_13">
+          <from>Senator McDowell</from>
+          <p eId="para_55">Targets were set out on a national basis in Helsinki. The intention was to have it in place now or very soon. There is a perception that this has slipped considerably and I wanted the Minister of State's general reflection on that.</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_14" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_56">My understanding is that we are on target. but I will revert back to the committee if there is any major slippage.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_15">
+          <from>Chairman</from>
+          <p eId="para_57">We are on external relation issues, items 1 to 8.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_16">
+          <from>Deputy Quinn</from>
+          <p eId="para_58">I wish to refer to the comments made by the Minister of State in respect of Iraq. There is a significant difference in the use of language in the statement written and delivered by the Minister of State and the reality. We should start to get real. The Minister of State said, "The Government, from the outset, urged all parties to the conflict to respect their obligations under international humanitarian law." There were only two parties to the conflict and a failed state. We have acquiesced in the invasion, legal or illegal, of a state that has now collapsed. It is not a case of "all parties". There are just the occupying powers of the US and Great Britain as well as the Australians. The Minister of State continues: "We welcome the measures being taken to restore order and facilitate the return of Iraqi police." He continues to refer to the "coalition", which is a euphemism for an occupying army from the US and the UK. The Minister of State's briefing document calls it the US and the UK. Who changed the language? Was it the Minister of State? Who softened the words, "The United States and the UK" to "coalition"?</p>
+          <p eId="para_59">Further on in the same paragraph, the Minister of State calls for the UN to be allowed to play a central role in the reconstruction of Iraq. Why ask? Why not demand that it is given that role to play? Again, this is supplicant, forelock-tugging language from Iveagh House or the Minister of State, I do not know which. However, this is not the language that should come from an independent republic such as Ireland. At the bottom of that paragraph, the Minister of State says that the Government hopes, as regards the weasel-worded resolution coming from the US to the UN Security Council, that this discussion will lead to greater clarity on issues, such as the role of the UN, including the role of the UN weapons inspectors. It is bad enough that we acquiesced to this invasion of the state of Iraq, no matter how bad Saddam was, but to continue the collusion with this kind of language, which is different from the briefing documents I have seen from the Department of Foreign Affairs, is worse again. I am wondering whether the Minister of State wrote this himself. If so, why did he change the tone? Does the tone reflect a political acquiescence in Iveagh House not to upset the US juggernaut?</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_17">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_60">When I saw the hundreds, if not thousands, of bodies that are being exhumed today from one of Saddam Hussein's graveyards, I knew that I could stand over my vote in the Oireachtas, and it is a pity that some of the people on this committee did not have the guts to do the same, although I do not want to be political about it.</p>
+          <p eId="para_61">As somebody who supported all efforts to change the regime in Iraq, despite my misgivings over the lack of a UN mandate, I think it is very important that the European Union formulates a strong and comprehensive opinion on the role of the UN. As I understand it, the statement of the Minister of State more or less quotes from the European position as of the last meeting when it, "called for the UN to be allowed to play a central role in reconstruction and for support from Iraq's neighbours in supporting stability in the country." Many of us have concerns about the current US-drafted resolution before the UN. To simply give the USA <i>carte blanche </i>to occupy Iraq for one year, without giving the UN a pivotal role, would be completely unacceptable.</p>
+          <p eId="para_62">I ask Deputy Kitt to convey to the Minister, Deputy Cowen, so that it can be passed on at the European Council meeting, that we in Ireland are demanding a primary role for the United Nations in the reconstruction of Iraq and in the democratisation process. We do not ask for a joint role or a secondary role but a primary role. I see nothing in the Minister of State's speech that is inconsistent with that, but we do need to get the message across at the European Council meeting that we will be very unhappy if the UN is made second best and left to the side in Iraq's future. It is unlikely that any US-led efforts will be seen to be impartial and even-handed, given what has gone on in the Middle East over the last few decades.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_18">
+          <from>Deputy Andrews</from>
+          <p eId="para_63">I welcome the Minister of State to the committee. In the old days there were post-war conferences at which treaties or agreements were drawn up between warring parties. In this case there is no such thing. After the conflict in Afghanistan there was a conference in Tokyo, at which the EU was represented along with the Americans, and agreements were made regarding humanitarian aid. Since that conference in Tokyo in January 2002, many of the commitments on all sides have not been met. Is there any proposal to have such a conference or summit after the war in Iraq? When might it take place? Will the EU have a significant role in it? If there is no such proposal, what is the Government's view on that? Perhaps the Minister of State could comment on our commitments under the Tokyo conference.</p>
+        </speech>
+        <speech by="#MarianHarkinIND" eId="spk_19">
+          <from>Deputy Harkin</from>
+          <p eId="para_64">The Minister of State's briefing material states that while the US has accepted that the UN should play a role in the future of Iraq, it appears to wish to confine this largely to humanitarian assistance. As two other speakers have already inquired, what exactly is the Government's view on this? Does it agree that the UN's role should be confined mostly to humanitarian issues?</p>
+          <p eId="para_65">The briefing document states, concerning the work of the quartet, that the initiative would fail if the Israelis were allowed in the implementation phase to block elements which did not appeal to them. What is happening? Are they attempting to do that? What is the view of the Government?</p>
+        </speech>
+        <speech by="#AnnOrmonde" eId="spk_20">
+          <from>Senator Ormonde</from>
+          <p eId="para_66">The Minister of State stated in this speech that the EU Presidency had issued a statement welcoming the presence of the UN Secretary General at the ceremony and welcoming his appointment of a special adviser on Iraq. Obviously, that has to do with its obligation towards the civilian population. What is the brief of the special adviser? We are getting so many different variations on what he stands for.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_21">
+          <from>Chairman</from>
+          <p eId="para_67">As regards Operation Concordia, which is taking place in the Former Yugoslav Republic of Macedonia, I note from the brief that the force now comprises a total of 244 personnel from 26 contributing states, 13 of which are EU states. This does not include Ireland, however, because of the triple lock. Is this under review so that we can participate with other member states?</p>
+          <p eId="para_68">As regards the EU-Russia summit, could the Minister of State give the committee some indication of the Union's priorities in relations with Russia?</p>
+          <p eId="para_69">A number of members have asked questions about Iraq, so that has been dealt with. I note that the quartet met with the Palestinian Prime Minister, but only the Americans met with the Israelis. Why does the quartet allow that to happen? Is it intended to continue in this fashion?</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_22" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_70">I appreciate the members' concerns about Iraq. If they followed what I said, they will have seen that I share the concerns of many people here. The UN is currently trying to grapple with these issues. Having recently been in East Timor I can compare the situations of the two countries, although East Timor is a very small country. It is a success story and will be even more so with the help of Ireland Aid, which has just made it a programme country along with our other countries in Africa. Iraq will have to be dealt with in a completely different way. Deputy Quinn commented on my language, to which my reply is that I was using some language from the Department based on the resolution which is being discussed at the moment. That might explain some of the nuances to which the Deputy rightly referred.</p>
+          <p eId="para_71">Some important points were made by the various members. Certainly, from our point of view, the role of the UN is crucial and the EU has a very important role to play in having this recognised. From this point of view, Monday's meeting is important. In reply to Deputy Mulcahy and others, we do support the view that the UN should play a central role in the reconstruction of Iraq. We welcome the fact that a draft resolution has been tabled and discussed at the Security Council, which is where it is all happening, on the comprehensive range of issues to do with post-war Iraq which need to be addressed. Discussion among Security Council members has only just begun. We look forward to the development of this discussion in the coming days and expect that it will clarify a number of points which have to be dealt with. In particular, we look forward to a greater definition of the role within the United Nations through the proposed special co-ordinator. We want to see what role that person will play in assisting the emergence of representative political institutions, and the future role of UNMOVIC, the arms inspection body, has also to be specified.</p>
+          <p eId="para_72">It must be understood that it is not the purpose of any UN involvement to legitimise the military conflict. However, it would be unfair to the civilian population of Iraq to allow questions of principle to prevent effective UN engagement with immediate needs. It is important that the EU should adopt a concrete and active policy quickly. In view of the differences between partners, agreement on all issues could prove difficult to reach, in which case the EU should settle for what can be agreed now rather than delay in the hope that all issues can be resolved. The idea of an EU special representative with a political role is worth further consideration as far as we are concerned. However, such a role could only be undertaken if the EU has a coherent policy on all the issues within the EU representative remit.</p>
+          <p eId="para_73">We believe that UNMOVIC and the IAEA should return to Iraq at the earliest opportunity and complete their mission. We wish to see a special representative of the Secretary General with an effective mandate and the UN should be an equal partner, not in a subordinate position limited to acquiescing in decisions made by the coalition. We agree with Kofi Annan that there is a direct correlation between the UN playing a successful role in post-conflict situations and Security Council unity. The Security Council must be united in setting overall objectives and must provide strong political support for the overriding aim of setting aside past divisions and focusing on what would help the Iraqi people most. The objective should be to help the Iraqi people to take charge of their own destiny.</p>
+          <p eId="para_74">The use of Iraq's oil revenue must of course also play a key part in its reconstruction. However, any such use must be undertaken in the best interests of the Iraqi people and they should play a role in any decisions as fully and as early as possible. In summary, the ball is in the Security Council's court right now. We will certainly be in close touch with what is happening. We are pleased there is a resolution.</p>
+          <p eId="para_75">Of particular interest is the role the UN will play, a point that has been made by everybody, and also the role that Hans Blix and UNMOVIC will play. I personally was very impressed with the role he played but we are in a new situation now. On the one hand, we want to be practical, and Deputy Mulcahy has mentioned what has been exposed as a result of the presence of this force - and the Deputy can call it what he wants - but we have now to deal with the situation and we will certainly play an active role.</p>
+          <p eId="para_76">Regarding Deputy Andrews's question about Tokyo, we pledged €12 million and were one of the first countries to deliver on this pledge. I will have to depend on my officials to help me with some of the other questions. The Middle East was mentioned. The road map was handed over to the parties on 30 April in the form agreed by the quartet on 20 December 2002, and initial reactions have been low key as the parties consider their positions and responses. While there are elements in the road map which will be difficult for both sides, neither has rejected the document or any of its provisions. The Palestinian Authority has accepted the document in its entirety, while the Israeli Government has not yet done so. The road map contains all the elements which are essential to a peaceful resolution of the conflict and this must be recognised by the parties. However, Israel is known to have a number of amendments, and we will listen carefully to what Mr. Solana and Mr. Papandreou have to say. They will both be present at the meeting on Monday and are currently in the region on our behalf.</p>
+          <p eId="para_77">On Macedonia——</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_23">
+          <from>Chairman</from>
+          <p eId="para_78">We have the quartet meeting with the Palestinians but only the Americans meeting with the Israelis. Is that precedent to be followed or is it a one-off exception?</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_24" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_79">All we can do is repeat what you probably know, Chairman, that the Palestinians have accepted it while the Israelis have not. There are further meetings coming up. The Prime Ministers meet on Saturday as far as I know and the Israeli Prime Minister, Mr. Sharon, goes to Washington on Tuesday. It is a developing situation. Obviously our position is very clear and we are just going to have to participate in the meeting on Monday on this very important issue, support the road map and welcome the fact that the quartet is very involved. We have been a long time waiting for this process to develop and we certainly welcome the fact that the Palestinians have accepted the road map and we wait to see what Prime Minister Sharon will do. I would suggest that the meeting that will take place next Tuesday in Washington will be crucial in that regard.</p>
+          <p eId="para_80">On Macedonia, Ireland will not participate——</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_25">
+          <from>Deputy J. O’Keeffe</from>
+          <p eId="para_81">Could I raise a question on that? Have we any indication at all from the Americans as to what their attitude will be in the event of continuing intransigence on the part of the Israelis? There is already some indication that the Israelis will try everything they can to avoid acceptance of the road map regarding settlements and other issues. How heavy a stick will the Americans use or will they just accept this continuing intransigence on the part of the Israelis?</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_26" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_82">This is a very crucial period. I would suggest that the best way we can operate on this kind of issue is within the European Union, where we have always played a very constructive role. I would repeat that the meeting between Prime Minister Sharon and President Bush next Tuesday is crucial in that regard. The fact that we are meeting at EU level on Monday and Tuesday shows that this is a major issue on the agenda and it will add to the pressure on the United States to ensure that it does play a constructive role.</p>
+          <p eId="para_83">On Macedonia, we will not participate due to legal advice supplied by the Attorney General which has indicated that the UN endorsement for the original NATO-led operation does not fully meet the requirements for the participation of Irish Defence Forces personnel, as provided for in the Defence Acts, in the EU-led operation. In accordance with the Defence Acts, a contingent of more than 12 armed Defence Forces personnel can only serve overseas in an operation that is established by the UN Security Council or General Assembly.</p>
+          <p eId="para_84">In the case of an existing NATO-led operation in the former Yugoslavia, Security Council Resolution 1371, adopted in September 2001, supported the implementation of the framework agreement for the former Yugoslavia and strongly supported the creation of a multinational security system. However, the Attorney General advised that this resolution did not, in his view, satisfy the test, for the purposes of the Defence Acts, of either establishing or authorising the establishment of an EU-led force. While this does not detract from our overall political support for the EU operation, it would have to be acknowledged that the legislation in question dates from a period when it was not envisaged that the UN would some day become reliant upon regional organisations to provide assistance with such operations. In response to the question of whether there has been any change, the answer is no.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_27">
+          <from>Chairman</from>
+          <p eId="para_85">There are 26 states participating, 13 of them EU states. Which EU state other than Ireland is not participating?</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_28" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_86">My officials will provide that information for you, Chairman.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_29">
+          <from>Chairman</from>
+          <p eId="para_87">Surely somebody must know that. It would not be very difficult to find out as there is only one other member state not participating.</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_30" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_88">We think it is Denmark.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_31">
+          <from>Chairman</from>
+          <p eId="para_89">Denmark is not participating for the totally different reason that it is a member of NATO.</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_32" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_90">On the EU and Russia, the St. Petersburg summit later this month will mark an important moment in Russia's history. It is the 300th anniversary of the foundation of the city of St. Petersburg and the Taoiseach very much welcomes this opportunity for all 15 EU Heads of State and Government, now joined by the Heads of State and Government of the ten accessing countries, to meet with President Putin. Alongside the celebratory aspect to the event, EU leaders will want to do some serious business. As I see it, our priorities include making concrete progress on areas such as the environment, nuclear safety and justice and home affairs.</p>
+          <p eId="para_91">In addition, this will be a welcome opportunity for us to re-evaluate progress and to consider the future direction of EU-Russia relations in light of the enlargement of the European Union on 1 May 2004. The presence of the representatives of ten accessing countries at the summit will greatly facilitate this discussion and will highlight the importance of this new phase of EU-Russia relations.</p>
+          <p eId="para_92">I think I have already covered the issue of the special representative. On Chechnya——</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_33">
+          <from>Chairman</from>
+          <p eId="para_93">Can the Minister of State indicate the sort of priorities the EU has for this meeting?</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_34" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_94">The Presidency will lead discussions on behalf of the EU and each Head of Government, including the Taoiseach, will have an opportunity to make a short intervention. One important issue for the EU will be the extension of the partnership and co-operation agreement with Russia to cover the new member states. Other issues which are likely to be addressed include ratification of the Kyoto Protocol, nuclear issues and the need for progress towards an agreed political situation in the separatist region of Moldova.</p>
+          <p eId="para_95">We are among those EU members who will wish to have Chechnya discussed at St. Petersburg. We regret very much the deaths caused by attacks on Government facilities in Chechnya. We appreciate that the Government of Russia has every right to defend itself against terrorist attacks. Such defence, however, must be undertaken in accordance with, and with respect for, international law as well as humanitarian and human rights law and we hope that the recent constitutional referendum in Chechnya will pave the way for agreed political progress in the future. We hope to see the Chechnya issue on which the Taoiseach is anxious to speak, taken up at St. Petersburg and we will work to that end.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_35">
+          <from>Chairman</from>
+          <p eId="para_96">The Minister of State has covered our questions.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_36">
+          <from>Deputy Quinn</from>
+          <p eId="para_97">I thank the Minister of State for his replies. I accept that he is constrained by time but this country has battled, and still does to a certain extent, with a section of our society that questions the legitimacy of the State going back to 1918, 1921 and the proclamation of the Republic so we are not talking in the abstract. Given that historical background, can the Minister of State outline how the EU is going to ensure that the regime that comes into existence in Iraq enjoys the legitimacy of its people and is perceived by them to be legitimate? A state that comes into existence under the aegis of President Bush's Government or is run by returned exiles participating in an election supervised without a central role for the UN, without the proper framework for legislation, runs the risk of being disputed by al-Qaeda and other groups.</p>
+          <p eId="para_98">With all due respect, we are not talking about East Timor. How will the substantial reserves of wealth in Iraq, and the substantial sovereign debt accumulated by Saddam Hussein and his predecessors, be discharged if the legitimacy of the emerging state is not properly underwritten? The central question seems to be whether we are waiting for the US to underwrite its legitimacy or how will the UN ensure its legitimacy. While I appreciate there is no easy answer and that it is politically complex, if the US is going to remove the axis of evil from other countries we must provide for the legitimisation of this process. Given the weak approach that the Council of the European Union manifests on this question we could end up with a legal mess in the future.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_37">
+          <from>Senator McDowell</from>
+          <p eId="para_99">With regard to the UN resolution presented by the occupying powers and Spain, the Minister of State said that the Irish Government welcomed the fact that there was a resolution before the Security Council. He went on to point out areas wherein we would have liked a different emphasis, which suggests that the Government did not agree with the contents of the resolution. Could he be more explicit and say that we do not agree with the content of the Security Council resolution because many of the priorities he has identified are not provided for and it is not the intention of the occupying forces to provide for them. For example, they do not intend that UNMOVIC and Hans Blix will be allowed back. They do intend that the UN will have a secondary role confined largely to humanitarian aid and that they will take the lead role in setting up the interim administration in Iraq. These are central differences between us, along with other European countries, and the occupying powers. That causes us some difficulty, particularly because in his contribution the Minister of State says that the capacity of the EU to do anything relies on there being political agreement on the priorities. Given that the UK is one of the countries occupying Iraq, and that there does not seem to be any prospect of such agreement, does it follow that the EU has no realistic prospect of involvement at a political level in Iraq? It is a bit much for the US and UK to tell us at this stage that we need the UN and other countries to contribute to humanitarian aid when they are confiscating the oil wealth of Iraq and using it to pay considerable amounts of money to American corporations to do what they regard as being the priority, namely, putting infrastructure in place. That wealth should be used to provide the humanitarian aid to which we are being asked to contribute.</p>
+        </speech>
+        <speech by="#MarianHarkinIND" eId="spk_38">
+          <from>Deputy Harkin</from>
+          <p eId="para_100">I and many others had hoped that the UN would be the leading player in the reconstruction of Iraq. If I heard the Minister of State correctly in his reply he said that the UN should be an equal partner. Am I to take it that the position of the Irish Government is that this initiative should not be led by the UN but that there should be equal partnership between the UN and the US?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_39">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_101">It is good to see the list of A items but the gobbledygook in which it is written makes it very difficult to understand because there is no briefing. It refers to Indonesia Council conclusions and Afghanistan Council conclusions, what exactly does that mean? If we are to receive A lists, even from a previous meeting, we need some explanation as to what exactly they are.</p>
+          <p eId="para_102">I am glad to hear that the Taoiseach will have a few minutes to make an intervention on Russian relations with the EU. He should use the opportunity to express concern about the human rights record of Russia. There is a new report introduced by Amnesty International on this record which is getting worse. Given that the EU is making great play of encouraging those relationships we should ensure that the human rights violations are high on that agenda.</p>
+          <p eId="para_103">Israel has now banned what are termed human shields or monitors from the occupied territories and much of the information on breaches of human rights by Israel there have come from that source. The EU should make a statement to that effect and ask the Israelis to lift that ban.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_40">
+          <from>Chairman</from>
+          <p eId="para_104">The A items are there because we did not have them at the last meeting. At least we know what was discussed and we can get details of any item that is on that list. We do not know the full list of A items until we come up to the Council meeting. Possible A items for next week are listed there to give members the opportunity to ask a question because heretofore we did not get the A items. I was able to ask the Minister of State about Nigeria today because it gives him an opportunity to ask that that may be treated as an A item. It is useful information in that sense. If we were to inundate members with 38 declarations of conclusions there would be too much information. The committee can get information on anything that is done. It is intended to be helpful rather than overwhelm members. The Minister of State can answer the question on policy.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_41">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_105">I thank the Minister of State for his clarification on Iraq and saying he will stress the role of the UN. I am happy to receive that assurance. Senator McDowell made his point precipitately, because the US has not sequestered the oil assets of Iraq. Am I correct in saying that until the sanctions on Iraq are lifted, Iraqi oil cannot be sold on the open market? The lifting of those sanctions will be a matter for the UN. Obviously, there will be a proposal coming from the Security Council to the floor of the UN to lift those sanctions, to end the oil-for-food programme and let Iraqi oil be sold on the international market. Obviously, the US for its reasons, appears very anxious that this be enabled. That gives a power of leverage to the EU and the UN to insist that the sanctions not be lifted until the proper role of the UN is recognised in Iraq. Can the Minister of State give an assurance that Ireland will not vote on the lifting of those sanctions until the proper role for the UN has been secured for Iraq?</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_42">
+          <from>Deputy J. O’Keeffe</from>
+          <p eId="para_106">My remarks on this issue are predicated on the absolute joy that the most tyrannical regime that any country has had for generations has been removed from power in Iraq. Any comment we make should expressly and implicitly include that joyful reaction to what happened in Iraq. I wonder if that is the impression one would get from the deliberations of the Joint Committee on European Affairs.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_43">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_107">The Labour Party is ambiguous on this point.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_44">
+          <from>Deputy Quinn</from>
+          <p eId="para_108">We are concerned with the rule of law.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_45">
+          <from>Chairman</from>
+          <p eId="para_109">Deputy Jim O'Keeffe without interruption.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_46">
+          <from>Deputy J. O’Keeffe</from>
+          <p eId="para_110">I want it to come loud and clear from me and this committee that this is our reaction to the regime change. Our reaction should not be based on theory or ideology, but what is best for the Iraqi people. If one is talking about legality, there are a number of areas that one should look at such as the Hague Convention 1907 which long predated the League of Nations and the UN. That is where the rights, powers and responsibilities apply in this case.</p>
+          <p eId="para_111">What is going to be of benefit for the Iraqi people? Splitting hairs on ideology does not interest me. I want to see what is for their benefit. I am convinced that it is to their benefit to have been rid of that awful person, Saddam Hussein, his henchmen and lackeys. That is their best hope for the future after the misery of torture, rape, murder they have endured over the last 25 years. I say, "Hurrah".</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_47">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_112">The Labour party did not vote that way.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_48">
+          <from>Deputy J. O’Keeffe</from>
+          <p eId="para_113">If we work on that basis, we then work on what is best for the Iraqi people. If it is best for the Iraqi people to lift the UN sanctions, then lift them now. We had a guarantee from the US, which I accept, that the resources in Iraq will be used for the benefit of the Iraqi people. The major resource they have is oil. The condition of the oil infrastructure is bad, but the sooner they have the opportunity of getting the oil flowing and selling it, the better.</p>
+          <p eId="para_114">I want to see the UN involved. I would have preferred to have seen a second UN resolution, but it was not there. We are where we are now, in a situation where the regime has been disposed of. We must work towards a solution that is for the betterment of Iraq. From that point of view, a UN resolution is necessary, and the sooner the better. While I have not seen the exact details of the present proposal, I would not ask the Government to delay or put conditions on a proposal, if the UN proposal was balanced and for the benefit of the Iraqi people. My concern is that a delay in securing that proposal will cause damage to the Iraqi people.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_49">
+          <from>Chairman</from>
+          <p eId="para_115">I note the Minister for Foreign Affairs, Deputy Cowen, is on a visit to the Balkans and the western Balkans is up for discussion. Can the Minister of State, Deputy Kitt, give us a broad outline of the Minister's objectives on this official visit at this time.</p>
+          <p eId="para_116">I also note, specifically in the Minister of State's area, items 5 to 8, inclusive, deal with the untying of aid, migration and development, follow-up to international conferences in Monterey and the programme for action on EC development policy. The Minister of State is aware that this committee set up an advisory group under the chairmanship of Mr. David Begg which has reported to us. We want to have a separate discussion on how the Presidency priorities in the development area are being set. Could the Minister of State give us a broad outline of the objectives of items 5 to 8?</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_50" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_117">I will start with Iraq and I understand the divergence of views on this issue. We are rehearsing what has been said both inside and outside the Dáil. I share the view that we have now to get down to business and help the Iraqi people. We all have one common objective here. I reiterate that the new administration will have to have the support and enjoy the legitimacy of the Iraqi people.</p>
+          <p eId="para_118">Much is happening at the UN Security Council. There are four key issues being examined: the role of the UN; the extent of the authority of the coalition; and transparency and accountability in respect of oil sales and revenue. I understand the oil-for-food programme will stay in place until June, while at the same time the sanctions will remain in place. Neither the US nor any other power is sequestering Iraq's oil. The future of the matter will be decided at the Security Council and the draft resolution is looking at this. The fourth issue concerns the relationship between the lifting of sanctions and the verification of the disarmament of weapons of mass destruction.</p>
+          <p eId="para_119">We are in uncharted waters but there is a clear position on what we are trying to do, not just in this country, but within the EU. We all know there was divergence of opinion in the EU. The EU has gone out of its way to unite the thinking within the various countries. Four member states of the Union are on the Security Council. We do not have a vote there now, but I know the Taoiseach is keeping in close touch with Mr. Kofi Annan on this issue. We will keep this committee informed along the way.</p>
+          <p eId="para_120">The Minister for Foreign Affairs, Deputy Cowen, is on a visit to the western Balkans where he is travelling to Serbia, Montenegro, Bosnia-Herzegovina, Kosovo and the Former Yugoslav Republic of Macedonia. The objective of the visit is to develop contacts with the main political leaders and to establish the agenda for any expectations of the Irish EU Presidency. The western Balkans will remain a major foreign policy priority for the EU during the Irish Presidency and Ireland is determined to continue the progress made this year. The Minister for Foreign Affairs will also discuss issues on the bilateral interests with his Balkan counterparts.</p>
+          <p eId="para_121">He is meeting the President and Foreign Minister of Serbia, the three member Presidency of Bosnia-Herzegovina, the President and Prime Minister of Kosovo, and the President, Prime Minister and Foreign Minister of the Former Yugoslav Republic of Macedonia. Meetings will also be held between the Minister for Foreign Affairs and prominent representatives of the international community in the region, including Lord Paddy Ashdown, the High Representative and EU Special Representative for Bosnia-Herzegovina; Mr. Michael Steiner, UN Special Representative for Kosovo; and Mr. Alec Brauns, EU Special Representative. The Minister is also meeting Irish citizens who are resident in the region, most of whom are working for the international community, as well as members of the Defence Forces currently with the EU in Kosovo and gardaí posted in the region.</p>
+          <p eId="para_122">We talked earlier about Chechnya. As regards Israel, as an occupying power it has rights as well as responsibilities in regard to the occupied territories and who enters them. Ireland believes that NGOs can play a positive role in promoting the peace process and from our experience we are of the view that no constructively-minded NGO or other international presence should be denied access. In fact I know that the Minister for Foreign Affairs, Deputy Cowen, plans to go there as soon as possible, and I too, as Minister of State with special responsibility for overseas development and human rights, would like to visit that region at the earliest possible opportunity.</p>
+          <p eId="para_123">I will be involved in discussions on Tuesday on the Monterey commitments and the kind of issues we will be raising will be the ODA resources, debt relief and untying of aid. We are in a very strong position on those issues. I am conscious of the ideas that this committee has come forward with, and the Council on Monday will consider draft Council conclusions based on the communication from the Commission to the Council in November 2002 on the untying, enhancing and effectiveness of aid. The draft Council conclusions welcome the Commission's communication and share the aim of the further untying of EC aid as a way to improve the efficiency of aid and to increase its impact in fighting poverty. As the committee will be aware, Ireland is in a very good position on untied aid. I wish other countries were in as strong a position as we are. As regards this particular item on the agenda, we will be very forceful. I know we have a constant battle to ensure that our ODA increases, and the committee's support in that regard is most welcome. However, as I said earlier we are also in a strong position on ODA in comparison to other EU countries.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_51">
+          <from>Chairman</from>
+          <p eId="para_124">We will be coming back to a special meeting on EU Presidency priorities and this development aid area is very important in that context. On the general affairs issues, items 1 to 7 relate to the adoption of the provisional agenda, approval of the list of A items, European Parliament resolutions, progress of the work on Council configurations, preparation of the European Council in Thessaloniki reform of staff regulations and progress in the work of the convention.</p>
+          <p eId="para_125">We have concentrated quite a lot on the work in the convention. I wish to ask the Minister of State about the staff regulations. I see from what has been said in the note that came with the agenda that the Department of Foreign Affairs is raising certain concerns regarding pension rights. Other states are doing the same. The proposed pension arrangements are, according to the note, ultimately unsustainable. The note also raises the issue of a retirement age of 60 and also the question of the four-year college degrees - Irish degrees are normally three years in duration. Considering a lot of the work that is done, why should there be a three-year or four-year degree? Is it a way of keeping work within a small circle? We discussed this issue at this committee recently with Commissioner Neil Kinnock, and he was very open about it. I would like to encourage the Minister of State and his colleagues to move along the lines of Commissioner Kinnock's proposals and the concerns the Minister of State expressed today, because this is an issue which needs to be dealt with at arm's length. I do not want to cast aspersions on anybody, but we cannot have people writing regulations for themselves and then putting through these draft regulations late at night, before scrutiny committees, for example of the Irish Parliament, have an opportunity to examine them. This is an area that needs to be examined in detail. I am happy with the tone of the note and with the assurances given by Commissioner Kinnock, but I would like to encourage the Minister of State and his Department to continue along those lines.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_52">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_126">On the issue of the European Convention, I for one would like our representative at this meeting to express my disappointment at the fact that the praesidium of the convention chose to ignore the proposal by Deputy Roche, the Minister of State at the Department of Foreign Affairs, which was the Irish proposal for the election of the Presidency of the Commission. As the Minister for State is aware, Deputy Roche had proposed an electoral college system for the election of the Commission President, consisting of representatives of national parliaments and the European Parliament. As I understand it, the Prasidium returned with its own proposal that the European Parliament itself would elect the President of the Commission. I find it very hard to understand how it could do that, because 16 or 17 if not 18 countries signed up to the proposal by Deputy Roche. My maths are not very good, but I think that 17 out of 25 is certainly a majority. I find it hard to understand how a simple and workable proposal such as that of Deputy Roche, which had the support of so many countries, was completely rejected by the Prasidium of the convention. Most of the countries which signed up to Deputy Roche's proposal were the smaller countries, though they included Poland, which is significant on a day when there is a Polish parliamentary delegation visiting the Oireachtas. If there is an attempt by a few big countries to impose their will, disappointment should be expressed at a European Council meeting. It is not transparent and it flies in the face of democracy.</p>
+        </speech>
+        <speech by="#DonLydon" eId="spk_53">
+          <from>Senator Lydon</from>
+          <p eId="para_127">There is a meeting of the General Affairs and External Relations Council on next Tuesday, 19 May, and on the margins there will be a meeting of the Foreign or Defence Ministers regarding the capabilities conference declaration and leading up to the Helsinki force catalogue. I understand that project groups will be set up to look at what have been euphemistically called "shortfalls" in military arrangements and capabilities.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_54">
+          <from>Chairman</from>
+          <p eId="para_128">I will permit a short question, but we are on the general affairs part of the brief.</p>
+        </speech>
+        <speech by="#DonLydon" eId="spk_55">
+          <from>Senator Lydon</from>
+          <p eId="para_129">I wondered if we are going to be represented on any of those project groups and if we have an input into them.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_56">
+          <from>Senator McDowell</from>
+          <p eId="para_130">Regarding the staff issue, which the Chairman mentioned, this is one of those dry issues that we rarely discuss, but I know that Commissioner Kinnock has been tearing his hair out regarding some of the staff issues. I am not sure that I have heard an Irish Minister declare what our view is, specifically on the issue of whether the Commission should continue to operate, either formally or informally, national quotas in terms of the number of staff it has in any particular section, or whether this should be worked purely on the basis of merit, or what sort of balance we should be lucky to get. I know that Commissioner Kinnock - it goes with his territory, I suppose - is looking to move as far as possible to a merit-based system, rather than one based on informal or formal national quotas. I would be interested to know the official Irish view.</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_57" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_131">Coming back to Senator McDowell's final question, which was similar to that of the Chairman, we would obviously be looking for balance but, equally, candidates being appointed on merit. It is an issue with which Commissioner Kinnock is greatly exercised. He spoke to this committee.</p>
+          <p eId="para_132">The issues we are concerned with include the reforms on pay. We believe the levels or remuneration in the EU institutions should reflect the pay level in member states. Regarding pensions, we believe the new scheme should be brought more in line with the provisions governing public servants throughout the EU, including an increase in the retirement age. We have registered our particular concern about the Commission's proposals for entry requirements. We believe the effect of the proposal is that not all types of primary degrees are being accorded the same status. It is important to mention the general affairs, and we will be bringing these issues to the table on Monday next.</p>
+          <p eId="para_133">On Deputy Mulcahy's point——</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_58">
+          <from>Senator McDowell</from>
+          <p eId="para_134">Does the Minister of State believe there should be an Irishman or Irishwoman in every section? Do we believe, as a matter of principle, that there should be an Irish official in every section or department where heretofore there would have been, on the basis of the informal quotas operated?</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_59" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_135">As many as possible, I suppose. These are very competitive areas for employment and those who make it get to do extremely well and are highly regarded. I will not suggest we do not aspire to the situation mentioned, because on a personal basis I am conscious of working with various Commissions and their offices where we have the highest-quality personnel. We aim as high as possible.</p>
+        </speech>
+        <speech by="#DerekMcDowell" eId="spk_60">
+          <from>Senator McDowell</from>
+          <p eId="para_136">I recall CommissionerKinnock saying that as long as each government or each country feels that it is entitled to a certain number of people in each office there will be too many people and not necessarily the right people.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_61">
+          <from>Chairman</from>
+          <p eId="para_137">He told the committee he has changed that and he was fearful that it might slip back.</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_62" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_138">This debate is about reform. We put our own interest at the top of the agenda but we are practical Europeans as well. On Deputy Mulcahy's point, I assure him that Ireland is represented at all Union level discussions. Senator Lydon mentioned this in the development of CFSP and ESDP, including capabilities.</p>
+          <p eId="para_139">I will answer Deputy Mulcahy's question about the convention. These are ongoing discussions. His point reflects what we have been trying to do. We will continue to make the points that he has made with regard to the election of the President of the Commission. We agree that electing the President would increase his or her legitimacy and we did propose an electoral college, an idea for which there is some support and which remains on the table. We are also open to election by the European Parliament alone, provided that the necessary safeguards to protect the President's independence and to guarantee broad acceptability to the member states are in place, but the Deputy is right to raise it. My colleague, the Minister of State, Deputy Roche, who is responsible for this area has discussed it in detail with the committee. We will continue to outline and stress our priorities right up to the line. This goes to the meeting in Thessaloniki and on to the Intergovernmental Conference. We will continue to raise this along the way.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_63">
+          <from>Chairman</from>
+          <p eId="para_140">We have regular and detailed discussions with Deputy Roche and the convention members so we are familiar with all of that.</p>
+          <p eId="para_141">I am concerned that we should raise the question of the Nigerian lady who has been sentenced to death. This should be pursued vigorously and there is an opportunity to do that. The objective of these meetings is to meet Ministers before they go and suggest issues they could raise. The committee would support that issue being raised. We have to get the message across that it is unacceptable and that if the Nigerian Government is to do business with the EU, the regime must be civilised. I hope an opportunity will be found to raise that issue.</p>
+        </speech>
+        <speech by="#TomKitt" eId="spk_64" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Kitt</from>
+          <p eId="para_142">I share the Chairman's concern on this issue. As Minister of State in the Department of Foreign Affairs with responsibility for human rights as well as development, I initiated contact with the Nigerian ambassador when it first emerged in the public domain. I will convey your point to the Minister for Foreign Affairs, Deputy Cowen, and we will raise it. I will bring your message to Europe in whatever way I can.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_65">
+          <from>Chairman</from>
+          <p eId="para_143">I thank the Minister of State and wish him a safe journey to Strasbourg.</p>
+        </speech>
+        <summary eId="sum_4">The joint committee adjourned at 5.25 p.m. until 3.30 p.m. on Tuesday, 27 May 2003.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

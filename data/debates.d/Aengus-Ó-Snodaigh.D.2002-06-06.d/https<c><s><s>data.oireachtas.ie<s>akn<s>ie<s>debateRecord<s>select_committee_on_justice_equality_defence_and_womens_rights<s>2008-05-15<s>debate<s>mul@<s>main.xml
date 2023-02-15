@@ -1,0 +1,1209 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2008-05-15/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2008-05-15/debate"/>
+          <FRBRdate date="2008-05-15" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/select_committee_on_justice_equality_defence_and_womens_rights"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2008-05-15/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2008-05-15/debate/mul@"/>
+          <FRBRdate date="2008-05-15" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2008-05-15/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2008-05-15/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_9" refersTo="#bill.2008.2.dail.3.amd_32" outcome="#lost">
+            <count eId="vote_1-count_1" value="6" refersTo="#ta" href="#qty_1"/>
+            <count eId="vote_1-count_2" value="8" refersTo="#nil" href="#qty_2"/>
+          </voting>
+          <voting eId="vote_2" href="#sum_13" refersTo="#bill.2008.2.dail.3.amd_34" outcome="#lost">
+            <count eId="vote_2-count_1" value="6" refersTo="#ta" href="#qty_3"/>
+            <count eId="vote_2-count_2" value="7" refersTo="#nil" href="#qty_4"/>
+          </voting>
+        </parliamentary>
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None" eId="#vol_None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None" eId="#no_None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="agreed" href="/ie/oireachtas/ontology#Agreed" showAs="Agreed"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="notmoved" href="/ie/oireachtas/ontology#NotMoved" showAs="Not Moved"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCEvent eId="bill.2008.2.dail.3" href="/ie/oireachtas/bill/2008/2/dail/3" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_32" href="/ie/oireachtas/bill/2008/2/dail/3/amd_32" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 32"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_32.lost" href="/ie/oireachtas/bill/2008/2/dail/3/amd_32/lost" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 32 (Lost)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_33" href="/ie/oireachtas/bill/2008/2/dail/3/amd_33" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 33"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_33.lost" href="/ie/oireachtas/bill/2008/2/dail/3/amd_33/lost" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 33 (Lost)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_34" href="/ie/oireachtas/bill/2008/2/dail/3/amd_34" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 34"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_34.lost" href="/ie/oireachtas/bill/2008/2/dail/3/amd_34/lost" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 34 (Lost)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_35.notmoved" href="/ie/oireachtas/bill/2008/2/dail/3/amd_35/notmoved" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 35 (Not Moved)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_36.notmoved" href="/ie/oireachtas/bill/2008/2/dail/3/amd_36/notmoved" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 36 (Not Moved)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_37" href="/ie/oireachtas/bill/2008/2/dail/3/amd_37" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 37"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_37.agreed" href="/ie/oireachtas/bill/2008/2/dail/3/amd_37/agreed" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 37 (Agreed)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_38.notmoved" href="/ie/oireachtas/bill/2008/2/dail/3/amd_38/notmoved" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 38 (Not Moved)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_39.notmoved" href="/ie/oireachtas/bill/2008/2/dail/3/amd_39/notmoved" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 39 (Not Moved)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_40.notmoved" href="/ie/oireachtas/bill/2008/2/dail/3/amd_40/notmoved" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 40 (Not Moved)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_41" href="/ie/oireachtas/bill/2008/2/dail/3/amd_41" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 41"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_41.agreed" href="/ie/oireachtas/bill/2008/2/dail/3/amd_41/agreed" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 41 (Agreed)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_42" href="/ie/oireachtas/bill/2008/2/dail/3/amd_42" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 42"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_42.lost" href="/ie/oireachtas/bill/2008/2/dail/3/amd_42/lost" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 42 (Lost)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_43" href="/ie/oireachtas/bill/2008/2/dail/3/amd_43" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 43"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_43.agreed" href="/ie/oireachtas/bill/2008/2/dail/3/amd_43/agreed" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 43 (Agreed)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_44" href="/ie/oireachtas/bill/2008/2/dail/3/amd_44" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 44"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_44.agreed" href="/ie/oireachtas/bill/2008/2/dail/3/amd_44/agreed" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 44 (Agreed)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_45.notmoved" href="/ie/oireachtas/bill/2008/2/dail/3/amd_45/notmoved" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 45 (Not Moved)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_46" href="/ie/oireachtas/bill/2008/2/dail/3/amd_46" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 46"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_46.agreed" href="/ie/oireachtas/bill/2008/2/dail/3/amd_46/agreed" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 46 (Agreed)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_47" href="/ie/oireachtas/bill/2008/2/dail/3/amd_47" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 47"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_47.agreed" href="/ie/oireachtas/bill/2008/2/dail/3/amd_47/agreed" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 47 (Agreed)"/>
+        <TLCEvent eId="bill.2008.2.dail.3.amd_48.notmoved" href="/ie/oireachtas/bill/2008/2/dail/3/amd_48/notmoved" showAs="Immigration, Residence and Protection Bill 2008: Dáil Committee Stage - Amendment No. 48 (Not Moved)"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="AineBrady" href="/ie/oireachtas/member/id/Áine-Brady.D.2007-06-14" showAs="Áine Brady"/>
+        <TLCPerson eId="BrianOShea" href="/ie/oireachtas/member/id/Brian-O'Shea.S.1987-04-25" showAs="Brian O'Shea"/>
+        <TLCPerson eId="CharlesFlanagan" href="/ie/oireachtas/member/id/Charles-Flanagan.D.1987-03-10" showAs="Charles Flanagan"/>
+        <TLCPerson eId="CharlieOConnorFF" href="/ie/oireachtas/member/id/Charlie-O'Connor.D.2002-06-06" showAs="Charlie O'Connor"/>
+        <TLCPerson eId="DaraCalleary" href="/ie/oireachtas/member/id/Dara-Calleary.D.2007-06-14" showAs="Dara Calleary"/>
+        <TLCPerson eId="DarraghOBrien" href="/ie/oireachtas/member/id/Darragh-O'Brien.D.2007-06-14" showAs="Darragh O'Brien"/>
+        <TLCPerson eId="DenisNaughten" href="/ie/oireachtas/member/id/Denis-Naughten.S.1997-01-28" showAs="Denis Naughten"/>
+        <TLCPerson eId="DermotAhern" href="/ie/oireachtas/member/id/Dermot-Ahern.D.1987-03-10" showAs="Dermot Ahern"/>
+        <TLCPerson eId="DinnyMcGinley" href="/ie/oireachtas/member/id/Dinny-McGinley.D.1982-03-09" showAs="Dinny McGinley"/>
+        <TLCPerson eId="FinianMcGrath" href="/ie/oireachtas/member/id/Finian-McGrath.D.2002-06-06" showAs="Finian McGrath"/>
+        <TLCPerson eId="LeoVaradkar" href="/ie/oireachtas/member/id/Leo-Varadkar.D.2007-06-14" showAs="Leo Varadkar"/>
+        <TLCPerson eId="MattieMcGrath" href="/ie/oireachtas/member/id/Mattie-McGrath.D.2007-06-14" showAs="Mattie McGrath"/>
+        <TLCPerson eId="PadraicMcCormack" href="/ie/oireachtas/member/id/Pádraic-McCormack.S.1987-04-25" showAs="Pádraic McCormack"/>
+        <TLCPerson eId="PatRabbitte" href="/ie/oireachtas/member/id/Pat-Rabbitte.D.1989-06-29" showAs="Pat Rabbitte"/>
+        <TLCPerson eId="ThomasByrne" href="/ie/oireachtas/member/id/Thomas-Byrne.D.2007-06-14" showAs="Thomas Byrne"/>
+        <TLCPerson eId="TimDooley" href="/ie/oireachtas/member/id/Timmy-Dooley.S.2002-09-12" showAs="Timmy Dooley"/>
+        <TLCRole eId="Acting_Chairman" href="/ie/oireachtas/role/position/acting_chairman" showAs="Acting Chairman"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Minister_for_Justice,_Equality_and_Law_Reform" href="/ie/oireachtas/role/minister/justice__equality__law_reform" showAs="Minister for Justice, Equality and Law Reform"/>
+        <TLCRole eId="Vice_Chairman" href="/ie/oireachtas/role/position/vice_chairman" showAs="Vice Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>ROGHCHOISTE UM DHLÍ AGUS CEART, COMHIONANNAS, COSAINT AGUS CEARTA NA mBAN</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON JUSTICE, EQUALITY, DEFENCE AND WOMEN'S RIGHTS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2008-05-15">Déardaoin, 15 Bealtaine 2008</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2008-05-15">Thursday, 15 May 2008</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 10.35 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#DermotAhern">Deputy Dermot Ahern <i>(Minister</i>
+                                    </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#MattieMcGrath">Deputy Mattie McGrath,*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <i>for Justice, Equality and Law</i>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#DenisNaughten">Deputy Denis Naughten,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5"><i>Reform)</i>,</p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#DarraghOBrien">Deputy Darragh O’Brien,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#AineBrady">Deputy Áine Brady,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#CharlieOConnorFF">Deputy Charlie O’Connor,*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#ThomasByrne">Deputy Thomas Byrne,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#BrianOShea">Deputy Brian O’Shea,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#DaraCalleary">Deputy Dara Calleary,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#PatRabbitte">Deputy Pat Rabbitte,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#TimDooley">Deputy Timmy Dooley,+</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#LeoVaradkar">Deputy Leo Varadkar.*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#CharlesFlanagan">Deputy Charles Flanagan,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_16">
+                  <person refersTo="#PadraicMcCormack">Deputy Pádraic McCormack,+</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_17">
+                  <person refersTo="#FinianMcGrath">Deputy Finian McGrath,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Deputies Niall Collins, Noel Treacy, Seán Connick, Peter Power and Jimmy Deenihan, respectively.</summary>
+          <summary eId="sum_4">+In the absence of Deputies Charlie O'Connor and Dinny McGinley, respectively, for part of meeting.</summary>
+          <summary eId="sum_5">In attendance: Deputy Aengus Ó Snodaigh.</summary>
+          <summary eId="sum_6">
+            <person as="#Chair" refersTo="#DinnyMcGinley">DEPUTY DINNY McGINLEY IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Select Committee.</heading>
+        <speech by="#DinnyMcGinley" as="#Vice_Chairman" eId="spk_1">
+          <from>Vice Chairman (Deputy Dinny McGinley)</from>
+          <p eId="para_18">The meeting is being held to consider the Immigration, Residence and Protection Bill 2008.  At 1 p.m. we will adjourn the meeting to reconvene on Tuesday, 20 May 2008.  Before commencing, ba mhaith liom comhghairdeas a dhéanamh ar mo shon féin agus ar shon baill an roghchoiste leis an Aire nuaceaptha Dlí agus Cirt, Comhionannais agus Athchóirithe Dlí.  We wish him well in his new appointment and look forward to working with him.  Cuirim fáilte roimhe.  I welcome the Minister for Justice, Equality and Law Reform, Deputy Dermot Ahern, and his officials to this meeting.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_2">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_19">Have we already agreed to reconvene on Tuesday, 20 May?</p>
+        </speech>
+        <speech by="#DinnyMcGinley" as="#Vice_Chairman" eId="spk_3">
+          <from>Vice Chairman</from>
+          <p eId="para_20">Yes.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_4">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_21">At what time?</p>
+        </speech>
+        <speech by="#DinnyMcGinley" as="#Vice_Chairman" eId="spk_5">
+          <from>Vice Chairman</from>
+          <p eId="para_22">We are adjourning today at 1 p.m. and reconvening at 4 p.m. on Tuesday, 20 May.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_6">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_23">From a logistical viewpoint it might be better to postpone it beyond 4 p.m. in that we will be running into the Order of Business.  We could have just begun only to have to leave for the Dáil Chamber.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_7">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_24">Coincidentally, 4 p.m. on that date causes me grief for a different reason because I am down at the Four Courts at that time, although I do not think they will detain me.  I am quite prepared to sit the other side of 4 p.m. for as long as the Minister is willing.  I have no problem with that, but 4 p.m. is problematical for me.</p>
+        </speech>
+        <speech by="#DinnyMcGinley" as="#Vice_Chairman" eId="spk_8">
+          <from>Vice Chairman</from>
+          <p eId="para_25">Is the Minister available at another time?</p>
+        </speech>
+        <speech by="#DermotAhern" as="#Minister_for_Justice,_Equality_and_Law_Reform" eId="spk_9">
+          <from>Minister for Justice, Equality and Law Reform (Deputy Dermot Ahern)</from>
+          <p eId="para_26">I am okay around 4 p.m., but later on in the evening I have a problem.  It depends on how long it will go for.  I am okay until 7 p.m.  What about 5 p.m. to 7 p.m?</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_10">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_27">I would aim to be back here by 5 p.m. but if I do not make it Deputy O'Shea might stand in for me.</p>
+        </speech>
+        <speech by="#DinnyMcGinley" as="#Vice_Chairman" eId="spk_11">
+          <from>Vice Chairman</from>
+          <p eId="para_28">At 4 p.m.?</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_12">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_29">At 5 p.m.</p>
+        </speech>
+        <speech by="#DinnyMcGinley" as="#Vice_Chairman" eId="spk_13">
+          <from>Vice Chairman</from>
+          <p eId="para_30">From 5 p.m.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_14">
+          <from>Deputy Rabbitte</from>
+          <p eId="para_31">Yes.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_15" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_32">Yes, that is fine.</p>
+        </speech>
+        <speech by="#DinnyMcGinley" as="#Vice_Chairman" eId="spk_16">
+          <from>Vice Chairman</from>
+          <p eId="para_33">From 5 p.m. to 7 p.m. then.  Is that agreed?  Agreed.  Maith go leor.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3" refersTo="#bill.2008.2.dail.3">
+        <heading>Immigration, Residence and Protection Bill 2008: Committee Stage (Resumed). </heading>
+        <summary class="Center" eId="sum_7">SECTION 4.</summary>
+        <speech by="#DinnyMcGinley" as="#Vice_Chairman" eId="spk_17">
+          <from>Vice Chairman</from>
+          <p eId="para_34">We resume our consideration of the Bill on amendment No. 32 in the name of Deputy Rabbitte.  Amendments Nos. 689 and 690 are related, so all three amendments may be discussed together by agreement.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_18">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_35">I move amendment No. 32:<entity refersTo="#bill.2008.2.dail.3.amd_32" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_36">In page 14, between lines 12 and 13, to insert the following subsection:</p>
+          <p class="indent_2" eId="para_37">"(12) In making any decision under this Act in relation to family reunification, the Minister shall establish transparent procedures and shall deal with any application in a humane and expeditious manner and having due regard to Article 8 of the European Convention on Human Rights.".</p>
+          <p eId="para_38">I start by offering my good wishes to the new Minister for Justice, Equality and Law Reform, Deputy Dermot Ahern.  I have not had the opportunity to congratulate him and wish him well in his portfolio.  After all the arduous travel of his previous one, he will find this something of a cake-walk.  It involves a slight legislative schedule and such matters which no doubt he will enjoy.</p>
+          <p eId="para_39">This amendment concerns the family reunification issue.  On the last occasion the last amendment we dealt with related to the best interests of the child.</p>
+          <p eId="para_40">The Minister will have been briefed that virtually all of the organisations that took time to make submissions to us raised this issue of family reunification and it is a major issue on the minds of most of the organisations for obvious reasons.  There is no statutory provision for family reunification, except for refugees.  It is my advice that is out of line with best practice elsewhere in the member states of the European Union.</p>
+          <p eId="para_41">The issue has been raised from the point of view of, for example, the convention that relates to this issue which, in turn, is based on international experience of the perfectly normal requirement of people who are migrants here to be joined by their families.  We received a number of interesting submissions on it.  One of them which is from the organisation called Comhlámh, the association of former development workers, points to the difficulties raised for them, as Irish citizens, coming back here married to a non-Irish person.  It seems extraordinary that we would put barriers in the way of such people.</p>
+          <p eId="para_42">For example, the Vincentian Refugee Centre draws attention to the same point, the lack of clarity and the fact that it takes on average approximately two years to get a decision, which is difficult to defend.  Its representatives argued in their submission to us that the definition of family in the Bill is entirely too eurocentric in its traditional acceptance of the nuclear family definition, which they argue is unsuited to modern global cultural variations.</p>
+          <p eId="para_43">The Government has not spelt out in the legislation anything to do with migrant rights to family life and my amendment is a modest step in that direction.  I could well have constructed an amendment which for various reasons the Minister might find difficult to accept because the request from the overwhelming number of the organisations has been to give expression to this in the primary legislation.  However, I ask the Minister to agree to a modest step, which is, that he ought to agree to establish transparent procedures to deal with any application in this regard and that he should have due regard in doing so to Article 8 of the European Convention on Human Rights, that is, the article to do with rights to family life.</p>
+          <p eId="para_44">It is an important issue because of the hardship and distress being caused to people other than those who have been given asylum protection in this society.  When touring some countries of the world, we have invited these people here to work in our health services and elsewhere, and then disbarred them from the right to enjoyment of family life.  I hope the Minister will be able to start off on a high note and to recognise the inherent sagacity in what I have just said.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_19">
+          <from>Deputy Finian McGrath</from>
+          <p eId="para_45">I welcome the Minister for Justice, Equality and Law Reform, Deputy Dermot Ahern, and congratulate him on his elevation to that Department and wish him well for the future.</p>
+          <p eId="para_46">I want to move my amendment No. 689 and to strongly support amendment No. 690.  We are taking those three amendments together, is that not correct?</p>
+        </speech>
+        <speech by="#DinnyMcGinley" as="#Vice_Chairman" eId="spk_20">
+          <from>Vice Chairman</from>
+          <p eId="para_47">The Deputy can only move them when we reach them.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_21">
+          <from>Deputy Finian McGrath</from>
+          <p eId="para_48">Are we taking them together?</p>
+        </speech>
+        <speech by="#DinnyMcGinley" as="#Vice_Chairman" eId="spk_22">
+          <from>Vice Chairman</from>
+          <p eId="para_49">No.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_23">
+          <from>Deputy Finian McGrath</from>
+          <p eId="para_50">In that case, on the broader issue of family reunification it is important that we look at the idea of having legislation and published regulations to ensure that a foreign national may enjoy family reunification within the State.</p>
+          <p eId="para_51">We all have known situations over the past five or six years where a person in the State has tried to get family members to join him or her.  Many of these people are here making a massive contribution to our society.  In light of the Minister's past experience as Minister for Foreign Affairs, I ask him to seriously consider this amendment.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_24">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_52">I congratulate the Minister and wish him the best of luck in his  new portfolio.  He will be brought back to earth with this portfolio.  He might have seen all corners of the globe in his previous portfolio but I am afraid he will spend much more time in committee with this brief.  I genuinely wish him the best of luck in it.  I hope we will succeed in ensuring that his Department's legislation amended in this committee will benefit all elements of society.</p>
+          <p eId="para_53">I also take this opportunity to congratulate our former Chairman, the Minister of State, Deputy Peter Power, who has moved up the ranks.  There are indications for members of this committee in the appointments of both the former Minister for Justice, Equality and Law Reform, Deputy Brian Lenihan, and the former Chairman, Deputy Peter Power.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_25">
+          <from>Deputy Finian McGrath</from>
+          <p eId="para_54">The Vice Chairman too.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_26">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_55">And the Vice Chairman.</p>
+          <p eId="para_56">I wish to flag a matter we discussed earlier.  The Minister's predecessor gave commitments on various amendments which I presume we will deal with again on Report Stage, but there was one issue on which he gave a personal commitment and I ask the Minister to ensure that it is considered.  The issue to which I refer is that of unaccompanied children arriving in the State coming to the attention of officials of the Department of Justice, Equality and Law Reform and being placed in the care of the HSE.  In 2007 a quarter of those children went missing from their accommodation.  The former Minister, Deputy Brian Lenihan, said he would bring these concerns to the attention of the HSE and look into the matter.  I ask the Minister, Deputy Dermot Ahern, to pursue that issue. From my perspective it is a fundamental issue that needs to be addressed in the context of this legislation.</p>
+          <p eId="para_57">The amendments before us deal with family reunification, specifically amendment No. 690 in my name and the name of Deputy Finian McGrath.  Like Deputy Rabbitte, we are requesting that regulations be published.  We are not going a step further and asking that it be written into primary legislation, even though Ireland is the only country in the European Union which has not made statutory provision in the form of such legislation in respect of family reunification.  The lack of any clear, published guidelines or criteria regarding this area has led to major confusion, not only on the part of those who are resident here and who have brought their families with them but also for the immigration officers who are obliged to process the applications.</p>
+          <p eId="para_58">This is not merely an issue for migrants entering this jurisdiction, it is also relevant to Irish citizens.  The Minister, in his previous capacity, would have met many Irish abroad.  In recent years and as a result of the growth of our economy, Irish citizens have returned home and some of them are married to non-EU citizens.  Major difficulties have arisen in the context of processing their applications for family reunification, issuing them with visas, etc.</p>
+          <p eId="para_59">Protection for the family is enshrined in the Constitution.  However, this protection does not apply to Irish citizens who married people from outside the European Union and who have returned home from abroad.  It is fundamentally important that there should be clarity in respect of this issue.</p>
+          <p eId="para_60">I will provide an example of the complexities that arise in this area.  European citizens, those who have been granted asylum in Ireland, those who earn over €60,000 and those who earn over €30,000 and who are employed in certain professions — that is, those who are holders of green cards — have far greater rights in respect of family reunification than Irish citizens.  The people to whom I refer have statutory rights in this regard.  As matters stand, Irish citizens do not have such rights.  It is not acceptable that Irish citizens should be considered second class in this jurisdiction.  A mechanism must be put in place to ensure that this issue is addressed and that clarity is brought about.</p>
+          <p eId="para_61">In 2007 some 2,972 green cards were issued to those coming into our economy and obtaining employment or supporting the health service.  These people are extremely welcome and they are automatically allowed to avail of immediate family reunification.  That is a positive development.  However, Irish citizens are obliged to wait for long periods before their applications are processed.  For example, I am familiar with the case of one of my constituents who has an American partner and whose child was born in Ireland.  The individual in question is experiencing major difficulty in obtaining a residency visa for his partner.</p>
+          <p eId="para_62">The people to whom I refer experience huge difficulties if they wish to go on holidays.  For example, an Irish citizen who is married to a Filipino national must obtain a series of visas in order to travel to Scotland for a couple of days.  The procedures that must be undergone are cumbersome and it can be extremely difficult to obtain information regarding the processing of visa applications from the Irish Naturalisation and Immigration Service, INIS.  I understand that the number provided in the telephone directory is inaccurate and that people have been forced to queue up outside the INIS's offices on Burgh Quay in order to obtain basic information on how to apply for visas such as those to which I refer.</p>
+          <p eId="para_63">There is a need to streamline the system and provide clarification in respect of it.  In order to achieve this, we must make provision in legislation.  My amendment, and those of Deputies Rabbitte and Finian McGrath, refer to making such provision in secondary legislation.  This would give the Minister flexibility to, from time to time, amend the position as he sees fit.  It is important, however, that provision be made in either primary or secondary legislation.  I ask the Minister to look favourably upon the amendments.</p>
+        </speech>
+        <speech by="#DermotAhern" as="#Minister_for_Justice,_Equality_and_Law_Reform" eId="spk_27">
+          <from>Minister for Justice, Equality and Law Reform (Deputy Dermot Ahern)</from>
+          <p eId="para_64">I thank the Chairman and previous speakers for their kind words regarding my taking up of this new position.  I must inform Deputy Naughten that I am pleased to be back down to earth.</p>
+          <p eId="para_65">The experience I gained during the past three and a half years in the Department of Foreign Affairs will stand me in good stead in respect of the issue under discussion.  I have first-hand knowledge of the situation and I understand the difficulties people experience.  Equally, I am conscious of the need to ensure we have a proper immigration service, and a template therefore, in order that people might understand what is happening.  I welcome the fact that the Government has brought forward this substantial Bill in order to try to codify the position.</p>
+          <p eId="para_66">My predecessor has already given certain undertakings to examine issues and I will honour them in so far as is possible.  I look forward to working with Deputies from the other side of the House in order to ensure that we enact legislation that is as reasonable and fair as possible.</p>
+          <p eId="para_67">It is fitting that one of the first issues with which we are dealing is that of family reunification.  Members have all had experience of this matter in their constituencies.  I accept that difficulties have arisen but people must understand that our laws in respect of this area are quite stringent and are designed to ensure that our immigration system is fair and reasonable.  While I cannot accept the amendments, I must point out that I recognise the need to clarify the issues involved.</p>
+          <p eId="para_68">In view of the fact that this is a significant issue, I will read into the record my briefing note in respect of the amendments and we can then engage in further discussion.  The note is illustrative regarding where we stand and the nature of the position, particularly because there are some misconceptions regarding the issue of family reunification.</p>
+          <p eId="para_69">The Bill provides a fair and reasonable approach to this issue.  I draw Deputies' attention to section 50, which preserves the current entitlement of persons granted a protection declaration to family reunification in the State.  I also draw their attention to the provisions in section 36 governing the long-term residence permission.  This section relates to persons to whom permissions have been given and their family members being granted significant entitlements to services that are similar to those enjoyed by Irish citizens.</p>
+          <p eId="para_70">Section 37, which deals with the qualified long-term residence permission, relates to foreign nationals and their nuclear family members arriving in the State, from day one, with various entitlements during the two-year duration envisaged for this form of permission.  This is in addition to the provision to fast-track this group to full long-term residence.  The main group at which this is targeted is comprised of the holders of green card employment permits.</p>
+          <p eId="para_71">Section 127 allows for the making of regulations which will, among other things, specify the conditions attaching to residence permissions granted by the Minister.  Among the conditions that can be specified is that relating to the extent to which foreign nationals can seek family reunification in the State, not as a right but as a part of the permission which they state chooses to give them.</p>
+          <p eId="para_72">I do not intend to create an automatic right of family reunification.  I do not accept the proposition that a foreign national has a right to migrate to Ireland, against the wishes of the Government, simply because he or she has a family member residing here.  Just as a foreign national cannot assert any right to be allowed to reside in the State — that being a matter which is subject to permission — his or her family members cannot assert any right to be allowed to join him or her here.</p>
+          <p eId="para_73">It should also be remembered that family reunification can take place in the home country of a foreign national.  The special position regarding refugees acknowledges that this would not be possible in these cases.  Our policy on family reunification cannot accept across the board that any person with immigration status in Ireland would be joined by family members, irrespective of the capacity of that person to support them or of any consideration of whether having that family in Ireland is desirable for the State.</p>
+          <p eId="para_74">We cannot have a situation where migration to Ireland by an individual leads irrevocably to movement of a larger number of family members.  However, I accept there is need for much greater clarity as to how the State proposes to address this issue.  This is an aspect of the amendments to which I can agree in principle.  Foreign nationals are entitled to know what their prospects are of their family accompanying them to Ireland or joining them subsequently.  This allows them to make informed decisions in respect of their future.  I accept there is insufficient transparency in the current process.  The State, therefore, needs to set out the manner in which it can grant residence to family members.</p>
+          <p eId="para_75">It would be possible to believe from some of the public contributions in this area that the State does not facilitate family reunification under present laws.  It has even been suggested Ireland is the only member state that does not provide for family reunification in its legislation but this is untrue.  It would be helpful to the committee if I outlined the process in place.  The position of the refugees, the most vulnerable group of migrants, is provided for.  Family members of EU nationals exercising their right of free movement is also covered in the free movement regulations.  Spouses and children of Irish citizens are also granted general permission to reside in the State.  Green card employment permit holders are granted immediate family reunification for the nuclear family.  Our proposed fast track to long-term residence is superior to any provision in the EU long-term residence directive.  Ordinary work permit holders generally must work a year.  That is reasonable and it is comparable with the position in other countries.  Students are at the other end of the scale and they are not eligible to have their families with them.  Student permission is a limited permission in recognition of the ease of access they have to the State.  Most students travelling to Ireland do not qualify for entry to the State on any other basis.</p>
+          <p eId="para_76">I intend to develop a combination of administrative schemes and regulations to cater for some of the more pressing issues such as dealing with the family reunification of spouses and dependant children of Irish citizens.  I will examine the position of persons involved in civil partnerships in line with new legislation being developed in that area.  I also intend to make regulations for the reunification practices set out for work permit holders and high skills green card holders.  Ultimately, I intend setting out for each immigration status in Ireland on a sliding scale the family reunification possibilities that flow from that permission.</p>
+          <p eId="para_77">My aim is to move towards a position where our policies are geared towards migration of the family as a whole.  Families provide stability and increase the migrant's stake in our society.  However, if immigration decisions are to be informed by consideration of family reunification, this will have to include the possibility of persons with significant numbers of dependants being refused initial permission.  It is highly debatable, for instance, whether the State should undertake the cost of educating a substantial family on the strength of the migration of an individual.  The Bill will provide the flexibility to deal with the broader needs of migrating families rather than individuals in a planned way, having regard to international obligations and the pattern of immigration to the State.</p>
+          <p eId="para_78">I oppose the amendments but I accept the need for clarity.  I propose to bring forward regulations and administrative schemes to examine the various aspects of cases as they arise.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_28">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_79">I am very disappointed with that response.  I had anticipated an argument about the definition of the "family" but I did not anticipate a principled position that challenges international law precepts regarding the right to family life.  There is not much point in the Minister drawing our attention to section 50, which relates to protection applicants, when that is not at issue here.  Protection applicants generally are an exception to the argument I have made.</p>
+          <p eId="para_80">The Minister told us he has in mind a number of different administrative schemes, which is an unsatisfactory way to make law.  We have no idea what he purports to put into them and, therefore, we are asked to buy a pig in a poke in good faith and wait for him, following the enactment of the Bill, to publish such schemes.  It is a serious matter that the official policy of the State does not recognise any right to family reunification, notwithstanding, as Deputy Naughten said, our own Constitution and accepted international practice.</p>
+          <p eId="para_81">For example, the ICTU is one of the organisations that made representations to the Minister's predecessor.  It drew attention to the international convention on the protection of the rights of all migrant workers and members of their families.  It set out the rational human argument for a migrant worker in this society being joined by his family.  Whatever the argument about the definition of "family" in different parts of the world, I am surprised the Minister has challenged the core of it.  Congress called on the Minister:</p>
+          <p class="indent_1" eId="para_82">To provide a clear set of rules for family reunification for migrant workers.  It is important the definition of "family" used should include same sex couples and the legislation should set out the rights of family members generally, including their rights to work.  It is also important that the legislation should set out the rights of family members in circumstances of marriage breakdown or death. It is essential that spouses are not placed in a situation where they cannot leave a marriage without fear of losing residency rights or that family members face deportation on the death of a working spouse.</p>
+          <p eId="para_83">Those are important issues and the Minister wants me to examine section 50, which relates to asylum seekers or sections 36 and 37, which relate to permanent residence, a different issue with which there is widespread dissatisfaction as it stands in the Bill.  We are again out of kilter with best practice in that regard because the Minister proposes to give these tranches of permission to reside here whereas, in other civilised member states of the Union, there is a pathway to permanency and a person can know his or her expectations and rights.</p>
+          <p eId="para_84">The Minister says he does not accept a person can assert a right to join his or her spouse here, just as he does not accept a migrant has any right to enter this State.  I can accept the latter contention that there is no right to enter the State.  That is true.  Hopefully, as a result of this Bill and the administrative schemes we are now promised, we will have more clarity on that.  However, having accepted somebody here and having gone to South Africa and Newfoundland to canvass people to come here, the proposition that the person working and paying taxes here, having been invited by the State, has no right to be joined by his or her spouse or immediate family is a proposition that flies in the face of civilised norms in western society.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_29">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_85">Following what Deputy Rabbitte and the Minister said, I want to focus on one section of the people we are considering, namely, Irish citizens.  The Minister spoke about putting an administrative scheme in place, but said that no statutory provision would be made with regard to family reunification for any citizen, whether Irish or non-European.  The system as it stands does not work and it takes approximately two years to process an application.</p>
+          <p eId="para_86">I received an e-mail from a well-paid executive here who happens to be an Irish citizen.  He said he deeply resents the manner in which his wife must request permission to remain in the State, travel to the GNIB offices annually and wait half a day to be herded like an Ellis Island refugee, while her husband and child enjoy all the privileges and rights of EU and Irish citizenship.  He goes on to say that he resents the fact that policy attempts to control and dictate from which select countries we lucky Irish can choose our spouses.  His e-mail demonstrates the significant frustration for Irish citizens trying to regularise the situation of their spouses.</p>
+          <p eId="para_87">I already gave an example of a constituent from County Leitrim who is in an even more difficult situation because as one of a couple with a two year old child, the couple is not married, nor is there any prospect of the couple being able to marry.  They are caught in limbo, although they have an Irish-born child who is an Irish citizen.</p>
+          <p eId="para_88">There are huge problems with regard to accessing basic information on the situation.  For example, to get a re-entry visa applicants must queue at Burgh Quay.  In one case an Irish citizen joined a large queue at midnight along with a non-EU spouse.  When they eventually got to the counter, they were told that the Irish driving licence was unacceptable as proof of being an Irish citizen, despite the fact it had the date and place of birth on it.  The clerk told them to go away and to check by phone in future.  They went to the local immigration office in Birr and got the phone number, but when they tried to confirm it with directory inquiries they were told the phone number was no longer in use.</p>
+          <p eId="para_89">Deputy Rabbitte spoke about residents on work permits who have been attracted here to work and who may have a family member residing here with them.  If their marriage breaks up, there is an issue with regard to the status of those family members.  The Irish citizen who came to me was concerned about what would happen if he died before the naturalisation process was completed for his spouse.  What would be her position in that scenario?  Would she be deported?  This is a genuine concern for people in this situation, people who are Irish citizens.</p>
+          <p eId="para_90">The system currently in place is not working.  It takes approximately two years to process the applications and the people in question cannot work during that period.  The cost of living here is very high and people in this situation need an astronomical sum of money available to them to maintain the family for two years until the spouse is permitted to work.  There is no mechanism in place, for example, for someone returning from the United States.  It is likely more people will return as a result of the recession there, which is more severe than the one here.  If Irish citizens return to Ireland with an American spouse, they cannot even apply in advance for a work visa.  They must wait until they arrive to apply and must then wait two years for the decision to be made.  European Union citizens, people who are granted asylum and people on green cards here have more rights with regard to family reunification than our own citizens, despite the provision made in the Constitution.  An administrative scheme without statutory provision is not adequate to deal with the situation.</p>
+          <p eId="para_91">Deputy Rabbitte spoke about migrants working here and their support to our economy.  It will become more difficult for us to attract these individuals unless we set out clear rules on the issue of family reunification.  In the recent past the HSE advertised abroad to attract nurses to this jurisdiction, but subsequently, many of those who became registered here moved to Canada because it had a clear policy on the subject of family reunification.  We had no policy in place here and many nurses and health professionals were unable to bring in their families.</p>
+          <p eId="para_92">As a result of that situation, a green card system has been introduced.  However, other professions and skilled people may be required and their circumstances may not fit neatly into the green card system.  The argument is not just being made by Opposition Deputies.  The Minister of State with responsibility for integration policy, Deputy Conor Lenihan, said putting a policy in place means tailoring our immigration system so that it does not inhibit migrants' lifestyles nor act as a disincentive for them to stay.  He went on to say that the bureaucracy of the past must be swept aside and our laws made easier for migrants to negotiate.  The introduction of an administrative scheme does not do this.  Deputy Lenihan was commenting on the bureaucracy and frustration citizens from outside of the European Union working here face, despite the fact they support our economy.  In many cases they support Irish jobs or our health sector.  We need clear rules in place with regard to eligibility for family reunification.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_30">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_93">I welcome the Minister, Deputy Dermot Ahern, to the committee.  I hope he will not be the third Minister to get this Bill wrong as he is the third Minister to deal with it.  I do not know whether we got rid of the other two for getting it wrong or somebody decided they were not doing a good job.</p>
+          <p eId="para_94">This provision is a key component of any immigration scheme.  The Constitution recognises the family as a key component of the State and therefore Ireland should be leading the rest of the European Union and the rest of the world on this issue, but the opposite is the case.  I do not understand why we opted out of the EU family reunification directive.  The Minister and other Ministers have stated we need to get in line with other EU countries on many other directives.  One of the reasons for the move to building detention centres for asylum seekers was that we needed to be in line with the EU but on this issue we are not.  I ask the Minister to explain why we are out of step and why, even with the passage of this legislation, we will still be out of step with the European Union.</p>
+          <p eId="para_95">The Minister referred to section 50 and Deputy Rabbitte reminded him we are not dealing with that section.  However, I will refer the Minister to section 50, page 58 of the Bill, which expands on the definition of dependent members of a family.  This definition is not included in the other references of subsections to which he referred in sections 36 or 37, where the number and type of family members who can be reunified under qualified long-term residence permission are quite limited.  Sections of the Bill being quoted by members of the committee have highlighted some of the differences in approach taken by the Minister and his officials.</p>
+          <p eId="para_96">We need to get this legislation right because we will not be revisiting it.  Other speakers have given examples.  I refer to a quotation from the <i>Metro Éireann</i> newspaper.  The Government’s policy was of denying residency to people with Irish-born children in the past and those people have now been granted residency.  Some of them have been denied the right to bring their other under-age children to live with them.  These parents are now in Ireland and have rights here as have their Irish-born children.  The only way they can bring their other children, who were left behind when the parents fled to Ireland, is to resort to smuggling them.  I do not believe the State wants to encourage such methods.  Family reunification is what most of those parents want.</p>
+          <p eId="para_97">I refer to residency based on marriage to an Irish citizen.  We recognise there is a need to have procedures in place to prevent people from abusing the law and entering into sham marriages.  The current policies are too strict and as a result they penalise a large number of legitimate couples.  For example, the policy that a non-EU spouse cannot work during the 12 months in which his or her application is being processed is penalising those couples and causes great hardship.  Groups such as Crosscare and others dealing with Irish emigrants have reported that many Irish abroad who would want to come home are prevented from doing so because their spouses will not be permitted to work and the couple would be unable to live on a single income, given the cost of living in Ireland.</p>
+          <p eId="para_98">In other jurisdictions, such as the United States or Britain, a temporary work permit is granted while the request is being processed.  If the marriage is found to be fraudulent, the permission is simply revoked.  There is no reason we cannot implement such a policy in this country.  We also need to look at the double standards applied to spouses of different nationalities because in practice they are being treated differently and Deputy Rabbitte spoke on this issue.</p>
+          <p eId="para_99">The issue of spouses of EU nationals remains problematic as a result of our interpretation of EU legislation rather than any provision in this Bill but it needs to be said for the record that the way the Government has interpreted the EU directive on the free movement of spouses runs contrary to the purpose of that directive.  We need to look again at it as it has resulted in penalising thousands of couples in legitimate marriages.  I know of cases where a non-EU spouse has been here legally for a year and is then informed that his or her residency permit will not be renewed because of the new law and when they are permitted to renew, it is only for a period of a single year rather than five years as it was previously.  Spouses of EU citizens are supposed to have entitlements and this is causing problems.  I refer to the letter received by Deputy Naughten from an executive.  This is the type of problem it causes.  We need to find ways to weed out sham marriages.  They are happening but I do not believe this  is the mechanism.  Other countries have dealt with this problem effectively.</p>
+          <p eId="para_100">The message goes out that the Constitution enshrines the family.  Most would say the State was founded on Christian principles but the very basis of Christian principles would be to reach out to others who are weaker than us and to ensuring that the family is a unit.  This provision would mean the State would refuse to acknowledge that unit or would create obstacles to a family functioning as a unit and be together once again.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_31" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_101">When discussing the issue of the right to family reunification, we were not referring to the issue of automatic rights.  I have said before that there are circumstances where family reunification is allowed in our code and this is amplified in the current legislation.</p>
+          <p eId="para_102">With regard to any of the regulations and schemes which might be introduced, they would have to take cognisance of the international laws and conventions.  The one thing those laws and conventions do not state is where the right to family life may be exercised.  As a general rule it has to be accepted there is no right on the part of individuals to choose the location where they would exercise those family rights.  People who come to this country cannot invoke their family rights as a way of circumventing the rules of a sovereign state regarding migration.  This would be a common rule across all member states of the European Union and beyond.</p>
+          <p eId="para_103">We have been trying to deal with the situation caused by a growing economy which required skilled workers.  The Bill addresses the issue of allowing qualified and skilled workers to come to this country.  We need to deal with it in a way that takes into account that employers are requesting people to come and fill vacancies.  The issue of the spouse is taken care of in section 37 which envisages that foreign nationals and their nuclear families, if they arrive in the State from day one, will have certain entitlements.  This relates to qualified long-term residency.</p>
+          <p eId="para_104">Regarding foreign spouses of Irish nationals, section 123(1) states: "The marriage of a foreign national and an Irish citizen does not, of itself, confer a right on the foreign national to enter or be present in the State".  Obviously, this must be the case for the very reason that, as Deputy Ó Snodaigh acknowledges, there have been marriages of convenience.  Regarding this aspect, I am prepared to commit that we will define the criteria in regulations which, obviously, will be subject to scrutiny in the House.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_32">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_105">I have heard what the Minister has said.  Truthfully, it does not significantly address the core point we are advancing.  The Government has not opted into the directive on the rights of the family.  Nor has it endorsed the international convention on the rights of migrant workers.  The Minister seems to be saying that as a result, he is free to run against best international practice and that he will bring forward a scheme or a number of schemes that will deal with some of the incidental aspects of the issue.  He alludes to section 123 as if it were an obvious truth that be recognised by us all.  Of course, nobody wants to support the notion of bogus marriages.  However, we have no evidence that this is anything but a drop in the ocean.  We put this point to the Minister's advisers before.  We put it to organisations which have appeared before the committee.  It is inconsequential.  The Minister's predecessor indicated that he was no longer destined for a position in the Knock bureau where his permission for marriages in the State would need to be sought and that he was going to change this provision.</p>
+          <p eId="para_106">These are incidental to the central point being made.  We do not know which family members are contemplated in official public policy on family reunification.  Several of the organisations which have made representations to us have pointed to the lack of clarity.  There is the question of the time it takes, two years on average, to give a decision.  As we have not seen the scheme, we do not know the extent to which the Minister will deal with the question of returning Irish citizens.  It seems difficult to understand we have young people in this country who have the balls to go to sub-Saharan Africa to work as development workers, get married and form a family unit and that they then cannot come back into the State knowing that their families have the same rights conferred on them as any of us who did not have the guts to go and work in sub-Saharan Africa.  I find that very offensive in terms of the position of Irish citizens and their families.</p>
+          <p eId="para_107">I ask the Minister to look at the amendments tabled for discussion.  Contrary to the requests we have received from the Immigrant Council of Ireland, ICCL, Comhlámh, the Irish Congress of Trade Unions and the New Communities Partnership, I have not constructed an amendment that would set out in primary legislation what precisely would be the rights in these circumstances.  I have not been prescriptive.  I have not sought to define "family".  I have thought about the matter a good deal and have difficulty in being able to define what exactly family means, because it means different things in different cultures.  The Minister is fortunate to have available to him the advice of a number of people who have garnered great experience and have worked on the issue for a number of years.</p>
+          <p eId="para_108">In the amendment I merely require that the Minister publish regulations that would spell out with clarity what ought to be involved and that he have due regard to the critical Article 8 of the European Convention on Human Rights.  That is a very modest and temperate step on our side.  We are not trying to impose on the Minister a new definition of "family".  We are not trying to be prescriptive on how or when he should do it, etc.  However, there is a necessity for us to ensure transparency.  This is one of the big issues confronting our modern society.  Having sat around the Cabinet table for so long, the Minister is well aware that we have lost critical staff in the health service to the neighbouring island because of the disbarment of their families in joining them, not to talk about the distress caused on a human level to people who came here to improve their life's chances.  We welcome them, give them a job and take their taxes.  However, if such a person's wife or child wants to join him, we will not clarify or set down transparently the conditions that apply.</p>
+          <p eId="para_109">We have had the debate on the matter.  However, we have lost sight of how modest the amendment would be.  I ask the Minister to rethink.  I do not see how the amendment would threaten civilisation as we know it.  If I were setting out some of the terms of amendments proposed to us, I could understand how the Minister might be receiving advice to the effect that we were tying to tie his hands.  I am not doing so.  This would be a very modest step and I ask him to rethink.</p>
+        </speech>
+        <speech by="#DinnyMcGinley" as="#Vice_Chairman" eId="spk_33">
+          <from>Vice Chairman</from>
+          <p eId="para_110">Before inviting Deputy Naughten to contribute, I am obliged by another commitment to be absent during the meeting.  I propose that Deputy Byrne chair the meeting in my absence.  Is that agreed?  Agreed.</p>
+          <p eId="para_111">Deputy Thomas Byrne took the Chair.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_34">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_112">Is the Minister in a position to say whether we have any intention of ratifying the international convention to which I referred?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_35" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_113">Can the Deputy remind me of the convention in question?</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_36">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_114">I referred to the international convention on the rights of migrant workers.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_37" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_115">The convention does not distinguish between legal and illegal, or documented and undocumented, migrants.  In effect, the convention obliges countries to provide entitlements to workers about whom they have no information and who have entered the state illegally.  It has not been ratified by any EU member state, to the best of my knowledge.  It has been ratified by very few OECD member states.  We do not envisage any circumstances in which Ireland would unilaterally enter into an agreement without our partners doing likewise.  The rights of legal migrant workers and their families are comprehensively protected in existing legislation, the Constitution and other international treaties.  It would not be appropriate at this point to become party to the convention mentioned by Deputy Rabbitte.  Ultimately, it is a matter for the Minister for Enterprise, Trade and Employment, Deputy Coughlan.</p>
+          <p eId="para_116">It has been suggested that marriages of convenience represent a drop in the ocean.  That is not in line with the evidence available to those of us on this side of the table.  I suggest to Deputy Rabbitte that he have a word with some of the registrars throughout the country about this matter.  There is strong evidence to suggest that substantial numbers of people are arranging marriages to circumvent the regulations and legislation in this respect.  If one reads the newspapers circulating among people from certain countries who are living in Ireland, one will see that this device is being used.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_38">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_117">Can the Minister put a number on it?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_39" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_118">I do not want to be too specific.  It is clear that newspapers in one EU member state are carrying substantial numbers of advertisements looking for people who are willing to marry.  A significant number of people from a non-EEA country have married an equally significant number of people from the member state to which I refer.  The members of the committee may suggest that it is a drop in the ocean, but those of us on this side of the table do not share that view.  I emphasise there is a need for clarity in this regard.  I accept there have been delays, which is why we are trying to introduce legislation.  One cannot be prescriptive in these cases because they have so many different aspects.  Ireland has suggested strongly that regulations and administrative schemes be introduced to deal with the type of case that has caused problems for people who have come to this State genuinely.  Equally, we have to be extremely careful to ensure a coach and four is not driven through the existing regulations and legislation.  The Deputies have claimed that their amendments are reasonable.  However, one of the amendments before the committee suggests that we introduce regulations before we pass the legislation and before we even have the power to make regulations of this nature.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_40">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_119">There is nothing to prevent the Minister from publishing draft regulations so we can have some idea what we are talking about.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_41" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_120">We will do that in due course.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_42">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_121">The word that is used in amendment No. 690 is "enactment".</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_43" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_122">The phrase is "before enactment of this legislation".</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_44">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_123">It does not refer to the passage of the legislation.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_45" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_124">It is the same.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_46">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_125">No, it is not the same.  The Minister will soon find out from the Department of Justice, Equality and Law Reform that there is a difference between the passage of legislation and its enactment.  I would like to respond to the final point the Minister made, which related to marriages of convenience.  None of us wants the system to be abused.  We will deal with the issue of marriages of convenience at a later stage.  Deputies on this side of the House have not been shown any evidence that supports the point the Minister has made.  If such evidence is available to the Minister, I propose that he furnish it to us.  We would be interested to see it.  I am aware of the so-called exclusive articles in some of the Sunday newspapers.  Perhaps the evidence supporting such articles could be supplied to the members of the committee.  I have no problem visiting the General Register Office.  It is only down the road from me.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_47" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_126">I advise the Deputy to visit the office in his constituency.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_48">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_127">I will; I intend to do so.  We will deal with that issue when we come to it.  I am concerned that the Minister has suggested that the marriage rights and protections outlined in the Constitution are more important than the constitutional rights and protections relating to the family — our own citizens.  I do not think that point can be made.  It is not sufficient to set out in unpublished schemes the rights and entitlements of people who are seeking family reunification.  Deputy Rabbitte's amendment proposes that the Minister be required to publish regulations setting out who is entitled to family reunification and who is not.  That is a basic requirement.  We need to be made aware of the procedure that is followed when deciding who is allowed into this country in these circumstances.  I accept that the Minister has given a commitment to introduce schemes.  Why does he not wish to publish the criteria for the procedures involved in that regard?  Why can those criteria not be set out in secondary legislation, as proposed by Deputy Rabbitte?</p>
+          <p eId="para_128">I would like to present the Minister with a hypothetical situation.  If an Irish nurse who trained and qualified in this country goes to work in sub-Saharan Africa, gets married and has two children there before coming home to Ireland to work in our health service, will her spouse be allowed to join her in this country?  If she were a non-EU citizen, her African husband would be entitled to family reunification here.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_49" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_129">That is not the case.  The latter suggestion is not true.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_50">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_130">The spouses of non-EU citizens are not entitled to family reunification.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_51" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_131">That is right.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_52">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_132">I understand that under the green card scheme, people are entitled to immediate family reunification.  Is that not correct?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_53" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_133">It depends on their circumstances.  It depends on their salary under the green card system.  It is not an absolute entitlement.  I am returning to my earlier point.  We are not talking about an absolute right to family reunification.  The circumstances which are covered in the existing system will be laid down——</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_54">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_134">All right.  It is means tested.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_55" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_135">The green card system is based on certain——</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_56">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_136">The fact is that provision is made for such people under the green card system, but no provision is made for Irish citizens.  I ask that the various arrangements in this regard be laid out in a regulation which could easily be amended by a Minister if he or she saw fit.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_57" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_137">We have agreed to do that in section 127.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_58">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_138">No, that is not what has been agreed.  The Minister has agreed to lay it out in schemes.  That is what has been agreed.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_59" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_139">We will make regulations under section 127.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_60">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_140">That section relates to residency permissions.  I am asking about Irish citizens.  I do not see why the Minister cannot accept Deputy Rabbitte's amendment.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_61" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_141">I am told that the section provides that we will lay down regulations to cover all residency permissions.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_62">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_142">The Minister will lay down schemes.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_63" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_143">The schemes are for Irish citizens.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_64">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_144">The issue will not, therefore, be addressed in a regulation.  I refer to spouses of Irish citizens.  What is the reason for the secrecy?  Why can the matter not be addressed by regulation?</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_65">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_145">The Minister raised some interesting points in the debate.  Will he explain his fear of the amendment?  How would it tie his hands?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_66" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_146">We do not want to be overly prescriptive.  There are clearly defined circumstances relating to Irish citizens returning here with non-Irish spouses.  While we could specify these circumstances in regulations, we need to consider other circumstances on a case by case basis and that is best done under administrative schemes.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_67">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_147">On amendment No. 690, will we sign up to the Council Directive 2003/86/EC of 22 September 2003?  To do so would render unnecessary regulations to implement European Union standards on family reunification.  What is the problem with the standards set out by the EU?  The Minister did not explain the reason the EU is out of step with Ireland.  We should set the standard in this area.</p>
+          <p eId="para_148">I revert to the Minister's comment on section 50, which deals with dependent family members.  While the section cites a number of dependants who may be entitled to residency permission in the circumstances outlined in the section, these dependants are not mentioned in regard to two further subsections.  Will the Minister consider incorporating the definition of "dependent member of the family" used in section 50(4)(2) into sections 36 and 37.  Such a change would extend the number of dependants who would be entitled to reunification upon a grant of long-term residency.  The current provision limits dependants who may be entitled to reunification as a spouse, children under 18 years and, in the event that the person making the application is aged under 18 years, his or her parents.  Section 50(4)(2), however, defines a dependent member of the family as "any grandparent, parent, brother, sister, child, grandchild, ward or guardian of the applicant who is dependent on the applicant or is suffering from a mental or physicalincapacity to such extent that it is not reasonable to expect him or her to maintain himself or herself fully."</p>
+          <p eId="para_149">Some of those who will qualify for residency permission will have been working here to earn money to care for an elderly relative or incapacitated sibling living elsewhere.  After a number of years, such persons may wish to be closer to their relatives in order that they can avail of better care services towards which they have paid taxes.  Alternatively, the standard of care available here may be better than in the home country.  Circumstances other than those laid down in the section will arise.  The legislation should address these types of issues and should be as open as possible, while also being as strict as necessary.</p>
+          <p eId="para_150">No one has a problem with the introduction of stringent procedures and laws which punish those who will abuse the immigration system.  At the same time, the process should be as family friendly as possible for those who have come here as a result of us going out of our way to invite them to assist the economy and society.  When they arrive here and discover the nature of some of the restrictions in place it is like a kick in the teeth for them.  The committee has heard witnesses outline the reasons they would leave for other, more open jurisdictions, including other European Union member states which have adopted the directive on family reunification.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_68">
+          <from>Acting Chairman (Deputy Thomas Byrne)</from>
+          <p eId="para_151">The Minister's reply will conclude the debate on this amendment.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_69">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_152">I ask the Minister to clarify a point.  Having indicated he would introduce a scheme for the spouses of Irish citizens, he later stated he would introduce a regulation.  Has he conceded at least on that point?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_70" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_153">I have given an undertaking to introduce regulations in respect of the non-national spouses of Irish citizens.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_71">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_154">The Minister will introduce a regulation for that specific category of persons.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_72" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_155">Yes.  Obviously, we would have to deal with cases in the interim.  The experience in the Department has been that if we consider cases to be legitimate we would allow matters to proceed.</p>
+          <p eId="para_156">I listened to the comments about development workers.  I have not yet come across such a case but I tried to find out if large numbers of persons were affected.  I believe a reasonable position is taken in the majority of cases.  If the Deputies have any particular cases in mind involving development workers returning to Ireland with a non-national spouse, the Department will consider them.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_73">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_157">Before we move off the point, how long will the scheme be in place before the regulations are introduced?  What timescale is envisaged for the processing of applications of this nature, which currently take two years to deal with?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_74" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_158">I do not propose to give a commitment on timescales.  Clearly everyone would like decisions on such cases to be taken as quickly as possible in order that people are not left in limbo for long.  While Deputy Rabbitte's amendment appears reasonable, the Department does not wish to tie its hands and wants to maintain some flexibility regarding these cases.  Whether dealing with bogus marriages or other issues, there are people who are trying to use some <i>lacuna </i>in our current immigration laws to circumvent immigration policy. </p>
+          <p eId="para_159">On Deputy Ó Snodaigh's comments on the directive, we must be very conscious of the common travel area with the United Kingdom, whether in the area of immigration, criminal law or other areas.  We must keep a close eye on the British Government's position on the directive.  I undertake to re-examine the directive once the legislation has been passed.  However, I add the rider that we must take into account the position the British adopt on the directive.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_75">
+          <from>Acting Chairman</from>
+          <p eId="para_160">How stands the amendment?</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_76">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_161">Many points remain to be made about this issue but I accept it is taking up the committee's time.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_77">
+          <from>Acting Chairman</from>
+          <p eId="para_162">It has taken up an hour and a half.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_78">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_163">It is a lifetime for some of the people affected by it and it is a major section of the Bill.  I will press the amendment.</p>
+        </speech>
+        <summary eId="sum_8">Amendment put.<entity refersTo="#bill.2008.2.dail.3.amd_32" name="amendment"/>
+                </summary>
+        <debateSection name="division" eId="dbsect_4">
+          <summary title="division" eId="sum_9">The Committee divided: Tá, <quantity normalized="6" refersTo="#ta" eId="qty_1">6</quantity>; Níl, <quantity normalized="8" refersTo="#nil" eId="qty_2">8</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_5">
+            <p eId="para_164">
+              <b>Tá</b>
+            </p>
+            <p eId="para_165">
+              <person refersTo="#CharlesFlanagan">Flanagan, Charles.</person>
+            </p>
+            <p eId="para_166">
+              <person refersTo="#PadraicMcCormack">McCormack, Pádraic.</person>
+            </p>
+            <p eId="para_167">
+              <person refersTo="#DenisNaughten">Naughten, Denis.</person>
+            </p>
+            <p eId="para_168">
+              <person refersTo="#BrianOShea">O’Shea, Brian.</person>
+            </p>
+            <p eId="para_169">
+              <person refersTo="#PatRabbitte">Rabbitte, Pat.</person>
+            </p>
+            <p eId="para_170">
+              <person refersTo="#LeoVaradkar">Varadkar, Leo.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_6">
+            <p eId="para_171">
+              <b>Níl</b>
+            </p>
+            <p eId="para_172">
+              <person refersTo="#DermotAhern">Ahern, Dermot.</person>
+            </p>
+            <p eId="para_173">
+              <person refersTo="#AineBrady">Brady, Áine.</person>
+            </p>
+            <p eId="para_174">
+              <person refersTo="#ThomasByrne">Byrne, Thomas.</person>
+            </p>
+            <p eId="para_175">
+              <person refersTo="#DaraCalleary">Calleary, Dara.</person>
+            </p>
+            <p eId="para_176">
+              <person refersTo="#FinianMcGrath">McGrath, Finian.</person>
+            </p>
+            <p eId="para_177">
+              <person refersTo="#MattieMcGrath">McGrath, Mattie.</person>
+            </p>
+            <p eId="para_178">
+              <person refersTo="#DarraghOBrien">O’Brien, Darragh.</person>
+            </p>
+            <p eId="para_179">
+              <person refersTo="#CharlieOConnorFF">O’Connor, Charlie.</person>
+            </p>
+          </debateSection>
+          <summary eId="sum_10" title="decision" refersTo="#lost">Amendment declared lost.<entity refersTo="#bill.2008.2.dail.3.amd_32.lost" name="amendment"/>
+                    </summary>
+        </debateSection>
+        <speech by="#PatRabbitte" eId="spk_79">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_180">I move amendment No. 33:<entity refersTo="#bill.2008.2.dail.3.amd_33" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_181">In page 14, between lines 12 and 13, to insert the following subsection:</p>
+          <p class="indent_2" eId="para_182">"(12) The Minister shall have due regard to the need to afford every separated child, as a child temporarily or permanently deprived of his or her family environment, such special protection and assistance as is appropriate.".</p>
+        </speech>
+        <summary eId="sum_11" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2008.2.dail.3.amd_33.lost" name="amendment"/>
+                </summary>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_80">
+          <from>Acting Chairman</from>
+          <p eId="para_183">Amendments Nos. 34, 305, 626 and 695 are related and are to be discussed together.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_81">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_184">I move amendment No. 34:<entity refersTo="#bill.2008.2.dail.3.amd_34" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_185">In page 14, between lines 12 and 13, to insert the following subsection:</p>
+          <p class="indent_2" eId="para_186">"(12) Nothing in this section or elsewhere in this Act shall prejudice the application of <i>section 53</i>.”.</p>
+          <p eId="para_187">This amendment concerns <i>refoulement</i>.  I ask that the protection be included in the provisions in the legislation.  The amendment is self-explanatory and I hope the Minister will accept it.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_82">
+          <from>Deputy Finian McGrath</from>
+          <p eId="para_188">The amendment is very important because it clarifies that nothing in section 4 shall prejudice the application of section 53, which establishes the rule that a foreign national shall not be sent to a territory if doing so would put him in certain kinds of dangers.  This is important because we must respect the human rights of those concerned.  I ask the Minister to consider the amendment.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_83">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_189">As other Deputies said, the amendment is to ensure that the prohibition against <i>refoulement</i> — the returning of a foreign national to a territory where he or she would be at risk of serious harm — would apply in the treatment of foreign nationals deemed to be in this State illegally.  This is absolutely required under international human rights law and the Government must abide by the rule.  It is essential that it be spelled out clearly in the Bill.  There is no doubt about it in people’s minds.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_84">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_190">I support the amendment along the lines we discussed previously.  I put to the Minister the same confusion in my head that I put to his predecessor regarding the concept of <i>refoulement</i>, which I have never really understood.  If there is a prohibition of <i>refoulement</i>, surely the person involved would have been entitled to protection in the first place.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_85" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_191">I am aware that several bodies, including the Irish Human Rights Commission, have expressed the view that the rule of <i>refoulement</i> should be referenced at a number of points in the Bill.  This desire seems to be based on a concern that unless it is done at every place where the question of removal is mentioned in the Bill, there might then be implied at those places an exception to the rule.</p>
+          <p eId="para_192">Section 53(1) states, "A foreign national being removed from the State under this Act shall not be sent to a territory if doing so would be a <i> refoulement</i>.”  As a matter of plain English, this statement applies to every provision in the Bill where the question of removal arises.  It says so once for the entire statute and does so with good language.  I have no argument against the motivation of those who wish to ensure, using the provisions of this Bill, that a person cannot be sent to a place of persecution or serious harm.  That is the motivation of the Government in putting forward this Bill in the first place.  We are currently in accord with those who hold that view.  As a matter of language, if what needs to be said in the Bill is said in one place using words that clearly apply to every potential action under the Bill, it does not need to be said anywhere else in the Bill.  If the statement were to be made in one additional place in the Bill dealing with removal, but through some oversight was not so said in another, there could be scope for lawyers to argue the difference in language has an intended difference in meaning.</p>
+          <p eId="para_193">I am confident that, in accordance with the canons of statutory interpretation, in addition to the requirements of plain English, section 53, by stating once what needs to be said in language that applies throughout the Bill, leaves no ambiguity regarding my aim as promoter of the Bill and that of those who commented on the way in which it had been achieved.  Section 53 speaks for itself and its provisions do not need to be repeated elsewhere.</p>
+          <p eId="para_194">Amendment No. 305 would delete subsection 53(2).  That subsection is a necessary saver for the operation of the extradition Acts and European Arrest Warrant 2003.  The operation of these Acts is subject to international agreements and court oversight.  I am satisfied there are sufficient safeguards within these processes to ensure a person will not be extradited or subject to removal on foot of a European arrest warrant where doing so would amount to a <i>refoulement</i>.  I cannot accept Deputy Rabbitte’s amendment in that respect.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_86">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_195">Amendment No. 34 provides belts and braces.  I like the wording and am pressing the amendment.</p>
+        </speech>
+        <summary eId="sum_12">Amendment put.<entity refersTo="#bill.2008.2.dail.3.amd_34" name="amendment"/>
+                </summary>
+        <speech by="#PatRabbitte" eId="spk_87">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_196">Will the Acting Chairman explain the situation regarding this division?  I have not previously been at a committee where the Acting Chairman performs the role of convenor as well.  I note the Acting Chairman also caused Deputy Finian McGrath, whose amendment this is, to be dismissed from the room.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_88">
+          <from>Acting Chairman</from>
+          <p eId="para_197">I did not cause Deputy Finian McGrath to be dismissed.  He left himself.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_89">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_198">Let the record show Deputy Finian McGrath left the room himself.  Over the past five days, he has demonstrated extraordinary energy and parliamentary skill in drafting amendments.  However, when he is required to support them, he either absents himself or votes against it.  It is unusual practice.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_90">
+          <from>Acting Chairman</from>
+          <p eId="para_199">These issues can be discussed after the division.  We should have the division first and then discuss the matter after it.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_91">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_200">On the order of the division, I am reluctant to become involved in this because I was not present for the earlier part of the debate.  However, I am shocked by what I have seen occur.  I have seen Deputy Thomas Byrne, as Acting Chairman, enter into secret words with members of the Government side, presumably to hatch the figures and ensure everyone is on notice.  Deputy Finian McGrath who is a member of the committee, and on whose amendment we are now voting, is not present.  Will the Acting Chairman explain this?</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_92">
+          <from>Acting Chairman</from>
+          <p eId="para_201">The division is going to happen now.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_93">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_202">The position of the Acting Chairman has been compromised.  The Deputy cannot act as convenor and Chair at the same time.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_94">
+          <from>Acting Chairman</from>
+          <p eId="para_203">The division will take place now and I call on the clerk to the committee to conduct it.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_7">
+          <summary title="division" eId="sum_13">The Committee divided: Tá <quantity normalized="6" refersTo="#ta" eId="qty_3">6</quantity> ; Níl <quantity normalized="7" refersTo="#nil" eId="qty_4">7</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_8">
+            <p eId="para_204">
+              <b>Tá</b>
+            </p>
+            <p eId="para_205">
+              <person refersTo="#CharlesFlanagan">Flanagan, Charles.</person>
+            </p>
+            <p eId="para_206">
+              <person refersTo="#PadraicMcCormack">McCormack, Pádraic.</person>
+            </p>
+            <p eId="para_207">
+              <person refersTo="#DenisNaughten">Naughten, Denis.</person>
+            </p>
+            <p eId="para_208">
+              <person refersTo="#BrianOShea">O’Shea, Brian.</person>
+            </p>
+            <p eId="para_209">
+              <person refersTo="#PatRabbitte">Rabbitte, Pat.</person>
+            </p>
+            <p eId="para_210">
+              <person refersTo="#LeoVaradkar">Veradkar, Leo.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_9">
+            <p eId="para_211">
+              <b>Níl</b>
+            </p>
+            <p eId="para_212">
+              <person refersTo="#DermotAhern">Ahern, Dermot.</person>
+            </p>
+            <p eId="para_213">
+              <person refersTo="#AineBrady">Brady, Áine.</person>
+            </p>
+            <p eId="para_214">
+              <person refersTo="#ThomasByrne">Byrne, Thomas.</person>
+            </p>
+            <p eId="para_215">
+              <person refersTo="#DaraCalleary">Calleary, Dara.</person>
+            </p>
+            <p eId="para_216">
+              <person refersTo="#TimDooley">Dooley, Timmy.</person>
+            </p>
+            <p eId="para_217">
+              <person refersTo="#MattieMcGrath">McGrath, Mattie.</person>
+            </p>
+            <p eId="para_218">
+              <person refersTo="#DarraghOBrien">O’Brien, Darragh.</person>
+            </p>
+          </debateSection>
+          <summary eId="sum_14" title="decision" refersTo="#lost">Amendment declared lost.<entity refersTo="#bill.2008.2.dail.3.amd_34.lost" name="amendment"/>
+                    </summary>
+        </debateSection>
+        <speech by="#PatRabbitte" eId="spk_95">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_219">On a point of order, before we proceed.  This is our fifth day on Committee Stage and there have been no divisions until today.  The duplicity that has occurred requires a high level of tolerance on the part of members.  The Acting Chairman may not be familiar with parliamentary practice in committee——</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_96">
+          <from>Acting Chairman</from>
+          <p eId="para_220">I will not take instructions from the Deputy on this.  I have appointed Deputy O'Brien as convenor for this meeting.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_97">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_221">I am not giving the Acting Chairman instructions and he might listen to what I have to say before he comments.  The committee's way of doing business is designated by Standing Orders.  However, we have an unusual situation where a Minister of State has been permitted to vote by proxy.  It might be the case Standing Orders do not provide for that.  We cannot have an Acting Chairman acting as Whip for the Government side.  I would appreciate now, rather than having a tetchy response, if the Acting Chairman would apologise to the committee and undertake he will not do it in future.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_98">
+          <from>Acting Chairman</from>
+          <p eId="para_222">If it appeared like that, I apologise.  However, I have asked Deputy O'Brien to act as Whip for the remainder of the meeting.  I hope that addresses the matter to Deputy Rabbitte's satisfaction.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_99">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_223">It was not the appearance, it was the factual situation.  I believe the Acting Chairman needs to apologise unreservedly to the committee.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_100">
+          <from>Acting Chairman</from>
+          <p eId="para_224">I have said what I have said.  This issue was not raised at the last division and we shall move on.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_101" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_225">I do not want to open up the situation but the reality is that the Acting Chairman stepped in at short notice for Deputy Dinny McGinley who had a particular issue to deal with and asked the permission of the committee in this regard.  It is somewhat unfair to Deputy Byrne.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_102">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_226">It is decidedly unhelpful for a Minister to——-</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_103">
+          <from>Acting Chairman</from>
+          <p eId="para_227">I am filling in for Deputy McGinley.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_104">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_228">——to interject at a parliamentary committee.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_105" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_229">Is the Deputy trying to deny me the right to speak at a committee?</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_106">
+          <from>Acting Chairman</from>
+          <p eId="para_230">That matter is concluded and we shall proceed.</p>
+        </speech>
+        <summary refersTo="#agreed" eId="sum_15" title="decision">Section 4, as amended, agreed to.<entity refersTo="#bill.2008.2.dail.3.sec_4.agreed" name="section"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_16" title="decision">Section 5 agreed to.<entity refersTo="#bill.2008.2.dail.3.sec_5.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_17">SECTION 6.</summary>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_107">
+          <from>Acting Chairman</from>
+          <p eId="para_231">Amendment No. 35 is out of order as it involves a potential charge on the Revenue, and amendment No. 36 has the same status.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_108">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_232">Will the Acting Chairman just explain that for the record, as regards amendment No. 35 in the name of Deputy Finian McGrath?</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_109">
+          <from>Acting Chairman</from>
+          <p eId="para_233">I am advised by the clerk to the committee that there is a potential charge on the Revenue from this amendment, and therefore it is ruled out of order.  I can offer the Deputy no further assistance on that.  As regards amendment No. 36——</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_110">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_234">Why is deleting ", the Health Service Executive" a charge on the Revenue?  Is it not a saving?</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_111">
+          <from>Acting Chairman</from>
+          <p eId="para_235">Deputy Finian McGrath is not present, anyway, so if there was a letter——</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_112">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_236">He has asked me and I have the codicil in my pocket to move these amendments for him, which I have been doing for the past four days.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_113">
+          <from>Acting Chairman</from>
+          <p eId="para_237">The explanation as regards amendment No. 35 is to the effect that it would allow foreign nationals referred to in the amendment, access to HSE benefits.  The amendment has therefore been disallowed as involving a potential charge on the Revenue.  Amendment No. 36 has a similar effect to amendment No. 35, except as it relates to other bodies funded by central government.  This amendment has been disallowed as involving a potential charge on the Revenue.  Deputy Finian McGrath was informed of this by letter on 29 April.  That is the decision of the Chair and it is final.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_114">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_238">Acting Chairman——</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_115">
+          <from>Acting Chairman</from>
+          <p eId="para_239">That decision is final and we are moving on to amendment No. 37 in the name of the Minister.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_116">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_240">If the Acting Chairman is not careful he will be at committee by himself.  I want to raise a question on this. Deputy Finian McGrath's amendment seeks to delete ",the Health Service Executive", not to confer benefits of the health service on migrants.  He is deleting it, and all I ask is how that is a cost on the Exchequer — because under Deputy Finian McGrath's amendment they will not be entitled to these services?</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_117">
+          <from>Acting Chairman</from>
+          <p eId="para_241">I have given the explanation that has been given to me as Acting Chairman and I am not going to repeat that.  I ask the Deputy to accept that.  We note, as well, that Deputy Finian McGrath is not present to move these amendments.</p>
+        </speech>
+        <summary refersTo="#notmoved" eId="sum_18" title="decision">Amendments Nos. 35 and 36 not moved.<entity refersTo="#bill.2008.2.dail.3.amd_35.notmoved" name="amendment"/>
+                    <entity refersTo="#bill.2008.2.dail.3.amd_36.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#DermotAhern" eId="spk_118" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_242">I move amendment No. 37:<entity refersTo="#bill.2008.2.dail.3.amd_37" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_243">In page 15, subsection (2), to delete lines 5 to 13 and substitute the following:</p>
+          <p eId="para_244">"(2) <i>Subsection (1)(a)</i> does not apply in relation to the provision of--</p>
+          <p class="indent_1" eId="para_245">(<i>a</i>) essential medical treatment where the foreign national does not have sufficient resources to pay for that treatment,</p>
+          <p class="indent_1" eId="para_246">(<i>b</i>) medical or other services necessary for the protection of public health,</p>
+          <p class="indent_1" eId="para_247">(<i>c</i>) access to primary or secondary education to a foreign national who is under the age of 18 years,”.</p>
+          <p eId="para_248">Section 6 provides that a foreign national, unlawfully present in the State, will not be entitled to enter into employment, engage in any other economic activity or, as a general rule, avail of any State-funded benefits or services.  The section as it stands spells out a number of exceptions to this general rule as regards certain essential services, including medical services and other emergency provisions that may be prescribed by the Minister.  The provision also safeguards access to legal aid for criminal proceedings and also in any proceedings relating to removal from the State.</p>
+          <p eId="para_249">A central starting point of this provision is that foreign nationals present in the State illegally should receive no encouragement from the State to remain here unlawfully.  The remedy for hardships caused by illegal presence will be for the person to remove himself or herself from the jurisdiction, as the Bill obliges such foreign nationals so to do.  To better understand this provision, it is important to remember that a foreign national will usually unlawfully be present in the State by his or her own conscious act — either by entering in such a way as to avoid the immigration process and thus never putting himself or herself in the way of obtaining an entry or residence permission, or having been given a permission, remaining in the State after it expires or is revoked, following a fair procedure.  The obligation to leave will be the responsibility for each person who is unlawfully present in the State.  In default of the person taking that responsibility and observing the obligation, the State is prepared to intervene to ensure that the requirement to leave is observed, even if not willingly.  It is important, then, in that context, to ensure that the State does not take unnecessary acts that encourage any course of action on the part of the person concerned, other than departure.  That is what the provision seeks to achieve.</p>
+          <p eId="para_250">Clearly, having an absolute ban on State services, with no exceptions, would have the dubious advantage of absoluteness, thus relieving the suppliers of public services of the need to make decisions as to their delivery to unlawfully present foreign nationals.  However, such a provision would be too simplistic and unfair.  It would operate, at worst to do an injustice, at best with unworkable consequences.  It could not be the case, to choose an extreme instance, that the provision should work to make unlawfully present foreign nationals ineligible to avail themselves of public street lighting, for instance.</p>
+          <p eId="para_251">I acknowledge that the provision as it stands, is not yet fully correct.  I will examine the provision in light of the comments made since the Bill's publication.  I hope to bring forward proposals to amend the section on Report Stage.  I am happy to take Deputies' proposed amendments into consideration when developing my proposals.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_119">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_252">Was the Minister referring to my amendment?  I am sorry, I missed that——</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_120">
+          <from>Acting Chairman</from>
+          <p eId="para_253">Just to clarify matters for the Deputy, amendments Nos, 37, 41 to 44, inclusive, and 46 to 48, inclusive, are related and will be discussed together, as I should have said before the Minister spoke.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_121">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_254">Will the Minister please clarify what I was asking before I was interrupted?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_122" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_255">Deputy Naughten's amendment is included.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_123">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_256">I thank the Minister and I am delighted to hear that.  On the Minister's amendment, he made the point that persons unlawfully present in the State will have access to free legal aid — either legal advice under the provisions of the Legal Aid Act or as regards proceedings in relation to their deportation.  There will be no proceedings regarding deportation as a result of the legislation as it stands.  Leaving that aside, will the Minister clarify the situation as regards applicants under section 124, which is concerned with victims of trafficking?  I argued during the debate on the Criminal Law (Human Trafficking) Bill that trafficked persons should be entitled to access to free legal aid and the Minister rejected it.  The then Chairman of the committee said it would involve a charge on the State.  I addressed this at the relevant point of the section, when we discussed it.  Correct me if I am wrong, as I do not have a legal background, but my understanding is that a trafficked person, while he or she is unlawfully present in the State, has access to free legal aid.  However, if it comes to the Garda Síochána's attention that a person is trafficked, he or she is given temporary protection under section 124 but no access to free legal aid.  That has been denied to him or her in the trafficking legislation.  Will the Minister clarify that point?</p>
+          <p eId="para_257">This is a set of amendments that we need to look at carefully because there are implications.  The argument has been made to members of this committee that, based on the wording, for someone to buy a stamp or catch a bus means he or she is in breach of section 6 of the legislation because these are both services provided by the State.  Perhaps the Minister can clarify that.</p>
+          <p eId="para_258">I know protections are being put into the health service, and the Minister spoke about it in his contribution, but will he clarify the situation for me?  I read in the <i>Connaught Tribune</i> about an Athenry man who passed away in Boston after becoming ill.  He declined medical attention due to the fear of being deported.  We touched on this issue before with the previous Minister.  Can the Minister assure me that nobody who uses the emergency medical services in this country will end up in a similar situation?  We accept that the objective behind all this is to ensure that there is no abuse of the system and of State resources.  However, none of us wants to read a report in the newspapers in the future about somebody who was not prepared to seek emergency medical treatment for fear of being deported from the country.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_124">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_259">I welcome some of the changes in these amendments, although I am not too happy with section (2)(<i>a</i>) of amendment No. 37, which seems to be based on the ability to pay.  Medical services should never be based on the ability to pay, regardless of whether the person is legally here.  This is particularly the case for essential medical services.  I welcome the fact that the Minister has raised the age for access to education from 16 to 18.  Considering how long it took to bring this Bill forward, it is strange that the Minister has inserted many amendments, but suddenly tells us that he needs to amend it again.  We may have to wait until Report Stage before we see the colour of the Minister’s money on this issue.</p>
+          <p eId="para_260">Amendment No. 47 in the name of Deputy Finian McGrath would ensure that civil legal aid is available to immigrants in matters unrelated to deportation proceedings.  Without this amendment, undocumented women would have no access to civil legal aid in domestic violence cases, even if it was the husband's fault that she became undocumented in the first place.  That is probably not atypical of domestic violence cases among undocumented immigrants, as the wife can often travel at the behest of the husband and live in the country with no documents.</p>
+          <p eId="para_261">Spelling out things in black and white, as the Minister is trying to do with these amendments, often throws up circumstances where there is no scope for a humane approach.  I ask him to look at some form of wording which could capture that aspect.  There should be a ministerial discretion for civil legal aid, or at least some type of mechanism whereby a person can appeal due to circumstances that are not his or her fault.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_125">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_262">I welcome the Minister's amendment.  It is an improvement on what we have.  The issue regarding the provision guaranteeing minors access to education might also touch on the trafficking issue raised by Deputy Naughten, but it might not.  One can envisage other services that might be required by a minor.  The Minister's amendment is very specific and I wonder if it rules out such a possibility.  The first part only deals with medical treatment rather than medical services.  The second part deals with public health considerations.  Is the Minister satisfied that amendment No. 37(<i>c</i>) does not prohibit minors accessing other services?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_126" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_263">I thank the Deputies for their comments on the amendment.  I have already accepted that we need to tighten up the provisions in this area.  We do not want to deny people who are validly entitled to essential services.  We will come back and try to address some of the issues raised by the Deputies.</p>
+          <p eId="para_264">We are not putting in a right to legal aid, but an ability for somebody to receive it if he or she does not have sufficient resources.  That is equally the case for somebody who wishes to receive medical or educational services.  The amendment tries to provide an exception and a balance to ensure that we are providing an incentive for people to reside here legally.  We are also trying to put in place a general principle that those people subject to human trafficking would be entitled to essential services if they are not able to pay for them.  I accept the Deputy's point about what might have happened in another Bill that is now law, but we will deal with the situation in section 124 of this Bill.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_127">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_265">This is a positive development in the right direction.  We want to ensure that the proper protections are put in place for trafficked persons.</p>
+          <p eId="para_266">Amendment No. 37(<i>c</i>) deals with access to primary and secondary education.  What would happen to somebody sitting the leaving certificate examination who turns 18 during the year?  We do not want a situation where somebody is not entitled to sit out his or her final year having just gone over the age threshold.  The Minister may correct me if I am wrong, but is this provision not a change in policy in that people who are illegally resident here at present are not legally entitled to education of any sort?  That is my understanding.  If this is a move, I believe it is a positive one.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_128" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_267">I am sorry.  What was the question?</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_129">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_268">My understanding is that at present the children of someone who is illegally resident here, where those children are also illegally resident, are not entitled to an education.  There could be an age issue in this regard, although I am not sure.  Was the age limit up to 16 years heretofore but is now proposed to be increased to up to 18?  Will the Minister come back to me on this point?</p>
+          <p eId="para_269">My other question relates to the case Deputy Rabbitte's colleague, Deputy Michael D. Higgins, has raised on a number of occasions regarding students here on a student visa who may have children with them.  I accept we are talking about relatively small numbers in that category while we are talking about large numbers of students coming here for various reasons.  Will those children be entitled to an education or will the situation remain as at present, where they are not legally entitled to an education?  Surely some mechanism can be put in place so they can pay for the provision of education and, in other words, refund the State if those resources are available to them.  Private schools are not available.  For example, there is no private school available for a student attending Athlone Institute of Technology who has a son or daughter of primary school age.  Will a mechanism be put in place whereby legally resident students can pay for that service or other services?</p>
+          <p eId="para_270">An issue we will come to later is tied in with this.  I will throw it out to the Minister so he can think about it.  With regard to some of the procedures and applications, a person is deemed ineligible if he or she has drawn from the resources of the State, for example, if he or she has drawn social welfare.  A mechanism should be put in place whereby such people could refund those funds to the State, for example, if they had fallen on hard times previously and were at a later stage in a position to refund the money to the State.  They should not be limited with regard to then applying for long-term residency.</p>
+          <p eId="para_271">The Minister has said he will look again at the next issue.  The Human Rights Commission makes the point that it is not clear if accommodation or housing come within the exceptions that are being discussed, or access to emergency accommodation for the victims of domestic violence and access to organisations such as the Employment Appeals Tribunal, the Equality Authority and the Human Rights Commission.  Can the Minister provide clarity in this regard?  The Human Rights Commission makes the case that protection should be given in section 6 and that this would not breach a person's rights under the European Convention on Human Rights.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_130" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_272">To make the general point, the section in itself does not give people rights to these essential services.  It states that they are not forbidden.  In other words, in exceptional circumstances people can have these services.  The more specific we become, the more questions arise as to whether this includes something else.  We accept we must redraft this and we must do so in such a way that people get basic essential services.</p>
+          <p eId="para_273">On the issue raised by the Deputy of whether people are under or over 18, each case would be dealt with sympathetically on its merits.  One has to accept that these people are illegally in the State but, on the other side, we must ensure that if we are providing services, and we make it clear in legislation that we would in exceptional circumstances provide essential services, this is not in itself seen as a draw to people to continue to come to the country in order to attain these services.  I undertake to come back to this on Report Stage.  I have listened to what members have had to say.  Obviously, we have taken into account in our deliberations some of the suggestions made by NGOs and the commission.</p>
+          <p eId="para_274">The issue of entitlement to education is dealt with primarily by the Minister for Education and Science.  It is not something we should be prescriptive on with regard to entitlements or non-entitlements.  What we are trying to do in a broad way is to state that essential services are available to people despite the fact they are here illegally.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_131">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_275">Could I just——-</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_132">
+          <from>Acting Chairman</from>
+          <p eId="para_276">Perhaps Deputy Rabbitte could speak through the Chair.  He has shown great respect for the position of the Chair and it would be appreciated if he could address his comments through it.  I was going to call Deputy Naughten.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_133">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_277">I was just about to do that.  If he is in here, the Acting Chairman will have to learn he will take a bigger bruising than he got today.  He should take his defeat and be humble about it.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_134">
+          <from>Acting Chairman</from>
+          <p eId="para_278">I will call Deputy Naughten.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_135">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_279">I give way to Deputy Rabbitte.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_136">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_280">My question was for the Acting Chairman.  I was going to address him because my question was not for the Minister.  I wanted to ask the Acting Chairman whether my grouping is up to date.  Are amendments Nos. 38 and 39 in this grouping?</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_137">
+          <from>Acting Chairman</from>
+          <p eId="para_281">No.  We are dealing with amendments Nos. 37, 41 to 44, inclusive, and 46 to 48, inclusive.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_138">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_282">Does that mean amendment Nos. 38 and 39 have fallen?</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_139">
+          <from>Acting Chairman</from>
+          <p eId="para_283">The clerk informs me there is a second revised grouping which was circulated to members.  It should have been in front of members this morning.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_140">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_284">Where are amendments Nos. 38 and 39?</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_141">
+          <from>Acting Chairman</from>
+          <p eId="para_285">They are being taken separately, after this amendment.  They are out of order as they involve a potential charge on the Revenue.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_142">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_286">They are out of order.  That will be a blow to Deputy Finian McGrath.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_143">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_287">I take what the Minister has said.  I know it is extremely difficult for the Minister as he is only a week into the brief and he is trying to read into this whole area.  I am nearly eight or nine months dealing with this and I am still trying to get my head around much of it.  It is very difficult.</p>
+          <p eId="para_288">It has been the case that GNIB officers throughout the country were told to visit the local schools and look at the residency status of children there.  The resources of the Garda Síochána could be better utilised than that.  It is an issue, as the Minister said, for the Department of Education and Science.  It is a complex area and causes confusion.  We can reconsider it when we come to Report Stage.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_144">
+          <from>Acting Chairman</from>
+          <p eId="para_289">We will have the Minister's reply and we will then go through the formalities down to section 7, as necessary, if the members are agreeable.  We are due to finish at 1 p.m.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_145">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_290">Are we going as far as section 7?  We have not finished with——</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_146">
+          <from>Acting Chairman</from>
+          <p eId="para_291">I was suggesting that we would finish with the Minister's reply, if that is agreeable.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_147" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_292">I have nothing else to say.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_148">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_293">I have something to say on the section in general.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_149">
+          <from>Acting Chairman</from>
+          <p eId="para_294">Will we leave that until——</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_150">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_295">It is on section 6, which is the section we are dealing with.  If the Acting Chairman wants me to make the point——</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_151">
+          <from>Acting Chairman</from>
+          <p eId="para_296">With the leave of the members, we will carry on for a few minutes.  We were due to finish at 1 p.m.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_152">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_297">I will be brief.  Amendment No. 36 was ruled out of order on the basis that it could give rise to a charge on the Exchequer.  It seeks to remove semi-State bodies from the list of service providers to which undocumented immigrants have no access.  The point has been made that the subsection could be seen to deny such persons the right, for example, to board a public bus.</p>
+        </speech>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_153">
+          <from>Acting Chairman</from>
+          <p eId="para_298">I propose that we deal with amendment No. 37 and the remaining amendments to the section.  Deputy Ó Snodaigh will have another opportunity to speak when we discuss the section, as amended.</p>
+        </speech>
+        <summary eId="sum_19" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2008.2.dail.3.amd_37.agreed" name="amendment"/>
+                </summary>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_154">
+          <from>Acting Chairman</from>
+          <p eId="para_299">Amendments Nos. 38 to 40, inclusive, in the name of Deputy Finian McGrath, are out of order because they involve a potential charge on Revenue.</p>
+        </speech>
+        <summary refersTo="#notmoved" eId="sum_20" title="decision">Amendments Nos. 38 to 40, inclusive, not moved.<entity refersTo="#bill.2008.2.dail.3.amd_38.notmoved" name="amendment"/>
+                    <entity refersTo="#bill.2008.2.dail.3.amd_39.notmoved" name="amendment"/>
+                    <entity refersTo="#bill.2008.2.dail.3.amd_40.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#DermotAhern" eId="spk_155" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_300">I move amendment No. 41:<entity refersTo="#bill.2008.2.dail.3.amd_41" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_301">In page 15, subsection (2)(<i>b</i>), line 14, to delete “the provision of”.</p>
+        </speech>
+        <summary eId="sum_21" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2008.2.dail.3.amd_41.agreed" name="amendment"/>
+                </summary>
+        <speech by="#PatRabbitte" eId="spk_156">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_302">I move amendment No. 42:<entity refersTo="#bill.2008.2.dail.3.amd_42" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_303">In page 15, subsection (2)(<i>b</i>), lines 15 and 16, to delete all words from and including “, in” in line 15 down to and including “State,” in line 16.</p>
+        </speech>
+        <summary eId="sum_22" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2008.2.dail.3.amd_42.lost" name="amendment"/>
+                </summary>
+        <speech by="#DermotAhern" eId="spk_157" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_304">I move amendment No. 43:<entity refersTo="#bill.2008.2.dail.3.amd_43" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_305">In page 15, subsection (2)(<i>b</i>), line 17, to delete “or”.</p>
+        </speech>
+        <summary eId="sum_23" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2008.2.dail.3.amd_43.agreed" name="amendment"/>
+                </summary>
+        <speech by="#DermotAhern" eId="spk_158" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_306">I move amendment No. 44:<entity refersTo="#bill.2008.2.dail.3.amd_44" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_307">In page 15, subsection (2)(<i>c</i>), line 18, to delete “the provision of”.</p>
+        </speech>
+        <summary eId="sum_24" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2008.2.dail.3.amd_44.agreed" name="amendment"/>
+                </summary>
+        <speech by="#ThomasByrne" as="#Acting_Chairman" eId="spk_159">
+          <from>Acting Chairman</from>
+          <p eId="para_308">Amendment No. 45 is out of order as it involves a potential charge on Revenue.</p>
+        </speech>
+        <summary refersTo="#notmoved" eId="sum_25" title="decision">Amendment No. 45 not moved.<entity refersTo="#bill.2008.2.dail.3.amd_45.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#DermotAhern" eId="spk_160" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_309">I move amendment No. 46:<entity refersTo="#bill.2008.2.dail.3.amd_46" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_310">In page 15, subsection (3), line 29, after "consult" to insert "the Minister for Finance and".</p>
+        </speech>
+        <summary eId="sum_26" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2008.2.dail.3.amd_46.agreed" name="amendment"/>
+                </summary>
+        <speech by="#DermotAhern" eId="spk_161" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_311">I move amendment No. 47:<entity refersTo="#bill.2008.2.dail.3.amd_47" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_312">In page 15, lines 31 to 33, to delete subsection (4) and substitute the following:</p>
+          <p class="indent_1" eId="para_313">"(4) The provision of any benefit or service (however described) referred to in <i>subsection (2)</i> to a foreign national shall not, of itself, render his or her presence in the State lawful, nor shall it, of itself, prevent the operation of <i>section 4</i>.”.</p>
+        </speech>
+        <summary eId="sum_27" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2008.2.dail.3.amd_47.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_28" title="decision">Amendment No. 48 not moved.<entity refersTo="#bill.2008.2.dail.3.amd_48.notmoved" name="amendment"/>
+                </summary>
+        <summary eId="sum_29">Question proposed: "That section 6, as amended, stand part of the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_162">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_314">This section leaves open the possibility that undocumented persons will not be entitled to access public services such as those provided by the ESB and Bus Éireann, for instance.  This is not a ludicrous proposition.  There have been instances in the United States, for example, where people collecting donated food have been asked to prove their residency status.  In one case three Mexican-American teenagers in California had to provide proof of status before purchasing a pizza.</p>
+          <p eId="para_315">We must be careful when introducing restrictions on the rights of individuals to avail of the services provided by companies funded by the State.  This encompasses a significant number of organisations, including Bord Gáis, the local authorities, Bus Éireann and so on.  Will the Minister review this broad-ranging provision?  I intend to table another amendment on Report Stage but it will, undoubtedly, be ruled out as it will be deemed to involve a potential charge on Revenue.  Such rulings make it difficult to debate the potential impact of this legislation.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_163">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_316">Did the Minister not indicate his intention to look at this issue before Report Stage?  Deputy Ó Snodaigh raised some important points.  I understood the Minister to say he would return to this issue on Report Stage after he had had a chance to review it comprehensively.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_164" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_317">I accept the point Deputy Ó Snodaigh is making about people's right to access basic services such as public transport.  That is not the intention of this provision and there is no intention that the list should be exhaustive.  There is an endless list of services of which people might wish to avail.  We are trying to ensure there is access to vital services such as medical and education services.  However, we would have to draw the line at a person who is here illegally applying for a driver's licence.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_165">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_318">I understand the intent of the provision but I am asking the Minister to review it.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_166" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_319">The more specific the provisions included in the legislation, the more potholes we may encounter in that we might have specified something but omitted something else.  We took account of representations we received in providing for access to primary or secondary education for foreign nationals under the age of 18 years.  This indicates our intent to ensure access to services.  If we start listing exemptions and exceptions, the Bill will be twice as long.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_167">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_320">Amendment No. 45 was ruled out of order.  Will the Minister undertake to review this issue before Report Stage?  The objective is to ensure the denial of services does not lead to hardship.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_168" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_321">We are looking at the issue.  I am not sure whether we can pin it down in a precise legislative wording but we will do our best.</p>
+        </speech>
+        <summary eId="sum_30" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_29"/>
+                </summary>
+        <summary eId="sum_31">Progress reported; Committee to sit again.</summary>
+        <summary eId="sum_32">The select committee adjourned at 1.05 p.m. until 5.30 p.m. on Tuesday, 20 May 2008.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

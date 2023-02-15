@@ -1,0 +1,1392 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_foreign_affairs/2007-12-06/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_foreign_affairs/2007-12-06/debate"/>
+          <FRBRdate date="2007-12-06" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/select_committee_on_foreign_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_foreign_affairs/2007-12-06/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_foreign_affairs/2007-12-06/debate/mul@"/>
+          <FRBRdate date="2007-12-06" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_foreign_affairs/2007-12-06/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_foreign_affairs/2007-12-06/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="notmoved" href="/ie/oireachtas/ontology#NotMoved" showAs="Not Moved"/>
+        <TLCConcept eId="agreed" href="/ie/oireachtas/ontology#Agreed" showAs="Agreed"/>
+        <TLCConcept eId="withdrawn" href="/ie/oireachtas/ontology#Withdrawn" showAs="Withdrawn"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCEvent eId="bill.2007.30.dail.3" href="/ie/oireachtas/bill/2007/30/dail/3" showAs="Passports Bill 2007: Dáil Committee Stage"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_1" href="/ie/oireachtas/bill/2007/30/dail/3/amd_1" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 1"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_1.withdrawn" href="/ie/oireachtas/bill/2007/30/dail/3/amd_1/withdrawn" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 1 (Withdrawn)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_10" href="/ie/oireachtas/bill/2007/30/dail/3/amd_10" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 10"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_10.withdrawn" href="/ie/oireachtas/bill/2007/30/dail/3/amd_10/withdrawn" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 10 (Withdrawn)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_11.notmoved" href="/ie/oireachtas/bill/2007/30/dail/3/amd_11/notmoved" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 11 (Not Moved)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_12" href="/ie/oireachtas/bill/2007/30/dail/3/amd_12" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 12"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_12.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_12/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 12 (Agreed)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_13" href="/ie/oireachtas/bill/2007/30/dail/3/amd_13" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 13"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_13.withdrawn" href="/ie/oireachtas/bill/2007/30/dail/3/amd_13/withdrawn" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 13 (Withdrawn)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_14" href="/ie/oireachtas/bill/2007/30/dail/3/amd_14" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 14"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_14.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_14/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 14 (Agreed)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_15" href="/ie/oireachtas/bill/2007/30/dail/3/amd_15" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 15"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_15.withdrawn" href="/ie/oireachtas/bill/2007/30/dail/3/amd_15/withdrawn" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 15 (Withdrawn)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_16" href="/ie/oireachtas/bill/2007/30/dail/3/amd_16" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 16"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_16.withdrawn" href="/ie/oireachtas/bill/2007/30/dail/3/amd_16/withdrawn" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 16 (Withdrawn)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_17" href="/ie/oireachtas/bill/2007/30/dail/3/amd_17" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 17"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_17.withdrawn" href="/ie/oireachtas/bill/2007/30/dail/3/amd_17/withdrawn" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 17 (Withdrawn)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_18.notmoved" href="/ie/oireachtas/bill/2007/30/dail/3/amd_18/notmoved" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 18 (Not Moved)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_19" href="/ie/oireachtas/bill/2007/30/dail/3/amd_19" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 19"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_19.withdrawn" href="/ie/oireachtas/bill/2007/30/dail/3/amd_19/withdrawn" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 19 (Withdrawn)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_2" href="/ie/oireachtas/bill/2007/30/dail/3/amd_2" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 2"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_2.withdrawn" href="/ie/oireachtas/bill/2007/30/dail/3/amd_2/withdrawn" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 2 (Withdrawn)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_20" href="/ie/oireachtas/bill/2007/30/dail/3/amd_20" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 20"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_20.withdrawn" href="/ie/oireachtas/bill/2007/30/dail/3/amd_20/withdrawn" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 20 (Withdrawn)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_21.notmoved" href="/ie/oireachtas/bill/2007/30/dail/3/amd_21/notmoved" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 21 (Not Moved)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_22" href="/ie/oireachtas/bill/2007/30/dail/3/amd_22" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 22"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_22.withdrawn" href="/ie/oireachtas/bill/2007/30/dail/3/amd_22/withdrawn" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 22 (Withdrawn)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_23" href="/ie/oireachtas/bill/2007/30/dail/3/amd_23" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 23"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_23.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_23/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 23 (Agreed)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_24" href="/ie/oireachtas/bill/2007/30/dail/3/amd_24" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 24"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_24.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_24/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 24 (Agreed)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_25" href="/ie/oireachtas/bill/2007/30/dail/3/amd_25" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 25"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_25.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_25/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 25 (Agreed)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_25.amd_1" href="/ie/oireachtas/bill/2007/30/dail/3/amd_25/amd_1" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 25 (Amd_1)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_25.amd_2.notmoved" href="/ie/oireachtas/bill/2007/30/dail/3/amd_25/amd_2/notmoved" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 25 (Not Moved)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_25.amd_3" href="/ie/oireachtas/bill/2007/30/dail/3/amd_25/amd_3" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 25 (Amd_3)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_26.notmoved" href="/ie/oireachtas/bill/2007/30/dail/3/amd_26/notmoved" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 26 (Not Moved)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_27" href="/ie/oireachtas/bill/2007/30/dail/3/amd_27" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 27"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_27.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_27/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 27 (Agreed)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_28" href="/ie/oireachtas/bill/2007/30/dail/3/amd_28" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 28"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_28.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_28/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 28 (Agreed)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_28.amd_1" href="/ie/oireachtas/bill/2007/30/dail/3/amd_28/amd_1" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 28 (Amd_1)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_29" href="/ie/oireachtas/bill/2007/30/dail/3/amd_29" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 29"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_29.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_29/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 29 (Agreed)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_3" href="/ie/oireachtas/bill/2007/30/dail/3/amd_3" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 3"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_3.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_3/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 3 (Agreed)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_4" href="/ie/oireachtas/bill/2007/30/dail/3/amd_4" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 4"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_4.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_4/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 4 (Agreed)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_5" href="/ie/oireachtas/bill/2007/30/dail/3/amd_5" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 5"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_5.withdrawn" href="/ie/oireachtas/bill/2007/30/dail/3/amd_5/withdrawn" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 5 (Withdrawn)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_6.notmoved" href="/ie/oireachtas/bill/2007/30/dail/3/amd_6/notmoved" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 6 (Not Moved)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_7.notmoved" href="/ie/oireachtas/bill/2007/30/dail/3/amd_7/notmoved" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 7 (Not Moved)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_8" href="/ie/oireachtas/bill/2007/30/dail/3/amd_8" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 8"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_8.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_8/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 8 (Agreed)"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_9" href="/ie/oireachtas/bill/2007/30/dail/3/amd_9" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 9"/>
+        <TLCEvent eId="bill.2007.30.dail.3.amd_9.agreed" href="/ie/oireachtas/bill/2007/30/dail/3/amd_9/agreed" showAs="Passports Bill 2007: Dáil Committee Stage - Amendment No. 9 (Agreed)"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="AlanShatter" href="/ie/oireachtas/member/id/Alan-Shatter.D.1981-06-30" showAs="Alan Shatter"/>
+        <TLCPerson eId="BillyGodfreyTimminsFG" href="/ie/oireachtas/member/id/Billy-Timmins.D.1997-06-26" showAs="Billy Timmins"/>
+        <TLCPerson eId="DarraghOBrien" href="/ie/oireachtas/member/id/Darragh-O'Brien.D.2007-06-14" showAs="Darragh O'Brien"/>
+        <TLCPerson eId="JohnDeasyFG" href="/ie/oireachtas/member/id/John-Deasy.D.2002-06-06" showAs="John Deasy"/>
+        <TLCPerson eId="MJNolan" href="/ie/oireachtas/member/id/M-J-Nolan.S.1982-05-13" showAs="M. J. Nolan"/>
+        <TLCPerson eId="MichaelDHiggins" href="/ie/oireachtas/member/id/Michael-D-Higgins.S.1973-06-01" showAs="Michael D. Higgins"/>
+        <TLCPerson eId="MichaelJWoods" href="/ie/oireachtas/member/id/Michael-Woods.D.1977-07-05" showAs="Michael Woods"/>
+        <TLCPerson eId="MichaelKitt" href="" showAs=""/>
+        <TLCPerson eId="RoryOHanlon" href="/ie/oireachtas/member/id/Rory-O'Hanlon.D.1977-07-05" showAs="Rory O'Hanlon"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Foreign_Affairs" href="/ie/oireachtas/role/minister_state/foreign_affairs" showAs="Minister of State at the Department of Foreign Affairs"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>ROGHCHOISTE UM GHNÓTHAÍ EACHTRACHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON FOREIGN AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2007-12-06">Déardaoin, 6 Nollaig 2007</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2007-12-06">Thursday, 6 December 2007</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 11 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JohnDeasyFG">Deputy John Deasy,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#DarraghOBrien">Deputy Darragh O’Brien</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#MichaelDHiggins">Deputy Michael D. Higgins,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#RoryOHanlon">Deputy Rory O’Hanlon,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelKitt">Deputy Michael P. Kitt <i>(Minister</i>
+                                    </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#AlanShatter">Deputy Alan Shatter,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <i>of State at the Department of</i>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#BillyGodfreyTimminsFG">Deputy Billy Timmins.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9"><i>Foreign Affairs)</i>,</p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#MJNolan">Deputy M. J. Nolan,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">In attendance: Deputy Aengus Ó Snodaigh.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#MichaelJWoods">DEPUTY MICHAEL WOODS IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Select Committee.</heading>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_11">I welcome the Minister of State at the Department of Foreign Affairs, Deputy Michael Kitt, to take Committee Stage of the Passports Bill 2007.  I also welcome Mr. Ray Bassett, Mr. John McCullagh and Miss Nuala Ní Mhuircheartaigh from the Department of Foreign Affairs.  I invite the Minister of State to make his introductory remarks, following which I will turn to section 1 of the Bill.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_2">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_12">Before we do that, I would like to make one point.  We do not all read our e-mails as vigilantly as we should.  If we are to discuss legislation, we should receive a telephone call.  It was by the grace of God that I received the e-mail late last Thursday evening and it was difficult to table the amendments by 11 a.m. the next day.  I would appreciate if we received notice of such meetings.  In addition, this meeting was scheduled to start 11 a.m.  I am also a member of the Joint Committee on European Affairs which is meeting at 11.30 a.m.  I know Deputy Shatter must attend the meeting of the Joint Committee on the Constitutional Amendment on Children, although I am sure he can speak for himself.  The way in which this meeting has been scheduled is unsatisfactory.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_13">The Joint Committee on Education and Science is also meeting.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_4">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_14">I appreciate that there are new committee staff, but we raised certain issues at the last meeting.  I am particularly unhappy with the way in which this matter has been dealt.  I received no e-mail.  The first I knew of the date by which amendments were to be submitted was during a telephone discussion with Deputy Timmins on Friday afternoon.  Each member of the committee should have received advance notice of the cut-off date for tabling amendments.  It is appalling that we did not.  No committee should operate on that basis.</p>
+          <p eId="para_15">There is a real organisational problem.  Some of the provisions contained in the Bill have important implications for children's law, including passports for children and procedures in the event of difficulties between parents.  The first meeting of the Joint Committee on the Constitutional Amendment on Children is scheduled for noon.  Therefore, I cannot be here from that time.  It is just not appropriate that members of the committee are treated in this way.  Some consideration should be given to other committees of which we are members.  Deputy Timmins is a member of the Joint Committee on European Affairs.  The Select Committee on Foreign Affairs will deal with legislation rarely, perhaps two or three times during the term of the Dáil.</p>
+          <p eId="para_16">In order that members of the Opposition would not waste their time tabling amendments on issues arising from Second Stage that the Minister was happy to deal with, I requested that we receive the Minister's amendments in advance and be given a timeframe in which to submit amendments to do with issues the Minister had not addressed.  I appreciate that he was not obliged to do so, but none of this happened.  It is most unfair, particularly to Deputies on this side.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_5">
+          <from>Chairman</from>
+          <p eId="para_17">I will raise the possibility of making telephone calls, in addition to the other notifications given by the Bills Office.  The Minister will consider the other points raised.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_6">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_18">I am unhappy that this discussion is to continue after 11.30 a.m.  Deputy Timmins, the leader of the Fine Gael group on this committee, should be at another committee meeting and within ten or 15 minutes I must also attend another meeting.  It is a most unsatisfactory way to organise committee meetings.  This is an important Bill which has implications.  It is the first legislation dealing with passports in the history of the State.  We should not have a ceremonial Committee Stage on which we do not tease out the issues involved seriously.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_19">The time was set by the committee in the first instance.  Committee Stage must be completed either today or tomorrow.  Therefore, the committee can come back tomorrow if the Deputy wishes, but we will do as much as we can today.  We should get on with our business and see what progress we can make.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_8">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_20">I do not understand why it must be completed either today or tomorrow.  It has taken something like 80 years to produce this legislation.  As Report Stage will not be taken before Christmas, I do not see the urgency.  There is no deadline of tomorrow, of which I am aware.  Will someone explain where this comes from?</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_9">
+          <from>Chairman</from>
+          <p eId="para_21">That is the notification we received on time requirements, but we can check them further.  If the Deputy let us proceed, we might make some progress.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_10">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_22">The Dáil does not determine this matter.  It is for the committee to determine-----</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_11">
+          <from>Chairman</from>
+          <p eId="para_23">The committee decided it would meet today in the first instance.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_12">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_24">Yes, but it is also for the committee to determine the time it needs to deal with the Bill.  It is not based on an order from the Department of Foreign Affairs which would find it convenient to have it completed by tomorrow.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_13">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_25">I will try to be helpful in arriving at a decision.  The Bill cannot be dealt with quickly.  Matters will arise in some amendments that the Minister of State may indicate his intention to accept.  Some are housekeeping amendments on definitional issues and there is a complex background to, for example, the transgender matter.  The Bill will require time.  I am trying to be of assistance by giving an indication of the time.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_26">I accept that.  We could take a lunch break and return in the afternoon because the House will sit until 7 p.m.  We could return tomorrow.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_15">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_27">I would welcome the opportunity to consider further amendments that must be tabled.  I did not discover the time by which I should table amendments until after it had passed because I did not receive notification as requested at the previous meeting.  I checked, but I did not get an e-mail.  At the previous meeting, we requested that members would be telephoned even had e-mails been sent, but it did not occur.  If one does not have the e-mail telling one the date by which amendments should be tabled, I do not know how one can operate as a member of the committee.  It is most unsatisfactory.  We are not working to some other person's agenda, as it is for the committee to determine the timeframe.  We are not the playthings of the Department of Foreign Affairs.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_28">Would the Minister of State like to comment?</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_17">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_29">I mean this constructively because we need good legislation from these deliberations.</p>
+        </speech>
+        <speech by="#MichaelKitt" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs" eId="spk_18">
+          <from>Minister of State at the Department of Foreign Affairs (Deputy Michael P. Kitt)</from>
+          <p eId="para_30">I do not have a role in the committee's decisions on when to meet.  Like its members, I want to make progress.  I thank the Opposition for its constructive role on Second Stage when we had a good debate.  I hope the debate on Committee Stage will also be constructive.</p>
+          <p eId="para_31">I am available for whatever length of time is necessary to discuss the Bill.  I would like to get started on the Bill if such is the committee's wish.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_19">
+          <from>Chairman</from>
+          <p eId="para_32">Is that agreed?  Agreed.  We will commence and continue for as long as necessary.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_20">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_33">I do not mean to be obstructive.  Deputy Shatter or other members may have wished to table amendments and are not in a position to do so because they missed the deadline.  They will not be able to table amendments on Report Stage if the issues have not been raised on Committee Stage.  Is there a way around that?</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_21">
+          <from>Chairman</from>
+          <p eId="para_34">One can raise the issue on a section and table it on Report Stage.  It does not need to be an amendment.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_22">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_35">It is an unsatisfactory way to deal with Committee Stage of important legislation.  Ministers and their officials need time to consider amendments and may need advice from the Attorney General's office.  There is space between Committee and Report Stages to deal with those issues.  Too frequently, there is a knee-jerk reaction to Opposition amendments on Report Stage and they are turned down.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_23">
+          <from>Chairman</from>
+          <p eId="para_36">I would not necessarily agree with the Deputy.  Over the years, I have worked on many Bills.  If an issue is mentioned and regarded as important, it is taken on Report Stage where the Minister can make changes.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_24">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_37">The principle is that the committee is not a rubber stamp for legislation.  It does not put legislation through willy-nilly in an unnecessarily tight timeframe specified to it.  The manner in which the Bill is being dealt with is unsatisfactory.  While it is not the Minister of State's fault, dealing with important legislation in this way is unfortunate if we are to do a serious job instead of simply going through the pretence of Committee Stage.</p>
+        </speech>
+        <speech by="#RoryOHanlon" eId="spk_25">
+          <from>Deputy Rory O’Hanlon</from>
+          <p eId="para_38">I agree with the Chairman that we should move on and see how far we get today.  I would oppose Friday sittings at 24 hours notice.  I do not mind Friday sittings if we get more notice, but many of us have constituency commitments that are difficult to reorganise.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_26">
+          <from>Chairman</from>
+          <p eId="para_39">We will proceed and see how far we can get today.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_27">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_40">On the timeframe for concluding this morning, I would like to pursue serious issues with the Minister of State constructively.  It may inconvenience others, but I would have no difficulty returning after lunch when the Joint Committee on the Constitutional Amendment on Children has concluded.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_28">
+          <from>Chairman</from>
+          <p eId="para_41">We will proceed, break at lunchtime and see how far we have gone.  A quarter of an hour has passed.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_29">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_42">Will we be able to defer amendments until the afternoon?  Must we take them in sequence?</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_30">
+          <from>Chairman</from>
+          <p eId="para_43">We will discuss them as they arise in the sections.  If the Deputy wishes to note something for the next Stage, he can tell the committee that he wishes to table a relevant amendment on Report Stage.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_31">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_44">I will be gone by 11.50 a.m. or 11.55 a.m., but I suspect we will not have reached the sections about which I am concerned.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_32">
+          <from>Chairman</from>
+          <p eId="para_45">We will proceed and see how far we get.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3" refersTo="#bill.2007.30.dail.3">
+        <heading>Passports Bill 2007: Committee Stage.</heading>
+        <summary class="Center" eId="sum_5">SECTION 1.</summary>
+        <summary eId="sum_6">Question proposed: "That section 1 stand part of the Bill."</summary>
+        <speech by="#MichaelKitt" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs" eId="spk_33">
+          <from>Minister of State at the Department of Foreign Affairs (Deputy Michael P. Kitt)</from>
+          <p eId="para_46">I am glad to be discussing this Bill.  If it is fine, can we move on to amendment No. 1?</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_34">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_47">When does the Minister of State expect to bring the legislation into force, assuming it is passed rapidly through the Houses?</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_35" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_48">Most of the sections will be enforced immediately.</p>
+        </speech>
+        <summary eId="sum_7" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_6"/>
+                </summary>
+        <summary class="Center" eId="sum_8">SECTION 2.</summary>
+        <speech by="#MichaelDHiggins" eId="spk_36">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_49">I move amendment No. 1:<entity refersTo="#bill.2007.30.dail.3.amd_1" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_50">In page 4, line 11, after "2004" to insert the following:</p>
+          <p class="indent_2" eId="para_51">"or the corresponding provision of any statute repealed by that Act".</p>
+          <p eId="para_52">This is the definition section of the Bill and, where reference is made to a birth certificate, it states: "a document issued under section 13(4) of the Civil Registration Act 2004 in respect of an entry in the register of births".  Were my amendment to be accepted, this provision would state: "a document issued under section 13(4) of the Civil Registration Act 2004 or the corresponding provision of any statute repealed by that Act".</p>
+          <p eId="para_53">I would bow to wiser opinion, but birth certificates issued before the 2004 Act would be defective, as the section refers only to certificates issued under it.  This would create a problem, as there are such certificates.  Making the amendment would cover the omission.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_37" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_54">I have been advised by the Attorney General's office that this amendment is unnecessary because section 5 of the Civil Registration Act deals with the points raised.  Accordingly, it is not necessary to provide a saver in respect of certificates of birth issued under any legislation prior to the 2004 Act.  I do not propose to accept the amendment.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_38">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_55">People must make a judgment in terms of section 5 of the Act because it does not address the amendment, which is wider in scope than either the substance or intention of the Act.  It is a housekeeping point.  The Bill, in its interpretation, could be confined to the 2004 Act.  The 2004 Act does not bundle all birth certificates issued before 2004.  It is impractical to allow a vagueness in the text which may create future difficulties.  This small modification can close this off.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_39" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_56">Section 5 of the Civil Registration Act 2004 states:</p>
+          <p class="indent_1" eId="para_57">In so far as any ... certificate ... under an enactment repealed by section 4 could have been... issued ... under a corresponding provision of this Act, it shall not be invalidated by the repeals effected by section 4 but, ... shall have effect as if ... issued, ... under that corresponding provision.</p>
+          <p eId="para_58">The advice I received is that a birth certificate issued before the 2004 Act remains valid.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_40">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_59">I am happy to return to this matter on Report Stage.  Will the Minister of State examine the operation of the Civil Registration Act as I do not accept the Attorney General's interpretation?</p>
+        </speech>
+        <summary eId="sum_9" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_1.withdrawn" name="amendment"/>
+                </summary>
+        <speech by="#MichaelDHiggins" eId="spk_41">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_60">I move amendment No. 2:<entity refersTo="#bill.2007.30.dail.3.amd_2" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_61">In page 5, line 5, after "Act" to insert the following:</p>
+          <p class="indent_2" eId="para_62">"and for the purposes of <i>section 18(2)</i> to <i>(5)</i>, <i>19</i> and <i>25</i> includes a passport issued by the Minister before the commencement of <i>sections 6</i> and <i>7</i> that has ceased to be valid”.</p>
+          <p eId="para_63">This amendment relates to passports which have lapsed or have been cancelled.  It also covers some passports which may be valid but may not be covered by the Bill.  There is a drafting error in the section on the definition of a passport.  It includes passports issued before the Bill that are still valid.  However, in many cases, including the offence provisions and the requirement to surrender old passports on demand, it should include some passports that are no longer valid.  My amendment addresses this drafting flaw.  I welcome the sanctions in place.  I need not elaborate on all the possibilities of a cancelled passport.  I expect the Minister of State to accept this amendment on the grounds of certainty.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_42" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_64">I thank Deputy Higgins for raising the issue of passports which have expired before the commencement of the Bill.</p>
+          <p eId="para_65">My officials have been in consultation with the Office of the Director of Public Prosecutions and the Parliamentary Counsel regarding this amendment.  Our preliminary view is that there may be a need to amend section 19 to ensure there is power to prosecute offences committed involving passports which expired prior to commencement of the Bill.  We do not believe it is necessary to amend section 18 because cancellations will only apply to passports that are valid.  The issues raised by Deputy Higgins warrant further consideration.  It is important to ensure no loopholes are left in place.</p>
+          <p eId="para_66">I propose not to accept the amendment but will return to the issue on Report Stage.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_43">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_67">I welcome that approach.  The argument about section 18 is not robust because the claim is that if a passport were valid in the first instance and then cancelled, it could reach back and be justified.  That is a fragile approach.</p>
+          <p eId="para_68">The sections which contain provisions for sanctions and disciplines make the grounds unnecessarily weak.  I am happy to withdraw the amendment if this is further examined on Report Stage.</p>
+        </speech>
+        <summary eId="sum_10" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_2.withdrawn" name="amendment"/>
+                </summary>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_44">
+          <from>Chairman</from>
+          <p eId="para_69">Amendments Nos. 3 and 25 are related and will be discussed together.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_45" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_70">I move amendment No. 3:<entity refersTo="#bill.2007.30.dail.3.amd_3" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_71">In page 5, between lines 5 and 6, to insert the following:</p>
+          <p class="indent_2" eId="para_72">" "passport appeals officer" shall be construed in accordance with <i>section 19</i>;”.</p>
+          <p eId="para_73">I indicated on Second Stage in response to comments from Opposition Members that it was always my attention to provide for an appeals mechanism.  I accept it should be part of the Bill.</p>
+          <p eId="para_74">Under amendment No. 25, a person refused a passport or whose passport is to be cancelled will have the right of appeal to a passport appeals officer.  It is also proposed this term will be inserted in section 2 by amendment No. 3.</p>
+          <p eId="para_75">An appeal will apply on all decisions to refuse or cancel a passport except where the decision relates to a person's citizenship.  Citizenship matters are the responsibility of the Minister for Justice, Equality and Law Reform.  The Minister for Foreign Affairs does not have competence to take decisions in that area.  In line with existing practices, a person whose passport is refused or cancelled on the basis of citizenship, may raise the matter with the Minister for Justice, Equality and Law Reform.  Formal procedures are already in place which allow a person claiming to be a citizen to apply to the Minister for Justice, Equality and Law Reform for a certificate of nationality.</p>
+          <p eId="para_76">A passport appeals officer will be appointed by the Minister for Foreign Affairs for a three-year term.  An appointee must have knowledge or experience relating to the issue of passports.  He or she may be removed from office only for the reasons set out in subsection 7(<i>b</i>) of the proposed new section and shall be independent in the performance of his or her functions under the legislation.</p>
+          <p eId="para_77">Before making an appeal, an appellant will have access to a statement of reason for refusal or cancellation.  He or she can then make a case in writing to the passport appeals officer as to why the decision should be overturned.  The Minister is then required to provide written observations.  I intend to accept Deputy Higgins's amendment to allow a further response by the appellant to those observations.</p>
+          <p eId="para_78">An appeals officer may confirm a decision or recommend it should be set aside.  He or she shall provide reasons for this determination.  Where the Minister does not accept a recommendation, he or she shall inform the appeals officer and the appellant of the reasons for not doing so.</p>
+          <p eId="para_79">In practice, refusals and orders for cancellation are rare.  I expect only a small number of appeals will arise.  I regard the mechanism proposed by the amendment as reasonable.  While judicial review proceedings remain an option for a disappointed passport applicant, the appeals procedure provides a speedy and inexpensive additional means for a person to challenge a decision made by the Minister for Foreign Affairs to refuse or cancel a passport.</p>
+          <p eId="para_80">On Deputy Higgins's three amendments to amendment No. 25, two seek to include decisions to refuse or cancel a passport that are based on citizenship within the scope of the appeals mechanism.  Decisions made on citizenship are not covered by the appeals mechanism, as this is the responsibility of the Minister for Justice, Equality and Law Reform.  The Minister for Foreign Affairs does not have the competence to hear appeals in that area.  Accordingly, and in line with existing practice, a person whose passport is refused or cancelled on the basis of citizenship may raise the matter with the Minister for Justice, Equality and Law Reform.  As with all ministerial decisions, one has recourse to judicial review.  I do not propose to accept these two amendments to amendment No. 25.</p>
+          <p eId="para_81">The third amendment submitted by Deputy Higgins proposes that an appellant should have an opportunity to respond to observations made by the Minister in response to the appellant's initial appeal submission. Under the proposed appeals mechanism the appellant makes his or her case in writing and the Minister is required to provide written observations to the appeals officer and to the appellant.  The Deputy's proposed amendment requires that the appellant should have an opportunity to respond to those observations.  I have no difficulty with this proposal and can accept this amendment to amendment No. 25.  I commend amendments Nos. 3 and 25, the latter as amended by Deputy Higgins's third amendment, to the committee.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_46">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_82">The Minister of State has accepted the right of the appellant to reply to the Minister's decision.  My first amendment was a drafting one which would have inserted "(<i>a</i>)” and I understand the Minister of State’s point.  I attach importance, however, to my second one on the issue of a “decision on the ground that the person is not an Irish citizen”.   In rejecting this amendment the Minister of State suggests that this is a matter for the Minister for Justice, Equality and Law Reform.  Citizenship should be in the remit of the Minister for Foreign Affairs.  Too many decisions have been lodged with the Department of Justice, Equality and Law Reform where the process is imperfect and unfair.  While it is not for me to judge, many judges will have the opportunity to strike down the consequences of the Department’s decisions and actions that are not based on law.</p>
+          <p eId="para_83">If the Minister of State is willing to allow the point that an appellant could write back to seek the Minister's reasons for arriving at a particular decision, the idea that he would not allow that same facility when it has been suggested that the person is not an Irish citizen is remarkably defective in transparency.  This is good legislation and I welcome it and I am trying to make it strong.  However, I cannot see why the Minister of State is conceding such ground to the other Department, particularly one which has a bad record in law, although I am not asking the Minister of State to agree with me on that point.  I will press that amendment.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_47">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_84">The absence of an appeals process was a glaring omission in the original Bill.  Subsection (4) provides that: "The Minister may appoint one or more persons".  How does the Minister of State visualise this happening?  Will there be one officer or a few?  Will there be an open competition or will the Minister appoint someone from the Department?  The amendment also provides that the "appeals officer shall hold office for a term of 3 years".  Can an appeals officer be reappointed?</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_48">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_85">I welcome the Minister of State's accepting the principle of the need for an appeals system, in response to Opposition comments.  Its absence was a serious defect in the legislation as published.  For an appeals system to be valid it must be seen to be independent and it is usual in providing for an appeals mechanism that some criteria would be specified for the appointment of an appeals officer.  This issue may not give rise to many appeals but it is difficult to see how an appeals officer could be perceived and understood to be independent if this becomes an add-on position for a permanent civil servant in the Department of Foreign Affairs.</p>
+          <p eId="para_86">If it is only for a three-year term, the person's next appointment or continuing career in the Department may be determined by how he or she made those decisions.  It is necessary on Report Stage to flesh out who can be appointed to this position.  That person should not be a civil servant within the Department of Foreign Affairs but should be somebody independent of that Department and its Minister, otherwise the appeals system is not independent, although the legislation may claim it as such.</p>
+          <p eId="para_87">If the Minister furnishes observations in response to an appeal they must be passed on to the affected person who must have an opportunity to respond.  Is this envisaged as a written procedure?  The Minister will presumably want to have sight of the response to his or her observations.  Will there then be a ministerial response to the response?  This is a serious issue because the Minister's observations may relate to an individual and make claims about the individual's background or involvements, and may make assumptions about some activity in which the individual may engage.  The individual may respond and deal with that as best he or she can.</p>
+          <p eId="para_88">Two issues arise, namely, to protect the individual, and to ensure that when the appeals officer makes the decision he or she has the fullest information possible on the original basis for refusing the passport application.  There may be a difficulty in this without some sort of oral procedure or exchange in an appeal hearing.  It may affect only a few people but there is an ongoing difficulty.  While he has accepted the principle, I would like the Minister of State tease out the process before we get to Report Stage.</p>
+          <p eId="para_89">How quickly will an appeal be heard if several passport applications are turned down or revoked?  That could be particularly important were the Department to find itself unwittingly embroiled in a family dispute about passports in respect of the child of estranged parents who are at war with one another and one tries to stop the other from taking a child on vacation.</p>
+          <p eId="para_90">If an estranged father is taking a child on holidays and the passport is available but the mother lodges some objection so that the Department decides to revoke the passport, there may be an appeal against that with observations passing between the Minister and the father.  Would the mother see the appeal document filed by the father and have an opportunity to make observations on it?  This issue would be better left to the courts to deal with in proceedings taken under the Guardianship of Infants Act.  If that is the case then, in accepting the principle of an appeals system, the Minister must realise that not all appeals are, to use a horrible Latin legal term, <i>sui generis</i>.  Some appeals will have special features and it may be better that they are not dealt with.  Having said that there should be an appeals system for a series of areas, in the area of family disputes the Department could find itself embroiled in something better addressed by the courts.  Family proceedings can be dealt with at the level of the District Court without major expense to individuals.  Having accepted the principle of the appeals system there is a need to examine the complexities of different types of appeals, the best way to deal with them and the principles that should apply to them.</p>
+          <p eId="para_91">I agree with everything Deputy Higgins has said on citizenship and I believe the Minister will have difficulty dealing with it in this Bill.  When the Department of Justice, Equality and Law Reform decides to refuse citizenship there is no appellate procedure, no reasons are given, there is no transparency and, from time to time, the wrong decision is made and injustices occur.  I do not think this matter can be remedied in this Bill and, while I understand the Minister of State's difficulties, I support the important point of principle raised by Deputy Higgins.  It would be no harm for this committee to make its concerns clear regarding the lack of transparency in the Department in dealing with citizenship.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_49">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_92">I welcome the fact that the Minister has added the section relating to appeals but I am concerned at this section and section 12.  Refusing a passport is a serious decision and has implications relating to freedom of movement, particularly nowadays.  Nowhere in the Bill is it stated that a person refused a passport will receive the reasons for the decision.  This will make an appeal difficult because to make an appeal one needs to know the initial grounds for a decision and this should be factored into a refusal.</p>
+          <p eId="para_93">The passport appeals officer that is to be put in place can only recommend that the Minister's decision be set aside, according to the Minister's amendment.  If the position is to be independent then the passport appeals officer must have the power to set aside the Minister's decision.  The Minister is hardly likely to contradict himself by changing a decision he already made so there must be a mechanism that allows the appellant recourse to, for instance, the District Court.  I am loth to add extra work to the Courts Service but I do not know how often this would be necessary.  It is something that should be added to this legislation so when a person is refused a passport he or she can appeal and have an oral hearing where the reasons for refusal can be teased out.  The reason for refusal could be inaccurate.  It could be based on a perception gleaned from documentation the Minister was supplied with or it could be based on supposition and rumour.  A person refused a passport should have the right to go to court over the matter and if this is not added to this legislation it could be in breach of the Constitution.</p>
+          <p eId="para_94">The Minister holds discretionary powers in this matter and if a person refused a passport has no recourse to a fully independent adjudication process, this Bill could be struck down.  I will pass on some legal advice I was given on this matter.  The question is whether the provisions of this Bill, assigning powers to the Minister and his passport appeals officer to refuse or cancel passports, amount to a judicial function.  If so, they breach the principle of the separation of powers.</p>
+          <p eId="para_95">Without a process of appeal to the courts these powers will breach the separation of powers.  The relevant leading case law lays down the criteria for the determination of this question and cites Mr. Justice O'Flaherty in Keady <i>v</i>. Commissioner of the Garda Síochána, 1992.  The exercise is judicial in nature if there is a contest between the parties that can result in the infliction of punishment or liability.  A supplementary criterion was stipulated in another case by Mr. Justice Kingsmill Moore regarding the Solicitors Act 1954, namely, that the function be of far reaching effect and importance.</p>
+          <p eId="para_96">In this case the advice was that a person can contend that the provisions of the Passport Bill as currently stated, as they relate to the refusal and cancellation of passports, are repugnant to Article 37 of the Constitution.  There is a contest, as mentioned previously, between the appellant and the Minister.  A liability can be imposed, in that the applicant may be denied the liberty to travel outside the State.  It is of far reaching effect and importance, in that the right to leave one's home state has long been a sacrosanct benchmark of democracy.  The right to travel is protected by the Constitution in Article 40.3.3° and it is also a fundamental treaty right of all EU citizens; the suspension of this right is of far reaching consequence and importance.</p>
+          <p eId="para_97">Even though the Minister has acknowledged the need for an appeals process, this mechanism does not have the power to overturn a decision and does not allow recourse to the courts.  All of these issues must be addressed in the new section 19 and in section 12, to which we will return, because this area could have a major effect and determine whether a person can work.  If one's work is based on travelling one could be denied the right to provide for one's family on this basis.</p>
+          <p eId="para_98">I raised the issue of appeals on Second Stage and we have gone some way towards addressing the matter, though we must tidy it up on Report Stage.  I will submit amendments to the relevant sections, including the new section 19, section 12 and possibly section 2, to ensure this Bill is not struck down.  This is an important Bill that is long overdue and we must get it through the Oireachtas.  However, as others have said, it must be correct and beyond doubt.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_50" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_99">I thank the Deputies for the points raised.  Deputies Higgins and Shatter referred to my mentioning the Department of Justice, Equality and Law Reform regarding citizenship.  We cannot remedy the situation in this Bill.  Since the foundation of the State the question of citizenship has been covered by the Department of Justice, Equality and Law Reform and the points made are relevant but not dealt with in this Bill.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_51">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_100">The Minister of State can deal with my amendment as it simply seeks to leave a general right of appeal while it is the Government's drafting that introduces an exclusion.  I am suggesting this exclusion, based on the Minister's actions, be amended to leave a general right of appeal in the text, over which the Minister of State has total control.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_52" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_101">I can deal with the matter of appeals and the appeals officer if the Deputy so wishes.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_53">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_102">The issue of the appeals officer is separate and relates to autonomy and so on, about which good points have been raised.</p>
+          <p eId="para_103">In regard to my amendments, Nos. 1 to 3, inclusive, to amendment No. 25, although I am satisfied with the progress we have made, I am simply asking the Minister of State why he seeks to make an exemption under section 12(1)(<i>a</i>) when it is far neater to have a general right of appeal?  The latter would surely better facilitate a response in regard to issues of the adequacy of judicial review, constitutional compliance and so on.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_54" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_104">I reiterate that we do not have the right to trespass on the competence of another Department.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_55">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_105">I am not asking the Minister of State to do so.  I apologise for interrupting; I will await his response before making my reply.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_56" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_106">I said on Second Stage — Deputy Shatter accepted this — that there was no remedy as such in the Bill for what Deputy Higgins is suggesting.  His point is interesting but it is the responsibility of another Minister.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_57">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_107">When I give my final reply, I will confine myself to the text of the Bill.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_58" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_108">I will answer other Deputies' questions.  The passport appeals officer must be independent, that is, not a civil servant.  An appeals officer can be appointed for another term.  Both sides should have full sight of all submissions in regard to appeals.  The appeals officer may decide to hold an oral hearing, which is another aspect of the appeals procedure.  On the question of delays, the Minister can prescribe time limits for appeals.  He or she can bring forward regulations to flesh out the appeals mechanism, covering such issues as oral hearings.</p>
+          <p eId="para_109">Deputy Ó Snodaigh asked about refusals.  Under amendment No. 14 which we will deal with later, the Minister must give reasons for refusals.  The appeals mechanism is intended as an efficient and speedy means for administrative review.  There is the option of judicial review for a person aggrieved by any decision of the Minister.  I refer to an informal process rather than replicating the court system.  That is why we have provided for the role of passport appeals officer.  The Department has not refused a passport to an Irish citizen in recent years.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_59">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_110">I apologise that I must leave to attend another meeting.  An issue I did not mention but which may require further consideration is the curious provision in the proposed section 19(13), as provided for in amendment No. 25, where we establish the appeals officer with an appeals remit but leave the Minister with the option of not accepting the decision of the appeals officer.  This is tautological, serving only to create the perception of an independent appeals system.  The Minister, however, has discretion not to accept any decision of the independent appeals officer.  This taints the entire philosophy behind this aspect of the legislation.  Will the Minister of State explain the purpose of the provision?  The introduction of an appeals system is welcome but this subsection renders it somewhat farcical in that the Minister can reject a decision he does not like.  I put this down as a marker for Report Stage because we did not have the opportunity to deal with it fully.  I will propose that the subsection be deleted.  The Minister should be required to accept the decision of an appeals officer.  Otherwise, the entire system will lack credibility.</p>
+          <p eId="para_111">Section 19(13), as proposed by amendment No. 25, provides that the Minister shall inform the appeals officer and the appellant of his or her reasons for not accepting the appeal officer's decision.  This is bizarre in the extreme.  I accept the Minister of State's contention that this will affect few people.  However, some of the circumstances in which decisions on passports can be appealed or revoked are dangerous and inappropriate in a democratic country.  I do not know who will be administering the scheme in five or ten years' time.  However, I am concerned by this provision and the structure it creates.  We must be careful in this regard.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_60" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_112">It is unlikely that the Minister would disagree with the recommendation of an appeals officer.  The decision of the appeals officer can be the subject of judicial review.  I understand this is the route that would be taken if the Minister were not to accept the recommendation of the appeals officer.</p>
+        </speech>
+        <speech by="#AlanShatter" eId="spk_61">
+          <from>Deputy Alan Shatter</from>
+          <p eId="para_113">That is not what is proposed in the relevant section.  I apologise if I am misreading it.  Section 19(12), as proposed by amendment No. 25, reads:</p>
+          <p class="indent_1" eId="para_114">A passport appeals officer may, in determining an appeal under this section--</p>
+          <p class="indent_2" eId="para_115">(<i>a</i>) confirm the decision of the Minister, or</p>
+          <p class="indent_2" eId="para_116">(<i>b</i>) recommend that the decision of the Minister should be set aside,</p>
+          <p class="indent_1" eId="para_117">and he or she shall inform the Minister and the appellant concerned by notice in writing of his or her determination and the reasons for it.</p>
+          <p eId="para_118">The proposed subsection (13) reads:</p>
+          <p class="indent_1" eId="para_119">Where the Minister does not accept the recommendation of a passport appeals officer under <i>subsection (12)(b)</i>, the Minister shall inform the passport appeals officer and the appellant concerned by notice in writing and of the reasons for so doing.</p>
+          <p eId="para_120">In other words, the appeals officer can only recommend to the Minister that the original refusal be set aside.  The decision of the appeals officer is not described as such in this provision but is rather referred to as a "recommendation", which the Minister can refuse to accept.  This does not involve judicial review; it involves the Minister simply rejecting the recommendation.  Such a case might well end up in the courts under some form of judicial review.  My point is that under this provision, the appeals officer can make a recommendation but not a decision that is binding on the Minister.  That the latter can reject this recommendation undermines the credibility of the appeals procedure.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_62" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_121">I can only reiterate that the appeals officer is not a judicial person.  He or she will be independent and not a civil servant.  Where the Minister does not accept the recommendation of the passport appeals officer, the decision can be appealed under judicial review.  In such cases, the appellant's case in the judicial review would be strengthened by the positive recommendation of the appeals officer.  The latter's position is akin to that of the Office of the Ombudsman.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_63">
+          <from>Chairman</from>
+          <p eId="para_122">Members have made their points and may bring forward amendments on Report Stage.  Is amendment No. 3 agreed?</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_64">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_123">I understand the Chairman must first deal with my amendments to amendment No. 25.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_65">
+          <from>Chairman</from>
+          <p eId="para_124">Deputy Higgins's amendments to amendment No. 25 have been discussed in conjunction with amendments Nos. 3 and 25 but they will be dealt with in sequence.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_66">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_125">I apologise if I appear slow.  My understanding is that we are dealing with a group of amendments which includes amendment No. 25 in the name of the Minister.  I am pleased with its provisions.  However, we have also discussed amendments Nos. 1 to 3, inclusive, in my name to amendment No. 25.  The Minister of State has indicated he will accept one of these amendments.  The other two relate to the general right to appeal or the right to appeal that excludes what is contained in section 12(1)(<i>a</i>), as provided in the proposed section 19(1) under amendment No. 25.  The Minister of State has indicated that he is concerned to observe a relationship with the Department of Justice, Equality and Law Reform that I have suggested is imprudent.  </p>
+          <p eId="para_126">I will press the amendment in favour of there being a general, rather than limited, right of appeal.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_67">
+          <from>Chairman</from>
+          <p eId="para_127">The opportunity will arise for the Deputy later.  The Deputy has made it very clear he accepts what the Minister of State is doing.  He accepts the Minister of State's amendment but wishes to put down further amendments.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_68">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_128">I do not.  With respect, the Chairman is misconstruing my point.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_69">
+          <from>Chairman</from>
+          <p eId="para_129">They will arise afterwards anyway.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_70">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_130">My understanding of the Minister of State's amendment is that it does not accommodate a general right of appeal in so far as it excludes the issue of where a passport has been refused on the basis of citizenship.  I should make this clear because it is important, and I should explain the reason I am acting this way.  I need not be long.</p>
+          <p eId="para_131">The purpose of the Bill is to deal with the issuance, holding, cancellation and proper use of passports.  I am interested in the Minister of State retaining within the Department of Foreign Affairs the fullest competence in issuance.  Where we differ is that he is stating that in practice, the Minister for Justice, Equality and Law Reform would inform the Department of Foreign Affairs.  I am unhappy with that.</p>
+          <p eId="para_132">The Chairman may help me and tell me, if it is his reading of the Minister of State's amendment, that I still have space to amend the amendment now proposed.  I am happy to proceed if these issues can be left open for a later decision.  I will certainly not agree to something I have argued against.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_71">
+          <from>Chairman</from>
+          <p eId="para_133">I am not putting the question on that amendment.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_72">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_134">That is another decision.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_73">
+          <from>Chairman</from>
+          <p eId="para_135">We are dealing with amendment No. 3.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_74">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_136">I am afraid the Chairman has not answered the question.  Is this the Minister of State's amendment as tabled, or as amended by ourselves?  I am sorry but we need to clarify the matter now we have gone this way.  I did not think we would go in that way.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_75">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_137">We are dealing with amendment No. 3 on its own and not amendment No. 25.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_76">
+          <from>Chairman</from>
+          <p eId="para_138">That is right.  The point is the amendments are discussed together but I am putting the question only on amendment No. 3, which is to be agreed as I understand it.  Amendment No. 3 states:</p>
+          <p class="indent_1" eId="para_139">In page 5, between lines 5 and 6, to insert the following:</p>
+          <p class="indent_1" eId="para_140">""passport appeals officer" shall be construed in accordance with <i>section 19</i>;”.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_77">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_141">We will return to aspects, as Deputy Shatter stated, on Report Stage.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_78">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_142">We can consider the matter when we come to section 19.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_79">
+          <from>Chairman</from>
+          <p eId="para_143">That is right.  The Deputy can put the amendment to a vote at that stage.</p>
+        </speech>
+        <summary eId="sum_11" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_3.agreed" name="amendment"/>
+                </summary>
+        <summary eId="sum_12">Question proposed: "That section 2, as amended, stand part of the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_80">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_144">On Report Stage I will introduce an amendment to section 2, which we have completed consideration of.  The amendment will deal in particular with biometric data, which is defined in section 2 in the following way:</p>
+          <p class="indent_1" eId="para_145">"biometric data" means automated data comprising of information -</p>
+          <p class="indent_2" eId="para_146">(<i>a</i>) relating to distinctive physical characteristics of an individual,</p>
+          <p class="indent_2" eId="para_147">and</p>
+          <p class="indent_2" eId="para_148">(<i>b</i>) which may include measurements of such characteristics,</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_81">
+          <from>Chairman</from>
+          <p eId="para_149">That is okay.  The Deputy will introduce it on Report Stage, so once he mentions it now he can do so.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_82">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_150">I wish to outline my reasons so the Minister of State is aware of it in advance and may take on board the change.  All that is intended currently is facial recognition.  I suggest a term relating to "facial structure" should be there, rather than "physical characteristics".  If at a future date the Minister wished to add other biometric data to a passport or passports, he or she would have to return to the Oireachtas to do so by amending the legislation.  This would be required in the event of other characteristics, such as fingerprints, iris scans, etc., being included.</p>
+          <p eId="para_151">The nature of technology means we are now going in such a direction.  What is contained in the Bill allows the Minister much discretion, which is not fully appropriate.  This is where the amendment will be.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_83">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_152">When we come back on Report Stage I will consider the definition of data under section 1(1) of the 1988 Act, as well as the sections dealing with the usage of data.</p>
+        </speech>
+        <summary eId="sum_13" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_12"/>
+                </summary>
+        <summary class="Center" eId="sum_14">NEW SECTION.</summary>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_84">
+          <from>Chairman</from>
+          <p eId="para_153">Amendments Nos. 4 and 24 are related and will be discussed together by agreement.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_85" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_154">I move amendment No. 4:<entity refersTo="#bill.2007.30.dail.3.amd_4" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_155">In page 5, before section 3, to insert the following new section:</p>
+          <p class="indent_1" eId="para_156">3. — Where a notice is required to be sent or given to a person under this Act, it shall be addressed to the person concerned by name and may be sent or given to him or her in one of the following ways:</p>
+          <p class="indent_2" eId="para_157">(<i>a</i>) by delivering it to the person;</p>
+          <p class="indent_2" eId="para_158">(<i>b</i>) by leaving it at the address at which the person ordinarily resides or, in a case in which an address for correspondence relating to the application for the passport concerned has been provided to the Minister, at that address;</p>
+          <p class="indent_2" eId="para_159">(<i>c</i>) by sending it by post to the address at which the person ordinarily resides or, in a case in which an address for correspondence relating to the application for the passport concerned has been provided to the Minister,</p>
+          <p class="indent_1" eId="para_160">to that address.".</p>
+          <p eId="para_161">These amendments involve a technical adjustment to the Bill and their effect is to move the definition of "service of notices" from section 18 to a new section.  This move simplifies the Bill because references of notice in writing occur throughout the Bill and not just in section 18.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_86">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_162">We agree with that amendment.</p>
+        </speech>
+        <summary eId="sum_15" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_4.agreed" name="amendment"/>
+                </summary>
+        <summary class="Center" eId="sum_16">SECTION 3.</summary>
+        <summary eId="sum_17">Question proposed: "That section 3 stand part of the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_87">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_163">On Report Stage I will suggest that an amendment be inserted that any regulations under sections 8 or 19, which relates to the appeals officer, shall require prior approval of both Houses of the Oireachtas.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_88">
+          <from>Chairman</from>
+          <p eId="para_164">The Deputy has raised the issue and given notice of it.</p>
+        </speech>
+        <summary eId="sum_18" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_17"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_19" title="decision">Section 4 agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_4.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_20">SECTION 5.</summary>
+        <summary eId="sum_21">Question proposed: "That section 5 be deleted."</summary>
+        <speech by="#MichaelKitt" eId="spk_89" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_165">The Office of the Parliamentary Counsel has reviewed section 5 and the Long Title and is of the view that it would be appropriate to delete the section.  The deletion of the words "on the authority of the Government" from the Long Title is also therefore necessary.  I am advised these amendments will not affect the operation of the Bill.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_90">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_166">The Minister of State might explain why this section was originally included.  The previous legislation dealing with this area is the Minister and Secretaries Act 1924.  If that is the case, was the original section to make a connection to that very early legislation?  What is the effect of its removal?</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_91" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_167">The power to issue passports is an inherent State power which to date has rested with the Government.  The Bill provides for the regulation of that power by the Oireachtas and, accordingly, this section and words in the Long Title are not necessary.  This has been done on the advice of the Attorney General.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_92">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_168">So if a person was, for example, taking judicial review, who would that person sue?  Would it be the Minister for Foreign Affairs?</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_93" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_169">Yes.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_94">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_170">Rather than Ireland?</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_95" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_171">Yes.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_96">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_172">I am not anxious to upset this in any way but it is the first time I have ever seen in text that the functions of a Minister working on the authority of the Government is being regarded as redundant text.  I must reflect on it but in the meantime we can proceed.  I will have consulted somebody about it by Report Stage.</p>
+        </speech>
+        <summary eId="sum_22" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_21"/>
+                </summary>
+        <summary class="Center" eId="sum_23">SECTION 6.</summary>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_97">
+          <from>Chairman</from>
+          <p eId="para_173">Amendment No. 5 is related to amendments Nos. 6 and 7 and the amendments may be discussed together by agreement.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_98">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_174">I move amendment No. 5:<entity refersTo="#bill.2007.30.dail.3.amd_5" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_175">In page 5, subsection (1), line 40, to delete "may" and substitute "shall".</p>
+          <p eId="para_176">These amendments deal with the concept of getting a passport at birth.  It is proposed that someone without a passport today shall apply for a passport and thereafter, in conjunction with the births register, everybody would be issued with a passport.  Based on some of the Second Stage speeches on the Government side there seemed to be a misunderstanding of this.  It was the concept of one physical passport for life.  Under the provisions of section 9 the Minister has the power to prescribe periods of validity of the passport.  Having got a passport on day one, 90 years later the person would not necessarily have the picture of the bonnie baby in the passport.  The concept was that everybody would have an identity.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_99" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_177">The Bill, as drafted, permits a citizen to apply for a passport under section 6(1).  Similarly section 6(3) permits the making of an application by a parent or guardian on behalf of a child.  Having provided for the right to make an application, section 6(2) requires applications to be made in such form and be accompanied by such information and documents as may be required.  In other words, a citizen can choose whether to apply for a passport.  However, if he or she chooses to apply, the application must satisfy a number of mandatory requirements.  The various requirements, which must be satisfied in order to obtain a passport, are specified in the Bill.  There is no need to add any further provision which seeks to copperfasten the need for the compliance with those requirements.  Accepting the amendments could have the effect of making it mandatory for a citizen, or, in the case of a child, the guardian of a citizen to apply for a passport.  Therefore, I do not propose to accept these amendments.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_100">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_178">Is the Minister of State not accepting the amendments on the basis that the Government does not agree with having mandatory passports?</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_101" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_179">Each citizen has the right to apply for a passport but not an obligation.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_102">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_180">Without being too crude about it, when a calf is born it gets the equivalent of a passport.  We are talking about humans who have no passports.  While it might not be a concept with which we are familiar and I accept it is quite different, recently we had the case in Chad of orphaned children who were going to be sold on or deported.  Nobody knew who were their parents.  I read one report that suggested they were going to wait until people came in to see whether the children went towards the adults to determine whether they were their children.  My amendments would address such cases.  I do not regard it as draconian to make a passport mandatory.  The positives of having it far outweigh the possible negative implications.  I would like the Minister of State to give more consideration to the concept between now and Report Stage.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_103" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_181">This Bill is about regulating the passport system.  Deputy Timmins spoke on Second Stage about the passport as a type of identity card.  While I cannot guarantee anything, I will bear in mind what he said.  The Bill relates to the regulations and the rights of people to apply, without making it mandatory.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_104">
+          <from>Chairman</from>
+          <p eId="para_182">The Deputy is asking the Minister of State to give the matter consideration.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_105">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_183">While it would represent a shift in policy, it would have merit.  Based on what the Minister of State has said, I would be happy to withdraw the amendment.</p>
+        </speech>
+        <summary eId="sum_24" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_5.withdrawn" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_25" title="decision">Amendments Nos. 6 and 7 not moved.<entity refersTo="#bill.2007.30.dail.3.amd_6.notmoved" name="amendment"/>
+                    <entity refersTo="#bill.2007.30.dail.3.amd_7.notmoved" name="amendment"/>
+                </summary>
+        <summary eId="sum_26">Question proposed: "That section 6 stand part of the Bill."</summary>
+        <speech by="#MichaelDHiggins" eId="spk_106">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_184">On section 6(3)(<i>a</i>) I would welcome clarification on the term “a parent or guardian of the child”.  Does a parent include the natural parent and not simply the parent on the birth certificate?  What happens in the case of a natural father who cares for a child but is not the guardian?  It arises in later sections and we can tease it out in more detail there.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_107" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_185">If I understand the Deputy, he is asking who makes the application for a small child who cannot apply himself or herself.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_108">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_186">It will arise later in proceedings.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_109" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_187">In section 14.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_110">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_188">Regarding the term "a parent or guardian of the child", the legislation should envisage the possibility of parents mentioned on the birth certificate, natural parents who are guardians and a natural parent who is neither a guardian nor a person mentioned on the birth certificate.  Without having gone through the process of other legislation, for example the Guardianship of Infants Act, etc., such a person might be the main carer of the child.  Theoretically it could confer on a parent, who had done a flit and returned before the child was 18 years of age, a right to move the child even though the other parent, who would not qualify in these circumstances, was in fact the substantial carer.  Between now and Report Stage the Minister of State should ensure he is satisfied that all these hypothetical cases are covered.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_111" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_189">I will bear in mind what the Deputy has said.  We will be dealing with section 14 in greater detail and perhaps the Deputy should give his views at that point.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_112">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_190">Fine.</p>
+        </speech>
+        <summary eId="sum_27" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_26"/>
+                </summary>
+        <summary class="Center" eId="sum_28">SECTION 7.</summary>
+        <summary eId="sum_29">Question proposed: "That section 7 stand part of the Bill."</summary>
+        <speech by="#MichaelDHiggins" eId="spk_113">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_191">I will not delay too much on this section.  Here is the illumination of the contradiction to which I referred earlier regarding the exemption the Minister of State was not inclined to cede to me regarding having a general right of appeal.  The Minister must be satisfied that the person is an Irish citizen.  I could be difficult and ask how he does this.  A person has the right of appeal on a series of grounds.  However, given the authority ceded to the Minister for Justice, Equality and Law Reform, the Minister for Foreign Affairs is being used as a front for a decision without according the right of appeal.  The vindication has been lodged in another Department.  While we will be able to return to that matter on Report Stage, it illuminates the contradiction.</p>
+        </speech>
+        <summary eId="sum_30" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_29"/>
+                </summary>
+        <summary class="Center" eId="sum_31">SECTION 8.</summary>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_114">
+          <from>Chairman</from>
+          <p eId="para_192">Amendment No. 27 is cognate with amendment No. 8 and both may be discussed together by agreement.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_115" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_193">I move amendment No. 8:<entity refersTo="#bill.2007.30.dail.3.amd_8" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_194">In page 6, subsection (1), line 39, to delete "is required" and substitute "are required".</p>
+          <p eId="para_195">These amendments involve minor adjustments to the wording of the Bill arising from the fact that the word "data" is plural.</p>
+        </speech>
+        <summary eId="sum_32" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_8.agreed" name="amendment"/>
+                </summary>
+        <summary eId="sum_33">Question proposed: "That section 8, as amended, stand part of the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_116">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_196">This section deals with the processing of personal data.  We need to be very careful, considering what happened in England with regard to data being stored.  Subsection 8(2) allows the Minister to make arrangements, including contractual arrangements, for the processing of biometric data.  This is usually the buzzword for outsourcing or privatisation.  We need to be very careful about this aspect.  Do the Data Protection Acts provide sufficient protection?  A number of recent articles have examined how data, such as fingerprint data, which are used in other jurisdictions, can be reconstructed, even though they are stored in numbers, encrypted, and a fingerprint reproduced.  A person's identity or fingerprint can then be reproduced and the machines which are used for identifying somebody by their fingerprints can also be fooled.</p>
+          <p eId="para_197">I ask members to consider an article in <i>The Guardian</i> on 24 November 2007, written by Ben Goldacre, in which he explained how a Japanese mathematician fooled some of the fingerprint reader machines for a total cost of €20.  When the production of biometric data on passports is being considered, we need to be very careful.  I reserve the right to table an amendment on this section if my other amendment to section 2 is not accepted.  I will return to the other aspect of contractual arrangements which I do not agree with; it should be held and administered by the State, by civil servants.  It might not be as secure but at least the State is responsible rather than an outside company.  I will return to this matter on Report Stage.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_117" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_198">The Deputy has made a very good point that in Great Britain personal data were made available to as many as 25 million people.  Our Passport Office is undertaking a major review of procedures.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_118">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_199">Speaking on the section, this might be an appropriate point to note something positive on Committee Stage, the submission of this legislation to the Human Rights Commission of Ireland for its observations regarding its compliance with human rights law.  The rights issue attached to the use of data is a subject to which we could return on Report Stage.   I refer in particular to how this Bill will fit with the existing case law on the European convention.  It is one of the most dangerous areas.  I have no difficulty with the State having certain kinds of information for the management of its systems.  However, issues will arise in other sections of the Bill, for example, the privacy protection necessary for the acquisition of data and questions about the continuing and enhanced rights to privacy that arise with regard to the use of data.  There is a loose section relating to biometrics and the particular indicators that are in use now and that may be used in the future.  We may need to return to these issues.  I am happy enough with the general principles of the section.</p>
+        </speech>
+        <summary eId="sum_34" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_33"/>
+                </summary>
+        <summary class="Center" eId="sum_35">SECTION 9.</summary>
+        <summary eId="sum_36">Question proposed: "That section 9 stand part of the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_119">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_200">I asked this question of the previous Minister.  The holder should be warned six months or six weeks in advance of the expiry of a passport.  This would help the Department and the Passport Office because it would avoid putting them under pressure to deal with the issue of emergency passports.  I may table an amendment to allow the Passport Office to send out a letter to the last known address of the holder warning that the passport is due to expire.  This allows people such as holidaymakers to avoid sudden panic when they discover a passport is out of date.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_120">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_201">I refer to such discretion as is retained by the Minister.  We will need to deal with this issue substantively later.  With regard to the issue of transgender, if the Minister, for example, decides to issue a passport of a lesser period than is normal, is the Minister of State satisfied that, if all the other issues involved have been satisfied with regard to equal treatment, it is not in itself fundamentally an act of inequality?  No one is denying the Minister's right to discretion.  He could decide to issue passports for ten, 15 or 20 years.  However, when all the implications of the Foy case have been dealt with, how can the Minister of State justify issuing a passport from after the point of legal resolution?  How can he justify issuing the passport for a shorter period unless he is able to tell me that it would have been justified in circumstances that have no connection whatsoever with the specificities of the case, as might have been decided, for example, through questions or registration and so on?</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_121" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_202">My understanding is that the Minister has the discretion to do that.  As the Deputy said, this matter will be dealt with later.  He has the discretion to change the period of validity of the passport.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_122">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_203">This is descriptive, with respect.  I think he can try to do anything he likes.  This point was raised by the Human Rights Commission in its review of the legislation.  On what basis would one treat people differently; people who, unfortunately, have gone through a cumbersome process to legally vindicate issues of identity?  I will speak plainly.  If the Minister issued a passport for a shorter period on the basis of an identity issue that had been resolved, the Minister would be in breach of human rights provisions.  I strongly advise the Minister of State to seek clarification on this matter before Report Stage.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_123" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_204">I will investigate the point made by the Deputy.  The Minister would not restrict the eligibility of a transgender person as distinct from a child where there would be restrictions because of the age of the child.  This matter was referred to the Human Rights Commission and the proposal was warmly welcomed.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_124">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_205">The general idea of sending it to the Human Rights Commission is a first.  It is to be commended and I welcome it.  However, given that the commission offered an opinion, the Minister of State should reflect on it.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_125" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_206">In reply to Deputy Ó Snodaigh on notifying people regarding the expiry date of a passport, 630,000 Irish passports were issued at locations all over the world and this constitutes one of the difficulties of protecting people.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_126">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_207">I understand the difficulty.  Obviously, many passports expire every year and this would constitute an additional cost.  However, in this computerised age, it would only be the cost of a stamp.  One can configure a computer to issue a reminder to the last known address to the effect that a person's passport has expired.  The saving would arise from the ability of the Passport Office to work at a normal standard rate, rather than dealing with a rush in the months of April, May or whenever.  While I am not hung up on this proposal, it is intended to make matters somewhat more efficient.</p>
+        </speech>
+        <summary eId="sum_37" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_36"/>
+                </summary>
+        <summary class="Center" eId="sum_38">SECTION 10.</summary>
+        <summary eId="sum_39">Question proposed: "That section 10 stand part of the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_127">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_208">I have no problem with section 10 except that a number of people have been in contact with my office in recent years in respect of difficulties they have encountered in using the Irish language version of their name.  The law states that one can use the name on one's birth certificate and thereafter one must prove that one commonly uses the Irish language version of one's name.  To so do, one is obliged to change the name one uses for tax purposes and the like.  However, there is no reason to be so stringent in terms of language because one applies for a passport with one's unique PPS number.  While it is possible to use any name in any language, one's PPS number is unique.  This means that no other passport can be issued to someone else.  One would not be able to acquire two passports, one in one's English name and the other in one's Irish or African name, because only one PPS number exists.  I will try to table an amendment in this regard.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_128">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_209">Deputy Ó Snodaigh's suggestion was available to our distinguished former President, Eamon de Valera, who filled in the 1911 census as Edward de Valera.  As he subsequently was able to sign so much as Eamon de Valera, what applies to one citizen should apply to another.</p>
+        </speech>
+        <summary eId="sum_40" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_39"/>
+                </summary>
+        <summary class="Center" eId="sum_41">SECTION 11.</summary>
+        <speech by="#MichaelKitt" eId="spk_129" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_210">I move amendment No. 9:<entity refersTo="#bill.2007.30.dail.3.amd_9" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_211">In page 7, to delete lines 42 and 43 and substitute the following:</p>
+          <p class="indent_2" eId="para_212">"11.-(1) An applicant for a passport-".</p>
+          <p eId="para_213">This amendment proposes the deletion of the words "Subject to this Act".  After further consultation with the Office of the Attorney General, I have been advised that it is not necessary to retain this phrase and there are no implications for the operation of the Act arising from its deletion.</p>
+        </speech>
+        <summary eId="sum_42" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_9.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_43" title="decision">Section 11, as amended, agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_11.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_44">SECTION 12.</summary>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_130">
+          <from>Chairman</from>
+          <p eId="para_214">Amendment No. 10 is in the name of Deputies Timmins and Shatter.  As amendments Nos. 11 and 14 are related, amendments Nos. 10, 11 and 14 may be discussed together.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_131">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_215">I move amendment No. 10:<entity refersTo="#bill.2007.30.dail.3.amd_10" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_216">In page 9, subsection (1), between lines 1 and 2, to insert the following:</p>
+          <p class="indent_2" eId="para_217">"(<i>d</i>) a person who is refused a passport under <i>section 12(1)(c)(iii) </i>and, or <i>(iv)</i>
+                    </p>
+          <p class="indent_3" eId="para_218">shall be informed by the Minister of the reason or reasons for that refusal,".</p>
+          <p eId="para_219">This amendment proposes that someone who has been refused a passport would be informed of the reason.  The Minister of State's amendment No. 14 goes further than my amendment.  However, I seek clarity on the position of someone who is refused and who wishes to make a new application.  Is this covered in the Bill and, if so, how is it covered?  I seek the Minister of State's view in this regard.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_132" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_220">Amendment No. 10 as tabled by Deputy Timmins proposes that the Minister should be required to give reasons to a person where he or she refuses to issue a passport under section 12(1)(<i>c</i>)(iii) or section 12(1)(<i>c</i>)(iv).  These provisions deal with refusals on the basis of the common good or where a person might engage in actions that would endanger himself or herself or others.</p>
+          <p eId="para_221">Amendment No. 10 is superseded by amendment No. 14, which provides that when refusing under any of the provisions of section 12 to issue a passport to a person, the Minister must advise that person the grounds for the decision.  Deputies will appreciate that the scope to give detailed reasons will necessarily be more curtailed where a refusal or cancellation is on the basis of national security or the security of another state.  However, the intention is that the Minister will, as far as possible, give full information to an aggrieved person to ensure that he or she understands the reason an application has been refused and to enable him or her to exercise a right of appeal.  Accordingly, while I have no difficulty with the intention of amendment No. 10, I believe that amendment No. 14 covers this ground and that amendment No. 10 is not necessary.</p>
+          <p eId="para_222">Amendment No. 11 proposes to include a provision that a person who is refused a passport under section 12(1)(<i>c</i>)(iii) or section 12(1)(<i>c</i>)(iv) would have a right to make a new application at any time.  This amendment is unnecessary.  There is no provision in the Bill that prevents a person who is refused a passport from making a new application at any time.  This would be the case whether a refusal is based on section 12(1)(<i>c</i>) or indeed on any other provision of section 12.  The inclusion of the proposed amendment might even be construed as implying that such a prohibition applied in respect of refusals on other grounds and I do not believe that to be the Deputy’s intention.</p>
+          <p eId="para_223">I do not propose to accept amendments Nos. 10 and 11 and I commend amendment No.14 to members.</p>
+        </speech>
+        <summary eId="sum_45" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_10.withdrawn" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_46" title="decision">Amendment No. 11 not moved.<entity refersTo="#bill.2007.30.dail.3.amd_11.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#MichaelKitt" eId="spk_133" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_224">I move amendment No. 12:<entity refersTo="#bill.2007.30.dail.3.amd_12" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_225">In page 9, subsection (1)(<i>e</i>), lines 10 and 11, to delete “for the issue of a passport concerned” and substitute “concerned for the issue of a passport”.</p>
+          <p eId="para_226">This is a minor adjustment to the wording of section 12(1)(<i>e</i>), which involves moving the word “concerned” within the sentence.  The sentence makes more sense when amended and will state “in connection with the application concerned for the issue of a passport”.</p>
+        </speech>
+        <summary eId="sum_47" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_12.agreed" name="amendment"/>
+                </summary>
+        <speech by="#MichaelDHiggins" eId="spk_134">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_227">I move amendment No. 13:<entity refersTo="#bill.2007.30.dail.3.amd_13" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_228">In page 9, subsection (2)(<i>a</i>), line 23, after “or” to insert the following:</p>
+          <p class="indent_2" eId="para_229">"the person does not comply with <i>section 18(5)</i>, or”.</p>
+          <p eId="para_230">The purpose of this amendment is to make clear that persons who sold their passports, for example, on the black market, may be denied a new passport if they apply for one.  I urge the Minister of State to accept it.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_135" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_231">This amendment seeks to provide that the Minister can refuse to issue another passport to an applicant who refuses to surrender a passport previously issued to him or her.  Section 6(2)(<i>b</i>) provides that an application shall be accompanied by such information and documents in relation to the person as the Minister may require under section 7.  Section 7(2) further provides that the Minister may require an applicant for a passport to produce to him or her such documents as he or she considers necessary or expedient to enable him or her to perform the functions of the Minister under this Part.  The Minister is entitled, under these provisions, to require an applicant to submit a previous passport as part of his or her application for a new passport.  This is a normal part of the existing application process.  Power to refuse on the grounds that an applicant has not complied with section 6 is provided under section 12(2)(<i>a</i>):</p>
+          <p class="indent_1" eId="para_232">The Minister may refuse to issue a passport to a person if---</p>
+          <p class="indent_2" eId="para_233">(<i>a</i>) the application for the issue of a passport to the person does not comply with <i>section 6</i>.</p>
+          <p eId="para_234">Accordingly, it is not necessary to amend section 12 in the manner proposed and I do not propose to accept the amendment.</p>
+        </speech>
+        <summary eId="sum_48" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_13.withdrawn" name="amendment"/>
+                </summary>
+        <speech by="#MichaelKitt" eId="spk_136" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_235">I move amendment No. 14:<entity refersTo="#bill.2007.30.dail.3.amd_14" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_236">In page 9, between lines 26 and 27, to insert the following subsection:</p>
+          <p class="indent_1" eId="para_237">"(3) Where the Minister refuses to issue a passport to a person under this section, the Minister shall inform the person by notice in writing of the decision and the grounds for the refusal.".</p>
+        </speech>
+        <summary eId="sum_49" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_14.agreed" name="amendment"/>
+                </summary>
+        <summary eId="sum_50">Question proposed: "That section 12, as amended, stand part of the Bill."</summary>
+        <speech by="#MichaelDHiggins" eId="spk_137">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_238">I wish to make one point on section 12.  I refer to section 12(1)(<i>c</i>)(ii) and section 12(1)(<i>c</i>)(iii).  I am quite unhappy with these provisions in one respect, namely, that the language is too wide.  Section 12(1) provides that the Minister shall refuse to issue a passport to a person if the Minister is not satisfied the person is an Irish citizen or as to the identity of the person.  I will return to this point later.  Section 12(1)(<i>c</i>) empowers the Minister to refuse a passport when:</p>
+          <p class="indent_1" eId="para_239">the person would be likely in the opinion of the Minister, after consultation, where appropriate, with the Minister for Justice, Equality and Law Reform or the Minister for Defence or both, to engage in conduct that... might prejudice national security or the security of another state.</p>
+          <p eId="para_240">I can live with that.  However, a similar provision in respect of persons who "might endanger public safety or order" is far too wide.  Section 12(1)(<i>c</i>)(iii) includes those who would be likely to engage in conduct that “would be contrary to the common good”. I am happy with section 12(1)(<i>c</i>)(iv) which refers to those who might engage in conduct that “might endanger that person or others”.  The reference to persons who “might endanger public safety or order” is an extraordinary thing and Deputy Ó Snodaigh summed up the matter well when he referred to the importance of the right to travel and to hold a passport.  I will not go back over that ground because those points have been made but I question the part relating to persons who “might endanger public safety or order”.</p>
+          <p eId="para_241">A famous incident in Irish history, the Gralton case, saw a man deported from Leitrim on the basis that he was a threat to public safety.  When I reflect on that outrageous decision I realise I would not like to give this power to any Minister and I would like the Minister to justify such powers on the basis of public safety and public order.  We have heard the opinion of the Minister for Justice, Equality and Law Reform, but I have taken part in many public demonstrations and meetings and we were regularly outnumbered by gardaí at Shannon Airport when we protested against the war in Iraq.  Many people are beginning to realise now that that war was outrageous and illegal.  The language in this area of the Bill is too loose and, depending on the adequacy of the Minister's reply, I may have a vote on this section.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_138">
+          <from>Chairman</from>
+          <p eId="para_242">For clarity I repeat that amendment No. 14, which we have discussed, has been made.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_139" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_243">It is very unlikely that a Minister would refuse a passport application based on the common good.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_140">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_244">The Minister will have no choice in the matter if he or she wishes to act within the Constitution.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_141" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_245">I am coming to that point.  The provision is intended to provide the discretion necessary for exceptional cases.  The power to refuse a passport on the basis of common good is not unlimited and is subject to a number of obvious restrictions.  This is a recognised limitation on the right to travel explicitly identified by the courts.  The judgment that first found the constitutional right to travel explicitly used these words as a limiting factor on that right.  The common good is also a recognised concept in Irish legislation, for example, the Competition Act 2002.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_142">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_246">That is a bad example.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_143" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_247">It involves the Minister making assessments of the common good.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_144">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_248">Section 4 undermines trade union law.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_145" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_249">The concept of the common good and public safety is defined and clarified further by reference to the European Convention on Human Rights.  The Minister is also obliged by the European Convention on Human Rights Act 2003 to perform his functions in accordance with the convention.  This means in practice the restriction must be proportionate and applied reasonably.  Any refusal to issue a passport, including a refusal on the basis of the common good, may be appealed to the passport appeals officers and is also subject to judicial review.  This may answer some of the questions relating to the phrases "common good" and "public safety".</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_146">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_250">I support Deputy Higgins on this matter but I will not go on too much.  There is no reference to a refund of the fee submitted when a passport application is refused.  A person in such circumstances is entitled to a refund.  Should this be included in the legislation?</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_147" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_251">The practice is that the fee is always refunded and that will continue.</p>
+        </speech>
+        <summary eId="sum_51" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_50"/>
+                </summary>
+        <summary class="Center" eId="sum_52">SECTION 13.</summary>
+        <summary eId="sum_53">Question proposed: "That section 13 stand part of the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_148">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_252">I might introduce an amendment to section 13 regarding confining biometric data to facial structures.</p>
+        </speech>
+        <summary eId="sum_54" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_53"/>
+                </summary>
+        <summary class="Center" eId="sum_55">SECTION 14.</summary>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_149">
+          <from>Chairman</from>
+          <p eId="para_253">Amendment No. 18 is related to amendment No. 15 and they will be discussed together.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_150">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_254">I move amendment No. 15:<entity refersTo="#bill.2007.30.dail.3.amd_15" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_255">In page 9, subsection (1), line 37, after "child" to insert the following:</p>
+          <p class="indent_1" eId="para_256">"and, if the father of the child is not a guardian but is named on the birth certificate of the child, such father,".</p>
+          <p eId="para_257">I have referred to the purpose of amendment No. 15.  Section 14(1) states:</p>
+          <p class="indent_1" eId="para_258">Subject to this section, the Minister shall, before issuing a passport to a child, be satisfied on reasonable grounds that each person who is a guardian of the child consents to the issue of a passport to the child.</p>
+          <p eId="para_259">My amendment would change the text to read as follows: "be satisfied on reasonable grounds that each person who is a guardian of the child and, if the father of the child is not a guardian but is named on the birth certificate of the child, such father,".  This is a reasonable amendment.</p>
+          <p eId="para_260">Amendment No. 18 will have the effect of adding the following between lines 46 and 47:</p>
+          <p class="indent_1" eId="para_261">It shall not be lawful for a parent who is a guardian of a child to remove the child from the State, or retain the child outside the State, without the consent of the other parent, in the absence of an order of a court, provided that the other parent was named on the birth certificate or was exercising any care, access or entitlement in respect of the child during the period of 12 months prior to the removal or retention.</p>
+          <p eId="para_262">I am addressing in this amendment a situation I gave notice of earlier.  A parent might care for a child after the child's other parent left, say, to find himself or herself in Latin America or Thailand.  If the parent returns 15 years later he or she may take the child away from the parent who has reared the child.  This is the legal position and I am anxious that the parent who gave due care be represented in a matter as important as the issuing of a passport.</p>
+          <p eId="para_263">People will read my amendments as addressing the issue of certain unmarried fathers, which has been dealt with.  We must go in this direction anyway given other committees relating to children's rights and it is in the interest of the child.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_151" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_264">The long-established procedure regarding the issuing of passports to children, as defined in section 14(1) as drafted, is that the consent of all guardians must be sought before issuance of a passport to a child or, as provided for in section 14(3), a court order dispensing with consent must be obtained.  The courts have approved this practice as prudent.</p>
+          <p eId="para_265">The position under the Guardianship of Infants Act 1964 is that married parents are joint guardians of their children.  By contrast, the father of a child born outside marriage is not automatically a guardian of his child.  Where a father is not a guardian of a child, he may apply to the courts to be appointed guardian.  Alternatively, he may become guardian of the child by making a statutory declaration with the child's mother agreeing to his appointment as guardian.  These options apply regardless of whether he is named on the child's certificate of birth.  Where a father is appointed guardian his consent must be obtained prior to the issue of a passport in the same way the consent of other guardians must be obtained.  Provision is also made under section 14(2) for a parent who is not a guardian.  While the Minister is entitled to issue a passport to a child without the consent of the non-guardian parent, he must have regard to the circumstances of the case in so far as they are known to him.  This provision allows the necessary flexibility for account to be taken of the evolving legal position under the European Convention on Human Rights.  The trend under such case law is to reflect the importance of the substance rather than the strict legal form of family relationships.  For example, it may be the case that a non-guardian parent comes under the European convention's guarantee of respect for family life by virtue of the fact that he or she lives with and cares for a child even though he or she has not formally become that child's guardian.  In exceptional cases, therefore, section 14(2) will provide scope for taking such factors into account where appropriate and where known to the Minister.  This is consistent with the Minister's obligation under the European Convention on Human Rights Act 2003 to exercise his functions in accordance with the State's applications under the convention.</p>
+          <p eId="para_266">In summary, the proposed amendment would involve a fundamental change regarding the issuance of passports to children by assigning absolute rights of consent to non-guardian fathers.  I cannot accept this amendment because to do so would be to wholly remove the framework of consent for children's passports from the established legal position on rules of guardianship.</p>
+          <p eId="para_267">Amendment No. 18 deals with issues outside the remit of the Passports Bill.  The purpose of the Bill is to provide for the issue of passports and the processing of personal debt in that regard, to provide for the cancellation and surrender of passports in certain circumstances and to provide for offences relating to passports.  In other words, it is to regulate the passport service.  The Bill deals with the rights of applicants, including children to apply for passports.  It deals in some detail with the rights of guardians in consenting to the issue of passports.  Very strict rules apply in this regard.  The bottom line is that the consent of all guardians to the issue of a passport or, alternatively, a court order dispensing with that consent is required.  A passport can be issued without the consent of a guardian or guardians only in the limited and exceptional circumstances defined by the Bill.  The amendment proposed by the Deputy deals with the separate issue of removal of a child from the State and it is not appropriate to include it in legislation dealing with the administration of the passport service.  Accordingly, I do not propose to accept the amendment.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_152">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_268">My view, which is a conservative one, is that the case I describe is entitled to be accommodated in legislation.  I am neither a judge nor a member of the European court so I consider the legislation before me on the basis of whether it can handle a certain situation.  My responsibility is to see it handled in the legislation, not to say that if this happened and something else happened it could be decided in one of the other pillars.  For that reason I agree with much of what the Minister of State said about not having difficulties with issuance of passports.  However, one carries a burden when one takes on the responsibility of issuance, and this includes being able to justify those who have been included and those who have been excluded.</p>
+          <p eId="para_269">The Minister of State referred to evolving jurisprudence at EU level.  Yes, it is going in the direction of the child.  However, the Minister of State is asking me to be satisfied with a residual category of ministerial discretion.  Frankly, I am not.  What I would like is to have the opportunity of considering this over lunch, as the Chairman mentioned earlier.  If the Chairman wishes to decide before lunch I am afraid I will have to press it further.</p>
+          <p eId="para_270">I want to be clear in my interpretation of the Minister of State's reply.  His answer to amendment No. 15 was not very clear.  We are not disagreeing about cases in which guardianship is established, we are talking about a situation in which a person has looked after a child but has not been appointed guardian.  If the Minister tells me I am interfering, my reply will be robust and it will be to ask him why, if he tells me to stay out of the Guardianship of Infants Act, he is reaching into it for justification.  He is the issuing authority for passports and it seems he will be issuing passports without giving a certain type of guarantee to a certain type of parent.  I am standing my ground on this.</p>
+          <p eId="para_271">On amendment No. 18, which relates to people moving outside the State, I am not talking in the abstract.  The Minister may reflect on the G case, for example, and its implications.  That involved movement out of the jurisdiction.</p>
+          <p eId="para_272">If the Chairman wishes to take a break he may do so.  However, I will summarise my position before he does so.  The position of the unmarried father, although I am not making a case only on these grounds, is extremely precarious.  No matter how long the relationship, no matter how old the children or how involved the father is, the mother is sole guardian and can under law, as it is generally understood, remove the children from the country without his knowledge.  Many would say that is just.  The Minister of State says that we cannot deal with this in the Bill, but the Minister is the person who issues the passport so he is involved.  My first amendment offers a solution, which is only an interim solution, that if the unmarried father is named on the birth certificate he must consent before a passport is issued to the child.</p>
+          <p eId="para_273">The second amendment, with the previous one, deals with cases such as that in which a woman who is part of an ostensibly stable family can take the children abroad without the notice, consent or knowledge of the natural father.  This is intolerably unjust and those who issue passports to facilitate this are operating unjustly.  I did not want to go into it, but I suggest, as the Minister of State referred to the drift taking place in European decisions, that the decision of the Supreme Court in the G case is compatible with the High Court decision that dealt with broader issues not addressed by the Supreme Court.  I am taking the two decisions together in justification of my position.  I am happy to reflect on this over a break if the Chairman so wishes.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_153" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_274">I do not have much more to add to the points made clearly by the Deputy.  A general answer would be that, as Deputy Higgins will accept, we are not involved in social policy.  We are talking about regulating the passport service.  It is not to do with the social issues raised by the Deputy.</p>
+        </speech>
+        <summary eId="sum_56">Sitting suspended at 12.58 p.m. and resumed at 2 p.m.</summary>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_154">
+          <from>Chairman</from>
+          <p eId="para_275">We are on section 14.  Amendments Nos. 15 and 18 are related and are being discussed together.  Does the Minister of State wish to reply.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_155" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_276">I shall respond to some of the points made by Deputy Higgins on the rights of non-guardian parents and consent to issuing a passport.  A parent of a child, whether or not named on the child's birth certificate, has a right to apply to the District Court to be appointed guardian.  Once appointed in this way that parent's consent must be obtained.  Changing the rights of a non-guardian parent through legislation is a family law matter and the Passports Bill is designed to regulate the passports service, as I said earlier.  It is not an appropriate vehicle to introduce changes in family law.  Such matters are best handled by other Departments, such as the Departments of Health and Children and Social and Family Affairs.</p>
+          <p eId="para_277">Section 14(2) permits the Minister to take account of the circumstances of the case in deciding whether or not to issue a passport to a child without the consent of a non-guardian parent.  This discretion will allow the Minister to consider the views and rights of non-guardian parents.  The Deputy referred to the G case.  In the G case, the father of the children had applied to the courts to be appointed guardian.  Section 14(2) would enable the Minister to take such actions into account in deciding whether non-guardian parents' consent should be required.</p>
+          <p eId="para_278">I wish to point out that amendment No. 16, if adopted, would have the effect of deleting section 14(2) and would leave the Minister without any discretion whatsoever to take account of the rights and views of non-guardian parents.  I would certainly echo the Deputy's remark that at the heart of the matter is what is best for the child.  Some discretion is, therefore, necessary to ensure that children's welfare is safeguarded.</p>
+          <p eId="para_279">I regard section 14(2) as a reasonable and necessary provision.  While I appreciate and understand the Deputy's concerns I regret I am not in a position to accept the amendments.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_156">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_280">I have reflected on this during our break in relation to amendments Nos. 15 and 18.  It occurred to me that I was, in fact, addressing the parent rather than the Minister.  For Report Stage I will think of a formulation that addresses the issue of issuance with a specific reference to the Minister, taking account of such other protections and capacities as exist.  It is my hope that the Guardianship of Infants Act can be amended fundamentally to take account of what I am saying.  Then the issue would be whether this legislation had the capacity to take account of the amended legislation in regard to guardianship.  I read section 14(2) in that regard.  Therefore, in order to make it certain, I reserve the right to come back on Report Stage with a formulation of words that would be directed at the Minister rather than the parents.  I am inclined to concede to the argument of the more fundamental issues in the guardianship legislation.  Therefore, my wording, for in so far as it is directed at parents, would be more appropriately directed, for this purpose, at the powers and responsibilities of the Minister.  I will return to it in that way on Report Stage.  For that reason I withdraw the amendment.</p>
+        </speech>
+        <summary eId="sum_57" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_15.withdrawn" name="amendment"/>
+                </summary>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_157">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_281">I move amendment No. 16:<entity refersTo="#bill.2007.30.dail.3.amd_16" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_282">In page 9, lines 39 to 43, to delete subsection (2).</p>
+          <p eId="para_283">This amendment is similar to the principles outlined by Deputy Higgins.  Deputy Shatter raised this issue on Second Stage.  Where there is a dispute between parents, we believe that the Bill should prescribe a mechanism whereby the matter can be referred to the relevant court dealing with family disputes under the Guardianship of Infants Act 1964.  Like Deputy Higgins I ask the Minister to look at the matter between now and Report Stage.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_158" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_284">As I have already said in regard to the previous amendment, the general rule on the issuing of passports to children remains as set out in section 14(1).</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_159">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_285">Could I ask the Minister not to repeat it if it is the same.</p>
+        </speech>
+        <summary eId="sum_58" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_16.withdrawn" name="amendment"/>
+                </summary>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_160">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_286">I move amendment No. 17:<entity refersTo="#bill.2007.30.dail.3.amd_17" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_287">In page 10, lines 37 to 43, to delete subsection (8).</p>
+          <p eId="para_288">This amendment concerns the signature of one of the parents, that it should not hold fast <i>ad infinitum, </i>and that agreement would be necessary for a second passport to be issued after the prescribed period for that passport had expired.  We did not have time to formulate an amendment on it.  I do not know if the Minister has a view on it but, if not, we will table an amendment for Report Stage.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_161" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_289">The amendment proposed by Deputy Timmins and Deputy Shatter relates to the issue of parental consent.  This is an issue which faces all passport services throughout the world.  In Britain, only one parent or guardian is required to give permission for a passport for a child under 16 years of age, even for the first passport.  I understand that starting from this month, neither guardian needs consent to the issue of a passport to a person of 16 or 17 years of age.</p>
+          <p eId="para_290">In Ireland, the practice of the Passport Office to date has been to require the written consent of each guardian every time a child is to be issued with a passport.  I believe that all guardians should be consulted on the issue of the first passport to a child.  On the other hand, our current system is causing many difficulties for parents.  Today, the structure of the family is changing with many parents working away from home.  Parents might suddenly decide to join a spouse for Christmas in places such as Dubai, New York, Singapore, etc.  They then discover that their child's passport is out of date and there is no time to get the other parent's signature on the consent form.  In such circumstances, parents frequently find it difficult to understand, when they have previously indicated their consent on the issue of a passport, why they have to have to give consent for a second, third or fourth time in respect of the same child.  Therefore, a balance has to be struck which takes the interests of the child and his or her family into consideration.  Section 14(8) seeks to provide that flexibility.</p>
+          <p eId="para_291">The section permits the Minister to regard consent in writing by a guardian to the issue of a passport as consent to the issue of subsequent passports, unless that consent is revoked in writing.  Accordingly, unless such consent is revoked the written consent of one guardian will be sufficient for subsequent applications.  This would permit the issue of a passport in the circumstances I have described above and is the most humane and fairest position.  However, I fully share the Opposition's concern that this new section does not lead to abuse.  Therefore, on the passport application form, parents will be fully briefed on the implications of providing enduring consent and of their right to revoke that consent in writing at any time in the future.</p>
+          <p eId="para_292">Accordingly, while the Deputy Timmins, and Deputy Shatter if he was present, have raised a very important point I do not accept the amendment.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_162">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_293">I am happy to withdraw the amendment.</p>
+        </speech>
+        <summary eId="sum_59" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_17.withdrawn" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_60" title="decision">Amendment No. 18 not moved.<entity refersTo="#bill.2007.30.dail.3.amd_18.notmoved" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_61" title="decision">Section 14 agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_14.agreed" name="section"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_62" title="decision">Section 15 agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_15.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_63">SECTION 16.</summary>
+        <speech by="#MichaelDHiggins" eId="spk_163">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_294">I move amendment No. 19:<entity refersTo="#bill.2007.30.dail.3.amd_19" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_295">In page 12, subsection (1), line 9, after "duties" to insert the following:</p>
+          <p class="indent_1" eId="para_296">"or for related or other purposes in accordance with generally accepted international practice".</p>
+          <p eId="para_297">Like myself, the Chairman should declare an interest as a former Minister.  Some confusion arises in this section.  I recall a distinguished colleague and friend of mine, David Andrews, with whom I travelled, saying to me that he was making a regulation that former Ministers would have diplomatic passports for the rest of their natural lives, and he did not confine it to Ministers for Foreign Affairs.  I will outline my position.</p>
+          <p eId="para_298">A parliamentary question was tabled to the Minister for Foreign Affairs and he confirmed that, as a matter of course, diplomatic passports were given to all previous holders of the office of Minister for Foreign Affairs.  I note in that reply the departure from the memory of the distinguished Kingstown republican.  That is difficult to square with the requirements of section 16 which states that such a passport can only be given for travel in connection with official duties.  Rather like having been ordained, one is ordained forever and the Minister cannot assume that a former Minister for Foreign Affairs will be forever involved in diplomatic activity.  I am sure when they travel abroad diplomats flock to them for their advice, wisdom and so forth.</p>
+          <p eId="para_299">I am offering the Minister a way out of that in a way that will maintain dignity.  The section as it stands states: "an officer of the Minister of diplomatic rank, or ... for the purpose of facilitating him or her to travel abroad in connection with the performance of official duties".  I suggest including "or for related or other purposes in accordance with generally accepted international practice".  Otherwise, the Minister will require them to surrender their diplomatic passport after every sojourn abroad.  They might go on peace building missions to the Middle East.  If Martin McGuinness and Ian Paisley are heading to Iraq to build peace, I am sure they will handle it in their way in their jurisdiction but the section is unclear.</p>
+          <p eId="para_300">When someone ceases to be a Minister, and the Chairman and I have had that distinguished experience, although he much more so, they become an ordinary citizen perfectly happy with their ordinary passport.  If someone is travelling abroad for a specified diplomatic purpose, they are issued with a diplomatic passport.  The Minister should decide, and this is the only construction I can put on it, that every former Minister for Foreign Affairs will continue to perform official duties for the rest of his or her life or accept the amendment because they may be engaged in other duties and therefore can hold on to the passport while doing those duties.  I am in favour of the Minister taking the narrow view, should he wish, which is that when they leave Iveagh House they join the rest of us, or the other view which is that they are anointed forever, so to speak.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_164" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_301">Section 16, as drafted, permits the Minister to issue a diplomatic passport to an officer of the Minister of diplomatic rank or, under subsection (1)(<i>b</i>), to a person or one of a class of persons to whom the Minister considers it appropriate to issue such a passport.  That permits reasonably broad discretion to designate who should be eligible for a diplomatic passport.  We are talking about a broad definition.  The section makes it clear that such passports are intended to be issued in connection with the performance of official duties abroad.  That is in line with international practice.  It is not permitted, for example, to use a diplomatic passport for travel for unofficial purposes such as personal travel or holiday travel.  Individuals should use their personal passports for those purposes.</p>
+          <p eId="para_302">A strict approach is required in this area to preserve the integrity of Irish diplomatic passports.  I see no value or need to extend the purposes for which diplomatic passports may be issued.  The existing wording, "travel abroad in connection with the performance of official duties", is sufficiently broad.  The proposed amendment is unnecessary and I do not propose to accept it.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_165">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_303">All that is at stake was dignity.  Ministers, for example, have occasionally found it difficult to forget they were Ministers and have found themselves using their diplomatic passports.  The amendment is to save them any embarrassment.  Perhaps we should not say any more about it lest I be encouraged to draw on events.  I withdraw the amendment.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_166">
+          <from>Chairman</from>
+          <p eId="para_304">I do not want to become involved in the debate.  I, too, would have some views on it.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_167">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_305">I will be watching you carefully now.</p>
+        </speech>
+        <summary eId="sum_64" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_19.withdrawn" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_65" title="decision">Section 16 agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_16.agreed" name="section"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_66" title="decision">Section 17 agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_17.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_67">SECTION 18.</summary>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_168">
+          <from>Chairman</from>
+          <p eId="para_306">Amendments Nos. 20, 21 and 23 are related and may be discussed together.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_169">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_307">I move amendment No. 20:<entity refersTo="#bill.2007.30.dail.3.amd_20" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_308">In page 13, subsection (1)(<i>a</i>), line 3, after “issued” to insert the following:</p>
+          <p class="indent_1" eId="para_309">"and if cancelled under <i>section 12(1)(c)(iii)</i> and, or <i>(iv)</i> that person shall be informed by the Minister of the reason or reasons for that cancellation, and that person at any time may make a new application”.</p>
+          <p eId="para_310">The same principle applicable in amendments Nos. 10 and 11 and the Minister of State's amendment No. 14 applies in this amendment.  I withdraw the amendment.</p>
+        </speech>
+        <summary eId="sum_68" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_20.withdrawn" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_69" title="decision">Amendment No. 21 not moved.<entity refersTo="#bill.2007.30.dail.3.amd_21.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_170">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_311">I move amendment No. 22:<entity refersTo="#bill.2007.30.dail.3.amd_22" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_312">In page 13, subsection (1), lines 14 to 18, to delete paragraph (<i>d</i>).</p>
+          <p eId="para_313">The same principle applicable in amendment No. 16 applies in this amendment.  I have asked the Minister of State to examine it and therefore withdraw this amendment.</p>
+        </speech>
+        <summary eId="sum_70" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_22.withdrawn" name="amendment"/>
+                </summary>
+        <speech by="#MichaelKitt" eId="spk_171" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_314">I move amendment No. 23:<entity refersTo="#bill.2007.30.dail.3.amd_23" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_315">In page 13, between lines 24 and 25, to insert the following subsection:</p>
+          <p class="indent_1" eId="para_316">"(2) Where a passport issued to a person is cancelled under <i>subsection (1)</i>, the Minister shall inform the person by notice in writing of the cancellation and the grounds for it.”.</p>
+        </speech>
+        <summary eId="sum_71" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_23.agreed" name="amendment"/>
+                </summary>
+        <speech by="#MichaelKitt" eId="spk_172" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_317">I move amendment No. 24:<entity refersTo="#bill.2007.30.dail.3.amd_24" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_318">In page 13, lines 40 to 49 and in page 14, lines 1 to 3, to delete subsection (6).</p>
+        </speech>
+        <summary eId="sum_72" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_24.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_73" title="decision">Section 18, as amended, agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_18.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_74">NEW SECTION.</summary>
+        <speech by="#MichaelKitt" eId="spk_173" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_319">I move amendment No. 25:<entity refersTo="#bill.2007.30.dail.3.amd_25" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_320">In page 14, before section 19, to insert the following new section:</p>
+          <p class="indent_1" eId="para_321">19.-(1) A person who, in relation to an application for the issue of a passport to him or her, is dissatisfied with a decision of the Minister under <i>paragraph (b)</i>, <i>(c)</i>, <i>(d)</i>, <i>(e)</i> or <i>(f)</i> of <i>subsection (1)</i>, or <i>subsection (2)</i>, of <i>section 12</i> may appeal the decision to a passport appeals officer.</p>
+          <p class="indent_1" eId="para_322">(2) A person who, in relation to the cancellation of a passport issued to him or her, is dissatisfied with a decision of the Minister under <i>paragraph (a)</i> (other than a decision on the ground that the person is not an Irish citizen), <i>(c)</i>, <i>(d)</i>, <i>(e)</i> or <i>(f)</i> of <i>section 18(1)</i> may appeal the decision to a passport appeals officer.</p>
+          <p class="indent_1" eId="para_323">(3) A person who is entitled to apply for the issue of a passport on behalf of another person under <i>section 6</i> may appeal a decision of the Minister referred to in <i>subsection (1)</i> or <i>(2)</i> on behalf of that other person.</p>
+          <p class="indent_1" eId="para_324">(4) The Minister may appoint one or more persons who, in the opinion of the Minister, have knowledge or experience relating to the issue of passports, to be a passport appeals officer (in this Act referred to as "a passport appeals officer").</p>
+          <p class="indent_1" eId="para_325">(5) A passport appeals officer shall hold office for a term of 3 years.</p>
+          <p class="indent_1" eId="para_326">(6) A passport appeals officer shall be paid such remuneration (if any) and such allowances for expenses as the Minister, with the consent of the Minister for Finance, may from time to time determine.</p>
+          <p class="indent_1" eId="para_327">(7) A passport appeals officer may---</p>
+          <p class="indent_2" eId="para_328">(<i>a</i>) resign from office by letter addressed to the Minister and the resignation shall take effect on the date on which the Minister receives the letter,</p>
+          <p class="indent_2" eId="para_329">(<i>b</i>) be removed from office by the Minister but only if, in the opinion of the Minister, he or she has become incapable through ill-health of effectively performing his or her functions under this Act or has committed stated misbehaviour.</p>
+          <p class="indent_1" eId="para_330">(8) A passport appeals officer shall be independent in the performance of his or her functions under this Act.</p>
+          <p class="indent_1" eId="para_331">(9) An appeal under this section shall be made in writing to a passport appeals officer and shall be accompanied by a statement of the grounds relied on by the appellant.</p>
+          <p class="indent_1" eId="para_332">(10) The passport appeals officer shall forward a copy of the appellant's statement under <i>subsection (9)</i> to the Minister.</p>
+          <p class="indent_1" eId="para_333">(11) The Minister shall furnish observations in writing relating to the grounds of appeal to the passport appeals officer and a copy of such observations to the appellant concerned.</p>
+          <p class="indent_1" eId="para_334">(12) A passport appeals officer may, in determining an appeal under this section</p>
+          <p class="indent_2" eId="para_335">(<i>a</i>) confirm the decision of the Minister, or</p>
+          <p class="indent_2" eId="para_336">(<i>b</i>) recommend that the decision of the Minister should be set aside,</p>
+          <p class="indent_1" eId="para_337">and he or she shall inform the Minister and the appellant concerned by notice in writing of his or her determination and the reasons for it.</p>
+          <p class="indent_1" eId="para_338">(13) Where the Minister does not accept the recommendation of a passport appeals officer under <i>subsection (12)(b)</i>, the Minister shall inform the passport appeals officer and the appellant concerned by notice in writing and of the reasons for so doing.</p>
+          <p class="indent_1" eId="para_339">(14) An appellant may withdraw an appeal under this section by sending a notice of withdrawal to the passport appeals officer.</p>
+          <p class="indent_1" eId="para_340">(15) The Minister may prescribe time limits for the making and determination of appeals under this section and such ancillary, supplemental or consequential matters as may be necessary for giving full effect to this section.".</p>
+          <p eId="para_341">As I said when discussing the introduction of an appeals mechanism, refusals and orders for cancellation are rare in practice.  I expect only a small number of appeals will arise.  I regard the mechanism proposed by amendments Nos. 3 and 25, and further amended in line with Deputy Higgins's amendment, as reasonable.  While judicial review proceedings remain an option for a disappointed passport applicant, this appeals procedure provides a quick and inexpensive additional means for a person to challenge a decision of the Minister to refuse or cancel the passport.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_174">
+          <from>Chairman</from>
+          <p eId="para_342">There is an amendment to amendment No. 25.  I call Deputy Higgins to move the amendment to the amendment.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_175">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_343">I move amendment No. 1 to amendment No. 25:<entity refersTo="#bill.2007.30.dail.3.amd_25.amd_1" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_344">In the second line of subsection (1), after "<i>paragraph</i>” to insert “<i>(a)</i>,”.</p>
+          <p eId="para_345">The Minister of State has accepted one of my amendments.  With regard to my third amendment, my intention is that where the Minister has reached a conclusion and is offering observations, they should be made available before the decision is made.  I ask the Minister of State to consider this.  If the Minister wishes to avoid the challenge of judicial review, he is more likely to do so by making the Minister's observations available before the final decision is noted.  If he does it the other way, that is, gives the decision and the <i>ex post facto</i> quasi-rationalisation of the decision, he will make himself more vulnerable because the appellant’s only recourse will be judicial review.  If he was willing to offer his observations, he would, to an extent, be operating on safer ground.  That is the basis for third amendment.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_176" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_346">We agreed that the reasons for the decision should be given.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_177">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_347">Yes, but this relates to the sequence.  It depends on how one does it.  I am suggesting the Minister could avoid hassle by allowing the considerations to be known before the decision is given.  The Minister of State might think about it before Report Stage.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_178">
+          <from>Chairman</from>
+          <p eId="para_348">The Deputy has moved amendment No. 1 to amendment No. 25.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_179">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_349">Yes.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_180">
+          <from>Chairman</from>
+          <p eId="para_350">Is the Deputy withdrawing it?</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_181">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_351">The Minister of State is accepting amendment No. 2 to amendment No. 25.</p>
+        </speech>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_182">
+          <from>Chairman</from>
+          <p eId="para_352">Or is he accepting amendment No. 3 to amendment No. 25?</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_183">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_353">No, we are discussing it.</p>
+        </speech>
+        <summary eId="sum_75" title="decision" refersTo="#withdrawn">Amendment to amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_25.amd_1" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_76" title="decision">Amendment No. 2 to amendment No. 25 not moved.<entity refersTo="#bill.2007.30.dail.3.amd_25.amd_2.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#MichaelDHiggins" eId="spk_184">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_354">I move amendment No. 3 to amendment No. 25:<entity refersTo="#bill.2007.30.dail.3.amd_25.amd_3" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_355">In the third line of subsection (11), after "concerned", to insert "and the appellant shall be afforded an opportunity to reply thereto".</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_185" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_356">I will accept amendment No. 3 to amendment No. 25.  We will reflect on what the Deputy said on the other points.</p>
+        </speech>
+        <summary eId="sum_77" title="decision" refersTo="#agreed">Amendment to amendment agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_25.amd_3" name="amendment"/>
+                </summary>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_186">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_357">Does the Minister of State have a view on the issue raised by my colleague, Deputy Shatter, with respect to subsection (13) which provides that if the appeals officer makes a recommendation, the Minister still has the authority to overrule it?</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_187" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_358">The appeals mechanism is intended to be informal and speedy for administrative review.  As I mentioned, it will work in a similar way to the Ombudsman system.  Any recommendation would carry much weight.  As the appeals officer is not a judicial figure and not an alternative to the courts — we are not involved in the court system — it would not be appropriate to give judicial powers to him or her.  It will remain open to the applicant to take the judicial review course at any time.  His or her case in court would be greatly strengthened by the recommendation of the appeals officer.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_188">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_359">In this case, I am inclined to agree with the Minister of State.  There is certain merit in retaining an element of ministerial discretion.  I would be reluctant to confer finality on others.</p>
+        </speech>
+        <summary refersTo="#agreed" eId="sum_78" title="decision">Amendment No. 25, as amended, agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_25.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_79" title="decision">Amendment No. 26 not moved.<entity refersTo="#bill.2007.30.dail.3.amd_26.notmoved" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_80" title="decision">Section 19, as amended, agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_19.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_81">SECTION 20.</summary>
+        <speech by="#MichaelKitt" eId="spk_189" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_360">I move amendment No. 27:<entity refersTo="#bill.2007.30.dail.3.amd_27" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_361">In page 15, subsection (1)(<i>b</i>), line 43, to delete “that data” and substitute “those data”.</p>
+        </speech>
+        <summary eId="sum_82" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_27.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_83" title="decision">Section 20, as amended, agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_20.agreed" name="section"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_84" title="decision">Sections 21 to 25, inclusive, agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_21.agreed" name="section"/>
+                    <entity refersTo="#bill.2007.30.dail.3.sec_22.agreed" name="section"/>
+                    <entity refersTo="#bill.2007.30.dail.3.sec_23.agreed" name="section"/>
+                    <entity refersTo="#bill.2007.30.dail.3.sec_24.agreed" name="section"/>
+                    <entity refersTo="#bill.2007.30.dail.3.sec_25.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_85">SECTION 26.</summary>
+        <speech by="#MichaelKitt" eId="spk_190" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_362">I move amendment No. 28:<entity refersTo="#bill.2007.30.dail.3.amd_28" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_363">In page 17, between lines 14 and 15, to insert the following subsection:</p>
+          <p class="indent_2" eId="para_364">"(3) An application to the Minister for the issue of a passport to a person made before the commencement of <i>sections 6</i> and <i>7 </i>that was not determined before that commencement shall, on that commencement, be deemed to be an application for the issue of a passport to the person under this Act and this Act shall apply to the application accordingly.”.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_191">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_365">I move amendment No. 1 to amendment No. 28:<entity refersTo="#bill.2007.30.dail.3.amd_28.amd_1" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_366">In the fifth line of subsection (3), after "accordingly" to insert the following:</p>
+          <p class="indent_1" eId="para_367">"; and a passport issued before the commencement of <i>sections 6</i> and <i>7 </i>shall not be deemed invalid solely on the grounds that it was not issued under any express power conferred by an enactment”.</p>
+          <p eId="para_368">This amendment is necessary for clarification.  Subsection (1) does not validate previous passports issued without statutory authority.  The amendment would be an appropriate housekeeping provision to deal with this.  This legislation is important.  It is the first time since the 1920s that comprehensive legislation has been introduced in this area.  The amendment would be helpful.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_192" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_369">Amendment No. 28 is a technical amendment to ensure clarity about the treatment of passport applications lodged but not yet determined before commencement of sections 6 and 7 of the legislation.  It provides that all such applications shall be treated as if they were made after the commencement of the Act.</p>
+          <p eId="para_370">The amendment to amendment No. 28 proposed by Deputy Higgins seeks to add a saver in respect of the validity of passports issued prior to the enactment of this legislation.  Passports are and have been since the foundation of the State issued by the Minister for Foreign Affairs under the executive power of the State on the authority of the Government.  This practice is perfectly legitimate.  Enactment of the Passports Bill will simply substitute a legislative basis for the exercise of this function.  Passports previously issued will not be invalidated because of the technical change in the basis of the power to issue.  Section 26(1) already provides that a passport issued before commencement that is valid shall be deemed to have been issued under the Act and continue to be valid for the unexpired period of its validity.  Accordingly, the proposed amendment to amendment No. 28 is unnecessary and I do not propose to accept it.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_193">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_371">I was about to yield but the reference to section 26 is difficult because there is a hint of tautology.  The Minister of State is arguing that it is deemed to be valid.  That is weak.  The advantage of the amendment is that it is explicit and provides texts to point to in the legislation, rather than relying on a construction.  I will not delay the committee on this matter but I suggest that the Minister of State is arguing for what might be called a principle of continuity or consistency in terms of interpretation, rather than certainty in the text of the legislation.  I am offering the Minister of State words that make the matter certain, rather than being a matter of conjecture and I ask him to consider them.</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_194" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_372">I will look at that matter for Report Stage.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_195">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_373">I thank the Minister of State.  On that understanding I will withdraw the amendment.</p>
+        </speech>
+        <summary eId="sum_86" title="decision" refersTo="#withdrawn">Amendment to amendment, by leave, withdrawn.<entity refersTo="#bill.2007.30.dail.3.amd_28.amd_1" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_87" title="decision">Amendment No. 28 agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_28.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_88" title="decision">Section 26, as amended, agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_26.agreed" name="section"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_89" title="decision">Section 27 agreed to.<entity refersTo="#bill.2007.30.dail.3.sec_27.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_90">TITLE.</summary>
+        <speech by="#MichaelKitt" eId="spk_196" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_374">I move amendment No. 29:<entity refersTo="#bill.2007.30.dail.3.amd_29" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_375">In page 3, lines 6 and 7, to delete "ON THE AUTHORITY OF THE GOVERNMENT".</p>
+          <p eId="para_376">The Office of the Parliamentary Counsel has reviewed section 5 and the Long Title and is now of the view that it would be appropriate to delete the section.  The deletion of the words "ON THE AUTHORITY OF THE GOVERNMENT" from the Long Title is therefore also necessary.  I am advised that these amendments will not affect the operation of the Bill.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_197">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_377">I am happy to accept the amendment, while noting the observations I made previously.</p>
+        </speech>
+        <summary eId="sum_91" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2007.30.dail.3.amd_29.agreed" name="amendment"/>
+                </summary>
+        <summary eId="sum_92" title="decision" refersTo="#agreed">Title, as amended, agreed to.<entity refersTo="#bill.2007.30.dail.3.title.agreed" name="section"/>
+                </summary>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_198">
+          <from>Chairman</from>
+          <p eId="para_378">I thank Deputies for their co-operation in completing the Bill on Committee Stage.  I also thank the Minister of State and his staff, not to mention the staff of the House.  Does the Minister of State wish to make any final comments?</p>
+        </speech>
+        <speech by="#MichaelKitt" eId="spk_199" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Michael P. Kitt</from>
+          <p eId="para_379">I thank the Chairman and his officials, in addition to Deputy O'Hanlon and my Opposition colleagues, Deputies Timmins, Higgins, Shatter and Reilly.  It was a good idea to take a break and get through the Bill.  As Deputy Higgins said, it is unusual for the Department of Foreign Affairs to come to this committee with legislation but I am glad we have got it through.  In particular, I wish to thank my own officials for their great work in drafting the Bill and dealing with members' queries.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_200">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_380">I thank the Minister of State, his officials and the staff of the committee.  I hope the Minister of State will bear in mind a few important issues that were raised and that he will examine them between now and Report Stage.</p>
+        </speech>
+        <speech by="#MichaelDHiggins" eId="spk_201">
+          <from>Deputy Michael D. Higgins</from>
+          <p eId="para_381">I wish to be associated with the remarks that have been made.  I am glad the Bill is progressing, as it updates the position.  It has been a long time since this issue was considered with a view to placing it on a firm footing.  I hope we will use the time before Report Stage to consider the matters that have been raised today.  Any advances that are made concerning guardianship should also be incorporated in the textual adjustments we may make on Report Stage.  The passport issue should not be dragged into an atmosphere of assertion and counter-assertion between parents and forms of parenthood.</p>
+        </speech>
+        <summary eId="sum_93">Bill reported with amendments.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_4">
+        <heading>Message to Dáil.</heading>
+        <speech by="#MichaelJWoods" as="#Chairman" eId="spk_202">
+          <from>The Chairman</from>
+          <p eId="para_382">In accordance with Standing Order 87 the following message will be sent to the Dáil:</p>
+          <p class="indent_1" eId="para_383">The Select Committee on Foreign Affairs has completed its consideration of the Passports Bill 2007 and has made amendments thereto.</p>
+        </speech>
+        <summary eId="sum_94">The select committee adjourned at 2.35 p.m. <i>sine die</i>.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

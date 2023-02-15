@@ -1,0 +1,683 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/roghchoiste_na_gaeilge_na_gaeltachta_agus_phobal_labhartha_na_gaeilge/2021-02-16/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/roghchoiste_na_gaeilge_na_gaeltachta_agus_phobal_labhartha_na_gaeilge/2021-02-16/debate"/>
+          <FRBRdate date="2021-02-16" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/33/roghchoiste_na_gaeilge_na_gaeltachta_agus_phobal_labhartha_na_gaeilge"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/roghchoiste_na_gaeilge_na_gaeltachta_agus_phobal_labhartha_na_gaeilge/2021-02-16/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/roghchoiste_na_gaeilge_na_gaeltachta_agus_phobal_labhartha_na_gaeilge/2021-02-16/debate/mul@"/>
+          <FRBRdate date="2021-02-16" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/roghchoiste_na_gaeilge_na_gaeltachta_agus_phobal_labhartha_na_gaeilge/2021-02-16/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/roghchoiste_na_gaeilge_na_gaeltachta_agus_phobal_labhartha_na_gaeilge/2021-02-16/debate/mul@.akn"/>
+          <FRBRdate date="2023-01-13" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_16" outcome="#lost" refersTo="#sum_15">
+            <count eId="vote_1-count_1" href="#qty_1" refersTo="#ta" value="3"/>
+            <count eId="vote_1-count_2" href="#qty_2" refersTo="#nil" value="5"/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#debates">
+        <TLCConcept eId="#lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#carried" href="/ie/oireachtas/ontology#DeclaredCarried" showAs="Declared Carried"/>
+        <TLCConcept eId="#staon" href="/ie/oireachtas/ontology#StaonVote" showAs="Staon Vote"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="AindriasMoynihan" href="/ie/oireachtas/member/id/Aindrias-Moynihan.D.2016-10-03" showAs="Aindrias Moynihan"/>
+        <TLCPerson eId="CatherineConnolly" href="/ie/oireachtas/member/id/Catherine-Connolly.D.2016-10-03" showAs="Catherine Connolly"/>
+        <TLCPerson eId="DaraCalleary" href="/ie/oireachtas/member/id/Dara-Calleary.D.2007-06-14" showAs="Dara Calleary"/>
+        <TLCPerson eId="EamonOCuiv" href="/ie/oireachtas/member/id/Éamon-Ó-Cuív.S.1989-10-01" showAs="Éamon Ó Cuív"/>
+        <TLCPerson eId="JackChambers" href="/ie/oireachtas/member/id/Jack-Chambers.D.2016-10-03" showAs="Jack Chambers"/>
+        <TLCPerson eId="JoeMcHugh" href="/ie/oireachtas/member/id/Joe-McHugh.S.2002-09-12" showAs="Joe McHugh"/>
+        <TLCPerson eId="MarcOCathasaigh" href="/ie/oireachtas/member/id/Marc-Ó-Cathasaigh.D.2020-02-08" showAs="Marc Ó Cathasaigh"/>
+        <TLCPerson eId="PaDaly" href="/ie/oireachtas/member/id/Pa-Daly.D.2020-02-08" showAs="Pa Daly"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>Select Committee on the Irish Language, the Gaeltacht and the Irish-speaking Community</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Roghchoiste na Gaeilge, na Gaeltachta agus Phobal Labhartha na Gaeilge</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2021-02-16">Dé Máirt, 16 Feabhra 2021</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2021-02-16">Tuesday, 16 February 2021</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Tháinig an Roghchoiste le chéile ag 01:00 p.m.</summary>
+        <summary class="Center" eId="sum_2">The Select Committee met at 01:00 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_3">Comhaltaí a bhí i láthair / Members present:</summary>
+          <table>
+            <tr>
+              <th>
+                <p eId="para_1">Teachtaí Dála / Deputies</p>
+              </th>
+              <th>
+                <p eId="para_2"/>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#DaraCalleary">Dara Calleary</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#JackChambers">Jack Chambers</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#CatherineConnolly">Catherine Connolly</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#PaDaly">Pa Daly</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#JoeMcHugh">Joe McHugh</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#AindriasMoynihan">Aindrias Moynihan</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#MarcOCathasaigh">Marc Ó Cathasaigh.</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_4">I láthair / In attendance: Deputy Éamon Ó Cuív.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#AengusOSnodaighSF">Teachta / Deputy Aengus Ó Snodaigh sa Chathaoir / in the Chair.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Gnó an Roghchoiste.<recordedTime time="2021-02-16T13:00:00+00:00"/></heading>
+        <speech by="#AengusOSnodaighSF" eId="spk_1">
+          <from> Chairman<recordedTime time="2021-02-16T13:00:00+00:00"/></from>
+          <p eId="para_10">Leanfaidh an seisiún seo den chruinniú ar aghaidh go dtí 3 p.m. agus ag an am sin cuirfear an cruinniú ar athló go dtí 1 p.m. ar an 23 Feabhra, mura bhfuilimid críochnaithe faoin am sin. Cuirim fáilte roimh Phríomh-Aoire an Rialtais agus an tAire Stáit atá freagrach don Ghaeltacht, spóirt agus cosaint, an Teachta Chambers, agus roimh a oifigigh, Aodhán Mac Cormaic agus Micheál Ó Conaire. Is comhalta <i>ex officio</i> den roghchoiste é an tAire Stáit agus, mar sin, cuirfear san áireamh é i gcomhair an chóraim agus an liosta vótála. Tá leithscéal faighte agam ón Teachta Calleary. Tá súil aige a bheith linn roimh dheireadh an chruinnithe. Tá sé ina Chathaoirleach ar choiste eile faoi láthair.</p>
+          <p eId="para_11"> Iarraim ar chomhaltaí na fóin póca a mhúchadh nó a chur ar mód ciúin. Meabhraím do chomhaltaí an gá cloí leis an achar sóisialta le linn an chruinnithe seo.</p>
+          <p eId="para_12"> Tionóladh an cruinniú seo chun athbhreithniú a dhéanamh ar Bhille na dTeangacha Oifigiúla (Leasú), 2019. Rachaimid ar aghaidh chuig an mBille agus leanfaimid ar aghaidh lenár mbreithniú air.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Bille na dTeangacha Oifigiúla (Leasú), 2019: Céim an Choiste (Atógáil).<recordedTime time="2021-02-16T13:00:00+00:00"/></heading>
+        <summary eId="sum_6"> Atógadh an díospóireacht ar leasú Uimh. 47:</summary>
+        <summary eId="sum_7">
+          <b>“Leasú ar alt 8 den Phríomh-Acht</b>
+        </summary>
+        <summary eId="sum_8"><b>4.</b> Leasaítear alt 8 den Phríomh-Acht tríd an bhfo-alt seo a leanas a chur isteach i ndiaidh fho-alt (6):</summary>
+        <summary eId="sum_9">“(7) (a) San fho-alt seo, ciallaíonn ‘Acht 1961’ Acht na gCúirteanna (Forálacha Forlíontacha), 1961.</summary>
+        <summary eId="sum_10">(b) Leasaítear alt 5 d’Acht 1961 tríd an bhfo-alt seo a leanas a chur isteach i ndiaidh fho-alt (7):</summary>
+        <summary eId="sum_11">‘(8) (a) Beidh an cumas ag aon duine cáilithe de réir an ailt seo Bunreacht na hÉireann a léamh agus a thuiscint ina iomláine sa dá theanga oifigiúla sula gceapfar é nó í ina Bhreitheamh nó ina Breitheamh den Chúirt Uachtarach.</summary>
+        <summary eId="sum_12">(b) Beidh feidhm ag an bhfo-alt seo maidir le gach ceapachán a dhéanfar tar éis theacht i ngníomh Acht na dTeangacha Oifigiúla (Leasú), 2021.’.”.”</summary>
+        <summary eId="sum_13">- (An Teachta Aengus Ó Snodaigh)</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_2">
+          <from> Chairman<recordedTime time="2021-02-16T13:00:00+00:00"/></from>
+          <p eId="para_13">Nuair a cuireadh an cruinniú deireanach ar athló, bhí mé féin chun labhairt faoi leasú Uimh. 47, a bhaineann le halt 4. Bhí an tAire Stáit tar éis freagra a thabhairt ar mo leasú, áit ina raibh mé ag déanamh impí air glacadh leis an leasú seo. Bhí moladh ó Chonradh na Gaeilge agus bhí an Coimisinéir Teanga tar éis an méid seo a lua roimhe seo; gur chóir go mbeadh eolas gníomhach ag teacht ón státchóras maidir leis an soláthar seirbhísí Gaeilge atá ar fáil.</p>
+          <p eId="para_14">Má tá seirbhísí á soláthar ag an státchóras, ba chóir go mbeadh sé mar chuid dá obair déanamh cinnte de go bhfuil a fhios ag an bpobal go bhfuil siad ar fáil. Mar sin, bheadh a fhios ag daoine gur féidir leo na seirbhísí sin a éileamh, rud a chuirfeadh leis an éileamh atá ann. Thug mé roinnt samplaí an lá deireanach. Nuair a foilsíodh ceannteidil na reachtaíochta seo in 2017, bhí sé i gceist go mbeadh tairiscint ghníomhach ann. Ba é sin an téarma ar baineadh úsáid aisti chun é seo a chur chun cinn. Bhí sé i gceist go mbeadh an tairiscint ghníomhach seo i gceist maidir le seirbhísí comhlachtaí poiblí ach níor tháinig a leithéid de mholadh os ár gcomhair go dtí seo. Táim ag súil go bhféachfaidh an tAire Stáit air seo arís nó, ar a laghad, go n-inseoidh sé dúinn cén fáth nár tharla sé agus cén fáth nár leanadh leis an gceannteideal seo a luadh nuair a cuireadh an dréacht-Bhille le chéile siar in 2017. Muna bhfuil a fhios ag pobal na Gaeilge go bhfuil fáil ar sheirbhísí i nGaeilge, ní dhéanann siad éileamh orthu. Casann siad ar an mBéarla toisc go bhfuil sé i bhfad Éireann níos tapúla ná bheith ag fanacht ar dhuine le Gaeilge a fháil, ar fhoirm a aistriú nó ar a leithéid. Go minic, is de bharr deifre a dhéanann muintir na Gaeilge agus na Gaeltachta seirbhísí Béarla a úsáid. Bíonn stró agus moill i gceist go minic nuair atáthar ag iarraidh seirbhís i nGaeilge a fháil. Tá súil agam go mbeadh an tAire Stáit in ann díriú isteach air seo.</p>
+          <p eId="para_15"> Tá i bhfad Éireann níos mó le rá faoin gceist seo ná mar atá ráite agam inniu ach an féidir leis an Aire Stáit míniú a thabhairt dúinn cén fáth nár lean na dréachtóirí leis an gcinneadh a rinne an Comh-aireacht sa chéad dul síos in 2017?</p>
+        </speech>
+        <speech by="#JackChambers" eId="spk_3">
+          <from>Deputy Jack Chambers<recordedTime time="2021-02-16T13:10:00+00:00"/></from>
+          <p eId="para_16">Maidir le leasú Uimh. 47, cé nach bhfuil sé i gceist agam glacadh leis an leasú seo go díreach, táim ar aon intinn leis an Teachta go dteastaíonn seirbhísí poiblí den scoth ag lucht labhartha na Gaeilge. Trí na forálacha agus na caighdeáin a eascróidh astu, beidh mapa bóthair againn chun déileáil leis an mórcheist seo. Tá sé soiléir go bhfuil an Rialtas an-tiomanta don Ghaeilge a chur chun cinn mar a sonraítear sa chlár Rialtais. Beidh an státchóras níos láidre de bharr an Bhille seo. Creidim go mbeidh deiseanna ann do Ghaeilgeoirí amach anseo. Táim muiníneach go mbeidh seirbhísí d'ardchaighdeán Gaeilge ar fáil don phobal agus geallaim don choiste go ndéanfaidh mé mo sheacht ndícheall chun an sprioc seo a bhaint amach. Ní mór a nótáil go bhfuil gealltanas sonrach tugtha faoi sprioc 4.6 den phlean gníomhaíochta don Ghaeilge go gcuimseofaí córas na gcaighdeán an tairiscint ghníomhach. Deirtear ann, "Déanfar cinnte de go gcuimseoidh córas na gcaighdeán, atá le cur i bhfeidhm, an tairiscint ghníomhach i ndáil le seirbhísí as Gaeilge." Mar sin, ní bheidh mé ag glacadh leis an leasú. Beidh an tairiscint ghníomhach luaite go sonrach sna caighdeáin teanga atá á ndréachtú le teacht in áit chóras na scéimeanna teanga.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_4">
+          <from> Chairman<recordedTime time="2021-02-16T13:10:00+00:00"/></from>
+          <p eId="para_17">Glacaim leis sin. Beimid ag teacht ar ais chuig ceist na gcaighdeán teanga agus cé chomh sonrach is atá an méid atá ann sa reachtaíocht faoi na caighdeáin. An bhfuil an tairiscint ghníomhach ann mar cheann de na nithe atá clúdaithe sna caighdeáin? An bhfuil sé leagtha amach iontu gur gá do chomhlachtaí agus Ranna Stáit an tairiscint ghníomhach sin a dhéanamh? Mar a dúirt mé, tiocfaimid ar ais chuige sin ach arís is trua é nach bhfuil dréacht den mhéid atá sna caighdeáin teanga againn. B'fhéidir go mbeadh an tAire Stáit in ann sampla, seachas dréacht, nach bhfuil dírithe ar chomhlacht amháin nó ar chomhlacht eile, a thaispeáint dúinn faoin am a shroichfimid é. Leis sin, thuigfimis go sonrach cad atá i gceist sna caighdeáin sin seachas cad atá ann sna forálacha seo. Dá mbeadh sampla againn, bheimis in ann a rá go bhfuil botúin nó bearnaí ann ó thaobh an chur chuige a bheidh ann sna caighdeáin sin atá le rith faoin mBille.</p>
+          <p eId="para_18"> An bhfuil aon duine eile ag iarraidh caint ar leasú Uimh. 47? Bhí muid ag caint faoi an lá faoi dheireadh. Níl a fhios agam an bhfuil aon duine eile ag iarraidh aon rud a rá faoi sula mbogfaidh mé ar aghaidh chuig an gcéad cheann eile.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_5">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:10:00+00:00"/></from>
+          <p eId="para_19">Táimid ag caint faoi leasú Uimh. 47. Níl an tAire Stáit chun glacadh leis, an bhfuil?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_6">
+          <from> Chairman<recordedTime time="2021-02-16T13:10:00+00:00"/></from>
+          <p eId="para_20">Tá sé díreach tar éis é sin a mhíniú dúinn. Ar mhaith leat go míneoidh sé arís é?</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_7">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:10:00+00:00"/></from>
+          <p eId="para_21">Níl aon ghá leis sin.</p>
+        </speech>
+        <speech by="#JackChambers" eId="spk_8">
+          <from>Deputy Jack Chambers<recordedTime time="2021-02-16T13:10:00+00:00"/></from>
+          <p eId="para_22">Níl. Thóg mé an freagra.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_9">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:10:00+00:00"/></from>
+          <p eId="para_23">An bhfuil sé ag glacadh leis an leasú?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_10">
+          <from> Chairman<recordedTime time="2021-02-16T13:10:00+00:00"/></from>
+          <p eId="para_24">Níl. Dúirt sé go mbeadh trácht ar chur chuige ó thaobh na tairisceana gníomhaí sna caighdeáin atá le leagan amach.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_11">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:10:00+00:00"/></from>
+          <p eId="para_25">Níl mé sásta leis sin. Níl m'ainm ar an leasú ach tugaim mo thacaíocht dó 100%. Tá gá le rud réamhghníomhach. Mar a dúirt mé an lá cheana, is rud dearfach é seo. Ní fheicim an fáth a bhfuil fadhb leis. Is fuath liom a bheith ag athrá rudaí ach tá sé ráite sna meáin chumarsáide uaireanta go bhfuil an próiseas trína bhfuil muid ag dul mall. Níl sé mall. Táimid ag déanamh ár n-iarracht breathnú isteach ar na leasuithe. Táim féin agus na Teachtaí eile ag iarraidh obair as lámh a chéile leis an Rialtas.</p>
+          <p eId="para_26"> Is rud dearfach é seo agus ní thuigim cén fáth nach féidir glacadh leis, is é sin, go gcuirfí comhlachtaí poiblí an pobal ar an eolas trí thairiscint ghníomhach faoi na seirbhísí a fhéadfaidh daoine a fháil uaidh trí mheán na Gaeilge. Ní thuigim é. Is rud dearfach agus dualgas dearfach é sin. Ar leibhéal ciniciúil, an bhfuil an Rialtas ag rá nach bhfuil aon chomhlacht ag iarraidh é sin a dhéanamh toisc nach bhfuil aon seirbhísí ar fáil? Is é sin an léamh a dtabharfaidh mé as an rud seo dá mba rud é gur bhean chiniciúil mé. Níl a fhios agam cad atá ar intinn ag an gCathaoirleach agus na daoine atá taobh thiar den leasú seo ach ceapaim go bhfuil sé simplí agus dearfach agus nach bhfuil fadhb ar bith leis. Ón méid a chuala mé ón Aire Stáit inniu agus an lá deireanach, ní thuigim cén fáth go bhfuil fadhb aige rud mar sin a chur isteach sa Bhille.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_12">
+          <from> Chairman<recordedTime time="2021-02-16T13:10:00+00:00"/></from>
+          <p eId="para_27">Dírím aird na mball ar an tuarascáil a rinne an comhchoiste ar scéim ghinearálta Bhille na dTeangacha Oifigiúla (Leasú), 2017 i mBealtaine 2018. Sa tuarascáil, luaigh Julian de Spáinn an cheist seo agus é ag déanamh tráchta ar cheannteideal 10 den Bhille. Mhol sé an ceannteideal agus an cur chuige a bhí ann. Mhol sé:</p>
+          <p class="indent_1" eId="para_28">go mbeidh dualgas soiléir agus cuimsitheach ar gach comhlacht poiblí agus Roinn Rialtas chun tairiscint gníomhach a sholáthar don phobal san áireamh san Acht. Mura cuirtear an pobal ar an eolas go leanúnach agus go gníomhach go bhfuil ceart acu agus go bhfuil fáilte rompu na seirbhísí Gaeilge atá ar fáil a úsáid, ní chuirfear go suntasach le húsáid na seirbhísí sin agus leanfar a rá nach bhfuil éileamh ar na seirbhísí céanna. Is féidir liom a rá, ó mo thaithí pearsanta agus ó aiseolas ó go leor daoine, nach bhfuil an pobal ar an eolas ar na seirbhísí atá ar fáil ón Stát trí Ghaeilge tríd is tríd faoi láthair agus ní dhéantar beagnach aon tairiscint gníomhach sa chás go bhfuil seirbhís ar fáil trí Ghaeilge. Tá an téarma ‘tairiscint gníomhach’ luaite sna ceannteidil ach níl an téacs curtha leis fós.</p>
+          <p eId="para_29">Níl sé ann in aon chor anois. Is oth liom gur gá dúinn fós a bheith ag déanamh iarrachta leasú a chur isteach ag an staid seo agus go bhfuil an t-ábhar sin le bheith ceangailte leis na caighdeáin amháin. Ní cóir go mbeadh orainn a bheith ag brath ar chaighdeáin ná scéim teanga ina leith sin, mar atáimid faoi láthair, mar níor tharla sé go fóill.</p>
+          <p eId="para_30">Is ait an rud é mar nuair a bhíonn aon tseirbhís eile á soláthar ag an Stát i mBéarla nó ar aon ábhar eile bíonn siad á gcraobhscaoileadh ó bharr an chnoic ach ní dhéantar seirbhísí trí Ghaeilge a chraobhscaoileadh mar bíonn eagla ar dhaoine go dtiocfaidh an iomarca éilimh agus go mbeidh ualach orthu ansin cur leis an méid atá sa tseirbhís. Níl me ag tarraingt an leasú siar ar an gCéim seo agus táim sásta é a chur chun vóta, más gá. An bhfuil aon rud eile le rá ag an Aire? Níl. Dá réir mura bhfuil aon rud le rá ag aon duine eile, bogfaimid ar aghaidh leis an gceist seo.</p>
+        </speech>
+        <summary eId="sum_14"> Cuireadh an leasú.</summary>
+        <debateSection name="division" eId="dbsect_4">
+          <summary eId="sum_15">Amendment put: </summary>
+          <summary title="division" eId="sum_16">The Committee divided: Tá, <quantity refersTo="#ta" normalized="3" eId="qty_1">3</quantity>; Níl, <quantity refersTo="#nil" normalized="5" eId="qty_2">5</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_5">
+            <p eId="para_31">Tá</p>
+            <p eId="para_32">
+              <person refersTo="#CatherineConnolly">Connolly, Catherine.</person>
+            </p>
+            <p eId="para_33">
+              <person refersTo="#PaDaly">Daly, Pa.</person>
+            </p>
+            <p eId="para_34">
+              <person refersTo="#AengusOSnodaighSF">Ó Snodaigh, Aengus.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_6">
+            <p eId="para_35">Níl</p>
+            <p eId="para_36">
+              <person refersTo="#DaraCalleary">Calleary, Dara.</person>
+            </p>
+            <p eId="para_37">
+              <person refersTo="#JackChambers">Chambers, Jack.</person>
+            </p>
+            <p eId="para_38">
+              <person refersTo="#JoeMcHugh">McHugh, Joe.</person>
+            </p>
+            <p eId="para_39">
+              <person refersTo="#AindriasMoynihan">Moynihan, Aindrias.</person>
+            </p>
+            <p eId="para_40">
+              <person refersTo="#MarcOCathasaigh">Ó Cathasaigh, Marc.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_17"/>
+          <summary title="decision" refersTo="#lost" eId="sum_18">Amendment declared lost.</summary>
+        </debateSection>
+        <summary eId="sum_19"> Faisnéiseadh go rabhthas tar éis diúltú don leasú.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_13">
+          <from> Chairman<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_41">Bogfaimid ar aghaidh go leasú Uimh. 48. Deir an treoir ó Oifig na mBillí gur chóir don leasú seo a bheith dícheadaithe toisc go bhfuil sé lasmuigh de scóip an Bhille. An cleachtadh a bhí againn go dtí seo ná gur tugadh 30 soicind nó nóiméad do dhuine labhairt ar na leasuithe dícheadaithe. Tá an Teachta Daly chun an deis sin a ghlacadh.</p>
+        </speech>
+        <speech by="#PaDaly" eId="spk_14">
+          <from>Deputy Pa Daly<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_42">Is ait go bhfuil an leasú seo as ord de bharr a bheith taobh amuigh de scóip an Bhille ach níl fadhb chostais ann, mar tá sé beagnach díreach mar an gcéanna le leasú Uimh. 51, atá laistigh de scóip an Bhille ach as ord toisc costas.</p>
+          <p eId="para_43"> Moladh ó Chonradh na Gaeilge atá anseo. Chuirfeadh an leasú seo riachtanas ar chomhlachtaí rabhaidh sláinte, mar a bhíonn ar dheochanna alcóil mar shampla, a bheith dátheangach. Déantar é seo le rabhaidh sláinte ar thoitíní cheana féin agus ritheann rabhaidh fhaisnéise aonteangacha Béarla i gcoinne stádas na Gaeilge mar phríomhtheanga na tíre. D’fhéadfadh an tAire Sláinte an gníomh seo a dhéanamh gan leasú reachtúil ach is léir go bhfuil an leasú ag teastáil.</p>
+        </speech>
+        <summary eId="sum_20"> Níor tairgeadh leasú Uimh. 48.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_15">
+          <from> Chairman<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_44">Tá leasú Uimh. 49 as ord toisc muirear ar an ioncam.</p>
+        </speech>
+        <speech by="#PaDaly" eId="spk_16">
+          <from>Deputy Pa Daly<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_45">Tá an leasú seo aontaithe ag gach páirtí ar an gcoiste, Sinn Féin, Fianna Fáil agus Fine Gael ina measc. Níl aon chostas sa bhreis i gceist. Chuirfeadh sé seo dualgas ar chomhlachtaí poiblí cuid dá bhfógraíocht a dhéanamh trí Ghaeilge agus sna meáin Gaeilge. Sin 20% den fhógraíocht a dhéanann siad cheana féin a bheith trí Ghaeilge agus ar a laghad 5% den fhógraíocht a bheith sna meáin Gaeilge. Tá sé seo ag teastáil chun dualgas a chur ar chomhlachtaí tairiscint a dhéanamh ar sheirbhísí trí Ghaeilge agus chun tacaíocht do na meáin Gaeilge ar nós <i>tuairisc.ie</i> a chinntiú.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_17">
+          <from> Chairman<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_46">Tairgim leasú Uimh. 49:</p>
+          <p class="indent_1" eId="para_47">I leathanach 9, idir línte 16 agus 17, an méid seo a leanas a chur isteach: </p>
+          <p class="indent_2" eId="para_48">
+            <b>“Leasú ar alt 9 den Phríomh-Acht</b>
+          </p>
+          <p class="indent_2" eId="para_49"><b>4.</b> Leasaítear alt 9 den Phríomh-Acht tríd an bhfo-alt seo a leanas a chur isteach i ndiaidh fho-alt (3):</p>
+          <p class="indent_3" eId="para_50">“(4) Déanfaidh gach comhlacht poiblí 20 faoin gcéad dá chuid fógraíochta in aon bhliain ar leith, lena n-áirítear fógraíocht tráchtála, fógraíocht ar líne, fógraíocht scríofa, fógraíocht fuaime, fógraíocht físe agus eile, trí mheán na Gaeilge agus déanfaidh gach comhlacht poiblí 5 faoin gcéad dá chuid fógraíochta in aon bhliain ar leith ar na meáin Ghaeilge.”.”.</p>
+          <p eId="para_51">Caithfidh mé treoir a lorg ón gcléireach ach go bhfios dom, tá sé de chead ag an gCathaoirleach gan glacadh leis an treoir ó Oifig na mBillí. Is treoir atá i gceist seachas rud gur gá dúinn a dhéanamh. Táim sásta glacadh leis an leasú seo agus caint nó plé a bheith againn faoi, ar a laghad, ach b’fhéidir nach nglacfaimid vóta ag an deireadh. An t-aon mhíbhuntáiste anseo ná nach bhfuil an tAire Stáit ullmhaithe dó toisc nach raibh sé sa liosta de na leasuithe a bhí ceadaithe. B’fhéidir go mbeadh sé sásta rud éigin a rá ar aon chaoi.</p>
+        </speech>
+        <speech by="#AindriasMoynihan" eId="spk_18">
+          <from>Deputy Aindrias Moynihan<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_52">Baineann an leasú seo le margaíocht ó chomhlachtaí poiblí ionas go mbeidís ag plé le muintir na Gaolainne nuair atá siad ag déanamh fógraíochta agus pé airgead atá siad ag cur chuige sin. Faoi láthair ní fheadar an bhfuil pingin in aon chor á threorú chuig na meáin Gaolainne nó ag cur an scéil os comhair lucht éisteachta nó lucht léitheoireachta na Gaolainne. Mar sin, teastaíonn uainn go gcuirfí iallach ar na comhlachtaí poiblí plé le gach éinne, ní amháin plé le lucht an Bhéarla agus muintir na Gaolainne a fhágáil ar lár, ach plé le gach éinne chun a bhfógraíocht a chur amach os comhair gach éinne sna meáin éagsúla. Níl aon chaiteachas breise i gceist. Is amhlaidh gur caiteachas é a bhfuil ag na comhlachtaí cheana féin agus sciar de sin a threorú chuig na meáin Gaolainne a bheadh i gceist. Gan dabht, bheadh pé teachtaireacht atá acu á chur os comhair gach éinne ansin.</p>
+          <p eId="para_53"> Tuigim go bhfuil ceist ann an bhfuil an leasú ceadaithe nó nach bhfuil. Tá sé mar atá ráite ag an gCathaoirleach agus tá teachtaireacht seolta chuig an gCeann Comhairle chun soiléiriú a fháil mar gheall ar an gceist. Is rud fiúntach é seo chun iallach a chur ar chomhlachtaí poiblí sciar dá gcaiteachas a threorú chuig fógraíocht as Gaolainn agus a chinntiú go mbeidís ag teagmháil le gach éinne, sé sin, muintir na Gaolainne agus muintir an Bhéarla chomh maith.</p>
+        </speech>
+        <speech by="#EamonOCuiv" eId="spk_19">
+          <from>Deputy Éamon Ó Cuív<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_54">Tacaím go hiomlán i bprionsabal leis an leasú seo. Is trua nach féidir glacadh leis. É sin ráite, tá súil agam go mbeidh dea-scéal ag an Aire Stáit dúinn inniu agus go ndéarfaidh sé linn go dtiocfaidh sé ar ais chuige seo ar Chéim na Tuarascála. D’fhéadfainn é seo a lorg faoi FOI ach idir an dá linn, an bhféadfadh an tAire Stáit cóip de na dréacht-rialacháin a bhí á ndréachtú ag an Roinn in 2009, más buan mo chuimhne, a chur ar fáil do na Teachtaí le go bhfeicfeadh muid céard a bhí i gceist ag an am sin, an cur chuige san áireamh? Níl sé soiléir ón leasú seo céard a chiallaíonn 20%. An 20% den chostas nó 20% de líon na bhfógraí atá i gceist? D’fhéadfadh fógra de nóiméad amháin a bheith ar RTÉ agus ceann a bheith ar TG4 agus b’fhéidir nach gcosnódh an ceann ar TG4 ach 20% den mhéid a chosnódh an ceann ar RTÉ.</p>
+          <p eId="para_55"> Tá áthas orm go bhfuil an oiread sin daoine anois ag glacadh leis gur cheart díriú ar na meáin Gaeilge má tá an fhógraíocht le déanamh i nGaeilge. Sin díospóireacht ollmhór a bhí ann le 12 bliain. Sin an treo ina raibh mé féin meallta ach bhí daoine eile ag rá má chuirtear fógra i nGaeilge, nó i mBéarla, san <i>The</i>
+						<i>Irish Times</i> gur cheart go mbeadh an fógra céanna ann sa teanga eile ar cóimhéid. Bhí mise ag rá go nglacfainn leis dá mbeadh an fógra céanna ar cóimhéid in iris Ghaeilge, mar in ionad an airgid a chur i dtreo <i>The</i>
+						<i>Irish Times</i>, cuirfí an t-airgead i dtreo na meáin Gaeilge. Sílim go bhfuil níos mó daoine ag druidim sa treo sin agus fáiltím roimhe sin.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_20">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_56">Níl mo liosta agam. An bhfuil an leasú seo as ord de bharr costais nó mar nach bhfuil sé ag comhlíonadh aidhmeanna an Bhille?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_21">
+          <from> Chairman<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_57">Tá mise tar éis a rialú go bhfuil sé in ord.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_22">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_58">Tuigim, ach-----</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_23">
+          <from> Chairman<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_59">An treoir a tháinig ó Oifig na mBillí ná go raibh sé as ord de bharr chostais, in ainneoin nach bhfuil costas i gceist.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_24">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_60">Sin costas ar an Stát.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_25">
+          <from> Chairman<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_61">Deir sé muirear ar ioncam. Ní gá gur costas don Stát é. Is féidir leis an gcostas a bheith ar dhaoine chomh maith, ach is ar an Stát a bheadh sé sa chás seo mar is comhlachtaí poiblí atá i gceist.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_26">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:30:00+00:00"/></from>
+          <p eId="para_62">Gabhaim buíochas leis an gCathaoirleach as ucht an chinnidh atá déanta aige. Má tá sé in ann cinntí mar sin a dhéanamh, is díospóireacht eile a bheidh ann as seo amach ó thaobh na leasuithe uilig. Tá sé tábhachtach é sin a chinntiú. Táim buíoch den Chathaoirleach agus is dóigh go bhfuil an ceart aige. Tá muid ag dul ar aghaidh anseo gan díospóireacht a bheith againn i ndáiríre de bharr go bhfuil formhór na leasuithe as ord. Tiocfaidh muid ar ais chucu. Má táimid i ndáiríre faoin Ghaeilge ní thuigim cén fáth go bhfuil fadhb anseo.</p>
+          <p eId="para_63">Níl costas i gceist. Mar a dúirt an Teachta Aindrias Moynihan, is féidir an t-airgead a threorú i mbealach eile. Sin atá i gceist anseo seachas costas sa bhreis.</p>
+          <p eId="para_64"> Tá mo mhuinín as an bpróiseas seo ag laghdú an t-am ar fad, faraor. Rialaítear leasuithe simplí as ord agus níl freagra sásúil ag teacht ón Aire Stáit maidir leis na leasuithe seo. Níl anseo ach rud bunúsach arís. Maítear sa leasú: "Déanfaidh gach comhlacht poiblí 20 faoin gcéad [ní 50%, nó 100%] dá chuid fógraíochta in aon bhliain ar leith" and so on. Leanann sé "déanfaidh gach comhlacht poiblí 5 faoin gcéad dá chuid fógraíochta in aon bhliain faoi leith ar na meáin Ghaeilge". Níl i 5% ach píosa beag agus níl an Rialtas sásta glacadh leis sin. Níl sé uaillmhianach go leor i mo thuairim ach tá mé 100% taobh thiar de. Ó thús an phróisis seo bhíomar thar a bheith praiticiúil ar an gcoiste agus is dócha go bhfuil an Cathaoirleach thar a bheith praiticiúil arís. Níl sé uaillmhianach go leor agus fós níl an Rialtas ag glacadh leis an leasú seo. Tá mise ag éirí tuirseach den phróiseas seo. Is cur i gcéill amach is amach é. Tá fonn orm an seomra a fhágáil ach amháin go bhfuil sé tábhachtach a chur in iúl do na daoine atá ag éisteacht agus do na heagraíochtaí Gaeilge an obair atá á déanamh anseo. I ndáiríre, is ag snámh ag aghaidh an easa a táimid.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_27">
+          <from> Chairman<recordedTime time="2021-02-16T13:40:00+00:00"/></from>
+          <p eId="para_65">Tá an leasú seo i m'ainm, chomh maith le beagnach gach chomhalta den choiste. Tá sé ríthábhachtach go nglacfadh muid leis seo. Seo cheann de na leasuithe a raibh fadhb againn leis ar tús báire nuair a thosaigh muid leis seo agus gur scríobh muid chuig an gCeann Comhairle mar gheall air. Ní bhfuair muid an freagra sin go fóill. Táimid fós ag tnúth le freagra ón gCeann Comhairle maidir leis an dícheadú. Níl costas luaite in aon chor mar sin tá an ceart ag an Teachta Aindrias Moynihan gur 20% den 100% atá ann. Is sciar den bhuiséad atá ann agus is cosaint a bheas ann. Ba chóir go mbeadh sé 50:50 ach tá muidne ag rá go réalaíoch go mbeidh 20% ann.</p>
+          <p eId="para_66"> Cad a bheadh Raidió na Gaeltachta in ann a dhéanamh le buiséad níos mó ón bhfógraíocht? Cad faoi na nuachtáin ar fad atá imithe go tóin, ar nós <i>Anois</i>, <i>Inniú</i>, <i>Lá</i> agus a lán eile? Cad a bheadh <i>tuairisc.ie</i> in ann a dhéanamh le sciar den bhfógraíocht ón Stát? Bheadh siad in ann breis iriseoirí a fhostú.</p>
+          <p eId="para_67"> Chun léiriú cé chomh dona agus atá sé, ní gá ach féachaint ar cad atá tarlaithe le bliain anuas maidir le fógraíocht Covid ón HSE. Níl 20% nó fiú 5% den bhfógraíocht ón HSE i nGaeilge in aon áit agus sin an fhadhb. Go minic, nuair a thagann sé tagann sé i bhfad Éireann níos déanaí ná an chuid eile. Tá fadhb bunúsach ann mar sin. Ní hé go bhfuilimid ag lorg go mbeadh caiteachas sa bhreis do na comhlachtaí Stáit. Táimid ag lorg go mbeadh an Ghaeilge ann nuair atá siad ag smaoineamh ar bhuiséad d'fheachtas fógraíochta a bhíonn acu ar aon rud agus go mbeidh a fhios acu go mbeidh 80% de na fógraí, ar a mhéid, as Béarla. Bheadh an Ghaeilge fós sa tarna áit leis sin. Seo ceann de na leasuithe atá gach uile pháirtí sásta tacú leis.</p>
+        </speech>
+        <speech by="#JackChambers" eId="spk_28">
+          <from>Deputy Jack Chambers<recordedTime time="2021-02-16T13:40:00+00:00"/></from>
+          <p eId="para_68">Ní thuigim an méid atá á rá ag an Teachta Connolly. Ní hé an Rialtas a rinne an leasú seo a dícheadú. Táim sásta féachaint air seo agus moladh a dhéanamh ar Chéim na Tuarascála. Tuigim go bhfuil an leasú seo an-tábhachtach don Ghaeilge agus don Ghaeltacht agus beidh mé i dteagmháil leis na dréachtóirí parlaiminte, leis na páirtithe agus leis na Neamhspleáigh idir an próiseas seo ar Chéim an Choiste agus Céim na Tuarascála.</p>
+          <p eId="para_69"> Tagraím don cheist ón Teachta Ó Cuív. Iarrfaidh mé ar na hoifigigh iarracht a dhéanamh teacht ar an dréacht-rialachán ó 2009 agus é a chur ar fáil dó.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_29">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:40:00+00:00"/></from>
+          <p eId="para_70">Is rud dearfach é sin agus tá an cheist seo curtha go minic agam. Tá a fhios agam gurb í Oifig na mBillí a rinne na cinntí seo ach ag gach cruinniú chuir mé ceist ar an Aire Stáit an bhfuil tuairim aige féin. Anois tá sé ráite go láidir ag an Aire Stáit go bhfuil tuairim aige agus go gceapann sé go bhfuil fiúntas ag baint leis an leasú seo. Tá mé sásta é sin a chloisteáil. Tá sé dearfach agus tá a thuairim á nochtadh ag an Aire Stáit. Tá sé thar a bheith tábhachtach go bhfuil a fhios againn an meon atá ag an Rialtas go neamhbhalbh. Tá an tAire Stáit ag rá go bhfuil sé seo tábhachtach agus go mbreathnóidh sé air. Ligfidh mé don Chathaoirleach an cinneadh a dhéanamh. Níl m'ainm ar an leasú seo ach tá mé ag tacú leis.</p>
+        </speech>
+        <speech by="#AindriasMoynihan" eId="spk_30">
+          <from>Deputy Aindrias Moynihan<recordedTime time="2021-02-16T13:40:00+00:00"/></from>
+          <p eId="para_71">Fáiltím roimh an méid a bhí le rá ag an Aire Stáit. Tá an ceart aige agus tá sé soiléir go bhfuil dearcadh dearfach aige agus go bhfeiceann sé an fiúntas atá sa leasú seo. Cé acu an féidir linn é a dhéanamh anois nó má bheidh orainn teacht thar n-ais chuige arís ar Chéim na Tuarascála, níl sé sin soiléir dom ó a bheith ag éisteacht leis an gCathaoirleach níos luaithe. Is rud dearfach é seo agus is maith an rud é go bhfuil an tAire Stáit ag éisteacht agus go bhfuil an leasú seo á choimeád san áireamh aige. Más féidir linn é a thabhairt thar n-ais ar an gcéad Chéim eile, ba chóir dúinn brú ar aghaidh leis sin agus é a chur i bhfeidhm.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_31">
+          <from> Chairman<recordedTime time="2021-02-16T13:40:00+00:00"/></from>
+          <p eId="para_72">Aontaím leis atá ráite agus molaim an tAire Stáit as a bheith dearfach sa chás seo agus go bhfuil sé chun féachaint air. Más féidir teacht ar fhoclaíocht atá ag cloí leis na dréachtóirí chun déanamh cinnte de go bhfuil 20% ann ar a laghad, bheadh mise an-shásta leis sin. Dá réir sin, tá mise sásta m'ainm a tharraingt siar ón leasú agus é a tharraingt siar. Tá cead ag aon chomhalta aon rud atá pléite anseo a thairiscint mar leasú ar Chéim na Tuarascála. Ní gá dúinn é a dhéanamh má tá an tAire Stáit ag teacht ar ais le leasú eile. Tá mise sásta é sin a tharraingt siar. Tá ainmneacha comhaltaí eile ar an leasú. An bhfuil siadsan sásta an leasú a tharraingt siar? Tá siad.</p>
+        </speech>
+        <summary eId="sum_21"> Tarraingíodh siar an leasú faoi chead.</summary>
+        <speech by="#CatherineConnolly" eId="spk_32">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:40:00+00:00"/></from>
+          <p eId="para_73">Tairgim leasú Uimh. 50:</p>
+          <p class="indent_1" eId="para_74">I leathanach 9, idir línte 16 agus 17, an méid seo a leanas a chur isteach:</p>
+          <p class="indent_2" eId="para_75">
+            <b>“Leasú ar alt 9 den Phríomh-Acht</b>
+          </p>
+          <p class="indent_2" eId="para_76"><b>4.</b> Leasaítear alt 9 den Phríomh-Acht, i bhfo-alt (3), trí “, lena n-áirítear ábhar margaíochta de chuid an chomhlachta phoiblí,” a chur isteach i ndiaidh “chun faisnéis”.”.</p>
+          <p eId="para_77">Bhí beagáinín díospóireachta roimhe seo ó thaobh leasaithe a thairg an Cathaoirleach féin. Is dócha go bhfuil leasú Uimh. 50 nasctha leis sin i ndáiríre. Níl a fhios agam cén fáth nach raibh siad nasctha le chéile. Is leasú thar a bheith simplí é seo arís. An rud atá uainn ná athrú a dhéanamh le halt 9(3) sa bhunreachtaíocht. Maítear san alt sin:</p>
+          <p class="indent_1" eId="para_78">I gcás ina ndéanfaidh comhlacht poiblí cumarsáid i scríbhinn nó leis an bpost leictreonach leis an bpobal i gcoitinne nó le haicme den phobal i gcoitinne chun faisnéis [Tiocfaidh mé ar ais chuige sin mar tá mé iarraidh rud a chur isteach anseo] a thabhairt don phobal nó don aicme, cinnteoidh an comhlacht gur i nGaeilge, nó i mBéarla agus i nGaeilge, a bheidh an chumarsáid.</p>
+          <p eId="para_79">Tá an alt sin ann agus an rud atá uaim ná cur leis sin agus tar éis "chun faisnéis" an frása seo a leanas a chur isteach ", lena n-áirítear ábhar margaíochta de chuid an chomhlachta phoiblí,".</p>
+          <p eId="para_80">Níl a fhios agam an bhfuil an tAire Stáit i gcoinne nó ar son an leasaithe. Ag bogadh ar aghaidh, ó 2003 go dtí an lá atá inniu ann, tá réimse leathan ábhar margaíochta ann. Tá sé thar a bheith tábhachtach go mbeadh an réimse sin clúdaithe ag an mBille.</p>
+        </speech>
+        <speech by="#EamonOCuiv" eId="spk_33">
+          <from>Deputy Éamon Ó Cuív<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_81">Tá mise ag tacú leis an leasú; tá m'ainm leis. Tá sé fíorthábhachtach. Ní thuigim cén fáth nach faisnéis é ábhar margaíochta ach, ar fhaitíos na míthuisceana, tá sé thar am go mbeadh sé seo leasaithe. Creidim féin gur leasú thar a bheith fiúntach é seo. Is iomaí uair a thagann ábhar margaíochta ó An Post agus dreamanna mar sin atá clúdaithe faoin Acht atá i mBéarla amháin, fiú i gceartlár na Gaeltachta. Ní sé sásúil in áit ar bith sa tír.</p>
+        </speech>
+        <speech by="#AindriasMoynihan" eId="spk_34">
+          <from>Deputy Aindrias Moynihan<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_82">Molaim an leasú seo. Baineann sé le hábhar margaíochta ó na comhlachtaí poiblí atá á scaipeadh i mBéarla amháin. Chinnteodh sé go mbeadh sé sin dátheangach nó as Gaolainn amach anseo. Is leasú fiúntach é agus mholfainn don Aire Stáit féachaint air go fiúntach.</p>
+        </speech>
+        <speech by="#MarcOCathasaigh" eId="spk_35">
+          <from>Deputy Marc Ó Cathasaigh<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_83">Nílim chun an t-uafás a rá. Tá m'ainm féin ar an leasú freisin. Léirím mo thacaíocht dó. Tá sé fóirsteanach agus ciallmhar agus tá fiúntas ag baint leis. Ba dheas an rud é dá dtiocfadh ábhar margaíochta faoin reachtaíocht. Bheinn sásta dá mbeadh an tAire Stáit sásta féachaint ar an leasú.</p>
+        </speech>
+        <speech by="#JackChambers" eId="spk_36">
+          <from>Deputy Jack Chambers<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_84">Faoin Acht mar atá, má dhéanann comhlacht poiblí cumarsáid i scríbhinn nó leis an bpost leictreonach leis an bpobal caithfidh an comhlacht sin a chinntiú gur i nGaeilge, nó i mBéarla agus i nGaeilge, atá an chumarsáid. Sílim go bhfuil fiúntas leis an bhforáil seo a leathnú amach go dtí ábhar margaíochta chomh maith. Táim sásta obair i gcomhar leis na Teachtaí maidir leis an leasú seo agus teacht ar ais le moladh ag Céim na Tuarascála. Sna cúinsí sin, b'fhéidir go mbeadh na Teachtaí sásta an leasú seo a tharraingt siar.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_37">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_85">Fáiltím roimh fhreagra an Aire Stáit. Tá sé dearfach go bhfuil sé chun breathnú air seo. De réir mar a thuigim, tá sé chun teacht ar ais le leasú cuí le cur isteach. Má tá an ceart agam, táim sásta an leasú a tharraingt siar ag an bpointe seo.</p>
+        </speech>
+        <summary eId="sum_22"> Tarraingíodh siar an leasú faoi chead.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_38">
+          <from> Chairman<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_86">Tá leasú Uimh. 51 as ord.</p>
+        </speech>
+        <speech by="#EamonOCuiv" eId="spk_39">
+          <from>Deputy Éamon Ó Cuív<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_87">Tá focal amháin le rá agam air sin. Tá ceist na bhfógraí pléite ach tá moladh anseo maidir leis na fógraí rabhaidh a bhíonn ar na buidéil alcóil. Is cuimhin liom, nuair a bhí an Bille um alcól ag dul tríd roinnt bheag blianta ó shin, chuir mé ceist ar an Aire, an Teachta Harris. Bhí an-deifir air agus dúirt sé nach bhféadfaí an Bille a leasú. Bhí mise ag iarraidh go mbeadh sé scríofa san Acht sláinte seo go gcaithfeadh na fógraí sin a bheith i nGaeilge agus i mBéarla, mar atá siad ar na toitíní. Ceapaim go bhfuil fiúntas leis seo. B'fhéidir go mbreathnódh an tAire Stáit ar an gceist seo. Caithfidh mé a rá go raibh an-deifir go deo le tabhairt isteach an Bille um alcól ag an am ach níl na forálacha is tábhachtaí, agus is mó a laghdódh ól sa tír agus a ndéanfadh fiúntas, curtha i ngníomh riamh. Is scéal eile é sin. An mbreathnóidh an tAire Stáit air seo roimh an gcéad lá eile, i gcomhairle leis an Aire Sláinte? Ba cheart go mbeadh sé i nGaeilge agus i mBéarla mar tá saol Gaeilgeora chomh tábhachtach le saol Béarlóra.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_40">
+          <from> Chairman<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_88">Níl éinne ó Dhaoine Roimh Bhrábús anseo chun caint air seo. Nótálfar an méid atá ráite ag an Teachta Ó Cuív ach tá an leasú as ord ar aon chaoi.</p>
+        </speech>
+        <summary eId="sum_23"> Níor tairgeadh leasuithe Uimh. 51 agus 52.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_41">
+          <from> Chairman<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_89">Tá leasú Uimh. 53 as ord go teoiriciúil. An bhfuil an Teachta Ní Chonghaile ag iarraidh labhairt air?</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_42">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_90">Baineann an leasú seo le croílar na reachtaíochta. Táimid ag caint faoi chomhlachtaí poiblí agus ní thuigim cén fáth go bhfuil an leasú as ord. Ní féidir a rá go bhfuil muid i ndáiríre faoin nGaeilge gan dualgais a chur ar chomhlachtaí poiblí. Tá sé leagtha amach anseo. In 2003, ní raibh ach trí mhír i gceist. Tá a fhios againn go bhfuil géarchéim i gceist agus go bhfuil gá le rud práinneach a dhéanamh. Is dócha go bhfuil mé ag caint i bhfolús i ndáiríre mar nach bhfuil sé glactha ag an Rialtas go bhfuil géarchéim i gceist. Muna bhfuil sé ag glacadh le géarchéim, ní bheidh muid in ann réiteach feiliúnach a chur ar fáil. Táim bréan de bheith ag éisteacht liom féin ag rá an rud ceannann céanna ach ní féidir a rá go bhfuil muid i ndáiríre faoi rud a dhéanamh, rud atá fiúntach agus a théann i ngleic leis an ngéarchéim atá ann, muna bhfuil muid agus an Rialtas sásta díriú isteach ar na comhlachtaí poiblí agus na dualgais atá orthu faoi láthair, agus na dualgais bhreise ba chóir a bheith orthu, i mbealach dearfach a thugann aitheantas don stádas oifigiúil atá ag an nGaeilge sa Bhunreacht agus gurb í an teanga chumarsáide don a lán daoine sa tír. Níl na comhlachtaí poiblí in ann déileáil leis na daoine a bhfuil Gaeilge acu mar theanga dhúchais nó mar theanga atá roghnaithe acu. Sin mo dhóthain ag an bpointe seo. Ní thuigim cén fáth go bhfuil an leasú as ord. Tá súil agam go mbeidh muid ag teacht ar ais chuige.</p>
+        </speech>
+        <speech by="#EamonOCuiv" eId="spk_43">
+          <from>Deputy Éamon Ó Cuív<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_91">Is dócha go gcaithfear béim a chur arís ar an bhfíric go bhfuil an leasú rialaithe as ord ag an Teach seachas ag an Aire Stáit. Níl an tAire Stáit tar éis labhairt air seo ar chor ar bith. Níl aon bhaint aige le rudaí a rialú as ord. Táim cinnte go bhfuil i bhfad níos mó eolais ag an Leas-Cheann Comhairle ar an gceist sin ná mar a bheadh agamsa mar chúlbhinseoir. Bheadh a fhios aici cé a shocraíonn céard atá in ord agus céard nach bhfuil in ord ó thaobh an Tí seo. Is cuimhin liom a bheith san áit ina bhfuil an tAire Stáit anois agus bhí an rud céanna ag tarlú.</p>
+          <p eId="para_92"> Ceapaim go bhfuil an-fhiúntas leis an moladh seo agus ní thuigim cén costas a bheadh ann, go speisialta leis an moladh seo. Mar shampla, cén costas a bheadh ann dá socrófaí go n-úsáidtear "Uisce Éireann" seachas "Irish Water" as seo amach? Níor cheart go dtugadh "Irish Water" air ar an gcéad dul síos. Thar na blianta, d'éirigh le daoine oibriú amach cé hiad Bus Éireann agus Iarnród Éireann. Ní thuigim cén fáth nach dtuigfeadh Gaeil céard é Uisce Éireann. An bhfuil aon bhealach inar féidir leis an Aire Stáit breathnú ar an gceist seo le haghaidh Chéim na Tuarascála? Nuair atá leagan Gaeilge agus leagan Béarla d'ainm ann, is é an ceann Béarla a bhíonn in uachtar. Nuair atá an t-ainm i nGaeilge amháin, glacann an pobal leis. Ní raibh aon fhadhb riamh le hainmneacha Gaeilge Bhord na Móna, Córas Iompair Éireann agus na comhlachtaí poiblí ar fad ar tugadh ainmneacha Gaeilge orthu. Ní hé go n-athródh sé seo an saol uilig ach ba chomhartha de dháiríreacht an Rialtais é dá rachfaí siar ar an bpolasaí sin agus dá dtosófaí le hainmneacha Gaeilge a thabhairt ar eagraíocht Stáit de réir mar a thagann eagraíochtaí nua chun cinn. Sílim féin go bhfuil tábhacht leis an leasú áirithe seo.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_44">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T13:50:00+00:00"/></from>
+          <p eId="para_93">Tá tuairim ag an Aire Stáit. Ní raibh mé ag cur an locht air ach ag lorg tuairim uaidh.</p>
+          <p eId="para_94">Thug an tAire Stáit tuairim maidir leis an leasú deireanach. Níl focal le rá aige maidir leis an leasú seo. Is cuid de chroílár na faidhbe é nach bhfuil na comhlachtaí in ann déileáil le muintir na tíre agus Gaeilge acu i nGaeilge. Tá an Teachta Ó Cuív ag aontú leis an leasú sin agus fáiltím roimhe sin agus impím ar an Aire Stáit teacht ar ais ar an gceist seo. Ag an am céanna tá an Teachta Dála ag rá nach bhfuil ról ag an Aire Stáit. Tuigim é sin agus níl aon eolas breise agam faoi Oifig na mBillí ná mar atá ag aon Teachta Dála eile ach an bhfuil tuairim ag an Aire Stáit maidir le ról na gcomhlachtaí poiblí agus an dualgas ba chóir a bheith orthu ó thaobh na Gaeilge de? Is é sin an rud atá á lorg agam ag an bpointe seo ionas go mbeimid in ann obair as lámh a chéile. Tháinig an moladh seo ón tuarascáil a scríobh an comhchoiste agus mar a dúirt mé go minic ní rabhamar ró-radacach. Chuireamar isteach rudaí praiticiúla mar thaistealaíomar an tír ag éisteacht le daoine agus bhíomar ag iarraidh rud práinneach a dhéanamh. Cheapamar - b’fhéidir gur cur i gcéill a bhí i gceist againn – agus cheap mise go mbeadh an reachtaíocht ann roimhe seo agus bhíomar ag iarraidh tacaíocht a thabhairt don Rialtas an Bille a chur i bhfeidhm mar reachtaíocht. Tháinig an moladh traspháirtí seo ó gach duine ar an gcomhchoiste sin i bhfianaise na méide a dúirt na finnéithe a tháinig os ár gcomhair. Ba chóir dúinn suntas a thabhairt don rud sin agus don chaoi a d’aontaíomar an moladh seo a chur chun cinn, agus an leasú atá ag teacht ina dhiaidh freisin. Tháinig siad ón gcomhchoiste, ní uaimse ach ó gach Teachta Dála agus ó gach páirtí ar an gcomhchoiste sin, bunaithe ar fhianaise go raibh gá le rud a dhéanamh chomh sciobtha agus is féidir linn.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_45">
+          <from> Chairman<recordedTime time="2021-02-16T14:00:00+00:00"/></from>
+          <p eId="para_95">Tá cead ag an Aire Stáit labhairt más mian leis freagra a thabhairt.</p>
+        </speech>
+        <speech by="#PaDaly" eId="spk_46">
+          <from>Deputy Pa Daly<recordedTime time="2021-02-16T14:00:00+00:00"/></from>
+          <p eId="para_96">Aontaím leis an Teachta Ó Conghaile agus leis an Teachta Ó Cuív chomh maith maidir le Irish Water-Uisce Éireann. Níl a fhios agam an fáth go bhfuil an leasú as ord. Ceapaim go bhfuil sé dearfach agus suntasach agus má táimid i ndáiríre maidir le haitheantas a thabhairt don Ghaeilge ba chóir go mbeadh sé sa Bhille.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_47">
+          <from> Chairman<recordedTime time="2021-02-16T14:00:00+00:00"/></from>
+          <p eId="para_97">Tá an treoir faighte againn go bhfuil sé as ord ar bhonn muirir ar ioncam. Tá leasuithe Uimh. 54 go 56, go huile, mar an gcéanna.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_48">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T14:00:00+00:00"/></from>
+          <p eId="para_98">Tháinig leasú Uimh. 54 ón gcomhchoiste. Luann an leasú sin: “Dualgas comhlachtaí poiblí maidir le hainmneacha agus seoltaí i nGaeilge”. Tá sé chomh bunúsach leis sin, is é sin na dualgais a leagan síos a bhaineann le hainmneacha agus seoltaí i nGaeilge agus go gcinnteoimid é sin agus go mbeadh an rogha ag gach duine teideal i gceachtar den dá theanga oifigiúla a úsáid. Níl mé chun an rud go léir a léamh amach ach a rá arís gur rud thar a bheith bunúsach é an leasú seo chun dualgas a chur ar chomhlachtaí poiblí maidir le hainmneacha agus seoltaí i nGaeilge. Cén chaoi gur féidir é sin a bheith as ord? An bhfuil tuairim ag an Aire Stáit faoi seo, ní maidir leis an gcinneadh atá déanta, ach tuairim maidir le chomh tábhachtach is atá an leasú seo?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_49">
+          <from> Chairman<recordedTime time="2021-02-16T14:00:00+00:00"/></from>
+          <p eId="para_99">Tuigim duit, a Theachta, agus beidh an tAire Stáit in ann labhairt mar gheall air i gceann nóiméid. Má tá tuairim aige is féidir leis na tuairimí seo a ghlacadh chuige féin mar ní féidir leis an bhFreasúra ualach ioncaim nó cáin a chur ar an bpobal nó ar chomhlacht ach is féidir leis an Aire Stáit é sin a dhéanamh. Má tá tuairim in aon chor ag an Aire Stáit, b’fhéidir go mbeadh sé in ann féachaint air seo agus na leasuithe a ghlacadh agus a chur chun cinn, más mian leis.</p>
+          <p eId="para_100"> Táim ag déileáil leis na leasuithe seo atá as ord ag an am céanna. Tá siad ar fad, go bhfios dom, as ord agus gaolmhar lena chéile, is iad sin leasuithe Uimh. 54 go 57, go huile, de bharr muirir ar ioncam. Tá siad ar fad ceangailte maidir le cúrsaí teideil agus a leithéid, má tá comhaltaí ag iarraidh labhairt orthu. Tiocfaimid ansin chuig leasú Uimh. 58 go 63 ina dhiaidh sin, mar go mbaineann siad le roinnt ceisteanna atá an Teachta Ó Conghaile tar éis a lua. Beimid in ann díriú isteach ar roinnt de na dualgais ba chóir go mbeadh ar an státchóras, i dtuairim na leasuithe atá os ár gcomhair ansin.</p>
+        </speech>
+        <speech by="#EamonOCuiv" eId="spk_50">
+          <from>Deputy Éamon Ó Cuív<recordedTime time="2021-02-16T14:00:00+00:00"/></from>
+          <p eId="para_101">Ní thuigim rialacha an Tí. Dá mba rud é gur chuir duine an rud céanna i mBéarla agus go ndúradh go raibh an ceart ag gach duine a sheoladh agus a ainm a bheith i mBéarla, ní bheadh aon iontas ag daoine faoi sin. Ní thuigim cén fáth go mbeadh iontas ar dhaoine go bhfuil siad ag iarraidh a gceart a n-ainmneacha agus a seoltaí féin a bheith acu i nGaeilge. Ní thuigim an costas a chuireann sé sin ar chomhlacht Stáit agus shábhálfadh sé airgead orthu gan a bheith ag cur an “Mister” agus “Ms” agus na rudaí seafóideacha sin roimh na hainmneacha nach fios ag éinne cé a bhronnann na teidil sin orainn agus nach mbaineann leis an rud a thuigimse le "poblacht", is é sin áit atá chuile dhuine ar comhchéim. Níl ciall dá laghad, go mór mór i gcomhthéacs na Gaeilge, leis na teidil sin. Úsáidtear “Uasal” ach mar a deirtear i nGaeilge, ní bhíonn uasal ná íseal ach thuas seal agus thíos seal. B’fhearr liom a bheith íseal ná uasal, mar má deirtear go bhfuil tú uasal, b’fhéidir gur cic sa tóin a gheofaí.</p>
+          <p eId="para_102"> I bprionsabal tá an-chiall leis an rud atá ráite ag an Aire Stáit agus bheadh súil agam go mbeadh sé in ann teacht timpeall ar rialacha an Tí dúinn trí leasú mar seo a thabhairt ar aghaidh ar an gcéad Chéim eile agus a chur isteach san Acht.</p>
+          <p eId="para_103"> Baineann an méid atáimid ag iarraidh a dhéanamh le hainm. Thug mé faoi deara sa nuachtán maidin inniu maidir leis an bhfear atá ag plé le Brexit ar son na hEorpa agus go bhfuil aicinn os cionn a ainm nach bhfuil coitianta sa Ghaeilge nó sa Bhéarla ach cuireadh i gceart ann iad sa nuachtán. Scaití sa tír seo iarrtar trí shíneadh fada a chur ar ainm “Éamon Ó Cuív” agus tá sé cinnte ar dhaoine é a dhéanamh. Ní thuigim cén chaoi gur féidir ceart a shéanadh ar dhuine maidir lena ainm nó teideal a bhrú ar dhaoine nach bhfuil aon teideal acu agus nach dteastaíonn aon cheann uathu. </p>
+          <p eId="para_104"> Cuireann sé fíor-olc orm nuair a bhím ag ceannach rudaí ar líne ar nós ticéid aerlíne agus mar sin de, nó nuair a bhím ag comhlánú foirm oifigiúil agus mura líontar an bosca leis an lipéad “teideal” níl an córas sásta glacadh leis. Bhí jab an diabhail agam mar bhí carta creidmheasa agam agus bhí “Mr. Eamon O Cuiv” air. Ghlaoigh mé orthu agus dúirt mé nach raibh mé ag iarraidh an “Mr.” a bheith air agus faoi dheireadh ghéill siad dó sin ach ní rabhadar sásta na sínte fada a chur air. Tá fadhb leis sin mar nuair a théann duine thar sáile tá an ticéad ag rá rud amháin agus tá an pas ag rá rud eile ar fad. Lena ceart a thabhairt d’Oifig na bPasanna, cuireann an oifig sin an t-ainm ann mar a thugann an duine di é. Más rud é gur “Éamon Ó Cuív” atá ag duine is amhlaidh a bheidh sé ar an bpas ach ní bhíonn na rudaí eile ag dul leis. Déan iarracht é sin a mhíniú nuair a théann duine thar sáile.</p>
+        </speech>
+        <speech by="#PaDaly" eId="spk_51">
+          <from>Deputy Pa Daly<recordedTime time="2021-02-16T14:00:00+00:00"/></from>
+          <p eId="para_105">Tá na leasuithe seo, Uimh. 56 agus 59, thar a bheith tábhachtach agus bunúsach chomh maith, is é sin go bhfuil sé de dhualgas ar gach comhlacht poiblí ainm nó teideal duine a bheith i gceart. Tá a fhios ag gach duine go bhfuil an-difríocht má tá duine ag déileáil le Banc na hÉireann nó le hAer Lingus mar nach bhfuil cead ag duine an síneadh fada a úsáid má tá duine ag iarraidh áirithint a dhéanamh. Maidir le mo mhac Seán, tá an-difríocht idir an t-ainm sin agus an focal “sean”. Tá sé thar a bheith tábhachtach go mbeidh na focail i gceart.</p>
+          <p eId="para_106">Tá foirgneamh i dTrá Lí. Ba chóir go mbeadh "An Sean Mhuileann" mar ainm air ach is "An Sean Mhuíleann" atá air. Tá focail eile mar sin freisin. Tá Fianna Fáil i bhfad níos difriúla ná Fianna "fail", nó "hiccup". Samplaí eile ná "caca" nó "cáca", "lon" nó "lón", "Pa" nó "pá", fiú "Éire" nó "eire". Tá an-difríocht idir "craic" agus "cráic". Ba chóir go mbeadh rud bunúsach ann agus go mbeadh sé i gceart. Tá a fhios agam nach comhlacht poiblí é Aer Lingus anois ach tá sé seo thar a bheith tábhachtach. </p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_52">
+          <from> Chairman<recordedTime time="2021-02-16T14:10:00+00:00"/></from>
+          <p eId="para_107">Tá leasuithe Uimh. 53 go 57, go huile, as ord. Bogfaimid ar aghaidh go dtí na leasuithe atá in ord. Tá leasuithe Uimh. 58 go 60, go huile, agus leasuithe Uimh. 62 agus 63 grúpáilte le chéile. Is malairt fhisiceach é leasú Uimh. 63 ar leasú Uimh. 62. Pléifear na leasuithe seo le chéile.</p>
+        </speech>
+        <summary eId="sum_24"> Níor tairgeadh leasuithe Uimh. 53 go 57, go huile.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_53">
+          <from> Chairman<recordedTime time="2021-02-16T14:10:00+00:00"/></from>
+          <p eId="para_108">Tairgim leasú Uimh. 58:</p>
+          <p class="indent_1" eId="para_109">I leathanach 9, líne 23, "féadfaidh" a scriosadh agus "déanfaidh" a chur ina ionad.</p>
+          <p eId="para_110">An rud atá i gceist leis na leasuithe seo ná go ndéanfar cinnte de go bhfuil dualgas ar leith ann maidir le hainmneacha, seoltaí agus teidil faoi alt 9A agus go bhfuil sé sin soiléir agus treisiúil. Dhéanfadh leasuithe Uimh. 58 agus 60 cinnte de go dtarlódh sé seo, trí "féadfaidh" a athrú go "déanfaidh". Ní chuireann an Bille mar atá sé aon dualgas ar an Aire riachtanais maidir le hainmneacha agus seoltaí a chur ar chomhlachtaí nó seirbhísí poiblí. Féadfaidh an tAire comhlacht a ordú más mian leis nó léi agus anuas ar sin, féadfaidh sé nó sí seirbhísí de chuid an chomhlachta sin a fhorordú ionas go mbeadh feidhm ag an Acht seo orthu. Ar an dtaobh eile, féadfaidh sé nó sí gan é sin a dhéanamh chomh maith. Tá muidne ag déanamh cinnte de go dtarlóidh an gníomh seo.</p>
+          <p eId="para_111"> Is aitheantas é leasú Uimh. 59 nach ionann leagan Béarla d’ainm duine agus an leagan Gaeilge. Bhíomar ag caint cheana féin faoin síneadh fada. B’fhiú d’aon duine atá spéis acu ann an leabhrán, <i>Our Fada</i>, atá curtha le chéile ag mo dheartháir Rossa agus Mícheál Ó Domhnaill a léamh. Tá sé an-áisiúil d’aon duine atá ag féachaint ar na rudaí faoina raibh an Teachta Daly ag caint - na háiteanna ina gcuireann síneadh fada míniú iomlán difriúil ar na litreacha atá i gceist. Is focal iomlán difriúil a bhíonn ann, rud nach dtuigeann daoine uaireanta. Is ainm iomlán difriúil atá ann má úsáidtear uaschamóg seachas "Ó" - tá míniú iomlán difriúil leis ó thaobh na staire agus focal de. B'fhiú dóibh siúd atá ag dréachtú rudaí, ar nós na comhlachtaí agus na daoine atá ag scríobh fógraíochta - go háirithe iad siúd atá ag scríobh comharthaí bóithre - déanamh cinnte de go bhfuil an fhoclaíocht atá acu i gceart agus go bhfuil na síntí fada acu sna háiteanna ceart. Sin an teideal.</p>
+          <p eId="para_112"> Ar an mbun-theastas breithe atá agamsa, dhein an Stát masla orm ó thús. Deir sé "Aengus (Snoddy) Ó Snodaigh". Sin an t-ainm atá ormsa ó thaobh an Stáit de. Níl míniú ar bith air sin. Ní raibh an duine a bhí i gceannas ar an gcóras clárúcháin sásta glacadh le "Ó Snodaigh" mar ainm. Ní tharlódh sé sin inniu mar ní bheadh aon duine i mo chlann sásta glacadh le cinneadh dá leithéid ach tharla sé go huathoibríoch sna hospidéil ag an am. Tá athrú déanta ar an gcóras ó shin ach is léiriú é sin ar an tslí mar a bhí sé. Anois téann daoine ar líne agus bíonn siad ag triail a n-ainmneacha nó a dteidil nó pé rud é a chur isteach. Aontaím leis an méid a dúirt an Teachta Ó Cuív ag an gcomhchoiste faoi theidil. Is poblacht atá in ainm is a bheith sa Stát seo agus ní chóir go mbeadh aon teidil ann, ach tá teidil ag daoine agus úsáideann siad "Dochtúir", "Ollamh", "an tUasal", "an tÍseal" nó pé rud ar mhaith leo. Ní úsáidim féin teideal. Tá cásanna ann áit nár fhéidir le daoine a n-ainmneacha i nGaeilge a úsáid, in ainneoin gurb iad sin na hainmneacha atá orthu. Bhí cás ann le déanaí i mBanc na hÉireann agus tá a lán cinn eile ann freisin. Bíonn an Coimisinéir Teanga á ghabháil seo de shíor, áit atá síneadh fada ar strae, in easnamh nó nach féidir le duine le síntí fada ina sheoladh nó ina ainm foirm a líonadh ar líne agus iad ag déileáil leis an Stát.</p>
+          <p eId="para_113"> Is iarracht iad na leasuithe seo uaimse, agus ón dream a chur comhairle orm, déanamh cinnte de go mbeadh an dualgas ar an Stát agus na stát-chomhlachtaí cinntiú go bhfuil an t-ainm atá á bhreacadh síos as Gaeilge má tá sé curtha as Gaeilge. Ba chóir go mbeadh an deis acu siúd atá ag líonadh isteach foirmeacha, nó ag fáil scríbhinn nó cumarsáid ón Stát i mbealach éigin nó bealach eile, an síneadh fada a úsáid agus an séimhiú ar chonsain sa Ghaeilge a bheith i gceist. Tá siad in ann an "h" a chur isteach anois, rud nach raibh siad in ann déanamh blianta ó shin nuair a athraíodh an cló. Is féidir le haon stát eile timpeall an domhain glacadh le haicinn nó pé rud atá curtha le litir anseo agus ansiúd. Níl aon leithscéal ann nach féidir leis sin tarlú sa lá atá inniu ann.</p>
+          <p eId="para_114"> Tá cur síos sa leabhar a luaigh mé níos luaithe ar an troid a bhí ann ar feadh 12 bliain chun "Éire" a chur ar na stampaí poist arís, mar ba "Eire" a bhí ann ar feadh 12 bliain. Tháinig athrú in An Post ag an am agus fuair siad réidh leis an síneadh fada toisc go raibh sé ródheacair é a chur isteach. Sin cé chomh simplí is a bhí an meon ag an am, go dúirt daoine “ó, tá sé ródheacair”. Níl aon deacracht ag baint le síneadh fada a chur ar stampa, ach sin an meon a bhí acu. Dúirt siad nach raibh siad ach ag déanamh caighdeán nua den teanga dúinn. Amhlaidh go bhfuil gá leis sin, ní gá simpliú nó athrú a dhéanamh.</p>
+          <p eId="para_115"> Chomh maith leis sin, glactar leis sa leasú gur chóir go n-aithnítear ainmneacha áitiúla. I gceantair áirithe sa tír, toisc sloinnte agus chéad ainmneacha daoine a bheith chomh fairsing, bíonn ainm áitiúil acu go minic. Is cuimhin le gach duine an iar-Theachta Pat the Cope Gallagher. Ó Gallachóir a bhí air ach bhí aithne ag gach duine air mar "the Cope". Ba chóir go mbeadh duine in ann é sin a chur isteach agus go nglacfar leis.</p>
+          <p eId="para_116">Baineann sin le ceann de na leasuithe eile. An chéad chathaoirleach a bhí ag an gCoimisiún Logainmneacha ná Pádraig Ó Siochfhradha. An Seabhac an t-ainm a bhí air agus shínigh sé gach rud, na doiciméid dhlíthiúla san áireamh, mar An Seabhac agus glacadh leis. Ba chóir go mbeadh muid ag aithint an seantraidisiún. Táimid mar thír bheag agus gearrann rudaí mar sin muid amach ón gcuid eile den domhan. Tá sé coitianta go leor i dtíortha eile timpeall an domhain go mbeadh an t-aitheantas sin tugtha. Is cuimhin le gach duine an peileadóir agus iománaí Seán Óg Ó hAilpín agus ní sloinne nó céadainm é "Óg". Is ainm áitiúil a bheadh i gceist sa chás sin.</p>
+        </speech>
+        <speech by="#PaDaly" eId="spk_54">
+          <from>Deputy Pa Daly<recordedTime time="2021-02-16T14:20:00+00:00"/></from>
+          <p eId="para_117">Tá leasú Uimh. 59 an-tábhachtach ar fad. Tá sé bunúsach go mbeadh sé de cheart ag gach duine a ainm féin nó a hainm féin: "d’aon litreacha nó síntí fada atá in aibítear an dá theanga... a úsáid". Bheadh feidhm air sin ar leithéidí Aer Lingus and Banc na hÉireann. Ba cheart go mbeadh duine in ann eitilt a cheannach ina ainm féin as Gaeilge.</p>
+        </speech>
+        <speech by="#AindriasMoynihan" eId="spk_55">
+          <from>Deputy Aindrias Moynihan<recordedTime time="2021-02-16T14:20:00+00:00"/></from>
+          <p eId="para_118">Aontaím gur rud bunúsach é go bhfuil ainm duine mar chuid tábhachtach d'aitheantas duine. Ba cheart go mbeadh duine ábalta plé leis an státchóras gan an t-aitheantas ná an t-ainm sin a athrú chun go mbeadh sé oiriúnach dó nó d'éinne. Is píosa bunúsach d'aitheantas éinne a ainm. Níor chóir go mbeadh ar dhuine an litriú a athrú, na síntí fada a fhágáil amach nó aon éagóir eile ann. Ba chóir go mbeadh an deis ag daoine plé leis an státchóras ag úsáid na hainmneacha, na seoltaí agus an t-aitheantas atá acu. Is rud bunúsach é sin.</p>
+          <p eId="para_119"> Anuas air sin, bhí plé cheana mar gheall ar an mbrí agus an míniú a bhaint as logainm má chuirtear isteach an litriú mícheart mar tá an-chuid eolas ann chomh maith i logainmneacha agus mar sin de. Chomh maith leis sin, ba cheart go mbeadh an deis ag daoine an t-ainm teaghlaigh Ó Murchú, Ní Mhurchú nó Uí Mhurchú, mar shampla, a úsáid, nó pé ainm eile. Ba cheart go mbeadh siad ábalta an séimhiú, an t-urú agus gach aon rud eile a chur isteach mar ba chóir. Tuigim go bhfuil roinnt leasuithe ann le chéile agus tá sé deacair iad go léir a phlé in aon go amháin ach-----</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_56">
+          <from> Chairman<recordedTime time="2021-02-16T14:20:00+00:00"/></from>
+          <p eId="para_120">Is féidir teacht siar agus ar ais agus déileáil le leasú amháin ag an am más mian leis an Teachta.</p>
+        </speech>
+        <speech by="#AindriasMoynihan" eId="spk_57">
+          <from>Deputy Aindrias Moynihan<recordedTime time="2021-02-16T14:20:00+00:00"/></from>
+          <p eId="para_121">Tá baint níos mó ag leasuithe Uimh. 62 agus 63 leis na hábhair atá á bplé agam ansin ach tá na leasuithe gaolta leis chomh maith. Fágfaidh mé ansin é. Dhíreoinn ar an Aire Stáit féachaint go cúramach ar na leasuithe seo chun a chinntiú gur féidir le daoine a n-ainmneacha féin agus a n-aitheantas féin a úsáid nuair atá siad ag plé leis an státchóras. Éagóir amach is amach atá ann nuair a iarrann an córas Stát ar dhuine a ainm a athrú chun go mbeadh sé níos compordaí dóibh siúd atá ag láimhseáil na córais ríomhaire. Tá sé go breá éasca orthu na litreacha éagsúla a láimhseáil leis na córais ríomhaire agus deis a thabhairt do dhaoine a n-aitheantas féin agus a n-ainmneacha féin a úsáid. Mar sin, molaim don Aire Stáit féachaint go cúramach air seo chun féachaint an bhfuil slí ann chun é seo a chur san áireamh. Is leasuithe fiúntacha iad agus ba cheart dúinn teacht ar ais chuige arís.</p>
+        </speech>
+        <speech by="#MarcOCathasaigh" eId="spk_58">
+          <from>Deputy Marc Ó Cathasaigh<recordedTime time="2021-02-16T14:20:00+00:00"/></from>
+          <p eId="para_122">Mar a dúirt mé ar an Dara Céim, is minic gur iad na rudaí beaga a chuireann isteach ar dhuine mar Ghaeilgeoir. Mothaítear i gcónaí go mbítear ag snámh in aghaidh na srutha. Tá an síneadh fada mar cheann de na mionrudaí sin a chuireann isteach ar mhuintir na Gaeilge. Ní hí an Ghaeilge amháin a bhfuil diacritics inti. Is féidir leis na Gearmánaigh déileáil leis an <i>umlaut</i> agus is féidir leis na Francaigh déileáil leis an <i>cédille</i>. Cén chaoi nach féidir linne déileáil leis an síneadh fada? Thug mé faoi deara go bhfuil an séimhiú luaite ar leathanach 9 den Bhille. Níl a fhios agam an bhfuil an síneadh fada luaite go soiléir sna leasuithe atá idir lámha againn faoi láthair. Is rud tábhachtach agus bunúsach é agus ba chóir dúinn féachaint go géar air sin chun a shoiléiriú go mbeidh sé luaite sa reachtaíocht agus chun a chinntiú go mbeidh sé fuirist do dhaoine an síneadh fada sin a úsáid i ngach gné den saol gur mian leo. I mo chás féin, mar a luaigh an Teachta Ó Cuív, bíonn sé deacair an síneadh fada sin a chur isteach ar an gcárta creidmheasa nó rudaí mar sin. Is iad na rudaí bunúsacha sin is mó a chuireann isteach ar dhaoine. Ba bhreá liom é dá mbeadh an tAire Stáit sásta féachaint ar an leasú seo.</p>
+        </speech>
+        <speech by="#JoeMcHugh" eId="spk_59">
+          <from>Deputy Joe McHugh<recordedTime time="2021-02-16T14:20:00+00:00"/></from>
+          <p eId="para_123">An féidir liom labhairt ar leasuithe Uimh. 62 agus 63?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_60">
+          <from> Chairman<recordedTime time="2021-02-16T14:20:00+00:00"/></from>
+          <p eId="para_124">Is féidir. Táimid ag déileáil leo siúd ar fad le chéile.</p>
+        </speech>
+        <speech by="#JoeMcHugh" eId="spk_61">
+          <from>Deputy Joe McHugh<recordedTime time="2021-02-16T14:20:00+00:00"/></from>
+          <p eId="para_125">Ba mhaith liom cúpla pointe a dhéanamh faoin ainm cheart a bheith ann. Thar na blianta, bhíodh daoine ag tabhairt amach faoi na botúin atá ag baint leis an Roinn Coimirce Sóisialaí. Mar a dúirt mo chomhghleacaí ó Chontae Phort Láirge, is é sin an rud a chuireann isteach ar dhaoine agus bíonn siad iontach míshásta leis. Níl locht ar bith orthu siúd a bhíonn ag obair ar na ríomhairí. Tá an caighdeán ann agus tá na daoine iontach ildánach agus díograiseach. Tá an caighdeán in áit difriúil agus ba mhaith liom teachtaireacht a chur chuig an Aire Stáit gur cheart dúinn breathnú arís ar leasuithe Uimh. 62 agus 63 agus teacht ar ais le teachtaireacht difriúil. Sin an rud a chuireann díomá ollmhór ar dhaoine a bhíonn ag iarraidh na hainmneacha cearta a bheith aitheanta acu. Ó mo thaithí féin, bhí daoine i dteagmháil liomsa thar na blianta agus iad ag iarraidh, mar shampla, uimhir personal public service, PPS, a fháil, agus an t-ainm mícheart air. Sin an brú atá ann. Bheadh sé go maith dá mbeadh seans ag an Aire Stáit amharc arís ar leasuithe Uimh. 62 agus 63.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_62">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T14:20:00+00:00"/></from>
+          <p eId="para_126">Tugaim mo thacaíocht do na leasuithe seo. Is cúis gháire í i ndáiríre go bhfuil gá orainne é a chur isteach i mBille go bhfuil ceart ag daoine a n-ainmneacha a úsáid. Tá náire orm agus tá mé idir dhá chomhairle suí síos agus gan aon rud a rá nó tosú ag gáire go bhfuil orainn troid ar son cearta bunúsacha mar seo. Is as Gaillimh mé, cosúil leis an Teachta Ó Cuív atá lonnaithe ann, agus tá a fhios againn go dtagann 20% den daonra ann ó thíortha eile. Is dócha nach bhfuil fadhb ar bith acu a gcuid ainmneacha a úsáid agus táimid anseo ag caint faoi phobal na Gaeilge agus na Gaeltachta agus tá easpa muiníne i gceist.</p>
+          <p eId="para_127">Tá mé ag breathnú ar an mBille agus tá iarracht déanta ag an Rialtas rud a chur isteach chun an fhadhb seo a réiteach ach tá an méid sin bealaí éalaithe i gceist nach féidir linn muinín a bheith againn as an gcóras atá an Rialtas ag iarraidh a chur isteach. Táimid ag caint faoi shíntí fada. Chaith mé tréimhse sa Ghearmáin le mo chlann agus tá Gearmáinis acu agus níl fadhb ar bith leis an <i>umlaut</i>, mar a deir an Teachta Ó Cathasaigh, agus tá muidne ag caint faoi shíntí fada agus séimhithe. Is dócha go gclúdaíonn sé sin an dearcadh atá ag an gcóras i leith na Gaeilge. Níl an dearcadh sin ag muintir na tíre nó ag na daoine ar an talamh ach tá dearcadh aisteach ag an gcóras sa bhealach nach bhfuil an Rialtas sásta a leagan amach go soiléir gur cheart bunúsach é ainm agus seoladh i nGaeilge a bheith ag duine, cibé cén chaoi a scríobhtar é sin.</p>
+          <p eId="para_128"> Tá m'ainm luaite le dhá leasú ach tá mé ag tabhairt mo thacaíocht do gach leasú. Maítear i leasú Uimh. 58: "I leathanach 9, líne 23, “féadfaidh” a scriosadh agus “déanfaidh” a chur ina ionad." Má tá an Rialtas i ndáiríre, tá an focal "déanfaidh" i bhfad níos ciallmhaire agus tá an Rialtas sásta an focal sin a úsáid. Úsáidtear "the Minister shall", "Déanfaidh an tAire" nó "beidh aird ag an Aire" in ailt eile ach anseo maítear "féadfaidh an tAire". Tá sé sin thar a bheith lag agus scaoilte agus ní féidir glacadh le "féadfaidh an tAire". Beidh dualgas ar an Aire agus ar an gcóras na cúrsaí seo a chinntiú.</p>
+          <p eId="para_129"> Tá mé ag seasamh anseo ag caint faoi rudaí mar seo nuair ba chóir dúinn glacadh leis seo. Tá gá leis seo agus is rud bunúsach é. Caithimid dul ar aghaidh go dtí an dúshlán atá os ár gcomhair; sé sin cén chaoi gur féidir linn an Ghaeilge a chur chun cinn sa Stát seo go dearfach. Cén chaoi gur féidir linn dul i ngleic leis na dúshláin atá os ár gcomhair? Níl mé ag caint ar na dúshláin atá luaite agam ach na dúshláin atá luaite ag na saineolaithe agus na gnáthdhaoine a tháinig os comhair an choiste agus a chuir na dúshláin agus na deacrachtaí sin in iúl. Táimid sáite sna nithe beaga seo ach distraction agus am amú atá i gceist. Ba chóir go mbeadh sé seo inghlactha agus go mbeadh muid ag díriú isteach ar na ceisteanna tábhachtacha agus ar an ngéarchéim atá ann. Tá a fhios againn go léir faoin ngéarchéim sin.</p>
+          <p eId="para_130"> Ag pointe áirithe sa phróiseas seo agus nuair atá an tAire Stáit sásta teacht ar ais chugainn agus nuair atá soiléiriú againn ó Oifig na mBillí, ba mhaith liom, le ceannaireacht an Chathaoirligh, díriú isteach ar na dúshláin atá ann agus díospóireacht dhearfach a bheith againne maidir leis atá le déanamh againne i bhfianaise na géarchéime sin.</p>
+        </speech>
+        <speech by="#EamonOCuiv" eId="spk_63">
+          <from>Deputy Éamon Ó Cuív<recordedTime time="2021-02-16T14:30:00+00:00"/></from>
+          <p eId="para_131">B'fhéidir go míneodh an tAire Stáit cén fáth nach bhfuil sé díreach mar dhualgas ar chuile chomhlacht poiblí ainm a chur i nGaeilge má tá sé i nGaeilge, sa Bhéarla má tá sé i mBéarla agus i dteanga ar bith eile má tá sé i dteanga ar bith eile. Cén fáth go gcaithfeadh an tAire forordú a dhéanamh leis an gceart sin a bhaint amach? Leis an leagan amach atá ann, má tá mo léamh ar an rud ceart, caithfear dul ag caint leis an Aire eile agus mar sin de agus téann an próiseas sin chun leadráin. Cén fáth nach bhfuil sé díreach simplí sa dlí? Más Éamon Ó Cuív atá ormsa, tá sé de cheart agamsa ó chuile eagraíocht Stáit Éamon Ó Cuív a bheith láithreach mar ainm orm. Cén rud eile a bheadh orm? Níl aon ainm eile agam. Ní "Eamon O Cuiv" atá orm ach oiread.</p>
+          <p eId="para_132"> Ba cheart go mbeadh an rud seo i bhfad níos dírí ná mar atá sé agus is cuma liomsa faoi ríomhairí agus na fadhbanna sin. Ní mise a tharraing an fhadhb sin. Is le daoine nár cheannaigh an trealamh ceart a tharraing an fhadhb orthu féin. Cuiridís ceart anois é; ní amárach ná an tseachtain dár gcionn ach anois. Tá sé thar ama é seo a dhéanamh. Níor cheart go n-éireodh an cheist ariamh i stát dátheangach ina bhfuil an Ghaeilge mar an bpríomhtheanga oifigiúil nach féidir ainm a chur síos i nGaeilge, a bheith glactha leis i nGaeilge agus é a fháil ar ais i nGaeilge ó fhoras Stáit.</p>
+        </speech>
+        <speech by="#JackChambers" eId="spk_64">
+          <from>Deputy Jack Chambers<recordedTime time="2021-02-16T14:30:00+00:00"/></from>
+          <p eId="para_133">Baineann leasuithe Uimh. 58 agus 60 leis an bhfocal "déanfaidh" a chur in ionad "féadfaidh". Tá an dualgas ar chomhlachtaí poiblí ó thaobh ainmneacha, seoltaí agus teidil i nGaeilge sonraithe sa Bhille cheana in alt 9A agus ní fheictear dom go dteastaíonn tuilleadh leasuithe ar an bhfoclaíocht dá réir. Is é an fhadhb atá againn le "déanfaidh" seachas "féadfaidh" ná nach bhfuil aon teorann leis an líon rialacháin go bhféadfadh duine a dhéanamh. Má deirtear go gcaithfidh duine é a dhéanamh, caithfear a bheith soiléir cad a chaithfear a dhéanamh.</p>
+          <p eId="para_134"> I gcás leasú Uimh. 58, féadfaidh an tAire comhlacht poiblí a ordú chun críche an ailt seo. Faoi cheann cúpla bliain, b'fhéidir go mbeadh comhlacht eile le forordú nach raibh ann nó nach raibh san áireamh an chéad uair. Is gnáthchaint dlíthiúil é gur féidir le hAire rud a dhéanamh. Níl aon teorann le cé chomh minic agus a dhéanann sé nó sí na rialacháin seo amach anseo go brách. Mar a chéile, tá leasú Uimh. 60 dírithe ar alt 9A(2) den Bhille: "Féadfaidh an tAire... na seirbhísí a thairgeann nó a sholáthraíonn an comhlacht a shonrú, is seirbhísí ar ina leith a fhorordófar amhlaidh é." Faoi cheann roinnt blianta, b'fhéidir go dteastóidh ó Aire seirbhísí eile a fhorordú. D'fhéadfaí é sin a dhéanamh leis an bhfoclaíocht seo.</p>
+          <p eId="para_135"> Tagraím do leasú Uimh. 59. Baineann alt 9 leis na dualgais ar chomhlachtaí poiblí ó thaobh ainmneacha, seoltaí agus teidil i nGaeilge. Díríonn an leasú seo ar chomhlachtaí agus ar ainmneacha go príomha agus ar an gceart atá ag daoine ainmneacha agus seoltaí Gaeilge a úsáid leis na comhlachtaí poiblí. Táim sásta go bhfuil na forálacha atá molta ag an Rialtas i leith ainmneacha agus seoltaí Gaeilge sásúil. Táim sásta, áfach, an cheist maidir leis na síntí fada, a luaitear i leasuithe Uimh. 62 agus 63, a phlé leis an dréachtóir agus teacht ar ais ar Chéim na Tuarascála le moladh chun tagairt shonrach a dhéanamh don síneadh fada, más gá. Idir seo agus sin, más mian leis na Teachtaí labhairt liom féin nó le mo chuid oifigigh faoi na leasuithe seo, chuirfinn fáilte roimhe sin. Ar an mbonn sin, b'fhéidir go mbeadh na Teachtaí sásta leasuithe Uimh. 62 agus 63 a tharraingt siar.</p>
+        </speech>
+        <speech by="#EamonOCuiv" eId="spk_65">
+          <from>Deputy Éamon Ó Cuív<recordedTime time="2021-02-16T14:30:00+00:00"/></from>
+          <p eId="para_136">An rud atá á mholadh anseo ná déanamh cinnte de go n-aithneoidh comhlacht poiblí, faoi alt 9A(3):"ainm (lena n-áirítear foirm athartha nó foirm mháthartha an ainm), seoladh nó teideal duine i nGaeilge a thaifeadadh agus a úsáid i gceart" agus maítear "féadfaidh an tAire". Cén fáth nach bhfuil treoir díreach san Acht, dubh agus bán agus gan aon riabhach ann, go gcaithfear é a dhéanamh? Is é an rud atá á rá ag an Rialtas ná mura ndéanann siad é sin, in ionad gur féidir dul ag an gCoimisinéir Teanga agus a rá go bhfuil dualgas san Acht Éamon Ó Cuív a thabhairt ar Éamon Ó Cuív, agus gan aon rud eile a thabhairt air, gur féidir leis an gcóras leanúint ar aghaidh leis sin go dtí go ndéanann an tAire Stáit forordú tar éis labhairt leis an Aire. Feictear domsa gur bealach uafásach fadálach atá ansin a chuirfidh an t-uafás leis an maorlathas seachas a rá, más Éamon Ó Cuív atá ar dhuine, sin ba cheart a thabhairt air agus ní haon ainm eile, más Aindrias Ó Muimhneacháin atá ar Aindrias Ó Muimhneacháin, sin an t-ainm atá air agus más Aengus Ó Snodaigh atá ar Aengus Ó Snodaigh, sin an t-ainm atá air agus ní aon rud eile. Ba cheart go mbeadh sé díreach san Acht go gcaithfear glacadh leis an ainm i nGaeilge. Níl aon spéis agamsa sna leithscéalta seo faoi na ríomhairí. Réitíodh na comhlachtaí é sin.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_66">
+          <from> Chairman<recordedTime time="2021-02-16T14:30:00+00:00"/></from>
+          <p eId="para_137">Tá cúpla rud le rá agamsa faoi seo. Tá an ceart ag an Teachta Ó Cuív. Bheadh sé i bhfad Éireann níos éasca dá mbeadh an dualgas sin ann ó thús. Níor chóir ach go mbeadh líne amháin ann agus go dtuigfeadh gach duine go simplí gur sin ainm, teideal nó seoladh duine agus nach féidir an duine sin a mhaslú trí athrú a dhéanamh air nó uirthi, mar a dhéantar, agus is athrú míniú ina iomlán atá i gceist. Mar a dúirt mé, ní hé díreach na focail féin a athraítear ach má chuirtear uaschamóg in áit síneadh fada ar "O", tá míniú iomlán difriúil i gceist. Ciallaíonn "Ó" from agus ciallaíonn "O'" gur garmhac atá i gceist.</p>
+          <p eId="para_138">Is athrú suntasach é sin. Tá míniú difriúil ann. Tá an rud céanna fíor nuair a athraítear seoltaí daoine. Uaireanta cuirtear isteach síntí fada nár chóir go mbeadh siad ann. Bíonn siad ar an litir mhícheart nó ar litreacha nach gutaí iad. Tá an bealach ina bhfuil daoine in Éirinn tar éis caitheamh le m'ainm ó rugadh mé maslach. Tá sé mar an gcéanna do a lán daoine eile. Tuigim botúin ach ní thuigim an masla a dhéantar nuair a dhéanann duine botún agus an t-ainm litrithe go sonrach os a chomhair. Ní tharlaíonn sé dom thar lear. Cén fáth go dtarlaíonn sé anseo? Cén fáth go nglacann an státchóras agus an pobal i gcoitinne gur féidir le duine duine eile a mhaslú trína ainm a litriú go mícheart nó tríd an duine seo a bhrú chun uaschamóg a úsáid? Tá dhá chárta creidmheasa agam. Litrítear m'ainm le síneadh fada ar cheann amháin ach tá uaschamóg ar an gceann eile. Nuair a rinne mé gearán, dúradh liom nár fhéidir leis an mbanc síneadh fada a úsáid. Is bloody meaisín atá ann. Iarrann duine air rud a dhéanamh agus déanann sé é. Ní dhéanann sé difríocht ar bith.</p>
+          <p eId="para_139"> Is é an rud ceannann céanna atá i gceist leis an ríomhaire. Tá ríomhairí in úsáid againn anois le breis is 70 bliain, ón Dara Cogadh Domhanda. Tá siad in úsáid i ngach uile chomhlacht le 20 bliain anuas. Tá trealamh ag comhlachtaí agus tá a fhios ag daoine gur chóir go mbeadh an trealamh sin in ann déileáil leis an síneadh fada agus iad á ordú. Tá sé i bhfad Éireann níos éasca, nó ba chóir go mbeadh sé, déanamh cinnte de go dtuigeann an córas an síneadh fada agus an trealamh á cheannach agus an clár ríomhaire á chur isteach ann.</p>
+          <p eId="para_140"> Tá cearta againn de réir Airteagal 7 den Choinbhinsiún um Chearta an Linbh de chuid na Náisiún Aontaithe ina ndeirtear "Clárófar leanaí láithreach tar éis a mbreithe agus beidh sé de cheart acu ón am a mbeirtear iad ainm a bheith orthu". Má tá an ceart sin ann, níl sé de cheart ag aon duine an t-ainm sin a athrú. Is ceart bunúsach é. Nílim ag caitheamh anuas ar an Aire Stáit mar tá an Bille ag déanamh iarracht déileáil le fadhbanna atá aitheanta againn ar fad. Glacaimid leis sin ach, sna leasuithe seo, táimid ag déanamh iarracht a chinntiú go dtuigfidh, ag deireadh na staide seo, gach uile chomhlacht Stáit as seo amach gur gá dó seasamh leis an ainm atá scríofa os ár gcomhair nó a dtugann muid orainn féin. Is cuma sa tsioc leis an gcuid is mó den chóras faoin ainm anyway. Is uimhreacha muid sa chóras. Ní gá go mbeadh siad buartha go mbeadh duine éigin ag déanamh caimiléireachta. Is uimhreacha a léann an ríomhaire. Ba chóir go mbeadh sé de bhéasa ag na comhlachtaí sin an t-aitheantas sin a thabhairt dúinne agus meas a bheith acu ar an méid sin.</p>
+          <p eId="para_141"> Tá an ceart ag an Teachta Ní Chonghaile; ní cóir go mbeadh muid ag caitheamh an oiread sin ama ar cheisteanna mar seo ach is léiriú é ar cé chomh bunúsach agus cé chomh tubaisteach atá an fhadhb gur gá dúinn an t-am seo a chaitheamh chun déanamh cinnte de go bhfuil sé i gceart.</p>
+        </speech>
+        <speech by="#EamonOCuiv" eId="spk_67">
+          <from>Deputy Éamon Ó Cuív<recordedTime time="2021-02-16T14:40:00+00:00"/></from>
+          <p eId="para_142">B'fhéidir go bhfuil muid ag caitheamh ama air seo ach is duine mé nár úsáid an leagan Béarla de m'ainm riamh ó rugadh mé. Cláradh mé mar Éamon Ó Cuív agus fanfaidh mé mar sin go brách. Mar sin, tá mise in ann a rá gur chaith mé i bhfad níos mó de mo shaol ag iarraidh m'ainm a fháil ceart ná an t-am atá muid á chaitheamh anseo inniu ag iarraidh go mbeidh sé sin cosanta sa dlí. Tugtar "Éamon Ó Cúiv", "Éamon Ó Cuir" agus "Éamon Ó Chuile Shórt" orm seachas Éamon Ó Cuív. Níl sé sách maith. Is é an rud atá mise á rá nár gur rud fíorbhunúsach é seo. Tá difríochtaí ollmhóra i gceist. Tógfaimid sampla an-simplí ar fad, an t-ainm Seán Ó Murchú. Má fhágtar as an síneadh fada ar an "Seán", is duine difriúil atá i gceist. Ciallaíonn "sean" ná go bhfuil aois ar dhuine. Is ionann Sean Ó Murchú agus Old Murphy, má táthar chun Béarla a chur air agus a bheith ag magadh. Cad chuige nach féidir linn díreach a rá go bhfuil dualgas ar chomhlachtaí poiblí glacadh le hainmneacha agus seoltaí i gceachtar den dá theanga oifigiúil agus é a dhéanamh i gceart seachas comhlachtaí a fhorordú? Tá a fhios agam gur cuireadh é sin ag na heagraíochtaí Stáit gan é a dhéanamh agus dúshlán an Aire Stáit a thabhairt. Beifear ag dul ó eagraíocht go heagraíocht ag éisteacht le leithscéalta díobhálacha maidir le ríomhairí agus chuile shórt eile go dtí Lá Philib an Chleite. Beidh muid ag dul ag an gCoimisinéir Teanga agus beidh sé ag rá nach féidir leis tada a dhéanamh faoi mar nach bhfuil an forordú ann. Is é sin an tuiscint atá agamsa air seo. Seachas sin, ba chóir a rá go bhfuil ceart ag duine a ainm a úsáid i nGaeilge agus gur fadhb don chomhlacht é sin.</p>
+          <p eId="para_143"> Thug an Breitheamh Onórach Hardiman breithiúnas iontach sa Chúirt Uachtarach. Dúirt sé go gcuireann an Stát dualgais throma ar an saoránach ó thaobh foirmeacha, iarratais agus mar sin de a dhéanamh agus, mar sin, go bhfuil sé go hiomlán ceart go gcuirfí ualach ar an Stát agus nach féidir leis an Stát casadh a dhéanamh mar cuirtear ualach ar dhaoine rudaí a fháil ceart i nGaeilge. Tá a fhios agam go bhfuil iarracht déanta ag an Aire Stáit, a tháinig isteach sa scéal seo deireanach sa lá, ach creidim go bhfuil an fhoráil áirithe a cuireadh isteach róchasta. Is cuireadh é ag eagraíochtaí gan rud a dhéanamh agus a dhúshlán a thabhairt. Beidh Airí eile i gcónaí ag iarraidh cead gan forordú a dhéanamh ar cibé eagraíocht toisc nach bhfuil sé sásta glacadh le hainmneacha i nGaeilge agus go bhfuil sé ag tabhairt leithscéil. Gheobhaidh an tAire Stáit ualach mór páipéir ar ais tríd an gcóras ag míniú cén fáth go gcosnódh sé sin an oiread seo airgid ar eagraíocht an rud seo a chur ina cheart nuair nach bhfuil ann ach leisciúlacht. Níl an fhoireann ag an Aire Stáit le bheith ag troid in aghaidh an chórais ar fad an t-am ar fad. Mar sin, ní thuigim cén fáth nach bhfuil foráil shimplí ann go bhfuil sé de cheart ag daoine a n-ainmneacha Gaeilge a úsáid agus é a fhágáil don chóras oibriú amach cén chaoi an ceart sin a chomhlíonadh.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_68">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T14:40:00+00:00"/></from>
+          <p eId="para_144">Ón tús, dúirt mé go neamhbhalbh gur rud bunúsach é seo agus gur chóir go mbeadh sé ann. Níl drogall ar bith orm é sin a rá. Tá frustrachas orm agus ar a lán daoine eile go bhfuil orainn an méid sin ama a chaitheamh chun cearta chomh bunúsach seo a chur isteach sa Bhille. Is í sin an fhadhb. De bharr sin, níl muid in ann díriú isteach ar na dúshláin ollmhóra atá os ár gcomhair mar Dháil chun an Ghaeilge a chur chun cinn i mbealach atá cothrom agus atá tuillte ag muintir na Gaeilge agus na Gaeltachta. Dúirt mé go raibh muid ag cur amú ama. Níl muid ach tá orainn an méid sin ama a chaitheamh ar an díospóireacht seo chun cearta bunúsacha mar seo a chinntiú. Tá sé náireach amach is amach. Don chéad uair, tá deis againn anois. Tá an Teachta Ó Cuív mar chuid de pháirtí atá sa Rialtas. Tá Rialtas le trí pháirtí ann anois agus is féidir linn rud a dhéanamh anois. Is rud bunúsach é sin. Ní mór dúinn fáil réidh leis sin i mbealach atá dearfach. I bhfocail an Teachta féin, ba cheart go mbeadh foráil shimplí ann chun a chinntiú go bhfuil an ceart bunúsach sin ag gach duine sa tír. Tá sé sin ráite. Is í an cheist ná cén chaoi is féidir an Bille seo a láidriú go ginearálta ionas go mbeidh céim tugtha againn chun dul i ngleic leis an ngéarchéim atá ann. Tá géarchéim ann. Léiríonn sé seo cé chomh deacair is atá sé do na daoine le Gaeilge ar an talamh seirbhísí a fháil trí Ghaeilge i mbealach atá cothrom agus féaráilte. Má tá aon tionchar ag an Teachta, ba chóir é a úsáid agus foráil dhíreach shimplí a chur isteach sa Bhille a chinnteoidh na cearta bunúsacha seo.</p>
+          <p eId="para_145">Ansin, beidh muid go léir in ann díriú ar na fadhbanna atá ann. Ní saineolaí mé ach i mo thuairim is gá dul i ngleic leis an ngéarchéim. Is gá dúinn go léir obair as lámh a chéile agus an ghéarchéim a aithint agus ansin dul i ngleic léi. Níl i gceist ag an mBille seo ach céim amháin. Ní féidir dul i ngleic le aon ghéarchéim cosúil le athrú aeráide nó cúrsaí tithíochta gan an fhadhb a aithint agus aitheantas a thabhairt don ghéarchéim. Tá sé sin déanta againn ó thaobh athrú aeráide de ach fós níl céim dhearfach tógtha againn. Sa bhliain 2020 nó 2019, fógraíodh sa Dáil go raibh géarchéim ann ó thaobh athrú aeráide de. Ní fógraíodh fós go bhfuil géarchéim ó thaobh na Gaeilge de.</p>
+        </speech>
+        <speech by="#AindriasMoynihan" eId="spk_69">
+          <from>Deputy Aindrias Moynihan<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_146">Ar an gcéad dul síos, fáiltím roimh an dearcadh dearfach atá ag an Aire Stáit mar gheall ar an ábhar fíorthábhachtach seo. Is é aitheantas agus ainm an duine atá uainn. Ba chóir go mbeadh duine ábalta plé leis an státchóras gan a aitheantas nó haitheantas, nó a ainm nó a hainm a athrú chun go mbeadh rudaí níos compordaí dóibh siúd. Tá sé ar an gcumas ag cuid de na rannóga ainm agus aitheantas an duine a láimhseáil. Feicimid é le hOifig na bPasanna, mar shampla. Níl cúis ar bith ann nach mbeadh sé sin ar fáil do gach éinne agus iad ag plé leis an státchóras. Tá sé ar an gcumas ag na ríomhairí éagsúla. Tá áthas orm go bhfuil an tAire Stáit chun féachaint ar shlí éigin nó leasú eile a bheadh ag teacht chun é sin a chur i bhfeidhm sa chéad Chéim eile. Is rud fíorbhunúsach agus an-tábhachtach é.</p>
+        </speech>
+        <speech by="#JackChambers" eId="spk_70">
+          <from>Deputy Jack Chambers<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_147">Táim ag éisteacht leis na comhaltaí agus tuigim na pointí ó na Teachtaí Connolly, Daly, Ó Snodaigh, Moynihan agus Ó Cuív. Níl an scéal anois go maith mar a dúirt siad más rud é go mbíonn ainm an duine i mBéarla ag na comhlachtaí poiblí.</p>
+          <p eId="para_148"> Nílim sásta leis an scéal faoi láthair agus, mar a dúirt mé, táim ag éisteacht leis na Teachtaí ar an gceann seo. Caithfimid glacadh leis seo go dtí go bhfuil córas IT curtha in ord don rud atá molta. Caithfear dul i gcomhairle le comhlachtaí poiblí ar an gceist. Dá bhrí sin, beidh mé sásta breathnú ar an gceist arís chun féachaint ar an féidir spriocdháta a chur leis an alt seo. Táim sásta é seo a dhéanamh agus teacht ar ais le moladh ar Chéim na Tuarascála, b’fhéidir le spriocdháta. Beidh am ann chun an scéal a fheabhsú idir inniu agus Céim na Tuarascála, nó nuair a bheidh an Bille achtaithe. Beidh spriocdháta sa Bhille so beidh deis agus am ag na comhaltaí an scéal a fheabhsú.</p>
+          <p eId="para_149"> Tríd an bpróiseas seo beidh muid in ann an scéal a fheabhsú. Mar a dúirt an Teachta Connolly, is ceart bunúsach é seo agus beidh rudaí níos fearr de bharr an leasaithe seo. Tiocfaidh mé ar ais ar Chéim na Tuarascála agus ceapaim go mbeidh an spriocdháta mar an leasú is fearr chun an próiseas a fheabhsú.</p>
+        </speech>
+        <speech by="#EamonOCuiv" eId="spk_71">
+          <from>Deputy Éamon Ó Cuív<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_150">Beidh córas uathoibríoch i bhfad níos sásúla ná an rud atá curtha sa Bhille. Táim tar éis fanacht sách fada le seo agus dá mbeinn cinnte go mbeadh sé ann do gach uile eagraíocht Stáit faoi dháta, abair 18 mí nó dhá bhliain uaidh seo, ghlacfainn leis sin. Ní chreidim go bhfuil mórán faidhbe ann. Is cuimhin liomsa nuair a bhí seo á bheartú, bhí mé mar an tAire Coimirce Sóisialaí ar feadh bliana. Ceann de na ceisteanna a chuir mé, ceist an-bhunúsach í, ag an am ná an bheifí cinnte a dhéanamh go mbeadh na síntí fada ann. Tá siad ann. Dúradh liom nach raibh mórán faidhbe ann. Níl bhaineann an fhadhb seo leis an IT ach leis an gcomhlacht. Is é dearcadh atá i gceist.</p>
+          <p eId="para_151"> Tá mise sásta glacadh leis seo má thagann an tAire Stáit ar ais le moladh a gcuirfeadh leasú eile sa Bhille le dáta, mar shampla, as seo go ceann dhá bhliain, nó cibé dáta tar éis don Acht teacht i bhfeidhm, go mbeidh dualgais ar na comhlachtaí, as éadan. Bí dearfach cinnte, má ghlactar leis sin, sábhálfar go leor antrátha agus oibre don Aire Stáit ag rith thart i ndiaidh comhlachtaí poiblí a bheas ag déanamh leithscéalta ar cén fáth nach bhfuil an jab déanta i gceart acu.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_72">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_152">Cad atá á dhéanamh againn maidir leis na leasuithe?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_73">
+          <from> Chairman<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_153">Má thagann an tAire Stáit ar ais le leasú den sórt atá i gceist aige, athróidh sé sin an méid a bhfuil muid tar éis caint faoi. Bheadh an Coimisinéir Teanga an-shásta leis. Nuair a bhí an Dr. John Walsh ós comhair an choiste, luaigh seisean go raibh 8% de ghearáin a bhfaigheadh sé gach bliain faoi ainmneacha agus sloinnte mícheart. Bheadh níos mó ama ag an gCoimisinéir Teanga chomh maith céanna. Is rud maith é go bhfuil an tAire Stáit ag dul sa treo sin.</p>
+          <p eId="para_154"> Bheinn sásta na leasuithe atá i m’ainm a tharraingt siar ar an mbonn sin, go bhfuil geallúint tugtha dúinn go mbeidh an tAire Stáit ag teacht ar ais ar Chéim na Tuarascála le forálacha eile. Nuair a bheidh sé rite againn, beimid in ann díriú isteach ar an athrú meoin agus an dualgais ceart ar chóir go mbeadh ag éinne sa státchóras.</p>
+          <p eId="para_155"> Tá súil agam nuair a thiocfaimid ar ais ar Chéim na Tuarascála go dtabharfaidh an tAire Stáit a lán ama dúinn agus é mar Phríomh-Aoire an Rialtais. Tá an méid sin leasuithe ann ar gá dó teacht ar ais chugainn go mb'fhéidir go mbeadh muid chomh fada céanna leis an gCéim seo.</p>
+        </speech>
+        <speech by="#JackChambers" eId="spk_74">
+          <from>Deputy Jack Chambers<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_156">Bíonn an comhoibriú an-mhaith.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_75">
+          <from> Chairman<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_157">Más rud é go mbíonn na leasuithe go maith, ní bheimid ag dul tríothu le magnifying glass nó a leithéid.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_76">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_158">Cuirim fáilte roimhe agus táim sásta le freagra an Aire Stáit, ach maidir le leasuithe Uimh. 58 agus 59, an bhfuil sé ag rá go bhfuil sé sásta breathnú ar na míreanna atá nasctha le chéile? Cad go díreach atá sé ag caint faoi, chun é a shoiléiriú dom because tá sé go léir nasctha le chéile le "déanfaidh" seachas "féadfaidh"? Cad atá á dhéanamh aige maidir leis na leasuithe uilig?</p>
+        </speech>
+        <speech by="#JackChambers" eId="spk_77">
+          <from>Deputy Jack Chambers<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_159">Beimid i dteagmháil leis na dréachtoírí parlaiminte maidir le forálacha nua do na leasuithe sa ghrúpa seo.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_78">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_160">Na cinn uilig? Na míreanna atá nasctha le chéile?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_79">
+          <from> Chairman<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_161">Don chuid seo.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_80">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_162">Tá mise sásta leis sin más rud é go bhfuil siad nasctha le chéile agus go bhfuil an tAire Stáit sásta teacht ar ais chugainn.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_81">
+          <from> Chairman<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_163">Muna dtagann sé ar ais, beimid ábalta labhairt faoi arís ar Chéim na Tuarascála.</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_82">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_164">Is é sin an soiléiriú a bhí ag teastáil uaim.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_83">
+          <from> Chairman<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_165">Ionas go gcuirtear na comhaltaí ar an eolas, aon rud ar pléadh sa choiste is féidir leo leasú a chur isteach arís ar Chéim na Tuarascála. Níl siad rialaithe as ord fad is atá plé éigin déanta leo nó go bhfuil siad luaite sa Chéim seo. Muna bhfuil leasú ag teacht chun cinn ón Aire Stáit ar Chéim na Tuarascála, is féidir linn na leasuithe seo ar fad a chur san áireamh arís ag an stad sin.</p>
+          <p eId="para_166"> Déanfaidh mé iarracht dul tríd na leasuithe go tapa ionas gur féidir linn bogadh ar aghaidh. Tá leasú Uimh. 58 i m'ainm agus táim sásta é a tharraingt siar ar bhonn a dúirt an tAire Stáit. An bhfuil gach duine eile sásta leis sin?</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_84">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_167">Táim sásta é a tharraingt siar bunaithe ar sin.</p>
+        </speech>
+        <summary eId="sum_25"> Tarraingíodh siar an leasú faoi chead.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_85">
+          <from> Chairman<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_168">Tairgim leasú Uimh. 59:</p>
+          <p class="indent_1" eId="para_169">I leathanach 9, idir línte 26 agus 27, an méid seo a leanas a chur isteach:</p>
+          <p class="indent_2" eId="para_170">“(1A) Aithnítear leis an Acht seo nach gá go mbainfeadh leagan ainm i dteanga oifigiúil amháin le leagan ainm sa teanga oifigiúil eile, agus go bhfuil sé de cheart ag gach duine a ainm féin nó a hainm féin, déanta d’aon litreacha nó síntí fada atá in aibítear an dá theanga oifigiúla, a úsáid agus a bheith aitheanta in aon ghnó atá ar bun aige nó aici sa Stát.”.</p>
+          <p eId="para_171">Tá mé sasta an leasú seo a tharraingt siar.</p>
+        </speech>
+        <summary eId="sum_26"> Tarraingíodh siar an leasú faoi chead.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_86">
+          <from> Chairman<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_172">Tairgim leasú Uimh. 60:</p>
+          <p class="indent_1" eId="para_173">I leathanach 9, líne 27, “Féadfaidh” a scriosadh agus “Déanfaidh” a chur ina ionad.</p>
+          <p eId="para_174">Tá mé sásta an leasú seo a tharraingt siar. An bhfuil na comhaltaí eile?</p>
+        </speech>
+        <speech by="#CatherineConnolly" eId="spk_87">
+          <from>Deputy Catherine Connolly<recordedTime time="2021-02-16T14:50:00+00:00"/></from>
+          <p eId="para_175">Tá.</p>
+        </speech>
+        <summary eId="sum_27"> Tarraingíodh siar an leasú faoi chead.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_88">
+          <from> Chairman<recordedTime time="2021-02-16T15:00:00+00:00"/></from>
+          <p eId="para_176">Tá leasú Uimh. 61 as ord.</p>
+        </speech>
+        <summary eId="sum_28"> Níor tairgeadh leasú Uimh. 61.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_89">
+          <from> Chairman<recordedTime time="2021-02-16T15:00:00+00:00"/></from>
+          <p eId="para_177">Tairgim Leasú Uimh. 62:</p>
+          <p class="indent_1" eId="para_178">I leathanach 9, na focail ó “ainm” ar líne 35 síos chomh fada le “nGaeilge” ar líne 36 go huile a scriosadh agus an méid seo a leanas a chur ina n-ionad:</p>
+          <p class="indent_2" eId="para_179">“ainm (lena n-áirítear foirm athartha nó foirm mháthartha an ainm, ainm áitiúil, agus síntí fada ar ghutaí sa Ghaeilge), seoladh (lena náirítear síntí fada ar ghutaí sa Ghaeilge) nó teideal duine (lena náirítear síntí fada ar ghutaí sa Ghaeilge) sa Ghaeilge”.</p>
+          <p eId="para_180">Maidir le leasú Uimh. 62, táim sásta an leasú sin a tharraingt siar.</p>
+        </speech>
+        <summary eId="sum_29"> Tarraingíodh siar an leasú faoi chead.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_90">
+          <from> Chairman<recordedTime time="2021-02-16T15:00:00+00:00"/></from>
+          <p eId="para_181">Maidir le leasú Uimh. 63, níl an Teachta i láthair agus nílimid á chur.</p>
+        </speech>
+        <summary eId="sum_30"> Níor tairgeadh leasú Uimh. 63.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_91">
+          <from> Chairman<recordedTime time="2021-02-16T15:00:00+00:00"/></from>
+          <p eId="para_182">De bharr go bhfuil an t-am istigh orainn inniu, críochnóimid anois. Cuirfidh mé an cruinniú seo ar athló go dtí an chéad lá eile, is é sin Dé Máirt seo chugainn mura bhfuil sliotán eile ar fáil dúinn roimhe sin agus ag brath ar aontú na mball féin faoi sin. Beidh an cléireach i dteagmháil leis na baill faoin dáta don chéad cruinniú eile. Gabhaim míle buíochas libh go léir agus coinnígí slán.</p>
+        </speech>
+        <summary eId="sum_31"> Tugadh tuairisc ar a ndearnadh; an Coiste do shuí arís.</summary>
+        <summary eId="sum_32"> Cuireadh an roghchoiste ar athló ar 3.01 p.m. go dtí 1 p.m., Dé Máirt, 23 Feabhra 2021.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

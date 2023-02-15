@@ -1,0 +1,574 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_the_implementation_of_the_good_friday_agreement/2007-11-22/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_the_implementation_of_the_good_friday_agreement/2007-11-22/debate"/>
+          <FRBRdate date="2007-11-22" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_the_implementation_of_the_good_friday_agreement"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_the_implementation_of_the_good_friday_agreement/2007-11-22/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_the_implementation_of_the_good_friday_agreement/2007-11-22/debate/mul@"/>
+          <FRBRdate date="2007-11-22" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_the_implementation_of_the_good_friday_agreement/2007-11-22/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_the_implementation_of_the_good_friday_agreement/2007-11-22/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="CaoimhglinOCaolain" href="/ie/oireachtas/member/id/Caoimhghín-Ó-Caoláin.D.1997-06-26" showAs="Caoimhghín Ó Caoláin"/>
+        <TLCPerson eId="CeciliaKeaveney" href="/ie/oireachtas/member/id/Cecilia-Keaveney.D.1996-04-02" showAs="Cecilia Keaveney"/>
+        <TLCPerson eId="DonnieCassidyFF" href="/ie/oireachtas/member/id/Donie-Cassidy.S.1982-05-13" showAs="Donie Cassidy"/>
+        <TLCPerson eId="DrMartinMansergh" href="/ie/oireachtas/member/id/Dr-Martin-Mansergh.S.2002-09-12" showAs="Dr Martin Mansergh"/>
+        <TLCPerson eId="EamonScanlon" href="/ie/oireachtas/member/id/Eamon-Scanlon.S.2002-09-12" showAs="Eamon Scanlon"/>
+        <TLCPerson eId="FergusODowdFG" href="/ie/oireachtas/member/id/Fergus-O'Dowd.S.1997-09-17" showAs="Fergus O'Dowd"/>
+        <TLCPerson eId="IvanaBacik" href="/ie/oireachtas/member/id/Ivana-Bacik.S.2007-07-23" showAs="Ivana Bacik"/>
+        <TLCPerson eId="JackWall" href="/ie/oireachtas/member/id/Jack-Wall.S.1993-02-17" showAs="Jack Wall"/>
+        <TLCPerson eId="JoeBehan" href="/ie/oireachtas/member/id/Joe-Behan.D.2007-06-14" showAs="Joe Behan"/>
+        <TLCPerson eId="JoeMcHugh" href="/ie/oireachtas/member/id/Joe-McHugh.S.2002-09-12" showAs="Joe McHugh"/>
+        <TLCPerson eId="JoeOReilly" href="/ie/oireachtas/member/id/Joe-O'Reilly.S.1989-10-01" showAs="Joe O'Reilly"/>
+        <TLCPerson eId="MargaretConlon" href="/ie/oireachtas/member/id/Margaret-Conlon.D.2007-06-14" showAs="Margaret Conlon"/>
+        <TLCPerson eId="MichaelJWoods" href="/ie/oireachtas/member/id/Michael-Woods.D.1977-07-05" showAs="Michael Woods"/>
+        <TLCPerson eId="NoelTracey" href="/ie/oireachtas/member/id/Noel-Treacy.D.1982-07-20" showAs="Noel Treacy"/>
+        <TLCPerson eId="SeymourCrawford" href="/ie/oireachtas/member/id/Seymour-Crawford.D.1992-12-14" showAs="Seymour Crawford"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM FEIDHMIÚ CHOMHAONTÚ AOINE AN CHÉASTA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON THE IMPLEMENTATION OF THE GOOD FRIDAY AGREEMENT</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2007-11-22">Déardaoin, 22 Samhain 2007</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2007-11-22">Thursday, 22 November 2007</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at noon.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JoeBehan">
+                Deputy Joe Behan,*
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#IvanaBacik">
+                Senator Ivana Bacik,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#MargaretConlon">
+                Deputy Margaret Conlon,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#DonnieCassidyFF">
+                Senator Donie Cassidy,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#SeymourCrawford">
+                Deputy Seymour Crawford,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#CeciliaKeaveney">
+                Senator Cecilia Keaveney,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#DrMartinMansergh">
+                Deputy Martin Mansergh,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#JoeOReilly">
+                Senator Joe O’Reilly.
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#JoeMcHugh">
+                Deputy Joe McHugh,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#CaoimhglinOCaolain">
+                Deputy Caoimhghín Ó Caoláin,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#FergusODowdFG">
+                Deputy Fergus O’Dowd,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#EamonScanlon">
+                Deputy Eamon Scanlon,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#NoelTracey">
+                Deputy Noel Treacy,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#JackWall">
+                Deputy Jack Wall,*
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#MichaelJWoods">
+                Deputy Michael Woods,*
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Deputies Johnny Brady, Ruairí Quinn and Niall Blaney, respectively.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Election of Chairman.</heading>
+        <summary eId="sum_4">
+          <person as="#Chair" refersTo="#"/>
+        </summary>
+        <speech by="#" eId="spk_1">
+          <from>Clerk to the Committee</from>
+          <p eId="para_16">The first item on the agenda is the election of a Chairperson.  I now invite nominations for the position of Chair.</p>
+        </speech>
+        <speech by="#DrMartinMansergh" eId="spk_2">
+          <from>Deputy Martin Mansergh</from>
+          <p eId="para_17">I nominate Deputy Noel Treacy.</p>
+        </speech>
+        <speech by="#DonnieCassidyFF" eId="spk_3">
+          <from>Senator Donie Cassidy</from>
+          <p eId="para_18">I second the nomination of Deputy Noel Treacy.</p>
+        </speech>
+        <speech by="#" eId="spk_4">
+          <from>Clerk to the Committee</from>
+          <p eId="para_19">Are there any other nominations?  As there are no other nominations I declare Deputy Noel Treacy elected Chairman of the committee and I invite him to take the Chair.</p>
+          <p eId="para_20">
+            <i>Deputy Noel Treacy took the Chair.</i>
+          </p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_5">
+          <from>Chairman</from>
+          <p eId="para_21">Tá fáilte roimh gach duine anseo.  Is onóir mhór dom bheith tofa d'aon ghuth ar an choiste an-tábhachtach seo, An Comhchoiste um Fhorfheidhmiú Chomhaontú Aoine an Chéasta.  Ar an gcéad dul síos, fearaim fíor-chaoin fáilte roimh gach duine, go háirithe na hionadaithe polaitíochta agus parlaiminte ó Thuaidh.  Tá a lán oibre déanta ar feadh blianta fada ag a lán daoine ar an oileán seo faoi eachtraí polaitiúla na tíre, go háirithe na heachtraí cuimsitheacha i dtaobh Thuaidh na tíre.  Tá obair iontach déanta ag na hionadaithe ó Thuaidh atá linn inniu agus gabhaim buíochas ar son mo chomhghleacaithe agus ar son Rialtas na hÉireann as ucht na dea-oibre sin.  Tá mé ag súil lena gcomhoibriú agus go mbeimid in ann le chéile oibriú ar son leas mhuintir na tíre, gach aon duine ar an oileán.</p>
+          <p eId="para_22">I thank the clerk for convening the meeting to elect a Chairman.  I sincerely thank the committee for electing me unanimously as Chairman.  This is a truly historic day, one that is unprecedented in the history of our Parliament.  We now have an Oireachtas joint committee in which members elected to Westminster from Northern Ireland can participate along with the Members of the Oireachtas.</p>
+          <p eId="para_23">On behalf of everybody here, I warmly welcome the Minister for Agriculture and Rural Development, Ms Michelle Gildernew, MP; Mr. Eddie McGrady, MP; Dr. Alasdair McDonnell, MP; and Mr. Pat Doherty, MP.  They are all most welcome to this inaugural meeting.  We look forward to working with them and their colleagues in Westminster, from all parties in Northern Ireland, in the course of this committee's important work.</p>
+          <p eId="para_24">The people of this island have come a long way since the signing of the Downing Street Declaration by the former Prime Minister, Mr. John Major, and the former Taoiseach, Mr. Albert Reynolds, on 15 December 1993.  I look forward to working with all members of the committee, from all parties, in a genuine spirit of partnership and co-operation.  I am confident we will bring our combined skills, collective experience and constant enthusiasm to bear on the work ahead.  We must all work together to make this a highly productive committee that discharges its functions in an efficient and enlightened way.  I hope the committee will operate independently of the Executive, on an all-party basis and in a non-partisan autonomous manner.  I will do my utmost to maintain that and I look forward to working with all members.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Election of Vice Chairman.</heading>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_6">
+          <from>Chairman</from>
+          <p eId="para_25">We now proceed to No. 2 on the agenda, namely, the election of Vice Chairman.  May I have nominations for the position of Vice Chairman?</p>
+        </speech>
+        <speech by="#JackWall" eId="spk_7">
+          <from>Deputy Jack Wall</from>
+          <p eId="para_26">I propose Deputy Ruairí Quinn.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_8">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_27">I second that proposal.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_9">
+          <from>Chairman</from>
+          <p eId="para_28">Deputy Quinn has been proposed by Deputy Wall and seconded by Deputy O'Dowd.</p>
+        </speech>
+        <speech by="#DonnieCassidyFF" eId="spk_10">
+          <from>Senator Donie Cassidy</from>
+          <p eId="para_29">I propose Deputy Eamon Scanlon.</p>
+        </speech>
+        <speech by="#MargaretConlon" eId="spk_11">
+          <from>Deputy Margaret Conlon</from>
+          <p eId="para_30">I second that proposal.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_31">Are there any other nominations? No.  Are there any withdrawals?  No.  As there is more than one nomination, I am required to put each nomination to the committee in the order in which it was received until the Vice Chairman is elected.</p>
+        </speech>
+        <speech by="#JackWall" eId="spk_13">
+          <from>Deputy Jack Wall</from>
+          <p eId="para_32">It is my understanding that the committee was agreed on the nomination of Deputy Quinn as Vice Chairman.  It is certainly the understanding of the Labour Party.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_33">The information I have is that the nomination of Deputy Scanlon was agreed with the Whips.</p>
+        </speech>
+        <speech by="#JackWall" eId="spk_15">
+          <from>Deputy Jack Wall</from>
+          <p eId="para_34">I apologise but it was my understanding that Deputy Quinn's nomination was agreed.  I ask the Chairman's leave to contact the Labour Party Whip to clarify this.  I do not want to go against any agreement made.  I would prefer to withdraw my nomination of Deputy Quinn than go to a vote.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_35">I would prefer if there is unanimity in electing the Vice Chairman.  If members would agree-----</p>
+        </speech>
+        <speech by="#JackWall" eId="spk_17">
+          <from>Deputy Jack Wall</from>
+          <p eId="para_36">Will the Chairman allow me one minute?</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_37">I will suspend the meeting for five minutes.</p>
+        </speech>
+        <speech by="#JackWall" eId="spk_19">
+          <from>Deputy Jack Wall</from>
+          <p eId="para_38">Thank you.</p>
+        </speech>
+        <summary eId="sum_5">Sitting suspended at 12.14 p.m. and resumed at 12.15 p.m.</summary>
+        <speech by="#JackWall" eId="spk_20">
+          <from>Deputy Jack Wall</from>
+          <p eId="para_39">I apologise to Deputy Eamon Scanlon as I received the wrong information from the Labour Whip.  I should not have put forward a nomination.  I withdraw the nomination of Deputy Quinn.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_21">
+          <from>Chairman</from>
+          <p eId="para_40">There is one nomination remaining, that of Deputy Eamon Scanlon from Sligo-Leitrim.  I declare him elected Vice Chairman.</p>
+        </speech>
+        <speech by="#EamonScanlon" eId="spk_22">
+          <from>Deputy Eamon Scanlon</from>
+          <p eId="para_41">I thank Members for electing me.  We will all work together as hard as we possibly can on this committee for the benefit of the people we represent here.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_4">
+        <heading>Business of Joint Committee.</heading>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_23">
+          <from>Chairman</from>
+          <p eId="para_42">No. 3 on the agenda is a discussion on the proposed meeting times for the committee and our request will be considered at a meeting of the working group of chairmen.  I understand a decision will be made on this soon but it is important we indicate at least two preferences.</p>
+          <p eId="para_43">I now invite comments from members who may discuss preferences for meeting days and times as well as making opening comments.</p>
+        </speech>
+        <speech by="#CaoimhglinOCaolain" eId="spk_24">
+          <from>Deputy Caoimhghín Ó Caoláin</from>
+          <p eId="para_44">Ar dtús báire, ba mhaith liom mo chomhghairdeas a ghabháil leat, a Chathaoirligh, ar bheith tofa don phost nua atá agat sa choiste nua seo.  Gabhaim comhghairdeas freisin leis an Teachta Scanlon, atá ceaptha mar Leas-Chathaoirleach ar an gcoiste.  Go n-éirí leis an beirt agaibh sna poist nua sin.</p>
+          <p eId="para_45">On behalf of Sinn Féin representatives here I will make a brief opening remark on the establishment of the committee and express an opinion on the setting of dates for the working of the committee.</p>
+          <p eId="para_46">The establishment of the Oireachtas Joint Committee on the Implementation of the Good Friday Agreement is a very welcome and significant step forward.  Its first meeting is and should be seen by everyone as an historic occasion.  The Oireachtas needs a greater level of engagement on the Agreement and on the new political dispensation on the island of Ireland.  It must welcome, as we have done this morning, elected representatives from the Six Counties on a routine and regular basis to enhance all-Ireland democratic dialogue.</p>
+          <p eId="para_47">We are approaching the tenth anniversary of the Good Friday Agreement and during that decade, our country has been transformed.  The peace process has seen the end of armed conflict, the Good Friday and St. Andrews agreements have seen the establishment of an Assembly and Executive in which power is shared between Nationalists and Unionists and we have an all-Ireland ministerial council.</p>
+          <p eId="para_48">The all-Ireland ministerial council and the structures for all-Ireland co-operation should be seen as opening the way to a new era of governance on this island.  We have seen major progress on the demilitarisation of the Six Counties with the dismantling of British military installations and the withdrawal of the British army from the streets.  A new beginning has therefore been made in a number of areas and also in policing.</p>
+          <p eId="para_49">Tá dul chun cinn déanta, ach tá a lán le déanamh fós.  Mar shampla, tá na n-Aontachtaí sa Tuaisceart ag cuir i gcoinne an feachtas atá ann chun acht teanga a thabhairt isteach sna Sé Chontae, rud a bhí geallta i gComhaontú St. Andrews<b>.</b>  Tá neamhaird á thabhairt ar cearta na Gaeilgeóirí sa Tuaisceart dá bharr sin.  Mar sin, tá gá ann do feachtas pobail maidir leis an gceist seo chomh maith le ceisteanna eile.  Ní féidir linn an phróiseas seo a fhágáil i seomraí coiste mar seo.  Is leis an bpobal an bpróiseas síochána agus Comhaontú Aoine an Chéasta.  Is ar a son atáimid ag obair.</p>
+          <p eId="para_50">While much progress has been made, all these issues are works in progress and much remains to be done.  The joint committee will be judged on how it helps to deliver real improvements in people's lives, especially for those communities worst affected by the Border and the legacy of the conflict.  Issues that must be advanced and that the committee must address include the establishment of the North-South parliamentary forum, the establishment of the consultative civic forum, the framing and implementation of the all-Ireland charter of rights, accelerating cross-Border co-operation and integration across all key areas of policy, notably in health, physical infrastructure and job creation, the development of the Border region, in which many members here are directly interested as representatives of constituencies along and on both sides of the Border, and the need for truth on collusion.  Sinn Féin also intends to advance its proposals for a Green Paper on Irish unity to be initiated by the Government and to begin the practical planning for Irish reunification.</p>
+          <p eId="para_51">Since the Good Friday Agreement, Sinn Féin has argued strongly for representation in the Dáil for citizens in the Six Counties.  We maintain this call and do not consider the new committee, welcome as it is, to be a substitute for Six County representation in the Dáil.  That call and that campaign will continue.  I acknowledge that as recently as last week, in response to questions from me, the Taoiseach confirmed that those were also his views.  I join the Cathaoirleach in welcoming warmly our colleague MPs, Teachtaí Dála as they are, of their respective constituencies north of the Border, who are present today to participate in the business of this committee.  For the record, I refer to Alasdair McDonnell, Eddie McGrady, Michelle Gildernew and Pat Doherty.  I look forward to the day and am confident that we soon will have the opportunity to extend a true Irish céad míle fáilte to northern representation from the Unionist tradition at this committee.</p>
+          <p eId="para_52">My last comment on the issue the Chair asked members to address is that in establishing its programme for future meetings, the joint committee should take on board the availability of Northern representatives.  Members must factor into their considerations the regularity and timing of meetings of the Assembly, which meets on Mondays and Tuesdays, as well as the Executive's meetings on Thursday.  It is important to factor this into our consideration as Members of both Houses of the Oireachtas.  In this regard, my colleagues and I would prefer to give consideration to Wednesdays, if possible.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_25">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_53">I congratulate Deputy Noel Treacy on his election as Chairman of this very important committee.  I also congratulate Deputy Eamon Scanlon on his appointment as Vice Chairman.  While I make no apologies for stating that I would have liked such appointments to have been made on a cross-party basis, obviously this was the decision of the Whips and I do not wish to detract from their appointments.  I also welcome the representatives from Northern Ireland, namely, Dr. Alasdair McDonnell, MP, and Mr. Eddie McGrady, MP, from the SDLP, and the Minister for Agriculture and Rural Development, Ms Michelle Gildernew, MP, and Mr. Pat Doherty, MP, from Sinn Féin.  Our ability to sit around one table in Leinster House constitutes a major breakthrough and it is to be hoped we will work for the greater good.</p>
+          <p eId="para_54">All members welcome the establishment of the Northern Ireland Assembly and welcome equally the fact that it appears to be working very well.  This is to the benefit of all, as was observed in a real sense when the possibility arose of a foot and mouth disease outbreak.  The Minister for Agriculture and Rural Development, Ms Gildernew, MP, and the Minister for Agriculture, Fisheries and Food, Deputy Mary Coughlan, were able to work together and were able to have the island classified as a single entity in order that exports could continue.</p>
+          <p eId="para_55">I have worked for a long time to establish an all-island animal health structure so this situation could be progressed even further.  The Border has no means of stopping tuberculosis, brucellosis or foot and mouth disease.  It is a major issue from that point of view as agriculture is a major export for both areas of the country.</p>
+          <p eId="para_56">I welcome the all-Ireland ministerial council and look forward to major improvements in that context.  As Deputy Ó Caoláin said, there have been major improvements in the policing issue.  I welcome his party's commitment to that.  It is vital if the situation in Northern Ireland is to move forward in a constructive way.  The recent death in County Monaghan of Paul Quinn from south Armagh, the shooting of two PSNI officers as a warning for their involvement and, more recently, the activities at one of the meetings of the policing body show that we must all work together to ensure these occurrences are brought to an end.  In that context, I urge anybody who knows anything about the death of Paul Quinn to come forward and give their information to either the Garda or the PSNI as a matter of urgency.  The sooner that type of crime can be brought to an end and the PSNI and the Garda are shown to be the recognised security forces, the better.</p>
+          <p eId="para_57">I was born and reared in the Border region and have worked with farming organisations for many years.  We had close relationships across the Border as the co-operative movements and the food industry in general had bases both North and South.  However, many things can be improved.  The new structure that has been put in place will have major benefits for dealing with the economic problems of the Border region.  I welcome that.  There are already proposals on the Ulster Canal and the Dublin-Derry road which it is to be hoped will be routed through Monaghan.  There are many other proposals but the main issue is to get the people on the two parts of this island to work together and trust each other.  Eventually, the Unionists might even attend meetings such as this or meetings of the British-Irish Interparliamentary Body, thus creating an all-inclusive situation.  I hope this committee and others will work towards that in the long term.</p>
+          <p eId="para_58">The Border areas suffered as much economically as the counties in Northern Ireland.  People considering investing in this island simply avoided those areas.  Some went into business in Sligo and Dundalk but the other Border areas did not attract any major foreign industries.  We must work together to rectify that situation.</p>
+          <p eId="para_59">With regard to meeting times, I and other members of the Fine Gael Party will work with others to ensure a practical time is arranged.  Monday would certainly not be ideal.  Members prefer to spend Mondays in their constituencies where possible.  I am anxious to work with our colleagues from Northern Ireland to find a reasonable date and time that will suit everybody.  Fine Gael welcomes this day.  We put forward structures in the 1970s for working together and I welcome the fact that all other parties now see this type of structure as the only proper way forward so that we can solve our problems on this island through democratic means.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_26">
+          <from>Chairman</from>
+          <p eId="para_60">What is the Deputy's preference in terms of what day to meet?</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_27">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_61">I do not have any preference.</p>
+        </speech>
+        <speech by="#JoeOReilly" eId="spk_28">
+          <from>Senator Joe O’Reilly</from>
+          <p eId="para_62">I join in congratulating the Chairman on his election and Deputy Scanlon on his election as Vice Chairman.  As somebody who lives in and represents a Border area, I am conscious of today's historical significance.  It is a great privilege and honour for all of us to be part of this important and ongoing process and I am delighted to be involved.  However, with that privilege and honour comes a great responsibility to take it seriously and work hard, which I know we all will.  This is among the most important committees — if not the most important committee — in the Oireachtas and it deserves real focus from all of us.  I join in welcoming Alasdair McDonnell, MP, Eddie McGrady, MP, the Minister, Michelle Gildernew, MP, and Mr. Pat Doherty, MP.</p>
+          <p eId="para_63">There has been major progress so far in delivering peace.  Everyone in this Chamber and their parties can claim credit for being part of it.  There was a universal desire to deliver peace and it took great courage, strength and effort from all of the parties.  It would be churlish to be partisan about this.  This achievement was due to a huge commitment from everybody and all the agencies of the State.  It is a tremendous achievement.  We have, essentially, peace.  Anecdotal evidence from people in Northern Ireland substantiates that.  There is a high level of well-being, although there remains, tragically, a certain amount of sectarianism and low-level violence on occasion.  Obviously the case of Paul Quinn, as mentioned by my colleague, Deputy Crawford, was a horrific and tragic aberration in the peace process.  The culture that was created around the Border, involving trading and all that goes with it, must be eliminated.  That, again, is one of the jobs of this committee.</p>
+          <p eId="para_64">The all-Ireland structures are a great development and should be strengthened.  I cannot emphasise enough, and the fact cannot be escaped, that the people of the entire Border region, while we are delighted with the peace, now want to see the dividends of peace.  We want to see real improvements in infrastructure to make up for the deficits that existed previously.  We in the Southern Border region suffered hugely from the violence in Northern Ireland through the years.  The difficulty, as members of the committee will testify and as anyone should know, is that from afar it seemed as though the violence permeated that area also, and it was not an attractive location for tourists.  It was a chicken-and-egg situation in that the more unattractive it became the fewer people came, which meant that we could not have successful flagship projects, and our tourism product suffered hugely.</p>
+          <p eId="para_65">We also suffered in terms of infrastructure.  We have an infrastructural deficit, but we also have an investment deficit as we did not get outside investment for the same reason.  The all-Ireland structures now offer the opportunity to create a national infrastructure, and one in the Border area that will facilitate greater investment.  For example, we should work together on the green agenda and the Kyoto protocols and on quality of life and investment issues.  We should work for an effective national railway system.</p>
+          <p eId="para_66">One of the great scandals of contemporary planning is that provision was not made for a railway line running parallel with the proposed route of the N3 which runs from Dublin to the Meath-Cavan border and which, I hope, will now continue into Cavan.  We are not proactive enough in laying railway infrastructure.  This committee should do what it can to advance this.  The ministries in both states should be brought together to work towards the provision of an all-Ireland railway infrastructure.</p>
+          <p eId="para_67">The provision of bypasses and road improvements in Border regions, such as the Virginia and Belturbet bypasses in my constituency, are important.  We should work with the NRA in this regard.</p>
+          <p eId="para_68">There is also a social infrastructural deficit that needs to be addressed.  I commend this matter to the Chairman and the committee as one that merits serious consideration.  There is a tremendous project proposed for Castle Saunderson in Belturbet.  As it is an all-Ireland project, it has particular relevance here.  Members of Scouting Ireland of all denominations will be able to come to a national centre in Castle Saunderson and enjoy its facilities.</p>
+          <p eId="para_69">Equally, in the case of youth facilities in our towns, comprehensive schools, mixed second level schools and co-education schools have played a significant part in removing a violent undercurrent from society, but we need youth drop-in centres offering a discrete counselling service, as well as other youth infrastructure in all urban centres, North and South.  This committee should examine that issue.</p>
+          <p eId="para_70">I support the sentiments expressed to our Unionist brethren in Northern Ireland.  I hope and pray we can create conditions where they will able to be present at this committee and participate at its meetings.  It is most disappointing that they are not here today.</p>
+        </speech>
+        <speech by="#CeciliaKeaveney" eId="spk_29">
+          <from>Senator Cecilia Keaveney</from>
+          <p eId="para_71">Ba mhaith liom mo comhghairdeas a dhéanamh leis an Cathaoirleach agus leis an Teachta Éamon Scanlon.  Go mbeidh an t-ádh libh.  I also welcome fellow members from the rest of the island.  I share the sentiments expressed by Senator O'Reilly.  I would like to see the committee as being completely cross-party and look forward to the day when it will be.</p>
+          <p eId="para_72">At a time when significant progress is being made at the North-South Ministerial Council across all disciplines and Departments, it is satisfying for Border Deputies and Senators to see such activity taking place because it marks the arrival of common sense politics.  It is simple stuff that extends to the Foyle and Carlingford Lights Commission yesterday being able to agree a marine tourism strategy and on a scientific monitoring vessel.  I could continue for longer than Senator O'Reilly to speak about what is happening but I all merely want to say is that it should have happened a long time ago.  However, it needs to happen at an accelerated rate.  We must have a mechanism — I hope this committee is that mechanism — where we can have an input prior to the holding of North-South Ministerial Council meetings and receive feedback because there is a need for true regional development.</p>
+          <p eId="para_73">At a time when murders are still being committed, there are murder attempts on members of the PSNI, as well as bomb scares, we must be strong and use this committee as a forum to ensure the people on the island of Ireland accept that a small minority of individuals will not destabilise the fledgling democracy.  As we are all aware, the civil service and the retail industry are the two sectors that sustain employment in the Six Counties.  Coming up to Christmas we must state loudly in a united voice that economic strikes such as the bomb scare at Castle Court on Monday are unacceptable.  Attacks on the police force and murders of individuals are not acceptable.</p>
+          <p eId="para_74">I have a difficulty in that the Minister for Education and Science is in the Seanad.  I am a spokesperson on education in the Seanad and I must leave to attend that debate.  That highlights the pressure we are under in terms of the timing of meetings and trying to attend them.</p>
+          <p eId="para_75">I want to see issues of transport, be it the roads service or the all-Ireland train service, the economic issues of regional development, health, on which there is a great deal of interaction between Altnagelvin and Letterkenny and the satellite services in Belfast, being addressed.  I would like the education issue in terms of no fees in the North to be addressed as well as the question of our ability to pay for all the projects we want to do.  Our Northern colleagues face the problem of having to pay for the under-investment through rates, etc.  We have the same bother in Border regions in terms of the co-financing of investments in infrastructure.</p>
+          <p eId="para_76">Those are real issues that must be addressed.  I hope this can be a mechanism to try to find solutions as well as air the problems.  There is much work to be done but I suggest, Chairman, that meeting once a month would be more appropriate than a more frequent interaction.  That will ensure the meetings are focused and have a result each time rather than having a talking shop.  This committee does not have to be a talking shop.  I do not believe it will be, as long as we have meaningful interaction in the way the British-Irish Interparliamentary Body is becoming a more meaningful interaction at an east-west level.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_30">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_77">Ba mhaith liom mo bhuíochas a ghabháil le gach éinne a tháinig anseo inniu.  Is lá stairiúl é mar d'oibrigh a lán daoine anseo, i Meiriceá agus áiteanna eile, chomh maith linne, chun go mbeadh an choiste seo againn.  Caithfimid díriú ar an obair atá le déanamh againn.</p>
+          <p eId="para_78">This is an historic day.  I am delighted to be a member of this committee and that we have members from Northern Ireland, including the Minister, present.  That is important for us.  Without losing the run of ourselves in any respect, we should tackle issues clearly, simply and effectively.  We do not have Executive powers but we have a forum for expressing views and meeting people.  What we must do is attract other representatives from the Unionist parties, and other parties in particular, to this organisation.  That will indicate that we mean business about the economy and improving relations across the country.</p>
+          <p eId="para_79">I refer briefly to issues that will be critical.  Co-operation on the health issue is vital.  Living in a Border constituency I am aware there are hospitals and facilities north of the Border with which we should make solid and effective arrangements in terms of improving services.  We have hospitals and facilities south of the Border which should be of great use to people living north of the Border.  That is one practical way we could examine the issue.</p>
+          <p eId="para_80">The other issue is the question of transport and spatial and regional planning.  It is important there is joined up thinking in terms of the spatial strategy in the North and in the South and that our motorways and transport corridors are linked.  My colleagues in the North would never do this, and I would never do it in their part of the country, but a major issue for me is penalty points for speeding being given to those living outside the southern part of the State.  Approximately 108,000 of those who got penalty points here do not hold driving licences south of the Border.  Practical issues arise in that regard.  Uninsured driving is another issue.  I realise people from the South break the regulations in the North but these are practical issues we can tackle to make our roads safer for everybody.</p>
+          <p eId="para_81">The co-operation between Dundalk and Newry is an ideal relationship between counties and two large towns.  We should examine that relationship and improve it.  The work of this committee can build on and improve those relationships at local government level.</p>
+          <p eId="para_82">I hope our debates are successful, that we get things done and that, in our own way, we will work together to tackle three or four important issues.  We should stick with those and ensure we have a strong, effective and practical relationship with the Ministers, North and South, and the Ministers in the British Government.</p>
+        </speech>
+        <speech by="#JackWall" eId="spk_31">
+          <from>Deputy Jack Wall</from>
+          <p eId="para_83">I congratulate the Chairman and Vice Chairman on their elections.  Speaking on behalf of the Labour Party and in the unavoidable absence of Deputy Quinn, who is away on party business, we will work with the committee to ensure the development of interaction in all types of forums the Chairman wishes to use.</p>
+          <p eId="para_84">Business, sporting and educational initiatives create a civic involvement on which we can build, which is what this matter is about, namely, interaction between both sides of the island.  Welcoming the four MPs to the committee is a step in the right direction, but we must move further and get to know one another.  That may be a funny statement on an island as small as ours, but there is a perception of North and South.  We must work together to ensure the minimum emphasis is placed on that perception.  We should work as a community for the betterment of Ireland as a whole, particularly in respect of young people.</p>
+          <p eId="para_85">On behalf of the Labour Party, I wish the committee well and I hope its initiatives will be met positively.  Various civilian groups should be brought before the committee to develop the necessary interaction.  Regarding dates, Wednesdays may be more appropriate for Senators.  We should try to ensure the committee meets on that day.</p>
+        </speech>
+        <speech by="#MargaretConlon" eId="spk_32">
+          <from>Deputy Margaret Conlon</from>
+          <p eId="para_86">Ba mhaith liom comhghairdeas a ghabháil leis an Chathaoirleach agus an Leas-Chathaoirleach ar bheith tofa don choiste seo.  Tááthas orm, freisin, fáilte a chur roimh na bpolaiteoiríó Thuaidh.  Táim ag tnúth leis an obair atá le déanamh againn agus tá súil agam go n-éireoidh go geal linn.</p>
+          <p eId="para_87">I extend my congratulations to the Chairman and the Vice Chairman.  I welcome the politicians from Northern Ireland and I look forward to the committee working on an all-island and all-party basis for the good of the country.  Speaking as a Border politician, we can work together on many issues, a number of which have been mentioned.  I will not go over old ground, but a particular matter is that of health.  I welcome that the HSE north-eastern area is taking the opportunity to investigate projects that could be developed in conjunction with Monaghan General Hospital.</p>
+          <p eId="para_88">Roads, bridges and other projects must be moved on now that the peace process is up and running.  Areas need to see dividends coming through.  The same can be said in terms of education.  I look forward to the Ulster Canal project progressing at speed.  It would have significant benefits for everyone, particularly in my county where tourism may not always have been the bright, shining light we would have liked.  The canal is the jewel in our crown and the project should be advanced as quickly as possible.</p>
+          <p eId="para_89">We all have tremendous opportunities, but challenges come with them.  Everyone present recognises that there is still a level of sectarianism and violence in places in the North about which none of us can be happy.  I echo the sentiments of my colleagues from Cavan-Monaghan regarding the horrific and barbaric murder of Paul Quinn.</p>
+          <p eId="para_90">I look forward to working together in a spirit of co-operation and I am delighted to be a part of history in the making.  I look forward to the day when all parties in the North are represented here and participating actively because when we discuss and work together in a spirit of co-operation great things can be achieved.</p>
+        </speech>
+        <speech by="#" eId="spk_33">
+          <from>Mr. Pat Doherty, MP</from>
+          <p eId="para_91">Go raibh maith agat.  I congratulate the Chairman and Vice Chairman on their election.  The establishment of this joint Oireachtas committee is very welcome.  It a significant step in the right direction.  On my behalf and on behalf of my party I am pleased to be part of it.  Enormous progress has been made in developing the peace process, in power sharing, in all of the elements we see unfolding before our eyes, but we have some way to go.  Collectively, as political parties and as members of society, we are living through a phase which I believe is a transitional phase in the reunification of our country.  It will throw up enormous challenges to all of the parties and to society.  However, we have the collective wit and ability to meet those challenges.</p>
+          <p eId="para_92">If we commit ourselves wholeheartedly, are focused and have energy, the day of reunification, which will involve extensive dialogue with the Unionists, will come much quicker than we think.  We will have to tackle many issues.  Although there will be differences of opinion and emphasis, most of these issues will be relatively straightforward.  The issues will be practical ones involving the expansion or potential expansion of areas of co-operation.  Issues involving the implementation bodies will have to be dealt with collectively.  On external issues, for example, undocumented Irish people in the United States of America, a collective approach by the Assembly and the Oireachtas would have a significant impact.  There also will be difficult issues that have left a deep legacy in the North but not exclusively in the North.  British collusion, in particular, is a major and deeply rooted issue that presents a massive challenge to the British State which it will resist in many ways, but it is essential to find out the truth.</p>
+          <p eId="para_93">On the frequency of meetings, the Assembly meets on Monday and Tuesday and the Executive meets on Thursday.  I ask the committee, therefore, to consider scheduling meetings on Wednesday to enable other MPs who are Ministers on the Executive to attend.  We almost had to get a dispensation from "Big Ian" to get Ms Michelle Gildernew down here today.</p>
+          <p eId="para_94">On a lighter note, committees often have members who are from the same county.  There are three Donegal people here.  However, it is rare to have two members from the same parish and even rarer that two, Deputy Joe McHugh and I, come from the right end of the same parish.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_34">
+          <from>Chairman</from>
+          <p eId="para_95">That parish is well served.</p>
+        </speech>
+        <speech by="#" eId="spk_35">
+          <from>Dr. Alasdair McDonnell, MP</from>
+          <p eId="para_96">I welcome the establishment of the committee which will provide us with tremendous opportunities to take matters forward.  I congratulate the Chairman and Vice Chairman on their election.  I have known the Chairman for many years and I have no doubt we will work very well together.  We in the SDLP feel, too, that we are making history today.  Collecting my thoughts as others were speaking, I recalled that it is approximately 40 years since I came into this House to sit in the Gallery and look around and dream.  That was before the Troubles in the North broke out, when I was a fairly young student in UCD.  Today's events exceed all my dreams of that time.</p>
+          <p eId="para_97">Others have gone into some of the details but there are a few points I want to make.  The first is that the new Ireland the SDLP wants to see is one in which we are comfortable North and South.  It is also important that our Unionist neighbours in the North, who do not feel comfortable enough to be here today, are included within that vision.  It is essential, as we set out, to nail to the mast the principle that the new Ireland we aim to create is an Ireland which may be very different from what we have had heretofore.</p>
+          <p eId="para_98">We in the SDLP want to see the full implementation of the agreement which was struck in April 1998, the Good Friday Agreement.  We may all have different views on the agenda but the Agreement was struck in the broad national interest and we must act with common purpose in the broad national interest.  Some nine and a half years on there has been some cherry-picking and we have, to an extent, picked and chosen he bits which suited us, at times turning a blind eye to elements of the Agreement which are difficult and are parked as a result.  We must take it all as a package and move it forward.  We must improve it as necessary but not dismantle it nor disregard any element of what was a very hard fought for agreement.</p>
+          <p eId="para_99">There will be time later for going into details and I do not intend delaying matters nor boring members today.  However, I will mention one or two of the very big issues, some of which have been already mentioned.  The initial effort on the part of the Irish Government to invest money in infrastructure in the North, for the mutual benefit of North and South, has been very significant.  Border Deputies and MPs will be better able than I to speak on other infrastructure projects.</p>
+          <p eId="para_100">I will deal with the bigger issues.  There are a number of obstacles and artificial barriers to social integration and social co-operation, North and South, some involving free movement within the island.  I want everybody on this island to be prosperous and successful and I believe the more freely people can move the better.  That may encompass the question of qualifications and health has been already mentioned in that regard.  I emphasise the need to open up the whole health agenda.  I am hesitant to speak in the presence of a number of people representing Border constituencies, with a particular heavy contingency from Donegal, but while some strides have been made in terms of the politics of health and its administration and bureaucracy, it is a scandal that people from Donegal have to travel a long distance to Dublin for health care that could be provided a few miles down the road.  Deputy O'Dowd has mentioned the situation pertaining to Dundalk and Newry and somebody, somewhere, must get a grip on that for the people on the ground who need progress in that area.  I do not ignore Monaghan, which Deputy Crawford mentioned, but there is a wide agenda in the area of health, as there is in the area of access to education.  One example of the latter are the different and incompatible points systems, which affect access to university education.</p>
+          <p eId="para_101">The North-South economic agenda is also important and infrastructure and education are a part of that.  I would like to see the North-South parliamentary forum in place and it should be a priority for us.  It has drifted for the past nine and a half years but it would be very useful and there would be much to gain from its establishment.  While we see our role as having an all-Ireland dimension the east-west dimension of the Good Friday Agreement is also important.  That is not just because of its main thrust, namely, relations between Ireland and Britain.  There are in excess of 2 million Irish-born people in Britain.  Some are wealthy and make the headlines for being so but approximately 500,000 live in relative poverty, many, among them labourers who left from all parts of the island of Ireland, living in dosshouses in various British cities.  They are in their 70s or 80s, having left in the 1950s and 1960s.  To some extent those people have been forgotten and we must look after them.</p>
+          <p eId="para_102">I would like a mechanism to be found whereby we could hold a meeting in Belfast at some stage, if it is at all possible within our remit.  The last point I want to make is that the SDLP is not available to attend on a Wednesday.  We would be very happy if the meeting were scheduled on Thursday at 11 a.m. or 12 p.m.</p>
+        </speech>
+        <speech by="#JoeMcHugh" eId="spk_36">
+          <from>Deputy Joe McHugh</from>
+          <p eId="para_103">I Googled "Carrigart" a few weeks ago and neither I nor Mr. Pat Doherty, MP, came up alongside Carrigart in the search.  Perhaps after today's historic development we might.  I pay a special tribute to the Chairman and the Vice Chairman on their election on this historic occasion.</p>
+          <p eId="para_104">Cross-Border co-operation is something to strive towards, especially when one comes from a Border county.  Having spoken briefly to my colleague, Deputy Caoimhghín Ó Caoláin, I agree with him that what we need is a harmonious working environment, a harmonious working group.  I will certainly do my part to ensure that we do not use this as a forum for political point scoring but as an opportunity to improve relationships across this country.  There are many issues, including health, infrastructure, and education, on which the committee can work to find mechanisms that will facilitate the eradication of barriers and make crossing the Border easier for people.</p>
+          <p eId="para_105">My key point of reference today relates to the kernel of any democratic society, namely, policing, people's confidence in policing and the police's confidence in the communities they police.  In recent weeks there has been a very negative portrayal of policing in Northern Ireland with the shooting of a PSNI officer on 8 November in Derry, the shooting of a PSNI officer on 12 November in Dungannon and, subsequent to that, the murder of Paul Quinn from Armagh in Monaghan.  These are serious issues that need to be addressed.  This committee can do that.by by staying closely in touch with the PSNI and the Garda Síochána on how policing is moved forward to facilitate people to have confidence in their police force so they do not live in fear in their homes and communities.</p>
+          <p eId="para_106">As a Border representative I have received numerous representations from my constituents in regard to fear in Border villages on the Donegal side of the Border where there is a lack of policing.  I see this committee as having a role in facilitating proper policing across the Border.  My colleagues in Fine Gael will strive towards that.  I am certain a proper debate on policing will also be facilitated by other parties and by people representing the various parties in the Six Counties.</p>
+        </speech>
+        <speech by="#DonnieCassidyFF" eId="spk_37">
+          <from>Senator Donie Cassidy</from>
+          <p eId="para_107">I am honoured and privileged to be here on this historic day as Leader of Seanad Éireann.  It is a dream come true.  I congratulate the Chairman and Vice Chairman on their election and welcome the MPs and Minister from the North.</p>
+          <p eId="para_108">We in the South have achieved much over the past 30 years because, as a people and as a nation, we had the right policies, tax incentives and opportunities.  Having had that opportunity, we transformed this part of the island of Ireland.  I would like to think we could help create the same opportunity for our friends in Northern Ireland.  I, too, look forward to a united Ireland some day and it will not, please God, be too far away.</p>
+          <p eId="para_109">We are considering reform of the Seanad and I would like to see an extra allocation of seats in Seanad Éireann to accommodate people from the northern part of our country.  Many such eminent people have been Members of Seanad Éireann in the past 30 years and I do not see why there could not be another ten Members, five selected and five elected.  We will consider that very seriously as part of the discussions on Seanad reform and I hope this committee will make proposals to us in that regard.</p>
+          <p eId="para_110">I wish the Chairman well and look forward to being a member of this committee for the next five years.</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from>Ms Michelle Gildernew, MP</from>
+          <p eId="para_111">Comhghairdeas and maith thú, both to the Chairman and to the Vice Chairman, on their elections to very important jobs.  I will be brief on this historic occasion.  It is very important that the committee meets on a regular basis and that we participate in active engagement on some of the outstanding issues that still exist in regard to the implementation of the Good Friday Agreement.  Others have mentioned the North-South parliamentary forum and the all-Ireland consultative civic forum.  An all-Ireland charter of rights would go a long way to address issues such as transport, health, infrastructure and the economy.  In a rights-based society, with an emphasis on equality, we can eradicate many of the problems and break down many of the barriers of which a number of Border Deputies present today are aware.</p>
+          <p eId="para_112">It is important to prioritise the work of the committee.  While I accept there are difficulties for some members, the fact that the Northern Ireland Executive meets on a Thursday creates difficulties for us in attending on that day.  There are already five or six MPs present and, given that we look forward to the day we will be joined by our Unionist colleagues, holding the meetings on a Wednesday would facilitate many northern MPs, especially those we want to be present.</p>
+          <p eId="para_113">There is much work for us to do.  This is a very important committee and its establishment is a step in the right direction for representation of northern elected representatives in Dublin, giving our constituents a voice in the nation's capital.  We should prioritise the work of elected bodies on the island of Ireland.  I look forward working with the committee and getting to know members better.  I thank members of the committee for their very warm welcome and look forward to meaningful engagement in the future.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_39">
+          <from>Chairman</from>
+          <p eId="para_114">I thank the Minister and wish her every success in office.</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from>Mr. Eddie McGrady, MP</from>
+          <p eId="para_115">I thank the Chairman.  I join my colleague and others who have spoken in wishing him and the Vice Chairman well in their new roles.  Such positions are seldom filled unanimously in any parliamentary forum, which indicates much confidence in Deputy Treacy's abilities as Chairman, something from which I hope to benefit in the years ahead.</p>
+          <p eId="para_116">Many people have called this an historic day.  There have been many historic days in recent Irish history and I regard this as a significant day with significant potential.  I have been looking forward to this day for some four decades, in spite of my youthful appearance, and it is very gratifying to be here.  We, both in the North and across the island of Ireland, are in an evolutionary position.  It is reminiscent of the early 1970s when politics were in a state of flux, from which we evolved to where we are today.  Much of the work of that time and subsequent decades is contained in the Good Friday Agreement, of which this joint committee is an implementation body.  I look forward to working with it.</p>
+          <p eId="para_117">I do not have a shopping list with me this morning but perhaps I will have one at the next meeting.  Having listened to the contributions of other speakers, we appear to have enough work to keep us going for a few months.  The important issue is how this committee will be observed in the North by the Unionist community, either extreme or moderate.  Unionists will not be enticed to attend this committee unless they see it as a benefit to their community.  That is a natural political stance to hold.  One of our great duties here, therefore, is to ensure that what we do is for the benefit of all the people of the island of Ireland, North and South, and for the benefit of the various strands of society in Northern Ireland, and that it is meaningful to them.</p>
+          <p eId="para_118">This step of forming a joint committee and including Members of Parliament from the North is an evolutionary process.  I hope it is the beginning of an accelerating process in which we will see the unity by consent of a new Ireland evolve.  It is a great ambition.  The process of the Good Friday Agreement and the implementation of the North-South executive is an experiment in partnership, working together, understanding and acceptance.  It, too, is extremely evolutionary.  It is a fragile, unnatural political animal at present, as is the security situation in Northern Ireland.  We must consider it carefully and give all those aspects considerable attention when making decisions and having discussions.  However, it is exciting to have an agenda where the bread and butter issues envisaged in the Good Friday Agreement and partially implemented in the joint North-South Ministerial Councils can be added to, encouraged and developed.  As my colleague, Dr. McDonnell, said, we can also expand it to the east-west scenario.</p>
+          <p eId="para_119">The Chairman and committee members will forgive me if I lapse into calling them "Speaker" and "Honourable Member" on occasion.  Will the Chairman examine the rubrics of how we participate in this committee?  I like to actively and effectively participate in whatever I am involved in.  Article 4 of the terms of reference states that I and my colleagues from the North can contribute verbally.  Can we table motions, make suggestions and the like, which would make our role far more effective?</p>
+          <p eId="para_120">Finally, Chairman, I turn to the arrangements for meetings.  Perhaps you would consider something that might influence the decision that is made.  The three members of the SDLP are the only nationalist representatives in the House of Commons.  The meaningful day in the House of Commons is Wednesday, although it also sits Tuesdays and Thursdays.  That is when Prime Minister's Question Time is held and the Northern Ireland select committee meets.  Dr. McDonnell is a member of that committee, having replaced me.  Those grand committees on Northern Ireland which deal with all the issues that we will deal with in this committee are inclined to meet on either Tuesdays or Wednesdays.  If we are here and not there, the Northern Irish nationalist people will have no representation.  I ask the Chairman to take that into account.</p>
+          <p eId="para_121">The other aspect, and I am not trying to make a political point, is that there are other MPs of other parties who are not Ministers and are free to come here whatever day they wish.  I hope the Chairman will consider that when deciding what day the committee should meet.  I look forward to participating with my colleagues from the North and all the parties from the South to further the objectives of the Good Friday Agreement, in which I have a great interest.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_41">
+          <from>Chairman</from>
+          <p eId="para_122">In direct response to the question Mr. McGrady raised, he is free to participate and contribute but he cannot table motions.  This is something we can examine as we move towards the new year.</p>
+          <p eId="para_123">Our next speaker, Deputy Martin Mansergh, was one of the great architects of the Downing Street Declaration and has played a major role in the affairs of Northern Ireland.</p>
+        </speech>
+        <speech by="#DrMartinMansergh" eId="spk_42">
+          <from>Deputy Martin Mansergh</from>
+          <p eId="para_124">I congratulate the Chairman, with all of his ministerial experience, for taking on this role and I also congratulate my colleague, Deputy Eamon Scanlon, on being elected Vice Chairman.</p>
+          <p eId="para_125">I may be the member of this committee who represents the southernmost constituency and it is one which, prior to independence, twice elected John Mitchell, MP, from south Down.  The people of my county are as interested in the welfare of the whole island as those who live close to the Border.</p>
+          <p eId="para_126">I warmly welcome the members of parliament from Northern Ireland; Mr. Eddie McGrady, MP, Ms Michelle Gildernew, MP, Mr. Pat Doherty, MP, and Dr. Alasdair McDonnell, MP.  This is an historic moment because at the time of the Good Friday Agreement there were discussions in the margins on how political representatives of Northern Ireland, particularly Westminster MPs, might have access to the Oireachtas.  This could only be done on a cross-party basis and I am glad that a consensus has been reached, the evidence of which is before us today.  If we wish to attract representatives from other traditions in future, it remains important that we make it clear that the work of this committee is compatible with the principle of consent and the constitutional principles underlying the Good Friday Agreement.  If this is made clear then, in time, we may be able to have other representatives visit.</p>
+          <p eId="para_127">I echo the emphasis on establishing a North-South parliamentary forum and point out that the commitment to it in the St. Andrew's Agreement is somewhat stronger than that in the Good Friday Agreement.  It stipulates the Northern Ireland Executive will encourage the parties in the Assembly to establish a North-South parliamentary forum and we should discuss how this is to be progressed.  We should also discuss how the British-Irish Interparliamentary Body, which is meeting this weekend, might include all sides in Northern Ireland because I have had great difficulty understanding the ideological difficulty impeding all-round participation.</p>
+          <p eId="para_128">I echo the sentiments of the Leader of the Seanad, Senator Donie Cassidy.  The Fianna Fáil group's submission on reform of the Seanad during the last Seanad contained a proposal for an extra five Senators, which would require a constitutional referendum and, therefore, cross-party agreement.  It would mean that instead of spasmodic and occasional representation from Northern Ireland, there would be constant representation.</p>
+          <p eId="para_129">The Chairman mentioned in his address the Downing Street Declaration of 15 December 1993.  As he might have seen from one of this morning's newspapers, one of its co-signatories, former British Prime Minister John Major, was in Dublin last night to receive an award with the former Taoiseach, Albert Reynolds.  Unfortunately, he had to meet Mr. Reynolds in a hospital and Mr. Reynold's son, Philip, accepted the award on his behalf.  Obviously, we wish Albert Reynolds well.  We have come an enormous distance and most of the hopes and ambitions of that declaration have gone a long way towards being realised.</p>
+          <p eId="para_130">On the rhythm of meetings, I would be open as to day of the week on which they should be held, including, if necessary, a Friday.  I would favour whatever would suit maximum participation.  I agree with Senator Keaveney that a rhythm of monthly meetings would probably be appropriate for this committee, given the other commitments of some of those attending this committee.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_43">
+          <from>Chairman</from>
+          <p eId="para_131">I congratulate Mr. Major and Mr. Reynolds on their award last night and wish Albert every success and a rapid recovery.</p>
+        </speech>
+        <speech by="#MichaelJWoods" eId="spk_44">
+          <from>Deputy Michael Woods</from>
+          <p eId="para_132">I congratulate the Chairman and Deputy Scanlon on their unanimous appointment today and those who are members of the committee.  I am here today representing Deputy Niall Blaney who is unavoidably unable to be here.</p>
+          <p eId="para_133">I am pleased to be here on this occasion because I regard it as a significant development.  I look forward to working with the committee from the Joint Committee on Foreign Affairs.  In fact, it could be said that we are working closely with this committee already because it has our secretariat at the top table assisting.  I am sure we can keep closely in contact with the committee in its work.</p>
+          <p eId="para_134">The Joint Committee on Foreign Affairs wishes to co-operate with this committee in any way possible because the implementation of the Good Friday Agreement will take a great deal of detailed attention and often it is on the detail that people lose out.  People are not conscious of the attention to detail and the committee will find that Members of Parliament, like the four MPs from the North and the Members from all our parties, would be very conscious of the detail.  The committee will find it will get great support for highlighting these possibilities for development.</p>
+          <p eId="para_135">I had an experience that is most related to what the committee is discussing at present.  Funnily enough, it was an early one with Deputy First Minister, Martin McGuinness, where we jointly set up a centre of excellence for autism in Middletown, which is in County Armagh and is close to County Monaghan.  The reasoning at the time was that we, as a country, could not have great experts because we did not have sufficient numbers, although there are difficulties with the numbers suffering from autism increasing.  Nevertheless, we had people, North and South, who were skilled in the area and it has given us the opportunity to develop jointly a centre of excellence.  The St. Louis nuns left a tremendous facility available and offered it to us, and we purchased it on a shared basis.  It certainly was a detailed co-operation.  I thank the Deputy First Minister for what he did at that time because he operated with a sense of urgency and got about the business quickly, and we are pleased with all of that.</p>
+          <p eId="para_136">There is a great deal of work to be done.  Certainly, the committee will have the support of the Joint Committee on Foreign Affairs in any way we can assist.  We are aware of the importance of the work being done and what has been done in the Agreement.  We wish them every success in that work.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_45">
+          <from>Chairman</from>
+          <p eId="para_137">I listened with great interest to all the contributions and echo what has been said, particularly pertaining to the representatives of the Unionist parties in Northern Ireland.  It is our hope they will actively engage with us and that together, as the elected representatives of all political parties, North and South, we will be able to ensure a sustainable peace and economic opportunities for every citizen, irrespective of age or location, on the island of Ireland.  That will be our goal.  We look forward to their presence here in the future.</p>
+          <p eId="para_138">I listened with interest also to the discussion on possible dates for meetings.  We need a suitable day.  Our own political parties appear to have an open mind on the issue.  Sinn Féin has indicated a preference for Wednesday, with which the SDLP has a major difficulty.  It has indicated a preference for Thursday.  It is my wish that we reach a decision that will maximise the opportunities for every party and individual to be present.  It is easy for us as Members of the House, even though Wednesday is a busy day for us, but the other representatives must travel.  If members could indicate an alternative day as a second choice, it would help.  If Sinn Féin propose Wednesday, what would be its second choice?</p>
+        </speech>
+        <speech by="#CaoimhglinOCaolain" eId="spk_46">
+          <from>Deputy Caoimhghín Ó Caoláin</from>
+          <p eId="para_139">May I ask a question before responding?</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_47">
+          <from>Chairman</from>
+          <p eId="para_140">Yes, of course.</p>
+        </speech>
+        <speech by="#CaoimhglinOCaolain" eId="spk_48">
+          <from>Deputy Caoimhghín Ó Caoláin</from>
+          <p eId="para_141">The Chairman has indicated he has to report to the meeting of Chairmen to arrange for access and use of the facilities of meeting rooms.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_49">
+          <from>Chairman</from>
+          <p eId="para_142">Yes.</p>
+        </speech>
+        <speech by="#CaoimhglinOCaolain" eId="spk_50">
+          <from>Deputy Caoimhghín Ó Caoláin</from>
+          <p eId="para_143">When is that meeting scheduled for?</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_51">
+          <from>Chairman</from>
+          <p eId="para_144">I understand it will be held next week.</p>
+        </speech>
+        <speech by="#CaoimhglinOCaolain" eId="spk_52">
+          <from>Deputy Caoimhghín Ó Caoláin</from>
+          <p eId="para_145">Is it within our gift to grant the opportunity to consult?  I do not want to hold to a position that will create a difficulty for any other set of representatives.  I listened carefully to what Dr. McDonnell had to say and want an arrangement to be arrived at that will facilitate everyone.  If possible, I would like an opportunity to come back to the Chairman on the issue.  An open session is not the best way to tease out the matter but I undertake to come back to the Chairman and if there is fluidity across the other parties, perhaps that would allow him to proceed at the upcoming meeting.  I undertake to do this speedily.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_53">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_146">I suggest that, if necessary, we co-operate with regard to the suggestion that we meet on a Friday once a month.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_54">
+          <from>Chairman</from>
+          <p eId="para_147">On a Friday.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_55">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_148">If necessary.  I suggest this as a compromise.</p>
+        </speech>
+        <speech by="#DrMartinMansergh" eId="spk_56">
+          <from>Deputy Martin Mansergh</from>
+          <p eId="para_149">I also made that suggestion.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_57">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_150">I understand the dilemma for both the SDLP and Sinn Féin.  We should try to facilitate them in any way we can.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_58">
+          <from>Chairman</from>
+          <p eId="para_151">Two parties are recommending Friday as an alternative.  I am prepared to take up Deputy Ó Caoláin's suggestion that there be consultation on the matter between the SDLP and Sinn Féin.  If members wish, we can have a discussion on the matter over lunch or they may want to meet privately and come back to us next week with a recommendation.  I will put two days into the mix with a view to finding an arrangement.</p>
+        </speech>
+        <speech by="#CaoimhglinOCaolain" eId="spk_59">
+          <from>Deputy Caoimhghín Ó Caoláin</from>
+          <p eId="para_152">Very good.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Chairman" eId="spk_60">
+          <from>Chairman</from>
+          <p eId="para_153">By way of information, I received a personal invitation last week, as Chairman elect of this committee, to attend a cross-Border conference in City North Hotel, Gormanston, on 24 and 25 November.  I understand a number of members may have been invited also and look forward to seeing them there.  I hope to attend the conference with the clerk to the committee, Mr. Paul Kelly.  Is that agreed?  Agreed.</p>
+          <p eId="para_154">I envisage our next two meetings will see us engaged in devising the work programme for the committee.  We will examine the suggestions and contributions made today to ensure they are dealt with in the next 12 months.  I remind members that the committee's work programme will be directed by its orders of reference, as agreed by Dáil Éireann and Seanad Éireann.  The orders of reference have been circulated, with members' briefing packs.  The work programme will be the primary item on the agenda for the next meeting and will be discussed in detail.  If members wish, they can forward submissions, preferably by e-mail, for inclusion in a draft programme to the clerk to the committee.  When the committee Chairmen meet and are given days for committee meetings, we will revert to members and give them as much notice as possible before the committee next meets.</p>
+          <p eId="para_155">I invite members to a photocall on the plinth in front of Leinster House on this historic day.  Thereafter, we will go to lunch in the Members' dining room where I look forward to an interesting discussion.</p>
+        </speech>
+        <summary eId="sum_6">The joint committee adjourned at 1.30 p.m. <i>sine die</i>.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

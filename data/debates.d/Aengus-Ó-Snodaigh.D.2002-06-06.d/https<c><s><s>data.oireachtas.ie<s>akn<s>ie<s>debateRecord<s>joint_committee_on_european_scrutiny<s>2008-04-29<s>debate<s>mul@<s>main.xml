@@ -1,0 +1,690 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-04-29/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-04-29/debate"/>
+          <FRBRdate date="2008-04-29" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_european_scrutiny"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-04-29/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-04-29/debate/mul@"/>
+          <FRBRdate date="2008-04-29" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-04-29/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-04-29/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None" eId="#vol_None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None" eId="#no_None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="DamienEnglishFG" href="/ie/oireachtas/member/id/Damien-English.D.2002-06-06" showAs="Damien English"/>
+        <TLCPerson eId="DickRoche" href="/ie/oireachtas/member/id/Dick-Roche.D.1987-03-10" showAs="Dick Roche"/>
+        <TLCPerson eId="JoeCostelloLAB" href="/ie/oireachtas/member/id/Joe-Costello.S.1989-10-01" showAs="Joe Costello"/>
+        <TLCPerson eId="JohnPerry" href="/ie/oireachtas/member/id/John-Perry.D.1997-06-26" showAs="John Perry"/>
+        <TLCPerson eId="KieranPhelan" href="/ie/oireachtas/member/id/Kieran-Phelan.S.2002-09-12" showAs="Kieran Phelan"/>
+        <TLCPerson eId="LarryButler" href="/ie/oireachtas/member/id/Larry-Butler.S.2007-07-23" showAs="Larry Butler"/>
+        <TLCPerson eId="PaddyBurke" href="/ie/oireachtas/member/id/Paddy-Burke.S.1993-02-17" showAs="Paddy Burke"/>
+        <TLCPerson eId="SeanConnick" href="/ie/oireachtas/member/id/Seán-Connick.D.2007-06-14" showAs="Seán Connick"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Foreign_Affairs" href="/ie/oireachtas/role/minister_state/foreign_affairs" showAs="Minister of State at the Department of Foreign Affairs"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM GHRINNSCRÚDÚ EORPACH</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON EUROPEAN SCRUTINY</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2008-04-29">Dé Máirt, 29 Aibreán 2008</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2008-04-29">Tuesday, 29 April 2008</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 11 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#SeanConnick">Deputy Seán Connick,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PaddyBurke">Senator Paddy Burke,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JoeCostelloLAB">Deputy Joe Costello,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#LarryButler">Senator Larry Butler,*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#DamienEnglishFG">Deputy Damien English.</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#KieranPhelan">Senator Kieran Phelan.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#AengusOSnodaighSF">Deputy Aengus Ó Snodaigh,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Senator Terry Leyden.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#JohnPerry">DEPUTY JOHN PERRY IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_5">The joint committee met in private session until 11.40 a.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Scrutiny of EU Proposals.</heading>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_8">The joint committee has a number of proposals before it for consideration.  On item No. 1, there are no adopted measures.</p>
+          <p eId="para_9">Next on the agenda is item No. 2, proposals proposed for further scrutiny.  It is recommended that COM (2007) 69 and COM (2007) 329 do not warrant further scrutiny.  Is that agreed?  Agreed.  It is also recommended that COM (2008) 80 does not warrant further scrutiny, although it is recommended that we write to the Department of Enterprise, Trade and Employment indicating the committee's concern that a consultation process should take place with industrial and professional users of products containing this chemical.  Is that agreed?  Agreed.</p>
+          <p eId="para_10">Next on the agenda are COM (2008) 88, COM (2008) 107, COM (2008) 168, COM (2008) 92, COM (2008) 98, COM (2008) 101, COM (2008) 106, COM (2008) 116, COM (2008) 119, COM (2008) 121, COM (2008) 123, COM (2008) 124 and COM (2008) 166.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_2">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_11">The note on COM (2008) 116 states conclusion of the convention may require secondary legislation and rules of court in Ireland.  Does that come from the document, or will it transpire at a future date?  The other document indicates a need for a combination of secondary legislation and rules of court may arise in the context of the conclusion by the Community of the convention.  Should we await its conclusion before reviewing the matter, or will we ask the Department why secondary legislation and rules of court will be required?</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_12">If the Deputy so wishes, we can pursue his concerns.  This proposal will lead to the conclusion by the European Community of the revised Uganda Convention.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_4">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_13">I am more concerned about the following paragraph, the implications of which I do not understand.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_5">
+          <from>Chairman</from>
+          <p eId="para_14">It is stated in the paragraph that conclusion of the convention may require secondary legislation and rules of court in Ireland.  There are no implications for the EU budget.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_6">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_15">In terms of the——</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_16">We will go into private session for a moment to obtain advice on this issue.</p>
+          <p eId="para_17">The joint committee went into private session at 11.45 a.m. and resumed in public session at 11.46 a.m.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_8">
+          <from>Chairman</from>
+          <p eId="para_18">On COM (2008) 166, it is recommended that these proposals do not warrant further scrutiny.  Is that agreed?  Agreed.</p>
+          <p eId="para_19">Item No. 3 deals with those for no further scrutiny but which are proposed to be sent to sectoral committees for information.  On COM (2007) 645, it is proposed that the proposal does not warrant further scrutiny but that it be forwarded to the Joint Committee on Transport for information.  Is that agreed?  Agreed.</p>
+          <p eId="para_20">On COM (2008) 150 and COM (2008) 152, it is proposed that these proposals do not warrant further scrutiny but that they be forwarded to the Joint Committee on Finance and the Public Service for information.  Is that agreed?  Agreed.</p>
+          <p eId="para_21">The next item deals with CFSP measures — CFSP (2008) 223 and CFSP (2008) 228.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_9">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_22">On CFSP (2008) 228, the Department notes that joint action is of some significance as it extends the role of the EU planning team with an aim of ensuring transition from the UN mission out there.  Clearly, we are contributing Garda Síochána members to the UN team there at the moment.  It is already adopted.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_10">
+          <from>Chairman</from>
+          <p eId="para_23">The purpose of this joint action is to amend the existing joint action which established the planning team tasked with putting in place the arrangements for an EU rule of law mission in Kosovo.  This amendment will allow non-EU countries which have been invited to participate in the EULEX Kosovo to second staff on to the planning team of the EUPT and be recruited on a contractual basis.  The joint action also extends the mandate of the EUPT mission until 4 June 2008.</p>
+          <p eId="para_24">The final point is that the EU planning team was established in 2006 to prepare the ground for the development of the EU rule of law mission in Kosovo, following the declaration of independence in Kosovo, which has been recognised by a majority of EU member states.  The Council agreed in February 2008 to formally establish the EU rule of law mission, or EULEX Kosovo.  At this time the Council also decided that EUPT Kosovo will act as the main planning and preparation element for EULEX.</p>
+          <p eId="para_25">That might sound like double Dutch.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_11">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_26">Our mandate still remains in Kosovo.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_27">It does.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_13">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_28">That is the important element.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_29">It is important.  That deals with CFSP (2008) 228, CFSP (2008) 229 and CFSP (2008) 230.  It is proposed to note these measures.  Is that agreed?  Agreed.</p>
+          <p eId="para_30">The next item deals with Title V measures.  The first is JHA 6002/07.  As the committee has already considered implementing the proposal, it is recommended that it does not warrant further scrutiny and that it be forwarded to the Joint Committee on Justice, Equality, Defence and Women's Rights in advance of consideration of the opt-in motion by the Oireachtas.  In addition, it is recommended that a copy of the committee's report on implementing the proposal be forwarded to the Joint Committee on Justice, Equality, Defence and Women's Rights at the same time for its information.  Is that agreed?  Agreed.</p>
+          <p eId="para_31">On early warning notice EWN C74-16, it is proposed that the measure does not warrant further scrutiny.  Is that agreed?  Agreed.</p>
+          <p eId="para_32">COM (2008) 40 is a proposal for a regulation of the European Parliament and the Council on the provision of food information for consumers.  The draft proposal consolidates and updates two areas of labelling legislation — general food and nutrition — covered by Directives 2000/13/EC and 90/496/EEC.  Directive 2000/13/EC deals with general labelling requirements for all foodstuffs, for example, list of ingredients and use by date.  In addition to the general legislation, there are certain labelling rules for certain food groups, for example, meat.  Directive 90/496/EEC deals with nutrition labelling on food.  Currently nutrition labelling is optional, although it becomes mandatory when a nutrition or health claim is made or when vitamins and minerals are voluntarily added to foods.  In addition, a number of other directives related to the labelling of alcoholic beverages, foodstuffs containing quinine, caffeine and other ingredients, derogations from labelling and the compulsory indication on labelling are also included.  The Commission conducted an open consultation process in 2006.  The Food Safety Authority of Ireland, at the request of the Department of Health and Children, conducted a public consultation exercise at the time, to which a large number of responses were received.</p>
+          <p eId="para_33">Food labelling is an issue that generates great debate.  While initially the main thrust of food labelling directives was to provide labelling as a tool for the free circulation of food, over time consumer rights have risen in importance.  Some of the issues that arise as part of this recasting of legislation include the labelling of allergenic ingredients, nutrition labelling of alcoholic products, whether legislation should be prescriptive on the format of labelling, whether voluntary codes should be used, the issue of how much information should be provided, how much information is too much, how origin labelling should be dealt with and how welfare and genetically modified organisms, GMO, labelling should be dealt with.  Other issues include subsidiarity — that is, whether member states should decide at a national level on the detailed arrangements when there are no implications for the Single Market — the labelling of non-prepackaged, prepared foods in restaurants and take-away food outlets and the possible additional burden on small producers.</p>
+          <p eId="para_34">In view of the interest in and importance of the issues outlined, both to industry and consumers, it is recommended that this proposal warrants further scrutiny and that it be included in the agenda for an upcoming meeting.  Is that agreed?</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_15">
+          <from>Senator Paddy Burke</from>
+          <p eId="para_35">If this is operated as outlined, does it mean that if one has a sandwich in a restaurant, the proprietor must list the ingredients on the packaging?  It could go that far.  Some weeks ago we scrutinised a regulation to remove red tape affecting small businesses.  Where does the legislation stand with regard to this directive?  I agree that this matter requires further scrutiny.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_36">Traceability is a big issue, especially of beef.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_17">
+          <from>Senator Paddy Burke</from>
+          <p eId="para_37">I know that traceability is a big issue but if we go down the road that the European Union always takes, we will reach a point where the ingredients of sandwiches will have to be listed on the wrapping.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_38">These matters need to be discussed to ensure the right decision is reached in the interests of consumers.  The Commission is seeking less regulation.  The last report we examined was related to food hygiene.  The word was that the Commission would impose less hazard analysis and critical control points, HACCP, for small companies.  The point that Senator Burke makes about food labelling and traceability concerns a significant issue.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_19">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_39">Perhaps we might have proper scrutiny of this issue.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_20">
+          <from>Chairman</from>
+          <p eId="para_40">A full hearing on it.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_21">
+          <from>Senator Paddy Burke</from>
+          <p eId="para_41">Where are we sending it?</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_22">
+          <from>Chairman</from>
+          <p eId="para_42">It is also recommended that, to assist the committee in its detailed examination of the proposals, the following will be invited to attend a committee session to offer their views: officials from the Departments of Health and Children, and Agriculture, Fisheries and Food, the Food Safety Authority of Ireland, the National Consumer Agency, representatives of Taste Council who have been before the committee representing the traditional artisan and speciality foods sector and representatives of the restaurant sector.  Is that agreed?  Agreed.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_23">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_43">That is the way to go.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_24">
+          <from>Senator Paddy Burke</from>
+          <p eId="para_44">We should also bring in somebody from the sandwich sector.  There is a range of companies——</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_25">
+          <from>Chairman</from>
+          <p eId="para_45">Private ones.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_26">
+          <from>Senator Paddy Burke</from>
+          <p eId="para_46">They are people who specialise in making sandwiches.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_27">
+          <from>Chairman</from>
+          <p eId="para_47">They sell them wholesale.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_28">
+          <from>Senator Paddy Burke</from>
+          <p eId="para_48">I believe they should be brought in.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_29">
+          <from>Chairman</from>
+          <p eId="para_49">Does the Senator mean the manufacturing companies?</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_30">
+          <from>Deputy Damien English</from>
+          <p eId="para_50">Not necessarily.  Many of the retailers do not wrap their sandwiches, the convenience stores and the deli counters.  I believe that aspect is covered by the Taste Council.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_31">
+          <from>Chairman</from>
+          <p eId="para_51">It would be. It is covered by HACCP.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_32">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_52">What about sandwiches to schools which are made in bulk?</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_33">
+          <from>Chairman</from>
+          <p eId="para_53">That work is done for the most part by commercial companies which would be under HACCP regulations.  We will note the Senator's concerns and if we can find somebody who specialises in the sandwich business we will proceed accordingly.</p>
+          <p eId="para_54">Item 149 22/07 is COM (2007) 645 — a proposal for a Council framework decision on the use of passenger name record, PNR, for law enforcement purposes.  This proposal will require Ireland to establish a national unit to receive and analyse passenger name record data, PNR, from air carriers and will require the adoption of a common standard of transmission of this data.  PNR data refers to data collected from travel documents, usually flights.  It includes passport data, name, address, telephone numbers, travel agent, credit number, history of changes in flight schedule, seat preferences and other information.  Air carriers already capture such data for their own commercial purposes and are usually obliged to communicate advance passenger, AP, data to the competent authorities of the member states under the Council Directive 2004/82/ EC, which is used in the prevention of illegal immigration.</p>
+          <p eId="para_55">Current arrangements are in place for the transmission of PNR data between the EU and the United States and Canada.  This requires air carriers to transmit such data to the competent authorities in the USA and Canada.  The proposed framework decision provides for the exchange of PNR regarding those passengers who are identified as persons who may be involved in terrorism or organised crime but only to the extent that it is necessary to prevent and fight terrorism and organised crime.  A consultation of interested parties was carried out by the Commission on the transfer of PNR data to the US, and AP information and PNR data to Canada.  Among the issues raised during that consultation was whether the EU legislative response to this issue was appropriate.  Modes of transport should be included, the geographical scope of the proposal, and the use and purpose of collecting PNR data, its retention period, the body receiving the data, the method of data transmission and the onward transfer of data.  Initially it was hoped there would be agreement on the framework decision at the Council meeting on Justice and Home Affairs in June.  It now appears unlikely that it will be agreed before the end of the year.</p>
+          <p eId="para_56">To determine the full implications of the proposal for Ireland it is recommended that this be scrutinised in further detail.  Is that agreed?</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_34">
+          <from>Deputy Damien English</from>
+          <p eId="para_57">Is it necessary to scrutinise it further?  I do not think so.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_35">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_58">I propose that we scrutinise it further.  We were talking about personal and private data that belongs to people and there have been many scares in recent times concerning the loss of confidential data.  It seems, therefore, that many commercial operations have a role to play.  We had the case in which the Irish Blood Transfusion Service was careless in the manner in which it handled such data.  This refers to how the United States of America deals with terrorism.  It is possible that such data could get into the wrong hands and be misused.  It is important, therefore, that we know exactly how this will operate.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_36">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_59">We should examine this proposal further, given the different data retention methods of various countries and the data protection requirements of different jurisdictions.  I remember when this issue was first debated, either last year or the year before, that there was concern among the airlines about the burden of having to keep so much extra information with which they did not normally have to deal, especially for short flights, for example.  It may be worth asking someone from the airline industry if this proposal represents an additional burden or if they have adapted and are happy with it.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_37">
+          <from>Chairman</from>
+          <p eId="para_60">I take on board Deputy Ó Snodaigh's recommendation that we request the views of someone involved in the airline industry.  It is also recommended that, to assist the committee in its detailed examination of the proposal, officials from the Department of Justice, Equality and Law Reform and the Office of the Data Protection Commissioner be invited to appear before us to offer their views.  Is that agreed?  Agreed.</p>
+          <p eId="para_61">Item No. 8 is a proposal for forwarding to sectoral committees for their observations, to be returned to the committee preferably within four weeks, but within eight at the latest, COM (2007) 844, a proposal for a directive of the European Parliament and the Council on industrial emissions and integrated pollution prevention.  The overall objective of the proposed directive is to prevent and control pollution and its impacts arising from industrial activities so as to achieve a high level of protection of human health and the environment and to achieve this in the most cost-effective and efficient way, while ensuring a reduction of unnecessary administrative burdens.  The Commission is proposing a single directive which combines, by means of a recast, the 1996 integrated pollution prevention and control, IPPC, directive and six sectoral directives related to industrial emissions.  The note from the Department of the Environment, Heritage and Local Government confirms that the proposal is of major significance and will require amendments to the Environmental Protection Agency Acts, 1992 to 2003, the Waste Management Acts and relevant regulations made thereunder.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_38">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_62">Are we giving the sectoral committees enough time to consider this directive, or is our timeframe appropriate?  Given the vast implications of the directive, I do not know if four to six weeks is enough time for the committees to consider it.  The Council document is dated 8 January; it is a pity, therefore, that we did not receive it earlier.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_39">
+          <from>Chairman</from>
+          <p eId="para_63">I appreciate what the Deputy says.  Allowing four weeks is preferable and will allow the committees to express their views to the Minister for the Environment, Heritage and Local Government in advance of his meetings.  It is important that we receive observations in time.  We will express this in the note forwarded to the sectoral committees.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_40">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_64">Is it the case that we are constrained by the Minister's schedule?</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_41">
+          <from>Chairman</from>
+          <p eId="para_65">Yes.  Obviously, the issue is important and if we could have allowed more time for consideration, we would have.  Allowing four to six weeks is preferable.  It would be better to allow more, but unfortunately we cannot do so on this occasion.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_42">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_66">We received this proposal in April, two months after the date listed on the Council document — 8 January.  The delay is regrettable.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_43">
+          <from>Chairman</from>
+          <p eId="para_67">It is.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_44">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_68">The position will improve once the Lisbon treaty goes through.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_45">
+          <from>Chairman</from>
+          <p eId="para_69">I thank Deputy Costello.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_46">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_70">Pigs might fly.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_47">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_71">The Commission has to——</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_48">
+          <from>Chairman</from>
+          <p eId="para_72">There is a mandate for eight weeks.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_49">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_73">Perhaps there will be a positive outcome.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_50">
+          <from>Chairman</from>
+          <p eId="para_74">The Minister of State, Deputy Roche, will deal with this matter when he appears before the committee.  In view of the importance of the overall package of measures included in the directive, it is proposed that the proposal warrants further scrutiny and that it be forwarded to the Joint Committee on the Environment, Heritage and Local Government for written observations to be returned to this committee, preferably within four weeks of the date of this meeting and within six weeks at the latest.  Is that agreed?  Agreed.</p>
+          <p eId="para_75">Item No. 9 is proposals for forwarding to sectoral committees for detailed scrutiny.  There are no such proposals.  We will suspend the sitting until the Minister of State, Deputy Roche, arrives.</p>
+        </speech>
+        <summary eId="sum_6">Sitting suspended at 12.06 p.m. and resumed at 12.08 p.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Lisbon Treaty: Discussion with Minister of State.</heading>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_51">
+          <from>Chairman</from>
+          <p eId="para_76">I welcome the Minister of State at the Department of Foreign Affairs, Deputy Roche, and his officials.  The Minister of State will discuss the role of national parliaments in the EU decision-making process.  Members have been provided with detailed briefing documents on the issue.  This is an important issue and it is important that it receives public attention, as there is a lack of awareness about the role national parliaments play in the European Union and how it will be enhanced under the provisions of the Lisbon treaty.  I invite the Minister of State to make his contribution.</p>
+        </speech>
+        <speech by="#DickRoche" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs" eId="spk_52">
+          <from>Minister of State at the Department of Foreign Affairs (Deputy Dick Roche)</from>
+          <p eId="para_77">I am delighted to attend this meeting.  Undoubtedly, one of the most important parts of the Lisbon reform treaty is the issue we are discussing today.  I recall being at the Convention on the Future of Europe and, as we reached the end of its work, discussing with Proinsias De Rossa, MEP, the impact the constitutional treaty would have.  We agreed that while the bulk of the treaty was evolutionary, it was revolutionary in the way it extended democracy in the European Union.  I am at a loss to understand how people who profess to have an interest in democracy can suggest the treaty does anything other than make the largest historical step in the history of the European Union in extending the democracy in the Union.  I thank the joint committee for raising the issue.</p>
+          <p eId="para_78">When the Lisbon treaty was signed, Jaime Gama, the President of the Portuguese Parliament, made a very valid statement.  He said the real winners under this treaty are the national parliaments because the Lisbon treaty represents the biggest single transfer of powers to all the parliaments of the European Union in the history of the Union.  It represents a revolutionary step forward.  People have asked for years how we can improve democracy in the Union, how we can address the democratic deficit.  This is the answer.  If we seriously want to make the European Union a more democratic as well as a more efficient and more effective place, the key to doing that is in the hands of every Irish citizen.  If we want more democracy, if we want more effectiveness, if we want to bring the decision-making processes in Europe closer to the people of Europe, closer to the citizens of Ireland, whether they are in Leitrim or Longford or Wicklow or Dublin, if we want to take decision making right back to where it counts, to the very demos itself, to the people, the way to do it is to vote "Yes" on 12 June.  By voting "Yes" we will give effect to this treaty and involve national parliaments to an extent that would have been regarded as impossible a few years ago.</p>
+          <p eId="para_79">Most people around this table know that before I became involved in politics full-time, I lectured in public administration, focusing specifically on the institutions of Europe as well as the institutions of national governments.  It would have been unthinkable 20 years ago to talk about a Europe in which the European Parliament would share co-decision powers almost 100% with the Council of Ministers and where the national parliaments would not only have detailed daily involvement but would have a veto in specific areas.</p>
+          <p eId="para_80">This is a revolutionary step forward in terms of democracy.  All national parliaments are being brought into the legislative process at an earlier stage than ever before.  IBEC, which is doing a remarkable job in dispelling myths about the treaty and in encouraging the business community to see the benefits for business, for citizens and for Ireland of a "Yes" vote made the point that the significant benefit that comes from this committee, Dáil Éireann and Seanad Éireann getting documents at the very earliest stage, at the same time as national governments get them, is that we, as the elected representatives of the people, as the Teachtaí Dála, the messengers who bring the views of the public to this House, will be involved from day one.  We will be involved at an earlier stage than ever before.  That is a revolutionary step forward because it means that if local businesses, organisations, communities and individual citizens are concerned about anything that is happening in Europe, they will have the capacity to contact their Teachta Dála, their Senator, their local councillor, their local party and involve themselves from day one.  This is a remarkable step forward.</p>
+          <p eId="para_81">It cannot be emphasised enough that this is truly revolutionary.  It gives the citizens of the member states, whether they are natural or corporate, a much earlier opportunity to have an input into the law-making process, to influence the process and to articulate their concerns.  Members should think of it in terms of their own constituencies.  Thirty five years ago it was only at the 11th hour, the 59th minute that business, the farming community, individual communities became aware of the detail of a particular regulation and how it would impact on their lives.  Now, as representatives of our constituencies, we will have access to the process.  We will be able to show a yellow card, an orange card or, in some cases, a red card.  We will be part and parcel of the decision making process in a way that was never envisaged until this treaty became a reality.  If there is anything that is revolutionary in the treaty, it is the way it will involve us all.</p>
+          <p eId="para_82">More than any other treaty, this treaty will strengthen the democratic legitimacy of the Union.  It will give the member state parliaments, the directly elected voices of the people of Europe, a real say for the very first time.  The only way this will happen is if the Irish people vote "Yes".  The new treaty, once ratified, will give the Houses of the Oireachtas a unique opportunity to work hand in hand with its sister parliaments right across the Union.  It will build a network of parliamentary oversight, which was not the reality previously.</p>
+          <p eId="para_83">This is a revolutionary process.  When Professor Pöttering, the President of the European Parliament, was in these Houses, he made the point that when he first became a member of the European Parliament in 1979 it had virtually zero power in terms of the law making process.  We had no power.  We could examine matters after the event, when not only the horse had bolted but it was in another field.  We will now be involved, as parliamentarians across 27 member states, in concert with the parliamentarians of the European Parliament, in a powerful democratic oversight of the way the Union does its business.  It will give the Members of both Houses a say for the very first time.</p>
+          <p eId="para_84">We should be aware, however, that It is a challenge as well as an opportunity.  As a practising politician I am aware, as are all Teachtaí Dála, that our first focus and exploitation of our energy is on the way we service our constituents, whether it is in our clinics or elsewhere.  People not involved in politics sometimes turn up their noses at the constituency service role we play but that role means that politicians here are more grounded than in any other part of the Union.  Some regard our parliamentary electoral system as somewhat despotic.  It is not.  It means that we have to be in touch with the people who send us here to carry their message to Dáil Éireann.  Those people will have a direct say, for the first time, in the rules, laws, regulations and directives that affect their daily lives, the way they do their business and discourse with fellow citizens.</p>
+          <p eId="para_85">We will face a real challenge as a result of this process.  In recent months my Department engaged in intensive consultations with the secretariat.  I appeal, however, beyond the secretariat and the officials in my Department.  Another set of players in this process who play a vital role is our media.  The reality is that the Members of Dáil Éireann and Seanad Éireann, and particularly the people who work on the committees of Dáil Éireann and Seanad Éireann, must have their hard work demonstrated to the public.  If we are genuinely concerned about a democratic deficit and that there is a lack of information, a channel for information must be created.  It will be imperative that when members come to this committee and give of their time to this committee they get a fair representation for the effort they put in.</p>
+          <p eId="para_86">I was appalled recently when a full day of marvellous debate took place in the Dáil, Second Stage of the Referendum Bill, during which some good arguments were made for and the first arguments were made against the treaty but they did not merit one second of broadcast time on "Oireachtas Report".  That must be addressed.  If it were not for the Irish broadsheets the people would not know what goes on in this House.  If we are to use the mechanism this treaty gives us to have dialogue directly with citizens on issues related to Europe that must change.  There must be openness.  There is no point in this committee being open and transparent in the way it does its work unless a window into this committee's work is opened up, particularly in the broadcast media and specifically in the national broadcaster.  Enormous credit is due to the broadsheets.  I read all European papers and very few of them give as much cover to parliamentary affairs as ours do but that must be improved by the broadcast media.</p>
+          <p eId="para_87">The updated procedures we introduced recently regarding EU business in the 30th Dáil are important.  The partnership provides a paradigm of the way we might address the challenges and opportunities.</p>
+          <p eId="para_88">I refer to several issues specifically in the treaty, the first of which is the protocol on the role of national parliaments.  I welcome that as I am sure does every Member of Dáil Éireann.  The treaty recognises the enhanced role of national parliaments as a key element of the democratic fabric of the Union.  That is as it should be and the wonderful aspect of this is that it addresses an existing deficit.</p>
+          <p eId="para_89">There are several protocols.  The first of the protocols recognises the manner in which national parliaments scrutinise their governments' activities within the Union and that it is a matter for the constitutional arrangements in each member state.  None of us would change that.  The desirability of encouraging greater parliamentary involvement in EU activities and enhancing the ability of parliaments to contribute to the debate is also recognised.  The arrangements set out in the protocol apply to all component chambers of national parliaments where the parliaments are not unicameral.  In Ireland, that means both the Dáil and the Seanad are involved in the process.</p>
+          <p eId="para_90">Under the protocol, all Commission Green and White Papers, the Commission's annual legislative programmes and all draft legislation will be sent directly to national parliaments.  Incidentally, one of the great initiatives that President Barroso introduced was that this happened voluntarily.  It will now be mandatory.  This will be done at the same time as the information is sent to national governments and the European Parliament.</p>
+          <p eId="para_91">The legal requirement for direct and simultaneous transmission is a new and welcome departure.  Although President Barroso made the step forward, the system was not on a statutory basis and could have changed with a new Commission.  It will not now change, although the provision will have effect only if the Irish people vote "Yes".  Similarly, the agendas for and outcomes of the meetings of the Council of Ministers must go directly to national parliaments at the same time as they go to the member state governments.  If the people vote "Yes", that will be mandatory.  It will be a statutory requirement, not just for this year and the life of the current Commission but forever.  That is a move forward.</p>
+          <p eId="para_92">The treaty also provides that national parliaments must have at least six months' notice of any intention of the European Union to use the so-called <i>passerelle</i> provision.  That is an issue as the <i>passerelle</i> provision has been much misrepresented in the debate in Ireland.  If the provision is to be used — if we are to move from unanimity to qualified majority voting — there would first have to be a unanimous vote in the European Council, which would need the support of every national government.  It would have to have the support of the European Parliament and, most importantly, it would have to be agreed by every national parliament, because we would have a veto.  In Ireland, uniquely, we will introduce an arrangement whereby we could not have such a change without there being engagement with it.  We would engage with, debate and examine it.  We would have to take a positive decision.</p>
+          <p eId="para_93">That is an important step forward.  It will put additional pressures on the Members of the Dáil and on the members of every parliament in Europe, but it is good because it means that nothing can happen other than in the most open and transparent way.  I do not want to engage in dialogue that dismisses the views of people on the "No" side, but we are talking about a revolutionary step forward in democratic terms.  For anybody to suggest that it is a self-amending treaty is to mangle the language in a disingenuous way that does a disservice to political discourse — I am mystified why anyone would.</p>
+          <p eId="para_94">The protocol on the application of the principles of subsidiarity and proportionality are also critical, particularly subsidiarity.  The principle of subsidiarity is designed to ensure that the Union takes action only when it is necessary and appropriate — we do not always apply the same rule in this country.  Within eight weeks of a transmission to it of a draft, any national parliament or chamber of parliament can send a reasoned opinion stating why it considers that it does not comply with the principle of subsidiarity.</p>
+          <p eId="para_95">In reality, this means that we, as Members, become the patrolmen and women.  We become the people who enforce the principle of subsidiarity.  If we are concerned, as many people have expressed in the past 35 years, that there is an encroachment or slippage of power to Brussels, we will have the capacity to address it.  We and our fellow elected members in the parliaments of Europe will be the guardians of subsidiarity.  That must be welcomed.  If within eight weeks at least one third of the national parliaments issue such reasoned opinions, the draft provision must be reviewed.  It may be maintained, amended or withdrawn.  For proposals in the areas of judicial co-operation, criminal matters and police co-operation, the threshold is lower at one quarter of national parliaments.  This is the so-called yellow card system.  It is new and very welcome.</p>
+          <p eId="para_96">In addition to the yellow card system, the inter-governmental conference in 2007 provided for an orange card.  If a simple majority of national parliaments take the view that a proposal breaches the principle of subsidiarity but the Commission decides to maintain the proposal, the Commission must submit its reasons to the Council and the European Parliament.  Frankly, I cannot see that ever happening.  I cannot see a Commission deciding that it is going to set its head against it, and if it does, it certainly will not have the support of the Council and the Parliament.</p>
+          <p eId="para_97">The application of the principle of subsidiarity is intended to take place primarily before the adoption of legislation.  Remember that the European Court of Justice is empowered to adjudicate an alleged infringement on this principle in laws which have actually been adopted.  Such actions may be brought by member states or notified by it on behalf of a national parliament.</p>
+          <p eId="para_98">The justice and home affairs portfolio encompasses the areas of freedom, justice and security, which are very important to the citizens not just of this country but those of Europe as a whole.  In recognition of the particular sensitivity in this area, the treaty contains a number of specific provisions associating national parliaments more closely with the Union's activities in this area.  As I have said, there is a lower threshold for the application of the yellow card mechanism.  National parliaments are to be kept informed of evaluations of member states' implementation of Union policies in the areas of freedom, security and justice — in particular, to facilitate full application of the principle of mutual recognition.  We should consider how important this is.  Is it not in the interests of every citizen on this island and elsewhere in the EU to have the closest possible working relationship between member states and the Union acting in concert to address criminality?  We should think of the sort of criminality this treaty is addressing, which curdles one's blood, namely, human trafficking, drug trafficking, money laundering and cross-border arms shipments.  Individual member states cannot deal with this type of international criminality in their own right.  It is important for national parliaments to be directly involved in this sensitive area.</p>
+          <p eId="para_99">National parliaments are to be given at least six months' notice of any intention by the Council to make limited adjustments to voting rules in the treaty, such as the simplified revision known as the general <i>passerelle</i> arrangement.  Nothing can be done by subterfuge under the surface or without the spokespersons for the people of Europe knowing that it is going to be done.  Nothing can be done in this country without the men and women of Dáil and Seanad Éireann being notified and having the right to intervene.</p>
+          <p eId="para_100">Any move by the European Council to allow decisions previously determined unanimously to be made by QMV or to extend the co-decision procedure, can be blocked by a single national parliament or government.  It is an extraordinary extension of democratic power.  Up to this, whenever we spoke about a veto in Europe, we meant a veto for member state governments.  We never spoke about a veto for parliaments but here we have it.  This Parliament and any sister parliament in the EU can say "You've gone far enough.  You will not go any further."</p>
+          <p eId="para_101">The challenge that now faces the Houses of the Oireachtas, and this committee in particular, is how best to engage in the new role.  How will we use these powers effectively within the constraints that fall on TDs and Senators?  I am conscious of the constraints that fall upon them.  What mechanism or mechanisms are required to be put in place to give practical effect to this important feature of the treaty?  As regards the constitutional aspects of the enhanced parliamentary role, the Twenty-eighth Amendment of the Constitution Bill contains all the necessary provisions required to give effect to the role to be played by the Oireachtas.</p>
+          <p eId="para_102">The Government will play its part in reviewing the European Communities Acts, including the EU scrutiny Act 2002 — the Act which came in after the first Nice referendum — to bring our domestic provisions into line with the treaty.  That is very important.  We will have to have a review of those mechanisms we put in place in order to give best effect to these revolutionary steps forward.  It will be necessary to make the amendments in the autumn so as to enable ratification before the end of the year, as envisaged in the treaty.  I am sure that all sides of the House will assist in that.  It is contingent, of course, on the successful ratification of the treaty.  I do not need to remind members of this committee that ratification will depend on our decision on 12 June.</p>
+          <p eId="para_103">I propose that once the treaty is ratified our respective officials should meet.  There should be such a dialogue immediately after the referendum.  As soon as we know the results of the referendum we should start to put in place the dialogue between the Departments and this committee.  I am anxious that this happen because it will allow the Government to consult the committee after the referendum in order to seek an input into the legislative proposals.</p>
+          <p eId="para_104">I do not intend to be dismissive of the role played by public servants.  However, there would be no point in this matter being decided on a public service to public service basis.  There will also be a need for active involvement on the part of members of the committee.</p>
+          <p eId="para_105">I again wish to reaffirm the Government's commitment — this is also a personal commitment on my part — to enhancing the role of the Oireachtas.  The terms of the Bill before the Houses underline the Government's desire to maximise the role of the Oireachtas in the development of future EU legislation.</p>
+          <p eId="para_106">I thank members for affording me the opportunity to share my views, not only on the way the committee should do its work but also — and more importantly — on the fact that this represents a major step forward for democracy in Europe.  If the people are, as I believe them to be, truly interested in democracy and in making Europe a more democratic place, they can make their contribution by voting "Yes" on 12 June.  No one can question the assertion that if we ratify the treaty, Europe will become a much more democratic place.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_53">
+          <from>Chairman</from>
+          <p eId="para_107">The Minister of State's contribution was clear and contained no ambiguities.  He will be aware that the major difficulty arises in the context of people's lack of knowledge regarding the treaty and the role of national parliaments.  The clarifications he has provided will go a long way to alleviating people's concerns regarding the subsidiarity approach.  To date, the committee has heard the views of NGOs, civil servants, representative bodies and interest groups on legislation.  There is a notion abroad that there is an apparent democratic deficit and also a perception that national parliaments are conceding power.  The "No" campaign contends that the latter is the case and that we are not being given enhanced powers.  It is important to get the message out in respect of national parliaments.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_54">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_108">I thank the Minister of State for his clear presentation and I welcome his commitment to the effect that the Joint Committee on European Affairs, and I presume this committee, will be involved with the Government in making proposals regarding legislative mechanisms to be introduced in the autumn.  In my view, that is the way to proceed.</p>
+          <p eId="para_109">I agree with the Minister of State that the section of the Lisbon treaty relating to the new role for national parliaments is an exciting innovation.  We should develop a robust and proactive response to it.  In so far as is possible, we should lead the way on this matter.  As the Minister of State indicated, politicians in the country are very close to the people and there is little separation between local and national politics.  People are very much aware of the issues affecting their lives and they quickly communicate them to politicians.  It is easy for us to identify any democratic deficits because people will rapidly inform us as to where they exist.</p>
+          <p eId="para_110">A recent survey carried out under the Eurobarometer mechanism shows that only 25% of the population believe their opinions count for anything in the context of the European Union's legislative process.  This means 75% of people are of the view that they are either not consulted about or are not in tune with what is happening.  It appears that the majority of legislative provisions now emanate from Europe rather than the national parliaments.  When one considers these various aspects, it is clear that a proposal such as that under discussion is essential.</p>
+          <p eId="para_111">Ireland has done its part, in the context of establishing both the National Forum on Europe and this committee, to try to bridge the democratic deficit but it is clear that there is a long way to go.  This is the first structured attempt to do that in a treaty for a long time.  National parliaments will now have a direct, immediate role in the legislative process, not <i>post factum</i> or through grace and favour but on a legal basis.  It is not on the agenda today, but we should consider in the same terms the citizens' initiative and how citizens of the European Union can become involved in initiating and affecting legislation through that new legal initiative.</p>
+          <p eId="para_112">There are three issues that have to be dealt with, the first of which is the question of the mechanism to be used.  Eight weeks is a short space of time for each national parliament to give its considered opinion and express its views.  If there is any difficulty with a proposal, a lot of research may need to be done in that time and it will require resources and considerable professional back-up skills for parliamentarians to carry it out.  It will require the Joint Committee on European Affairs, the Joint Committee on European Scrutiny and the other committees involved in the issue to play a substantial role from an early stage.  It will also require the establishment of links with other parliaments and an adequate mechanism for this.  We will have to consider carefully whether COSAC — the Conference of Community and European Affairs Committees of Parliaments of the European Union — can do this in the legislative process.</p>
+          <p eId="para_113">The second issue relates to the fact that it will be the Parliament, rather than the Government, which has the powers.  The Government is represented at the Council of Ministers, the European Council and, to some extent, the Commission.  The new structure will be parallel.  There will be a need for sensitive negotiations with the Government in order that the role of parliament is given full expression and the Government of the day does not seek to intrude on that role.  Guidelines will have to be set down in the early work done between the committee and the Government.  I would welcome the Minister of State's remarks on this.</p>
+          <p eId="para_114">The third and final issue is the need for change in Dáil procedure.  Can committees fulfil the role being granted to them?  Will we be able to operate down here in the bunker, where it is difficult enough to receive much press coverage for the serious debates we have and serious decisions that we take on EU legislation, while all the serious debates on domestic engendered legislation will be taking place in the Chambers of the Dáil and the Seanad?  That issue will have to be addressed head on.  In the short term we should give a full day in the Dáil once a month to scrutiny of EU proposals and issues, which should build up to at least one full day a week in the Dáil and Seanad Chambers.</p>
+          <p eId="para_115">Those are the practical aspects that we will have to address.  They will require substantial changes in the procedures of both Houses, but we should not be afraid to make them.  We should be first to act and lead the way among the 27 member states by coming up with some practical proposals and solutions.  We were the ones who established the National Forum on Europe.  We led the way for member states because we considered it was necessary to have a national forum to eliminate as much of the democratic deficit as possible.  I would welcome the Minister of State's remarks on this matter.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_55">
+          <from>Chairman</from>
+          <p eId="para_116">Those are pertinent questions on the role of national parliaments.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_56" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_117">You are right, Chairman.  In the debate on the reform treaty virtually no attention has been given to this, the most important aspect of the treaty.  We have had untruthful slogans about taking power away when precisely the opposite is happening.  I have travelled the country like Johnny Appleseed bringing the message that this is a good, balanced and democratic treaty which will make the European Union more effective and efficient and bring it closer to us, as citizens.  I would be very grateful for assistance in spreading that message.  I know I will receive assistance and that the Chairman and other Deputies present have made public comments in support of the treaty.</p>
+          <p eId="para_118">Deputy Costello is right in saying Ireland's forum was revolutionary and is much regarded.  Although we do not revere it, it is highly regarded across Europe.  The Vice President of the Commission, Margot Wallström, recently told me of the sense of frustration felt by people who want to engage the citizens at the lack of bodies similar to the National Forum on Europe which was mould breaking.  It was a completely new way of doing business.  We should recognise this.</p>
+          <p eId="para_119">Deputy Costello indicated a concern at the eight week period for national parliaments to consider the treaty.  Given the volume of drafts, the eight week period will be challenging.  In discussions between officials of this committee and in my own Department a red flagging system should be agreed to ensure the debate focuses on the important issues.  Many of the regulations are mundanities which have little direct impact.  Those which will have an impact must be identified.  That will require a red flag system and need to be resourced.</p>
+          <p eId="para_120">Deputy Costello is also right in saying debate will need to be dealt with in a different way.  Procedures in the House will have to recognise this new reality.  The Deputy also indicated his concern as to how EU scrutiny would be dragged of the bunker, pleasant as this bunker is, and into the daylight.  It is only when this happens that the citizens, whether corporate or private, will be aware of it.  It would be fantastic if local residents' associations, in addition to dealing with potholes and other frustrations, occasionally concerned themselves with European matters.  Would it not be a real expression of democracy if we had debates at local level, not only with business groups, which have vested interests, but with citizens' groups, which have a role to play and a contribution to make?  It would truly democratise the European Union.  How we drag this process out of the bunker and into the daylight of scrutiny in the House is something to which the Committee on Procedure and Privilege must give consideration.  I agree with the Deputy on the issue.  By dragging EU scrutiny into daylight we would do the European Union a real service.  Our electoral system, with its tradition and relationship between the citizen and the elected Members of the Dáil, is unique in Europe.  No one else has anything quite like it.  People in academic life sometimes criticise it but I think it is good and healthy and we should build on it.</p>
+          <p eId="para_121">The Houses must also talk to the broadcast media.  Deputy Rabbitte famously said "Oireachtas Report" was a programme for insomniacs and people who bowled in from the pub in the early hours of the morning, although that may not happen in these more politically correct times.  We must get real.  If we are concerned with democracy and involving the people, we must open a window into Dáil Éireann and Seanad Éireann.  The best way to do this is through the broadcast media and by continuing the excellent work done in the print media.  I am concerned at the dumbing down of the media and journalism.  I hope the incipient and dangerous impact of imported journalistic standards will not undermine the high journalistic standards in this country.  The attention given to the Oireachtas needs to be expanded, in both the print and broadcast media, rather than squeezed further.  The people have a right to know what we are doing.  For a long number of years the Oireachtas was a closed shop, with no microphones or television coverage.  Now that they are here we should use them to effect and let the people know what is happening.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_57">
+          <from>Chairman</from>
+          <p eId="para_122">Many of the students who attended the public meetings of the Joint Committee on European Affairs appeared to have little awareness of the role of the Oireachtas.  We had highly educated students in Cork last weekend who were totally cynical about the European question and the role of parliaments.  Do you have plans to deal with the massive information deficit among people aged between 18 and 25, who are totally disconnected and are not aware of the role of this committee or of the effectiveness of our work listening to vested interests?  Such young people are equally unaware of the role of the Oireachtas or of European issues.  We are missing a great opportunity to use the new media formats favoured by young people.  They are critical voters who will influence the future.  They are cynical of the European issue because they are unaware of what is happening.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_58" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_123">You are quite right, Chairman.  There is a big challenge there for all of us.  We do not control what is broadcast and it is a sad reality that those who control it do not see fit to give more time to the Oireachtas.  I accept that the resource issue presents challenges to broadcasters.</p>
+          <p eId="para_124">The Irish people are intensely interested in politics and public affairs.  It is arrogant to edit material out because it is felt to be above the heads of the people or that they are not interested in it.  I have never found a person in Ireland who, when he or she is engaged, whether in the pub, on the sideline at a match or standing at a bus stop, is not interested and does not have a view on politics and political affairs.  The detail of politics can be tiresome but we should give the people the right to decide what is tiresome and what is not.  We should certainly not withhold material from them.  In this new process, it is important that the public be informed and that channels be opened to them.  We cannot control those channels because, thankfully, we have a free press.  However, I would like the free press and free media to allocate more time to political matters.  This would also require politicians to be more attentive to how we present ourselves.  That is a different issue.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_59">
+          <from>Senator Paddy Burke</from>
+          <p eId="para_125">I welcome the Minister of State and his staff.  I compliment him on his knowledge of Europe and on the work he has done over the past number of years.  I am sure his knowledge of Europe, the work he has done on the issue and his comments about the Minister for Finance will stand him in good stead next week.  I wish him well in that regard.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_60" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_126">I do not think the Minister for Finance reads the blacks.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_61">
+          <from>Chairman</from>
+          <p eId="para_127">He might make an exception in this case.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_62" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_128">I will make sure he does not read that part.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_63">
+          <from>Senator Paddy Burke</from>
+          <p eId="para_129">My party is holding 35 public meetings throughout the country on the Lisbon treaty.  Many of them have already taken place.  A number of issues have been raised, including the issue of audited accounts.  We are all conscious of transparency.  Members of this committee went to Europe and met eight Commissioners.  I must compliment the Commissioners on their openness.  The Commission hides nothing.  However, they have not signed off on the question of audited accounts.  I would like the Minister of State to expand on that matter.</p>
+          <p eId="para_130">The Minister of State raised the issue of the use of the veto by national parliaments.  Does it mean the Oireachtas, comprising the Dáil and Seanad, has a veto or that only the Dáil has the veto?  We all understand the judgment in the Crotty case, but is there anything in the treaty that offends the Constitution?  Would it be necessary to have a referendum were it not for the judgment in the Crotty case?  Does the Minister of State envisage a directly elected European Commissioner appointing his or her Cabinet at European level?</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_64" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_131">I will take the last point first.  In the Convention on the Future of Europe there was much discussion on how the President of the Council would be appointed.  I was one of those who took the view that we needed to be very careful about federalist ideas in the European Union, although not because there was anything wrong with a federalist arrangement.  Some countries are federalist, while others are unitary states.  I have listened to people express the idea that we should have a directly elected President of the European Council and then in the next breath they make the point that the Presidency of the European Council would be a powerful position.  Would not the position be infinitely more powerful if the President was directly elected?  Where would the 2 million to 3 million Irish voters stand in terms of electoral weight?  The people who have made this case have plucked the arguments for it out of the air.  There is a case for direct elections, but that is best dealt with by dealing with the European Parliament.</p>
+          <p eId="para_132">The wonderful aspect of the European Union is the unique balance between the members states and the Union.  We must be careful not to damage that balance because the interests of the European Union are articulated and guarded by the Commission, the members of which should not be elected because the Commission represents the Union and does not have a representative role in the way that we, as Members of the Dáil, have a representative role.  It is very important that the thesis on which the balance is built is maintained.  Due to their lack of familiarity with the EU model some are expressing ideas that would seriously damage that wonderful balance.  The interests of the European Union are looked after by the Commission, the guardian of the treaties and executive arm of the Union, the originator of policy.  The interests of member states are guarded by the members of the Council, while the representative body for the citizens of Europe is the European Parliament.  It would be very bad for us to do anything that would damage that balance, which is unique internationally.  There is no model similar to it anywhere in the world and we should celebrate and retain it</p>
+          <p eId="para_133">In response to the question on the veto posed by Senator Burke, both Houses of the Oireachtas will have the right to move a motion to have a veto.  In response to the Senator's question on the audit, the European Court of Auditors is charged with that task.  The Senator is correct that people talk about accounts not being signed off and are suggesting it as a reason to vote "No" , but the reality is that it is one of the reasons we should vote "Yes" to make the institutions more effective than they are.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_65">
+          <from>Senator Paddy Burke</from>
+          <p eId="para_134">I asked if there was anything in the treaty that offended the Constitution?</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_66" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_135">The answer is no; the people make the ultimate judgment.  Let members think of the key issues of fundamental importance to the people.  They include sovereignty in taxation matters which, thankfully, has finally been put to rest by the chairman of the referendum commission who made a very clear factual statement on the issue yesterday.  It is exactly in line and in accordance with the statement made by President Pottering when he addressed the Seanad, with the views expressed by the Government, although people do not necessarily believe it on these issues, and with the views expressed by President Barroso.  More importantly, it is a precise interpretation of what is stated in the treaty.  Those who suggest sovereignty in taxation matters will be lost should stop pushing that canard.  Obviously, they will not.</p>
+          <p eId="para_136">The other sensitive issue is the question of Irish neutrality.  When we voted in the second Nice referendum we added to our Constitution the protection of neutrality and gave the protection of our neutrality to each citizen.  No Government can, as a result of the changes made in the second Nice referendum, join a defence arrangement without a referendum of the people.  We are repeating that prohibition.  That arrangement will be continued in the referendum we vote in on 12 June.  More importantly, our position on defence issues is recognised in the treaty, where it is stated that different countries have different approaches to the defence issue.  In any event, defence decisions remain a matter for unanimity and no country can be forced to do anything that it does not wish to do, but we have the additional protection of our Constitution.</p>
+          <p eId="para_137">Abortion was another issue and we dealt with it in Article 40.3.30.  Our position on this issue is protected in a protocol to this treaty.  I was more than amused by the contradictory statement made by a Danish MEP who visited the National Forum on Europe some time ago and stated that we needed a protocol to defend taxation and then questioned whether the protocol on abortion had real effect.  The reality is that any change on the issue of abortion can be decided only by the Irish people.  The Senator is quite right.  Our position on the three issues of sovereignty in taxation, abortion and neutrality, are all protected in the treaty.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_67">
+          <from>Deputy Damien English</from>
+          <p eId="para_138">These three matters are major issues and it might be worthwhile, even at this late stage, to publish the relevant parts of the treaty that refer to them so that people can see what is stated in writing.  Many of the leaflets deal with ten or 20 different issues, but we should limit the issues covered to those areas, publish it and hand out the leaflets.  That should be the end of the story.  Lies are being told and these issues must be clarified.  The only way to clarify the issues is to cite the relevant extracts from the 300 page document and the Government is in a position to do that.</p>
+          <p eId="para_139">Will the Minister of State comment on the expanded role of MEPs under this treaty?  I have been attending meetings on Europe across the country for a number of years and sometimes we get bad press.  We can address the bad press by explaining the role of this committee and pointing out how useful it is.  That is the reason we asked the Minister of State to attend so that we would have a chance to make a case for the European scrutiny committee.  However, the bad press has been encouraged by our own politicians from various parties who have blamed Europe over the years when it suits them for matters in which we played a very important role.  That must stop.  We need to explain the procedures and the significant role of the Oireachtas in everything that happens in Europe.  It is not good enough to blame Europe for a problem in rural Ireland.  We have a responsibility as politicians not to do that, because one cannot give out about Europe and then try to sell the treaty.</p>
+          <p eId="para_140">We have discussed the dissemination of information on Europe and the Minister of State thought the broadcast media could edit the programmes differently.  We have a more important role in getting the message out.  There is a need for an office on the European Union in every county.  We have libraries in every town and surely we could have a specific section in the library or in a Government building to deal with issues relating to Europe with the remit to educate the public about how the European Union works.  I like the idea that this committee could encourage more local debate.  We have had some great debates which would make an interesting television programme.  We should have centres of knowledge on European issues which people can access locally.  Having said that, when we talk about the lack of information on the European Union, we assume people understand how this place works, or how local government works, but they do not.  Many Irish people do not know how local or national government works, never mind government at a European level.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_68">
+          <from>Chairman</from>
+          <p eId="para_141">Nor do they understand the role of committees.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_69">
+          <from>Deputy Damien English</from>
+          <p eId="para_142">In the past couple of years we have changed the school syllabus to include courses which inform young people but many, of which I am one, went through school with no education about the system.  Many need to be educated about government, whether local, national or European, and it is the Government's job to do so.</p>
+          <p eId="para_143">Yellow and red cards were referred to.  As a Meath man, I am well aware of yellow and red cards, although I have not heard of orange cards.  We like them.  Normally the referee makes a decision to issue a yellow or red card and his decision leads to the removal of a player from the pitch.  However, the system requires that one third of national parliaments issue a card.  Why can we not go a step further by initiating an immediate review if just one country believes there is a problem?  I do not accept that it should take eight countries for a review to take place.  As the facility only relates to subsidiarity, it should be easy to clarify and one person waving a card should be enough.  Perhaps I am wrong and the Minister of State will explain why we need seven or eight.</p>
+          <p eId="para_144">I also understand that, on the production of a card, the Commission may review or change a proposal but that it does not have to do so.  I do not know why that should be the case.  If enough people wave the card, it should have to review, withdraw or amend a proposal.  The word "may" is contained in the notes in front of us and I am concerned about it because it is too flexible.</p>
+          <p eId="para_145">This is a very important committee and we have held some very important debates.  Will the Minister of State explain what will happen after we produce a report or make recommendations?  Are officials or the Government supposed to take on board our considerations and bring them to the Commission for negotiation?  I have sometimes felt officials in the various Departments do not necessarily agree with us or buy into what we suggest.  Our staff seem a little reluctant to push our case or challenge the Commission in certain areas, which is disappointing.  I gained the impression recently that officials in one Department expressed agreement with us on a particular matter but argued otherwise in the European Union because of a reluctance to challenge the Commission.  Will the Minister of State assure the committee that our officials will fight their corner strongly when they travel with a message from this committee?  We will only gain great benefits from the European Union if we send our best people to fight for us, be they elected representatives or executive staff.  They must be willing to challenge and must not always accept what the Commission states.</p>
+          <p eId="para_146">There is a perception that we love receiving directives from the European Union and having to implement them.  We get carried away in the process to show we are the best Europeans.  There is a perception that other countries do not support directives as strongly.  As a result, we end up disadvantaged and getting a raw deal.  Why do we always have to apply the letter of the law in this way?</p>
+          <p eId="para_147">The Minister of State spoke about publicity for this committee and I agree that is necessary.  I have attended many meetings at which people expressed their concerns about the European Union, or other issues such as water rates or the condition of rural Ireland.  When one explains to them what happens at this committee, they go away much happier because they realise Irish politicians have a major say in the European Union.  As the Minister of State said, that is the strongest point about our relationship with the Union but documentation issuing on the subject has not made the point very clearly.  We have seven or eight weeks before the referendum and that message is the most important one to get across.  I agree with the Minister of State that the Lisbon treaty is excellent for democracy but we must convince the public by making the case in the simplest terms.</p>
+          <p eId="para_148">Another question being asked is what will happen if we do not vote "Yes".  I spoke to John Bruton about the matter but what is the opinion of the Minister of State?  It is very important that we can answer such questions when asked by the general public.  I will leave it at that but will ask more questions later.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_70" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_149">I love it when the Deputy says he will leave it at that, after 15 questions.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_71">
+          <from>Chairman</from>
+          <p eId="para_150">I have one question in connection with Deputy English's point.  The Committee of Public Accounts operates a system whereby if a report is prepared, the Minister must send a minute to the committee after 60 days.  The point is correctly stated.  I know the detailed recommendations following public hearings are taken on board by the civil servants in the Minister's office.  However, given the enhanced role of this committee post-Lisbon, is there a possibility of follow-through from the Minister's office on the negotiation that takes place following the report, which would complete the cycle?</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_72" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_151">That is an interesting point.  There is specific provision in section 2(2) of the European Union (Scrutiny) Act which reads: "The Minister shall have regard to any recommendations made to him or her from time to time by either or both Houses of the Oireachtas or by a committee of either or both such Houses in relation to a proposed measure."</p>
+          <p eId="para_152">The Chairman is correct in stating that there is a formal provision in the European Union (Scrutiny) Act, in terms of the Comptroller and Auditor General's report, that a Minister's note should be returned to the Committee of Public Accounts.  How that is actualised is another day's work.  I hope Ministers would do that, and I believe they do.  It would be foolhardy not to do so because if they do not listen one year they will be caught the next year.</p>
+          <p eId="para_153">Deputy English is correct in stating that we have less than 44 days to deal with this issue.  In the discussion yesterday the Referendum Commission made the very sensible point that it is important that information should flow all the time.  Irish people tend to become more focused as the voting day approaches.  There needs to be an intensification of campaigns.  I acknowledge the Deputy's party is holding upwards of 30 meetings.  We are holding 50 meetings.  There is no shortage of meetings across the country.  The commission, the forum, Fine Gael, Fianna Fáil, and the Labour Party are all holding meetings.  What we have to do is welcome people and encourage them to participate.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_73">
+          <from>Chairman</from>
+          <p eId="para_154">The meetings are held in halls and hotels.  Would the Minister not consider that we should get in where the masses are in places such as shopping centres and so on, to promote Europe.  Judging from the meetings I have attended, I would say they are somewhat confined.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_74" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_155">The European movement has information booths.  I am not sure that the owners of shopping centres would welcome political rallies in them but it is something that would be worth talking about.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_75">
+          <from>Deputy Damien English</from>
+          <p eId="para_156">There would be no problem once it was not one specific party.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_76" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_157">I remember doing a rally in Navan.  The Deputy remembers it too.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_77">
+          <from>Senator Paddy Burke</from>
+          <p eId="para_158">Was he shown the red card?</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_78" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_159">It was coloured.  The Deputy raised one very important point, the cowardly tradition, not just in our administration but across the whole of the European Union, of blaming Europe.  Europe does not make decisions on anything.The Council of Ministers makes decisions, and the Council of Ministers comprises ministers from 27 different states, including this State.  If there is anything that makes me grind my teeth it is hearing that excuse.  I agree that should stop.</p>
+          <p eId="para_160">The Deputy mentioned the role of the MEPs.  There is a very significant increase in the role of MEPs.  The treaty caps the total size of the European Parliament, for good reason.  If the parliament kept growing like Topsy, to house it one would need something like the national stadium that we did not build in Abbotstown, a bad decision.  The treaty also increases involvement in law-making and enhances the budgetary role of parliamentarians.  On page 9 of the Department of Foreign Affairs booklet on the reform treaty there is a wonderful quotation from Professor Hans-Gerd Pöttering, President of the European Parliament, speaking at the signing of the treaty in Lisbon.  He states:</p>
+          <p class="indent_1" eId="para_161">I have been a Member of the European Parliament since the first direct elections in 1979.  In those days, Parliament had no legislative powers: it is now at the heart of a European parliamentary democracy unimaginable in 1979.</p>
+          <p eId="para_162">That is a very potent and sincere quotation from a politician and political leader who is well respected.</p>
+          <p eId="para_163">The issue of neutrality has been well dealt with in virtually every pronouncement I have made.  It is dealt with in this booklet which has been delivered to every house.  Whether everybody reads it is another issue.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_79">
+          <from>Deputy Damien English</from>
+          <p eId="para_164">I have read it.  That is the point.  It deals with many issues but the three main concerns will have to be dealt with separately.  On the issue of MEPs, the Minister did not fully deal with——</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_80" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_165">I am sorry to cut across the Deputy but when drafting this booklet and in all the information activities in which the Department of Foreign Affairs has been involved, we were punctilious in making certain that public funds are not used to canvass either a "Yes" or a "No" vote.  It is imperative that we observe the spirit as well as the letter of the McKenna judgment and we have been careful in that regard.  That is the reason some of the hysteria that occurred at the outset of the campaign about the reform treaty referendum website died down quickly.  The Deputy is correct, however.  It is important to continue getting the information out.</p>
+          <p eId="para_166">The European Commission office has been playing a far more active role in recent years than it previously played.  There are information outlets in a number of counties.  We have been distributing this booklet, the consolidated version and any other literature through local libraries as well as delivering the booklet to every house.  The Deputy is correct also in his point about striking a balance.</p>
+          <p eId="para_167">The Deputy's point as to whether we are inclined to be over-active in the application of regulations is a good one.  There is a view that we are over-active in that regard.  It is interesting that in the White Paper on regulation published by the Department of the Taoiseach, which has been widely misquoted, and in my view mendaciously and deliberately misquoted by one group on the "No" side, refers to national regulation and the way we regulate in general.  There is over-zealousness sometimes in regulation and common sense should also apply.  When I was Chairman of one of the Oireachtas committees some years ago I produced a report on that, particularly regulation in agriculture, because, as the Deputy is aware, one would need a PhD in agricultural science to fill out headage payment forms, for example.</p>
+          <p eId="para_168">A complication in the application of regulations is a domestic issue.  It is not something that is imposed on us by Europe.  That was the Deputy's point and I agree with him.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_81">
+          <from>Deputy Damien English</from>
+          <p eId="para_169">I am glad to hear the Minister say that.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_82" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_170">The Deputy asked what would happen if we do not pass the treaty.  If we do not vote "Yes" we will not be kicked out of the European Union.  We should be honest about that but we will lose heavily in the following ways.  First, over 35 years this country has built up a huge store of goodwill in the European Union.  Currently, we have seven out of 345 votes.  We are a tiny country and we should not lose sight of the fact that there are much bigger countries in Europe but we have punched way above our weight in Europe because of the respect and goodwill towards us.  If we consider the issue we are currently discussing — the WTO and the review of CAP — Ireland has been able to defend its position over the years because we could build alliances.  It is not because of the strength of our vote.  It is the strength of our argument——</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_83">
+          <from>Deputy Damien English</from>
+          <p eId="para_171">It is goodwill.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_84" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_172">——and our capacity to build alliances that win us our position in Europe.</p>
+          <p eId="para_173">If we reject this treaty we squander 35 years of goodwill.  We will be giving a slap in the face to 26 countries, many of which stood by us through thick and thin.  The main point about this treaty is that 27 sovereign governments believe it is necessary if Europe is to do the job we all want it to do.  It is necessary if Europe is to be able to handle globalisation, the threats to energy security, climate change, mass migration, asylum and cross-border criminality, issues that countries cannot deal with individually.  If Europe is to be equipped to deal with those issues, it must implement the very modest changes made in this treaty.  If we reject it we would not just be squandering the goodwill that exists for this country but damaging the Union, which is critically important to our economic progress.</p>
+          <p eId="para_174">More than any other country in the European Union, Ireland has a vested interest in Europe being efficient and effective and there is no benefit in our undermining the efficiency of effectiveness of Europe.  There is every benefit to this small, open economy in supporting an efficient and effective Europe.  We will be the big winners if we vote "Yes".  Not one economic or political benefit would flow to this country from voting "No".  It is a good question and we should answer it robustly.  On 13 June, the day after we vote, the challenges, opportunities, frustrations, difficulties and the chances to do great things will still be there but will we be able to send our negotiators into the field better equipped with a "Yes" vote or better equipped with a "No" vote?  Common sense — one need not be a specialist in European law or public administration — dictates the answer.  Our country has been remarkable in terms of how it has used Europe.  We have built our economy on Europe.  It is important for every job in every part of the country, whether one is selling a newspaper on a street corner or working in Microsoft.  Being part of Europe is part of what we are and what we will be.  However, if we park Ireland on the sidelines, we cannot benefit.</p>
+          <p eId="para_175">The Deputy, who comes from Meath, knows better than me, being from Wicklow, that the only way to win an all-Ireland final is to be on the field playing in the match.  One will not win stuck in the back of the stadium.  This country is engaged in Europe.  Regardless of the composition of the Government, be it a coalition of Fine Gael and the Labour Party or Fianna Fáil alone or with another party, we have, throughout the last 35 years, played a very sensible role in Europe.  We have built alliances and from them we have built our success.  We have defended our taxation, farmers and our national interests.  We have been respected for that.  Why in the name of goodness would we put all that in jeopardy by voting "No"?  There is no benefit in voting "No".  To be honest, we will not be kicked out of the Union but the goodwill, respect and the capacity to build alliances will be irreparably damaged.</p>
+          <p eId="para_176">There is another damaging aspect.  Look at the wonderful statement from the American Chamber of Commerce.  Ireland is no longer the lowest taxation economy and is certainly not the cheapest.  Other countries are more convenient for the movement of goods.  Why has Ireland been so successful in attracting foreign direct investment?  It is because Ireland is seen as a country that is wedded to Europe.  It is part of Europe and the only English speaking country that is fully committed in terms of being part of the eurozone.  Ireland is regarded as a country that gets things done in Europe.  Why would we squander that?  What message would we be sending to the boardrooms where investment decisions are made if we were to decide to disconnect ourselves from the European project?  It would not be a positive message or a message that would bring jobs to the country.  It would convey a message we would have reason to regret.  That point has been made by successive chambers of commerce, IBEC, ISME, the Small Firms Association and the people who know about creating jobs.  That point comes across consistently in their arguments.</p>
+          <p eId="para_177">I respect people who take a different view from mine but I also respect the fact that there are 27 sovereign governments and the vast majority of the membership of their parliaments will vote for this treaty.  The vast majority of the Members of the European Parliament, the vast majority of the Members of the Dáil and all the major business interests and bodies in this country have argued that this is a good, progressive and necessary treaty for Europe and a beneficial treaty for Ireland.  Could they all be wrong and one or two self-appointed individuals be right?  The answer is that the former are right and they are advocating a "Yes" vote.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_85">
+          <from>Deputy Damien English</from>
+          <p eId="para_178">I support the treaty but is it the case that if there is a "No" vote, other countries could move on without us?  Could four or five countries get together as a group and propose or implement changes, without our involvement, in areas such as climate change, crime and so forth?  To return to my previous question with regard to showing cards, where something may or may not be reviewed and the necessity to have the support of one third of the Parliament, will that always be the case?  I like the idea but it should be explained better to the public.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_86" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_179">There must be a balance.  One could not have a situation where everybody could pop up and stop everything going forward.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_87">
+          <from>Deputy Damien English</from>
+          <p eId="para_180">No, not stop but ask for a review, which is a quick review.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_88" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_181">When we discussed this in the Convention on the Future of Europe we gave it a great deal of consideration.  The numbers in the treaty are the numbers that came through the IGC held during the Irish Presidency.  That was where we felt the balance was right.</p>
+          <p eId="para_182">The final question was whether a group of countries could go ahead.  There are enhanced co-operation provisions in the existing treaties, so there is always an opening for enhanced co-operation.  The Deputy has put his finger on a critical point.  Almost ten years have been invested in this project.  The convention on the future of Europe was a wonderful example of democracy with 205 men and women from all the parliaments in Europe coming together to produce a treaty.  We then had the Irish Presidency, the intergovernmental conference and the agreement.  We produced the constitutional treaty, which fell in France and the Netherlands for specific reasons.  We then had a period of reflection and another intergovernmental conference, at which a marvellous effort was made by Chancellor Merkel.  That was followed by the Portuguese Presidency and the Lisbon treaty.  Effectively, having invested ten years, my biggest concern about a "No" vote is the very point the Deputy has touched upon — that countries in Europe will become disenchanted with the project and that a two-speed Europe will emerge.</p>
+          <p eId="para_183">If that were to happen, the small and medium-sized countries would lose most and we would lose in particular.  I know what has happened to such countries.  For example, the Danes are talking about having a referendum later this year.  It is their choice and I do not want to intervene in Danish politics.  They are talking about trying to re-engage in areas where they have opted out because they realise there is no benefit in being on the sidelines.  They are better equipped to be on the sidelines than us.  We are so dependent on exports to Europe for creating jobs.  Our place is at the heart of Europe and we will ensure that we stay there by voting "Yes".</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_89">
+          <from>Chairman</from>
+          <p eId="para_184">The point made by the Minister of State about American investments is an important one, with up to 100,000 jobs directly related to such investment and perhaps 225,000 indirectly related.  It is important for that message to go out given the doubts created about corporation tax.  The perception of Ireland's influence in the world is a big factor concerning American investment from the point of view of Ireland's access to Europe and the euro which is a universal currency.</p>
+          <p eId="para_185">Following today's hearing, the committee plans to have a hearing on the enhanced role of national parliaments and we will place it on the Order Paper in the Dáil Chamber.  I hope the Minister of State will support that before the referendum.  As Deputy English and others have said, national parliaments will have a difficult scrutinising role with up to 500 pieces of legislation and directives coming from Europe per annum.  While many issues have been raised, the enhanced role of national parliaments has, somewhat disappointingly, been lost in the debate on the Lisbon treaty.  In television debates that point concerning the enhanced role of EU parliaments appears to have been overlooked.  That extended role, involving the political network of every national parliament, will spread far beyond the current role of MEPs.  It will multiply the number of elected members involved in the EU process.</p>
+        </speech>
+        <speech by="#SeanConnick" eId="spk_90">
+          <from>Deputy Seán Connick</from>
+          <p eId="para_186">I thank the Minister of State for attending the committee.  I am sorry I had to leave to attend a meeting of the Committee on Justice, Equality, Defence and Women's Rights.  I wish to raise a couple of points that have already been debated at meetings around the country.  People are saying the treaty is somewhat complicated and of course it is because it involves 27 different countries coming together.  We can see the difficulties posed by two communities coming together in Northern Ireland, but now we have multiples of that.  People should remember, however, that the ongoing development of the European Union is work in progress.  It is fantastic to be part of the EU tapestry that involves bringing together various nationalities and communities.  There are 27 countries in the EU and none is asking to leave, as far as I am aware.  At the moment, there is a queue of people trying to get into the EU, so we are obviously doing something right.  As the Minister of State said, it is better to be on the pitch than up in the stands.  I compliment the Minister of State and his team of officials on their hard work.  I am sure people will be sensible, take a logical view and vote "Yes" when the time comes.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_91">
+          <from>Chairman</from>
+          <p eId="para_187">Deputy Connick made a good point in that there will be two votes per national parliament, making a total of 54.  This will ensure that there will be equality as regards votes.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_92" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_188">That is an amazing point.  I thank Deputy Connick because he raised two issues that are extremely important to me.  Everyone is aware that I am passionate regarding Europe.</p>
+          <p eId="para_189">It is deliberately misleading to suggest that a treaty is confusing.  I have read many treaties in the past and I have never seen a Ladybird edition of any of them.  Why otherwise would people — as I did in a previous career — have jobs lecturing in public administration and trying to interpret what treaties entail?  By their nature, treaties are complex documents.  Our job is to try to communicate the meaning of the Lisbon treaty to people.  It is a work in progress.</p>
+          <p eId="para_190">One of Deputy Connick's comments resonated with me.  It is extraordinary to be part of the tapestry that is Europe.  Ireland's destiny, through all of her history, has been interrelated with that of Europe.  In times of difficulty we looked to Europe and took our inspiration from it.  When Europe experienced its Dark Ages, it was Ireland that brought the message of Christianity back to it.</p>
+          <p eId="para_191">We should see the European project in the wider historical context and in terms of what has happened in 50 years on a Continent which previously tore itself apart.  We should not lightly dismiss what Europe has done.  It has provided peace, prosperity, progress and hope.  Those are things we should value, secure and protect.  The job, for those of us who are democrats and who are on the "Yes" side, is to get out and communicate that fact.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_93">
+          <from>Chairman</from>
+          <p eId="para_192">Is the Minister of State concerned about the Mandelson deal?  The organisations representing farmers have not yet clarified how they intend to proceed and this could have an unfair impact, particularly in light of the major gains those in the farming sector have enjoyed since Ireland became a member state.  Does the Minister of State expect that this matter will be resolved, without any ambiguity, in the short term?  People are becoming cynical, particularly in the context of the Mandelson deal and the World Trade Organisation negotiations.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_94" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_193">The World Trade Organisation negotiations involve more than 150 different states and they have nothing whatsoever to do with the Lisbon treaty.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_95">
+          <from>Chairman</from>
+          <p eId="para_194">I accept that.  However, does the Minister of State agree that people are making the negotiations part of the debate?</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_96" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_195">Yes.  There is a certain danger in that regard.  I respect the interests of farmers.  I met the leaders of all the farming organisations and I understand their concerns.  The chairman of the IFA inquired in January as to whether our negotiators would be in a better position if we vote "Yes" or "No".  It appears to me that the answer is obvious if there is a "Yes" vote.</p>
+          <p eId="para_196">As everyone is aware, the Government is fully engaged with those of other member states in respect of this issue.  This afternoon, the Minister for Agriculture, Fisheries and Food, Deputy Coughlan, will travel to meet her German counterpart.  We have already had close contacts with the French and Germans.  Before her recent visit to Ireland, the German Chancellor, Angela Merkel, made a point of discussing the WTO negotiations and the importance of protecting European agriculture with farmers in her country.  President Nicholas Sarkozy wrote to the President of the European Commission, José Manuel Barroso, and pointed out that until there is a balance, there will be no deal.</p>
+          <p eId="para_197">We are in danger of conjuring up a spectre that might damage our cause.  The farming organisations have always been strong supporters of Europe.  During the 1972 referendum campaign, one of the extraordinary examples of leadership was provided by those organisations.  Up to 2006, Ireland received €56 billion in direct transfer payments.  Of this, €41 billion related to farming.  The CAP health check is due to take place before the end of the year and it is important that we do not confuse the two issues.  It is important that those of us who negotiate and represent this country's interests, whether in government, are in a strong position to do so.  Our cause would not be——</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_97">
+          <from>Chairman</from>
+          <p eId="para_198">In the light of that, does the Minister of State expect the farmers' leaders to come out clearly and endorse the treaty?</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_98" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_199">As I said, it is up to the farming leadership to decide how it will do its business.  It would not be helpful for me to advise it.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_99">
+          <from>Chairman</from>
+          <p eId="para_200">One hopes it will.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_100" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_201">I hope it will because it has given extraordinary leadership.  I admire the leadership the farming organisations have given in the European Union.  It is important we do not overplay our hand and do damage to our ultimate interest.  On account of the influence we have in the European Union, we are in a situation where the current CAP arrangements will operate until 2013, after which date we will have to renegotiate.  If we turn ourselves into a pariah, would we be in a better position to look after the interests of Irish farmers?  We would not.  I am grateful the Chairman raised the point because, while not directly related to the treaty, it is a burning issue.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_101">
+          <from>Chairman</from>
+          <p eId="para_202">I am conscious of the time the Minister of State has available and thank him for spending the time he has with us.</p>
+        </speech>
+        <speech by="#PaddyBurke" eId="spk_102">
+          <from>Senator Paddy Burke</from>
+          <p eId="para_203">I have a question on combating drugs and terrorism.  Could the European Union impose restrictions with which we might not agree or like?  Could we veto such restrictions?</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_103" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_204">In view of the fact that we have a different legal system, a common law system rather than the civil law system used in the European Union, we have the right to opt in or out in the justice and home affairs area.  The treaty makes it easier for the Union to make decisions in this area by moving to qualified majority voting.  Although justice and home affairs matters have been part and parcel of the treaty arrangements up to now, the European Union has not been able to make progress.  Until the British became concerned about the matter, there was no wide-scale concern.  However, when they decided to opt out, it was necessary for us, because we have a common system with Britain, to consider our position.  The Government took the prudent decision that we would co-operate on the basis that we could choose to opt in or out.</p>
+          <p eId="para_205">There is a protection in the treaty, namely, the emergency brake.  If a member state believes a proposal touches on a fundamental aspect of its legal system, it can ask that the proposal be referred to the European Council, at which decisions can only be made by unanimity.  However, on account of the sensitivity of the issue, we have opted for the arrangement that gives us the right to opt in or out on a case-by-case basis.  In matters such as police co-operation we intend to opt in because the overwhelming argument is for co-operation.  We intend to opt in where possible and after three years will review the position.  Our position, therefore, is more advanced than the British one.  I understand there are concerns about this within the legal fraternity because its members have grown up with and their professional training has been within the common law system.  Those who are concerned about the issue can be assured we have taken the extra steps and have a belt and braces arrangement.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_104">
+          <from>Chairman</from>
+          <p eId="para_206">I compliment the Minister of State on his knowledge.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_105" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_207">I hope the Tánaiste does not take the Chairman's advice or think I am irritant on the issue.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_106">
+          <from>Chairman</from>
+          <p eId="para_208">I thank the Minister of State and his officials, as well as Ms Barbara Jones.  We hope to publish our report on the role of national parliaments within two weeks and include it in the Order Paper of the Dáil for discussion.  We would appreciate the Minister of State's support in that regard.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_107" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_209">A long time ago, when I was Chairman of an Oireachtas committee on State-sponsored bodies and subsequently as Chairman of an Oireachtas committee on the strategic management initiative for public administration, I moved that reports should be tabled and discussed in the Oireachtas.  The first report to be subject to a discussion in a House of the Oireachtas, the Seanad, for half a day was one produced by one of my committees.  The Chairman is right, there is no point in the committee producing reports into which members put much time and effort if they do not go further.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_108">
+          <from>Chairman</from>
+          <p eId="para_210">I agree that is important to have the issue discussed in the larger arena and have an open debate on it.  The Minister of State's support in that regard would be much appreciated.</p>
+        </speech>
+        <speech by="#DickRoche" eId="spk_109" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Deputy Dick Roche</from>
+          <p eId="para_211">The Chairman will have my support.  I shall whisper in the Whip's ear; the Chairman could do the same with his party's Whip.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_110">
+          <from>Chairman</from>
+          <p eId="para_212">I thank the Minister of State for giving of his time.</p>
+        </speech>
+        <summary eId="sum_7">The joint committee adjourned at 1.35 p.m. until 11 a.m. on Tuesday, 13 May 2008.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

@@ -1,0 +1,883 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_future_of_mental_health_care/2018-07-11/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_future_of_mental_health_care/2018-07-11/debate"/>
+          <FRBRdate date="2018-07-11" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/32/joint_committee_on_future_of_mental_health_care"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_future_of_mental_health_care/2018-07-11/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_future_of_mental_health_care/2018-07-11/debate/mul@"/>
+          <FRBRdate date="2018-07-11" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_future_of_mental_health_care/2018-07-11/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_future_of_mental_health_care/2018-07-11/debate/mul@.akn"/>
+          <FRBRdate date="2020-02-19" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#debates">
+        <TLCPerson eId="AnneRabbitte" href="/ie/oireachtas/member/id/Anne-Rabbitte.D.2016-10-03" showAs="Anne Rabbitte"/>
+        <TLCPerson eId="CatherineMartin" href="/ie/oireachtas/member/id/Catherine-Martin.D.2016-10-03" showAs="Catherine Martin"/>
+        <TLCPerson eId="FionaOLoughlin" href="/ie/oireachtas/member/id/Fiona-O'Loughlin.D.2016-10-03" showAs="Fiona O'Loughlin"/>
+        <TLCPerson eId="GabrielleMcFadden" href="/ie/oireachtas/member/id/Gabrielle-McFadden.D.2014-05-23" showAs="Gabrielle McFadden"/>
+        <TLCPerson eId="JamesBrowne" href="/ie/oireachtas/member/id/James-Browne.D.2016-10-03" showAs="James Browne"/>
+        <TLCPerson eId="JenniferMurnaneOConnor" href="/ie/oireachtas/member/id/Jennifer-Murnane-O'Connor.S.2016-04-25" showAs="Jennifer Murnane O'Connor"/>
+        <TLCPerson eId="JimDaly" href="/ie/oireachtas/member/id/Jim-Daly.D.2011-03-09" showAs="Jim Daly"/>
+        <TLCPerson eId="JoanFreeman" href="/ie/oireachtas/member/id/Joan-Freeman.S.2016-04-25" showAs="Joan Freeman"/>
+        <TLCPerson eId="JoeCarey" href="/ie/oireachtas/member/id/Joe-Carey.D.2007-06-14" showAs="Joe Carey"/>
+        <TLCPerson eId="JohnBrassil" href="/ie/oireachtas/member/id/John-Brassil.D.2016-10-03" showAs="John Brassil"/>
+        <TLCPerson eId="MaireDevine" href="/ie/oireachtas/member/id/Máire-Devine.S.2016-04-25" showAs="Máire Devine"/>
+        <TLCPerson eId="MarcellaCorcoranKennedy" href="/ie/oireachtas/member/id/Marcella-Corcoran-Kennedy.D.2011-03-09" showAs="Marcella Corcoran Kennedy"/>
+        <TLCPerson eId="MichaelHarty" href="/ie/oireachtas/member/id/Michael-Harty.D.2016-10-03" showAs="Michael Harty"/>
+        <TLCPerson eId="PatBuckley" href="/ie/oireachtas/member/id/Pat-Buckley.D.2016-10-03" showAs="Pat Buckley"/>
+        <TLCPerson eId="SeanCroweSF" href="/ie/oireachtas/member/id/Seán-Crowe.D.2002-06-06" showAs="Seán Crowe"/>
+        <TLCPerson eId="SimonHarris" href="/ie/oireachtas/member/id/Simon-Harris.D.2011-03-09" showAs="Simon Harris"/>
+        <TLCPerson eId="TomNeville" href="/ie/oireachtas/member/id/Tom-Neville.D.2016-10-03" showAs="Tom Neville"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole eId="Minister_for_Health" href="/ie/oireachtas/role/minister/health" showAs="Minister for Health"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Health" href="/ie/oireachtas/role/minister_state/health" showAs="Minister of State at the Department of Health"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN COMHCHOISTE UM CHÚRAM MEABHAIRSHLÁINTE SA TODHCHAÍ</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Joint Committee on Future of Mental Health Care</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2018-07-11">Dé Céadaoin, 11 Iúil 2018</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2018-07-11">Wednesday, 11 July 2018</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Tháinig an Comhchoiste le chéile ag 01:30 p.m.</summary>
+        <summary class="Center" eId="sum_2">The Joint Committee met at 01:30 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_3">Comhaltaí a bhí i láthair / Members present:</summary>
+          <table>
+            <tr>
+              <th>
+                <p eId="para_1">Teachtaí Dála / Deputies</p>
+              </th>
+              <th>
+                <p eId="para_2">Seanadóirí / Senators</p>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JohnBrassil">John Brassil</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#FrankFeighan">Frank Feighan</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#JamesBrowne">James Browne</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#GabrielleMcFadden">Gabrielle McFadden</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#PatBuckley">Pat Buckley</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#JenniferMurnaneOConnor">Jennifer Murnane O'Connor.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#JoeCarey">Joe Carey</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#MarcellaCorcoranKennedy">Marcella Corcoran Kennedy</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#SeanCroweSF">Seán Crowe</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#MichaelHarty">Michael Harty</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#GinoKenny">Gino Kenny</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#CatherineMartin">Catherine Martin</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#TomNeville">Tom Neville</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_16">
+                  <person refersTo="#FionaOLoughlin">Fiona O'Loughlin</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_17">
+                  <person refersTo="#AnneRabbitte">Anne Rabbitte.</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_4">I láthair / In attendance: Senator Máire Devine.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#JoanFreeman">Seanadóir / Senator Joan Freeman sa Chathaoir / in the Chair.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Joint Committee<recordedTime time="2018-07-11T13:30:00+01:00"/></heading>
+        <speech by="#JoanFreeman" eId="spk_1">
+          <from> Chairman<recordedTime time="2018-07-11T13:30:00+01:00"/></from>
+          <p eId="para_18">Members are requested to ensure their mobile phones are turned off for the duration of the meeting as they interfere with the sound system. Apologies have been received from Senator Colette Kelleher. I propose that we now go into private session to deal with housekeeping matters. Is that agreed? Agreed.</p>
+        </speech>
+        <summary eId="sum_6">
+          <i>The joint committee went into private session at 1.34 p.m. and resumed in public session at 1.49 p.m.</i>
+        </summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Engagement with Minister for Health and Minister of State at the Department of Health<recordedTime time="2018-07-11T13:50:00+01:00"/></heading>
+        <speech by="#JoanFreeman" eId="spk_2">
+          <from> Chairman<recordedTime time="2018-07-11T13:50:00+01:00"/></from>
+          <p eId="para_19">I welcome to the meeting the Minister for Health, Deputy Harris, the Minister of State at the Department of Health with responsibility for mental health and older people, Deputy Jim Daly, and their officials. On behalf of the committee, I thank them for their attendance. The committee has agreed that as the Minister has to leave the meeting at 2.30 p.m., we will take his opening statement as read and that we will proceed directly to a question-and-answer session. </p>
+          <p eId="para_20"> Members are reminded that under the salient rulings of the Chair, they should not comment on, criticise or make charges against a person outside the Houses or an official either by name or in such a way as to make him or her identifiable. I remind members and witnesses to turn off their mobile phones or switch them to flight mode as they interfere with the sound system. I advise that any submission or opening statement provided to the committee will be published on the committee website after the meeting.</p>
+          <p eId="para_21"> We will proceed to questions. The normal duration for putting questions and receiving a response to them is seven minutes. I ask members to pose their questions and for the Minister to reply to them within a seven-minute period because the Minister will have to leave in a while. I call Deputy Carey.</p>
+        </speech>
+        <speech by="#JoeCarey" eId="spk_3">
+          <from>Deputy Joe Carey<recordedTime time="2018-07-11T13:50:00+01:00"/></from>
+          <p eId="para_22">The Minister, Deputy Harris, and the Minister of State, Deputy Jim Daly, are very welcome. One of this committee's key recommendations is to seek an increase in the percentage budget allocation for mental health services. Substantial improvements in funding have been made, as can be seen from an allocation of €737 million in 2013 compared with an allocation of €912 million in 2018, which represents a 28% increase in funding over the course of those six years. Notwithstanding that, the spend on mental health services is only 6% of the overall health budget. We have heard that from the various organisations that have made presentations before this committee. The lack of funding for services is a significant barrier to people accessing services. What does the Minister intend to do to increase funding for mental health services? Representatives of Mental Health Reform, who appeared before the committee a few weeks ago, strongly advocated for an increase in the mental health budget. I strongly believe we need to do that. Will the Minister outline the efforts he is making to increase the mental health budget in the upcoming budget and over the course of the next few years?</p>
+          <p eId="para_23"> One barrier to the rolling out of an efficient mental health service is the lack of a proper, efficient information technology, IT, infrastructure within the Department of Health with a director of services and managers to monitor the spend on services, manage referrals and chase up issues. Will the Minister outline the ongoing work to deliver a proper IT system? Until we have that we will not get to grips with where money is being spent and not being spent dealing with the various issues.</p>
+          <p eId="para_24"> I was particularly taken with a presentation by Dr. Harry Barry to the committee a few weeks ago on talk therapy and people's access to it. He put forward a model on improving access to psychological therapy that has been rolled out in England that he proposed could be used as a template in Ireland. It emerged from that engagement that we have a total reliance on psychiatric services to get access to services. A person needs to be able to engage with such services at the very outset, as well as the end of the process. It would benefit people if they had better access to talk therapy and to cognitive behavioural therapy, CBT, in particular. I know people who are attending day hospitals in my constituency in County Clare and they were not referred for CBT. Eventually they got access to that therapy by another means and, as a result, they have transformed their lives. There is a shortcoming in that respect. The Minister needs to home in on the lack of speedy access to talk therapy and I ask him to indicate what he intends to do about it.</p>
+          <p eId="para_25"> I was also quite taken with a presentation made to the committee a few weeks ago on the issue of the recruitment and retention of staff. We were told there were 24 different stages to recruiting an individual to a particular post. That process is very unwieldy. It just does not work. It means that when a post becomes available, it may not be filled for many years. What does the Minister intend to do to reduce the period within which posts can be filled? He referred in his opening statement to new and innovative approaches to recruiting staff. Will he expand on what he is doing in that regard?</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_4">
+          <from> Chairman<recordedTime time="2018-07-11T13:50:00+01:00"/></from>
+          <p eId="para_26">We are running out of time. The Deputy asked about three questions.</p>
+        </speech>
+        <speech by="#SimonHarris" as="#Minister_for_Health" eId="spk_5">
+          <from>Minister for Health (Deputy Simon Harris)<recordedTime time="2018-07-11T13:50:00+01:00"/></from>
+          <p eId="para_27">I believe it was five.</p>
+        </speech>
+        <speech by="#JoeCarey" eId="spk_6">
+          <from>Deputy Joe Carey<recordedTime time="2018-07-11T13:50:00+01:00"/></from>
+          <p eId="para_28">Five or six.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_7">
+          <from> Chairman<recordedTime time="2018-07-11T13:50:00+01:00"/></from>
+          <p eId="para_29">The Minister has two and a half minutes to respond.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_8" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T13:50:00+01:00"/></from>
+          <p eId="para_30">I will deal with them as quickly as possible. I thank members for asking me to appear before the committee. I am pleased to be here with the Minister of State, Deputy Jim Daly. I thank Deputy Carey for his questions. He is right that the budget for mental health services has significantly increased year on year. In fairness, there is a recognition across the political divide that this needs to happen in good economic times and in bad. We have all been committed to increasing the budget and, therefore, the budget this year stands at a non-capital figure of €910.6 million compared with €853.1 million in 2017, €826 million a year earlier and €791 million the year before that, right back to €711 million in 2012. Even during difficult years we continued to increase the budget, but the Deputy is right in saying it needs to increase further. That is why I have already co-signed a letter with the Minister of State, Deputy Jim Daly, which was sent to the Minister for Public Expenditure and Reform. I believe a copy was shared with members of this committee and, if not, I can make sure it is, as well as with Mental Health Reform, whose representatives I know are following these proceedings. The letter commits to increasing the budget by at least €55 million net next year to fulfil commitments we have given in the programme for Government and in the confidence and supply agreement; commitments which everybody here would like to see fulfilled. I agree the budget will have to continue to increase.</p>
+          <p eId="para_31"> The Deputy is right in what he said about the IT infrastructure. That issue is not specific to mental health services but I can see how it is a challenge. In the capital plan, the Government has funded the roll-out of our full e-health strategy. I admit this is one of the areas in which we are really lagging behind and we will develop infrastructures similar to those being recommended by the Oireachtas committee. The provision of basic desktop technology is now under way as part of the IT improvement plan for mental health services. E-rostering will be in place within this year. However, the implementation of the integrated mental health information system will have to be part of the e-health record roll-out, on which work is under way.</p>
+          <p eId="para_32"> Regarding Dr. Barry's contribution to the committee on the issue of talk therapy, I agree with the Deputy and I am sure we would all agree it is very important that we direct the appropriate level of support based on the acuity. Therefore, we do not need to have a model - the Minister of State, Deputy Jim Daly, is passionate about this - that is purely centred on the child and adolescent mental health services, CAMHS. We also need to examine other interventions. That is why, in fairness to the Minister of State, Deputy Jim Daly, and others, we have seen the roll-out of the assistant psychologist post - 114 of them - last week and the announcement of ten advanced nurse practitioners, along with the 22 additional psychologists, basically to try to make sure that less complex cases can be dealt with through that setting, thus trying to create additional capacity in CAMHS for more acute issues.</p>
+          <p eId="para_33"> Deputy Carey raised the important issue of recruitment. Whether I am here today or before the Joint Committee on Health, which Deputy Harty chairs, we know there are ongoing recruitment and particularly retention challenges regarding the health service. I was disappointed that some of the exchanges today at the Joint Committee on Health seemed to prejudge the outcome of the Public Service Pay Commission process. In terms of nurses' pay, doctors' pay or other people's pay in the public sector, we should allow the Public Service Pay Commission do its work rather than predetermining the outcome on a political basis. We asked the Public Service Pay Commission to set that up because we recognise there is both a recruitment and a retention difficulty in our health service and I thought that was recognised across the political divide. As part of that process we will be led by the Public Service Pay Commission in terms of its suggestions regarding how we can improve recruitment and retention. I tried to cover those question within the set time.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_9">
+          <from> Chairman<recordedTime time="2018-07-11T13:50:00+01:00"/></from>
+          <p eId="para_34">I thank the Minister and the Deputy for keeping within the time. The next speaker is Senator Jennifer Murnane O'Connor.</p>
+        </speech>
+        <speech by="#JenniferMurnaneOConnor" eId="spk_10">
+          <from>Senator Jennifer Murnane O'Connor<recordedTime time="2018-07-11T13:50:00+01:00"/></from>
+          <p eId="para_35">I welcome the Minister and the Minister of State. Mental health is a massive issue and more funding needs to be allocated to mental health services. I note the Minister has committed to increasing the mental health budget by €55 million in 2019, which will be additional to the €910 million budget for this year. There are nine community healthcare organisations, CHOs, all of which are allocated differing levels of funding. Many CHOs are not getting the level of funding they should get. CHO 5 covers my area and I have dealt with two cases recently. There is a 44-bed psychiatric unit in Kilkenny. During the Christmas period, more than 50 people used the services and they had to be accommodated on mattresses in the unit. A few weeks ago, the same thing happened. There are not enough beds in the psychiatric unit in Kilkenny and it is unacceptable. I raised this issue with CHO 5.</p>
+          <p eId="para_36">I asked whether we could get funding for additional beds in CHO 5 and was told, "No". We need extra beds because there are people on couches and mattresses. That has happened twice this year, which is unacceptable. </p>
+          <p eId="para_37"> CAMHS users aged between 17 and 18 years in Carlow are being sent to south-east Galway because we do not have the service in Carlow. Last year, 87 children were placed in adult beds in psychiatric units, which is unacceptable. </p>
+          <p eId="para_38"> Recently the self-harm intervention programme, SHIP, was tried out in the south east. I do not know if it was implemented in other areas. People still waiting to use the service. Parents have told me they are waiting and that is unacceptable. It worries me that we hear more money will be put in. Where is it going? What is it spent on? There are many people in my area waiting to get into CAMHS to see psychiatrists and doctors. There is a massive waiting list. There is one doctor in Carlow, and we need more. I can only focus on my area, although this discussion will deal with all areas. There are massive problems. I want to know about the funding, the services and the ages. Children aged between 16 and 18 years are falling between stools. The service is not there for them. One client from Carlow has to go to Galway for services. His mother and father have to travel there to visit him. It is unacceptable that we have nowhere for him to go in Carlow. </p>
+          <p eId="para_39"> There are many questions I would like to ask. I know there is a problem in recruitment but we need more nurses and psychiatrists. Nurses are put to the pin of the collar. We need to work on recruitment. It is sad that A Vision for Change did not work. We need to make sure that this new vision will work. </p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_11">
+          <from> Chairman<recordedTime time="2018-07-11T14:00:00+01:00"/></from>
+          <p eId="para_40">I need to explain to the Ministers that we as a committee are united in what we are trying to do, and HSE accountability is the first issue to address. The members will talk about their own constituencies and I do not blame Senator Murnane O'Connor for that because they are getting it in the neck day and night about the problems with this service. Would the Minister like to answer the Senator's questions?</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_12" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:00:00+01:00"/></from>
+          <p eId="para_41">I will and as a constituency representative I am familiar with the local issues. It is right and proper that people bring them up because they are the tangible, real examples of what this means to people on the ground.</p>
+          <p eId="para_42"> On the issue of funding I have committed to the need to increase the budget next year and we have committed to adding €55 million. The Senator asked about equitable distribution and how to make sure each region or area is getting a fair share. I am due to visit Kilkenny this month and will meet the CHO officials. I will make it my business to put mental health on the agenda for that discussion. There is a recognition that we need approximately 20 additional beds in the Senator's area for CHO 5. I understand the HSE is working on a plan to deliver that. I will certainly get a more detailed answer for her. We recognise that there is a shortage of approximately 20 beds in CHO 5. I will work directly with the Senator to update her on that. The opening of the new central mental hospital will provide not just additional beds but forensic beds under CAMHS as well. The reorientation of the service to different levels of intervention is an important way to go. I will update the Senator after I meet CHO 5, which I expect to be in the next ten days or so.</p>
+        </speech>
+        <speech by="#JenniferMurnaneOConnor" eId="spk_13">
+          <from>Senator Jennifer Murnane O'Connor<recordedTime time="2018-07-11T14:00:00+01:00"/></from>
+          <p eId="para_43">I will await that. I thank the Minister.</p>
+        </speech>
+        <speech by="#MichaelHarty" eId="spk_14">
+          <from>Deputy Michael Harty<recordedTime time="2018-07-11T14:00:00+01:00"/></from>
+          <p eId="para_44">I have four questions for the Minister. I do not think money alone will improve patient care, particularly in psychiatry but also in the health service in general. When will reform of the HSE and the Department of Health to streamline delivery of care start? There has been no reform since this Government took power. More money in an inefficient system will not deliver better care.</p>
+          <p eId="para_45"> The Minister of State has proposed that we engage in telepsychiatry to address our recruitment and retention issues because we have difficulty recruiting all grades of staff. When, where and how will that happen? </p>
+          <p eId="para_46"> Does the Minister recognise the false economy of rationing health spending by limiting access for patients? Rather than try to reform the entire service, particularly the mental health services, I propose that the Minister adequately fund a certain area and pilot schemes so that he could see the return he would get for fully recruited and manned community psychiatry teams. CHO 3 in the mid-west would be an ideal area to pilot this because it is the only area in the country where the hospital group and the CHO area coincide. We need pilot schemes to prove that this works. </p>
+          <p eId="para_47"> Does he think he will be remembered as a reforming Minister for Health when his tenure finishes because he has so many plans and has been given so many expert opinions but there has been no implementation of health reform?</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_15" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:00:00+01:00"/></from>
+          <p eId="para_48">How long do I have? First, I am not intending to go anywhere and we have a confidence and supply agreement in place for three budgets and then we want to talk about a renewal, so who knows when anyone's tenure will come to an end. I would be happy to come back when I have more time talk about the plans we are working on in health and some of the progress we are making in some challenging areas. Around the world, healthcare is becoming more demanding and we have to challenge ourselves to come up with new and innovative ways to deliver it. We are making progress in several areas in the healthcare system. I do not wish to go into them all because that would go beyond the committee's remit and that would be unfair to members.</p>
+          <p eId="para_49"> In respect of reform I have brought forward legislation for a HSE board to increase accountability. We have carried out the consultation on geoalignment and how to achieve in other parts of the country what exists in Deputy Harty's part of the country, a CHO and hospital group that work well. That is a key Sláintecare recommendation.</p>
+          <p eId="para_50"> The roll-out of assistant psychologists has taken place under the leadership of the Minister of State and those working in the mental health sector have welcomed that reform. Advanced nurse practitioners have been installed in mental health services, which is another reform. This committee is well aware of the review of A Vision for Change, which I am sure we will talk about in a moment. Rather than talk about him when he is sitting beside me I will ask the Minister of State to answer the question about telepsychology directly. I will consider the Deputy's suggestion for CHO 3. </p>
+        </speech>
+        <speech by="#JimDaly" as="#Minister_of_State_at_the_Department_of_Health" eId="spk_16">
+          <from>Minister of State at the Department of Health (Deputy Jim Daly)<recordedTime time="2018-07-11T14:00:00+01:00"/></from>
+          <p eId="para_51">We can debate the recruitment and retention challenges all day long. They are a matter of fact, they exist, so what do we do? They are experienced worldwide and the same acute shortages exist in the Americas and Australia in all health areas but particularly in mental health. Telepsychology could be therapies delivered online. Mental health is unique in that many of the solutions to it can be delivered online whereas it is not possible to take out somebody's appendix online. There are opportunities to be considered. Other countries are embracing and using these opportunities where there is a shortage of manpower. For clinical governance purposes does a psychiatrist have to be in the room with the CAMHS team? They can speak to each other, which is peer-to-peer telepsychiatry.</p>
+          <p eId="para_52">We envisage it being done in supported atmospheres, such as primary care centres where nursing and medical staff would be available, as opposed to someone picking up an iPad at home and accessing a telepsychiatry service. We have not yet reached that stage. We are hoping to provide all levels of intervention - primary, secondary and tertiary - in a supported environment. Telepsychiatry, which is at the upper level of service, is provided in many countries. To progress plans for a service here, we will have a conference in September for clinicians, service users, that is, patients or clients, and people with an interest in the area of mental health such as members of this committee. This will elaborate on the plans in this area, seek to secure buy-in from those who will deliver the service and get their feedback and views. While I do not have a monopoly of wisdom in this area, telepsychiatry has the potential to radically revolutionise the service and address the old chestnut of the lack of availability of specialists by making much more efficient use of the services we have.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_17">
+          <from> Chairman<recordedTime time="2018-07-11T14:10:00+01:00"/></from>
+          <p eId="para_53">The Minister and Minister of State are speaking about telepsychiatry, updating information technology, access and so forth. Given that the HSE has not got basic computers and programme software right, I do not understand how telepsychiatry services can be promised.</p>
+          <p eId="para_54"> I keep referring to scripts being provided to the Department by the HSE. We heard about money but where is it being spent? It is not reaching the front line. We need to be told where it is going before we produce the report.</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_18">
+          <from>Deputy Tom Neville<recordedTime time="2018-07-11T14:10:00+01:00"/></from>
+          <p eId="para_55">I welcome the Minister for Health, Deputy Harris, and Minister of State, Deputy Jim Daly. Perhaps the committee could have a brainstorming session on telepsychiatry with an expert working in the field. This would allow members to educate themselves on the issue, which I do not know enough about to be able to comment. If a new initiative is proposed, we should try to explore it and make an objective judgment on it.</p>
+          <p eId="para_56"> The Chairman referred to IT systems. These are front-end rather than back-end IT systems and from what I have seen, it may be possible to provide telepsychiatry services on a front-end IT system. I am simply making that suggestion.</p>
+          <p eId="para_57"> The problem with back-end IT systems was highlighted. In November 2017, I asked for some simple figures on the €35 million spent in 2016 on mental health services. How much of this was used to improve existing services and how much was spent on the development of new services? I do not believe the committee has received those figures. Is that correct? </p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_19">
+          <from> Chairman<recordedTime time="2018-07-11T14:10:00+01:00"/></from>
+          <p eId="para_58">Yes. We do not have them.</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_20">
+          <from>Deputy Tom Neville<recordedTime time="2018-07-11T14:10:00+01:00"/></from>
+          <p eId="para_59">The HSE told me it would provide me with these figures but it was unable to give me them immediately because of the way the systems are built and bolted together. That is a financial back-end system. When a business or, as in this case, the Government is administering money to an organisation, it wants to know where this money is spent. I asked for top-line figures, not nitty-gritty detail. Representatives of all the community health organisations, CHOs, were present at the November meeting and they provided the committee with a breakdown of their figures to show what they were doing. I asked how much money was spent on new services and how much was spent on existing services. I would like those figures.</p>
+          <p eId="para_60"> On the recruitment process, I accept there are worldwide shortages of medical staff. Let us park the issue of salary and look at the process. The specific process for medical recruitment is cumbersome and there is no contingency planning being done. When staff are approaching retirement or when they hand in their notice, this information should be quickly put into the system and become part of the process. We have asked for an end-to-end process for recruitment and for the dotted lines of stakeholders to be joined up. The process needs to be streamlined, particularly if we are competing globally. We need to make the process lean, from A to Z.</p>
+          <p eId="para_61"> I welcome some of the initiatives. Multi-annual budgeting is a good development. The budget for 2019 will increase by €55 million against a benchmark of €35 million. The €55 million increase is welcome, as is the recruitment of 114 assistant psychologists and the additional hours in the school system. I would like to see more cross-departmental initiatives, particularly around early intervention and building organically into early intervention and prevention strategies for mental health services. </p>
+          <p eId="para_62"> I know there is a proposal to move to a seven-day service and we want to build into that a 24-hour service as quickly as possible. I have been speaking to the Minister of State, Deputy Daly, on that issue as well. I thank the Minister for the establishment of this committee which will shine a light on the future of mental health care.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_21">
+          <from> Chairman<recordedTime time="2018-07-11T14:10:00+01:00"/></from>
+          <p eId="para_63">I thank Deputy Neville and I invite the Minister to respond.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_22" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:10:00+01:00"/></from>
+          <p eId="para_64">The proposal on telepsychiatry is an excellent idea and any guidance the committee wants to feed into the plan by the Minister of State, Deputy Daly, would be welcomed by all of us.</p>
+          <p eId="para_65"> On the issue of ehealth in general, and this is the Chairman's call, it would be useful to have a written briefing or an oral presentation from the Department's officials who head up ehealth and the chief information officer. A couple of months ago, we did not have enough capital funding allocated to ehealth but the section now has a budget of more than €1 billion in the lifetime of the next ten-year capital plan. What exactly it will do, how it will make a difference to mental health services and how we can ensure it is tailor-made and secures the committee's approval are questions on which I would welcome the committee's input.</p>
+          <p eId="para_66"> The point Deputy Neville makes about the different systems talking to each other or otherwise is fair. A significant amount of the investment will be spent on building one financial system and providing for every patient an individual ehealth record that will allow us to track the patient through the system and empower patients to look after and follow up on their own health to some degree.</p>
+          <p eId="para_67"> Let me bring some clarity to the points raised on the 2018 budget. An additional €57.5 million was allocated for mental health services. This included pay-related costs of €22.5 million and €20 million to further progress new initiatives that were commenced in 2017 as well as an additional €15 million for further new developments in 2018. It was arising from the clarification of the €35 million and the useful engagement we had with Dr. Shari McDaid - I should acknowledge our engagement with Deputy James Browne on this topic - that we gave a commitment in writing that the figure would be €55 million in budget 2019.</p>
+          <p eId="para_68"> On the issue of recruitment and retention, I have made a number of points already. This is not only an issue of recruitment because the bigger challenge in all aspects of the health service is the issue of retention. People are taking up posts for a relatively short period for a variety of reasons. The Public Sector Pay Commission is specifically charged with reviewing pay and recruitment and retention strategies in general. The commission is due to report this month and the Government will be guided by its report. I will be happy to further engage with the committee once we have this guidance.</p>
+          <p eId="para_69"> I agree with Deputy Neville that multi-annual funding is the way to go, not only in this area of the health service but also in other areas. I note the Deputy's support for some of the reforms we have introduced.</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_23">
+          <from>Deputy Tom Neville<recordedTime time="2018-07-11T14:10:00+01:00"/></from>
+          <p eId="para_70">My question was on the budget of 2016. I understand where the Minister is coming from as the Department administers a budget based on top-line projections. However, information on the specific spend at the end of the year was not provided. Services are allocated a budget based on a forecast. I want to know what the budget was spent on in respect of the budget for 2016.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_24" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:10:00+01:00"/></from>
+          <p eId="para_71">I will follow that up.</p>
+        </speech>
+        <speech by="#MaireDevine" eId="spk_25">
+          <from>Senator Máire Devine<recordedTime time="2018-07-11T14:10:00+01:00"/></from>
+          <p eId="para_72">I thank the Minister and Minister of State for their presentations. I am very interested in being educated on telepsychiatry. We need to factor in body language, non-verbal communication and the demeanour of the individual. These are much more important than verbal communications in making an assessment.</p>
+          <p eId="para_73"> The spend on agency staff for the months of January, February and March of 2018 was €13 million and the figure is projected to rise to €100 million. This spending is eating into the budget for the year.</p>
+          <p eId="para_74"> I flag again the closure on Friday of the Linn Dara unit, which I raised this morning with the Minister of State. I ask him not to repeat the statement provided by the HSE.</p>
+          <p eId="para_75"> The mental health services are chaotic and in crisis. The committee has been dealing with this issue since its inception. There should be 15-day programmes in place nationwide but we only have two such programmes and 50% of the community teams are not fully resourced. I will not use the HSE's non-transparent figures. I have improved upon those figures and I know the service is in demand.</p>
+          <p eId="para_76"> I ask the Minister to focus on Traveller health. Interviews were held in February for grade 7 mental health service co-ordinators. When will the successful candidates be appointed? Why were Traveller organisations not given the resources to undertake this work, considering that 83% of Travellers receive all their health information from Traveller organisations?</p>
+          <p eId="para_77">Given the level of evidence of health inequalities, in particular the Traveller mental health crisis, which is astounding, why has Traveller health not received any money since 2008?</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_26">
+          <from>Deputy Catherine Martin<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_78">I welcome and thank both Ministers for coming in today. On the 114 assistant psychologists and 20 psychologists who have recently been appointed, will the Minister outline how was that achieved and the recruitment process from advertisement to appointment? It seems it was a success. Last month, Professor Frank Murray, director of the national doctors training and planning division of the HSE, presented to the committee a table of 16 mental health consultant posts advertised in 2016 for which no applications were received. Unfortunately, ten of the posts were for paediatric consultants. To see that in black and white was frightening for all of us. What has been learned from this that enabled the Department to hire 114 assistant psychologists and 20 psychologists in a year? How was that done? How can that success story be transferred to other Departments in similar need?</p>
+          <p eId="para_79"> What consultation has taken place between the Department of Health and the Department of Education and Skills? Deputy O'Loughlin is the Chair of the Joint Committee on Education and Skills, of which I am a member, as was the Minister of State, Deputy Daly, when we drew up our report on positive mental health in schools. Has the Minister seen the report's key recommendations? I presume the Minister of State, Deputy Daly, has seen them. I read with interest during the week about a new initiative on extra suicide prevention training planned for teachers under which two relevant members of school staff will be trained in suicide prevention. In addition, the National Educational Psychological Service, NEPS, will provide training for crisis scenarios. Representatives of NEPS appeared before the committee a few weeks ago, and the organisation is on its knees. We have fewer than 200 NEPS psychologists to serve all of our primary and post-primary schools. I do not know where the time will be found to train teachers. It is my understanding that if a NEPS psychologist goes out on maternity leave, no cover is provided. That needs to be addressed. It is a shame the approach being pursued by the Department of Education and Skills - I wonder again about the consultation - does not reflect the report's key recommendations. One wonders why that report and research were done. There are some fantastic recommendations, including on the provision of psychotherapy training and other professional development for the counsellors who are already in our schools. It is worth reading and a shame it was not followed through.</p>
+          <p eId="para_80"> Representatives of Pavee Point appeared before the committee in February. It is regrettable that the organisation was not invited to participate in the national task force on mental health, even though it requested to be included. I do not understand why it was not included, especially in light of its request. I do not know if it even received a reply. It was an appalling lack of consultation. I appeal to the Minister to ensure engagement with the Traveller community is not only with focus groups but is real, meaningful consultation. It was left out of the discussion, which is wrong. Why was it left out?</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_27">
+          <from> Chairman<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_81">Were any of the Deputy's or Senator's questions directed to the Minister of State?</p>
+        </speech>
+        <speech by="#MaireDevine" eId="spk_28">
+          <from>Senator Máire Devine<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_82">My comment on the statement by the HSE on Linn Dara was directed at the Minister of State. My questions on the Traveller community were directed at both Ministers.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_29">
+          <from> Chairman<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_83">As the Minister of State can stay a little longer, I invite the Minister to first answer the questions directed at him.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_30" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_84">Both the Senator and the Deputy raised the issue of Traveller health, so I will start there. They are both correct. We need to up our game in how we interact with the Traveller community about mental health and also general health issues. I visited Pavee Point a number of months ago and had a good engagement. The key question the Traveller community, through Pavee Point and its leaders, asked was if we would re-establish the structures in the Department of Health to enable it to engage with the Government and the State. We have given a commitment to do that. We had to alter those structures somewhat because the HSE has since come into being. There has already been engagement in recent days with the Traveller community about this. For example, some of my officials did a site visit and met members of the Traveller community. There was also a workshop to try to identify the needs of Travellers attended by both the chief nursing officer, Dr. Siobhán O'Halloran, who is here, and officials from the Department's social inclusion office. I do not speak for Pavee Point but there is a real effort here to recalibrate and renew that relationship. It is key after the efforts the Oireachtas made, quite rightly, to recognise ethnicity, and we are building on that now with the national Traveller and Roma inclusion strategy. I can give assurance the structure is now back in place in my Department. There is ongoing engagement and never again should a key stakeholder group be left out. I am satisfied with the engagement I have with the Traveller community, and I hope it is satisfied with it too.</p>
+          <p eId="para_85"> I need to provide a note about the recruitment process for the assistant psychologists and psychologists. Given that a number of them were already in the system doing training, it may have been easier to identify and find them. I will convey a note to the committee and Chair. The Deputy is right about the recruitment process going well. One hears about 114 assistant psychologists, a global figure, but it is lovely to meet people in person. I opened the Tuam primary care centre on Monday, 2 July in the company of Deputy Rabbitte. I met two assistant psychologists, the psychologist and members of the CAMHS team at the event. The difference those two assistant psychologists are already making in Tuam through going into schools, working their way through waiting lists and so on is encouraging, but we need to build on this further. There seems to be significant excitement or enthusiasm in our mental health services about the potential this can have.</p>
+          <p eId="para_86"> I take Senator Devine's comment about telepsychiatry and I welcome the interest shown by the committee in the issue. The Minister of State will deal with the matter of Linn Dara in a moment. </p>
+          <p eId="para_87"> On agency spend - and I do not mean this in a confrontational way - members of this committee, including perhaps the Senator, would be among the first to criticise me if a service was not being delivered. As long as there are vacancies that are not being filled, we will not make apologies for doing everything we can to fill them. Of course, I would like to see agency spend reduced and people in full-time permanent posts in the health service, which we see in many areas. As long as vacancies exist, however, while working out the strategies to tackle them in a world where there is a global shortage, and while the Public Service Pay Commission, PSPC, does its work, we will continue to fill those vacancies through agency spend where we cannot fill them through permanent posts. I do not believe the Senator and I disagree on that, but it is an important point. When expenditure on agency staff increases, the political attack is often to ask why we are increasing it. We do so because there are sick people who need services today, whether they are physical or mental health services. I take the point about recruitment and retention, and I refer to my original answer that the PSPC was tasked by Government with specifically looking at recruitment and retention challenges for the health service. It will report this month and I will be guided by its findings.</p>
+          <p eId="para_88"> I would be delighted to take a look at the committee report to which Deputy Martin referred. As I have not seen it directly, I will read it and revert to Deputies Martin and O'Loughlin. We work with the Department of Education and Skills through the pathfinder project, which is the interdepartmental work on mental health. The Minister for Education and Skills, Deputy Richard Bruton, made an announcement yesterday on that and I note the Deputy's comments on it. It is still important that mental health and suicide prevention are not viewed as only health issues, and I know the Deputy shares that view. There has to be a whole-of-Government and whole-of-society approach.</p>
+        </speech>
+        <speech by="#MaireDevine" eId="spk_31">
+          <from>Senator Máire Devine<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_89">I asked about the grade 7 posts in the various community healthcare organisation areas for which interviews have been held.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_32" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_90">I am informed the posts were advertised.</p>
+        </speech>
+        <speech by="#MaireDevine" eId="spk_33">
+          <from>Senator Máire Devine<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_91">Interviews were held in February.</p>
+        </speech>
+        <speech by="#" eId="spk_34">
+          <from> Mr. Tom O'Brien<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_92">There was an advertisement for the additional Traveller community co-ordinator posts on the HSE website with a closing date of last week. Is that what the Senator is referring to?</p>
+        </speech>
+        <speech by="#MaireDevine" eId="spk_35">
+          <from>Senator Máire Devine<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_93">Yes. I thought the interviews were in February.</p>
+        </speech>
+        <speech by="#" eId="spk_36">
+          <from> Mr. Tom O'Brien<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_94">They might have been. I do not know if there were previous interviews, but there was an additional recruitment online last week.</p>
+        </speech>
+        <speech by="#MaireDevine" eId="spk_37">
+          <from>Senator Máire Devine<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_95">Has there been any interest yet?</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from> Mr. Tom O'Brien<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_96">We will get clarity on that.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_39">
+          <from>Deputy Fiona O'Loughlin<recordedTime time="2018-07-11T14:20:00+01:00"/></from>
+          <p eId="para_97">I welcome the Minister and Minister of State. I thank the Minister for his comments on the education committee's report on mental health and look forward to engaging with him further on it.</p>
+          <p eId="para_98">I have a few questions I wish to put to both Ministers.</p>
+          <p eId="para_99"> A colleague commented earlier that A Vision for Change did not work but to be clear, had it been implemented in the correct manner, it certainly would have worked. In 2017, 44 children were admitted into adult mental health services due to a bed shortage. The current plan shows there are 69 CAMHS teams but only 75 CAMHS beds. What future plans are there to increase beds for children given that need is absolutely crucial? Can the Minister give the committee the number of persons who are currently waiting for a CAMHS appointment?</p>
+          <p eId="para_100"> The introduction of the 20 psychologists and the 114 assistant psychologists to deal with waiting lists is important but I seek a little more information on who will be training the assistant psychologists. What will be their level of qualification? Given the introduction of this vast number, how will we address the problem regarding the lack of spaces allocated to training clinical psychologists? I checked with UCD this morning and there are only ten students in second year at this point in time, 16 in third year, and 14 in first year. I am aware that other universities provide training but they have a similarly small availability of places. If we are talking about bringing 114 assistant psychologists, I do not know where we are going to find them. We also will need to deal with the level of capacity in respect of university places. </p>
+          <p eId="para_101"> On telepsychiatry - I appreciate the clarification given - what sort of engagement or consultation has there been with professionals in the field? I refer to the advances in telemedicine in respect of GP services - I am thinking here of a very effective service in Ballymore Eustace, County Kildare - whereby a lot of medication and prescriptions can be given online. Is that what we will be considering with regard to telepsychiatry too? This is a different type of health intervention that is absolutely needed?</p>
+          <p eId="para_102"> As there is too much focus on medication and antidepressants, as opposed to talk therapy, when looking at the costs and the expense of either therapy, we should be focusing on talk therapy. On a related note, who will be training the volunteers who will be providing the 24-hour text line? Given the lengthy waiting times, will consultants have the time to train these volunteers? Will they be sourced by the HSE? Will they have a background in the mental health area?</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_40">
+          <from> Chairman<recordedTime time="2018-07-11T14:30:00+01:00"/></from>
+          <p eId="para_103">I think the Deputy has put a good number of questions at this point-----</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_41">
+          <from>Deputy Fiona O'Loughlin<recordedTime time="2018-07-11T14:30:00+01:00"/></from>
+          <p eId="para_104">The last point is that the Mental Health Commission should have powers similar to the Health Information and Quality Authority, HIQA.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_42">
+          <from> Chairman<recordedTime time="2018-07-11T14:30:00+01:00"/></from>
+          <p eId="para_105">I agree with the Deputy. </p>
+        </speech>
+        <speech by="#JamesBrowne" eId="spk_43">
+          <from>Deputy James Browne<recordedTime time="2018-07-11T14:30:00+01:00"/></from>
+          <p eId="para_106">I have four quick questions. The first relates to the appointment of 21 non-specialist consultants to psychiatric posts. The President of the High Court has referred to this practice and has been extremely critical of it. He has described this practice of permitting non-specialist doctors to be appointed as consultants in hospitals in mental health services as scandalous. He said the HSE appears to be law unto itself. He wrote, after his judgment, to the Secretary General of the Department of Health, to the State Claims Agency and to HIQA. What is the Minister's official response to the comments of the President of the High Court, as these comments refer to the safety of patients and exposure of the State to liability for any actions of these non-specialists acting as consultants?</p>
+          <p eId="para_107"> My next question is to ask when will the full legislation or even heads of Bill be available with regard to implementation of the 168 recommendations of the expert review group on mental health legislation. We have had three Ministers of State since its publication and, to date, only one of those 168 recommendations has been implemented. There have been numerous promises of heads of Bill for this legislation but none have appeared.</p>
+          <p eId="para_108">The Minister's opening statement referred to 18,800 referrals expected for HSE CAMHS this year, with about 14,300 expected to be seen. In the public service performance report of 2017, however, published in April 2018, it was stated that only 10,300 referrals were seen by mental health services, a decrease of 2,082. It would appear that the expectation next year is a 40% increase of CAMHS referrals over last year's figure with an extra 4,000 referrals. We have psychiatrists resigning to beat the band because of the poor service they must give with the lack of support they receive. I am amazed there will be a 40% increase of referrals seen by psychiatrists. </p>
+          <p eId="para_109"> As to the €55 million that is in this year's budget, is that already accounted for in the expenditure side of the budget or is that expected to come out of the fiscal space?</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_44">
+          <from> Chairman<recordedTime time="2018-07-11T14:30:00+01:00"/></from>
+          <p eId="para_110">I thank the Deputy. If the Ministers could answer both of those sets of questions, please.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_45" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:30:00+01:00"/></from>
+          <p eId="para_111">My colleague, the Minister of State, Deputy Jim Daly, will take most of them. I nevertheless wish to comment on a number of them if that is okay with the Chairman.</p>
+          <p eId="para_112"> On the issue of the fiscal space and the discussions we have, that is a matter for the Minister for Public Expenditure and Reform to determine how that comes out of his allocation. What I am very confident of is that we have a letter from him, which I believe we have already shared with the committee, assuring us that this spending will be there. I can ask the Minister for Public Expenditure and Reform to confer with the committee's spokesperson on that but the main point is that commitment is certainly there.</p>
+          <p eId="para_113"> I look forward to engaging with Deputy O'Loughlin on the education committee. I believe that committee is doing good work on this and we need to dovetail even more on it and I give that commitment.</p>
+          <p eId="para_114"> I also appreciate what the Deputy says about A Vision for Change, which is an important comment. We should not confuse implementation with strategy or plans. The strategy and vision is something we all accept was very good. It is about making sure that we implement it.</p>
+          <p eId="para_115"> On the issue of bed capacity, my colleague, the Minister of State will comment on this but a number of developments already are under way to try to increase bed capacity. Crucially, we now have significant additional funding for more beds right across the spectrum of our health services and shortly, I will ask the hospital groups and community healthcare organisations to identify how many beds are needed in each region across the varied spectrum of healthcare. Rather than being a top-down exercise in which the HSE centrally makes allocations, we will ask people from CHOs and from acute hospitals to identify the number of beds needed.</p>
+          <p eId="para_116"> On the issue of assistant psychologists, again I have given a commitment to the committee to get more information and we will come back on that. This is an area on which I would appreciate the committee's view because if it is an area we believe has benefits, we can try to do more. My understanding from the Minister of State, Deputy Jim Daly, is that a lot of these personnel already are working in the system, as opposed to people taking up additional university places. On telepsychiatry, we have dealt with that and the committee will do some more work in that regard. </p>
+          <p eId="para_117"> Regarding the Mental Health Commission, I instinctively agree with Deputy O'Loughlin that we should consider increasing its powers and I will give that some further thought. The committee may have noticed that in the patient safety Bill I brought to Cabinet last week, not only will it not be enough to openly disclose - Senator Devine and I discussed this in the Seanad last week - to the patient an issue but there will be an automatic requirement to refer to the Mental Health Commission. Consequently, this commission should have an ability to gather new data that are not gathered today on how many incidents are openly discussed with the patient. It also will enable the commission to see trends and information from right across the mental health service. We are doing something similar for HIQA for our non-mental health services. That will be a new function or ability given to the Mental Health Commission.</p>
+          <p eId="para_118"> In response to Deputy Browne's question, my colleague, the Minister of State has been working on and leading the Government's response to the comments made by the President of the High Court. He will respond to that question as well.</p>
+          <p eId="para_119"> As for the HSE service plan, I have a simple view as Minister for Health in this regard. We provide the HSE with a level of funding for the year and it provides back a service plan which it signs off on and states it will deliver. It has given that commitment that it will deliver that number of CAMHS referrals and interventions this year and I expect it to do that.</p>
+        </speech>
+        <speech by="#JamesBrowne" eId="spk_46">
+          <from>Deputy James Browne<recordedTime time="2018-07-11T14:30:00+01:00"/></from>
+          <p eId="para_120">On the appointment of the non-specialist consultants, the President of the High Court's criticisms were not restricted to consultant psychiatrists. It was to all non-specialist positions.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_47" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:30:00+01:00"/></from>
+          <p eId="para_121">Absolutely, and in that regard in general, we already have brought in Professor Frank Murray to do a body of work. We believe - I need to be careful as I do not have the details to hand and do not want to misspeak - they are not all working within the public health service, which is an issue worth pointing out. The global figure that has been put out there does not pertain entirely to HSE facilities and I have made that point before.</p>
+          <p eId="para_122"> I also make the point that initial indications from the HSE to me suggest that many of these consultants could be on the specialist register but, for whatever reason, have not registered with it or joined it.</p>
+          <p eId="para_123">That is a simply unacceptable situation which is being addressed by the national director of HR. Much work is being done in that regard. The number is declining but it must decline significantly more. The comments of the President of the High Court in that regard are very fair and we take them extremely seriously.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_48">
+          <from> Chairman<recordedTime time="2018-07-11T14:40:00+01:00"/></from>
+          <p eId="para_124">Is there a conflict of interest for members of the Mental Health Commission? They are paid by the Department of Health through the HSE and report to the HSE on inadequacies in its services. Does that make the Minister worry about the openness and transparency of the process? I agree with Deputy O'Loughlin that its members are powerless. They criticise services but that is the end of the matter and it goes nowhere. I ask the Minister to address that conflict of interest, after which Deputy Rabbitte may ask her questions.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_49" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:40:00+01:00"/></from>
+          <p eId="para_125">I do not believe there is a conflict of interest. We fund nearly all the agencies which have such a responsibility. HIQA is funded through my Department and, rightly and appropriately, is regularly highly critical of aspects of our health service. A similar situation pertains in respect of ombudsmen. I take the point made by the Chair but I would probably come in for greater criticism if the State were not funding the Mental Health Commission. I am confident that it is robust and independent in the discharge of its functions. I am open to a discussion on its powers and welcome any views or guidance in that regard from the committee.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_50">
+          <from> Chairman<recordedTime time="2018-07-11T14:40:00+01:00"/></from>
+          <p eId="para_126">That is a conversation we should have at a later stage-----</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_51" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:40:00+01:00"/></from>
+          <p eId="para_127">I would be delighted to.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_52">
+          <from> Chairman<recordedTime time="2018-07-11T14:40:00+01:00"/></from>
+          <p eId="para_128">-----because its members have no power whatsoever. I call Deputy Rabbitte, to be followed by Senator McFadden.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_53">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-07-11T14:40:00+01:00"/></from>
+          <p eId="para_129">I thank the Minister and the Minister of State for attending. I will ask all my questions together but I understand the Minister will be answering first and that the Minister of State may come back to me later.</p>
+          <p eId="para_130"> Over several weeks, the committee dealt with the significant issue of adolescents or younger persons accessing mental health beds in adult wards. I seek a commitment from the Minister that a way will be found to address and eradicate that problem. It was very distressing to hear testimony in that regard over a number of weeks. The Minister indicated that there are 69 CAMHS teams. How many of those teams are fully functioning and fully staffed? There is much unease among adolescent service users who are in a CAMHS and, particularly, their parents about what will happen when the adolescent reaches 17 years of age. Is there a transition strategy such that an adolescent and his or her parents do not feel as though he or she is being turfed out? How can we move adolescents into adult care facilities with more ease? Will a step-down facility or similar be put in place? The Minister referred to an initiative to increase the number of CAMHS referrals to be seen this year by 27% compared to 2017. I did not understand the reference and ask him to explain it.</p>
+          <p eId="para_131"> One of the first Topical Issue matters I raised with the Minister of State, Deputy Jim Daly, after his appointment last year related to the counselling services provided by Youth Work Ireland Galway. Its representatives are in the Gallery and I welcome them. As a politician, I am focused on solutions, as are the Minister of State and all present. Organisations such as Youth Work Ireland Galway are focused on solutions and early intervention. Youth Work Ireland Galway provides support to approximately 200 young people between the ages of 12 and 18. Some 33% of referrals to it are made by Tusla and the HSE, 31% by parents and the remainder by schools. When I tabled that Topical Issue on 27 July last year, the service was in danger of closure. The situation has not changed. It still cannot take on new referrals even though 55 young people are waiting to access its supports. The service costs €63 a week for each child. A child receives six weeks of treatment, which may be accessed on a week-on, week-off basis such that the total period is extended to 12 weeks. A child may experience anxiety relating to the transition from national school to secondary school. The Minister of State has heard me raise that issue on several occasions. This is an area in respect of which we, as politicians, focus on solutions. Earlier, the committee discussed the lack of proper staff recruitment or retention. Youth Work Ireland Galway has the right staff and provides appropriate services and can expand into the community and support more areas. It is a pilot scheme which could be rolled out nationwide. It has data and research to support that.</p>
+          <p eId="para_132"> I ask the Minister to review the situation in respect of Youth Work Ireland Galway. In response to its request for increased funding, the HSE replied that it should be noted that the CHO 2 mental health service did not receive an increased budget allocation in respect of section 39 funding in 2018 and consequently the funding of Youth Work Ireland Galway could not be increased. That goes back to a question posed by Deputy Neville. We have not been told how the extra allocation of funding awarded in budget 2017 is being spent. I understood that it was to go to new projects. Youth Work Ireland Galway is such a new project but has sought and been refused funding. Deputy Neville's question is valid because neither I nor any other member present knows where that money is being spent.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_54">
+          <from> Chairman<recordedTime time="2018-07-11T14:40:00+01:00"/></from>
+          <p eId="para_133">I ask the Minister of State to wait until the Minister concludes his response.</p>
+        </speech>
+        <speech by="#JimDaly" eId="spk_55" as="#Minister_of_State_at_the_Department_of_Health">
+          <from>Deputy Jim Daly<recordedTime time="2018-07-11T14:40:00+01:00"/></from>
+          <p eId="para_134">I must reply to a Topical Issue matter at approximately 3.30 p.m.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_56">
+          <from> Chairman<recordedTime time="2018-07-11T14:40:00+01:00"/></from>
+          <p eId="para_135">That is fine. I call Senator McFadden.</p>
+        </speech>
+        <speech by="#GabrielleMcFadden" eId="spk_57">
+          <from>Senator Gabrielle McFadden<recordedTime time="2018-07-11T14:40:00+01:00"/></from>
+          <p eId="para_136">I thank the Minister and Minister of State for attending. The development of mental health services in the country is evidenced by the fact that we have a Committee on the Future of Mental Health Care and a Minister of State with responsibility for mental health. Those are very forward-thinking measures which bring mental health into the open and encourage people to talk about it, which was a goal for many members.</p>
+          <p eId="para_137"> Money is a common theme in the discussion of mental health services. Several matters in that regard have struck me since the committee was formed. One constantly hears of the need for more money in mental health services. However, almost €1 billion has been invested in mental health services in the past year and the HSE could not tell the committee where that money was spent. Some €9 million was allocated to CHO 8, in which I live, but the representatives of the HSE could not tell me where that money went. Deputy Neville mentioned that the HSE's IT system could not allow the representatives to join the dots and give us those figures. That is absolutely outrageous.</p>
+          <p eId="para_138"> I also inquired about funding but did not receive an answer. Funding is allocated to many different organisations and there are different services all over the country. Some counties have great services and others do not. We must consider re-organising the services and how different organisations are funded. Do similar organisations in the same county duplicate services while another county may have no organisation providing such services? How much of the funding which organisations receive goes down to the service user and how much is lost in administration, advertising, rebranding and so on? What is the HSE doing in terms of reorganising the services? I am not criticising the services because some of them do amazing work.</p>
+          <p eId="para_139"> The recruitment and retention of staff has been discussed. On recruitment, I have mentioned to the Minister that the committee was told that 20 stages must be gone through to recruit a member of staff. That is madness. A private company would be shut down if it indulged in that sort of carry-on. The recruitment of mental healthcare staff is a challenge worldwide but the red tape in the HSE makes it particularly difficult. I raised with the Minister the case of a principal clinical psychologist who has worked in this country for 19 years and wishes to take up a job in an organisation. He had to go to the valuation unit and a solicitor and obtain transcripts from Tasmania relating to a degree he completed 25 years ago. He is still not in the position. That situation illustrates the red tape which must be dealt with. In that case, much of it was caused by administrative staff having an opinion on clinical staff. It is not good enough.</p>
+          <p eId="para_140"> I find it difficult to accept the level of salaries paid to new consultants.</p>
+          <p eId="para_141">When I asked a particular question, I was completely ignored. I was told that the salary for a new consultant can range between €145,000 and €185,000. I was not given an answer when I asked how the salary compares with that attaching to the equivalent post in the UK's National Health Service, NHS. There are no front-line staff - nurses, therapists or principal clinical psychologists - who earn that type of money. We need more front-line staff and they must be paid a proper salary. We should not try to recruit people and pay them €185,000 because I do not know how anybody could deserve such a salary. People have high expectations if they think they deserve to paid that amount of money.</p>
+          <p eId="para_142"> In terms of the assistant clinical psychology posts, I would love if the Departments of Health and Education and Skills adopted a joined-up approach to recruitment. I know from personal experience that students who have graduated from UCD and similar places with a master's degree cannot secure assistant psychology posts because they do not have experience. Ironically, they cannot gain experience because they cannot secure posts in which they might do so. That aspect should be explored. Many of the students want to pursue careers in clinical psychology but the level of intake there is very low. Perhaps the two Departments might consider this matter together in order that we might eventually appoint more assistant psychologists who could be supervised by principal or senior clinical psychologists and who could help in reducing waiting lists.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_58">
+          <from> Chairman<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_143">I thank the Senator for finishing promptly. I call the Minister to reply.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_59" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_144">I thank Deputy Rabbitte and Senator McFadden for their questions. The Minister of State has taken note of the questions relating to his portfolio. I will answer some of the others.</p>
+          <p eId="para_145"> In terms of adolescents being admitted to adult facilities, as the Taoiseach did in the Dáil earlier, I acknowledge the Chairman's work on this matter. In fact, the Chairman may have discussed the matter with the Taoiseach. At least, that is what he told the Dáil earlier. I assure the Chairman that we are committed to working with her on the legislation she has brought forward to try to address this matter. I appreciate the constructive way in which we have engaged on this matter.</p>
+          <p eId="para_146"> I am informed that 87% of adolescents are admitted to CAMHS facilities, which leaves a cohort who are not admitted. Without getting into too many illustrative examples, I think we all accept that there are sometimes very challenging emergency situations relating to children who are near adulthood but who are not yet adults. Children need to be cared for in a compassionate and sensitive way. We need to be careful, and I think this is the Chairman's ultimate concern, that these adolescents or children are not put in adult facilities and then left there on the basis that the box has been ticked and a place provided. Equally, we must be cognisant of the fact that the welfare of all of the others in a CAMHS facility must also be looked after. It is a very fragile balance.</p>
+          <p eId="para_147"> I am informed that there is generally a ratio of two nurses to one adolescent in cases where adolescents are admitted to adult facilities. However, we need to do better. We need to find a way to develop a law, along the lines of the legislation brought forward by the Chairman, that makes the position clear in respect of those emergency cases and gives the system the ability to respond to them.</p>
+          <p eId="para_148"> As the number of vacancies relating to CAMHS teams is an operational matter, I will ask the HSE to respond directly to the committee. I do not have that information at my fingertips.</p>
+          <p eId="para_149"> Senator McFadden referred, quite bluntly, to a lack of accountability. A number of other members also referred to this matter. I was not around when the health boards were in place but I am sure some of the members of the committee were. It is clear that the health boards were imperfect. There is a need for a national health service and there is also a need to do things at a national level in order to drive improvements. The benefit of the health board model seems to have been that people met and asked trick questions of those who were responsible for delivering front-line services. For example, one would approach the Eastern Health Board and ask how the delivery of mental health services was going, what was the budget for the year, what projects had been delivered and why particular projects were delayed. What has happened now is that the structures have become so bureaucratic.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_60">
+          <from> Chairman<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_150">And big.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_61">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_151">Yes.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_62" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_152">I am not attempting to make a party-political point and I think everyone will agree with what I am about to say. The way that the HSE developed is not the way in which, I imagine, any of us would envisage a national health organisation developing. What we are going to do is pare back the HSE in terms of its size and devolve more powers to the regions. Let me make it clear that the health boards will not be returning. Before I became a Deputy, I was once involved with a regional health forum. I am sure I will upset people who serve on those forums when I say that they are not adequate in the context of holding people to account.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_63">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_153">Not at all. The Minister is dead right.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_64" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_154">Many of the members will have had a similar experience whereby one goes to the forum, asks one's question, etc.</p>
+          <p eId="para_155"> We have the HSE board in place to ensure accountability at national level but we need to find a way whereby there can be accountability at regional level. I am committed to working with Members of the Houses on all sides in order to devise the legislation relating to the HSE board. That is the first point. The second point is that we need to consider putting in place a structure that will not facilitate the return of the health boards but that will allow front-line healthcare professionals and those who represent the public to ask key questions of the people in charge. Day in and day out, people in the Oireachtas and stakeholders who represent patient groups, etc., inform me that they do not believe there is a structure in place. Quite frankly, neither do I. It is a priority of mine, after the HSE board legislation is passed, to consider what other accountability mechanisms can be put in place through legislation. In the event that my words might be misinterpreted, I want to make it clear that I see us moving - as envisaged in the Sláintecare report - towards regional structures with boards that will hold people to account.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_65">
+          <from> Chairman<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_156">May I interrupt?</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_66" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_157">Please do, Chairman.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_67">
+          <from> Chairman<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_158">We do not know if the Minister will remain in his position in the future.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_68" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_159">There is a lot of this going on today.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_69">
+          <from> Chairman<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_160">The reality is that we do not know. How can a decision of this nature be implemented when there is no forward planning and no programme to cover a period of five or ten years? The Minister will probably be appointed to another position. In the event of that happening, how will the decision be implemented?</p>
+        </speech>
+        <speech by="#GabrielleMcFadden" eId="spk_70">
+          <from>Senator Gabrielle McFadden<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_161">The Minister is sure to be re-elected.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_71">
+          <from> Chairman<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_162">The Minister may not come back in his current position.</p>
+        </speech>
+        <speech by="#GabrielleMcFadden" eId="spk_72">
+          <from>Senator Gabrielle McFadden<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_163">That is politics.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_73">
+          <from> Chairman<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_164">The Ministry for Health is a difficult chalice.</p>
+        </speech>
+        <speech by="#GabrielleMcFadden" eId="spk_74">
+          <from>Senator Gabrielle McFadden<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_165">Perhaps, but the Minister will not know about it.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_75" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_166">I must have missed something-----</p>
+        </speech>
+        <summary eId="sum_7">(Interruptions).</summary>
+        <speech by="#SimonHarris" eId="spk_76" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_167">-----or perhaps there is an air of summer giddiness. The Chairman has made a serious point.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_77">
+          <from> Chairman<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_168">Yes.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_78" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_169">The good thing is that there is a consensus on this matter. Without going into the broader debate that the Chairman of the Joint Committee on Health and I regularly have in respect of Sláintecare, there is a cross-party consensus as to what the structures should look like.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_79">
+          <from> Chairman<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_170">Yes.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_80" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_171">There is a consensus that there should be a national entity - call it the HSE or something else. The current entity is too big and too bureaucratic. I am of the view that more functions should be devolved to the regions. Whether I am considered a reforming Minister is a matter for historians to assess many years from now, but the benefit of this plan is that we all agree that this is the structure which must be put in place. This will enable me, as a Minister in a minority Government, and my successors to plough on with that objective. I will endeavour to get the HSE board legislation passed this year. I am of the opinion that we will be successful in getting that done. Let us also try to move forward, on a cross-party basis, with providing a regional accountability structure as well.</p>
+          <p eId="para_172"> The Minister of State has done a lot of work on duplication and I am sure he will comment on that when he returns. The answer has to be what he has championed and what the Members will regularly raise at meetings of this committee, namely, signposting, mapping out the services and directing resources to the appropriate destinations. In addition, we must ensure that members of the public know where to go. On far too many occasions, people with mental health challenges have approached me at my constituency office. I am not suggesting that everything to do with the services was wonderful. However, there were services available that these individuals did not even know how to access. This underlines the need for signposting.</p>
+          <p eId="para_173"> I have commented on the recruitment process a number of times. I take the point that was made.</p>
+          <p eId="para_174"> The programme relating to assistant psychologists is new. This is the first full year of the programme. I very much take on board the suggestion made by Senator McFadden in that regard. The Minister of State will respond to the remainder of the questions.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_81">
+          <from> Chairman<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_175">I promise the Minister of State that he will get an opportunity to speak very shortly. I call Deputies Buckley and Brassil, in that order.</p>
+        </speech>
+        <speech by="#PatBuckley" eId="spk_82">
+          <from>Deputy Pat Buckley<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_176">I thank the Minister, the Minister of State and all of the people seated in the Gallery for attending. I have had to wait so long to speak that all of the good questions have already been asked.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_83" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_177">And the good answers given.</p>
+        </speech>
+        <speech by="#PatBuckley" eId="spk_84">
+          <from>Deputy Pat Buckley<recordedTime time="2018-07-11T14:50:00+01:00"/></from>
+          <p eId="para_178">Do the Minister and the Minister of State have full confidence in the management of the HSE? Let us consider the example of Linn Dara, where service users and their families were given five days prior notice of the cessation of day care. Surely that constitutes bad management? It feels like Groundhog Day because 11 beds were closed at Linn Dara last year and day-care services have been have been brought to an end this year. The Linn Dara management team knew last year that a situation would arise this year and they were able to forward plan as a result.</p>
+          <p eId="para_179"> I have heaps of paper with me relating to complaints about CAMHS. I know people are getting frustrated. This comes down to management. Some €27 million has been pumped into Cashel hospital and it costs perhaps €8 million a year to keep it going. Units in the hospital are lying idle at a time when services are needed.</p>
+          <p eId="para_180"> Cork County Council has tabled a motion requesting that five psychologists be appointed to keep the service going in Mahon. As stated, we have already seen what happened with Linn Dara. We have mentioned Waterford and Wexford. It all comes back to accountability and responsibility. The committee has heard witnesses state that their managers have threatened them and told them not to come before the committee. Surely those managers should be held accountable for their actions. Witnesses will not feel like appearing before a committee if they have been threatened.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_85" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_181">Managers are threatening staff if they attend meetings.</p>
+        </speech>
+        <speech by="#PatBuckley" eId="spk_86">
+          <from>Deputy Pat Buckley<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_182">Yes, to the effect that they should not come as witnesses.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_87">
+          <from> Chairman<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_183">There are several reasons.</p>
+        </speech>
+        <speech by="#PatBuckley" eId="spk_88">
+          <from>Deputy Pat Buckley<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_184">Staff feel threatened if they even engage with us. It is serious. The buck stops with the Minister, the Minister of State and the Department. Surely they have the power to remove the toxicity from the HSE as an entity.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_89">
+          <from> Chairman<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_185">The culture.</p>
+        </speech>
+        <speech by="#PatBuckley" eId="spk_90">
+          <from>Deputy Pat Buckley<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_186">There cannot be trust. It is front-line staff more than management who should be beatified. </p>
+          <p eId="para_187"> Dr. Harty mentioned pilot schemes. That is an idea. We could target areas where adolescent suicide rates are high, etc. </p>
+          <p eId="para_188"> On worldwide recruitment, ten years ago the HSE knew that there was going to be a problem in recruitment, but it could not plan for it. Again, it is bad planning.</p>
+          <p eId="para_189"> We probably have one of the best education services in the country. Why can we not plan for it and give incremental contracts where there can be improvement? We have lost the plot. In the next four years we are facing a decrease in the number of staff within the mental health service, possibly of 1,700 because of retirements. There is already a shortage of 500 staff, even on top of the additional 500 being sought. The HSE cannot plan for this reduction because it is going to wait until each individual retires. The process of recruitment takes 12 months. As most of the questions have been asked, I am flagging this issue and appealing to the Minister to do something about it. </p>
+          <p eId="para_190"> Surely the Minister and the Minister of State have the power to bring in senior management in the HSE to ask what is the five-year plan for recruitment and retention within all services, as well as the five year plan for budgetary spending, and then come up with some common-sense approaches? We were made aware that around €50 million was spent on taxis by the HSE last year. That is why I am appealing to the Minister and the Minister of State. They are being misinformed, as we are when it comes to replies to parliamentary questions. As I have said to the Minister on one specific occasion, he knows that we are being misinformed. If he and the Minister of State are being misinformed, they cannot do their job and if we are being misinformed, we cannot assist them to do the job for everybody else in the country.</p>
+        </speech>
+        <speech by="#JohnBrassil" eId="spk_91">
+          <from>Deputy John Brassil<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_191">I welcome the Minister and the Minister of State, Deputy Jim Daly. This is our 27th meeting since the joint committee was formed and there have been many recurring themes. </p>
+          <p eId="para_192"> On the recruitment procedure within the HSE, Dr. Harty asked if the Minister would like to be reforming. That is where I will start. Senator Gabrielle McFadden mentioned that there were about 20 steps in recruiting a psychiatric nurse. There are actually 27. It is that crazy. We were sitting here with our mouths open listening to how difficult it was to recruit one psychiatric nurse. The process could be led from the top, through the implementation office of Sláintecare, the Minister, the Minister of State and the Department of Health or the new board of management. On every issue we have dealt with, the lack of recruitment has been mentioned. There is, possibly, a worldwide shortage of trained personnel in psychiatry, as well as of doctors and GPs. We have to change our approach to deal with the crisis.</p>
+          <p eId="para_193"> The Minister of State referred to telepsychiatry. It is a novel approach and one way of dealing with the lack of trained staff and getting better value for money. I also ask him to look at making better use of pharmacists in the community. There are 2,000 pharmacies with well trained personnel. They have been much under-utilised. Perhaps we might also look at how many homemakers would like to come back as part-time workers. We could set them up as individual consultants to try to assist in maximising the expertise available. A broad approach is needed. It is no longer acceptable to say 16 posts were advertised and that nobody applied. That will not solve anything. We have to change our approach-----</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_92">
+          <from> Chairman<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_194">We need to wrap it up.</p>
+        </speech>
+        <speech by="#JohnBrassil" eId="spk_93">
+          <from>Deputy John Brassil<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_195">I have some brief points to make. Will the Minister of State introduce mental health and well-being as part of the primary school curriculum and start now? In ten or 15 years we would have dealt with many problems if we were to address them from an early stage. We should look at the Australian model which works very well. </p>
+          <p eId="para_196"> My last point is that this committee has been set up and it is giving the issue of mental healthcare the attention it needs. It should continue full time. The required spending level of the health budget should be between 10% and 12%, but we are currently at a figure of 7%. When can we reach the required level? That is where we need to be.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_94" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_197">I thank Deputies Pat Buckley and John Brassil. </p>
+          <p eId="para_198"> On HSE management, I have confidence in the people who run the health service. We are advertising to fill a number of new senior posts in it. I do not, however, have confidence in the structures, which is why I am trying to change them to enable staff, including some very good individuals, to do the job they want to do. It is often a better job. The structures have become overly complicated and bureaucratic. I will follow up directly on the issues raised in respect of Cashel hospital and the Mahon health centre.</p>
+          <p eId="para_199"> On recruitment, without going into it too much as the question has been asked a few times, 2,000 new posts have been approved since 2012 in the mental health service. According to my note, we have filled about 1,352 of them. Therefore, posts are being funded and filled. However, many are not being filled and that poses a number of questions for us. There are a number of elements, which brings me to Deputy John Brassil's questions. We have an issue with the process used. I have heard the committee very clearly in that regard. </p>
+          <p eId="para_200"> We are advertising for a new chair of the HSE board. It will be a chairperson designate until we pass the legislation, but he or she will be appointed shortly. One of the first things I will ask him or her to do is to review and report back to me directly on the recruitment processes within the HSE and how we can streamline them. Members are giving me constructive suggestions and I want to respond in kind. </p>
+          <p eId="para_201"> I take Deputy John Brassil's point about pharmacies. I will be sitting down with the representatives of the pharmacy sector and pharmacists in the not too distant future to discuss a range of contractual matters. I will welcome their suggestions. It is always an interesting point - I say this respectfully - that everyone in the health service is extremely busy, which I do not doubt. I refer to trying to take work from one section and giving it to another. We saw this recently in the discussion about contraception. I thought it became ridiculous when one group said they were too busy and could not take on any more work. Another said they would take on the work, but then the first group said they could not do so because they had to do it. We need to break down that silo mentality and have the appropriate healthcare professionals providing the appropriate service at the right time. </p>
+          <p eId="para_202"> Recruitment of people at home is key. As a Government, we have been discussing this issue for a period of time. As we reach full employment as we, thankfully, almost have statistically, there is no doubt that there are people who for a variety of reasons cannot work full time. Often they have worked in a professional field in the past, or they would like to train up and work, but they will never be able or wish to work full time, which is fine. Providing them with opportunities to do so brings us back to the telepsychiatry space because there would be no need for long commutes, etc. It also points out to us, as a Government, that their activation will be about more than just pay. It will also be about childcare and other supports. </p>
+          <p eId="para_203"> Whether this committee should continue is a matter for the Oireachtas, but I think it should. The Joint Committee on Health is extraordinarily busy. Sometimes it is useful to have a committee that can look a little further down the road. The clue is in the title.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_95">
+          <from> Chairman<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_204">That is not exactly the case. The Taoiseach has said there will be a permanent committee.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_96" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_205">That is great. The establishment of committees is a matter for the Oireachtas, but the Taoiseach's endorsement and I imagine that of all of the party leaders is great. I thank the committee.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_97">
+          <from> Chairman<recordedTime time="2018-07-11T15:00:00+01:00"/></from>
+          <p eId="para_206">That is fine.</p>
+        </speech>
+        <speech by="#JohnBrassil" eId="spk_98">
+          <from>Deputy John Brassil<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_207">Can I make an intervention please? On the point of recruitment at home, the Minister's point is well made. It is setting up the circumstances to allow those people to say, yes, I want to work ten hours a week, and it is worth my while to do this. We could have some great benefits from a little bit of constructive, innovative thinking.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_99">
+          <from> Chairman<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_208">Deputy Corcoran-Kennedy and then Deputy Crowe to speak now please.</p>
+        </speech>
+        <speech by="#MarcellaCorcoranKennedy" eId="spk_100">
+          <from>Deputy Marcella Corcoran Kennedy<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_209">I thank the Chair and the Ministers and officials for coming in this afternoon.</p>
+          <p eId="para_210"> Most of my questions are addressed to Minister of State, Deputy Daly. We had Dr. Harry Barry in here last week and there has been a lot of discussion around social media and gaming addiction, which is now recognised as a condition by the World Health Organization. He made an interesting proposal that there should be a national protocol on the use of social media, both for youths and for adults. I know the Minister had some very strong concerns around the use of mobile phones, and that is an area that the Minister is continuing to explore, because it strikes me that we are now in 2018 and if we roll back eight years to 2010, the use of social media has exploded in the last number of years. It is having an enormous impact on the mental health of both young and old alike in this country, and I believe globally. Is that an area on which the Minister is now focusing because of his own particular interest?</p>
+          <p eId="para_211"> The other question relates to the use or lack of use of the psychotherapists in our system. We had the psychotherapists' representative organisation in here and they said 1,500 people were available who they felt were not utilised enough. I was curious about the fact that the National Educational Psychological Service, NEPS, was saying that they did not have psychotherapists and that they only had psychiatrists and psychologists in NEPS, and did not see a need for psychotherapists. Once it passed through the psychiatrists it went to the health service. I wondered if there was a break between education and health and whether there should there be a closer relationship there: does the Minister think that this is something we should be focusing on?</p>
+          <p eId="para_212"> Another matter is more local, and is similar to CAMHS in Cherrywood, in relation to the criteria that CHO 8 used to justify the withdrawal of services to the young adult mental health service there, which is solely focusing on the 16 to18 year olds. I happened to call in, as we are calling in to our various CAMHS, and learned they had recently received word that they were going to be withdrawing the positions of the psychotherapist, two nurses, an administrator, and also an art therapist. The reason for this is that they were nearly too successful. I thought the model that they had, which was focusing on 16 to 18 year olds, is something that should be replicated across the country because they have no waiting lists.</p>
+          <p eId="para_213"> In my view they are being penalised by the HSE for being successful. I am very concerned. They were able to deal with the emergencies that would arise because they did not have the waiting lists. They were able to manage all of this. Can I ask what the Minister's view is on this and the fact that they are also citing A Vision for Change figures? Those figures are way out of date, so I cannot accept that they are using A Vision for Change recommendations to justify making this decision.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_101">
+          <from> Chairman<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_214">Deputy, forgive me for interrupting but the Minister, Deputy Harris, has to leave right now. </p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_102" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_215">Did Deputy Crowe wish to ask me a question?</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_103">
+          <from> Chairman<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_216">Was Deputy Crowe's question directed to Minister Harris?</p>
+        </speech>
+        <speech by="#SeanCroweSF" eId="spk_104">
+          <from>Deputy Seán Crowe<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_217">It was indeed, but we will meet on the corridor, no doubt.</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_105" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_218">I will be happy to take it if the Deputy wishes.</p>
+        </speech>
+        <speech by="#SeanCroweSF" eId="spk_106">
+          <from>Deputy Seán Crowe<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_219">Does the Minister have time?</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_107">
+          <from> Chairman<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_220">I will come back to Deputy Corcoran Kennedy, I am very sorry.</p>
+        </speech>
+        <speech by="#SeanCroweSF" eId="spk_108">
+          <from>Deputy Seán Crowe<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_221">The Minister referred to the changes and a simple guide to direct people.</p>
+          <p eId="para_222"> One of the areas the Minister could look at is that of the CHO and the acute services. If one looks at the map they do not dovetail. It is clearly one of the problems.</p>
+          <p eId="para_223"> Another area is the amount of funding that is divided out is based on an old system when it should be going to the areas of greatest need. We all agree with that. The practical measures do not cost anything to implement.</p>
+          <p eId="para_224"> There are other matters I wish to talk to the Minster about, such as speech and language; it is unacceptable that children with profound need have to wait up to three years to be seen.</p>
+          <p eId="para_225"> Respite care is another area which I have raised before. It is the big issue that people talk to us about, where one has mothers and fathers and, in some cases, mothers alone looking after children and the issue of access to services. </p>
+          <p eId="para_226"> I will give one example, and everybody will nod their head that this should not happen. A mother rearing kids on her own has never had access to respite care for her two children at the same time, it is always at different times. Everyone agreed, including the officials who came in, that this should be a simple thing to fix and it would not cost anything. It has never been done and that woman is looking after those children - one is 17, the other is younger. That is a long time to go without respite care. It would be a simple thing for those children to go into respite at the same time. Perhaps the Minister and his officials could take a note of this, please.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_109">
+          <from> Chairman<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_227">I thank the Deputy for that. I will get back to Deputy Corcoran Kennedy. Can the Minister respond to that before he leaves please?</p>
+        </speech>
+        <speech by="#SimonHarris" eId="spk_110" as="#Minister_for_Health">
+          <from>Deputy Simon Harris<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_228">I thank the Chairman and also for the questions and for having me.</p>
+          <p eId="para_229"> Deputy Crowe is correct as to the need to geo-align our community healthcare organisations with our hospital group settings. Deputy Harty pointed out that it nearly happens in the UL hospital group, but for the rest of the areas we have CHOs that straddle a number of hospital groups or vice versa. We have launched a consultation on geo-alignment, I believe the details are still on my Department's website. We have received over 2,500 submissions so far, in terms of how people - including people working in the health service - feel it is best to align those groups. There are a lot of issues. I would like to see, as is envisaged in the Sláintecare report, a regional entity which has the whole spectrum of care within one structure, and not a situation where one has the left hand doing acute hospital care, and everything else on the right hand.</p>
+          <p eId="para_230"> On the issue of respite care, if the Deputy would not mind providing us with the details of that case offline, I will get my officials to look at it, not just as an example of an individual case but also as to how the system needs to show a bit of common sense as well.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_111">
+          <from> Chairman<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_231">I thank the Minister for attending here today which we really appreciate.</p>
+          <p eId="para_232"> Can I ask the Minister of State, Deputy Daly, to reply as he has a few questions to answer and is in the firing line now? Does Deputy Corcoran Kennedy have any more questions?</p>
+        </speech>
+        <speech by="#MarcellaCorcoranKennedy" eId="spk_112">
+          <from>Deputy Marcella Corcoran Kennedy<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_233">No, that is fine.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_113">
+          <from> Chairman<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_234">If the Minister of State would like to reply now and if he could answer Senator Devine's question first, please.</p>
+        </speech>
+        <speech by="#JimDaly" eId="spk_114" as="#Minister_of_State_at_the_Department_of_Health">
+          <from>Deputy Jim Daly<recordedTime time="2018-07-11T15:10:00+01:00"/></from>
+          <p eId="para_235">There is an awful lot there and I am going to have to be very brief as I have to be gone in about ten minutes and will go through them as fast as I can.</p>
+          <p eId="para_236"> I have addressed the issue of Linn Dara already this morning, which is an issue of realignment of services. Due to staffing challenges it will start in the summer time. There is a maximum of three people impacted by this. I have looked into the three cases. They are all being provided with alternative supports and services under CAMHS, not just under that particular model of day services. The have been referred to the community teams. I do not want to go into details where the numbers are so small it can be very easy to identify people, but I have assured myself of what is going on there. Other than that I cannot go into any more details on that. I do not have any further questions from Senator Devine.</p>
+          <p eId="para_237"> Deputy James Browne is not here so I can come back to him on some of his questions.</p>
+          <p eId="para_238"> The question of teenagers in adult units is a debate we have had before and the Chair herself has shone a light on this. The issues there are not black and white for legislation, but they are to be dealt with and the senior Minister referred to it as well. </p>
+          <p eId="para_239"> The two representatives of Youth Work Ireland Galway services are welcome to the meeting here today. I went to visit them last year, on the invitation of Deputy Rabbitte and her colleagues. I am disappointed to see that things have not moved on since that time but I will ask to have that file reviewed by the HSE and sent down to my office and I will go through it and come back to the Deputy and her colleagues directly on the issues affecting them there.</p>
+          <p eId="para_240"> Senator McFadden asked where the money is being spent. A 6% debate is something I would like to address; I believe it is 6% but I never know what figure people put on it. I believe it is a bogus argument to be talking about the percentage of moneys spent on mental health. In the first instance if I was measuring the amount of money I was spending on mental health I would never use the yardstick of physical health as a comparison, which is dysfunctional in itself, is bogus and is not real.</p>
+          <p eId="para_241"> Furthermore, we spend significant amounts of money in the whole area of mental health, for example on primary care. All of the mental health services are delivered through primary care, are budgeted under primary care, not under mental health, so they do not come out of my €910 million budget, it comes out of the budget for primary care, even though it is delivered to mental health. NEPS services come out of the Department of Education and Skills budget, and those are mental health services.</p>
+          <p eId="para_242">There are many health services in the justice system. I am not defending the amount of money we spend on the area but that particular argument, and comparing Ireland with other countries when our budget is only 6%, is so flawed it is unhelpful and does not represent anything.</p>
+          <p eId="para_243"> I will make a few points on the range of services. The signposting, the phone line, has been my ambition since taking office. It is referred to as a help line and various other things. Essentially, it is a single access point for all mental health services. That will address Senator McFadden's concerns about the range of services available. We have finally completed a directory of all the services and if there is one number that people can call, they can be appropriately referred. A member asked if the people at the other end of the phone line will be qualified. They will be qualified. They will not diagnose but will refer callers to the appropriate services. That is lacking in the system. As the senior Minister stated, we often come across cases where people are not aware of the services.</p>
+          <p eId="para_244"> There is a tendency for all young people to be referred to the child and adolescent mental health services, CAMHS, but there is no need for all young people who have mental health challenges to be referred to a psychiatric service. That national front door element will go a long way to streamlining many of the services, which in itself will be constructive in dealing with the CAMHS waiting lists because many of those who are left on the waiting list require lower level intervention. They are left on those waiting lists because a psychiatrist has stated that they do not need to see a consultant psychiatrist but he or she is not aware of where they can be referred. If we can streamline that, that will be the best way to address the queues. If we introduce a waiting list initiative, however, we are just addressing the symptom and not the root cause of the issue.</p>
+          <p eId="para_245"> Deputy Buckley commented on a five year plan from the Health Service Executive, HSE.</p>
+          <p eId="para_246"> There was a question on inpatient beds. We will have increased capacity in Portrane. We have already acknowledged that community healthcare organisation, CHO, 5 has a shortfall. We hope to examine that.</p>
+          <p eId="para_247"> Talk therapies will be part of telepsychology, telepsychiatry and teletherapies. It is just a way of delivering those services in a more efficient way rather than having people make an hour or three-hour return journey for a 20-minute therapy session. There is a good deal of help in that regard.</p>
+          <p eId="para_248"> The senior Minister has addressed many of the other questions. Deputy Brassil-----</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_115">
+          <from> Chairman<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_249">Deputy Martin has an issue she wants the Minister of State to address.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_116">
+          <from>Deputy Catherine Martin<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_250">It is a follow-up to the question I asked about the 114 assistant psychologists and 20 psychologists. The Minister, Deputy Harris, has agreed to give me information on the recruitment process-----</p>
+        </speech>
+        <speech by="#JimDaly" eId="spk_117" as="#Minister_of_State_at_the_Department_of_Health">
+          <from>Deputy Jim Daly<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_251">Yes.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_118">
+          <from>Deputy Catherine Martin<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_252">-----but he referred to some already being in the system. Of the 114 assistant psychologists and the 20 psychologists, how many of them are new and were not in the system already? Otherwise, with the greatest respect, it is a form of massaging of numbers.</p>
+        </speech>
+        <speech by="#JimDaly" eId="spk_119" as="#Minister_of_State_at_the_Department_of_Health">
+          <from>Deputy Jim Daly<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_253">I appreciate the confusion. I suppose I was prompting the Minister or whatever and we may not have got our message fully across. I will get the Deputy the comprehensive detail on the recruitment process, where each of the 114 originated from and where they have been allocated or whatever. I have been asking the HSE to give me the information on where they are all located. It is just to see the mapping side of that issue. The senior Minister has already undertaken to get that information for the Deputy and I will ensure the Deputy will have a follow-up on it if she has any questions arising from it.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_120">
+          <from>Deputy Catherine Martin<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_254">I thank the Minister of State.</p>
+        </speech>
+        <speech by="#JimDaly" eId="spk_121" as="#Minister_of_State_at_the_Department_of_Health">
+          <from>Deputy Jim Daly<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_255">Deputy Corcoran Kennedy asked about social media also. She might be aware that the Government launched a policy this morning to deal with that. That has been very much the focus of Government. It not a health issue or a mental health issue. I have deliberately stood back in that regard. I am involved and very interested in it but it was never for me to take the lead on it because that would suggest it is a mental health issue that should be dealt with under mental health only.</p>
+          <p eId="para_256"> The most interesting development I have seen in Government and Civil Service circles since I became a national politician in 2011 is the Pathfinder project, which is four Departments, the Departments of Justice and Equality, Children and Youth Affairs, Education and Skills and Health, working together for the first time in the history of the State. They meet at section level and the very first topic they have chosen to pursue under Pathfinder is mental health. The Departments will work side by side and meet on a weekly basis with people at principal officer, PO, assistant principal officer, APO, level or whatever. A substantial number of staff are being resourced and aligned to this particular project to ensure all of them are working together on it.</p>
+          <p eId="para_257"> Somebody asked what is happening in the area of schools. That is where the future of mental health lies. We have to support resilience and stop the escalation in the need for CAMHS. If we keep chasing the system with hundreds of millions of euro and continue to put more inpatient beds into it, we will miss out on the need to build an infrastructure at that level and put a focus on it. We spend much of our time talking about the waiting lists because they are easy to manage and repeat but we need to examine the supports we are putting in at the basic level, and particularly in education. There is a superb programme, DBT STEPS-A programme, which has come here from America. I do not know if any of the members are familiar with it but, essentially, it equips students how to recognise their feelings. We had a presentation on it by Kinsale Community School at the launch of the youth mental health task force. Essentially, the programme gives students the skills necessary to identify their feelings and articulate - that is the key word - their anxieties, fear or whatever. We need to build on that but it is about getting the balance right. I cannot neglect what the tertiary level is trying to do but we are trying to reorientate the system towards primary level interventions, support that and build on that support. It is similar to what we are trying to do in physical health in terms of primary care, community care, prevention being better than the cure and so on. That is a difficult balance to achieve.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_122">
+          <from> Chairman<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_258">Deputy Rabbitte wanted to clarify something.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_123">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_259">Is it possible to get answers to my questions?</p>
+        </speech>
+        <speech by="#JimDaly" eId="spk_124" as="#Minister_of_State_at_the_Department_of_Health">
+          <from>Deputy Jim Daly<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_260">Yes, of course. That is social media. I agree with the Deputy that the psychotherapists are under-used. That is very much the narrative I have been using, which is that we need to talk about the primary care level I have just mentioned.</p>
+          <p eId="para_261"> The Deputy asked me about the national educational psychological service, NEPS. The objective is that Pathfinder will allow us realise, with education, the utilisation of these psychotherapists and make sure they are all actively engaged in the system and that it is done through primary care levels.</p>
+          <p eId="para_262"> The Deputy asked me about young adolescent mental health services, YAMHS. I will ask for that file and have that review for the Deputy. She raised it with me previously. I have asked the HSE to report to me on it so that I can see what is going on in that respect because it appears to be flying against what I am trying to do. We want to have a register of services down to community level. We want to have a single access point that people can ring to find out who is in their area because nobody might have heard of YAMHS. Two per cent of the population may know about it but the other 80% needs to be made aware of it. Once we get that registry, which is complete, and the phone line, the single access point, established, all of these services will have to be put on a sustainable footing. They will have to be recognised but they will also have to come to the party with governance of a clinical and financial nature, corporate governance structures and all of that. There are some services that nobody knows how they originated or what they are doing. Do they involve talking to students in schools? I would have concerns about that. We have to make sure that these services have a proper level of governance but that single access point will force that and address the funding issue also over time. That is the plan.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_125">
+          <from> Chairman<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_263">Were Deputy Corcoran Kennedy's questions answered?</p>
+        </speech>
+        <speech by="#MarcellaCorcoranKennedy" eId="spk_126">
+          <from>Deputy Marcella Corcoran Kennedy<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_264">Yes. I thank the Chairman.</p>
+        </speech>
+        <speech by="#JoanFreeman" eId="spk_127">
+          <from> Chairman<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_265">Those are the questions. I thank the Minister of State. He got off very lightly.</p>
+        </speech>
+        <speech by="#JimDaly" eId="spk_128" as="#Minister_of_State_at_the_Department_of_Health">
+          <from>Deputy Jim Daly<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_266">I am happy to have the time here.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_129">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_267">When the Minister of State comes back with a response to Deputy Martin, could he send it to the clerk because it would be welcome if all of us could get the answer to that question.</p>
+        </speech>
+        <speech by="#JimDaly" eId="spk_130" as="#Minister_of_State_at_the_Department_of_Health">
+          <from>Deputy Jim Daly<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_268">On the recruitment of the 114 assistant psychologists.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_131">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_269">Yes, if he does not mind.</p>
+        </speech>
+        <speech by="#JimDaly" eId="spk_132" as="#Minister_of_State_at_the_Department_of_Health">
+          <from>Deputy Jim Daly<recordedTime time="2018-07-11T15:20:00+01:00"/></from>
+          <p eId="para_270">That would be in everybody's interest and we will do it through the committee.</p>
+        </speech>
+        <summary eId="sum_8"> The joint committee adjourned at 3.29 p.m. <i>sine die</i>.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

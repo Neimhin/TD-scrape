@@ -1,0 +1,1233 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-07-01/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-07-01/debate"/>
+          <FRBRdate date="2008-07-01" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_european_scrutiny"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-07-01/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-07-01/debate/mul@"/>
+          <FRBRdate date="2008-07-01" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-07-01/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_scrutiny/2008-07-01/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None" eId="#vol_None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None" eId="#no_None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="DamienEnglishFG" href="/ie/oireachtas/member/id/Damien-English.D.2002-06-06" showAs="Damien English"/>
+        <TLCPerson eId="JoeCostelloLAB" href="/ie/oireachtas/member/id/Joe-Costello.S.1989-10-01" showAs="Joe Costello"/>
+        <TLCPerson eId="JohnPerry" href="/ie/oireachtas/member/id/John-Perry.D.1997-06-26" showAs="John Perry"/>
+        <TLCPerson eId="KieranPhelan" href="/ie/oireachtas/member/id/Kieran-Phelan.S.2002-09-12" showAs="Kieran Phelan"/>
+        <TLCPerson eId="LucindaCreighton" href="/ie/oireachtas/member/id/Lucinda-Creighton.D.2007-06-14" showAs="Lucinda Creighton"/>
+        <TLCPerson eId="PaddyBurke" href="/ie/oireachtas/member/id/Paddy-Burke.S.1993-02-17" showAs="Paddy Burke"/>
+        <TLCPerson eId="TerryLeyden" href="/ie/oireachtas/member/id/Terry-Leyden.D.1977-07-05" showAs="Terry Leyden"/>
+        <TLCPerson eId="TimDooley" href="/ie/oireachtas/member/id/Timmy-Dooley.S.2002-09-12" showAs="Timmy Dooley"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>CHOISTE UM GRINNSCRÚDÚ EORPACH</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON EUROPEAN SCRUTINY</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2008-07-01">Dé Máirt, 1 Iúil 2008</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2008-07-01">Tuesday, 1 July 2008</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 11 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JoeCostelloLAB">Deputy Joe Costello,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PaddyBurke">Senator Paddy Burke,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#LucindaCreighton">Deputy Lucinda Creighton,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#TerryLeyden">Senator Terry Leyden,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#TimDooley">Deputy Timmy Dooley,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#KieranPhelan">Senator Kieran Phelan.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#DamienEnglishFG">Deputy Damien English,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#AengusOSnodaighSF">Deputy Aengus Ó Snodaigh,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#JohnPerry">DEPUTY JOHN PERRY IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_4">The joint committee met in private session until 11.45 a.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Scrutiny of EU Proposals. </heading>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_9">It is proposed to note the following adopted measure: COM (2008) 182.  Is that agreed?  Agreed.</p>
+          <p eId="para_10">It is proposed that the following measure requires no further scrutiny and should be noted: COM (2008) 126.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_2">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_11">This measure proposes the imposition of sanctions but events have overtaken it.  Elections were held on the islands referred to last week.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_12">To which proposal does the Deputy refer?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_4">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_13">I refer to COM (2008) 126.  It refers to the island of Anjouan in the Union of the Comoros.  According to an e-mail I have received, elections were held on the islands last week.  I do not know the outcome.  However, it is strange that we are dealing with an issue which has been overtaken by events.  The sanctions were associated with a demand for free elections.  The former president has been found guilty of importing weapons.  We should either note the proposal or ask the European Union what is the up-to-date position.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_5">
+          <from>Chairman</from>
+          <p eId="para_14">If the measure is not relevant, it will not be adopted.  If it is relevant, it will be revised.  I propose that it be noted.  Is that agreed?  Agreed.</p>
+          <p eId="para_15">It is proposed that the following measure requires no further scrutiny and should be noted: COM (2008) 174.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_6">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_16">This is a proposal for a Council decision establishing the position to be taken on behalf of the European Community on the interpretation of Article 14 of the Aarhus Convention which Ireland has not ratified.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_17">Is it agreed that we discuss the matter in private session?  Agreed.</p>
+          <p eId="para_18">The joint committee went into private session at 11.48 a.m. and resumed in public session at 11.50 a.m.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_8">
+          <from>Chairman</from>
+          <p eId="para_19">Is it agreed that COM (2008) 183, COM (2008) 217——</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_9">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_20">In regard to COM (2008) 217, again, this adjusts with effect the weightings applicable to the remuneration and pensions of officials and other servants.  Given what is happening in Ireland, I would like more information on this.  We are talking about pay freezes for everybody, bar Ministers and the like.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_10">
+          <from>Chairman</from>
+          <p eId="para_21">We will defer that matter until next week also.</p>
+          <p eId="para_22">Is it agreed that COM (2008) 244, COM (2008) 247, COM (2008) 249 and COM (2008) 250 do not warrant further scrutiny?  Agreed.  There are no proposals to be sent to sectoral committees for their information.  Is it agreed to note CFSP (2008) 368, CFSP (2008) 369 and CFSP (2008) 379?  Agreed.</p>
+          <p eId="para_23">Next on the agenda are Title VI (TEU) and Title IV (TEC) measures.  The proposal for a Council decision aims to reinforce the role and capacities of Eurojust.  It provides for an emergency co-ordination cell at Eurojust, the conferring of a range of powers on Eurojust national members, a Eurojust national co-ordination system, as well as specific obligations to provide certain information for Eurojust.  The principal amendments to the 2002 and 2003 decisions are as follows: to provide for a national member to be given increased powers, notably those of ordering a search and seizure, and to be appointed on a full-time basis with a fixed term of at least four years; an emergency cell for co-ordination; and access by national members to national databases.</p>
+          <p eId="para_24">The Government agrees that Eurojust's role needs to be strengthened.  However, there are a number of elements in the proposal that may need to be amended from an Irish perspective.  This is a Title VI measure under the Treaty on European Union 1992 and requires unanimity to be agreed by member states.  In accordance with Article 29.4.6° of the Constitution, the Department would have to bring the final proposal to both Houses for agreement of an opt-in motion before Ireland could formally agree to take part in the measure.  It is, therefore, recommended that the proposal warrants further scrutiny for the following reasons: (justice and home affairs proposals are of public concern — JHA law raises important questions about where to strike the right balance between the protection of civil liberties and effective law enforcement; scrutiny of the proposal at this stage allows the Oireachtas to consider the Minister's negotiating position and any views members may have to be reflected while the proposal is being actively considered; and the changes envisaged in the proposal are legally and politically important.  It is also recommended that in order to assist the committee in its detailed examination of the proposal, the Minister for Justice, Equality and Law Reform or his officials be invited to attend before it to offer their views.  Is that agreed?  Agreed.</p>
+          <p eId="para_25">On early warning notes, is it agreed that EWN: C138/12, EWN: C226/04, EWN: L143/13, and EWN: L144/14 do not warrant further scrutiny?  Agreed.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_11">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_26">A number of notices relate to anti-dumping proposals.  Perhaps we can hold a session to explain what is involved in some of them and what role we can play.  It is usually proposed that they do not warrant further scrutiny.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_27">Is the Deputy referring to enterprise and trade measures?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_13">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_28">Yes.  I refer to anti-dumping proposals which arise for scrutiny.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_29">We can contact the Department for an opinion.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_15">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_30">I do not suggest discussing this batch but the next.  Perhaps somebody can come before the committee to explain what lies behind them.  Every time we have a session there seem to be a number of anti-dumping measures or proposals for reviewing existing arrangements.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_31">We will note the Deputy's concerns and will ask the Department to provide us with a note on the issues at the next meeting at which its officials are present.</p>
+          <p eId="para_32">No. 7 is related to No. 5.1, which has been proposed for further scrutiny.  No. 8 is proposals proposed for forwarding to sectoral committees for observations, to be returned to the joint committee, preferably within four weeks but within six at the latest.  No. 9 is proposals proposed for forwarding to sectoral committees for detailed scrutiny, of which there is none.</p>
+        </speech>
+        <summary eId="sum_5">Sitting suspended at 11.57 a.m. and resumed at 11.59 a.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Passenger Data: Discussion. </heading>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_17">
+          <from>Chairman</from>
+          <p eId="para_33">I welcome Mr. Martin Power from the Department of Justice, Equality and Law Reform.</p>
+        </speech>
+        <speech by="#" eId="spk_18">
+          <from>Mr. Martin Power</from>
+          <p eId="para_34">I am a principal officer and the head of the Crime 3 division at the Department of Justice, Equality and Law Reform.  I am accompanied by Mr. Denis Byrne, who is an assistant principal officer in the international policy division of the Department.</p>
+          <p eId="para_35">I will begin by outlining some of the background factors that led to the development of the proposals in the draft framework decision on the use of passenger name records, PNRs, for law enforcement purposes.  According to the impact assessment carried out by the EU Commission in advance of publishing its proposal for a framework decision, terrorism constitutes one of the greatest threats to security, peace, stability, democracy and fundamental rights and these are precisely the values on which the European Union itself is founded.  Added to this is the fact that free movement of people, goods and services brings with it the inevitable exploitation of opportunities by terrorist and criminal groups to carry on their illegal activities.</p>
+          <p eId="para_36">Against this background, the European Union's commitment to create an area of freedom, security and justice brings with it the responsibility to meet the challenges presented by the threat from terrorism and serious criminality.  The question is how this can be achieved.  First, it is necessary to recognise that some challenges cannot be overcome by any one member state acting alone.  It makes perfect sense, therefore, for the member states to co-operate and act together to find solutions to particular common problems.</p>
+          <p eId="para_37">Sharing information is a key element in enabling effective action to be taken against terrorist threats or illegality affecting two or more member states.  One source of valuable information is the passenger name record which is collected in respect of individuals undertaking international air travel.</p>
+          <p eId="para_38">The benefit of sharing and processing PNR data for law enforcement purposes is that they can be checked against watch lists and identify individuals who are known terrorists or criminals, and their associates, who are entering the territory of the European Union.  In this way the citizens of the European Union and its member states can be better protected from harm by these groups.</p>
+          <p eId="para_39">I will outline the provisions of the proposed framework decision and rather than go through each article of the framework decision, I propose to deal with it under the following headings: What is the objective of the proposal? What does it involve? How are the rights of individuals protected?</p>
+          <p eId="para_40">The objective of the proposal is set out clearly in Article 1.  It states that the objective is to make available passenger name record data of flights scheduled to enter or leave the territory of at least one member state of the EU for the purpose of preventing, detecting, investigating and prosecuting terrorist offences and serious crime.  What does this involve?  Each member state will have to designate what is called a passenger information unit.  Its function will be to collect the PNR from the air carriers, analyse it for the purpose of risk assessment and share it with the competent authorities in other member states as appropriate.  This sharing will only be for the purpose of preventing, detecting, investigating or prosecuting terrorist offences and serious crime.  The elements of PNR data to be made available by air carriers are set out in the annex to the draft proposal.  However, air carriers will not be required to collect additional data to that which they collect at present.  Therefore, even where they collect less data to that set out in the annex, this proposal does not impose an obligation to amend their procedures and collect the additional data.</p>
+          <p eId="para_41">To enable the objective of the framework decision to be achieved, there will be an obligation on carriers to make the PNR available to the passenger information unit of the member state the flight is entering, departing or even transiting.  The information is to be made available 24 hours before scheduled departure and immediately after flight closure.  In certain cases the passenger information unit may require an air carrier to make the information available prior to the 24 hours stipulated.  Such circumstances could arise in response to a specific and actual threat.  PNR data and analytical information may be transmitted to third countries in certain limited circumstances for the purpose of preventing, detecting, investigating or prosecuting terrorist offences and serious crime.</p>
+          <p eId="para_42">Under the framework decision, PNR data provided to a passenger information unit may be retained for a period of five years.  Thereafter, the data must be moved to an inactive database, with restricted access, for a further period of eight years.  These time periods are the subject of a number of reservations, of which Ireland has one.  They will require more consideration.  In deciding on the eventual periods for retention it will be necessary to consider the proportionality of the specified time having regard to the aim sought to be achieved.</p>
+          <p eId="para_43">The third point is the question of how the rights of individuals are to be protected.  The framework decision contains stringent data protection provisions and protection for individuals whose data is transmitted or processed under it.  The framework decision makes it clear that any data received by the passenger information unit which would reveal the racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership or health or sexual orientation of the person concerned will be deleted immediately upon receipt.  No decision which produces an adverse legal effect concerning any person or significantly affecting that person will be taken based solely on the automated processing of the PNR data.</p>
+          <p eId="para_44">The recitals make it clear that the transfer and processing of PNR data between passenger information units will be subject to the data protection safeguards in the framework decision on the protection of personal data processed in the framework of police and judicial cooperation in criminal matters.  The recitals also stipulate that more stringent rules on the possible use of the PNR data are contained in the present instrument.</p>
+          <p eId="para_45">These rules are set out in Chapter III.  It provides that data received by passenger information units can be processed only for the purposes of preventing, detecting, investigating or prosecuting terrorist offences or serious crime.  It excludes processing based on a person's race or ethnic origin, religious or philosophical belief, political opinion, trade union membership, health or sexual orientation.</p>
+          <p eId="para_46">There is a requirement for the passenger information unit to log all transmissions of PNR data.  These logs are to be made available to member states' data protection supervisory authorities.</p>
+          <p eId="para_47">Air carriers will have to inform passengers on international flights that PNR data are being provided to passenger information units and the purpose for which this is being done.  Individuals whose data is transmitted will receive the following protection: the right to know if data related to them has been transmitted to an authority responsible for the prevention, detection, investigation or prosecution of terrorist offences or serious crime; that all necessary verification has taken place; the right to have incorrect data rectified; the right to have data which was wrongfully received by a passenger information unit deleted; the right to compensation where data is unlawfully processed; and the right to seek judicial remedy for any breach of member states' data protection rules.  Member states are also obliged to ensure that their measures implementing the framework decision are subject to monitoring by an independent supervisory authority.</p>
+          <p eId="para_48">The framework decision requires member states to ensure that the passenger information units adopt the necessary security measures to prevent unauthorised access, reading, copying, inputting or modification of data and that persons with access to the data have access only to the level necessary to carry out their duties.  Systems must also be in place to verify which personnel have inputted the data and for proper back-up in the event of faults arising.  The provisions in Chapter III, therefore, provide a high level of data protection for individuals and security of the data itself.</p>
+          <p eId="para_49">The remainder of the framework decision deals with such matters as common protocols and encryption standards for the transmission of data.  These protocols and encryption standards will be adopted by the Commission, assisted by a committee of member states' representatives.  There are also standard provisions concerning implementation — two years after adoption — and review of its operation after three years.</p>
+          <p eId="para_50">When this proposal was initially presented by the Commission, the advice of the Attorney General was sought.  That advice, based on the first draft of the framework decision, indicated prior approval of the Oireachtas will be required in accordance with Article 29.4.6° of the Constitution before Ireland can agree to adopt the proposal.  Several articles will require legislation.  The measures in the proposal are proportionate to the aim sought to be achieved.  When the final draft of the proposal emerges it will be necessary to consult further with the Attorney General on the full implications for Irish law and what legislative measures will be necessary to implement it.</p>
+          <p eId="para_51">The proposal aims to ensure a common standard is put in place for the transmission of PNR data to the relevant member states' authorities for the purpose of preventing, detecting, investigating or prosecuting terrorism and serious crime.  The objectives of the proposal are based on the premise that terrorism and serious crime constitute serious threats to security, peace, stability, democracy and fundamental rights.  Certain challenges are of a scale or type which makes it necessary to adopt an EU-wide approach.  The objectives of this framework decision are such that they cannot be effectively achieved by the member states acting alone.</p>
+          <p eId="para_52">The framework decision represents an important addition to the wider aim among EU member states of maximising the sharing of relevant, available, information to ensure effective law enforcement action against all forms of criminality.  It recognises that this involves some interference with individual rights and freedom.  However, taking into account the provisions for the protection of the data that are shared under the proposal, it represents a proportionate response to the threats intended to be countered.  The incoming French Presidency has indicated that further discussion will take place with the European Parliament.  There will also be discussions with the airline industry on the possible implications of the proposal for them.  It is likely that there will be consultation with relevant data protection and supervisory authorities.  The outcome of this process will probably result in a revised draft being prepared, which will then have to be considered fully in a working group.  No time frame has been proposed for this process.</p>
+          <p eId="para_53">If committee members have any questions on my presentation, I will be happy to try to answer them.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_19">
+          <from>Chairman</from>
+          <p eId="para_54">I thank Mr. Power for his detailed and impressive presentation.  I welcome the Data Protection Commissioner, Mr. Billy Hawkes.</p>
+        </speech>
+        <speech by="#" eId="spk_20">
+          <from>Mr. Billy Hawkes</from>
+          <p eId="para_55">I thank the Chairman for inviting me to give my views on the European Commission's proposal for a Council framework decision on the use of passenger name records for law enforcement purposes.  I have provided the committee with a copy of the opinion on the proposal that was adopted in December 2007 by the data protection authorities of all EU member states.  I fully endorse this opinion and my presentation will reflect the main points in it.</p>
+          <p eId="para_56">We all support reasonable and proportionate measures to counter violence perpetrated against innocent people, but such measures should represent a proper balance between the need to combat such illegality and the rights of the innocent majority to go about their daily lives without undue interference by the State.  In my opinion, and that of my EU colleagues, the Commission proposal fails this test.  The proposal involves an obligation on air carriers to transmit to a state authority, called a "passenger information unit", the PNR information that the passenger has provided to the air carrier in respect of any journey by air into or out of the European Union.  The information typically includes contact details, such as address, phone number and e-mail, as well as payment information, such as credit card details.  Under the proposal, the information has to be retained by the passenger information unit for a total of 13 years.</p>
+          <p eId="para_57">Such information is given by a passenger for the purpose of the provision of a service, namely air travel.  The Commission proposal is that this information should be transmitted to state authorities for a totally different purpose, the combating of what is described as terrorism and organised crime.  It is a basic data protection principle that information collected for one purpose should not be used for another purpose and should be deleted when no longer required for the purpose for which it was collected.  The Commission proposal offends against this basic principle.  Under the proposal, air carriers will have no choice but to hand over a complete record of an individual's movements in and out of the European Union to a state entity that will retain it for 13 years, and not only a record of travel, but also of contact and payment information.</p>
+          <p eId="para_58">Many regular travellers would have difficulty recalling where they had travelled to, even in the past year.  With this proposal, the state will have a detailed record of all such travel in and out of the European Union, and for a period going back 13 years.  Therefore, whether it is a business trip to Singapore, a shopping trip to New York or a holiday in Morocco, the state will have full details.  Can this invasion of individual privacy be considered a proportionate response to threats from the small number who may be tempted to engage in terrorism or organised crime?</p>
+          <p eId="para_59">One must also have concern for the ability of the state to protect the confidentiality of such information.  Recent cases investigated by my office have, unfortunately, demonstrated that deliberate or inadvertent leaking or misuse of such information is a significant risk.  Experience in other EU countries is no different.</p>
+          <p eId="para_60">The proposal follows hard on the steps of the 2004 advance passenger information directive, which is already in force in most member states.  Under this measure, passport and other details of passengers coming into the European Union must be provided in advance.  There are already concerns about the proportionality of this measure.  It seems strange that, even before any evidence is available on the usefulness of the API directive, we now have this further measure involving a more serious encroachment on privacy.</p>
+          <p eId="para_61">There is little hard evidence of the actual usefulness of PNR passenger data in combating terrorism or organised crime.  All we are presented with is general comments that such information is useful, with a small number of examples.  There is even less evidence of the additional utility of PNR data over the more reliable API data that is already being collected.  The result is that a key test under European law — that of proportionality — does not seem to be met.  Even if one were to accept the case presented for this proposal — I do not — the protection provided for the innocent majority who have nothing to do with terrorism or organised crime is vague and inadequate.  These deficiencies are spelled out in the written opinion my EU colleagues have already delivered and which has been provided to the committee.</p>
+          <p eId="para_62">If this proposal is implemented, we will have taken a further step to what has been called the surveillance society, where our day-to-day activities are constantly monitored and our private space is more and more restricted.  We already have a situation, under data retention law, where the details of who we communicate with electronically is compulsorily stored, in case it would be useful for the investigation of crime.  With this proposal, our international travel movements will be monitored by the State for the same reason.  Can it only be a matter of time before this is extended to all of our movements?  The proposal is also part of a continuum of measures which, in the name of the fight against illegal activity, involve extensive collection of personal information.  Such proposals include further collection of information from international travellers and monitoring of their movements, including through the so-called e-borders project.</p>
+          <p eId="para_63">I understand the airline companies have made written submissions to the committee, as opposed to making a presentation here.  I imagine those submissions point out the costs the proposal will impose on such commercial entities, which again is a continuation of a State practice to impose costs on commercial entities in pursuit of a State objective.  I hope the committee will consider carefully whether this is a proposal that merits Ireland's support at EU level.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_21">
+          <from>Chairman</from>
+          <p eId="para_64">I thank Mr. Hawkes for his comprehensive report.  On the question of the submissions of the airline companies, they sent in detailed submissions, but we are disappointed they are not in attendance.  Having listened to the submissions of Mr. Power and Mr. Hawkes and their concerns, it is clear this proposal will have a significant impact.</p>
+          <p eId="para_65">Mr. Hawkes mentioned recording information on passengers moving into and out of Europe.  I assumed data was only being recorded on people travelling out of Europe, but it appears to cover all movement.</p>
+        </speech>
+        <speech by="#" eId="spk_22">
+          <from>Mr. Billy Hawkes</from>
+          <p eId="para_66">Yes.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_23">
+          <from>Chairman</from>
+          <p eId="para_67">With regard to the passenger information unit, how does Mr. Power see that operating?  Will commercial information from competing airlines be shared among everybody in the trade?  Information will be stored for 13 years, including credit card and transaction details.  Will the unit recording that information be run separately within the State or is there one database to which the information will go?  How will the information be validated?  If somebody provides incorrect information, is it possible the unit would then store the incorrect information?</p>
+        </speech>
+        <speech by="#" eId="spk_24">
+          <from>Mr. Martin Power</from>
+          <p eId="para_68">A passenger information unit will be established by each member state for the purpose of receiving the data and carrying out its own——</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_25">
+          <from>Chairman</from>
+          <p eId="para_69">What costs are involved?  They are an important factor.  The cost of setting up an office of that nature will be significant.</p>
+        </speech>
+        <speech by="#" eId="spk_26">
+          <from>Mr. Martin Power</from>
+          <p eId="para_70">There will be cost implications.  I envisage that what will happen in Ireland's case is that the passenger information unit will be established within the Garda Síochána.  Its role will be to receive the data, analyse it and carry out risk assessments under the framework decision for the purpose of identifying potential threats from terrorism or serious crime.  The retention period is still a matter of discussion.  Ireland indicated at EU working group level that the five-year initial term and the eight-year subsequent term in an inactive database are issues about which we have concerns.  The matter will, therefore, require further consideration.  The French Presidency has indicated that it will carry out some further consultations, including with the data protection supervisors.  I expect that is one issue that will be on the agenda.  The issue comes down to a question of proportionality, whether it is proportionate to the risk that it seeks to offset.</p>
+          <p eId="para_71">With regard to——</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_27">
+          <from>Chairman</from>
+          <p eId="para_72">Mr. Hawkes referred to the issue of proportionality.  Does the directive pass that test?</p>
+        </speech>
+        <speech by="#" eId="spk_28">
+          <from>Mr. Martin Power</from>
+          <p eId="para_73">It seems to at first.  The initial five-year period is a primary retention period during which the data will be accessed and used for the purpose of risk assessment, profiling and so on.  The second period of eight years is in an inactive database.  Access to that database is only on specific grounds, where it is shown that access to the data is necessary in relation to a specific threat.</p>
+          <p eId="para_74">It is a matter for others to decide eventually whether it is proportionate.  It is a matter for further discussion.  Ireland is not necessarily happy with a five-year and an eight-year period.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_29">
+          <from>Chairman</from>
+          <p eId="para_75">I have one final question before I call on Deputy Costello.  In regard to the appendices at the back where there are a number of different categories Mr. Power said it would not be mandatory to qualify on those to process the different subsections, that it would be based only on the information currently being recorded.  Is that not a contradiction?</p>
+        </speech>
+        <speech by="#" eId="spk_30">
+          <from>Mr. Martin Power</from>
+          <p eId="para_76">The information set out in the annexe is what is described as basic information that most airlines probably collect anyway.  Where it is not mandatory to fill in a field on a reservation form, one is entitled to leave it blank.  For the sake of argument, if the booking form requires one to set out, say, a seat preference, one does not have to provide that information so it is not, therefore, transmitted.  If an airline does not collect certain of the data set out in that form, the airline is not obliged to change its procedures to collect it to conform with the framework decision.  In so far as that data is collected by an airline at the moment, it will transmit the information to the passenger information unit.  If it does not currently collect that data, it does not have to change its procedures to do so.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_31">
+          <from>Chairman</from>
+          <p eId="para_77">On a point of record, when one goes through the data for all passengers one has up to 25 different categories.  There is the PNR record, date of reservation, date of intended travel, name address and contact information, all forms of payment information, all travel itineraries, frequent flyer information, travel agent, travel status of passengers, general remarks, ticketing, seat number, coach hire information, all baggage information, number and other names of travellers, all collected advanced passenger information, all historical changes to the PNR and so on.  There is additional information in regard to unaccompanied minors, the name and gender of the child, age, language, contact details.  There is an enormous amount of information involved.</p>
+        </speech>
+        <speech by="#" eId="spk_32">
+          <from>Mr. Martin Power</from>
+          <p eId="para_78">There is, but in many reservations there can be up to 60 or more fields for collection of information.  This hones it down to the minimum required, which is one third of those.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_33">
+          <from>Chairman</from>
+          <p eId="para_79">Why is the API data already collected not sufficient for checking passenger names against lists that are currently available?  I am astonished.  Is that information not currently available?</p>
+        </speech>
+        <speech by="#" eId="spk_34">
+          <from>Mr. Martin Power</from>
+          <p eId="para_80">API data gives basic biographical information.  That API data is only collected at the point of checking in for one's flight, and it is the data that is collected from machine readable passports.  It is only provided at the point at which one boards the aircraft.  PNR data under this framework is required to be provided up to 24 hours before departure time and that allows more time for profiling.  Taken together with API data, it can help to identify patterns, risks and so on.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_35">
+          <from>Chairman</from>
+          <p eId="para_81">That is 24 hours.</p>
+        </speech>
+        <speech by="#" eId="spk_36">
+          <from>Mr. Martin Power</from>
+          <p eId="para_82">That is the PNR data provided up to 24 hours beforehand.  The API data is collected only when passengers are boarding the aircraft or when they check in at the airport.  API data is essentially used as a border control and immigration mechanism.  The PNR data is intended to be used for the purpose of terrorist profiling and serious crime.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_37">
+          <from>Chairman</from>
+          <p eId="para_83">Why was the wording of the proposal changed so that it now refers to the use of data for the detection of serious crime as opposed to organised crime, as is stated in the original proposal?</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from>Mr. Martin Power</from>
+          <p eId="para_84">The reference to organised crime was thought not to be specific enough.  Organised crime can be any one of a number of things.  It can be just two people conspiring to rob a shop.  Serious crime is now defined by reference to the Europol directive and the European Arrest Warrant Framework Decision which sets our a list of offences — I understand there are 30 such offences — categorised as serious crime.  They are specified now under this revised draft of the framework decision by reference to the two earlier decisions.  It is now a fixed list of what serious crime constitutes.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_39">
+          <from>Chairman</from>
+          <p eId="para_85">Is that included in the appendices?</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from>Mr. Martin Power</from>
+          <p eId="para_86">No.  It is referenced back to the Europol convention and the European Arrest Warrant Framework Decision.  In article 2 of the European Arrest Warrant Framework Decision there is a list of offences described as serious offences.  Those are the same offences that apply here.  The include participation in a criminal organisation, terrorism, trafficking in human beings, sexual exploitation of children and child pornography, illicit trafficking in narcotic drugs.  There is a list of approximately 30 offences.  Those are now serious offences for the purpose of this PNR decision.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_41">
+          <from>Chairman</from>
+          <p eId="para_87">That is the definitional change.</p>
+        </speech>
+        <speech by="#" eId="spk_42">
+          <from>Mr. Martin Power</from>
+          <p eId="para_88">That is now the definition.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_43">
+          <from>Chairman</from>
+          <p eId="para_89">There are three other members offering, Deputies Costello, English and Ó Snodaigh.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_44">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_90">I welcome officials from the Department of Justice, Equality and Law Reform and the Data Protection Commissioner and I thank them for their presentations.  We are all concerned about serious crime and terrorism and part and parcel of our role as legislators is to ensure adequate legislation is in place to protect our citizens against them.</p>
+          <p eId="para_91">We are discussing certain measures that are justified in the context of the need for protection against terrorism and serious crime.  However, the first question that comes to mind is whether these measures are likely to be effective.  It seems strange that the measures are only proposed for one mechanism of transport, namely air carrier transport.  The vast bulk of transport between countries is not by air but by land, sea, train, road and bus, both inside and outside the European Union.  If this is to be an effective mechanism in combating terrorism and serious crime why is it not applied to the whole range of transport modes, by which vastly greater quantities of people commute?  If a mechanism of this nature was put in place anybody who was involved in terrorism and had a little bit of common sense would quickly shift to another mode of transport to avoid aviation, were it to be effective.  Can the delegates justify the measure in that context?  On the other side of the coin there are questions about proportionality and interference with privacy and the rights of citizens of various countries.</p>
+          <p eId="para_92">Is the measure feasible in operational terms or is it likely to be too unwieldy?  There are 27 different states with 27 different systems and 27 different sets of security measures and related services.  I do not trust some of the new accession countries with large quantities of personalised and commercial data.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_45">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_93">I would be more worried about some of the original members.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_46">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_94">Among the major requirements imposed on the new accession countries were greater justice provisions and anti-corruption mechanisms and there were delays in Bulgaria and Romania because their measures were inadequate.  Do we have a proper assessment of these issues or a model that would be secure in that context?  As the Data Protection Commissioner said:</p>
+          <p class="indent_1" eId="para_95">Recent cases which have been investigated by my office have, unfortunately, demonstrated that deliberate or inadvertent leaking or misuse of such information is a significant risk.  Experience in other EU countries is no different.</p>
+          <p eId="para_96">In such circumstances, why is there not a centralised mechanism, rather than discrete mechanisms?  Could quality control be better with a centralised mechanism?  Is there any quality control in regard to individual member states?  There is an assertion that there will be an independent monitoring operation but are the existing security mechanisms sufficient?  What is an independent monitoring operation?</p>
+          <p eId="para_97">The representative of the Department of Justice, Equality and Law Reform stated that legislation would be required.  Does that mean primary legislation, requiring a transposition of the framework document, or simply approval by the Houses of the Oireachtas, with certain articles requiring legislation?  Will the entire framework be transposed into Irish legislation and the Bill come before the Dáil for all its provisions to be debated?  I ask Mr. Power to clarify this point.</p>
+          <p eId="para_98">The committee received submissions from Aer Lingus and from Ryanair.  Aer Lingus was particularly concerned about the requirement that not only had it to produce the information but it had to verify and validate this information.  This seems nonsensical for an air carrier.  I do not understand how any commercial business would be able to collect information on the literally millions of people who travel every year and verify that the information supplied was correct.  This concern on the part of Aer Lingus seems to be reasonable as is its concern about the lack of a centralised retention base for this data.  Ryanair's consideration seems to me to be absolutely valid, that the low cost carriers were not consulted and that approximately 50% of the people who would be affected in that respect were not regarded as relevant stakeholders.  Is there any reason a huge operation such as Ryanair should not be fully consulted on a framework document of this nature?</p>
+          <p eId="para_99">The advance passenger directive may not be as streamlined as the PNR but there is a significant flaw in its presentation in that there has been no state by state assessment of the value of that measure in fighting crime and terrorism before the further step is taken up the ladder towards a further reduction in individual privacy and a further encroachment on the civil liberties of member states and in implementing the new mechanism.  I would have expected some concrete evidence to have been presented to us as legislators regarding a measure as substantial as this, with all its ramifications and implications.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_47">
+          <from>Chairman</from>
+          <p eId="para_100">I thank the Deputy for those comprehensive questions.</p>
+        </speech>
+        <speech by="#" eId="spk_48">
+          <from>Mr. Martin Power</from>
+          <p eId="para_101">If I understood it correctly, the first question was why this measure only applies to airlines and not to other forms of transport, such as rail, road and so on.  The primary reason is that airlines have a structured system for collecting the kind of data, passenger information record, which rail and certainly road would not gather.  There is some gathering of PNR data by sea carriers, I understand.  For example, the United Kingdom looked to have it extended beyond airline information to information collected by rail operators and sea carriers.  However, the main reason is that the airlines have a system in place for collecting this data in a systematic way and it is available through the PNR system.  Not all rail carriers would adopt such a system——</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_49">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_102">Surely the response to that is if there is no system in place, then one should be put in place?  The system is only in place for air transport because there is an existing mechanism in place which permits it but this does not answer the question about the effectiveness of the system, if the majority of commuters do not travel by air between countries but by a variety of other transports.  It is full of loopholes.</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from>Mr. Martin Power</from>
+          <p eId="para_103">Part of the answer is that road, rail and sea traffic is monitored in other ways.  The use of PNR data in this context is new but it is not as though the relevant authorities who have responsibility for combating terrorism and serious crime are not already making efforts to prevent people using air traffic or air transport to move between countries and to bring equipment and other people into countries, in the same way as they might do by road or rail.  These transport areas are being monitored, as far as I am aware; I am sure they are being monitored by authorities responsible for combating these forms of criminality.</p>
+          <p eId="para_104">The difference here is that data is available which is admittedly collected in a commercial environment.  They can be used by the authorities concerned to carry out better profiling and risk assessment.  If data are available for one form of transport but not for another, it is better to use them for that form.  If data come on stream for other forms of transport, they can be examined in the same context.</p>
+          <p eId="para_105">One aspect about this framework decision is that it is not imposing an obligation, in this case on airlines, to collect data which they are not currently collecting.  If an airline is operating a system under which it is collecting only two or three pieces of information, the framework decision does not require them to collect all 19 pieces set out in it.  If they do collect all 19 pieces, they will be required to transmit them.  It seems a little odd to inform rail and sea carriers to collect this data if they do not currently collect it.  That is the reason the framework decision is concentrating on air transport.  For example, the United Kingdom wanted to have it extended to cover sea and rail travel, in so far as such carriers do collect data similar to PNR data.  It is not necessarily excluded; it is just not mentioned in the framework decision.</p>
+          <p eId="para_106">As to whether there will be 27 different systems for transmitting and processing data, part of the purpose of the framework decision is to ensure harmonisation in this regard.  Chapter IV on comitology states there will be common protocols and encryption systems.  The reason for this is to get over the issue identified by Deputy Costello of member states and airlines using different systems.  The framework decision attempts to secure a common agreement across all 27 member states that data will be collected in a certain way and transmitted to the passenger information units under particular protocols and encryption systems.  It means a common system instead of 27 different ones.</p>
+          <p eId="para_107">The framework decision will require primary legislation from the Oireachtas.  Article 5 imposes an obligation on the carriers to provide data.  If this is to be implemented correctly, it will require primary legislation.  The final form of the framework decision, when it emerges following further discussions, will determine the extent of that legislation.  I do not know what this will entail but it will require further consideration by the Attorney General.</p>
+          <p eId="para_108">I do not know, for example, why small airlines may not have been consulted directly.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_51">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_109">Ryanair is a large airline.  It is not exactly a small operator.</p>
+        </speech>
+        <speech by="#" eId="spk_52">
+          <from>Mr. Martin Power</from>
+          <p eId="para_110">Many do not want to consult it about various matters.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_53">
+          <from>Deputy Damien English</from>
+          <p eId="para_111">Perhaps they should.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_54">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_112">There might be an advantage to it.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_55">
+          <from>Deputy Damien English</from>
+          <p eId="para_113">It is the best at it.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_56">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_114">It is a stakeholder.</p>
+        </speech>
+        <speech by="#" eId="spk_57">
+          <from>Mr. Martin Power</from>
+          <p eId="para_115">Ryanair is a stakeholder in this process.  My understanding from the impact assessment and prior documentation is that the Commission consulted the umbrella organisations for airlines, including the International Civil Aviation Organisation.  I presume it would be normal for it to consult some specific airlines which are larger operators.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_58">
+          <from>Chairman</from>
+          <p eId="para_116">The European Low Fares Airline Association, ELFAA, of which Ryanair is a member, was not consulted.  It is extraordinary that this umbrella organisation was not asked for a submission on the proposal.</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from>Mr. Martin Power</from>
+          <p eId="para_117">I do not know if it was asked.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_60">
+          <from>Chairman</from>
+          <p eId="para_118">It is a concern.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_61">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_119">There is a report that states it was not consulted.</p>
+        </speech>
+        <speech by="#" eId="spk_62">
+          <from>Mr. Martin Power</from>
+          <p eId="para_120">I know the Commission sent out questionnaires to various airlines and supervisory authorities across the European Union to obtain their views before the framework decision was drafted.  Whether that included Ryanair and its umbrella organisation and they chose not to, I do not know.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_63">
+          <from>Chairman</from>
+          <p eId="para_121">It is a concern for the committee.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_64">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_122">If it is true, as Ryanair states in a submission to the committee, that two of the largest of the four airlines in Europe were not consulted, it suggests not all stakeholders were consulted.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_65">
+          <from>Chairman</from>
+          <p eId="para_123">Deputy Costello's point is correct.  The questionnaire was sent to the data protection authorities of all member states, the European Data Protection Supervisor, the Association of European Airlines, the Air Transport Association of America, the International Air Carriers Association, the European Regional Airlines Association and the International Air Transport Association.  The association of low fares airlines, ELFAA, is not listed on this circular and this is extraordinary.</p>
+        </speech>
+        <speech by="#" eId="spk_66">
+          <from>Mr. Martin Power</from>
+          <p eId="para_124">The current Presidency has decided it will go back and consult further with various people, including the airline industry in Europe.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_67">
+          <from>Chairman</from>
+          <p eId="para_125">That might be one of the recommendations which this committee will make.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_68">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_126">All the stakeholders.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_69">
+          <from>Chairman</from>
+          <p eId="para_127">We would be concerned that they would come up with such a far-reaching decision and not include the biggest carriers in Europe who are not listed as a briefing body.</p>
+        </speech>
+        <speech by="#" eId="spk_70">
+          <from>Mr. Martin Power</from>
+          <p eId="para_128">I am not familiar with Ryanair's routing schedule but it is important to bear in mind also that the proposal will refer only to flights that have an international external EU connection, if I may put it that way.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_71">
+          <from>Chairman</from>
+          <p eId="para_129">Mr. Hawkes said it referred to flights into and out of Europe.</p>
+        </speech>
+        <speech by="#" eId="spk_72">
+          <from>Mr. Billy Hawkes</from>
+          <p eId="para_130">Mr. Power is correct in saying it is only when one is travelling into or out of the EU and therefore not within the EU.</p>
+        </speech>
+        <speech by="#" eId="spk_73">
+          <from>Mr. Martin Power</from>
+          <p eId="para_131">It is not for flights within the EU.  If one is travelling from Dublin to London or Dublin to Paris——</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_74">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_132">Why are those beyond the European borders?</p>
+        </speech>
+        <speech by="#" eId="spk_75">
+          <from>Mr. Martin Power</from>
+          <p eId="para_133">Anything crossing the European borders.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_76">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_134">My last question was about the issue of the advance passenger directive which has not been assessed to show whether it has been effective in the fight against terrorism and serious crime.  What prior assessment has been done to justify the effectiveness of this particular measure?  Are there similar measures already in place and have they been assessed?</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from>Mr. Martin Power</from>
+          <p eId="para_135">The advance passenger initiative, API, is essentially data related to an individual and is supplied prior to that person's arrival at the border of the other member state.  It is collected only when the passenger is embarking the flight.  This data is taken from the passenger's machine-readable passport and includes name, date of birth, the passport issuing authority and the port of embarkation and disembarkation.  The primary purpose of API is to combat illegal immigration and to improve border control.  The PNR data is collected from a different source and its primary purpose is not necessarily border control or immigration but rather to combat terrorism and serious crime.  Furthermore, it is available up to 24 hours before departure, the purpose of which is to allow for some risk assessment to take place.</p>
+          <p eId="para_136">Taken together with API, ultimately the two sources of data can be checked against each other to see whether there are risks posed by particular passengers or individuals travelling with passengers.  The two work in tandem in that way.  PNR would give a wider basis for risk assessment.  In the case of API, one is dealing with an identified individual and one knows the person either is or is not a terrorist threat and this is also the case regarding serious crime involvement.  By using API, one is trying to discern patterns in travel, patterns in booking methods, which might reveal potential risks posed by individuals who are either operating in serious crime or terrorism.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_78">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_137">My question still stands.  Why has it not been assessed so that we could have the results of that assessment?  What has happened with those patterns?  Has it led to any detection and has this been effective?</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from>Mr. Martin Power</from>
+          <p eId="para_138">We are only now implementing PNR as a method of detecting terrorism and serious crime.  It is not currently done and this framework decision will be an attempt to do that.  A review mechanism is included which allows for a post-implementation review of how it might operate in that regard.  The review mechanism is intended to indicate how effective or otherwise the risk assessment has been.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_80">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_139">I will leave it at that.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_81">
+          <from>Deputy Damien English</from>
+          <p eId="para_140">My question follows on from Deputy Costello's questions.  It seems that Ryanair is left out of the negotiations.  This company and low-cost airlines have done more for European integration than anybody else and it really is time they were engaged with properly on new legislation and new directives.  This issue is regularly before this committee and it is regrettable.  It happens in Ireland as well.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_82">
+          <from>Chairman</from>
+          <p eId="para_141">There might be difficulties with co-operation.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_83">
+          <from>Deputy Damien English</from>
+          <p eId="para_142">Maybe so, but there is a common theme emerging that is never denied by those introducing the laws.  The committee needs to comment on this because it is ridiculous that this will keep happening.</p>
+          <p eId="para_143">It is proposed that airlines will have to transmit this information only if they are collecting it already.  If the proposal is so good, would it not make sense that they do it regardless?  If I were an airline executive, to save hassle I would decide to stop collecting the specific data before the proposal is implemented.  I am not convinced about the merits of this proposal.  I accept criminology techniques for profiling are advanced but it is not convincing if the proposal is not enforced for every airline.  Can an airline currently collecting all the data opt out at a later stage or will it be locked into the directive?  Is there any cost assessment for airlines or the passenger information units?  Any costs will have an impact on customers.  Air travel costs are already going up for other reasons.  Europe must stop adding more costs.</p>
+          <p eId="para_144">Deputy Costello argued for one centralised passenger information unit.  There are two benefits to this.  Ireland is small country and people are upset that their privacy is regularly encroached upon.  There is a fear that personal information can be passed around.  Confidentiality is an issue in a small country and it might be better to have a centralised unit to protect it.  It also seems to be an unnecessary cost to have a passenger information unit in every country.  Out of 27 member states, I cannot understand why there cannot be just the one unit.  It is like having a purchasing department in every section of the health service.  With modern technology it must be easier to centralise services.</p>
+          <p eId="para_145">Mr. Billy Hawkes said some countries are getting it right with secure information storage but there are question marks over others.  The experience in other EU member states is similar to that in Ireland.  Are there any countries getting it right from which Ireland can learn?</p>
+          <p eId="para_146">Passenger information must be given in advance as laid down in the API directive.  Can the laws be changed so the information is given at an earlier date?  I do not understand why it is not changed before the directive's review.  Is it expected that the review will not agree with this framework decision?</p>
+          <p eId="para_147">It was stated the data can be used to identify known terrorists and criminals.  Is that not done with existing data from passenger information?</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_84">
+          <from>Chairman</from>
+          <p eId="para_148">The committee can write to Ryanair noting the concerns raised and ask that its association will be involved in consultations about the framework decision.</p>
+        </speech>
+        <speech by="#" eId="spk_85">
+          <from>Mr. Martin Power</from>
+          <p eId="para_149">We were asked why we should not impose the obligation to collect the data on airlines, whether airlines might stop collecting it to avoid having to implement the directive and whether airlines could opt out subsequently.  My understanding is that the collection of data is for a commercial purpose.  Aer Lingus collects it for a commercial purpose, part of which is to know who will fly.  Some of the information is collected as part of a marketing process so that the airline can then target the customer and offer frequent flyers special deals and so on.  To the extent the airline collects the information, it shares it under this framework decision.  My understanding — this is not a legal interpretation — is that if the airline does not collect the data, it has no obligation to transmit what it does not have.  Therefore, it could opt out in theory.  The question is whether it is feasible to do so, but that is a commercial decision for the airline to make.</p>
+          <p eId="para_150">On whether it will cost airlines money, it will.  This is one of the primary reasons the incoming Presidency has decided it will consult further on the directive.  The question of costs arose.  It will clearly be an extra cost for airlines to have to set up systems and agree protocols and encryption systems to transmit the data.  This is one of the reasons for further consultation.</p>
+          <p eId="para_151">The question of a centralised unit arose and some member states are in favour of it.  One of the arguments in favour of the current system of a decentralised unit where national units carry out their own analysis is that countries only analyse data transmitted to them on people arriving in their country.  In that case we would not have a unit carrying out an analysis of every passenger entering the European Union centrally and then filtering out who needed to see or get the information.  We would deal with it on a national basis so that, for example, Ireland would be aware of who entered Ireland and could process the data for its own security purposes.  If it seemed there was a link with other countries, it could share the information, but the primary analysis would be, as it were, for the purpose of protecting Ireland.</p>
+          <p eId="para_152">This would involve a cost because every member state must set up a unit to collect the data.  In most countries there is probably a unit already in existence working on risk assessment and analysis.  It would be opportune to link into those units rather than establish brand new ones.  The framework decision states that countries will designate a unit and then call it a passenger information unit, but that does not mean it must be a new unit.</p>
+          <p eId="para_153">On the question of whether API can be transmitted earlier, perhaps it could.  The problem I perceive in that regard is that API information is taken from a passport.  I am not sure at what stage in the process of booking a flight that information is collected.  For example, if a person books a flight in January for a holiday in August, is it appropriate then to present one's passport for the purpose of having the API data extracted?  Currently, this is done at check-in, because that is the point at which the passenger presents himself or herself to the airline authority and declares he or she will board the flight.  That is the point at which it is appropriate for the airline to send the information, because it now has a passenger who will travel on the flight.  That is the reason API is transmitted at that time.</p>
+          <p eId="para_154">Watch lists are available on known individuals and API data would pick up on those.  However, with regard to unknown individuals or procedures that might be adopted for people to commit serious crimes or terrorism, such as trafficking and so on, certain patterns can be discerned from PNR data or reservations systems that may lead to identifying risk or identifying people at risk of being involved in serious crime or terrorism.  That is the basis on which PNR would be analysed, for the purpose of checking against watch lists.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_86">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_155">Mr. Power mentioned there would be additional costs and implications for passengers, which is quite obvious.  One of the additional implications for passengers is that if the data must be provided 24 hours in advance, it will rule out stand-by flights and what are called domestic flights in Nordic countries, namely, flights between Norway and Sweden and Norway and Denmark.  In those countries it is usual for people to go to the airport and get on a plane to Denmark, Oslo or wherever.  The case would be similar with regard to flights from Austria or elsewhere to Switzerland, which is outside the European Union.  This has significant implications for air travel within the broader Europe, so to speak, because according to this measure, everybody would be required to book flights 24 hours in advance.  I do not have great sympathy for Ryanair which has thrived on offering cheap flights and EasyJet offer stand-by flights.  This measure will have implications for such carriers.</p>
+          <p eId="para_156">With regard to the data retention period, the timeframe suggested is five years plus another eight years on stand-by and I have not noted this time frame being used before.  This would make a total of 13 years rather than five years.  In this computerised age one need only press a button and the information becomes active again.  I have major concerns about this and the fact that one of the articles allows for this data to be shared with a third country.  It is up to the passenger information unit to ensure the third country has the proper protocols and data protection measures but we have seen in the past year that even with data protection, data is misused or lost or found on tube trains.  These are my concerns in this regard.</p>
+          <p eId="para_157">Article 3(2) states that the passenger information unit must immediately delete information that would reveal racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership or data concerning health or sexual orientation.  This is to be welcomed.  I do not see why they would need to send such information in any case and it is bizarre that airlines are gathering such information.  In contrast, Article 11(a) lists the criteria for processing by the passenger information units of PNR data.  This is a slight contradiction because the information is supposed to be deleted once it is received.  One cannot have it both ways.  Who will ensure that this information is deleted upon receipt?  Why not delete it before it is sent?  The burden of cost is already being put on the airlines as already they must do some processing prior to sending this material.</p>
+          <p eId="para_158">The other aspect that should be borne in mind is the storage of a huge amount of data over a period of 13 years.  Those whose data is being stored have rights and some of these are covered in Article 11, sections (c) to (g).  Article 11(c) suggests that data subjects have access to some way of ensuring that the data is accurate.  This article should be amended to ensure that data subjects are informed if their data is forwarded.  It could be the case that everyone knows that in the future all data will be forwarded.</p>
+          <p eId="para_159">I recommend the deletion of a line in Article 11(d), paragraph 3.  It states that this communication may be waived where a reason pursuant to paragraphs 2(a) to (e) exists.  Those subsections are quite broad.  It would allow for somebody who has the data to transmit it.  The excuse would be national security and I can see that sentence being used in the face of every request for information.</p>
+          <p eId="para_160">Article 11(d) on the right to access, stipulates that member states may adopt legislative measures restricting access to information for the following reasons: to avoid obstructing official or legal inquiries, investigations or procedures; to avoid prejudicing the prevention, detection, investigation and prosecution of criminal offences or for the execution of criminal penalties; for protecting public security; for protecting national security; and for protection of the data subject or of the rights and freedoms of others.  That makes it more difficult for an individual to get any information held on him or her.</p>
+          <p eId="para_161">Article 11(e) deals with the right to rectification.  I have often raised the case of wrong data.  How does the individual ensure his or her data is correct not only in the holding country but in the other member states' passenger information units and other third parties?  Members may remember one of the McBrearty family was prevented from travelling to the US because the data on him held by the US authorities was not corrected.  Recently, an elderly British national was detained in an African state because the American authorities had confused him with someone else and supplied wrong information to that state.</p>
+          <p eId="para_162">No proper analysis has been done on existing PNR regimes.  In 2006 when dealing with PNR legislation, I recall it was revealed that ten flights that were diverted because of PNR data were actually false alarms because of inaccurate data.  The existing API directive should be reviewed so it can be determined if the aims of the framework decision are proportional.  Is there another mechanism that can be used to gain the same data and give the same level of security which is what is behind this?</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_87">
+          <from>Chairman</from>
+          <p eId="para_163">There are many concerns on this issue.</p>
+        </speech>
+        <speech by="#" eId="spk_88">
+          <from>Mr. Martin Power</from>
+          <p eId="para_164">Deputy Ó Snodaigh may be right that there may be a cost for the traveller.  I do not know if that is the case and I did not say it is.  I suspect there will be a cost element for the carrier.  Whether this is passed on to the traveller is another matter.</p>
+          <p eId="para_165">I do not believe the measure prevents stand-by passenger systems from operating.  The data will be transferred 24 hours beforehand, in so far as it is available.  However, the provision states the data will also be transferred immediately after flight closure.  That allows for passengers on stand-by to take a flight.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_89">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_166">I took it to mean that the data would be sent twice — 24 hours in advance and then after flight closure.  If the provision contained "and/or" it would be much clearer.</p>
+        </speech>
+        <speech by="#" eId="spk_90">
+          <from>Mr. Martin Power</from>
+          <p eId="para_167">That may be a drafting issue.  During the discussions on the decision, it was clear that it did not preclude passengers on stand-by.  PNR data will be transmitted twice in respect of passengers for whom the data is available 24 hours beforehand.  In respect of some passengers who catch late flights, they are transmitted at the time of flight closure.  They are transmitted only once for those passengers, at the last minute.  Therefore, stand-by passengers are not precluded from taking flights.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_91">
+          <from>Chairman</from>
+          <p eId="para_168">Deputy Ó Snodaigh's was right.  The 24-hour derogation will mean that anybody with any other intention will be on stand-by.  Is that not correct?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_92">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_169">With his or her suitcase.</p>
+        </speech>
+        <speech by="#" eId="spk_93">
+          <from>Mr. Martin Power</from>
+          <p eId="para_170">Data are transferred at the time the flight closes.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_94">
+          <from>Chairman</from>
+          <p eId="para_171">That was Deputy Ó Snodaigh's point; that is the real record.  Once a flight has closed, we have the accurate record.  Is that not the case?</p>
+        </speech>
+        <speech by="#" eId="spk_95">
+          <from>Mr. Martin Power</from>
+          <p eId="para_172">Yes, it is the record of those on the flight.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_96">
+          <from>Chairman</from>
+          <p eId="para_173">That is the accurate list, is it not?</p>
+        </speech>
+        <speech by="#" eId="spk_97">
+          <from>Mr. Martin Power</from>
+          <p eId="para_174">In so far as passengers have booked and their data were provided up to 24 hours before the flight — that data will have been analysed and, presumably, not have changed in the last 24 hours.  However, for passengers who might not have booked and whose data were not available 24 hours in advance, the data can be processed after flight closure because——</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_98">
+          <from>Chairman</from>
+          <p eId="para_175">Somebody could have booked 24 hours in advance and decided not to travel.  Would the list be amended?</p>
+        </speech>
+        <speech by="#" eId="spk_99">
+          <from>Mr. Martin Power</from>
+          <p eId="para_176">Yes.  The data would not be transferred a second time in those circumstances.  Therefore, the people concerned would be excluded.  I hope this clarifies the issue, to some extent, with regard to travel between Switzerland and Norway and EU countries.  Norway, Switzerland and Iceland normally opt in to these kinds of EU provisions and it is possible they will do so again.  It is possible the European Economic Area will cover these proposals.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_100">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_177">Norway and Switzerland were the examples I gave, but there are other east European countries to which people regularly fly back and forth.</p>
+        </speech>
+        <speech by="#" eId="spk_101">
+          <from>Mr. Martin Power</from>
+          <p eId="para_178">As I said, from the discussions with the working group, it appears those on stand-by are not precluded.  The Deputy may well be correct that this should be reflected by the use of the word "or" instead of "and".  We are also concerned about the retention period of up to 13 years mentioned by the Deputy.  This is an issue that must be considered further.  In the end, the proportionality aspect will decide what is the correct period.</p>
+          <p eId="para_179">On data protection and sharing information with third countries, the data protection standards provided for in the framework decision will apply for those persons whose data are shared with third countries which will be required to have in place systems and procedures with at least the minimum level of data protection required under EU legislation.  Therefore, one should have a right to have data corrected or deleted and have access to them for their one's own purpose and some form of redress in the event of a wrong.  These standards will apply to third countries to which it is proposed PNR data may be transferred.</p>
+          <p eId="para_180">It is intended that any sensitive data which could identify an individual from a certain perspective will be deleted and not used for processing for the purpose of arriving at an assessment of the individual concerned.  Perhaps Article 11a could be clarified further.  It is an issue we may have to look at to ensure the purpose for which Article 11a is included does not mean this sensitive information can be processed in some circumstances.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_102">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_181">I shall be brief because many of my questions have been answered.  I am primarily concerned about whether the proposal is a proportionate response.  Mr. Power has addressed this concern to some extent.  I am concerned about how the information will be used.  Is it possible that insurance companies could get hold of it when assessing the level of risk when an individual seeks insurance?  I am sure at this stage the answer is no, but we have seen circumstances where data have been lost or transported and misused in that way in other countries.</p>
+          <p eId="para_182">If it is Mr. Power's view that the proposal is a proportionate response that will lead to a safer environment, why has he not considered transferring data in respect of travel within Europe, particularly if it is believed the sending of PNR data will have a greater impact than what has been achieved through API?  We seem to be slipping down a steep slope in the shadow of the events of 11 September 2001, following which API emerged as a method of preventing the use of aeroplanes as weapons of destruction and murder.  We have now moved considerably further and are considering profiling.  If we take this to its ultimate conclusion, will we end up capturing data from a roadside intercept by members of the police force at routine checkpoints?  If one believes the capacity of one's back-end intelligence systems is good enough to prevent crime or terrorist attacks, and believes the way to resolve such criminal intentions is through profiling, why not take the ultimate step and stop everybody in the street and collect their personal data?  Mr. Power has suggested this is being applied in the case of air travel because the data already exists.  The data exists for the Eazy Pass tag people have on their cars and for the telephone calls they make on their cell phones.  Is this the beginning of a slippery slope into a nanny-state Europe?</p>
+        </speech>
+        <speech by="#" eId="spk_103">
+          <from>Mr. Martin Power</from>
+          <p eId="para_183">As the Deputy said, there is data from all sorts of sources that may be used eventually for all kinds of purposes.  In this context, we are dealing only with airline reservation information that will be collected and shared for the purpose mentioned.  I do not know anything about using information from people's mobile phones or Eazy Pass tags.  The proposal we are discussing has to do with international travel, where there may be a danger of people crossing the borders of the European Union in furtherance of some terrorist or serious criminal enterprise.  That is what the provision is intended to counter.  It is limited to an extent because it relies on PNR data.  At present, the proposal does not intend to seek data on all types of international transport.  I do not know whether other data will be used eventually, but under this proposal we are only talking about the use of PNR data for two specific purposes, namely, counter terrorism and preventing serious crime.</p>
+          <p eId="para_184">The Deputy asked why it is not being applied to travel within the European Union.  The decision was made in respect of where the bigger threat lay.  There are co-operation measures within the European Union between various police forces and other authorities that are intended to counter all types of criminal activity.  The view is that when people are travelling within the European Union, it makes little difference whether they travel by road, rail, sea or aircraft.  They are free to travel among the EU member states.  Whatever methods exist currently for checking on those who might be engaged in terrorist or serious criminal enterprise stand.  This proposal is aimed at catching people travelling to or from the European Union, an area that seems to pose a particular danger.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_104">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_185">Should we be looking at non-EU citizens?  Does it apply to EU citizens?  I accept we have open and free borders between European Union countries and that it is considered more likely any threat will come from outside the Union.  In that case should we not limit the proposal to non-EU citizens?</p>
+        </speech>
+        <speech by="#" eId="spk_105">
+          <from>Mr. Martin Power</from>
+          <p eId="para_186">The problem with that is that PNR does not necessarily catch nationalities.  A person filling in a reservation does not necessarily declare whether he or she is Irish, English, French, German or whatever.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_106">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_187">The passport carries that information and that simple data is available through API.</p>
+        </speech>
+        <speech by="#" eId="spk_107">
+          <from>Mr. Martin Power</from>
+          <p eId="para_188">I agree, but that data is only captured at the point of embarkation.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_108">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_189">I know that and would like to take up that point.  The notion of getting the data in advance suggests there is an immediate threat.  That is why API was introduced.  Was there somebody on board a flight who had the capacity to take over the flight and repeat what happened on 11 September 2001?  The directive seems to suggest that by having the data in advance, there is a better chance of ensuring there is no hijacker on board.  However, there is no need for all the PNR information and it is certainly unnecessary to retain it for 13 years.  Whatever chance one has of identifying a perpetrator a week in advance, which would be welcome, it is unnecessary to retain the data afterwards.</p>
+          <p eId="para_190">The retention of the data leads me to be suspicious of the proposal.  The directive is masked under the 11 September 2001 situation, in the guise that it is necessary to identify a potential hijacker in advance in order to prevent him or her from getting on board or prevent the aircraft getting to its destination.  However, when we consider the length of time for which data will be retained, it is clear they are being collected for a reason other than preventing an immediate threat.  We must, therefore, consider whether the proposal is a proportionate response.  I believe the reason it is not being applied to other modes of transport is that there would be a greater outcry if it was suggested they should be used as a means of profiling criminal activity.  In such a situation information would be gathered using various mechanisms such as tolls to record people's movements.  I am concerned about the directive because it is being introduced under the guise of a response to the events of 11 September 2001 and that it is only the beginning of a procedure, through the use of which, ultimately, significantly more data will be captured.  That in my mind will mean we will have a nanny state.</p>
+        </speech>
+        <speech by="#" eId="spk_109">
+          <from>Mr. Martin Power</from>
+          <p eId="para_191">I would like to clarify a point about API.  It is not used for the purpose of countering terrorism or serious crime, but as a border control mechanism only.  That is the reason it is only necessary to transmit information at the point of embarkation.  The provision of PNR data has the other objective.</p>
+          <p eId="para_192">On why information is retained for five years, if we are to produce risk assessments and analyses, we must have data available that will allow us to identify certain risk parameters.  I am not a policeman, but let us take as an example the provision included in the annex, item No. 9, which deals with a travel agency or travel agent.  It is possible an agency could come under suspicion because a number of people who have booked flights through it have been arrested or found to be involved in illegal or criminal activity or terrorism.  In such a situation PNR data would highlight the fact that a number of other passengers have used the agency and are travelling on a particular flight.  Taken together with other PNR data, this information might allow the relevant authorities to carry out an assessment and say whether a higher risk attaches to that situation.  That is the basis on which PNR data will be of benefit, by enabling a reasonable risk assessment to take place.  As I mentioned, API is a border control mechanism only and required at the last minute for that purpose.  PNR data are required at an earlier stage because a risk analysis has to be carried out prior to a flight's departure.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_110">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_193">My concern is that the provision emerges from the events of 11 September 2001 when the threat was identified at the point of entry into a particular country.  On the storage of information for a longer period, I accept the necessity to generate a risk pattern.  However, the downside far outweighs the potential upside, particularly when one considers the inability of member states to protect data or how they might be used against citizens later, particularly with reference to the impact on life assurance or other insurance products.</p>
+        </speech>
+        <speech by="#" eId="spk_111">
+          <from>Mr. Martin Power</from>
+          <p eId="para_194">The framework decision is very specific.  It cannot be used for any other purpose except to prevent, detect and prosecute terrorism or other serious criminal offences.  It cannot be used by insurers to carry out risk assessments of persons applying for insurance.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_112">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_195">Perhaps the Data Protection Commissioner will comment on the security of data and whether he has any concerns in that regard.</p>
+        </speech>
+        <speech by="#" eId="spk_113">
+          <from>Mr. Billy Hawkes</from>
+          <p eId="para_196">As I said in my initial statement, I have concerns about the capacity of State agencies to protect the data they hold.  My office has carried out investigations which have revealed, unfortunately, that there have been leaks in the recent past from within the State system.  I think it was Deputy Ó Snodaigh who stated that as we are a small country, the chances are that people know one another and inferences can be drawn from a pattern of travel that could be quite wrong, including inferences not necessarily relating to criminality but to other matters.</p>
+          <p eId="para_197">Let me give an example that will lighten things a bit.  Earlier this week I was travelling with a female colleague to a conference — obviously in the future if it is outside the EU this will be recorded as travel I undertook — and we stayed in the same hotel.  I am just wondering if my neighbour was in the passenger information unit what interesting inferences could be drawn from that — quite inaccurate ones I might say.  More seriously I think the concern is, and I think this has been emphasised by Deputy Dooley, that the inferences drawn can be wrong.</p>
+          <p eId="para_198">We have been talking about profiling without thinking about what it means.  It is in fact attempting to draw inferences from very vague clues.  There is a very high possibility that the inferences will be entirely wrong.  Deputy Ó Snodaigh referred to cases where aircraft have been recalled because of concerns about passengers on board and where it had turned out that the information was wrong.  Unfortunately we have evidence from the United States which is using PNR of many people having been wrongly accused and picked up because of incorrect inferences being drawn from this collection of data.  I have had the experience, perhaps others have too, in the States of being pulled aside for special screening and wondering on what basis have I been picked out for it.  Again, one will not know.  The chances of getting things wrong are quite high.  People from this country will recall up to ten years ago what profiling could mean in terms of how you might be treated.  I think we should be very careful about accepting profiling.</p>
+          <p eId="para_199">What profiling means, and I think Mr. Power has been quite clear about it, is attempting to draw inferences from very vague information with a high possibility that those inferences will be wrong and innocent people will suffer.  It comes down to an issue of proportionality.  As Deputy Dooley has made clear, I think this measure is not essentially about the safety of air travel because that has been taken care of by the physical screening that is in place.  It is about allowing police forces to analyse people's travel with a view to figuring out if a person is a possible terrorist suspect or a serious crime suspect because he or she has travelled from a particular place or he or she is using a particular travel agency.  That is why the data is being collected for such a long period, as it allows analysis over a long time.  Members are correct to raise the issue of the proportionality of this measure.  Again, as I said in my opening statement, we have very little evidence of the effectiveness of such profiling methods.  The evidence from the US is not encouraging in terms of how easy it is to get it wrong.</p>
+          <p eId="para_200">It is right to question the proportionality of this measure.  I was surprised when Mr. Power said that our passenger information unit will be the Garda Síochána.  The force will get all the information, including the sensitive information, so it reinforces a point made by my European colleagues, because in their opinion the filtering out of the sensitive data should be done by the air carriers, not by a central unit.  That is particularly important if our central unit is the Garda Síochána.</p>
+          <p eId="para_201">I have been very encouraged by the questions that have been raised by members.  It is correct that the proportionality of this measure should be probed and if it is to go through it should be accompanied by far more safeguards than are in place at present.  I am afraid that I do not share Mr. Power's view that the data protection safeguards in this are significant.  They are very weak in fact.  The data protection framework decision, which is not yet in effect, has been considerably watered down and only applies to date to transfers between countries.  Furthermore, our experience with the US shows that it is extremely difficult to get a big country such as the United States to accept European data protection standards.  I would have serious concerns, as do my colleagues, about the protections afforded to the data that is already transferred to the US.</p>
+          <p eId="para_202">I thank the members of the joint committee for their attention to this subject.  They have raised the key questions in terms of the proportionality of this measure.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_114">
+          <from>Chairman</from>
+          <p eId="para_203">Is Mr. Hawkes happy with the data protection regimes in third countries?</p>
+        </speech>
+        <speech by="#" eId="spk_115">
+          <from>Mr. Billy Hawkes</from>
+          <p eId="para_204">No.  We are fortunate in Europe to have a good, strong data protection regime right across the board.  Most other countries do not have the benefit of a good data protection regime.  If this measure goes forward — and I sincerely hope it does not — we will inevitably face pressure on a reciprocity basis to give other states the same access.  Those countries will not have the same quality of data protection as we have in Europe and it will be extremely difficult, if not impossible, to insist they adopt similar measures, the US being an example of that.</p>
+          <p eId="para_205">The dangers are quite significant.  Once the data are collected it is clear they can be provided to third countries and those countries will apply pressure on us to provide the data to them, leading to all the dangers we have seen in the US in terms of misprofiling and getting things wrong.  These are serious dangers that are not sufficiently addressed in this measure.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_116">
+          <from>Chairman</from>
+          <p eId="para_206">I thank Mr. Hawkes for his clarity on this very important issue.  I have two final questions for Mr. Power.  The Schengen information system has been assessed with regard to effectiveness in responding to crime.  How effective has the Schengen information system been?  Will people have the right to apply for a list of the data held on them?</p>
+        </speech>
+        <speech by="#" eId="spk_117">
+          <from>Mr. Martin Power</from>
+          <p eId="para_207">As the Chairman knows, Ireland does not participate in the Schengen Agreement.  My understanding is that, under the agreement, data subjects do have rights to know what information is held about them and to have incorrect information corrected.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_118">
+          <from>Chairman</from>
+          <p eId="para_208">Deputy Dooley made the point that we are not reinventing the wheel in this matter.  Could we not expand the existing systems, such as the Schengen Agreement and others, instead of coming up with a new system?  There seems to be duplication and, although Ireland is not part of the Schengen information system, there also seems to be an overlap.</p>
+        </speech>
+        <speech by="#" eId="spk_119">
+          <from>Mr. Martin Power</from>
+          <p eId="para_209">There may be some overlap but if this was a matter for members of the Schengen Agreement alone, the fact that Ireland is not a member of the Schengen Agreement would mean we would not be participating in it.  The intention is to get all 27 member states to participate in this framework decision so as to harmonise its systems.  The Schengen Agreement may well deal with some aspects of this measure but, because Ireland does not participate in that agreement at the moment, we would be excluded.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_120">
+          <from>Chairman</from>
+          <p eId="para_210">Ireland will participate in part of the Schengen Agreement.</p>
+        </speech>
+        <speech by="#" eId="spk_121">
+          <from>Mr. Martin Power</from>
+          <p eId="para_211">Yes, but that has not yet happened.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_122">
+          <from>Chairman</from>
+          <p eId="para_212">But it is going to happen.</p>
+        </speech>
+        <speech by="#" eId="spk_123">
+          <from>Mr. Martin Power</from>
+          <p eId="para_213">It will happen.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_124">
+          <from>Chairman</from>
+          <p eId="para_214">There are many similarities between this measure and the Schengen Agreement.</p>
+        </speech>
+        <speech by="#" eId="spk_125">
+          <from>Mr. Martin Power</from>
+          <p eId="para_215">There may well be similarities.  Some of the information arising may well be the same.  However, this measure is intended to deal with travel into and out of the EU.  The Schengen Agreement deals with internal travel arrangements.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_126">
+          <from>Chairman</from>
+          <p eId="para_216">I will return to the point raised by Deputy Ó Snodaigh, which is very important.  Why are sensitive data, if they are to be deleted once received by a member state, simply not sent by the air carriers?</p>
+        </speech>
+        <speech by="#" eId="spk_127">
+          <from>Mr. Martin Power</from>
+          <p eId="para_217">That may well be an issue that has to be looked at.  Only if sensitive information is received by the passenger information unit must it be deleted.  Because of the way the information is to be transmitted, it may well be that additional costs will be incurred by an airline in filtering out sensitive information before transmission.  If it turns out to be a major concern, the airlines may be expected to filter out the information before transmitting it but I suspect that will increase the costs to the airline.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_128">
+          <from>Chairman</from>
+          <p eId="para_218">As the questions today show, this issue is of concern to this committee.  We will certainly incorporate the statement from air carriers and other submissions into our final report.  I thank Mr. Power, Mr. Byrne and Mr. Hawkes for their presentations and for answering our questions, which have enabled us to carry out an in-depth analysis.  Briefings we have taken in the past few days, however, have shown there is a significant level of concern over the issue.  The discussion has been very informative and will help the committee in finalising its scrutiny report on the proposal.  Holding this meeting at such an early stage will address any democratic deficit arising.  We will have a very detailed report on this.  Any observations would be welcome before the report is finalised in the next number of weeks.  We will also contact the airlines.  We will forward your submission, Mr. Power, and that of Mr. Hawkes to the airlines concerned before the committee makes its final submission.  We will then ask the airlines for further evaluation.  The report will then be very inclusive.</p>
+          <p eId="para_219">I thank Mr. Power, Mr. Byrne and Mr. Hawkes for their impressive submissions to the joint committee.</p>
+        </speech>
+        <summary eId="sum_6">Sitting suspended at 1.31 p.m. and resumed at 1.32 p.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_4">
+        <heading>Designation of Bogs: Discussion.</heading>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_129">
+          <from>Chairman</from>
+          <p eId="para_220">I welcome Mr. Conor Ó Raghallaigh, Dr. Ciarán O'Keeffe, Mr. James O'Connell, Mr. Peter Carville and Mr. Jim Kelly from the national parks and wildlife service, NPWS.  They are here to discuss the designation of bogs as special areas of conservation under the EU Habitats Directive 92/43/EEC of 21 May 1992.  I welcome you on behalf of members of the committee.</p>
+          <p eId="para_221">I draw your attention to the fact that while members of the committee have absolute privilege the same privilege does not apply to witnesses appearing before the committee.  Members are reminded of the long-standing parliamentary practice to the effect that Members should not comment on, criticise or make charges against a person outside the House or an official, by name or in such a way as to make him or her identifiable.</p>
+          <p eId="para_222">I call Mr. Conor Ó Raghallaigh to make his presentation.</p>
+        </speech>
+        <speech by="#" eId="spk_130">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_223">I welcome the opportunity to discuss the EU habitats directive, particularly the designation of bogs and the bog compensation scheme.</p>
+          <p eId="para_224">I am accompanied by Dr. Ciarán Ó Keeffe, who is a fellow director of the NPWS and is responsible for research and bio-diversity matters.  We are accompanied by other colleagues, Mr. Peter Carville, Mr. Jim Kelly and Mr. James O'Connell.</p>
+          <p eId="para_225">Ireland is required to protect habitats of European importance under the 1992 habitats directive, which was transposed into Irish law by the EU Natural Habitats Regulations of 1997 and the Wildlife (Amendment) Act 2000.  The directive sets out criteria for the selection of sites for designation as special areas of conservation and for their protection.  It also sets out a framework for the monitoring and protection of a range of species of flora and fauna.</p>
+          <p eId="para_226">The provisions of the directive establish priority species and habitats that require strict protection over and above the general level of protection that the directive provides.  In accordance with the directive, Ireland has nominated certain raised and blanket bogs which are priority natural habitats under the directive as candidate special areas of conservation, SACs.  In addition, it has designated other raised and blanket bogs as natural heritage areas, NHAs, under the Wildlife Act 2000.  Of the 1,500 to 1,600 raised bogs in Ireland, only 139 are designated and, of these, only 32 are subject to the derogation which lapses this year.  There are 53 SACs which afford protection to raised bog habitat and 51 which afford protection to blanket bog habitat.  These sites were designated between 1997 and 2003.  All raised and blanket bog candidate SACs and NHAs are listed in a table which I have provided for members of the committee.  Proposals to designate each of these 104 SACs were publicly advertised in local print media and on local radio stations.  Further to these notices, landowners and others with a legal interest in the areas proposed for designation were issued with a formal notification pack which included a map of the proposed SAC, an explanation of the scientific rationale for designating the site, a list of notifiable actions and arrangements for compensating landowners and for those wishing to object to the designation.</p>
+          <p eId="para_227">Ireland has 60% of western Europe's remaining active raised bogs, but less than 1% of our original stock remains.  If we are to preserve what remains, co-ordinated actions above and beyond current efforts will be required in the near future.  Under the 1997 habitats regulations, peat extraction was proposed to be ended on all designated bogs.  However, in 1999, a derogation period of up to ten years was allowed by the then Minister in respect of domestic turf-cutting from 32 raised bogs designated before 1999.  This derogation expires at the end of 2008.  A similar ten-year derogation period currently applies to any bog candidate SACs or NHAs designated after 1999.  Some designations occurred in 2002.  Designation of NHAs was undertaken in 2004.</p>
+          <p eId="para_228">Turf-cutting for domestic use is not prohibited in any blanket bog candidate SACs or NHAs, although the use of "sausage-cutting" machines is not allowed.  Large-scale peat extraction works may, under the planning code, require planning permission with an associated environmental impact assessment.</p>
+          <p eId="para_229">The 2004 agreement between the Government and the farming representative organisations provided that, after the ten-year derogation period, the Department would review whether there were particular circumstances in which domestic turf-cutting could continue without damaging the bogs.  Recent scientific reports on bog monitoring and turf-cutting assessment found that continuing damage was occurring because of domestic turf-cutting, with losses of the tiny proportion of remaining raised bog at a rate of 2% to 4% per annum.  In the light of this scientific evidence, it would not be appropriate to extend the ten-year derogation for bogs designated prior to 2002.  My colleague, Dr. Ciarán O'Keeffe, will expand on the scientific assessment of the current state of Ireland's bogs.</p>
+          <p eId="para_230">The Minister is considering proposals on the extent to which turf-cutting on designated sites must be ended.  In the meantime, the Department operates a compensation scheme for persons who agree to stop turf-cutting in designated raised bogs.   This covers both candidate SACs and NHAs.  It provides for payments of €3,500 for the first acre and €3,000 for each subsequent acre of freehold, as well as an incentive bonus of up to €6,000.  This has enabled us to acquire either the freehold or the turf-cutting rights on some 6,500 acres of designated peat land, at a cost of some €30 million to date.</p>
+          <p eId="para_231">I ask my colleague, Dr. O'Keeffe, to provide background information on the scientific assessment of Ireland's bogs.</p>
+        </speech>
+        <speech by="#" eId="spk_131">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_232">As my colleague Dr. Conor Ó Raghallaigh stated, we undertook in 2004 to consider the situation regarding the continuation of turf-cutting.  Since then, we have had an obligation to report to the European Union on the status of all the habitats and species listed in the habitats directive for protection.  I have circulated a summary report on that entitled The Status of EU Protected Habitats and Species in Ireland, which contains a summary of the significant scientific data on our national parks and wildlife service website.</p>
+          <p eId="para_233">This report was sent to the Commission as part of the second report on the implementation of the habitats directive in Ireland for the period 2000-06.  For the first time, Ireland was asked to provide a national assessment of the conservation status of all habitats and species listed on the directive.  These assessments were carried out according to strict guidelines issued by the Commission.</p>
+          <p eId="para_234">There are 60 such habitats in Ireland, ranging from large sea bays to tiny pockets of alpine heath on mountains.  There are approximately 100 species, but I will not go into detail on these now.  We have made our assessments based on hard data and best expert judgment where data was limited.  We had extremely good data in the case of bogs.</p>
+          <p eId="para_235">Each assessment included an evaluation of the range of the species or habitat across the country, the condition and the future prospects of the habitat or species in question.  We had to conclude with an overall verdict of "good", "inadequate" or "bad".  Our assessment also required a target called a "favourable reference value" to be set, as the necessary area of habitat, or population of species, for the future.  We concluded that only 7% of the habitats are in good status, with 46% inadequate or poor and 47% bad.  For species, we concluded that roughly 50% are in good status, 20% inadequate, 10% bad and 20% unknown.</p>
+          <p eId="para_236">In most cases, the bad rating for habitats is not surprising.  The report covers the status of the habitats across the country, in both protected areas and outside of them, after 35 years of agricultural intensification and 15 years of an economic boom.  The habitats and species we report on were listed in the directive due to their perceived threatened status in the European Union.  Therefore, at this early stage of the implementation of the directive it is not surprising unfavourable ratings were widespread.</p>
+          <p eId="para_237">The European Union set out the framework for the report.  The framework set high thresholds making it difficult to get a good rating and even minor disimprovements could lead to an inadequate or poor rating.  The Commission stated that it is not the intention to punish member states that have a high number of habitats or species in unfavourable status.  It wants, instead, to gain an overview on how they are faring across the Union.  However, we are certain the Commission will follow up over the coming years to ascertain what Ireland is doing about habitats and species found to be in bad status.  The critical issue for the longer term is the work we undertake in the next six years and beyond to maintain and restore habitats, particularly in SACs, and monitor and report on changes achieved.</p>
+          <p eId="para_238">I have mentioned several pressing problems in my submission, but I propose to move directly to the issue of bogs.  Raised bogs are covered on pages 47 and 48 of the report.  There are a couple of categories of habitat within the average bog.  We have active raised bogs, namely, growing bogs, and degraded raised bogs, where damage has been done and the bog no longer forms peat.</p>
+          <p eId="para_239">Raised bogs are found mainly in the midlands, from Kildare to east Galway and from south Leitrim to Tipperary.  The map in the report shows their range, with additional small areas in the south west.  Most bogs are heavily harvested.  Healthy bogs grow and the peat grows year by year.  The lifeblood of a bog is water.  Drainage is carried out for agricultural purposes on the edge or in order to cut turf, but if we drain them, plant trees on them or burn them, the growth ceases.  When travelling across the country, we may see many bogs, but many of these are no longer growing, although there may still be turf left to cut.   In this situation the most sensitive plant species begin to disappear.</p>
+          <p eId="para_240">We know that less than 1% of the original area of actively growing raised bog is left and we are losing the remainder at a rate of between 2% and 5% a year.  The rather bleak chart in our submission shows the tiny fraction of intact raised bog that is left.  The legal requirement under EU law is to restore bog habitats in designated areas.  The only way we can do this is to stop draining water off the bog and draining, as I have said, is necessary for turf-cutting.  Draining and restoration of a bog are not compatible.  At this stage most of our bogs are beyond protecting.  There are 1,500 to 1,600 raised bogs in the midlands, most of them heavily harvested.  As my colleague, Mr. Conor Ó Raghallaigh, mentioned we have 55 bogs with SAC or candidate SAC designation.  If one adds the natural heritage areas designated under the Wildlife Act that brings it to a total of 139, which is less than 10% of the total.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_132">
+          <from>Chairman</from>
+          <p eId="para_241">I thank the members of the delegation for their detailed submission which certainly addresses the lack of information on this issue.  The national parks and wildlife service does outstanding work right around the country.  However, the greatest difficulty is the very significant information deficit.  People may believe there are restrictions in areas where there are no restrictions.  There is a democratic deficit.  Many people have become cynical about directives and diktats from Europe and are totally unaware of how serious the situation is.</p>
+          <p eId="para_242">We need to get this information into the public domain.  Even staunch farmers would be totally unaware of the impact and the likely consequences of the SAC areas and the minimal number of bogs that are affected by this measure.  Have we failed to get this information out to the relevant people?  We saw the results of the vote in the past number of weeks.  It showed what can emanate from that type of opinion among country people who feel all these laws are coming from Europe and have no relevance for them.  What can we do to address this concern?</p>
+        </speech>
+        <speech by="#" eId="spk_133">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_243">The Chairman has made a good point.  There is a certain amount of confusion in terms of what is in store for turf-cutters over the coming years.  I know from speaking to the Minister for the Environment, Heritage and Local Government, Deputy Gormley, that he is determined to come to a conclusion on the way forward at an early stage.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_134">
+          <from>Chairman</from>
+          <p eId="para_244">We have an abundance of fantastic reports from every State body but unfortunately they do not reach those to whom they are most critical.  Apart from the Minister coming to a conclusion, as an interim measure could the national parks and wildlife service produce a simple, easily read synopsis of this submission which could be made available to farmers with their payments?</p>
+        </speech>
+        <speech by="#" eId="spk_135">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_245">There is obviously more that we could do and we can look at that suggestion.  We are in discussions with farmers' organisations about this and it has been a subject of discussion between the NPWS and bodies such as the IFA and the ICMSA.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_136">
+          <from>Chairman</from>
+          <p eId="para_246">The ICMSA and the Irish Farmers Association took a position on the Lisbon treaty.  I was appalled by the position they took.  For months they brought up a series of other issues and then, in the final week, undertook a massive retrenchment.  There may be talks but they do not do the associations any justice in regard to the difficulties which were clearly evident.  One of the concerns brought to my attention was the fact that the truth was not getting out in respect of this issue.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_137">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_247">I apologise but I will have to leave shortly for another meeting.  I thank the delegates for attending and for waiting so long until we finished our meeting with the previous delegates.</p>
+          <p eId="para_248">The presentations detailing the threat to our natural habitats were certainly an eye-opener.  In 1999 there was a ban on the commercial and industrial cutting of peat in special areas of conservation, SACs.  Have the delegates carried out any assessment of how effective that was in protecting habitats?  To the layperson, domestic turf-cutting is an age-old tradition which has been carried out since the beginning of time.  I am sure all our forefathers worked on the bog to provide an easy form of fuel, and domestic cutting of turf would appear to have a fairly limited impact in comparison with commercial and industrial cutting.</p>
+          <p eId="para_249">The compensation scheme cost €30 million but to what extent has it been taken up?  How much of the endangered section of the bog has been affected?  Could the incentive scheme, using the carrot rather than the stick, be expanded?  It emerged from the discussions on the Lisbon treaty that people saw this as a blunt instrument from Europe to protect natural habitats.  It seemed to interfere with the traditional lifestyle in certain parts of the country, generally the more disadvantaged parts in the west and midlands.</p>
+          <p eId="para_250">Raised bogs are, by their nature, raised and contain less moisture than blanket bogs.  Is drainage much of a feature of raised bogs?  I have some acquaintance with raised bogs where, by and large, domestic turf-cutting takes place without drainage to any great extent.  I wonder whether that would interfere, to any great extent, with the aim of protecting the habitats of wildlife.  All of the topsoil and the top cut of the bog is put back again and goes back into the natural production of peat.</p>
+          <p eId="para_251">My concern is that we are, to a great degree, interfering with the traditional lifestyle of people who cut turf for household use.  The delegates say our actively growing raised bog is disappearing at a rate of between 2% and 5% a year.  It is impossible to imagine there could be so much interference from domestic turf-cutting considering that, with the change in lifestyle in this country, far fewer people must be involved than in the past.  Perhaps other conditions could be imposed in addition to offering incentives.  One could curtail the area of bog taken each year or require that drains be opened or that drainage systems would not interfere with the natural habitat.  It seems a crude measure.  It is seen as a crude measure which has been forced upon us by the European Union.  It was introduced for very good reasons but one wonders if it is effective and whether the problem is actually coming from domestic turf-cutting.</p>
+        </speech>
+        <speech by="#" eId="spk_138">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_252">I will ask Dr. O'Keeffe to deal with the mechanics of the bogs and the impact of drainage.  Our observation of the designated bogs, particularly the raised bogs, over the last ten years has shown that the measures in place have not been effective.  We are losing between 2% and 5% each year.  The measures are not working to protect habitats.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_139">
+          <from>Deputy Joe Costello</from>
+          <p eId="para_253">Has the domestic turf-cutter been identified as the problem?</p>
+        </speech>
+        <speech by="#" eId="spk_140">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_254">Only domestic turf-cutting is allowed.  No commercial cutting is allowed on designated bogs.</p>
+        </speech>
+        <speech by="#" eId="spk_141">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_255">We are talking about the active raised bog, which is the growing part of the bog.  That absolutely depends on water.  Although an individual cutter may not open a drain, the bogs themselves are often cross-cut.  They will have drains around the edge and many cross-cutting deep drains, which are draining the whole bog.  For restoration purposes, we need to block those drains in order to re-wet the highest part of the high bog so that the whole bog is wet.  That is directly competing with the interests of the individual turf-cutter, who wants to have bogs dry enough to work on.  Raised bogs are very soft in the middle.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_142">
+          <from>Chairman</from>
+          <p eId="para_256">Is a raised bog a greenland area?</p>
+        </speech>
+        <speech by="#" eId="spk_143">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_257">The raised bogs are the midlands bogs.  The raised shape can be seen from a distance.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_144">
+          <from>Chairman</from>
+          <p eId="para_258">Would the adjoining ground be clay?</p>
+        </speech>
+        <speech by="#" eId="spk_145">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_259">The whole thing is the raised bog.  We use the term to distinguish it from the blanket bogs typical of Galway, Mayo and Donegal.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_146">
+          <from>Deputy Damien English</from>
+          <p eId="para_260">One can see the cliff and where the turf has been sliced.</p>
+        </speech>
+        <speech by="#" eId="spk_147">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_261">One often sees turf to a depth of 15 ft. or 20 ft.  Midland bog is probably an equally easy term.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_148">
+          <from>Chairman</from>
+          <p eId="para_262">That is where peat briquettes would be harvested.</p>
+        </speech>
+        <speech by="#" eId="spk_149">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_263">Yes.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_150">
+          <from>Chairman</from>
+          <p eId="para_264">This is Deputy English's area.</p>
+        </speech>
+        <speech by="#" eId="spk_151">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_265">People working on a bog need it to be dry.  To protect the raised bogs we must block drainage to keep water in and re-wet the bog.  That goes against cutting.  We have looked very carefully at dozens of bogs.  We have mapped the wet area where the bog is continuing to grow and have found it is shrinking by between 2% and 5% per year.  Only a few thousand hectares remain.</p>
+          <p eId="para_266">Ireland has a high proportion of the remaining bog in Europe.  The EU affords a high priority to what we have in Ireland and we are losing it at a high rate.  We will still have big areas of uncut bog.  Bord na Móna estimates it has 25 years cutting left on the midland bogs.  Most of that bog is dead or dying, as far as its wildlife habitat value is concerned.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_152">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_267">Having cut, footed and turned turf, I never had any great liking for the bog.  However, there are many for whom turf-cutting is a part of their culture.  Therefore, we must be careful in dealing with the issue.  Recent suggestions that peat offers a solution to the current oil crisis are unrealistic because the reserves are insufficient.  However, there is a cultural issue.  People have continued to cut turf, as they have done for generations, and will do so for another generation or half a generation.  Mr. Ó Raghallaigh has pointed out that remaining raised bogs are being lost at a rate of 2% to 5% per annum as a result of domestic turf-cutting.  However, is it not the case that this is a declining curve?  The movement away from the land and rural agricultural practice will inevitably lead to a decline in that activity.  Coming from a rural constituency and as someone who worked on the bog, I can see that the numbers working on it have decreased rapidly.</p>
+          <p eId="para_268">Will the delegates define commercial as opposed to domestic turf-cutting?  In the case of individuals with access to bogs who cut turf for others, is such activity viewed as domestic or commercial?  Does the national parks and wildlife service consider Bord na Móna to be the sole commercial operator?</p>
+          <p eId="para_269">Mr. Ó Raghallaigh has observed that the European Union recognises the significance of Ireland having 60% of western Europe's remaining active raised bogs.  However, the public does not seem to have a positive understanding of their value.  This applies even to those of us who have worked on bogs, with many of us seeming to have a complex about them.  Has the national parks and wildlife service looked at the possibility of exploiting their potential from a tourism perspective?  When we designate or protect areas, we do so for good reasons, namely, to protect habitat and wildlife.  This has the added benefit of helping to maintain Ireland's image from a tourism perspective.  If the national parks and wildlife service were to take a proactive approach in this regard, it might be assured of greater co-operation.  There might be a better appreciation of the benefit of preserving and regenerating bogs if they were seen as assets rather than waste lands.  The latter is a commonly held view.</p>
+          <p eId="para_270">I ask the delegates to give serious consideration to the continuance of domestic turf-cutting, even if some level of restriction is required.  It would be a negative step to bring down the curtain in this regard, as is being suggested.  Mr. Ó Raghallaigh identified the annual rate of loss at 2% to 5%.  In stating this, there seems to be an implicit recommendation to the Minister that he should not extend the derogation.  I ask the delegates to reconsider this in the light of the ongoing changes in rural life and the rural demographic.  As people continue to move away from the land, that level of destruction is likely to decline.  Is there not sufficient scope within the 6,500 hectares designated by the national parks and wildlife service to retain the structure of the bog as it considers necessary?</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_153">
+          <from>Deputy Damien English</from>
+          <p eId="para_271">Like Deputy Dooley, I have mixed memories of working on the bog.  I bear some scars from my experience.  However, I understand the views of the generation who grew up working on it.  For them, it is a way of life rather than simply a fuel source.  I have read in some newspapers that it is merely a question of the cost of fuel.   Although there is the fuel aspect, it is wrong to portray it merely as such.  For a particular generation, what is important is the way of life and the social aspect of it.</p>
+          <p eId="para_272">I regularly attend meetings throughout the State on this issue.  What is clear is that there is a lack of information and a total lack of engagement on it, although I accept efforts were made by the national parks and wildlife service to facilitate such engagement.  However, the efforts made were inadequate.  Many owners hid and did not come forward to negotiate or discuss the issues.  Their attitude was that if they hid from the authorities, they would not be found.  Therefore, we have missed out on the opportunity for communities to work together with organisations such as the national parks and wildlife service, which has preservation at heart.  The report shows us how significant the bogs are and that it is right to have concerns.  However, the people were not brought along with the wildlife service and involved in the work of preservation.</p>
+          <p eId="para_273">I blame much of this on politicians and people who buried reports or kept them on desks without discussing them openly.  They tried to give the impression the issue would go away.  There is still an opportunity to discuss the issues, but we must engage with the people with genuine concerns about bogs and those for whom the bogs were part of their lives.</p>
+          <p eId="para_274">What criteria were used to select the bogs designated and why were some chosen rather than others?  What is to happen with regard to the others?  I supposed there would be a general notification for all the bogs, but that has not happened.  Would it be possible to designate some bogs that are not being used?  I am aware of bogs that have been left idle.  Would it not be better to designate them first and try to protect them?  It is less likely people would be upset about what happens to those bogs rather than bogs that are still in use.</p>
+          <p eId="para_275">When a bog is designated, a plan is supposed to be put in place for its protection and for the moneys to be spent on it, but that has not happened in many cases.  The plan is missing.  If a plan is to be drawn up for a bog, that should be done with the co-operation of the people.  The bog should not be allowed become a dumping ground or a location for people who want to park there at weekends.</p>
+          <p eId="para_276">The drawing up of a protection plan provides an opportunity to provide employment for local people who have always worked on the bog.  If bogs are to be restored or used for walking or tourism, the people who used to work them could be compensated by employing them and keeping them involved.  However, this does not appear to be the practice here.</p>
+          <p eId="para_277">What percentage of those people with turbary rights have been identified and how many have been paid compensation.  The total amount paid was provided, but how many people were involved?  Many of those who were paid do not feel the payment reflected the value of their bog to them.  Are there any plans to increase the amount available or is it a set amount?  I feel the compensation was good value, but others feel differently and consider it was not attractive enough for most bog owners.</p>
+          <p eId="para_278">Some years ago a report recommended to the Minister that all turf-cutting be ceased with immediate effect.  I know of the report but have never seen it or heard it discussed.  Was that report ever made public or is it still sitting on a Minister's desk?  It appears to have been pushed to one side, but the current Minister might be more interested in dealing with it.  I agree with Deputy Dooley that we need to explain to people why this directive is being applied because many owners do not buy into it and just feel it is another case of Europe sticking its nose into their affairs, which is not the case.</p>
+          <p eId="para_279">Coillte has responsibility for the planting of trees on bogs, while others have responsibility for the bog and the turf.  This can be a cause of conflict because some Coillte companies produce and sell timber products.  The conflict arises because while Coillte has responsibility to protect and maintain the bogs and trees, it also makes a profit from selling its timber products.  This seems wrong to me and gives rise to conflict.  People are not happy with that type of image and are not happy to pass a bog where thousands of trees have been cut down overnight.  I have doubts about the logic of Coillte's involvement and am concerned about the situation.</p>
+          <p eId="para_280">What is the current situation with regard to people cutting turf?  Must a person get permission from the Minister to cut turf, notwithstanding the ten-year derogation.  I understand people must get permission and if the Minister does not reply, they have permission by default.  That has not been mentioned, but is it or is it not the case?  Some people are genuinely afraid of the law.  There is a lack of clarity and people are not sure if they are doing the wrong thing.  This is a good place to clear up the issue.</p>
+          <p eId="para_281">We are down to 1% of our bogs.  Is it the intention to keep the remaining bog or do we want to retain a certain proportion of it?  That is a matter that must be clarified.</p>
+          <p eId="para_282">Rural people telephone their Deputies in a panic when they see water in their bogs.  This has happened in a few places.  Water is essential for the restoration of a growing bog, but people do not necessarily know that.  There is a need to get the information out to the public and educate people about bogs.</p>
+          <p eId="para_283">We need to take an imaginative approach as it is not as simple as enforcing EU law.  We must make people aware of how they can benefit from the preservation and protection of bogs, which are a valuable resource.  It is a question of engaging with people.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_154">
+          <from>Chairman</from>
+          <p eId="para_284">Will the delegation address the issues raised by Deputies Dooley and English.  Deputy English knows the issues very well.</p>
+        </speech>
+        <speech by="#" eId="spk_155">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_285">I will address some of the issues myself and I will ask my colleagues to come back on one or two of the other ones.</p>
+          <p eId="para_286">I take the point raised by Deputies on the lack of information and engagement.  That is a valid point and for our part we will take that on board and think of how, even at this late stage, we can try to redress it.</p>
+          <p eId="para_287">We would like to make clear that most people who cut turf will not be affected by these measures because most turf is cut on bogs that are not designated.  Only a tiny proportion of bogs that are being used for cutting turf are designated as SACs.  We are under no illusions about the societal and cultural aspects of cutting turf, but again only a very small proportion of turf-cutters will be affected by this.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_156">
+          <from>Deputy Damien English</from>
+          <p eId="para_288">It is important to remember that in certain counties there is only a small percentage of bog left.  In such areas, the measure has an impact on the culture of those people.  The fact that turf-cutting continues in other parts of the country does not make it acceptable.  We need to treat the issue more sensitively.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_157">
+          <from>Chairman</from>
+          <p eId="para_289">The 80:20 principle applies.  The difficulty is that 20% is giving 80% of the grief.  How does one deal with that 20%?  Although certain bogs are not affected, people have the idea that they cannot cut turf.</p>
+        </speech>
+        <speech by="#" eId="spk_158">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_290">I take that point, Chairman.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_159">
+          <from>Chairman</from>
+          <p eId="para_291">The farming organisations are not doing their job of disseminating the information.  In spite of all the consultations with them, and I have attended such meetings, a great many of their activists will express concerns, even though the designation does not affect their areas.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_160">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_292">This is an issue for the small farmer and I am not so sure that the organisations always represent the small farmer.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_161">
+          <from>Chairman</from>
+          <p eId="para_293">They certainly do not.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_162">
+          <from>Deputy Damien English</from>
+          <p eId="para_294">They are not all farmers.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_163">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_295">I accept that too.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_164">
+          <from>Chairman</from>
+          <p eId="para_296">I do not wish to over emphasise this point, and I have<b/>tremendous respect for the work of the national parks and wildlife service, but the 80:20 principle is causing many difficulties.  Before this briefing I would have assumed that the measure was affecting 500% more bogs than the minimal figure indicated by the national parks and wildlife service.</p>
+          <p eId="para_297">Regardless of what the Minister for the Environment, Heritage and Local Government is doing, the message is being perceived adversely by people, even though it is in the long-term interests of the country.  As Deputy English suggested, people should be made aware of the fact that the measure only affects a small percentage of bogs.  As Deputy Dooley said, fewer and fewer people cut turf anyway so it is a dying activity.  A few diehards continue to do so but their number is continually decreasing.</p>
+        </speech>
+        <speech by="#" eId="spk_165">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_298">Deputy Dooley raised the issue of the differentiation between commercial and domestic cutters.  We consider that anybody who cuts for monetary gain is engaged in a commercial enterprise.  That is not currently allowed on designated raised bogs.  Dr. O'Keeffe will answer some of members' questions and Mr. O'Connell will answer questions about the compensation scheme.</p>
+        </speech>
+        <speech by="#" eId="spk_166">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_299">One of the questions related to tourism.  At Clara bog we are at an advanced stage of developing a centre which we hope will attract a lot of visitors.  Bord na Móna is carrying out work in the peatlands park so a substantial amount is happening in that area.  There can only be a few bogs for that purpose as there would not be a market for any more and tourism activity at every bog would not be sustainable.  The Clara bog project, however, is advancing well after many years of hiccups.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_167">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_300">If the NPWS is identifying certain bogs to be protected for the purposes of showcasing them, is it necessary to retain all the other designated areas?</p>
+        </speech>
+        <speech by="#" eId="spk_168">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_301">It is necessary under the habitats directive.  I will give the committee more information about how the bogs were chosen.  We looked for the best remaining bogs, namely, those with least cutting, those which were the least drained and had the least forestry.  In fact, we looked for bogs with no forestry whatsoever.  Using those criteria, we designated a certain number in 1999 but the habitats directive contains an in-built assessment of how countries are getting on in that regard, particularly in the case of raised bogs.  All countries had to submit a record of their progress to a large committee in 1999, following which we were told to designate more bogs as we had not designated enough.</p>
+          <p eId="para_302">We chose the best we could get but we were also required to include examples from around the country, because there are subtle differences in vegetation between a bog in Kildare and one in Galway.  The eastern bogs are not in as good condition, owing to the pressure of the population in their vicinity, so fewer from the east are designated.  The best were chosen as the first batch and inferior ones were chosen as the second batch.  However, we now have an obligation under law to protect them all, or to come up with a compensatory system.  While we will do our best by using some bogs for tourism, we must try to protect them.  We do not suggest those who cut turf take away between 2% and 5% each year, but draining is causing bogs to dry off, meaning that, bit by bit, it all disappears.</p>
+          <p eId="para_303">Deputy English asked questions about forestry and the presence of trees on bogs.  Generally, we try to stay away from bogs which have a significant amount of trees.  Even if a small area of a bog is planted we may still consider that the whole bog should be part of the SAC, leaving the trees to be dealt with in time.</p>
+          <p eId="para_304">The Deputy also asked about preparing plans.  There was a derogation in that regard and it was not absolutely clear what would happen at the end of the derogation.  Once we know the answer to that we will be in a position to consult with people on how we will manage the issues in the long term.</p>
+          <p eId="para_305">We were asked if we would try to keep all the bogs and the answer is that we will not.  We are trying to designate well under 10% of them for protection.  In the 1990s the NPWS bought areas of bogland which were well cut over, with the intention of offering people a swap instead of outright purchase but we also offered to buy some bogs.  I was involved in that in County Sligo, for example, where we bought bogland.  We had hundreds of acres of good bog.  People, generally, did not want to travel several miles to their bog and the scheme had a poor uptake.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_169">
+          <from>Deputy Damien English</from>
+          <p eId="para_306">Is that offer still available?</p>
+        </speech>
+        <speech by="#" eId="spk_170">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_307">If bog is available the amount is limited.  The scheme was not a success and we did not actively follow it up after trying it for a couple of years.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_171">
+          <from>Deputy Damien English</from>
+          <p eId="para_308">Where trees are adjacent to bogs, does the NPWS encourage that they be felled?  Is the NPWS concerned that trees seem to be disappearing very quickly in some places?  I am concerned at this development and I find it difficult to get answers to my questions.</p>
+        </speech>
+        <speech by="#" eId="spk_172">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_309">There are very few cases where trees are on a pure bog.  Where trees are on a bog we prefer to see them removed.  They also drain the bog.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_173">
+          <from>Chairman</from>
+          <p eId="para_310">We constantly hear advertisements encouraging us to plant trees.  I heard an advertisement encouraging people to buy bogland for tree plantation.  How does that square with what you are telling us today?</p>
+        </speech>
+        <speech by="#" eId="spk_174">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_311">The rules of grant aid for afforestation preclude planting on designated areas.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_175">
+          <from>Chairman</from>
+          <p eId="para_312">Is tree planting permitted where there is a likelihood of designation in the future?</p>
+        </speech>
+        <speech by="#" eId="spk_176">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_313">This designation process is complete.  It is very unlikely that anyone would get State assistance for planting.  In that case, it would not be worth their while.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_177">
+          <from>Chairman</from>
+          <p eId="para_314">Mr. O'Connell, what is your opinion of the €30 million?  Has it been well spent?</p>
+        </speech>
+        <speech by="#" eId="spk_178">
+          <from>Mr. James O’Connell</from>
+          <p eId="para_315">There are an estimated 20,000 owners of turbary rights, fewer than 10% of whom we have managed to reach.  The €30 million has been spent on buying up bogs on which turbary is owned by fewer than 10% of the available people.  By that standard, the existing arrangements have not succeeded in their objective of preserving the bogs.  We must consider what else needs to be done to achieve that objective.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_179">
+          <from>Chairman</from>
+          <p eId="para_316">Are you saying only 10% has been acquired?</p>
+        </speech>
+        <speech by="#" eId="spk_180">
+          <from>Mr. James O’Connell</from>
+          <p eId="para_317">Fewer than 10% of owners have come forward under the existing voluntary scheme.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_181">
+          <from>Chairman</from>
+          <p eId="para_318">Can a compulsory scheme be introduced?</p>
+        </speech>
+        <speech by="#" eId="spk_182">
+          <from>Mr. James O’Connell</from>
+          <p eId="para_319">We do not have compulsory purchase powers.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_183">
+          <from>Deputy Damien English</from>
+          <p eId="para_320">Does the figure of fewer than 10% refer to owners who have been identified or those who have sold back their rights?</p>
+        </speech>
+        <speech by="#" eId="spk_184">
+          <from>Mr. James O’Connell</from>
+          <p eId="para_321">Fewer than 10% have come forward to sell the bogs to us.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_185">
+          <from>Deputy Damien English</from>
+          <p eId="para_322">What percentage of turbary rights owners have not applied for compensation?</p>
+        </speech>
+        <speech by="#" eId="spk_186">
+          <from>Mr. James O’Connell</from>
+          <p eId="para_323">The 20,000 owners have not all been identified.  That is an estimate of turbary rights holders.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_187">
+          <from>Deputy Damien English</from>
+          <p eId="para_324">Is there a higher percentage who have not been identified?</p>
+        </speech>
+        <speech by="#" eId="spk_188">
+          <from>Mr. James O’Connell</from>
+          <p eId="para_325">I think there is a higher percentage.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_189">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_326">Is the purchase scheme still available?</p>
+        </speech>
+        <speech by="#" eId="spk_190">
+          <from>Mr. James O’Connell</from>
+          <p eId="para_327">It is still available and until now the rates being offered have been considered generous.  People can earn up to €9,000 for a fraction of an acre.  We pay €3,500 for the first acre or part thereof plus an incentive bonus of up to €6,000 for people who applied early enough.  They are very high rates for land that is poor, by agricultural standards.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_191">
+          <from>Chairman</from>
+          <p eId="para_328">Mr. O'Connell, could you send the committee a briefing note on that scheme?</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_192">
+          <from>Deputy Damien English</from>
+          <p eId="para_329">It is wrong to say people can earn €9,000 for a fraction of an acre.  The incentive bonus scheme is, more or less, finished.  The ten-year period is almost at an end.  It is now much less than €9,000.</p>
+        </speech>
+        <speech by="#" eId="spk_193">
+          <from>Mr. James O’Connell</from>
+          <p eId="para_330">That is correct.</p>
+          <p eId="para_331">A member asked if people need permission to cut turf.  Permission is required to cut turf in a designated area.  However, in practice, where turf is being cut from existing banks, people are allowed to do that without going through too many formalities.  The difficulty is where people wish to start cutting turf in designated areas or from new banks.  In such cases, permission must be sought and an assessment undertaken.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_194">
+          <from>Chairman</from>
+          <p eId="para_332">I understand that farmers participating in REPS who agree not to cut turf on their land will receive an increased payment.  By the same token, such persons must pay a penalty if there is a breach of that undertaking.  Is that correct?</p>
+        </speech>
+        <speech by="#" eId="spk_195">
+          <from>Mr. James O’Connell</from>
+          <p eId="para_333">We cannot speak for the Department of Agriculture, Fisheries and Food, but the Chairman is correct.  The arrangements under REPS and under our farm plan schemes are based on compliance with the habitats directive.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_196">
+          <from>Chairman</from>
+          <p eId="para_334">What involvement has the national parks and wildlife service in devising area plans under REPS?</p>
+        </speech>
+        <speech by="#" eId="spk_197">
+          <from>Mr. Jim Kelly</from>
+          <p eId="para_335">We have an input into the training of REPS planners.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_198">
+          <from>Chairman</from>
+          <p eId="para_336">The difficulty is that people may agree, under REPS, to curtail their turbary rights, which mostly relate to raised bogs, in return for an increased payment.  If they subsequently change their mind, however, they are faced with a large penalty.  Are there any mitigating circumstances under which such persons might receive a derogation?</p>
+        </speech>
+        <speech by="#" eId="spk_199">
+          <from>Mr. Jim Kelly</from>
+          <p eId="para_337">It is my understanding that no derogation is possible.  One of the conditions of participation in REPS is the necessity of complying with management requirements.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_200">
+          <from>Chairman</from>
+          <p eId="para_338">In the overall assessment of fauna and wildlife areas, is it part of the national parks and wildlife service's vision to encourage that type of REPS planning and development?</p>
+        </speech>
+        <speech by="#" eId="spk_201">
+          <from>Mr. Jim Kelly</from>
+          <p eId="para_339">Yes, protecting bogs is part of our remit.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_202">
+          <from>Chairman</from>
+          <p eId="para_340">Yes, but are raised bogs not a completely separate issue?</p>
+        </speech>
+        <speech by="#" eId="spk_203">
+          <from>Mr. Jim Kelly</from>
+          <p eId="para_341">They are relevant in so far as they are part of a REPS plan.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_204">
+          <from>Chairman</from>
+          <p eId="para_342">Many bogs would not be incorporated in the 139 bogs to which the delegates referred.  Which areas of bogland would be incorporated in REPS plans but not included in the national parks and wildlife service's report?</p>
+        </speech>
+        <speech by="#" eId="spk_205">
+          <from>Mr. Jim Kelly</from>
+          <p eId="para_343">I do not have that figure.  It is a matter for the Department of Agriculture, Fisheries and Food.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_206">
+          <from>Chairman</from>
+          <p eId="para_344">There is a significant level of concern in this regard.  While this report deals extensively with raised bogs, which is a critical area, there is a need to deal with turbary rights in general.  That may not be entirely within the remit of the national parks and wildlife service, but it is hard to separate the issues.</p>
+        </speech>
+        <speech by="#" eId="spk_207">
+          <from>Mr. Jim Kelly</from>
+          <p eId="para_345">I recognise there is a crossover.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_208">
+          <from>Chairman</from>
+          <p eId="para_346">Yes.  Is there any way that could be incorporated into the remit of the national parks and wildlife service?</p>
+        </speech>
+        <speech by="#" eId="spk_209">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_347">The REPS plan provides additional moneys for farmers who are farming on designated areas.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_210">
+          <from>Chairman</from>
+          <p eId="para_348">That is correct.</p>
+        </speech>
+        <speech by="#" eId="spk_211">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_349">They receive an additional payment in respect of Natura 2000 sites.  Any of the designated sites to which we have referred would be classified as such.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_212">
+          <from>Chairman</from>
+          <p eId="para_350">The difficulty arises when people, whether unknowingly or otherwise, sign up for this and then find they cannot cut turf.  Notwithstanding the cheque they receive in return for not exercising that right, they find a difficulty.  This requirement is perceived as a diktat from the EU.</p>
+        </speech>
+        <speech by="#" eId="spk_213">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_351">Agreement in this regard is made with the REPS farm planners and payment is made according to the undertakings given by the farmer in respect of the Natura 2000 site.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_214">
+          <from>Chairman</from>
+          <p eId="para_352">It must be made clear to farm REPS planners that participants must be fully informed of what they are signing up to, because often that is not made clear until a penalty is applied.</p>
+        </speech>
+        <speech by="#TerryLeyden" eId="spk_215">
+          <from>Senator Terry Leyden</from>
+          <p eId="para_353">Turbary rights are important in light of the cost of a barrel of oil, at $140, and the fuel scarcity.  I live close to a bog and we have cut our supply of turf for this year.  Turf is a valuable commodity.  Would one tell the Arabs not to drill for oil?  I urge the delegation to bear in mind what happened during the Lisbon treaty referendum.  The issue of turf-cutting arose quite frequently during the debate because we are coming to the end of the derogation period and this is the last year turf-cutting is allowed.  Many people voted against the Lisbon reform treaty because of the issue of the preservation of bogs.</p>
+          <p eId="para_354">Many of our European colleagues have cut away their bogs and have disregarded their preservation.  However, now they have decided that Ireland should be the country to preserve bogs and their habitats.  This is what happens.  Europe gets us to do the preservation that it should do rather than allow us use our bogs for domestic purposes.  It is evident that Bord na Móna seems to have been allowed a special derogation as it does not appear affected by the directive, even with regard to the bogs it has not yet cut.  None of its bogs appear to have been designated.  Was there a policy decision made that all Bord na Móna bogs would be excluded from the directive?</p>
+          <p eId="para_355">Let us be clear and call a spade a spade.  What is the position and is there any hope we can return to Europe and renegotiate the arrangement to bring about a settlement or a further derogation?  What is the bottom line and where do we stand?  Have we signed in blood in this regard or have we any hope of a change?  Are we raising the expectations of the public by discussing these issues?</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_216">
+          <from>Chairman</from>
+          <p eId="para_356">To clarify, the point of today's meeting is not about raising expectations.  We are only raising concerns with regard to the democratic deficit clearly expressed on this and many other issues.</p>
+        </speech>
+        <speech by="#TerryLeyden" eId="spk_217">
+          <from>Senator Terry Leyden</from>
+          <p eId="para_357">People want to know if we can return to negotiations.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_218">
+          <from>Chairman</from>
+          <p eId="para_358">I hope this meeting will encourage the national parks and wildlife service to take on board the concerns of the many people who do not know the facts.</p>
+        </speech>
+        <speech by="#TerryLeyden" eId="spk_219">
+          <from>Senator Terry Leyden</from>
+          <p eId="para_359">Can there be any renegotiation of the areas of conservation?</p>
+        </speech>
+        <speech by="#" eId="spk_220">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_360">We need to make clear, perhaps because we have not done so previously, that the designated bog areas are only a tiny proportion of bogs that are being cut every day.  Therefore, these measures only apply to fewer than 10% of bogs here.  With regard to whether we can return and seek a further derogation or a redesignation of some of the bogs, we should remind ourselves that these bogs are important habitats in an international rather than just a national context.  While the raised bogs are important for Ireland, they are very important in the European context because they have been destroyed throughout the rest of Europe.  We have just a short window of opportunity to protect what we have left and have signed up to do this under the habitats directive.</p>
+          <p eId="para_361">It would be very difficult, if not impossible, for the Government to return and try to renegotiate the habitats directive and this is not something that is being contemplated by the Minister.  I accept the point made that we have, perhaps, been remiss in not explaining the situation clearly.  Perhaps people think it affects far more turf-cutters than it does.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_221">
+          <from>Chairman</from>
+          <p eId="para_362">With regard to the REPS area plans, it is important that there is consultation with the Department of Agriculture, Fisheries and Food in this regard.  There should be no ambiguity with regard to who is in the scheme.  People who sign up to REPS do so voluntarily, therefore they offer their bog voluntarily.  The impression being given is that it is compulsory.  There is a need for consultation with farming bodies, any other body dealing on their behalf and with REPS planners, because there are often anomalies as a result of the REPS plans and people think they cannot cut turf.  The national parks and wildlife service is doing fantastic work.  However, it is important that people understand what is involved in regard to REPS.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_222">
+          <from>Deputy Damien English</from>
+          <p eId="para_363">This has been a useful meeting.  I thought I was up to speed on this issue but I have discovered much useful information.  The delegates mentioned that the management aspect might not be possible to do in some cases.  However, it would be useful at least to make a start and put something on paper in order that people would understand this was a genuine effort to get the issue right.</p>
+          <p eId="para_364">I still have concerns in regard to Coillte.  What is the relationship between the national parks and wildlife service and Coillte?  I had assumed all issues of conservation in regard to forestry would come within the delegates' remit.  What then is the purpose of Coillte?  I am concerned that it is operating profit-making timber operations, as well as having an environmental remit.  That does not make sense.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_223">
+          <from>Chairman</from>
+          <p eId="para_365">That is a good point.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_224">
+          <from>Deputy Damien English</from>
+          <p eId="para_366">Is there any possibility that jobs can be created which allow people who have worked on bogs and are accustomed to the social aspects of turf-cutting to continue doing so?  Is any consideration being given to this or is it something the delegates might take from today's meeting for future examination?</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_225">
+          <from>Chairman</from>
+          <p eId="para_367">The Deputy has made an excellent point.  As well as offering a wonderful resource for future generations, there is considerable scope to explore the tourism potential of bogs.  For example, could they be included, with the imposition of strict controls, in the Irish Heart Foundation's walking routes?  Have the delegates examined the possibility of introducing an interpretative service at the various sites, with an audiovisual presentation of the history of the bog in question?  Does the national parks and wildlife service have access to archival information which could be presented to colleges and schools?  Have any such educational initiatives been undertaken?  There is a danger that its work in preserving bogs may be the best kept secret in terms of our efforts to protect our natural habitats.</p>
+        </speech>
+        <speech by="#" eId="spk_226">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_368">There are many such school programmes run by several organisations, including ourselves.  There is a good deal of educational material available.  We participate in that type of educational work in conjunction with our centres.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_227">
+          <from>Chairman</from>
+          <p eId="para_369">Is there an audiovisual presentation of the history and so forth?</p>
+        </speech>
+        <speech by="#" eId="spk_228">
+          <from>Dr. Ciarán O’Keeffe</from>
+          <p eId="para_370">We can look into providing such a resource.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_229">
+          <from>Chairman</from>
+          <p eId="para_371">I greatly appreciate the work done by the national parks and wildlife service in Sligo.  The Ballinafad education centre which I visited recently is particularly impressive.  We must address the information and education deficit.  As a businessman, I understand it is difficult to address these problems on a limited budget.  We must ensure people can avail of user-friendly and accessible information, perhaps through the medium of a farming seminar.  Many of those who may be adversely affected by this regulation may not have access to the relevant information.  People are generally passionate about the countryside and wish to do what is best.  However, if they perceive directions in this regard as coming from the wrong source and for the wrong reason, they may be averse to them.</p>
+          <p eId="para_372">Will Mr. Ó Raghallaigh offer a synopsis of today's discussion?  What role does he envisage for the committee in disseminating information?  How can we make his job easier?</p>
+        </speech>
+        <speech by="#" eId="spk_230">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_373">We appreciate the committee's engagement on this issue.  We expect a greater degree of public discussion as the policy position becomes clearer.  With the committee, we have an opportunity to get the message across in terms of what the directive does and does not involve.  That will have to happen quickly because the derogation for the 32 bogs comes to an end this year.  This is likely to be the last year in which turf-cutting will take place on those sites.  We have a duty to the people who are active to get the information to them as soon as possible.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_231">
+          <from>Chairman</from>
+          <p eId="para_374">Perhaps the delegates will keep the committee briefed on developments in this area.</p>
+        </speech>
+        <speech by="#" eId="spk_232">
+          <from>Mr. Conor Ó Raghallaigh</from>
+          <p eId="para_375">We will do so.</p>
+        </speech>
+        <speech by="#JohnPerry" as="#Chairman" eId="spk_233">
+          <from>Chairman</from>
+          <p eId="para_376">We support the work it is doing.  It is important that we have a clear synopsis of its intentions, objectives and what it has achieved to date.  It is particularly important that there be a clear distinction between raised bogs and bogs which are incorporated under REPS.  People may be under the false impression that the regulation relates to bogs to which it is not applicable.  There is widespread confusion to the effect that certain bogs which are not included in REPS plans cannot be cut.  In some cases, REPS planners include a bog area in the plan without even telling the farmer.</p>
+          <p eId="para_377">I thank Mr. Ó Raghallaigh, Dr. O'Keeffe, Mr. O'Connell, Mr. Carvill and Mr. Kelly and apologise for the delay in starting the meeting.  It has been an important engagement and I have learned much.  I ask that the delegates send a brief synopsis to every Oireachtas Member in the form of a user-friendly document setting out the distinction between raised bogs and REPS bogs, the impact of the derogation and the likely consequences.  That would be of great benefit to Members and could be forwarded to constituents who have concerns.  We appreciate the work being done by the national parks and wildlife service.</p>
+        </speech>
+        <summary eId="sum_7">The joint committee adjourned at 2.40 p.m. until 1.30 p.m. on Thursday, 3 July 2008.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

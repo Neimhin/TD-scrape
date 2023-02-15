@@ -1,0 +1,559 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_finance_public_expenditure_and_reform/2011-07-12/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_finance_public_expenditure_and_reform/2011-07-12/debate"/>
+          <FRBRdate date="2011-07-12" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/31/select_committee_on_finance_public_expenditure_and_reform"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_finance_public_expenditure_and_reform/2011-07-12/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_finance_public_expenditure_and_reform/2011-07-12/debate/mul@"/>
+          <FRBRdate date="2011-07-12" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_finance_public_expenditure_and_reform/2011-07-12/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_finance_public_expenditure_and_reform/2011-07-12/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_6" refersTo="#dbsect_2" outcome="#lost">
+            <count eId="vote_1-count_1" value="9" refersTo="#ta" href="#qty_1"/>
+            <count eId="vote_1-count_2" value="12" refersTo="#nil" href="#qty_2"/>
+          </voting>
+        </parliamentary>
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AlexWhite" href="/ie/oireachtas/member/id/Alex-White.S.2007-07-23" showAs="Alex White"/>
+        <TLCPerson eId="ArthurSpring" href="/ie/oireachtas/member/id/Arthur-Spring.D.2011-03-09" showAs="Arthur Spring"/>
+        <TLCPerson eId="BillyGodfreyTimminsFG" href="/ie/oireachtas/member/id/Billy-Timmins.D.1997-06-26" showAs="Billy Timmins"/>
+        <TLCPerson eId="HeatherHumphreys" href="/ie/oireachtas/member/id/Heather-Humphreys.D.2011-03-09" showAs="Heather Humphreys"/>
+        <TLCPerson eId="JimDaly" href="/ie/oireachtas/member/id/Jim-Daly.D.2011-03-09" showAs="Jim Daly"/>
+        <TLCPerson eId="JoeHiggins" href="/ie/oireachtas/member/id/Joe-Higgins.D.1997-06-26" showAs="Joe Higgins"/>
+        <TLCPerson eId="JoeOReilly" href="/ie/oireachtas/member/id/Joe-O'Reilly.S.1989-10-01" showAs="Joe O'Reilly"/>
+        <TLCPerson eId="JonathanOBrien" href="/ie/oireachtas/member/id/Jonathan-O'Brien.D.2011-03-09" showAs="Jonathan O'Brien"/>
+        <TLCPerson eId="KevinHumphreys" href="/ie/oireachtas/member/id/Kevin-Humphreys.D.2011-03-09" showAs="Kevin Humphreys"/>
+        <TLCPerson eId="KieranODonnell" href="/ie/oireachtas/member/id/Kieran-O'Donnell.D.2007-06-14" showAs="Kieran O'Donnell"/>
+        <TLCPerson eId="LiamTwomeyIND" href="/ie/oireachtas/member/id/Liam-Twomey.D.2002-06-06" showAs="Liam Twomey"/>
+        <TLCPerson eId="MaryLouMcDonald" href="/ie/oireachtas/member/id/Mary-Lou-McDonald.D.2011-03-09" showAs="Mary Lou McDonald"/>
+        <TLCPerson eId="MichaelCreed" href="/ie/oireachtas/member/id/Michael-Creed.D.1989-06-29" showAs="Michael Creed"/>
+        <TLCPerson eId="MichaelMcGrath" href="/ie/oireachtas/member/id/Michael-McGrath.D.2007-06-14" showAs="Michael McGrath"/>
+        <TLCPerson eId="PearseDoherty" href="/ie/oireachtas/member/id/Pearse-Doherty.S.2007-07-23" showAs="Pearse Doherty"/>
+        <TLCPerson eId="PeterMathews" href="/ie/oireachtas/member/id/Peter-Mathews.D.2011-03-09" showAs="Peter Mathews"/>
+        <TLCPerson eId="RichardBoydBarrett" href="/ie/oireachtas/member/id/Richard-Boyd-Barrett.D.2011-03-09" showAs="Richard Boyd Barrett"/>
+        <TLCPerson eId="SeanFleming" href="/ie/oireachtas/member/id/Seán-Fleming.D.1997-06-26" showAs="Sean Fleming"/>
+        <TLCPerson eId="StephenDonnelly" href="/ie/oireachtas/member/id/Stephen-Donnelly.D.2011-03-09" showAs="Stephen S. Donnelly"/>
+        <TLCPerson eId="TimDooley" href="/ie/oireachtas/member/id/Timmy-Dooley.S.2002-09-12" showAs="Timmy Dooley"/>
+        <TLCPerson eId="TommyBroughan" href="/ie/oireachtas/member/id/Thomas-P-Broughan.D.1992-12-14" showAs="Thomas P. Broughan"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>ROGHCHOISTE UM AIRGEADAS, CAITEACHAS POILBÍ AGUS ATHCHÓIRIÚ</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON FINANCE, PUBLIC EXPENDITURE AND REFORM</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2011-07-12">Dé Máirt, 12 Iúil 2011</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2011-07-12">Tuesday, 12 July 2011</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 2 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#RichardBoydBarrett">Deputy Richard Boyd Barrett,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#KevinHumphreys">Deputy Kevin Humphreys,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#TommyBroughan">Deputy Thomas P. Broughan,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#PeterMathews">Deputy Peter Mathews,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelCreed">Deputy Michael Creed,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#MaryLouMcDonald">Deputy Mary Lou McDonald,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#JimDaly">Deputy Jim Daly,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#MichaelMcGrath">Deputy Michael McGrath,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#PearseDoherty">Deputy Pearse Doherty,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#JonathanOBrien">Deputy Jonathan O’Brien,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#StephenDonnelly">Deputy Stephen Donnelly,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#KieranODonnell">Deputy Kieran O’Donnell,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#TimDooley">Deputy Timmy Dooley,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#JoeOReilly">Deputy Joe O’Reilly,*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#SeanFleming">Deputy Sean Fleming,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_16">
+                  <person refersTo="#ArthurSpring">Deputy Arthur Spring,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_17">
+                  <person refersTo="#JoeHiggins">Deputy Joe Higgins,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_18">
+                  <person refersTo="#BillyGodfreyTimminsFG">Deputy Billy Timmins,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_19">
+                  <person refersTo="#HeatherHumphreys">Deputy Heather Humphreys,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_20">
+                  <person refersTo="#LiamTwomeyIND">Deputy Liam Twomey.</person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">* In the absence of Deputy Olivia Mitchell.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#AlexWhite">DEPUTY ALEX WHITE IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Membership of Select Sub-Committee on Finance: Motion</heading>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_21">Members will recall that at the select committee meeting on the last occasion some Deputies expressed reservations about the numbers of members being appointed to the select sub-committees established under the order of the Dáil on 8 June last.  Deputy Doherty was of the view and he proposed that the numbers intended to be appointed were insufficient.  On foot of a reasonably lengthy discussion, it was agreed that Deputy Doherty, in accordance with Standing Orders, would submit a motion to the Clerk to the Committee.  He has done that and it has been circulated to members.  I ask the Deputy to formally move the motion.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_2">
+          <from>Deputy Pearse Doherty</from>
+          <p eId="para_22">I move:</p>
+          <p class="indent_1" eId="para_23">Pursuant to the order of the Dáil of 8 June which established the Select Committee on Finance, Public Expenditure and Reform, that Dáil Éireann amend Standing Order 82A(4) in regard to the select sub-committee and enlarge the membership of the select sub-committees on finance, public expenditure and the Taoiseach's Department to include all members of the Select Committee on Finance, Public Expenditure and Reform.</p>
+        </speech>
+        <speech by="#SeanFleming" eId="spk_3">
+          <from>Deputy Sean Fleming</from>
+          <p eId="para_24">I second the motion.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_4">
+          <from>Chairman</from>
+          <p eId="para_25">We had quite a lengthy discussion on the last occasion.  It was reasonably well ventilated.  In fairness, Deputy Doherty might speak briefly on the motion.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_5">
+          <from>Deputy Pearse Doherty</from>
+          <p eId="para_26">We have discussed this at length.  All I want to say is the draft schedule indicates that there will be many meetings at which members, particularly those who are on the Select Sub-Committee on the Department of the Taoiseach, would not be able to participate as full members.  It is important, as we discussed last week, that the membership should be extended.  I see no reason it should not be extended.  As we see even from the attendance today, it will be rare when there is full attendance at these meetings and they will not become unwieldy with the number of members being the full complement of the Select Committee on Finance, Public Expenditure and Reform.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_6">
+          <from>Chairman</from>
+          <p eId="para_27">Are there any other views?</p>
+        </speech>
+        <speech by="#SeanFleming" eId="spk_7">
+          <from>Deputy Sean Fleming</from>
+          <p eId="para_28">I concur with that statement.  Every member who is here today should be entitled to be a full member dealing with the issues of finance and public expenditure and reform and some members should not be excluded from full participation in the relevant sub-committees.  We all would appreciate being able to engage fully on the two Departments under the remit of this committee.  That is why we are asking the Dáil to amend the Standing Orders as passed on 8 June.</p>
+        </speech>
+        <speech by="#LiamTwomeyIND" eId="spk_8">
+          <from>Deputy Liam Twomey</from>
+          <p eId="para_29">The Select Committee on Finance and the Public Service in the previous Dáil was made up of only 11 members and this select sub-committee will be made up of nine members, which is not a significant difference.</p>
+          <p eId="para_30">We should move this issue on.  We cannot change it anyway because it was agreed in the Dáil.  It is more important that we get down to work on the issues with which we must deal.  Every member of this committee and every Member of the Dáil can still participate in the debates as they happen in this committee.  We need to get down to work on this.</p>
+        </speech>
+        <speech by="#JoeHiggins" eId="spk_9">
+          <from>Deputy Joe Higgins</from>
+          <p eId="para_31">It is a matter of the utmost simplicity for the Dáil to vary an order of the Dáil.  The Dáil proposes and the Dáil can amend.  I strongly support the proposal, as I did last week.  The issues that are to be under consideration by these committees are quite demanding in terms of time, etc., and this type of broader proposal will facilitate the work of the committees and the input of individuals and their parties and groups.  I fail to see any reason for Government members to oppose this proposal.  Were it to be agreed here, it would be a matter of a simple amendment that, if the Dáil so wished, could be taken on any morning without debate and by agreement without even a vote.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_10">
+          <from>Deputy Kevin Humphreys</from>
+          <p eId="para_32">I will not rehash the contribution I made at the previous meeting.  As members already have covered this ground, the motion should simply be moved.  Members should make a decision and move on.  This meeting is clashing with meetings of other committees of which several members also are members and it is difficult to get through the business.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_11">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_33">While I will not support the motion, I have a certain amount of sympathy with it.  It is important to realise that one reason an effort has been made to reform committees was to prevent the very point articulated by Deputy Kevin Humphreys with regard to Members having multiple membership of committees and being obliged to go here and there.  If this is the case, one will find the committees will become dysfunctional in the months ahead.  I am concerned that the method of breaking down the committees will merely replicate what happened in the previous Dáil, in which Members were going from one committee to another without knowing what they were at.</p>
+          <p eId="para_34">In conjunction with the other Chairmen, it will be important for the Chairman to monitor the new system because my concern is it might fall into the same disrepute as did the previous system.  At the time, I strongly advocated and proposed the policy that each Oireachtas Member should only be a member of one committee to prevent this from happening.  I am also a member of the Select Committee on Justice, Defence and Equality, which is considering Estimates at present, and in effect one ends up attending neither committee.  Consequently, while I will not support the motion, I have a certain sympathy for it.  Perhaps this matter should be revisited pending the future operation of the committees.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_12">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_35">Clearly, the Government can push through this measure if it so wishes.  However, if that is the case and the ultimate outcome, I suggest consideration be given to a discussion among the Chairmen of all committees through the existing process of having a Chairman of Chairmen.  This group might come together to consider the workings of committees in general over the next six to eight months and then report back in a non-partisan way.  Sadly, I believe today's decision will break down on party lines and I do not consider this to be helpful.  Moreover, having spoken to other Members and to members of this committee in particular on this issue, they are not happy with it either.  Consequently, I am unsure on what basis this process has come about.  Nevertheless, members now are faced with it and must deal with it in the manner in which committees generally do.  However, it is not helpful at this stage and will not be helpful on an ongoing basis.</p>
+          <p eId="para_36">A review should be put in place.  This is not an attempt to force the Government to back down on this issue but is about finding a solution that works for all Members of the Houses.  In my experience as a Member of the Oireachtas since 2002, both as a Senator and a Deputy, by and large the sabre-rattling is put away in committees and a good non-partisan approach is usually taken to their workings.  I acknowledge there certainly are times when policy issues come into play and committee members get into the bunker around the point at which their respective parties stand.  However, for the important issues that are to be addressed in respect of the financial sector in particular, a way around this issue should have been found.  Let whatever happens today happen but I urge the Chairman to take the suggestion from this committee to the grouping of Chairmen and to try to come up with a workable solution away from the party Whips because it is not the preserve of the Government, the Opposition or anyone else to decide how best committees can work.  I make this proposal to the Chairman for consideration.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_13">
+          <from>Chairman</from>
+          <p eId="para_37">That is a helpful suggestion.  I have taken note of it and will take it up.</p>
+        </speech>
+        <speech by="#TommyBroughan" eId="spk_14">
+          <from>Deputy Thomas P. Broughan</from>
+          <p eId="para_38">I remain sympathetic to the view expressed in the motion on the basis of my own experience.  The major business before the select committee probably is the finance Bill and together with the Committee of Public Accounts, it probably now is the key Dáil committee in respect of the ongoing impact of the bailout.  In the context of discussing legislation in particular, it would be good to have available the experience and talent of all committee members during, for example, debate on finance Bills.  Consequently, I remain sympathetic to the view.  I acknowledge the Chairman is under a certain remit because of the manner in which responsibility for public expenditure was broken away from finance.  I consider it to be the same function anyway and that the committee is looking after one function.  Obviously, if this is how it must be, so be it but I am sympathetic to the general view that has been expressed because when a finance committee goes through the nitty-gritty of important changes in taxation or whatever, everyone available to serve on that committee is needed.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_15">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_39">I also am sympathetic to the motion.  As for the suggestion that members might opt for the <i>status quo</i> before the proposal of this motion and then review the issue after six months, I believe the next six months will be critical for the country.  As Deputy Broughan and others have noted, the contributions being made by the wider number of the full committee during that six months would be valuable.</p>
+        </speech>
+        <summary eId="sum_5">Question put.<entity name="reference" refersTo="#para_22"/>
+                </summary>
+        <debateSection name="division" eId="dbsect_3">
+          <summary title="division" eId="sum_6">The Committee divided: Tá, <quantity normalized="9" refersTo="#ta" eId="qty_1">9</quantity>; Níl, <quantity normalized="12" refersTo="#nil" eId="qty_2">12</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_4">
+            <p eId="para_40">Tá</p>
+            <p eId="para_41">
+              <person refersTo="#RichardBoydBarrett">Boyd Barrett, Richard.</person>
+            </p>
+            <p eId="para_42">
+              <person refersTo="#PearseDoherty">Doherty, Pearse.</person>
+            </p>
+            <p eId="para_43">
+              <person refersTo="#StephenDonnelly">Donnelly, Stephen.</person>
+            </p>
+            <p eId="para_44">
+              <person refersTo="#TimDooley">Dooley, Timmy.</person>
+            </p>
+            <p eId="para_45">
+              <person refersTo="#SeanFleming">Fleming, Sean.</person>
+            </p>
+            <p eId="para_46">
+              <person refersTo="#JoeHiggins">Higgins, Joe.</person>
+            </p>
+            <p eId="para_47">
+              <person refersTo="#MaryLouMcDonald">McDonald, Mary Lou.</person>
+            </p>
+            <p eId="para_48">
+              <person refersTo="#MichaelMcGrath">McGrath, Michael.</person>
+            </p>
+            <p eId="para_49">
+              <person refersTo="#JonathanOBrien">O’Brien, Jonathan.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_5">
+            <p eId="para_50">Níl</p>
+            <p eId="para_51">
+              <person refersTo="#TommyBroughan">Broughan, Thomas P.</person>
+            </p>
+            <p eId="para_52">
+              <person refersTo="#MichaelCreed">Creed, Michael.</person>
+            </p>
+            <p eId="para_53">
+              <person refersTo="#JimDaly">Daly, Jim.</person>
+            </p>
+            <p eId="para_54">
+              <person refersTo="#HeatherHumphreys">Humphreys, Heather.</person>
+            </p>
+            <p eId="para_55">
+              <person refersTo="#KevinHumphreys">Humphreys, Kevin.</person>
+            </p>
+            <p eId="para_56">
+              <person refersTo="#PeterMathews">Mathews, Peter.</person>
+            </p>
+            <p eId="para_57">
+              <person refersTo="#KieranODonnell">O’Donnell, Kieran.</person>
+            </p>
+            <p eId="para_58">
+              <person refersTo="#JoeOReilly">O’Reilly, Joe.</person>
+            </p>
+            <p eId="para_59">
+              <person refersTo="#ArthurSpring">Spring, Arthur.</person>
+            </p>
+            <p eId="para_60">
+              <person refersTo="#BillyGodfreyTimminsFG">Timmins, Billy.</person>
+            </p>
+            <p eId="para_61">
+              <person refersTo="#LiamTwomeyIND">Twomey, Liam.</person>
+            </p>
+            <p eId="para_62">
+              <person refersTo="#AlexWhite">White, Alex.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_7"/>
+          <summary eId="sum_8" refersTo="#lost" title="decision">Question declared lost.<entity name="reference" refersTo="#dbsect_2"/>
+                    </summary>
+        </debateSection>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_6">
+        <heading>Nomination of Members of Select Sub-Committees</heading>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_63">Each of the sub-committees will have nine members, including the Chairman.  I invite nominations to the Select Sub-Committee on Finance.</p>
+        </speech>
+        <speech by="#LiamTwomeyIND" eId="spk_17">
+          <from>Deputy Liam Twomey</from>
+          <p eId="para_64">I nominate Deputies Liam Twomey, Kieran O'Donnell, Jim Daly and Billy Timmins.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_65">I stand as a Labour Party member of the sub-committee.  There should be a second nominee from the Labour Party.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_19">
+          <from>Deputy Kevin Humphreys</from>
+          <p eId="para_66">Deputy Tommy Broughan.</p>
+        </speech>
+        <speech by="#SeanFleming" eId="spk_20">
+          <from>Deputy Sean Fleming</from>
+          <p eId="para_67">Deputy Michael McGrath.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_21">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_68">Deputy Pearse Doherty.</p>
+        </speech>
+        <speech by="#JoeHiggins" eId="spk_22">
+          <from>Deputy Joe Higgins</from>
+          <p eId="para_69">Deputy Richard Boyd Barrett.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_23">
+          <from>Chairman</from>
+          <p eId="para_70">Is the nomination of those members agreed to?  Agreed.  Deputies Boyd Barrett, Broughan, Daly, Doherty, McGrath, O'Donnell, Timmins, Twomey and White are duly appointed to the Select Sub-Committee on Finance.</p>
+          <p eId="para_71">I now turn to the Select Sub-Committee on Public Expenditure and Reform which will have nine members, including the Chairman.</p>
+        </speech>
+        <speech by="#LiamTwomeyIND" eId="spk_24">
+          <from>Deputy Liam Twomey</from>
+          <p eId="para_72">I nominate Deputies Olivia Mitchell, Peter Mathews, Michael Creed and Heather Humphreys.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_25">
+          <from>Chairman</from>
+          <p eId="para_73">I stand appointed to the sub-committee.</p>
+        </speech>
+        <speech by="#JoeHiggins" eId="spk_26">
+          <from>Deputy Joe Higgins</from>
+          <p eId="para_74">Deputy Arthur Spring.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_27">
+          <from>Deputy Michael McGrath</from>
+          <p eId="para_75">Deputy Sean Fleming.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_28">
+          <from>Deputy Pearse Doherty</from>
+          <p eId="para_76">Deputy Mary Lou McDonald.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_29">
+          <from>Deputy Stephen Donnelly</from>
+          <p eId="para_77">I am the nominee of the Technical Group.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_30">
+          <from>Chairman</from>
+          <p eId="para_78">Is the nomination of these members agreed to?  Agreed.  Deputies Creed, Donnelly, Fleming, Heather Humphreys, McDonald, Mathews, Mitchell, Spring and White are duly appointed to the Select Sub-Committee on Public Expenditure and Reform.</p>
+          <p eId="para_79">The final sub-committee is the Select Sub-Committee on the Department of the Taoiseach, which will have nine members, including the Chairman.</p>
+        </speech>
+        <speech by="#LiamTwomeyIND" eId="spk_31">
+          <from>Deputy Liam Twomey</from>
+          <p eId="para_80">I nominate Deputies Liam Twomey, Olivia Mitchell, Jim Daly and Heather Humphreys.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_32">
+          <from>Chairman</from>
+          <p eId="para_81">I also stand appointed to the sub-committee.  Are there another nominees?</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_33">
+          <from>Deputy Kevin Humphreys</from>
+          <p eId="para_82">Deputy Kevin Humphreys.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_34">
+          <from>Deputy Michael McGrath</from>
+          <p eId="para_83">Deputy Seán Fleming.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_35">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_84">Deputy Jonathan O'Brien.</p>
+        </speech>
+        <speech by="#" eId="spk_36">
+          <from>A Deputy</from>
+          <p eId="para_85">Deputy Joe Higgins.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_37">
+          <from>Chairman</from>
+          <p eId="para_86">Is the appointment of the members of the Select Sub-Committee on the Department of the Taoiseach agreed to?  Agreed.  Accordingly, Deputies Daly, Fleming, Joe Higgins, Heather Humphreys, Kevin Humphreys, Mitchell, O'Brien, Twomey and White are duly appointed to the select sub-committee.</p>
+        </speech>
+        <speech by="#JoeHiggins" eId="spk_38">
+          <from>Deputy Joe Higgins</from>
+          <p eId="para_87">To be absolutely clear, each of the 21 members has the right to attend and speak at each of the sub-committees.  They may not move a motion or vote; otherwise they have the right to participate fully.  Is that the case?</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_39">
+          <from>Chairman</from>
+          <p eId="para_88">I confirm that is the case.</p>
+        </speech>
+        <speech by="#SeanFleming" eId="spk_40">
+          <from>Deputy Sean Fleming</from>
+          <p eId="para_89">May I seek clarification?  Is the same right available to every Member of the Dáil?  Is any other Member of the Dáil excluded?</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_41">
+          <from>Chairman</from>
+          <p eId="para_90">I do not think a distinction can be drawn between the rights of other members of the select committee and Members of the Dáil who are not members of the select committee.</p>
+        </speech>
+        <speech by="#SeanFleming" eId="spk_42">
+          <from>Deputy Sean Fleming</from>
+          <p eId="para_91">Therefore, it applies to every Member of the Dáil.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_43">
+          <from>Chairman</from>
+          <p eId="para_92">Yes, that is correct.  It is in accordance with convention and practice.</p>
+        </speech>
+        <speech by="#BillyGodfreyTimminsFG" eId="spk_44">
+          <from>Deputy Billy Timmins</from>
+          <p eId="para_93">Does the Chairman envisage the full committee meeting often?  What topics will we meet to discuss?</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_45">
+          <from>Chairman</from>
+          <p eId="para_94">Frankly, I do not envisage this committee meeting at all, rather the select sub-committees will meet to deal with the business referred to them.  This is the select committee and while it would not be accurate to say it is now defunct, whatever way one wants to describe it, it will not be meeting again.  It will not have any tasks to conduct, unless the Dáil, of which it is a creature, determines it should meet to consider some business to be referred to it.  Hereafter, it will be the select sub-committees which will have business to attend to, referred to them by the Dáil.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_46">
+          <from>Deputy Stephen Donnelly</from>
+          <p eId="para_95">Can members who do not have voting rights on a sub-committee still be supplied with whatever papers are sent to that sub-committee in order that they can stay up to date?  Would it be possible to do this?</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_47">
+          <from>Chairman</from>
+          <p eId="para_96">I understand where the Deputy is coming from.  To revert to the point we have just discussed, as a matter of course, the select committee will not receive all of the documentation presented.  It will be for whatever select sub-committee a member is on.  However, I know what the Deputy is driving at and I will certainly consider the matter.  I will discuss it with the clerk.  We will look favourably upon the Deputy's request, but I am not sure exactly how it would work out in practice.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_48">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_97">If a particular generic financial or banking issue arises, which sub-committee will a witness appear before?</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_49">
+          <from>Chairman</from>
+          <p eId="para_98">The Joint Committee on Finance and Public Expenditure.  From now on essentially there will be four bodies: the three select sub-committees which have just been formed and the joint committee of 27 members which we hope will meet frequently to deal with the business the Deputy mentioned.</p>
+        </speech>
+        <speech by="#TommyBroughan" eId="spk_50">
+          <from>Deputy Thomas P. Broughan</from>
+          <p eId="para_99">Is the joint committee meeting at 4.30 p.m.?</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_51">
+          <from>Chairman</from>
+          <p eId="para_100">The Select Sub-Committee on Public Expenditure and Reform is meeting at that time to deal with the Estimates.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_52">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_101">As regards the discussions we had at previous meetings on people coming to be questioned, will that happen before the joint committee?</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_53">
+          <from>Chairman</from>
+          <p eId="para_102">Absolutely.  I need to correct the record on one matter.  Owing to a slip of the pen, we gave the wrong result of the vote.  It should have been Tá, 9; Níl, 12.  I apologise to members.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_54">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_103">I wondered who the 22nd person was.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_55">
+          <from>Chairman</from>
+          <p eId="para_104">It was a slip of the pen.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_56">
+          <from>Deputy Pearse Doherty</from>
+          <p eId="para_105">What is the quorum at the select sub-committees?</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_57">
+          <from>Chairman</from>
+          <p eId="para_106">Three in each case, including the Chairman.</p>
+        </speech>
+        <summary eId="sum_9">The select committee adjourned at 2.35 p.m. <i>sine die</i>.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

@@ -1,0 +1,873 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-10-07/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-10-07/debate"/>
+          <FRBRdate date="2003-10-07" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/select_committee_on_justice_equality_defence_and_womens_rights"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-10-07/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-10-07/debate/mul@"/>
+          <FRBRdate date="2003-10-07" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-10-07/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-10-07/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_28">
+            <count eId="vote_1-count_1" value="2" refersTo="#ta" href="#qty_1"/>
+            <count eId="vote_1-count_2" value="7" refersTo="#nil" href="#qty_2"/>
+          </voting>
+        </parliamentary>
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference showAs="Vol. 1" href="ie/oireachtas/debateRecord/vol/1" eId="#vol_1"/>
+          <oir:numberReference showAs="No. 22" href="ie/oireachtas/debateRecord/vol/1/no/22" eId="#no_22"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="withdrawn" href="/ie/oireachtas/ontology#Withdrawn" showAs="Withdrawn"/>
+        <TLCConcept eId="agreed" href="/ie/oireachtas/ontology#Agreed" showAs="Agreed"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCConcept eId="notmoved" href="/ie/oireachtas/ontology#NotMoved" showAs="Not Moved"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCEvent eId="bill.2001.1.dail.3" href="/ie/oireachtas/bill/2001/1/dail/3" showAs="Private Security Services Bill 2001: Dáil Committee Stage"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_17" href="/ie/oireachtas/bill/2001/1/dail/3/amd_17" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 17"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_17.agreed" href="/ie/oireachtas/bill/2001/1/dail/3/amd_17/agreed" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 17 (Agreed)"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_18.notmoved" href="/ie/oireachtas/bill/2001/1/dail/3/amd_18/notmoved" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 18 (Not Moved)"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_19" href="/ie/oireachtas/bill/2001/1/dail/3/amd_19" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 19"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_19.agreed" href="/ie/oireachtas/bill/2001/1/dail/3/amd_19/agreed" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 19 (Agreed)"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_20" href="/ie/oireachtas/bill/2001/1/dail/3/amd_20" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 20"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_20.agreed" href="/ie/oireachtas/bill/2001/1/dail/3/amd_20/agreed" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 20 (Agreed)"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_21" href="/ie/oireachtas/bill/2001/1/dail/3/amd_21" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 21"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_21.agreed" href="/ie/oireachtas/bill/2001/1/dail/3/amd_21/agreed" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 21 (Agreed)"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_22" href="/ie/oireachtas/bill/2001/1/dail/3/amd_22" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 22"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_23" href="/ie/oireachtas/bill/2001/1/dail/3/amd_23" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 23"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_23.withdrawn" href="/ie/oireachtas/bill/2001/1/dail/3/amd_23/withdrawn" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 23 (Withdrawn)"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_24" href="/ie/oireachtas/bill/2001/1/dail/3/amd_24" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 24"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_24.withdrawn" href="/ie/oireachtas/bill/2001/1/dail/3/amd_24/withdrawn" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 24 (Withdrawn)"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_25" href="/ie/oireachtas/bill/2001/1/dail/3/amd_25" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 25"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_26" href="/ie/oireachtas/bill/2001/1/dail/3/amd_26" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 26"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_26.agreed" href="/ie/oireachtas/bill/2001/1/dail/3/amd_26/agreed" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 26 (Agreed)"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_27" href="/ie/oireachtas/bill/2001/1/dail/3/amd_27" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 27"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_27.agreed" href="/ie/oireachtas/bill/2001/1/dail/3/amd_27/agreed" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 27 (Agreed)"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_28" href="/ie/oireachtas/bill/2001/1/dail/3/amd_28" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 28"/>
+        <TLCEvent eId="bill.2001.1.dail.3.amd_28.agreed" href="/ie/oireachtas/bill/2001/1/dail/3/amd_28/agreed" showAs="Private Security Services Bill 2001: Dáil Committee Stage - Amendment No. 28 (Agreed)"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="CharlieOConnorFF" href="/ie/oireachtas/member/id/Charlie-O'Connor.D.2002-06-06" showAs="Charlie O'Connor"/>
+        <TLCPerson eId="DennisODonovan" href="/ie/oireachtas/member/id/Denis-O'Donovan.S.1989-10-01" showAs="Denis O'Donovan"/>
+        <TLCPerson eId="DermotFitzpatrickFF" href="/ie/oireachtas/member/id/Dermot-Fitzpatrick.D.1987-03-10" showAs="Dermot Fitzpatrick"/>
+        <TLCPerson eId="FinianMcGrath" href="/ie/oireachtas/member/id/Finian-McGrath.D.2002-06-06" showAs="Finian McGrath"/>
+        <TLCPerson eId="JoeCostelloLAB" href="/ie/oireachtas/member/id/Joe-Costello.S.1989-10-01" showAs="Joe Costello"/>
+        <TLCPerson eId="MarieHoctorFF" href="/ie/oireachtas/member/id/Máire-Hoctor.D.2002-06-06" showAs="Máire Hoctor"/>
+        <TLCPerson eId="MichaelMcDowellPD" href="/ie/oireachtas/member/id/Michael-McDowell.D.1987-03-10" showAs="Michael McDowell"/>
+        <TLCPerson eId="PaulMcGrath" href="/ie/oireachtas/member/id/Paul-McGrath.D.1989-06-29" showAs="Paul McGrath"/>
+        <TLCPerson eId="PeterPowerFF" href="/ie/oireachtas/member/id/Peter-Power.D.2002-06-06" showAs="Peter Power"/>
+        <TLCPerson eId="SeanArdagh" href="/ie/oireachtas/member/id/Seán-Ardagh.D.1997-06-26" showAs="Seán Ardagh"/>
+        <TLCPerson eId="SeanOFearghaillFF" href="/ie/oireachtas/member/id/Seán-Ó-Fearghaíl.S.2000-06-09" showAs="Seán Ó Fearghaíl"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Justice,_Equality_and_Law_Reform" href="/ie/oireachtas/role/minister/justice__equality__law_reform" showAs="Minister for Justice, Equality and Law Reform"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>ROGHCHOISTE UM DHLÍ AGUS CEART, COMHIONANNAS, COSAINT AGUS CEARTA NA mBAN</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON JUSTICE, EQUALITY, DEFENCE AND WOMEN’S RIGHTS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2003-10-07">Dé Máirt, 7 Deireadh Fómhair 2003</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2003-10-07">Tuesday, 7 October 2003</docDate>
+      </block>
+      <block name="volume">
+        <docNumber refersTo="#vol_1">Vol. 1</docNumber>
+      </block>
+      <block name="number">
+        <docNumber refersTo="#no_22">No. 22</docNumber>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 3.30 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">Members Present:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JoeCostelloLAB">Deputy J. Costello,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PaulMcGrath">Deputy P. McGrath,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#DermotFitzpatrickFF">Deputy D. Fitzpatrick,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#SeanOFearghaillFF">Deputy S. Ó Fearghaíl,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MarieHoctorFF">Deputy M. Hoctor,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#CharlieOConnorFF">Deputy C. O’Connor,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MichaelMcDowellPD">Deputy M. McDowell (<i>Minister for Justice, Equality and Law Reform</i>),</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#DennisODonovan">Deputy D. O’Donovan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#FinianMcGrath">Deputy F. McGrath,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Deputy P. Power.</summary>
+          <summary eId="sum_4">In attendance: Deputy Aengus Ó Snodaigh.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#SeanArdagh">
+   DEPUTY S. ARDAGH in the chair.
+  </person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2" refersTo="#bill.2001.1.dail.3">
+        <heading>Private Security Services Bill 2001: Committee Stage (Resumed).</heading>
+        <summary class="Center" eId="sum_6">SECTION 3.</summary>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_10">I welcome the Minister for Justice, Equality and Law Reform, Deputy McDowell, and his officials to this meeting for the purposes of resuming consideration of Committee Stage of the Private Security Services Bill 2001. Before we begin, I confirm that the committee will continue until 5.15 p.m., and it is then agreed that tomorrow morning the joint committee will consider the Criminal Justice Bill 2003 and the justice and home affairs briefing by the Minister regarding the meeting last week. Is that agreed? Agreed.</p>
+        </speech>
+        <summary eId="sum_7">Debate resumed on amendment No. 17:<entity refersTo="#bill.2001.1.dail.3.amd_17" name="amendment"/>
+                </summary>
+        <summary eId="sum_8">In page 8, subsection (1), lines 10 and 11, to delete "section 41, this Act does not apply to” and substitute “sections 40* and 41, this Act does not apply to relevant persons or to”.</summary>
+        <summary eId="sum_9">-(Minister for Justice, Equality and</summary>
+        <summary eId="sum_10">Law Reform, Mr. McDowell)</summary>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_2">
+          <from>Chairman</from>
+          <p eId="para_11">Does the Minister wish to reiterate the points he made on the last occasion?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" as="#Minister_for_Justice,_Equality_and_Law_Reform" eId="spk_3">
+          <from>Minister for Justice, Equality and Law Reform (Mr. McDowell)</from>
+          <p eId="para_12">I outlined my belief regarding gardaí and members of the Defence Forces that, in respect of gardaí, the matter is properly dealt with in Garda legislation, not private security legislation. As regards the Defence Forces, I pointed out that it is a matter for the Minister for Defence to make up his mind but that he has more than ample opportunity to do so in that the Defence Forces regulations provide that off duty employment can be terminated or limited where it is likely to prove detrimental or prejudicial to the best interests of the Defence Forces. We cannot push the matter any further at this stage.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_4">
+          <from>Mr. Costello</from>
+          <p eId="para_13">I asked the Minister to clarify whether such an exemption is intended to apply to prison officers and fire brigade staff. It seems strange that he does include the Air Corps police fire service, the air navigation service and so on as part of the exemption. The amendment refers directly to section 3.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_5" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_14">Section 3 exempts people while carrying out the duties of their office or employment. If it were necessary to mention prison officers in that category I would have no objection to doing so, but I do not think it likely at the moment that prison officers will come within the scope of this. Even if they did, section 3(1)(<i>e</i>) covers an officer or employee of a Government Department or State agency while carrying out his or her duties. Thus, it is not necessary to do that.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_6">
+          <from>Mr. Costello</from>
+          <p eId="para_15">Are members of the Garda Síochána and the Defence Forces not employees of Government Departments?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_7" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_16">They are not officers or employees of a Department, they are statutory officers. I do not think prison officers are in the same category as a matter of common law but police officers are independent State officers subject to the Garda Síochána, and they do not fall within the category of "employee" and are not officers of a Department. For instance, a member of the Garda Síochána is not an officer of the Department of Justice, Equality and Law Reform. Sometimes I am sued in certain circumstances and I often wonder why because I am not vicariously liable for police activity.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_8">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_17">The Minister is a clear target, he puts his head up a lot. I still think that amendment No. 48, which relates directly to members of the Garda and the Defence Forces, is a belt and braces job to ensure there is no ambiguity about this. Thus, one does not have to wait for the Garda Commissioner or the Chief of Staff of the Defence Forces to lay down the regulation and make it clear to their members that they are not to be employed by certain people. In that regard, the Minister should look at this again. It is important that we exclude those particular groupings from those particular jobs. Even if he cannot accept this point at this stage, I would hope that the Minister will have another look at it on Report Stage.</p>
+        </speech>
+        <summary eId="sum_11" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2001.1.dail.3.amd_17.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_12" title="decision">Amendment No. 18 not moved.<entity refersTo="#bill.2001.1.dail.3.amd_18.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#MichaelMcDowellPD" eId="spk_9" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_18">I move amendment No. 19:<entity refersTo="#bill.2001.1.dail.3.amd_19" name="amendment"/>
+                    </p>
+          <p eId="para_19">In page 8, subsection (1), lines 16 to 18, to delete paragraph (<i>d</i>) and substitute the following:</p>
+          <p eId="para_20">"(<i>d</i>) an authorised officer, or authorised person, within the meaning of the Air Navigation and Transport Acts 1936 to 1998,”.</p>
+          <p eId="para_21">This is essentially a drafting amendment to substitute the revised text of section 3(1)(<i>d</i>) which was supplied by the Department of Transport.</p>
+        </speech>
+        <summary eId="sum_13" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2001.1.dail.3.amd_19.agreed" name="amendment"/>
+                </summary>
+        <speech by="#MichaelMcDowellPD" eId="spk_10" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_22">I move amendment No. 20:<entity refersTo="#bill.2001.1.dail.3.amd_20" name="amendment"/>
+                    </p>
+          <p eId="para_23">In page 8, subsection (2), line 28, after "services" to insert "or security services of a particular class".</p>
+          <p eId="para_24">Section 3(2) provides that the private security authority may, in exceptional circumstances by order, exempt from the Bill's provisions persons who are providing security services at a specified place, event or function. Amendment No. 20 is designed to permit an exemption for a particular class of security services, as opposed to all security services.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_11">
+          <from>Chairman</from>
+          <p eId="para_25">Is there any particular class in mind?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_12" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_26">No, it should be possible to designate a class of security services on a particular occasion or in a particular place, rather than saying that everybody at that occasion or in those circumstances is to be exempted. It is designed to enable a slightly narrower focus for an exemption to be taken.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_13">
+          <from>Chairman</from>
+          <p eId="para_27">Is the amendment agreed?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_14">
+          <from>Mr. Costello</from>
+          <p eId="para_28">I agree to the amendment, but how does the Minister envisage functions of this nature being brought to the attention of the authority? There is such a plethora of functions that might be one-off functions, whether they be political party meetings, State activities or whatever. One of the amendments coming up relates to a visit to the State, which I presume refers to the imminent six-month EU Presidency. Take the example of a GAA function. There might be a degree of doubt as to whether it comes within the normal remit. If it is covered by a security firm, does that automatically bring it within the remit of the legislation or, depending on the class of the function, is it subject to exemption from the provisions of the legislation? How is a club or body of that nature to know it has the responsibility of contacting the authority to request that a particular event be exempt from the provisions of the legislation?</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_15">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_29">A relevant example at the moment is the National Ploughing Championships, which have just been held. It takes a colossal army of volunteers to man the event, police it and control parking, gate security and so on. How do they fare in such a situation? There would be an interesting mix of people at such an event. The commercial stands selling machinery and so on probably hire their own commercial security firms. How stands that whole scenario in terms of classification under this Bill? How can we have the dual operation in place whereby the overall responsibility is with the National Ploughing Championships committee that is entirely voluntary, yet within that there are the machinery stands, banks, Departments——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_30">That is a very good example.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_17" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_31">It is exactly on Deputy McGrath's point that——</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_18">
+          <from>Mr. Costello</from>
+          <p eId="para_32">The Ballinasloe Horse Fair this week is another example.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_19">
+          <from>Chairman</from>
+          <p eId="para_33">We will stick with the National Ploughing Championships.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_20" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_34">It is exactly regarding the type of question raised by Deputy McGrath that the amendment has been tabled. If we were not to amend this section and if the IFA or the National Ploughing Association were to apply for exemption for the championships for security services <i>en bloc</i>, then the questions arises, as the Deputy noted, as to what happens to the bank security person, for example. Would he or she be exempt? What would happen to the exhibitors’ security services and the like?</p>
+          <p eId="para_35">It would be possible, to take that particular example, for the National Ploughing Association to apply to the authority to exempt, say, perimeter stewards carrying out stewarding functions other than for reward or whatever who are members of the NPA, IFA or whatever by applying for a particular class of security activity for exemption for a particular group of people. That is what the amendment is supposed to do. If it were left unamended one could have the strange anomaly whereby, at Ballinabrackey, the NPA applied for an exemption for all security services, yet people who are defending the ATM machines from being ploughed into the ground or whatever need not be covered by the Bill.</p>
+          <p eId="para_36">This is a reasonable amendment. I think Deputy Costello's point is the same as Deputy McGrath's. This is designed to be flexible, but the onus will be on the applicant to apply for exemption. I could imagine a Papal visit for instance, if it were to recur, being an occasion on which the organisers might apply for stewards and voluntary security staff to be exempt from the ambit of this Bill, but the onus would be on the organisers to make that application. Deputy Costello asked how they will know they have to do this, but it will be the law, and——</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_21">
+          <from>Mr. Costello</from>
+          <p eId="para_37">What will happen to them if they do not?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_22" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_38">They may be prosecuted in certain circumstances.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_23">
+          <from>Mr. Costello</from>
+          <p eId="para_39">There will be a €500 fine.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_24" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_40">For each person employed without a permit the fine might add up to a fair old amount.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_25">
+          <from>Mr. Costello</from>
+          <p eId="para_41">Would the legislation apply to marches or events like the huge anti-war march of 100,000 people through the streets in March 2003 and the stewarding of it? Is the Bill relevant to a function of that nature - some form of march on the streets? Would organisers of such an event have to apply for an exemption if it was thought it might be an exceptionally large occasion? Take the example of the anti-bin tax march or the march to Mountjoy Prison in support of Deputy Joe Higgins.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_26">
+          <from>Chairman</from>
+          <p eId="para_42">Does the legislation apply to anarchist-type marches?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_27">
+          <from>Mr. Costello</from>
+          <p eId="para_43">What about a candlelit march to Mountjoy?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_28" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_44">The particular subsection we are amending is designed to deal with a specified place, event or function——</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_29">
+          <from>Mr. Costello</from>
+          <p eId="para_45">I seek clarification because it would have particular relevance if it does extend to the stewarding of marches of protest as they are quite regular. One is taking place outside the Dáil at the moment.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_30" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_46">"Security service" is defined as meaning a "service provided by any one of the following persons", carried out according to the subsection, in the subsection as follows, "in the course of an employment or as an independent contractor but, except in the case of a door supervisor or security guard, does not include a service provided by a person whose principal function is to provide it only for the person's employer." If, in the unlikely event that Group 4 security was brought in to marshal an anti-war march, it would be liable in so far as the service it was providing fell within the definition of the Act. It has to be acting in the course of employment or as an independent contractor for reward. I do not believe, therefore, that anti-war marches or Reclaim the Streets events would be covered.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_31">
+          <from>Chairman</from>
+          <p eId="para_47">Could services of a particular class provided by Group 4 be exempted?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_32" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_48">It would be possible. A commercial enterprise could, in theory, be exempted from the provisions of the Act in certain circumstances.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_33">
+          <from>Chairman</from>
+          <p eId="para_49">To what service does the Minister contemplate this applying?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_34" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_50">If it were decided in the context of a Papal visit, for example, that 5,000 stewards would be needed in the Phoenix Park and they were to receive €20 each, they would be acting as an independent contractor for reward. In those circumstances it would not be practicable to require them to be registered providers of services under the Act. Another possibility would be the provision of security services at, say, a motor rally, which required stewards scattered over a 40-mile course. It might be decided that it was not reasonable to say that only registered security services could be remunerated for providing the service.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_35">
+          <from>Chairman</from>
+          <p eId="para_51">A security firm that has all of the accoutrements of a semi-military organisation and is a security company under the Act——</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_36" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_52">It is very unlikely that it would ask for an exemption. All of its employees would be on the register.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_37">
+          <from>Chairman</from>
+          <p eId="para_53">The company might need to take on professional security personnel as organisers.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_38" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_54">It might need effectively to take on a reserve force. In those circumstances, if it were reasonable, the authority might take the line that it cannot ask everybody to go through a registration process.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_39">
+          <from>Chairman</from>
+          <p eId="para_55">That is something we might come back to.</p>
+        </speech>
+        <summary eId="sum_14" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2001.1.dail.3.amd_20.agreed" name="amendment"/>
+                </summary>
+        <speech by="#MichaelMcDowellPD" eId="spk_40" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_56">I move amendment No. 21:<entity refersTo="#bill.2001.1.dail.3.amd_21" name="amendment"/>
+                    </p>
+          <p eId="para_57">In page 8, subsection (2), line 29, after "function" where it secondly occurs to insert "or in connection with a visit to the State by a specified person".</p>
+          <p eId="para_58">Section 3(2) provides that the Private Security Authority may, in exceptional circumstances, exempt from the provisions of the Act persons who are providing a security service at a specified place, event or function. Amendment No. 21 is designed to deal with visits to the State by a specified person. That might apply to visiting Heads of State, Papal visits and so on. It could be President Castro.</p>
+        </speech>
+        <summary eId="sum_15" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2001.1.dail.3.amd_21.agreed" name="amendment"/>
+                </summary>
+        <speech by="#PaulMcGrath" eId="spk_41">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_59">I move amendment No. 22:<entity refersTo="#bill.2001.1.dail.3.amd_22" name="amendment"/>
+                    </p>
+          <p eId="para_60">In page 8, subsection (2), line 33, to delete "thereat" and substitute "there".</p>
+          <p eId="para_61">This is simply an effort to make legislation more readable for the ordinary person. There has been a movement in recent times to make legislation more easily understood. It is a very simple amendment.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_42">
+          <from>Chairman</from>
+          <p eId="para_62">I appreciate the spirit in which the amendment is made, but I do not know whether the Minister can accept it because it might change the meaning.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_43">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_63">I am sure he can.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_44" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_64">"There" refers to a place. "Thereat" is an adverb. It is a bit antiquated. I will examine it again for Report Stage. I am surprised that the parliamentary counsel is using the word "thereat". There is now a manual of simplified English in legislation. Some of what it bans, I believe, is open to question. Latin words such as bona fide are not to be used.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_45">
+          <from>Chairman</from>
+          <p eId="para_65">Will the Deputy withdraw that amendment?</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_46">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_66">I will do so on the basis that the Minister will re-examine it.</p>
+        </speech>
+        <summary eId="sum_16">Amendment, by leave, withdrawn<entity refersTo="#bill.2001.1.dail.3.amd_22" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_17" title="decision">Section 3, as amended, agreed to.<entity refersTo="#bill.2001.1.dail.3.sec_3.agreed" name="section"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_18" title="decision">Section 4 agreed to.<entity refersTo="#bill.2001.1.dail.3.sec_4.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_19">SECTION 5.</summary>
+        <summary eId="sum_20">Question proposed: "That section 5 stand part of the Bill."</summary>
+        <speech by="#JoeCostelloLAB" eId="spk_47">
+          <from>Mr. Costello</from>
+          <p eId="para_67">This section relates to the thorny issue of expenses which was alluded to earlier. It is fairly blunt. It provides that the expenses incurred by the Minister in the administration of this Act shall, to such extent as may be sanctioned by the Minister for Finance, be paid out of moneys provided by the Oireachtas. It gives the impression that, once the Minister for Finance sanctions the expenditure, the administration of the Act will be paid for by the Oireachtas. The Minister has now told us that is not the case. Has he had any further thoughts as to how the levy will be introduced? Will it relate to both the firms and the individual licensees? How is it to be charged? Will the charge be based on the size of a firm or individually? Will it be a licensing fee or a general levy? Will there be sufficient money to make it fully self-financing?</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_48">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_68">We had a lengthy debate on this the other day. It is opportune to examine it again. The Minister has had time to reflect. A whole week has elapsed. I am sure the Minister has not had much else to do but reflect on what we spoke about last week.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_49" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_69">Nothing else has been on my mind.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_50">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_70">Minor peripheral issues would not have detained the Minister for long, so I am sure he thought about this. During last week's debate and subsequent to discussing the issue of expenses, we discussed the question of companies registering offshore. This brings us back to the Minister's statement that this body will be self-financing. If companies register offshore in another EU state, as they are entitled to do under this legislation, a few very small operators could be left carrying the can. How can we levy companies that have registered offshore? Will there be some form of registration fee here? How will it be dealt with? What we do not want is major bodies - and they are the ones who will look closely at this and who will reap any advantage there is to be reaped - registering offshore because it pays them to do so, leaving small Irish operators to carry the can for regulating the whole business and experiencing difficulty in doing so. Has the Minister had any further thoughts on this, and can he clarify the matter further?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_51" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_71">This reminds me of a colleague of mine at the Bar who on one occasion was cross-examining a witness and not getting an answer. He asked whether the witness had not heard the question or could not answer it. The witness turned to him and said, "Shut up, I am still thinking". I have been thinking about the points raised by the Deputy since our last discussion. It is a significant issue. I am very conscious that an operator could go to another EU member state which had little or no financial obligations, for whatever reason, in respect of a similar system provided there and that we could find ourselves seriously undermined. There are various solutions in principle to it. One solution is, while recognising the right of EU member state registered bodies to carry out business in Ireland, to require those who are mainly operating here to pay a licence fee based on reality rather than on theory, based on the fact that they are operating here although they are registered abroad. It is not easy to resolve this. We are considering it, but we need more time to think it through. I am grateful to the Deputy for raising the matter. I do not want to create a loophole through which all our potential funding disappears. There are answers. It is not that the difficulty makes the whole scheme unworkable but it will have to be addressed. At this stage I cannot say what line we will take on it.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_52">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_72">I wish to add a small rider. When the Minister is considering this matter perhaps he would bear in mind the report prepared on the private security industry, which his secretary has beside him, and the figures quoted therein. If I recall correctly, the figure quoted was about £200,000 to run an office on an annual basis. The Chairman would have more experience of this than me. It is unreasonable to suggest that an office comprising a chief executive, secretaries, equipment and so on, which is to be the authority for the number of bodies that are to be established, could be run on an annual basis for £200,000.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_53">
+          <from>Chairman</from>
+          <p eId="para_73">Would it also include the complaints process?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_54" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_74">Yes.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_55">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_75">I will give an example of how these things can get out of hand. A few years ago the Department of Health and Children established an office whereby it appointed a chief executive to negotiate on behalf of the health boards and to talk with the Department. There were eight health boards at the time, there are now ten. If I recall correctly, the cost of running that office was in the region of £500,000. Given what it is proposed to do in this case and the number of bodies with which the authority will have to deal, it will come across problematic issues. The authority will have to deal with real problems and complaints to a greater extent than the office to which I have referred. I advise caution in terms of how it could be self-financing or how it could be financed through the Department. We do not want it to fail because of lack of funding, because it is not working properly or because it is not doing its job. The last thing we need is that legislation should be introduced that is unable to do the job. In that context, the Minister should look carefully at the type of structure being considered and the costs involved. The Office of the Ombudsman might be a similar organisation, though it would have more bodies.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_56">
+          <from>Mr. Costello</from>
+          <p eId="para_76">Part of the problem is that we do not know how many people or firms are involved in the industry. The figure of 800 firms was given. There were varying figures given for the numbers employed in the industry ranging from 11,000 to 12,000 and up to 30,000. Therefore, we do not know the actual number of people or firms involved. This will not be known until we begin to register and license. It would be impossible at this stage to know what the actual cost will be, given that the authority will operate on a part-time basis with, presumably, full-time staff. There is no indication of the number of staff required. There would be a chief executive officer and a part-time authority. The Minister will have to play it by ear for a period. The question is whether the Minister for Finance would be prepared to pick up the tab initially. The process could be long drawn out unless there is a commitment to employ adequate staff to carry out the work in a short period. How long will it take to compile the register and license each of the individuals, if people have to be vetted and checks made, as provided for in the legislation? This could be a long drawn out process, if we have to wait for the money to come in from the bodies that will be licensed or registered or both. We may find ourselves this time next year or the following year with an unregistered security service. Presumably, once the legislation is passed, unless there is a separate ministerial order, we would have opened up the industry to competition from abroad. Perhaps the Minister's approach should be that initially the costs would be borne by the State but when the extent of the firms and employees in the industry is known, a mechanism could be devised for a costing on the licence or registration that would be appropriate to ensure competition and efficiency in getting the work done.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_57" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_77">I said on the last occasion that I anticipated it would require seed capital and working capital given to it by the State, in terms of resources. It has to be up and running at cruising speed. It cannot be up and tottering and starved of resources. It has to hit the ground running, so to speak; it cannot simply hit the ground and scrape around looking for resources to get going. This is a slight venture into the unknown because we do not know the exact size of the industry or how many will remain in it once the regulation comes into effect. Some may disappear out of it and say it is not worth the candle. My guess is no better than that of anybody else on what the likely size of the regulated pool will be and what form it will take in the end. That is no reason not to do it.</p>
+          <p eId="para_78">In regard to the figures mentioned by Deputy McGrath - I note the copyright for this is 1998 - it was suggested then that the office would consist of a chief executive, an office manager, a chief inspector in charge of training and standards, two inspectors, two support staff and one receptionist, a total of eight people. A greater number than that may be required. Even for that number of staff, the start up estimate at the time was €300,000 which was recently revised up to €500,000. In reality, we will probably have to consider more. I do not want to start bidding against myself now but those figures may be slightly unrealistic.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_58">
+          <from>Chairman</from>
+          <p eId="para_79">Perhaps the Minister can chat to the Minister for Finance about the Estimates.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_59" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_80">I never talk to anybody else.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_60">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_81">Would the Minister consider for Report Stage tagging in a further line expressing the view that it is envisaged the authority would become self-financing over a number of years and hence there would be no need for the annual subvention? We do not want to establish the authority on the basis of no charge to the industry and later introduce a charge. In that event, all hell would break loose and they would be in here knocking on our doors and giving out to us. Is it possible to include the relevant words in the Bill? If so, it would be well flagged that it is envisaged the authority would be self-financing. There would be no comeback at that stage. It may not be necessary but perhaps the Minister would look at it.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_61" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_82">I accept the point the Deputy is making that if it is a statutory policy it should be self-financing to the maximum extent. It might be worth saying that what self-financing means varies from institution to institution. For example, the Land Registry is required to balance its books and its charges are supposed to pay for its ongoing expenditure. When it comes to major capital programmes, such as computerisation of the Land Registry, the issue arises as to whether the fees charged can be increased to deal with prospective future payments. Likewise, another issue involving the Land Registry is that in terms of overheads the State pays the pensions of its employees. Is self-financing, in terms of the Land Registry, putting money aside for future pension liabilities or whatever? The phrase "self-financing" begs many questions. Certainly every application has to be accompanied by a prescribed fee. There are European constraints involved in that one cannot use fees for people coming into a country as a tax gathering mechanism without the permission of the Union. Given that there are complexities I will have to think further about that.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_62">
+          <from>Chairman</from>
+          <p eId="para_83">I am sure it will come up again on Report Stage.</p>
+        </speech>
+        <summary eId="sum_21" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_20"/>
+                </summary>
+        <summary class="Center" eId="sum_22">SECTION 6.</summary>
+        <speech by="#PaulMcGrath" eId="spk_63">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_84">I move amendment No. 23:<entity refersTo="#bill.2001.1.dail.3.amd_23" name="amendment"/>
+                    </p>
+          <p eId="para_85">In page 9, subsection (1), line 6, to delete "shall stand" and substitute "stands".</p>
+          <p eId="para_86">It is a question of clarity and ordinary English being used. I suggest the deletion of "shall stand" and the substitution of "stands" would be clearer.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_64" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_87">It depends on what one means by the word "shall". Is it being used in the subjunctive sense or is it the future tense? I think it is subjunctive, it is declaratory. It is not purely a statement about the future tense. I give an undertaking to have another look at it. It is normal drafting language.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_65">
+          <from>Chairman</from>
+          <p eId="para_88">The Minister has been generous in accepting as many amendments as he possibly can of this sort.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_66">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_89">Will the Minister come back to us on it on Report Stage?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_67" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_90">Once the section is commenced it will be present tense, so perhaps the Deputy is correct. I will have to consider that.</p>
+        </speech>
+        <summary eId="sum_23" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2001.1.dail.3.amd_23.withdrawn" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_24" title="decision">Section 6 agreed to.<entity refersTo="#bill.2001.1.dail.3.sec_6.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_25">SECTION 7.</summary>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_68">
+          <from>Chairman</from>
+          <p eId="para_91">Amendments Nos. 24 and 84 are related and may be discussed together.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_69">
+          <from>Mr. Costello</from>
+          <p eId="para_92">I move amendment No. 24:<entity refersTo="#bill.2001.1.dail.3.amd_24" name="amendment"/>
+                    </p>
+          <p eId="para_93">In page 10, subsection (4)(<i>b</i>), line 26, before “the” where it firstly occurs to insert “for stated reasons,”.</p>
+          <p eId="para_94">Section 7(4) provides that, "The Minister may at any time remove a member from office for stated misbehaviour." However, paragraph (<i>b</i>) states, “the member’s removal is necessary for the effective performance by the Authority of its functions.” I propose that the Minister may remove a member for stated reasons. This would bring the two paragraphs (<i>a</i>) and (<i>b</i>) into line. To simply say, “The Minister may at any time remove a member from office [where] the member’s removal is necessary for the effective performance by the Authority of its functions”, is a subjective statement and needs to be strengthened. The insertion of the words “for stated reasons” at the commencement of paragraph (<i>b</i>) would clarify the wording and bring it into line with paragraph (<i>a</i>).</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_70" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_95">I accept the thrust of theDeputy's argument. I intend to table an amendment. I am not fully satisfied that the language the Deputy is using is exactly right.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_71">
+          <from>Mr. Costello</from>
+          <p eId="para_96">It is simple.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_72" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_97">It is, but I do not want to accept it and have to take it out on Report Stage. I accept the point that if a member's removal is necessary a reason would have to be given. As paragraph (<i>b</i>) stands, it appears as if one could make a subjective decision without giving a reason.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_73">
+          <from>Chairman</from>
+          <p eId="para_98">Will the Minister come back on Report Stage?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_74" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_99">I will.</p>
+        </speech>
+        <summary eId="sum_26" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2001.1.dail.3.amd_24.withdrawn" name="amendment"/>
+                </summary>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_75">
+          <from>Chairman</from>
+          <p eId="para_100">Amendments Nos. 25 and 78 are related and may be discussed together.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_76">
+          <from>Mr. Costello</from>
+          <p eId="para_101">I move amendment No. 25:<entity refersTo="#bill.2001.1.dail.3.amd_25" name="amendment"/>
+                    </p>
+          <p eId="para_102">In page 11, lines 7 to 10, to delete subsection (7) and substitute the following:</p>
+          <p eId="para_103">"(7) At least 40 per cent of the members of the Authority (and of the Appeal Board) shall be men and at least 40 per cent shall be women.".</p>
+          <p eId="para_104">The amendment is self-explanatory. Section 7(7), which makes a rather weaker statement, reads:</p>
+          <p eId="para_105">In making appointments to the Authority the Minister shall have regard to the extent to which each sex is represented in its membership and shall ensure that an appropriate balance in this respect is maintained.</p>
+          <p eId="para_106">A firmer statement, in line with policy on State boards, where 40% of either sex would be represented on the authority, is required and would improve the legislation. Since there is no reference to the appeal board, there is a need for such a reference. I propose that the Minister accept the amendment and improve the legislation.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_77" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_107">It is Government policy that 40% of each gender should be on any board. The question that has to be asked in this context is whether putting in a rigid formula, such as 40%, is appropriate in the circumstances. There could be a case where there would be a combination of people, for whatever reason, representative of various interests in the industry where one might wish to have more than 60% female or more than 60% male. I would prefer that the Minister should be reminded of his or her obligation to have regard to gender balance in making appointments and that the exact quota should not be fixed. It would introduce an inflexibility. One could find oneself in a situation where a member of the board resigned and one wanted to appoint a glaringly obvious person, even on a short-term basis, to ensure something should happen, and that person was of the wrong gender? I would prefer to leave it flexible. When one sees what is going on regarding State boards, a huge improvement is on the way. It is not normal to insert rigid formula. In the case of boards which come under the aegis of the Department of Justice, Equality and Law Reform area, we are verging on the achievement of a 40% quota. There have been enormous improvements on boards such as the prison board——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_78">
+          <from>Chairman</from>
+          <p eId="para_108">Is it 38% men?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_79" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_109">It is 38% women. The Departments of Social and Family Affairs, the Taoiseach and Health and Children, are ahead of us having achieved over the 40% quota. I consider it would be better to leave it slightly flexible.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_80">
+          <from>Chairman</from>
+          <p eId="para_110">As regards the table, are there specific bodies that have a good balance between men and women?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_81" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_111">These are aggregate figures which I can supply to members of the committee if they wish. There are areas where clear equality quotas have been established. In the Equality Authority there is a very rigid system.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_82">
+          <from>Chairman</from>
+          <p eId="para_112">Given that the Minister has responsibility for equality matters, I join in the spirit of Deputy Costello's amendment. That the representation is 38% indicates it is moving in that direction. Not long ago the figure was much lower.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_83" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_113">It would be easy for me to say "Yes" to Deputy Costello's amendment, and I would like to, but a successor of mine would be staring at a situation that had arisen when somebody would present for appointment. He would then get a telephone call from downstairs saying, "You cannot do that, Minister". That is sometimes wrong.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_84">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_114">I would be interested to see the list which the Minister will circulate to us of the gender balance of recent appointees? Has he got a similar document showing the political affiliation of those who were appointed?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_85">
+          <from>Chairman</from>
+          <p eId="para_115">That is another day's work.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_86">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_116">I can empathise with the point being made by the Minister because I can foresee difficulties in terms of appointments and people who are eminently suitable for positions and may be excluded because of their suitability for the job or their gender. That will arise if the 40% is included in the Bill. When I look at the whole business of equality I smile. I was a teacher for 20 years. When one looks at the teaching profession one thinks about equality of the sexes. In the primary section, the imbalance is of the order of 85% women to 15% men. A whole generation of school children do not have a prominent male figure in their lives. Some 30% of children are born to single parents. Coupled with the volume of female teachers, particularly in primary education, this can have a distorting effect. That is not the topic for discussion today and I am not saying women do not do a good job. One can get to a stage, when one starts prescribing gender balance, where one is against the wall and is not doing what is best for society. It may be what suits a particular sector but it may not be best for society. Much as I disagree with the Minister on many issues, he may be correct in this case.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_87">
+          <from>Chairman</from>
+          <p eId="para_117">It is nice to see that nearly all of us are in agreement.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_88" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_118">Section 7(2) sets out how the authority is to be composed. It provides that one person shall be a practising barrister, or practising solicitor, two persons each of whom the Minister considers to be representative of private security employers, two persons each of whom the Minister considers to be representative of employees of such employers - I do not know what thegender balance among employees will turn out to be - the Commissioner of the Garda Síochána or a representative of the Commissioner, an officer of the Minister, a representative or officer of other Ministers and a person elected by the staff of the authority, which amuses me. Given the staff we talked about earlier, this election would be rather small if the original protection were to apply. By the time all those things click into place there may be very little room to manoeuvre. If one wishes to appoint a particular person to the authority it may be that one's room to manoeuvre may be significantly reduced.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_89">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_119">There would be no room to move at all.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_90">
+          <from>Mr. Costello</from>
+          <p eId="para_120">Every time I raise this issue I get the same answer. There are always difficulties. There is always the problem of tying the hands of one's successor and of getting the right people in the right job. How many of the bodies on the list before the Minister have 60% women? The representation of women is approaching 38% on some the bodies in his Department. Therefore, there is no body that has erred on a majority of females, they err always on a majority of males. There will always be difficulties that will be articulated on that matter. We are the legislators and have a responsibility. We can cite all types of situations in society where there is an imbalance of employees in a particular industry, whether it is the clothing industry or the primary sector of the teaching profession. It is not the same at secondary level and it is certainly not the same at third level. Those are areas we should seek to change. That is not a justification for a re-entrenched version of gender inequity. I see no reason we cannot introduce a 40%-60% balance. We are talking about ten members and a chairperson. That is four members of either gender which is not beyond the bounds of practicality or possibility.</p>
+          <p eId="para_121">The Minister did not refer to the other aspect of it which includes the appeal board. Section 7 refers to the authority but not to the appeal board. There is no request to ensure gender balance of any proportion on the appeal board. The section is lamentably weak in regard to gender equity. As the Chairman pointed out, this is the committee on justice, equality and women's affairs and we have to take all these matters into consideration. It would be remiss of us if we were not seen to lead the way in gender equity and gender balance. I propose the Minister take the amendment on board, that we should be upfront and say this is the way it should be.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_91">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_122">I came in only at the end and so did not hear what the Minister or Deputy Costello said. The requirement set out in the amendment should be the minimum standard for any State board. We should aim for representation of the make-up of society rather than membership of the trade.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_92">
+          <from>Mr. Costello</from>
+          <p eId="para_123">It is 52%.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_93">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_124">It is 52% and growing. If we managed to set the standard of at least 40% it might address some of the problems in the private security services. For example, the macho image that is often put across that all the door staff are big burly men in leather jackets might encourage more women, who are often better at dealing with conflicts than men, to become involved in the trade, especially if they see that they could be represented. We should try to set the standards for the future. There is no limit. While the amendment does not say there cannot be 100% women, it would good if there was a minimum of at least 40% women on the authority and on the appeal board.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_94">
+          <from>Chairman</from>
+          <p eId="para_125">The joint committee has taken equality as one of the issues it shall home in on. The whole idea of gender balance on State boards will be looked at in greater detail as a result of our discussion today.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_95" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_126">I have a view on these matters. Society is in a state of change. The majority of law undergraduates are women and things are changing rapidly. When it comes to judicial appointments more and more women are being appointed. Due to the fact that society is in a state of change, things are tilted towards male domination in certain areas. During my time in politics, however, there was never a special section for women in my party. We have always managed at successive elections to have a very high percentage of women elected. It gets worse as one looks to the right and Deputy Ó Snodaigh's party.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_96">
+          <from>Mr. P. McGrath</from>
+          <p eId="para_127">Some 40% of four is a small number.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_97" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_128">Four of our eight Deputies in the Dáil are women and our leader is a woman. There is a difference between quotas and all this rhetoric, on the one hand, and delivering, on the other.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_98">
+          <from>Mr. Costello</from>
+          <p eId="para_129">Can the Minister deliver?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_99" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_130">We can deliver.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_100">
+          <from>Mr. Costello</from>
+          <p eId="para_131">One third of our members are women.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_101">
+          <from>Chairman</from>
+          <p eId="para_132">Is the amendment being pressed?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_102">
+          <from>Mr. Costello</from>
+          <p eId="para_133">Yes. I am not impressed by the Minister's reply. This committee has a responsibility to take this matter more seriously.</p>
+        </speech>
+        <summary eId="sum_27">Amendment put.<entity refersTo="#bill.2001.1.dail.3.amd_25" name="amendment"/>
+                </summary>
+        <debateSection name="division" eId="dbsect_3">
+          <summary title="division" eId="sum_28">The committee divided: Tá, <quantity normalized="2" refersTo="#ta" eId="qty_1">2</quantity>; Níl, <quantity normalized="7" refersTo="#nil" eId="qty_2">7</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_4">
+            <p eId="para_134">Tá</p>
+            <p eId="para_135">
+              <person refersTo="#JoeCostelloLAB">Costello, Joe.</person>
+            </p>
+            <p eId="para_136">
+              <person refersTo="#PaulMcGrath">McGrath, Paul.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_5">
+            <p eId="para_137">Níl</p>
+            <p eId="para_138">
+              <person refersTo="#SeanArdagh">Ardagh, Seán.</person>
+            </p>
+            <p eId="para_139">
+              <person refersTo="#MarieHoctorFF">Hoctor, Máire.</person>
+            </p>
+            <p eId="para_140">
+              <person refersTo="#MichaelMcDowellPD">McDowell, Michael.</person>
+            </p>
+            <p eId="para_141">
+              <person refersTo="#CharlieOConnorFF">O’Connor, Charlie.</person>
+            </p>
+            <p eId="para_142">
+              <person refersTo="#DennisODonovan">O’Donovan, Denis.</person>
+            </p>
+            <p eId="para_143">
+              <person refersTo="#SeanOFearghaillFF">Ó Feargháil, Seán.</person>
+            </p>
+            <p eId="para_144">
+              <person refersTo="#PeterPowerFF">Power, Peter.</person>
+            </p>
+          </debateSection>
+          <summary eId="sum_29">Question proposed: "That section 7 stand part of the Bill."</summary>
+        </debateSection>
+        <speech by="#JoeCostelloLAB" eId="spk_103">
+          <from>Mr. Costello</from>
+          <p eId="para_145">I wish to raise the issue of the composition of the authority. Why must one person, at least, be a practising barrister or a practising solicitor? What particular skills do these people bring to the industry. It could be a practising teacher or a practising accountant. The Bill states that there should be two representatives of private security employers and two representatives of employees. There is no representative of the users, whether nightclubs, public houses or employers of people in the industry. Given that we are talking about a very extensive user sector of the industry, should they not be represented on the authority? It would be valuable to have their views on the provision of services.</p>
+          <p eId="para_146">The Bill also provides that the Garda Commissioner or such other member of the Garda Síochána may nominate on the Commissioner's behalf. We all know the Garda Commissioner will not sit on the authority because he is far too busy and has far to many onerous duties. Why not say it should be some member of the Garda above a certain rank nominated by the Garda Commissioner? Would it not be more desirable to say that the private security employers industry should nominate a person, rather than the Minister appointing someone? How will the Minister know the appropriate person within the employers or the employees? Surely there should be a nomination from the industry, which the Minister could approve or otherwise, just as a member of the Garda Síochána could be nominated by the Commissioner and approved by the Minister if the nominee is considered appropriate. I do not believe a Garda Commissioner will have the time to sit on the board.</p>
+          <p eId="para_147">Paragraph (<i>e</i>) refers to an officer of the Minister, which is acceptable, and (<i>f</i>) refers to a representative of any other Minister of the Government who, in the opinion of the Minister, is directly concerned with or responsible for activities relevant to the functions of the authority. Has the Minister thought sufficiently about the matter that he could specify the Department he believes will be directly concerned? Would it not be more valuable to name the ministry rather than try to choose one on a given occasion? What will be the criteria? Are we talking about the Department of Enterprise, Trade and Employment or the Department of Finance? Which one would he regard as the most relevant? I wonder about some of the people he is proposing to choose and the method of choice. It would be more advisable if there were nominations from the industry itself, who may or may not be appointed by the Minister. He should include users of the industry. Perhaps he will give the reason for including barristers or solicitors on a board of this nature.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_104">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_148">I agree in general with Deputy Costello regarding the composition of the authority which includes a policeman, a practising barrister or a practising solicitor. Could this be someone with expertise in the area of civilliberties or a practising barrister with expertise in the planning area? I hope the Minister will choose someone who has expertise in normal law, so to speak.</p>
+          <p eId="para_149">The other aspect relates to people who use private security services, to which Deputy Costello referred. Will the community itself have some sort of representation or will the workers' trade union be represented. The Bill refers to two persons each of whom the Minister considers to be representative of employees. In normal circumstances this would include trade union or congress representatives. There needs to be greater clarity on how these people will be selected and the expertise they will bring to the authority.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_105" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_150">We are talking about a fairly small authority, not a huge body. Unusually, there is not much flexibility for the Minister to appoint the celebrated party hacks or whatever we normally hear about on these occasions. It is a huge advantage to have a practising barrister or a practising solicitor on such an authority. There is nothing wrong with accountants, opticians or anyone else, but to have someone who is reasonably <i>au fait </i>with the legal process, who knows what the up-to-date legal position is, should save the authority significant sums of money. Otherwise it would probably have to have a lawyer in attendance virtually all the time.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_106">
+          <from>Mr. Costello</from>
+          <p eId="para_151">It would probably cost money.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_107" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_152">Exactly. The authority will be dealing with case-by-case evaluations of people. I should stress that we have not written into the legislation, for instance, a prohibition on people being admitted to registration on the grounds of criminal conviction. Therefore, there must be a careful case-by-case analysis of both corporate and individual applications for registration. It is useful in the circumstances to have a practising lawyer present, not just someone who used to be a lawyer but someone who makes his or her money from practising law. This will be an advantage to the authority. The Bill refers to two persons whom the Minister considers to be representative of private security employers. We could have an elaborate system for elections and nominations, and decide which company should have X number of votes. I suggest this is a flexible formula which will work. What will happen is that the Minister will select from a short list proposed by security employers. Likewise, two persons, each of whom the Minister considers to be representative of employees, are included.</p>
+          <p eId="para_153">In reply to Deputy Ó Snodaigh, I do not know the extent to which there will be unionisation or non-unionisation. I cannot guess at this stage. It is not my intention to simply hand this function over to the ICTU or someone else. It could be the case, for instance, that the great majority of door staff will never join a trade union, or it might be the exact opposite. They may have their own trade union or association. I am not in a position at this stage to dream up a formula which would be sufficiently adaptable.</p>
+          <p eId="para_154">Deputy Costello has asked whether it is possible to specify what we are talking about in paragraph (<i>f</i>). The Department of Enterprise, Trade and Employment may or may not be involved. It is more likely to be the person who discharges the functions of that Department. If it is split in two, or reconfigured, as frequently happens, I do not want to be in a position whereby half of the Department has been transferred to some new Ministry for public employment and the other half to some new Ministry for private employment, and I must wonder who is the relevant Minister.</p>
+          <p eId="para_155">The proposal provides for a reasonably flexible formula. The Schedule makes provision for others to be involved. Advisory committees are capable of being established to bring them in to the whole process. The proposal is not exclusionary. Some ten or 11 should be sufficient for an authority of this size.</p>
+          <p eId="para_156">To refer to a point raised earlier, I understand less than 5% of employees in this sector are women. This will probably change as time passes but that is the situation. If one allows for the fact that the staff of the authority will select someone, either male or female, and the Garda Commissioner or an assistant commissioner will function in the matter, I do not want to be in a position whereby the Garda Commissioner and I have a telephone conversation and I must say to him or her that he or she has one assistant commissioner who is female and ask him or her to add that person to the list because I want to appoint a male person, otherwise we will run into quota difficulties. That is the type of thing that would happen if I accepted Deputy Costello's amendment. I am just being realistic, not prescriptive. What I am saying is that the authority is designed to be a small enough but effective group which will get the system up and running and have the authority to avail of the services of outsiders through the advisory committee structure set out on page 29 of the Bill.</p>
+          <p eId="para_157">I do not want to create a huge quango, which would be easy to do. I have been asked about including persons who represent owners of licensed premises and those likely to engage security staff. This is true but what about the Minister being entitled to include people likely to use these licensed premises? By the time I would be finished with that category 20 or 25 people would have been included. I could include young people who go to nightclubs. Where would it all end? It would be a huge quango. I want to keep the authority tight and, if it is inadequate, the issue can be revisited. The special advisory committee can include persons who have special knowledge and experience related to the purposes of the committee concerned. Perhaps this is sufficient.</p>
+          <p eId="para_158">I ask members to take the view that we want the authority to be reasonably workable. It is not a mini parliament but an authority just like the RTE authority. In terms of asking whether it is open to political patronage, I have never seen a body composed in a manner which is less open to political patronage.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_108">
+          <from>Mr. Costello</from>
+          <p eId="para_159">Except for the first category of the legal profession.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_109" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_160">Perhaps the Deputy is correct. However, I do not imagine that people will be battering down my door to get a nomination from either the Law Society or the Bar Council.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_110">
+          <from>Mr. Costello</from>
+          <p eId="para_161">Can I take it that one of the first special advisory committees which will not be established will be a committee for legal services because the barrister or solicitor who will be appointed will be of such quality that we will be able to avoid legal costs? I certainly hope Arthur Cox and Son will not be involved in any way.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_111" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_162">Far be it from me to say anything negative about Arthur Cox.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_112">
+          <from>Mr. Costello</from>
+          <p eId="para_163">When representatives of the industry came to speak to us about the matter, Mr. Kevin McMahon of SIPTU said there was a membership of approximately 5,000 in the private security sector, approximately 50% of the number working in security. There are worker representatives on the joint labour committee for the security industry and an employee representative on the European social dialogue body. SIPTU is also involved. It claims to represent approximately 5,000 of those working in the industry. Obviously, we can just guess at the extent of the entire industry. It already has a joint labour committee, apart from the European social dialogue body, a link to the European dimension. It appears that if two employees are to be included, we should consider union representation because, presumably, the trade union will continue once the industry is regularised and regulated.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_113" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_164">I am not suggesting otherwise. If these figures applied at any given time, SIPTU would have a very strong case, which a Minister who had any regard for partnership principles would have to take on board.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_114">
+          <from>Mr. Costello</from>
+          <p eId="para_165">We are regulating the industry which, presumably, will strengthen the opportunity for the trade unions to organise. The industry has indicated that it is very open and amenable to trade union organisation. Many areas need to be addressed in terms of the minimum wage, long hours and so on. Trade union representation would prove very valuable for employees. I do not know whether this can be incorporated within the present framework in terms of having a representative whom the Minister considers to be a representative of employees of such employers. Perhaps it could be a shop steward. Could it be wider than this?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_115" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_166">I do not know. Perhaps it could be a branch secretary. It might well be the case that that person would be nominated for consideration.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_116">
+          <from>Chairman</from>
+          <p eId="para_167">I do not think the senior executives in the trade unions would be queuing up either.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_117">
+          <from>Mr. Costello</from>
+          <p eId="para_168">It would be somebody dealing with, or working in, the industry at a reasonable level. As Deputy Ó Snodaigh pointed out, this is an area in which there are equality and civil liberty issues. A number of cases have gone to court. It might be valuable to have someone experienced in these issues on the authority as it might help to avoid bringing that dimension into the public domain.</p>
+        </speech>
+        <summary eId="sum_30" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_29"/>
+                </summary>
+        <summary class="Center" eId="sum_31">SECTION 8.</summary>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_118">
+          <from>Chairman</from>
+          <p eId="para_169">As amendments Nos. 26 and 27 are related, they may be discussed together.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_119" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_170">I move amendment No. 26:<entity refersTo="#bill.2001.1.dail.3.amd_26" name="amendment"/>
+                    </p>
+          <p eId="para_171">In page 11, subsection (2), lines 24 and 25, to delete paragraph (<i>e</i>) and substitute the following:</p>
+          <p eId="para_172">"(<i>e</i>) specify standards to be observed in the provision of security services by licensees or particular categories of licensees,</p>
+          <p eId="para_173">(<i>f</i>) specify qualifications or any other requirements (including requirements as to training) for the grant of licences,”.</p>
+          <p eId="para_174">Amendments Nos. 26 and 27 are important in so far as they concern the functions of the private security authority. There was confusion on Second Stage regarding its functions in setting standards, including training requirements, for the grant of licences. The revised wording is intended to remove such doubts.</p>
+          <p eId="para_175">The new paragraph (<i>e</i>) provided for in amendment No. 26 provides that the authority may “specify standards to be observed in the provision of security services by licensees or particular categories of licensees”. Such a standard might be the existing NSAI standard, I.S. 999, for guarding services. This change necessitates the removal of the reference to this function in paragraph (<i>k</i>). As a consequence, that paragraph will refer only to the authority’s advisory function as provided for in amendment No. 27.</p>
+          <p eId="para_176">The new paragraph (<i>f</i>) in amendment No. 26 provides that the authority may specify qualifications or any other requirements, including requirements as to training for the grant of licences. It may, for example, establish the minimum level of training required by applicants for door supervisor licenses. I imagine this will be one of its priorities.</p>
+        </speech>
+        <summary eId="sum_32" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2001.1.dail.3.amd_26.agreed" name="amendment"/>
+                </summary>
+        <speech by="#MichaelMcDowellPD" eId="spk_120" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_177">I move amendment No. 27:<entity refersTo="#bill.2001.1.dail.3.amd_27" name="amendment"/>
+                    </p>
+          <p eId="para_178">In page 11, subsection (2), lines 39 to 41, to delete paragraph (<i>k</i>) and substitute the following:</p>
+          <p eId="para_179">"(<i>k</i>) advise the Minister on any matter relating to its functions,”.</p>
+        </speech>
+        <summary eId="sum_33" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2001.1.dail.3.amd_27.agreed" name="amendment"/>
+                </summary>
+        <speech by="#MichaelMcDowellPD" eId="spk_121" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_180">I move amendment No. 28:<entity refersTo="#bill.2001.1.dail.3.amd_28" name="amendment"/>
+                    </p>
+          <p eId="para_181">In page 11, subsection (2)(l), line 43, to delete "such provision" and substitute "the provision of security services by licensees or particular categories of licensees".</p>
+          <p eId="para_182">This is essentially a drafting amendment designed to clarify the text.</p>
+        </speech>
+        <summary eId="sum_34" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2001.1.dail.3.amd_28.agreed" name="amendment"/>
+                </summary>
+        <summary eId="sum_35">Question proposed: "That section 8, as amended, stand part of the Bill."</summary>
+        <speech by="#JoeCostelloLAB" eId="spk_122">
+          <from>Mr. Costello</from>
+          <p eId="para_183">Section 8 is divided into two subsections, the first of which refers to what the authority shall do while the second refers to what it may do. There are some issues in one that should be dealt with in the other. Surely it is the function of the authority to grant and renew licences, not that it may do so. Subsection (2) further outlines what the authority may do, such as issue identity cards to licensees; where appropriate, suspend or revoke licences; and establish and maintain a register of licensees.</p>
+          <p eId="para_184">I would have thought that it could have been tightened to a greater degree to reflect the actual functioning of the authority, rather than state it "may" do certain things. Few of the functions listed do not come within the requirements of the authority in terms of what we expect its functions to be. I would have thought that they would have been established more forcefully.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_123" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_185">Subsection (1) is a general statement of principle, while subsection (2), without prejudice to the generality of subsection (1), confers powers on the authority. If these powers were converted into duties, as the Deputy is suggesting, people would argue that in certain circumstances there would be an obligation on it to do certain things. Particularly in the start-up phase, one does not want to have everything mandatory. Granting and renewing licences will be done. One does not want to have someone arguing that there is an absolute duty to grant or renew licences. Neither does one want to have someone saying the undertaking of research is mandatory from the outset.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_124">
+          <from>Mr. Costello</from>
+          <p eId="para_186">There is a distinction.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_125">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_187">One would expect the functions outlined in the early paragraphs of subsection (2) to be mandatory while the later ones would be seen as more open as the authority becomes established.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_126" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_188">There may be an argument for the functions outlined in paragraphs (<i>a</i>) to (<i>d</i>) to be made obligatory. I will look at the matter before Report Stage.</p>
+        </speech>
+        <summary eId="sum_36" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_35"/>
+                </summary>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_127">
+          <from>Chairman</from>
+          <p eId="para_189">We shall resume our consideration of the Bill at 3.30 p.m. on Wednesday, 15 October.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_128" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_190">I want to get on with the Bill. I do not want my availability to be a determining factor. I, or one of my Ministers of State, will be here on that date.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_129">
+          <from>Chairman</from>
+          <p eId="para_191">The joint committee will meet for a few minutes after the vote to deal with some procedural items. If there is a time that suits both the Minister and members, we might be able to find it to conclude the Bill.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_130">
+          <from>Mr. Costello</from>
+          <p eId="para_192">Perhaps we could start at2.30 p.m. on Wednesday.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_131" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_193">I regard this legislation as hugely important. I say this without spin or hidden meaning. It is one of my Department's top legislative priorities for this term. If I am not available, a Minister of State will take my place.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_132">
+          <from>Chairman</from>
+          <p eId="para_194">We shall leave it until Wednesday, 15 October.</p>
+        </speech>
+        <summary eId="sum_37">Progress reported; Committee to sit again.</summary>
+        <summary eId="sum_38">The select committee adjourned at 5.10 p.m. until 3.30 p.m. on Wednesday, 15 October 2003.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

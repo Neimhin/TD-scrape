@@ -1,0 +1,1317 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2013-07-03/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2013-07-03/debate"/>
+          <FRBRdate date="2013-07-03" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/31/joint_committee_on_finance_public_expenditure_and_reform"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2013-07-03/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2013-07-03/debate/mul@"/>
+          <FRBRdate date="2013-07-03" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2013-07-03/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2013-07-03/debate/mul@.akn"/>
+          <FRBRdate date="2017-11-12" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_8" outcome="#carried" refersTo="#sum_7">
+            <count eId="vote_1-count_1" href="#qty_1" refersTo="#ta" value="20"/>
+            <count eId="vote_1-count_2" href="#qty_2" refersTo="#nil" value="4"/>
+          </voting>
+          <voting eId="vote_2" href="#sum_13" outcome="#declared" refersTo="#sum_12">
+            <count eId="vote_2-count_1" href="#qty_3" refersTo="#ta" value="4"/>
+            <count eId="vote_2-count_2" href="#qty_4" refersTo="#nil" value="22"/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#debates">
+        <TLCConcept eId="#lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#carried" href="/ie/oireachtas/ontology#DeclaredCarried" showAs="Declared Carried"/>
+        <TLCConcept eId="#staon" href="/ie/oireachtas/ontology#StaonVote" showAs="Staon Vote"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCPerson eId="AideenHayden" href="/ie/oireachtas/member/id/Aideen-Hayden.S.2011-05-25" showAs="Aideen Hayden"/>
+        <TLCPerson eId="AodhanORiordan" href="/ie/oireachtas/member/id/Aodhán-Ó-Ríordáin.D.2011-03-09" showAs="Aodhán Ó Ríordáin"/>
+        <TLCPerson eId="ArthurSpring" href="/ie/oireachtas/member/id/Arthur-Spring.D.2011-03-09" showAs="Arthur Spring"/>
+        <TLCPerson eId="BrianStanley" href="/ie/oireachtas/member/id/Brian-Stanley.D.2011-03-09" showAs="Brian Stanley"/>
+        <TLCPerson eId="CiaranLynch" href="/ie/oireachtas/member/id/Ciaran-Lynch.D.2007-06-14" showAs="Ciaran Lynch"/>
+        <TLCPerson eId="DaraMurphy" href="/ie/oireachtas/member/id/Dara-Murphy.D.2011-03-09" showAs="Dara Murphy"/>
+        <TLCPerson eId="HeatherHumphreys" href="/ie/oireachtas/member/id/Heather-Humphreys.D.2011-03-09" showAs="Heather Humphreys"/>
+        <TLCPerson eId="KevinHumphreys" href="/ie/oireachtas/member/id/Kevin-Humphreys.D.2011-03-09" showAs="Kevin Humphreys"/>
+        <TLCPerson eId="KieranODonnell" href="/ie/oireachtas/member/id/Kieran-O'Donnell.D.2007-06-14" showAs="Kieran O'Donnell"/>
+        <TLCPerson eId="LorraineHiggins" href="/ie/oireachtas/member/id/Lorraine-Higgins.S.2011-05-25" showAs="Lorraine Higgins"/>
+        <TLCPerson eId="MaryLouMcDonald" href="/ie/oireachtas/member/id/Mary-Lou-McDonald.D.2011-03-09" showAs="Mary Lou McDonald"/>
+        <TLCPerson eId="MichaelCreed" href="/ie/oireachtas/member/id/Michael-Creed.D.1989-06-29" showAs="Michael Creed"/>
+        <TLCPerson eId="MichaelMcGrath" href="/ie/oireachtas/member/id/Michael-McGrath.D.2007-06-14" showAs="Michael McGrath"/>
+        <TLCPerson eId="MichaelNoonan" href="/ie/oireachtas/member/id/Michael-Noonan.D.1981-06-30" showAs="Michael Noonan"/>
+        <TLCPerson eId="MichaelWDArcy" href="/ie/oireachtas/member/id/Michael-D'Arcy.D.2007-06-14" showAs="Michael D'Arcy"/>
+        <TLCPerson eId="NoelHarrington" href="/ie/oireachtas/member/id/Noel-Harrington.D.2011-03-09" showAs="Noel Harrington"/>
+        <TLCPerson eId="PaschalDonohoe" href="/ie/oireachtas/member/id/Paschal-Donohoe.S.2007-07-23" showAs="Paschal Donohoe"/>
+        <TLCPerson eId="PaulCoghlan" href="/ie/oireachtas/member/id/Paul-Coghlan.S.1997-09-17" showAs="Paul Coghlan"/>
+        <TLCPerson eId="PearseDoherty" href="/ie/oireachtas/member/id/Pearse-Doherty.S.2007-07-23" showAs="Pearse Doherty"/>
+        <TLCPerson eId="ReginaDoherty" href="/ie/oireachtas/member/id/Regina-Doherty.D.2011-03-09" showAs="Regina Doherty"/>
+        <TLCPerson eId="RichardBoydBarrett" href="/ie/oireachtas/member/id/Richard-Boyd-Barrett.D.2011-03-09" showAs="Richard Boyd Barrett"/>
+        <TLCPerson eId="SeanDBarrett" href="/ie/oireachtas/member/id/Sean-D-Barrett.S.2011-05-25" showAs="Sean D. Barrett"/>
+        <TLCPerson eId="SeanFleming" href="/ie/oireachtas/member/id/Seán-Fleming.D.1997-06-26" showAs="Seán Fleming"/>
+        <TLCPerson eId="SimonHarris" href="/ie/oireachtas/member/id/Simon-Harris.D.2011-03-09" showAs="Simon Harris"/>
+        <TLCPerson eId="StephenDonnelly" href="/ie/oireachtas/member/id/Stephen-Donnelly.D.2011-03-09" showAs="Stephen Donnelly"/>
+        <TLCPerson eId="ThomasByrne" href="/ie/oireachtas/member/id/Thomas-Byrne.D.2007-06-14" showAs="Thomas Byrne"/>
+        <TLCPerson eId="TimDooley" href="/ie/oireachtas/member/id/Timmy-Dooley.S.2002-09-12" showAs="Timmy Dooley"/>
+        <TLCPerson eId="TomSheahan" href="/ie/oireachtas/member/id/Tom-Sheahan.D.2007-06-14" showAs="Tom Sheahan"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole eId="Minister_for_Finance" href="/ie/oireachtas/role/minister/finance" showAs="Minister for Finance"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM AIRGEADAS, CAITEACHAS POILBÍ AGUS ATHCHÓIRIÚ</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Joint Committee on Finance, Public Expenditure and Reform</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2013-07-03">Dé Céadaoin, 03 Iúil 2013</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2013-07-03">Wednesday, 03 July 2013</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">The Joint Committee met at 02:30 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#RichardBoydBarrett">Deputy Richard Boyd Barrett</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#ThomasByrne">Senator Thomas Byrne</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#MichaelCreed">Deputy Michael Creed</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#PaulCoghlan">Senator Paul Coghlan</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#PearseDoherty">Deputy Pearse Doherty</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#MichaelWDArcy">Senator Michael D'Arcy</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#ReginaDoherty">Deputy Regina Doherty</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#AideenHayden">Senator Aideen Hayden</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#StephenDonnelly">Deputy Stephen S. Donnelly</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#LorraineHiggins">Senator Lorraine Higgins,+</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#PaschalDonohoe">Deputy Paschal Donohoe</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#TomSheahan">Senator Tom Sheahan.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#TimDooley">Deputy Timmy Dooley</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#NoelHarrington">Deputy Noel Harrington,*</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#SimonHarris">Deputy Simon Harris</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_16">
+                  <person refersTo="#HeatherHumphreys">Deputy Heather Humphreys</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_17">
+                  <person refersTo="#KevinHumphreys">Deputy Kevin Humphreys</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_18">
+                  <person refersTo="#MaryLouMcDonald">Deputy Mary Lou McDonald</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_19">
+                  <person refersTo="#MichaelMcGrath">Deputy Michael McGrath</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_20">
+                  <person refersTo="#DaraMurphy">Deputy Dara Murphy</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_21">
+                  <person refersTo="#AodhanORiordan">Deputy Aodhán Ó Ríordáin</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_22">
+                  <person refersTo="#KieranODonnell">Deputy Kieran O'Donnell</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_23">
+                  <person refersTo="#ArthurSpring">Deputy Arthur Spring</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_24">
+                  <person refersTo="#BrianStanley">Deputy Brian Stanley</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">* In the absence of Deputy Liam Twomey.</summary>
+          <summary eId="sum_4">+ In the absence of Senator Aideen Hayden.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#CiaranLynch">DEPUTY CIARÁN LYNCH IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+        <summary eId="sum_6">
+          <i>The joint committee met in private session until 2.40 p.m.</i>
+        </summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Joint Committee<recordedTime time="2013-07-03T14:40:00+01:00"/></heading>
+        <speech by="#CiaranLynch" eId="spk_1">
+          <from> Chairman<recordedTime time="2013-07-03T14:40:00+01:00"/></from>
+          <p eId="para_25">I will open the public session of today's meeting with an expression of sympathy. Members may be aware that the mother of Deputy Higgins passed away earlier this morning. On my own behalf and that of the joint committee, I wish to express my sympathy to Deputy Higgins and his family at this difficult time. Is it agreed to note this formally in the minutes? Agreed.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="motion" eId="dbsect_3">
+        <heading>Terms of Reference of Sub-Committee on Global Taxation: Motions<recordedTime time="2013-07-03T14:40:00+01:00"/></heading>
+        <speech by="#CiaranLynch" eId="spk_2">
+          <from> Chairman<recordedTime time="2013-07-03T14:40:00+01:00"/></from>
+          <p eId="para_26">We now turn to No. 7, terms of reference of the sub-committee on global taxation and discussion on the motions submitted. The joint committee has a number of motions before it for discussion this afternoon and with the agreement of members, I wish to conclude this part of the meeting no later than 3.50 p.m. The motions referring to the sub-committee on global taxation specifically deal with the terms of reference conferred on the sub-committee by the joint committee. My recollection and understanding from previous lengthy debates prior to establishing the sub-committee was the joint committee had agreed the priority now was for it to examine the international taxation architecture and how Ireland interacts therewith. The effect was to build a report that had standing and, having re-examined the tapes of those earlier discussions, I can confirm the joint committee agreed this would be the case. It was agreed that in the first instance, the sub-committee would engage with the policy platform. This includes the Department of Finance, the Revenue Commissioners, the OECD and policy, academic and taxation experts. It was then for the committee to decide on its next step, once this initial phase concluded. Deputy Pearse Doherty specifically requested that witnesses not be confined to what has been termed "forces of the State" or forces deemed to be representative of what is termed "statist" views. It was agreed that the joint committee would invite independent experts to brief the sub-committee on its examination. However, it was clearly agreed not to invite the multinationals.</p>
+          <p eId="para_27"> The joint committee is now returning to this issue and the motions were received in the following order: the motion tabled by Deputy Pearse Doherty, followed by motions tabled by Deputies Boyd Barrett and Higgins. I also note Deputy Dara Murphy submitted an amendment to Deputy Pearse Doherty's motion. While I will take the motions in the order in which they were submitted, the motion from Deputy Pearse Doherty and the amendment submitted by Deputy Dara Murphy will be disposed of first, followed by the motions of Deputies Boyd Barrett and Higgins, in that order.</p>
+          <p eId="para_28"> For the information of members, if a motion is agreed to, the joint committee must make a report on the matter to the Houses. I now call on Deputy Pearse Doherty to move his motion.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_3">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T14:40:00+01:00"/></from>
+          <p eId="para_29">I move:</p>
+          <p class="indent_1" eId="para_30">That the Sub-Committee on Global Taxation may invite, if it sees it as appropriate, and after hearing from the OECD, the Department of Finance, the Revenue Commissioners and the Minister for Finance, and the other named individuals discussed at the Sub-Committee on Global Taxation meeting of 26 June, other witnesses before the committee.</p>
+          <p eId="para_31">In November 2012, in a formal proposal to this joint committee, I requested that it examine the issue of multinational corporation tax and the fact that some multinational companies were not paying the appropriate level of corporation tax. Members subsequently have witnessed investigations or hearings in both Britain and the United States and in particular, the damaging reference in the United States in which this State was named as a tax haven, together with countries such as Bermuda, which has been damaging to our reputation. However, it does not deflect from the imperative that this issue must be discussed in our own home territory, where these companies are incorporated. It took six months for the Joint Committee on Finance, Public Expenditure and Reform to deal with the proposal I made in November and to agree to examine this issue.</p>
+          <p eId="para_32"> It has been my clear intention, which I never kept from the joint committee, that as part of this, members should invite multinationals to appear before the sub-committee to seek their views on where Ireland sits in respect of multinational corporation tax. It is my clear view that the sub-committee to be established and which met for the first time last week, should not be barred from asking the multinational companies to appear before it and to provide information or evidence as to their perception of the corporation tax rule in the State. However, from the previous meetings and discussions it is clear that a number of members of this joint committee wish at all costs to avoid seeing the multinational companies appear before the sub-committee, including companies such as Apple and Google, which have been named in international hearings. It would discredit this committee's work to invite, as members have agreed at the sub-committee meeting, 17 different individuals, four from what one might call State groups, namely, the OECD, the Department of Finance, the Minister for Finance and the Revenue Commissioners, as well as 13 or 14 academics, without asking a single multinational corporation. Members must remember that some of these multinational corporations, such as, for example, Apple Operations International, have been named and in the case of the latter, has given evidence voluntarily to a Senate committee in the United States that for four years, it recorded profits of €29.9 billion, which equates to 30% of Apple's entire global profits. It is incorporated in Ireland and does not pay a single cent of tax in this State or in any other jurisdiction internationally. Moreover, it employs no one in this State.</p>
+          <p eId="para_33"> As for having a discussion that will take a number of weeks, possibly a number of months, to deal with this issue without asking any multinational company to come before it, I note the amendment to my motion seeks to have the committee finish its work and make a report and thereafter have a discussion or possible recommendation that witnesses be brought in at a later stage. It is my view, from listening to members of this joint committee, that they wish at all costs to avoid having the likes of Apple, Google or Facebook appearing before the committee. However, this would be folly for members and would discredit the type of work they are doing. If Apple is willing to come before the United States Senate and if other companies are willing to attend hearings in Britain, members should be willing to request, if it is deemed appropriate by the sub-committee, such companies to appear before them and answer questions as to whether they consider the corporation tax laws in this State and internationally to be appropriate or whether they are using the corporation tax rules to create bigger dividends for their shareholders at the expense of the Exchequer here.</p>
+          <p eId="para_34"> Consequently, I wish to push my motion and feel very passionate about this issue. As stated previously, I raised the original motion more than seven months ago and setting up this type of sub-committee with a bar on its ability to invite multinational companies before it makes no sense or logic to me at present. Members should not be afraid of asking questions as these corporations are major entities. I do not single out Apple, although it has been singled out in the United States Senate. Other corporations, which are not availing of such loopholes, should also be invited to appear before the sub-committee to seek their views. However, these corporations have more revenue than does the entire State and their means are greater than those of this State. They are big enough and well capable of appearing before a hearing of the sub-committee to answer questions on evidence they have given, which is already in the public domain, in the United States Senate.</p>
+          <p eId="para_35"> Other companies, which are complying completely with the laws - as is Apple because the laws allow it to do this - also should be invited to explain to members of the sub-committee their view, from a multinational's perspective, of how Ireland's corporation tax rules sit with them. It is fine and well to have the State bodies and the academics here to give their views but the missing piece of the jigsaw concerns the multinational corporations. A refusal to do this sends out a terrible signal, both domestically and internationally, that we do not wish to deal with the issues that have been raised at an international level. Moreover, not only is this issue being raised in the United States and Britain but it also is being raised by senior officials and Ministers in the Australian Parliament and has been referenced right across the globe.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_4">
+          <from> Chairman<recordedTime time="2013-07-03T14:40:00+01:00"/></from>
+          <p eId="para_36">I thank Deputy Doherty. Before calling on Deputy Dara Murphy to speak on his amendment, does anyone else wish to speak on Deputy Doherty's motion?</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_5">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T14:40:00+01:00"/></from>
+          <p eId="para_37">Are we taking all the motions together?</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_6">
+          <from> Chairman<recordedTime time="2013-07-03T14:40:00+01:00"/></from>
+          <p eId="para_38">No, we are taking Deputy Doherty's motion followed by Deputy Dara Murphy's amendment thereto, after which we are moving to your motion. Thereafter, we must resolve the issue with Deputy Higgins's motion later in the meeting. Do you wish to speak on Deputy Doherty's motion?</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_7">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T14:40:00+01:00"/></from>
+          <p eId="para_39">Yes. I find it extraordinary that there would be any effort to block a request to bring representatives of multinationals such as Google, Facebook and others, which have been accused in a number of quarters internationally-----</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_8">
+          <from> Chairman<recordedTime time="2013-07-03T14:40:00+01:00"/></from>
+          <p eId="para_40">I remind members that we are in public session and while they may enjoy the privilege of making accusations or even of being defamatory, I ask them to be mindful that the comments transmit beyond this room, where other matters are examined and observed in the media and so forth.</p>
+          <p eId="para_41">For this reason, members should be measured in their comments. </p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_9">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_42">I find it extraordinary that there has been an attempt to block a simple request to bring before the joint committee representatives of a number of multinational companies, including Google, Facebook and Apple, which have been accused in a number of quarters internationally of engaging in aggressive tax avoidance, in order that members will be able to ask them questions on the matter. It beggars belief that we could discuss global and multinational tax architecture and its relationship to this State and our role in it without asking some of the key players based in this country to come before the joint committee to express their views on the issue. This does not make sense. We are asking people who are at one remove to give us what is supposedly expert analysis of the issue, rather than questioning those who are at the centre of the issue, namely, the corporations. Nobody knows more about this issue than the multinational companies, although it remains to be seen whether they will provide honest answers.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_10">
+          <from> Chairman<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_43">The Deputy is moving into a prejudicial position in assuming that someone would be dishonest in any context. I ask him to use measured language.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_11">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_44">I will repeat what I said. I used the words "it remains to be seen".</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_12">
+          <from> Chairman<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_45">The Deputy stated that people may come before us and act dishonestly. In doing so, he is making a presumption and leading-----</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_13">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_46">It is not a presumption.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_14">
+          <from> Chairman<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_47">I will have to rule the Deputy out of order if he accuses people of being dishonest.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_15">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_48">I did not accuse anybody of dishonesty. I stated it remains to be seen whether they would be dishonest.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_16">
+          <from> Chairman<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_49">The Deputy may proceed.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_17">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_50">It remains to be seen whether the multinational companies would give us the inside track on their tax avoidance strategies. The companies at the centre of these allegations are based here and Ireland has been directly accused in the United States, Britain and elsewhere of facilitating aggressive tax avoidance by multinational companies. It defies belief that there does not appear to be a willingness to discuss increasing taxes on these companies when the country is beggared with taxation and austerity measures. That is bad enough but the fact that we cannot even talk about it-----</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_18">
+          <from> Chairman<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_51">Is the Deputy referring to raising corporation tax?</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_19">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_52">Yes. It is beyond belief that we cannot discuss the issue and bring the people at the centre of this controversy before the sub-committee to ask them some questions.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_20">
+          <from> Chairman<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_53">We have concluded our discussion of Deputy Pearse Doherty's motion. I ask Deputy Dara Murphy to propose the amendment.</p>
+        </speech>
+        <speech by="#DaraMurphy" eId="spk_21">
+          <from>Deputy Dara Murphy<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_54">I move amendment No. 1:</p>
+          <p class="indent_1" eId="para_55">To delete all words after "That the Sub-Committee on Global Taxation" and substitute the following:</p>
+          <p class="indent_3" eId="para_56">"shall report to the Joint Committee following its consideration of evidence from the OECD; the Department of Finance; the Revenue Commissioners; the Minister for Finance, and other relevant taxation and academic experts on the global corporate/multinational taxation architecture and Ireland's relationship with that tax architecture. Such report to recommend, if it sees it as appropriate, as to further enquires and proposed witnesses."</p>
+          <p eId="para_57">Multinational companies come to Ireland for a variety of reasons, not least our access to the eurozone, our well-educated workforce, the cost of doing business and the taxation system. There is merit in the joint committee seeking to discover and engage in a process of understanding how our tax infrastructure works in an international context. My amendment largely mirrors the motion tabled by Deputy Pearse Doherty that the joint committee should invite before it representatives of the OECD, which is carrying out a study of world taxation practices, the Department of Finance, Revenue Commissioners and also the Minister. The sub-committee had a discussion on whether other groups should appear before it. If it is to complete its work quickly and with clarity, it must have clear terms of reference. </p>
+          <p eId="para_58"> No representative of a small company or large multinational should be put in a position of having to come to the House to discuss how it engages with our taxation system. To do so would create difficulties for the company from a competition point of view. It should be noted also that we are competing with other countries as we seek to attract multinational business.</p>
+          <p eId="para_59"> Reference was made to part of a company that does not employ anyone in Ireland. The company in question employs 4,500 people, many of whom live in my constituency of Cork North Central and the Chairman's constituency. To add to Deputy Doherty's motion, essentially by having other named experts in international taxation appear before the sub-committee, would help members understand the issue and make recommendations to the joint committee on what actions it should take subsequently. It is important to have such clarity and I propose the amendment to this end.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_22">
+          <from> Chairman<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_60">I will open the discussion to the floor.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_23">
+          <from>Deputy Kevin Humphreys<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_61">In fairness to Deputy Dara Murphy, he has outlined a clear roadmap. It would be unbelievable if the sub-committee were to fail to do due diligence by having representatives of the OECD and Department of Finance, as well as the Minister for Finance, come before it. Such meetings would allow it to obtain a clear and comprehensive understanding of the issues, report back to the joint committee and, if appropriate, add additional witnesses. My greatest fear is that members will engage in a form of showboating. The sub-committee has work to do in carrying out distinct research and producing clear recommendations. If it is appropriate, we should have further witnesses come before either the full committee or the sub-committee once the latter has completed its work. I support the amendment.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_24">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T14:50:00+01:00"/></from>
+          <p eId="para_62">I oppose Deputy Murphy's amendment for a number of reasons. To respond to Deputy Humphreys, there is no suggestion that we would speak to representatives of any multinational corporations before the Minister for Finance, officials from the Department of Finance, Revenue Commissioners and OECD and academic experts have appeared before the sub-committee. It is proposed to have these witnesses appear first and thereafter representatives of the multinational companies would come before the sub-committee. Despite the fact that I have been very open in stating I want representatives of some of the multinational companies that have been named in various hearings to come before the sub-committee, I would also like representatives of multinational companies that have not been accused of anything to come before us.</p>
+          <p eId="para_63"> To get to the nub of the issue, the joint committee has asked a sub-committee to do a report on corporation tax as it applies to multinational companies. The origin of this request was the motion the joint committee passed in November. The sub-committee's hearings can be structured and shaped in different ways. International issues arise regarding companies located in Ireland which are aggressively involved in evading tax. That is the reality. We are now asking a sub-committee to do a report without allowing it to question any multinational company before the report is submitted to the joint committee. If we proceed with this approach, the process will be a farce. </p>
+          <p eId="para_64"> All of us wish to protect jobs and I agree with Deputy Dara Murphy's comments on the need to do so. Sinn Féin does not seek an increase in corporate tax but we must deal with realities. We know there are two companies which are incorporated in Ireland and not tax resident in this State or anywhere else in the world. One of them does not have any employees in the State and even if we were to raise corporation tax to the roof, we would not get any money from it because it does not pay a cent of tax here or elsewhere in the world. This is at a time when people are being put to the pin of their collar by cuts and austerity.</p>
+          <p eId="para_65">We know from the evidence that this multinational freely and willingly gave the US Senate information that it made a profit of €29.9 billion through a company that is located in Ireland but does not employ anyone. It has not paid a penny in tax to this State or any other state internationally. Another subsidiary of Apple, ASI, made a pre-tax profit of €38 billion in three years and paid €21 million in tax to this State. How can we look anyone out there in the eye and defend the austerity measures being introduced by this Government if we are unwilling to bring before this committee companies that are not paying their fair share of tax in this State? It seems we are going to compile a report about multinational corporations without asking of those corporations their views on these matters.</p>
+          <p eId="para_66"> I am fundamentally opposed to this amendment because it is clear from views expressed at this committee and at the sub-committee in private session that there is a complete and utter unwillingness to hint at the idea of bringing in these multinational corporations. This amendment is being dressed up as a means of putting a report together, with the possibility of making a recommendation at a later stage to bring in the multinationals. It is clear from views that have been expressed previous to this meeting that such action is not on the agenda of Deputies in this forum. It can only be presented as a case of this committee protecting multinational firms that pay no tax here, do not employ anyone and pay no other tax internationally. It makes an absolute mockery of this committee.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_25">
+          <from>Deputy Stephen S. Donnelly<recordedTime time="2013-07-03T15:00:00+01:00"/></from>
+          <p eId="para_67">I would like to support Deputy Dara Murphy's amendment. It has been suggested that the sub-committee does not want to bring in multinational corporations and is blocking that in some way. I wrote to the Chairman recently to request the establishment of this sub-committee. My attempts to gain a position on my own committee were unsuccessful, but I will be there for all of the hearings. Having requested the sub-committee's establishment, I do not doubt that multinational corporations will be brought in at some point. I agree with Deputy Pearse Doherty that multinational corporations are experts in a kind of tax avoidance. We need to be very clear in public session about the difference between evasion and avoidance.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_26">
+          <from> Chairman<recordedTime time="2013-07-03T15:00:00+01:00"/></from>
+          <p eId="para_68">Correct. Hear, hear.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_27">
+          <from>Deputy Stephen S. Donnelly<recordedTime time="2013-07-03T15:00:00+01:00"/></from>
+          <p eId="para_69">One is legal and the other is illegal. We are talking here about tax avoidance. Deputy Murphy's proposal was agreed by this committee in private session. It is regrettable that we are back discussing it in public session. It was very clearly agreed - this is laid out in Deputy Murphy's amendment - that this would be a multi-phase piece of work. We agreed that the first thing we would do is understand exactly how the system works. We said we would listen to independent parties that would be able to lay out for the sub-committee and therefore for the joint committee the mechanics of the different types of international laws in Ireland and abroad that are potentially being used for tax avoidance. We agreed that after we had completed this phase of our work and compiled a report on it, and ensuring the full joint committee and potentially the Oireachtas had been given time to digest the report, we would move into the next phase of the process, during which the multinational corporations as a group would be brought in. For me, there is no question of trying to avoid bringing multinational corporations before this committee or before the sub-committee. I think Deputy Murphy's proposal sets out the most sensible way to proceed. The process he has proposed for meeting the multinational corporations is the process that would best equip us to engage with them. I would like to support the amendment tabled by the Deputy.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_28">
+          <from> Chairman<recordedTime time="2013-07-03T15:00:00+01:00"/></from>
+          <p eId="para_70">Before I put the question, I would like to contribute to this debate. I find it regrettable that we are back here this afternoon. Having listened to the tapes, I have reaffirmed my interpretation of what happened in private session. At last week's select committee meeting, different people put a different interpretation on what was agreed. We are here this afternoon to clarify the interpretation of that first meeting. It has been mentioned that committees in other jurisdictions have compiled their own reports. They have done so for their own reasons, in particular, their own national reasons. Any work that will be done by this committee will be done for our own reasons. We will not react in a crisis-driven way to reports coming out of other jurisdictions. Our work will suit our purpose.</p>
+          <p eId="para_71"> I can summarise what was agreed the first time we discussed this in private session by referring to a point I made on that occasion. If one wants to discuss the offside rule because there are accusations that companies are playing offside, one should bring in FIFA and UEFA rather than Manchester United or Chelsea. That was the point I made at the time. However, the purpose of this meeting is to clarify what the select committee should do. We are back here this afternoon on that basis. We have covered this issue at length. We are all very busy. I am busy and my colleagues are busy. There is a certain level of frustration about the downtime, as I call it, which is involved in having to go over background work that has been done already. This work was done and agreed, but we are back here this evening to clarify it. On that basis, we need to give final and utter clarification on the work of the select committee. In keeping with Standing Orders, I propose that Deputy Dara Murphy's amendment to Deputy Pearse Doherty's motion be agreed. Is that agreed? I believe the motion has been carried.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_29">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T15:00:00+01:00"/></from>
+          <p eId="para_72">Vótáil.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_30">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:00:00+01:00"/></from>
+          <p eId="para_73">Vótáil.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_4">
+          <summary eId="sum_7">Amendment put: </summary>
+          <summary title="division" eId="sum_8">The Committee divided: Tá, <quantity refersTo="#ta" normalized="20" eId="qty_1">20</quantity>; Níl, <quantity refersTo="#nil" normalized="4" eId="qty_2">4</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_5">
+            <p eId="para_74">Tá</p>
+            <p eId="para_75">
+              <person refersTo="#ThomasByrne">Byrne, Thomas.</person>
+            </p>
+            <p eId="para_76">
+              <person refersTo="#PaulCoghlan">Coghlan, Paul.</person>
+            </p>
+            <p eId="para_77">
+              <person refersTo="#MichaelCreed">Creed, Michael.</person>
+            </p>
+            <p eId="para_78">
+              <person refersTo="#MichaelWDArcy">D'Arcy, Michael.</person>
+            </p>
+            <p eId="para_79">
+              <person refersTo="#ReginaDoherty">Doherty, Regina.</person>
+            </p>
+            <p eId="para_80">
+              <person refersTo="#StephenDonnelly">Donnelly, Stephen S.</person>
+            </p>
+            <p eId="para_81">
+              <person refersTo="#PaschalDonohoe">Donohoe, Paschal.</person>
+            </p>
+            <p eId="para_82">
+              <person refersTo="#TimDooley">Dooley, Timmy.</person>
+            </p>
+            <p eId="para_83">
+              <person refersTo="#NoelHarrington">Harrington, Noel.</person>
+            </p>
+            <p eId="para_84">
+              <person refersTo="#SimonHarris">Harris, Simon.</person>
+            </p>
+            <p eId="para_85">
+              <person refersTo="#LorraineHiggins">Higgins, Lorraine.</person>
+            </p>
+            <p eId="para_86">
+              <person refersTo="#HeatherHumphreys">Humphreys, Heather.</person>
+            </p>
+            <p eId="para_87">
+              <person refersTo="#KevinHumphreys">Humphreys, Kevin.</person>
+            </p>
+            <p eId="para_88">
+              <person refersTo="#CiaranLynch">Lynch, Ciarán.</person>
+            </p>
+            <p eId="para_89">
+              <person refersTo="#MichaelMcGrath">McGrath, Michael.</person>
+            </p>
+            <p eId="para_90">
+              <person refersTo="#DaraMurphy">Murphy, Dara.</person>
+            </p>
+            <p eId="para_91">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_92">
+              <person refersTo="#AodhanORiordan">Ó Ríordáin, Aodhán.</person>
+            </p>
+            <p eId="para_93">
+              <person refersTo="#TomSheahan">Sheahan, Tom.</person>
+            </p>
+            <p eId="para_94">
+              <person refersTo="#ArthurSpring">Spring, Arthur.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_6">
+            <p eId="para_95">Níl</p>
+            <p eId="para_96">
+              <person refersTo="#RichardBoydBarrett">Boyd Barrett, Richard.</person>
+            </p>
+            <p eId="para_97">
+              <person refersTo="#PearseDoherty">Doherty, Pearse.</person>
+            </p>
+            <p eId="para_98">
+              <person refersTo="#MaryLouMcDonald">McDonald, Mary Lou.</person>
+            </p>
+            <p eId="para_99">
+              <person refersTo="#BrianStanley">Stanley, Brian.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_9"/>
+          <summary title="decision" refersTo="#carried" eId="sum_10">Amendment declared carried.</summary>
+        </debateSection>
+        <summary eId="sum_11"> Motion, as amended, agreed to.</summary>
+        <speech by="#CiaranLynch" eId="spk_31">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_100">We will move to Deputy Boyd Barrett's motion.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_32">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_101">I move:</p>
+          <p class="indent_1" eId="para_102">That the Joint Committee on Finance, Public Expenditure and Reform sub-committee on global corporate multi-taxation architecture shall as part of its terms of reference invite into the committee to give testimony and answer questions representatives of multinational corporations based here in Ireland, including representatives of Apple, Google, Facebook and other such corporations as the sub-committee may deem appropriate.</p>
+          <p eId="para_103">The Chairman indicated we should not be forced into bringing in multinationals.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_33">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_104">When did I say that?</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_34">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_105">It was a comment in earlier discussions.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_35">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_106">Today?</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_36">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_107">Yes.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_37">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_108">No, I did not make any such comments.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_38">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_109">The Chairman made reference to a crisis situation.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_39">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_110">This is the third time-----</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_40">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_111">I am the only person you interrupt.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_41">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_112">You have been incorrect three times this afternoon. You are now reading alleged comments from me into the record that were not made. Please be measured in your comments.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_42">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_113">We are facing a crisis in this country.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_43">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_114">Will the Deputy withdraw the comment he alleged earlier?</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_44">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_115">What comment?</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_45">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_116">He intimated that I made a suggestion earlier, which I did not. Is the Deputy correct or incorrect?</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_46">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_117">The Chairman made a statement earlier relating to the issue of inviting multinationals when in a crisis situation. I cannot remember the exact wording.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_47">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_118">If the Deputy cannot remember it, please do not quote me.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_48">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_119">I paraphrased the Chairman.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_49">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_120">No, you did not.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_50">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_121">I did.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_51">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_122">No, the Deputy was incorrect.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_52">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_123">I did. We can read the record and see what the Chairman said.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_53">
+          <from> Chairman<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_124">I can tell you what I said. I stated this committee will not be crisis-driven.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_54">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:10:00+01:00"/></from>
+          <p eId="para_125">Okay. That is the exact comment. That was in the context of a discussion of whether we should bring in representatives of multinationals. We should be crisis-driven because our public finances are in the most severe crisis they have ever faced.</p>
+          <p eId="para_126">That crisis faced by our public finances is precisely the reason we need to have the multinationals that have been accused internationally of engaging in aggressive tax avoidance in before this committee to answer questions about that. We owe it to the citizens of this country who are being crucified with unjust and unfair austerity measures and taxes, which they cannot afford to pay, to bring in super profitable, super wealthy multinationals against which serious allegations are being made about their failure to pay their fair share in taxation. We owe it to the people of this country to do that.</p>
+          <p eId="para_127"> I must comment on the unprecedented mobilisation of the political establishment in this country, reflected in this committee today, where Fine Gael, the Labour Party, Fianna Fáil and some Independents have banded together to protect the multinationals in this country from even being asked questions about their tax affairs. It is simply extraordinary. Can we not at least explore this? The idea that we would look into global multinational tax architecture and how it relates to this country without inviting in the key subjects of that discussion, the multinationals, to ask them questions about their tax affairs beggars belief. It makes a farce of this committee and would outrage the people of this country if they were to find out that we could not even ask them those simple questions.</p>
+          <p eId="para_128"> In recent times there has been much talk about group-think and how group-think has led us to the disastrous situation in which we are now. I have never seen a more profound example of group-think, where one is not allowed question the consensus, than what we are seeing around the issue of corporate tax and the multinationals. One cannot even ask questions, never mind change the policy. It is beyond belief. </p>
+          <p eId="para_129"> All we are asking is that they should be part of this investigation. It is absolutely clear that the proposer of the amendment to Deputy Pearse Doherty's motion and those who are almost certainly going to vote against this motion do not want the multinationals brought in here. If Deputy Donnolly was right in saying this was always envisaged, what is the problem with my motion proposing that it would be part of the remit of the committee? That is all it states, it does not state in what order. It states that it would be part of a remit of a committee looking into multinational taxation and its relationship to this country that at some point we will ask those people in. We could do it at the end of the phase or at whatever point we consider acceptable. What those who are opposing these motions are trying to do is to prevent that happening. That is shameful. It is a conspiracy of silence. It is a cover-up of an issue of immense importance.</p>
+          <p eId="para_130"> Some estimates indicate there is €80 trillion of these profits floating around the world. If even a small fraction of that were to go back into the revenue of cash-starved states like ours, the United States, Britain, Europe, which are desperately in need of funds and finances to re-kickstart their economies, it would be helpful, but the fact is that we cannot even talk about it. We cannot ask these people questions. We are shivering with fear in the face of the multinationals, so much so that we cannot even bring them in to ask questions. It beggars believe. I intend to press the motion. Regardless of what this committee does I intend to press this issue and keep pressing it at every possible opportunity.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_55">
+          <from> Chairman<recordedTime time="2013-07-03T15:20:00+01:00"/></from>
+          <p eId="para_131">How stands the motion. Is the Deputy pressing it?</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_56">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:20:00+01:00"/></from>
+          <p eId="para_132">I am pressing it.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_57">
+          <from> Chairman<recordedTime time="2013-07-03T15:20:00+01:00"/></from>
+          <p eId="para_133">Is the motion agreed?</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_58">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:20:00+01:00"/></from>
+          <p eId="para_134">No.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_7">
+          <summary eId="sum_12">Question put: </summary>
+          <summary title="division" eId="sum_13">The Committee divided: Tá, <quantity refersTo="#ta" normalized="4" eId="qty_3">4</quantity>; Níl, <quantity refersTo="#nil" normalized="22" eId="qty_4">22</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_8">
+            <p eId="para_135">Tá</p>
+            <p eId="para_136">
+              <person refersTo="#RichardBoydBarrett">Boyd Barrett, Richard.</person>
+            </p>
+            <p eId="para_137">
+              <person refersTo="#PearseDoherty">Doherty, Pearse.</person>
+            </p>
+            <p eId="para_138">
+              <person refersTo="#MaryLouMcDonald">McDonald, Mary Lou.</person>
+            </p>
+            <p eId="para_139">
+              <person refersTo="#BrianStanley">Stanley, Brian.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_9">
+            <p eId="para_140">Níl</p>
+            <p eId="para_141">
+              <person refersTo="#SeanDBarrett">Barrett, Sean D.</person>
+            </p>
+            <p eId="para_142">
+              <person refersTo="#ThomasByrne">Byrne, Thomas.</person>
+            </p>
+            <p eId="para_143">
+              <person refersTo="#PaulCoghlan">Coghlan, Paul.</person>
+            </p>
+            <p eId="para_144">
+              <person refersTo="#MichaelCreed">Creed, Michael.</person>
+            </p>
+            <p eId="para_145">
+              <person refersTo="#MichaelWDArcy">D'Arcy, Michael.</person>
+            </p>
+            <p eId="para_146">
+              <person refersTo="#ReginaDoherty">Doherty, Regina.</person>
+            </p>
+            <p eId="para_147">
+              <person refersTo="#StephenDonnelly">Donnelly, Stephen S.</person>
+            </p>
+            <p eId="para_148">
+              <person refersTo="#PaschalDonohoe">Donohoe, Paschal.</person>
+            </p>
+            <p eId="para_149">
+              <person refersTo="#TimDooley">Dooley, Timmy.</person>
+            </p>
+            <p eId="para_150">
+              <person refersTo="#SeanFleming">Fleming, Sean.</person>
+            </p>
+            <p eId="para_151">
+              <person refersTo="#NoelHarrington">Harrington, Noel.</person>
+            </p>
+            <p eId="para_152">
+              <person refersTo="#SimonHarris">Harris, Simon.</person>
+            </p>
+            <p eId="para_153">
+              <person refersTo="#AideenHayden">Hayden, Aideen.</person>
+            </p>
+            <p eId="para_154">
+              <person refersTo="#HeatherHumphreys">Humphreys, Heather.</person>
+            </p>
+            <p eId="para_155">
+              <person refersTo="#KevinHumphreys">Humphreys, Kevin.</person>
+            </p>
+            <p eId="para_156">
+              <person refersTo="#CiaranLynch">Lynch, Ciarán.</person>
+            </p>
+            <p eId="para_157">
+              <person refersTo="#MichaelMcGrath">McGrath, Michael.</person>
+            </p>
+            <p eId="para_158">
+              <person refersTo="#DaraMurphy">Murphy, Dara.</person>
+            </p>
+            <p eId="para_159">
+              <person refersTo="#KieranODonnell">O'Donnell, Kieran.</person>
+            </p>
+            <p eId="para_160">
+              <person refersTo="#AodhanORiordan">Ó Ríordáin, Aodhán.</person>
+            </p>
+            <p eId="para_161">
+              <person refersTo="#TomSheahan">Sheahan, Tom.</person>
+            </p>
+            <p eId="para_162">
+              <person refersTo="#ArthurSpring">Spring, Arthur.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_14"/>
+          <summary title="decision" refersTo="#declared" eId="sum_15">Question declared .</summary>
+        </debateSection>
+        <speech by="#CiaranLynch" eId="spk_59">
+          <from> Chairman<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_163">We will move on to the motion in the name of Deputy Joe Higgins. I call Deputy Boyd Barrett to move the motion on behalf of Deputy Higgins.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_60">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_164">I move:</p>
+          <p class="indent_1" eId="para_165">That the Joint Committee on Finance, Public Expenditure and Reform sub-committee on global corporate multi-taxation architecture shall invite in chief executive officers and other appropriate senior executives of multinational corporations and financial institutions to give information and answer questions in public session on their company's taxation policies and procedures.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_61">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_166">Before we vote on the motion, I wish to speak in support of it. At least one speaker who voted against the previous two motions has suggested that it is the intention of the sub-committee to bring in the multinationals. Let me be clear, if we vote against this motion, the view of the committee is that no multinationals are to be brought in at this stage. It will be an option that could be a recommendation of a report when published but the committee will not be able to request multinationals to appear before it prior to it concluding its work and reports to the joint committee.</p>
+          <p eId="para_167"> There is the famous phrase, "who fears to speak". The question for this committee is: "Who fears to ask?". We appear to be paralysed by fear in terms of asking questions of multinational companies. In my view, what we are doing is holding an inquiry or hearings into multinational corporation tax but not inviting in the main players to ask them questions. This is the equivalent of having a banking inquiry without inviting in the bank officials. Can anyone imagine if this committee were tasked with holding the banking inquiry and it decided to invite in the Ministers present on the night, the regulator and, perhaps, the-----</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_62">
+          <from> Chairman<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_168">The Deputy is moving into-----</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_63">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_169">Please allow me to finish.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_64">
+          <from> Chairman<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_170">No.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_65">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_171">The Chairman may not like what I am saying but I am entitled to say it.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_66">
+          <from> Chairman<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_172">The Deputy must be in order.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_67">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_173">I am in order. I am drawing comparisons between-----</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_68">
+          <from> Chairman<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_174">The Deputy is making prejudgments.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_69">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_175">I am drawing comparisons between what is about to be agreed at this committee and what has been agreed under the last two motions, which would be the equivalent of a banking inquiry inviting in the architects, including the regulator, Minister for Finance and other Ministers present on the night of the bank guarantee and publishing a report which may include a recommendation to invite in the banks. That is exactly what this committee is doing here today. In my view, it is ridiculous that we are having a discussion on multinational corporation tax and this committee is so paralysed with fear it will not even suggest that we ask questions of any multinational company, which information they have voluntarily and willingly given to other parliaments in other jurisdictions.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_70">
+          <from> Chairman<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_176">I will allow a brief response from Deputies Kevin Humphreys and Dara Murphy.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_71">
+          <from>Deputy Kevin Humphreys<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_177">Had the motions been agreed, it would have been the equivalent of engaging in a banking inquiry without first doing the necessary preparation work. What is proposed is that the committee undertake the preparatory work first and then consider who it might be necessary to invite in. We are all aware of the conversation around people showboating and so on in a banking inquiry. What is proposed is that adequate research would be carried out before proceeding. The sub-committee needs to do its preparatory work first and then take the matter further.</p>
+        </speech>
+        <speech by="#DaraMurphy" eId="spk_72">
+          <from>Deputy Dara Murphy<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_178">We stand by what was agreed earlier, which was also that which was agreed at a previous meeting. There is no suggestion, nor should there be, of any wrongdoing by any multinational conducting its business in this country. The OECD, which will shortly appear before the new committee, is conducting an international investigation into the global tax infrastructure. We will be able to question and report on that basis. This issue has been addressed on so many occasions, we are now going around in circles.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_73">
+          <from> Chairman<recordedTime time="2013-07-03T15:30:00+01:00"/></from>
+          <p eId="para_179">We have agreed to conclude at 3.50 p.m. I ask members to be succinct in their commentary on these issues, which have already been spoken to. It was agreed in private session that we would conclude following debate on the motion before us. Members have chosen to breach what was agreed earlier.</p>
+          <p eId="para_180">However, we will continue with Deputies Richard Boyd Barrett, Stephen Donnelly, Mary Lou McDonald and Michael McGrath. I would like to get finished by 3.50 p.m. please.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_74">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_181">I have made most of my points so I will be brief. Some of us believe that we are talking about wrongdoing. However one defines it, aggressive tax avoidance by large multinationals is wrong. Whether or not it is illegal is of secondary interest to me and, I suspect, to the majority of people both here and abroad. People think it is morally wrong that corporations can make obscene profit levels and pay little or no tax, when ordinary people are screwed to the wall. That is why this is a very important issue for people. Some of us believe that addressing this issue is the key to dealing with the European and global economic crisis. Not everybody agrees with that but some of us happen to believe it.</p>
+          <p eId="para_182"> This Government has defended a lot of its actions in recent times on the basis of safeguarding, improving and rehabilitating our international reputation. Both the Government and Fianna Fáil are opposing us on this matter but our international reputation has been seriously damaged by the allegation that we are operating as a tax haven to facilitate aggressive corporate tax avoidance by these multinationals. Our reputation is being further damaged by the refusal of this committee to even bring these guys in for questioning. We are on our knees before these people.</p>
+          <p eId="para_183"> This is my last point. I wish to pass my condolences to Deputy Higgins on the death of his mother. However, if he were here I know he would say that this is an example of the dictatorship of the corporate markets. That is what it is and I do not think we should submit to that dictatorship. I know Deputy Higgins would say that if he were here.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_75">
+          <from> Chairman<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_184">We must vacate this room by 3.50 p.m. and get ready for the Minister's arrival at 4 p.m.</p>
+          <p eId="para_185"> I now call Deputy Mary Lou McDonald followed by Deputy Stephen Donnelly, Deputy Michael McGrath and myself to conclude the vote. The Deputies will have three minutes each.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_76">
+          <from>Deputy Mary Lou McDonald<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_186">I will be brief. I wish to convey my condolences to Deputy Higgins. I was not aware that he had lost his mother.</p>
+          <p eId="para_187"> Nobody has suggested that the due diligence to which Deputy Kevin Humphreys referred would not be done. It is self-evident that the OECD and other bodies must be questioned to ascertain information from them. Anybody who happens to be watching this session will simply have reconfirmed for them the state of paralysis and denial within the Irish political system. Anybody tuning in would quite rightly ask why the multinationals are not being brought in. Without prejudice to what they might say, I do not wish to make a judgment on guilt or innocence, or on the extent of tax avoidance or otherwise. This has been a matter of international public concern. If we wanted to make a show of weakness on behalf of Oireachtas committees, members have done that quite magnificently here today.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_77">
+          <from>Deputy Stephen S. Donnelly<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_188">I will be brief, but I want to respond because some strong language is being thrown around. There are suggestions that people are trying to protect multinationals and that members of this committee are afraid of questioning them. As someone who wrote to the Chairman and asked for this sub-committee to be established, I am certainly not afraid of asking questions of any multinational corporations in Ireland. I doubt if any members of this committee are afraid of doing so. This is not about protecting multinationals or being afraid of them, it is a procedural issue. The motion that Deputy Dara Murphy tabled, which is what we agreed in private session, is that we would do this in the most sensible and effective way.</p>
+          <p eId="para_189"> I only wanted to respond to some strong language that is being thrown around to the effect that members of this committee are somehow afraid of doing the good work of the Oireachtas. Unfortunately, this sort of thing will make it more difficult for the sub-committee to do what it needs to do. This committee has shown - for example, by inviting in the public interest directors - that people with a wide variety of backgrounds and different political views are capable of working together towards a common consensus. Once we fully understand this complicated set of international taxation laws and movements of money, it is my intention to request that this committee should bring in the multinationals. It is a question of process. </p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_78">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_190">I will be brief. I spoke on this matter when the sub-committee met and my views have not changed. I agree with virtually everything Deputy Donnelly has said. As far as I am concerned, the focus of the sub-committee's work is on policy issues. It is dealing with taxation architecture, the corporation tax code in Ireland as it relates to multinationals, and the relationship between our taxation system and others. Those are the key issues.</p>
+          <p eId="para_191"> The taxation relationship between the Irish State and individual multinationals is managed by the Revenue. Therefore, direct contact between the State and multinationals on tax issues is channelled through the Revenue Commissioners. I am not ruling out asking the multinationals in at a later date, but we need to do our work first. Once we get down to it, we will quickly distil it down to the key issues. Most of us with a cursory knowledge of the subject know what the key issues are, so let us get into it as soon as possible, and deal with the individual companies later.</p>
+        </speech>
+        <summary eId="sum_16"> Question put and declared lost.</summary>
+        <speech by="#CiaranLynch" eId="spk_79">
+          <from> Chairman<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_192">I have one final item of business before we suspend the meeting prior to the Minister for Finance, Deputy Noonan's, arrival at 4 p.m. At the last meeting of the select committee in private session, I proposed that we would seek to appoint a resource consultant to help this committee to commence its work. Is that agreed?</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_80">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_193">Is that for the select committee or the sub-committee?</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_81">
+          <from> Chairman<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_194">It is the resource worker who will do research and help us to put together some material.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_82">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_195">Can I ask one question? I accept that we have now made a decision on the multinationals. Outside the issue of the multinationals, is it still open to the sub-committee to make other suggestions not related to multinationals?</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_83">
+          <from> Chairman<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_196">No. We have got our terms of reference now. My goodness me, that is why we are here this afternoon. This is the third time we have had a meeting on this. I do not want to collapse this committee but if I get this nonsense in the select committee I will collapse it.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_84">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_197">Thank you for listening to me, Chairman.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_85">
+          <from> Chairman<recordedTime time="2013-07-03T15:40:00+01:00"/></from>
+          <p eId="para_198">I propose that we suspend the meeting. Is that agreed? Agreed.</p>
+        </speech>
+        <summary eId="sum_17">
+          <i> Sitting suspended at 3.47 p.m. and resumed at 4 p.m.</i>
+        </summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_10">
+        <heading>Review of ECOFIN Matters under Irish EU Presidency: Discussion<recordedTime time="2013-07-03T16:00:00+01:00"/></heading>
+        <speech by="#CiaranLynch" eId="spk_86">
+          <from> Chairman<recordedTime time="2013-07-03T16:00:00+01:00"/></from>
+          <p eId="para_199">I understand that the Minister must depart at 5.10 p.m. or 5.15 p.m. I welcome him and his officials before the committee this afternoon. The format of the meeting is that the Minister will make some opening remarks which we will follow with a question and answer session. I remind members, witnesses and those in the Visitors Gallery that all mobile telephones must be switched off. Members are reminded of the long-standing rule of the Chair to the effect that they should not comment on, criticise or make charges against either a person outside the Houses or a official by name or in such a way as to make him or her identifiable. I invite the Minister to make his opening statement, following which we will have the question and answer session.</p>
+        </speech>
+        <speech by="#MichaelNoonan" as="#Minister_for_Finance" eId="spk_87">
+          <from>Minister for Finance (Deputy Michael Noonan)<recordedTime time="2013-07-03T16:00:00+01:00"/></from>
+          <p eId="para_200">We are now at the end of the 7th Irish Presidency of the European Union. I am happy to report to this committee that it has, in my view, been a very successful one for the Department of Finance and it has, in many respects, exceeded our expectations when we were planning the Presidency in 2012.</p>
+          <p eId="para_201"> I wish to give the committee an overview of the achievements of the Presidency in the past six months. We had six formal ECOFIN Councils and one highly successful informal ECOFIN in Dublin. Much work was achieved in these Councils in terms of getting agreement on specific files and on managing the business of the Council. However, the Presidency is more than achieving agreement at ECOFIN - important as that is - it is also carried on in work in Council working parties, engagement with the European Parliament and engaging with the European institutions. There is also the practical organisational work which often occurs behind the scenes. Without all this work we would not have had such a successful Presidency.</p>
+          <p eId="para_202"> The aims of the Presidency for the ECOFIN Council were set out in our list of priorities published at the end of 2012. We set ourselves a number of objectives under the broad thematic heading of stability, jobs and growth. We achieved much of what we set out to achieve last January, and I consider that what we proposed to achieve at that stage was, by any standards, an ambitious package of objectives. Indeed, in financial services we have achieved significantly more than was planned. We planned to carry out work on economic governance – principally in the management of the European semester process and in seeking agreement on the two pack of economic surveillance measures for the eurozone. In financial services we prioritised work on the banking union proposals designed to break the link between the financial sector and the sovereign. We targeted agreement on the capital requirements directive, the single supervisory mechanism, and bank resolution and recovery.</p>
+          <p eId="para_203">We had the Council agree 2014 budget guidelines. On 19 February, my colleague, the Minister of State, Deputy Brian Hayes, presented to the European Parliament's Committee on Budgetary Control the Council's recommendation on the discharge to be given to the Commission for the implementation of the 2011 budget. </p>
+          <p eId="para_204"> One notable difference between this Presidency and previous Presidencies has been the significant role the European Parliament plays as co-legislator in many policy areas. Much work has been done at administrative and political level in negotiating with the Parliament on a wide range of policy areas. The Irish Presidency worked well with the Parliament in achieving the objectives of the Presidency and it is important that a level of engagement is maintained with the Parliament at political and official level. I also note the engagement between the Dáil and European Parliament, which is an important development. </p>
+          <p eId="para_205"> In running a Presidency, there is always the possibility that national interests may not receive the appropriate attention they deserve and we have worked hard with regard to this scenario. We have focused on national issues while at the same time concluding a successful Presidency. We have managed to focus on national interests where there is a European dimension. For example, we delivered a deal on the promissory note issue, secured the extension of maturities on EFSF and EFSM loans and kept open the possibility of retrospection in the framework for the ESM in terms of direct bank recapitalisations. This latter objective is important for Ireland. </p>
+          <p eId="para_206"> The Presidency also has an international dimension. I represented the European Union at the G20 and IMF-World Bank meetings. This allowed me to support progress on issues conducive to renewed growth at EU level and enabled me to promote confidence in Ireland among our international partners in the European recovery process. </p>
+          <p eId="para_207"> The theme of our Presidency was stability, jobs and growth. In our short six-month period, we consider that we have helped advance the European agenda to set the conditions for a more stable currency and a better financial system with greater credibility that can begin to lend to all businesses. In terms of improved economic governance, measures to be implemented at national level include the full implementation of country-specific recommendations from the European semester process for the relevant member states. This includes the pursuit of differentiated and growth-friendly consolidation, the restoration of normal lending to the economy and the promotion of competitiveness. </p>
+          <p eId="para_208"> While financial and economic stability is important and a precondition for growth, it is not sufficient to drive economic recovery. Europe needs to continue to address the legacy associated with the financial crisis and to be more forward-thinking and take action to drive a reinvigorated growth strategy. Given the limited availability of public financial resources and constraints on bank lending as a result of post-crisis deleveraging, it is now essential to explore how the financial system - markets, institutions and financial instruments - can be used to channel available savings towards the financing of infrastructure projects and enterprise, particularly small and medium enterprises. The recent European Commission Green Paper on Long Term Financing of the European Economy<i>
+						</i>is an important development as it proves that this is a key policy issue for Europe. Arising out of discussions at the informal ECOFIN in Dublin, a high level expert group on long-term finance and SMEs has been established. This expert group is co-chaired by Mr. John Moran, Secretary General of my Department, and will publish its report in the autumn. We have also been active in supporting changes to the role of the European Investment Bank in terms of its ability to expand its lending and promote growth across all member states. </p>
+          <p eId="para_209"> A successful Irish Presidency has been important in helping to restore and enhance our reputation in the European Union and across member states. It demonstrates that we are serious and capable of achieving change in many areas of European Union legislation and policy, which benefits all its citizens, not just those in Ireland. It also demonstrates that a small member state can impact and influence the European agenda, which is of great importance to Ireland.</p>
+          <p eId="para_210"> I hope we can build on a successful Presidency to increase our influence in Europe. Our influence on the European agenda has been achieved through the Presidency's facilitation of agreement in the Council and with the Parliament. No Presidency can impose solutions on either the Council or the Parliament. It cannot impose its own views on other member states or the European institutions. In the role of the Presidency, it is necessary to deal with conflicting interests and opinions and broker solutions with which all parties can live. We have a very good track record after six months in negotiating and seeking agreement. </p>
+          <p eId="para_211"> I thank all the officials in my Department for the contribution they have made to the success of the Presidency. This contribution is evident across policy and operational areas, all of which have contributed to its success. I also thank all those officials in the Irish Permanent Representation in Brussels who contributed significantly to the success of the past six months. I thank the Chairman and members for their attention.</p>
+        </speech>
+        <summary eId="sum_18">We also committed ourselves to make progress on the markets in financial investments directive and regulation known as MiFID and MiFIR, market abuse regulation, MAR, and the mortgage credit directive. We had a number of taxation priorities. We intended to agree the method for discussing the financial transaction tax so that those who wanted to participate could go forward with those discussions; work on proposals to prevent VAT fraud and avoidance; work on the Commission proposal on strengthening the fight against tax fraud and evasion; work towards agreement on the savings directive and the negotiating mandate with third countries.</summary>
+        <summary eId="sum_19"> As regards the EU annual budget, we planned to manage this process efficiently in terms of working on the annual budget for 2013 and the preparation of guidelines for the 2014 budget.</summary>
+        <summary eId="sum_20"> There is no doubt we have achieved a significant amount of progress on the financial services agenda. Banking union represents the first stage of Economic and Monetary Union and as such progress on building banking union was given the highest priority by the Irish Presidency. Stability in the Union’s banking system will promote trust, credibility and confidence both within the EU and beyond, and will contribute to a return to investment and growth and will promote trust and credibility. A complete banking union requires common supervision, deposit insurance and a common resolution framework, with an appropriate fiscal backstop. We made considerable progress in advancing that agenda.</summary>
+        <summary eId="sum_21"> Our first step was to reach agreement on the capital requirements package, which will improve the stability of the banking system by increasing the effectiveness of the regulation and the resilience of banks across the EU. This package is a vital part of the single European banking rulebook, a fundamental building block for EU banking union.</summary>
+        <summary eId="sum_22"> The next step was to reach agreement with the European Parliament on the setting up of a single European banking supervisor and the amendments to the European Banking Authority, EBA, regulation. Under this agreement the ECB, as common supervisor, will take over responsibility for all major or systemically important banks from national central banks from mid-2014. National central banks will continue to play an important role, but the ECB will have the ultimate responsibility for the system. The system provides for a differentiated approach to supervision depending on the size and significance of the banks. It provides for equal treatment for euro-area and non-euro area member states to allow banking union to be attractive to all 27 member states, thereby protecting the single market.</summary>
+        <summary eId="sum_23"> After we reached this agreement on common supervision we then focused all resources in this area on progressing the banking resolution and recovery directive. There were difficult discussions at the May meeting and at the recent ECOFIN on this file. We worked hard over two long meetings to get political agreement in the Council. I hope now that we can get agreement with the Parliament on this important file before the end of 2013. This agreement will effectively move us from<i> ad hoc</i> "bail-outs" to structured and clearly defined "bail-ins" as the rule. Therefore, in the event of future banking failures taxpayers will be protected.</summary>
+        <summary eId="sum_24"> These are all important measures but there is more work to be done on resolution mechanisms and on deposit guarantees. The agreement on bank resolution and recovery was a prerequisite to any agreement on deposit guarantee schemes between the Council and the European Parliament. I am hopeful that agreement can be now achieved as quickly as possible on deposit guarantees, in parallel to the banking resolution and recovery directive, BRRD, engagement with Parliament.</summary>
+        <summary eId="sum_25"> We must break the link between banks and sovereign and the Irish Presidency has prioritised and made significant strides on key files over the past six months that deliver on this objective to build a banking union.</summary>
+        <summary eId="sum_26"> During our Presidency we have also been mindful of other aspects of the financial services agenda. We achieved provisional political agreement on the Mortgage Credit Directive which will allow for rapid implementation of new rules benefiting mortgage holders and consumers across Europe. We hope this directive can be adopted at first reading in the coming months.</summary>
+        <summary eId="sum_27"> We have also reached a political agreement on the Transparency Directive which aims to enhance the information available about the issuers of securities on a regulated market. This directive will increase the attractiveness of regulated markets for small and medium-sized issuers.</summary>
+        <summary eId="sum_28"> We agreed a Council general approach on Markets in Financial Instruments Directive (MiFID) and Markets in Financial Instruments Regulation (MiFIR), which now opens the way for productive trilogue negotiations with the European Parliament on this very important file. This represented some achievement for the Irish Presidency, as polarised member state positions on key aspects of MiFID had characterised the debate under previous Presidencies. It was also important to achieve agreement on this file, given that it is a G20 commitment. </summary>
+        <summary eId="sum_29"> On the other market files, we reached agreement on Market Abuse Regulations (MAR) and agreement in Council on Packaged Retail Investment Products (PRIPS). We made significant progress in Council on the Central Securities Depositaries Regulation, and commenced discussions on the 4th Money Laundering Directive.</summary>
+        <summary eId="sum_30"> On the few occasions where it has not been possible to bring discussions to conclusion we have prepared them for hand over to the Lithuanian Presidency to finalise agreement. It is important that the Presidencies work together to maintain progress in the work of the Council. I know we have built on the work of our colleagues from Cyprus and I hope that Lithuania can benefit from our work.</summary>
+        <summary eId="sum_31"> The lessons learned from the recent economic, financial and sovereign debt crisis have led to successive reforms of the EU’s rules, introducing among other things new surveillance systems for budgetary and economic policies. These are essential if we are to maintain a functioning eurozone.</summary>
+        <summary eId="sum_32"> We have seen the introduction of better rules with headline deficit and debt limits, a stronger focus on debt, a fiscal pact for participating member states and greater flexibility in a crisis. There is now better enforcement of the rules and this is important. Thus member states are judged on how they can meet their medium term targets, the use of early warning systems and compliance with the terms of the Stability and Growth Pact. There is greater monitoring of economic policies under the European semester and the six pack procedures.</summary>
+        <summary eId="sum_33"> The achievement of the Presidency under the heading of economic governance was to get agreement on the two pack – this introduces budgetary coordination in the euro area and allows for economic surveillance to be stepped up for euro member states with high deficits or debts and those facing difficulties with regard to their financial stability. The two pack is in force since May.</summary>
+        <summary eId="sum_34"> The main change that we will all see in Ireland is the move of the budget to October. This is an important change in the way in which we manage our finances and the finances of the eurozone.</summary>
+        <summary eId="sum_35"> The European semester process is critical to ensure member states discuss their budgetary and economic plans with EU partners at specific times during the year. During our Presidency, we helped put in place a road map last December to make the process operate more smoothly. Positive feedback from ECOFIN colleagues following the conclusion of the 2013 semester indicates that we have achieved a successful outcome in terms of the economic governance of the Union.</summary>
+        <summary eId="sum_36"> At the January ECOFIN Council we achieved agreement which will allow those member states who wish to proceed to the next stage of introducing the financial transaction tax to so do under the enhanced co-operation procedure. This was the first tax proposal to be dealt with under the enhanced co-operation procedure. As Presidency we have facilitated discussions and ensured that anyone who wished to participate in the discussion could be heard, irrespective of whether the member state was participating in the financial transaction tax.</summary>
+        <summary eId="sum_37"> We have achieved more in taxation than we may have reasonably expected to. The Presidency has been active in promoting anti-fraud and anti-evasion measures in the ECOFIN Council. On 24 April, the Commissioner for Taxation Algirdas Šemeta and I wrote to all EU Finance Ministers about the fight against fraud and tax evasion setting out a series of measures to facilitate the automatic exchange of information between jurisdictions that could be adopted by the Council.</summary>
+        <summary eId="sum_38"> There has been agreement on the mandate to allow the Commission to commence negotiations with third countries on updating savings taxation agreements. We achieved agreement on Council conclusions to prevent tax evasion and fraud and at the June ECOFIN meeting we achieved agreement on the VAT quick reaction mechanism, or QRM, and the reverse charge mechanism, RCM which together underpinned a comprehensive VAT anti-fraud package proposed by the Irish Presidency. We have worked also to get agreement on the 2013 budget. </summary>
+        <summary eId="sum_39"> We secured a very substantial amending budget for the European Union, which is unprecedented this early in the annual budgetary cycle. This was a key element in the overall delivery of a political agreement on the multi-annual financial framework between Council and Parliament.</summary>
+        <speech by="#CiaranLynch" eId="spk_88">
+          <from> Chairman<recordedTime time="2013-07-03T16:20:00+01:00"/></from>
+          <p eId="para_212">I understand Deputy Donnelly must be in the Chamber at 4.30 p.m. With the agreement of other members, we will allow the Deputy to contribute first before resuming with the normal running order.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_89">
+          <from>Deputy Stephen S. Donnelly<recordedTime time="2013-07-03T16:20:00+01:00"/></from>
+          <p eId="para_213">I thank the Chairman and Deputy Michael McGrath for allowing me to speak first.</p>
+          <p eId="para_214"> As a member of the Opposition, I am either detached or semi-detached from the Irish Presidency, but it appears the Minister and his officials did an excellent job during the Presidency, even if one or two things did not go exactly as they may have hoped. The Minister, in particular, has been operating in a highly constrained environment in ECOFIN given the domestic politics at play in Germany, where a general election is imminent. I heard repeatedly from officials in Brussels that the Minister and his officials did a great job. Those with whom I spoke were very impressed with the Irish team at a political and an official level. I wish to acknowledge this publicly.</p>
+          <p eId="para_215"> On the bank resolution mechanism, the technical note from the European Union is dense and complicated. I ask the Minister to request that his officials prepare for the joint committee a note explaining exactly how a resolution would proceed. Phase one involves a bail-in of 8%, phase two involves a 5% bail-in, and so forth. It would be useful if the Department provided one or two worked examples of a theoretical bank entering a resolution process, as it would help us to understand this complicated mechanism.</p>
+          <p eId="para_216"> Before the most recent ECOFIN meeting, I understand the Minister's position was that he would seek to have small depositors take precedence over senior bondholders. I agree with that position, although the Minister will have to forgive me if I understood his position incorrectly. I was not able to figure out from the technical note whether this objective was achieved. Was it achieved, or will normal depositors and senior bondholders continue to be placed on an equal legal footing?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_90" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:20:00+01:00"/></from>
+          <p eId="para_217">I thank Deputy Donnelly for the good wishes and congratulations he extended to me and my officials, who are well worthy of the congratulations they received both here and in Brussels.</p>
+          <p eId="para_218"> The bank resolution mechanism is complex because it is a new concept and new terms are being used. I will ask my officials to provide the Deputy with a user-friendly paper which breaks down the various ideas. I will try to simplify the process and perhaps it should be considered in the following manner. The Deputy will remember the concept of an institution being "too big to fail". The reason this concept was in the public consciousness, especially in the United States, was that a bank was considered to be too big to fail when its failure would bring down the sovereign. The opening position is that banks may no longer be too big to fail, which means not every bank that goes bust must be resolved. Instead of calling on taxpayers to bail out banks, the assets of the impaired bank will be used as a bail-in mechanism to liquify the assets to repair the hole in the bank in question. That is the general principle. </p>
+          <p eId="para_219"> In proceeding with a bail-in mechanism, the assets covered by the bail-in are placed in a hierarchy, starting with the equity, followed by junior bondholders and, thereafter, senior bondholders. A guarantee will apply to deposits of up to €100,000, which will be sacrosanct and, therefore, exempt from the bail-in, and preference will be given to other depositors.</p>
+          <p eId="para_220">To distinguish between exemption and preference, up to €100,000 is guaranteed and exempt and preference would apply to individuals with deposits over €100,000 which would have preference, for example, over corporate deposits. The idea is that preference would be given to what, in law, is called "natural persons" with deposits over €100,000, that preference would also be given to SMEs with money on deposit and that the first line of deposits would be the corporate deposits of large corporations with large holdings. That is the way it runs on the deposit side.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_91">
+          <from>Deputy Stephen S. Donnelly<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_221">Will SMEs and normal depositors with amounts over €100,000 have preference over senior bondholders or will they still rank the same as senior bondholders?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_92" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_222">They will. The legal link and the <i>pari passu</i> link between senior bondholders and depositors has been broken and all deposits will move to a lower level in the hierarchy of bail-in assets, as we discussed previously, but within that hierarchy the position has been nuanced and refined more and a differentiation has been made between natural persons with big deposits, over €100,000, and SMEs as against corporations. We can get the paper that has been requested.</p>
+          <p eId="para_223"> In regard to the figures of 8%, 5% and so on, if a bank is bust and needs a rescue and cannot manage without help, there is a resolution authority which organises the bail-in. If the level of impairment is 8% of its balance sheet, all of the rescue will be by bail-in. If the level of impairment exceeds 8% of its balance sheet, it will move to the next phase, the next 5% of its balance sheet; an amount equivalent to the next 5% of its balance sheet can be accessed elsewhere - a resolution fund the sovereign might have or the ESM. In a very bad situation such as in the case of AIB, where the level of impairment exceeds 8%, plus 10%, and<b>
+						</b>there is still a level of impairment beyond 13% of its balance sheet, it again goes back to a bail-in and the resolution authority might return to the senior bondholders for an additional haircut or the ESM could be directly accessed at that point. In the first phase, in the case of the figure of 5%, there would be indirect involvement by the ESM because the sovereign would have to apply. However, for the tranche beyond the figure of 13%, if such a case arises <i>in extremis</i>, the application could be made by the institution directly to the ESM if it required recapitalisation. That is the general position. I am explaining it very simply, but we will get a paper for the Deputy which is not quite as simple but not as complex as a technical paper.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_93">
+          <from>Deputy Stephen S. Donnelly<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_224">Perhaps with a worked out example to show how it works</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_94" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_225">The Deputy can work the examples. I again thank him for his complimentary remarks.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_95">
+          <from> Chairman<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_226">I thank Deputy Stephen S. Donnelly. Mindful of the fact that the Minister needs to leave by 5.10 p.m., I propose that the first round of questions involving the main Opposition parties be ten minutes. I can come back to members later if the need arises.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_96">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_227">I, too, compliment the Minister; the Minister of State, Deputy Brian Hayes, and their officials on their work at ECOFIN. I am aware that it has required much personal commitment in the past six months and in the period leading up to the start of the Presidency. I acknowledge all of the hard work done and the progress made on a number of important fronts.</p>
+          <p eId="para_228"> Deputy Stephen S. Donnelly raised the point on which I was about to start concerning the common resolution framework which the Minister has explained. In respect of deposits above €100,000, the Minister has explained that there are layers beyond this amount. Will he clarify the relationship between the different layers of deposits over €100,000 and senior bondholders? Is it the case that the senior bondholders would take a hit first in all cases and only after this has been exhausted that any depositor would be involved in burden sharing? An explanation would be helpful in that regard. Will the Minister clarify if senior bondholders would take the hit first before any deposit over €100,000 would be affected?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_97" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_229">The hierarchy is equity, subordinate bondholders and senior bondholders. If one has to go further for additional assets, one goes to the depositors, for whom €100,000 is guaranteed. On the same line preference is given to larger deposits of natural persons and SMEs. What is part of the bail-in at that point is corporate deposits.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_98">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_230">That is fine. Will senior bondholders take the hit first?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_99" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_231">Yes.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_100">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_232">That is an important development and to be welcomed. I compliment the Minister on getting it in place. I understand it will be 2018 before the bail-in procedures are fully applied. Will they apply in the case of banks that fail and also banks that require capital if there is a capital adequacy issue?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_101" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_233">Both. Often in the European Union, once a mechanism is put in place, it can be used informally. If bail-in becomes the new rule, it will be very hard for a Government to go back to a set of taxpayers and say it wants their money to bail out an institute. I do not think countries will have the legal arrangements in place and everything will be done until about 2016. There will be a gap between 2016 and 2018.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_102">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_234">Will it require the introduction of domestic legislation in every country?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_103" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_235">We have our own resolution legislation, but, yes, there will be domestic legislation also. It will be transposed from the EU directive.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_104">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_236">That is fine. It clarifies also the potential role of the ESM, depending on the scale of the issue within a bank, whether it is beyond the threshold figure of 8%.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_105" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_237">It builds in to the directive the manner in which the ESM can be accessed. One must think of the European Union. There are 18 countries in the eurozone. The countries that are not in it have banking systems that lend and borrow in the eurozone and right across the European Union. There are banks that work only in their own sovereign area, banks that work in the eurozone and banks that work in the eurozone and the countries outside it. A common set of rules is needed for the 27 member states and it has to work across all of them. Given that some are not using the currency, they have their own mechanisms for resolving bank issues. They had large resolution funds, for example, in Sweden. We had to vote on the issue of flexibility to allow for countries such as Sweden and the United Kingdom to ensure a harmonised system for the 27 member states and also an element of flexibility that would apply to all but where the original demand came from those that were out rather than in.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_106">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_238">Perhaps I can move to the single European banking supervisor. I listened carefully to the Minister's comments when he said it would relate to all major or systematically important banks and that there would be differentiation, depending on the size and significance of the banks involved. Will he translate for us what it will mean in Ireland's case in respect of the direct regulation of the pillar banks, for example, Permanent TSB, and other institutions? Will they all be categorised as being systemically important and falling under ECB regulation when it is fully up and running?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_107" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_239">There will be a common rule book and common protocols which, in the first instance, will be directed from Frankfurt. There will be a common set of rules and protocols which, in terms of regulation, will apply to all banks. Some banks will be regulated by the domestic regulator, while others will be regulated directly by the European regulator. If I recall it correctly - I will check with my officials - every country must have a minimum of three major banks under direct regulation. In the case of Ireland, that means the main banks will be directly regulated.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_108">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_240">Under the regulations.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_109" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:30:00+01:00"/></from>
+          <p eId="para_241">In a country such as Germany obviously there will be a minimum of three big international banks, but it will go beyond this.</p>
+          <p eId="para_242">A domestic regulator will do the work locally in the German lender, but those banks will be subject to the same or common rule book that applies to everybody.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_110">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_243">Will certain functions be delegated to the domestic central bank, such as site visits, inspections and that kind of work?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_111" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_244">All functions not within category 1 will be delegated to the domestic regulatory authorities, but they will have to regulate by the same set of rules and protocols. Also, a fail-safe mechanism provides that if the authorities in Frankfurt are worried at any point about a particular bank, they can override the domestic regulator and come in and take direct control of the regulation.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_112">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_245">Here, the pillar banks will be in category 1. Therefore, all direct contact between those banks and their regulator will be with the ECB directly. Is that the thrust of it?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_113" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_246">The three main banks in all countries will be directly supervised, but the ECB will obviously build a relationship with local banks also. How it will recruit and where it will establish the regulatory personnel are not clear. We do not know whether people will fly in from Frankfurt or whether a cohort of people will be housed in our Central Bank. I am not sure how the logistics will work, but I am providing the legal theory of what will happen.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_114">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_247">What are the consequences of this for our Central Bank? Clearly, it will still have a role in regard to non-category 1 regulated entities. What are the implications in terms of the resources that will be needed? Staff currently involved in regulating the pillar banks will no longer be doing that for the Central Bank. Is there a strategy involved?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_115" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_248">The authorities in Frankfurt can supervise through the local central banks, but the authorities will have the legal mandate and will direct how it should be done. They have the freedom to use local personnel when doing local regulatory work. However, the local personnel will not be the regulator.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_116">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_249">They may do the work as an agent of the ECB.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_117" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_250">Yes.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_118">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_251">The Minister mentioned in his contribution that he hopes the deposit guarantee scheme will be agreed at European level. What changes are proposed in that regard? Does this mean, for example, that the €100,000 figure guaranteed here will be the standard across Europe? Will it be a standard figure and will the agreement have an impact on the deposit protection account the Central Bank currently holds? What are the key changes proposed for a common deposit insurance scheme?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_119" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_252">From the depositor point of view, we hope there will be no changes, because the €100,000 would be sacrosanct. It is sacrosanct here already, so this would mean no change. What would be organised in Europe is how this will be underpinned financially. We are talking about the size of the European fund underpinning the guarantee and the level of contribution from the financial institutions. The idea is that it would be financed by the industry. However, the mechanics of that have not yet been worked out. The next paper to come forward will deal with the mechanics of the fund underpinning the guarantee and how it will work and whether there will be some element of insurance in it or whether it will be a large fund contributed to by the industry. If there is a loss in a particular institution, it will have to be made good in full out of the fund for depositors with up to €100,000.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_120">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_253">Currently, there is more than €300 million in the deposit protection account with the Central Bank. If the banking system collapsed tomorrow morning, that would not go anywhere near meeting the requirements of the insured deposits of up to €100,000. Will there be an insurance element which will involve third parties?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_121" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_254">The detail has not been worked out yet. We have dealt with the CRD IV, which concerns the capital requirements and the matter of bankers' bonuses, which is attached to that. All of the work regarding supervision is now completed and we have the detail of that. The resolution directive is completed and we have the detail on that. Then, in principle, there is an agreement that there will be a fund underpinning the guarantee on deposits, either to replace or to add to domestic funds. The full logistics of that have yet to be worked out. The bottom line currently is that the €300 million in the Central Bank is underpinned by a State guarantee. Therefore, the guarantee is not limited to the amount that is in the fund. As I understand, that will be transferred to European level. We will have a banking union regulated centrally and separate from the sovereign bank. Therefore, the underpinning of deposits will be separate from the sovereign banks also.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_122">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_255">At present, that liability would run into tens of billions of euro. My final question relates to the budget process here. The Minister referred to the changes brought about by the two-pack agreement in Europe and our budget has been brought forward to 15 October. What is the role of the European authorities in regard to that budget? For example, is the Minister required to submit a draft of the budget to the European Commission in advance of our budget? What are the two-pack requirements which must be met in the lead-up to the delivery of the budget in the House in October?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_123" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_256">The draft is required in mid-October. I will explain the terminology in a moment. If we stuck to our traditional date, we would have to bring much of the detail of the budget out in draft form in October and then enact it. Therefore, it is much easier from our point of view to bring the budget forward to October. What Europe means by a draft is what we would normally do in December. It does not regard the full budgetary process as complete until the Finance Bill is enacted at the end of March. Therefore, its idea of a draft is not I would call a draft. The draft is the budget as presented on budget day. Then enactment completes the process. We will bring what Europe calls the draft forward from approximately 7 December to 15 October. We will then have some consultation with Europe and we will supply it with the budget. We will try to introduce the Finance Bill in the same calendar year. For those who are planning an autumn break on the snow slopes, they should expect the Finance Bill sometime between the budget and Christmas.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_124">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_257">Thank you.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_125">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_258">I am not sure whether too many people will be able to afford an autumn break. Hopefully, that was a hint that the Minister is going to ease up on austerity.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_126" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_259">You have to celebrate your second All-Ireland win.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_127">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_260">True. That takes me back to the time the Minister said I was like the Donegal team, all defenders. Look what we did a year later, so just watch out.</p>
+          <p eId="para_261"> Some of the questions I want to raise have been touched on already. In regard to the supervision of the major and systemically important banks, the Minister mentioned there is a minimum requirement of three in each member state. For clarity, which three banks here will be supervised and regulated by the ECB, and will it be only three? Three is a minimum requirement, but I presume it can go beyond that.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_128" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_262">The criteria have yet to be established, but it seems evident that AIB and Bank of Ireland will be the two. There could be a number of bids on the table in regard to the third. In regard to Ulster Bank, for example, the Bank of England is its regulator.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_129">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_263">We regulate Ulster Bank in regard to its operations here. It has over 1 million customers here. Is it a minimum of three banks?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_130" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_264">It is a minimum of three for each member state.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_131">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_265">Is it for the Minister for Finance to determine which the third bank will be or whether there should be a fourth?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_132" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_266">The relationship will principally be between the Central Bank and Frankfurt.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_133">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_267">There is no clarification on the third bank here, but there will be a third one.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_134" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_268">The ECB will set down the criteria.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_135">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:40:00+01:00"/></from>
+          <p eId="para_269">Okay, and it will base its choice on whether the banks selected are major banks or systemically important to the Irish economy. The Minister mentioned the bail-in and Deputy Donnelly also touched on that. Will the Minister tell us what effect the bail-in will have on pillar banks in which we have a shareholding - for example, AIB, which we nearly own completely, or Bank of Ireland? How will the bail-in affect our shareholdings, which are currently valued at approximately €8 billion or €9 billion?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_136" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_270">Our resolution has effectively been completed, and our banks are well capitalised. We do not envisage a bail-in coming on top of a bailout. We had a bailout and that is why we have the shares in the banks. This is for future cases when the policy has moved from bailouts, to which we all objected for a long time, to a bail-in system. Many people talked about burning bondholders during the election, and that is effectively what is happening now. The policy positions that the Deputy's party and my party and the Labour Party were advocating in opposition are the policies that are now in the resolution.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_137">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_271">I noted the Minister's speech today about the lessons that have been learned, and I welcome the fact that the burning of bondholders is now accepted as the norm in the future. We are not suggesting at this point that the banks may need more capital, because we do not have the evidence, but there are stress tests and the troika are even insisting that we test this before they bid us farewell. I take the Minister's point that his view is that the banks are well capitalised, but if it transpired that one of the banks needed additional capital under the bail-in rules, would it be our shareholdings that would take the first hit?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_138" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_272">If one of our banks needed additional capital, the first option would be to raise it on the markets. That would be the obvious option to take. After that, an application to the ESM would be the next option. It is hypothetical.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_139">
+          <from> Chairman<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_273">There are four of us and we can compare with one another and then conclude the session, if that is agreeable.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_140">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_274">I am happy with that. There is a bail-in procedure here. My understanding is that we could not go to the ESM without applying the bail-in procedure. Is it not the case that in a bail-in procedure, the first to take the hit are the shareholders, followed by junior bondholders?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_141" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_275">The Deputy is mixing up two questions. He is talking about a bail-in for one of the Irish banks and then talking about one of the Irish banks requiring extra capital. I am answering the second part of his question. If an Irish bank requires extra capital, the first recourse would be to the markets and the second recourse would be to the ESM. One would not regard it as an insolvent bank, but a bank that needed additional capital in the estimate of the ECB. Having rescued the banks and with constant monitoring from the Central Bank of Ireland, the Regulator and the ECB, I do not envisage a bail-in situation arising. An extra capital situation might arise.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_142">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_276">Is the Minister saying that in respect of the ESM direct bank recapitalisation instrument, we would not have to follow the bail-in procedure before we were able to get access to funding from the ESM?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_143" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_277">What I am saying is that one must distinguish between resolution and recapitalisation. While there may be a hypothetical requirement for recapitalisation of Irish banks, especially when we move towards the end of the decade and the Basel III rules come in, I do not envisage any situation in which a resolution issue would arise again with the Irish banks.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_144">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_278">I am not envisaging a resolution issue either, but a recapitalisation issue. Under this instrument, the first people to take a hit before we could even get access to the ESM would be the shareholders. Is that not correct? Am I reading this wrong?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_145" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_279">No, that is for resolution. That is the sequence for resolution. As the bank gets resolved, its capital would have to be built up as well. One could have a bank needing capital - quite clearly, many of them will need capital, and this will be apparent next year - without any threat of resolution. They will just need additional capital. It has happened before. A bank would be given 18 months or two years to come up with a plan to put capital in place. Some would go to the market, which would be the obvious way to do it. The shareholder would come in; the bank would do an issuance and would try to collect extra capital from its shareholders, who would buy extra shares.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_146">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_280">Just to be clear, if one of our banks required additional capital after stress tests were carried out next year, and it could not raise it in the international markets, it would have access to the ESM and this bail-in procedure would not apply.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_147" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_281">The Deputy is talking us into a situation. He is making it sound as if the Irish banks will need capital next year. They do not.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_148">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_282">I just-----</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_149" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_283">The trouble is that when one keeps repeating a hypothesis, it suddenly becomes a reality. There is no evidence whatsoever that any of the Irish banks will need additional capital next year. What is certain is that there will be stress testing next year, but the Irish banks are very well capitalised. I have no evidence at present that they require any additional capital.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_150">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_284">I have no evidence at this stage either, but I just want to know if I am hearing this correctly. If the banks needed additional capital, would they able to go to the ESM for that capital, and is it the case that the bail-in procedures would not apply?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_151" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_285">The Deputy is again mixing up resolution and recapitalisation. I outlined the resolution mechanism, and he has transferred that to recapitalisation, which is a different concept.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_152">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_286">I asked earlier if all of this applied to both failing banks and banks needing capital, and the Minister said that it did.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_153" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_287">What I intended to say was that at a certain point in the process, when the bank is resolved, the issue would arise as to how much capital it has and how much capital it would require. We then work on that basis.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_154">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_288">The Minister can clarify this. It may not happen and it hopefully will not happen, but if it did happen, could we get access to the ESM? We were sold this so strongly. There was no reluctance on the part of the Minister during the Lisbon treaty referendum to tell us that we had that lifeline in the ESM. If a bank needs further capital - I am not mixing this up - sometime next year, do we have access to the ESM before we apply for a bail-in, or do we have to apply the bail-in procedure first?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_155" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_289">When the ESM is fully in place, part of its mandate is to provide capital to banks that require capital.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_156">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_290">Before or after we apply a bail-in?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_157" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_291">The Deputy has gone across the line again.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_158">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_292">Jesus Christ, Minister - just answer the question.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_159" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_293">The Deputy is mixing up recapitalisation and resolution. He is trying to construct a theory on a false premise. I have done my best to explain it to him.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_160">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_294">The answer is a very simple "Yes" or "No".</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_161" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_295">No, it is not. There are very few questions that can be answered with "Yes" or "No", and bank resolution questions certainly cannot be answered like that when the question is being put by the Deputy.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_162">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_296">Can a bank get capital through the ESM without the requirement for a bail-in, if it cannot raise money on the international markets and needs capital? I am wasting my time on this simple question.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_163" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_297">It may apply.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_164">
+          <from>Deputy Michael McGrath<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_298">Bail-in rules will not be there for five years anyway.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_165">
+          <from>Deputy Pearse Doherty<recordedTime time="2013-07-03T16:50:00+01:00"/></from>
+          <p eId="para_299">It is one year last week since the major game changer, or the seismic shift, as it was called at the time. The Minister presided over five ECOFIN meetings during the Presidency. There is one important line at the end of the five-page statement on potential retroactive application of the instrument. It has to be by mutual agreement and it must be on a case-by-case basis. We know that this procedure will not come into effect for a few years. Does retroactive application date from the time we bailed out our banks in the past, or is it from the agreement today? In other words, if this procedure is not available, the ESM is not up and running. If a bank runs into trouble, then a retroactive application can apply because the principle has not been agreed. When does the date of retroactivity begin? Does it definitely apply to us? Is there an understanding behind this text that retroactive applications include the dates on which this State recapitalised our banks?</p>
+          <p eId="para_300"> The Minister will understand my frustration one year on that we are still in a situation where not one penny of the money we have injected into the banks has been returned. Indeed, we have crystalised some of it with the sovereign bond with Anglo Irish Bank in terms of the capital, although I acknowledge the short-term benefits in terms of the interest. What is going on behind the scenes? Can the Minister shed any light in respect of the potential of this line? Is there more understanding at ECOFIN, the Eurogroup and ECB level of what this means for Ireland? Is it still on the cards to try to get perhaps not the existing value of the shareholdings in the bank, but the historic value of the shareholdings, or are we basically moving on to try to sell these shares on the international markets? We know that the chief executive of Allied Irish Banks has been setting up several meetings with potential bidders in the United States.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_166" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T17:00:00+01:00"/></from>
+          <p eId="para_301">The seismic shift that Deputy Doherty referred to with a sarcastic tone has actually occurred, because the seismic shift was to break the vicious circle between the banks and the sovereigns. That was the seismic shift, as was the substituting of bailouts with bail-ins. We are bringing the resolution arrangements forward now, in consultation with the European Parliament. Eventually, they will be turned into a directive and have the force of law throughout the community. That is the seismic shift. The banking union will be like the banking union in the United States whereby the taxpayer will not be involved in bailouts. Instead, the assets of the banks will be used for bail-ins.</p>
+          <p eId="para_302"> Deputy Doherty raised the retroactive question. It is retroactive from the time the ESM is in place and the detailed operational elements that are not settled yet will be settled. There is no commencement date. It is back before that time but there is no base date that prevents us from going back. I am working on the assumption that it applies to the Irish banks and it is on a case-by-case basis.</p>
+          <p eId="para_303"> The Irish EU Presidency drove this and the Irish Minister for Finance ensured that this is in the regulations. Everyone knows the intention. How it will work in practice? I am approaching it like I approached the promissory note negotiations. I am opening up a new negotiation and it will be long and slow. We will move carefully to get the best result for Irish taxpayers. Working on a case-by-case basis suits us. The committee will recall the statements made by Chancellor Angela Merkel and President Hollande stressing the uniqueness of the Irish case, Ireland being a special case and so on. That is why we work on a case-by-case basis.</p>
+          <p eId="para_304"> If I was to promulgate a negotiation that applied equally to Greece, Portugal and Spain as well as Ireland, we would not get beyond first base. The only way was to position this as a unique solution for Ireland because we were not allowed to bail-in the bondholders. The European Central Bank prevented us from doing that. According to the bank, it would have had a contagion effect in Europe. If we participated in preventing the contagion from spreading to the European banking system, then we have a case on which to build. Anyway, all these things are slow and must be carefully built. We will see how we go, but we are in the game all the time.</p>
+        </speech>
+        <speech by="#DaraMurphy" eId="spk_167">
+          <from>Deputy Dara Murphy<recordedTime time="2013-07-03T17:00:00+01:00"/></from>
+          <p eId="para_305">I congratulate the Minister on his work during the Irish Presidency. I am fascinated with the Minister's concept that we will pay ourselves and, therefore, I will be brief. My question relates to the tier 1 status and the top three countries which have access to the ESM. Will that be pan-European? Will Ulster Bank, ACC Bank and Rabobank, all of which have depositors in Ireland, be covered under the national country rules? Will the depositors of the Ulster Bank parent company in the United Kingdom have the same rules applied as the Ulster Bank depositors here?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_168" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T17:00:00+01:00"/></from>
+          <p eId="para_306">Yes, the same rules will apply throughout Europe when the rules are put in place. At present, Ulster Bank is a subsidiary of a bank that is regulated by the Bank of England. However, when we have a banking union the guarantees will be there and there will be a fund to guarantee them. We are unsure yet about how that will relate to the individual sovereign funds.</p>
+        </speech>
+        <speech by="#DaraMurphy" eId="spk_169">
+          <from>Deputy Dara Murphy<recordedTime time="2013-07-03T17:00:00+01:00"/></from>
+          <p eId="para_307">Is there any fear that there may be a competitive pressure on smaller banks, in other words, that there might be a flight of capital to the tier 1 banks generally and that this could be anti-competitive for smaller banks? Will people take the view that deposits will be safer in the bigger protected banks?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_170" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T17:00:00+01:00"/></from>
+          <p eId="para_308">We have the same banking system throughout Europe and it is controlled and protected by the European Central Bank. The only difference that can arise is on the cost bases of the banks, because the interest rates are fixed at European level. It is up to the banks in the individual countries to fix their cost bases. We hope for a common banking system whereby the price of money throughout the Union would be the same, or within acceptable margins, rather than the position now whereby one can get ten-year German money for 1.50% or 1.60% while ten-year Portuguese money was 8% last night.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_171">
+          <from> Chairman<recordedTime time="2013-07-03T17:00:00+01:00"/></from>
+          <p eId="para_309">I will bring the meeting to a conclusion. I wish to add my own congratulations to the Minister. I commend you, Minister, and your officials on what was a very taxing six months - excuse the pun - for you and the Department. Well done on stepping up to the plate. You have shown once again that Ireland can be a leader and most effective during the term of the EU Presidency. I thank you and your officials for coming before the committee this afternoon.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_172">
+          <from>Deputy Paschal Donohoe<recordedTime time="2013-07-03T17:00:00+01:00"/></from>
+          <p eId="para_310">I want to come in for a moment.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_173">
+          <from> Chairman<recordedTime time="2013-07-03T17:00:00+01:00"/></from>
+          <p eId="para_311">It will only be a moment. You have two minutes. I am finishing at 5.10. p.m. If you want the Minister to respond, you must give him time to respond.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_174">
+          <from>Deputy Paschal Donohoe<recordedTime time="2013-07-03T17:00:00+01:00"/></from>
+          <p eId="para_312">I have two questions for the Minister. One is broad and the other is specific.</p>
+          <p eId="para_313"> Across the early phases of the banking union that the Minister has described, is it not likely that we could face the risk of real fragmentation within the European banking system? Let us consider what has occurred in the sovereign debt markets. For a while, the financial markets lent to countries as if no country could go bust. Ireland and Germany got money at the same rate as Greece. However, we are now going to be in a position whereby explicitly there will be a risk that banks can go bust and we will have a way of dealing with it. Financial markets will lend to banks pricing in that risk and one bank will lend to another bank pricing in that risk. Will we not face real pressure on the banking system during that period?</p>
+          <p eId="para_314"> My second question is specific. A constituent who heard about the proposal on the radio put it to me that his family has all its money in a single joint bank account. It amounts to a little over €100,000. If a bank was to go under, then, in the context of a joint or family bank account, what is the bail-in risk that a joint account would face, as opposed to the account of an individual?</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_175" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T17:00:00+01:00"/></from>
+          <p eId="para_315">I will address the fragmentation risk first. The European banking system is rather fragmented at present. I have just remarked on the different price of money in the different jurisdictions as represented by ten-year bond prices, for example, and that shows the level of fragmentation. We are trying to create a banking union with one set of supervision rules, resolution rules and deposit guarantee rules such that we remove the fragmentation. The process will be towards a unitary banking system rather like the United States. There will still be some variation depending on the cost bases of the banks. Of course people will price in risk when they are dealing with banks and the banks will price in risk when they are dealing with customers, but that is normal banking. I am suggesting that as it develops, as the European authorities insist that banks are absolutely adequately capitalised and as they carry out stress tests to measure the level of capitalisation - they will carry out stress tests again next year universally throughout Europe - the fragmentation will be taken out and, therefore, one of the primary purposes of the banking union will be achieved.</p>
+          <p eId="para_316"> In respect of the level of guarantees, the domestic situation is that deposits up to €100,000 are guaranteed in the one bank. If the Deputy has any doubts and is advising a constituent, he should tell them that if their money is not with Bank of Ireland, they are entitled to be guaranteed for another €100,000 in AIB. This does not happen branch by branch. There is no point in swapping into a second Bank of Ireland branch. One needs to go to the other institution. That might be a practical solution for that.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_176">
+          <from>Deputy Paschal Donohoe<recordedTime time="2013-07-03T17:10:00+01:00"/></from>
+          <p eId="para_317">I have already given them that advice but I can go back and tell them that it has been endorsed by the Minister for Finance.</p>
+        </speech>
+        <speech by="#MichaelNoonan" eId="spk_177" as="#Minister_for_Finance">
+          <from>Deputy Michael Noonan<recordedTime time="2013-07-03T17:10:00+01:00"/></from>
+          <p eId="para_318">The Deputy can say he has a friend who told him this might be a good idea.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_178">
+          <from> Chairman<recordedTime time="2013-07-03T17:10:00+01:00"/></from>
+          <p eId="para_319">On that note, I think Deputy Donohoe is advised to spread his money over four or five institutions this afternoon.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_179">
+          <from>Deputy Paschal Donohoe<recordedTime time="2013-07-03T17:10:00+01:00"/></from>
+          <p eId="para_320">I should make it clear that I do not have enough myself to get to that point. A single bank does me nicely.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_180">
+          <from> Chairman<recordedTime time="2013-07-03T17:10:00+01:00"/></from>
+          <p eId="para_321">The guarantee more than covers him, like myself</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_181">
+          <from>Deputy Paschal Donohoe<recordedTime time="2013-07-03T17:10:00+01:00"/></from>
+          <p eId="para_322">Absolutely.</p>
+        </speech>
+        <speech by="#DaraMurphy" eId="spk_182">
+          <from>Deputy Dara Murphy<recordedTime time="2013-07-03T17:10:00+01:00"/></from>
+          <p eId="para_323">All their friends have €100,000.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_183">
+          <from>Deputy Paschal Donohoe<recordedTime time="2013-07-03T17:10:00+01:00"/></from>
+          <p eId="para_324">A single constituent came to me.</p>
+        </speech>
+        <speech by="#CiaranLynch" eId="spk_184">
+          <from> Chairman<recordedTime time="2013-07-03T17:10:00+01:00"/></from>
+          <p eId="para_325">I thank the Minister and his officials for briefing us this afternoon. I understand there are a number of Council meetings in the next session when we resume and I look forward to seeing the Minister then. I do not believe there is any other business so I propose that the meeting be adjourned<i> sine die</i>. Is that agreed? Agreed.</p>
+          <p eId="para_326"> The joint committee adjourned at 5.10 p.m. until 2 p.m. on Wednesday, 10 July 2013.</p>
+        </speech>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

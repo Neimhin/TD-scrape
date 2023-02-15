@@ -1,0 +1,932 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2005-10-05/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2005-10-05/debate"/>
+          <FRBRdate date="2005-10-05" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/joint_committee_on_european_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2005-10-05/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2005-10-05/debate/mul@"/>
+          <FRBRdate date="2005-10-05" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2005-10-05/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2005-10-05/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference showAs="Vol. None" href="ie/oireachtas/debateRecord/vol/None" eId="#vol_None"/>
+          <oir:numberReference showAs="No. 137" href="ie/oireachtas/debateRecord/vol/None/no/137" eId="#no_137"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="BarryAndrewsFF" href="/ie/oireachtas/member/id/Barry-Andrews.D.2002-06-06" showAs="Barry Andrews"/>
+        <TLCPerson eId="BernardAllen" href="/ie/oireachtas/member/id/Bernard-Allen.D.1981-06-30" showAs="Bernard Allen"/>
+        <TLCPerson eId="DanWallace" href="/ie/oireachtas/member/id/Dan-Wallace.D.1982-12-14" showAs="Dan Wallace"/>
+        <TLCPerson eId="DonLydon" href="/ie/oireachtas/member/id/Don-Lydon.S.1987-04-25" showAs="Don Lydon"/>
+        <TLCPerson eId="JohnDardis" href="/ie/oireachtas/member/id/John-Dardis.S.1989-10-01" showAs="John Dardis"/>
+        <TLCPerson eId="JohnDeasyFG" href="/ie/oireachtas/member/id/John-Deasy.D.2002-06-06" showAs="John Deasy"/>
+        <TLCPerson eId="MaeSextonPD" href="/ie/oireachtas/member/id/Mae-Sexton.D.2002-06-06" showAs="Mae Sexton"/>
+        <TLCPerson eId="MaryCoughlan" href="/ie/oireachtas/member/id/Mary-Coughlan.D.1987-03-10" showAs="Mary Coughlan"/>
+        <TLCPerson eId="MaryHenry" href="/ie/oireachtas/member/id/Mary-EF-Henry.S.1993-02-17" showAs="Mary E.F. Henry"/>
+        <TLCPerson eId="PaudgeConnolly" href="/ie/oireachtas/member/id/Paudge-Connolly.D.2002-06-06" showAs="Paudge Connolly"/>
+        <TLCPerson eId="RuairiQuinn" href="/ie/oireachtas/member/id/Ruairí-Quinn.S.1976-07-01" showAs="Ruairí Quinn"/>
+        <TLCPerson eId="SeamusKirk" href="/ie/oireachtas/member/id/Seamus-Kirk.D.1982-12-14" showAs="Seamus Kirk"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN COMHCHOISTE UM GHNÓTHAÍ EORPACHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON EUROPEAN AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2005-10-05">Dé Céadaoin, 5 Deireadh Fómhair 2005</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2005-10-05">Wednesday, 5 October 2005</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 2 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#BernardAllen">
+                Deputy B. Allen,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#MaeSextonPD">
+                Deputy M. Sexton,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#BarryAndrewsFF">
+                Deputy B. Andrews,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#DanWallace">
+                Deputy D. Wallace,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#PaudgeConnolly">
+                Deputy P. Connolly,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#JohnDardis">
+                Senator J. Dardis,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#SeamusKirk">
+                Deputy S. Kirk,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#MaryHenry">
+                Senator M. Henry,*
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#AengusOSnodaighSF">
+                Deputy A. Ó Snodaigh,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#DonLydon">
+                Senator D. Lydon.
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#RuairiQuinn">
+                Deputy R. Quinn,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Senator F. Quinn.</summary>
+          <summary eId="sum_4">In attendance: Deputy D. O'Donovan.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#JohnDeasyFG">
+   DEPUTY J. DEASY IN THE CHAIR.
+  </person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Human Trafficking: Presentations.</heading>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_12">Apologies have been received from Senators Ormonde and Bradford. The first item on our agenda is a discussion with interested parties on the issue of human trafficking. We have been speaking about and having hearings on this issue for some time. I thank everyone for coming here today. There may be some crossover. We spoke about this in private session last week. Some members may want to speak about issues affecting migrant workers or workers from the accession countries in the past year. Those issues have come to the fore in the media in recent weeks. We are specifically talking about human trafficking today, but there may be other issues. Mr. David Joyce may, for example, want to speak about issues related to the trade unions. He has been vocal about that, as have the other groups represented here today. People may ask those questions but if the delegations are not prepared for them, that is fine. We will have more hearings on that issue.</p>
+          <p eId="para_13">Everyone present today has prepared a presentation. I ask people to keep them as short as possible. I will then open the discussion up to the members. Our guests are Ms Dianne Grammer from the International Organisation for Migration, Ms Delphine O'Keeffe and Ms Deirdre Coughlan from the Migrant Rights Centre of Ireland, Dr. Gillian Wylie from Trinity College, Ms Kathleen Fahy from Ruhama, Ms Pia Prütz Phiri from the UNHCR and Mr. David Joyce from ICTU. I ask Ms Dianne Grammer to make her presentation.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from>Ms Dianne Grammer</from>
+          <p eId="para_14">I am the chief of mission in the International Organisation for Migration office in Dublin. I am delighted to be here today and to have an opportunity to talk about my organisation and the work we are doing in a worldwide and European context in terms of counter-trafficking. I will give the committee a quick introduction to my organisation.</p>
+          <p eId="para_15">The International Organisation for Migration, IOM, is an international intergovernmental but independent organisation. We have more than 240 offices in more than 100 countries. We have 112 member states and a further 23 observer states. The IOM is committed to the principle that humane and orderly migration benefits both migrants and society. As one of the leading international organisations for migration, the IOM acts with its partners in the international community to assist in meeting the growing operational challenges of migration management, to advance understanding of migration issues, to encourage social and economic development through migration and to uphold the human dignity and well-being of migrants. We have a number of key service areas which we undertake, including assisted voluntary return, labour migration, integration, migration and health, information campaigns, technical co-operation and counter-trafficking. My office in Dublin was established in 2001 and the Government became a full member of the IOM in 2002.</p>
+          <p eId="para_16">We will start with a focus on what constitutes trafficking. The IOM fights the exploitation of migrants in all its forms, particularly the severe human rights violations suffered by trafficked persons. Building on our individual commitment and global presence, we strengthen the capacity of our partners in Government and civil society and set operational standards to achieve sustainable results which will provide protection and empower trafficked women, men and children, raise awareness and understanding of the issue and bring justice to trafficked persons. We define "trafficking" in accordance with the UN protocol to prevent, suppress and punish trafficking in persons, especially women and children, which supplements the UN Convention Against Transnational Organised Crime 2002. The protocol defines "trafficking in persons" as "the recruitment, transportation, transfer, harbouring or receipt of persons by means of the threat or use of force or other forms of coercion, of abduction, of fraud, of deception, of the abuse of power or other position of vulnerability or of the receiving or giving of payments or benefits to a person having control over another person, for the purpose of exploitation". The process of trafficking involves the active recruitment of victims, their transportation and harbouring, generally invisibly as they are often kept in restrained conditions or behind locked doors, and their retailing. Some victims are sold on to other traffickers, often time and again. Among the means of trafficking are deceit, fraud, threat, use of force, abduction or abuse of power and the key objective is exploitation for the purposes of forced labour, sexual exploitation, removal of organs and servitude. As members can see, trafficking can occur for a number of forms of exploitation.</p>
+          <p eId="para_17">Trafficking in human beings is one of the most significant criminal activities and sources of funding for organised crime, with trafficking in drugs and weapons. The UN Centre for International Crime Prevention estimates the annual global turnover from trafficking in human beings at over US $9 billion. The smuggling of migrants, while often undertaken in dangerous or degrading conditions, involves individuals who have consented to be smuggled. Trafficking victims, however, have either never consented or, having initially consented, had their consent rendered meaningless by the coercive, deceptive or abusive actions of the traffickers.</p>
+          <p eId="para_18">The smuggling of migrants is also covered by the protocol to the UN Convention Against Transnational Organised Crime which sets out an international definition of "smuggling of migrants" as opposed to "trafficking in persons". Smuggling ends with the arrival of migrants at their destination whereas trafficking involves the ongoing exploitation of victims to generate illicit profits for the traffickers. Smuggling is always transnational whereas trafficking need not be. Trafficking can occur regardless of whether victims are taken to another country or moved from one place to another within the same country.</p>
+          <p eId="para_19">To summarise, trafficking involves force, deception, abuse and exploitation and is a crime against the individual with consequences for states of origin, transit and destination. Smuggling constitutes the payment of a fee for services in an illegal business transaction and is a crime against the state, although it may also involve a significant danger to migrants. The consequences of trafficking for countries of origin, transit and destination include an increase in irregular migration, violation of national legislation on migration, labour and human rights, the presence of criminal organisations, problems of national security and social, political and financial costs. Many EU member states are both destination and transit countries. The consequences for victims, many of whom find themselves in EU member states, include violations of human rights, abuse and coercion and illegal status in the country of destination. Victims are often treated as criminals by state authorities and there is often a risk to them of death and serious disease, both physical and mental, and stigmatisation and reintegration difficulties in countries of origin.</p>
+          <p eId="para_20">My organisation runs a number of programmes in the counter-trafficking field and our activities can be broken down into the three areas of prevention, protection and prosecution. Prevention activities are aimed at the root causes of trafficking and include awareness-raising, information-campaigning designed for a variety of audiences and research and data collection to contribute to sound migration policies. The IOM runs an information campaign for schoolchildren and teachers in the Baltic states to raise awareness of the dangers of trafficking. Protection activities are rights-based and aim to empower the victims of trafficking. They include the provision of shelter and accommodation, medical and psychosocial assistance, legal counselling and, when appropriate, assistance with voluntary return and reintegration in countries of origin. In the Balkans and several eastern European states, the IOM provides direct assistance for victims of trafficking through a voluntary return and reintegration programme.</p>
+          <p eId="para_21">Activities linked to the prosecution of traffickers address international co-operation, investigation and criminalisation. IOM projects include law enforcement training and training on victim protection and identification. For example, the IOM recently organised under the EU funded AGIS project a training conference in Dublin which brought together representatives of border guards, customs officials and immigration liaison officers from 13 European countries. IOM Dublin is also involved in inter-agency counter-trafficking training by the island-on-route network and in 2003 published a report on the trafficking of unaccompanied minors into Ireland as part of a ten-country, Europe-wide stop programme. The report highlighted many issues which remain relevant and still require to be addressed. The IOM is strongly of the opinion that responses to trafficking must come through inter-agency and transnational approaches to allow us to strengthen the capacities of our partners in governments and civil society.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Ms Delphine O’Keeffe</from>
+          <p eId="para_22">I represent the Migrant Rights Centre Ireland, a national organisation which works with migrant workers and their families, especially the more vulnerable. We work also with other organisations nationally to improve the circumstances of migrant workers in Ireland. Earlier this year we became involved in a project initiated by Anti-Slavery International to examine in more detail the issues of debt bondage and trafficking for forced labour as opposed to sexual exploitation. The project has been carried out with EU funding in Ireland, Portugal, the Czech Republic and the United Kingdom. We are aware through our work that there is trafficking for forced labour and debt bondage in Ireland. The project aims to clarify to the greatest extent possible the different experiences in repect of these practices. We intend to produce a report at the end of the project period and develop an agenda for change. Ms Deirdre Coughlan who is also in attendance comes from the workplace diversity project in DCU. She is undertaking the research for the initiative mentioned. While the project will continue until December 2006, Ms Coughlan will outline some of the issues which have arisen from the research to date.</p>
+          <p eId="para_23">It is evident from the daily case work at the drop-in centre we operate in Dublin that trafficking is a very complex issue, in which there are many grey areas and of which there are very different manifestations. It can be difficult to outline a typical trafficking scenario as scenarios often involve people initially having one status in a country and ending up with another. Often they have entered a country legally on a work permit but subsequently find that they have lost all control over their circumstances and are, in effect, in a situation of bonded labour due to owing money for getting into the country. There are often very high levels of social control in the cases presenting at our centre. It is not just the economic aspects of a person's life which are controlled, but accommodation is often tied to a job and documents. These circumstances contribute to a feeling that a person has no control over his or her position in the country. Some of our case studies involve circumstances in which people on work permits living in private homes do not realise they are legally entitled to reside here. Due to the threats to which they are subjected daily they do not feel they can do anything about the circumstances in which they find themselves.</p>
+          <p eId="para_24">Our work has demonstrated that it is often the case that people who have been trafficked do not identify themselves as such. They see themselves first and foremost as workers and do not feel they have been trafficked having paid money to get here. That they have ended up being trafficked is not readily identified. We do not tend to report cases we come across in our ongoing work because we have not identified support systems that can be of use to people. We try to negotiate solutions with the Garda National Immigration Bureau to give people temporary legal status on a case-by-case basis. We were advised unofficially that people were accommodated overnight in Cloverhill Prison and other such places when they made a statement about being trafficked and that the tendency was to return a person to his or her country the next day. That fear is a big factor in the decision not to make a complaint or report what is happening. Ms Coughlan will outline some issues raised in the interviews she has been conducting for the centre.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_4">
+          <from>Chairman</from>
+          <p eId="para_25">Perhaps Ms Coughlan will concede to other representatives and members before I call her.</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from>Dr. Gillian Wylie</from>
+          <p eId="para_26">I will discuss trafficking in women for sexual exploitation, not labour exploitation as discussed by Ms O'Keeffe. The United States trafficking in persons report suggests that between 600,000 and 800,000 are trafficked globally each year and that probably 70% are women trafficked for sexual exploitation. In the European Union it is suggested that between 200,000 and 500,000 women are trafficked from eastern to western Europe each year for sexual exploitation. To sound a word of caution, the statistics do not add up, that of the 600,000 global trafficking cases, 500,000 are pan-European.</p>
+          <p eId="para_27">There is the sheer difficulty of collecting data concerning trafficking. The criminality and secrecy of the act presents practical challenges to researches in terms of the lack of comprehensive national databases or internationally agreed methods for collecting data, as well as the grey areas, to which Ms O'Keeffe referred — whether people identify themselves as trafficked or smuggled, the definitional issues raised by Ms Grammer and whether some women move freely for sex work or are always exploited in prostitution. Depending on how one perceives the argument, statistics may be counted differently.</p>
+          <p eId="para_28">The politics surrounding trafficking data is another issue. The US trafficking in persons report has political consequences for governments in receipt of aid from the United States. Issues of politics, ethics, secrecy and definitional problems arise when counting trafficked people, trafficked women for sexual exploitation in particular.</p>
+          <p eId="para_29">There has been a lack of hard research in Ireland for all the reasons I have outlined in the general problem of researching trafficking, as well as a lack of sustained research. Ms Grammer referred to the IOM report on the trafficking of minors which suggested there were 23 Garda investigations into child smuggling and trafficking in the years 2002 and 2003. Apart from this, we have no data for the number of women trafficked for sexual exploitation. What we have is the knowledge of staff working in non-governmental organisations, the Garda National Immigration Bureau and so on who have met cases of trafficking for sexual exploitation. Ms Fahy from Ruhama will give more detail in her presentation.</p>
+          <p eId="para_30">In my briefing notes I have instanced a classic trafficking case study from the work of Ruhama, which involves deceit, coercion, exploitation and a victim who does not know where to turn because of her inability to speak the language, her fear of the authorities and that she might face deportation. In its latest annual report Ruhama suggests its workers have met 91 women, whom they believe to have been trafficked. Most consider that the legal framework in Ireland for dealing with human trafficking is inadequate. The illegal immigrants trafficking Bill is more of an anti-smuggling than an anti-trafficking Bill and there is a lack of support services as Ms O'Keeffe mentioned for those who are trafficked. Ireland is in the process of rejigging its legal framework for dealing with trafficking and an EU directive due to be transposed into Irish law will make provision for short-term residency permits for trafficking victims, if they co-operate with the authorities. This raises questions for some of those involved in anti-trafficking work and whether it is right to request people whose human rights have been abused through trafficking to co-operate with the authorities. The debate on how prostitution law affects trafficking is ongoing and the major divide on that issue is whether the legalisation of prostitution would prevent trafficking. We have the Swedish and Dutch models in Europe, but neither has been investigated so thoroughly that we know which works. I will proceed to discuss the root causes of trafficking — poverty, globalisation, migration policy, the impact of war, economic and political transitions and the globalisation of the sex industry. The legal framework in Ireland will be developed in the coming year and I hope it will provide a framework of protection for victims. The debate in Europe on how the framing of prostitution law affects trafficking is ongoing and the argument on whether the Swedish model or the Dutch model works is inconclusive.</p>
+          <p eId="para_31">I listed some of the issues considered in social scientific literature to be the root causes of trafficking, including poverty, globalisation of labour markets, the problems people face in migrating legally from poorer parts of the world to Europe, which creates the pressures that lead to smuggling and trafficking, the impact of war and the growing demand of the sex industry in the West. While we must think of a good framework for the prosecution of trafficking offences and the support of victims and so on, long-term the real answers to human trafficking probably lie in an adequate international legal framework implemented in countries as well as migration policies that allow poorer people in the world to move. That may be politically indigestible, but is probably at the root of the illegal movement of people. Issues of ethical approaches to globalisation, development and gender equality are some of the larger political and policy questions that must be addressed, with the immediate legal framework, if trafficking is to be abolished.</p>
+        </speech>
+        <speech by="#" eId="spk_6">
+          <from>Ms Kathleen Fahy</from>
+          <p eId="para_32">I am with Ruhama, an organisation which since 1989 has been working with women involved in prostitution and commercial sexual exploitation. We engaged with our first confirmed victim of trafficking in 2000. In line with the rest of our work, we focus on the trafficking of women for commercial sexual exploitation rather than other aspects. During the past two years we have directly supported 33 trafficked victims and are aware of a further 17. We have engaged with a number of women who by their profile we strongly suspect of having been trafficked into the country for the purposes of commercial sexual exploitation. Most of those with whom we work are aged between 18 and 25 years. Four on our register are minors, referred to us by health services. A further four had been minors when first trafficked but by the time they had come to the notice of our organisation were 18 years or more. Nigeria, Albania and Romania are the main countries represented within our services.</p>
+          <p eId="para_33">We believe our figures are just the tip of the iceberg and that the number involved is likely to be significantly greater. As it is extremely difficult to gain access to brothels and massage parlours and increasingly trafficked women in this category are being held in private apartments and frequently moved to avoid detection, we have no way of quantifying the numbers due to the covert nature of this crime.</p>
+          <p eId="para_34">In response to the growing need, we recently employed our first dedicated trafficking case worker. Two years ago, Ruhama went public on our serious concerns about the proliferation of lap dancing clubs throughout the country. It is well known internationally that lap dancing clubs are part of the spectrum of commercial sexual exploitation. We receive Government funding from the Departments of Justice, Equality and Law Reform and Health and Children to support our work. This year, the Department of Health and Children gave us a small once-off grant to meet the needs of trafficked victims. We submitted a proposal to the Department of Justice, Equality and Law Reform in April this year specifically for trafficking work and are awaiting a response.</p>
+          <p eId="para_35">We meet the victims at their most vulnerable. The majority will have been trafficked through other countries and some are brought directly to Ireland. Almost without exception, theirs is a story of abuse, sexually, emotionally and psychologically, from the time they are coerced or enticed from their homes. They are vulnerable, damaged, isolated and in danger and they need extensive support. As an organisation working at the coalface, we cannot just stand by. However, to deal adequately with the issue, the State and its institutions must provide the necessary legal framework and the resources to enable appropriate responses at all levels.</p>
+          <p eId="para_36">Ruhama wants to see the ratification of the UN protocol to prevent and punish trafficking in persons, especially women and children, and the EU framework decision on combatting trafficking in human beings. The latter places its emphasis on the prosecution of traffickers and the criminal laws necessary to combat the crime, which is absolutely necessary. I wish to highlight the obligations imposed by the UN protocol which emphasises the need to protect and assist victims of trafficking with full respect for their human rights. We are aware that the Government is currently preparing the necessary legislation. I will refer to a few points we believe should be included in the legislation to ensure maximum support for the victims.</p>
+          <p eId="para_37">A reflection period of at least six months should be granted to victims, during which they should be provided with the opportunity to engage with joint service providers. We found that the women are not always willing to testify because of well-founded fears for their and their families' safety. Many women are trafficked by people they know or who may be family members. If we see ourselves as a compassionate and caring society, we must acknowledge a duty of care to victims of such human rights violations. A victim is much more likely to testify if she is granted the security of legal status and its accompanying rights to assistance, safe housing, etc., outside of the detention-asylum network. Protection measures for witnesses should also be put in place. We would also like to see the inclusion of Article 18 of the EU convention, which seeks to address the demand side of trafficking, by criminalising the use of services of victims of trafficking.</p>
+          <p eId="para_38">Best practice at European level would indicate that, given the complexities involved, a multi-agency approach with clearly defined joint working mechanisms is essential. Such an approach would afford maximum opportunity to the victims and maximise efficiency and effectiveness in that a joint assessment of each case could be made and a more holistic approach to service provision could be adopted. As a result of their fears and suspicions, many victims are more likely to trust and co-operate with NGOs. They have an experience of being groomed by the traffickers to distrust officialdom.</p>
+          <p eId="para_39">Ruhama currently works closely with the Garda and we have very good informal information-sharing and co-operation. We have received a number of referrals of victims from the Garda in recent years. Gardaí are aware of the need to provide the women they encounter with specialist support, which Ruhama is happy to provide. As legislative and other mechanisms are put in place, it would be an advantage to formalise this networking into a more structured approach.</p>
+          <p eId="para_40">Intelligence-gathering and investigation in this area is long and labour-intensive. So too is the provision of assistance, given the range of supports required, including legal, interpretative, housing, counselling, psychological support, language skills, etc. Due to the largely invisible nature of trafficking, in particular, the aspect with which Ruhama is concerned, the Irish public is generally unaware of the issue or its extent. The political establishment has been slow to acknowledge the reality of trafficking for commercial sexual exploitation here. Research into the nature and extent of trafficking for commercial sexual exploitation needs to take place. Training must be provided to all cadres of service providers and officials who are likely to interface with the victims. The resources must be made available to meet the needs of women caught up in this most heinous of crimes. The trafficking of women for commercial sexual exploitation is one of the darkest aspects of globalisation. It has become the modern face of slavery, with a distinct gender bias. Robust measures should be put in place to ensure that Ireland does not continue to be an easy or convenient transit or destination point for ruthless international criminal gangs.</p>
+        </speech>
+        <speech by="#" eId="spk_7">
+          <from>Ms Pia Prütz Phiri</from>
+          <p eId="para_41">The United Nations High Commission for Refugees in Ireland wishes to thank the committee for the invitation to today's meeting and welcomes the opportunity to express its position on trafficking in the context of our mandate to provide protection for refugees and find durable solutions for them.</p>
+          <p eId="para_42">Criminal smuggling in migrants and trafficking in persons poses a growing problem to states and other actors. Trafficking in human beings has been an increasing concern for the UNHCR in recent years when it came to the fore as a serious human rights concern. Our interest in the issue of trafficking is twofold. First, there is the fact that refugee women are particularly vulnerable targets for trafficking rings, especially those in refugee camps who are without family support or those who are separated from family members during flight and who often become targets for sexual abuse in general and sexual exploitation in particular.</p>
+          <p eId="para_43">A lack of access to legal integration possibilities in host communities has seen refugee women agreeing to take up low paid jobs in such communities and later finding themselves in situations of forced prostitution and sexual slavery. Trafficking rings and their activities flourish in armed conflict and other situations of insecurity and chaos. In such instances, refugee women and girls are particularly susceptible to being targeted in a general situation of lawlessness. Over the years, the UNHCR has been involved in these issues, in particular, in Bosnia and Herzegovina, Kosovo and Albania.</p>
+          <p eId="para_44">The second matter of interest to us is that some trafficked persons may be refugees under the 1951 convention definition as a result of the trafficking experience and the inability or unwillingness of their countries of origin to provide protection against such harm. This may sound self-evident but for many states it is a relatively new phenomenon for their refugee status determination procedures. The jurisprudence relating to the trafficking of persons has had to confront some strong prejudices, given that trafficking issues have traditionally been analysed within the migration framework, with trafficked women and girls unable to overcome the bias towards seeing refugees as having fled political persecution.</p>
+          <p eId="para_45">The asylum system cannot offer a panacea for all society's ills. Nevertheless, these ills have their root in a combination of severely depressed economies, ineffective border controls, disinterested or corrupt police and government officials and no legal safety nets, leading to trade in women and children becoming lucrative, highly organised and heavily participatory. The asylum system is then obliged to accommodate individual situations they may generate. There are situations where there is no inclination or capacity in countries of origin, due to corruption and complicity at the highest levels or throughout the law enforcement agencies, coupled with inadequate legal systems, absence of laws — often accompanied by a vicious social stigmatisation of victims — to protect trafficked victims against reoccurrence of their plight or silencing of their testimony. In recognition of this fact, jurisprudence in a number of countries is starting to emerge in favour of recognising, in individual cases, victims of trafficking as refugees.</p>
+          <p eId="para_46">In the context of Ireland, the UNHCR recently submitted to the Department of Justice, Equality and Law Reform policy proposals for an immigration and residence Bill, which was published as a discussion document in the first half of this year. In these comments, we have, <i>inter alia</i>, set out our position in regard to the trafficking issue and its link with our mandate and our agenda for protection and how Ireland can move forward on this issue. We welcome the opportunity to highlight and reiterate these points. The UNHCR welcomes the distinction the proposal makes between trafficking and smuggling. Maintaining this difference is of the utmost importance in ensuring coherent legal and policy responses to the differing needs that may arise in trafficking and smuggling scenarios. It also welcomes that the interpretation of trafficking is not seen solely in the purview of sexual exploitation. All of the above are in line with the Palermo Protocol which was agreed by states in 2000.</p>
+          <p eId="para_47">We have called for Ireland to accede to the Palermo Protocol and suggest that future legislation in Ireland should be based on the definition of trafficking included in the protocol. This would ensure consistency around established international definitions of the respective terms. Such an approach would be consistent with that taken by Council of Europe member states in the drafting of the Convention on Action against Trafficking in Human Beings, finalised and opened for signature in May this year and to which the UNHCR hopes Ireland will also sign up.</p>
+          <p eId="para_48">In addition, we encourage states, in accordance with our agenda for protection and the Council of Europe convention, to take the necessary steps to ensure persons affected by trafficking or smuggling are given appropriate access to asylum determination procedures in the event that they assert a need for international protection. The UNHCR has monitored the situation in Ireland and is glad that has been the case in some instances.</p>
+          <p eId="para_49">It is encouraging that the discussion on trafficking is gaining momentum in Ireland. This meeting is a testament to that. Ireland's leadership during the recent OSCE expert meeting on trafficking and child victims is an indication of how the issue is seen as a growing concern and how Ireland is willing to be at the forefront in examining and trying to address it.</p>
+        </speech>
+        <speech by="#" eId="spk_8">
+          <from>Mr. David Joyce</from>
+          <p eId="para_50">Following such expert speakers, I am tempted to say, "And so say all of us". I endorse most of what has been said. My presentation will concentrate on the issues of trafficking for labour and forced labour, on which the Migrant Rights Centre has touched. I refer to a publication of the International Labour Organisation, the UN body with competence in this area. It is a tripartite body, comprising representatives of trade unions, employers and government which this year published a report entitled, A Global Alliance against Forced Labour, which contains interesting statistics. It estimates forced labour involves approximately 12.3 million people, 10 million of whom are exploited in the private economy. A global estimate is also provided of the profits generated by the exploitation of trafficked people for labour, which is greater than that mentioned by Ms Grammer. The ILO's estimate is $32 billion per year or $13,000 per trafficked victim. It is, therefore, a lucrative trade.</p>
+          <p eId="para_51">It is estimated 336,000 of the 10 million people in the private economy are trafficked to the industrialised world. This is the dark underbelly of globalisation where people are denied their fundamental rights and dignity. If globalisation is to deliver people from poverty and supply them with decent employment, this issue must be tackled worldwide. No country can tackle it on its own. Therefore, a co-ordinated response is needed. The ILO report calls for a global alliance on the issue of forced labour involving governments, employers, trade unions, worker organisations and development agencies and states the problem is unlikely to be rooted out unless adequate controls are placed on recruitment agencies, subcontracting systems and labour inspection, which is weak.</p>
+          <p eId="para_52">Forced labour in industrialised countries is mainly the product of trafficking and the reasons behind it include people exploiting migration bottlenecks, targeting impoverished communities and bribing law enforcement authorities in order that victims end up in vulnerable forced labour situations. Victims find themselves in a range of industries but the report highlights the service, construction and agriculture industries which achieve significant annual profits.</p>
+          <p eId="para_53">I refer to the forms of coercion experienced. Once people are trafficked, they are vulnerable to exploitation. Examples have been found all over the world, including Ireland, of employers keeping identity documents and threatening to denounce people to the authorities and so on in order that they feel powerless to do anything. The issue has been moving up the national and international agenda as issues of national security have come to the fore. However, the issue is also related to human rights, the labour market and organised crime. All of these aspects must be taken into account in adopting a holistic approach to dealing with the problem.</p>
+          <p eId="para_54">Many international instruments and initiatives have been mentioned. I refer to a multilateral framework on labour migration which is under discussion by the ILO and which will probably be agreed in the middle of next year. The Palermo Protocol has been mentioned. We echo the calls for our Government to ratify the convention and update domestic law in order that it complies with best international instruments on trafficking. We also welcome the preparation of legislation. The Government has been active on the issue in its international activities. Through Development Co-operation Ireland, our development aid body, the Government has funded the publication of a few documents through the forced labour unit of the ILO, one of which it might consider when drafting the legislation. The document contains guidance for legislation on law enforcement on the issue of human trafficking and forced labour expolitation. I will provide the reference if the committee wishes.</p>
+          <p eId="para_55">I refer to trafficking in Ireland. Through our affiliates, we have anecdotal evidence of people being trafficked. As previous speakers said, it is difficult to quantify this. We have contacted the Migrant Rights Centre regarding co-operation with its project and look forward to the research that will emanate from it. However, our affiliates come to us with stories of people having been brought to Ireland under false pretences and ending up in vulnerable situations. For example, a number of Czech workers went unpaid for three weeks and when they eventually kicked up, they were paid with cheques that bounced with the result that they ended up in a desperate position. The INO has also spoken to us about people arriving at private health care facilities, having been promised jobs as nursing aides, ending up as cleaners and being told if they did not like it, that was their problem.</p>
+          <p eId="para_56">I thank the committee for giving me the opportunity to speak.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_9">
+          <from>Chairman</from>
+          <p eId="para_57">Does Ms Coughlan have anything to add?</p>
+        </speech>
+        <speech by="#MaryCoughlan" eId="spk_10">
+          <from>Ms Deirdre Coughlan</from>
+          <p eId="para_58">I will not repeat what everybody else has said. The Migrant Rights Centre of Ireland has highlighted some of the issues raised. I have a duty to speak with the voice of the people I have been interviewing. On the circumstances to which others have referred, mainly the fear people express on finding themselves in such situations, what they feel is a lack of response by the State to protect them. They feel there is no protection and they do not know what to do. In many cases they have spent huge amounts of money to come here. The sums quoted, €1,500 to €12,000, might not seem huge to some. However, some of them are legal when they arrive. In some cases such as that of a domestic worker one might wonder why they cannot just walk out the door and go for help. They cannot because they are terrified. They are terrified for their family back home. They are frightened of officials here. If they are illegal, what is open them is deportation.</p>
+          <p eId="para_59">These are the main issues, on which most have commented. For me, the main issue was their fear and how they coped. They either put up with the situation or try to get out of it going, perhaps, to the Migrant Rights Centre of Ireland. That is where I have interviewed some of them. Some protection is badly needed — temporary visas, housing, somewhere they can go. It is important that this is provided.</p>
+          <p eId="para_60">The extent of the problem has surprised me. The areas where it is encountered are the same worldwide, among domestic workers, in agriculture, the construction sector and the restaurant industry. I have interviewed many from the restaurant industry. Apart from this, I would be repeating what everybody else has said.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_11">
+          <from>Chairman</from>
+          <p eId="para_61">It seems we are talking about a very broad area that overlaps into others. Mr. Joyce touched on the accession countries. Others spoke about labour issues as well as human trafficking and sexual exploitation. Ms Fahy said Ruhama was dealing specifically with 33 trafficking victims and was aware of more. Was it 17 or 71?</p>
+        </speech>
+        <speech by="#" eId="spk_12">
+          <from>Ms Fahy</from>
+          <p eId="para_62">It was 71, that we know of.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_13">
+          <from>Chairman</from>
+          <p eId="para_63">Ms Fahy also said this was the tip of the iceberg. I am aware that Ruhama works closely with the Garda Síochána and other agencies. Can she give me some figure? I know it is very difficult, but can she quantify this in any way?</p>
+        </speech>
+        <speech by="#" eId="spk_14">
+          <from>Ms Fahy</from>
+          <p eId="para_64">This is the problem to which every one of us has referred in one way or another. It is impossible to quantify. It is such a covert business which is so hidden and invisible. We cannot gain easy access.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_15">
+          <from>Chairman</from>
+          <p eId="para_65">That is the point about the apartments and so on.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_16">
+          <from>Deputy Quinn</from>
+          <p eId="para_66">Is it 1,000, 5,000 or 50,000? Can Ms Fahy give us the order of magnitude?</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from>Ms Fahy</from>
+          <p eId="para_67">We have always refused to do that because we cannot. We are guessing.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_18">
+          <from>Deputy Quinn</from>
+          <p eId="para_68">That is my point.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_19">
+          <from>Chairman</from>
+          <p eId="para_69">If Ms Wylie is putting a figure of 500,000 pan-Europe——</p>
+        </speech>
+        <speech by="#" eId="spk_20">
+          <from>Dr. Wylie</from>
+          <p eId="para_70">That is taken from research in the European Parliament from 2000.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_21">
+          <from>Chairman</from>
+          <p eId="para_71">It is 500,000 from eastern to western Europe. Ms Fahy says Ruhama is dealing with 33 cases. I am trying to get a ballpark figure. I do not expect anyone to give me a definitive answer. It cannot be done. Can Ms Fahy give me an estimate?</p>
+        </speech>
+        <speech by="#" eId="spk_22">
+          <from>Ms Fahy</from>
+          <p eId="para_72">It is to help us to quantify this that we are asking for research. It is a block we come up against all the time. Throwing out figures for the sake of it——</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_23">
+          <from>Deputy Quinn</from>
+          <p eId="para_73">We cannot, with any credibility as politicians, knock on the door of a Minister and tell him we have a serious problem, that we want him to start dealing with it and that the numbers are fewer than 65. We will not be at the races. The Minister would just say, "Next, please". We need numbers, even orders of magnitude. Otherwise we will be at the end of the queue.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_24">
+          <from>Chairman</from>
+          <p eId="para_74">How has this changed since the ten accession countries joined? Does the figure of 500,000 from eastern to western Europe relate to the pre-accession or post-accession period?</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from>Dr. Wylie</from>
+          <p eId="para_75">It refers to research prior to accession. However, studies tend to indicate that now the countries of origin are further east. Countries such as Poland and Hungary remain countries of transit and destination. Countries such as Moldova are often cited as major countries of origin.</p>
+        </speech>
+        <speech by="#" eId="spk_26">
+          <from>Ms Fahy</from>
+          <p eId="para_76">During the summer alone four new women who had been trafficked came into our service. We had not, strictly speaking, gone out looking for them. A dedicated trafficking officer came on board in August because we could see that the numbers were coming through. I am sorry I cannot put a definitive figure on it.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_27">
+          <from>Deputy Quinn</from>
+          <p eId="para_77">That is fine. I am looking for an order of magnitude, which is quite different. It is impossible, by definition, to put a definitive figure on it.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_28">
+          <from>Chairman</from>
+          <p eId="para_78">I do not want to put words in Ms Fahy's mouth but I understand she is making the case today that this is of such significant magnitude that it should be taken very seriously.</p>
+        </speech>
+        <speech by="#" eId="spk_29">
+          <from>Ms Fahy</from>
+          <p eId="para_79">Yes.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_30">
+          <from>Chairman</from>
+          <p eId="para_80">I presume her colleagues from the other organisations would make the same case. If she cannot give figures, we will have to do our own guesswork.</p>
+        </speech>
+        <speech by="#" eId="spk_31">
+          <from>Dr. Wylie</from>
+          <p eId="para_81">Although we cannot put a number on it, as has been said, Ireland still has international obligations to meet on trafficking under the Palermo Protocol.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_32">
+          <from>Chairman</from>
+          <p eId="para_82">When dealing with the Department, Ms Fahy made the case that the legislation dealt more with smuggling than trafficking and that she had a difficulty with this. Is she happy she has had enough liaison with the Department?</p>
+        </speech>
+        <speech by="#" eId="spk_33">
+          <from>Ms Fahy</from>
+          <p eId="para_83">Yes. We have worked through the IER. Do the Chairman mean in connection with legislation and so on?</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_34">
+          <from>Chairman</from>
+          <p eId="para_84">Yes.</p>
+        </speech>
+        <speech by="#" eId="spk_35">
+          <from>Ms Fahy</from>
+          <p eId="para_85">Yes, we have had access. We have been able to meet representatives and have an input.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_36">
+          <from>Chairman</from>
+          <p eId="para_86">What is the IER?</p>
+        </speech>
+        <speech by="#" eId="spk_37">
+          <from>Ms Fahy</from>
+          <p eId="para_87">The IER is a forum of concerned agencies. It is a 14 member organisation. We have been able to have an input on the legislative side. A number of us here are members.</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_88">Since we have no concrete figures, we now have on our questionnaire a question to identify numbers. We see between one and ten to 15 people who are in situations of forced labour on a weekly basis in our centre. Sometimes a group of ten come in together because they have been referred by a friend. It is only ever through somebody they trust that they end up on our doorstep.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_39">
+          <from>Chairman</from>
+          <p eId="para_89">What countries are they coming from now? Are any locations coming up again and again?</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_90">Countries such as Bangladesh, India, Pakistan, and eastern European countries such as Ukraine and Moldova. They are often very poor countries.</p>
+        </speech>
+        <speech by="#MaryCoughlan" eId="spk_41">
+          <from>Ms Coughlan</from>
+          <p eId="para_91">Sometimes it depends on the industry. People from particular countries seem to work in particular sectors. In the restaurant industry that I was researching, we examined countries such as Bangladesh and Pakistan. There seem to be many people from those countries. Again, it is difficult to quantify, but I believe the numbers are large.</p>
+        </speech>
+        <speech by="#" eId="spk_42">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_92">In some sectors more than 50% of the peak staff are in situations where they are being exploited, paid substandard wages and there is an element of control and fear.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_43">
+          <from>Deputy Allen</from>
+          <p eId="para_93">I thank all of the contributors for imparting their knowledge to us. Given the nature of the problem, it is almost impossible to quantify or even estimate its extent.</p>
+          <p eId="para_94">How is our present system of issuing work permits being exploited where the work permit is the property of the employer rather than the individual? As a result of a parliamentary question I tabled to the Minister for Foreign Affairs in May, I discovered that we had not, up to that date, participated in a Council directive dealing with the issuing of residency permits and that we did not have adequate legislation to deal with the sexual and labour exploitation of individuals. Is our failure to participate in the directive or introduce adequate legislation hindering the Garda National Immigration Bureau in dealing with the problem? How extensive are the activities of the bureau? How are its activities hindered by the absence of the two measures referred to in a parliamentary question I tabled on 12 May?</p>
+        </speech>
+        <speech by="#" eId="spk_44">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_95">I should answer the first question. Our centre has identified the current work permit system as being the root cause of much of this exploitation and bonded labour. An employee has no control over whether the permit is renewed and this system is a charter for exploitation. The employee is at the beck and call of the employer and this is the reason they do not complain or leave. Many do not know if their work permits are currently valid. Our centre has fought for the right to contact the work permit call centre. Though not many people are aware of it, individuals have the right to find out if their permits have been renewed. Employees do not know if their situation is legal and are continually asking employers if their permits have been renewed. The latter often results in false reassurances being given. People try to rectify their situation rather than accepting their status as victims. The work permit is the root of the problem.</p>
+          <p eId="para_96">We have argued for a three-month bridging visa for people who arrive under the work permit system. This would give them a degree of control over the situation.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_45">
+          <from>Deputy Allen</from>
+          <p eId="para_97">Currently they are forced to leave.</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_98">If a person reports being trafficked, he or she is in the State illegally. There is nowhere for these people to go, apart from Cloverhill Prison, as they are officially criminals. They are criminalised when they are, in fact, victims.</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from>Dr. Wylie</from>
+          <p eId="para_99">In respect of the second question, I cannot speak for the Garda National Immigration Bureau but it is a member of the Ireland en Route network. I have heard presentations on this. The current legislation hinders resolution of the issue because smuggling and trafficking are not well-defined. In addition, for a prosecution team to make a strong case, gain must be proved and this is difficult. A recent presentation made by a garda referred to the case of the people found dead in a container in Wexford. The garda was thankful that the case was prosecuted in Belgium as we do not have the legal framework in Ireland to prosecute such a crime committed across several jurisdictions. There is a need for stronger smuggling and trafficking legislation.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_48">
+          <from>Deputy Allen</from>
+          <p eId="para_100">What is Dr. Wylie's view on the non-participation in the EU directive?</p>
+        </speech>
+        <speech by="#" eId="spk_49">
+          <from>Dr. Wylie</from>
+          <p eId="para_101">I believe it is imminent, although I am not an expert on legislative matters. The idea of a residency permit is due to be dealt with in the legislation expected towards the end of 2006. I hope this proves to be the case.</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from>Mr. Joyce</from>
+          <p eId="para_102">I wish to address the issue of work permits. The new Employment Permits Bill, published before the summer, is not the solution to the problem. We will engage with the Department in respect of seeking improvements to it.</p>
+        </speech>
+        <speech by="#PaudgeConnolly" eId="spk_51">
+          <from>Deputy Connolly</from>
+          <p eId="para_103">I welcome the delegation and found the presentation very informative, particularly on the distinction between being smuggled voluntarily and trafficking. It is the same careers that attract these people. My reality check on this came from the BBC report on a brothel raided in Birmingham. This was linked to illegal trafficking. I was concerned that the female police officers arrested the people being exploited. They were brought out as if they were under arrest and it seems nobody caught the real villains. I am concerned by the signal this sends out to others in similar situations. It suggests that these people are illegal and this is an image on which we must work. If someone catches a glimpse of this, it will increase the level of fear.</p>
+          <p eId="para_104">The delegation stated that referrals come from the Garda Síochána but these people will not contact gardaí to say they wish to come out. I do not know how we will counter this fear. Should we get people from their communities to act as advocates?</p>
+          <p eId="para_105">I hope organ trafficking is not occurring in this country. If it is, there must be someone co-operating on a professional level and that would be unheard of in this country. I abhor it wherever it happens and I hope it does not happen here.</p>
+          <p eId="para_106">The global figure for those in forced labour is 12.3 million but we cannot put a figure on it locally.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_52">
+          <from>Chairman</from>
+          <p eId="para_107">I wish to announce the order of questioners. We will hear from Deputies Kirk and Quinn, Senator Henry and then Deputies Sexton, Andrews and Ó Snodaigh.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_53">
+          <from>Deputy Kirk</from>
+          <p eId="para_108">It appears that a range of issues has been raised. There is a degree of enlightenment in this discussion. The quantification of the problem, as referred to by Deputy Quinn, is the core of the matter. The primary concern of Members of the Oireachtas is our jurisdiction but we have obligations beyond that.</p>
+          <p eId="para_109">The case in Wexford highlights the issue of trafficking. It is said that people arrive in Northern Ireland and travel along the east coast. What evidence is available in respect of the <i>modus operandi</i> of trafficking? How can this be quantified?</p>
+        </speech>
+        <speech by="#" eId="spk_54">
+          <from>Ms Prütz Phiri</from>
+          <p eId="para_110">The case in Wexford involved smuggling. It became clear that those who were smuggled intended to make a claim for asylum status in Ireland. This is distinct from trafficking, which involves the forcible transport of people to Ireland to be exploited.</p>
+        </speech>
+        <speech by="#" eId="spk_55">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_111">People who are trafficked may be coming legally into Ireland on work permits but they may or may not know they have one.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_56">
+          <from>Deputy Kirk</from>
+          <p eId="para_112">Under the current system, the employer applies for the work permit before the person leaves the country of origin.</p>
+        </speech>
+        <speech by="#" eId="spk_57">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_113">Often the person is facilitating the arrival into Ireland. In the countries of origin there are agents and most people pay more than €500 for work permits. Most people make payments of €2,000, €5,000 or €10,000.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_58">
+          <from>Deputy Kirk</from>
+          <p eId="para_114">Are such payments made to agents in the Ukraine or Moldova?</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_115">They are made to the agent or the employer, who is sometimes from the home country. Officially, the employer pays for the work permit but in reality workers pay for it in the form of a fee that is repaid over two or three years.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_60">
+          <from>Deputy Kirk</from>
+          <p eId="para_116">Is it the case that people trafficked into Ireland are in the workforce and operating in the black economy?</p>
+        </speech>
+        <speech by="#" eId="spk_61">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_117">Some are while others are not. In some cases, those trafficked work legally until the first permit runs out. When it is not renewed, they become undocumented. There is not just one scenario, some people are documented and some are not. Some who are fully documented are still effectively in bonded labour.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_62">
+          <from>Deputy Kirk</from>
+          <p eId="para_118">A Bill to amend the work permits legislation has been circulated. What are the views of the delegation on the amendment and how does this need to be addressed?</p>
+        </speech>
+        <speech by="#" eId="spk_63">
+          <from>Mr. Joyce</from>
+          <p eId="para_119">Without going into detail, the fundamental issue is ownership of the permit. The press coverage at the time of its release seemed to imply that this issue had been dealt with in the legislation but, on examination, one sees that it was not. I understand that a copy of the permit would be given to the employee but they would be tied to a particular employment. If an employee wished to change employment, he or she would need to find another employer who would apply for a permit on his or her behalf.</p>
+        </speech>
+        <speech by="#" eId="spk_64">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_120">Until people can choose to move within a sector, the problem will not be resolved. While they are tied to having an employer's name on a permit, they are effectively owned by that employer. Much depends on that employer's goodwill.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_65">
+          <from>Deputy Kirk</from>
+          <p eId="para_121">Is the ideal system that the employee should have the work permit and be free to move around? How would one keep track of the system under those circumstances?</p>
+        </speech>
+        <speech by="#" eId="spk_66">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_122">The ideal system is that an employee would have the right to move around within a limited sector.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_67">
+          <from>Chairman</from>
+          <p eId="para_123">We invited the Department of Justice, Equality and Law Reform to come before us today. The people dealing with this matter were unable to attend but we received a letter stating that they will definitely come before the committee within the next two weeks. If questions on quantification are put to them, perhaps they will be able to assist us. We will get to the bottom of that issue at some point but perhaps we should not become fixated on it today.</p>
+          <p eId="para_124">With regard to labour issues, Ms O'Keeffe has given us a reasonable figure of 500 or 600 people on average per year.</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_125">They would make their way through our doors.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_69">
+          <from>Chairman</from>
+          <p eId="para_126">As that is a significant figure, I would not become fixated on this matter. We will see what reply the Department of Justice, Equality and Law Reform gives to the same question.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_70">
+          <from>Deputy Quinn</from>
+          <p eId="para_127">I hope we can continue this dialogue because much needs to be discussed and we will not deal with all of it today. I am also conscious of the fact that we are a group of men talking to a group of women——</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_71">
+          <from>Deputy Sexton</from>
+          <p eId="para_128">I do not know about that.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_72">
+          <from>Deputy Quinn</from>
+          <p eId="para_129">I should have used the term "with exceptions". There is a preponderance of men and we, as males, need to understand this issue.</p>
+          <p eId="para_130">I have made the point elsewhere and in print that one must consider that the Irish Department of Justice, Equality and Law Reform, in common with its counterparts in most countries, regards every citizen as a potential criminal. Its entire mindset is based on deviation towards criminality.</p>
+          <p eId="para_131">My brother is a psychiatrist and he is no longer normal because the people he deals with all of the time are way off centre-stage in terms of normality. A shift occurs. The Department of Justice, Equality and Law Reform, similar to the Department of Agriculture and Food, is one of the few Government Departments with little cross-fertilisation. Staff do not migrate to other Departments but rather they remain centred in their own. This is a considered comment because I have had horrendous problems with work permits and migration. These horror stories were not with regard to trafficking but they have made me ashamed to be an Irish citizen.</p>
+          <p eId="para_132">The reason I wanted Ms Fahy to supply numbers is that this requires a suspension of normal law and regulation in the interests of extremely vulnerable people. It was done previously with the Criminal Assets Bureau, when we effectively suspended the operation of due process and legal protection with regard to property rights and ownership. We reversed the burden of proof and suspected criminals were asked to prove they owned the money in question and that it was earned legally. No one here must do that.</p>
+          <p eId="para_133">If we want to deal with trafficking, we must recognise that it is a substantial problem. Deputy Kirk would agree with that. We cannot engage the political process to simply recognise that we have a problem unless we can state that it is a serious problem with an order of magnitude of "X". I respect the delegation's scientific integrity in terms of research and that it is only prepared to make statements when they can be proved. However, we require help to deal with the clash that is occurring on this issue.</p>
+          <p eId="para_134">If someone raises his or her hand and states that he or she has been trafficked, he or she is immediately a criminal and a garda or a civil servant in the Department of Justice, Equality and Law Reform has no discretion but to act. We must find a mechanism whereby that person is not criminalised or where a process is triggered to automatically send him or her home. We need outreach workers and others who are prepared to work at two o'clock in the morning rather than two o'clock in the afternoon. In turn, that requires a certain type of employment agency. Does the delegation agree with those operational factors? Somebody who voluntarily comes here as a sex worker for a reason such as economic destitution is in a different category to somebody who has been trafficked. In order to be able to introduce legislation that suspends the normal operation of law, that distinction must be make legally. How do we do that?</p>
+          <p eId="para_135">How do we police work permits, which are a form of bonded servitude? If someone comes here as a domestic help, they may find that domestic assistance involves more than looking after children. They are also vulnerable. How do we find a way to deal with that? How do the organisations our guests represent help legislators present this to an overloaded Department of Justice, Equality and Law Reform? If one examines the programme of legislation presented to us last week, one will see that one third of all Bills coming through the Oireachtas are from the Department of Justice, Equality and Law Reform. It is an extremely busy place, with issues that are of much higher priority than that before us.</p>
+          <p eId="para_136">Even if we had unanimous agreement around this table on the need for intervention, simply getting space on the carriage that takes legislation through the system, not to mention the resources to deliver it, would be extremely difficult. The delegation must consider the type of halfway house suitable for somebody in a strange country who finds the courage to surrender themselves to someone else on trust and which does not put such a person at risk. The delegation must also consider how can we start the process of rehabilitation. All I have are questions. I do not have the answers.</p>
+        </speech>
+        <speech by="#MaryHenry" eId="spk_73">
+          <from>Senator Henry</from>
+          <p eId="para_137">I thank the members of the delegation for attending and for their presentations. We certainly have a serious problem on our hands, regardless of the numbers involved. We must consider the unsolved murder of a young woman on the quays a few years ago. We do not know whether she volunteered to come here and have sex. Even if we have only one such case we have a serious problem. I remember when Sr. Jennifer started Ruhama there was no consideration that the numbers who came forward would be as high as proved to be the case. It was thought a much smaller number of women was involved.</p>
+          <p eId="para_138">More than ten years ago we introduced legislation to make it illegal to solicit for sex on the streets. Prostitutes I know have told me this has made their lives much more dangerous. Should we repeal this legislation? Does it make it easier for people to keep trafficked people within massage parlours and brothels? Prostitutes have told me that when they were on the streets they had a choice as to who they would accept to do business with whereas when they are in brothels or massage parlours they are at the mercy of whoever runs them. Even in a case where two women run a place, once a person comes through the door they are totally vulnerable. It was much easier to refuse someone in a car with an excuse such as that the woman had a heavy cold that night.</p>
+          <p eId="para_139">Would it help to make it more difficult for people to entrap these women in massage parlours if we repeal the legislation to which I refer? Those approaching the women were also supposed to be prosecuted but I found such prosecutions to be few and far between. Only the women are arrested.</p>
+          <p eId="para_140">Like Deputy Connolly, I was also alarmed by Ms Grammer's comments on the trade in organs. As well being a Member of the Houses, I am also a doctor. Does Ms Grammer have any evidence, even anecdotal, that this has happened in western Europe? I have heard of it happening in other parts of the world and I am sure it does occur. With the knowledge that medical practitioners must be involved in the removal and transplantation of these organs, it would be extraordinarily serious if it was happening in western Europe, where the medical profession is supposed to be well-policed.</p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from>Ms Grammer</from>
+          <p eId="para_141">We have no evidence that it happens in Ireland. As I said in my presentation, we hosted the first training conference for law enforcement border guards and police officers here recently under the EU AGIS programme. One of the delegates from the Ukraine reported that there were cases of trafficking of organs. It is happening in Europe, but we do not have any knowledge of it happening here, the United Kingdom or elsewhere in western Europe. This was reported by the enforcement officers who are at the sharp end of this problem.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_75">
+          <from>Chairman</from>
+          <p eId="para_142">Does anyone wish to speak on the clause on solicitation?</p>
+        </speech>
+        <speech by="#" eId="spk_76">
+          <from>Ms Fahy</from>
+          <p eId="para_143">The legislation has made it difficult. There is no doubt that women have retreated into apartments or are working through the Internet. Access to them has recently become difficult. For the past 15 years Ruhama's van has worked around the red light areas late at night. We saw many more women on the streets at night and were able to make contact and build up a relationship with them. However, that is becoming more difficult.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_77">
+          <from>Deputy Quinn</from>
+          <p eId="para_144">Are there fewer women now?</p>
+        </speech>
+        <speech by="#" eId="spk_78">
+          <from>Ms Fahy</from>
+          <p eId="para_145">There are two possibilities. As regards trafficking and under age women, the criminal activists are aware of the problems and they ensure they are hidden. We are meeting fewer Irish women on the streets. They are controlling the situation themselves from their apartments. They can seek protection under the legislation. If women are out on the streets, they will be moved on. There are problems. Many women complain to us about this and the fact that the legislation affects them more than the men with whom they are working.</p>
+        </speech>
+        <speech by="#MaryHenry" eId="spk_79">
+          <from>Senator Henry</from>
+          <p eId="para_146">Should we get rid of it? It is causing more trouble. I live in an area where there was a lively trade. The Garda often received great information from the women on the streets.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_80">
+          <from>Chairman</from>
+          <p eId="para_147">Is it making the problem so much worse that it would be better to repeal the law?</p>
+        </speech>
+        <speech by="#" eId="spk_81">
+          <from>Ms Fahy</from>
+          <p eId="para_148">The Chairman has thrown something at me. We did not feel strongly that it should be repealed.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_82">
+          <from>Deputy Quinn</from>
+          <p eId="para_149">Perhaps Ms Fahy might reflect on it.</p>
+        </speech>
+        <speech by="#" eId="spk_83">
+          <from>Ms Fahy</from>
+          <p eId="para_150">We will do so.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_84">
+          <from>Deputy Sexton</from>
+          <p eId="para_151">I apologise for being late, although I heard all the contributions, which were interesting, on my monitor. I congratulate those involved in this area, particularly on a voluntary basis. As Deputy Quinn said, the quantification of the numbers is vital to any decision this Legislature makes. It is regrettable that there is trafficking of human beings, but it is depraved to do so for sexual purposes. The numbers are important. Ms Fahy mentioned that she had dealt with 30 or 40 people. Did she report the people who trafficked and held them as sexual toys to the authorities? Has she received any response from the Garda or is it the case that although this is happening and organisations such as that represented by Ms Fahy are dealing with it, the Garda is not informed and there is no documentation? It should have documentary evidence.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_85">
+          <from>Deputy Quinn</from>
+          <p eId="para_152">I apologise for interrupting. Have abuses of the work permit system by holders of the work permits been reported to the work permits section of the Department of Enterprise, Trade and Employment?</p>
+        </speech>
+        <speech by="#" eId="spk_86">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_153">Yes, as well as to the labour inspectorate.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_87">
+          <from>Deputy Quinn</from>
+          <p eId="para_154">As I understand it, if the people concerned applied for a work permit again under the system, they would not get it or they would be scrutinised.</p>
+        </speech>
+        <speech by="#" eId="spk_88">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_155">Some employers have been blacklisted.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_89">
+          <from>Deputy Quinn</from>
+          <p eId="para_156">Not all of them.</p>
+        </speech>
+        <speech by="#" eId="spk_90">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_157">No.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_91">
+          <from>Deputy Sexton</from>
+          <p eId="para_158">Those are important questions. The system should be able to cope with this. It is reprehensible if the Garda does not act in this regard. I do not know of any case of human trafficking for sexual purposes which has been prosecuted. I agree there have been problems in terms of forced labour, which is a different issue. However, sexual exploitation is a serious issue. I do not want people thinking the Garda is not dealing with a serious problem, with which the Legislature must deal. We must find out what is documented. The Garda has a system which should provide the numbers. Have any of the people who have contacted Ms Fahy's organisation been reported to the Garda? What has been its response and does Ms Fahy believe it has done its job properly in pursuing such matters? As regards the Birmingham case last week, that was the first time a brothel had been raided in a long time.</p>
+          <p eId="para_159">I do not agree with everything Deputy Quinn said about the Department of Justice, Equality and Law Reform, although I could be proved wrong. Protection would be given by the Department to people who have been brought into this country through trafficking and are being sexually exploited. I could be wrong and naive to think that, but the Garda and the Department would deal with such cases sympathetically and on compassionate grounds. However, if such cases are not documented and if we do not know about them, we will not be able to do anything. There is legislation to deal with kidnapping. If people are being trafficked, they have been kidnapped. There is no reason the people who are perpetrating these crimes should not be brought to justice. If they are not, I want to know why. The groups represented here today are working in this area and have told us it is not happening. We must know where the cracks are and where the system has failed if we want to move forward. Today's meeting is interesting. We are all anxious to ensure this does not become a major problem. If there are pockets of crime the Garda has missed, we must deal with them.</p>
+        </speech>
+        <speech by="#" eId="spk_92">
+          <from>Ms Fahy</from>
+          <p eId="para_160">We co-operate closely with the Garda. Many of our referrals have come through it. We share our information with it also. As regards services around the city, the Garda is the most likely to contact us. One of our problems is that many service providers do not always recognise that a person might have been trafficked. We are working within international definitions. We are also starting a training programme to deal with the issue of recognition in looking at the profile of a woman, for example, whom we may have met from a health point of view. Service providers do not always ask if the women to whom they may have provided services have been trafficked. That is one of the problems. The Garda is helpful and co-operative. We do not have any complaints in that regard.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_93">
+          <from>Deputy Sexton</from>
+          <p eId="para_161">I do not understand that language. Is Ms Fahy telling me that people have told her they have been trafficked for sexual purposes, the Garda has reported it to her, but expects her organisation to do something about it?</p>
+        </speech>
+        <speech by="#" eId="spk_94">
+          <from>Ms Fahy</from>
+          <p eId="para_162">The Garda works on one side of the equation. That is why we are saying there must be a joint mechanism for more clarity about how we work and operate. The Garda would telephone us to talk about a number of the women referred to us.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_95">
+          <from>Deputy Sexton</from>
+          <p eId="para_163">We are not badgering Ms Fahy, but it is important to establish if the agencies are doing their jobs. Are they failing to do their jobs? If so, we must do something about it.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_96">
+          <from>Chairman</from>
+          <p eId="para_164">I will ask the same question in a different way. Is there proper awareness of the specific issue in question among service providers?</p>
+        </speech>
+        <speech by="#" eId="spk_97">
+          <from>Ms Fahy</from>
+          <p eId="para_165">We say that there is not.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_98">
+          <from>Chairman</from>
+          <p eId="para_166">Does everyone else agree?</p>
+        </speech>
+        <speech by="#" eId="spk_99">
+          <from>Ms Fahy</from>
+          <p eId="para_167">Yes.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_100">
+          <from>Chairman</from>
+          <p eId="para_168">There is a lack of awareness of the specific issue. It might be called something else but we are not dealing with it.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_101">
+          <from>Deputy Quinn</from>
+          <p eId="para_169">The question I heard Deputy Sexton ask——</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_102">
+          <from>Chairman</from>
+          <p eId="para_170">What I am saying is that the issue has not been identified.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_103">
+          <from>Deputy Quinn</from>
+          <p eId="para_171">Is the Garda saying to Ms Fahy, for example, that there is a woman working in Fitzwilliam Square who, regardless of whether she has been trafficked, is a reluctant sex worker as distinct from one of the regulars who is known to the force and that her organisation should contact that person? Is that Deputy Sexton's question?</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_104">
+          <from>Deputy Sexton</from>
+          <p eId="para_172">Yes. While the recognition of somebody as a sexually exploited person may very well be an issue, it is also an issue if the Garda has been in contact with any organisation to indicate that a person is being exploited. It is the duty of the Garda to pursue such matters.</p>
+        </speech>
+        <speech by="#MaryHenry" eId="spk_105">
+          <from>Senator Henry</from>
+          <p eId="para_173">The woman must complain. That is the problem.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_106">
+          <from>Deputy Sexton</from>
+          <p eId="para_174">That is what I am saying. That is a contradiction in itself.</p>
+        </speech>
+        <speech by="#MaryHenry" eId="spk_107">
+          <from>Senator Henry</from>
+          <p eId="para_175">If she will not make a complaint, the Garda cannot take action.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_108">
+          <from>Deputy Sexton</from>
+          <p eId="para_176">While I agree that a person will be afraid to approach a garda if he or she is here illegally, the system is such that if someone is identified as exploited, there is a crime the Department of Justice, Equality and Law Reform would examine, despite what Deputy Quinn says, in isolation to catch its perpetrator. The victim should not be suffering. I would stand up to say "No deportation for anybody that is a victim of such a crime". What Ms Fahy is saying is that the Garda is aware of the problem but is not making reports to the proper authorities. Rather, the Garda approaches her organisation. In doing that, the Garda is failing to serve victims. It is not a small handful of, I assume, men who are exploiting these women, it is an international organisation which stretches across Europe and beyond. These guys must be pinned down. If they are in Ireland, the authorities here should deal with them rather than asking someone else to assist. To help the victims is to provide them with protection and ensure that people are prosecuted. The latter requires all of the organisations in question to work together to give us the facts and, more importantly, the Garda to inform us also.</p>
+        </speech>
+        <speech by="#MaryHenry" eId="spk_109">
+          <from>Senator Henry</from>
+          <p eId="para_177">Deputy Sexton should note than when I raised the matter, I was told that if the circumstances she outlined were allowed to happen, everyone would say he or she was trafficked to be allowed to stay here.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_110">
+          <from>Deputy Sexton</from>
+          <p eId="para_178">I do not know from where the Senator got that information.</p>
+        </speech>
+        <speech by="#MaryHenry" eId="spk_111">
+          <from>Senator Henry</from>
+          <p eId="para_179">The Department of Justice, Equality and Law Reform.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_112">
+          <from>Deputy Sexton</from>
+          <p eId="para_180">I am speaking only in response to what has been presented to the committee.</p>
+        </speech>
+        <speech by="#" eId="spk_113">
+          <from>Ms Fahy</from>
+          <p eId="para_181">It is my understanding that the legislation is inadequate to deal with this state of affairs from the perspective of the Garda. The Garda has referred some women to us who have subsequently become our clients and we know of other cases in which women have been deported. The latter is something with which we disagree. While the Garda says that women chose deportation, a woman who is fearful after a raid on a premises may well——</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_114">
+          <from>Deputy Sexton</from>
+          <p eId="para_182">We asked Ms Fahy earlier to document this and she said she could not do so.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_115">
+          <from>Chairman</from>
+          <p eId="para_183">The Deputy must let the witness finish.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_116">
+          <from>Deputy Sexton</from>
+          <p eId="para_184">I am not getting answers.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_117">
+          <from>Chairman</from>
+          <p eId="para_185">Will the Deputy allow Ms Fahy to conclude?</p>
+        </speech>
+        <speech by="#" eId="spk_118">
+          <from>Ms Fahy</from>
+          <p eId="para_186">Where was I?</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_119">
+          <from>Deputy Sexton</from>
+          <p eId="para_187">The legislation is inadequate.</p>
+        </speech>
+        <speech by="#MaryHenry" eId="spk_120">
+          <from>Senator Henry</from>
+          <p eId="para_188">Ms Fahy was referring to women in different categories.</p>
+        </speech>
+        <speech by="#" eId="spk_121">
+          <from>Ms Fahy</from>
+          <p eId="para_189">I know from discussions that gardaí are frustrated at their inability to initiate prosecutions in respect of a range of issues. We do not support the deportation of a woman following a raid on a brothel. While I agree that a frightened woman may well ask to be allowed to leave the country quickly, we hold, on humanitarian grounds, that she should be allowed to stay. There should be formal networking mechanisms which allow us to work more closely together to provide the support such women need.</p>
+        </speech>
+        <speech by="#" eId="spk_122">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_190">When we encounter somebody who has been trafficked, the Garda response is on a case-by-case basis. While individual gardaí may agree to give people visa extensions of a few months, there is no overall policy response.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_123">
+          <from>Deputy Quinn</from>
+          <p eId="para_191">There is nothing formal.</p>
+        </speech>
+        <speech by="#" eId="spk_124">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_192">Until people can be protected to allow complaints to be made, which can be a slow process requiring much support given their feeling of being criminalised, nobody will be prosecuted even if the Garda wishes to bring charges. I have been told that a person must be caught red-handed with his or her trafficker who must have the money in his or her pocket before a prosecution can be made. Time is required to investigate that scenario.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_125">
+          <from>Deputy Andrews</from>
+          <p eId="para_193">I apologise for being late. As I have missed some of the proceedings, I apologise if I repeat anything which has already been said. Harriet Harman, MP, was in Dublin in May to speak to the Irish Institute of European Affairs. She said one of the most significant requests by originating countries to western European countries is that we deal with the issue of demand, especially for sex workers and cheap labour. She identified the serious legal difficulties the United Kingdom is experiencing. At the time of her visit, the United Kingdom had not signed the Council of Europe Convention on Action against Trafficking in Human Beings. Has Ireland signed the convention? Ms Harman said the United Kingdom had not signed the convention as it wanted to establish how it would fit in with the national system of prosecutions which is different to the system which obtains in continental Europe under civil law. While I am not sure whether the issue has been resolved in the UK, the approach there would inform policy here as we have a very similar system of prosecutions. I would appreciate comments on that.</p>
+          <p eId="para_194">While it is perhaps a somewhat extreme scenario to outline, if an individual has sex with a prostitute who has been trafficked, there is an argument that a form of statutory rape will have taken place on the basis of the inability of the prostitute to provide consent to sex having not consented to be in the circumstances in which she has found herself in the first instance. While it will be almost impossible for a prosecution of statutory rape on that basis to succeed due to current significant legal difficulties, would it constitute a strong message were the Government to propose legislation in which it is provided that it is tough luck if an individual subsequently discovers a prostitute was trafficked and which allows prosecutions, even if it is with difficulty, to proceed?</p>
+          <p eId="para_195">Ms Harman said that where agencies of the Government help the victims of illegal trafficking while asking them to give evidence, defendants have been able to argue successfully that such evidence was induced by agencies and, therefore, affected. While this was not to hold that evidence was not truthful, it was contended that it did not to carry the same weight as other evidence. Is this something the agencies represented here have experienced?</p>
+        </speech>
+        <speech by="#" eId="spk_126">
+          <from>Dr. Wylie</from>
+          <p eId="para_196">I second Deputy Andrew's point about the need to address the question of demand and the growing sex industry in Ireland and globally. A Stringfellows nightclub is opening here, for example. While there is a grey area involving lap dancing and prostitution which must be clarified, we must question the growing sexualisation of entertainment in Ireland. While people have different ethical stances on this scenario, it is certainly an aspect of the phenomenon of demand. We must ask how models of masculinity are developed in Ireland in such a way as to allow the idea that men should be entertained in this way. Questions of education and masculinity fall to be addressed in considering the entire area.</p>
+          <p eId="para_197">As I am not a lawyer, I have no ideas which would work as a legal framework to address the question of statutory rape. The legislation in Sweden criminalises the buying of sexual services; it does not criminalise the woman who sells sexual services but the client. As I stated, the experience in Sweden has come under a great deal of scrutiny because it has not become entirely clear what effect it has on trafficking. At a recent conference in Birmingham I heard NGOs from Poland stating all that was happening was that trafficking was being pushed out of Sweden or onto the black market there or that things were happening on ships in the Baltic. A legal framework for prostitution does not provide the whole answer to trafficking because there are usually ways around it, whether it is legalisation or an abolitionist type framework.</p>
+        </speech>
+        <speech by="#" eId="spk_127">
+          <from>Mr. Joyce</from>
+          <p eId="para_198">On the issue of suppressing the demand for cheap labour, we have argued for a significant increase in resources for the labour inspectorate. As long as some employers feel they can exploit migrant workers with impunity, it will continue to happen.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_128">
+          <from>Deputy Andrews</from>
+          <p eId="para_199">I referred to a Council of Europe convention. If somebody has the information, will he or she come back on the issue?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_129">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_200">It is stated in Dr. Wylie's briefing material that in a 2002 to 2003 study there were 23 Garda investigations into child smuggling and trafficking. Have we any indication of the outcome in these cases? Recent media reports have drawn attention to unaccompanied minors going missing but they are not appearing on the website of the Garda's missing persons bureau. Is Ireland a convenient stopping point, regardless of the final destination? If we are not taking the question of minors seriously, how will we address the question of missing adults?</p>
+        </speech>
+        <speech by="#" eId="spk_130">
+          <from>Dr. Wylie</from>
+          <p eId="para_201">I am afraid I do not know the answer to the question of how many reached a successful prosecution. Perhaps, Ms Grammer can answer that question because the IOM commissioned the research from which I quoted. As I said, there is great difficulty in reaching conclusions to prosecutions in this type of case because the legislation does not differentiate between the smuggled and the trafficked and it becomes hard to know under what circumstances people come into the country.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_131">
+          <from>Chairman</from>
+          <p eId="para_202">It was contended that there had not been a successful prosecution for trafficking. Is that the case?</p>
+        </speech>
+        <speech by="#" eId="spk_132">
+          <from>Dr. Wylie</from>
+          <p eId="para_203">Yes.</p>
+        </speech>
+        <speech by="#" eId="spk_133">
+          <from>Ms Grammer</from>
+          <p eId="para_204">Aside from the research done some time ago which was part of an EU study, we have been working very closely with the Health Service Executive and the Garda Síochána. We have a specific programme to assist unaccompanied children to return to their families in home countries when that is in their best interests. We have adopted a multi-agency approach and are in place to try to carry out investigations in the home country. This applies to unaccompanied minors generally, but having said that, when we start to carry out investigations into the cases of children referred to us — in the main teenagers ranging in ages from 15 to 17 years — some will show up again. The Garda Síochána is aware that some will turn up in the United Kingdom and it is clear they are being moved by adults. We have dealt with a couple of cases in our caseload of children who had disappeared but were then referred to us by another individual who was clearly harbouring them. In such cases we liaise with the Garda and the Health Service Executive. It is a very complicated procedure.</p>
+          <p eId="para_205">When we look back in the home country — more than half of the children have come from Nigeria — the evidence suggests the families are in some way implicated in the moving of children. It may be that the parents, in the best interests of the child concerned, perhaps for educational purposes, give him or her to individuals coming to Ireland. Money possibly changes hands and the child is exploited. Some of the younger girls end up in prostitution. One of the difficulties for the Garda Síochána in prosecuting such cases lies in trying to track the gangs down because they start from the country of origin and there is usually a transit county. We do not know if Ireland is the destination or the country of transit. The Garda has assisted us enormously and I know of two cases where it provided escorts for young minors who returned to their home country to provide protection during the journey. It is felt a child is vulnerable, even when he or she is returning to proper shelter and protection or being reunited with his or her own family, when that is deemed to be the most appropriate action.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_134">
+          <from>Deputy Sexton</from>
+          <p eId="para_206">Ms Grammer referred to law enforcement officer training. Was that training provided in Ireland and in what type of work will those who undertook this training be involved?</p>
+        </speech>
+        <speech by="#" eId="spk_135">
+          <from>Ms Grammer</from>
+          <p eId="para_207">One of the features of the International Organisation for Migration is the provision of training worldwide. We have been in touch with the Garda authorities in Templemore. The training to which I referred was provided as part of an EU project which involves 11 European states. The first training session hosted in Ireland was specifically aimed at border guards, customs officials and law enforcement officers. During the training, provided over a period of three days, we looked at the identification of victims of trafficking, which is a big problem for many of those involved in enforcement. It is unlikely that somebody who has been trafficked is going to own up to a person in authority. The next two sessions will be held in Hungary and Belgium. We will also look at the investigation of cases, prosecutions and protection for victims. We see this as a very positive multi-agency approach. The different professions in different countries may be in a position to act where they come into contact with the victims of trafficking.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_136">
+          <from>Chairman</from>
+          <p eId="para_208">On the two year habitual residence clause that applies to those seeking social welfare, I am aware that the Migrant Rights Centre of Ireland has made a case on behalf of workers from accession countries. I understand the Minister will meet to discuss further changes in social welfare payments for those workers who have come to Ireland in the past year or so. I am not sure if Ms O'Keeffe is the person dealing with this issue but is she in a position to give background information on the extent of the problem? The media, in particular the Polish media, have focused attention on this topic. What changes does she think should be made in social welfare provision for the people concerned?</p>
+        </speech>
+        <speech by="#" eId="spk_137">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_209">In our daily casework we meet people who have been working in Ireland and, for whatever reason, have fallen out of the system. Perhaps they have lost their jobs or they are sick and need social protection. With the advent of this condition of habitual residence, many have come to our centre in absolute destitution. These people may have been fine prior to the event that led to them losing their jobs.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_138">
+          <from>Chairman</from>
+          <p eId="para_210">Has the organisation, which has been vocal on the issue, made any effort to quantify the problem? I have put the question to the housing officer and a couple of other people in my home town who said that they have not encountered this problem. There is a sizeable population in my town but that does not mean it is not happening in other areas. What are the numbers involved?</p>
+        </speech>
+        <speech by="#" eId="spk_139">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_211">It goes through phases. During the summer there was an increase in the numbers of people from accession countries coming to the centre who were in bad circumstances. We intend to gather statistics in the near future. We have updated substantially our data collating system to produce these statistics and we have a detailed questionnaire.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_140">
+          <from>Chairman</from>
+          <p eId="para_212">Can Ms O'Keeffe provide an indication as to numbers?</p>
+        </speech>
+        <speech by="#" eId="spk_141">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_213">No. The numbers vary in different weeks. There was a period of three or four months where at least one person from an accession country came into the centre each week. They ranged from people who had just arrived to people who are already working here and who had lost their jobs.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_142">
+          <from>Chairman</from>
+          <p eId="para_214">I will play devil's advocate for a moment. This was obviously done for a particular reason and Ms O'Keeffe understands why this was the case. People will fall through the cracks no matter what. The people to whom I spoke said it had worked very well. Most of those to whom I refer came to work and found jobs and there is no reason to change this, even though a couple of cases may have come to light and there have been some bad media reports in Poland. Has the organisation taken an entirely different view in the matter?</p>
+        </speech>
+        <speech by="#" eId="spk_143">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_215">Our experience is that while most workers do not experience problems, a substantial number of people——</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_144">
+          <from>Chairman</from>
+          <p eId="para_216">Are these the figures some people are using?</p>
+        </speech>
+        <speech by="#" eId="spk_145">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_217">I would say it is more, perhaps 10%. When some people arrive in the country initially, they do not have the language or a safe pass qualification. They may lack the basic requirements to enter the workforce. These individuals may be working two or three weeks later but it is about having a safety net for people when they arrive in the country. Our experience is that people do not come here to receive social welfare benefits.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_146">
+          <from>Chairman</from>
+          <p eId="para_218">Ms O'Keeffe is seeking emergency provisions with regard to social welfare officers and so forth.</p>
+        </speech>
+        <speech by="#" eId="spk_147">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_219">It is a question of being able to provide people who are homeless with emergency payments. We have encountered people who are in destitute circumstances. Apart from that, we have encountered people who, for example, might have been working here for three years on a work visa. A case springs to mind of a gentleman from Pakistan who was subjected to racial discrimination and who ultimately lost his job when he was on sick leave. He has gone from being very stable to losing everything, including his accommodation. The habitual residents condition applied when he sought a supplementary welfare allowance. This man had paid tax in the country for three years.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_148">
+          <from>Chairman</from>
+          <p eId="para_220">I know Ms O'Keeffe is not the person who made these comments but what exactly is her organisation asking the Minister?</p>
+        </speech>
+        <speech by="#" eId="spk_149">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_221">We are asking that people who have been working in the country and paying taxes and who, for one reason or another, lose their jobs should be entitled to some sort of social protection to resolve their situation.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_150">
+          <from>Chairman</from>
+          <p eId="para_222">Should this happen if they were working for a certain period or is it the case that if they passed the threshold they should be eligible for benefits?</p>
+        </speech>
+        <speech by="#" eId="spk_151">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_223">Yes. When a person who is here on a work permit loses his or her job, he or she often loses his or her legal status in the country. It is a downward spiral towards destitution. If an Irish person or someone from the EU loses his or her job, he or she can move around to find a job. Migrant workers need some time to locate another employer who is willing to apply for a work permit on their behalf. If these people lose their jobs, it is much more difficult for them to resolve their situations.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_152">
+          <from>Chairman</from>
+          <p eId="para_224">Ms Fahy has some detailed proposals with regard to the legislation. Will Ms O'Keeffe make a submission and indicate exactly what she is asking the Government to change? It would be helpful to the committee.</p>
+        </speech>
+        <speech by="#" eId="spk_153">
+          <from>Ms O’Keeffe</from>
+          <p eId="para_225">Definitely.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_154">
+          <from>Deputy Quinn</from>
+          <p eId="para_226">I thank the chairman for allowing the discussion to start because I do not think we have completed it or even got half way down the track. We have no excuse to be ignorant. There are the so-called undocumented Irish in the United States and there is an entire generation of Irish people who fell through the padded floor boards of Great Britain when that country was extremely rich. I refer to the work done by DION.</p>
+          <p eId="para_227">We know what happens to migrants who, for whatever reason, fall through a system, and we are aware of the consequences. We have no experience in this country of immigration; all our experience is of emigration. We have no institutional instruments open to us to respond. It is not a criticism of the current associations and organisations. We have just never been here before. It will not hit us by surprise because we have already been told about it. Organisations should help us by telling us what is needed and how we should recruit people from some of the places, such as Moldova, Romania and other poor countries, from which these victims come. How do we get these people into the system, including allowing them to join the Garda, and how do we enable them to communicate? Every other European country — including Denmark, the Netherlands and Great Britain — has had this experience and we ignore that experience at our peril. This organisation is in the front line and I suggest it should return, not with numbers but with orders of magnitude. If it is being scientific, it cannot quantify the extent of the problem. If, however, it is being socially responsible, it can tell us it is a serious problem to which we must respond.</p>
+        </speech>
+        <speech by="#" eId="spk_155">
+          <from>Mr. Joyce</from>
+          <p eId="para_228">The habitual residents conditions were discussed by the congress executive council recently on foot of evidence from our affiliates. Mr. David Begg has written to the Minister for Justice, Equality and Law Reform seeking changes to the condition. However, I am not the person dealing with the matter.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_156">
+          <from>Deputy Sexton</from>
+          <p eId="para_229">This has been an excellent opportunity to hear what the organisations are doing and how we should respond. It is a pity that the Department of Justice, Equality and Law Reform and a representative of the Garda——</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_157">
+          <from>Chairman</from>
+          <p eId="para_230">They were good about it and explained the matter to us. The Secretary General, Mr. Aylward, explained in detail why they could not attend and he made it clear they would deal with the issue within the next couple of weeks.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_158">
+          <from>Deputy Sexton</from>
+          <p eId="para_231">I appreciate that. However, it is regrettable that they will be here and our guests will not. Could the forum include——</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_159">
+          <from>Chairman</from>
+          <p eId="para_232">We will work that in.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_160">
+          <from>Deputy Sexton</from>
+          <p eId="para_233">——a representative of the Garda. This matter is so wide-ranging that we need to know——</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_161">
+          <from>Chairman</from>
+          <p eId="para_234">Yes.</p>
+        </speech>
+        <speech by="#RuairiQuinn" eId="spk_162">
+          <from>Deputy Quinn</from>
+          <p eId="para_235">The Deputy should not hold her breath.</p>
+        </speech>
+        <speech by="#MaeSextonPD" eId="spk_163">
+          <from>Deputy Sexton</from>
+          <p eId="para_236">I would not be too happy if they declined the invitation because they have no reason to do so.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_164">
+          <from>Chairman</from>
+          <p eId="para_237">With regard to what the Deputy said, people might be willing to give us a submission. What has been said is a taste of what we are trying to achieve. It is very broad because we touched on three or four issues. As the Department of Justice, Equality and Law Reform will be represented here, the organisations might give the committee a submission. Ms O'Keeffe might make a submission on the habitual residents clause. If others think it would be useful to make a submission, they should do so. I propose that the committee, together with its consultants, should consider drawing up a report on the matter, not just on the human trafficking issue but also on migrant issues that overlap within this entire area. We might be close to making a decision. We will see what happens in the next week or two. Speakers commented on the low level of awareness in regard to the specifics involved in that the debate on human trafficking never really began in this country. For that reason, we should discuss the matter. Such a debate would be useful.</p>
+          <p eId="para_238">I thank the delegations for coming before us. I stress that if they have submissions to make, they should do so. They already have the material at hand in some cases so it should not be that difficult to make submissions.</p>
+        </speech>
+        <summary eId="sum_6">Sitting suspended at 4 p.m. and resumed at 4.05 p.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Business of Joint Committee.</heading>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_165">
+          <from>Chairman</from>
+          <p eId="para_239">It is proposed to defer consideration of a report on the trip to the Czech Republic until the next meeting. Is that agreed? Agreed. Are the minutes of the meeting of 28 September agreed? Agreed.</p>
+          <p eId="para_240">I refer to the draft agenda and registration and hotel booking forms for an interparliamentary conference on the free movement of workers within the European Union to be held in Prague. The committee's budget is almost exhausted. However, as this conference is relevant to the work the committee is about to undertake, I propose to seek additional funds and the attendance of two members, if possible. Is that agreed? Agreed. I will report back to the committee.</p>
+          <p eId="para_241">Correspondence was received from Ms Sinead McCann regarding the Sub-Committee on European Scrutiny and decisions taken on 21 September 2002. It was proposed to note decisions taken at the meeting. I draw attention to document SEC (2005) 547 regarding the preliminary draft general budget of the EU for 2006. The document has been referred to the Oireachtas Joint Committee on Finance and the Public Service for scrutiny and forwarded to us for information. It is proposed to note it. Is that agreed? Agreed.</p>
+          <p eId="para_242">Correspondence was received from Mr. Sean Aylward, Secretary General of the Department of Justice, Equality and Law Reform regarding participation at the next committee meeting. It is proposed to note this correspondence. Correspondence was also received from the Senate of the Republic of the Philippines regarding rules and procedures for ACEP. It is proposed to note it. Correspondence was received from Deputy Ó Snodaigh regarding today's meeting. It is proposed to note it. Correspondence was received from the Chairman of the Committee on European Integration of the Bulgarian National Assembly. It is proposed to note it.</p>
+          <p eId="para_243">The joint committee went into private session at 4.10 p.m. and adjourned at 4.20 p.m. until 9.30 a.m. on Thursday, 13 October 2005.</p>
+        </speech>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

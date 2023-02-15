@@ -11,6 +11,16 @@ list 		:= $(foreach url,$(shell cat data/debates_$(MID).list.txt | sed 's,:,<c>,
 TSV_DIR := $(DEBATE_DIR)/tsv
 tsv_list	:= $(foreach f,$(list),$(dir $f)tsv/$(notdir $f).tsv)
 
+everything: data/members_with_pId.tsv
+	while IFS= read -r line; do
+		tag_ref=`  echo $$line | awk '{print $$1}'`
+		code=`     echo $$line | awk '{print $$2}'`
+		member_id=`echo $$line | awk '{print $$3}'`
+		echo $$tag_ref $$code $$member_id
+		-make MEMBER_ID=$$member_id MEMBER_TAG_REF=$$tag_ref debates_list && make MEMBER_ID=$$member_id MEMBER_TAG_REF=$$tag_ref all && make -j MEMBER_ID=$$member_id MEMBER_TAG_REF=$$tag_ref utts
+	done < $<
+
+
 aodhan:
 	member_id=`cat aodhan.tsv | grep -o 'https.*'`
 	echo $$member_id
@@ -90,6 +100,8 @@ data/debates_$(MID).list.txt: data/debates_$(MID).json
 data/member_info_$(notdir $(MEMBER_ID)).json:
 	wget "https://api.oireachtas.ie/v1/members?member_id=$(MEMBER_ID)" -O $@
 
+data/members_with_pId.tsv: data/members.tsv
+	cat $< | grep -v -P "^None\t" > $@
 
 data/members.tsv: $(foreach n,1 2 3,data/members$n.json.tsv)
 	cat $^ | sort -u > $@

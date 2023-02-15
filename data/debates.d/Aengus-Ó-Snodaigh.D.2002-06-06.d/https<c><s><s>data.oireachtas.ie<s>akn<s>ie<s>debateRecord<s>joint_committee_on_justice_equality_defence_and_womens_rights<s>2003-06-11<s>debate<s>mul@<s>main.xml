@@ -1,0 +1,580 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-06-11/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-06-11/debate"/>
+          <FRBRdate date="2003-06-11" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/joint_committee_on_justice_equality_defence_and_womens_rights"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-06-11/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-06-11/debate/mul@"/>
+          <FRBRdate date="2003-06-11" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-06-11/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-06-11/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference showAs="Vol. 1" href="ie/oireachtas/debateRecord/vol/1" eId="#vol_1"/>
+          <oir:numberReference showAs="No. 28" href="ie/oireachtas/debateRecord/vol/1/no/28" eId="#no_28"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCEvent eId="bill.2003.24" href="/ie/oireachtas/bill/2003/24" showAs="Intoxicating Liquor Bill 2003"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="BreedaMoynihanCronin" href="/ie/oireachtas/member/id/Breeda-Moynihan-Cronin.D.1992-12-14" showAs="Breeda Moynihan-Cronin"/>
+        <TLCPerson eId="CharlieOConnorFF" href="/ie/oireachtas/member/id/Charlie-O'Connor.D.2002-06-06" showAs="Charlie O'Connor"/>
+        <TLCPerson eId="DennisODonovan" href="/ie/oireachtas/member/id/Denis-O'Donovan.S.1989-10-01" showAs="Denis O'Donovan"/>
+        <TLCPerson eId="DinnyMcGinley" href="/ie/oireachtas/member/id/Dinny-McGinley.D.1982-03-09" showAs="Dinny McGinley"/>
+        <TLCPerson eId="FinianMcGrath" href="/ie/oireachtas/member/id/Finian-McGrath.D.2002-06-06" showAs="Finian McGrath"/>
+        <TLCPerson eId="JoannaTuffy" href="/ie/oireachtas/member/id/Joanna-Tuffy.S.2002-09-12" showAs="Joanna Tuffy"/>
+        <TLCPerson eId="JoeCostelloLAB" href="/ie/oireachtas/member/id/Joe-Costello.S.1989-10-01" showAs="Joe Costello"/>
+        <TLCPerson eId="JohnDeasyFG" href="/ie/oireachtas/member/id/John-Deasy.D.2002-06-06" showAs="John Deasy"/>
+        <TLCPerson eId="MarieHoctorFF" href="/ie/oireachtas/member/id/Máire-Hoctor.D.2002-06-06" showAs="Máire Hoctor"/>
+        <TLCPerson eId="MichaelBrennan" href="/ie/oireachtas/member/id/Michael-Brennan.S.2002-12-09" showAs="Michael Brennan"/>
+        <TLCPerson eId="MichaelMcDowellPD" href="/ie/oireachtas/member/id/Michael-McDowell.D.1987-03-10" showAs="Michael McDowell"/>
+        <TLCPerson eId="PaulMcGrath" href="/ie/oireachtas/member/id/Paul-McGrath.D.1989-06-29" showAs="Paul McGrath"/>
+        <TLCPerson eId="PeterPowerFF" href="/ie/oireachtas/member/id/Peter-Power.D.2002-06-06" showAs="Peter Power"/>
+        <TLCPerson eId="SeanArdagh" href="/ie/oireachtas/member/id/Seán-Ardagh.D.1997-06-26" showAs="Seán Ardagh"/>
+        <TLCPerson eId="SheilaTerry" href="/ie/oireachtas/member/id/Sheila-Terry.S.2002-09-12" showAs="Sheila Terry"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Justice,_Equality_and_Law_Reform" href="/ie/oireachtas/role/minister/justice__equality__law_reform" showAs="Minister for Justice, Equality and Law Reform"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM DHLÍ AGUS CEART, COMHIONANNAS, COSAINT AGUS CEARTA NA mBAN</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON JUSTICE, EQUALITY, DEFENCE AND WOMEN’S RIGHTS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2003-06-11">Dé Céadaoin, 11 Meitheamh 2003</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2003-06-11">Wednesday, 11 June 2003</docDate>
+      </block>
+      <block name="volume">
+        <docNumber refersTo="#vol_1">Vol. 1</docNumber>
+      </block>
+      <block name="number">
+        <docNumber refersTo="#no_28">No. 28</docNumber>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 9.30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">Members Present:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JoeCostelloLAB">Deputy J. Costello,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#CharlieOConnorFF">Deputy C. O’Connor,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JohnDeasyFG">Deputy J. Deasy,†</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#DennisODonovan">Deputy D. O’Donovan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MarieHoctorFF">Deputy M. Hoctor,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#PeterPowerFF">Deputy P. Power,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#DinnyMcGinley">Deputy D. McGinley,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#MichaelBrennan">Senator M. Brennan,*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#FinianMcGrath">Deputy F. McGrath,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#SheilaTerry">Senator S. Terry,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#PaulMcGrath">Deputy P. McGrath,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#JoannaTuffy">Senator J. Tuffy.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#BreedaMoynihanCronin">Deputy B. Moynihan-Cronin,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Senator J. Walsh.</summary>
+          <summary eId="sum_4">†In the absence for part of the meeting of Deputy D. McGinley.</summary>
+          <summary eId="sum_5">In attendance: Deputy A. Ó Snodaigh.</summary>
+          <summary eId="sum_6">
+            <person as="#Chair" refersTo="#SeanArdagh">
+   DEPUTY S. ARDAGH in the chair.
+  </person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2" refersTo="#bill.2003.24">
+        <heading>Intoxicating Liquor Bill 2003: Presentations.</heading>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_14">I welcome the Minister for Justice, Equality and Law Reform, Deputy McDowell, and his officials. In the first part of the meeting, which will end at 11 a.m., a briefing will be provided for members on the draft Intoxicating Liquor Bill. Copies of the briefing note prepared by the Department and a copy of the outline of the draft general scheme have been circulated to them. This meeting provides an opportunity for a substantive discussion on the proposals in the scheme. A number of further points may arise during the course of the meeting, which members may wish to pursue with the Minister at a later stage. I do not know to what that last point refers. I invite the Minister to make a brief statement on the draft scheme.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" as="#Minister_for_Justice,_Equality_and_Law_Reform" eId="spk_2">
+          <from>Minister for Justice, Equality and Law Reform (Deputy McDowell)</from>
+          <p eId="para_15">I thank the Chairman and members of the committee for the opportunity to exchange views on the proposals set out in the general scheme of the Intoxicating Liquor Bill 2003, the draft of which was approved by the Government two weeks ago. While the drafting process is under way, the legal text has not been finalised, I welcome this opportunity to discuss with members the draft scheme, as approved by the Government, at a time when there can be an input into it and the views of the committee can be taken on board. In the next ten days to a fortnight I will be back before the Cabinet with the finished draft. As I indicated previously, the general scheme has been drafted as a matter of urgency. This pre-draft stage is the ideal time for discussion.</p>
+          <p eId="para_16">I am aware that the committee has discussed issues relating to alcohol abuse and that many of the relevant bodies and interest groups have engaged with it and presented their views to it. I am, therefore, very much looking forward to our discussions today.</p>
+          <p eId="para_17">I would like to make three general points, the first of which is that this proposal is an interim response to the recommendations of the Commission on Liquor Licensing chaired by Gordon Holmes and the first report of the strategic task force on alcohol established by the Minister for Health and Children. The Commission on Liquor Licensing was established by the Government in late 2002. By the time it had concluded its work at the end of March, it had submitted four reports covering various aspects of the licensing laws, collectively containing over 130 recommendations.</p>
+          <p eId="para_18">As members will know, the commission recommended a codification of the entire intoxicating liquor code. As such an exercise is long overdue, I accepted this recommendation without hesitation. Preparatory work is already under way in my Department. I expect that an outline of the codification Bill will be available by mid-2004 and the Bill will be enacted into law, if we get fair wind, in 2004. In the meantime, I have decided to bring forward the present shorter Bill to respond to certain urgent recommendations set out in last December's report on admission and service in licensed premises and on the commission's final report published two months ago. The proposals in the general scheme are consistent with the recommendations in the interim report by the strategic task force on alcohol published last year and also relevant in the context of the special initiative on tackling alcohol abuse in chapter 2 of the current social partnership agreement, Sustaining Progress.</p>
+          <p eId="para_19">The second general point I wish to make relates to the extent of alcohol related harm and how it is to be tackled. While alcohol consumption has been increasing for over ten years, more recently we have witnessed a growing awareness of the extent of alcohol related harm and an increased willingness as a society to face up to its consequences. There is a consensus that alcohol related harm, however it manifests itself, is a matter of serious concern and that it must be tackled. It seems, however, that despite this consensus, no broad agreement has yet emerged on how we should move forward as a society.</p>
+          <p eId="para_20">There is a tendency in some quarters to identify a single culprit and there is a broad range of favourite targets Governments and politicians, the drinks industry, parents, the licensed trade and schools to the media and the like. However, when we look at the factors which have contributed to the increase in alcoholic consumption - societal and demographic changes; changing lifestyles and expectations; much more disposable income, especially among young people; and a lessening of parental control of young people - we realise that the problem of alcohol related harm is multidimensional and that simplistic solutions will not work. I have already stated my belief the problem of alcohol related harm must be addressed at four levels: State level, which encompasses the licensing laws and public order measures; local community level, at which leisure and sporting activities are planned and organised; within the family, where values and parental example are crucial; and the level of the individual, where self-esteem and self-respect are all-important.</p>
+          <p eId="para_21">The proposals we are discussing fall mainly into the first category - the State's response. In framing legislation in this area, it is important that we seek to strike an appropriate balance between potentially conflicting policy objectives and rights. It seems that while we have to respect the rights of people who drink alcohol in moderation and at the same time protect vulnerable groups, including young people and the families of those who abuse alcohol, we must have regard to the rights of the drinks industry and the licensed trade, while at the same time ensuring practices which lead to excessive consumption of alcohol or are exploitative are discouraged or prohibited. Risks to public order must be minimised but not at the expense of basic rights and freedoms. In this regard, I have been conscious of the need to strike an appropriate balance in the proposals set out in the general scheme and welcome the views of the members in this context.</p>
+          <p eId="para_22">My last general point relates to the timetable for enacting the Bill. As I said, it is an urgent response to urgent recommendations of the Commission on Liquor Licensing. It does not seek to encompass the wider structural reforms advocated by the commission in its reports. My intention is that these will be addressed in the codification Bill and we will have an opportunity to discuss the contents of that Bill, including responses to all the commission's recommendations, in the course of the next year. The Bill will also give us the opportunity to revisit the provisions set out in the current proposals. Therefore, my hope is that the urgency attaching to these proposals, which we all share, will facilitate a speedy passage of the Bill through both Houses before the summer recess.</p>
+          <p eId="para_23">I have available to me a description of the contents of the Bill, but I do not propose to go through it. Members would probably prefer if I gave way at this stage. I have read carefully through the debate on the 2000 licensing Act, the liquor licensing report, chaired by former Deputy Charlie Flanagan, which came before the Houses of the Oireachtas in 1998, as well as press statements, Labour Party and Fine Gael Party policy documents and the commission's report. I emphasise that while not everyone agrees with everything contained in the Bill, it commands a large degree of support across most political and public utterances from the media to interest groups such as Barnardo's and the ISPCC. Furthermore, despite the fact that some newspaper columnists have expressed contrary views, strong editorial support has been offered for the line I have been taking, although with one or two exceptions.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_3">
+          <from>Deputy Costello</from>
+          <p eId="para_24">I again welcome the Minister to the committee. It is a travesty for him to come before it today to present the heads of legislation - some proposals - and tell us that in ten days or two weeks' time, he expects to go to Cabinet with a Bill and that this urgent legislation will be enacted in the space of a week or two. I do not think that can be done if the Minister is to go through the due process of dealing with the various Stages of the Bill and giving us all an opportunity to discuss it properly, table amendments to it and get the legislation right. I thought we would at least have the Bill before the Cabinet and completed at this stage. The timetable is impossible. It is an insult to the House and its procedures for the Minister to say he considers this an urgent matter and will give us only a week or two to process it.</p>
+          <p eId="para_25">This is not a comprehensive Bill. It is very bitty, with only a few proposals here and there. There is no theme running through it. There is no coherency about it. It is more honoured in the breach than in the totality of its proposals. There is much missing which should be included.</p>
+          <p eId="para_26">While the Minister says he looks forward to some future time when he will codify the legislation, there is a great deal that could be done here and now in terms of proposals that have arisen from the various commissions which have been sitting. The Minister has concentrated on just one or two issues. Half the Bill is about drunkenness in which context there are some outlandish proposals. However, drink driving is not mentioned. The Minister has said that perhaps some future Minister will deal with it. However, the major issue in regard to drunkenness is the consumption of alcohol and what happens subsequent to it. The whole area of random testing and the volume of alcohol allowed has not been mentioned.</p>
+          <p eId="para_27">The proliferation of off-licences in the likes of Spar, Centra and other local grocery stores and petrol stations is a major problem which is not covered by the legislation. How will we control that proliferation? There has been an application for a new 24 hour off-licence on O'Connell Street at a time when we are trying to deal with conservation and planning control issues, yet there is no mention of this in the Bill.</p>
+          <p eId="para_28">There is no mention of traceability in the legislation. How are we to trace where alcohol is sold if it gets into the hands of young people? Is this not a burning question? The Minister deals with on-licences but not off-licences. How can the Bill deal with the current crisis if it does not deal with off-licences? There is a lacuna.</p>
+          <p eId="para_29">There is no reference to advertising. The Minister says the Minister for Health and Children, Deputy Martin, will deal with this some time down the road. Actions are scattered here and there. The Minister for Transport, Deputy Brennan will deal with drink driving while the Minister for Justice, Equality and Law Reform, Deputy McDowell deals with drunkenness. The Minister will close down a premises if somebody wanders in off the street, although it may be a first offence. Is this his response, to close down a public house? The definition of drunkenness is outlandish and will be impossible to prove if the case is processed through the courts. Half the Bill is about something which is effectively unenforceable, in my reading of the legislation.</p>
+          <p eId="para_30">There is no reference to the problem of under age drinking. The Minister has effectively dealt with the problem under the heading of drunkenness. The same principle operates across the board, as though the two were the same. Under age drinking is not dealt with.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_4" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_31">The Deputy has not read the Bill.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_5">
+          <from>Deputy Costello</from>
+          <p eId="para_32">I have read all of it and the only matter referred to which relates to this problem is the ID card.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_6" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_33">I am surprised at this because everything the Deputy has said so far is wrong. He should keep going.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_7">
+          <from>Deputy Costello</from>
+          <p eId="para_34">That is what the Minister says about everything. He always contradicts what people say.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_8" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_35">The Deputy says there is nothing in this Bill about under age drinking.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_9">
+          <from>Deputy Costello</from>
+          <p eId="para_36">I am saying the Minister has concentrated on drunkenness to which some 50% of the Bill relates. The only issue relating to under age drinking is the ID card. The Minister has brought forward a plethora of proposals on ID cards, but there is nothing practical about what he is saying, other than the parts about interfering with the equality legislation.</p>
+          <p eId="para_37">There is nothing in the Bill which deals with the responsible serving of alcohol and the responsibility of the publican in this regard. Why did the Minister not make this a statutory requirement? We have been discussing this for the past 12 months - it is the biggest issue of the day. We have to adopt a comprehensive approach which puts the onus on all sectors, from the producer, distiller or brewer to the publican, the Garda and the consumer. That is missing entirely from the legislation. The only thing I can see is the emphasis on drunkenness and the conferral of discriminatory powers of access and admission to the vintners, the licensees. It is not good enough. It is a knee-jerk response to an issue, done without thinking. We only have the heads of the Bill. We do not know what will be contained in the final text. We will not see it for another two weeks at the earliest and then it will be guillotined.</p>
+          <p eId="para_38">On admission to licensed premises, the Minister is effectively saying licensees can admit anybody they choose at their discretion. He says that if there is a question about it, one can go to the District Court - one does not get a hearing under the equality tribunal. This is a particularly important development from the point of view of ethnic groups, Travellers and those entering in groups. The Minister is saying they will not get the benefits available to them currently, namely, a proper hearing before the equality tribunal and the assurance that the matter will be dealt with under the legislation that was set up specifically to deal with these matters.</p>
+          <p eId="para_39">Further, a publican will be able to decide whom he or she will allow on the premises. He or she can decide to allow only those over 65 years to enter and whether only those over 18, 21 or 25 years will be allowed in. The Minister is giving open-ended discretion to publicans to discriminate. That is not good enough. The Minister is on record as saying that once somebody has reached the age of 18 years, he or she is entitled to have a pint and should not be discriminated against. Now he is saying the opposite, that the publican can decide whether the person is entitled to have a pint. I do not think it is right for us to grant that power to the publican. It is proper that the national legislation should determine that process. This is a matter of equality and of rights, particularly for 18 year olds.</p>
+          <p eId="para_40">I am extremely disappointed with the legislation. It has taken a long time for the Minister to come up with this draft. He has discussed his proposals in one form or other over the past 12 months and has been on every chat show in the country. Only some of these proposals are before us. His new Left Bank café-style departure has disappeared into the blue. I do not know what happened to it. All of a sudden it is gone, although it was regarded as a necessary and essential part of what he intended to do. It was intended to change the drinking culture in Ireland. Now what is being done in terms of the culture? There is a culture of drunkenness and exclusion of certain sectors of our citizenry from public houses.</p>
+          <p eId="para_41">The Minister should go back to the drawing board. He should not think of presenting a Bill to us at this point. It will be rushed through and then it will be found to cause more problems than it solves. We have much good legislation that is not enforced. We should start off by enforcing the legislation in place and codifying the 70 or more Acts that deal with this matter. Then we can have a proper, comprehensive Bill which seeks to deal with this issue in a responsible fashion across the board, from the producer to the consumer. That would be a much better day's work. We should not try to rush through a measure while it is totally impossible to deal with the matter adequately.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_10">
+          <from>Deputy Deasy</from>
+          <p eId="para_42">This is a reasonable attempt to deal with some of the current problems. I am glad we have finally reached this point and look forward to working with the Minister over the next couple of weeks. He has come to the committee asking for political co-operation on this Bill. I heard him on radio in recent weeks weeks and he mentioned the Fine Gael policy document specifically, calling it something that could be written on the back of a beer mat and a load of shite. The language was insulting and disparaging.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_11" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_43">I did not use that language.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_44">The Deputy should withdraw that term.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_13">
+          <from>Deputy Deasy</from>
+          <p eId="para_45">Of course. What the Minister said, however, was insulting and disparaging. He has come here today——</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_14" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_46">I state clearly and emphatically that I did not use that language.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_15">
+          <from>Deputy Deasy</from>
+          <p eId="para_47">The Minister has come here today to make a plea for political co-operation. That is fair enough, and I will take him up on it. It was stated in the Fine Gael document that closing time should revert to 11.30 p.m. not only on Thursdays but also on Fridays and Saturdays. If the Minister wants political co-operation and Fine Gael to expedite this Bill, he can come back to me by the end of the week. We can support the proposals regarding admission to licensed premises because the law has been abused in that area. While I would like to support the Minister, I will listen to what he has to say over the next few weeks.</p>
+        </speech>
+        <speech by="#PeterPowerFF" eId="spk_16">
+          <from>Deputy P. Power</from>
+          <p eId="para_48">The Minister's announcement that the liquor licensing code of the past 150 years is to be codified is most welcome. It has been in the arena for some time but to have it confirmed today is important. For people like me who have been dealing with the complexity of the liquor licensing laws for over ten years, and those practising in the field, from publicans to lawyers, this is a welcome development. I also welcome the Minister's indication that in codifying the legislation he will consider the progress and implementation of the provisions of this Bill, which are a response to a growing public problem and concern. We now have a timeframe within which the provisions of the Bill will be reviewed. This has been part of the problem with intoxicating liquor licensing legislation, that it gives rise to unforeseen consequences which cannot be rectified until the next Bill is introduced. It is important, therefore, that we now have a set review period.</p>
+          <p eId="para_49">We agree that this is a multidimensional problem that involves all sectors of society - there are a number of socio-economic problems. I heard recently on "Morning Ireland", to my surprise, that the Irish have a genetic predisposition to alcohol related problems. I do not know if that is true but if it is, we are in difficulty. That is just one aspect of the problem.</p>
+          <p eId="para_50">I found several contradictions in Deputy Costello's contribution. He stated the "problem is that we have a culture of drunkenness" but two minutes later he criticised the Minister because the Bill was all about drunkenness. As the problem involves drunkenness and public disorder associated with the excessive abuse of alcohol, why not tackle it? For this reason I welcome the Bill. I am disappointed by Deputy Costello's excessively negative response to what appears to be a genuine, if interim, attempt to deal with a serious issue that is causing major public concern.</p>
+          <p eId="para_51">Without going through the individual aspects of the legislation, which I welcome, particularly those that attempt to deal with drunkenness associated with licensed premises, there is one issue on which I agree with Deputy Costello. If we are to tackle the problem of public drunkenness, we have to recognise that much of it is associated with the proliferation of off-licences and the problems of regulating them. I hope the Minister will revisit this when the legislation is formally published.</p>
+          <p eId="para_52">The most welcome aspect of the legislation is the proposal to introduce an ID card system with which I have no difficulties. The problem is drunkenness by young people in licensed premises. Identifying under age drinkers is a welcome and reasonable attempt to deal with. The one caveat at the outset was that if problems arose there would be an opportunity to review the matter in the codification legislation.</p>
+          <p eId="para_53">The Bill is a serious response to a growing public issue which is causing concern. I hope all parties will work through the detail in as short a time as possible to get it on the Statute Book.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_17" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_54">I welcome most of what has been said and assure the Deputies that I am in listening mode. I welcome Deputy Deasy's genuine offer to adopt a co-operative approach and will reciprocate in any way I can. I listened carefully to his point about 11.30 p.m. closing time for Fridays and Saturdays, on which I would like a consensus view. The only reason I chose 11.30 p.m. on Thursdays is that the Commission on Liquor Licensing recommended it. It was not a personal frolic of mine.</p>
+          <p eId="para_55">In response to Deputy Costello's points, I cannot amend the law covering road traffic. It is not my ministerial responsibility, but that of the Minister for Transport, Deputy Brennan, who will bring forward amending legislation in the near future. While I cannot deal with it, there is no reason for me to say that because I cannot deal with road traffic law, I will do nothing. I have to get on with my responsibilities. The Deputy is one of the foremost in pointing out that he wants me to get on with my agenda and not worry about those of others. I am getting on with my agenda.</p>
+          <p eId="para_56">The second point regards 24 hour off-licences on which the Deputy made a suggestion. It is not, and will not be, possible to run a 24 hour off-licence anywhere. I cannot prevent the Centra and Spar shops in city centre locations buying up licences in rural areas and transferring them to Dublin. Strangely, it is not necessary to have planning permission to include an off-licence in a premises. My Department will approach the Department of the Environment, Heritage and Local Government about the matter. I cannot change the planning Acts and say it is necessary to get planning permission. I take the point that the proliferation of outlets is significant, particularly on O'Connell Street.</p>
+          <p eId="para_57">When the Criminal Justice (Public Order) Bill 2002 came before the Dáil, Deputy Costello raised the question of the non-commencement of the provisions covering the identification of drink in order that it would be traceable to off-licences. I told him then that there were some difficulties about which the Garda had given me advice. In the meantime, taking on board the Deputy's point, I have asked officials in my Department to see if we can make the law, which has been criticised and not commenced, workable. The Deputy recalls that there is a requirement that the name and address should be printed on every container. We propose to make this work by providing for a unique identifying mark rather than printing the name and address on bottles, which might be difficult to do in some circumstances.</p>
+          <p eId="para_58">The Intoxicating Liquor Act 1924 provides for the control of off-licences generally. One of its provisions is that a person who is the holder of a licence should not serve people if they are going to drink in the vicinity of his or her premises. That is the law and there is a €50 fine for breaking it. I intend to restate that law in this Bill and upgrade the penalties in order that the licensee will be responsible for what happens in the vicinity of his or her off-licence and will not be able to say it is not his or her department when people leave the premises. The phrase used in the 1924 Act is "being drunk on the premises where the same is sold or in any highway, lane or byway adjoining or near such premises". It is a little Victorian. I want to modernise and make it effective. We will table an amendment to the scheme in the next few days to deal with that issue.</p>
+          <p eId="para_59">I remind Deputy Costello that the general provisions on identity cards and under age drinking apply to on-licences and off-licences. It is not true to say this Bill has nothing to do with off-licences or does not affect them. I thank Deputy Power for his comments on that area. I intend to ensure off-licences are fully comprehended by this measure.</p>
+          <p eId="para_60">I wish to deal with the equality issue which has been raised.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_18">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_61">Can you not, Chairman——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_19">
+          <from>Chairman</from>
+          <p eId="para_62">It is important that the equality issue is addressed because this committee has heard a number of submissions. Members of the committee have also addressed the matter. There is grave concern about the whole issue of equality and whether the equality tribunal is the correct vehicle to address it or whether it should be dealt with by the District Court. There is a question about access to the District Court being much more difficult than to the equality tribunal. I would appreciate it if the Minister would address the issue.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_20" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_63">It has been suggested that I am sweeping away the law on discrimination as it affects publicans and that I am doing this at their behest, as a group. Nothing could be further from the truth.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_21">
+          <from>Deputy Costello</from>
+          <p eId="para_64">The Minister is doing so.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_22" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_65">Perhaps the Deputy will hear me out. The law is not changing in any respect. The obligations of publicans not to discriminate are not being affected, with the exception of age discrimination, to which I will return at a later stage. Any person refused service or admission to a bar on the basis of ethnic background, Traveller status, gender orientation or religious or other grounds will be as fully protected by the law as they were before. The jurisdiction to decide such matters is being vested in the District Court. I will come back to the reason for this. The remedies will be more ample in the District Court than before the ODEI, the equality tribunal.</p>
+          <p eId="para_66">In addition to the financial compensatory penalties, there will be an entitlement for the District Court to close a premises on a temporary basis where discriminatory behaviour is engaged in by the owner in breach of their rights under the equal status law. This can be done under section 18. Section 18(8) also provides that where there has been an order in respect of this kind of behaviour, the licence can be revoked on that ground.</p>
+          <p eId="para_67">I want to make this clear. Anybody who claims the Bill is emasculating equality law is grossly distorting the situation. I am strengthening the penalties and vesting responsibility for all these provisions in one jurisdiction. I have been asked the reason I am doing this. The reason is simply this: failure to admit somebody to a premises is a ground, in some circumstances, for criminal punishment and, second, the revocation of one's licence. In other words, if there was no equality Act and the Minister for Justice, Equality and Law Reform, Deputy McDowell, turned up at a pub in Ranelagh and was refused admission arbitrarily, it would be open to me to object to a licence. This should be borne in mind because people appear to think that somehow the District Court is a soft touch for the licensed trade. It is not. The District Court has, on occasions, brought licensees to heel for their discriminatory practices. In one case it went the whole way and revoked a licence for discrimination and the licensee had to appeal and make undertakings to save his licence. The District Court must ensure people are not discriminated against. It will have this function vested in it completely under this new section.</p>
+          <p eId="para_68">Some say the District Court is more difficult to access than the ODEI. I do not believe that is the case but if there was any doubt on the issue, I have made express statutory provision for the Equality Authority to act as agent adviser and provide representation in the District Court for anybody who in its view needs that assistance. For the first time the authority is being given an active role in the District Court's jurisdiction as regards decisions on admission policies.</p>
+          <p eId="para_69">Some suggested I was trying to get at the equality industry and that I was doing so at the behest of publicans. That is not what is going on. What I am doing is creating one venue where people can get compensation, be assisted by the Equality Authority and where the same district judge who decides whether to renew a licence, or if a pub is properly conducted, will make a decision on discrimination. It is a bit rich for some to suggest the District Court is not sophisticated enough or in some way prejudiced, or case hardened, to the point where it is indifferent to the law relating to discrimination. Most, if not all, district judges have a well-advanced view on the issues that will arise under this new jurisdiction and will implement the law with rigid impartiality as between licensees and those claiming they were discriminated against.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_23">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_70">I welcome the debate on the Intoxicating Liquor Bill and the discussion on drunkenness, disorder and anti-social behaviour. Some of the reaction, including that of the Minister, is over the top because he is confusing issues such as alcohol abuse and bad policing in the State. We are also linking people's general behaviour with problems associated with alcohol. We have to face the reality that we have a problem with anti-social behaviour, a section of which is linked to alcohol. I regard this as a policing issue. Gardaí on the beat say if they walk around pubs between 11.30 p.m. and 1 a.m. on a Saturday night-Sunday morning, they can reduce the level of violence in their villages and streets by 50% to 60%. Where are they between 11.30 p.m. and 1 a.m. on Saturday night-Sunday morning?</p>
+          <p eId="para_71">I disagree strongly with many of the views expressed on the question of drunkenness. We are ignoring the reality that the vast majority go to the pub, have a drink and are well behaved, yet we are bringing forward legislation that will hammer them. Less than 10% or 15% of those who drink engage in major anti-social behaviour. Legislation is being introduced and we have a Minister who wants to have a nanny State. The Minister for Health and Children, Deputy Martin wants to have health police. Some say they cannot go out for a drink or have a smoke in their local pub. These are reasonable people and taxpayers. We want to have a nanny State. For the 90% who obey the law and have a drink this legislation is an over-reaction.</p>
+          <p eId="para_72">On alcohol abuse and drunkenness, the word to be drummed home from the day a child is born is "moderation". Most in this room are moderate drinkers because they were told from the beginning. They also had a strong family support and educational system. That is the message that has to be sent from the time a child starts school at four years of age.</p>
+          <p eId="para_73">In regard to the Minister's comment that he wants to strike a balance, the legislation he proposes and his ideas will not do this. On the question of putting back closing time to 11.30 p.m. on Thursday nights, there is no evidence to support that argument. I have major concerns about the section in question.</p>
+          <p eId="para_74">On the anti-family measures, if a family travelling home at 8.15 p.m. wants to stop off at a pub for a meal, and the mother and father want to have a glass of wine with that meal, they will be unable to do so. These measures will strike at the heart of modern families. This portion of the legislation is flawed.</p>
+          <p eId="para_75">On the question of advertising, while I agree we have to do something about the effects of advertising and over-marketing on children, we should not become too obsessed with our attitude to young people. Many assaults and murders in pubs are not committed by people between the ages of 18 and 21 years. They are committed by those over 30 years. The statistics show that alcohol-related domestic violence is perpetrated by those over the age of 30 years, with some perpetrators in their 40s and 50s. We must get off the stage when it comes to attacking young people. I agree a section have problems. I strongly support the National Youth Federation and other groups dealing with young people. We must listen to the views of young people.</p>
+          <p eId="para_76">On publicans, is the Minister aware that 30% of publicans found guilty of selling drink to under 18s did not have their premises closed under the Intoxicating Liquor Act? What is the reason for this? The problem is that we are not implementing existing laws, which is unacceptable.</p>
+          <p eId="para_77">The purpose of the proposed legislation is to amend the Licensing Acts 1883 to 2000. I welcome any efforts to improve the position in that regard but the jury is out in terms of the implementation of this legislation. Will it combat drunkenness? Will it deal with the problem of disorderly conduct? Will stronger penalties have the appropriate effect? We are approaching this problem from the wrong perspective.</p>
+          <p eId="para_78">Section 19 seeks to amend the Equal Status Act. I do not agree that people who strive for civil liberties are an industry. They are quality individuals whom I support.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_24" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_79">I did not say that.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_25">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_80">The Minister talked about the industry and said it was a bit rich for people not to trust——</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_26" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_81">I did not say that. I quoted others.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_27">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_82">Let me finish. I wrote down exactly what the Minister said. We can check the report later. Under section 19, the Minister seeks to amend the Equal Status Act. That is the reality. He is also trying to interfere with civil liberties. Many of us supported the Equal Status Act over the years but the Minister is now trying to tear up that legislation. He should not lecture us on this area.</p>
+          <p eId="para_83">I disagree with many sections of the legislation about which I am concerned. I am concerned also about some of the views of Deputy Deasy and other ideas coming from Fine Gael. While this legislation is bad, I do not support any ideas from Fine Gael, particularly in relation to closing time on Friday and Saturday nights.</p>
+          <p eId="para_84">On the Thursday and Friday nights closing time debate, the Irish Nightclub Owners Association has said not enough gardaí are rostered. In one town the weekend before last there were two gardaí patrolling in a town which has a complement of more than 40 officers. This strikes at the heart of the problem. We have 12,000 gardaí. Let us implement existing legislation and not try to bring forward legislation that is not good for young people and will do nothing to deal with the problem of alcohol abuse. Let us address it from a health point of view.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_28">
+          <from>Senator Terry</from>
+          <p eId="para_85">I welcome the Bill which contains a number of welcome provisions which, I hope, will have a effect on the problems of anti-social behaviour and drunkenness on our streets. However, I want to raise a number of points with the Minister.</p>
+          <p eId="para_86">The Bill will put a huge onus on publicans, which I welcome because pubs are the source of the drunkenness, but how will publicans implement the number of measures the Bill will impose upon them? It will be illegal for somebody to buy a drink at the bar and then give it to somebody else. How will publicans monitor what is happening in pubs? How will they be able to ensure they have backup from the Garda to evict a drunk person? There is no point in making laws if they cannot be implemented.</p>
+          <p eId="para_87">As other speakers said, the current laws should be implemented, a move we would welcome. I am concerned that we will bring forward further laws which will not be implemented. If a publican asks a drunk person to leave the premises, and even if he or she uses whatever force is needed to evict the person concerned, he or she should be able to ring the Garda station and request a garda to come to the premises. We know it can take some hours for a garda to respond. I do not blame the Garda for this; I am speaking in terms of providing adequate numbers of gardaí to deal with the situation in order that publicans can implement the provisions the Minister plans to impose on them. While I welcome these provisions, they will be useless if publicans are not given backup.</p>
+          <p eId="para_88">Any provisions in this legislation will have to provide for more gardaí on our streets. Where will the gardaí who will be able to enter a premises, either in uniform or plain clothes, come from? We do not have the resources. While I welcome the provisions contained in the Bill, I fear we will be unable to implement them.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_29">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_89">As I have to attend another committee meeting, I will try to be as brief as possible. My main area of concern, outside of what was mentioned about off-licences, about which the Minister said he might come forward with more changes, is that this legislation is a knee-jerk reaction to the problem. While changes are required, we should not exaggerate the problem. In the major part of my constituency, the problem is anti-social behaviour, which is not always related to drink. As Deputy McGrath said, in many cases it is related to drugs. Our experiences of drug abuse, particularly in Dublin, tell us that we can introduce as much legislation as we like but if we do not tackle the demand for drugs, the problem will not be solved. We should concentrate more on education of our youth while tackling the supply of drugs. In the majority of cases of under age drinking, the supply comes from off-licences rather than pubs.</p>
+          <p eId="para_90">There is mention in the draft of ID cards for those under 21 years whereas in law the age is 18 years. Why 21 years and not 25? Those over 18 years are as guilty of drunkenness as those much older. In the incidents in public houses I have seen, it is sometimes the older people who cause more problems and are more violent. The biggest problem with young drinkers is that they are messy, they fall over or whatever, some of which is to do with the type of drinking in which they engage rather than major violence. We have to be careful not to exaggerate the problem but address it in the appropriate manner.</p>
+          <p eId="para_91">The main problem I have with the legislation concerns the shift of jurisdiction from the equality tribunal to the District Court. I accept the Minister's point that District Court judges are quite sophisticated; nobody would suggest otherwise. They will also be capable of dealing with the problems if the legislation is enacted and they are granted jurisdiction in this area. In the Dáil yesterday the Minister said the courts system was already creaking, yet it is now proposed to shift to the District Court something that is being adequately dealt with by the tribunal, which was specially established to deal with cases arising in this area. It was intended to be a sophisticated body capable of dealing with cases which would otherwise clog up the District Court.</p>
+          <p eId="para_92">When making a determination about the renewal of licences and such like, the District Court should be informed if the tribunal makes findings against a publican or a licensed premises. However, we should try to avoid clogging up the court and leave these matters under the jurisdiction of a body which is managing well. There is a danger that if jurisdiction is removed from the equality tribunal in this area, other vested interests will lobby to have it removed in their areas. In view of this, I urge the Minister not to proceed with this proposal.</p>
+          <p eId="para_93">I will address my party's other concerns as the debate on the legislation proceeds. I caution against rushing the Bill through the Oireachtas. Even if it is rushed through, the points raised by other Deputies, for example, on the state of Garda resources, must be addressed. There is no point in passing legislation if it will not be enforced. There is enough legislation in this area, but it is not being enforced. In most of the suburbs of Dublin there are no gardaí on patrol at night time. Many areas do not even have at their disposal a Garda car which can respond to the normal anti-social behaviour not associated with pubs or drunkenness. In my area it takes two to three hours to get a Garda car to respond to death driving or joy-riding incidents. In one instance, a taxi man was hijacked, battered and left on the street. More than an hour elapsed before another taxi man collected him and brought him to the Garda station. Such incidents occur in the heart of Dublin. If it is impossible to get a response from the Garda in connection with these incidents, why is it proposed to burden the force with more legislation?</p>
+          <p eId="para_94">What is required is to redirect the resources at the disposal of the Garda to enable the force deal with current problems, rather than chasing pirate radio stations. It is necessary to prioritise. Communities deserve a proper police force, especially at night time when incidents involving anti-social behaviour occur.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_30">
+          <from>Senator Tuffy</from>
+          <p eId="para_95">I thank the Minister for his presentation to the committee. I recently travelled from Cork and stopped for a meal in the pub of a hotel at around 8.30 p.m. Many families with children were in the hotel having a meal because they were travelling home from a match. When parents take their summer holidays, they often bring their children to a nearby pub. I experienced this as a child and do not consider it damaged me. Parents would not have babysitting facilities and such activities are part of their holidays. In this regard, the proposed new section 34A discriminates against families, especially those of a certain age who have children. It is unreasonable and unnecessary.</p>
+          <p eId="para_96">The proposed new section gives rise to anomalies. For example, why is it acceptable to have children in a hotel where drink is served, but not in a pub, which may serve food or provide other facilities? Children in pubs are inconvenient for some, but they are not part of the problem associated with drunkenness and under age drinking. This provision discriminates against pubs in terms of their business interests.</p>
+          <p eId="para_97">I agree with other speakers that the provisions for age identification for those aged under 21 years is the wrong way to treat young adults. It is to treat them like children. If we want people to behave like adults and drink responsibly, we should treat them as adults. If the problem is one of under age drinking, why is it proposed to discriminate against some people who are legally entitled to drink?</p>
+          <p eId="para_98">The Bill contains a number of good provisions, but it needs to be given greater thought. Enforcement is the important aspect. In this regard, much more can be done in terms of enforcing existing legislation. There appears to be good enforcement of the law in some counties but not in others.</p>
+        </speech>
+        <speech by="#MarieHoctorFF" eId="spk_31">
+          <from>Deputy Hoctor</from>
+          <p eId="para_99">It is extraordinary for a member of the Opposition to inform the Minister that he should not seek to enact this legislation when the media is full of reports of how supposedly little the Minister has done to address the problems associated with the abuse of alcohol. I welcome the Minister's presentation. He is possibly the first Minister to impose a responsibility on families for dealing with the presence of children in pubs after a certain hour. While I sympathise with Senator Tuffy's concerns, the Minister has indicated his measures address concerns raised at State, local, family and individual levels.</p>
+          <p eId="para_100">We must all agree that the first forum for a child's education is the home and the example of adults closest to him or her, emotionally and in every other way. The silent example of adults, including parents, in the presence of children forms the attitude of the young person who will eventually become an adult. In this context, the issue of alcohol abuse is the most pressing problem facing the country and must be addressed. I welcome the speed with which the Minister is acting in this regard.</p>
+          <p eId="para_101">The proposal to exclude from pubs children and young people between the ages of 15 and 18 years after 8 p.m. needs to be clarified. For example, if such a person is found on a premises after that time are the parents or the publican acting illegally and, if so, what sanctions will be imposed?</p>
+          <p eId="para_102">I welcome the provisions regarding age identification. Many over the age of 21, or 31 years, would love to be asked for their age identification. There had to be some cut-off point. It could have been 25 years but the Minister has decided on 21 years. It is not a difficulty. People accept that it is difficult at times to identify a person's age. However, problems could arise in this area with regard to fraud. In some instances, tribunals of inquiry may be required to investigate the sophisticated fraud conducted by some people with regard to passports and driving licences, including tampering with highly sophisticated computer activity. Will it ever be possible to ensure such technology cannot be tampered with?</p>
+          <p eId="para_103">I welcome the Minister's initiative regarding off-licences. However, much more remains to be done, especially regarding situations where adults can buy alcohol and pass or sell it on to young people. At present, no responsibility is placed on adults to be accountable for this type of appalling behaviour. I understand the measures announced, which I welcome, form an interim response. The Minister is doing well.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_32">
+          <from>Deputy P. McGrath</from>
+          <p eId="para_104">Many interesting contributions have been made, but the nub of the problem is the serious abuse of alcohol on a regular basis, particularly at weekends. I do not know if the Minister has travelled around the country on Thursday, Friday or Saturday nights, but I invite him to visit Mullingar and walk the streets at around 2.30 a.m. on any of those days. He will be glad to have a Garda driver nearby as he will be anxious to leave.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_33" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_105">Is it a rough spot?</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_34">
+          <from>Deputy P. McGrath</from>
+          <p eId="para_106">It is not popular for me to say it, but it is a dangerous place to be. Some of the Minister's colleagues have severely criticised me for saying it, but the sad reality is that this is what is happening. Approximately three weeks ago, three young lads of around 20 years of age visited the town from the country. I know their families well. They are decent people. The lads had a few drinks and had bought a bag of chips while waiting to be collected. They were set upon by a gang of about eight people, including girls, who beat, kicked and severely injured them for no reason. They happened to be standing in the wrong place at the wrong time.</p>
+          <p eId="para_107">None of the measures we take will solve this problem unless there is a system of enforcement and unless the Garda Síochána has a presence on the streets at night time. The town of Mullingar has a Garda force of approximately 75. It would be worthwhile to examine the rostering of the gardaí and ascertain the number on duty between 12 a.m. and 6 a.m. on Friday, Saturday and Sunday mornings. It will probably be found that only a small number are on duty. What is the problem?</p>
+          <p eId="para_108">I am <i>au fait </i>with the three young lads who were assaulted because the parents of one of them contacted me and told me that there appears to be no follow-up when these incidents occur. Their son ended up in hospital in Dublin with a serious eye injury and facial wounds, scars from which he will probably keep for the rest of his life. The lads concerned made statements but we do not know what is happening.</p>
+          <p eId="para_109">The way members of the Garda Síochána do their job is their affair, but they should be accountable to the Minister and perhaps to this committee. It transpired that the garda investigating this case took leave shortly afterwards, which led to a delay in its proceeding until his return. Perhaps it is efficient to provide that one garda deal with a case, but from the point of view of PR and the parents of the young people involved, it is a disaster. They concluded that it appeared nobody was interested in a serious case, where people were perhaps within an inch of losing their lives. There must be a new approach to how these matters are addressed and the Minister must get on top of it.</p>
+          <p eId="para_110">We are approaching the season of the school debutante balls when, over the coming months, a series of events will take place in towns. Many of us will see young people returning home from these events in the early hours of the morning, some in a serious state. In my town, a pre-debutante ball was organised, to be attended by five or six busloads of youngsters from two or three schools. Thankfully, the Garda became aware of what was happening and contacted the premises concerned. It was aware of the situation and asked by the Garda what it proposed to do about the fact that at least 60% to 70% of those attending would be under age. The premises contacted the schools advising that the event had been cancelled. Those involved then found another premises but the Garda got prior notification so that when the buses arrived, the passengers were told that only a mineral bar would be available. On that information, they realighted and returned home. Another group visited pubs in the town and consumed alcohol while some just enjoyed themselves.</p>
+          <p eId="para_111">We must be far more vigilant about the law and its enforcement. Pre-emptive strikes by the Garda in the case of the pre-debutante balls did great good in terms of telling young people that they should behave and that there is no need for them to consume alcohol to have a good night out. As we approach the debutante balls season, it might be no harm for the Minister to ask the Garda to be kept informed of where they are to be held and to contact the premises concerned.</p>
+          <p eId="para_112">It will be a serious move to exclude children entirely from a pub at 8 p.m. Last Saturday, Westmeath had the awful experience of being defeated by Meath in a GAA match held in Portlaoise. The match started at 7 p.m. and spectators were lucky if they exited the grounds by 9 p.m. That is a family type occasion and those returning home may wish to have a bite to eat in a pub. Families should not be forced to split in such circumstances.</p>
+        </speech>
+        <speech by="#BreedaMoynihanCronin" eId="spk_35">
+          <from>Deputy Moynihan-Cronin</from>
+          <p eId="para_113">The Minister referred to the provision prohibiting publicans from serving those who are drunk. How will this work, especially if the customer declares he or she is not drunk and has taken only five drinks? Every psychiatrist will say that a person who consumes two drinks a day every day of the week is an alcoholic. Members of the Garda Síochána will not be present and the customer cannot be breathalysed. If the customer takes the publican to court declaring he or she was not drunk, on whom lies the onus of proof?</p>
+          <p eId="para_114">If the legislation proposes to prohibit certain people from entering premises, it should also provide that all, including the disabled, can have access. At present this is not the case. It is an equality issue.</p>
+          <p eId="para_115">It was recommended that a new off-licence should be created. What is the Minister's opinion on this? We are all aware of the problems caused by alcohol but I am not convinced these measures will resolve everything without increased Garda resources. Recently, I observed a gang of young people, who were not drunk, hassling locals and tourists on the street. If Garda foot patrols were deployed, such messers would not get away with what they were doing and many difficulties would be addressed.</p>
+          <p eId="para_116">I commend a night club owner in my home town who between 8 p.m. and 11 p.m. runs a "no alcohol" disco for young people. Night club owners who do this must be commended. A mineral bar is opened during the disco on premises that are run well and gardaí never have to intervene. They close their clubs for half an hour after the disco to stock up. Young people are facilitated without difficulty. More night club owners should do the same.</p>
+        </speech>
+        <speech by="#DennisODonovan" eId="spk_36">
+          <from>Deputy O’Donovan</from>
+          <p eId="para_117">I refer to a number of issues that may not be appropriate to the legislation. The Minister referred to a strategic task force on alcohol. I understand from a reliable source that the drinks industry is manufacturing and promoting a "short" drink that enters a person's bloodstream within seconds rather than minutes of being swallowed. The drinks people consume cause much of the problem. Is there a way to ban such drinks completely? Poteen, manufactured in the mountains of west Cork, has been banned for decades. A number of these new drinks are more potent and lethal, which is a worrying factor. My teenage children take two or three of these shots and the effect is like an injection as the alcohol enters the bloodstream immediately and affects their heart rate. This issue should be seriously examined. My source has also said manufacturers are promoting another drink that acts like an aphrodisiac or Viagra. Perhaps that would be good for somebody like myself who is pushing on but one wonders whether we are going down the right road.</p>
+          <p eId="para_118">Members who criticise the legislation are the most vocal in the Dáil, the Seanad and the media. There is great criticism of the Garda presence on our streets. However, that is not the issue. What about parental control? Where do teenagers attending a "debs" get the money to do so? Do they steal it? This aspect of the debate has been totally overlooked. I come from a rural area where gardaí observe public order difficulties rather than move in because sometimes when they mooch around groups of intoxicated people, the people concerned become antagonistic and the situation worsens. Gardaí go on patrol, keep their distance and only if there is a problem will they wade in.</p>
+          <p eId="para_119">I welcome the broad parameters of the legislation in principle. There may be minor issues. The purpose of keeping children out of bars is to stamp out cases of single mothers and fathers who occasionally bring their children into bars for the day, not to exclude families from entering bars. The thrust of the legislation should be welcomed. The Minister is damned if he does and damned if he does not. He is making a genuine attempt to grasp the nettle on an issue that has been highlighted over the past year or two. There are issues relating to education, parental control and Garda deployment. However, if the Minister trebled the number of gardaí on the streets, there would still not be enough Gardaí where I live to do a good job.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_37" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_120">I very much appreciate the opportunity to have this debate and the contributions of members. Many substantive points have been made one way or another. There is a spectrum of opinion on the committee. Deputies Finian McGrath and Ó Snodaigh are at one end saying the legislation is unnecessary while other members are saying I have been doing nothing during this crisis, asking where the legislation is and why action was not taken earlier. I accept there is a full spectrum of opinion in both Houses. I take Deputy O'Donovan's point that I am damned if I do and I am damned if I do not in many of these matters.</p>
+          <p eId="para_121">The debate highlights that the measures I propose are not extreme, unlike some criticism. They are middle of the road measures, which are not harsh or repressive. In cracking down on under age drinking, there must be a method to decide what age people are and if it is illegal for those under the age of 18 years to be on premises for the purpose of drinking. There must be a practical way to work out who is over 18 years. If Ireland was a continental country and everybody carried identity cards, there would be no problem. If we all habitually carried our PPS cards containing photographs and evidence of our date of birth, there would also be no problem. However, Ireland does not use identity cards and, as someone interested in civil liberties, I believe their introduction on a generalised and mandatory basis would change the relationship between ordinary people and the Garda because giving the Garda the right to demand such cards would marginalise the more vulnerable sections of the population by placing an obligation on them to account for themselves. If it was an offence to go to a shop on a Saturday morning without an identity card, people's attitude to the police would change slightly because they would feel a sense of guilt if a garda stopped them and told them they were committing an offence. That would subtly change our approach to law enforcement. I will not go down that road or take extreme steps.</p>
+          <p eId="para_122">Vintners have welcomed the introduction of a mandatory age card for a certain group within a reasonable period of achieving the age of majority - 18 years. I could have opted for 25 years and at one stage considered setting it at 23 years but my colleagues in Cabinet, with whom I agreed, took the view that 21 years was a reasonable cut-off point. There is a minority who look less than 18 years when they are aged 23 years and, sometimes, such rules cause them embarrassment. However, they will be able to obtain an age card and, therefore, avoid future embarrassment. There is nothing anti-young person in the legislation.</p>
+          <p eId="para_123">A number of contributors suggested I was preventing people from doing what was lawful. Nothing in the legislation is preventative. Those aged between 18 and 21 years will be obliged to prove their age when they enter pubs. They will be able to drink on the same basis as everybody else and the drunkenness provisions apply to adults in their 99th year just as much as they do to young people aged 18 or 19 years. There is no discriminatory element to these provisions.</p>
+          <p eId="para_124">Deputy Moynihan-Cronin, among others, asked what I meant by drunkenness and what was the onus of proof. The onus of proof in every case involving a criminal prosecution is proof beyond reasonable doubt. If it was reasonable for a publican at any point to doubt whether somebody was drunk, he or she could not be convicted of an offence. The prosecution must prove these matters beyond reasonable doubt.</p>
+          <p eId="para_125">A number of academics have said in some newspapers that the only way to prove this would be to take blood samples. This is the type of extreme remedy we could not possibly take. For a long time we have had laws against being drunk and disorderly and drunk on licensed premises. The District Court Judiciary has been able to make sense of that law without requiring people to have samples taken from them and it has given the benefit of the doubt to publicans.</p>
+          <p eId="para_126">Deputy Breeda Moynihan-Cronin asked what would happen where someone was refused by a publican on the grounds that he or she had consumed too much if the person sued the publican or objected to the licence on the grounds that he or she was refused despite being within the limit permitted. Under current law, a publican can say to a person he or she has had too much to drink and refuse to serve him or her. He or she is legally obliged to do so if he or she believes that to be the case. However, a person can object to the publican's licence if this is done with malice. As long as the publican believes it to be the case that a person is drunk, he or she is not obliged to serve him or her and it would be unlawful for him or her to do so.</p>
+          <p eId="para_127">It is already a criminal offence to allow drunken people be present on a premises, although a tiny penalty is attached to it. What we are doing in the Bill is providing for closure orders in cases where the presence of such people on premises is disregarded. That is the difference. Publicans, who are generally afraid of closure orders, will therefore take this obligation seriously. I believe, as I hope everyone else present does, that the majority of publicans do not make people drunk, are careful about what happens on their premises, do not want trouble, behave responsibly and uphold the law. However, there are cases, especially with super-pubs, where management has no knowledge of what is happening 30 yards away where drink is being dispensed by lounge staff to customers. There is no control in such circumstances. No one who makes decisions or who is in a position of authority is inspecting the consequences of serving drink in such circumstances.</p>
+          <p eId="para_128">What I hope to do - this feeds into the Garda resources issue - is to make publicans live up to their responsibilities so that, in respect of under age drinking, they will fear closure and have a workable system for identifying under age drinkers. In respect of drunkenness, publicans will find their premises closed by the local District Court, if people repeatedly leave their pubs drunk. It is similar to clamping for illegal car parking in Dublin. As soon as people believe there is someone with a remedy that will hit them severely in their pockets, they begin to obey the law. Attitudes to the law become lax where people believe the law is not enforced, unenforceable and dates back 50 years.</p>
+          <p eId="para_129">I said I would deal with equality issues. I wish to clarify for Deputy Paul McGrath that I did not use the phrase "equality industry". I said others had accused me of attempting to target the equality industry.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_38">
+          <from>Chairman</from>
+          <p eId="para_130">That was how I understood it.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_39" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_131">In case anyone takes offence, I said that was a motive imputed to me and I denied I had any such motivation, nor do I accept such terminology.</p>
+          <p eId="para_132">One provision of the Bill entitles publicans and off-licensees to operate age discrimination, which would otherwise be unlawful, provided they take two actions. One is that they should do so in a non-discriminatory way. They should not use it as a front to target Travellers or people of another ethnic background or whatever. The other is that they advertise the age discrimination policy. It will be possible for an off-licensee to say he or she does not sell spirits to someone under the age of 25 years because he or she feels uncomfortable doing so. That is trying to marry common sense with moral responsibility.</p>
+          <p eId="para_133">One of the problems with the way the law stands is that, if a 19 year old seeks to purchase spirits from an off-licence and the off-licensee has misgivings, wonders if the person is buying spirits to give to others who are under age or with the intention of drinking massively to excess, and deems it irresponsible to serve the customer, age is not a ground for refusing service in such circumstances. On one occasion, an off-licensee was ordered by the Office of the Director of Equality Investigations to pay compensation of €1,000 to a 19 year old to whom he had refused to serve spirits.</p>
+          <p eId="para_134">I am trying to produce a law with common sense, not one that is draconian, tramples on people's rights or is anti-young people. The average off-licensee will not target young people who normally have plenty of money available to them. However, if off-licensees propose to take a responsible attitude and not serve people under the age of 21 or 25 years with vast amounts of spirits in certain circumstances, I want to be in a position to support rather than punish them for taking such decisions. That is the direction in which we are going.</p>
+          <p eId="para_135">Deputy Paul McGrath raised a point about Mullingar. In case his political rivals attempt to say he is blackening the town, I know he is not doing so and is speaking from experience. It is by no means unique and is similar to many other places. One of the measures in the legislation is that the special exemptions on which night clubs effectively rely to open from 11.30 p.m. or 12.30 a.m. until 2.30 a.m. will be subject to a capacity on the part of local authority to consider them formally through a publicised process of submissions and consultation with the community to decide what opening hours it believes the local Judiciary should impose in respect of such licences and premises.</p>
+          <p eId="para_136">This is a perfectly reasonable provision. If Mullingar Town Council, Westmeath County Council or whoever is made responsible under the legislation passes a resolution in these terms, while it will not be binding on the local District Court in that it cannot be used unfairly to wipe out someone's business on a malicious basis, the District Court is obliged to have regard to the terms of such a resolution once it is passed. The local Judiciary in Mullingar can point to the fact that the local authority has said that it does not want night clubs to open beyond 1.30 a.m. on weekdays and may so order because it sounds like a reasonable proposition to the Judiciary. This is not the case at present, and if the local Judiciary was to have regard to some resolution passed by the local authority, the decision would probably end up in the High Court on the wrong end of a judicial review because it took into account matters that were not contemplated by the statute. I want a situation where the local community through its local representatives has an input into the issue to which Deputy Paul McGrath referred.</p>
+          <p eId="para_137">I know many local authority members are leery of this, to put it mildly, because they believe it will cause trouble for them. Such trouble is the responsibility either of the Garda, the Minister or the local community. Someone must take responsibility for night life in Mullingar being as the Deputy described. I believe passionately that the best people to do this are those whom the local community elects to decide on such matters, just as I believe it is perfectly reasonable for local authorities to decide on whether to allow gaming machines in their areas. No one has said it is a bad idea, and it allows Bundoran or wherever to allow gaming machines and Dublin City Council not to.</p>
+          <p eId="para_138">The Bill has many features that are reasonable and well balanced.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_40">
+          <from>Chairman</from>
+          <p eId="para_139">Will there be a provision making it obligatory for licensed premises to provide facilities for people who are wheelchair-bound?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_41" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_140">That is a matter for the Disability Bill, with which the Minister of State, Deputy O'Dea is dealing. There are a number of issues in this regard with which one must be careful. Many wheelchair users are discriminated against badly. Even when premises are wheelchair accessible, some publicans treat wheelchair users as second class citizens, telling them to tidy themselves up or not to obstruct movement in pubs. That is disgraceful but it happens. I received complaints of such behaviour while a Deputy. Those in wheelchairs have their dignity badly assaulted on such occasions, as they are effectively dealt with as second class citizens.</p>
+          <p eId="para_141">To give some examples, Bunratty Castle might be difficult to make wheelchair-accessible. I do not know if it is wheelchair-accessible, but it could be difficult to make every premises totally wheelchair-accessible. However, someone in a wheelchair who is unreasonably discriminated against by a publican will have redress under the legislation.</p>
+          <p eId="para_142">I wanted to raise the issue of children in pubs. Fine Gael said pubs should be child-free zones after 8 p.m., the point of view currently expressed in the Bill. Some think that is very harsh, particularly during the summer. They feel 8 p.m. is reasonable in Ranelagh on a winter's evening but it may not be reasonable in Roundstone at 8 p.m. during the summer. I ask Members of both Houses to consider whether I am right with 8 p.m. or whether 9 p.m. would be more sensible.</p>
+          <p eId="para_143">People may ask the reason we should have a limit at all. The situation is that if gardaí go into a large premises and see 16 and 17 year olds in either Roundstone or Ranelagh and then have to identify those children's parents in a crowded premises at night, the ban on under age drinkers would mean nothing. Finding out who belongs to whom or whether parents are present would be impractical. I stress that children would only be barred from the bar area of a hotel, for example. Therefore, the function rooms and so on are not covered. When and if the law is passed, it will be possible for publicans in places like Roundstone to reorganise their bars into restaurant and pub sections. They can then have families in the restaurant section all night, if necessary. Therefore, there are ways around this.</p>
+          <p eId="para_144">If it is possible for 17 year olds to be in a premises legally at closing time, which is what is effectively being suggested by some Deputies, I might as well throw my hat at tackling under age drinking. It would be impossible to determine what they are drinking or who has served them.</p>
+        </speech>
+        <speech by="#MarieHoctorFF" eId="spk_42">
+          <from>Deputy Hoctor</from>
+          <p eId="para_145">Are the publicans or parents acting illegally in that case?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_43" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_146">In the case of someone under 15 years the parents and the publican are responsible. The parents will be liable if they permit a child under 15 years to be on the premises in contravention of the law.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_44">
+          <from>Chairman</from>
+          <p eId="para_147">I thank the Minister for attending. This has been very valuable for him and members.</p>
+          <p eId="para_148">The witness withdrew.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_45">
+          <from>Chairman</from>
+          <p eId="para_149">I thank the delegations for attending and apologise for the length of time the previous discussion took but they will appreciate it was a valuable exercise. Most of the organisations represented have made submissions on this issue which we are looking to copperfasten for publication of the draft Bill.</p>
+          <p eId="para_150">While members enjoy absolute privilege, witnesses appearing before it do not.</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from>Ms Aisling Reidy</from>
+          <p eId="para_151">I will say a few words by way of introduction to make clear who is present. Ms Mary Keogh and Mr. Thomas McCann will then make submissions. The National Youth Council has had to pull out at the last moment.</p>
+          <p eId="para_152">Although some of us have been here before, we sought a meeting on behalf of the Equality Coalition, which comprises 12 groups which represent various human rights and equality organisations whose various members come from constituencies whose rights to equality are protected by the Equal Status Act 2000. The Equality Coalition represents Amnesty International (Irish section), the Forum for Persons with Disabilities, Age Action Ireland, the Gay and Lesbian Equality Network, Integrating Ireland, the Irish Council for Civil Liberties, Irish Traveller Movement, National Women's Council, National Youth Council of Ireland, One Parent Exchange Network, Pavee Point and Treoir. We have representatives of Pavee Point and the Gay and Lesbian Equality Network.</p>
+          <p eId="para_153">The Equality Coalition is a loose-knit coalition of organisations concerned about issues of equality. We have come together because of a recognised need to monitor equality legislation and safeguard against the rowing back or undermining of its provisions, which is what we see the proposals in the Bill as doing. We intend to campaign for the strengthening of equality and anti-discrimination measures.</p>
+          <p eId="para_154">We know there is an equality coalition in Northern Ireland, which we mirror and which, again, is a loose-knit coalition of groups and organisations which specifically looks at enforcement of equality rights under section 75 of the Northern Ireland Act 1998. The Equality Coalition operates on the premise that the Government has an obligation under chapter 6 to provide equal rights protection in the Republic. We will seek to ensure equality legislation is protected and improved to the quality of that in the North.</p>
+          <p eId="para_155">I will hand over to Ms Mary Keogh, who will make representations on the general threat to equality legislation in the Bill and Mr. Thomas McCann, who will discuss the jurisdiction of the equality tribunal which is being taken away from it.</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from>Ms Mary Keogh</from>
+          <p eId="para_156">I will deal with the key points on the perceived threats to equality legislation. The Equality Coalition is alarmed at the ease with which the Government is seeking to row back protection provided for in existing equality legislation, in particular the Equal Status Act 2000. It recalls that the legislation was enacted just three years ago and was brought forward with the support of all parties in the Oireachtas. It was hard fought for and is aimed at protecting members of society who have historically experienced discrimination as a result of their status.</p>
+          <p eId="para_157">We also recognise that the Equal Status Act 2000 has helped heighten awareness of the entitlement of discriminated groups to their rights of equal access to goods and services and create a new assertiveness in exercising these rights. This should not be under-stated. The minority groups represented within the equal status legislation have realised their rights and have been working in recent years in that regard. Our fear is that given the change in jurisdiction, this will have an effect on this. The Equality Coalition notes that the proposal to change the Equal Status Act and remove the jurisdiction of the equality tribunal was a measure sought solely by the licensed trade and has been adopted by the Government without consultation with the Equality Authority, other equality groups or constituencies or the Human Rights Commission.</p>
+          <p eId="para_158">It is worth considering the effects of the erosion of equality legislation or diminution of the role of the Equality Authority on people with disabilities. The Equal Status Act places an obligation on service providers to do all that is reasonable to accommodate the needs of a person with disability by providing special treatment or facilities. If the proposed amendments are accepted, disabled people will not be able to take a case to the ODEI. They will have to go to the District Court which, nine out of ten times, is not accessible, whether physically or financially.</p>
+          <p eId="para_159">The Equality Coalition is committed to equal treatment for persons vulnerable to discrimination. Our fear is that service providers are always likely to have considerable influence within the political process, whereas potential complainants under the Equal Status Act are, by definition, drawn from the more vulnerable sections of society. If the legislation is amended in this instance, a clear statement will be sent that if decisions under equality legislation go against a particular sector or service provider, they can lobby Government for relief.</p>
+          <p eId="para_160">The Equality Coalition believes all issues pertaining to the application of the Equal Status Act 2000, and any review of its operation, are properly within the primary competence of the Equality Authority. Issues raised by any other public body affecting the legislation should be considered in that context.</p>
+        </speech>
+        <speech by="#" eId="spk_48">
+          <from>Mr. Thomas McCann</from>
+          <p eId="para_161">Section 18 of the legislation refers to the transfer of jurisdiction from the equality tribunal to the District Court. This provision will strip the tribunal of its jurisdiction to hear cases of discrimination under the Equal Status Act, where discrimination has taken place in a licensed premises. Any proposal to replace the role of the tribunal with District Court jurisdiction for cases taken under the Act is unacceptable and constitutes a fundamental erosion of its provisions.</p>
+          <p eId="para_162">Contrary to assertions made, the proposal to remove the jurisdiction of the equality tribunal was not a recommendation made by the Commission on Liquor Licensing or anyone else. It was a suggestion raised in the report by some members of the commission but did not receive the endorsement of the commission as a recommendation. It was never a recommendation to move the jurisdiction to the District Court.</p>
+          <p eId="para_163">The removal of the right of the equality tribunal to consider a certain category of cases involving enforcement and violation of the Equal Status Act is a fundamental erosion of the Act and the role of the ODEI. The Equality Coalition notes that the purpose of setting up the equality tribunal's jurisdiction was specifically to provide an avenue or redress which was more accessible for victims of discrimination. The procedures before the tribunal would be less formal and costly for all involved. It would be more flexible and help achieve the aims of equality legislation. The proposal to transfer jurisdiction from the tribunal to the District Court is in direct contradiction to the reason for the establishment of the tribunal. The reason for setting it up was to make it more accessible, less formal, less costly and enforce the Act.</p>
+          <p eId="para_164">The Equality Coalition notes that there is no rationale provided as to the reason the Equal Status Act should be undermined in this way. The suggestion that the measure is only aimed at bringing all licensing matters under the jurisdiction of the District Court is disingenuous. It ignores the fact that the predominant issues in cases of discrimination relate to the enforcement of equality law, not licensing matters. Before the legislation was introduced, a number of cases were taken on licensing, which was the only way to challenge discrimination.</p>
+          <p eId="para_165">The result of section 18 is that publicans will receive special treatment under equality legislation in contrast to other goods and service providers. This directly contradicts the idea of achieving equality. An example of how this might work in practice would be as follows: if someone is discriminated against in a restaurant, he or she will have recourse to the equality tribunal. However, where someone wishes to avail of a restaurant attached to a pub, and he or she is discriminated against, he or she will have to take the case to the District Court. This provides very uneven and arbitrary protection from discrimination. What is to stop other service providers from lobbying to have their cases heard in the District Court? This waters down the whole purpose of the Equal Status Act.</p>
+          <p eId="para_166">The transfer of jurisdiction will undermine the central purpose of making accessible a course of redress for those who suffer discrimination. While taking a case to the equality tribunal involved a minimum cost and formality for both sides, the court system, even at lower court level, is expensive and complex. Taking a case in the District Court will require the engagement of a solicitor at a minimum, if not a barrister, with all the attendant costs. If a case is lost at District Court level, this may result in the applicant having to pay not just his or her own costs but also those of the publican. This will prove to be an effective deterrent for those of limited financial resources to take a case, even if there has been clear discrimination against them.</p>
+          <p eId="para_167">The draft Bill proposes that the Equality Authority will be able to continue its functions as a supporting agency for persons bringing actions before the District Court. The Equality Coalition submits that this proposal is not sustainable. For logistical reasons alone, the authority has neither the legal staff nor the resources to engage in localised District Court actions. This proposal will, therefore, have the effect of greatly inhibiting the functions of the Equality Authority. I know from my experience with the authority, and being involved with the Traveller community, that this measure is not workable. The reality is that it will not work in practice. The authority is stretched to the limit in terms of resources.</p>
+          <p eId="para_168">I will not go through all the points. However, on age discrimination, the change may be a good idea. The experience of Travellers has been that publicans have used situations to discriminate against them. There appears to be no redress under the legislation for parents of Traveller children who try to get a meal or cup of tea if the publican stops them because they are accompanied by children. The same applies to drunkenness. In some instances publicans have claimed that Travellers have had too much to drink. It was shown that they had not. This poses huge difficulties. The key issue is rolling back on equality legislation and moving cases to the District Court.</p>
+        </speech>
+        <speech by="#" eId="spk_49">
+          <from>Mr. Christopher Robson</from>
+          <p eId="para_169">Our organisation was founded 16 years ago. One of our aims at that stage was the establishment of such an authority as the Equality Authority and the enactment of various pieces of equality legislation regarding employment and so on. We have negotiated the introduction of legislation with all of the Ministers for Justice since that time. We had detailed discussions with former Ministers, Mervyn Taylor, and Deputy John O'Donoghue, up to the establishment of the authority.</p>
+          <p eId="para_170">About two years ago I was in a meeting in the Equality Authority and a person from Brussels stood up and said, "I am not here to tell you anything; I am here simply to learn." The equal status legislation is the best such legislation in Europe and both it and the Equality Authority are models for the European Union. We are concerned at the way in which it seems so easy for one of the key principles to have been broken.</p>
+          <p eId="para_171">The issue relates to the intoxicating liquor aspect. For members of our community, gays, lesbians and bisexuals, bars are extremely important. It is the case that bars are where we can meet other people to get on with our lives, meet other gays and lesbians and make friendships or connections. I worked on the phone advice lines years ago and the question always asked was where people could meet in their locality. Frequently the answer was, "Nowhere". Occasionally we might be able to say that there would be a meeting on a specific night in such and such a bar. However, bars frequently discriminate.</p>
+          <p eId="para_172">Vintners realise that a few of their customers may be lesbian or gay, perhaps on a specific evening, and decide they do not like this and instruct their bouncers to indicate to people that they are not welcome. There are not many proven cases of this, partly because people, until recently, were reluctant to come forward. There was no protection. People are then intimidated away. The word goes round and that is the end of a meeting place where people were just sitting talking and having a drink. I am not talking about party groups but about two, three or four people sitting in a corner having a drink who are told, "People like you are not welcome. Please leave this premises." I experienced this myself in earlier years.</p>
+          <p eId="para_173">Most lesbian and gay people still live in fear. That is the reality. It is a paradox that people like me who live outside fear and have a perfectly good lifestyle have to talk on behalf of huge numbers, literally hundreds of thousands of Irish citizens, most of whom still hide. That is the reason we were so excited and enthused when the Equality Authority and the equal status legislation were introduced. People live in fear, particularly outside the big cities. It is only in the two or three cities that there is some degree of acceptance and living in normality.</p>
+          <p eId="para_174">There is real change. Under current legislation people are beginning to take cases, knowing that the equality tribunal has got the expertise to decide on discrimination. The tribunal knows the mechanisms whereby it can prove discrimination has taken place. Discrimination must be proved, it cannot just accept allegations. Where proof can be given and there is an understanding of the mechanisms of discrimination, the tribunal is the expert. There is no chance of local lesbian and gay people going to a District Court to complain, knowing that the following day or week the local paper will give their names and the details of their complaint, announcing that they were discriminated against in a bar because they were lesbian, gay or queer or whatever word the local paper chooses to use.</p>
+          <p eId="para_175">The principle deep within the Equal Status Act behind combating the discrimination taking place has been diminished by this proposal, which is a serious derogation. I associate totally with comments made by other speakers and in the submission. If, simply by asking for it, one group can get the Act seriously diminished, what chance is there of maintaining it, particularly in regard to our specific duty under the Human Rights Act?</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from>Ms Reidy</from>
+          <p eId="para_176">May I make one submission in regard to the age card?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_51">
+          <from>Chairman</from>
+          <p eId="para_177">Yes, but please allow us time to ask questions.</p>
+        </speech>
+        <speech by="#" eId="spk_52">
+          <from>Ms Reidy</from>
+          <p eId="para_178">My point is set out in full in the written submission. I draw the attention of the committee to the fact that in proposing the measures on an age card ID, the Minister said in the draft Bill that it was based on New Zealand legislation. I had a look at that legislation. It currently mirrors our own legislation which states ID cards, if produced, can be used as a defence by a publican for prosecution for under-age drinking. New Zealand specifically rejected the idea that 18 to 20 year olds should have to carry ID cards because it did not see the reason a person lawfully engaged in a legal activity should have to carry one. There are a number of issues in that regard. I have the New Zealand legislation and the report of the privacy commissioner there who was asked to look into the issue when they considered going down that path. I can make it available if the committee would like it. It is important that we are aware that what is implied by the Bill - that it is modelled on New Zealand legislation - is not actually the case in the draft Bill.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_53">
+          <from>Deputy Costello</from>
+          <p eId="para_179">I welcome the group. It is not so long since the group was here and we thrashed out these issues. I am not sure everybody thought the Minister would seriously go down this road, particularly as it was not actually a recommendation of the Liquor Licensing Commission that he should transfer jurisdiction from the equality tribunal to the District Court. While it was discussed, it was not a recommendation.</p>
+          <p eId="para_180">Our problem is that we will have limited opportunity to discuss this legislation. The Minister has said he expects it to go before Cabinet ten to 14 days from now and it will depend on whatever Cabinet decides. At a maximum, we will have two weeks to look at the legislation. While we will try to bring forward amendments and discuss it, it will be difficult to get a proper airing of this and other key issues.</p>
+          <p eId="para_181">In response to Deputy Moynihan-Cronin's question in regard to wheelchair access, the Minister found great difficulty with imposing any onus on publicans to provide access for people who are physically disabled. At the same time he does not seem to have any problem in providing powers to publicans to refuse admission on various equality grounds. That is the heart of the matter.</p>
+          <p eId="para_182">The big danger in this is that it is happening at the instigation of one service provider. If the Minister can undermine the whole thrust and principle of equality legislation because a service provider does not like it, or wants a different regime, we are in danger of dismantling the whole equality apparatus for which people fought so hard. Equality legislation has given vulnerable people the opportunity to come out of the woodwork and stand up and feel they are getting a fair hearing. This issue is at the heart of the Minister's present proposal.</p>
+          <p eId="para_183">This is licensing legislation; it is not essentially a discriminatory matter. Once the Bill has been allowed to have this provision grafted on to it, there can be all sorts of grafting on in similar fashion by other providers of services who equally want to be able to discriminate. The Minister states his intention is to discriminate in a non-discriminatory fashion but how can that be? That is a load of rubbish. We have a serious problem about this, which is the reason I am so concerned. The Minister is coming in at the dog end of the session and telling us this is urgent legislation and that we are standing in the way if we delay it. That is not fair. I am concerned that we will not have a proper debate on the issue. The committee will discuss it at some stage before the summer recess but will we have a debate that will be guillotined? It seems there will be a guillotine on Second Stage, Committee Stage, Report Stage——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_54">
+          <from>Chairman</from>
+          <p eId="para_184">I do not know whether our guests can answer that question.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_55">
+          <from>Deputy Costello</from>
+          <p eId="para_185">We will not have the opportunity because the Minister overstayed his time. I wish to let our guests know of the restrictions under which we will be operating in our efforts to amend this legislation and assist their position.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_56">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_186">I will not make a long speech regarding the Equal Status Act because I spoke in the debate. I welcome the groups to the meeting. In particular, I welcome Mr. Thomas McCann, whom I have known for many years and who is making representations on the question of Travellers' rights.</p>
+          <p eId="para_187">I speak as an Independent Deputy and on behalf of the other Independents. There are 12 of us in Dáil Éireann. We have major concerns about any attempt to undermine the Equal Status Act. We will support your position and challenge the Minister on this legislation as we did in the earlier debate. We will do all we can to support you.</p>
+        </speech>
+        <speech by="#MarieHoctorFF" eId="spk_57">
+          <from>Deputy Hoctor</from>
+          <p eId="para_188">The Minister was emphatic about the role of the Equality Authority in relation to the District Court. He stressed the participation of the authority in an advisory capacity working in conjunction with the District Court. Mr. McCann said marginalised people would not be able to afford to make representations through the judicial system. Would such a provision be covered under the scheme of free legal aid?</p>
+        </speech>
+        <speech by="#" eId="spk_58">
+          <from>Mr. McCann</from>
+          <p eId="para_189">No, it would not, as far as I know. Cases taken under the Equal Status Act are not covered because it would be a civil action rather than a criminal action.</p>
+          <p eId="para_190">The reason for my assumption that this is an unworkable proposition is that I sat on the board of the Equality Authority at its inception. I was a member of the first board and had an insight into the representative quality of the authority. I have knowledge of its limited resources and believe this proposal will not be operable.</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from>Ms Keogh</from>
+          <p eId="para_191">I will speak about the District Court. From my perspective there is a contradiction in terms. We have met the Minister regarding the Disability Bill and he has told us emphatically that taking rights to the courts is not the way to proceed. Now we find he is recommending that the District Court play a part. One of his key arguments was that he did not wish to have the courts clogged up, yet by amending the legislation and involving the District Court, this is exactly what will happen.</p>
+        </speech>
+        <speech by="#" eId="spk_60">
+          <from>Ms Reidy</from>
+          <p eId="para_192">I thank the committee for the invitation and appreciate its giving the Equality Coalition a hearing. There is one point nobody mentioned. The Bill is being rushed through, although it contains a provision which will damage the Equal Status Act no matter what the Minister says. The Government has an obligation to transpose by July the race directive which prevents any diminution of existing rights legislation. When it rows back the enforcement mechanisms, it is acting contrary to the directive and not taking measures to impose it.</p>
+          <p eId="para_193">There will be an opportunity for all existing equality legislation to be reviewed in the transposition of the race directive, the gender equality directive and one other EU equality directive that needs to be imposed this year. We suggest that if there are issues about looking at existing equality legislation, it should be done in the round with a comprehensive review of existing equality legislation and the imposition of the various EU race directives in order that everyone can make representations to the appropriate body, not just on the whim of a particular interest group.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_61">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_194">Will Mr. McCann say whether the situation regarding discrimination against Travellers has improved or disimproved over the past 15 years?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_62">
+          <from>Chairman</from>
+          <p eId="para_195">That is another general question.</p>
+        </speech>
+        <speech by="#" eId="spk_63">
+          <from>Mr. McCann</from>
+          <p eId="para_196">Over the past ten or 15 years, the introduction of the Equal Status Act has given people a voice in terms of being able to contest discrimination, particularly by this sector. There are a huge number of cases involving licensed premises. It has given people the hope that at least there is a move towards a more equal society.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_64">
+          <from>Chairman</from>
+          <p eId="para_197">I thank our guests for appearing before the joint committee. I apologise for the short time available but the matter has been discussed at an opportune time. Members of the committee will take note of your concerns and we will work from there. As they say, watch this space.</p>
+        </speech>
+        <summary eId="sum_7">The joint committee adjourned at 11.50 a.m.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

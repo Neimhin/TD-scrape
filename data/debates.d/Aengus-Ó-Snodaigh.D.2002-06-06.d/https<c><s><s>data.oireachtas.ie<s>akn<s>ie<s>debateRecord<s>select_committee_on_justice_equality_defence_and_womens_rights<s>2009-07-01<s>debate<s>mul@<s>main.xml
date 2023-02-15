@@ -1,0 +1,864 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2009-07-01/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2009-07-01/debate"/>
+          <FRBRdate date="2009-07-01" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/select_committee_on_justice_equality_defence_and_womens_rights"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2009-07-01/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2009-07-01/debate/mul@"/>
+          <FRBRdate date="2009-07-01" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2009-07-01/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2009-07-01/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_18" refersTo="#bill.2006.43.dail.3.amd_40.amd_2" outcome="#??">
+            <count eId="vote_1-count_1" value="8" refersTo="#ta" href="#qty_1"/>
+            <count eId="vote_1-count_2" value="6" refersTo="#nil" href="#qty_2"/>
+          </voting>
+        </parliamentary>
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="notmoved" href="/ie/oireachtas/ontology#NotMoved" showAs="Not Moved"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCConcept eId="carried" href="/ie/oireachtas/ontology#DeclaredCarried" showAs="Declared Carried"/>
+        <TLCConcept eId="agreed" href="/ie/oireachtas/ontology#Agreed" showAs="Agreed"/>
+        <TLCConcept eId="lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCEvent eId="bill.2006.43.dail.3" href="/ie/oireachtas/bill/2006/43/dail/3" showAs="Defamation Bill 2006: Dáil Committee Stage"/>
+        <TLCEvent eId="bill.2006.43.dail.3.amd_40" href="/ie/oireachtas/bill/2006/43/dail/3/amd_40" showAs="Defamation Bill 2006: Dáil Committee Stage - Amendment No. 40"/>
+        <TLCEvent eId="bill.2006.43.dail.3.amd_40.amd_1.notmoved" href="/ie/oireachtas/bill/2006/43/dail/3/amd_40/amd_1/notmoved" showAs="Defamation Bill 2006: Dáil Committee Stage - Amendment No. 40 (Not Moved)"/>
+        <TLCEvent eId="bill.2006.43.dail.3.amd_40.amd_2" href="/ie/oireachtas/bill/2006/43/dail/3/amd_40/amd_2" showAs="Defamation Bill 2006: Dáil Committee Stage - Amendment No. 40 (Amd_2)"/>
+        <TLCEvent eId="bill.2006.43.dail.3.amd_41" href="/ie/oireachtas/bill/2006/43/dail/3/amd_41" showAs="Defamation Bill 2006: Dáil Committee Stage - Amendment No. 41"/>
+        <TLCEvent eId="bill.2006.43.dail.3.amd_41.carried" href="/ie/oireachtas/bill/2006/43/dail/3/amd_41/carried" showAs="Defamation Bill 2006: Dáil Committee Stage - Amendment No. 41 (Carried)"/>
+        <TLCEvent eId="bill.2006.43.dail.3.amd_42" href="/ie/oireachtas/bill/2006/43/dail/3/amd_42" showAs="Defamation Bill 2006: Dáil Committee Stage - Amendment No. 42"/>
+        <TLCEvent eId="bill.2006.43.dail.3.amd_42.agreed" href="/ie/oireachtas/bill/2006/43/dail/3/amd_42/agreed" showAs="Defamation Bill 2006: Dáil Committee Stage - Amendment No. 42 (Agreed)"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="BobbyAylward" href="/ie/oireachtas/member/id/Bobby-Aylward.D.2007-06-14" showAs="Bobby Aylward"/>
+        <TLCPerson eId="BrendanKenneally" href="/ie/oireachtas/member/id/Brendan-Kenneally.D.1989-06-29" showAs="Brendan Kenneally"/>
+        <TLCPerson eId="BrianOShea" href="/ie/oireachtas/member/id/Brian-O'Shea.S.1987-04-25" showAs="Brian O'Shea"/>
+        <TLCPerson eId="CharlesFlanagan" href="/ie/oireachtas/member/id/Charles-Flanagan.D.1987-03-10" showAs="Charles Flanagan"/>
+        <TLCPerson eId="DarraghOBrien" href="/ie/oireachtas/member/id/Darragh-O'Brien.D.2007-06-14" showAs="Darragh O'Brien"/>
+        <TLCPerson eId="DenisNaughten" href="/ie/oireachtas/member/id/Denis-Naughten.S.1997-01-28" showAs="Denis Naughten"/>
+        <TLCPerson eId="DermotAhern" href="/ie/oireachtas/member/id/Dermot-Ahern.D.1987-03-10" showAs="Dermot Ahern"/>
+        <TLCPerson eId="DinnyMcGinley" href="/ie/oireachtas/member/id/Dinny-McGinley.D.1982-03-09" showAs="Dinny McGinley"/>
+        <TLCPerson eId="JimOKeeffe" href="/ie/oireachtas/member/id/Jim-O'Keeffe.D.1977-07-05" showAs="Jim O'Keeffe"/>
+        <TLCPerson eId="NoelTracey" href="/ie/oireachtas/member/id/Noel-Treacy.D.1982-07-20" showAs="Noel Treacy"/>
+        <TLCPerson eId="PatRabbitte" href="/ie/oireachtas/member/id/Pat-Rabbitte.D.1989-06-29" showAs="Pat Rabbitte"/>
+        <TLCPerson eId="SeanArdagh" href="/ie/oireachtas/member/id/Seán-Ardagh.D.1997-06-26" showAs="Seán Ardagh"/>
+        <TLCPerson eId="SeanConnick" href="/ie/oireachtas/member/id/Seán-Connick.D.2007-06-14" showAs="Seán Connick"/>
+        <TLCPerson eId="ThomasByrne" href="/ie/oireachtas/member/id/Thomas-Byrne.D.2007-06-14" showAs="Thomas Byrne"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Justice,_Equality_and_Law_Reform" href="/ie/oireachtas/role/minister/justice__equality__law_reform" showAs="Minister for Justice, Equality and Law Reform"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>ROGHCHOISTE UM DHLÍ AGUS CEART, COMHIONANNAS, COSAINT AGUS CEARTA NA mBAN</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON JUSTICE, EQUALITY, DEFENCE AND WOMEN'S RIGHTS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2009-07-01">Dé Céadaoin, 1 Iúil 2009</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2009-07-01">Wednesday, 1 July 2009</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 2.30 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#DermotAhern">Deputy Dermot Ahern <i>(Minister</i>
+                                    </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#DenisNaughten">Deputy Denis Naughten,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <i>for Justice, Equality and Law</i>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#DarraghOBrien">Deputy Darragh O’Brien,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5"><i>Reform)</i>,</p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#JimOKeeffe">Deputy Jim O’Keeffe,*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#SeanArdagh">Deputy Seán Ardagh,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#BrianOShea">Deputy Brian O’Shea,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#BobbyAylward">Deputy Bobby Aylward,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#PatRabbitte">Deputy Pat Rabbitte,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#ThomasByrne">Deputy Thomas Byrne,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#NoelTracey">Deputy Noel Treacy.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#SeanConnick">Deputy Seán Connick,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#CharlesFlanagan">Deputy Charles Flanagan,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#DinnyMcGinley">Deputy Dinny McGinley,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">* In the absence of Deputies Niall Collins, Michael Mulcahy and Jimmy Deenihan, respectively.</summary>
+          <summary eId="sum_4">In attendance: Deputy Aengus Ó Snodaigh.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#BrendanKenneally">DEPUTY BRENDAN KENNEALLY IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Select Committee.</heading>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_16">I welcome the Minister for Justice, Equality and Law Reform and his officials.  As we are in public session, I ask that all mobile telephones be switched off.</p>
+          <p eId="para_17">Items of correspondence Nos. 73 to 75, inclusive, 77 to 81, inclusive, and 84, all of which pertain to the Criminal Justice (Miscellaneous Provisions) Bill 2009, were previously circulated to members.  Additional items of correspondence pertaining to the Bill have been received, namely, Nos. 111, 114 and 115, and have been circulated.  Is it agreed to note these items?  Agreed.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3" refersTo="#bill.2006.43.dail.3">
+        <heading>Defamation Bill 2006 [Seanad]: Committee Stage (Resumed). </heading>
+        <summary class="Center" eId="sum_6">SECTION 35</summary>
+        <summary eId="sum_7">Debate resumed on amendment No. 40:<entity refersTo="#bill.2006.43.dail.3.amd_40" name="amendment"/>
+                </summary>
+        <summary class="indent_1" eId="sum_8">In page 26, before section 35, but in Part 5, to insert the following new section:</summary>
+        <summary class="indent_1" eId="sum_9">35.—(1) A person who publishes or utters blasphemous matter shall be guilty of an offence and shall be liable upon conviction on indictment to a fine not exceeding €100,000.</summary>
+        <summary class="indent_1" eId="sum_10">(2) For the purposes of this section, a person publishes or utters blasphemous matter if—</summary>
+        <summary class="indent_1" eId="sum_11">(a) he or she publishes or utters matter that is grossly abusive or insulting in relation to matters held sacred by any religion, thereby causing outrage among a substantial number of the adherents of that religion, and</summary>
+        <summary class="indent_1" eId="sum_12">(b) he or she intends, by the publication or utterance of the matter concerned, to cause such outrage.</summary>
+        <summary class="indent_1" eId="sum_13">(3) It shall be a defence to proceedings for an offence under this section for the defendant to prove that a reasonable person would find genuine literary, artistic, political, scientific, or academic value in the matter to which the offence relates.</summary>
+        <summary class="Right" eId="sum_14">- (Minister for Justice, Equality and Law Reform).</summary>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_2">
+          <from>Chairman</from>
+          <p eId="para_18">Does any member wish to comment on this amendment?  We held a lengthy discussion on it at our last meeting.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_3">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_19">Members will recall that business arose in the House in the form of special notice questions which led to the adjournment of our last meeting.  We had given the amendment considerable amplification by that point.  I simply ask the Minister for Justice, Equality and Law Reform to withdraw the amendment because it is unworkable.  It is a classic case of an Irish solution to an Irish problem but I do not believe it will advance our laws in any positive respect.</p>
+          <p eId="para_20">The Minister has already referred to the all-party committee and the comments made by his Government colleagues.  The Minister for Foreign Affairs, Deputy Martin, clearly intimated that the type of amendment proposed is not the way forward.  The Minister, Deputy Dermot Ahern, indicated at our last meeting that a referendum would create certain difficulties.  If he is in agreement with the Law Reform Commission's proposal that the matter could be addressed at some stage in the future, I submit that the sense of urgency he would assert does not in fact exist.  There is sufficient evidence by way of expert opinion that the retention of the present constitutional offence is not appropriate and it is a recipe for bad law to enshrine it in legislation.  I do not wish to rehash the arguments made at our last meeting but ignoring expert advice on the matter is not the way to proceed.  We are placing on the Statute Book an amendment which is laced with subjectivity and which will be difficult to enforce.  It is impractical and will create even more problems.  A statement by us, as legislators, that the matter will be addressed at some future stage by way of constitutional referendum is the way forward.  The Minister has indicated that he does not wish to recommend to his Government colleagues the introduction of a simple constitutional amendment along with the Lisbon treaty.  There will be other opportunities, however, and I believe that is way to deal with the matter.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_4">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_21">I thank the Chair for giving me the opportunity to address the committee on this issue; I am effectively addressing this special issue to give a blast against blasphemy.  My approach would be to try to suggest a way out to the Minister.  Having read his comments on the matter and gone through the All-Party Oireachtas Committee on the Constitution examination, it seems the Minister does not really want to go ahead with the proposal to establish a new statutory offence concerning the publication of blasphemous matter.  He may correct me if I am wrong.  He seems to feel, for some reason, that there is a constitutional imperative on him to act.</p>
+          <p eId="para_22">If that is so I suggest that it is necessary to go into the background of the constitutional provision.  Article 40 of the Constitution provides that the publication or utterance of blasphemous, seditious or indecent matter is an offence which shall be punishable in accordance with law.  I take it that is the constitutional basis on which the Minister feels he must take action at this stage.</p>
+          <p eId="para_23">I wish to present a contrary view that there is not a constitutional imperative at the moment do this.  The offence of blasphemy in Ireland has been long dead and it is now time to give it a decent burial.  Blasphemy was an offence of common law but any prosecutions for blasphemy are ancient history.  It is by a remarkable coincidence that we have now reached the 100th anniversary of the last such prosecution, which was in 1909.</p>
+          <p eId="para_24">We are delving into ancient history when we look to resurrect the blasphemy issue.  The Bar Council came before the Oireachtas Committee on the Constitution when we examined this issue, which was part of the broader examination of freedom of expression.  To sum up the Bar Council's submission, its representatives regarded that feature as one of the most extraordinary in the Constitution, as it detailed the only constitutional crime — the publication or utterance of blasphemous, seditious or indecent matter as an offence which shall be punishable in accordance with law.</p>
+          <p eId="para_25">There was no statutory definition of blasphemy at the time.  The research we did suggests that when de Valera spoke about this constitutional clause, he was speaking on the basis that he was not creating a new offence of blasphemy but simply representing a constitutional enshrinement of the then-existing common law offence of blasphemy.  He was not deliberately creating a new constitutional crime.  Those who have researched the background of the time confirmed that it was merely a constitutional enshrinement of the existing common law offence of blasphemy.</p>
+          <p eId="para_26">The issue was examined in 1996 by the expert review group on the Constitution and it suggested that the provision be deleted.  The Minister has indicated there is a constitutional imperative but after the Constitution was approved in 1937, no action was taken in providing for a statutory offence.  Éamon de Valera, who was the father of that Constitution, was in power for many years after 1937 and nothing happened until the 1961 Defamation Act.  He did not feel any constitutional imperative to rush in with legislation.  The initial decision of the Minister's Department was to take out that provision in the 1961 Act when the Defamation Bill was circulated three years ago.  This was quite right as it was a total dead letter and nobody was ever prosecuted under the 1961 Act in that manner.</p>
+          <p eId="para_27">The new proposal from the Minister is to have an offence with a fine of up to €100,000 for the publication or utterance of blasphemous matters.  I take the Minister's point that he feels some kind of constitutional imperative to do this now.  He suggests it is a requirement that blasphemy should be punishable by law.  If that was the case, where was the constitutional imperative on de Valera after the Constitution was approved in 1937?  There was no rush to do anything about it at that time.</p>
+          <p eId="para_28">He understood that the Constitution merely referred to the existing common law offence, and everybody now accepts that the common law offence does not exist any more.  It is a dead letter and totally anachronistic in that it only referred to the Christian faith at the time.  As far as I recollect, it only referred to offences against the established church.</p>
+          <p eId="para_29">I suggest that the Minister give further consideration to the matter as we are stoking a major problem which could bring difficulties.  One can consider the problems which arose in other countries after the publication of <i>The Satanic Verses</i> or the cartoons published in Denmark.  We could be causing trouble by introducing this provision now.</p>
+          <p eId="para_30">Recognising the Minister's difficulty, I suggest the matter could be dealt with as follows.  There is broad agreement at every level, including at the academic and political level, that the existing provision in the Constitution could be removed at an appropriate time as it is totally anachronistic.  When this Bill was originally circulated, there was a decision to delete entirely the statutory provision in the Defamation Act 1961, which could go ahead.  The debate could then be directed to Article 10 of the European Convention on Human Rights.  We require an approach in future that is based on that article, which provides strong protection for free speech.  It also provides that a restriction on freedom of expression can be legitimate, provided it is prescribed by law, serves a legitimate purpose and is necessary in a democratic society.</p>
+          <p eId="para_31">We are in a position where we have been without a blasphemy law for many years and the Oireachtas Committee on the Constitution indicated that this has scarcely been noticed and there has been no demand for change or new legislation.  There is a clear case for accepting that there is no constitutional imperative, as the provision in the Constitution related to the old common law offence, which is a dead letter.  Therefore, there is no need to create a new statutory offence.  On that basis I suggest very strongly that the provision could, by all-party agreement, be withdrawn from the Bill.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_5">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_32">Listening to that logical and rational tracing of the evolution of this problem by Deputy Jim O'Keeffe, one is struck by the surreal nature of this debate.  The country is crash-landing economically and the employment figure is rising towards 420,000.  The banks are in crisis and people are losing their homes or fearful that teenagers will not get employment.  Yet we are discussing blasphemy, which is very hard to come to grips with in 2009.</p>
+          <p eId="para_33">It would appear the Minister has kicked a sleeping dog, and the evidence is that once awakened, the issue will not go away.  I do not want to go over the territory we have covered already.  Untypically of so many Bills we have put through here in recent years, this Bill has been debated outside the House and in it.  This Minister has introduced Bills that were more important, substantial and relevant to the problems we have in society in the moment, but they were the subject of little debate or analysis outside the House compared to this Bill.  The Minister would have to agree that with the exception of his taking to the pages of the print media himself he has received scant support from any quarter.</p>
+          <p eId="para_34">There is no point in my trying to advance an argument for the Minister's amendment when he did not do it himself.  Rather, he is relying on the argument of the constitutional imperative.  He is saying he has advice from the Attorney General which leaves him with no alternative, if we are to repeal the previous legislation, but to fill the gap.  Other than that he does not seek to make an argument that there ought to be some type of modern offence of blasphemy.  Therefore, we are down to the point that Deputy O'Keeffe mentioned in his remarks.  He asks, because the old common law offence is a dead letter and because of the decades of inactivity subsequent to the enactment of Bunreacht na hÉireann, why is it suddenly a constitutional imperative?</p>
+          <p eId="para_35">To this argument I would add the actions of the Minister's two predecessors, Deputy Brian Lenihan and former Deputy Michael McDowell.  At any session we had about this Bill neither Minister — although the Minister adduced an ambiguous remark from Deputy Lenihan in the Seanad — advanced an argument.</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_6">
+          <from>Chairman</from>
+          <p eId="para_36">We are starting to go back over old ground.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_7">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_37">I agree; it is very old ground.  It is from 795 AD.</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_8">
+          <from>Chairman</from>
+          <p eId="para_38">We discussed this the last day.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_9">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_39">Why did the Minister's two predecessors not give expression to this constitutional imperative in the original Bill?  That is the net point, although I do not want to labour it.  They did not do so because they recognised the good sense of what has been said by previous speakers: that to enshrine this in law in 2009 is absurd.  I suggest to the Minister that they had replies ready in anticipation of the unlikely event they were challenged during the enactment of the legislation to explain where the provision on blasphemy was.  Those replies would have been that the Oireachtas would be free to deal with the matter by way of constitutional referendum at an appropriate time.  I do not know this but I am guessing that would have been the reply of the Minister's two predecessors.</p>
+          <p eId="para_40">The last day this was discussed, the Minister seemed to rely on his belief that such a referendum would be a distraction and expensive.  However, the distraction is already there and it will not go away now.  As regards the expense, whether we like it or not we are going down the road towards more referendums — not just on the Lisbon treaty — in the immediate future and I do not see why the Government cannot make a commitment that it is the intention of the Government to excise this matter from the Constitution at an appropriate time, and let us live with it.</p>
+          <p eId="para_41">It is not true that we have gone over all this.  My attention was drawn recently to the case of an Austrian cartoonist who was extradited to Greece based on an offensive cartoon.  We have had several other international examples in this area.  Whereas the All-Party Committee on the Constitution concluded that this was a matter relating to the Christian religion, we know that our Constitution prohibits discrimination as between religions.  We now live in a multicultural society and all religions, however daft anyone might think a particular one is, have the same standing in the Constitution.  The remarkable absence of litigation on this matter in the past is by no means guaranteed in the medium-term future now that this dog has been awakened.</p>
+          <p eId="para_42">It is interesting that the publication of the report of the All-Party Committee on the Constitution concluded: "Accordingly, it comes as no surprise that the Defamation Bill 2006 proposes to repeal the 1961 Act and also to abolish the common law offence of blasphemy."  That was the view of the committee when the Bill was published and it was the view of the Minister's predecessor.  The issue has now been revived by way of this amendment.  It is difficult to know, on reflection, how we can proceed even with the watered-down version.  When one looks at the finding of the Supreme Court in Corway <i>v</i>. Independent Newspapers, the court held: “It is impossible to say of what the offence of blasphemy consists.”  Yet, notwithstanding the fact that it could not define blasphemy, it held in that case that the articles in question were not blasphemous.</p>
+          <p eId="para_43">I appeal to the Minister in this regard.  As I said, he has not advanced a modern rationale for why we should have an offence of blasphemy.  What he has said is that he believes he is under a constitutional imperative and that this is the advice of the Attorney General.  If that is the breadth of the argument at this stage, Deputy O'Keeffe has made a convincing rebuttal.  It is the same thing that was in the minds of the Minister's two predecessors.  We can commit as an Oireachtas to taking, at the first appropriate opportunity, the necessary action to excise the relevant provision from the Constitution, thereby not disrespecting or ignoring the Constitution but committing to dealing with it at a suitably early time.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_10">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_44">I do not wish to repeat the points made by my colleagues and Deputy O'Keeffe has outlined the history of this provision.  It is outdated and we should not introduce a new provision in this legislation.  Will the Minister elaborate on it from a practical point of view?  For example, what would happen if a former Jehovah's Witness denounced the blood policy sacred to that religion?  Could such people be prosecuted under this provision?  There must be clarity regarding the definition of religion.  There are many issues and practices in some African religions which we would not consider appropriate.  If one were to denounce practices fundamental to those religions could one be prosecuted under this provision?  An example given to me concerns the Church of Scientology.  Does it fall under the definition of a religion?  Many people have serious concerns regarding the practices of that organisation.  We need clarity regarding the practical implications of the provisions of the legislation and how it may impact on a day-to-day basis.  Such clarity is fundamentally important.</p>
+          <p eId="para_45">Under what circumstances would one be deemed to have caused outrage among a substantial number of persons or adherents to that religion?  How do we define causing outrage in respect of religion if there are only a handful of people involved?  If there were 20 practitioners of a given religion in this country and if ten were outraged for some reason, does that fall under the category of a substantial number?  Leaving the legislation as drafted is far too ambiguous and it could be interpreted or used as a mechanism to try to silence people who make valid points for scientific, political or academic reasons.  The Minister should reconsider the proposal suggested by Deputy O'Keeffe to address this matter.</p>
+          <p eId="para_46">I accept the point made by the Minister to the effect that he is caught in a bind but why not leave the provision of the 1961 Act and not proceed with its repeal as a mechanism to get around the difficulty?  The Minister has made the point that this has been forced upon him by the repeal of the 1961 Act, but if he leaves the relevant section in place and does not repeal it, would that not address the difficulty in which he now finds himself?  It may be possible then to address the matter fully when we have the opportunity to amend the Constitution.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_11">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_47">Although I have not made much comment on the section until now I oppose it.  Originally, I wished to hear exactly the Minister's reasoning, which he provided at the previous committee meeting.  I was surprised because he virtually admitted he was inserting a catch-all measure or defence and the wording of the amendment would basically ensure it is unworkable.  If that is the case there is no point inserting the amendment.  One of the problems with law is that it is often confusing and this amendment should not be in law.  The existing law covers the offence to which the Minister referred, namely, offensive speech or obscene displays, which is basically what the amendment covers.  Why introduce such an amendment into law?</p>
+          <p eId="para_48">Deputy Rabbitte remarked it would be too costly to address a change in the Constitution and it would also be a distraction.  He also referred to the number of upcoming referenda.  We should be careful not to decide cost is an issue when trying to ensure the Constitution is as good as it can be, especially since we are facing several referenda and the cost will be reduced a good deal as a result.</p>
+          <p eId="para_49">I believe the Minister chose the wrong option in trying to introduce this legislation.  There are very significant dangers in terms of what would be on the Statute Book.  For example, what would result in the event of the publication again of <i>The Satanic Verses</i>? I understand Salman Rushdie was in Ireland for a time following its publication and gave lectures.  Someone could decide he should be arrested and prosecuted under this new law.  The same point applies regarding the recent Danish cartoons to which others have referred.  If someone tried to secure a prosecution because of the wording of the amendment it would be very difficult and take up a good deal of time in the courts although we already have laws which might be more appropriate.</p>
+          <p eId="para_50">Strangely, the Minister proposes something at odds with the view of the Catholic Church on the matter.  At a meeting of the United Nations in Geneva the Holy See pledged support for the International Covenant on Civil and Political Rights and suggested it was the best protection for religious freedom and an alternative to prohibiting the defamation of religions.  At the meeting in September, Monsignor Silvano M. Tomasi, the permanent observer of the Holy See at the United Nations stated at a meeting of the human rights council on all forms of intolerance and discrimination that his delegation fully supported the reaffirmation by the human rights council of the right to freedom of religious conscience, belief and religious practices.  He also concurred with the advice of the special rapporteur on contemporary forms of racism, racial discrimination, xenophobia and related intolerance.  He offered to refocus the Holy See's reflection away from the vague sociological concept of the defamation of religion and to try to secure a norm for non-incitement to national, racial or religious hatred and for the rights in the covenant.</p>
+          <p eId="para_51">I do not understand the direction the Minister is taking with the amendment.  Other laws cover hate speeches including the Prohibition of Incitement to Hatred Act 1989 and section 7 of the Criminal Justice (Public Order) Act 1994 can be used in respect of obscene displays.  There is probably other relevant legislation to which I have not referred.  I am amazed that the Minister decided to proceed in this way in this day and age against the advice of the Oireachtas Joint Committee on the Constitution, which recommended the prohibition be removed from the Constitution, and the Law Reform Commission.  There is an opportunity for the Minister to withdraw the amendment and the provisions suggested and to deal with the matter by way of a constitutional referendum to ensure we have in place good, workable law.  The terminology of the amendment is catch-all, vague, does not define a religion, or what constitutes a substantial number of adherents.  It is not clear whether grossly abusive or insulting is to be judged objectively on the basis of the consideration of an ordinary decent person or insulting or abusive on the basis of the perception of the adherents of a relevant religion.  If it is the latter, then clearly the adherents must demonstrate to the court's satisfaction that sufficient outrage was caused.  He then goes into the debate on what is a religion, how one can define it and what is a substantial number of adherents.  There are many Mickey Mouse religions as well as very serious religions.</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_12">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_52">That is blasphemous.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_13">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_53">It probably is but I am probably covered by privilege.  We only need to look at what has happened in the United States, where organisations that call themselves religions end up killing all of their members.  Under this provision, if such an organisation existed in Ireland and I was to call it a Mickey Mouse religion, it could have me prosecuted for it.  That is the danger of this.  The Minister has not thought this through.  It has appeared out of nowhere and should go back to nowhere.  We should deal with it through the Constitution.</p>
+        </speech>
+        <speech by="#DermotAhern" as="#Minister_for_Justice,_Equality_and_Law_Reform" eId="spk_14">
+          <from>Minister for Justice, Equality and Law Reform (Deputy Dermot Ahern)</from>
+          <p eId="para_54">At least Fine Gael is adopting a similar attitude to the one it had when it discussed this earlier.  Deputy Rabbitte seems to be playing both sides of this because, as I said in the last session, whoever drafted the Labour Party's amendments drafted them on the basis of accepting the premise that there is a constitutional imperative.  All the Labour Party proposed was a tinkering of the existing provision.  At least Fine Gael is opposing it.  I find it somewhat strange.  Deputy Rabbitte can say he is convinced by Deputy O'Keeffe's argument, but I cannot accept it.</p>
+          <p eId="para_55">Deputy O'Keeffe refers to the Bar Council and said its submission to the committee states blasphemy was the only constitutionally sanctioned crime.  I had to listen to much ill-informed comment on this issue.  I will read what the Constitution states.  One does not have to be a lawyer or versed in law to understand it.  Even a bar stool lawyer would understand what is in the Constitution.  It states: "The publication or utterance of blasphemous, seditious, or indecent matter is an offence which shall be punishable in accordance with law."</p>
+          <p eId="para_56">I have seen some of the advice given to Deputy O'Keeffe's committee.  He said we should look at the context in which this was done in 1937, look into de Valera's heart and see what he really thought when he put this provision into the Constitution.  I do not have the luxury of that and the Oireachtas does not have the luxury of adopting, in effect, an <i>à</i>
+                        <b><i> </i></b>
+                        <i>la carte</i> approach to the Constitution by looking at what was in the minds of its drafters when they were putting all this in place.</p>
+          <p eId="para_57">There is a specific, mandated requirement in the Constitution to have a law on blasphemy, sedition and indecent matter.  That is the position until we change it.  A committee of the Oireachtas can say it should be changed, but not just now, and leave it for the middle distance.  We do not have that option because we are passing legislation repealing what was originally in the 1961 Act, which reminds me of the ill-informed comment of people I regarded as having some knowledge of the law, who said I was creating a new law on blasphemy.</p>
+          <p eId="para_58">To answer Deputy Naughten, he knows a law exists in the 1961 Act, namely, section 13, and if we were to leave it in place there would still be a possibly of people being imprisoned for blasphemy.  We cannot leave the existing law in place, forget about changing it and adopt the attitude of the committee, that is, to leave the matter until another day because it is too difficult to address now.  Section 13 cannot be allowed to remain on the Statute Book because there was a Supreme Court decision in 1999, the Corway case, which dictated that there was a need to define the issue of the constitutional imperative in Article 40.6.1°(i)<b> </b>of the Constitution.</p>
+          <p eId="para_59">It is not possible for the Oireachtas to pass laws on the basis of what it would like.  The Oireachtas has an obligation when passing legislation to take into account what is in the Constitution.  We cannot ignore it, irrespective of whether we like it.  To answer Deputy O'Keefe——</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_15">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_60">What was the law at the time of passing of the Constitution?</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_61">Allow the Minister a chance to make his contribution.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_17" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_62">I cannot answer for people from 1937 to 1961.  However, they obviously flunked it, a little bit like the committee did when it issued its report recently, because no law was passed until 1961.  The fact a law was passed in 1961 which included section 13 meant they were of the same view and received the same advice from the then Attorney General, namely, that if a law was to be passed on defamation, something about blasphemy had to be included.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_18">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_63">That is wrong.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_19" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_64">That is why we cannot——</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_20">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_65">What was the law in 1937?</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_21">
+          <from>Chairman</from>
+          <p eId="para_66">Allow the Minister to answer.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_22" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_67">In effect the Oireachtas did not pass a law.  It decided——</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_23">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_68">It was referring to the common law.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_24" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_69">The Oireachtas did not bring forward a law on defamation, therefore it was not required.  However, in my view it flunked it.  When it introduced it in 1961, it included a law against blasphemy.  We are now repealing this and have three options.  In a modern society, do we need a law on blasphemy?  I do not think we do, but we are constitutionally obliged to have it.  We can do three things.  We can have an offence, as per the Constitution, we can have a referendum or we can decide not to go ahead with this Bill.  They are the only options.</p>
+          <p eId="para_70">Deputy Rabbitte referred to a supposed ambiguous reference by the former Minister for Justice, Equality and Law Reform, Deputy Lenihan.  It was not ambiguous, rather, it was very blunt.  It is wrong to suggest that my predecessors had a different view from me.  They most certainly did not.  The officials with me are those who were there when this matter was discussed previously.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_25">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_71">Why did the then Minister publish a Bill without it?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_26" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_72">The fact is——</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_27">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_73">If they did not have a different view, why did they publish a Bill that made no reference to this, good, bad or indifferent?</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_28">
+          <from>Chairman</from>
+          <p eId="para_74">I ask Deputy Rabbitte to give the Minister a chance.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_29" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_75">It was one of the extraneous matters that had to be dealt with and that was the advice at the time.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_30">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_76">Extraneous matters could come with anything.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_31" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_77">My immediate predecessor said:</p>
+          <p class="indent_1" eId="para_78">If we repeal in full the provisions of the 1961 Act in reforming the defamation laws, we create a gap unless some provision is made for the constitutional offences.  We must also be mindful of the decision of the Supreme Court in the case of  Corway <i>v</i>. Independent Newspapers in 1999 where the Supreme Court indicated a need to address the law on blasphemy.  At this stage I would suggest our duty is to ensure that there is no gap created in the case of these offences, which are recognised by the Constitution.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_32">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_79">He did not address it.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_33" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_80">He did not do it but he was coming to it, because we were finalising the legislation.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_34">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_81">He did not refer to it.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_35" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_82">We do not have the luxury of ignoring the Constitution.  We have to do something about this issue and what I am doing is along the lines of what was suggested by the Labour Party.  I am removing the issue of imprisonment.  I am removing the ability of a private citizen to bring a prosecution — it must go through the DPP.  We are rasing the bar on the prosecution of the offence.  That is the best way to proceed.</p>
+          <p eId="para_83">If the Oireachtas decides to have a referendum in the future, so be it, but it is not on the agenda at this moment in time.  We have three options.  Members at this table cannot ignore the Constitution.  We either have a referendum——</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_36">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_84">Did the Minister seek a referendum?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_37" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_85">We either have an offence of some sort or we just drop the entire Bill.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_38">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_86">Did the Minister ask the Cabinet?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_39" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_87">I return to my response to Deputy Naughten.  We cannot go ahead with the Bill and leave section 13 in place.  We must do something about it.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_40">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_88">Could the Minister seek a constitutional amendment?</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_41">
+          <from>Chairman</from>
+          <p eId="para_89">Deputy Ó Snodaigh, please.  We discussed this at our last meeting and again today for approximately two hours.  I do not propose to continue with it for much longer because there are other points to discuss.  I will allow other Deputies to speak briefly.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_42">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_90">The Minister is being very unfair when he says that one of the options is to drop the Bill in its entirety.  That is not an option.  This Bill is needed because reform of our defamation law is overdue.  It is very unfair of him to intimate that the Opposition is holding up the passage of this important Bill by dealing with this issue.</p>
+          <p eId="para_91">Option three of which he speaks can be dealt with by his withdrawing this unworkable new section, which is in effect a new law, no matter what way he dresses it up.  It is unworkable——</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_43" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_92">That would leave section 13 of the 1961 Act in place.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_44">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_93">No, it would not.  This is unworkable, out of touch and unnecessary because there is no public demand for it.  The Minister should read the new section slowly.  It states "he or she publishes or utters matter that is grossly abusive [it is not sufficient for it to be abusive but it must be grossly abusive] or insulting in relation to matters held sacred by any religion [of any description], thereby causing outrage [undefined] among a substantial number [not just a number but a substantial number] of the adherents of that religion".  This is so full of subjectivity as to be totally impractical and unworkable.</p>
+          <p eId="para_94">How can one define any of these matters?  This is bar-stool advice from bar-stool lawyers.  It is simply unworkable.  The Minister shrouds it in the terms of our legislative assembly which cherishes free speech and comment but it is unnecessary and impractical.  Talk about attempting to look into the heart of Éamon de Valera shows just how far removed we are from any basis in reality.  What have other jurisdictions done, such as our nearest neighbour, whose laws our common law regime has reflected for years, since before de Valera's time?  They have repealed——</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_45" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_95">One cannot get over what is in the Constitution, that it shall be an offence in accordance with the law.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_46">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_96">England and Wales, which have similar laws to that contained in our Constitution——</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_47" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_97">They have no constitution.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_48">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_98">They have abolished a statutory offence of blasphemy.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_49" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_99">We have not abolished what is in the Constitution, have we?</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_50">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_100">Change the Constitution.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_51" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_101">We can change it by referendum but we are not doing that here.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_52">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_102">I suggest the Minister does that.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_53">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_103">I have tried to present a way out to the Minister by calmly and logically detailing the constitutional background based on my position as the Vice Chairman of the Oireachtas All-Party Committee on the Constitution that examined all these matters and took serious advice from leading constitutional lawyers and others.  The Minister says he has only three options.  I suggest he has a fourth.  There was no statutory offence before or after the Constitution was passed.  What the hell do we want a statutory offence for at all?  The Minister should forget about de Valera's heart.  There was a common law offence of blasphemy at the time.  That is a dead letter, as we want it to be.  We want to bury it.  If the Minister removes this entirely we will revert to our position before and immediately after the 1937 Constitution.  I suggest that is the way forward.  Delete the statutory reference inserted in 1961, which was entirely unnecessary, is another dead letter and has never been used, and revert to the 1937 Constitution.</p>
+          <p eId="para_104">I am trying to be reasonable in my approach.  The Minister is trying to weave his way around his interpretation of the Constitution but, to be honest, this is a crackpot proposal.  As Deputy Charles Flanagan points out, we are creating an offence whereby if someone says anything "grossly abusive or insulting in relation to matters held sacred by any religion", he or she is guilty of an offence.  This raises the question of what is a religion and Deputy Naughten touched on this.  Is the Church of Scientology a religion?  I think the Church of Scientology is a dangerous crackpot religion and if I say that outside this House am I guilty of an offence?  I am sure it would cause outrage to members of that particular outfit but that is what I genuinely believe.</p>
+          <p eId="para_105">One must also consider further definitions of religion.  The United States Supreme Court has examined this issue in some detail and decided that a religion could be an African animist religion which includes practices which certainly would not be condoned here.  It has also examined the religious practices of the Native Americans and accepted that those practices are consistent with a religion.  Here we are coming up with a provision that any utterances that are considered abusive or insulting to "matters held sacred by any religion" would lead to an offence.  It is a crackpot section.</p>
+          <p eId="para_106">Finally, and I will say no more on the subject at this stage, I understand the Minister's motive and what he is trying to do but he should understand that the reasoned attempt, logically argued by all the Opposition members of the committee, is intended to help him to get out of the hole he finds himself in, and the way to do it is to withdraw this proposal.  He should follow the line that we rely on Article 10 of the European Convention which has been incorporated into law and, if necessary, let us have detailed debate on how we might examine that further from the point of view of freedom of speech and any reasonable restrictions on that freedom.  The European Convention has been incorporated into Irish law so let us rely on that.</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_54">
+          <from>Chairman</from>
+          <p eId="para_107">Does Deputy Rabbitte wish to make a final comment before the Minister speaks again?</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_55">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_108">With respect, at this stage I do not know whether this is my last comment.  This is a serious issue and it was introduced after the publication of the Bill and under a third Minister since publication.  We are anxious to conclude this Bill today, as we have said.  The Minister has fallen back on the argument of his three options and adduces the Corway case as meaning that the Supreme Court has told him he must legislate on this matter, but I did not see him introducing any Bill to observe the Supreme Court injunction in respect of abortion, for example.  I do not anticipate he will do so during his remaining time in the Department.  Why is he not prepared to consider other ways of addressing this issue?</p>
+          <p eId="para_109">It was not just his two predecessors, if we look at what the Minister for Foreign Affairs told the UN, it was the exact opposite of his stance now.  The Venice conclusions, where Ireland was represented by one of our most senior civil servants, stated that incitement to hatred, including religious hatred, should be the object of criminal sanctions and it decided that it is neither necessary nor desirable to create an offence of religious insult, that is, insult to religious feelings <i>simpliciter</i> without the element of incitement to hatred as an essential component.</p>
+          <p eId="para_110">The Joint Committee on the Constitution was also clear in its view.  I do not know why the Minister says the committee flunked it.  It was concluded that we should deal with it as soon as the opportunity arises.  Why can the Minister not commit to dealing with it by way of excision?  I do not understand that.  We are going to have many opportunities.  Is the Minister worried that the gap between now and a referendum means we are disrespecting the Constitution even though there was a gap from 1937 until 1961?  I am not persuaded.</p>
+          <p eId="para_111">As for the Minister's remarks about the Labour Party, when he first introduced this amendment, I made our position perfectly clear that we would take a belt and braces approach to this.  We decided to oppose the amendment and decided that if the Minister persisted with it, we would have on the agenda of these meetings an amendment that would seek to so constrain it as to make it meaningless by both turning the €100,000 fine into €1,000 and by excising the possibility of action where the matter published relates to literary, artistic, social or academic merit.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_56" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_112">By the amendments the Labour Party was accepting there would be an offence of blasphemy.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_57">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_113">We were trying to provide for a situation where the Minister would behave as he has traditionally behaved before the committee.  He approves whatever his officials put in front of him and persists with it.  We tried to take a belt and braces approach and the fact the Minister has moderated his original instincts does not change the fact that he is still going to make us a laughing stock in a world where the Supreme Court in Pakistan decided the other day the death penalty was the appropriate sanction for blasphemy.</p>
+          <p eId="para_114">The Minister and I agree it is unlikely there will be an early action on this no matter what we decide.  Why can the Minister not say it is the Government's intention that as soon as the opportunity arises, we will move to remove this from the Constitution and deal with it on that basis?</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_58">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_115">We will all say: "Hear, hear."</p>
+        </speech>
+        <speech by="#DenisNaughten" eId="spk_59">
+          <from>Deputy Denis Naughten</from>
+          <p eId="para_116">The Minister has failed to provide any clarity on the issue of religion or how we define "a substantial number of the adherents".  The amendment he has put forward is ambiguous and fraught with problems.  We will rue the day we put this on the Statute Book.</p>
+          <p eId="para_117">The Minister's officials are obviously having difficulties.  The legislation was published in 2006 but the amendment only came forward when it came to the Dáil.  Even after the amendment was published, it was amended again in the white list as of 14 May 2009.  Even within the white list, the definitions will cause huge problems.  I gave an example related to Jehovah's Witnesses and the definition of a religion.</p>
+          <p eId="para_118">There are also economic implications.  If someone makes a comment that is believed to be insulting to Islam, some of the representatives of that community in this country submit that the Director of Public Prosecutions should undertake a prosecution and the DPP decides not to, it could have major implications from a trade perspective with some of the countries with which the Irish Dairy Board is involved.  Contracts with some of these trading partners have been cancelled for less in the past.</p>
+          <p eId="para_119">We are leaving the whole area open to abuse because of the broad interpretations in this legislation.  It is not reasonable, no matter what wording is used.  It will be fraught with difficulty and will have major implications.  The definitions will cause problems and then if the State does not take prosecutions, there could be further fall-out.  I urge the Minister to withdraw the amendment and re-examine the situation.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_60">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_120">Did the Minister seek Cabinet approval for a constitutional referendum and what consideration was given to that option?  So far, it seems that only legislation has been considered even though we have a number of referenda coming up and it would be best dealt with then.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_61" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_121">Deputy Jim O'Keeffe says Article 10 does not constitute the offence mandated by the Constitution in Article 46, and that a prosecution could never be taken in the courts on that.  We do not, however, have the luxury of ignoring or taking an <i>à la carte</i> approach to the Constitution. </p>
+          <p eId="para_122">Deputy Rabbitte asks why we are not doing something about abortion.  If there is an analogy between constitutional obligations to criminalise abortion and blasphemy, the Supreme Court could and would have drawn such an analogy in the Corway case and it did not do so.  It did not mention the X case.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_62">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_123">Come on.  Does the Minister think we came down in the last shower?</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_63" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_124">The analogy does not stand up.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_64">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_125">That is like de Valera's heart, assuming he had one.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_65" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_126">This is the tactic, just like on the Order of Business this morning.  When Opposition Deputies do not like the reply, they start to interrupt.</p>
+          <p eId="para_127">The analogy does not stand up because there is legislation that gives effect to the core of the constitutional requirement to ban abortion, namely, the Offences Against the Person Act 1861.  By contrast, when the Defamation Bill 2009 repeals the Defamation Act 1961, there will be no legislation germane to the constitutional requirement to outlaw blasphemy until the Oireachtas fills that gap.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_66">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_128">We could go back to common law.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_67" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_129">I am now proposing that.  Alternatively, it could be removed from the Constitution.  Moreover, Article 40.3.3° is concerned with a constitutional right which can stand free of legislation whereas the blasphemy provisions of Article 46 are concerned with a criminal offence which is more difficult.  In the Corway case the Supreme Court did say that legislation was essential in order to give effect to the constitutional requirement of making blasphemy an offence.  On the issue that the Oireachtas did nothing since 1937 until 1961, that is a red herring.  It did nothing because it did not bring forward any legislation.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_68">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_130">That was a common law preserve.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_69" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_131">They flunked it.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_70">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_132">That was the law.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_71" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_133">When they brought in legislation in 1961 they obviously were advised there was a constitutional requirement, just as we are being advised that there is a constitutional requirement, unless we remove it, to go ahead with an offence of some kind.  I am not being disingenuous in saying we can just not go ahead with the Bill.  That is another option that has been put to me by people——</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_72">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_134">It can stand or fall because of this.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_73" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_135">I want to pass this Bill.  Unfortunately, I do not have the luxury my predecessors had in that they knew they would have to address this issue one way or the other when they came to finalising the legislation.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_74">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_136">They did not.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_75">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_137">The then Minister, Mr. Michael McDowell, said the opposite.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_76" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_138">The Deputy answered Deputy Rabbitte on the issue of why this was not in the original Bill.  In the original Bill, section 35 dealt with publication of gravely harmful statements.  That was inserted in the Bill by——</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_77">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_139">It was dropped in the Seanad without explanation.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_78" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_140">It was dropped by my predecessor on the basis that, in effect, it would criminalise libel.  I do not think any of the members would want that issue, particularly in view of what happened in recent days.  It was considered better to go back to the original template but there was always an obligation on the Minister and on the Oireachtas and neither I nor members as legislators, can ignore the Constitution, unless we decide to make a change, and there is no proposal to amend the Constitution, because in my view this is a better way of making provision for an offence.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_79">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_141">It was.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_80" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_142">It is a little bit more modern than the existing offence in the 1961 Act which has the potential to put people in prison. We are raising the bar.  There is no doubt in regard to the proof required.  It is subjective and if a prosecution was tendered before the court it would be a matter for the judge to decide on those issues.  That is the way we are doing it, just as the Labour Party proposed in its amendments to allow the offence stand but to put it in such a way that it would make it virtually impossible to gain a successful prosecution.</p>
+        </speech>
+        <speech by="#CharlesFlanagan" eId="spk_81">
+          <from>Deputy Charles Flanagan</from>
+          <p eId="para_143">That is——</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_82" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_144">Members opposite are playing politics because they know they have a nice issue.  The reality is that they were ignoring the constitutional imperative that each one of us has, as Members of the Oireachtas, when legislation is passed.  There is a history of ignoring issues and trying to sidekick them and put them off into the middle distance, as the committee did, by saying there should be a constitutional referendum.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_83">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_145">Exactly.  We should have it.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_84" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_146">The fact is they did not recommend a change in the blasphemy law of 1961. What they said was "Live horse and you'll eat grass", and leave it off until the——</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_85">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_147">It was unconstitutional.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_86">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_148">It was a function of the Joint Committee on the Constitution.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_87" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_149">We are now passing legislation repealing section 13 of the 1961 Act, the offence of blasphemy, despite what I read in the newspapers and all the nonsense to the effect that I am trying to pick out of the sky a new offence of blasphemy.  It is already in place in the 1961 Act and in the Constitution and we have to comply with the Constitution.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_88">
+          <from>Deputy Aengus Ó Snodaigh</from>
+          <p eId="para_150">Or amend the Constitution.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_89" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_151">One is in derogation of one's duty if one ignores the Constitution.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_90">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_152">What did the Minister think of the new Church of Dermotology?  Has the Minister read in the latest submission received today that after this law is passed we will have a Church of Dermotology where we believe that Deputy Dermot Ahern created——</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_91" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_153">As I always said——</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_92">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_154">Sometimes we are not sure if Dermot Ahern really exists.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_93" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_155">——the Deputy is the court jester.</p>
+        </speech>
+        <speech by="#SeanConnick" eId="spk_94">
+          <from>Deputy Seán Connick</from>
+          <p eId="para_156">Incitement.</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_95">
+          <from>Chairman</from>
+          <p eId="para_157">I am going to put the question.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_96">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_158">This is a crazy cracked proposal.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_97" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_159">It was before the court yesterday.</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_98">
+          <from>Chairman</from>
+          <p eId="para_160">The question is that a new section be there inserted.  Will those——</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_99">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_161">What are we voting on?</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_100">
+          <from>Chairman</from>
+          <p eId="para_162">We are voting on amendment No. 40 in the name of the Minister, that the new section be there inserted.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_101">
+          <from>Deputy Jim O’Keeffe</from>
+          <p eId="para_163">Fire it out.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_102">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_164">Does amendment No. 40 come before the amendment to the amendment?</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_103">
+          <from>Chairman</from>
+          <p eId="para_165">I beg your pardon Deputy.  The Deputy is correct.  We have to put amendment No. 1 to amendment No. 40 first, which is the Deputy's amendment.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_104">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_166">I do not jest for the Minister.</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_105">
+          <from>Chairman</from>
+          <p eId="para_167">The question is that the amendment be agreed.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_106">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_168">Will the Chairman hold on, he did not ask me what I was doing with it.  I ask the Chairman to steady on, and take time to do this correctly.</p>
+        </speech>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_107">
+          <from>Chairman</from>
+          <p eId="para_169">Sorry, does the Deputy wish to withdraw the amendment?</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_108">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_170">Yes.</p>
+        </speech>
+        <summary refersTo="#notmoved" eId="sum_15" title="decision">Amendment No. 1 to amendment No. 40 not moved.<entity refersTo="#bill.2006.43.dail.3.amd_40.amd_1.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#PatRabbitte" eId="spk_109">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_171">I move amendment No. 2 to amendment No. 40:<entity refersTo="#bill.2006.43.dail.3.amd_40.amd_2" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_172">In subsection (2), between the eighth and ninth line, to insert the following:</p>
+          <p class="indent_1" eId="para_173">"(<i>b</i>) the matter published lacks any literary, artistic, social or academic merit, and”.</p>
+        </speech>
+        <summary eId="sum_16" title="decision" refersTo="#lost">Amendment to amendment put and declared lost.<entity refersTo="#bill.2006.43.dail.3.amd_40.amd_2" name="amendment"/>
+                </summary>
+        <summary eId="sum_17">Amendment put.<entity refersTo="#bill.2006.43.dail.3.amd_40.amd_2" name="amendment"/>
+                </summary>
+        <debateSection name="division" eId="dbsect_4">
+          <summary title="division" eId="sum_18">The Committee divided: Tá, <quantity normalized="8" refersTo="#ta" eId="qty_1">8</quantity>; Níl, <quantity normalized="6" refersTo="#nil" eId="qty_2">6</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_5">
+            <p eId="para_174">Tá</p>
+            <p eId="para_175">
+              <person refersTo="#DermotAhern">Ahern, Dermot.</person>
+            </p>
+            <p eId="para_176">
+              <person refersTo="#SeanArdagh">Ardagh, Seán.</person>
+            </p>
+            <p eId="para_177">
+              <person refersTo="#BobbyAylward">Aylward, Bobby.</person>
+            </p>
+            <p eId="para_178">
+              <person refersTo="#ThomasByrne">Byrne, Thomas.</person>
+            </p>
+            <p eId="para_179">
+              <person refersTo="#SeanConnick">Connick, Seán.</person>
+            </p>
+            <p eId="para_180">
+              <person refersTo="#BrendanKenneally">Kenneally, Brendan.</person>
+            </p>
+            <p eId="para_181">
+              <person refersTo="#DarraghOBrien">O’Brien, Darragh.</person>
+            </p>
+            <p eId="para_182">
+              <person refersTo="#NoelTracey">Treacy, Noel.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_6">
+            <p eId="para_183">Níl</p>
+            <p eId="para_184">
+              <person refersTo="#CharlesFlanagan">Flanagan, Charles.</person>
+            </p>
+            <p eId="para_185">
+              <person refersTo="#DinnyMcGinley">McGinley, Dinny.</person>
+            </p>
+            <p eId="para_186">
+              <person refersTo="#DenisNaughten">Naughten, Denis.</person>
+            </p>
+            <p eId="para_187">
+              <person refersTo="#JimOKeeffe">O’Keeffe, Jim.</person>
+            </p>
+            <p eId="para_188">
+              <person refersTo="#BrianOShea">O’Shea, Brian.</person>
+            </p>
+            <p eId="para_189">
+              <person refersTo="#PatRabbitte">Rabbitte, Pat.</person>
+            </p>
+          </debateSection>
+          <summary eId="sum_19" title="decision" refersTo="#carried">Amendment declared carried.<entity refersTo="#bill.2006.43.dail.3.amd_40.amd_2" name="amendment"/>
+                    </summary>
+        </debateSection>
+        <speech by="#DermotAhern" eId="spk_110" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_190">I move amendment No. 41:<entity refersTo="#bill.2006.43.dail.3.amd_41" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_191">In page 26, before section 35, but in Part 5, to insert the following new section:</p>
+          <p class="indent_1" eId="para_192">36.—(1) Where a person is convicted of an offence under <i>section 35</i>, the court may issue a warrant—</p>
+          <p class="indent_2" eId="para_193">(<i>a</i>) authorising any member of the Garda Síochána to enter (if necessary by the use of reasonable force) at all reasonable times any premises (including a dwelling) at which he or she has reasonable grounds for believing that copies of the statement to which the offence related are to be found, and to search those premises and seize and remove all copies of the statement found therein,</p>
+          <p class="indent_2" eId="para_194">(<i>b</i>) directing the seizure and removal by any member of the Garda Síochána of all copies of the statement to which the offence related that are in the possession of any person,</p>
+          <p class="indent_2" eId="para_195">(<i>c</i>) specifying the manner in which copies so seized and removed shall be detained and stored by the Garda Síochána.</p>
+          <p class="indent_1" eId="para_196">(2) A member of the Garda Síochána may—</p>
+          <p class="indent_2" eId="para_197">(<i>a</i>) enter and search any premises,</p>
+          <p class="indent_2" eId="para_198">(<i>b</i>) seize, remove and detain any copy of a statement to which an offence under <i>section 35 </i>relates found therein or in the possession of any person, in accordance with a warrant under <i>subsection (1)</i>.</p>
+          <p class="indent_1" eId="para_199">(3) Upon final judgment being given in proceedings for an offence under <i>section 35</i>, anything seized and removed under <i>subsection (2) </i>shall be disposed of in accordance with such directions as the court may give upon an application by a member of the Garda Síochána in that behalf.</p>
+        </speech>
+        <summary eId="sum_20" title="decision" refersTo="#carried">Amendment put and declared carried.<entity refersTo="#bill.2006.43.dail.3.amd_41.carried" name="amendment"/>
+                </summary>
+        <summary eId="sum_21" refersTo="#carried" title="decision">Question, "That section 35, as amended, stand part of the Bill", put and declared carried.<entity name="reference" refersTo="#dbsect_3"/>
+                </summary>
+        <speech by="#DermotAhern" eId="spk_111" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_200">I propose to come back on Report Stage, having listened to some of the arguments on the monetary fine.  I will be bringing forward an amendment to reduce the figure of €100,000 to €25,000, which I hope will gain acceptance.</p>
+        </speech>
+        <summary eId="sum_22">(Interruptions).</summary>
+        <speech by="#DermotAhern" eId="spk_112" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_201">At least I did not do what Deputy Rabbitte did and speak against his own amendments.  Poor old Richard Humphreys will never survive——</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_113">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_202">The Minister would speak against his mother if it suited him.</p>
+        </speech>
+        <speech by="#DermotAhern" eId="spk_114" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_203">He should talk to Mr. Humphreys before he puts them down.</p>
+        </speech>
+        <speech by="#PatRabbitte" eId="spk_115">
+          <from>Deputy Pat Rabbitte</from>
+          <p eId="para_204">This Minister endears himself to me.</p>
+        </speech>
+        <summary refersTo="#agreed" eId="sum_23" title="decision">Sections 36 to 41, inclusive, agreed to.<entity refersTo="#bill.2006.43.dail.3.sec_36.agreed" name="section"/>
+                    <entity refersTo="#bill.2006.43.dail.3.sec_37.agreed" name="section"/>
+                    <entity refersTo="#bill.2006.43.dail.3.sec_38.agreed" name="section"/>
+                    <entity refersTo="#bill.2006.43.dail.3.sec_39.agreed" name="section"/>
+                    <entity refersTo="#bill.2006.43.dail.3.sec_40.agreed" name="section"/>
+                    <entity refersTo="#bill.2006.43.dail.3.sec_41.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_24">SCHEDULE 1.</summary>
+        <speech by="#DermotAhern" eId="spk_116" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy Dermot Ahern</from>
+          <p eId="para_205">I move amendment No. 42:<entity refersTo="#bill.2006.43.dail.3.amd_42" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_206">In page 31, between lines 30 and 31, to insert the following:</p>
+          <p class="indent_1" eId="para_207">"19. Any statement published by a person in accordance with a requirement under an Act of the Oireachtas whether or not that person is the author of the statement.".</p>
+          <p eId="para_208">This amendment inserts a new paragraph in Schedule 1, Part 1 of the Bill to provide for qualified privilege regarding defamation actions where a statement is required by statute to be made available for public inspection or publication.  This sensible amendment has been developed on foot of advice received from the Attorney General's office and the Parliamentary Counsel.  It deals with a situation which can arise, for example, in regard to local authorities and An Bord Pleanála where submissions or observations are received from third parties in connection with planning applications or appeals and where those bodies have no power to edit or redact the documents in any way prior to putting them on file, which is available for public inspection and thereby constituting publication.</p>
+        </speech>
+        <summary eId="sum_25" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2006.43.dail.3.amd_42.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_26" title="decision">Schedule 1, as amended, agreed to.<entity refersTo="#bill.2006.43.dail.3.sch_1.agreed" name="section"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_27" title="decision">Schedule 2 agreed to.<entity refersTo="#bill.2006.43.dail.3.sch_2.agreed" name="section"/>
+                </summary>
+        <summary eId="sum_28" title="decision" refersTo="#agreed">Title agreed to.<entity refersTo="#bill.2006.43.dail.3.title.agreed" name="section"/>
+                </summary>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_117">
+          <from>Chairman</from>
+          <p eId="para_209">I thank the Minister and his officials for attending and also the members of the committee for their co-operation.</p>
+        </speech>
+        <summary eId="sum_29">Bill reported with amendments.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_7">
+        <heading>Message to Dáil.</heading>
+        <speech by="#BrendanKenneally" as="#Chairman" eId="spk_118">
+          <from>Chairman</from>
+          <p eId="para_210">In accordance with Standing Order 87, the following message will be sent to the Dáil:</p>
+          <p class="indent_1" eId="para_211">The Select Committee on Justice, Equality, Defence and Women's Rights has completed its consideration of the Defamation Bill 2006 and has made amendments thereto.</p>
+        </speech>
+        <summary eId="sum_30">The select committee adjourned at 4 p.m. <i>sine die</i>.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>
