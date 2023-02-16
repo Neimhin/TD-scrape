@@ -1,0 +1,724 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-09-30/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-09-30/debate"/>
+          <FRBRdate date="2008-09-30" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_communications_energy_and_natural_resources"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-09-30/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-09-30/debate/mul@"/>
+          <FRBRdate date="2008-09-30" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-09-30/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-09-30/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None" eId="#vol_None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None" eId="#no_None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="JimWalsh" href="/ie/oireachtas/member/id/Jim-Walsh.S.1997-09-17" showAs="Jim Walsh"/>
+        <TLCPerson eId="JoeMcHugh" href="/ie/oireachtas/member/id/Joe-McHugh.S.2002-09-12" showAs="Joe McHugh"/>
+        <TLCPerson eId="LizMcManus" href="/ie/oireachtas/member/id/Liz-McManus.D.1992-12-14" showAs="Liz McManus"/>
+        <TLCPerson eId="MJNolan" href="/ie/oireachtas/member/id/M-J-Nolan.S.1982-05-13" showAs="M. J. Nolan"/>
+        <TLCPerson eId="MariaCorrigan" href="/ie/oireachtas/member/id/Maria-Corrigan.S.2007-07-23" showAs="Maria Corrigan"/>
+        <TLCPerson eId="MattieMcGrath" href="/ie/oireachtas/member/id/Mattie-McGrath.D.2007-06-14" showAs="Mattie McGrath"/>
+        <TLCPerson eId="MichaelWDArcy" href="/ie/oireachtas/member/id/Michael-D'Arcy.D.2007-06-14" showAs="Michael D'Arcy"/>
+        <TLCPerson eId="NoelCoonan" href="/ie/oireachtas/member/id/Noel-Coonan.S.2002-09-12" showAs="Noel Coonan"/>
+        <TLCPerson eId="SimonCoveney" href="/ie/oireachtas/member/id/Simon-Coveney.D.1998-10-23" showAs="Simon Coveney"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM CHUMARSÁID, FUINNIMH AGUS ACMHAINNÍ NÁDÚRTHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON COMMUNICATIONS, ENERGY AND NATURAL RESOURCES</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2008-09-30">Dé Máirt, 30 Mean Fómhair 2008</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2008-09-30">Tuesday, 30 September 2008</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 2.15 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#NoelCoonan">
+                Deputy Noel Coonan,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#MariaCorrigan">
+                Senator Maria Corrigan,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#SimonCoveney">
+                Deputy Simon Coveney,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#JimWalsh">
+                Senator Jim Walsh.
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelWDArcy">
+                Deputy Michael D’Arcy,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#MattieMcGrath">
+                Deputy Mattie McGrath,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#JoeMcHugh">
+                Deputy Joe McHugh,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#LizMcManus">
+                Deputy Liz McManus,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#MJNolan">DEPUTY M. J. NOLAN IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Joint Committee.</heading>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_9">We have received apologies from Senators Kelly and O'Reilly.  Are the minutes of the meeting of 10 September agreed?  Agreed.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Energy Costs: Discussion with Commission for Energy Regulation. </heading>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_2">
+          <from>Chairman</from>
+          <p eId="para_10">I welcome Mr. Tom Reeves, Mr. Michael Tutty, Mr. Dermot Nolan and Ms Cathy Mannion from the Commission for Energy Regulation.  Its director, Mr. Reeves, has been invited to discuss high energy costs and future energy prices, following the coming on stream of supplies from the Corrib gas field.</p>
+          <p eId="para_11">Before we begin, I draw everyone's attention to the fact that members of the committee have absolute privilege but that the same privilege does not apply to witnesses appearing before the committee which cannot guarantee any level of privilege to witnesses appearing before it.  Furthermore, under the salient rulings of the Chair, members should not comment on, criticise or make charges against a person outside the Houses or an official, by name or in such a way as to make him or her identifiable.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_12">I presume members of the committee know us by now.  Mr. Nolan will make our presentation.</p>
+        </speech>
+        <speech by="#" eId="spk_4">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_13">In the presentation which I hope will not take long I will focus on the main determinants of prices and the next set of processes in which the Commission for Energy Regulation will be involved.</p>
+          <p eId="para_14">I have a number of slides, the first of which shows the main determinants of electricity retail prices.  Transmission, supply and distribution costs are all, in some sense, controllable but the predominant share of the entire set of electricity prices is taken by generation costs.  Approximately two thirds of the cost of electricity is determined by generation costs.  These are predominantly determined by the price of fuel, whether coal, oil or gas.  A similar situation applies to gas prices.  The price is also determined by transmission, supply and distribution costs but roughly 60% is determined by the price of gas itself.  It is an internationally traded good and Ireland, being a small economy, must buy it at a fixed price.  Those are the main determinants of electricity and gas prices.</p>
+          <p eId="para_15">The next slide illustrates the generation-fuel mix.  It gives a general sense of the typical fuels on which electricity generation relies.  By far the predominant fuel is gas.  More than 50% of electricity in Ireland is generated using gas.  The next biggest fuel source is coal, followed by wind energy, the importance of which will rise in the next few years.  Oil accounts for a tiny fraction.  The main importance of the oil price to the price of electricity is through its indirect influence on the price of gas.</p>
+          <p eId="para_16">In regard to past and future movements in energy prices in Ireland, I will first deal with last year.  In 2007 there was a decrease in prices of 11% in gas and approximately 6% in electricity.  The main driver for this decrease, and for most decreases or increases from year to year, is energy costs.  Last year there were lower international gas prices than in the year before.  There was a slight reduction in network costs but again the main thing that happened last year was that energy prices were slightly cheaper via lower fuel prices.  The diagram here looks a little messy but what we are trying to show is the sense of how generators, in particular the ESB and its customer supply, buy their fuel.  As is only right and sensible and, as happens in pretty much every regulatory jurisdiction, the ESB hedges by buying its fuel supplies in advance to protect itself and ultimately its customers from risk.  We see that last year the hedging window was in June and July.  We can see the forward prices of the main fuel items.  Obviously coal and gas are the most important.  Last year was a very good time to buy around that time when prices were locked in and suppliers started to hedge risk.  As can be seen, prices increased afterwards.</p>
+          <p eId="para_17">Since then the general wholesale prices of pretty much all fuels have increased dramatically.  Between April last year and September this year there has been a strong secular increase in all three main prices.  Oil has spiked the most but gas has also increased and, as I noted earlier, gas is particularly important.  We can put numbers on this.  Between the two cycles of hedging where pricing is locked in, gas increased by 130% since the year before, coal by 100%, and oil by a little less.  Oil prices have fallen a little recently but gas prices have not fallen so much.  There has been some light fall but as of now, compared to a year ago, fuel prices have increased a great deal.</p>
+          <p eId="para_18">Technically the next tariff period starts tomorrow.  Hedging by the supply companies was done in May and June.  That was at a point when fuel prices were increasing, though they increased afterwards and it was a reasonably good time to hedge, certainly compared with having to do it a month or so later.  The price of gas and coal, the two main constituents, are continually rising.</p>
+          <p eId="para_19">What does this mean for the CER and for future retail prices for Irish consumers?  We had an interim price increase a couple of months ago.  It was announced on 1 August and implemented on 1 September.  There was a 17.5% increase in the price of electricity and a 20% increase in the price of gas.  That is without VAT which is charged at 13.5% in this jurisdiction.  There is a sense here of what the average annual bill is for electricity and gas for consumers.  This pattern of increased fuel prices and the effect it will have on energy prices is happening in many jurisdictions.</p>
+          <p eId="para_20">We have here some data on recent price changes in Northern Ireland, which is particularly relevant because we now have a single energy market in generation between the North and the South.  There were two significant price increases of more than 50% there in electricity and gas.  In the UK we see a variety of increases.  The UK market is not directly regulated any more so there is a variety of significant increases in the price of electricity and particularly high increases in the price of gas.</p>
+          <p eId="para_21">What will this mean for us?  The second phase price increase — and there is no doubt that there will be an increase — for electricity and gas is due to be implemented on 1 January 2009.  As has been noted, fuel prices have softened somewhat since their peak during the summer, particularly in oil, less so in gas.  However, there has been locking in of prices and hedging forward, which is absolutely the right thing for any supply company to do because it protects the company and its consumers against risk.  Because of that, and the fact that the ESB customer supply has locked in the vast majority of its prices, the recent fall in prices will only have a minor impact on the actual increase required in the next price change.  The ESB has already contracted for the majority of its gas, though not all of it.  The decrease in prices for oil and gas will only have a small effect as most has been bought in advance.</p>
+          <p eId="para_22">As for the timetable, there were interim increases in August and September.  At the end of October both the ESB and Bord Gáis will make tariff submissions to us for the next potential price increase and they will be published on 3 November for public consultation, which will last one month.  On 10 November there will be an open forum in which any interested party can come along and comment on submissions and on the general price of energy.  The CER will facilitate the forum and will be present to listen to what everybody has to say.  In early December the CER will make a final decision on electricity and gas tariffs and on 1 January any new tariffs will come into effect.</p>
+          <p eId="para_23">Members will notice that we referred to the rebate of €300 million, which was also flagged up a few months ago and which should be provided to all electricity customers.  The CER has requested the ESB to provide a rebate in the form of a credit of €300 million to all electricity customers.  This will protect customers to some extent from the second phase increase and we calculate it will do so to the tune of between 8% and 10%.  Whatever the second phase increase is, it will be between 8% and 10% smaller than it would have been without the rebate.  It will be spread out among all electricity customers from January 2009.</p>
+          <p eId="para_24">Although it is not formally our function, I will remind members of the protection in place for vulnerable consumers.  The Department of Social and Family Affairs has various protections in place in respect of electricity and gas.  In respect of electricity a very large number of customers are in receipt of the allowance.  It covers the standing charge and a fixed quantity.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_5">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_25">May I have a copy of that?</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_6">
+          <from>Chairman</from>
+          <p eId="para_26">Does Mr. Nolan have a copy of his presentation?</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_7">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_27">Is there a copy for each member?</p>
+        </speech>
+        <speech by="#" eId="spk_8">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_28">We provided them yesterday.<b/>
+                    </p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_9">
+          <from>Chairman</from>
+          <p eId="para_29">I am advised they were circulated by e-mail to all members yesterday.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_10">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_30">They were not, unless there was an attachment to the notice that departmental staff were not attending.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_11">
+          <from>Chairman</from>
+          <p eId="para_31">Perhaps we shall continue.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_12">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_32">We did not receive copies.</p>
+        </speech>
+        <speech by="#" eId="spk_13">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_33">Although the electricity allowance does not cover all electricity consumption it has an in-built insurance factor in being a fixed allowance, rather than a specific monetary amount, so it will protect vulnerable consumers to some extent from increases in prices.  There are far fewer allowances for gas customers but there is protection for people who would otherwise be adversely affected by potential price rises.</p>
+          <p eId="para_34">In the longer term, Ireland is reliant on imported fossil fuels.  My third slide on the fuel generation mix made that very clear.  For now and the immediate future we are dependent on prices we do not directly influence, the price of gas, oil and coal all being internationally determined.  Retail energy prices will continue to track international fuel prices and it is very difficult to see any way around it until we change our fuel mix.   Committee members referred to the Corrib gas field and that will improve the security of supply, which is not a trivial benefit, particularly when there is perceived political uncertainty about future gas supplies.  The Corrib field will improve the security of supply but it will not have an effect on price because the international price of gas will determine its cost.  In the medium to long run, we are committed to moving away from our dependence on fossil fuels to achieve improved fuel diversity, not necessarily because it will decrease absolute prices but because it will reduce the variability of prices, which is important.  It will ensure we are less at the whim of international energy markets.  Wind and renewables will be particularly useful in that regard.  The issue of energy efficiency will, hopefully, protect consumers.  Recent initiatives such as smart metering and other plans are being put in place by the Department to stimulate energy efficiency.</p>
+          <p eId="para_35">We expect retail prices in future to be linked relatively speaking to international fuel prices but, over the medium to long term, we hope there will be more dependence on non-fossil fuel prices, which will afford protection to domestic consumers.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_14">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_36">I thank the commission representatives for attending.  Fuel prices and fuel poverty will become bigger issues in Ireland.  We all have a responsibility to ensure people do not pay more than they should for electricity or gas.</p>
+          <p eId="para_37">I refer to long-term gas prices.  Gas will eventually be brought ashore off the west coast and in conjunction with the gas available combined at the LPG terminal in Shannon, this is likely to have a positive impact on security of supply, which is welcome.  This will also dramatically reduce the volume of gas imported through two interconnectors, one of which is not used currently.  As a result, the volume of gas we import will be dramatically reduced but the cost per unit will be higher as we will be importing less using the same infrastructure.  Imported gas will become more expensive for Ireland but the price will always be set internationally even if gas is being brought ashore from Corrib because Shell or whichever company is supplying it will set its price on the basis of the international price, less a small amount to make themselves more competitive.</p>
+          <p eId="para_38">How does the regulator plan to deal with Ireland producing its own gas and potentially increasing the price of gas and, therefore, having a negative influence on price while having a positive influence on security of supply?  A regulatory response is needed to ensure the price customers are charged for gas from the Corrib field or the LPG terminal is based on the cost of producing it and bringing it ashore plus an acceptable margin, rather than on the cost of imported gas, which will increase as a result of Ireland importing less gas on the same infrastructure, which costs the same.</p>
+          <p eId="para_39">Mr. Nolan referred to hedging.  Unless I am reading him incorrectly, he was making the case that when energy generators were purchasing fuel for the current period, September, they were hedging back in May and June, which is understandable.  This suggests they will hedge for January around now with the price of oil somewhere between $90 and $100 per barrel as opposed to $130 to $140 per barrel.  Since I may be reading the matter incorrectly, I would appreciate an explanation as to whether generators are purchasing two, three or four months ahead.  If it is longer, it would answer my question.</p>
+          <p eId="para_40">My party gave a lukewarm response to the ESB's offer to give a rebate on windfall profits on the back of free carbon allowances.  That it has offered a rebate is, in principle, positive.  We would like to see the State taking the money and deciding how best to spend it, but that is a different issue.  The ESB is giving a rebate to everyone, but it only produces approximately 50% of power used in Ireland.  What of the other energy generators which are making windfall profits?  There is no proposal for them to make a contribution towards a rebate.  To be fair to the ESB, it is at a disadvantage because it is making a contribution based on profits it is not earning, whereas other generators are not making the same contribution.  What are our guests' blunt comments in this respect?  Am I am reading the matter correctly?</p>
+          <p eId="para_41">I want a detailed answer to a question, namely, what is the basis for calculating the price of electricity?  Our guests have supplied a pie chart on electricity retail energy, the price components of generation, distribution, supply and transmission.  In general, I know what they are getting at, but I presume that the formula the commission uses to calculate what the ESB should be given for the electricity it produces involves asset value.  It has been suggested a number of people have called for an independent assessment of the ESB's asset value because presumably it has a direct impact on the return on investment, one basis on which it makes a case for price increases.  Has the commission considered getting an independent and second opinion on the ESB's asset value — the same pertains to Bord Gáis — to ensure the asset base is not overvalued and consumers are not overcharged?</p>
+          <p eId="para_42">Considering the profits of the ESB and Bord Gáis last year, they are significantly profitable companies.  They both earned more than €100 million in profits and are well capitalised.  Why are we not putting them under more pressure to have more long-term borrowings on the back of their asset bases?  Has the commission tested the calculation of their assets and have they been valuated independently?  May the committee see the basis of the valuation?  It is an important issue.</p>
+          <p eId="para_43">Am I correct in stating that, by law, the commission is required to set electricity and gas prices?  Would it have a positive impact on prices were the commission allowed through legislation to set a ceiling rather than a price?  What effect would this have on the marketplace?  Would large companies such as the ESB put others out of business by undercutting their prices or would it facilitate greater competition?  Surely ten or 15 years after introducing competition into the marketplace we have some competition.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_15">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_44">I thank the delegates for their presentation.  The theory is that if one develops a market in any area, prices will decrease, but that does not appear to have happened with electricity prices.  Perhaps the delegates will talk about this.  We are learning many lessons very quickly in recent times and I would like clarification on that issue.</p>
+          <p eId="para_45">On fuel poverty, people are still reeling from the increases the CER has already approved.  Clearly, there will be further increases relatively soon.  The impact on those with low incomes, particularly elderly people, is extremely significant.  In certain cases it is literally a matter of life or death.  We have a very high level of winter time deaths among elderly people both here and in the North.  Britain and Northern Ireland have a fuel poverty strategy but here there is none.  I do not expect or ask the CER to develop such a policy.  However, a simple measure sought was that increases would not take effect until 1 January because those on social welfare normally see some income increase after a budget.  Even this year with the budget brought forward, any social welfare increase will not take effect until January.  We have a serious situation on our hands and should not underestimate the impact of these very steep increases.</p>
+          <p eId="para_46">The delegates gave an explanation of hedging but, like Deputy Coveney, I am not clear on the timeframe and whether it makes sense to lock in so tightly to a particular period in the year when, clearly, in this instance oil prices are decreasing and gas prices are consequently affected, yet we see no benefit; in fact, we will see prices increase.  The delegates say hedging is a good idea.  It may be, but it can also be a bad idea if one is locked in.  That is what has happened.</p>
+          <p eId="para_47">I do not mean to be disrespectful but I express the view of some members of the public that the regulator will give the ESB and Bord Gáis whatever they seek.  While that is a crude estimation, I ask where the CER has made a real difference in terms of what has been sought and what it has determined.  The €300 million rebate is an issue for the CER; it makes sense and will benefit consumers.  That money is available.  On the radio last Saturday or Sunday the Minister claimed that getting this rebate was one of his successes.  That is not my reading of it.  I do not think he had anything to do with it and was very surprised when he made that claim; perhaps the delegates could explain whether he did or did not.  The CER's clarification would be helpful because there is confusion.</p>
+          <p eId="para_48">Deputy Coveney has probably covered this issue, but it seems the delegates are saying the benchmark for long-term gas prices will be imported gas supplies rather than gas sourced at home.  Perhaps the witnesses could explain this further.</p>
+          <p eId="para_49">My last point is on policy.  The experience we had, and will continue to have, is the strongest argument for a national insulation scheme.  We cannot extricate ourselves from escalating price increases.  The only way forward is to reduce demand as well as to choose renewable sources of energy, of which we are in favour.  Energy efficiency seems to be the critical priority in dealing with these increases.</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_16">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_50">I welcome Mr. Reeves and his team and thank him for the briefing.  Much ground has been covered but I wish to dwell on a specific point.  My reading of the supply situation was that it concerned three tiers: low, medium and high voltage.  Particular problems are arising in the medium voltage area.  Does the regulator believe the regulation the commission introduced last year to prevent customers returning to the old ESB achieved the exact opposite of the objective of increasing competition in the independent market?  It acted as a barrier to competition in the medium sector.  This is significant in that the medium sector is that which generates most employment in Ireland.  Across the country, people are being let go left, right and centre.</p>
+          <p eId="para_51">The regulator has created a cartel in that sector.  The Competition Authority should be called in because there is a cartel operating in that sector and people cannot get a fair crack of the whip.  They are stuck in a position and, rather than prices going down, prices are increasing and there is nothing we can do.  Much of this is due to the regulation enacted by the regulator.  Based on his response to this question I may have other questions.</p>
+          <p eId="para_52">The regulator might expand on the €300 million rebate to which he referred.  It seems that this was thrown back into the pot by the ESB and used to alleviate network and transmission charges.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_17">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_53">The perception is that the generators are setting the charges, not the regulator.  When they look for a price increase they will get three quarters or seven eighths of the increase.  It is not often that we hear of the CER not granting an increase or granting a much more moderate one than that sought by the generators.  Whether it is reality, the perception is that generators set the price rather than the regulator.  I have not heard anything from the presentation to make it clear that this is not the case.</p>
+          <p eId="para_54">I refer to the energy made available through the ESB to people on social welfare.  Deputy McManus referred to fuel poverty.  The regulator stated that this is not quite his area but it made up part of his presentation.  In winter time, the units made available are not enough so people end up paying more.  In the summer time there are far too many units available but there is no carry over mechanism within the scheme for people caught in the fuel poverty trap.  It suggests to me that the system is not as helpful or as efficient as it could be for those who need it most.  It would be helpful if the CER could put weight behind changing that system, giving us a mechanism to fight the fight for those who are under pressure.  As Deputy McManus suggested, a number of elderly people die each year because of fuel poverty.  It would not happen in many other jurisdictions.  It would not require much of a policy portfolio change on the CER's part, but it could contrive to give us some type of fighting hand towards improving that silly aspect of the social welfare payment for fuel.</p>
+        </speech>
+        <speech by="#JoeMcHugh" eId="spk_18">
+          <from>Deputy Joe McHugh</from>
+          <p eId="para_55">I welcome the Commissioner for Energy Regulation.  Could he give an estimate of the windfall profits energy suppliers will make between now and 2012 as a result of the carbon allowances that will accrue to them?</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_19">
+          <from>Chairman</from>
+          <p eId="para_56">I call on Mr. Nolan to reply and he may ask his colleagues to contribute, as he wishes.</p>
+        </speech>
+        <speech by="#" eId="spk_20">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_57">We have different portfolios and therefore will share the questions.  I will address the first one as regards hedging raised by Deputies Coveney and McManus.  In response to Deputy Coveney's question, it is hedged for a full year.  When contracts are bought they hedge the price for the full year.  This mirrors the price setting arrangements, where the prices are set for the year.  On the question of whether that is the appropriate way, on balance we believe it is.  By and large, protecting customers from risk is a good idea.  We will consider whether it is reasonable to do hedges for three months, six months or a year, but most of the——</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_21">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_58">Are you not hedging against the risk of  prices going down?</p>
+        </speech>
+        <speech by="#" eId="spk_22">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_59">Effectively, people are certainly being given fixed price levels for a particular year.  Prices can come down, but they can also go up.  When prices were at their maximum this summer, there was a widespread belief that oil prices could have risen, perhaps, to $200 a barrel.  It is really gas we are talking about, not oil.  If that had happened, and prices had risen much further from the original maximum point, then we should now face increases far in excess of what any price increases would be.  In that sense, I believe hedging is the right way.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_23">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_60">Can I just clarify what Mr. Nolan is saying?  It is coming across that in effect he is protecting the ESB against any decision it makes on whether to hedge.  That is ludicrous.  The regulator, representing the consumer, should take the view that it is entirely a commercial decision on the ESB's part as to whether it hedges. When the ESB seeks price guidelines, the response of the regulator should reflect the actual price of oil at that time.  We are running with the market price, so the ESB's decision on whether to hedge is a commercial one.  If it gets it right, it reaps the benefit, if not, it takes the pain.  I do not know whether anyone agrees with me in this regard, and I see risks.  However, the way the CER is doing it indicates that the ESB is in an ideal situation as a commercial operation in that the regulator will compensate it, if it gets it wrong.</p>
+          <p eId="para_61">That is because we do not have competition in Ireland.  If there was competition——</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_24">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_62">We have competition.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_25">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_63">We do not, really, have competition.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_26">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_64">We have regulated pricing.  There is not competition in pricing.  The competition is a matter of how effective the generators will be in lobbying the regulator in terms of price.</p>
+          <p eId="para_65">Am I correct in saying that when the ESB and other generators make their case for the price for the year, they have already purchased their fuel, in terms of their hedging arrangements?  The regulator suggests they purchase eight or 12 months in advance to ensure that they are not exposed to future increases or decreases.  The system is stacked in favour of the energy generator and not the consumer, if that is the case.  Basically, the argument and the case for setting the price is being made at a time when the energy generator has already purchased the fuel.  Even if the price was to plummet after that, it will still get its return.  There is no reward for the ESB or any other generator to play the markets in terms of more effective pricing.  It is insurance for the generator but the consumer does not see the benefit, unless it so happens that companies hedge when prices are low.</p>
+        </speech>
+        <speech by="#" eId="spk_27">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_66">We can deal with that issue.  First, we only set prices for ESB Customer Supply; the independent suppliers make their own deals with their customers.  This issue relates to a judgment on whether one chooses an annual tariff or a tariff that changes more frequently.</p>
+          <p eId="para_67">To take up Deputy D'Arcy's point on fuel poverty, the prices of fuels on the international market are far higher in winter than in summer.  If we changed prices every three months, there would be far higher prices during the winter, when people use more energy, than in the summer.  The fuel poverty situation would be worsened as a result.</p>
+          <p eId="para_68">ESB Customer Supply has a document relating to the economic purchase obligation which we have approved; Northern Ireland Electricity has more or less the same document.  The ESB is obliged to purchase economically and reduce the risk passed on to customers.  This is similar to whether one takes out a fixed interest or a variable interest rate mortgage.  We have found during the years that customers prefer to know what the price will be for a full year and we have stayed with this approach.  When smart meters come into use, we will have a suite of tariffs from which consumers will be able to choose.  If they wish to be more flexible and change tariffs more frequently, they will be able to do so.  This appears to be the best approach, as it hedges risks for the customer and supplier.  The margin we give the ESB on its business is1.3%.  Prices for generators are determined by auction or the Commission for Energy Regulation and are the same for suppliers in Northern Ireland and here.  That is how prices are reached.</p>
+          <p eId="para_69">Mr. Tutty takes care of the pieces we regulate on the networks.  They are regulated carefully under a five-year rolling programme and contribute to the process of determining the price.  However, the main determinant is the international price of fuel.  As Mr. Nolan showed on the slides, the dearer the fuels, the larger the generation component becomes.  I have been involved in this business for nine years, in which period the price of gas has risen elevenfold.  This has had a serious impact on the price of electricity.  The price of oil is irrelevant because less than 0.5% of electricity supplies is generated using oil.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_28">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_70">Mr. Reeves has been involved in this business for nine years.  Has any analysis been made of purchase prices for the ESB and Bord Gáis in terms of how strategic they have been in buying when the market is at its lowest, or might they get it wrong and purchase when the market is at its highest?  Has the CER made such an analysis?  If so, could the findings be made available?  It is important that we learn whether the ESB and Bord Gáis are good at this method of purchasing.  We should know whether they are performing well in this regard and whether they are receiving the best advice.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_29">
+          <from>Chairman</from>
+          <p eId="para_71">Perhaps the delegation could make this information available, if possible.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_30">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_72">A figure of 1.3% was mentioned as the margin on which the CER's calculation is based.  On this basis, how can the ESB's profits last year of almost €500 million be explained?</p>
+        </speech>
+        <speech by="#" eId="spk_31">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_73">The 1.3% margin relates to the supply business; the generating business would make more than that.  The rate of return on the networks is also greater.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_32">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_74">A comparison was made with the position in Northern Ireland.  The tone of the discussion suggests we are not happy.  The schedule the delegates have given us shows that cost increases in Northern Ireland are 90% greater than those in the rest of the United Kingdom.  Historically, Ireland and Italy have the most expensive electricity in Europe.</p>
+        </speech>
+        <speech by="#" eId="spk_33">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_75">There are more fossil fuels in our mix.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_34">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_76">I know there are reasons for this but I do not sense that an active approach is being adopted to correct it.  We are investigating the possibility of interconnectors.  However, a huge question mark hangs over our regulatory system and its effectiveness.  I say this to encourage a response which might give the committee some reassurance and, maybe, to shake up the system.</p>
+        </speech>
+        <speech by="#" eId="spk_35">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_77">As Mr. Dermot Nolan said in his presentation, the main driver is the price of internationally traded fuels.  We have processes for selling forward electricity for the year, which we, in conjunction with our Northern colleagues, manage and regulate.  They are based on the forecast price of fuels and analysis of the market as to how it will go over the following 12 months.  People can buy different products in the electricity market to try to meet their requirements.  That is open to all suppliers in the business and gives the cheapest price we can get in the circumstances.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_36">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_78">I am far from being an expert in this field but I know a little about the supply of some of these commodities.  One of the management skills required in a company is to make the correct call on hedging.  We saw Mr. Michael O'Leary of Ryanair holding his hand up in this regard.  Ryanair operates in a competitive market, which this is not.  It is, therefore, imperative that we do not put companies into a comfort zone, which I feel has happened.</p>
+          <p eId="para_79">When purchasing products in difficult times, where one buys and one's contacts with suppliers can be crucial in getting value.  The printout which the witnesses distributed to members shows quite a variation in price increases, even on Britain.  If one concentrates on average prices one will not get best value.  One must ask who is getting the best price, why they are getting it and why ESB is not getting a similar price.  Hard questions must be asked and that is what we are encouraging the commission to do.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_37">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_80">On the question of the analysis, has the analysis been done?  How effective has ESB and Bord Gáis been in buying at the most opportune time?</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_81">We do not get into the day to day activities of the company or how it buys its gas.  We have approved this policy document, with which companies must comply and which we then check.  Ms Mannion will tell the committee what we do.  An economic purchase obligation document is a licensed document that ESB Customer Supply must comply with.  That is checked every year for compliance.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_39">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_82">The commission does not have analysis.  Is that the case?</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_83">Last year, on the gas side, we put in place a purchasing strategy we wanted Bord Gáis to adopt, at the very least.  Hence, if the board made any mistake it would bear the cost and if it made any good purchase it would share it with the customers.  Last year was the first year we applied this purchasing strategy.  We do not say to Bord Gáis, "Whatever hedge you enter into is fine and can be passed through to the customer".  If it does not comply with the structure I have set out the board will not get recovery of that sum of money.</p>
+          <p eId="para_84">On the electricity side, we have a system known as economic purchase obligation, by which we try to tackle the same question.  If someone enters a bad hedge it cannot simply pass it through to the customer.  It must be as economic as we can make it.  Given that ESB Customer Supply is the only public electricity supplier and that the level of competition in the domestic market is negligible, one cannot leave it to competitive forces to say whether a hedge was good or bad.  Hence, we needed to put a structure in place to say what we consider to be a minimum level of economic hedging.  We came up with a set of rules.  We are currently looking at the rules of last year to see what ESB did and if it complied exactly with what it said it would do.  To the extent that is the case, we will allow it the money and to the extent it is not, we will not.  In the absence of competition, that is the best we can do.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_41">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_85">I am still trying to find out whether the Commission for Energy Regulation has analysed how efficient Bord Gáis and the ESB have been.  Have they bought at the top or at the bottom of the market in order that effectively the consumer benefits most?  I do not want to ask and answer the question myself.  I would like a "Yes" or a "No" answer.</p>
+        </speech>
+        <speech by="#" eId="spk_42">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_86">Last year they bought very well.  As Mr. Nolan showed, the price of gas rose subsequently and customers saved a huge amount of money.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_43">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_87">That is good.</p>
+        </speech>
+        <speech by="#" eId="spk_44">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_88">I do not have at my fingertips what the increase would otherwise have been.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_45">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_89">I am trying to explore whether the CER has or has not made that analysis.</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_90">Yes, we have looked at it and customers have won overall on last year's hedging.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_47">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_91">Could the CER make that analysis available in relation to Bord Gáis over a number of years and also in relation to the ESB?</p>
+        </speech>
+        <speech by="#" eId="spk_48">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_92">The structure for Bord Gáis was put in place last year.  This year we will go through that exercise.  We are making that analysis.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_49">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_93">How far back does it go?  Is last year the first year?</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_94">Last year was the first year for that analysis.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_51">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_95">Does the CER have any information on the ESB which is the major supplier to domestic customers?</p>
+        </speech>
+        <speech by="#" eId="spk_52">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_96">The analysis shows the change in the price of fuels.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_53">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_97">That is for 2007.</p>
+        </speech>
+        <speech by="#" eId="spk_54">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_98">Yes.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_55">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_99">It is for 2007 only.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_56">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_100">Is there an analysis for 2008?</p>
+        </speech>
+        <speech by="#" eId="spk_57">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_101">We are looking at the figures for 2008.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_58">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_102">Is there any information that relates to the position prior to 2007?</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_103">Prior to 2007 there was an arrangement in place between Power Generation and ESB Customer Supply and to the extent that the contracts were in money, the benefit was shared with customers.  That would have been detailed in our decisions at the time.</p>
+        </speech>
+        <speech by="#" eId="spk_60">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_104">If one looks at the diagram, in 2008 we have done relatively well.  Certainly, the period of time when they bought was better than if they had bought a month or two months later.</p>
+        </speech>
+        <speech by="#" eId="spk_61">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_105">It is also the case that since November 2007 we have had the all island market; therefore, the trading regime has changed.  We are in a new regime. The previous one was in an undeveloped market.  It was not a market at all.  We had our hand in every pie.  We have tried to step back and let the market work.  We have a market clearing price in electricity for every half hour of the day which people forecast forward and use to hedge their positions.  It is becoming a more active and more real market.  In the household market there is not yet much competition.  The ESB still rules the roost.  That is why we regulate it.  We anticipate and hear Bord Gáis states from time to time that it is going to enter that market.  Others come to us who are also going to enter it.  Somebody asked whether we could set a ceiling.  The tariff we have set for the ESB in that market effectively sets a ceiling, below which people can bid.</p>
+        </speech>
+        <speech by="#" eId="spk_62">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_106">Deputy McManus raised the issue of fuel poverty, an issue we take very seriously.  To a large extent, the Department of Social and Family Affairs scheme protects vulnerable consumers.  It provides reasonable protection, although I accept Deputy D'Arcy's point that it does not fully protect them in terms of how the scheme operates <i>vis-à-vis</i> summer and winter.  That is something in regard to which we will try to enter dialogue with the Department.  It is not directly our responsibility but we will do our best to make sure, if it can be done, that improvements are made.  There are a couple of other protections.  There is a code of conduct.  Elderly OAPs cannot have their electricity supply disconnected during the winter months.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_63">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_107">Perhaps I could intervene.  I did some consumer research and the reaction I got was interesting.  A number of older people said the last thing they wanted was to run into debt, that they would prefer to be cut off because at least they would know where they stood.  It is a very benign approach but if one asks the consumer, one might find there is an interesting reply.  How often are consumers asked for their views on decisions made?  Is there ongoing consumer research?</p>
+        </speech>
+        <speech by="#" eId="spk_64">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_108">We have ongoing consultations.  I accept that most are unlikely to be answered by elderly consumers but we have dialogue with the Consumers Association of Ireland which we will try to expand in the coming period, given the increase in prices.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_65">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_109">We are in a new world.</p>
+        </speech>
+        <speech by="#" eId="spk_66">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_110">The first question Deputy Coveney asked was about the price of gas and the impact of supplies from the Corrib gas field coming on stream.  We are in the middle of a consultation process as part of our consideration of the tariffs, the impact of supplies from the Corrib gas field and the proposed Shannon LNG terminal.  The Deputy's analysis is correct at one level because bringing in less through the interconnectors, while we have to pay for those interconnectors, will cause the individual price to go up, if it is allowed to.  We are considering how we might deal with this but it would be dreadful and ironic if our own gas supplies drove the price up for everybody, while others received a windfall gain.  We are looking at how we can keep it under control in order that it will not happen.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_67">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_111">Can we take it that the regulatory process will change somewhat in the way it determines regulated gas prices as Corrib gas field supplies and LPG come on stream?</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_112">Subject to somebody coming up with a dramatic new scheme of which we have not yet thought, the answer to the Deputy's question is "Yes".</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_69">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_113">That is good news and I welcome it.</p>
+        </speech>
+        <speech by="#" eId="spk_70">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_114">As it would be outrageous if it happened, we are keeping it under control.  There were questions about the valuation of assets.  Mr. Tutty looks after electricity assets.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_71">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_115">Before Mr. Tutty speaks, it would be helpful if Mr. Reeves clarified something.  Four factors determine the price, namely, generation, distribution, supply and transmission costs.  Mr. Reeves said he allowed for a margin of 1.3% on supply but what are the margins allowed on transmission, distribution and generation costs?</p>
+        </speech>
+        <speech by="#" eId="spk_72">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_116">We have principles for bidding in the generation market which must be complied with.  We also have a market monitoring unit to watch what takes place in that area.  We allow some money in respect of some of the fixed costs because given the fact that plant breaks down, the assets are much more risky than wires.  The rate of return is approximately 8% on these assets.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_73">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_117">That applies to generation.</p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_118">There are moving parts which break down all the time.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_75">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_119">The rate is 8% based on the value of the assets.</p>
+        </speech>
+        <speech by="#" eId="spk_76">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_120">It is a complicated system but it is based on the best new entrant peaking plant.  It is not based on out-of-pocket or historical costs but on the cost of building a new plant — the last plant necessary to meet the last megawatt which has to be supplied.  That cost is used to pay the other generators.</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_121">The rate is set in consultation with Northern Ireland, with which we work jointly in the generation market to ensure the rules are well observed.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_78">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_122">What are the margins on transmission and distribution costs?  These are the areas in which Ireland seems to be much more expensive than other countries.</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from>Mr. Michael Tutty</from>
+          <p eId="para_123">I will deal with that question.  We carry out a five-year review to set the costs ESB Networks can recover over the period and determine what capital expenditure they will incur.  We do not allow a margin as such but a rate of return on the value of their assets.  I would rather not give a figure because I do not have it in front of me but I will communicate it to the Deputy later.  It is 5.2% in the case of gas but slightly higher in the case of electricity because we carried out a review of the ESB at an earlier stage.  Our consultants look at the weighted average cost of capital of the ESB and Bord Gáis and determine what the rate of return should be.  It certainly came down in the last five-year review and came down even further when we moved to using gas.  In looking at what costs they can recover over a period we look at what efficiencies they can achieve and set targets in that respect.  We do not simply ask them to tell us what their expenses are and work out from them what they can recover.  As part of the five-year reviews for both the ESB and Bord Gáis we sent in consultants to crawl all over them, looking at how they operated and compared with other network companies abroad.</p>
+          <p eId="para_124">Mr. Shine, the head of ESB Networks, says they are working hard to meet the targets we have set the company almost every time I meet him.  We had a meeting this morning to explain what has happened in the first two and a half years of the five-year period of capital investment.  We are pushing the ESB to make efficiencies and reduce costs.</p>
+          <p eId="para_125">Overall, our costs are partly related to the population being so thinly spread throughout the country with the same wires having to reach all extremities.  We, therefore, have a large network and have spent significant sums upgrading it in the past ten years.  There had not been much investment in the network for a considerable time, partly because prices had been kept down for ten years while the Government determined there should be no price increases.  The network was in a poor state, which was reflected in the customer minutes lost annually.</p>
+          <p eId="para_126">Significant investment has taken place.  On the distribution side, approximately €500 million is invested annually while, on the transmission side, approximately €100 million a year is invested.  This is adding to the immediate costs because the ESB must recover the money and generate a return on the assets.  We are taking steps to achieve more efficiencies and drive down prices.  The return the ESB generates is determined by the rate of return we allow it, which is different from the supply side, where it does not have assets and, therefore, the profit is its mark up on what it buys.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_80">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_127">I presume the work EirGrid must do on the national grid is included, particularly in the area of renewables, which involves major investment.</p>
+        </speech>
+        <speech by="#" eId="spk_81">
+          <from>Mr. Michael Tutty</from>
+          <p eId="para_128">Absolutely.  The assets are owned by ESB Networks.  EirGrid is in charge of the transmission system but the transmission assets are owned by the ESB.  It is proposed in the energy White Paper to transfer the assets to EirGrid but that has not yet happened.  EirGrid determines what needs to be built and where it should be built, while ESB Networks does the work and finances it.  I am, therefore, referring to both the transmission and distribution assets.  The same applies to gas.</p>
+          <p eId="para_129">Deputy Coveney mentioned overvaluation of the assets.  The suggestion they were overvalued arose in regard to the network rather than the generation side.  The previous committee invited Mr. Paul Hunt to appear before it and he suggested there was an overvaluation.  I have a document which we submitted to the committee in response to that suggestion which I will pass on to the Deputy rather than go into detail now.  We do not believe the assets are overvalued and have taken action such as lengthening the depreciation time during which the ESB is allowed to recover the cost of assets.  Mr. Hunt goes into a number of arguments which we do not accept.  We worked with consultants to determine how we should value the assets when we first took up the job and are happy the proper valuation applies.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_82">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_130">Will Mr. Tutty make the calculations available to the committee?  Is the initial advice obtained by the commission on the valuation of assets publicly available?</p>
+        </speech>
+        <speech by="#" eId="spk_83">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_131">It was back in 2002 when we started the process of regulating the gas business and I do not recall what was available.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_84">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_132">Is it not appropriate to ensure the valuation is correct considering it has a direct impact on the pricing structure?</p>
+        </speech>
+        <speech by="#" eId="spk_85">
+          <from>Mr. Michael Tutty</from>
+          <p eId="para_133">To a large extent, his arguments are not made in terms of individual valuations, but our methodology.  We are moving from a position where they used historical costs for valuations on their books while we used indexed historical costs.  He argued that, in moving from one to the other, we were allowing them to recover depreciation costs on the assets twice.  When we refuted the argument, he argued that they had the opportunity to recover the money before we took over and, even if they had not, we should not allow them to recover it now.  It was not a question of him saying that, if we valued particular assets now, we would find that their value was much lower than suggested.  Rather, it was a question of what accounting methodology should be used to set the initial valuation from the time we took over.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_86">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_134">My question stands.  May the committee be supplied with the valuation or is it not publically available?</p>
+        </speech>
+        <speech by="#" eId="spk_87">
+          <from>Mr. Michael Tutty</from>
+          <p eId="para_135">I was not present at the time and I am unsure as to what is in the files.  I doubt whether we have a document which includes the individual valuations.  Rather, the information would be the historical cost of the assets and the methodology used to determine the current value for the purpose of setting revenue figures each year.</p>
+        </speech>
+        <speech by="#" eId="spk_88">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_136">At the time we had consultants advising us.  They spent many days examining the asset register and checking what was on the books of Bord Gáis and the construction cost.  They advised us on the relative value.  We went through a detailed process.  We disagree fundamentally with Mr. Hunt's opinion.  We are confident in this respect and have taken further advice to the effect that we are correct.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_89">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_137">I am not asking about Mr. Hunt but about whether the committee can learn of the basis of the initial calculations.  Surely the asset valuation should not be based on what it cost Bord Gáis or the ESB to put it in place.  It should be the actual value.  I do not want to labour this point forever.</p>
+        </speech>
+        <speech by="#" eId="spk_90">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_138">There is a whole philosophy on how to value assets, how to keep reinvesting to ensure they continue to work as intended.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_91">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_139">Yes, but we have a responsibility to understand the basis when it impacts on the price people pay for electricity.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_92">
+          <from>Chairman</from>
+          <p eId="para_140">Could it be made available to the committee?</p>
+        </speech>
+        <speech by="#" eId="spk_93">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_141">We have published many papers on the methodology used.  I am sure that we can find them and let the committee have them.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_94">
+          <from>Chairman</from>
+          <p eId="para_142">Will the CER make them available to the committee?</p>
+        </speech>
+        <speech by="#" eId="spk_95">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_143">Yes.</p>
+        </speech>
+        <speech by="#" eId="spk_96">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_144">I will deal with the question of maximum price.  That we would move to what is roughly called a price cap regime — a price for the ESB would be set for a number of years with a maximum charge prescribed — is a possibility we are actively considering.  The United Kingdom moved in this direction before deregulation.  We will analyse the idea during the coming months.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_97">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_145">Were it the opinion of the CER that such would lead to a reduction in prices, legislators could consider it with a view to facilitating it.  We would have to take advice from the CER on whether such a move would be helpful.  The potential danger is that, when there is a single strong operator, set prices are necessary to ensure others survive.</p>
+        </speech>
+        <speech by="#" eId="spk_98">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_146">The figure of €300 million has been mentioned several times.  It is not an insignificant sum and arose from our discussions with the ESB on how to ameliorate the serious price increases of last summer.  We knew that the ESB was going to have some windfall gains from being able to incorporate the price of carbon in its electricity prices as part of the new market.  This figure emerged in the negotiations and we were pleased with it.</p>
+          <p eId="para_147">The Minister and the Government own the ESB.  The ESB does not have the right to give away this sum of money for nothing so the Minister would have had to be involved in agreeing this was the correct thing to do.  However we negotiated the deal.  This was part of the package that emerged for the August increase and we were very pleased to get it.  The side effect is that we have no legislative power here and could not force the ESB to do it.  We achieved it through persistence and annoying the ESB, while with the private generators and licensees we had no powers.  We had previously said to the Government that there should be a carbon tax of some description because there are windfall gains here for the next four or five years.  After that they will disappear.  It is entirely a matter for the Government how it handles this.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_99">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_148">Perhaps other people want to speak.  This subject is a bugbear of mine.  People are paying approximately 10% on top of their bills for the cost of carbon which is being introduced under regulation, and rightly so.  However the energy companies are being given free carbon allowances until the end of 2012 and are adding an extra 10% on everybody's bill and are making money for old rope on the back of the consumer.  Consumers have no idea they are paying anything for carbon but think prices are increasing because the price of oil is rising.  This is a scam of enormous proportions.  The energy companies are required to factor that in, but in terms of the bills it makes sense to try to take that unearned money back and drive it back towards reducing prices or alleviating fuel poverty.</p>
+          <p eId="para_149">CER has done a good job of getting €300 million back from the ESB.  Does that sum equate to more or less exactly the windfall profits the ESB is getting?  I would be far happier calculating the windfall gains and taking that money back rather than coming up with a round figure of €300 million to try to get the money off its back on this issue.  That seems to be the situation.  However, at least the ESB is offering that rebate while the other generators, which make up approximately 50% of generation in Ireland, are all making windfall profits and making no contribution back.</p>
+        </speech>
+        <speech by="#" eId="spk_100">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_150">Not only that, but some of this €300 million will also go to their customers because we must equate——</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_101">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_151">It is a double gain.</p>
+        </speech>
+        <speech by="#" eId="spk_102">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_152">They are benefiting twice.  The amount of €300 million is more than the ESB's windfall gain, so we have managed to squeeze more out of that.  This windfall gain will continue for the next four years.  We have advised the Minister but it is difficult to strike a tax on how one could collect this, perhaps after the event.  It is within the remit of the Government to do this.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_103">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_153">What about the figure about which Deputy McHugh asked?</p>
+        </speech>
+        <speech by="#" eId="spk_104">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_154">I have not calculated the figure but we can do so.  The price of carbon is approximately €25 per tonne.  Electricity generation in the Republic of Ireland emits approximately 15 million tonnes per year.  People have received approximately 70% of that free.  This was not all necessarily windfalls because they are not necessarily remunerated for all their carbon.  Moneypoint would not necessarily be remunerated for all its carbon so it would not be quite as big a windfall as one might think.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_105">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_155">One is certainly talking about approximately €250 million per year.</p>
+        </speech>
+        <speech by="#" eId="spk_106">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_156">Yes, this is big money.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_107">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_157">Last year the ESB made profits of €432 million.  Bord Gáis made profits of €129 million.  In the context of energy prices increasing and the strain households will be put under to meet those increased costs, is CER happy that it is turning the screw tight enough?</p>
+        </speech>
+        <speech by="#" eId="spk_108">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_158">We do not regulate companies on the basis of profit but on cashflow, which is slightly different.  There is a theory on profit regulation which Mr. Nolan knows better than I, but apparently it is not as effective as regulation on the basis of cashflow.  The ESB and Bord Gáis make revenue by means other than the business that we regulate.  For example, Bord Gáis sells to the industrial sector through the tariff formula and can make money in this way if it buys well.  The ESB also has ESB International and other companies which provide profits.  Clearly, a good deal of its profits is made in the generation business and networks.</p>
+        </speech>
+        <speech by="#" eId="spk_109">
+          <from>Mr. Michael Tutty</from>
+          <p eId="para_159">Both companies have large capital assets that they must replace over time.  They must make a return on the assets in order to be able to replace them.  We try to keep costs down as much as possible but if we squeeze them too much, they cannot secure the finances to replace the assets over time.  When people look at big profit figures, they tend to forget that there are also big assets.  The companies are making money to invest in new assets.</p>
+        </speech>
+        <speech by="#" eId="spk_110">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_160">Deputy Coonan raised the question of medium voltage customers and returning to ESB Customer Supply.  The CER does not regulate the top end of the market because there is already a level of competition.  We want to make sure every customer can secure a supply of electricity.  If a customer does not receive a reasonable quote from one or more suppliers, he or she can come back to the public electricity supplier on a pool price pass-through tariff.  This means that ESB Customer Supply would serve the customer.  As Mr. Reeves mentioned, there is a new electricity market that permits passing the half hourly price onto the customer who has the choice of taking that unhedged price from ESB Customer Supply or taking a fixed price from another supplier.  Given the volatility of gas prices in the past year, we issued a decision on Friday to allow ESB Customer Supply to offer a 12-month fixed price tariff to larger customers.  As we do not want to undermine competition in the market, customers can avail of this tariff to the extent that their own suppliers or others in the market do not offer a similar price tariff.  We are trying not to undermine competition in the market but at the same time we are trying to provide security for the customer.</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_111">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_161">The CER has, in effect, undermined security in the market because companies cannot return to the public electricity supplier.  This means they must stick with their current supplier because it is difficult to obtain a quote from other suppliers.</p>
+        </speech>
+        <speech by="#" eId="spk_112">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_162">What we do in that situation is contact the customer who then shows us that he or she is not receiving quotes from other suppliers.  We let him or her return to ESB Customer Supply.  That has happened in a handful of circumstances this year, as well as last year.</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_113">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_163">In effect, is Ms Mannion stating the regulation was a mistake?</p>
+        </speech>
+        <speech by="#" eId="spk_114">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_164">No, we allow the customer the opportunity to return to ESB Customer Supply if he or she thinks the supplier is giving a quote well outside the parameters of the market.  It provides a level of security for the customer.</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_115">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_165">That is happening.</p>
+        </speech>
+        <speech by="#" eId="spk_116">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_166">A handful of customers are coming back.  For example, some customers are companies which are closing down.  I have one in mind.  It is difficult for independent suppliers to supply such customers because they are not sure how their load will go into the future.  We allow that customer to return to ESB Customer Supply to manage his or her business.</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_117">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_167">IBEC does not agree with Ms Mannion's assertion that this involves only a handful of customers because it believes a significant number of customers are affected.  Unfortunately, the knock-on effect is hundreds of job losses throughout the State.  For example, jobs were lost at Taylor Made in Templemore in my constituency.</p>
+        </speech>
+        <speech by="#" eId="spk_118">
+          <from>Ms Cathy Mannion</from>
+          <p eId="para_168">We meet IBEC on a regular basis and each time we make it clear that this option is available within the market.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_119">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_169">Ms Mannion touched on the deregulated sectors of the gas market.  A number of months ago representatives of Vayu, a company supplying one of the sectors, made a presentation to the committee.  According to them, they had made significant savings in the power they supplied to the medium sector of the gas market.  Following that meeting, I was under the impression that Bord Gáis would be allowed to re-enter that market armed with hundreds of millions of euro earned from power generation in previous years.  According to Vayu, given the dominance of Bord Gáis in the domestic market, if the CER allowed that to happen, it would blow Vayu out of the water and while such companies would make a short-term gain similar to that made by supermarkets involved in below cost selling, in the scheme of things, the removal of such companies from the deregulated sector would not be good in the medium to long term.  Will the delegation comment on this?</p>
+        </speech>
+        <speech by="#" eId="spk_120">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_170">Last Friday the commission announced this pricing mechanism, the regulated tariff formula, or RTF, would be retained for the next year.  We are striving to bring competition to the market and there will come a point when such mechanisms will have to be taken away but we will not do so until we believe there are sufficient conditions for competition to thrive.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_121">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_171">According to the documents submitted to the committee, there is a little competition in this deregulated sector and none in other deregulated sectors with Bord Gáis maintaining a monopoly.</p>
+        </speech>
+        <speech by="#" eId="spk_122">
+          <from>Mr. Tom Reeves</from>
+          <p eId="para_172">Bord Gáis has a monopoly, which is not a formal monopoly, in the household sector.  The company has less than 30% of the RTF market.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_123">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_173">It is the only market in which there is genuine competition.</p>
+        </speech>
+        <speech by="#" eId="spk_124">
+          <from>Mr. Dermot Nolan</from>
+          <p eId="para_174">That regime is being retained.  Ultimately, we would like to remove most price controls as we move further towards competition but we will not do so until we think there are sufficient competitive forces in place.</p>
+          <p eId="para_175">In response to Deputy Coonan, we regularly meet IBEC and listen to what the organisation has to say.  We are in touch with its representatives about these issues.  As Ms Mannion said, this issue involves a relatively small number of companies but we will be in touch with IBEC about the matter.</p>
+          <p eId="para_176">Reference was made to energy efficiency as the way forward.  In a motherhood and apple pie yet genuinely felt view, we concur with this.  Much of this falls within the Department's remit but we are helping to pilot a number of initiatives, including smart metering, which we hope will make a genuine impact on energy efficiency and over time potentially reduce tariffs.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_125">
+          <from>Chairman</from>
+          <p eId="para_177">I thank Mr. Nolan, Mr. Reeves, Mr. Tutty and Ms Mannion for their contributions.  These issues are close to the hearts of members and we look forward to their next appearance, I hope in the not too distant future.</p>
+        </speech>
+        <summary eId="sum_4">The joint committee went into private session at 3.45 p.m. and adjourned at 4 p.m. until 9.30 a.m. on Wednesday, 8 October 2008.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

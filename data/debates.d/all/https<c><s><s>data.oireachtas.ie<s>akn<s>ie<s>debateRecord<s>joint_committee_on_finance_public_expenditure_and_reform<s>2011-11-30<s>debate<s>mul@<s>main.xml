@@ -1,0 +1,941 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-11-30/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-11-30/debate"/>
+          <FRBRdate date="2011-11-30" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/31/joint_committee_on_finance_public_expenditure_and_reform"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-11-30/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-11-30/debate/mul@"/>
+          <FRBRdate date="2011-11-30" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-11-30/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-11-30/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AlexWhite" href="/ie/oireachtas/member/id/Alex-White.S.2007-07-23" showAs="Alex White"/>
+        <TLCPerson eId="ArthurSpring" href="/ie/oireachtas/member/id/Arthur-Spring.D.2011-03-09" showAs="Arthur Spring"/>
+        <TLCPerson eId="BrendanHowlin" href="/ie/oireachtas/member/id/Brendan-Howlin.S.1983-02-23" showAs="Brendan Howlin"/>
+        <TLCPerson eId="HeatherHumphreys" href="/ie/oireachtas/member/id/Heather-Humphreys.D.2011-03-09" showAs="Heather Humphreys"/>
+        <TLCPerson eId="JimDaly" href="/ie/oireachtas/member/id/Jim-Daly.D.2011-03-09" showAs="Jim Daly"/>
+        <TLCPerson eId="KatherineZappone" href="/ie/oireachtas/member/id/Katherine-Zappone.S.2011-05-25" showAs="Katherine Zappone"/>
+        <TLCPerson eId="KevinHumphreys" href="/ie/oireachtas/member/id/Kevin-Humphreys.D.2011-03-09" showAs="Kevin Humphreys"/>
+        <TLCPerson eId="KieranODonnell" href="/ie/oireachtas/member/id/Kieran-O'Donnell.D.2007-06-14" showAs="Kieran O'Donnell"/>
+        <TLCPerson eId="LiamTwomeyIND" href="/ie/oireachtas/member/id/Liam-Twomey.D.2002-06-06" showAs="Liam Twomey"/>
+        <TLCPerson eId="MaryLouMcDonald" href="/ie/oireachtas/member/id/Mary-Lou-McDonald.D.2011-03-09" showAs="Mary Lou McDonald"/>
+        <TLCPerson eId="MichaelCreed" href="/ie/oireachtas/member/id/Michael-Creed.D.1989-06-29" showAs="Michael Creed"/>
+        <TLCPerson eId="MichaelMcGrath" href="/ie/oireachtas/member/id/Michael-McGrath.D.2007-06-14" showAs="Michael McGrath"/>
+        <TLCPerson eId="MichaelWDArcy" href="/ie/oireachtas/member/id/Michael-D'Arcy.D.2007-06-14" showAs="Michael D'Arcy"/>
+        <TLCPerson eId="OliviaMitchell" href="/ie/oireachtas/member/id/Olivia-Mitchell.D.1997-06-26" showAs="Olivia Mitchell"/>
+        <TLCPerson eId="PeterMathews" href="/ie/oireachtas/member/id/Peter-Mathews.D.2011-03-09" showAs="Peter Mathews"/>
+        <TLCPerson eId="RichardBoydBarrett" href="/ie/oireachtas/member/id/Richard-Boyd-Barrett.D.2011-03-09" showAs="Richard Boyd Barrett"/>
+        <TLCPerson eId="SeanFleming" href="/ie/oireachtas/member/id/Seán-Fleming.D.1997-06-26" showAs="Sean Fleming"/>
+        <TLCPerson eId="StephenDonnelly" href="/ie/oireachtas/member/id/Stephen-Donnelly.D.2011-03-09" showAs="Stephen S. Donnelly"/>
+        <TLCPerson eId="ThomasByrne" href="/ie/oireachtas/member/id/Thomas-Byrne.D.2007-06-14" showAs="Thomas Byrne"/>
+        <TLCPerson eId="TimDooley" href="/ie/oireachtas/member/id/Timmy-Dooley.S.2002-09-12" showAs="Timmy Dooley"/>
+        <TLCPerson eId="TommyBroughan" href="/ie/oireachtas/member/id/Thomas-P-Broughan.D.1992-12-14" showAs="Thomas P. Broughan"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for__Public_Expenditure_and_Reform" href="/ie/oireachtas/role/minister/_public_expenditure__reform" showAs="Minister for  Public Expenditure and Reform"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM AIRGEADAS, CAITEACHAS POILBÍ AGUS ATHCHÓIRIÚ</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON FINANCE, PUBLIC EXPENDITURE AND REFORM</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2011-11-30">Dé Céadaoin, 30 Samhain 2011</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2011-11-30">Wednesday, 30 November 2011</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 4 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#RichardBoydBarrett">Deputy Richard Boyd Barrett,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#ThomasByrne">Senator Thomas Byrne,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#TommyBroughan">Deputy Thomas P. Broughan,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#MichaelWDArcy">Senator Michael D’Arcy,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelCreed">Deputy Michael Creed,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#KatherineZappone">Senator Katherine Zappone.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#JimDaly">Deputy Jim Daly,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#StephenDonnelly">Deputy Stephen S. Donnelly,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#TimDooley">Deputy Timmy Dooley,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#SeanFleming">Deputy Sean Fleming,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#HeatherHumphreys">Deputy Heather Humphreys,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#KevinHumphreys">Deputy Kevin Humphreys,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#MaryLouMcDonald">Deputy Mary Lou McDonald,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#MichaelMcGrath">Deputy Michael McGrath,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#PeterMathews">Deputy Peter Mathews,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_16">
+                  <person refersTo="#OliviaMitchell">Deputy Olivia Mitchell,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_17">
+                  <person refersTo="#KieranODonnell">Deputy Kieran O’Donnell,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_18">
+                  <person refersTo="#ArthurSpring">Deputy Arthur Spring,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_19">
+                  <person refersTo="#LiamTwomeyIND">Deputy Liam Twomey,</person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#AlexWhite">DEPUTY ALEX WHITE IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Private Session</heading>
+        <summary eId="sum_4">The joint committee met in private session until 4.45 p.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Public Service Reform: Discussion with Minister for Public Expenditure and Reform</heading>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_20">Item No. 8 on the agenda is a review of the public service reform plan.  I welcome the Minister for Public Expenditure and Reform, Deputy Brendan Howlin, Mr. Robert Watt, Secretary General of the Department, and Mr. Reid, their colleague, is also welcome to our meeting.  The format of the meeting will involve the Minister, Deputy Howlin, beginning with some opening remarks which will be followed by a question and answer session.</p>
+          <p eId="para_21">I advise the witnesses that by virtue of section 17(2)(<i>l</i>) of the Defamation Act 2009, witnesses are protected by absolute privilege in respect of their evidence to this committee.  If you are directed by the committee to cease giving evidence in respect of a particular matter and you continue to so do, you are entitled thereafter only to a qualified privilege in respect of that evidence.  You are directed that only evidence connected with the subject matter of these proceedings is to be given and you are asked to respect the parliamentary practice to the effect that, where possible, you should not criticise or make charges against any person, persons or entity, by name or in such a way as to make him, her or it identifiable.  Members are reminded of the long-standing ruling of the Chair to the effect that Members should not comment on, criticise or make charges against a person outside the House or an official by name or in such a way as to make him or her identifiable.  I call on the Minister, Deputy Howlin to begin.</p>
+        </speech>
+        <speech by="#BrendanHowlin" as="#Minister_for__Public_Expenditure_and_Reform" eId="spk_2">
+          <from>Minister for  Public Expenditure and Reform (Deputy Brendan Howlin)</from>
+          <p eId="para_22">I am glad to be here.  I am a witness with the same privileges as others here so I can give as good as I get.  I am genuinely pleased to have the opportunity to come to the committee today to discuss and present the reform agenda of my Department.  The Department was established as a Department of public expenditure and reform.  Most of the focus and public commentary will be about the expenditure side and the corresponding role I have but, ultimately, all of that will not be as important as the reform agenda.</p>
+          <p eId="para_23">The Chairman introduced the Secretary General of my Department, Mr. Robert Watt.  Mr. Paul Reid is the director of the reform unit or the reform and delivery office within my Department.  It is important to have an organisation to follow through on the plan.  I will offer my opening remarks and I will ask Mr. Reid to circulate the presentation we made to the Cabinet sub-committee.  I will not ask Mr. Reid to take the committee through it because that would take up too much time but if the committee has questions for me or any of my officials, we will gladly engage.</p>
+          <p eId="para_24">I thank the committee again for the invitation to come here.  Ireland has a long and noble tradition of service to the public and the State.  The core values of integrity, commitment and service to all are at the core of public service in this country.  In seeking to reform the Irish public service, we should recognise that contribution and value it.</p>
+          <p eId="para_25">While the public service can learn from the private sector, ultimately, we must recognise that public services are different.  They are essential to the functioning of society and the economy.  They play an important role in protecting citizens when they need it most as well as having the potential to create the environment for economic growth.  We live in a difficult set of economic circumstances and, naturally, we must be careful about how we spend money.  The public services are no different.  We must organise ourselves better and spend smarter.  While times are hard we also have an unprecedented opportunity to show real leadership and to push through resolutely the challenges of change.  The saying goes that one should never waste a good crisis.  Perhaps there is no such thing as a good crisis but there is an opportunity now to make changes at a pace and on a scale that would not normally present.</p>
+          <p eId="para_26">The Government believes in leading from the front.  I have indicated to the committee previously that we have already introduced considerable change.  We have reduced the pay of the Taoiseach and of Ministers.  We have reformed ministerial transport arrangements.  We have changed the composition of the top level appointments committee, TLAC, to include an external chair and more external members; a majority of external members make decisions now in respect of top level appointments.  We have changed the TLAC terms, which, I have discovered, have existed since 1987, to apply a different regime to Secretaries General appointed from now on.  We have introduced new pay ceilings for senior public servants as well as the commercial semi-State bodies.  We have reduced the number of Oireachtas committees.  We have cut the overall costs of special advisers to Ministers and we have introduced legislation to significantly reduce future public service pensions costs.</p>
+          <p eId="para_27">Enabled by the Croke Park agreement, we have seen many other significant and visible changes throughout the public service in recent months.  I am keen to hear the committee's views in respect of the role of the Croke Park agreement because it has become almost a <i>bête noire</i> in the eyes of some.  Under the agreement we have a reduction in public service numbers this year of some 5,000 staff which will bring the numbers below 300,000 by the end of 2011.  We have managed the redeployment of some 750 staff internally within the health sector.  We have overseen the implementation of new redeployment procedures for second level teachers, resulting in the positive redeployment of some 200 teachers together with the redeployment of some 850 surplus primary school teachers.  We have managed the transfer of more than 1,000 staff to the community welfare service from the HSE and amalgamated the operation into the Department of Social Protection.  Work is ongoing to transfer some 700 staff from FÁS to the Department of Social Protection.  These are some examples of the developments and we can take heart from the progress being made but the Government has no intention of losing the momentum that is beginning to build up.   Transferring staff might seem simple.  We have the objective of establishing an integrated public service but the terms and conditions of employment of various agencies have grown up completely separately.  Therefore, when one tries to move people, one often finds they have different wage scales, hours of work and leave arrangements.  It is extraordinary.  We have to forge them into some sort of cohesive unit, which is not without significant challenge.</p>
+          <p eId="para_28">As members will be aware, I announced the further reduction of public service numbers on 17 November.  By 2015, we now expect to achieve a planned reduction of 37,500 staff, or 12% of the total, since 2008.  The Government is expecting the gross public service pay bill to reduce by approximately €2.5 billion to €14.5 billion, which is a 15% drop on the 2008 figure.  Details of the 2012 employment control framework will be announced next week.</p>
+          <p eId="para_29">The most significant element of the savings that will be realised from the reform plan is the preservation of critical front line services in tandem with a significant reduction in public service numbers in the coming years.  That will be difficult and challenging to achieve.  A stable industrial relations environment will be central to ensuring that we deliver better services with fewer resources.  The Croke Park agreement is central to maintaining this positive environment.</p>
+          <p eId="para_30">If services to the public are to be protected and improved, it is crucial that the public service be structured, organised and managed in a new way; a way that maximises both efficiency and effectiveness in service delivery and allows us to prioritise key services.  It is for that reason the Government decided to proceed with the rationalisation of some 48 State bodies by the end of next year and to review the position of an additional 46 bodies in the next six months.</p>
+          <p eId="para_31">We have also taken overdue and decisive decisions on the decentralisation programme that will bring clarity to ordinary workers.  Some 40 projects have been cancelled.  These decisions have been difficult to take in light of their implications for particular individuals and communities but our focus must remain on how best to run the public service overall.  A total of 32 projects, which are already well developed, will remain <i>in situ</i> in decentralised locations and a further 22 will now be comprehensively reviewed.  We have not finished the review on those 22 but they will be finished as soon as we can when we will announce what exactly is going to happen in those locations.</p>
+          <p eId="para_32">A more integrated approach in the public service to having common terms and conditions of employment for staff, as well as related human resource management policies will further develop a more flexible workforce and customer focus in our public institutions.  Members may already know that my Department has sent final proposals on the standardisation of annual leave across public service organisations to the public service unions for their agreement.  I am confident that agreement will be forthcoming on this important reform.  This particular measure, which will see the abolition of out-of-date local leave arrangements such as festival and race days, will also eliminate many of the different arrangements that currently exist between organisations and sectors by putting in place the same cap on the leave allowances of different public service employment groups.  That will enhance the fluid movement of staff between organisations across the public service and ensure that resources can be reconfigured to adjust to evolving priorities.  We will also take decisive action on allowances, evaluation and sick pay.  I will have a little more to say on that next week.</p>
+          <p eId="para_33">The public service reform plan is a detailed and action-oriented plan which includes specific commitments designed to ensure that we place the customer at the core of everything we do; maximise new and innovative service delivery channels; radically reduce our costs to drive better value for money; lead, organise and work in new ways; and maintain a strong focus on implementation and delivery.  It is an ambitious plan based on approximately 70 recommendations and 200 actions.  It specifically commits to implementation of a radical restructuring of how we do business by establishing shared services models for areas such as human resource management, HR, payroll and pensions; better use of technology to improve the customer experience - up to now approximately 300 public services have been accessible online and we need to expand that potential radically to allow people to do business online; further reform of public procurement processes under the direct stewardship of the Minister of State, Deputy Brian Hayes, and the national procurement service is also under way; property rationalisation and reforms to how we manage property portfolios; and reducing costs, addressing duplication and eliminating waste across the entire system.</p>
+          <p eId="para_34">The plan is necessarily structured and time-bound as befits good governance and organisational management.  Some of the actions involve design and development phases.  That is because we know it is important that we get things right.  International experience teaches us, for example, that shared service approaches to back-office functions do result in cost savings but careful design will be important in ensuring cost savings are maximised.  There have been one or two unfortunate international experiences from which we want to learn.</p>
+          <p eId="para_35">The implementation of new technology and innovative services will be prioritised, through developing and launching an e-Government strategy across the public service by the end of January 2012.  We will improve the sharing of data across Government to reduce costs and enhance customer service.  We also will pilot the use of cloud computing in the public service next year.</p>
+          <p eId="para_36">Building on already developed initiatives in procurement reform with 45 national frameworks in place to date, we will implement further initiatives in enforcement, performance measurement, mandated use of common frameworks, increased professionalism, greater use of category management and more innovative use of technology.  We also intend to realise significant savings in property costs, as I indicated, in particular through leasehold and maintenance arrangements, which is not the easiest of things to do in the current property climate.  We will also raise additional capital income through the sale of excess property assets, at the appropriate market time.</p>
+          <p eId="para_37">HR, payroll and pensions shared services projects are being initiated for the Civil Service with the intention of having consolidated operations in these areas on a phased basis commencing next year and to be completed by 2015.  Sector-specific shared services implementation plans will be in place by the end of the second quarter of next year.</p>
+          <p eId="para_38">The new reform and delivery office in my Department, headed by a new dedicated programme director alongside of me, will take a robust approach to monitoring progress on each of the actions set out in the plan in order that any potential issues are resolved at as early a stage as possible.  Within the ambitious range of actions set out in the plan, an initial number of major projects are being prioritised, including the public services card, which eventually every citizen should have; HR shared services for the Civil Service; payroll shared services across the entire Civil Service; public procurement reform, which I indicated is being spearheaded by the Minister of State, Deputy Brian Hayes; property asset management; Government-level performance management; performance budgeting; and the establishment and development of a senior public service.  The list will evolve over time in line with the implementation of public service reform.</p>
+          <p eId="para_39">At this early stage of our reform journey, it is important to recognise that there is a long tradition of integrity, commitment and service across the public service, qualities that have served this nation well.  This tradition offers us a strong foundation for delivering the fundamental reform that is now needed.  It will be crucial that we all - Government, public representatives, Oireachtas Members and the public service - work together to deliver real change and create a public service that is among the very best in the world.  That is our objective.</p>
+          <p eId="para_40">We recognise that the public and private sectors do not and cannot exist in isolation and for that reason the Government has put the reform agenda at the heart of our drive to secure Ireland's recovery.  I would be happy to answer any questions members may have. I will ask Mr. Paul Reid to circulate his paper.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_41">I will call on Deputy Fleming first.  I urge all colleagues to try to keep questions as focused and tight as they can in order to make as much progress as possible in the course of the meeting.</p>
+        </speech>
+        <speech by="#SeanFleming" eId="spk_4">
+          <from>Deputy Sean Fleming</from>
+          <p eId="para_42">I will not make any commentary at all.  I will have other opportunities for that.  I will get straight into the questions in order to help move things along.</p>
+          <p eId="para_43">In his opening statement the Minister indicated that the Government is expecting the gross public sector pay bill to reduce by €2.5 billion.  I would like him to break down the figure because it is a misleading one.  People who read it will think there will be a reduction in the cost to the taxpayer of €2.5 billion.  My estimate is of a ballpark figure based around the €2.5 billion sum.  If the Minister does not have the figures today, I ask him to send them to the members afterwards in writing.</p>
+          <p eId="para_44">Based on the numbers retiring and the average payroll cost, certain commentators do not envisage the gross figure to be €2.5 billion.  Working on the Minister's figure, €2.5 billion, between superannuation, PAYE and all other deductions, there would be the equivalent of a 30% tax, amounting to €0.8 billion, leaving a payroll saving of €1.7 billion.  What is completely omitted – this is my big bugbear regarding the way the Minister is presenting figures, bearing in mind his exact figure is published in the book he published on 17 September – is the fact that every one of the people retiring is to get a pension.  Even if the pension is less than half one's salary, the overall figure will amount to an extra €1 billion.  Even if the figure of €2.5 billion is the correct starting point, I estimate that the net saving to the Exchequer will be a maximum of €800 million, perhaps a third of the figure quoted.  It is somewhat disingenuous to posit the figure of €2.5 billion.  Could the Minister explain his position on this?</p>
+          <p eId="para_45">How does the Minister propose to manage the retirements?  I do not want him to state he has asked people to give three months' notice.  He will face a cliff at the end of February and must have a system in place.  Numbers will show up in the next few weeks.  Staff estimate that if they do not retire by the end of February, they would be very foolish to do so in the two subsequent years.  This is because it takes three years to return to where one was.  I do not expect public sector numbers to reduce much after 28 February, at least not until 24 months thereafter.  What is the Minister's contingency plan, specifically in regard to front-line services such as nursing?</p>
+          <p eId="para_46">Consider decentralisation and the rationalisation of bodies.  In the Department of Justice and Equality, for example, the Equality Authority and the Irish Human Rights Commission are to be rationalised.  This is fine and the staff have been told they are to go back to Dublin.  The Equality Authority staff have already been decentralised to Roscrea.  Under the decentralisation programme, thousands of staff have already been decentralised.  Are they safe where they are?  Some 300 or 400 staff have been decentralised to my town.  The only reason the programme in respect of Portlaoise is being reviewed is because the office block has not yet been sorted out.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_5" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_47">Is the Deputy referring to the 22 projects being reviewed?</p>
+        </speech>
+        <speech by="#SeanFleming" eId="spk_6">
+          <from>Deputy Sean Fleming</from>
+          <p eId="para_48">Yes.  They include those in Portlaoise and Roscrea.  Several thousand people have decentralised under the 22 projects.  They have moved their families to new homes and schools.  The Minister has upset many people by saying to those who have moved that the 22 decentralisation projects are being reviewed.  Are the staff safe in their new locations, bearing in mind the stipulation in the Croke Park agreement that one must be moved no more than 45 km, to the nearest provincial town, for example?  Will the Minister reassure me they will not be sent back to the city, which they left two years ago?  Will he assure them they will not be sent 100 miles from where they have set up their homes?  I would appreciate a comment on that.</p>
+          <p eId="para_49">The statement on the HSE not paying staff money they are due this year is hollow coming from Ministers.  Can somebody not make a telephone call to the chief executive and order him to write the checks now?</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_7" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_50">On my announcement on the reform plan, there will be very considerable downsizing, in the order of an additional 23,500 staff.  The payroll savings will be in the quantum of €2.5 billion compared to payroll costs in 2008.  That is a simple fact.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_8">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_51">Payroll costs?</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_9" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_52">Yes.  Deputy Fleming is asking about the net figure.  I want members to understand that with regard to those who will retire by the end of February, there is no voluntary early retirement scheme.  There is no incentivised scheme.  The staff in question have an entitlement to a pension and have spent the past 40 years paying into a pension scheme.  The State has been preparing for 40 years to pay them their pensions and has understood they are approaching pension age.  That is the sort of planning that states do.  Saying an inevitable cost is a new cost to be taken away is not fair.  The net payroll cost of the early retirement of this quantum of people from the public service between now and 2015 will be of the magnitude of €2.5 billion, as I have indicated.  Not all are retiring early because some would be due to retire in any case.</p>
+          <p eId="para_53">With regard to the cliff we will face in February, we were obviously thinking very clearly about the decision made by the previous Government to have the grace period.  The cliff was constructed for us before we arrived on deck.  We are preparing for it.  There is in my Department a manpower planning unit.  We have ensured that it is replicated in each sectoral area.  There is a planning unit in each area, including the education sector, the Civil Service and the health service.  I do not mind reiterating that I asked for three months' notice with regard to the making of the plans.  I ask publicly that those who are planning to leave give as much notice as possible.  Contractually, many are bound to give a month's notice, but anybody who has worked as long in the public service as the potential retirees will want the service to continue to provide a service of decent quality.  I ask them to facilitate us to make plans on a contingency basis for holes that may emerge.</p>
+          <p eId="para_54">Since this is not a targeted programme, it indicates to those in the public service that their pension and lump sum entitlements will change for the worse after the end of February; there is an incentive to leave.  People will make that decision rationally if they want to.  We have no control over who will leave.  Some will leave whom we do not want to leave.  We must determine how we can continue to fill the holes and move people around.  That is why the Croke Park structure is so important to us.  Under that, we have the flexibility to redeploy staff within a radius of 40 km and between agencies.  There will be issues.</p>
+          <p eId="para_55">The Minister for Education and Skills has answered a Topical Issue question on the education sector.  If, for example, there is an examination subject teacher who feels it is in his best interest to retire by the end of February, he may do so but will be allowed to stay in place under a different arrangement until the end of the school year such that his examination class will not be discommoded.  Similar exigencies will apply where there are real pressure points, as long as we can get decent notice.</p>
+        </speech>
+        <speech by="#SeanFleming" eId="spk_10">
+          <from>Deputy Sean Fleming</from>
+          <p eId="para_56">On the application of similar arrangements, the Minister said-----</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_11" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_57">No.  I said that publicly before when I was asked.</p>
+        </speech>
+        <speech by="#SeanFleming" eId="spk_12">
+          <from>Deputy Sean Fleming</from>
+          <p eId="para_58">Very good.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_13" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_59">I refer to where there are pressure points.  We need to know where the pressure points will be, however.  They will not be everywhere.  I am conscious that there is crudeness associated with the moratorium on recruitment.  There needs to be dialogue on this.  I am conscious that there is a real cost associated with recruiting agency staff to replace public servants.  I am going to look at that in a flexible way.  If there were a real barrier to a nursing home staying in existence because of staffing issues associated with the moratorium, we would obviously address the issue in a pragmatic way if it made sense economically and in regard to the provision of health services.  That is the way I want to proceed.</p>
+          <p eId="para_60">I will be completely honest with Deputy Fleming on decentralisation.  I was among the Deputies who did not shout loudly against decentralisation because Wexford was to receive the then Department of the Environment and Local Government lock, stock and custom-house barrel.  It was to be the headquarters.</p>
+          <p eId="para_61">However, objectively it was a daft idea to break the public service.  Of course, we were not getting the Department decanted to Wexford but an advertisement for anybody who wanted to go to Wexford, such as those with an affinity therewith, to do so.  Staff from every Department were going and the integrity of Departments was sundered by the arrangement.  This did enormous damage to the functioning capacity of the public service and that is the truth of the matter.  To use the hackneyed phrase I swore I would never use, we are where we are.  A number of significant Departments of State have moved.  In my announcement I stated that, with two exceptions, they were not the headquarters of Departments.  They will be functioning parts of Departments because, even since the move, bits of Departments have been reconfigured and what might have been an integrated Department now comprises two or three Departments in the new configuration.  Moreover, Governments have the right to configure Departments to suit changing needs.  Consequently, there will be no further decentralisation under that programme.</p>
+          <p eId="para_62">As for the existing advance parties, those that are well established, with buildings in place and staff moved, will stay.  They will be administered in the normal way as functioning parts of Departments.  As for the final part, which really is the point of Deputy Fleming's question regarding the 22 projects, we still are reviewing the matter.  Some of them are tiny in that, in some instances, a so-called advance party might comprise eight or nine people.  It reminds me of sending in the marines to hold a territory until the troops arrive.  In others, significant numbers are involved and we will make rational decisions in this regard.  I want that decision to be made for people.  The Deputy is correct because this has gone on since 2008 and people are in abeyance.  This is the reason I wish to make a relatively quick decision and, in so far as possible, I will try to get the rest of it done as quickly as I can.  In response to the Deputy's question on whether the staff are safe where they are, I will try to answer that question as quickly and as rationally as I can.</p>
+          <p eId="para_63">Deputy Fleming's final question pertained to HSE staff.  I made a comment on radio this morning to the effect that a number of functionalities within the HSE had caused me concern since I had moved to my current position.  While I do not wish to be overly prescriptive at this juncture, I note that in my nine months in office I have encountered no other institution which involves as much money and is in more need of reform than the HSE.  Reform will come visiting that organisation as quickly as the Minister for Health, Deputy Reilly, and I can organise it.</p>
+        </speech>
+        <speech by="#LiamTwomeyIND" eId="spk_14">
+          <from>Deputy Liam Twomey</from>
+          <p eId="para_64">I welcome the Minister and his staff and wish them the very best because they have an unbelievable job ahead of them.  In some of the Departments about which the Minister has spoken such as the Departments of Health and Education and Skills salaries comprise more than 70% of the departmental budget.  Thus far, there have been significant cuts to services and overall gross numbers.  However, taking out gross figures from these Departments will have a significant impact on services.</p>
+          <p eId="para_65">While I note that some good things are happening, my impression is that the overall implementation of the Croke Park agreement may be moving too slowly.  I also have concerns about some of the Minister's proposed public service reforms.  I do not refer to what he proposes but to the manner in which the reforms may come about.  For instance, I refer to the big ticket items in the agreement such as absenteeism, the revised rostering arrangements, including for the HSE, staffing levels and annual leave.  The problems with annual leave have been evident since the time of the PPARS project which threw up the issue in the first place.  In reality, very little is happening, even though the second anniversary of the agreement falls next March.  I am concerned the drive is lacking to get the agreement working in respect of the aforementioned big ticket items.  For instance, the Minister referred to 750 staff moving within the HSE.  However, if one drills down into that figure, one finds that 220 of them moved from one hospital to another in Cork city and another sizeable proportion comprises staff moving from psychiatric hospitals such as St. Senan's in Wexford out to the community.  There seems to be a need to implement the agreement much faster if it is to make the sizeable impact the Minister seeks.</p>
+          <p eId="para_66">As for public sector reforms the Minister proposes, he has referred to new business models for non-core services.  I note the report contains references to in-sourcing, co-sourcing and outsourcing.  In addition, the examination of procurement issues is being driven forward by the Minister of State, Deputy Brian Hayes, and the streamlining of shared services also is under consideration.  While I am neither for nor against the private sector, my concern is that there may be a mindset within the public sector or a lack of expertise therein, which means it simply may not have the ability to implement such huge programmes as the Minister proposes.  When established, relatively new bodies connected with the public sector often can outsource a significant amount of the work they do.  There is much scope in this regard, but what concerns does the Minister consider to be cropping up that might hinder this process?  If the services to citizens are to be retained, these are core issues.  If 23,000 jobs are to be cut out, current spending on the provision of services is to be cut and the changes sought by the implementation body and the Minister are not achieved, there will be a major problem in looking after citizens in two years time.</p>
+          <p eId="para_67">One measure that would drive this forward would be the introduction of more people from the outside.  The public sector works very well and a few Sir Humphreys can be useful to the public, in the sense that by ensuring there is no major change, one can protect the people in one way or another.  I think back on the issue of co-location; had that proposal come two or three years sooner, it would have been another €1 billion mess.  The money would have been wasted and the taxpayer would have been obliged to deal with the mess.  At the same time, however, one can bring in outside expertise and new ideas from the private sector.  I had thought that one provision in the programme for Government was that one in three senior appointments to be made within the public sector would be made from the outside.  Is this still the case?</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_15" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_68">The Deputy has asked a number of questions.  It was interesting to hear him not quite elaborate on his view of the Croke Park agreement, as I am hearing many views on it.  He is correct to state that for many Departments, a major chunk of their costs is payroll costs.  This is because people deliver services such as education, policing and health care.  Such services are delivered by people and one needs people of quality.</p>
+          <p eId="para_69">As for the reforms that can be brought about, it is interesting that this meeting is taking place on the day when a national strike is taking place in Britain because there is a view that one can bring about fundamental change, as well as breaking deals.  I do not suggest the Deputy is suggesting for one minute that the Government should break the Croke Park deal, but it has been posited that savings cannot be made while maintaining current pay rates.  The vast bulk of those who work in public services are not on exorbitant pay rates and have already taken a pay hit.  There is an issue about top-level pay, in regard to which the Government has taken a number of initiatives.  It may be obliged to take more because there is an extraordinary variety between the lowest and highest levels of pay within the public service in general and it is a matter we have begun to address significantly.</p>
+          <p eId="para_70">The Deputy's main point concerns momentum and whether the Government is getting real value from the Croke Park agreement in this regard.  He has a point.  The first annual evaluation report we received reported significant savings.  If I recall correctly, it recorded payroll savings of €289 million and non-payroll savings of approximately €300 million, which are highly significant.  The Government published the second six monthly interim report as part of the reform agenda and that still is very much on track.  I have met the implementation group formally a couple of times.  I meet it informally more frequently than this, as well as meeting regularly the component parts, including the unions and managers, to drive the agenda.  I have also met the group in the company of the Taoiseach.  We must have clear, co-ordinated action plans on a sectoral basis to drive the agenda for change.  The Deputy is correct that we cannot stick around in this respect.</p>
+          <p eId="para_71">The Deputy also touched on core issues such as absenteeism.  This issue must be examined and the locations must be up in big print.  Moreover, we are making changes in respect of the sick pay issue that I intend to announce shortly.  While I will not be sector specific, there were areas within the public service in which people might have stated they had not yet used up their sick days, as though they had an entitlement to X number of days.  I do not suggest this was endemic in any way, but such practices must change.</p>
+          <p eId="para_72">As for leave arrangements, most people were very surprised by some of the leave arrangements in place for decades in parts of the Civil Service.  For example, I do not mind singling out county managers who had more than 40 leave days a year.  We are now introducing a standardised leave arrangement so that we can have flexibility across work patterns generally.  I have talked about leave arrangements, staffing levels and rosters.  Changing rosters was a huge bugbear.  Deputy Twomey would know it well from the hospital setting.  If one looks at the Garda setting, the notion that rosters set in the 1970s that deployed the same number of gardaí on a Monday morning as they did on a Saturday night were patently absurd.  Those have now been changed and people are engaging.  We are beginning to drive this with much more vigour.  We will be proactive concerning the new business model with shared services because there are significant savings to be made.  Departments are already involved in that.  Across the civil service we will have models of shared services in human resource management, payrolls and pensions.</p>
+          <p eId="para_73">I will say this to Deputy Twomey: I do not approach this with any ideological view.  I want the best efficient service we can have.  I have a huge regard for the public service and public servants, but that will not colour my view in terms of an efficient way of delivering services to the citizen, which is the priority that I and my Government colleagues have been tasked with.  The committee will notice there is a citizens' focus.</p>
+          <p eId="para_74">The final point related to bringing people in with external expertise.  It is still our intention, and is in the programme for Government, that one third of appointments above principal officer level would be external.  We have set the structure for that in that a majority of top level appointments committee members - the people who make appointments at the most senior level - are not civil servants, including the majority and chair of the interview and nominating panels.  That significant reform is already in place.  Mr. Paul Reid has been recruited from the external world as a change manager to enter the public service.  With your permission, Chairman, I will ask him to give his view on change management.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_75">Yes.  He is very welcome.</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from>Mr. Paul Reid</from>
+          <p eId="para_76">It is fair comment that much of the reform agenda is pretty significant and aggressive.  Some of the expertise will be required from the private sector in terms of implementing significant restructuring operations.  For example, the implementation of shared services and ensuring we gain savings from them is a real challenge for us when we get the system in place.  I have had significant experience of implementing shared services, as well as restructuring and looking at outsourcing or new options for service delivery.  It is important to say that outsourcing costs extra money so our first driver is to make it more efficient internally by looking at duplication, waste and business process re-engineering.  We will examine processes that are duplicated and replicated across the system, thus eliminating waste.  In my experience in the private sector, there are significant opportunities for gains to be made in that respect.  The same applies to our approach to restructuring and rationalising between Departments.  Much of this reform agenda cuts across many Departments, sectors and offices, so we must be disciplined to ensure that we obtain savings.  We must also ensure that we take decisions at the highest level to drive the right efficiencies across sectors and Departments.  Departments are doing some good restructuring but we need to take a wider cross-departmental view of it, which is my experience.  Overall, the reform agenda is about reducing costs through a number of activities, with the headcount reducing between now and 2015.  We need to examine every way of improving services, restructuring and reform along the way.  I have had that experience, which is why I have joined the Department of Public Expenditure and Reform.  That is the discipline we need in terms of implementation, follow-through and capturing savings all the time along the way.</p>
+        </speech>
+        <speech by="#" eId="spk_18">
+          <from>Mr. Robert Watt</from>
+          <p eId="para_77">I wish to add to what the Minister and Mr. Reid have said.  Deputy Twomey asked about the different processes and aspects.  Shared services represent a significant opportunity for us because we do have a very diffuse system.  Within the civil service, which is an organisation of 36,000, we have individual Departments and entities that are involved in HR and have their own payroll, pensions and back office, so we are examining consolidating and streamlining.  There are opportunities to save money by using common technology and benefiting from economies of scale over the period set out in the plan.  Outsourcing of non-core activities raises other issues and more fundamental questions for us.  We must ensure that the contracts are well specified, that we enter into something that is in our interests, and that we can get out of contracts as well if we are not happy with the performance.  We will be careful about it.</p>
+          <p eId="para_78">There is an issue about project delivery capacity within the service.  We are now embarking on a very ambitious programme, as the Minister has set out.  There are 70 actions and recommendations with a whole range of activities we are examining, including timelines of ambitious reform for restructuring the system.  We will need more people like Mr. Reid and others from the outside, and partner organisations that have experience in change management.  We have an open mind - it is really case by case - on looking at what we are doing and to establish what expertise and capacity we need.  There is a project delivery issue for us, which is something we must address if we are to deliver on the Minister's plans and those of the Government.</p>
+        </speech>
+        <speech by="#LiamTwomeyIND" eId="spk_19">
+          <from>Deputy Liam Twomey</from>
+          <p eId="para_79">May I put a brief supplementary question?</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_20">
+          <from>Chairman</from>
+          <p eId="para_80">Very quickly.</p>
+        </speech>
+        <speech by="#LiamTwomeyIND" eId="spk_21">
+          <from>Deputy Liam Twomey</from>
+          <p eId="para_81">The three previous speakers are really driving this agenda because, to be honest, there has not been the same focus on that.  Let us take the HSE, for example, and all the problems there.  It has been made clear that the HSE is a problem, but can those changes be made within six months, including roster changes, reducing absenteeism and changing hospital work practices to deliver for patients?  Otherwise, we will see huge cuts to services.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_22" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_82">The Deputy has to understand that the HSE is unique in as much as the programme for Government states that it will be abolished.  Therefore it is not a normal institution.  We will have to change the way health services are administered.  We have set out the primary care strategy and the acute hospital strategy to have a universal health insurance model.  The Minister for Health is developing the governance model for the remaining parts of the health service.  Fundamental change will be happening there.  In the interim the Deputy is right because as we change the governing structures we need to ensure that what is there now is efficient in so far as we can.  That means people working differently.  Work patterns and rostering, which Deputy Twomey has an acute knowledge of from the hospital sector, need to be changed.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_23">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_83">I have two initial questions and I wish to raise a couple of issues arising specifically from this document.  The Minister's private secretary informed my office today that the budget Estimates and the comprehensive expenditure report will not be published tomorrow as scheduled.  Can the Minister explain why?  He probably recognises this document which gave substantial details in terms of the budgetary cycle.  It now reads like a work of fiction rather than fact.  Can the Minister explain how and why he will produce all that documentation on Monday morning, and then deliver his part of the budget on Monday afternoon?</p>
+          <p eId="para_84">My second question relates to the pension part of his reform agenda, which he dealt with yesterday and we debated quite robustly in the Chamber.  When does the Minister propose to end the practice of pensions being paid to people who are still in gainful employment?  What is his attitude to the payment, particularly of very large pensions to individuals in the employment of another State agency, having retired from a previous role?  I am asking that because I have a response to a question I raised with his colleague, Deputy Quinn.  He confirmed that there is one retired secretary general currently employed by a State agency under the aegis of his Department.  The individual concerned took up a post in the higher education and training awards council in January 2002.  This person had retired from the secretary general role in 1999.   I understand the individual's pension is approximately €100,000 and the salary is set at a similar level.</p>
+          <p eId="para_85">I share the Minister's sentiments regarding the integrity and value of the public service.  I approach the matter from an ideological position and I suspect the Minister does likewise.  Deputy Sean Fleming asked about the net savings to the Exchequer from the job reductions.  The Minister appears to give two answers, one of which, €2.5 billion, is based in bald payroll figures.  I ask him to answer the Deputy's question on the net saving to the Exchequer, taking account of superannuation, levies and pension costs.</p>
+          <p eId="para_86">How can the Minister give a guarantee to protect front line services while at the same time acknowledging that the exodus from the public service will be voluntary and cannot be targeted under the terms of the scheme?  How can he reassure the public that services will be protected?  I welcome Mr. Reid's comments regarding shared services and the cost savings that can accrue through change management, but the final judgment on whether the process has been successful will be made at the front line.</p>
+          <p eId="para_87">I want to raise specific questions about State agencies.  I was not enamoured with the Minister's document on public service reform, as he may have gathered.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_24" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_88">The Deputy does not appear to be enamoured with anything I have published.  I am fond of all her publications.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_25">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_89">It keeps the Minister on his toes.  What savings does he envisage through his cull?  Why has he not set specific targets in the area of good governance?  He made a bald claim that there will be efficiency dividends but he does not spell them out.  The Comptroller and Auditor General reports year after year that the bodies in question are not acting efficiently in terms of reporting their draft accounts.  That is one example of the governance issues that arise in these bodies.  I am concerned that the Department cannot provide a full and comprehensive list of State agencies.  Why is it necessary to look for this information Department by Department?  Why is the full list of board members not accessible in the public domain?  Why is one required to dig out that type of information?  Are there plans to address the issue of fees and other expenses pertaining to these bodies?</p>
+          <p eId="para_90">I concur with the Minister on the need to reconfigure and reform this area but what has been done thus far has been a crude amalgamation or abolition of bodies.  I do not see a coherent strategy.  One of the bodies that jumps out at me is the Office of the Ombudsman for Children.  I raised a question previously regarding whether the Minister had consulted with the Ombudsman.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_26" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_91">I answered it previously.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_27">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_92">He told me his Department had not done so.  Can I take it from his answer that consultations have not been entered into with these bodies at any level?  I do not suggest that consultation should involve requesting permission to carry out this exercise but it is important to enter into some form of consultation, particularly in respect of agencies that are performing efficiently and provide valuable services to the public.  How were decisions arrived at in the absence of consultation?  I refer to the Ombudsman for Children for several reasons, not least of which is the significance of its functions.  Another report on the sexual abuse of children was published today.  Arguably, children's rights and the debate over provision of public services to children are relatively recent phenomena in this State.  However, one could ask similar questions about other bodies on the list.</p>
+          <p eId="para_93">I hope the Minister's assessment of other agencies will be not be an exercise in optics.  Good for him if he can issue a press release announcing that he abolished 48 quangos, but that will not address the fundamental issues of good governance, genuine efficiency and cost savings.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_28" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_94">The Deputy asked a long list of questions and I will address as many as I can.</p>
+          <p eId="para_95">In regard to budget announcements, at the outset of this Government we fundamentally altered the structure of financial management of this State by establishing the Department of Public Expenditure and Reform.  The old Department of Finance was broken into new Departments dealing with expenditure and reform, on one side, and fiscal management and taxation, on the other.  I wanted to put as much information into the public domain as possible when we made our announcements.  In the normal big bang budget day, when everything is thrown into a 40 minute speech by the Minister for Finance, the devil is in the detail.  The full details may not be available until the documentation is released a couple of days later or when Ministers make their announcements.  I was anxious that the matter would be addressed in a clear way.</p>
+          <p eId="para_96">The original intention, as set out in the timeline to which Deputy McDonald referred, was to present the medium-term economic forecast envelope at the beginning of November.  That was done by my colleague, the Minister for Finance.  The next milestone was the announcement of capital funding for the next four years.  The manner in which that was presented avoided mixing it up with everything else.  The third of a series of announcements was the reform agenda.  I am sorry the Deputy was not impressed by it but I will surprise myself by impressing her one day.  The reform agenda included the issues of State agencies and decentralisation.  The next milestone was the publication of the results of the comprehensive review of expenditure, CRE, and the envelopes of expenditure and the final tranche was to be the budget on Tuesday.</p>
+          <p eId="para_97">For practical reasons it was decided to bring the final two announcements closer together.  Expenditure and fundraising are so intermeshed that we need to deal with them in as close proximity as we could manage.  Rather than make an envelope announcement and then publish all the Estimates on the day of the budget, in which case there would be envelopes of expenditure and the CRE documentation without specifics, we thought it preferable to set a day aside for expenditure.  That is what we are going to do on Monday.  I will present in detail the Estimates for next year and on the following day the Minister for Finance will tie together the budgetary arithmetic, the strategic economic overview and the taxation issues.  Jointly we will then be able to deal with issues arising.</p>
+          <p eId="para_98">This approach manifests the presentation of a different structure of economic management in this State.  It is a slight change.  Instead of having my departmental announcements on Thursday, it has been moved to Monday to integrate better with the Tuesday announcement.  That was the Government's decision.</p>
+          <p eId="para_99">In regard to other matters, the Deputy had a good innings all day yesterday about the pension reform I announced.  I agree it was not an enormously significant issue in itself.  The moneys involved are very small because the number of people involved, at a couple of hundred, is very small.  They are people who have been in the service of the State at a very high level, either as very senior members of the Judiciary, as Ministers, the most senior public servants in the land and others, including some in academia, who have pensions of more than €100,000.  We decided to deal with it not on a fiscal basis but on the basis that it had to be couched in the argument of fairness, similar to the cap on public sector salaries.  The Deputy has very clear views on that and we can engage about what the level should be, but we are agreed that there should be a cap.</p>
+          <p eId="para_100">As a result of the practices of the past decade or more, pay and pension rates at the very top were excessive.  We must pull that back, but we must do so by having regard to the Constitution and people's rights.  As I said to the Deputy previously at this committee, when we discussed the retirement of a senior civil servant, I am not interested in grandstanding on this, that is, saying I will do something I cannot do, being obliged to go down to the courts and just saying that we did our best.  The measure announced yesterday, and I took very careful advice on it, amounts to a 20% chop off the top of the pension of over €100,000 for that component over €100,000.  It is an effective tax rate of 70% on the component over €100,000 and a very significant tax rate on the balance.</p>
+          <p eId="para_101">I gave the example of somebody on €125,000, whose pension will be reduced to €71,000.  That is a great deal of money.  It is a significant reduction on people's legitimate expectation, which, under our Constitution, is an established property right according to the advice I have received.  One paid for it so it is something one owns.  Therefore, it must be done in a way that is doable, and that was a reasonable attempt.  Is it enough?  We will debate these things further.  The number of people is so small, at approximately 250, we are doing it more for equity than for the quantity of money involved.</p>
+          <p eId="para_102">The Deputy made a number of other points about people who are on pensions and are subsequently employed.  There is a process called pension abatement, of which the Deputy will be aware.  I can examine any case the Deputy has in mind and we can check whether proper pension abatement is applied, but the general principle is that the pension together with the rate of pay for the new job would not exceed the previous rate of pay.  These things can be examined.  Is that not the process?</p>
+        </speech>
+        <speech by="#" eId="spk_29">
+          <from>Mr. Robert Watt</from>
+          <p eId="para_103">Yes, that is the process.  We can check in respect of that case and refer back to the Deputy.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_30" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_104">The Deputy is absolutely right with respect to protecting front line services.  That will be hugely challenging.  I will not pretend that we can take an enormous number of people, 23,500, out of the public service over the next number of years and not have pressure points.  We will have them.  I want to be flexible and I want the resources of my Department and other Departments available to deal with the service in different ways and to move people around differently.</p>
+          <p eId="para_105">There is a bottom line, regardless of what way one slices it.  Deputies on the Opposition benches have the luxury, as I had for a long time, of being able to be against everything and not necessarily having to put forward concrete solutions.  I listened to "Morning Ireland", perhaps because I was appearing on it, and heard the ESRI senior commentator give a frightening prognosis of how perilous our economic situation is.  We must construct the budgetary situation next week in that context.  We are making all the decisions with great care and to hold a cohesive society together, but also to ensure we can downsize the cost.  Bluntly, we cannot continue to borrow €1.25 billion a month for day-to-day services, excluding bank servicing, into the future.</p>
+          <p eId="para_106">With regard to the cull of State agencies and so forth, if the Deputy did not like the list I produced, I would be interested to see her list.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_31">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_107">The Department does not have a comprehensive list.  Perhaps the Minister could assist us by putting it up on the website.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_32" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_108">I will certainly try to facilitate the Deputy in any way I can.  I am here to serve.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_33">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_109">I do not know if the Minister is aware of this but the Department does not have a list, shocking as that is.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_34" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_110">A list of all State agencies?</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_35">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_111">It does not have a list of all State agencies.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_36">
+          <from>Chairman</from>
+          <p eId="para_112">I was surprised to hear that Deputy McDonald would have a different list.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_37">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_113">The point is there is no list.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_38">
+          <from>Chairman</from>
+          <p eId="para_114">We are getting to a list now.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_39" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_115">We have a list that we worked on, obviously.  If it is not a comprehensive list, I will find out if there are lacunae in it.  When I looked at the list, it included agencies I did not realise existed.  This is a process, not a finished entity.  I have detailed the agencies I wish to amalgamate or subsume back into Departments or to act in a way recommended in the reform document.  We will have to review others in time.  There might well be things that we said we would do but which might not be doable when push comes to shove, but, by and large, we intend to do the vast majority of what we said we would do, and we intend to do it quickly.</p>
+          <p eId="para_116">In terms of the specific matter raised by the Deputy, like the Garda Síochána Ombudsman Commission and others, the Ombudsman for Children is performing sterling and important work.  However, we must get over the notion that because these bodies are important they cannot rationalise their activities through shared services and back office support, and that the Ombudsman could not provide a support base for the Ombudsman for Children or <i>vice versa</i>.  I do not believe there is resistance to this.  Similarly, it does not make sense for every Department to have its own human resource management, payroll or pensions operations.  We can integrate these.  The value of children has been underscored by this Government through the appointment of a Cabinet Minister with responsibility for children.  Next year we will be dealing with a constitutional amendment to support children’s rights, which is long overdue as well.</p>
+          <p eId="para_117">I wish to make a final point, and I am sorry for being a little long-winded.  It relates to the so-called quangos list.  I fall into the trap of using the word "quangos" myself for ease of language.  As I said on the day of the announcement, almost as important as the actions of subsuming or quelling or abolition are the three other principles the Government has set out.  First, any new agency to be established will implicitly have a sunset clause, so that when its functionality is finished it will cease to exist.  It will not continue only for somebody to discover 20 years hence that it is still in existence.  Second, it will be required to have a business case that is annually determined by its parent Department, stating there is still a convincing business case for it.  Third, it will have a service level agreement with its parent Department, so it will know what it is to do and be checked on an annual basis.</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from>Mr. Robert Watt</from>
+          <p eId="para_118">In terms of the public sector reform plan, this is a beginning of a process.  We are responding to the agenda set by the Government for the new Department.  We know this is not the definitive word and that is why we are anxious to hear views and suggestions from Deputies and others about the plan.  We are interested in hearing people's specific ideas and we will incorporate them.  With regard to the list, my recollection is that we produced a list for a parliamentary question, although I might be mistaken.  However, there is a list and we can facilitate the Deputy in that matter.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_41">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_119">Chairman, I wish to make a comment.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_42">
+          <from>Chairman</from>
+          <p eId="para_120">I will allow a question, not a comment because I wish to move on.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_43">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_121">We are not going to agree on many of these things so I will not detain the meeting with it.  How on earth did the Minister move from this sequence of events to the other?  While I acknowledge what the Minister is saying about information in the public domain and transparency, he should do tomorrow what he suggested in respect of the comprehensive expenditure report if he is serious about having the maximum amount of information in the public domain.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_44">
+          <from>Chairman</from>
+          <p eId="para_122">That is not really an additional question so much as-----</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_45">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_123">This is an important matter.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_46">
+          <from>Chairman</from>
+          <p eId="para_124">It is very important.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_47">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_125">This is a committee on finance.  I did not produce this.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_48">
+          <from>Chairman</from>
+          <p eId="para_126">It is very important; it is just that the Deputy is not particularly accepting of the answer.  She is entitled to her view.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_49" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_127">I would love to answer the question very briefly.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_50">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_128">I would have believed Deputy White, as chairman of the committee, would have had an interest in why-----</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_51">
+          <from>Chairman</from>
+          <p eId="para_129">I was making a point in the Deputy's favour.  She did not like the answer she got but she is entitled to her view.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_52" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_130">It is extraordinary that when we set out the time line for five significant announcements, we delivered four exactly as stated.  We moved the fifth by two days.  That is a momentous change.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_53">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_131">Three.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_54" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_132">Three days.  I am sorry.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_55">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_133">Three of the five.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_56" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_134">We have announced the medium-term fiscal plan-----</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_57">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_135">The capital investment.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_58" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_136">-----and the capital investment.  We have announced the reform plan and are to announce the budget on the specified date.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_59">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_137">There are to be two budget days.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_60">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_138">As practitioners of large-scale change management will know, the process is as important, or arguably more important, than the proposed plan with regard to getting things to stick.  My question concerns the disconnection between what I hear the Minister say and what seems to be the experience of the process from a parliamentary perspective, including a committee perspective.  Approximately eight weeks ago, the Minister said he believed Ministers and Departments should be more accountable to the Oireachtas and its committees in terms of how they spend their allocations and on their plans for delivery and reform.  In regard to delivery and reform, this is obviously the big event of the Minister for Public Expenditure and Reform.</p>
+          <p eId="para_139">Two weeks ago, specifically regarding this committee and this plan, the Minister said:</p>
+          <p class="indent_1" eId="para_140">The implementation of the Public Service Reform Plan will involve an unprecedented level of change.  This is something that we must do together, as public servants and as citizens.  In setting out on this journey of change, we are open to new ideas.  With this in mind, in the coming weeks I will be discussing the Reform Plan with the Oireachtas Committee on Finance, Public Expenditure and Reform [...]."</p>
+          <p eId="para_141">However, the last time we discussed this at a committee meeting, I asked the Minister whether he would come to the committee before he sent his plan to the printers.  He said, "I am anxious that we do not open a debate on the what, because it is time to start doing."  There seems, therefore, to be a very serious disconnection, which worries me as a Deputy and as one who has some experience of change management.  I understand that if one does not get the process of engagement right, it will not work and will fail almost every time.  The PowerPoint presentation that was delivered to the Cabinet and the Minister's speech do not contain anything new; they are basically PowerPoint and speech versions of the plan, which I read in detail when it was released a few weeks ago.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_61" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_142">It would be very odd if they were different.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_62">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_143">Yes, but my point is that the Minister is not bringing anything extra to the committee.  I have read the plan and noted that it has many good ideas.  There are many aspects that I welcome and I really wish the Minister luck with many of the initiatives.  However, if the plan is broadly as stated and there are not many developments in the background, which developments may not fit well with being published, it is missing a lot.  It is missing a lot of what we know about best practice in large-scale change management.  While business process re-engineering, shared services and performance management systems are important and must all be effective, there is an entire side to successful change management that is not really addressed in the plan at all.  Based on the quotes, what I have seen so far, the fact that the plan has already been sent to the printers and the Minister's statement that he does not want to open the debate on the "what" of it,  it does not actually matter what I say here today.  It does not matter what any of the members say today.</p>
+          <p eId="para_144">The Minister and I had an exchange on the capital expenditure programme in the Chamber during which I asked explicitly whether anything could change in the capital expenditure programme.  His answer was that there could be change if we fell out of an IMF programme, but that, most likely, there would be none and that the capital expenditure programme as set out would be the one implemented.  The Minister's words at this committee indicate exactly the same thing.</p>
+          <p eId="para_145">Rather than getting into the detail of some great initiatives in the plan and of those that are not in the plan and without which the chances of success will be significantly lower than they could be, I ask whether the Minister believes this committee meeting meets his stated objective, namely, that Ministers and their Departments would be accountable to Oireachtas committees.  I am not asking this to score political points but because I know from experience, change management theory and evidence that if one gets the process of engagement wrong, one reduces radically the chances of succeeding in a change programme as comprehensive and important as the one the Minister is trying to implement.  Clearly, mine is a loaded question because I believe the process of engagement is wrong.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_63">
+          <from>Chairman</from>
+          <p eId="para_146">Is the Deputy referring to engagement with the committee?</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_64">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_147">With all stakeholders.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_65" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_148">It is a convoluted, theoretical view.  Let me outline my perspective.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_66">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_149">It is based exactly on my experience; it is not theoretical at all.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_67" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_150">Let me try to answer.  I have been in the Oireachtas for a number of years.  Let me explain my view on the role of the Government and the Parliament.  The role of the Parliament is to hold the Executive to account.  While the Deputy should be listened to regarding the content of the capital plan, the Government is ultimately elected to determine it.  The Parliament holds the Government to account to ensure it does what it says it will do.  It is a matter of ensuring the processes are fair and open.  The role of the Government is to make decisions, not to be in a process of evaluation constantly.  My honest answer to the Deputy's first question is that we will determine the content of the plan, albeit after a very broad consultation process.  The Secretary General has indicated that this is not a fixed entity, but a process.  I would love to hear the Deputy's specific critique thereof.  He should give it to us in writing.  It will inform the process.  The plan is a document and the process is much more important.  The rolling out and doing will be extremely important and challenging.</p>
+          <p eId="para_151">On the notion that we should come to this committee with blank sheets of paper, we would attract much more criticism if we did not come with absolute specifics.  If we came with anything less than the absolute specifics to the committee, we would be beaten over the head.</p>
+          <p eId="para_152">I want to get on with the process.  To put it bluntly, the economic circumstances we face do not allow us time to dally.  We will embark on this process but if the Deputy has good ideas and a critique of the plan, I will listen to them.  I will not guarantee that I will accept them all but the people working to develop this plan will engage with the Deputy on them.  I am here to listen to the Deputy's views.  If he has good ideas, they can be incorporated into the plan.  We have sectoral plans and each Department has a change unit.  We have a designated senior official in every line Department and agency to drive change.  I do not know whether any of my colleagues want to amplify what I have just said.  It is time to stop talking about the process and to start doing.  We can tweak and change as we go.</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Mr. Robert Watt</from>
+          <p eId="para_153">We did not get into the plan, or the mechanics of change management.  We wanted to set out our objectives and the vision.  With regard to the mechanics, we set up in our Department an office of delivery and reform.  Mr. Paul Reid is the recently appointed director.  A team of people work with Mr. Paul Reid and we will augment that team.  Within each Department and agency, we now have set up a change unit and a senior person has been designated in each Department and each sector to drive change.  We have conducted several seminars and events to talk about the plan and change management techniques, because that is important.  It is as much about this as the culture of change and the need to bring people with one.  We need to develop a detailed communication strategy.  This cannot be about us here, the Minister or the Government at the top, as it must be embraced by all layers of the system.  Consequently, we need to have a communications strategy.  This is something on which we will work in the new year by explaining to people what it means.</p>
+          <p eId="para_154">This is an enormous system, with 300,000 people and whatever number of agencies and Departments and so on.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_69" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_155">We will find out for the Deputy.</p>
+        </speech>
+        <speech by="#" eId="spk_70">
+          <from>Mr. Robert Watt</from>
+          <p eId="para_156">We will.  It is a very big system and we need to engage.  I have spent a long time thinking about change management in the public sector.  I have approximately 18 or 19 years of public and private sector experience and I have read the books and studied the experiences, as has Deputy Donnelly.  We have a good idea as to what does and does not work.  Hopefully we will make new mistakes, rather than making the mistakes we made in the past.  While we will make mistakes, we are determined to do it differently this time.  However, we do not suggest the mechanics have been set out in this plan.</p>
+          <p eId="para_157">As a final comment, I note the Minister has made a commitment that, every quarter, he will bring a progress report to a Cabinet committee chaired by the Taoiseach, which will set out exactly how we are achieving in respect of each of the actions.  There will be a dashboard, with which Deputy Donnelly will be familiar from his previous experience, showing precisely where we are doing well, where we are slipping and where we are succeeding.  We are putting in place the mechanics of a proper change management process.  Above all else however, this will require a cultural change in which change is perceived as being business as usual.  This is the really important thing that must be changed about the current system.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_71">
+          <from>Chairman</from>
+          <p eId="para_158">Does Mr. Reid wish to add something?</p>
+        </speech>
+        <speech by="#" eId="spk_72">
+          <from>Mr. Paul Reid</from>
+          <p eId="para_159">I have three brief points to add to what Mr. Watt said.  First, I concur that the plan as currently stated is about the what.  This is significant in itself because we now have strong statements of intent, with committed timelines and dates and ownership across all Departments, going back to me.  Second, aligned with that, it will be the first time we will have a single integrated view of the key reform plans that are happening within each sector and of the reform plans that cross each sector and Department office.  We will be able to report to the Cabinet committee on reform in this regard.  This is largely looking at the what.</p>
+          <p eId="para_160">As for the how, I will make two additional points to those made by Mr. Watt.  We plan and have started on a strong engagement process with staff, management, other stakeholders, trade unions, IBEC and the Small Firms Association.  We wish to continue that process as we work through the plan while outlining some of the steps and getting ongoing engagement.  I understand the Deputy's point on engagement.</p>
+          <p eId="para_161">Finally, a key part of the plan and the process of how, is the development of a baselining approach.  We will scope out what are the potential gains from each of the major programmes.  In the cases of property rationalisation, procurement rationalisation and shared services, we will establish precisely from where we are starting and will set out significant targets and goals on what we believe the prize to be.  For example, in respect of human resources shared services in the Civil Service, which we have just started, the first three months of the process comprises what we call baselining.  We want to establish the activities that happen across all Departments at present.  We wish to set out new processes and to be able to demonstrate the business case.  We can then follow up thereafter and make sure we capture the savings.  There is a significant upfront component to the process, which I accept is not reflected in the plan.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_73">
+          <from>Chairman</from>
+          <p eId="para_162">I will make two points before letting Deputy Donnelly back in, because in fairness he has concentrated on the process, which is an issue of key importance.  Consequently, if he so wishes, I would be happy to allow him to respond.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_74">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_163">Okay.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_75">
+          <from>Chairman</from>
+          <p eId="para_164">However, I will make two points from the perspective of the joint committee, which is relevant.  First, it is important to recall the reason members are having this discussion is that the Minister wrote to me to indicate he had published the report and was willing to appear before the joint committee.  Members should remind themselves that this is how it happened.  However, the second point is more important from the perspective of the joint committee.  With all due respect to the Minister and his colleagues, we do not need their presence to enable us to engage with this issue.  I certainly would be supportive of the idea that members should drive some of this debate in this committee.  I acknowledge this would not be before Christmas but as soon as possible thereafter.  Deputy Donnelly, for example, or others may think we should have further discussion at length, without the formality of the Minister's presence and responses to questions.  Members of the joint committee could get in a huddle and go through the process and could themselves prepare a report for debate in the Dáil.</p>
+          <p eId="para_165">Such a debate could be on this joint committee's consideration of this report and related issues.  If this is the case, I certainly would support such a proposal as a way in which this joint committee could ensure its relevance in the process.  With all respect to the Minister, it need not involve him.  We do not need him for this because we exist separately from him.  We could take this on and do it ourselves.  From the perspective of the Chair, I would be very supportive of that.  Does Deputy Donnelly wish to come back in?</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_76">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_166">If I may respond, as I stated, this plan contains much good stuff and all three witnesses are saying all the right things.  I refer to the Chairman's point on what would make it more credible when the Minister has stated he is here to listen.  However, I recall when a member of a committee made a request of the Minister.  I think it was the Select Sub-Committee on Public Expenditure and Reform, which has only nine members, including Deputy McDonald and me.  A member of that sub-committee asked the Minister to discuss his plans before publishing, to enable members to make an input at that stage.  Everyone knows it is much easier to change a document before it is sent to the printers.  However, the Minister's answer was "No".  He stated he was in government, the Government has been elected and it was going to do this.  This response makes it very difficult and undermines the Minister's credibility when he states he is here to listen.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_77" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_167">What does the Deputy have to say?</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_78">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_168">I have plenty.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_79" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_169">Show me.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_80">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_170">I will write it down.  I will meet the Minister or his officials or whatever.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_81" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_171">I would be delighted.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_82">
+          <from>Chairman</from>
+          <p eId="para_172">Make it clear.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_83">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_173">All I will say, as a member of this joint committee and of the select sub-committee, is the Minister is saying the right things and is doing a lot of the right things.  However, to me as a member of this committee, there is a disconnect in experiencing it.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_84" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_174">Okay.</p>
+        </speech>
+        <speech by="#OliviaMitchell" eId="spk_85">
+          <from>Deputy Olivia Mitchell</from>
+          <p eId="para_175">I thank the Minister for appearing before the joint committee and giving this presentation.  I wish him well in what must be the biggest task of the Government.  Although this change in the public sector is coming about during a financial crisis, it was needed anyway.  As the Minister noted, one should never waste a crisis to bring about the kinds of reforms that are needed.  Savings and efficiencies have been discussed and the point has been made that savings largely have been effected through major reductions in public service numbers.  While my question refers to efficiencies rather than to this upfront saving, Deputy Fleming asked a question about the savings from the payroll figures.  He suggested it was dishonest to equate the savings with the reduction in payroll because of the pension implications.  However, what has not been stated is that the difference in this case is the savings are happening in the context of a moratorium.  In the normal course of events, people retire and get a pension but are replaced.  In this case this is not happening and the Minister really is effecting a clear long-term saving and it is important to get across that point.</p>
+          <p eId="para_176">However, my question actually pertains to efficiency.  The Minister mentioned decentralisation and shortly after the process of decentralisation began, I remember ringing the then Department of Arts, Sport and Tourism in Killarney to ask a fairly technical question about tax incentives for the film industry.  I got someone who had been in the job for two weeks and had come directly from the then Department of Agriculture and Food and who was an expert in herd numbers or something like that.  At the time, it struck me that while decentralisation might be great and how savings might arise, it was causing such a loss of institutional memory, expertise and so on.  I ask this question because someone spoke to me recently about the holes that will appear in various Departments as a result of the retirements and resignations next February.  I understand that four people work in the unit dealing with copyright and digital copyright in particular, which I believe is based in the Department of Jobs, Enterprise and Innovation, of whom at least three already have indicated they are leaving.  While the Minister stated that a planning unit is monitoring where the holes will emerge, it is not simply a question of dropping people in.</p>
+          <p eId="para_177">I acknowledge this is the case when it comes to teachers, because they teach the same curriculum no matter where they go.  However, if one takes people from one Department and puts them into a section dealing with a technical matter such as copyright, which involves a fair amount of expertise and is subject to really rapid technological change, how can one prepare for that?  How can one ensure there is not a huge loss of efficiency in the transition?  I refer in particular to expertise that will have an impact on jobs, whatever the Department.  That was just one example but there must be thousands of similar ones.</p>
+          <p eId="para_178">I realise this is an impossible question to answer-----</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_86" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_179">No.</p>
+        </speech>
+        <speech by="#OliviaMitchell" eId="spk_87">
+          <from>Deputy Olivia Mitchell</from>
+          <p eId="para_180">----- but I presume there must be some planning for it.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_88" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_181">In truth, there is a manpower planning unit in my Department overviewing all, as well as sectoral manpower planning units.  Consequently, I presume that a particular lacuna already has been identified by someone.  I do not want to say this too loudly because it runs against the very point the Deputy is making about savings on a moratorium, but there will be areas where we will have to do some recruiting, maybe even specialist recruiting for gaps that might appear for vital skills sets that would otherwise disappear.  That makes sense and we have to be open to it.  I take the Deputy's general point about savings.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_89">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_182">What is public sector reform in the Minister's mind?  It might seem like an obvious question but it is a pretty fundamental one.  What is the objective of all of this?  If I were to define public sector reform, I would say it is to improve public services.  In terms of how the Minister has contextualised his presentation, I would also say that it is to contribute towards generally improving the economic conditions in society that will allow for economic growth and development.  So we might agree.  My series of questions relates to whether that is what this agenda will achieve.  In other words, is it an agenda that will improve public services and the country's economic conditions or will it do the exact opposite?  Is it a euphemism for an ideological agenda which is about downsizing the public sector, privatising and cutting costs, regardless of the consequences?  I believe it is the latter, which will not surprise the Minister, but I would like him to convince me.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_90" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_183">Do we have time for that?</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_91">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_184">I am asking this in all seriousness along with raising a few issues for the Minister to consider in this regard.  First, how will the Minister evaluate the success of the reform project?  On the face of it, much of it seems to be just about significantly reducing the public sector pay bill and the numbers working in the public service.  There are a few other things around the edges.  Yesterday, we discussed the issue of the pay and pensions of top civil servants but, as the Minister said, that is marginal in terms of the cost savings involved.  We have differences of opinion on the whole equity question as to whether the caps the Minister has introduced should not be significantly lower.  For what it is worth, I will ask the Minister what is a reasonable multiple of the average industrial wage for somebody in the public service to earn?  A cap of €200,000 or €250,000 is six or seven times the average industrial wage.  Is that reasonable?  Is somebody at the top of the public service seven times better than a nurse working in an accident and emergency unit?  I do not personally believe so and therefore I think the cap should come down.  Perhaps the Minister could comment on that.</p>
+          <p eId="para_185">Even if the Minister agreed with me on that, however, the savings would still not be that significant.  The bulk of it is about the fact that approximately 10% of public servants will be gone by the end of this process.  Is that not right?  We are talking about 37,000 - starting from 2008 - gone from the public service.  That is a reform agenda, but it is only reform and not cuts dictated by the troika if at the end of it the public services are better, the same or at least maintained, and if it has contributed to the economic well-being of the State in terms of us being able to grow and develop.  Is that not how we should evaluate it?  What evidence is there that it is heading in the right direction if we are using those evaluation criteria?</p>
+          <p eId="para_186">I believe it is just about attacking the public sector, making a scapegoat of it and opening things up for privatisation.  That is what I personally think the agenda is.  I am not even saying that is the Minister's secret agenda, I just believe that is what the troika's agenda is and that the Minister and his colleagues are the agents of that.  Even before all this started, is it not a fact that we spent less on public services as a proportion of GDP than most of our European counterparts?  Does the effect of this not mean just that we will spend an even smaller proportion of GDP on public services?  Is that not the actual effect?  We will therefore go from being pretty low down on the European league table of expenditure on public services to being even further down.  I do not see how the Minister can get more for less, even with all the nice words such as "better value for money" and "customer service", if that is the actuality.  Is the evidence not beginning to pile up in that regard?</p>
+          <p eId="para_187">Can the Minister seriously suggest that the health service will be better if 6,000 staff are gone?  Get rid of the top managers, no problem, but I believe there will be another 7,000 gone by the end of this process.  Can the Minister really suggest that taking 13,000 staff out will produce a better health service?  Is it not obvious that it will mean the closure of local hospitals and the downgrading of accident and emergency units?</p>
+          <p eId="para_188">Let us take the medical card scheme as an example of rationalisation.  Is the reconfiguration of the medical card system into a post office box in Finglas not turning out to be a disaster in terms of public service delivery?</p>
+        </speech>
+        <speech by="#LiamTwomeyIND" eId="spk_92">
+          <from>Deputy Liam Twomey</from>
+          <p eId="para_189">Its actually better.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_93">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_190">Those are not the reports I am receiving.</p>
+        </speech>
+        <speech by="#LiamTwomeyIND" eId="spk_94">
+          <from>Deputy Liam Twomey</from>
+          <p eId="para_191">I know it is better.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_95">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_192">According to the reports I am getting, it is not better.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_96">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_193">I am inclined to agree with Deputy Boyd Barrett</p>
+        </speech>
+        <speech by="#LiamTwomeyIND" eId="spk_97">
+          <from>Deputy Liam Twomey</from>
+          <p eId="para_194">We will leave it.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_98">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_195">When lay people hear terms such as "shared services" and "an increased focus on technology" they know it means that whereas one used to get a human being to ask a question or deliver a service, one is now referred to a website, or there may be some convoluted phone arrangement where one cannot find out who is responsible.  I am not trying to score points but that is the actuality.  In my area, one used to be able to go into the local authority to pay rent and other bills, but due to the cut in numbers one can no longer do so.  It must be done online, which is extremely difficult for elderly people.  This is not an improvement in service delivery because fewer human beings are doing the jobs.  I would like the Minister to comment on that.  Does the fact that fewer people are doing those jobs not mean that the service has declined?  The same applies to pupil-teacher ratios which have disimproved.</p>
+          <p eId="para_196">Will the Minister also comment on the outsourcing of services to consultants and contractors?  Anecdotally at least, it would seem that when the numbers directly employed by Government Departments, State agencies and local authorities are reduced, in many cases these services still need to be provided so we end up bringing in agencies, consultants and contractors, which is outsourcing of one kind of another.  Has a cost-benefit analysis been done on this?  I think this is ideological and is being driven by a privatisation agenda.  Can the Minister prove me wrong or can we have some evaluation of it to say that we are saving money on this?</p>
+          <p eId="para_197">In Dún Laoghaire-Rathdown the entire budget for 2010 was €220 million, but €140 million of that was paid to private contractors.  I asked the county manager if he could provide a list of all the contractors, what they had done for the council and how much the jobs had cost, so that we could evaluate it.  However, he said there were insufficient resources to provide the list.  That is extraordinary.  I put a series of questions to various Ministers about the use of agencies in their Departments.  When I first put the question, I was told my inquiry had to be parcelled out between Departments.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_99">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_198">The Deputy is making a good case for reform.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_100">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_199">The Minister for Public Expenditure and Reform should have access to that overview.  He should know, or at least seek to discover, the number of agency workers employed and how consultants and contractors are being used.  When I sought examples in Dún Laoghaire-Rathdown, I discovered that a considerable amount of money was being paid to the large consultancy firm, RPS Group.  According to the company's website, its chief executive earns €9 million per annum.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_101">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_200">Poor devil.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_102">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_201">Are we not paying for this?  Does it not offer better value for public money to directly employ people in public sector pay grades than to line the pockets of well-paid consultants?</p>
+          <p eId="para_202">Who is responsible for assessing big areas of expenditure?  I presume the Minister has a role to play in this regard.  A bugbear of mine is the €500 million spent annually on rent allowance payments to private landlords.  I cannot understand the logic of these payments.  If those in receipt of rent allowance were housed instead in local authority accommodation, we would save €500 million immediately, as well as earning a further €300 million in revenue, giving total savings of nearly €1 billion.  Who can make the decision to do something about this?  That is big money we could be saving instead of allowing it to line the pockets of private landlords.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_103" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_203">Deputy Boyd Barrett's first question concerned my definition of public sector reform.  My objective is to make changes that better serve the citizen.  I understand the Deputy's ideological perspective.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_104">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_204">I understand the Minister's.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_105" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_205">I do not think the Deputy does, but we will park that debate for another day.  I respect that he comes from a perspective that is innately suspicious of reform.  Ironically, his is a conservative perspective.  It is resistant to change because he suspects change is ideologically driven.  I believe we can make savings, while at the same time introducing changes that make things better for people.  They are not mutually exclusive.  We have to make savings.  I acknowledge that part of the agenda is the need to provide services with fewer resources.  This is why we have to construct them in a different way.</p>
+          <p eId="para_206">Today I submitted my gas meter reading online.  I did not expect to speak to a human being.  I do not recall the last time I booked an airline ticket other than online.  In the past passengers expected to meet a host of people who would greet them, check them in and take their bags.  All this can now be done automatically.  That is the direction in which services are moving.  The Deputy has a lovely sense of nostalgia.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_106">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_207">Am I nostalgic for human beings?</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_107" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_208">No, nostalgia for old practices that are very expensive.  The problem is that the taxpayer pays for them.  We need to find efficiencies to ensure the money we extract from the taxpayer's pocket is used for a certain purpose.  Rather than administrators answering the telephones, I would prefer to employ nurses in hospitals.  I referred to the difference between public and commercial or private services.  I recognise that it is not possible to measure everything by the same yardstick, but we need not be innately suspicious of change.  The Deputy's entire commentary indicates that he is not only innately suspicious of it -----</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_108">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_209">I am for change.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_109" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_210">That is the paradox.  The Deputy is the most conservative person in the room.  He is resistant to real change because the change he envisages is imaginary.  As it is a revolutionary change, he is happy with the <i>status quo</i> until he hears the big bang.  He is suspicious of the fundamental change that modern society is required to make in order to achieve better value for people.  He claims there is an ideological agenda behind privatisation.  There is no such agenda on my part.  I am a fervent supporter of the public service.  I support and defend the Croke Park deal because we can use that mechanism to bring about substantial reform.</p>
+          <p eId="para_211">The Deputy asked how we evaluated success.  As Mr. Reid indicated, we are in the process of setting a baseline.  We must then set objectives and goals in order that we can report on our achievements.  It is not rocket science; that element is hard graft.  We are engaged in this process across all sectors.  I can genuinely say my new Department has managed more structural change in nine months than happened for a decade previously.  There is extraordinary disparity between the different agencies in the public service in terms of wages, leave arrangements and work patterns.  They need to be integrated, but this will be a difficult and complicated process.  No more than the Deputy, people are resistant to having their lives changed by new work patterns or transferring to different locations.  We want to encourage and cajole them into making these changes without conflict.  We have been reasonably successful to date, although I do not know if we will continue to be so.</p>
+          <p eId="para_212">I am not sure if the Deputy's question on pay caps was rhetorical or if he expects me to answer it.  He asked me what multiple of the average industrial wage would I consider acceptable.  I do not see the matter through his ideological prism, as if there was a formula of words that prohibited anybody from earning more than three or five times the average industrial wage.  Deputy McDonald or Deputy Higgins advocated a pay cap of €100,000.  While I might be attracted to such a pay cap, I am a practical person.  There is an audience of people who believe that is a reasonable wage, but we would not have a public health care system if nobody in the public sector could be paid more than €100,000.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_110">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_213">The limit would apply in the current emergency.  That is an important addendum.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_111">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_214">It is not true.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_112">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_215">It is absolutely not true.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_113">
+          <from>Chairman</from>
+          <p eId="para_216">I cannot allow interruptions, although I accept it is an interesting exchange.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_114">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_217">It is a fair figure while the State is insolvent.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_115" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_218">If the Deputy believes cancer or cardiac specialists would remain-----</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_116">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_219">They do in the NHS.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_117" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_220">They would not in Ireland.  There would be a flight from the system.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_118">
+          <from>Deputy Stephen S. Donnelly</from>
+          <p eId="para_221">That is ideology.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_119">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_222">Where would they fly to?  Come off it.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_120">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_223">They would go to the Blackrock Clinic or the United States.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_121" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_224">They would go to the private sector.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_122">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_225">That is an uncontested theory.  We are in an emergency.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_123">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_226">Can we take that risk?</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_124" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_227">I am answering a different Deputy's question.  Deputy McDonald's theory is dangerous if it does not work.  I suggest that if it were adopted, there would be no public health system, or there would certainly be a very depleted health system, and that there would be a growth in private medicine.  My judgment is that an extraordinary disparity between the public and private health care systems would develop instantly.  We need to make substantial changes in a practical and logical way.  I appreciate that some members are keen to adopt a certain rhetoric with regard to these ideas, but we need to be honest with people about their impact.  They can be debated.</p>
+          <p eId="para_228">Deputy Boyd Barrett made a specific point about the functioning of the new medical card centre in Finglas.  I understand members on this side have different views.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_125">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_229">It is a PO box number.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_126" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_230">I am sure the Deputy will appreciate that there are people there to process what arrives in the PO box.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_127">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_231">A few of them were moved from Loughlinstown unwillingly.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_128" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_232">We can evaluate the effectiveness of these attempts at centralisation <i>ex post facto</i> in order that we can learn from them.  </p>
+          <p eId="para_233">The last thing the Deputy mentioned was rent allowance.  He has rightly mentioned that the quantum of money involved in rent allowance is an important matter for the Department of Public Expenditure and Reform.  Departmental officials have had clear dialogue with their counterparts in a number of Departments on the issue.  We need to move to a position where all housing matters will be centralised in the Department of the Environment, Community and Local Government and administered through the local authority system.  In other words, the people who offer social housing should also be supporting the rental system.  It makes no sense for them to be divided.  Local authority officials will tell us that real challenges have to be overcome in this regard.</p>
+          <p eId="para_234">One of the frustrations of my job is that there are always barriers to achieving what should be achieved.  I refer to the differences between the computer systems used in local authorities, for example.  I have been told that rent cannot be deducted at source in the social welfare system.  One of the reforms we have to achieve is to overcome the difficulties caused by the range of barriers to which I refer.  I am <i>ad idem</i> with the Deputy in that regard.  We need a different system to support people who need housing.  We cannot maintain the current expensive rental system.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_129">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_235">I would like to ask a supplementary question.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_130">
+          <from>Chairman</from>
+          <p eId="para_236">No.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_131">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_237">Everybody else was allowed to ask one.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_132">
+          <from>Chairman</from>
+          <p eId="para_238">I allowed the Deputy to make a long intervention.  It was much longer than anyone else's.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_133">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_239">One of my questions was not answered by the Minister.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_134">
+          <from>Chairman</from>
+          <p eId="para_240">I am sorry, we cannot get everything.  The Minister has another engagement.  Two other members have indicated that they wish to speak.  We kept the Minister waiting because we started a little late.  We will have to finish after he has responded to Deputies Mathews and Creed.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_135">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_241">I thank the Minister and his officials for attending and congratulate them on the work they have done to date.  I advise them to flex their muscles and use them robustly.  I would like to make a couple of suggestions.</p>
+          <p eId="para_242">Giving a general overview of this matter is like surveying a county or city as one travels overland by helicopter.  Public services are delivered across a range of activities by people such as gardaí, doctors, nurses, teachers, court officials and members of the Judiciary.  That is what people do all day in the public service.  We do not have an overview chart such as a 24 column page of analysis with the total numbers of gardaí, etc., in 2008 and 2011 and the differences under each heading.  I would like to see such a chart.  I would also like to see an analysis of the salaries and wages that have been and are being paid across all categories.  I do not want to clutter the briefing material such that it makes one dizzy.  It should be in a format people understand, like a golf card.  One does not use paragraphs to describe one's drive on the first hole, etc.  The traditional way of presenting what happens during a round a golf is to mark one's score against par.  One can easily see whether one is over or under par.  If the same thing were done in this case, it would be a good starting point.</p>
+          <p eId="para_243">I would also like the briefing material to indicate how the public service is coping with the key challenges under each of the headings.  If there are two murders a day, the column relating to the Garda should state the level of crime has gone up.  It is depressing to watch the news at present.  The sub-analysis columns could specify how many gardaí were on the front line and how many were involved in administration and bureaucracy.   If such details were available, we could reflect on whether the 10,000 gardaí should-----</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_136">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_244">Front nine and back nine.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_137">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_245">No, this is serious.  It should be stated under each heading how many front-line staff there are and how many administrative staff there are.  We should be able to see details not only of the savings and efficiencies being achieved but also the extent to which these changes are being effective.  If there were columns indicating how many murders and serious crimes were taking place, we might have an idea of what the Garda was doing.  If we were given an overview of the activities and effectiveness of each branch of the public service, we could decide whether more or less money should be allocated in each instance.  Such a helicopter view of the city should be the starting point.  If there are signs of dilapidation, new build or flood plains in various areas, we can have a go at them.  The same applies to the public service.  The last column should state the total number of staff - 305,000 at present - and how many millions or billions of euro are being spent.  It would be a simple way of saying on what one was focusing.  The statistics could be followed by notes setting out the areas on which the change management plan was concentrating.  It is not good enough to have efficiencies.  One also has to be effective.</p>
+          <p eId="para_246">I congratulate the Minister and his officials on their work.  I salute them on the paragraph setting out the progress made.  They should keep the Bunsen burner flame alight.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_138">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_247">Communication will be a critical part of the implementation of the plan.  I would like to give the Minister a backhanded compliment by welcoming the fact that his announcement will take place in the Dáil, the people's forum.  Perhaps he might have a word with his Government colleagues who claim to want to restore the primacy of Parliament.  It is a shame that all announcements are not made in the Dáil.  If the Minister agrees, perhaps he might shout more loudly at the Cabinet table, as communication is critical.</p>
+          <p eId="para_248">I do not lament the demise of the social partnership system of the past.  Any communication strategy that concentrates on communicating through the Croke Park structures is fatally flawed.  The Government needs to get down into the trenches.  Many public and civil servants and State and semi-State employees believe they are under pressure.  The vast majority of the public sector workers with whom I engage are eager for change.  They almost feel betrayed by the restrictions placed on their abilities by the structures within which they have to operate and there is an obligation on the Government to reach out to them.  My personal view is that dialogue and communication will become more critical in 2012, when the reality will dawn that the Croke Park structure, whereby €300 million has to be borrowed just to pay incremental wage increases to public servants, is untenable.  The reality is this process will be difficult.  Teamwork and a much more innovative communication strategy will be needed to deliver the changes set out in the plan.  Perhaps Mr. Reid might say how the Department proposes to manage the cultural change required across the public service.  Public servants are eager for change, as I said, but they are frustrated by the structures in which they have to operate.  The system disables their own innate abilities.</p>
+          <p eId="para_249">Accountability is central to the delivery of change.  The public service seems to have a structural deficit when it comes to implementation.  I would almost describe it as an implementation deficit disorder.  The key weakness is the absence of the ultimate sanction, the right to fire public servants.  I made the point a number of weeks ago that the decision by the Employment Appeals Tribunal to uphold the dismissal of a public servant had been a front-page story in a daily newspaper.  The worker in question who had refused to turn up for work for a three-year period because of a difficulty in the workplace contested the decision to dismiss them as a consequence.  If there is no accountability in the public service and those who are not held to account do not face consequences, the delivery of public services will not be effective.  A cultural change is required in management, work practices and new technologies, etc.  I wonder whether Mr. Reid has sufficient resources and hope he was not sold a pup in taking on this task.  Large bodies in the private sector which have undergone significant changes had huge teams assisting them.  One man, an office and secretarial support are not sufficient, although he might say a full Department is in on this.  Are the necessary resources available in every other Department?  Unless a full team, for example, in the Departments of Health, Social Protection, Agriculture, Food and the Marine, is committed at all management levels, including at MAC level, to drive this change, he will not achieve his objectives.  I fear that while we have the title and people of ability at the top, unless there is integration across all Departments and a team driving it in each Department, it is doomed to failure.</p>
+          <p eId="para_250">I suspect, in the context of the public service retirement package coming up early in the new year, that no private sector organisation would not have allowed such numbers to depart on a single day.  At this late stage, is it possible to stagger the departure dates in order that services will not be adversely impacted on?  I do not want a scenario where people retire but come back in the back door to work again on contract.  Maintaining front-line services when such a huge number are due to depart on a single day is an issue.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_139">
+          <from>Chairman</from>
+          <p eId="para_251">The Minster is late for an engagement.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_140">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_252">Will he answer the question about outsourcing?</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_141" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_253">I thank Deputy Mathews for his incisive comments and good wishes.  We are developing a govstat model similar to the HealthStat model to obtain all the information and have it available in order that everybody will be able to see it along the lines the Deputy mentioned.  I launched a number of information channels on the departmental website and, ultimately, want to have everything on it, including payroll costs, the reductions in numbers, Estimates, subheads, expenditure, as well as tendering and contract costs and so on.  This will be open to the public and one will have access to all the data close to real time.  This will, I hope, reduce the number of parliamentary questions and freedom of information requests, but it will provide genuine information.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_142">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_254">It will be an overview.  Will it have a double analysis sheet-----</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_143" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_255">We will do our best.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_144">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_256">I forgot to mention seven-year leases.</p>
+        </speech>
+        <speech by="#BrendanHowlin" eId="spk_145" as="#Minister_for__Public_Expenditure_and_Reform">
+          <from>Deputy Brendan Howlin</from>
+          <p eId="para_257">I will also introduce programme budgeting this year, as I explained to the committee previously.  This will not only be about spending money but also about analysing whether it was spent effectively and for the purpose it was voted.</p>
+          <p eId="para_258">I agree with Deputy Creed regarding communication and the role of the Dáil.  I am an advocate, but I have not used it for some announcements.  I would like to, as far as possible, make the announcements in the Dáil.  Sometimes, however, they are dictated by other considerations, but the Deputy is correct to make the point.</p>
+          <p eId="para_259">Implementation will be challenging and difficult.  The establishment of my Department is a strong indication that reform is at the core of the Government's programme.</p>
+          <p eId="para_260">On the problem about resources, Mr. Watt and Mr. Reid would like more resources than I can give, but we cannot allocate away from front-line services to undertake the reforms.  We have to do some of this because we have to invest to save ultimately and that is certainly true of the reform agenda.  This is part of the discussion we are having with the Department of Health because we want to ensure that if we provide an effective, efficient primary health care service, we make savings in acute services.</p>
+          <p eId="para_261">The final issue raised by the Deputy concerned staggering the departure dates for retiring public servants.  It is not our intention to do this, as there are legal considerations in this regard.  We will make specific arrangements to ease pressure points, but I do not expect a mass exodus at the end of February.  A number will exit at the end of December and it will not all happen on one day.  Since the end of 2008, 20,000 public servants have left.  A further 23,500 will leave between the end of last year and 2015, which is not disproportionate in terms of the numbers who have left.  There will be pressure points and I am anxious, like the Deputy rightly said, that people will not receive a lump sum and a pension and come back on the payroll the next day.</p>
+        </speech>
+        <speech by="#" eId="spk_146">
+          <from>Mr. Paul Reid</from>
+          <p eId="para_262">I understand Deputy Creed's concern and building sustainable cultural change is a key part of the reform process.  That emerges as a function of changing how we organise and deliver services and changing the processes and systems.  This can only happen through having strong ownership of the change process and engagement by the relevant line areas.  We do not envisage a situation where we will have a big centre driving the change through the sectors.  It is largely my office and my team working with the sectors and Departments and engaging properly on procurement processes with the key line owners of the process of change through a process of continuous communications and engagements with staff and key stakeholders.  It is about line management owning the process of change and us supporting them with some key models of change.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_147">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_263">What about leadership?</p>
+        </speech>
+        <speech by="#" eId="spk_148">
+          <from>Mr. Paul Reid</from>
+          <p eId="para_264">And leadership.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_149">
+          <from>Chairman</from>
+          <p eId="para_265">I thank the Minister and colleagues for their contributions.  Is it agreed to publish the Minister's opening statement and the Powerpoint presentation on the website?  Agreed.</p>
+        </speech>
+        <summary eId="sum_5">The joint committee adjourned at 6.50 p.m. until 3 p.m. on Wednesday, 14 December 2012.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

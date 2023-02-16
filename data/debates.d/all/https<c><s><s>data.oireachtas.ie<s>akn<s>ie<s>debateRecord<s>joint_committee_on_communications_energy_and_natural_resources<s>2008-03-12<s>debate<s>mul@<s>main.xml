@@ -1,0 +1,560 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-03-12/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-03-12/debate"/>
+          <FRBRdate date="2008-03-12" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_communications_energy_and_natural_resources"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-03-12/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-03-12/debate/mul@"/>
+          <FRBRdate date="2008-03-12" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-03-12/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2008-03-12/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None" eId="#vol_None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None" eId="#no_None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="BrendanKenneally" href="/ie/oireachtas/member/id/Brendan-Kenneally.D.1989-06-29" showAs="Brendan Kenneally"/>
+        <TLCPerson eId="BrianODomhnaill" href="/ie/oireachtas/member/id/Brian-Ó-Domhnaill.S.2007-07-23" showAs="Brian Ó Domhnaill"/>
+        <TLCPerson eId="JoeMcHugh" href="/ie/oireachtas/member/id/Joe-McHugh.S.2002-09-12" showAs="Joe McHugh"/>
+        <TLCPerson eId="JoeOToole" href="/ie/oireachtas/member/id/Joe-O'Toole.S.1987-04-25" showAs="Joe O'Toole"/>
+        <TLCPerson eId="JohnCreganFF" href="/ie/oireachtas/member/id/John-Cregan.S.1998-06-23" showAs="John Cregan"/>
+        <TLCPerson eId="MattieMcGrath" href="/ie/oireachtas/member/id/Mattie-McGrath.D.2007-06-14" showAs="Mattie McGrath"/>
+        <TLCPerson eId="MichaelWDArcy" href="/ie/oireachtas/member/id/Michael-D'Arcy.D.2007-06-14" showAs="Michael D'Arcy"/>
+        <TLCPerson eId="NoelCoonan" href="/ie/oireachtas/member/id/Noel-Coonan.S.2002-09-12" showAs="Noel Coonan"/>
+        <TLCPerson eId="PeterKellyFF" href="/ie/oireachtas/member/id/Peter-Kelly.D.2002-06-06" showAs="Peter Kelly"/>
+        <TLCPerson eId="SimonCoveney" href="/ie/oireachtas/member/id/Simon-Coveney.D.1998-10-23" showAs="Simon Coveney"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM CHUMARSÁID, FUINNIMH AGUS ACMHAINNÍ NÁDÚRTHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON COMMUNICATIONS, ENERGY AND NATURAL RESOURCES</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2008-03-12">Dé Céadaoin, 12 Márta 2008</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2008-03-12">Wednesday, 12 March 2008</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 9.30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#NoelCoonan">
+                Deputy Noel Coonan,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#BrianODomhnaill">
+                Senator Brian Ó Domhnaill,*
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#SimonCoveney">
+                Deputy Simon Coveney,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#JoeOToole">
+                Senator Joe O’Toole.
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelWDArcy">
+                Deputy Michael D’Arcy,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#PeterKellyFF">
+                Deputy Peter Kelly,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#BrendanKenneally">
+                Deputy Brendan Kenneally,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#MattieMcGrath">
+                Deputy Mattie McGrath,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#JoeMcHugh">
+                Deputy Joe McHugh,
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Senator Maria Corrigan.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#JohnCreganFF">DEPUTY JOHN CREGAN IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_5">The joint committee met in private session until 9.40 a.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Overview of Gas Market: Discussion with Bord Gáis. </heading>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_10">I welcome the members of Bord Gáis: Mr. John Mullins, chief executive; Mr. Liam O'Riordan; Mr. Michael G. O'Sullivan; Mr. Will Roche; Mr. David Bunworth; and Mr. Michael A. O'Sullivan.  They are invited to provide an overview of the work of Bord Gáis.</p>
+          <p eId="para_11">Before we begin, I draw everybody's attention to the fact that members of this committee have absolute privilege but this same privilege does not apply to witnesses appearing before the committee.  The committee cannot guarantee any level of privilege to witnesses appearing before it.  Further, under the salient rulings of the Chair, members should not comment on, criticise or make charges against a person outside the House or an official by name or in such a way as to make him or her identifiable.</p>
+          <p eId="para_12">I invite Mr. John Mullins to make his opening remarks, after which I will invite questions.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from>Mr. John Mullins</from>
+          <p eId="para_13">I thank the members for inviting us.  I wish them the very best in their work in this session.  I am joined by: Mr. Will Roche, head of strategy and regulation; Mr. Michael A. O'Sullivan, head of gas transportation; Mr. Michael G. O'Sullivan, chief financial officer; Mr. David Bunworth, head of energy supply; and Mr. Liam O'Riordan, company secretary.</p>
+          <p eId="para_14">We were asked by the committee to present operational and financial outturns for 2006.  However, we are taking the opportunity to talk also about the gas market since 2006, to bring the members up to date in this regard and offer our vision for the future.  We will also refer to changes in respect of networks.  The committee members are concerned about issues such as the security of gas supply, which we will discuss as the meeting progresses.  We will outline Bord Gáis's response to the White Paper and outline its intentions to offer dual fuel offerings to customers, not only in the Republic but also in Northern Ireland.  It is already active in this regard.</p>
+          <p eId="para_15">Bord Gáis was established in 1976 under the Gas Acts.  It has 900 direct employees, 788 of whom are permanent.  Not many people know there are three employees in the private sector working on behalf of every employee in Bord Gáis.  In essence, there are over 2,500 people working in the gas industry every day in the Republic.</p>
+          <p eId="para_16">We have 2,169 km of transmission pipes and 9,765 km of distribution pipes.  These figures are increasing.  We have 600,000 customers and sell 37% of all the gas in the Republic, which does not represent a dominant position in terms of the total gas bubble.  We have had 8,000 customers in the electricity market over recent years and the market has grown.  Our stake represents 8% of the electricity market in the Republic.</p>
+          <p eId="para_17">We are building a combined cycle gas turbine plant in Whitegate, which is to be commissioned in 2010.  It is to be a state-of-the-art plant.  We are also investing in renewables in peaking plant and also keeping a very active eye on the requirements pertaining to gas storage with a view to maintaining security of supply.</p>
+          <p eId="para_18">I will outline the key highlights in 2006.  Gas demand increased by 16%, in respect of which figure one should remember that power generation has been the main driver of gas industry growth over the past decade.  The number of gas customers exceeded 575,000.  We completed the South-North and Mayo-Galway pipelines and replaced 250 km of cast iron mains, particularly in the Dublin area.  It was a volatile year for gas input prices, primarily because there were infrastructural shortages in the United Kingdom.  The Langeled connection to the Continent was not developed until later in 2006, thus serving as one of the main causes of wholesale price increases in that year.  We paid a dividend of €9 million to the Exchequer and we received planning permission from Cork County Council for the Whitegate power plant.  We became a partner in the Power of One campaign and are still very active in this regard through Sustainable Energy Ireland.  Five towns were connected by firmus energy in Northern Ireland.  We operate under the brand name firmus energy in the North.</p>
+          <p eId="para_19">In 2002, we sold 67% of all gas in the market, while in 2006 the figure was 37%.  The figure for 2008 is approximately 33%.  Gas utilisation is mainly in power generation and the figure in this regard is 66%.  Residential utilisation amounts to approximately 15% and this figure is only growing at a rate of 2% to 3% per annum.</p>
+          <p eId="para_20">We view the market today as being an all-island market and not just a Republic of Ireland market.  There are 3.6 million gross electricity and gas accounts on the island and we currently hold 600,000.  We therefore represent 16% of the customer base on the island, bearing in mind that we have a unified electricity market and are to have a unified gas market in 2010.</p>
+          <p eId="para_21">Eurostat statistics show that Irish gas prices were below the EU average in 2006.  UK prices were lower but this is largely because of the penetration of gas in the UK market.  The United Kingdom has 20 million customers in a very urban network.  We have a very rural network by comparison and therefore our standing charges are higher.  On a commodity basis, we buy at the same price from the North Sea.</p>
+          <p eId="para_22">There were effectively two 10% reductions in the gas price in 2007.  In late January 2008 we announced, with the Commission, a freezing of gas prices until late September 2008, at which time they will be up for review.  In the context of increasing oil and gas prices, this certainly displays prudence on the part of our trading and procurement team over recent years in terms of buying gas ahead of the market for this year.</p>
+          <p eId="para_23">In 2006, the differential between gas and oil home heating costs was quite small.  Today, in economic terms, the difference is 40%.  There has been a decoupling of home heating oil and gas costs.  Furthermore, gas consumption produces 30% less carbon dioxide than oil consumption.  Therefore, the movement from oil to gas and the movement to new towns is actually beneficial to the environment.  A genuine benefit in terms of carbon dioxide emissions accrues by converting oil boilers to gas boilers, or combinations involving solar power, wood pellets and gas, in many new towns and in the context of urban replacement in the main urban centres.</p>
+          <p eId="para_24">Bord Gáis has grown significantly in recent years.  The turnover in 2006 increased by 29%, primarily due to wholesale prices but also due to electricity sales.  Our profit before tax in 2006 was €99 million but that does not take into account that there was an exceptional charge of €30 million for reorganisation within the company.  Since 2002, our profit before tax has varied between €114 million to approximately €130 million, in underlying terms, bearing in mind the adjustment for the exceptional charge of €30 million in 2006.</p>
+          <p eId="para_25">Generally speaking, the returns on capital employed in Bord Gáis amount to 7%, which in European utility terms is modest.  We would be regarded as having lower quartile returns in this context, yet we have enough funds arising from our operations to pay down our debt.  Our gearing levels were maintained at between 48% and 52% over the period in question and we therefore have a quite robust balance sheet allowing us to make further investments in the marketplace.</p>
+          <p eId="para_26">The trend pertaining to our tangible fixed assets exhibits a quite rapid increase over a five-year period.  Some €500 million worth of fixed assets, primarily transmission assets, were put into the ground between 2002 and 2006.  This also involved the renewal of the cast iron network.  The main beneficiaries of this investment were primarily transmission assets and the renewal of the cast iron network.</p>
+          <p eId="para_27">Although we had a €500 million investment, we only essentially had a €150 million increase in our net deposition.  This is a positive result considering the amount of investments made.  At the end of 2007, Bord Gáis was at a 48% gearing level, just less than €1.1 billion in our net deposition.  We have not produced these particular results.  We have to go through the Department.</p>
+          <p eId="para_28">We have extended the transmission infrastructure in Northern Ireland, Westmeath and Galway.  The pipeline to the west was commissioned in 2002.  The second interconnecter, including the Isle of Man link through which we supply the Isle of Man generating authority, was connected in 2002.  The north-west pipeline was opened in 2004 and the South-North pipeline in 2006, by the Minister.  The Mayo-Galway pipeline was also opened in 2006.  We have a pipeline all the way to the Corrib terminal.</p>
+          <p eId="para_29">Pipelines and reinforcements were needed for two new power plants.  The Aghada plant has a 45 MW capacity and is due to be commissioned in 2009.  The Whitegate plant is due to be commissioned in 2010.</p>
+          <p eId="para_30">The Commission for Energy Regulation produced a revised policy on connecting towns to the gas network.  It has put down particular criteria on returns in investments in towns.  The period for analysis has been moved from 15 years to 25 years, giving greater leeway in bringing more towns on to the network.  A significant body of ongoing work is under way with Castlebar, Westport, Ballina, Crossmolina, Claremorris, Knock, Headford, Tuam, Craughwell, Ballyhaunis and Athenry to be added to the network this year.  Connection for Ballinrobe, Gort, Loughrea, Monasterevin, Cahir and Cashel will be sent for tender and commissioned over the next 15 months.  We are currently examining phase 3 towns in counties Longford, Roscommon, Offaly, north Tipperary, west Limerick, Kerry, west Waterford, east Cork, Wexford, Westmeath, Cavan and Monaghan.</p>
+          <p eId="para_31">Much work has been done on the distribution network.  What helps is industrial placement.  For example, Allergen in Westport has signed on as a customer which will support gas provision to the town.</p>
+          <p eId="para_32">Safety is an absolute priority for Bord Gáis.  It should be noted the Commission for Energy Regulation is now responsible for the setting of gas safety standards.  We report to the commission on all safety matters.  We build and operate to recognised international standards.  Heavy investments have been made in resources with a specific safety management team which reports to me.</p>
+          <p eId="para_33">All cast iron mains will be replaced by the end of 2009.  It consists of 400 km, mainly in the Dublin area, which may sound much but it consists only of 2% of the network.  We provide additional technical support to many of the outsource agencies involved.  For every one person in Bord Gáis, there are three outside contractors.</p>
+          <p eId="para_34">Safety installation training is provided by Bord Gáis and a system of registered gas installers is managed.  Radio and television advertisements, featuring Duncan Stewart, on the dangers of carbon monoxide are broadcast frequently.</p>
+          <p eId="para_35">Another major issue all utility companies face is when third party construction companies need to dig underground, they inadvertently break into gas pipelines.  With the "dial before you dig" campaign our third party damage levels are down by 10%.</p>
+          <p eId="para_36">We have had a significant reduction in cast iron fractures due to investment.  Last year, there were 14 reportable incidents.  All were on the other side of the meter — which is out of our control area — where a domestic or industrial user has control over the installation.  We go on site when there is an issue.</p>
+          <p eId="para_37">Our charter states we must attend a leak in an hour.  Our average time is actually less than 28 minutes and improving through the use of GPS and modern ICT.</p>
+          <p eId="para_38">Over 50% of electricity generation is provided for by gas, which will increase to 70% by the end of the decade.  The security of gas supply is, therefore, a major issue.  We are heavily influenced by the UK-Norwegian supplies over the short to medium term.  Over 90% of our gas source comes from that area; less than 10% comes from the Kinsale-Sevenheads-Ballycotton gas fields.</p>
+          <p eId="para_39">The UK market has diverse sources.  It has commissioned a number of liquefied natural gas, LNG, plants with supplies coming from Qatar, Trinidad and Nigeria.  There are effective infrastructural connections and arrangements with the UK market with joint emergency procedures agreed with the UK's National Grid, formerly Transco.</p>
+          <p eId="para_40">Diversity and a real advantage for security of supply would be improved with the discovery of indigenous gas.  Existing storage in the south-west Kinsale field stands at 7 billion cu. ft which we use as part of our trading function.</p>
+          <p eId="para_41">Concerning the Shannon LNG plant, it is important that for any LNG plant located in Ireland there is a commitment on liquefaction somewhere else in the world and a supply train for that gas.  We must ensure contracts overseas are available.  These are much sought after by China, Brazil, Japan and the US.  There is a competitive market for LNG.  One solution to it would enhance security of gas supply over the medium term.</p>
+          <p eId="para_42">We are working with EirGrid on setting an appropriate security of supply standard for gas.  We have a five-day capability for continuing supply if an issue were to arise in the UK or Norway infrastructure.  While a disruption to a pipeline in Scotland could be fixed in 48 hours, the five-day reserve is in place, assuming power generators can move over to distillate and not use gas for that particular period.  In such an event, 66% of the gas supply would be taken off the market.  The residential, industrial and SME sector would be fed by stored gas.</p>
+          <p eId="para_43">The market fully opened in July 2007.  We have 15 active shippers in the market.  Bord Gáis Energy Supply has a 37% share of the market, so we are not a dominant player.  On the island of Ireland, our share would be closer to 25%.</p>
+          <p eId="para_44">Demand grew at approximately 3.5% per annum between 2002 and 2003 and 2006 and 2007.  It is forecasted to grow at a similar level, maybe attenuated by GDP growth, over the next period.  Our prediction is for a 2% to 3.5% growth.  Changes in 2010 will occur when the Whitegate, Aghada and other new plants come on board.</p>
+          <p eId="para_45">We have noticed a 2% efficiency drop in a change of gas-use habits.  We have an advertisement campaign on turning down home heating appliances by one degree with the Power of One campaign.  More education campaigns are needed in this regard and we will have to be to the forefront.</p>
+          <p eId="para_46">Our network utilisation is not as high as more urbanised markets in Europe.  Our focus in Bord Gáis Networks is to increase our throughput by influencing the policy to encourage gas usage rather than other fossil fuels, or gas usage with other renewable or alternative sources.  There is a 30% greenhouse gas benefit by using gas rather than oil.  We are looking at reducing the cost of operations.  Bord Gáis Networks will continue to extend its outsourcing model.  Our call centres, response teams and construction are all outsourced.  All of that is done by arms-length private tender by our procurement team.</p>
+          <p eId="para_47">There is a transformation project in place to drive our efficiencies, which is the basis for the staff employee share ownership plan, ESOP, about which members may have read recently.  It is a 3.29% ESOP and it is paid out on the basis of efficiencies realised within the company.  The regulator sets all the benchmarks in Bord Gáis Networks and also allows efficient costs.  It sets the tariff on the network side.  We will have a new price control in place over the next five years.  Transmission tariffs will be reduced by 11% in real terms and distribution tariffs will be reduced by 1% in real terms.  Bord Gáis will have to absorb all the inflation in the future.  We will also have to meet those efficiency reductions.  Our rate of return has been reduced by the regulator from 5.7% on the assets to 5.2% pre-tax.  The standing charges on bills will be reduced along a particular flight path over the next five years and this will reduce bills.  They will counter any increases in commodity costs over that time.</p>
+          <p eId="para_48">We launched a customer charter with the Commission for Energy Regulation on 26 March 2007, which was issued to all our customers in August and September.  We pay compensation if we do not meet those standards.  It is all about responses to emergencies, service delivery and appointments, gas supply interruption and restoration times, call response and how we deal with complaints as well as the issue of reinstatement of trenches on roads and pathways.  We have to keep improving those standards.  We are at a level of delivery that compares well with international benchmarks.</p>
+          <p eId="para_49">We have a developed a code of practice for vulnerable customers and we are particularly conscious of the fuel poor.  We work with the Society of St. Vincent de Paul in dealing with such people.  There was a great deal of controversy in the UK this week about prepayment metering and the application of very high tariffs by suppliers in the UK to the vulnerable.  That policy is not being conducted by any utility in this country and is not conducted by Bord Gáis.  Our tariffs are exactly the same for those who use prepayment metering as for those who do not use it.  We are meeting all our charter performance levels.  Our charter performance will be published every single year and will be in our annual report.</p>
+          <p eId="para_50">We are increasing our meter readings after we had a number of complaints.  In our drive towards efficiency, we took the view that there should be fewer meter readings.  However, the problem with that was more estimated bills.  We want to ensure we have better customer service and fewer estimated bills.  The biggest problem we face is access to meters.  Many meters in modern homes are outside the house, but regrettably the old stock of meters are inside houses.  Smart metering may help us in this area over the next five years.  Our view is that gas should be included as part of a smart metering roll-out and there should be a multi-utility metering approach.  We will provide the regulator with a consultation paper on that.  The idea of putting in a smart meter for electricity one year and another one for gas the next year does not make much sense.  Both should be done at the same time.</p>
+          <p eId="para_51">There were more than 600,000 domestic users of gas at the start of 2008.  All our charges are subject to regulatory approval and the maximum margin we can earn on the commodity is 1% to 2%.  It is a regulated return on top of the actual price of gas plus what is allowed for our cost base.  The regulator always looks for continual efficiencies and we strive to achieve those.  In the context of new competitors coming into the market, it behoves Bord Gáis to be more efficient and to outsource more.  We have a sophisticated trading division in Cork and we have been attracting people from England and elsewhere to work there.  We have about 30 professional traders who procure all our gas and electricity.  We are now moving to a multilingual call centre and through Fexco, we will employ 120 to 140 people in Killorglin, County Kerry.  If one calls the network side or the energy supply side of Bord Gáis anytime from Easter, one will be dealing with somebody in County Kerry.  We also announced a price freeze until October 2008.</p>
+          <p eId="para_52">There are three main pillars of the energy White Paper, namely, sustainability of energy, security of supply and competitiveness of energy supply.  Bord Gáis is investing in renewable options.  We are making offers to invest equity and to provide power purchase agreements for renewable operators.  The credit crunch is not helping small-scale or medium-scale wind developers.  We have a role to play with our balance sheet to provide credibility to those players and to bring them into the marketplace as quickly as possible.</p>
+          <p eId="para_53">Natural gas is a bridge to a sustainable future.  For every wind plant brought on to the system, we need to look at peaking an electricity plant which will have a variation capability.  When the wind does not blow, the peaking plant can come on and when it does blow, the peaking plant comes off.  This means that gas will play a modulating role in dealing with the volatility of wind.  We are very supportive of that and are providing specific products in the market for players to build peaking plants to support the drive for renewables.</p>
+          <p eId="para_54">If we did not have natural gas in Ireland, CO2 emissions would cost us €160 million.  About 8 million tonnes of CO2 is saved as a result of the use of gas rather than any other fossil fuel.  In terms of fossil fuel replacement, moving to gas makes a contribution towards our Kyoto and Bali commitments.  We achieve electricity conversion efficiencies of more than 50%, something no other technology achieves.  Bord Gáis will offer dual fuel to the island.</p>
+          <p eId="para_55">The growing gas utilisation must be matched by policy measures on security of supply.  We support an explicit security of supply standard for natural gas.  A standard may require additional infrastructure which may mean twinning pipelines in Scotland, increased storage off the coasts or onshore storage in Northern Ireland.  The more indigenous inputs we have from offshore exploration will mitigate the requirement of such infrastructure.  The Corrib, LNG facilities and storage will make important contributions.  Mandatory stocking of back-up fuels in gas-fired generation is also important.  Therefore, five-day distillate capability in combined cycle power plants is a must in terms of security of power and gas supply.</p>
+          <p eId="para_56">The regulator continues to drive change and Bord Gáis will meet those regulatory targets.  We work off utility benchmarks elsewhere.  We do not want to be a laggard as we want to lead in this area.  However, we also want to provide high-quality customer service.  Ireland should encourage development of regional energy markets, which means the UK and Ireland in the European context.  Russia provides 25% of all gas in Europe, which will rise to 50% by 2020 and will increase even further after that.  The EU will have to engage with Russia in having appropriate transportation, gas availability and pricing for the European gas and power markets.  Our relationships will have to go beyond those with the UK and Norway.  We will have to develop relationships with Qatar, Trinidad, Nigeria, Russia and other countries that provide energy through the pipeline.</p>
+          <p eId="para_57">Bord Gáis is a utility company like any other in Europe.  The norm in Europe for utility companies is to offer dual fuel and the advantage of that is it provides economies of scale.  The same call centre and the same billing engine are used to offer two bills to the customer instead of one, which creates an economy.  The idea of going to the market offering electricity and gas is the right course because it reduces the overall costs of energy provision.  To that end, Bord Gáis must make that move into the electricity market because its competitors coming into this market will offer gas and electricity.</p>
+          <p eId="para_58">Bord Gáis currently supplies 8% of the electricity market and is in construction at Whitegate.  We are involved in making offers through renewables and we have offered power purchase agreements.  Some 10% of our power currently — of the 8% — comes from wind.  Bord Gáis will offer dual fuel to the island on the domestic market and we intend to own or joint venture at least 1,000 MW.  As this would represent only 10% of the generation stock on the island in 2010, it is not a dominant position by any means for a State company which is involved either in full ownership or partial ownership.  More importantly, Bord Gáis will guarantee a green percentage to our customer base, whether it be domestic, SME or industrial.</p>
+          <p eId="para_59">I am open to taking any questions committee members may have.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_60">Thank you.  That was a most informative presentation.  I apologise on behalf of Deputy Liz McManus, who cannot be with us today.  I call Deputy Coveney.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_4">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_61">I welcome the substantial delegation from Bord Gáis.  I congratulate Mr. Mullins on his appointment within Bord Gáis and I wish him well.</p>
+          <p eId="para_62">I have a series of questions.  On security of supply issues, I wish to refer to the presentation the delegation has provided.  Under the heading "Market Perspectives", the chart for historic and future annual sources of gas supplies for the Republic of Ireland suggests that by the end of 2009 there will be huge reliance on Corrib and by 2013 all of our gas, according to this model, will come from Corrib or liquid natural gas.  In other words, the supply through the interconnectors from the UK will not be relied upon in any way.  Is this how Mr. Mullins envisages the position, as I may be misreading it?  Significant investment was made in interconnector pipelines between the UK and Ireland and, particularly as we have an all-island market, that interconnection will become even more comprehensive.  What is Mr. Mullins's view on whether this will be used in the next six or seven years, or in a shorter timeframe, according to that model?</p>
+          <p eId="para_63">With regard to cost predictions, Mr. Mullins stated that Bord Gáis is freezing the gas price for consumers until August of this year, which is welcome.  Did he say August?</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from>Mr. John Mullins</from>
+          <p eId="para_64">It is the end of September.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_6">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_65">That is welcome.  I presume Bord Gáis is buying futures in gas at this stage.  Does Mr. Mullins anticipate that the price will increase or fall after September?  Consumers should know what to expect.</p>
+          <p eId="para_66">With regard to pricing in Ireland and the UK, I accept that Ireland is a more rural consumer base and there are costs of transmission that do not apply to the same extent in the UK.  Will Mr. Mullins give us an idea of the differential between the cost to the householder or small business consumer of buying and using gas in, say, Manchester or Liverpool versus Cork or Dublin?</p>
+          <p eId="para_67">Mr. Mullins was quite clear on the rollout to new towns, which is welcome.  I believe Bord Gáis will get support from this committee on the smart metering rollout.  It seems nonsensical that we would roll out smart metering in this way, particularly as the rollout is a potential problem from an industrial relations perspective.  When we do one we should try to do both, whether it is in a pilot project or more generally.</p>
+          <p eId="para_68">While I am glad to hear Bord Gáis has a commitment to renewables, I am not entirely clear as to what it is proposing.  Has Bord Gáis invested, for example, in the planning and ownership of wind farms in certain parts of the country, or in other sectors such as waste to energy or other fuel sources such as biofuels and so on?  Is there an opportunity for Bord Gáis to expand outside of the natural gas remit?  Will we see Bord Gáis expand outside of that remit and use gas with other fuels in power stations?</p>
+          <p eId="para_69">On the storage issue, I had a very interesting meeting with Marathon Oil a few days ago and got a better understanding of the storage currently taking place off the Kinsale coast, of which I had not been aware.  What opportunities are there for substantial storage of gas supplies?  The predictions in terms of gas supply are not good in terms of the shift away from current sources to Russia, predominantly, and countries like Kazakhstan and elsewhere, and we are at the end of the pipeline in the European Union.  How ambitious can we be in terms of storage?</p>
+          <p eId="para_70">On a slightly linked question, there is much discussion at present on potential carbon storage from clean coal technology.  Unfortunately, although the US looked as if it would put huge amounts of money into researching this area, it seems as if that has dried up in the past few days.  In terms of the potential off the Kinsale coast of large areas that are almost emptied of gas, does Mr. Mullins view this as a viable proposition for the future?</p>
+          <p eId="para_71">My final question is potentially more awkward.  There is a controversial debate taking place at present in the Department with regard to the structural separation of EirGrid from the ESB.  Is there not a similar problem in principle with Bord Gáis owning and managing the transmission of gas around the Republic of Ireland when its competitors in terms of actual gas supply side are also operating on the same piece of infrastructure that it owns and manages?  Is there a conflict in the same way that some companies would claim there is a conflict for the ESB in owning the transmission networks for electricity?  If so, does the question of either functional separation or structural separation arise in terms of the gas transmission networks and Bord Gáis generally as competition continues to be supported and encouraged?</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_72">Mr. Mullins has enough there to keep him going for a couple of minutes.</p>
+        </speech>
+        <speech by="#" eId="spk_8">
+          <from>Mr. John Mullins</from>
+          <p eId="para_73">I have.  I will deal with some of the questions and will then hand over to my colleague, Mr. Michael O'Sullivan.</p>
+          <p eId="para_74">On the security of supply issue, the chart on the market perspectives assumes that LNG will compete with national balancing point gas.  It is a depiction of what LNG could contribute at that point in time, assuming that LNG could be obtained by the promoters for Shannon LNG at a cheaper price than that which could be delivered from the UK and Norwegian fields.  That is an open trading issue.  The interconnector could trade west-east as well as east-west.  One could find that if the LNG price was cheaper when landed at Shannon, it could move in the other direction into the Scottish system, as well as having a continuance of the current situation where, primarily, Norwegian and UK gas comes in our direction.  Neither interconnector will in any way be stranded.  We must always ensure we have contingency in terms of inputs into the marketplace.  We look at Corrib and Shannon LNG as prospects, Corrib being far more advanced.</p>
+          <p eId="para_75">In terms of the asset provision, we have provided the network practically up to the point of the terminal.  In the case of Shannon LNG, we are putting down a marker to the effect that if it comes in cheaper on a localised basis, it will provide the local market.  However, it is uncertain whether it will be cheaper.  World LNG prices and recent developments do not suggest LNG will be any cheaper than the gas delivered at Moffat.  On that basis, what we are depicting here is for the purposes of security of supply.  Corrib is number one in terms of the requirement for an indigenous source.  After that, LNG will be a traded commodity against the national balancing point.</p>
+          <p eId="para_76">In terms of cost predictions, Deputy Coveney is correct that we are buying gas every day on a futures basis, taking an 18-month laddered approach.  It is unlikely that the price from October onwards will be negative considering that, in the last year, we have moved from approximately 49 pence a therm to approximately 69 pence a therm on winter prices.  We have no control over that; the market decides the price.  At this point in time, subject to what happens in the coming months, I expect a single digit increase.  That will be a matter for debate with the Commission for Energy Regulation at the appropriate time.  The last check we did as part of our mid-term review suggests a single digit increase.  There will not be a repeat of the previous wholesale increases in the marketplace.</p>
+          <p eId="para_77">We are not planners or developers of renewables.  There are others with that competency.  The current difficulty in the marketplace is that operators with connections and planning approval are finding it difficult to obtain financing and long-term off-takes, with or without refit.  As a result, Bord Gáis has a role to play in this regard.  We have a strong balance that would support the off-take from any wind farm in the country.  We would come in either just prior to financial close of these particular projects or just after financial close where we might have an interest in purchasing the assets for our own use.</p>
+          <p eId="para_78">We do so for two reasons.  First, these are wise investments that will offer a return in the current market.  Second and more importantly, this affords us the opportunity to provide the green percentage to our marketplace when we launch into the domestic electricity market and also for our current customers in industry, including small and medium enterprises.  We will not, therefore, be a developer but rather a supporter of developers in terms of offering them greater financial credibility to get their projects over the line.  In the context of plans to achieve 30% renewables, the assistance of balance sheets such as those of Bord Gáis is important in reaching those targets.  The advantage for us is the ability to offer green energy products as part of our portfolio.</p>
+          <p eId="para_79">Deputy Coveney asked about storage.  I had a similar meeting with Marathon recently.  We currently have 7 billion cubic feet, bcf, of storage offshore of which we use five bcf and Marathon uses 2 bcf.  There is an opportunity to increase the storage by a further 16 bcf.  This would require significant investment, however, perhaps as much as €600 million.  That is our guesstimate given that gas would have to be put into these fields and stored.  It would be a strategic storage.  The Commission for Energy Regulation needs to take a view on the security of supply standard in the medium term.  There are countries that require 60-day storage at a minimum regardless of the amount of interconnection they have.  In terms of opportunities, one or two of the fields in Kinsale would qualify for storage opportunity and would effectively offer a trebling of the current storage capability on the island.</p>
+          <p eId="para_80">On carbon storage, one must consider the future of energy supply.  When Moneypoint is retired in 2024 or thereabouts, we will need a replacement energy source, whether via increased interconnection to France or the United Kingdom or by tackling the debate on whether to go nuclear or opt for integrated gasification combined cycle.  Kinsale and other locations in the State have the capability to take CO2.  There is an opportunity potentially to pump a significant amount of CO2 into the Kinsale gas field so that one could have a cold plant with modern day technology producing CO2 and pumping that CO2 into an abandoned field.  It is something that should be considered but there are other opportunities on the island.</p>
+          <p eId="para_81">In terms of the EirGrid transmission system operator approach, members are aware that Bord Gáis now has 37% of the market and there are 15 shippers.  There has been no complaint about Bord Gáis's provision of connections generally, whether to power generators or to large industrial customers in the marketplace.  We have a limited transmission network, which consists of Cork-Dublin, Dublin-Belfast, over to the west and up into Corrib.  It is not a significant transmission network although an expensive one to put in the ground.  Gaslink, our new independent system operator, will be established in Cork and will have its own offices and separate staff.  That will be in place in June.  Its role will be to direct BGE Networks in the way that ESB Networks is directed by EirGrid to perform functions on behalf of all shippers in the marketplace.</p>
+          <p eId="para_82">What is not on the agenda and certainly not in Government policy is to transfer the limited amount of transmission assets across to this new body, Gaslink.  In future, we will take instructions from that body.  When shippers require a new connection or new power generator, they will go through Gaslink before coming to Mr. Michael A. O'Sullivan, head of transportation services, who will deal with their requirements.  There is a great difference between providing a transmission connection for electricity and for gas.  This is primarily because of the complexity and nature of power.  Gas is a simpler product to deal with in terms of fluid mechanics and connection.</p>
+          <p eId="para_83">In the last decade, and especially since 2002, we have found that shippers have not complained about the level of service and the degree of separation that exists in Bord Gáis.  We have fully consulted, as has the Commission for Energy Regulation, on this Gaslink model.  The shippers are signed on to it as a system appropriate to the market.  It will also apply in the North.  Gaslink and the appropriate Northern body will have to liaise because we operate and are responsible for the majority of gas transmissions in Northern Ireland.  Both jurisdictions will have to meet that requirement.</p>
+          <p eId="para_84">I ask my colleague, Mr. Michael A. O'Sullivan, to deal with the question on Ireland versus the United Kingdom.</p>
+        </speech>
+        <speech by="#" eId="spk_9">
+          <from>Mr. Michael A. O’Sullivan</from>
+          <p eId="para_85">When one looks at the chart showing comparative prices for Ireland and other European countries, one can see that the United Kingdom is some 20% less expensive than Ireland for domestic customers.  The principal component of this differential is network charges, which reflects the fact that while we have a household penetration rate of less than 40%, the figure for the United Kingdom is 90%.  Consequently, our tariffs probably make up approximately 40% of the domestic bill, which is typical of a mature market like Ireland's, in which customer penetration is below 50%.  In this respect, Ireland is equivalent to countries such as Spain or Denmark, whereas mature markets such as the United Kingdom receive the benefit of scale with 25 million domestic customers and 90% penetration.  However, one should adjust for factors such as densities and length of networks.  The regulator brings in consultants as part of our price review to ensure our charges to our customers are based on best international practice as regards efficiency-adjusted.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_10">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_86">Does this also apply to major commercial customers?</p>
+        </speech>
+        <speech by="#" eId="spk_11">
+          <from>Mr. Michael A. O’Sullivan</from>
+          <p eId="para_87">No.  Typically, the difference in network charges for big commercial customers is approximately 10% or 12%.  The differential is not as high.  In the case of domestic users, the high pressure and the low pressure combine to make a differential of 40%, while in the case of a typical power station, it makes up approximately 10% or 12%.</p>
+          <p eId="para_88">When one considers Ireland's geography, the interconnector system and everything else, the transmissions charges for power stations are higher than in the United Kingdom.  However, the percentage of the final price made up of network charges is not as material.  It comprised approximately 10%, as compared to 40% on the domestic side.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_12">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_89">For example, if one takes a company such as Viridian that uses a lot of gas, how would its sister company be treated in respect of gas prices were it set up in Liverpool, Manchester, London or wherever?</p>
+        </speech>
+        <speech by="#" eId="spk_13">
+          <from>Mr. Michael A. O’Sullivan</from>
+          <p eId="para_90">Given that companies in Ireland source 90% of their gas from the United Kingdom, over time the gas component should be broadly neutral.  The price differential will tend to come down to the difference between network charges in the United Kingdom and Ireland.  Network charges for a power station in Ireland constitute approximately 10% or 12%, while in the United Kingdom they might be half that at 5% or 6%.</p>
+        </speech>
+        <speech by="#PeterKellyFF" eId="spk_14">
+          <from>Deputy Peter Kelly</from>
+          <p eId="para_91">I welcome Mr. John Mullins and his team and congratulate them on the running of Bord Gáis.  The company is a credit to Ireland and I always have been an admirer of the manner in which it conducts its business.  As a member of the previous committee, I am delighted to have the opportunity to thank Bord Gáis for inviting members to their headquarters in Cork.  I thank the company's representatives for the great welcome and hospitality we received on our visit to Cork in the last couple of years.</p>
+          <p eId="para_92">I welcome the announcement today that Longford is being considered under phase 3 of the gas to towns revised connection policy.  This is good news for us and while I will not pre-empt the result, we expect a positive one for which I thank Mr. Mullins.</p>
+          <p eId="para_93">If Bord Gáis ever decides to set up a sub-office, branch office or other unit, it would be more than welcome in Longford as people there would be delighted to have it.</p>
+        </speech>
+        <speech by="#" eId="spk_15">
+          <from>Mr. John Mullins</from>
+          <p eId="para_94">I thank the Deputy.</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_16">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_95">I thought Mr. Mullins was about to respond to those advertisements.  I will resist the temptation to put in one for north Tipperary.  I welcome Mr. Mullins and the members of the Bord Gáis delegation and thank them for a comprehensive briefing.</p>
+          <p eId="para_96">It is a clear indication of Mr. Mullins's forward thinking and positive planning that although he once considered becoming a Member of the Oireachtas, instead he decided to return to Leinster House with a salary that is many multiples of that which Opposition Members receive.  I wish him well and every success in his role.</p>
+          <p eId="para_97">I will be parochial in respect of the roll-out of phase 3.  The map shows a gaping hole in the middle of Ireland, which really highlights north Tipperary.  There is nothing there from the perspective of Bord Gáis.  In respect of north Tipperary in particular, what towns are being considered for phase 3?  Can Mr. Mullins give a timescale as to when gas might be available in north Tipperary?  The records provided state that only 19% is for industrial use.  This seems to be a low and disappointing figure given that in rural Ireland in particular, industries like Nenagh Creamery or Arrabawn Co-operative have been seeking natural gas for a considerable time as a way to reduce their operating costs.  Why has it taken so long to bring gas to Nenagh?  It is only 20 miles from Limerick, to which a main line extends.   I am unsure whether Bord Gáis or Government policy is to blame.  Why is this not happening in rural Ireland?</p>
+          <p eId="para_98">Mr. Mullins mentioned issues of safety.  I refer to the fire in the Edenderry factory and the reason a large area was shut off from the gas network in County Offaly in particular and perhaps also in County Westmeath.  Is it a concern for the future that a single glitch can have such an impact on a wider area?</p>
+          <p eId="para_99">Mr. Mullins noted it is highly expensive to install transmission pipe-work in the ground.  Is there consultation or co-operation between Bord Gáis and agencies such as the NRA?  A glorious opportunity appeared to exist in counties Limerick and north Tipperary.  The development of the M7 and the M8, which runs along the other side of County Tipperary, afforded a glorious opportunity to put in place a pipeline, had there been co-operation between various agencies or semi-State bodies.  Even at this stage, such a possibility exists throughout the rest of the country.  What kind of co-operation exists in this regard?</p>
+          <p eId="para_100">I refer to the delivery of broadband in towns nationwide.  First the ESB comes along and installs something, only to be followed by a broadband provider that digs up the street again.  As cost is a factor, is there evidence of joined-up thinking or do plans exist in that regard?</p>
+          <p eId="para_101">I look forward to having great gas in north Tipperary and I wish Bord Gáis well in future.</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from>Mr. John Mullins</from>
+          <p eId="para_102">The towns in north Tipperary under active consideration are Nenagh, Roscrea and Thurles.  Primarily, this is because of the industrial loading in those locations.  This pertains to the question raised by the Deputy on Edenderry.  One needs a major anchor client such as Arrabawn or Allergen, as I mentioned earlier——</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_18">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_103">Or Glanbia in Roscrea.</p>
+        </speech>
+        <speech by="#" eId="spk_19">
+          <from>Mr. John Mullins</from>
+          <p eId="para_104">Yes.  Such a client is required to ensure a sufficiently large industrial load to provide an economic throughput through the pipe.  The difficulty in this regard is that if we move into an uneconomic area, the rest of the network, that is, every other provincial town will be obliged to pay for the increased tariff.  That is how this works because there is a balance that must be worked on.</p>
+          <p eId="para_105">As for Nenagh, Roscrea and Thurles, between now and September we intend to have in place our phase 3 studies, which will be submitted to the Commission for Energy Regulation.  Thereafter, judgments certainly will be taken by the commission, which then will sanction connections to towns as it sees fit.  We have no control over what is included in our regulatory asset base or what will be included therein.  This is in the hands of Mr. Tom Reeves and Mr. Michael Tutty at present.  We will furnish clear information and will ask Arrabawn and all industrial ventures in north Tipperary about their inclination to transfer.  We do so as a matter of course.  We would do the same in other parts of the country in exactly the same way.  Consequently the Deputy will find Bord Gáis representatives talking to people in north Tipperary about these issues.</p>
+          <p eId="para_106">As for the fire in Edenderry, the lack of that load has had an impact on the economics of roll out.  Clearly, a replacement industry or a reinstated industry there would be to the advantage of a renewed commitment to connection.  In respect of the NRA, we deal with all the agencies continually.  In many instances, the majority of our costs pertain to trenching, pipes and steel and not necessarily to wayleaving.  We have very good relationships with the IFA and have fairly set wayleave charges.  However, when one considers the materiality of the wayleave charges in the context of the total cost of a transmission line, they are quite low.  In that regard, it is more common for us to be obliged to move pipes because of developments, rather than going along routes with new developments.  There have been many cases relating to developments in Dublin over the past while where we have had to move major transmission lines.  In one case, we had to move an AGI for the third time because of developments.  Again, they are outside our control but we liaise with all the authorities in that regard.  We are working with the Cork Docklands Directorate.  That would be described as a new town in its own right.  We are looking to move the transmission gas lines down there to facilitate developments.  We liaise regularly with all the agencies.</p>
+          <p eId="para_107">In respect of broadband, we have some opportunities in our network to provide support in terms of telecommunications.  The Department asked us when we put gas up to the west to put in ducting in terms of fibres, so we did that.  We also have broadband on the gas west pipeline which is being used by many telecommunications operators.  We do not advertise this much.  It is basically a wholesale price.  We are not interested in the telecommunications industry <i>per se</i>.  We provide the infrastructure and that is about it.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_20">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_108">Mr. Mullins is very welcome.  I remember running into him during that campaign one night in Carlow.  I always wondered why a bright fellow like him was considering politics.  In respect of the financial grants, in 2002, on a turnover of €652 million, there was a profit of €114 million, which is 17% in percentage terms.  I know Mr. Mullins mentioned that there was a €30 million exceptional charge in 2006.</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from>Mr. John Mullins</from>
+          <p eId="para_109">Yes.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_22">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_110">Even with that, the percentages are going down.  Is there a particular reason for that?  Is Bord Gáis reinvesting in expanding the grid or the system?  Could I get an explanation because Bord Gáis has gone from 17% to 13% to 9%?  Does Mr. Mullins have any preliminary numbers in respect of what 2007 is likely to produce?</p>
+          <p eId="para_111">In terms of the grid, I was looking at the maps that are circulated.  I know the gas was in the south and west but the demographics show the population is moving towards the east coast.  Mr. O'Sullivan spoke about urbanisation in the UK where 45 million people live in urban areas.  A significant percentage of the Irish population is now going to live on the east coast, predominantly in urban areas.  I know Bord Gáis has tied up some of the grid with the loops for towns.  Is Arklow town connected to the grid?  Mr. Mullins spoke about Allergan which, unfortunately, is leaving Arklow.  However, its plant in Westport seems to be secure.  Is Bord Gáis specifically targeting the growth areas?  These are predominantly on the east coast whereas the maps seem to deal with the midlands and the west coast.  I do not want to pitch one against the other but this demographic trend has been there for the past 20 years and is unlikely to change at this stage.  I am not trying to be funny but I always had a suspicion that people spoke a different language in Kerry and this has now been crystallised for me.</p>
+          <p eId="para_112">In respect of renewables, it is almost a business opportunity at this stage given the credit crunch.  It is likely that two years ago, some of those renewables may not have needed the backing of Bord Gáis but it is taking the benefit of that opportunity.  I am sure its finances allow that.  I have been looking at the opportunity to extract methane from dairy units.  I know it has been done in other jurisdictions.  There is the issue of the extent to which this is viable.  Again, I simply pose the question.</p>
+          <p eId="para_113">Bord Gáis's charter is fairly new.  There is capacity for the company to be fined if the charter is breached.  Is this correct?</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from>Mr. John Mullins</from>
+          <p eId="para_114">They are compensation payments.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_24">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_115">Has compensation been paid and if so, to what extent?  My final question will touch upon a subject addressed by Deputy Coonan.  Bord Gáis has 8,000 consumers who are larger players and consume a considerable amount of electricity.  Are they using gas on site or are they purchasing gas from the greener energy of gas that is available within the system itself?  What is Bord Gáis's capacity to expand that market?  Many members may be under the impression that domestic usage takes up energy but it occurs primarily when one is into major conversion of something in terms of the systems for business.  Businesses consume much more energy than domestic users.</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from>Mr. John Mullins</from>
+          <p eId="para_116">I will ask Mr. O'Sullivan to deal with the financial issues raised by Deputy D'Arcy.</p>
+        </speech>
+        <speech by="#" eId="spk_26">
+          <from>Mr. Michael A. O’Sullivan</from>
+          <p eId="para_117">In respect of the Deputy's point about our movement and margins in 2005 and 2006, particularly relative to previous years, he is correct in saying that in each of those two years, we had exceptional items in terms of charges.  In 2006, we had a €30 million charge while in 2005, we had a €20 million charge.  These charges were associated with rationalisation activities we are carrying out within the company.  When one adds those back, we are in a trend line of in or around 11% or 12% on a fairly constant basis from 2004 onwards.</p>
+          <p eId="para_118">In respect of Deputy D'Arcy's comment about the movement from 2002 to 2006, what we are seeing there is something associated with the growth in the network, which increased by 34% over that period in terms of the actual pipes on the ground.  There was a corresponding increase in terms of the operational expenditure associated with managing and maintaining that and this increase was associated with that increase in the growth.  Over that period, we probably had additional investment in terms of safety activities we are carrying out which, again, are associated with the increase in the network itself.  They are probably the two main contributing factors to the movement in terms of margin from 17% in 2002 to roughly between 13% and 14% in 2006.  We are in the throes of publishing our numbers for 2007.  In respect of our expectations for 2007, we expect to be between 13% and 15% in terms of that range and margin.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_27">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_119">From 2005 to 2006, the turnover increased by €250 million, which is about 30%.</p>
+        </speech>
+        <speech by="#" eId="spk_28">
+          <from>Mr. Michael A. O’Sullivan</from>
+          <p eId="para_120">Yes.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_29">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_121">However, even taking into consideration the €30 million exceptional item, there was an increase of only about 20% in Bord Gáis's profitability.</p>
+        </speech>
+        <speech by="#" eId="spk_30">
+          <from>Mr. Michael A. O’Sullivan</from>
+          <p eId="para_122">A contributing factor in the increase in turnover is the increase in terms of transportation revenue charged on the network, which is in or around €40 million, with an increase in terms of electricity sales of €40 million.  The major contributing factor was the increase in wholesale gas costs between 2005 and 2006.  In turn, this is passed on in terms of higher revenue but the actual marginal impact of that change is not significant in the bottom line.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_31">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_123">It is quite a jump and it is very noticeable on the balance sheet.  Does Mr. O'Sullivan have any figures relating to the jump in the gas price that Bord Gáis had to pay and pass on from year to year?  It is not a contra-item but is almost one in Bord Gáis's book terms.</p>
+        </speech>
+        <speech by="#" eId="spk_32">
+          <from>Mr. Michael A. O’Sullivan</from>
+          <p eId="para_124">In terms of where wholesale gas prices went between 2005 and 2006, there was probably an increase in the range of 20% and 25%.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_33">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_125">That explains a lot.</p>
+        </speech>
+        <speech by="#" eId="spk_34">
+          <from>Mr. John Mullins</from>
+          <p eId="para_126">In response to Deputy D'Arcy's questions about renewables, we are in a position whereby we can invest and we will do so.  We will not just invest in wind.  In my previous history, I did considerable work in terms of looking at other sources like bio-fuels, biomass and bio-gas.  I would be very supportive of those technologies.  We have a research fellowship about which Mr. Roche will speak.  We will become more active in supporting research in that area.</p>
+        </speech>
+        <speech by="#" eId="spk_35">
+          <from>Mr. Will Roche</from>
+          <p eId="para_127">The question on bio-gas is interesting.  University College Cork has an interest in this area and Dr. Jerry Murphy, who has been championing it for a while, spoke at a meeting of the Joint Committee on Climate Change and Energy Security in recent weeks.  As Mr. Mullins stated, we are funding a fellowship in UCC.</p>
+          <p eId="para_128">Biomethane is a second generation bio-fuel, placing it ahead of rapeseed oil and other possibilities.  Dr. Murphy's particular interest is in using grass rather than more sophisticated crops like rapeseed and wheat as a fuel.  Those members with agricultural backgrounds will probably know that——</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_36">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_129">Grass grows better than anything else.</p>
+        </speech>
+        <speech by="#" eId="spk_37">
+          <from>Mr. Will Roche</from>
+          <p eId="para_130">Yes, and there are ten times more possibilities to grow grass.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_38">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_131">Dr. Murphy pointed out that it takes approximately seven hectares of grass to fuel a bus with biomethane whereas it takes approximately 120 hectares of wheat if the fuel is bioethanol.</p>
+        </speech>
+        <speech by="#" eId="spk_39">
+          <from>Mr. Will Roche</from>
+          <p eId="para_132">We are positive about it.  Its best opportunity is as a transport fuel——</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_40">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_133">Yes.</p>
+        </speech>
+        <speech by="#" eId="spk_41">
+          <from>Mr. Will Roche</from>
+          <p eId="para_134">——and to use a mixture initially when introducing cars, buses and fleets to natural gas.  We did this in a different life approximately 20 years ago.  Owing to oil price changes and so on, the endeavour fell away, but we could consider re-introducing it and using biomethane from various sources.  It has been done better elsewhere.  For example, Sweden and Austria are ahead of us and I am told that farmers are selling at their gates biomethane produced at their facilities.  We are getting started and I have a great deal of hope for the coming five-year to ten-year period.</p>
+        </speech>
+        <speech by="#" eId="spk_42">
+          <from>Mr. John Mullins</from>
+          <p eId="para_135">It will certainly come as an injection into the transmission-distribution network.  It has worked in Sweden.  Bord Gáis needs to be supportive of the injection of stripped gas into our system, which will form a new type of indigenous gas.</p>
+          <p eId="para_136">Regarding the calorific value of bio-fuel, there is greater benefit from the raw form, such as bio-gas, going into a heating system than, for example, putting bio-fuel into a car where lower efficiency would be achieved.  We are supportive of the former and are working with UCC on how to foster this development.  We will attend this year's ploughing championships to discuss selling bio-gas into the market on a major scale.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_43">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_137">There are a number of producers of biomethane, but it is an economy of scale in terms of the capital funding for dairy units and keeping stock indoors.</p>
+        </speech>
+        <speech by="#" eId="spk_44">
+          <from>Mr. John Mullins</from>
+          <p eId="para_138">If we cannot support them from the point of view of gas injection, we will support them from the point of view of power purchase agreements.  We will send the market the signal that we are open to this.</p>
+          <p eId="para_139">Regarding Arklow, we have a line to Shelton Abbey, the old IFI plant with which the Deputy would be familiar, but it does not extend to Gorey.  Industrial anchoring will be the main factor.  Demographic growth in a town does not necessarily make a town more economically viable for transmission extension.  It needs the support of industrial anchoring, which will be considered as part of the phase 3 study.</p>
+          <p eId="para_140">A question regarding County Wexford is what will be the future of the Great Island power plant and whether it can be repowered.  If we were to repower it, we would do so from County Waterford rather than from the other direction because of its proximity to New Ross.  Our investment section in particular is actively examining this issue and the question of the situation of Great Island power plant post sale.  We are interested in repowering the plant to gas, which will have a knock-on effect as the Coolkeeragh line to Derry had in Northern Ireland.  For this reason, we are connecting to 12 towns in Northern Ireland.</p>
+          <p eId="para_141">Mr. Bunworth may wish to discuss the level of complaints in respect of compensation payments and not meeting our charter in general.</p>
+        </speech>
+        <speech by="#" eId="spk_45">
+          <from>Mr. David Bunworth</from>
+          <p eId="para_142">We have approximately 600,000 domestic customers and we send approximately 3.6 million bills per year.  From this level of exchanges with customers, we get approximately 6,000 complaints.  Many of these are about prices, a category of complaints that has increased in the past two years.  The number of complaints concerning compensation is infinitesimal because our organisation has a strong culture of responding quickly and on time and of getting first-call resolution, which is our mantra.  Taking a call from a customer and debating a matter with him or her over a period is expensive.</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from>Mr. John Mullins</from>
+          <p eId="para_143">The Deputy asked about larger customers.  As a gas provider in terms of networks and molecules, we would be supportive of combined heat and power, CHP, in industry.  In light of rising prices, heat and electricity in the one location is important to industrial efficiency.  We have invested in Diageo in Dublin and we own 70% of a company called Gatepower Limited, which provides CHP to St. James's Gate.  We provide CHP at other locations and are acting in partnership with players such as Dalkia Ireland Limited, which is active in district heating and CHP, to put in arrangements whereby we can be supportive on the front end in terms of gas provision and on the back end if there is excess electricity to take back.  As regards energy efficiency, this is the type of support we must give to the new developments.  It will drive towards reducing the CO2 footprint.</p>
+          <p eId="para_144">As highlighted by Deputy Coonan, some of the large electricity customers do not use gas owing to their proximity to the network.  In many instances, a CHP plant would be beneficial.  Many companies are conscious of their corporate responsibility regarding CO2, particularly the charge of €20 per tonne of carbon that will be placed on them if they exceed their allowances.  It is a critical issue for industry.  When the Commission for Energy Regulation attended last week's meeting of this committee, it was stated that 10% of all of the cost of electricity relates to carbon, which is significant.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_47">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_145">Forgive me if I seem ignorant of the fact that CO2 can be pumped into empty gasfields.  To what extent will Bord Gáis charge for this or what mechanism will it put in place to facilitate it?</p>
+        </speech>
+        <speech by="#" eId="spk_48">
+          <from>Mr. John Mullins</from>
+          <p eId="para_146">We do not own any relevant assets.  However, an entity that owned an asset would charge on the basis of CO2 avoided.  If one produces 10 million tonnes of CO2 per year at €20 per tonne, the cost is €200 million.  Doing a deal for €150 million makes economic sense on the basis of comparisons with substitute technologies.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_49">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_147">Until there is a replacement.</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from>Mr. John Mullins</from>
+          <p eId="para_148">The UK is considering this area and Centrica plc and Scottish and Southern Energy have examined projects in the North Sea's depleted fields.  We have an opportunity in Kinsale.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_51">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_149">Is Bord Gáis considering buying American oil assets?</p>
+        </speech>
+        <speech by="#" eId="spk_52">
+          <from>Mr. John Mullins</from>
+          <p eId="para_150">We have an active interest in the future of gas storage.  Regarding security of supply, if an arrangement can be made whereby Bord Gáis could be responsible for the management of the storage of the group of assets in question, we would be interested.  As we will buy gas from the Corrib field, we have a vested interest in the landing of the indigenous gas source.</p>
+          <p eId="para_151">Our focus primarily is on security of supply on a networks basis.  We would not like to see the purchaser of Marathon Oil Corporation ignoring the benefit to Ireland Incorporated of the current storage and the potential for further storage off the south coast.  We will take an active interest in this respect, but we are not interested in taking 100% of Marathon Oil Corporation's assets in Ireland.  If necessary, we will support a recognised player on the basis that we have an interest in the storage aspect.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_53">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_152">To be clear, is Bord Gáis part of a consortium that may be looking elsewhere?</p>
+        </speech>
+        <speech by="#" eId="spk_54">
+          <from>Mr. John Mullins</from>
+          <p eId="para_153">No, we are not at this point in time.</p>
+        </speech>
+        <speech by="#JoeMcHugh" eId="spk_55">
+          <from>Deputy Joe McHugh</from>
+          <p eId="para_154">I apologise for being late.  I was at the launch of the third Journal of Cross Border Studies in Ireland.  I welcome Mr. Mullins and his team.  The last time I spoke on this issue was two years ago, when I was concerned with the parochial element of Coolkeeragh, County Derry, and extending gas supplies into County Donegal.  At the time, the case put to me by Bord Gáis was that demographics and the industrial base were not sufficient to make it feasible from a financial point of view.  Much has changed in two years and there is a lot of wind behind the sail in terms of what will happen in the north west.</p>
+          <p eId="para_155">At the conference I attended today, the idea was expressed that we need much joined-up thinking in terms of economies of scale and the investment we must make in Northern Ireland.  We have invested €580 million in a particular road between Monaghan and Derry and ultimately to Letterkenny.  In terms of the strategic investment of this money, is collaboration ongoing between different bodies?  Bodies such as Bord Gáis could negotiate, co-operate and collaborate in joined-up thinking.  If there is to be a new road from Monaghan to Derry and a dual carriageway from Derry to Letterkenny, is Bord Gáis involved in the capital expenditure we are about to invest in roads?  If not, is there an opportunity to do so?</p>
+          <p eId="para_156">I note Mr. Mullins's point on Gorey.  It is not necessarily demographics that decide this but the industrial base that must exist.  The chicken and egg scenario exists in the north west of the country.  Owing to regional imbalances, we have the workforce.  In the past year, the unemployment rate in the district register of Buncrana has increased by 50% for those under 25.  We have a labour force but we are not getting inward investment because we do not have the infrastructure of roads, rail, gas and ESB supplies.  The list is endless.</p>
+          <p eId="para_157">When will State providers examine the possibilities that will emerge in Northern Ireland over the next ten years?  The Tánaiste and Minister for Finance, Deputy Brian Cowen, announced that the totality will amount to €100 billion but massive dividends will be reaped.  I ask that Bord Gáis get in on the act in terms of economies of scale and regional development, and joined-up thinking in terms of services.  This is going to happen but the reality is that the centralised system we have means that regional peripheral areas will never get anything because of the chicken and egg scenario.  The danger is that we will continue to work on the east coast.  With no disrespect to the constituency of Deputy D'Arcy or the Dublin constituency, it will work on an axis of Dublin to Belfast.  This is my genuine fear.  There is massive potential and opportunity and Derry is the fourth largest city in Ireland.  The potential exists and the spin-off benefits exist also for Donegal, and not just for reasons of nostalgia or parochialism.</p>
+          <p eId="para_158">I came across a transcript from 1934 recently.  Donegal was a thriving economic territory of this island because the main ports were Belfast and Lisahally, County Derry.  That was stopped by partition, which is no longer there.  We are working together on new communications infrastructure and the potential is good.  We are moving forward and I ask Bord Gáis to get involved in terms of joined-up thinking and strategic alliances with different players in Departments in both jurisdictions.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_56">
+          <from>Chairman</from>
+          <p eId="para_159">I thank the ambassador.</p>
+        </speech>
+        <speech by="#" eId="spk_57">
+          <from>Mr. John Mullins</from>
+          <p eId="para_160">As the Deputy knows, we have been very active, particularly over the past 24 months.  We have built excellent relationships with local representatives on all sides of the communities in each of the towns we service, including Derry.  Our experience there has been very positive and we continue to roll out our distribution network in Derry city.  In terms of the cross-Border progress we are making, there is quite a number of connections and much activity locally, with many people investing time in sales, marketing and connecting.</p>
+          <p eId="para_161">Letterkenny is the closest conurbation to our existing network and is the town that will receive the most focus under our phase 3 study.  We will have an all-island gas network and an integrated regulatory approach to gas.  Although it may not help Deputies today, when we talk about new towns connection post-2010, it will be done on a 32-county basis of optimising the network.  Clearly, we seek to optimise the position in north Donegal with respect to the investment made in Northern Ireland.  We are conscious that if we are to get gas into Letterkenny it will come via Derry.</p>
+          <p eId="para_162">I understand the chicken and egg scenario, which is the same in many other locations in the country.  We will produce a report on Letterkenny, Lifford, Donegal, Ballyshannon and Bundoran by September.  It will be submitted to the Commission for Energy Regulation.  The Minister for Community, Rural and Gaeltacht Affairs has examined funding to support extra towns along the routes for gas conversion.  There is a CO2 benefit, which we must consider.  In an average household bill, at a price of €20 per tonne of CO2, the conversion from oil to gas amounts to a saving of €34 per year.  This does not sound like much but it is a contribution in terms of net present value over a 25 year period.  I would push the environmental cost avoided as part of the overall assessment of towns in the future.  This would support our marketing drive in terms of bringing gas to more towns.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_58">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_163">The problem with that is that we would increase the reliance on gas.  We already have a problem in terms of security of supply.  If we keep replacing dirty, inefficient ways of producing power with clean gas-powered generation and renewables the danger is that Moneypoint disappears over time and is replaced by gas, peat power stations are replaced by gas and we have a major reliance on Corrib and imported gas, whether liquid or via an interconnector.  We can only push that so far.  That is presumably why Bord Gáis is taking such an interest in renewables and the possibilities of carbon storage.</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from>Mr. John Mullins</from>
+          <p eId="para_164">It is all about balance.  There is not a silver bullet answer to Ireland's energy requirements in the next 25 years.  It will be a mix of gas and renewables.  Provision of gas to Letterkenny could also be a support of solar panels and wood pellet boilers.  In terms of security of supply, many of those who use wood pellet boilers today complain about access to wood pellets and the appropriateness of that technology in terms of application.  There is no silver bullet but there must be something on which we can rely.</p>
+          <p eId="para_165">In as much as the gas is there and we meet the security of supply standards, it is a question of how we set that particular policy.  It is the only platform for sustainable growth in the energy market over the next 20 to 25 years, allied with significant acceleration of renewable investments.  There must be enormous positive discrimination towards renewables, ahead of gas generation.  However, we will still need to meet growth and have a base load.  That base load, regrettably, without any other silver bullet solution, will have to be gas.</p>
+          <p eId="para_166">To return to the Deputy's point about Letterkenny and other towns, we will be back in September.  We will publish the report and issue it to Members of the Oireachtas and to this committee, so that Deputies and Senators are informed effectively of the outcome of that analysis.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_60">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_167">In the context of security of supply, Mr. Mullins made reference to Qatar and Trinidad.  It is a little bit scary to see that by 2020, Russia will be supplying 50% of the gas.  Is there a supply network connection to Qatar and Trinidad?</p>
+        </speech>
+        <speech by="#" eId="spk_61">
+          <from>Mr. John Mullins</from>
+          <p eId="para_168">Essentially, there are large liquefaction plants where gas is converted into liquid in Qatar, Trinidad and in other areas of west Africa that would be very marginal in terms of gas production and would not have had a local load.  The Trinidad output mainly goes to the United States of America and will continue to do so.  The United States has real difficulties in terms of its own gas provision.  Venezuela has significant gas reserves but it is looking more towards the European markets, and southern Europe in particular.  There are at least seven liquified natural gas, LNG, plants in Spain.  Even though Spain was connected to Algerian gas, it took the view that it should diversify and chose to go down the LNG route.  It has built up linkages to South American countries, to which it was already culturally linked, to deliver that gas.</p>
+          <p eId="para_169">Qatar is the major provider of LNG in the world, much of which goes to Japan and the Far East.  There are a lot more LNG plants being developed.  There are approximately 250 LNG tankers in the world and another 159 are under construction.  It is an enormous industry.  When the Turks had a problem late last year an LNG tanker, worth approximately €30 million, which was heading towards the Isle of Grain was diverted to Turkey to alleviate the crisis there.  That gives some indication of how the LNG market will behave in the future.  Ships will be crossing the Atlantic and may decide to turn around and go back to the other side.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_62">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_170">Is the market as volatile as that?</p>
+        </speech>
+        <speech by="#" eId="spk_63">
+          <from>Mr. John Mullins</from>
+          <p eId="para_171">Yes and this is something which we must take into account when we examine the LNG option.  Many of these deals are being done at a political, rather than industrial, level.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_64">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_172">A lot of the piped gas deals will be done through politics in the future also, which we have already seen in the past few years, in terms of Russia's dealings with the Ukraine and so forth.</p>
+        </speech>
+        <speech by="#" eId="spk_65">
+          <from>Mr. John Mullins</from>
+          <p eId="para_173">Indeed.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_66">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_174">I thank Mr. Mullins.  The discussion has been very interesting.</p>
+        </speech>
+        <speech by="#JohnCreganFF" as="#Chairman" eId="spk_67">
+          <from>Chairman</from>
+          <p eId="para_175">I thank Mr. Mullins and his team.  We have had a very worthwhile exchange of views.  The meeting was very informative.  I wish to be associated with the comments of other members who congratulated Mr. Mullins on his recent appointment.  I wish him well and look forward to his ongoing co-operation.  We may take the opportunity to visit Bord Gáis on site later in the year.</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Mr. John Mullins</from>
+          <p eId="para_176">We would be delighted to receive the committee.</p>
+        </speech>
+        <summary eId="sum_6">The joint committee adjourned at 11.14 a.m. until 12.30 p.m. on Wednesday, 19 March 2008.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

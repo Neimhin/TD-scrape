@@ -1,0 +1,609 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2002-11-20/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2002-11-20/debate"/>
+          <FRBRdate date="2002-11-20" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/joint_committee_on_european_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2002-11-20/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2002-11-20/debate/mul@"/>
+          <FRBRdate date="2002-11-20" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2002-11-20/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_european_affairs/2002-11-20/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/1" showAs="Vol. 1" eId="#vol_1"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/1/no/3" showAs="No. 3" eId="#no_3"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="DonLydon" href="/ie/oireachtas/member/id/Don-Lydon.S.1987-04-25" showAs="Don Lydon"/>
+        <TLCPerson eId="FergalQuinn" href="/ie/oireachtas/member/id/Feargal-Quinn.S.1993-02-17" showAs="Feargal Quinn"/>
+        <TLCPerson eId="GayMitchell" href="/ie/oireachtas/member/id/Gay-Mitchell.D.1981-06-30" showAs="Gay Mitchell"/>
+        <TLCPerson eId="JohnDardis" href="/ie/oireachtas/member/id/John-Dardis.S.1989-10-01" showAs="John Dardis"/>
+        <TLCPerson eId="MaeSextonPD" href="/ie/oireachtas/member/id/Mae-Sexton.D.2002-06-06" showAs="Mae Sexton"/>
+        <TLCPerson eId="MarianHarkinIND" href="/ie/oireachtas/member/id/Marian-Harkin.D.2002-06-06" showAs="Marian Harkin"/>
+        <TLCPerson eId="MichaelMulcahyFF" href="/ie/oireachtas/member/id/Michael-Mulcahy.S.1994-12-13" showAs="Michael Mulcahy"/>
+        <TLCPerson eId="PatCarey" href="/ie/oireachtas/member/id/Pat-Carey.D.1997-06-26" showAs="Pat Carey"/>
+        <TLCPerson eId="PeterCallanan" href="/ie/oireachtas/member/id/Peter-Callanan.S.1997-09-17" showAs="Peter Callanan"/>
+        <TLCPerson eId="SeanHaughey" href="/ie/oireachtas/member/id/Seán-Haughey.S.1987-04-25" showAs="Seán Haughey"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM GHNÓTHAÍ EORPACHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON EUROPEAN AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2002-11-20">Dé Céadaoin, 20 Samhain 2002</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2002-11-20">Wednesday, 20 November 2002</docDate>
+      </block>
+      <block name="volume">
+        <docNumber refersTo="#vol_1">Vol. 1</docNumber>
+      </block>
+      <block name="number">
+        <docNumber refersTo="#no_3">No. 3</docNumber>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 2 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">Members Present:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#PatCarey">Deputy P. Carey,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#MaeSextonPD">Deputy M. Sexton,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#MarianHarkinIND">Deputy M. Harkin,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#JohnDardis">Senator J. Dardis,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#SeanHaughey">Deputy S. Haughey,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#DonLydon">Senator D. Lydon,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MichaelMulcahyFF">Deputy M. Mulcahy,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#PeterCallanan">Senator P. Callanan,*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#AengusOSnodaighSF">Deputy A. Ó Snodaigh,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#FergalQuinn">Senator F. Quinn.</person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Senator A. Ormonde.</summary>
+          <summary eId="sum_4">In attendance: Ms P. McKenna MEP.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#GayMitchell">
+   DEPUTY G. MITCHELL in the chair.
+  </person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Joint Committee.</heading>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_11">We have received apologies from Deputies Jim O'Keeffe and Ruairi Quinn, Senator Ann Ormonde and Proinsias De Rossa, MEP. We are joined by a delegation of 15 diplomats from some of the candidate countries who are visiting Ireland as part of a training programme on the European Union organised by the Institute of Public Administration. They have asked if they can observe the proceedings of the joint committee and I am happy to welcome them. Unfortunately, they will miss the presence of the Clerk to the committee, Mr. Jim Mulkerrins, who will not be with us for most of the day.</p>
+          <p eId="para_12">We are also joined by two officials from the Northern Ireland Assembly, Ms Stella McArdle and Ms Gillian Lewis, who are visiting the Oireachtas to look at our new scrutiny arrangements for proposed EU legislation. They are both welcome and I hope their visit will be useful. It is in return for a visit we made to Stormont a few weeks ago.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Removal of Motor Industry Block Exemption: Presentations.</heading>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_2">
+          <from>Chairman</from>
+          <p eId="para_13">Members have received briefing material on the removal of the block exemption. It has been circulated again this morning for their convenience. Additional material on Regulation 17 has also been circulated.</p>
+          <p eId="para_14">I welcome Dr. John Fingleton, chairman of the Competition Authority, and his officials, Ms Isolde Goggin, Mr. Patrick Kenny, Mr. Ray Leonard and Mr. Dave Hobnett. I also welcome Mr. Danny Kelly, Mr. Brian Whitney and Mr. Bill Coventry of the Department of Enterprise, Trade and Employment. I am advised that Dr. Fingleton will take the lead on the question of the block exemption while Mr. Whitney will take the lead on the matter of Regulation 17. I propose that, following a presentation on both matters, there will be questions from members on the block exemption. I will then take additional questions on Regulation 17. Is that agreed, or should we take both together? It is a matter for members. We will take both together. Dr. Fingleton, you are welcome.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Dr. John Fingleton</from>
+          <p eId="para_15">Thank you very much. I thank the committee for inviting us. This is the first time I have been invited to speak to an Oireachtas committee of any kind and it is a great pleasure to be here.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_4">
+          <from>Chairman</from>
+          <p eId="para_16">We have to be sure you have no previous convictions.</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from>Dr. Fingleton</from>
+          <p eId="para_17">I hope I will maintain a clean record. I am enormously grateful to Members of the Oireachtas for the Competition Act, 2002, which was passed earlier this year and in respect of which I had an involvement with several members of the committee. We are very grateful for that legislation which has improved competition law enforcement and advocacy.</p>
+          <p eId="para_18">I will speak briefly on a paper we have prepared which sets out the main features of the new block exemption regulation that applies to motor vehicles. The Chairman referred to the removal of the old seven year regulation which was in place from 1995 until 2002, to which I will refer with the new regulation which will last for eight years starting from September this year.</p>
+          <p eId="para_19">While Article 81 of the treaty prohibits agreements that restrict competition, Article 81(3) allows the European Commission to exempt certain types of agreements, either individually or as a group. In this case, it has issued a group, or block, exemption for motor vehicle agreements. It has done this since 1985. In 2000 it examined the regulation it brought forward in 1995 and concluded that one of the conditions in Article 81(3) had not been met, in other words, a fair share of the benefits had not been passed on to consumers. This was one of three factors that led it to propose a radical revision of the regulation.</p>
+          <p eId="para_20">The second factor was a rethinking of its philosophy towards vertical restraints generally, as reflected in a 1999 regulation covering vertical agreements generally. The third factor was that it had discovered serious breaches of European competition law in the distribution of motor vehicles in Europe. It had levied a total of €235 million in fines over a number of years concerning restrictions on parallel importing of motor vehicles in Europe.</p>
+          <p eId="para_21">These three factors led the Commission to compile a very detailed report in 2000 evaluating the block exemption regulation. This is not unlike the type of regulatory impact analysis about which we now hear a lot in terms of how the regulation had impacted on the various constituents or client groups. It then proposed in March this year a draft regulation. It initiated a consultancy process, not just with the interests in the industry, but also with consumer groups and the member states, through the advisory committee on which we sit jointly with the Department of Enterprise, Trade and Employment. Having concluded the process, it brought forward this new regulation in July.</p>
+          <p eId="para_22">The new regulation represents a radical departure. It is designed by the Commission to be less regulatory, increase competition among dealers, facilitate cross-border trade and increase competition in the repair and maintenance markets. It does this by the most radical changes and moves from what was previously a combination of selected and exclusive distribution to requiring manufacturers to choose between one of the two.</p>
+          <p eId="para_23">Selected distribution occurs where one chooses distributors and dealers on the basis that they meet certain criteria. It could be that one picks a particular number or that they meet qualitative criteria. Exclusive distribution is different. It means that one gives them, for example, a territory or a particular market to deal with on one's behalf and nobody else will be appointed to deal in the area concerned. They are two very different types of restriction that can be put in place to more efficiently distribute goods. The problem, as the Commission saw it, was that the combination of the two had led to adverse competitive effects in the market. The Commission wanted to allow manufacturers the freedom to organise their distribution in the most efficient way but not in a way that would be anti-competitive. It was of the view that the combination of the two would offer the potential to restrict competition unduly.</p>
+          <p eId="para_24">That is probably the main change, but there are a number of other factors. The Commission was very concerned to increase the ability of cross-border trade to operate in a way that would enhance competition. There are a number of measures, therefore, that will enable consumers and/or dealers to source cars across borders. The most important for Ireland is probably the requirement on dealers in continental Europe, for example, to supply right hand drive cars on an equivalent basis. Until now, if one had tried to buy a right hand drive car in Belgium, one might have found that it cost a lot more, dealers were not able to give the desired car or offer the right price, or the manufacturers restricted supply, which will now be freed.</p>
+          <p eId="para_25">Another change relates to multi-branding. It will now become easier for dealers to sell several brands of car at the same location. In principle, therefore, one could choose a Fiat, a Volkswagen or a Renault from the same dealer. This will enhance comparison shopping by consumers, enabling them to compare, not just prices, but also all the characteristics of a car at a single location, leading to more objective advice. If a dealer deals on behalf of several brands of car, he or she will be less inclined to push a particular brand but rather will be more interested in helping the consumer to find the right match for him or her.</p>
+          <p eId="para_26">In all these regards the regulation is very focused on empowering consumers by allowing them to search and comparison shop. In this regard, the combination of reduced search costs and the increased role of intermediaries, enabling the possibility of Internet sales of cars across Europe, will enhance rivalry and improve the ability of new entrants to the market generally. We see it as a pro-competition but balanced move which will allow manufacturers to distribute their cars in an efficient way. A total of 40% of the lifetime cost of a car - I am not talking about running costs in terms of petrol but the ownership of the car - is accounted for by the price of the car. Another 40% is accounted for by repair and maintenance costs, making them equally as important in terms of consumer spend.</p>
+          <p eId="para_27">The other main feature of the regulation is a freeing of the market for repair and maintenance. In this regard, the main factor is to allow the development of independent authorised repairers in order that manufacturers will not tie repairers to dealers. I am personally relieved about this because I have a problem with my own dealer from whom I cannot get a part for my car and I have nowhere else to go. The regulation will not come fast enough to solve my problem, but the development of an independent dealer market is one measure that will enhance consumer choice and also avoid lock-in, which is common in competition markets where somebody buys a durable good that requires parts and maintenance over time. It could be photocopiers, cars or even the common razor. If one is locked in to buying particular blades at high prices, we all know it is the blades, not the handle, which are often the most expensive. These are called "after markets," where one buys particular goods and then has to buy parts afterwards. These are markets where competition problems commonly arise. Allowing in independent service operators with sufficient safeguards for quality can enhance consumer choice. I dealt with this aspect in section 3.3 of the report we submitted to the committee.</p>
+          <p eId="para_28">There are benefits in the regulation, not just in terms of increased competition, but also in terms of driving the internal market, which is obviously something the Commission is keen to do. We are all interested in labour mobility and people moving from one country to another, of which one of the nice aspects is that if one buys a car in a member state, one will have the same rights in terms of repair and maintenance across all member states. It will generally be easier to move from one country to another in this sector.</p>
+          <p eId="para_29">In general, the benefits arise in terms of empowering consumers and driving price competition, while also enabling better matches between consumers and the products they purchase and reducing consumer lock-in. These aspects will enhance competition, not just among manufacturers, but also among dealers in terms of offering better deals to customers and in the repairs and distribution market. The authority will continue to take an active interest in the car market, both at an enforcement level and also in terms of our advocacy role. In that role we are always happy to meet people who have an interest in any market to discuss issues. We are very much in favour of this reform. It is less regulatory, focuses more on the consumer and is based on a very solid economic analysis of the problems that existed with the previous block exemption regulation.</p>
+        </speech>
+        <speech by="#" eId="spk_6">
+          <from>Mr. Brian Whitney</from>
+          <p eId="para_30">Moving on to the new Council regulation to replace regulation 17 of 1962, Dr. Fingleton and I will do a bit of a double act on this. I will cover matters such as the background, the thinking behind the form of the regulation, the main features, the issues that arose for us in negotiations and how they were resolved and the implications for us in terms of further legislation. Dr. Fingleton can then give his expert view on likely impact of this on the operation of competition law——</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_31">Do you have a copy of your comments for circulation?</p>
+        </speech>
+        <speech by="#" eId="spk_8">
+          <from>Mr. Whitney</from>
+          <p eId="para_32">We have some spare copies here; we may have enough.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_9">
+          <from>Chairman</from>
+          <p eId="para_33">Thank you, sorry to interrupt.</p>
+        </speech>
+        <speech by="#" eId="spk_10">
+          <from>Mr. Whitney</from>
+          <p eId="para_34">Dr. Fingleton could give his view on the likely impact on competition law and also on the implementation arrangements for co-operation with the authorities of other member states.</p>
+          <p eId="para_35">The document is being circulated now. I apologise, chairman, we thought it had been circulated beforehand. It is a very brief summary of the background and the contents of this new regulation.</p>
+          <p eId="para_36">Dr. Fingleton has already explained about Article 81(3) of the treaty, which prohibits anti-competitive agreements but is not an absolute prohibition. There are circumstances in which agreements can be exempted. Article 81(2) prohibits the abuse of a dominant position, and these are the basic rules of competition in EU law. Article 83 provides that the Council will make regulations to govern the application of these Articles. It was always envisaged that the treaty would provide for a mediating instrument to govern the application of these Articles.</p>
+          <p eId="para_37">The original regulations were contained in regulation 17 of 1962, and they reflect the state of competition law in Europe at the time. Competition law was quite new then and there was not a good understanding of it. There is a much longer tradition of competition law in the United States. Very few member states had competition authorities as we now know them. They had authorities which dealt with some aspects of competition law and probably also dealt with consumer law and fair trading rules, which were very often designed to provide protection from competition.</p>
+          <p eId="para_38">We had a restrictive practices commission at that time, but the type of competition authorities we currently have in all member states were thin on the ground then. The need to educate business and legal advisers on the implications of the competition provisions of the treaty is reflected in regulation 17 of 1962. A key feature of it is that it permits undertakings to notify agreements to the Commission, agreements which may be anti-competitive. The Commission will then examine them and can decide either that they do not breach Article 81(1) - that is, that they are not anti-competitive in their object - or that if they breach Article 81(1), they are covered by the exemption in Article 81(3), or that they breach Article 81 altogether. It is a way of providing certainty for business, which was not familiar with dealing with these rules.</p>
+          <p eId="para_39">Another key feature is that the Commission had sole jurisdiction to apply Article 81(3), whereas the national courts in member states could apply Article 81(1) in civil cases. The exemption was solely a matter for the Commission. This reflects the importance the Commission attached to keeping control of things at an early stage until case law was established and there was a better understanding of the rules.</p>
+          <p eId="para_40">When the Commission reviewed the operation of these regulations in the late 1990s, it was evident they were now a long way down the road with 40 years of experience. A considerable body of decisions has built up on agreements and there is a great deal more clarity as to how these competition rules apply to particular agreements. There are also a number of block exemptions which apply Article 81(3) in various sectors, such as the type that Dr. Fingleton has been discussing in the motor vehicle area.</p>
+          <p eId="para_41">The need for this type of provision was not as great as it had been decades earlier, and it was felt that there was sufficient case law to enable companies and their advisers to be able to decide whether agreements would breach Articles 81 and 82. However, the operation of this notification system consumed very considerable resources in the Commission. There were thousands of notified agreements, the vast majority of which raised no competition concerns. That is not to say there were no anti-competitive agreements operating in the EU, there were, but they were not being notified because the parties to those agreements knew they were in breach of Article 81 and these were the secret agreements to operate cartels of various types.</p>
+          <p eId="para_42">This was the problem the Commission had to address but it was unable to because the resources were absorbed in what has been referred to as "washing clean linen". The central feature of the reform it proposes is to abandon the notification system. In future, Article 81 in its entirety will be directly applicable and it will be a matter for companies and their legal advisers to decide whether their agreements comply with Articles 81 and 82.</p>
+          <p eId="para_43">This will free up the resources of the Commission to deal with cartel-type activity. That is the central feature of the new arrangement. A second feature which is of considerable importance is that member states are being required to empower their competition authorities to apply Articles 81 and 82. This happened in some member states prior to this. It did not apply in Ireland prior to the Competition Act, 2002, although we did in that Act empower the authority to apply Articles 81 and 82. What is envisaged is that the responsibility for applying European competition law will be shared between the Commission and the competition authorities of the member states.</p>
+          <p eId="para_44">That raises a difficulty. We have 16 authorities, the Commission and 15 member states - soon to be 25 - all applying competition law, which raises issues of coherence and consistency in the application of the law. A great deal of this regulation is given over to putting in place arrangements for co-operation between authorities and the Commission and between various authorities for information exchange, provisions for the Commission to be notified of cases being dealt with and decisions proposed so that it can intervene and start its own proceedings if it sees a danger of inconsistency and incoherence.</p>
+          <p eId="para_45">This is obviously central to the successful operation of the new system in that we have adequate provision for ensuring consistency in the application of the law. There are other aspects to the regulations if people want to raise them but those are the two key features. We have here an instance of a devolution of power from the Commission to member states. Authorities within the member states will undertake work currently undertaken by the Commission.</p>
+          <p eId="para_46">We did not have many issues here. Few aspects of the regulations caused us problems. Our main concern was to ensure that we could continue to operate our own procedures in applying European competition law. It is not an objective of this reform to harmonise procedures. The Commission wants to harmonise substantive law but each member state will apply that law in accordance with its own procedures, which vary considerably from the type of procedure the Commission has - essentially an administrative procedure whereby an administrative body investigates, makes the decision and applies sanctions. Our system employs criminal procedures for constitutional reasons. We have been advised that it would be extremely dubious constitutionally to empower an administrative authority to impose fines which are considered criminal sanctions.</p>
+          <p eId="para_47">There are variations across member states and it was not the intention to harmonise those procedures. There was much negotiation to ensure that the regulation was drafted in such a way as to make adequate provision and ensure that our procedures remain intact as provided for in our competition law. As the regulation has now developed we will be designating as competition authorities in this State both the Competition Authority and the courts, each of which has a role in enforcing competition law.</p>
+          <p eId="para_48">The regulation is at an advanced stage. The Presidency hopes it will be adopted at the next meeting of the Competitiveness Council, which is on next Monday, 26 November. One can never be certain that the negotiations will be completed as intended. However, there is a very good prospect that they will be. There are very few issues left, and we have resolved any issues we have with the draft regulation. There are as always a few issues to be resolved either immediately before the Council or at the Council meeting.</p>
+          <p eId="para_49">As for the implications for our law, we do not see that it will have any implications. That is our present advice. That is largely because we anticipated the main features in drafting the Competition Act, 2002. In effect, many of the issues which arise regarding the regulation were debated quite extensively when that Act was going through the Houses. Specifically, we abolished our notification system and we also empowered the Competition Authority to apply EU law. When the instrument is finalised we have to have a further detailed examination of it, but as of now we do not envisage that further legislation will be required. I do not know whether Mr. Fingleton wants to add something on the practical implications.</p>
+        </speech>
+        <speech by="#" eId="spk_11">
+          <from>Dr. Fingleton</from>
+          <p eId="para_50">The authority welcomes the modernisation of Regulation 17. It is appropriate that competition matters that affect Irish markets should be dealt with in Ireland. This is consistent with our views on mergers as well. We recently made the first Article 9 request to bring a merger back to Ireland. That was in relation to a joint venture between AIB and Bank of Ireland. The deal was subsequently called off and the Commission agreed to send the matter back to Ireland to be considered. We take the view that if the effect is largely in Ireland it is appropriate that it should be considered here. This regulation will do that on a large-scale basis. It will also improve both public and private enforcement. In Ireland we already have a deal of private enforcement but in other member states we will see more private enforcement of the competition law. It is also welcome in the sense that it will refocus the Commission on dealing with the more serious and Community-wide breaches of competition law. It is also very important in the context of enlargement where the ability of the competition directorate-general of the European Union to deal with competition issues across 25 member states would put it under severe strain.</p>
+          <p eId="para_51">The regulation has raised many concerns and much is being done at Competition Authority and member state level to try to deal with these in terms of ensuring that there is a common standard. There are concerns about, for example, the training of judges. Measures have been undertaken on that. There have been concerns about incoherence in terms of procedures and sanctions differing across different countries. We are trying to ensure that, in so far as is possible, we avoid inconsistencies resulting from that. The Commission has been given a strong role in intervening in cases through what is called amicus curiae or friend of the court in court proceedings, or in seizing cases from a member state if it believes it has a Community-wide interest. That is put in there to ensure consistency and to avoid forum-shopping.</p>
+          <p eId="para_52">In terms of practical implementation, there are issues we are now beginning to work on. The start date is likely to be early 2004 and there is much work to be done by the competition authorities in terms of putting together the logistical arrangements for this, in terms of sharing of information, in terms of what languages documents will be exchanged in, the arrangements for the conduct of joint investigations, putting IT systems in place so that we can get everything to work together, and the co-ordination of what are called leniency or immunity applications in cartel cases where one participant in a cartel can get immunity from prosecution. We have such an arrangement in place in this country with the DPP, and most other countries have them. It obviously raised questions about whether, in a European matter, everybody has to get the immunity application in at the same time on the same day with 25 different agencies. We are looking at issues like that.</p>
+          <p eId="para_53">There are obviously resource dimensions to this as well which we will have to address. There are two arising from the operation of the system. Even if everything happens in one language and if that language is English, just as everybody else will have to do short summaries of their cases, we will have to prepare short summaries of our cases, in English obviously. That means that even if we manage to benefit from the linguistic regime, and that is by no means certain, there will still be a burden on us . It is likely that English may not be the obvious lingua franca of the regime, so we will have to do summaries of the cases and the Article 11 provision requires us to notify the Commission and other member states of cases so, without any additional caseload, there will be a burden on us in terms of sharing information.</p>
+          <p eId="para_54">The ultimate purpose behind this regulation in giving a greater enforcement role to the member states is to expect that there will be a greater case load for the authority. I am reasonably confident that we have the systems in place to deal with that. It will occupy much of our time during the next 12 months to make sure everything is in place for this.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_55">Thank you Dr. Fingleton and Mr. Whitney. We will take a round of questions now. There are two essential issues. One is the issue of competition, and cross-border, interstate competition in particular. The second is shared but decentralised control. I want to kick off by asking two questions. I understand that cross-border competition will be possible after 2005. Three years seems a long lead-in period. I note that has already been agreed. However, this will highlight further differences in car prices across the European Union, probably creating demand for price harmonisation. What is likely to happen then? Will this put pressure on governments to do likewise with tax on new cars or will manufacturers continue to adjust their pre-tax prices to suit the tax regime under which they are selling? What will actually happen, because that is clearly going to affect the price? What specifically are the characteristics of the car retail sector that means it continues to warrant an exemption? It has had this block exemption for some time and I would like to know what the situation is in relation to that.</p>
+          <p eId="para_56">In relation to Regulation 17, which relates to implementing rules for competition, decentralisation and shared competence, as it is called, I know that will allow the Commission to go after cartels and do further work. The Commission argued that the body of competition law is now sufficiently developed. However, there will be 15 different authorities and, in a short time, 25 different authorities with the entry of the new member states. Will there be uniformity in the application of this? That is the objective, but will it really be the case, and how will that be monitored?</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_13">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_57">I welcome the members of the delegation. It is very helpful to have them before us today. My point of departure is the seminal Forfás report on prices which we received earlier this year. The Forfás report acknowledged that Ireland has become the second most expensive country in the euro zone. It listed a few categories in which we were either the most expensive, the second most expensive or the third most expensive in the euro zone. For milk, cheese and eggs we are the most expensive. For fruit, vegetables and potatoes we are the third most expensive. For alcoholic beverages we are the second most expensive. For tobacco we are the most expensive. For transport we are the second most expensive. For pubs and restaurants we are the second most expensive. Talking about competition law is all very well. However, for the ordinary consumer, while quality and choice are important, what counts at the end of the day is price. We seem to be almost at the bottom of the league when it comes to value for money, certainly in those categories. The Forfás report also points out that the number one culprit is Government because indirect taxation is identified as one of the largest contributors to our expensive prices. The second most important inhibitor on our prices is regulatory factors-competition, also identified by Forfás. The bottom line has to be that the system is not working in terms of the consumer. Whatever we are doing wrong in regulatory factors-competition it is not showing through to the bottom line.</p>
+          <p eId="para_58">In terms of complaints about motor vehicles——</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_59">This is——</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_15">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_60">I thought we were taking both together.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_61">Yes, but motor vehicle block exemption is the main——</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_17">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_62">I am linking in to Regulation 17.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_63">All right.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_19">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_64">We have had farmers complaining about the prices they are getting from the food and beef processors. There are complaints about the price of food in supermarkets. There are complaints about the lack of competition in the insurance sector and the price of premiums and pub prices. I am leading in to Regulation 17. Does the authority consider it has the necessary resources and the legislation to do this job effectively? It is one thing getting a whole new responsibility from Europe but it is another being up to the job. Lest I be misunderstood, I am not casting any aspersions. This is a significant new task that the Irish Competition Authority is taking on. The public would want to know if it has got the resources, the backing of Government and the legislation to do what is required. There is a sense of frustration among the public. They want to see more happening on this front. They want fines imposed, cartels broken up, greater choice and lower prices. If the Competition Authority considers at any stage that it has been given too heavy a burden and is unable to deliver to consumers I would appreciate if it would tell us.</p>
+          <p eId="para_65">The motor vehicles block exemption is a welcome development. The reality for most consumers is until the horrendous rates of excise duty, etc., on cars comes into line in Europe, it will not make a fiddler's difference. Is it true that a car leaving the factory gate in, say, Germany is cheaper in Ireland than in France but, after taxation, it becomes much more expensive in Ireland than in France. At the end of the day it will be academic unless these issues are addressed.</p>
+        </speech>
+        <speech by="#JohnDardis" eId="spk_20">
+          <from>Senator Dardis</from>
+          <p eId="para_66">I join in the welcome to Dr. Fingleton and his colleagues. When the Competition Bill was going through the Dáil and Seanad, Dr. Fingleton attended the debates every day. I cannot recall anybody in his position doing that in respect of any other legislation. He is to be commended for that. That legislation improved matters significantly. With regard to Regulation 17/62, I am somewhat confused as to the responsibilities of the Commission and the national Competition Authority. While the law is a shared exercise I am worried that if I go into my local dealer and there is a dispute which I believe is a competition issue, is my first port of call the Competition Authority or the Commission? To whom do I address my complaint and who acts on it? It strikes me that the way the system is designed is a recipe for evasion. I would be interested to hear a response on this issue. There is an opportunity to cause confusion by those who would wish to do so and, as a result, things that should be done might not otherwise be done. Reference was made to the Commission finding breaches in the distribution of motor vehicles. I would be interested to hear the nature of those breaches, how the penalties arose and how they were executed. That bring us to the question of resources and how the Competition Authority will be resourced to do this task.</p>
+          <p eId="para_67">The other aspect relates to the pre-tax price of motor vehicles and the differentials between the different countries. One could look at that in two ways - that competition is creating differential prices and there should not be uniformity, and that we appear to be at the upper end of the spectrum, and what is it that makes us come into that category? What are the factors that create that situation? If there are things that are obviously wrong how can they be rectified?</p>
+        </speech>
+        <speech by="#FergalQuinn" eId="spk_21">
+          <from>Senator Quinn</from>
+          <p eId="para_68">When I was growing up there was a selection of petrol pumps at the petrol station and one could decide on one or other of them. That is a long time ago and probably nobody else remembers it. When will we see something like that with new cars? Dr. Fingleton touched on it. I was impressed by his explanation of selective distribution and exclusive distribution. Will that continue or is that inherently against competition in the long-term? What are the barriers to entry? I am in a business in which anybody can open their shop without any problem whatsoever. That is one of the reasons there is fierce competition in the grocery business. I get the impression that it is not that easy to go into the new car business and open up if the selective or exclusive distribution system is an obstacle. I did not understand Dr. Fingleton's reference to public and private enforcement and perhaps he would explain it. If he had a magic wand, what would he like to see happening at European level or in Irish legislation?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_22">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_69">Perhaps I can give a quick response to my colleague, Deputy Mulcahy. The Competition Authority could do with more resources instead of the cutbacks of 2% which his party in Government is suggesting. If the authority is taking on an additional workload obviously it should receive extra resources. My questions relate to the car trade. How would the authorised repairers work? Would the threat to withdraw repair or service contracts encourage car manufacturers to play off dealers against one another? We heard the positive aspects for the public but are there implications for small sole traders or small companies of mechanics? Given that there has been little mention of protection rights, what are protection rights for consumers? If one can buy a car in one country and have a warranty for anywhere in Europe, I do not know how that would operate. Are there implications if the vendors are not responsible for the warranty of the car and if they can say: "We have just sold it, you will have to go to your repairer or your car servicer for that"?</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from>Dr. Fingleton</from>
+          <p eId="para_70">I will start with the motor vehicle questions. In general if the Commission did not do this special regulation for motor cars there is another general block exemption regulation that applies to all distribution agreements. In some sense that is a more liberal regime. They are interfering more in the car sector rather than pushing more competition. To a large extent that reflects the fact that the large member states who manufacture cars were firmly opposed to the increase in competition because they felt their manufacturing industries might be forced to be more efficient, less profitable or whatever.</p>
+          <p eId="para_71">The distance Commissioner Monti went on this issue was probably as far as he could get politically and much farther than I thought he would get when I first looked at it in 2000. While I share some of the sentiments expressed that the regulation may not go far enough in terms of exposing the car sector to full competition, it has gone a remarkable distance given the enormous amount of political opposition from the motor manufacturing sector.</p>
+          <p eId="para_72">Ireland does not have a manufacturing industry for cars and, as such, we are a net beneficiary of this regulation. It has always been in our interest to fight for the consumer in the car sector. If there are producer and consumer sectors, countries may not always be so enthusiastic, and others were not. We have gone a long distance, therefore, which is important to mention.</p>
+          <p eId="para_73">The question about prices was raised by a number of members. The evidence appears to be that pre-tax prices are lower in Ireland because when the very high tax rates are added, the Government was taxing the monopoly profit that might have been available in other countries where taxes were less high. Having said that, when we get down to the level of specific models, it is often possible to find six or seven other member states in which the price of that car, net of tax, is cheaper. There is no conclusive evidence, therefore, that Ireland is always cheaper for net prices.</p>
+          <p eId="para_74">It is certainly the case that this regulation will tend to harmonise net of tax prices. It is the Commission's intention, in driving competition, that it should harmonise them around the lower levels that exist in some member states because of the ability of both consumers and intermediaries to source cars at the point where the pre-tax prices are lowest. That may have implications politically for excise tax in Ireland but the way in which the excise regime has worked here has tended to insulate the Exchequer from the fact that people may have purchased their cars abroad. Consumers will be able to benefit from price differentials net of tax by bringing their cars in here but they will not be able to benefit from the lower tax regime that exists in other countries. There is no suggestion, therefore, of tax harmonisation implicit in this regulation. It will probably make the tax regime here more transparent and it may have long-term implications in terms of the way the Government chooses to tax in that market, but that is not really a competition issue and I do not have any great competence to comment on it other than to say it probably will become more transparent.</p>
+          <p eId="para_75">On Deputy Ó Snodaigh's point about dealers and repairers, if someone wants to be an authorised repairer he or she can approach the manufacturer directly and offer repairs for, say, Volkswagen cars. He or she might approach many manufacturers and be authorised for, say, Volkswagen, Fiat, Ford and so on. The manufacturer must authorise people if they meet the qualitative criteria set out. In addition, they might have an arrangement with a dealer and that dealer would then send people to them. However, the customer can go to any authorised dealer knowing that it has identical access to spare parts and technical information from that manufacturer. If I am a repairer linked to the Volkswagen dealer on the North Circular Road, and Mr. Whitney is an independent dealer, there is no reason the consumer would get a different service from him than from me. In that sense the regulation will strengthen the independent sector.</p>
+          <p eId="para_76">There are many opportunities for people outside the authorised dealer and repairer system to exploit this opening up of the market because it removes a barrier to entry into the independent repair sector. There is no reason in principle sole traders could not seek to meet the qualitative standards that would provide that level of quality for the customer.</p>
+          <p eId="para_77">The quality issue is important because safety in cars is an important consideration and the manufacturer has an interest in ensuring that cars are safe on the road long after they have been sold because if all Ford cars start to crash, that will damage the sales of new Fords. They will want to make sure that their own cars are properly serviced and the regulation balances those interests fairly well.</p>
+          <p eId="para_78">The point raised about consumers travelling across Europe and the validity of the warranty is dealt with in a Commission document under question No. 34; we can get that document for the committee if members want it. The consumer should be able to take the vehicle to any authorised repairer within the supplier's network anywhere in the EU.</p>
+          <p eId="para_79">On the question about the protection of the consumer, on which Mr. Whitney will touch also, the Commission has been vigorous in enforcing the competition rules in this sector. It has collected €236 million in fines. In 1998, it fined Volkswagen €90 million for a breach in respect of refusing to supply cars in northern Italy. In 2000, Opel was fined €43 million and again in 2001, Volkswagen, having not learned the lesson the first time, got a €31 million fine, and in 2001 also, Daimler Chrysler was fined €72 million for limiting competition and price fixing. If we divide €236 million by the population of Ireland, on my reckoning the Commission collected fines of about €8 million in respect of Irish consumers. That is a welcome development and shows that the Commission is taking these issues seriously.</p>
+          <p eId="para_80">While Mr. Whitney is dealing with the question of to whom one should complain, I will check that I have not missed anything else on that.</p>
+        </speech>
+        <speech by="#" eId="spk_24">
+          <from>Mr. Whitney</from>
+          <p eId="para_81">There is a focus in the questions on uniformity, which is one of the major issues. The success of the regulation will be judged by the way the measures work to ensure uniformity and consistency.</p>
+          <p eId="para_82">Before I deal with those questions I want to address Senator Quinn's point on public and private enforcement. By private enforcement I mean an individual or a company taking a civil case in a private capacity seeking an injunction, a declaration or damages for a breach of competition law. Public enforcement is enforcement by the Competition Authority which can either involve civil proceedings in which it can seek an injunction or a declaration but not damages since it is not the aggrieved party, or it can take criminal prosecutions. That is the distinction being made and it is one that looms large in Regulation 17.</p>
+          <p eId="para_83">On the question of uniformity and others related to it, Senator Dardis asked to whom does one make the complaint and if there is a danger that it will fall between two stools, which he appeared to suggest might be the case. The complaint can be made either to the Competition Authority or to the EU Commission but the better move would be to make it to the Competition Authority.</p>
+          <p eId="para_84">One may be alleging a breach of EU law or of the Irish competition rules. The only essential difference under our law is that it is a breach of EU law if the matter being complained of affects trade between member states. If it only affects trade within this State, it is a breach of Irish law. The way we have defined our domestic competition rules is based closely on Articles 81 and 82. There is no difference in the substance of the law in that respect, in the procedure for enforcing the law or in the sanctions. One does not have to worry, therefore, whether it is a breach of EU or Irish law. If it is considered a breach of the substantive rules of competition as set out in Articles 81 and 82, and which are replicated in our domestic law, one complains to the Competition Authority. One is complaining about a breach of Irish law because to breach Articles 81 and 82 is a breach of Irish law. That is contained in the Competition Act and the authority can prosecute or take civil actions on that basis.</p>
+          <p eId="para_85">To take that example as to what would happen and how the network will operate, if the authority is satisfied, in the case of a complaint of a breach of Articles 81 or 82, it notifies the Commission that it has the complaint and it continues to investigate it. When it comes to the point where it seeks a decision to prosecute or to take a civil action, it notifies the Commission again of the action it proposes to take. It could be that similar issues have been raised in other member states. That could be the case in regard to the motor vehicle business in that there could be similar practices all over Europe. If the Commission considers that the same issue is being dealt with by another authority, or by a number of other authorities in other member states, and particularly if it considers that there is a possibility of diverging decisions, it will almost certainly initiate its own procedures in which case it would take over the case. The concept is that where the effects are only in one market or one member state, the national authority should deal with it, but if the effects are spread across a number of member states, the Commission will deal with those cases. That is the way the system is meant to operate. It is very much dependent on the exchange of information in order that the Commission can monitor the position. The Commission is responsible for seeing the proper and consistent application throughout the Community of competition law as set out in Articles 81 and 82.</p>
+          <p eId="para_86">With regard to the question of uniformity raised by the Chairman and in respect of how this is to be done, this is a major issue, but the necessary procedures are in place. The Commission will be aware of all complaints or breaches of Articles 81 and 82 being dealt with in all member states and it will be able to track progress of them. It will have specific information and a notice period before a decision is made. Where it considers there is a danger of inconsistency, it can intervene. When it does so, the member states will have no further function.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_25">
+          <from>Chairman</from>
+          <p eId="para_87">If after the three year period, I buy a car in, say, France and pay the tax due to the French Government and then import the car to Ireland, would the Government of the day be able to impose a further tax?</p>
+        </speech>
+        <speech by="#" eId="spk_26">
+          <from>Mr. Whitney</from>
+          <p eId="para_88">That is a taxation question I would not be qualified to answer.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_27">
+          <from>Chairman</from>
+          <p eId="para_89">In terms of competition, if I bought a car in Northern Ireland and paid the tax due there and brought the car across the Border, could I be subjected to a further tax, or would the reverse apply if I bought a car in the Republic and brought it into Northern Ireland?</p>
+        </speech>
+        <speech by="#" eId="spk_28">
+          <from>Mr. Whitney</from>
+          <p eId="para_90">I am unable to answer that question. My understanding is that taxation is a matter for member states. That is the position we support.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_29">
+          <from>Chairman</from>
+          <p eId="para_91">If I paid the tax in the member state, is that not a competition issue?</p>
+        </speech>
+        <speech by="#" eId="spk_30">
+          <from>Mr. Whitney</from>
+          <p eId="para_92">Dr. Fingleton might be in a better position to answer that.</p>
+        </speech>
+        <speech by="#" eId="spk_31">
+          <from>Dr. Fingleton</from>
+          <p eId="para_93">I do not know anything more about tax law. The way the Government got around this issue was by having a registration tax. One can get the tax back on a car if one buys it in Northern Ireland. I have not done this, but one can get tax back there. However, one must pay a registration tax to drive the car in Ireland. That was a neat stroke of finesse by presumably some clever officials and politicians who needed to preserve the tax base that the cars bring in and allow the free movement on which the Commission would insist. Whether the Commission continues in the long-term to be happy with that arrangement and whether there is pressure on it will ultimately be a question for people who deal with taxation matters. The implications for the Exchequer of removal of the registration tax would be pretty serious, if it were not replaced, for example by a usage tax. The block exemption regulation reforms in and of themselves will not do that and will not have that effect. That is probably as far as I can go other than speculating about the politics of such tax.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_32">
+          <from>Chairman</from>
+          <p eId="para_94">I apologise to Mr. Whitney, I interrupted his flow.</p>
+        </speech>
+        <speech by="#" eId="spk_33">
+          <from>Mr. Whitney</from>
+          <p eId="para_95">I have dealt with the points raised. A general point was made earlier about competition, whether it is working and about competition in prices. If there is sufficient competition, consumers will get what they want. They might want low prices or higher quality, but the purpose and objective is that they should get what they want.</p>
+        </speech>
+        <speech by="#" eId="spk_34">
+          <from>Dr. Fingleton</from>
+          <p eId="para_96">I will respond to some of the questions other than those related to motor vehicles, but in regard to motor vehicles, the location clause will last until 2005. However, all the other measures that enable consumers to shop across borders will commence next year. Therefore, the majority of the impact of this will start with effect from next year. The Society of the Irish Motor Industry had sought that the location clause be extended for a further two years. We listened to its arguments and thought that as it was a small part of the overall package affecting consumers and that it would give them the benefit of being able to reorganise their networks over a three year period it was not a major issue.</p>
+          <p eId="para_97">With regard to the Chairman's question on uniformity in regard to regulation 17, there is a great deal of existing co-operation among the member states' competition authorities on a horizontal basis. There are many competition issues that are not Europe-wide, for example, competition in the professions, in the airline market and merger notifications that may happen across national boundaries. In respect of all these issues we have started to examine joint work on them at a horizontal level under an organisation called the European Competition Authorities, of which I am pleased to say I was one of the founders two years ago. We have a working group on the competition issues in the aviation and airline industry, on which one of the members of the authority works.</p>
+          <p eId="para_98">With regard to Deputy Mulcahy's question on prices and problems generally in the economy, if I posed that question I might have included the fall in the competitiveness rankings as another macro-economic factor. The importance of regulation 17 can be put in context. It is about enforcement. Our enforcement regime has been strongly strengthened under the 2002 Act. We brought in about ten new people between April and July this year, two of them gardaí. We are currently making offers to approximately seven other case officers and they should be in place by next January. There has been almost a doubling of the staff of the authority between March this year and January of next year. I am not saying we will not want to go back to the Minister to seek more resources. My challenge is to integrate these people into the system, and to ensure that the authority brings cases to court next year based on those resources and to show that we can use them efficiently before I go looking for more. It would be incumbent on me to satisfy the Minister, and any Oireachtas committee that might ask me to do so, that we are using the resources we have been given quickly. There is a limit on how fast an organisation can grow. That is our big challenge, which is on the enforcement side.</p>
+          <p eId="para_99">More generally, regulation 17 has nothing to do with advocacy. Advocacy is what we refer to as the authority's role in encouraging Government regulatory bodies to champion competition and to change regulations in ways that reduce barriers to entry and enable entrants to come in. We have done that in a range of markets and will continue to do so. It is a long-term policy. In the long-term, policies that increase competition will contain inflation, make the economy more productive and drive competitiveness. I am happy with what we have been doing on that front in recent years. It is separate from the regulation 17 question.</p>
+          <p eId="para_100">Senator Quinn asked a question, to which Deputy Mulcahy had alluded, as to whether there were gaps in the new law. One point to which I allude, which is raised by the modernisation of regulation 17 - some people behind me may sigh because I raise this question all the time - is the question of civil sanctions. If we want to fine somebody for a breach of competition law in Ireland - this is a horizontal issue, it applies to all regulatory law - we must do so at the criminal standard of proof. In other words, the agency seeking to impose a fine must take a case or have the DPP take a case before a jury and prove beyond reasonable doubt that the law was broken. This is probably in order in respect of cartel cases where one must prove that people got together and fixed prices, but for most competition offences that are, what are called, rule of reason, such actions could be right in this market, but if they were done in another market where one was dominant they could be wrong. The standard of proof is unnecessarily high. A similar argument would apply, for example, in the area of telecoms regulation. My colleague, Isolde Goggin, is about to become Commissioner for Communications Regulation. She will deal with this problem in that sector. If someone wanted to fine a dominant firm in any of these sectors, for a breach of regulatory law, it is not possible unless there is a jury trial. This is a constitutional problem in Ireland.</p>
+          <p eId="para_101">In terms of the relationship in regard to regulation 17 reform, the Commission can impose fines at the civil standard of proof. A recent example in Ireland was the Irish Sugar case where it was fined €7 million for breaches of Community law. If after modernisation, the Irish authority were to take a case like the Irish Sugar case through the Irish courts, while the courts could find an abuse of dominance and order Irish Sugar not to do it again, no fine would be imposed. There is potentially, in any case, a problem with the level of sanctions which exist in this country concerning breaches of competition and regulatory law generally. It may apply outside of economic law. We may rely too much on the criminal system as a means of deterrents and extraction of damages as a result of public enforcement. In the competition area there is a general problem and Regulation 17 shows up a small aspect of it which might get worse.</p>
+          <p eId="para_102">This is something about which the authority is concerned. We had a round table meeting on the question in July, which the Minister for Justice, Equality and Law Reform chaired. A number of other Ministers and their representatives were invited, including the Attorney General. We will make some formal suggestions as to how this might be done on a horizontal basis. It is the only thing we would say about the law at the moment. If we had a magic wand it would be nice. I am sure that Members of these Houses will appreciate the difficulty when one runs up against constitutional problems and at the same time one wants to have an efficient public enforcement regime.</p>
+        </speech>
+        <speech by="#" eId="spk_35">
+          <from>Mr. Whitney</from>
+          <p eId="para_103">I did not advert to the question about outstanding issues. There are a number of outstanding issues and Dr. Fingleton has mentioned one of them. There are other issues about procedures - should we look at other procedures or perhaps simplify procedures in certain cases? We had a very lengthy consultation period during the preparation of the 2002 Act and a lot of these issues were debated. We decided not to proceed on some of them. As Dr. Fingleton was saying, the authority is settling with its new resources, both human and legislative. This has to be kept under review. In one sense we really have nothing like sufficient experience of the operation of a criminal system to say whether it will work or not. We really have to find that out and look at options on the basis of experience and if there are difficulties pursue those options. We need some experience of operating this legislation before we come to any further conclusions.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_36">
+          <from>Chairman</from>
+          <p eId="para_104">Mr. Whitney, on the last page of the briefing note that you sent us, under the heading of issues, you say that, in part, fears were also raised that the price of cars would go up as prices levelled out between countries with high and low pre-tax prices. You go on to say, however, that this is not necessarily the case and manufacturers cannot put up the price collectively because this would be illegal.</p>
+        </speech>
+        <speech by="#" eId="spk_37">
+          <from>Mr. Whitney</from>
+          <p eId="para_105">I think that is the authority.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_38">
+          <from>Chairman</from>
+          <p eId="para_106">Is it? It is not stamped. I was trying to figure out who actually said it. Was it the authority which said it? It does not say on the document. It also says that potential convergence should lead to prices below the current average prices across the EU. How confident are you of that? One other question, on the same page you refer to the Irish context and concerns that if UK buyers started to source a substantial volume of cars in Ireland, manufacturers could respond by simply cutting off supplies here in order to safeguard the much larger UK market. To safeguard against this you say that the new block exemption requires manufacturers to give written objective and transparent reasons for terminating a dealer's contract. Will that work? Is it sufficient, giving written objective and transparent reasons?</p>
+        </speech>
+        <speech by="#" eId="spk_39">
+          <from>Dr. Fingleton</from>
+          <p eId="para_107">Is this in the document that I sent in today? If you will bear with me for a moment I will try to get the document.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_40">
+          <from>Chairman</from>
+          <p eId="para_108">It does not say from whom the document came. I presume it is from the Competition Authority.</p>
+        </speech>
+        <speech by="#" eId="spk_41">
+          <from>Mr. Whitney</from>
+          <p eId="para_109">There was an earlier document sent in by the Department. Is that the earlier document? It probably is.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_42">
+          <from>Chairman</from>
+          <p eId="para_110">It is your document then, Mr Whitney.</p>
+        </speech>
+        <speech by="#" eId="spk_43">
+          <from>Mr. Whitney</from>
+          <p eId="para_111">Yes, one we submitted in ——</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_44">
+          <from>Chairman</from>
+          <p eId="para_112">I do not see your fingerprints on it. That probably means it is a Civil Service document.</p>
+        </speech>
+        <speech by="#" eId="spk_45">
+          <from>Mr. Whitney</from>
+          <p eId="para_113">It is true to say that this was an issue. The possible harmonisation of prices was a concern. At the end of the day one takes a draft regulation like this in its total effect. There is an issue as to whether it will have that effect or not because, even if there is a harmonisation of pre-tax prices, the other effect of the regulation should be to lower prices in the major markets so that one is harmonising to a lower figure. The reaction to that at the time was to seek a longer period for the implementation of the location clause, which is what could trigger the harmonisation, so as to provide an opportunity for the other more positive effects to kick in before the pressure would be created by the change in the location clause. This might result in harmonisation of prices.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_46">
+          <from>Chairman</from>
+          <p eId="para_114">Can we then look forward to cheaper cars down the road? Is that what the competition will actually introduce? Is that your best estimate, having assessed the situation?</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from>Mr. Whitney</from>
+          <p eId="para_115">That is the overall assessment. It is the intention and the expected overall effect of the provisions.</p>
+        </speech>
+        <speech by="#" eId="spk_48">
+          <from>Dr. Fingleton</from>
+          <p eId="para_116">If I may add to that, I think that where the net of tax price of a car is lower in Ireland than anywhere else, at the moment the benefits are not likely to be realised for Irish consumers, but for consumers in the other countries. The concern was that people from other countries would then be coming to Ireland for those cars. That would only be good for the Irish dealership industry because it will be processing more cars. It will be much more difficult for the manufacturers to stop supplying Irish dealers who sell on into Northern Ireland or France because the Commission has come down very heavily on that practice in the past. It has sent a very clear signal that it will stamp that out. That would give me some degree of confidence that there will be a tendency for prices to go where the lower price countries are.</p>
+          <p eId="para_117">When I first became aware of this reform, in July 2000, I attended an advisory committee in Brussels and the Commission's objections were based around the Internal Market. At that time if one looked at its objections and the prices had been raised to the level in the highest countries, all of the Commission's objections would have been met. That was not right because they were focused solely on the Internal Market. The Commission has re-focused around the competition issues in the market, not just the Internal Market issues. Sometimes there is a danger that the Commission will just say that once prices are the same everywhere that is good.</p>
+          <p eId="para_118">The other point I make is that if there were a change to the motor taxation or the registration regime in Ireland and suppose the Government decided to move from a tax on car ownership to a tax on usage via petrol or some other means, in that case there would be a concern that manufacturers might try to cash in by raising prices in Ireland. One of the benefits of the new regime is that it will be much more difficult for that to happen. If the Government altered the tax regime we could be more confident that it would not result in a major transfer to the manufacturers but rather would be retained by Irish consumers. That is obviously an important factor to be taken into consideration.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_49">
+          <from>Chairman</from>
+          <p eId="para_119">I am just about to trade in my car. I calculate that if I keep it for three years on Mr. Whitney's advice I might be able to get a cheaper car the next time.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_50">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_120">A ministerial one.</p>
+        </speech>
+        <speech by="#PatCarey" eId="spk_51">
+          <from>Deputy Carey</from>
+          <p eId="para_121">Insider information is not to be used.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_52">
+          <from>Chairman</from>
+          <p eId="para_122">Thank you for coming in. I hope that these new arrangements, the staff which you have, the new Regulation 17 and the decentralisation will all result in fairer and more transparent pricing. I found this a very useful exchange. We have a couple of other matters to deal with.</p>
+        </speech>
+        <speech by="#" eId="spk_53">
+          <from>Dr. Fingleton</from>
+          <p eId="para_123">I thank the committee. I understand that in future it will be the Committee on Enterprise and Small Business that is more likely to examine us. One of the areas in which European membership has really benefited Ireland is in the area of competition. It is a great pleasure for me to have addressed this committee and I wish it well with its future deliberations over the lifetime of the Dáil.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_54">
+          <from>Chairman</from>
+          <p eId="para_124">Thank you all very much. Item 3, correspondence, there is a letter from the European Court of Auditors regarding the 25th annual report of the 2001 budget. There are two large reports accompanying this letter which it was not possible to copy for members. It is proposed——</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_55">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_125">Note it.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_56">
+          <from>Chairman</from>
+          <p eId="para_126">I wonder should it be noted. I wonder should we ask a member of the Court of Auditors to pay a visit at some point so that we can discuss this.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_57">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_127">For it to be meaningful to us we would want to be in a position to quiz them and we have not had our specialised trip to Brussels yet.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_58">
+          <from>Chairman</from>
+          <p eId="para_128">Will I give you the reports to read?</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_59">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_129">It is a little bit down the line.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_60">
+          <from>Chairman</from>
+          <p eId="para_130">This report refers to 2001. Work has already begun on the 2002 report. We should write to the president of the European Court of Auditors and invite a member of it to come here to discuss the contents of the report. Is that agreed?</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_61">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_131">We would need a prior briefing. There is no point questioning an auditor on detail if we do not have the expertise.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_62">
+          <from>Chairman</from>
+          <p eId="para_132">I will try to ensure as much briefing as possible is provided. It would be worthwhile in terms of parliamentary accountability and discussions generally for us to make contact with the Union's institutions. This is an opportunity for us to talk about value for money and other such issues.</p>
+        </speech>
+        <speech by="#FergalQuinn" eId="spk_63">
+          <from>Senator Quinn</from>
+          <p eId="para_133">I got the documentation for today's meeting at 12.50 p.m. I do not have experience of being on this committee, but it seems impossible to query or investigate things if we have not had some opportunity to do the paperwork beforehand. Whether it is getting advice from someone else or doing paperwork, I query the wisdom of having a meeting and getting information only an hour beforehand.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_64">
+          <from>Chairman</from>
+          <p eId="para_134">I received the brief last night. The agreement was that we would try to get briefing material for members on the Monday beforehand. However, that has not happened. One of the problems is that some of the staff are working with the Joint Committee on Foreign Affairs and the British-Irish Interparliamentary Body. We should have the briefing material beforehand. When did we agree that it would be available? Was it the Monday beforehand?</p>
+        </speech>
+        <speech by="#" eId="spk_65">
+          <from>Clerk to the Committee</from>
+          <p eId="para_135">The Monday before the Thursday.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_66">
+          <from>Chairman</from>
+          <p eId="para_136">Some members only got their briefing material this morning.</p>
+        </speech>
+        <speech by="#" eId="spk_67">
+          <from>Clerk to the Committee</from>
+          <p eId="para_137">As soon as the briefing material becomes available for a joint committee meeting, it is circulated immediately bye-mail. As regards the sub-committee on scrutiny, we usually have everything ready on the Monday before the Thursday.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_68">
+          <from>Chairman</from>
+          <p eId="para_138">Did this briefing material go out on Monday by e-mail?</p>
+        </speech>
+        <speech by="#" eId="spk_69">
+          <from>Clerk to the Committee</from>
+          <p eId="para_139">This one did not. It did not come to us on Monday. The original briefing material for the block exemption was circulated about a month ago. That was recirculated again yesterday. The other one only came in to us late last night.</p>
+        </speech>
+        <speech by="#PatCarey" eId="spk_70">
+          <from>Deputy Carey</from>
+          <p eId="para_140">Even with the best will in the world, there is so much coming in on e-mail that one would need a full-time assistant to download it. I was not able to contribute to the debate today for another reason, but I concur with Senator Quinn. It is not much use to receive documentation only an hour before the meeting.</p>
+        </speech>
+        <speech by="#MarianHarkinIND" eId="spk_71">
+          <from>Deputy Harkin</from>
+          <p eId="para_141">E-mail is no good for those of us who do not have computers in Leinster House. This matter must be examined.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_72">
+          <from>Chairman</from>
+          <p eId="para_142">We will have to try to keep to the Monday briefing. If people are to come before the committee, they must give us their documentation so we can circulate it on the Monday. I got this material last night and I am trying to read a brief for tomorrow morning's meeting of the sub-committee on scrutiny. In addition, there are Dáil sittings and meetings of the forum of which I am a member. The difficulty is we do not have a full complement of staff and yet we are sharing staff. We should insist that briefing material for the committee is circulated on the Monday.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_73">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_143">The Chairman is right that this is a relevant issue to discuss. Would it be possible to invite an independent expert to come to us for an hour the week before we have a discussion with the auditor to give us a briefing on the EU budget and to explain where the money is spent, where it comes from and the problem areas? Such a pre-briefing would ensure that the meeting with the auditor is more relevant.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_74">
+          <from>Chairman</from>
+          <p eId="para_144">We will try to set that up. We need someone to make a note of that and to ensure it is put in the calendar of events. We will invite the European Court of Auditors to send someone to the committee, but in advance, we will need a briefing on the remit of the court. Is that agreed? Agreed.</p>
+          <p eId="para_145">As regards the report of the working group of COSAC, Deputy Mulcahy attended in my absence. Do you want to make a report on that, Deputy Mulcahy?</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_75">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_146">I have written a report which is included in the briefing material. I assume everyone has read it.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_76">
+          <from>Chairman</from>
+          <p eId="para_147">I do not think much can be added to the report as a great deal of the information is still under consideration.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_77">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_148">That is correct. There will be a further meeting on 12 December. I have attended two meetings so someone else from the committee will be required to attend on 12 December.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_78">
+          <from>Chairman</from>
+          <p eId="para_149">We will deal with that. The next meeting of the sub-committee on scrutiny will be at 9.30 a.m. on Thursday, 21 November. We still do not have Senators on that committee. We need two Senators to join that committee.</p>
+        </speech>
+        <speech by="#JohnDardis" eId="spk_79">
+          <from>Senator Dardis</from>
+          <p eId="para_150">I received notification.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_80">
+          <from>Chairman</from>
+          <p eId="para_151">All the members of the main committee get notification. However, only the members attend. The committee secretariat is trying to organise two Senators to join that sub-committee. We have not yet received any names.</p>
+        </speech>
+        <speech by="#JohnDardis" eId="spk_81">
+          <from>Senator Dardis</from>
+          <p eId="para_152">Is it the job of the Whips to supply the names?</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_82">
+          <from>Chairman</from>
+          <p eId="para_153">It is usually the job of the convenors to find two Senators.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_83">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_154">One from the Government side and one from the Opposition?</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_84">
+          <from>Chairman</from>
+          <p eId="para_155">Yes.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_85">
+          <from>Deputy Mulcahy</from>
+          <p eId="para_156">We will attend to that.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_86">
+          <from>Chairman</from>
+          <p eId="para_157">Perhaps you could communicate with the Clerk.</p>
+          <p eId="para_158">The next meeting will be on 29 November with the members attending the European convention. Members of the Government and the Oireachtas attend that. Deputy Carey is an alternate. The members include Deputies John Bruton and Gormley, Proinsias de Rossa and the Minister of State at the Department of Foreign Affairs, Deputy Roche. We have been asked to hold that meeting at 12 noon to facilitate the Minister of State, Deputy Roche. I hope that does not cause difficulties for Members' diaries.</p>
+        </speech>
+        <speech by="#MarianHarkinIND" eId="spk_87">
+          <from>Deputy Harkin</from>
+          <p eId="para_159">That is a Friday.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_88">
+          <from>Chairman</from>
+          <p eId="para_160">Yes. We cleared that with the committee because we were having difficulty tying up diaries. It is important we know what is happening at the convention.</p>
+        </speech>
+        <speech by="#MarianHarkinIND" eId="spk_89">
+          <from>Deputy Harkin</from>
+          <p eId="para_161">That will be difficult for Deputies from rural constituencies.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_90">
+          <from>Chairman</from>
+          <p eId="para_162">It will be extremely difficult, but we have had a hard job trying to tie up everyone's diaries.</p>
+        </speech>
+        <speech by="#PatCarey" eId="spk_91">
+          <from>Deputy Carey</from>
+          <p eId="para_163">There are a number of working parties and that is the only day of any week which is free.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_92">
+          <from>Chairman</from>
+          <p eId="para_164">We agreed at an earlier meeting to choose a Monday or Friday because members of the convention attend it during the week. That is one of the difficulties. I know it is difficult for members who are not from Dublin but, unfortunately, it is not possible to avoid it on this occasion.</p>
+        </speech>
+        <summary eId="sum_6">The Joint Committee adjourned at 3.30 p.m. until 12 noon on Friday, 29 November 2002.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

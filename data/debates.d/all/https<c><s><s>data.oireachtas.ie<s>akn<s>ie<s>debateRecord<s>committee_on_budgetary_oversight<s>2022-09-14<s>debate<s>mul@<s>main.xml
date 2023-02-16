@@ -1,0 +1,909 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/committee_on_budgetary_oversight/2022-09-14/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/committee_on_budgetary_oversight/2022-09-14/debate"/>
+          <FRBRdate date="2022-09-14" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/33/committee_on_budgetary_oversight"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/committee_on_budgetary_oversight/2022-09-14/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/committee_on_budgetary_oversight/2022-09-14/debate/mul@"/>
+          <FRBRdate date="2022-09-14" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/committee_on_budgetary_oversight/2022-09-14/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/committee_on_budgetary_oversight/2022-09-14/debate/mul@.akn"/>
+          <FRBRdate date="2022-09-17" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#debates">
+        <TLCPerson eId="BernardJDurkan" href="/ie/oireachtas/member/id/Bernard-Durkan.D.1981-06-30" showAs="Bernard Durkan"/>
+        <TLCPerson eId="GeraldNash" href="/ie/oireachtas/member/id/Gerald-Nash.D.2011-03-09" showAs="Gerald Nash"/>
+        <TLCPerson eId="JohnLahart" href="/ie/oireachtas/member/id/John-Lahart.D.2016-10-03" showAs="John Lahart"/>
+        <TLCPerson eId="KieranODonnell" href="/ie/oireachtas/member/id/Kieran-O'Donnell.D.2007-06-14" showAs="Kieran O'Donnell"/>
+        <TLCPerson eId="MaireadFarrell" href="/ie/oireachtas/member/id/Mairéad-Farrell.D.2020-02-08" showAs="Mairéad Farrell"/>
+        <TLCPerson eId="MichaelHealyRae" href="/ie/oireachtas/member/id/Michael-Healy-Rae.D.2011-03-09" showAs="Michael Healy-Rae"/>
+        <TLCPerson eId="MichaelMcGrath" href="/ie/oireachtas/member/id/Michael-McGrath.D.2007-06-14" showAs="Michael McGrath"/>
+        <TLCPerson eId="NeasaHourigan" href="/ie/oireachtas/member/id/Neasa-Hourigan.D.2020-02-08" showAs="Neasa Hourigan"/>
+        <TLCPerson eId="PaschalDonohoe" href="/ie/oireachtas/member/id/Paschal-Donohoe.S.2007-07-23" showAs="Paschal Donohoe"/>
+        <TLCPerson eId="PatriciaRyan" href="/ie/oireachtas/member/id/Patricia-Ryan.D.2020-02-08" showAs="Patricia Ryan"/>
+        <TLCPerson eId="PearseDoherty" href="/ie/oireachtas/member/id/Pearse-Doherty.S.2007-07-23" showAs="Pearse Doherty"/>
+        <TLCPerson eId="RichardBoydBarrett" href="/ie/oireachtas/member/id/Richard-Boyd-Barrett.D.2011-03-09" showAs="Richard Boyd Barrett"/>
+        <TLCPerson eId="SeanCanney" href="/ie/oireachtas/member/id/Seán-Canney.D.2016-10-03" showAs="Seán Canney"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole eId="Minister_for_Finance" href="/ie/oireachtas/role/minister/finance" showAs="Minister for Finance"/>
+        <TLCRole eId="Minister_for_Public_Expenditure_and_Reform" href="/ie/oireachtas/role/minister/public_expenditure__reform" showAs="Minister for Public Expenditure and Reform"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN COISTE UM FHORMHAOIRSIÚ BUISÉID</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Committee on Budgetary Oversight</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2022-09-14">Dé Céadaoin, 14 Meán Fómhair 2022</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2022-09-14">Wednesday, 14 September 2022</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Tháinig an Roghchoiste le chéile ag 05:30 p.m.</summary>
+        <summary class="Center" eId="sum_2">The Select Committee met at 05:30 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_3">Comhaltaí a bhí i láthair / Members present:</summary>
+          <table>
+            <tr>
+              <th>
+                <p eId="para_1">Teachtaí Dála / Deputies</p>
+              </th>
+              <th>
+                <p eId="para_2"/>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#RichardBoydBarrett">Richard Boyd Barrett</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#SeanCanney">Seán Canney</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#PearseDoherty">Pearse Doherty</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#BernardJDurkan">Bernard J. Durkan</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MaireadFarrell">Mairéad Farrell</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#MichaelHealyRae">Michael Healy-Rae</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#JohnLahart">John Lahart</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#AindriasMoynihan">Aindrias Moynihan</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#GeraldNash">Ged Nash</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#KieranODonnell">Kieran O'Donnell</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#PatriciaRyan">Patricia Ryan.</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#NeasaHourigan">Teachta / Deputy Neasa Hourigan sa Chathaoir / in the Chair.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Updated Economic and Fiscal Position in Advance of Budget 2023: Discussion (Resumed)<recordedTime time="2022-09-14T17:30:00+01:00"/></heading>
+        <speech by="#NeasaHourigan" eId="spk_1">
+          <from> Chairman<recordedTime time="2022-09-14T17:30:00+01:00"/></from>
+          <p eId="para_14">I welcome the Ministers for Finance and Public Expenditure and Reform and their officials to the meeting to discuss the updated economic and fiscal position in advance of budget 2023 and additional one-off measures for 2022.</p>
+          <p eId="para_15"> Before we begin, I wish to explain some limitations to parliamentary privilege and the practice of the House as regards references witnesses may make to other persons in their evidence. The evidence of witnesses who are physically present or who give evidence from within the parliamentary precincts is protected pursuant to both the Constitution and statute by absolute privilege. Witnesses are reminded of the long-standing parliamentary practice to the effect that they should not criticise or make charges against any person or entity by name or in such a way as to make him, her or it identifiable or otherwise engage in speech that might be regarded as damaging to the good name of the person or entity. Therefore, if their statements are potentially defamatory in relation to an identifiable person or entity, they will be directed to discontinue their remarks. </p>
+          <p eId="para_16"> Members are reminded of the long-standing parliamentary practice to the effect that they should not comment on, criticise or make charges against a person outside the Houses or an official, either by name or in such a way as to make him, her or it identifiable. I remind members of the constitutional requirement that members must be physically present within the confines of the place where Parliament has chosen to sit, namely, Leinster House, in order to participate in public meetings. I will not permit a member to participate where he or she is not adhering to this constitutional requirement. I invite the Ministers to make their opening statements.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" as="#Minister_for_Finance" eId="spk_2">
+          <from>Minister for Finance (Deputy Paschal Donohoe)<recordedTime time="2022-09-14T17:30:00+01:00"/></from>
+          <p eId="para_17">I thank the Chair and the members for the invitation to the Minister for Public Expenditure and Reform and myself to attend the committee today to make our presentations on the status of our budgetary work. I will begin by briefly outlining the economic and budgetary context for the budget. This is a challenging and deeply uncertain period for our economy. Over the past several years, we have found ourselves facing a series of shocks, including Brexit, a pandemic and the consequences of a war. The pandemic that dominated our lives for two years has receded, and I think it is important we do not lose sight of the fact that, even with the challenges we are facing, we have recovered with remarkable speed and strength. The strength of the recovery is driven by two factors: the resilience of the Irish people and the success of the budgetary and economic policy of the Government over the past two years. During the pandemic, the Government made available resources in the region of one fifth of national income to protect households, businesses and our health throughout the crisis. That was the appropriate response, and it laid the foundation for a robust and broad recovery.</p>
+          <p eId="para_18"> For a brief period at the start of this year, the prospects for the economy appeared to be bright. However, we are now confronting the consequences of the war on Ukraine. It has changed the economic situation and outlook, with this being most evident in the changes in energy and commodity pricing. The reduction in purchasing power that has taken place due to this change in pricing will dampen consumer spend over the coming quarters, with the risk of increased uncertainty and weaker external demand affecting investment decisions by employers. As a result, my Department is revising its projection for growth in our economy next year in the budget. We will make a downward revision, which I will confirm today fortnight. However, there are many positive signs in our economy. Due to the reasons I outlined, our jobs market has made a remarkable recovery over the past two years, with 2.5 million people in employment in the second quarter, the highest level on record, and an unemployment rate of 4.3% recorded in August. We are, therefore, facing into these challenges from a good starting point.</p>
+          <p eId="para_19"> However, it is also clear that the cost of living is the most immediate and urgent challenge facing our country, households and businesses. Of course, it is not the only issue that we will have to contend with. That is why the Minister for Public Expenditure and Reform and I have said that budget 2023 will focus on the cost of living, with further interventions aimed to help. However, I emphasise to the committee that in drafting this budget we do have a particular responsibility to strike a balance. We have to provide help to those who need it, but without making inflationary problems here at home even worse. As a Government, we have an important role to play in limiting the impact of the current price shock. We know that. However, as we have seen from many other countries, there are limits to what any one Government can do to address the effects of global pressures outside of our direct control. As we remember from the 1970s and other points, trying to respond back and overreacting to some of the challenges of inflation can result in far bigger and more structural problems in the longer term. </p>
+          <p eId="para_20"> I will now turn to the fiscal position, as it currently stands. At the end of last month, tax revenues stood at almost €50 billion, up by more than €10 billion on the same period last year. Income tax continues to perform well, and reflects the resilience of our labour market and the success of Government policy. The strong performance of VAT receipts confirms the rebound in consumer spending once public health restrictions were lifted. However, it should be noted that much of the surge in tax revenue that we have seen take place across the year is due to particular increases in corporate tax, which amounted to nearly €12 billion to end of August. My officials expect these receipts to top €20 billion this year. This is an enormous figure. To put it in context, a decade ago receipts from the corporate sector amounted to approximately €4 billion. These receipts are a reflection of our success, but, as the Government and the committee will recall, I have frequently warned that this is an extremely unreliable revenue stream that could be volatile in the future. The surge in corporate tax revenues is concentrated among a small handful of firms. To put it bluntly, the future growth of corporate tax receipts is not a one-way bet. Positive headline figures can, as a result, serve to obscure real challenges and vulnerabilities in our public finances in the medium term.</p>
+          <p eId="para_21">With this in mind, my Department last week published a range of corporate tax loss methodologies, and we will publish an alternative measure of the fiscal position that includes estimates of windfall corporation tax receipts.</p>
+          <p eId="para_22"> In the summer economic statement, the Government set out our parameters for the budgetary strategy for 2023. Our total budget package for next year stands at €6.7 billion. As the Minister, Deputy Michael McGrath, and I have confirmed, a set of one-off measures will be provided this year. One of my main objectives in this budget will be to do what I can to try to help workers so that they do not find themselves in a position where they pay more income tax solely because of wage changes. For future years, we will stay within the parameters of the medium-term budgetary strategy set out last year. However, the Government believes that the parameters outlined earlier this year are appropriate, given the significant change in pricing.</p>
+          <p eId="para_23"> This is a challenging time. We have once again found ourselves facing an unforeseen economic shock. We in government are very much aware that many are struggling to make ends meet as we approach a difficult winter. However, there are also reasons for hope. Employment is now at record levels and our public finances are back on the road to sustainability, giving us the ability in this budget to help on a significant scale with the cost of living challenge. We have shown time and again over the past two years that we will act when necessary to protect households and businesses to the extent that we believe is affordable and sustainable and does not create other risks in future. We will aim to continue with this approach in the forthcoming budget.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" as="#Minister_for_Public_Expenditure_and_Reform" eId="spk_3">
+          <from>Minister for Public Expenditure and Reform (Deputy Michael McGrath)<recordedTime time="2022-09-14T17:40:00+01:00"/></from>
+          <p eId="para_24">I thank the committee for affording the Minister, Deputy Donohoe, and me the opportunity to meet it as part of its pre-budget scrutiny process. Since we last appeared before the committee in July, there have been a number of developments that impact on our budgetary considerations.</p>
+          <p eId="para_25"> As inflation continues to rise in the short term, my Government colleagues and I are cognisant of the financial impact and strain that this places on people, businesses and wider society. Consequently, we have deployed a number of measures over the past year to reduce the inflationary burden on households. Budget 2022 set out a €1.2 billion package of expenditure measures across a range of sectors to assist with the cost of living pressures. These measures included increases in weekly social protection payments, the fuel allowance and the working family payment, social and affordable housing funding, health affordability measures, and enhanced student and childcare supports. Since December 2021, more than €500 million of additional expenditure measures have been put in place to support citizens facing increased costs. These included the electricity credit of €200 for all domestic account holders, a 20% average fare reduction for public transport services until the end of this year and additional fuel allowance payments, just to name a few examples.</p>
+          <p eId="para_26"> The Government is committed to continue doing its part to assist households and businesses in the face of a rising cost of living. This is the key objective framing budget discussions. The urgency of this task underpinned the Government's decision to bring forward budget day to 27 September. We will seek to ease the burden for lower and middle-income families in particular who are facing difficult choices. As ever, we will balance the need to provide supports while ensuring that we do not add to inflationary pressures. Discussions are now under way as part of the Estimates process to introduce targeted, impactful measures capable of timely implementation, including in quarter 4 of this year. A comprehensive package will be announced on 27 September.</p>
+          <p eId="para_27"> A vital piece of the jigsaw for budget 2023 is public sector pay, which accounts for one third of total current expenditure. I am pleased that proposals have now been agreed to extend the current public service pay agreement, Building Momentum, to the end of 2023. Of course, it is subject to ratification, which we do not take for granted. Subject to that approval, the proposals will see a 3% increase in pay for public sector workers backdated to 2 February 2022, a 2% increase from 1 March 2023 and a further 1.5%, or a minimum increase of €750, from 1 October 2023. This is in addition to the 1% increase provided on 1 February of this year and the further 1%, or €500, due on 1 October 2022 that were agreed under the original Building Momentum agreement. In total, the adjustments provided for in 2022 amount to 5% for the majority of public servants.</p>
+          <p eId="para_28"> I believe that the proposed pay increases strike the right balance between providing a deal that is fair to public servants in the midst of cost-of-living challenges and one that is sustainable and affordable for the taxpayer. It is important to invest in our public service workforce to attract and retain the staff we need to deliver quality front-line services for a growing population. If the proposed agreement is ratified, it will enable the Government to move quickly to alleviate some of the impact of inflation on our public service workers as well as secure industrial peace. Under the proposed agreement, the benefits for those on lower levels of pay will again be higher than the headline percentage increases.</p>
+          <p eId="para_29"> I will reiterate the Government’s budget 2023 strategy, as discussed at this committee in July. The budget will see an expenditure ceiling of €90.3 billion and core spending next year will reach €85.8 billion. This significant overall level of resources will enable continued investment in the quality of life in Ireland and support a strong, fair and equal society into the future. As set out in the summer economic statement, this will provide for an expenditure budgetary package of €5.7 billion over 2022 and 2023. This is an increase of €1.7 billion relative to what was originally provided for in the medium-term expenditure strategy. This temporary adjustment balances the need to protect core public services while ensuring that budgetary policy does not become part of the inflation problem. It is important to ensure that our approach is responsive to the challenging economic environment that many face but also fiscally sustainable.</p>
+          <p eId="para_30"> Approximately 3% of the core current expenditure base will be available to meet existing levels of service. This includes continued investment in the public sector workforce, as set out in existing Building Momentum pay deal, as the delivery mechanism for a wide range of critical services; funding for demographic developments, including supporting a growing population and the changing profile of our citizens; and the full-year impact of measures from budget 2022, which are being implemented on a phased basis.</p>
+          <p eId="para_31"> Capital expenditure will increase by a further €800 million next year. Overall core capital investment will reach some €11.7 billion in 2023, with an additional €200 million as part of the national recovery and resilience plan. This represents an increase of 7%, which in line with the National Development Plan 2021-2030. This funding will provide for vital investment across sectors such as health, education and transport while also delivering progress towards our ambitious climate goals. The remaining amount - some €2.7 billion - will be available for new current expenditure measures across 2022 and 2023. The recently proposed extension to the Building Momentum public sector pay deal will account for approximately €1.4 billion of this amount, comprising pay and associated pension costs.</p>
+          <p eId="para_32"> Other new measures, such as social protection supports and other Government commitments in respect of housing, education, health and so on, will be announced on budget day. As always, this will require appropriate prioritisation of the numerous demands across a range of sectors.</p>
+          <p eId="para_33"> The Government is providing €4.5 billion in non-core expenditure for temporary measures. This approach facilitates responsive fiscal policy, which can provide supports to key emerging issues while protecting day-to-day expenditure and investment. This expenditure will provide humanitarian supports for displaced persons arriving from Ukraine, more limited Covid-19 provision in respect of the continued response to the effects of the pandemic, and enable us to respond to Brexit.</p>
+          <p eId="para_34"> Each year on budget day, attention is primarily focused on new current expenditure measures and increases in funding that are necessary to maintain existing levels of service. While these changes in expenditure are important, the vast majority of public expenditure supports the provision of ongoing current expenditure and capital investment.</p>
+          <p eId="para_35">It is important to keep sight of the totality of public spending and ensure that the overall level of expenditure remains affordable over the longer term and delivers sustainable improvements in public services and infrastructure. The Mid-Year Expenditure Report 2022, published by my Department in July, provides further detail on the different processes for effective measurement of outcomes. These processes, including the well-being framework, green, equality and gender budgeting, and the spending review processes are examples of how we can improve the evidence base to support ongoing improvements in public services.</p>
+          <p eId="para_36"> In less than two weeks' time I will bring forward a spending package, and the Minister, Deputy Donohoe will bring forward a taxation package, that seek to address the inflationary challenges we are now facing while also providing for investment in our economy, our public services and our critical public infrastructure. The budget will balance the need to provide supports to the most vulnerable now with investing in the future of our economy and our society. While fiscal policy must be responsive, we must maintain a focus on long-term priorities, investing in quality of life in Ireland through our public services. </p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_4">
+          <from> Chairman<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_37">I thank the Minister, Deputy McGrath and the Minister, Deputy Donohoe for their opening statements. We will now open the floor to members' questions. I call on Deputy Doherty to begin the session.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_5">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_38">Go raibh maith agat, a Chathaoirligh, agus cuirim fáilte roimh na hAirí chuig an gcoiste. I will begin with the Minister, Deputy Donohoe. The Minister will be aware that the committee wrote to him on two occasions asking him to publish the White Paper on revenue and expenditure. It is usually published on the Friday before the budget. There is no legal impediment to publish it before that. Given that we will not have the September fiscal monitor given the date of the budget, and that the August fiscal monitor was available at the start of this month, why did the Minister refuse the request of the committee?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_6" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_39">I will be in a position to publish that next Friday.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_7">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_40">That is exactly the date the Minister always publishes, which is the midnight on the Friday before the budget. The committee said that we want the information beforehand. There is no legal impediment to this and all the information that goes into it is available to the Minister. The committee asked that the Minister would bring it forward.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_8" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_41">I will have, at that point, the latest macroeconomic data and the fiscal data. That will be incorporated and made available to the Oireachtas at the earliest possible opportunity. From working with my officials, I am assured that the earliest opportunity I can make that available is next Friday, which I will do.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_9">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_42">I do not accept that. I wish to ask the Minister, Deputy McGrath, about the contingency fund that was allocated in budget 2022, where €7.5 billion was allocated to non-core expenditure. The Irish Fiscal Advisory Council advises that some €2.5 billion of that is unallocated and that if decisions are not made in the budget, for example to do once-off spending between now and the end of the year, it would still remain. Is that the case?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_10" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_43">The position at present is that we have some €3.7 billion unallocated, but in a sense that is a technical term because as the year goes on and as we approach the end point of this year, we will be allocating much of that expenditure to different Votes across government that have been incurring expenditure. We are, of course, doing an assessment as to how much of that will be fully utilised. It will have to meet a wide range of needs, including Covid expenditure across the health service this year, Ukraine-related expenditure, which is growing all the time at a significant rate, and also the cost-of-living measures that we have brought forward as a Government that would not have been provided in the original budgetary framework in 2022.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_11">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_44">Of course, but in the absence of further cost-of-living measures to be announced in the budget, the Irish Fiscal Advisory Council has said that €2.5 billion is likely to remain unallocated because they recognise that of the €3.7 billion more will be spent on Covid and there will be a bit more spent on the Ukrainian-related crisis. Is that the ballpark we are in at this point in time?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_12" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_45">We are continuing to work through that. Consider the end of August expenditure returns; we are about €1 billion over profile on the current side alone. This is because we have not allocated against the different Votes' funding from that particular contingency provision. If one adds to that additional expenditure that will occur from 1 September to the end of this year in respect of Ukraine, we are facing into the autumn and winter period in health where there will be a need for additional Covid-related expenditure. There will be a very significant drawdown of that funding. I do not believe that the amount of unallocated resources from that contingency will be as high as the Deputy is suggesting or attributing to the Irish Fiscal Advisory Council. We are continuing to work through that. I cannot give a final figure at this point. We still have a number of months to go in the year but we are assessing it.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_13">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_46">With regard to the Ukrainian crisis and our response to it, am I correct to say that the amount of non-core expenditure allocated to that is €3 billion for 2023?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_14" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_47">Going back to the summer economic statement, on the non-core side there is an overall amount of €4.5 billion. For the purposes of the summer economic statement we put a figure of €3 billion next to that. We are now assessing the allocation of that €4.5 billion across the different elements. It is likely that there will be some change but still within the overall €4.5 billion. It could well be the case, for example, that the provision for Ukraine-related expenditure might be less than €3 billion. I would expect that the provision for Covid-related expenditure would possibly need to be higher than the amount provided for in the summer economic statement. It will all be within the overall non-core provision of €4.5 billion. It is still consistent with the overall framework.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_15">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_48">Does the Minister still believe that it will be €4.5 billion for those three areas that are identified, which are Covid, Brexit and the Ukrainian crisis? The expenditure on the Ukrainian crisis seems to be significantly inflated. The €3 billion figure is more likely to be a €2 billion figure.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_16" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_49">We are sticking to the overall non-core provision of €4.5 billion. We will consider what is the appropriate allocation within those different areas under non-core. There is a lag in respect of incurring some of the Ukraine-related costs. It is increasing significantly. The Deputy is aware of the pressures the system is under with regard to accommodation. New commitments have been entered into-----</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_17">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_50">But it was based on 100,000 people. The 100,000 people are not here and they are unlikely to come unless there is a huge wave. It was a big estimation. We never knew at the start but it seems that as time goes on it needs to be revised downward.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_18" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_51">It is correct to say that it is a high-level estimate. We are approaching 50,000 people and we are only at the midpoint of September. It is difficult to know what direction the war will take and what impact that will have on international migration from Ukraine. It is prudent to have a good provision there. I am signalling that it is likely we will be in a position to reallocate, probably more to Covid-related expenditure with some reduction in the Ukraine-related expenditure. We are doing an ongoing assessment of that, in particular with the Department of Children, Equality, Disability, Integration and Youth, which is doing a lot of the heavy lifting in relation to accommodation.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_19">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_52">I looked at the discretionary fund for this year and cost-of-living payments and measures have come out of that discretionary fund. Does the Minister expect that out of the €4.5 billion some cost-of-living measures could come out of that for the start of next year?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_20" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_53">No.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_21">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_54">No. The Minister is not touching it.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_22" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_55">It is only related to non-core measures.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_23">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_56">With regard to the parameters the Minister has set out and the €3.7 billion package, the €1.05 billion in tax and the €2.65 billion, the Minister is still sticking to those as core expenditure. Does the Minister expect non-core expenditure on top of that as a cost-of-living package? Do we expect to see something to the side of that, which would be once-off measures?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_24" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_57">The Government, the Minister, Deputy McGrath, and I are very committed to delivering inside the parameters we have outlined in the summer economic statement. Both of us have said there will be once-off measures happening in 2022 that will be paid for within this year and will be separate to the provisioning that we make for next year.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_25">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_58">Hypothetically, if there is the one announced in the budget - and I am aware the Minister is not going to do it - but if it was extended, for example like the excise duty reduction, for a period in 2023 are we likely to see a package on core expenditure remaining within the parameters the Minister has announced, with non-core expenditure outside of the three areas the Minister, Deputy McGrath, has discussed, and dealing with the cost of living as a side package?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_26" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_59">I believe that it is fair to say the Government has not made a decision on that yet. We have been very clear there would be packages and measures within 2022. What would happen then to fit the scenario described by Deputy Doherty if some of those measures were to extend into 2023 is they would then be on top of the summer economic statement parameters. We have not made the decision but-----</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_27">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_60">But that is-----</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_28" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_61">Just let me finish. We are currently evaluating what would be the right kind of intervention and what would give the most help to households and businesses. The Minister, Deputy McGrath, and I are working on what the duration of that support would be. If it was to go into 2023 then it would be in addition to the summer economic statement parameters.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_29">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T17:50:00+01:00"/></from>
+          <p eId="para_62">So, it would be beyond the parameters. Okay. Hypothetically, if a credit was to be paid out in 2023, which the Government is talking about or is being floated, it would be outside the parameters of the summer economic statement because it would be deemed a once-off. That is my understanding of what the Minister is saying, which makes logical sense. Is my understanding of that correct?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_30" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_63">If there was to be something in 2023 that was to extend to deal with one-off measures, given that the parameters we brought forward do not include provision for one-off measures, it would be in addition to it.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_31">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_64">Okay. On the windfall tax measures being discussed and to be agreed at European level after the budget, have calculations been done on the impact they would have, particularly the cap on non-gas production of energy which would take in wind farms and so on? Are we looking at millions or hundreds of millions euro? Has there been any discussion or any work in the Department? Maybe the chief economist can give us some back of the envelope figures to help steer us. Given that we are the Committee on Budgetary Oversight and the budget is in a couple of weeks, we need to have a sense of what is likely to come down the road with this package. Does it amount to hundreds of millions or a billion? What is the range being looked at?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_32" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_65">The work is under way. The meeting of energy ministers at which the broad principles of that approach were agreed concluded on Friday. The President of the European Commission made a statement today in which she committed to it. We do not produce back of a cigarette pack numbers. That is not the way we can do a budget and it is certainly not something I would share with this committee. We do not have the detail yet on how this intervention would work to be able to offer a revenue figure to the Government or-----</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_33">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_66">The Minister's colleague, the Minister, Deputy Eamon Ryan-----</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_34" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_67">-----a revenue forecast to this committee that we would feel confident we can use in our budgetary arithmetic.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_35">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_68">I did not ask for a forecast. I asked for a range.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_36">
+          <from> Chairman<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_69">I ask the Deputy to make a final comment.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_37">
+          <from>Deputy Pearse Doherty<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_70">The Minister, Deputy Ryan, said it would be in the range of billions. Is it in the range he indicated?</p>
+          <p eId="para_71"> I will make a final point to the Minister for Public Expenditure and Reform. It is important that he outline what his understanding is. Does he expect to be Minister for Finance before the end of the year? If so, is he looking to put his name forward for the Eurogroup chair as well?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_38" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_72">On what might emerge from the European Union proposals, we do not have all the details yet. When they are published they will be assessed. There is work ongoing across all the main Departments to try to determine what Ireland will ultimately receive in respect of those measures. However, we do not have sufficient detail at this point. It will be the end of September before the energy ministers meet again to conclude and sign off on that. That will be after the budget. In bringing forward the budget we are not relying on any particular sum of money that we expect to receive. We are saying that any additional revenues received by Ireland will be used to help people, households and businesses. It would not be fair of us to give an estimate that we cannot stand over at this point. That is a straight answer to that question.</p>
+          <p eId="para_73"> On the second question, the Deputy knows the answer. It is a matter for the party leaders. There will be plenty of time after the budget for them to discuss all these issues and come to final decisions.</p>
+        </speech>
+        <speech by="#JohnLahart" eId="spk_39">
+          <from>Deputy John Lahart<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_74">I thank the Minister for Finance and the incoming Minister for Finance. They always make themselves open and available to the Committee on Budgetary Oversight, for which we are very grateful. I know it is an obligation but it is always good to see them here.</p>
+          <p eId="para_75"> Returning to what Deputy Doherty said, his notion that we may have under-budgeted for the Ukrainian situation is like suggesting that Covid is out of the way. We need to be very prudent and cautious on that. Last week, when the Irish Fiscal Advisory Council, IFAC, the Nevin Economic Research Institute, IBEC and the ESRI were before the committee, I made the point that none of them, in giving a background or context to the budgetary preparations, mentioned the weaponising of energy by Russia as a result of the invasion of Ukraine. It is important to note that this provides the bulk of the context of the energy price increases and cost-of-living challenges that we face. We need to keep making that connection for the public. Once that connection is lost, so too will be the solidarity built up around welcoming refugees and accommodating, schooling and employing them. There are up to 50,000 Ukrainian refugees and reflecting the very generous response by Irish people and the solidarity they have shown is very important. The weaponising of energy by Russia is central to everything we are discussing today.</p>
+          <p eId="para_76"> I congratulate both Ministers on the employment figures. The recovery of the economy and the manner in which the Government dealt with Covid can be understated and forgotten about because there is such a tumult and a complexity of issues facing the world. They should not be forgotten. I came from a Webnet event for women held in Tallaght today. Of 180 participants, 104 are now self-employed having started up businesses. The initiative is supported by the Government and the EU. This is just a snapshot of some of the incredible things that are taking place. Unemployment has been eliminated and is at its lowest level ever.</p>
+          <p eId="para_77"> This leads me to a point I want to make to the Minister for Finance. Some businesses are doing exceptionally well. There is a facility for gift tax. There is an opportunity in the budget, which I mentioned to my colleague, the Minister for Public Expenditure and Reform. Businesses have contacted me and some of them can afford to assist employees through the cost-of-living crisis. The tax-free limit on gifts is €500. If businesses want to make a once-off gift to their staff at Christmas or in the run-up to it, we should encourage that where possible. These are not cash gifts and they would have to be spent in particular areas. I ask the Minister for Finance to look favourably on this proposal as it would allow successful companies, which do not need to be large, to show largesse to their employees.</p>
+          <p eId="para_78"> On fuel prices, petrol has come down from a height of €2.18 to €1.83 per litre, which is the price I saw on my way to Mullingar recently. The Government is committed to the supports that were implemented on petrol and diesel until the end of October. What is the Minister's thinking on that now? </p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_40" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_79">I will give consideration to the point the Deputy raised. I know it is a matter in which he is interested. It is the case that some parts of the economy and some firms are doing well and are in a position to support their employees. We will give consideration to the Deputy's point.</p>
+          <p eId="para_80"> There has been a moderation of our worst fears about diesel and petrol prices but even in the €1.80 to €1.90 bracket, they are still higher than they were before the economic effects of the war began to be felt at the pump. I have not made a decision with the Government on the extension of those particular measures. The Minister for Public Expenditure and Reform and I are discussing these matters with our party leaders and we will draw that discussion to a close in a couple of weeks. However, I make the point that even though fuel prices are lower than what we feared would be the peak, they are still significantly higher than the more normal price people were used to paying at the pump in the early part of this year.</p>
+        </speech>
+        <speech by="#JohnLahart" eId="spk_41">
+          <from>Deputy John Lahart<recordedTime time="2022-09-14T18:00:00+01:00"/></from>
+          <p eId="para_81">That was my point and I thank the Minister for responding to it. I will throw out a couple of examples and then move to the Minister for Public Expenditure and Reform. I do not have many examples of these in my constituency but there is one complex run on a district heating basis. The fuel provider is purchasing the energy. The electricity bill for December 2020 and January 2021 was €350. A letter has been written indicating that the energy bill for December 2022 and January 2023, based on the cost of purchasing the energy from the fuel provider, could be up to €1,400. I am not an advocate for the hotels industry but I will give an example.</p>
+          <p eId="para_82">I have seen the invoices for these hotels. A large hotel in the country faces an increase in its energy bill up to €809,000 over a ten month period, which is simply unsustainable. We all have examples of that. If something is completely unsustainable, how far is the Government prepared to go to assist? Back in 1992, when we faced devaluation but had not devalued, the Government led by Albert Reynolds stepped in with significant grants to industry, particularly exporters, which were facing issues. Has the Government plans in that field?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_42" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:10:00+01:00"/></from>
+          <p eId="para_83">Over the last couple of days, in Mullingar, many of our colleagues raised examples. I know the same is true of the Minister, Deputy Donohoe's party colleagues. They raised many examples across the country of three-fold, four-fold and even five-fold increases in energy costs for businesses, which are out of line with even the steep increases that households have had to endure. I think that is partly due to the nature of the contracts and the arrangements that they have in place with their providers. Once they come out of contract, they are faced with a hefty increase in the per unit charge. All I can say at this remove is that we are deeply conscious of the impact of that extraordinary energy inflation on businesses. They are also facing rising costs across a number of other areas. The most severe and impactful increase is undoubtedly in relation to energy prices.</p>
+          <p eId="para_84"> The Minister, Deputy Donohoe, outlined the progress that we have made on jobs, which the Deputy has acknowledged. Having seen such a recovery in the economy and having seen the number of people at work reach a record high watermark in Ireland's history, we are determined to do all that we can to help viable businesses to survive. Of course there is a limit to what we can do. We cannot fully offset all of the increases for businesses in the same way that we cannot for many households. We have to be honest with people and acknowledge that. I can say that work is actively ongoing across all of the main Departments that the Deputy would expect to be involved, to assess the best and most effective way to support the businesses that are in most need. We will bring forward that response on budget day. The Minister, Deputy Donohoe, and I, the Tánaiste and others are directly engaging on specific issues. We expect to come to final decisions in the next ten to 12 days.</p>
+        </speech>
+        <speech by="#JohnLahart" eId="spk_43">
+          <from>Deputy John Lahart<recordedTime time="2022-09-14T18:10:00+01:00"/></from>
+          <p eId="para_85">I have two final questions for both Ministers. One is for the Minister for Public Expenditure and Reform. There are some groups which are more vulnerable than others. I am thinking of community groups and schemes, where the grants and subventions that they get from Government are being eaten up. I am thinking of block grants. The Taoiseach mentioned heating bills for schools, so the Minister will be aware of that. I know where the Minister's heart is. I am advocating for them, so that notice and attention is given to the fact that they may have received a certain amount which would have covered the cost in a normal year, but the increase in energy costs is eating into their daily running costs, and I ask the Minister to take account of that. This Government has been exceptional in its sports capital investment and I am thinking of such projects. Many clubs around the country are finding that construction costs have increased so much that the sports capital grant they received is, in one case, barely covering the VAT of the original cost. Is that feeding into the Minister's thinking?</p>
+          <p eId="para_86"> I have a question for the Minister for Finance. We have done much work and received a lot of information from witnesses about the index-linking of social protection payments and measures. What is the Minister's view on that and how is that informing him in the run-up to budget day?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_44" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:10:00+01:00"/></from>
+          <p eId="para_87">I would be the first to acknowledge that the impact of inflation is across the board. Public services that I would be seeking to agree a budget for in the next couple of weeks include the cost of running our schools, which the Deputy touched on, hospitals, public transport systems and food, which is so important in different parts of our public service. All of these costs have increased. It puts pressure on what we call ELS, or protecting existing levels of service. We have made provision for 3%. Line Departments are now presenting their estimates of what actual costs will be next year based on the level of inflation. We have to work through all of that in the best way that we possibly can. I am conscious that there is an impact on sports clubs and community groups. We will consider that issue and take it into account over the next couple of weeks.</p>
+          <p eId="para_88"> The Deputy has acknowledged the record allocation for sports funding. It is the largest ever, at €150 million. I will engage with the Minister of State, Deputy Chambers, to ensure there is a funding stream in future and a new round of sports funding can be opened up. We get great value for money from the scheme, notwithstanding the construction inflation. I believe that investing in sport is the best place to spend money, especially in grassroots sport. We will work in a positive way with the Minister of State, Deputy Chambers, and the Minister, Deputy Catherine Martin, on that.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_45" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:10:00+01:00"/></from>
+          <p eId="para_89">Indexation of social welfare payments is a decision for the Minister for Public Expenditure and Reform. He will work with the Minister, Deputy Humphreys, on it. We are both aware of the value of indexation, whether for taxation or social welfare payments for those who need and deserve additional help. We are also looking to see how or if we can deliver that inside the constraints of the competing demands that we have at the moment. It will be the subject of much work for both of us in the next two weeks.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_46">
+          <from> Chairman<recordedTime time="2022-09-14T18:10:00+01:00"/></from>
+          <p eId="para_90">Deputy O'Donnell is next.</p>
+        </speech>
+        <speech by="#BernardJDurkan" eId="spk_47">
+          <from>Deputy Bernard J. Durkan<recordedTime time="2022-09-14T18:10:00+01:00"/></from>
+          <p eId="para_91">I have to leave soon to chair another meeting. I would be grateful if my colleague might defer, especially since he went ahead of me at the last meeting on the basis that he had to go home early. I found him outside on the telephone an hour and a half later.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_48">
+          <from> Chairman<recordedTime time="2022-09-14T18:10:00+01:00"/></from>
+          <p eId="para_92">I do not want to bang my gavel now. I will let Deputy Durkan go ahead, but it is first come, first served, and in fairness to Deputy O'Donnell, he was here first. I will let Deputy Durkan go ahead.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_49">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:10:00+01:00"/></from>
+          <p eId="para_93">Deputy Durkan is some ticket.</p>
+        </speech>
+        <speech by="#BernardJDurkan" eId="spk_50">
+          <from>Deputy Bernard J. Durkan<recordedTime time="2022-09-14T18:10:00+01:00"/></from>
+          <p eId="para_94">I have made it my business to attend every meeting that I could of this committee when many other people were absent.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_51">
+          <from> Chairman<recordedTime time="2022-09-14T18:10:00+01:00"/></from>
+          <p eId="para_95">That is true.</p>
+        </speech>
+        <speech by="#BernardJDurkan" eId="spk_52">
+          <from>Deputy Bernard J. Durkan<recordedTime time="2022-09-14T18:10:00+01:00"/></from>
+          <p eId="para_96">I firstly compliment the two Ministers on their handling of the economy in challenging times, that will remain challenging for some considerable time. We all wish them well in their endeavours over the next couple of weeks. I have a couple of pieces of advice from somebody who was around. I was not a Member of this House in the 1970s. A strange thing that happened with energy in the 1970s was that the supply slowed to nothing. There were queues at garages all over the country. People borrowed cans to collect fuel and so on. It was totally unsatisfactory. The point I am making is that the situation needs to be monitored carefully to ensure that we do not find ourselves back in that situation.</p>
+          <p eId="para_97"> Another matter requires constant attention. In an inflationary situation, I accept that it is necessary to support the economy, but paying the household bills cannot go on forever. It will not work and has never worked before. I will debate that subject with anybody. I am not suggesting that it is the intention, but I am saying that care needs to be taken. It is like a merry-go-round. Once one gets on that merry-go-round, one cannot get off except under special circumstances.</p>
+          <p eId="para_98"> The last point I want to make is that the Ministers will get advice from every quarter, including from all around the table here. We will advise the Ministers about how they should proceed. I have heard some advice from the Commission on Taxation and Welfare in the last couple of weeks. If the Ministers want to make themselves really unpopular, follow that lead. People in the 1970s, 1980s and 1990s paid interest rates of 17% or 18% on their mortgages, tried to educate their kids at the same time, paid tax at the high rates, and bailed out their kids when they did not have a deposit for a house in the 1990s, then found themselves under threat of eviction after all that.</p>
+          <p eId="para_99">My advice, for what it is worth, is that if the Ministers want to become unpopular with people in that age group and their sons and daughters, by all means they should penalise them for doing what they did when they did - for providing themselves with homes they hope to hand over to their kids. For the State to intervene and grab what it can, even though taxation was paid on all those salaries and borrowings, is not advisable. I thank the Chairperson for letting me in and my learned colleague can and no doubt will take over where I left off.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_53">
+          <from> Chairman<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_100">Would the Ministers like to respond to any of that of are they happy for me to move back to Deputy O'Donnell?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_54" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_101">I will make a brief response to the points aimed at me. I confirmed earlier today at a public event where I launched the report of the Commission on Taxation and Welfare that I will not be bringing to the Government proposals in relation to inheritance. I have made that clear. I respect and recognise the work that the commission has done. It is a 500-page report containing over 100 recommendations and plenty of things with which I am confident Deputy Durkan would agree, but it needs proper time to evaluate and discuss it. I am well aware of the equity issues and the matters the Deputy referred to. I want to give him a clear indication in relation to that.</p>
+          <p eId="para_102"> The Minister, Deputy Michael McGrath, and I are keenly aware of the need to be able to fund what we are doing beyond a month or two and into the years to come. That is a big factor in our thinking regarding what we do in the time ahead, while also recognising there are many people who need help at the moment. The note of optimism I would strike concerns where we were during Covid and the range and breadth of the support programmes we had in place. So many times it looked unlikely that we would ever not have an EWSS, PUP or Covid restrictions support scheme. They are all gone now because we were able to make the right decision on the size of the programmes when they were needed and then get out of them at the right time, which we could stand over. I believe we will get to the same point with our measures but it is a difficult journey for people, given how hard it is at the moment. That is why we want to help. </p>
+          <p eId="para_103"> The Government is very aware of the question of supply. In the coming days, the Government statement on energy security will be published for public consultation and feedback. We are taking steps in the interim to fortify ourselves against the challenges. That is why it is excellent news that the European Commission has confirmed that gas storage facilities for the EU as a whole are above 80%, where they would be normally. That is an exceptional achievement by the European Union and its member states in the context of the threat made against us earlier in the year.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_55">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_104">The Irish Fiscal Advisory Council, IFAC, was before us last week. I am stealing the same question I asked then. IFAC estimated that the Government's revenue for 2022 will be €3.5 billion higher than forecast in the July summer economic statement. It stated that a surplus of €4.5 billion for 2022 is achievable, whereas the summer economic statement projected a surplus of €1.2 billion. That is a differential of €3.3 billion. The Minister for Finance referred to parameters under the summer economic statement. What latitude does that €3.3 billion differential provide to the Ministers, in framing the budget, for once-off measures in 2022? The Minister for Finance said there is €3.7 billion unallocated from the continuity fund this year. Some of that will go towards overspend in various Departments. There is €3.3 billion, effectively of corporation tax receipts, which are questionable in terms of their certainty into the future.</p>
+          <p eId="para_105"> I am talking about targeting for energy costs. We have businesses, such as supermarkets and hotels, across the range getting excessive bills. They are up three and four times. Households are having the same issue. What level of the €3.7 million that is currently unspent do the Ministers see being available to them, on top of the €3.3. billion in unexpected corporation tax, to provide once-off measures? It is about framing a budget. The €3.3 billion on top of the €6.7 billion announced to date in the summer economic statement comes to around €10 billion. We are in a wartime situation with energy costs. What scope does that €3.3 billion provide the Ministers for once-off measures in 2022? What will be the total once-off measures in 2022? I am not embedding it in core spending; quite the reverse. We are in a wartime situation regarding energy costs and must bring business through, as we did during Covid. I asked this specific question of IFAC and ask it of both Ministers.</p>
+          <p eId="para_106"> Then I have a follow-up question for the Minister for Finance on €1.05 billion in taxation provided for in the summer economic statement.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_56" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_107">The question the Deputy put to me in many ways sums up the challenge we have. Out of the additional surplus we have delivered this year, the Minister for Public Expenditure and Reform and I will make a decision and recommend to the Government how much of that should be used. We have not made that decision yet.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_57">
+          <from>Senator Kieran O'Donnell<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_108">Does the Minister accept the figures IFAC put forward regarding an enhanced surplus from €1.2 billion to €4.5 billion, which is €3.3 billion? Is it within that range?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_58" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_109">We are working on our final surplus estimate for the year but it will be higher than we indicated in the summer economic statement. How much higher it will be I am not in a position to confirm now because that work is under way. As the Deputy acknowledged in his question, the challenge is that much of that additional surplus is delivered by corporate tax.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_59">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_110">Correct.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_60" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_111">The scenario we have to grapple with concerns what would happen if we were funding one-offs out of corporate tax revenue and had to repeat one-offs at another point when the corporate tax revenue was gone.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_61">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_112">That is where the rainy day-----</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_62" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_113">This is the challenge we have.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_63">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_114">That is my question. What level does the Minister anticipate putting into the rainy day fund?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_64" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_115">We are nowhere near making a decision as to the principle of doing it, let alone the figure. The approach both of us are using is to try to see what are the right measures and what will help. Once we are clear on the right measures, and both of us are keenly aware of the business issue the Deputy raises, then the cost follows from those measures.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_65">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_116">Are the Ministers still sticking to the underlying parameters set down in the summer economic statement, which are based on a €1.2 billion surplus? If there are unexpected windfall tax gains and the floor level is the summer economic statement, does it provide the latitude to deal with these extraordinary times of energy costs going to such a level that businesses and households will find it difficult to come through?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_66" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_117">The surplus is higher than in the summer economic statement. Given that higher figure, the Minister, Deputy Michael McGrath, and I are trying to work to identify the measures.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_67">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_118">Will they be once-off measures?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_68" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:20:00+01:00"/></from>
+          <p eId="para_119">They will be once-off measures. IFAC also warned us about the need to get the balance right between them being affordable beyond 2022 and not adding to inflation. We are keenly aware - and the Deputy has acknowledged this in his question - of the possibility of finding ourselves in a world undergoing a further and prolonged energy shock. That affects the profitability of very large companies, which in turn affects the corporate tax they pay. We do not want to be in a situation where we get a double hit, one where we see corporate tax revenue begin to go down while at the same time we need to fund important measures.</p>
+          <p eId="para_120">If I could tell the Deputy this evening what the figures are with regard to the scale of interventions for this year, or any of the decisions the Government will make, the budget would be announced this evening. We are a fair bit away from that at the moment.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_69" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_121">I will amplify one point the Minister for Finance made, which is that our approach is not to pick a figure and then backfit a package to that.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_70">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_122">That was not the question.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_71" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_123">We are working on the basis of putting together and formulating what we think is an appropriate package. Of course, that has to fit within-----</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_72">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_124">I accept the point of principle. However, we have had an unusual event where we have this surplus unexplained corporation tax. The question is about what use we put it to. In the environment we are in now, businesses are under such incredible pressure. The question for me is whether we get better value in the overall economy by ensuring they can come through by way of once-off measures rather than, we will say, using that money instead to repay the national debt. That is the question I am posing.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_73" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_125">That is a policy decision we must make and finalise in the next couple of weeks. It is a fundamental one but we also have to be conscious that this period of very high levels of energy costs may not be very shortlived. That is a reality the Government must also take into account. However, it is a good thing that we are in a situation where the actual outturn for the year, the surplus, will be better than we predicted back in July in the summer economic statement. Exactly where it will land remains to be seen but it is a better position to be able to use at least some of that than to have to borrow for a package of one-off measures and add to the national debt. We need to be careful overall, however.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_74">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_126">I have two very minor points. The Minister for Public Expenditure and Reform made a reference that Europe will not have the decision made on the detail of decoupling in terms of energy costs and the level of funds will come back to Ireland. The Minister is giving a commitment, really, that this decision will be post budget, and that we may have a situation where further measures may be announced on energy post budget that are directly related to the share-out of windfall taxes in Europe. I am assuming that is a commitment.</p>
+          <p eId="para_127"> My second point is for the Minister for Finance. A figure of €1.05 billion is being put aside for taxation measures. Does the Minister anticipate that changing in the budget? Will that be the level to which they will come? Has the Minister an idea of the general parameters around how he will frame that?</p>
+          <p eId="para_128"> The Minister, Deputy Michael McGrath, dealt with the energy costs earlier. Am I correct that there could be, dare I say it, a separate measure very soon after the budget and on top of the budget specifically dealing with the outcome of the extra supports that come from Europe based on the structures that are being put in place at the moment?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_75" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_129">Yes. I will just restate that we are not relying on any particular sum of revenue from any EU initiatives that we are baking into our budgetary position. The revenues that will be derived from its final decisions as applied to Ireland can be given back to people in a number of different ways. It could be directly through network charges, for example, or it could come back by way of payments whereby Government might decide to use that revenue and administer it back to energy users.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_76">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_130">Does the Minister have any idea when Europe will make its decision?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_77" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_131">We expect to have more clarity in a short number of weeks, certainly within a three-week period. We are working on the basis of the information we have. I think it is important to make that commitment, however. We do not wish to use any revenues we receive from those initiatives to enhance the fiscal position of the State. The purpose of raising those revenues is to help people struggling with energy costs and to help businesses. We have to work now on the basis of the information we have at our disposal, however, and finalise the budget we will present in 13 days' time.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_78" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_132">I fully agree with that. If the Minister for Public Expenditure and Reform and I are in a position to have clarity regarding what a revenue gain will be 2023, of course, we will want to bring that forward and inform the Oireachtas and use that in our work. I think both of us are being quite clear this evening in saying that is not what we are banking on. There is much work to be done in that regard. It is worth emphasising briefly that whatever measures the Government brings forward in 2022, we believe they will be the measures we will be implementing for this year.</p>
+          <p eId="para_133"> With regard to the Deputy's question regarding the €1.05 billion, I am not planning any change with regard to it. The Minister, Deputy Michael McGrath, and I are committed to sticking inside the parameters we have announced. I would expect the vast majority of that will be used to try to deliver a degree of indexation to wage earners who have seen their wages go up response to the cost-of-living pressures of which we are aware. We are trying to preserve the value of those wages as they go up. I would anticipate that is where most of that will be used. Government has not made a decision on it, however. We are looking at all these things in the round at the moment.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_79">
+          <from>Deputy Kieran O'Donnell<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_134">I thank both Ministers. I thank the Chairman for her indulgence.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_80">
+          <from> Chairman<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_135">Deputy Canney is swapping with Deputy Boyd Barrett. I call Deputy Canney.</p>
+        </speech>
+        <speech by="#SeanCanney" eId="spk_81">
+          <from>Deputy Seán Canney<recordedTime time="2022-09-14T18:30:00+01:00"/></from>
+          <p eId="para_136">I thank Deputy Boyd Barrett as I must go into the Dáil to speak. First, I wish to compliment both Ministers on the forthright way in which they are dealing with the problems we have. We are not that far away from the budget and there seems to be a hell of a lot of stuff that still has to be resolved and measured out to see where we are going to land on the day of the budget. Budget day is the week after next; it is fast approaching.</p>
+          <p eId="para_137"> In dealing with an economic environment in which we are not so sure where we are going in terms of cost of living and energy security, there are few things I would really ask the Government to ensure. In the event that the Government is thinking of increasing pensions and benefits for older people and those on fixed incomes, the income threshold for benefits like medical cards should also increase in line with this in order that we do not end up giving increases that push people outside of the market where they will perhaps not be able to hold on to a medical card, GP visit card or those kinds of things. Likewise with the fuel allowance and other good supports that are in place, again, it is important that we reflect that the thresholds for people to qualify for these added benefits should also increase alongside the increases we expect will be given in order that we do not rule people out of getting benefits such as fuel allowance. That is very important.</p>
+          <p eId="para_138"> The other very important area in the context of the cost-of-living crisis we have at the moment is the fact that that for people with disabilities, the expense of their disability has been costed. The additional cost of living with a disability without any other supports is up to €10,000 to €12,000 per annum as stated in the Indecon report. No matter what is going on, it is high time that we actually start the process of recognising this by giving people with disabilities the money to deal with the additional cost of living with their disability. It is very important that we start that process. I am not saying the Government can put in €12,000 for every person with a disability in year 1. However, we need to recognise it and start a scheme in order that incrementally over the next five to ten years, we actually do something to support these people with disabilities. Those are two issues with regard to people on fixed incomes.</p>
+          <p eId="para_139"> There is another area about which I have a concern, the magnitude of which is enormous; it is frightening, really. We talk about the cost of doing business and the cost of products increasing. Take the small rural shops and pubs that have fridges and freezers or whatever else. Their energy prices have absolutely gone through the roof. My concern is that we need to give them something like a Covid-19 support now that will give them life support until they get over this energy crisis and things settle down. I have seen it in every shop I have gone into and heard it from every retailer and small business or family business owner to whom I have spoken. They are horrified at the types of energy bills they are getting at the moment. The bills are absolutely frightening. They do not know how they are going to cope throughout the winter. Something we have to take on board as well are the small businesspeople who have no other income. They are trying to make a living and also trying to provide a service within a rural area. We need to do something for them.</p>
+          <p eId="para_140">In the context of the fact that energy Ministers will make a decision by the end of the month on what will happen, and we are talking about forming a budget, I believe that within the next two months we should have another budgetary intervention by the Government, once it sees what is coming from Europe. It is important that that money and support is given out as quickly as we can give it. It is important that we do not think this budget will be the full stop on all of this. We have to watch the game as it is being played out over the next 12 months and then maybe consider other direct interventions that will be required. I ask for comment on that. </p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_82" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:40:00+01:00"/></from>
+          <p eId="para_141">On the freak budgetary interventions, we have not even completed this budget, as the Deputy knows. He has summarised very well the fact that it is only a few days away, which the Minister, Deputy McGrath, and I are keenly aware of. When we do our budget and announce our measures, that will include measures for 2022 that we do not anticipate changing. The Minister has made the point, and I fully agree with him, that if we get an EU-wide measure that we are able to opt in to, we will then use that money to fund measures that will help households and businesses. We are a little away from that at present. I do not want to create a sense that when the Government brings forward this budget in a week and a half's time, we will then have new, different and additional measures a few weeks later. We are trying to outline a set of measures we believe will work and help and that will go across the rest of this year. We will do our best to get that balance right first time.</p>
+          <p eId="para_142"> We are very much aware of the business issue the Deputy referred to. We are obviously working hard to see what measures can be put in place that will help. We have made the case to the committee that what we have done over the past number of years has worked, but this situation is very different from Covid.</p>
+        </speech>
+        <speech by="#SeanCanney" eId="spk_83">
+          <from>Deputy Seán Canney<recordedTime time="2022-09-14T18:40:00+01:00"/></from>
+          <p eId="para_143">I agree.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_84" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T18:40:00+01:00"/></from>
+          <p eId="para_144">Covid was a period in which we had very low inflation. In fact, we had deflation on a few occasions. Economies were closed. We are now in a high-inflation environment, with a record number of people at work. We need to put measures in place that will work and make a difference but are appropriate to that different environment. That is what we are trying to do.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_85" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:40:00+01:00"/></from>
+          <p eId="para_145">I will add that the Deputy raised a number of specific questions relating to different areas of expenditure. All I can do is acknowledge the points he has made, one of which is that an increase in income because of a Government decision in the budget to increase a particular payment should not result in somebody losing an important secondary benefit. That is an important point made by the Deputy, which I acknowledge. It will be considered over the course of finalising the budget. He also quite understandably raised the issue facing people who have a disability, namely, the additional cost involved in living with a disability. Again, that is something we are very conscious of. The Minister for Social Protection, Deputy Humphreys, and the Minister of State at the Department of Children, Equality, Disability, Integration and Youth, Deputy Rabbitte, are very keen to improve services and, where possible, to improve incomes for people who have a disability.</p>
+          <p eId="para_146"> I echo the point the Minister, Deputy Donohoe, made around businesses. We acknowledge the scale of the challenge for many. We know that it raises very serious viability challenges for some though not for all. We have come across countless examples in recent weeks where the scale of the increase has been eye-watering and will quickly put many of those businesses in real trouble. We will do our very best to respond through the budget, while acknowledging there are always limitations to what we can do, especially bearing in mind that nobody can predict with any degree of certainty how long this period of very elevated energy prices will continue. I agree with the point the Minister made. We are focused on this budget, which has two parts. It includes the normal budget for next year that will allow us to do some good things even though, on the expenditure side, when we take out all the pre-commitments, the increase in the public capital programme, and the public service pay deal that I hope will be ratified, the scope for new initiatives and new measures is quite limited. It is tight on the core side for next year. That is another reason we will do the best we can in the context of the package in quarter 4 to assist those who are most in need and to assist businesses too. </p>
+        </speech>
+        <speech by="#GeraldNash" eId="spk_86">
+          <from>Deputy Ged Nash<recordedTime time="2022-09-14T18:40:00+01:00"/></from>
+          <p eId="para_147">The Minister, Deputy McGrath, is right that according to his Department's calculations and commitments, as again enunciated in his opening contribution, it is fair to say that expenditure on new measures next year comes in at approximately €1.3 billion in the plan, if that is accurate. The intention is then to introduce tax adjustments totalling just more than €1 billion.</p>
+          <p eId="para_148"> Correct me if I am wrong, but the programme for Government committed this three-party coalition Government to a 2:1 ratio of spending over tax cuts. Why has that changed for next year? It appears to have changed. </p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_87" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:40:00+01:00"/></from>
+          <p eId="para_149">The Deputy has homed in on the available resources for new initiatives and new measures. Core spending will increase by €5.7 billion. That is the scale of the overall package. There is some rebalancing in that we are now bringing approximately €700 million of that forward into the current year in the event the public service pay deal is ratified. However, it is still a €5 billion increase in core expenditure for next year. The fact that a large share of it is already accounted for is because of decisions we have already made, including to prioritise a public capital investment programme and to have a national development plan, NDP, envelope next year of approximately €12 billion. That is a very conscious, deliberate decision by the Government that will do many good things throughout the country, in building schools, healthcare facilities, public transport, roads and so on.</p>
+          <p eId="para_150"> It is also a function of the fact that the level of inflation we have means delivering public services has become more expensive, as I said. That envelope for protecting existing levels of service, ELS, has become more expensive. That is just the reality of the environment we are in, which then shrinks the envelope I have for new initiatives. That is a fact and a constraint. There is always a constraint on budget day. We will use those resources to the very best of our ability but we have to make decisions in the context of the overall picture, which is that core spending will grow by more than 6% next year. We believe that puts us within safe parameters. We have made a temporary adjustment to the spending rule. That has been endorsed by the Irish Fiscal Advisory Council, IFAC,-----</p>
+        </speech>
+        <speech by="#GeraldNash" eId="spk_88">
+          <from>Deputy Ged Nash<recordedTime time="2022-09-14T18:40:00+01:00"/></from>
+          <p eId="para_151">The Department will stick to the 6.5%.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_89" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:40:00+01:00"/></from>
+          <p eId="para_152">-----as being appropriate. If we go beyond that and we get to much higher levels of core expenditure growth, it will bring us into very dangerous territory and we are not prepared to go there.</p>
+        </speech>
+        <speech by="#GeraldNash" eId="spk_90">
+          <from>Deputy Ged Nash<recordedTime time="2022-09-14T18:40:00+01:00"/></from>
+          <p eId="para_153">The Department is committed to remaining within the confines of the framework that it set earlier this year, temporarily moving away from the 5% commitment to 6.5% for next year. The Minister is on record as saying that.</p>
+          <p eId="para_154"> We are approaching, at least technical, full employment. Nobody could have envisaged that this time two years ago. It would be churlish of me not to recognise the impact the measures, formulated by the Government and endorsed by the Oireachtas, have had in supporting business and people in work at an unprecedentedly difficult time for our country and globally. That is recognised. We are approaching full employment. There are risks over the next period that have been articulated by other colleagues. We all know, and the Ministers know as constituency Deputies as well as senior Ministers, the impact the energy crisis is having on the very viability of some businesses that would be otherwise viable. I had a conversation with a small hospitality sector business owner last week who told me that his energy bills are now exceeding his rent costs. That puts things in perspective. We all accept significant initiatives need to be taken by the Government to try to assist businesses through this very difficult process, though of course with conditions attached.</p>
+          <p eId="para_155"> I put a question to Department of Enterprise, Trade and Employment officials last week regarding any analysis that may have been done around the sectors or sub-sectors of the economy that might be especially at risk and the number of jobs that may be involved.</p>
+          <p eId="para_156">There are approximately 120,000 jobs involved in energy intensive businesses, especially those in the heavy manufacturing space that rely on gas. Some of those jobs may be very vulnerable. We know that a significant Government programme was signed off by the European Commission on 11 August. This will be operated by the State agencies to assist some of those companies into the future. While it is all well and good assisting companies to meet their ever-rising energy bills, in truth it involves burning through cash to keep the show on the road. That means energy companies always get paid. In considering how to use our resources smartly, I will return to a hobbyhorse of mine, that is, the need for a form of German-style short-time working scheme that we could take from the shelf, customise, tailor and target at industries that are experiencing crises. That is something that needs to be considered again. It may well be the case that some intensive users of energy in highly skilled sectors of the manufacturing sector of our economy will require support to furlough workers at this difficult time. This is a crisis we could not have foreseen.</p>
+          <p eId="para_157"> I will give an example. There is an employer in my constituency named Premier Periclase. It is based in Drogheda and is involved in heavy manufacturing. It manufactures magnesium-based products and has an old manufacturing facility on the banks of the River Boyne. The company has initiated redundancy notices to almost 40 of its 45 staff. It came out of examinership at the end of May confident that once it transitioned from a reliance on gas to renewables, which was its plan post examinership, it would become a viable company that may even diversify over the next few years and continue to retain its skilled engineers, electricians, fitters and general operatives. The company's gas and energy bills are running €5 million ahead of what was anticipated in May. There are finite supports the State can provide to an industry such as that but one of the measures that could be introduced is a furlough or wage support scheme for businesses such as Premier Periclase to help them with their labour costs during this difficult period. Instead we are going to see almost 40 skilled workers laid off. Some of them may never work again because the sectors in which they work may no longer exist this time next year or in two years. I plead with the Ministers to seriously consider in an urgent fashion the introduction of a form of short-time working scheme to help assist companies such as Premier Periclase and sectors such as theirs with their costs over the next period of time because once those jobs are gone, they will not come back. We need to focus in a laser-like fashion on supporting industries and sectors such as the one I have mentioned because otherwise they will be gone. That could be a smart investment of what I accept are limited public funds at this difficult time.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_91" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:50:00+01:00"/></from>
+          <p eId="para_158">I thank the Deputy for raising that matter. I am sorry to hear about the company in his constituency.</p>
+        </speech>
+        <speech by="#GeraldNash" eId="spk_92">
+          <from>Deputy Ged Nash<recordedTime time="2022-09-14T18:50:00+01:00"/></from>
+          <p eId="para_159">It is a canary in a coalmine. There may well be other significant employers experiencing those issues at this time.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_93" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T18:50:00+01:00"/></from>
+          <p eId="para_160">That is absolutely the case. The Deputy has raised a particular example. It is always deeply regrettable when people are given notice like that. I hope it will not materialise in that particular case. We can only restate our understanding and acknowledgement that for many businesses, the situation is serious. We know that some businesses have the capacity to absorb the additional costs. Some businesses have been trading well, are highly profitable and can afford the cost of the significant hikes in energy prices. However, other businesses are still recovering after the pandemic. Some of those businesses were not able to trade for part of the past two years and simply do not have the necessary reserves. One of the guiding principles that the Minister for Finance, myself and the rest of the Government used over that time was to help businesses that were otherwise viable. It was a challenge of an altogether different nature, as the Minister for Finance has outlined. There will be a response from Government. We are considering all of the issues the Deputy and his colleagues have raised in the context of the challenges facing businesses at the moment. We will make the final decisions in the coming days.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_94">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2022-09-14T18:50:00+01:00"/></from>
+          <p eId="para_161">The Minister appears to have indicated that the Government has not fully made its decisions on an additional package that may be made available to address the cost-of-living crisis we are facing. I will make a suggestion to him for when he is considering what the Government is going to do. To my mind, and the minds of a considerable number of people, it is worrying when he constantly repeats the mantra that we cannot fully protect people against this cost-of-living crisis. It is a constant mantra. It is not acceptable to continue to use that mantra to prepare people and condition them for the hit they are facing as we head into the winter. It is simply not acceptable that pensioners, people with families and people who have done nothing wrong will not have the money to heat their homes. They will have to turn off the heat. They will not have the money to provide hot water to have showers or to pay essential bills, particularly at a time when we are seeing the very companies that produce the energy making incredible profits. It is morally unacceptable that those companies can continue to make profits while ordinary people suffer in an unacceptable way. Whatever solutions the Government comes up with must address that point.</p>
+          <p eId="para_162"> Our view is that the Government should control the prices to make them affordable. There should be some recognition in the face of the unprecedented crisis we are now seeing that a privatised and for-profit energy sector is not capable of dealing with the sort of situation we are now facing. It is incapable of doing so. The evidence is piling up. The EU is now talking about windfall taxes. It was not talking about them a while ago. Only the loony left was talking about windfall taxes but now the EU is considering them. States are starting to control prices. That idea was dismissed when it was proposed by some of us a year ago. States are starting to talk about renationalising the energy sector. Some states are doing that. These are the sorts of things we need. The Government must start to think outside the box, reject previously held convictions about markets and rethink the whole thing in the face of this crisis. We must guarantee that vulnerable people who have done nothing wrong are not going to suffer. We must stop the profiteering. We must also consider whether to take our energy supply, a basic need for people, under the control of the State, where it is run on a not-for-profit basis. Is the Government even considering those things? I think it should.</p>
+          <p eId="para_163"> I note that corporate tax receipts for last year amounted to €15 billion. The Government is projecting €20 billion in corporate tax receipts this year. I know we do not have the returns yet but the Ministers must have a projected figure for what that means in terms of the increased profits that are being made by the corporate sector. There could not be a 33% increase in corporate tax receipts unless there is a corresponding increase in the level of profits. When other people are seriously suffering, a bonanza of profits is being enjoyed, which is reflected in our corporate tax receipts.</p>
+          <p eId="para_164">Would it not be fair and just to use the huge surge being seen in profits and the additional corporate tax revenues to shield people against the cost-of-living crisis? The Minister for Finance will say that these are vulnerable tax heads, we might not have the money in a year or two and so on. However, one-off payments could be made to shield people against the costs.</p>
+          <p eId="para_165"> There are also other things the Government could do. As well as a cost-of living crisis, we have a massive housing crisis. Would it not be a good investment to use those additional revenues to buy up a lot of the property out there at the moment? Rather than let international investors buy up the newly constructed houses, the State could buy them and avoid spending huge amounts of money on the rental accommodation scheme, RAS, and the housing assistance payment or HAP scheme. Would it not be a good use of the additional revenues the Government has to use them to deliver public and affordable housing for the people who need it?</p>
+          <p eId="para_166"> Would it not be a good use of that money for the State to provide a scheme to insulate homes on a massive scale and reduce energy costs? Would it not be a good investment, one that is not dependent on ongoing current expenditure, to invest in areas such as public transport infrastructure, including more buses for rural Ireland and new routes? Would these not be the types of measures the Government could take with these additional revenues? They would be sensible investments in the medium and long term that would make a real difference in the short term with regard to the cost-of-living and housing crises that people are faced with.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_95" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_167">I see a real contradiction in what Deputy Boyd Barrett has said. On one hand, he views the corporate sector as being at the root of many of the difficulties we are in. He has said many times that he wants to nationalise many large corporate companies that are located here and he said that again this evening. On one hand, he sees the corporate sector as being the cause of the many challenges we are facing while, on the other, he is all too happy and willing to spend the taxes we are collecting from them. We are warning that we cannot rely on the taxes we are collecting from these companies being there forever.</p>
+          <p eId="para_168"> In terms of the corporate sector and the global capitalism, which the Deputy is committed to defeating, he cannot, on one hand, say he wants to see the back of them while, on the other, saying he wants to spend the money coming in with confidence that this money will keep coming in. He cannot do both. He cannot believe both of those things at the same time or if he does, he must acknowledge the risks that are there.</p>
+          <p eId="para_169"> I do not recall that the Minister for Public Expenditure and Reform and I did not recognise the vulnerable and those who are under the most pressure. We recognise the commitment we have to them and we will do our best to discharge it in the budget. Both of us have acknowledged publicly on different occasions that where there are large super-normal profits coming in, ways should be found to either tax or capture some of that profit through regulation. Both the Minister and I have acknowledged that if very large levels of profit are being made for reasons that are beyond the control of a firm and that firm is going to enjoy super-normal profits, it would not be fair that it should enjoy those profits while other firms go out of business. The European Union is likely to come up with the best way of addressing that and we will examine if we can be involved in it. These are matters that are being considered.</p>
+          <p eId="para_170"> Deputy Boyd Barrett assumes the system he wants to see the back of will keep generating current levels of tax revenue and profit and that it is safe to keep spending that money. I do not believe that is the case.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_96">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_171">To be clear about what I said, the point I made was that purchasing houses would be a one-off measure that would save us money. We are paying out a €1 billion in RAS and HAP payments, increasingly to these international investment funds. Would it not be better if we just bought the stuff instead of the funds buying it? We could then deliver public and affordable housing. For every home the State bought, not only would it be able to house people and give them a secure place to live but it would save money in terms of current expenditure. That would be a prudent use of this bonanza of profits. It does not rely on the future profitability of those companies.</p>
+          <p eId="para_172"> Does the current situation not give the Minister pause for thought about the danger of energy supply being dependent on companies that operate on a for-profit basis? Does it not give him pause for thought that a lot of the renewable energy resources being developed around the country will be owned by private companies, many of which are not even from this country and have absolutely no commitment or requirement to provide affordable energy, or provide us with energy at all, if it is not profitable for them?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_97" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_173">The Deputy knows I have the height of respect for him but the cause of all the higher level of difficulty we have is Putin invading Ukraine. That is causing the huge challenge we have and the Deputy has not made any reference to it this evening. It is the invasion of Ukraine by Putin.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_98">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_174">Energy prices were going up before the war, as the Minister knows well.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_99" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_175">The Deputy is shaking his head but that is the cause.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_100">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_176">Of course, it made matters worse.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_101" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_177">The invasion has done more than made matters worse. What is happening at the moment is that energy - its price and availability - has been weaponised by somebody who has invaded another country. Whatever ills or challenges global capitalism may well have-----</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_102">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_178">Energy is also being weaponised by private companies.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_103" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_179">It has been weaponised by a man who has invaded a country. That is who it has been weaponised by.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_104">
+          <from>Deputy Richard Boyd Barrett<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_180">It has also been weaponised by private companies.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_105">
+          <from> Chairman<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_181">Deputy Boyd Barrett has reached the end of his time.</p>
+        </speech>
+        <speech by="#MichaelHealyRae" eId="spk_106">
+          <from>Deputy Michael Healy-Rae<recordedTime time="2022-09-14T19:00:00+01:00"/></from>
+          <p eId="para_182">I apologise for having to leave but I had to go to the Dáil and then attend to another matter.</p>
+          <p eId="para_183"> I thank the Ministers for being here and making themselves and their teams available, as they have always done. I very much appreciate their efforts. I value the Ministers' engagement, which is always very forthcoming. I know they are obliged to be forthcoming but we appreciate it and I am thankful for it.</p>
+          <p eId="para_184"> These are unprecedented times. One of the issues I will home in on is business. Both Ministers are extremely committed to small businesses and SMEs throughout the country because they are the backbone of employment. In smaller and more rural areas in particular, the people who create a job for themselves or one, two or ten others in the community are the backbone of society. They are really hurting and finding life extremely difficult.</p>
+          <p eId="para_185"> A reporter for a local newspaper in County Kerry who is doing a story on the effects of energy costs on businesses asked me today how businesses are being affected and how they are managing. Obviously I left out the medical side because nothing was worse than the loss of life during Covid, as we all readily acknowledged, but I am being hard-nosed about this in talking about business. From a business point of view, I truthfully believe that energy costs are worse. Through the efforts of the Minister for Finance and his officials and the good work of the Government in supporting small business, doors were kept open. Even though the doors were shut during Covid, the Government handled the situation in such a way that businesses were financially supported and could open their doors when the rules and regulations allowed them to do so. Now we find that the doors are open, businesses are operating, as they are entitled to do, and open for business, but the costs are so enormous that they do not have the benefit of the Government supports and are really struggling. The Ministers know this but I feel I must say it. What is happening now, from a business point of view, is worse than Covid because we do not have the back-up of the Government.</p>
+          <p eId="para_186"> I look forward to seeing what measures the Government will put in place. I do not believe the measures will be enough. I am not being negative when I say that because everyone knows I am not that way. I am not criticising the budget before I know what it contains but I find it hard to envisage how the Government will be able to do for small business now what was done for them during Covid. I hope I am proved wrong and the Minister will be the saviour small business needs in terms of addressing the energy costs encountered by shopkeepers, hairdressers, and the owners of beauty salons, small engineering works and so on.</p>
+          <p eId="para_187">We hear about the issue of declaring interests. I have a small shop myself, so I see it myself. The bills that were €1,500 or €2,000 every eight weeks are now €9,500. One can deal with that once or twice, but when one has to contend with that and sees it go nowhere but up, one would wonder if it is possible to keep the business open. The people I represent tell me that they are more fearful than ever before.</p>
+          <p eId="para_188"> I have another matter to put to the Ministers. I was grateful that the rates review that was being carried out a couple of years ago was, rightly, deferred because of Covid. It is now going ahead. The local authorities are rolling it out for every business and rateable properly. It is not being looked at with a view to reducing the rates but with a view to increasing them. I do not think, in the times we are in, that it is a good time to tell people in small businesses that their rates are going up. It is the exact opposite. We should look at deferring this. I humbly ask the Ministers, on behalf of the businesspeople in Kerry, to please not touch the rates. I am sure other people around the country would say exactly the same thing. People will not be able to afford the rates. Kerry County Council and its finance department, as the Ministers know, is excellent at its job. I know that local authorities can look at inability to pay case by case. Unfortunately, many businesses will be unable to pay. Rather than pursuing a rates increase, I ask the Ministers to look at that. I know they might say it is outside their sphere, but if the people in charge of the Department of Finance cannot look at that in a sensible way, then who else can?</p>
+          <p eId="para_189"> The Ministers have often heard me talk about mum's purse. One could be the Minister for Finance, be over in Europe and doing everything in the world, but if Mrs. Murphy or Mrs. Sullivan's purse is not in order on a Friday evening and she cannot manage the bills or run her house, then everything else is in serious trouble too. Unfortunately, mum's purse is at breaking point because there is nothing in it. During Covid, the Government was good at trying to support all those circumstances. Unfortunately, a bag of coal for Christmas is now €40 or €45. It is fine to tell people to retrofit their home and that the Government will give them a big grant, but I know nobody with €30,000 or €40,000 under the bed to produce to retrofit their home.</p>
+          <p eId="para_190"> While I hate telling the Ministers this, though it is a fact, the majority of businesses installing solar energy are doing so without the grant. One might say it is insane to leave a grant of 20% or 30% on the table, but I will tell the Ministers why that happens. One of the first things that has to be done is an energy audit, which costs between €10,000 and €12,000. The Government might say that it will provide grant aid of 50% or maybe a bit less. It is telling businesses to get a big bundle of paper. They will have to provide €10,000 or €12,000 and the Government will give them €5,000 or €6,000. The paperwork will delay the project by nine months. Every eight weeks, one has to pay an energy bill of between €9,000 and €12,000. People are better off, by hook or by crook, to go ahead and put up the solar panels without the benefit of the grant. A grant should not be set up that way. It should be more user-friendly and easier to get.</p>
+          <p eId="para_191"> The buzzword of the Government seems to be that it has to do its part for the environment and rightly so, but there is no good reason, by now, for every roof in Ireland not to have solar panels. The Government is not actually serious about that. I do not like telling the Ministers that, but it is a fact. Talk to the people who are installing the systems and who want to have these systems. They will say that it is not working because the bureaucracy involved in getting the grants is turning off households. The energy audits and so on are just not practical for businesses. That is why so few take this up. If one was up in the sky looking down at roofs in Ireland, every farm building should be covered in solar panels. Every day when the weather is at all fair, we should have between 70% and 80% of our energy coming from solar. Even on a bad, cloudy day, we should be self-sufficient to the tune of 20% to 30% coming from the sky. We are not. What has been done so far is like a spit in the ocean. I would like the Ministers to work on those things.</p>
+          <p eId="para_192"> I express my hope that the budget will do meaningful things. Regarding what has happened in the past, there was much talk about the €200 that people got off their ESB bill. I respect it very much. The €200 was a lot of money in the week when it came out of people's accounts. Many bad weeks have come and gone both before and after that. We want to see more of those meaningful measures. I am fearful for older people who, in many instances, can only hope to heat their homes this winter through what they buy, whether it is timber, coal or turf, if they are allowed to do so. One can call those homes energy inefficient, but they cannot be made efficient and, in those people's lifetimes, they probably will not be able to change in the way the Ministers might like them to change. These are the types of problems we have.</p>
+          <p eId="para_193"> I will finish like I always do. I thank the Ministers for the work they are doing. I acknowledge the people in the Department of Finance who work behind the scenes. As a small businessperson, compared with someone running the finances of the country, it is all relative. It is like running a bigger business and trying to do everything the right way. It is the same in a small business. One tries to pay the bills, to do things right and to keep one's nose clean. That is what the Ministers are trying to do on a larger scale. I thank everybody involved and hope that they will make the best decisions that they can for the people who are hard-pressed and need help in this budget more than ever before.</p>
+          <p eId="para_194"> I am sorry if I ran over time.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_107">
+          <from> Chairman<recordedTime time="2022-09-14T19:10:00+01:00"/></from>
+          <p eId="para_195">The Deputy has run over time. He used up all his time, but out of respect for the Ministers' time, I ask if they would like to address any of those issues or would prefer to move on.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_108" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T19:10:00+01:00"/></from>
+          <p eId="para_196">I will not address all of them but I will respond out of courtesy. I thank Deputy Healy-Rae for coming in and making that contribution. The measures that we will announce the week after next will be meaningful. I am sure they will not satisfy everybody and that we will not be able to meet every need and ambition. We will try to focus on what really matters in the budget, which is the basics and looking after people to make sure that they can get by and can meet unavoidable day-to-day costs.</p>
+          <p eId="para_197"> The Deputy raised a number of issues relating to businesses. A number of colleagues raised those issues over the course of the meeting. Both the Minister, Deputy Donohoe, and I are in close contact with businesses, both representative bodies and individual business owners in our constituency and nationally. Our colleagues in our respective parties and across the House come to us all the time and share the kinds of example that Deputy Healy-Rae highlighted from his personal circumstances. We are aware of the issue and the worry. It is not just about the bills that have been received but what is to come. Nobody can predict with any degree of certainty how long this is going to last or how much worse it might get. The Government has to calibrate its response with incomplete information. It has to do so based on the facts that it has at this time, while also trying to safeguard the bigger picture of public finances and making sure that we keep them in safe territory. The economic environment has changed, as I am sure the Deputy is well aware.</p>
+          <p eId="para_198"> Deputy Healy-Rae raised a few issues about rateable valuation, which I will pass on to the Minister, Deputy O'Brien.</p>
+          <p eId="para_199">There are two levers relating to the rates bill. One is the rates struck by the local authority, and then there is the valuation which is set. Deputy Healy-Rae raised an issue about revaluation. We will take on board the points the Deputy made about grant schemes for retrofitting. A lot of money has been made available for retrofitting to support businesses and households. We would like to see the support rolled out more quickly. There is a capacity issue with the number of contractors available in the sector. We are addressing that through the provision of more apprenticeships, skills, training and so on to try to build up that capacity, because there is significant work ahead of us. Even when we get through the current point in the energy price cycle, this phase of work will last for many years.</p>
+          <p eId="para_200"> The Deputy raised the issue of solar energy. We have work to do in that area. We should acknowledge that we in Ireland, along with Denmark, are among the world leaders in onshore wind energy. There will be more offshore wind in future. I take the point about solar energy.</p>
+          <p eId="para_201"> Deputy Healy-Rae concluded on the matter of older people. They get particularly concerned when they see the bills coming their way. Many have extra needs and need to be looked after. We will do our best on budget day to respond to that level of need, while acknowledging and being honest and straight with people that we will not be able to do everything. We can help a lot. We will do that in two weeks.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_109" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:20:00+01:00"/></from>
+          <p eId="para_202">I thank Deputy Michael Healy-Rae for the points he raised. I know he has an understanding of the real world, especially small businesses. Like the Minister, Deputy McGrath, I have been approached directly by businesses, which have sent me pictures of their bills. I fully understand the challenge that is developing and the need to respond to it. I agree with everything the Minister, Deputy McGrath, has said on that. I will add two points to that. I say this to Deputy Healy-Rae with respect and the same honesty with which he has spoken to me.</p>
+          <p eId="para_203"> The first point I would respectfully make is that if the benchmark for whenever the Government tries to help the economy is what we did during Covid, we will run out of money. The Covid pandemic was an extraordinary and, I hope, please God, a once-in-a-generation experience in which people could not leave their home. I know the Deputy understands this because I heard him speak about it in the Dáil and he has raised what that meant for businesses with me for two years. A set of things came together that, please God, none of us will ever have to confront again. We had to do things at such a scale because of the terrible harm it would do to people's health and what would happen to the basic functioning of businesses and our economy if we did not intervene. It cannot be the benchmark the Government is compared with every time we have to intervene again. If the Government is asked to take that approach, in all honesty, the people who will suffer in the years to come are the people who Deputy Healy-Rae is representing, because the public finances will not be able to afford it, our debt will go up, and we know what happens after that.</p>
+          <p eId="para_204"> We will do all that we can to help to make a difference. The Minister, Deputy McGrath, used the phrase "incomplete information". We do not know for how long this situation could continue and what else could be around the corner. We have to temper what we are doing with that in mind. I ask the Deputy to consider that, every time we have to respond to a shock, if the Deputy expects us to do what we did during Covid, we will quickly have bigger trouble on our hands. We are trying to manage that.</p>
+          <p eId="para_205"> I take the point about solar panels. We will have to look at that. The job of the State and whoever is in government is not just to find money to make solar panels cheaper but to find money to keep hospitals running and to respond to all the other needs the Deputy is referring to. As much as we want to make things that we value affordable, at the same time the Government cannot do everything. Few people understand that better than Deputy Healy-Rae, because of his background and the fact there is a big business community in Kerry that understands what is going on in the world. I fully understand the challenge many are facing, but I hope the Deputy will appreciate my candour in asking him to consider other risks. If we are requested to intervene as we did during Covid in every economic shock, we will face an economic shock of our own making at some point soon. None of us want to be in that position.</p>
+        </speech>
+        <speech by="#MaireadFarrell" eId="spk_110">
+          <from>Deputy Mairéad Farrell<recordedTime time="2022-09-14T19:20:00+01:00"/></from>
+          <p eId="para_206">Gabhaim buíochas leis na hAirí as teacht os comhair an choiste arís. I have two things to start with. This will be the third budget for which I will have been a Member of the Dáil. We are living in extraordinary times. I hope that, next year, we will be living in less extraordinary times when we are coming into this phase of the year. The issue with speaking two hours after the meeting started is that many of the questions I had have been asked. I will start with a different angle, with a question for an Aire, an Teachta McGrath, about media reports regarding the Department of Health maybe needing a bailout. Will he detail how that came about? If there is a need for significant additional funding, how does he expect that to be done? Will it be done through a Supplementary Estimate?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_111" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T19:20:00+01:00"/></from>
+          <p eId="para_207">I thank Deputy Farrell. I acknowledge she has been here since the beginning of the meeting, which we appreciate. Health expenditure is a challenging and complex area, as she knows. There is a close working relationship between the officials in my Department, the Department of Health and the HSE. There is a dedicated group, the health budget oversight group, which meets regularly to tease out these issues and make sure there is ongoing communication and good co-operation relating to the management of health expenditure. It is such a large area of our overall expenditure. The allocation in 2022 is €22.2 billion, with a further €200 million held in reserve. A particular challenge we face in respect of health expenditure relates to Covid-19. The Deputy will recall the wave of the Omicron variant we had at the beginning of the year, which would not have been envisaged on budget day last year. That led to significant budget-related expenditure that went above and beyond what was allocated to health on budget day in respect of Covid. That is the first issue. There is an overrun relating to Covid-related expenditure. We are working through that issue with our colleagues in the Department of Health as part of the Estimates process.</p>
+          <p eId="para_208"> On the non-Covid side, we are analysing overall core expenditure. We have made much progress with beds and adding capacity to the system. Thousands of staff have been recruited. The Department of Health has received sanction for the recruitment of a number of staff beyond that. We are working through the budgetary implications of that at the moment. To add complexity to that, there are other measures that would not have been funded on budget day which we will have to fund, such as measures relating to the recognition payment. There are health-related costs associated with looking after the displaced people who came here from Ukraine. We decided on an expanded flu vaccination programme. As part of the Building Momentum agreement, we honoured our commitment regarding the Haddington Road hours. Given the scale of the workforce for which the Department of Health has responsibility, it had to make provision for significant expenditure relating to that agreement. There are many different moving parts, but the Covid cost will be more than was provided for originally, with a need for additional expenditure. We are working through core spending at the moment and assessing the need for a Supplementary Estimate in the coming weeks.</p>
+        </speech>
+        <speech by="#MaireadFarrell" eId="spk_112">
+          <from>Deputy Mairéad Farrell<recordedTime time="2022-09-14T19:20:00+01:00"/></from>
+          <p eId="para_209">If one were to believe media reports, which I have no reason not to believe, it is a significant sum of money.</p>
+          <p eId="para_210">I do not have that much time so I will move on to another topic. There are two questions that I really want to get answers to, but people have asked them and we have not heard exactly how much the Minister expects the surplus to be. I also wanted to ask if the Minister has decided what to do in regard to the rainy day fund and if so, how much it will be. If he has the information perhaps the Minister will answer that as well, if he wants to respond to me.</p>
+          <p eId="para_211"> The other question I had relates to the amount of warehoused tax debt that arose during Covid. Has the Department done any analysis on the outstanding amounts and how they are being impacted by the current energy crisis?</p>
+          <p eId="para_212"> Following on what Teachta Healy-Rae said, we have all been speaking to local businesses in our area about the different strains they are experiencing. We are all acutely aware of the pressures on households. There has been some talk about a potential loan initiative coming from the Government. I am not asking the Minister to confirm that, but how would it also impact?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_113" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:30:00+01:00"/></from>
+          <p eId="para_213">I thank the Deputy very much. It is not the case that there is a Government agreement in place regarding the scale of measures for this year and that money is going to be set aside for the future challenges, but we are not telling people; it is that we are working on all of this at the moment. The decisions will be made just before the budget and we will announce them at that point.</p>
+          <p eId="para_214"> In response to the question on debt warehousing, the total amount of money at the end of August was €1.3 billion in VAT and €1.2 billion in employer PAYE. We have €2.5 billion in those two tax heads and a further €200 million across other taxes, bringing the total value to €2.7 billion. Some 78,000 individual businesses are currently availing of the option. As of now, I have received no advice or guidance that there is added difficulty at the moment in settling that. For businesses that may be looking in, which are concerned about their ability to pay us, I would advise them to engage fully with the Revenue Commissioners on it because they will collect the money on a case-by-case basis in a way that also respects the viability and continuation of employers and companies. That is why I have shied away from a single plan for all, because I accept there is a need for differentiated treatments depending on the status of various taxpayers. They are the figures at the moment. I hope in the time ahead Revenue will be in a position to collect the outstanding money.</p>
+        </speech>
+        <speech by="#MaireadFarrell" eId="spk_114">
+          <from>Deputy Mairéad Farrell<recordedTime time="2022-09-14T19:30:00+01:00"/></from>
+          <p eId="para_215">I know my time is up. I thank the Minister. If he gets the extra figures before budget day he could pass them on to the committee. That would be fantastic.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_115">
+          <from> Chairman<recordedTime time="2022-09-14T19:30:00+01:00"/></from>
+          <p eId="para_216">We will not hold our breath. I will bring Deputy Durkan back in again if he wishes.</p>
+        </speech>
+        <speech by="#BernardJDurkan" eId="spk_116">
+          <from>Deputy Bernard J. Durkan<recordedTime time="2022-09-14T19:30:00+01:00"/></from>
+          <p eId="para_217">I have had my say. I will not tax the patience of the Chair or other Members.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_117">
+          <from> Chairman<recordedTime time="2022-09-14T19:30:00+01:00"/></from>
+          <p eId="para_218">I know the Deputy always has more to say.</p>
+        </speech>
+        <speech by="#PatriciaRyan" eId="spk_118">
+          <from>Deputy Patricia Ryan<recordedTime time="2022-09-14T19:30:00+01:00"/></from>
+          <p eId="para_219">I thank the Ministers and their teams very much. I apologise for missing the beginning of the presentation as I was in the Chamber, but I have both hard copies and I have gone through them. I will ask my questions consecutively because of the time saving, and because everybody has been here for quite a long time.</p>
+          <p eId="para_220"> Earlier today I met with Age Action. We are very concerned about the effect of the current inflation cycle on older people. People on fixed incomes are extremely vulnerable. Will the Government commit to introducing a cap on energy prices or a windfall tax and using the proceeds to increase the eligibility for fuel allowance and to fund energy upgrades specifically for older people? The previous speaker, who is sitting beside me, Deputy Canney, asked about the fuel allowance but I did not hear the response. I would welcome some clarity on the issue.</p>
+          <p eId="para_221"> The Tánaiste said today that there are a number of items in the taxation commission report, which are straight out of the Sinn Féin manifesto, and they will not happen under this Government. Which elements do the Ministers have an issue with and do they intend to ignore this independent report because Sinn Féin agrees with certain points? I ask this question very respectfully. I merely want to get clarity if that is okay.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_119" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T19:30:00+01:00"/></from>
+          <p eId="para_222">I thank Deputy Ryan very much. I will address some of those points and the Minister for Finance, Deputy Donohoe, will respond to the Deputy as well.</p>
+          <p eId="para_223"> In the course of our pre-budget discussions, we have met a wide range of stakeholders, including groups representing older people. We are two practising politicians who have been elected like Deputy Ryan and we are very much in touch with our constituents and the elderly members of our community. We very much appreciate that many of them are worried, especially about inflation, the cost of living, energy bills and so on. We have given a commitment to many of the Deputy's colleagues this evening that we will do the very best we can to support them. We will be making a contribution and helping them to get through this period in the best way we possibly can.</p>
+          <p eId="para_224"> Deputy Ryan raised a number of issues relating to capping energy prices. It is a complex area but in Ireland we have many electricity providers who do not generate electricity. They purchase it on the wholesale markets and the price they pay is indeterminate. We do not know what price they will end up paying and if we put a cap on the price that they can charge the consumer, many of those businesses may well go bust and go out of business. We need to think through very carefully the consequences of the solutions that we are bringing forward because it seems to me that such a proposal does sign the taxpayer up to an unlimited liability for pledging to bridge that gap, whatever it may be, but it is undetermined what the amount will be.</p>
+          <p eId="para_225"> We are working with our EU partners on a windfall tax. We expect movement in the coming weeks on excess revenues being earned by non-gas electricity generators. That is an issue which may well impact on those generating electricity through wind power. There may well be additional revenues for Ireland in that respect. There is also a proposal for a solidarity contribution from primary producers of fossil fuel. As I understand it, there is only one such provider in Ireland but, again, that may yield revenue for Ireland. We have given a commitment that any additional revenues that we receive from those sources will be used to help people and businesses over the period ahead.</p>
+          <p eId="para_226"> On the specific issue of fuel allowance, it is - as with all other social welfare schemes - under consideration. It is being reviewed and we will make a final decision close to budget day.</p>
+        </speech>
+        <speech by="#PatriciaRyan" eId="spk_120">
+          <from>Deputy Patricia Ryan<recordedTime time="2022-09-14T19:30:00+01:00"/></from>
+          <p eId="para_227">I thank the Minister. The other question related to the taxation commission</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_121" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:30:00+01:00"/></from>
+          <p eId="para_228">The taxation commission has brought forward the set of options for this and future Governments to consider. Some of the recommendations it brought forward are difficult in the current economic environment with the pressures on living standards that we discussed at length here this evening. The Government will consider the report fully now that we have noted it this morning. There will be different reactions to different proposals within it. That is to be expected given the fact that there are more than 100 proposals in the report.</p>
+        </speech>
+        <speech by="#PatriciaRyan" eId="spk_122">
+          <from>Deputy Patricia Ryan<recordedTime time="2022-09-14T19:30:00+01:00"/></from>
+          <p eId="para_229">I thank the Minister. I know that I have just a few seconds left. I listened intently to Deputy Boyd Barrett speak about energy suppliers and what the Minister said about Putin and related issues. In fairness, does he not feel that some of the energy companies are price gouging?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_123" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:30:00+01:00"/></from>
+          <p eId="para_230">We have just seen an energy company leave Ireland. The prices being charged by many of the energy companies to which the Deputy refers are determined by the purchase price of the energy they need. I strongly reject Deputy Boyd Barrett's suggestion that the cause of where we are at the moment is corporate malpractice or companies charging more for energy than they should. I do not accept that. The cause of where we are at the moment is a war and it is rippling through the world and the global economy. As to whether I believe there are firms making more profit than they should be because they have seen no change to their costs but the price at which they are selling has gone up, yes, there are very high levels of profit being made there. That is why there will either be an EU or national response to it. I am not here defending that profit.</p>
+          <p eId="para_231">It is not fair that while one company that is still producing something at the same price sees its profits go through the roof, another company cannot afford to stay open because the price of energy has gone through the roof. That is why there is a place now for tax measures to tax that additional profit or regulatory measures such as those being proposed by the European Union. Ireland will adopt either depending on what we believe is the most effective and efficient. We will conclude all of that in the next few days.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_124">
+          <from> Chairman<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_232">I will ask some questions. Both Departments have done work on gender budgeting, equality budgeting and well-being indicators. What will we see in this budget not in terms of budgetary measures but working methods and implementation?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_125" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_233">We have a lot of work under way in the Department of Finance, as do our colleagues in the Department of Public Expenditure and Reform, to try to capture what would be the impact of budget decisions, how they differentiate by gender and by different groups in society. We are committed, on budget day or shortly afterwards, to try to publish a more rounded assessment of what we have done beyond the more traditional economic metrics that have been seen in the last few years.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_126">
+          <from> Chairman<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_234">That would be a very welcome report. It sounds like a process that happens towards the end of the decision-making. When Departments engage or interact with the Department of Public Expenditure and Reform or the Department of Finance, is there an onus on the Departments to provide performance indicators or data on how particular asks are being considered in terms of gender, equality or general well-being? Do the Departments of Public Expenditure and Reform and Finance ask for this at the beginning of the process rather than at the end?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_127" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_235">Yes, it is very much part of our discussions. The line Departments that come to us with individual measures cannot see the totality of the picture but because we sit at the centre and are responsible for putting together the budget, we have to make sure the overall mix is correct and we get the right balance in relation to the issues the Minister, Deputy Donohoe, just touched on. In addition, we publish a citizens guide on budget day. We provide distribution analysis and we also provide more information in the Revised Estimates volume, which is published in December. Across all of the publications, whether the mid-year expenditure report, the expenditure book on budget day or the Revised Estimates Volume, we are incrementally building up capacity and the amount of data we provide measuring the impact of budget and all of the decisions we make, whether in the form of equality or green budgeting. As the Chairman will know, the Department of the Taoiseach is leading on the well-being framework as well.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_128" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_236">To build on what the Minister said, it is my experience that there has been a significant change in this area in Departments that come to the Departments of Public Expenditure and Reform and Finance. I have definitely seen in recent years that when Ministers and their officials are bringing forward proposals they are couching them more in terms of what impact they could have on children and vulnerable groups in society. It is well beyond the macro effect on society and the economy. When specific proposals are brought forward it is increasingly being done with reference to groups and cohorts in society that Departments are trying to do good by. To pick up on what was implicit in the Chairman's question, it is far from being evaluated at the end, which is when it happens more formally. Before we reach the end, there has been a big change in how proposals are developed and then pitched to Government.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_129">
+          <from> Chairman<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_237">Is that led by the Departments of Public Expenditure and Reform and Finance? Implementing performance indicators and gender equality budgeting at the beginning of the decision process is complex. Are the Departments training staff in other Departments? What is the point of interaction? Are the Departments given a <i>fait accompli </i>at the end when other Departments come and ask or is there an interaction at the beginning of the decision-making process whereby suitable performance indicators are discussed? To be clear, I see this all the time when Estimates are being discussed at the Select Committee on Health when the performance indicators we examine are sometimes not quite fit for purpose in terms of what the outcomes should be.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_130" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_238">We have staff from the Irish Government Economic and Evaluation Service spread throughout Departments and they have a very detailed understand and knowledge of frameworks such as equality budgeting, the well-being framework and so on. That is the reason we are increasingly finding that proposals that come to us already have a distributional analysis done. I see in my interaction with colleagues that the information is more rounded and comprehensive. Certainly, when the Minister and I present to the party leaders on budgetary issue, which we do all of the time, we look at these issues and we let them know what the distributional impact is, whether it be by income decile or household type. Even in very recent meetings, we did that.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_131" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_239">Yes.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_132" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_240">It is an ongoing process. I reassure the Chairman that we do not see this as a box-ticking exercise. It is inherent in the budget process, which is all year around. All of these processes are embedded in the range of publications we produce throughout the calendar year.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_133">
+          <from> Chairman<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_241">We have touched on indexation, in which this committee took a particular interest. I do not necessarily think we were expecting to see indexation rolled out this year, and certainly I was not expecting that, but maybe there could be a recognition of the value of indexation as a map for how welfare rates, in particular, could be decided.</p>
+          <p eId="para_242"> Last week, the committee met representatives of the ESRI, IFAC, IBEC and NERI. One of the issues we discussed was that children in Ireland are more likely to live in poverty than people of working age or elderly people. We discussed that in the context of child benefit and the working family payment. While we have spoken a lot this year about targeted measures, which I very much support, some universal measures have a particular impact. The research tells us that they might be paid more to women or used in a particular way. Rather than having only targeted measures in the budget, can we expect to see that recognised in an uplift across the board, particularly in respect of payments that have stagnated since 2008?</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_134" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_243">The Chairman has asked a very good question. We are very conscious that the kind of inflation that is being experienced impacts on everyone. That is why it will involve a combination of measures, some of which will be targeted. We have made progress in recent years in reducing inequality and poverty. Even at times when it was not possible, for example, to increase the weekly core social welfare rates some good work was done through those very targeted measures such as qualified child dependant allowance payments and, in the case of people living alone, through the living alone payment. We will examine all of those but we recognise that there are certain payments that have a universal characteristic to them which will also play a role in getting that overall balance right. We will be very conscious of the need to protect the lowest income groups or lowest income deciles but we know that everyone is impacted, not in the same way and not evenly, by what we are experiencing at the moment.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_135" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_244">Yes, absolutely. The challenge with indexation, as I mentioned in an earlier exchange with the Chairman, is the costs involved in delivering it and how we reconcile that with all of the other commitments we are expected to deliver. The Minister covered that.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_136">
+          <from> Chairman<recordedTime time="2022-09-14T19:40:00+01:00"/></from>
+          <p eId="para_245">The report of the Commission on Taxation and Welfare is just out. In any case, it is new to the committee, whereas I know the Ministers have had it on their desks for a while. It is clear from the recommendations that the commission is not keen on reduced-VAT or zero-VAT mechanisms. However, one of the issues the committee discussed at length at its meeting last week was the openness of the EU to the greening of VAT. IBEC stated that the definition of the greening of VAT was so broad that somebody would have to audit a list all of the time and in its view we were not doing enough to eke out what could be green in terms of a reduced VAT rate.</p>
+          <p eId="para_246">Would the Minister for Finance like to respond to that point?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_137" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_247">There are opportunities to make adjustments to our VAT code now on foot of the new directive implemented by the EU before the summer. I used some of that flexibility earlier this year to lower VAT on electricity. There is also additional flexibility in VAT on some forms of equipment and investment. As such, the point is a fair one. What I now need to do is try to reconcile some ideas that could be attractive with our ability to fund the overall package.</p>
+          <p eId="para_248"> The Chair made an important point about indexation. Indexation also applies to taxpayers, mainly those who earn a normal wage and do not qualify for the social welfare supports that we have discussed. They are in work and need universal payments but also need the money in their wallets to go a bit further right now. Reconciling the cost of trying to do that with greening the VAT code is difficult. The Chair is correct, though, as there are opportunities now that were not available a year ago.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_138">
+          <from> Chairman<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_249">I will follow up on that, as the Minister touched on my next question. The report makes a point over and over about the need to broaden the tax base. In recent months, we have heard a great deal of discussion about how, as per the programme for Government, we will not increase income tax and that there may be income tax reductions or a change in income tax. Last week, we discussed how, while wage increases could lead to inflation, changes to income tax could also do that. Does the Minister accept that?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_139" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_250">I accept that that is a risk, but with €1 billion worth of tax proposals at the moment, I will not be making proposals that, in and of themselves, are capable of adding to inflationary pressure. To be making-----</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_140">
+          <from> Chairman<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_251">The Minister sounds confident of that.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_141" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_252">I am because it is €1 billion. To make tax proposals that are capable of adding to inflationary pressures within our economy, we would need a tax package worth many multiples of €1 billion. When people see our budget day tables, in which we will lay out whatever tax proposals the Government agrees, they will see net change in disposable income versus the rates of inflation that many are facing. There will be a difference. In order to have a tax package that is, from an income tax point of view, capable of adding to inflation, it would have to be ahead of the rates of wage change that we are expecting to see in our economy and probably ahead of the rates of inflation that we are now seeing and expect to see into next year. At €1 billion, we will not be doing that.</p>
+          <p eId="para_253"> Reverting to the Chair's point about universal measures, nearly no one who is earning €39,000 will qualify for the targeted measures that the Minister, Deputy McGrath, and I hope to introduce in a few weeks' time. As the Chair knows from representing people in Dublin Central - she knows it well, given that it underpins what she has raised with us at this meeting - many of them are feeling the impact of higher bills.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_142">
+          <from> Chairman<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_254">Absolutely.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_143" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_255">All we are saying is that targeted changes in taxation have a role to play in helping with that additional cost. However, they will not be of a scale that can add to inflationary pressure at home.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_144">
+          <from> Chairman<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_256">I noted European Commission President Ursula von der Leyen's speech today, much of which I welcomed. She spoke extensively about the "crisis contribution" that she expects from fossil fuel companies. It is an appropriate phrase. Has the Minister any sense of what the timeline of such a crisis contribution would be over the next fiscal year?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_145" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_257">The Minister, Deputy McGrath, summed it up when he spoke about timings. Another energy ministers meeting will take place at the end of the month. If we are in a position to have clarity about a good figure that we can stand over for use next year and about which we can give an indication to the Oireachtas and the public, of course we will do so. However, we are conscious of the fact that, if we put a figure in our budget arithmetic, we have to be confident that it will not change by orders of magnitude. Currently, I cannot give that figure to the committee or the Government. There is no point in pretending otherwise, as doing so would only lead to difficulty and confusion. If we put a figure into our budgetary calculations for next year, it has to be a figure that we can stand over and has a reasonable chance of being delivered. Currently, that figure is not available to us.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_146">
+          <from> Chairman<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_258">If that figure were to arrive before Christmas, would we roll it into next year? What would happen? Would we revise matters? Would there be a supplementary budget? We have played this issue out today, but if there is an energy ministers meeting at the end of the month and we then put a mechanism in place by Christmas, would it take a few months before we started seeing dividends from that?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_147" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_259">From the work that we have done in analysing the companies that would be affected, it is likely that we would only have precise clarity about the taxes that would accrue through measures such as this one well into 2023. It is possible that we may form a forecast well before then. If we can do so sooner rather than later, we will, but the measures for 2023 will be funded from the tax revenue that we have within the year, which is why Deputy O'Donnell was asking me about that. If we are in a position to accrue new tax revenue in 2023 as a result of these EU-wide measures, we will use it to try to fund measures for 2023 or, more likely, respond in various ways to something that happens beyond the first quarter.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_148">
+          <from> Chairman<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_260">I hope that we will not be cast into yet another crisis. Does Deputy Durkan wish to contribute again?</p>
+        </speech>
+        <speech by="#BernardJDurkan" eId="spk_149">
+          <from>Deputy Bernard J. Durkan<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_261">No, not unless the Chair wants the meeting to go on for another while.</p>
+        </speech>
+        <speech by="#NeasaHourigan" eId="spk_150">
+          <from> Chairman<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_262">No. I thank the Ministers for their time. The run up to the budget is crazy, so I appreciate them taking the time to attend the committee. We will reconvene next week.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_151" as="#Minister_for_Finance">
+          <from>Deputy Paschal Donohoe<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_263">Thank you.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_152" as="#Minister_for_Public_Expenditure_and_Reform">
+          <from>Deputy Michael McGrath<recordedTime time="2022-09-14T19:50:00+01:00"/></from>
+          <p eId="para_264">I thank the committee.</p>
+        </speech>
+        <summary eId="sum_5"> The select committee adjourned at 7.57 p.m. until 5.30 p.m. on Wednesday, 21 September 2022.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

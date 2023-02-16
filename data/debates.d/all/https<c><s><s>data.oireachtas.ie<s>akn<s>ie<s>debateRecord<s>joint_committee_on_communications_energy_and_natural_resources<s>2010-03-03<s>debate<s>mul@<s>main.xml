@@ -1,0 +1,693 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2010-03-03/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2010-03-03/debate"/>
+          <FRBRdate date="2010-03-03" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_communications_energy_and_natural_resources"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2010-03-03/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2010-03-03/debate/mul@"/>
+          <FRBRdate date="2010-03-03" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2010-03-03/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_communications_energy_and_natural_resources/2010-03-03/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" eId="#vol_None" showAs="Vol. None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" eId="#no_None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="BeverleyCooperFlynn" href="/ie/oireachtas/member/id/Beverley-Flynn.D.1997-06-26" showAs="Beverley Flynn"/>
+        <TLCPerson eId="JimWalsh" href="/ie/oireachtas/member/id/Jim-Walsh.S.1997-09-17" showAs="Jim Walsh"/>
+        <TLCPerson eId="JoeMcHugh" href="/ie/oireachtas/member/id/Joe-McHugh.S.2002-09-12" showAs="Joe McHugh"/>
+        <TLCPerson eId="JoeOReilly" href="/ie/oireachtas/member/id/Joe-O'Reilly.S.1989-10-01" showAs="Joe O'Reilly"/>
+        <TLCPerson eId="JoeOToole" href="/ie/oireachtas/member/id/Joe-O'Toole.S.1987-04-25" showAs="Joe O'Toole"/>
+        <TLCPerson eId="LizMcManus" href="/ie/oireachtas/member/id/Liz-McManus.D.1992-12-14" showAs="Liz McManus"/>
+        <TLCPerson eId="MJNolan" href="/ie/oireachtas/member/id/M-J-Nolan.S.1982-05-13" showAs="M. J. Nolan"/>
+        <TLCPerson eId="MaryMWhite" href="/ie/oireachtas/member/id/Mary-M-White.S.2002-09-12" showAs="Mary M. White"/>
+        <TLCPerson eId="MichaelWDArcy" href="/ie/oireachtas/member/id/Michael-D'Arcy.D.2007-06-14" showAs="Michael D'Arcy"/>
+        <TLCPerson eId="NoelCoonan" href="/ie/oireachtas/member/id/Noel-Coonan.S.2002-09-12" showAs="Noel Coonan"/>
+        <TLCPerson eId="PeterKellyFF" href="/ie/oireachtas/member/id/Peter-Kelly.D.2002-06-06" showAs="Peter Kelly"/>
+        <TLCPerson eId="SimonCoveney" href="/ie/oireachtas/member/id/Simon-Coveney.D.1998-10-23" showAs="Simon Coveney"/>
+        <TLCPerson eId="TimDooley" href="/ie/oireachtas/member/id/Timmy-Dooley.S.2002-09-12" showAs="Timmy Dooley"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM CHUMARSÁID, FUINNIMH AGUS ACMHAINNÍ NÁDÚRTHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON COMMUNICATIONS, ENERGY AND NATURAL RESOURCES</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2010-03-03">Dé Céadaoin, 3 Márta 2010</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2010-03-03">Wednesday, 3 March 2010</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 9.45 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#NoelCoonan">Deputy Noel J. Coonan,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#JoeOReilly">Senator Joe O’Reilly,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#SimonCoveney">Deputy Simon Coveney,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#JoeOToole">Senator Joe O’Toole,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelWDArcy">Deputy Michael D’Arcy,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#JimWalsh">Senator Jim Walsh.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#PeterKellyFF">Deputy Peter Kelly,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#JoeMcHugh">Deputy Joe McHugh,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#LizMcManus">Deputy Liz McManus,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">In attendance: Deputies Timmy Dooley and Beverley Flynn, and SenatorsPaschal Mooney and Mary M. White.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#MJNolan">DEPUTY M. J. NOLAN IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_5">The joint committee met in private session until 10 a.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Joint Committee. </heading>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_10">The minutes of the meeting of 11 February have been circulated.  Are they agreed?  Agreed.  Correspondence received has been circulated and is noted.</p>
+          <p eId="para_11">Two of our members, Deputies Devins and D'Arcy, have a difficulty with the time slot, as the Joint Committee on the Constitution meets at the same time.  It is proposed, therefore, that we meet on alternate weeks.  Is that agreed?  Agreed.</p>
+        </speech>
+        <summary eId="sum_6">Sitting suspended at 9.58 a.m. and resumed at 9.59 a.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Broadcasting Levy: Discussion with Broadcasting Authority of Ireland.</heading>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_2">
+          <from>Chairman</from>
+          <p eId="para_12">The joint committee has invited representatives of the Broadcasting Authority of Ireland to speak to it about the broadcasting levy.  I welcome Mr. Michael O'Keeffe and Ms Celene Craig.  Before we begin, I draw their attention to the fact that while members of the joint committee have absolute privilege, the same privilege does not apply to witnesses appearing before the committee which cannot guarantee any level of privilege to witnesses.  Under the salient rulings of the Chair, members should not comment on, criticise or make charges against a person outside the Houses or an official, either by name or in such a way as to make him or her identifiable.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_13">I thank the Chairman and members of the joint committee.  Ms Craig and I will make a short presentation.  We will then take any questions members may have.  We have submitted some documentation, to which we will refer during our presentation.</p>
+          <p eId="para_14">We will begin by outlining the background to the introduction of the Broadcasting Authority of Ireland levy.  We will speak about the development of the levy model and set out how we went through the process.  We will talk about some of the levy's guiding principles and describe how we have worked some of the key features of the levy model.  We will explain how we will operate the levy to cover the current period which comprises the last quarter of 2009 and all of 2010.  We will briefly refer to the elements of the authority's 2010 work plan which was finalised recently.  That is the structure.  We will go through and clarify everything as best we can.</p>
+          <p eId="para_15">I will elaborate on the background to the levy.  Members are probably aware that it emanates from the Broadcasting Act 2009 which, in effect, consolidates all previous legislation.  We operated under a range of legislation before the 2009 Act was passed.  One of the key elements of the Act is the requirement on the Broadcasting Authority of Ireland, as a new structure, to be funded by a levy on the broadcasting sector.  That is probably why we are here.  Under the previous structure, the regulator — the separate Broadcasting Commission of Ireland and the Broadcasting Complaints Commission — was funded directly from the Exchequer.  A levy was imposed on the regulated sector between 1989 when broadcasting in Ireland started to be regulated and 2001 when the Broadcasting Commission of Ireland was established.  The levy in question was paid by commercial and community broadcasters.  During that period the levy was a flat fee of approximately 3% of gross advertising revenue.  It is useful to give some background information.  The levy was in place for 12 years.  The commission was funded through the Exchequer for eight years, from 2001 to 2009.  The new authority has reverted to a levy-based model.  It is important to make this point.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_4">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_16">Can Mr. O'Keeffe give the committee figures for the annual funding received by the commission during those years?</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_17">While we do not have them to hand, we can make them available.  During the years in question the commission's accounts were audited and placed before the Oireachtas.  There is no issue with making that information available.</p>
+          <p eId="para_18">The Broadcasting Authority of Ireland was established under the 2009 Act on 1 October 2009.  The members of the authority who were appointed met for the first time in November.  One of the first issues they addressed was the making of the levy order.  They undertook that process during the months of November and December.  As the committee is aware, the levy order was laid before the Houses in late January.  I will not go into the detail of the levy order, other than to mention that it is Statutory Instrument No. 7 of 2010 and is now before the Oireachtas.</p>
+          <p eId="para_19">I would like to make one point about the principle or concept of levy regulation.  It is consistent with other regulatory models.  The principle that the regulated pays for the regulator is standard.  This model is used in a number of other sectors.  I refer to the Commission for Communications Regulation, the Commission for Energy Regulation and the Commission for Aviation Regulation, for example.  They operate on the same principle, whereby the regulated pays for the regulator.  It is not unusual to use a levy to pay for regulation.  In many other jurisdictions it is the normal way of regulating a sector such as the broadcasting sector.</p>
+          <p eId="para_20">I have outlined for the committee some of the background.  I will hand over to my colleague, Ms Craig, who will talk about the development of the levy model and some of its features.</p>
+        </speech>
+        <speech by="#" eId="spk_6">
+          <from>Ms Celene Craig</from>
+          <p eId="para_21">In anticipation of the establishment of the Broadcasting Authority of Ireland, the Broadcasting Commission of Ireland was asked to undertake and prepare work on the levy model.  In this regard, PricewaterhouseCoopers was engaged to make proposals, to be made available to the authority, regarding how the levy would operate.  When it undertook this work, it identified examples of leading practice in models of regulator funding.  It looked at other regulators in Ireland and internationally, including broadcasting regulators in other countries.  It also consulted stakeholders, including the Department of Communications, Energy and Natural Resources and representatives of the broadcasting sector in Ireland.  It identified and evaluated four potential models and recommended that one of them be adopted.  When the Broadcasting Authority of Ireland was established, it was able to consider that recommendation.  It selected the levy model, having had regard to the PricewaterhouseCoopers report.</p>
+          <p eId="para_22">Certainty is the first of the five guiding principles that underpin the approach to the levy model adopted.  It reflects the requirement for the authority to be self-sufficient and self-financing.  It needs to be able to meet its expenses and discharge its functions.  The second principle — fairness — is also very important, in the sense that the levy paid has to match the cost of regulation.  The third principle — objectivity — really means the levy model should not favour or discriminate against any one broadcaster or broadcasting sector.  The fourth principle dictates that the levy needs to be simple and cost-efficient to administer.  The final guiding principle provides that it is important for the means by which the levy is computed to be transparent to those who pay it.</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_7">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_23">Did the current financial or economic crisis have any bearing on the guiding principles?  I am sorry to interrupt, but that is the crucial issue for us.</p>
+        </speech>
+        <speech by="#" eId="spk_8">
+          <from>Ms Celene Craig</from>
+          <p eId="para_24">One of the key features of the levy model — cost recovery — means that all that is required is the sum of money the Broadcasting Authority of Ireland needs to meet its expenses.  The cost recovery nature of the levy model, which means we do not recover too much money, is guided by the fairness principle.  The model used by the former Independent Radio and Television Commission meant that a flat rate had to be paid, regardless of whether it would meet the commission's expenditure or whether it would recover too much money.  This model is designed to provide the level of funding required to meet the expenditure of the authority and the two statutory committees.</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_9">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_25">As I am a member of the board of a semi-State regulatory body which uses the cost recovery model, I know what Ms Craig is talking about.  It seems to be a <i>sine qua non</i> that the authority should deal with its clients in the current economic circumstances, as it tries to come to a conclusion.  I am trying to establish whether the authority engaged in discussions with those it was regulating before it came to this decision.</p>
+        </speech>
+        <speech by="#" eId="spk_10">
+          <from>Ms Celene Craig</from>
+          <p eId="para_26">When PricewaterhouseCoopers was undertaking its work which was concluded late last year——</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_11">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_27">PricewaterhouseCoopers is not the authority.</p>
+        </speech>
+        <speech by="#" eId="spk_12">
+          <from>Ms Celene Craig</from>
+          <p eId="para_28">It would have consulted the relevant interests in late 2008 or early 2009.</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_13">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_29">I am trying to establish whether the Broadcasting Authority of Ireland dealt with its clients.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_30">I will allow the Senator to come back in after the delegates have finished their presentation.</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_15">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_31">I am sorry for interrupting, but I want to establish the facts of this crucial aspect of the matter.</p>
+        </speech>
+        <speech by="#" eId="spk_16">
+          <from>Ms Celene Craig</from>
+          <p eId="para_32">No, we did.  The consultation took place.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_17">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_33">If one looks at the authority's costs, that is the issue.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_34">Perhaps we can finish the presentation before we get into a question and answer session.</p>
+        </speech>
+        <speech by="#JoeOToole" eId="spk_19">
+          <from>Senator Joe O’Toole</from>
+          <p eId="para_35">I am trying to establish the issues involved.</p>
+        </speech>
+        <speech by="#" eId="spk_20">
+          <from>Ms Celene Craig</from>
+          <p eId="para_36">We will address that matter.</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_37">We will address it in the presentation.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_22">
+          <from>Chairman</from>
+          <p eId="para_38">I ask Ms Craig to continue.</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from>Ms Celene Craig</from>
+          <p eId="para_39">I said the cost-recovery nature of the model was one of its key features.  The levy is linked with the operating costs incurred by the Broadcasting Authority of Ireland in fulfilling its statutory obligations.  Qualifying income, the basis on which the levy is imposed on broadcasters, links with the regulated activity.  It includes commercial and non-commercial revenue, including the television licence fee and Government grants.  The model incorporates a regressive sliding scale, again to reflect the principle of fairness.  Regulation costs of larger broadcasters expressed as a percentage of total turnover will be smaller than for smaller broadcasters.  This reflects the fact that, regardless of the amount of income a broadcaster earns, only so much regulation is required.  The <i>de minimis </i>rule reflects the simplicity of administration rule, in other words, certain broadcasters with earnings below a certain level were claiming a flat fee as opposed to a percentage of the levy.  Community broadcasters are primarily affected. </p>
+        </speech>
+        <speech by="#" eId="spk_24">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_40">I will discuss the operation of the levy for 2009 and 2010 and in doing so touch on some of the budget and cost issues members have raised.  Once I have done so, I will answer as many questions as possible.</p>
+          <p eId="para_41">Having completed the exercise for the final quarter of 2009, actual costs amounted to €1.24 million.  Based on the 12 months of the year, we estimate total expenditure for 2009 will be €5.2 million.  I draw a distinction between total expenditure or the outturn and the budget we set for the year.  Generally, we set a budget in October or November of the year preceding the budget year.  We set a budget of approximately €6.4 million for 2009.  This reflected the expenditure of the Broadcasting Commission of Ireland for the years prior to 2009.  Deputies will have noted, for example, from our audited accounts for 2006, 2007 and 2008 that the cost of running the Broadcasting Commission of Ireland and the Broadcasting Complaints Commission was between €6 million and €6.4 million in the three years in question.</p>
+          <p eId="para_42">Although the budget for 2009 was set at slightly more than €6 million, the outturn was lower than anticipated.  One of the reasons for the lower outturn was that 2009 was very much a year of transition.  Members who were involved in the passage of the Bill through the House will recall that initially it was expected that the Broadcasting Authority of Ireland would be established in April 2009.  The date was then changed to summer 2009 and, following the passing of the Bill, the authority was established later in the year.  For this reason, policy development did not feature strongly in 2009, as the Broadcasting Commission of Ireland was approaching the end of its term of office.  In the knowledge that legislation was before the Oireachtas, it would not have considered it appropriate to develop policy in a range of areas during a period in which it was overseeing the transition to a new organisation.  Costs and the outturn during the period in question reflect this fact, which explains the figure of €5.2 million for 2009.</p>
+          <p eId="para_43">The January to December budget for 2010 has been set at €7.6 million.  We did the budget exercise for this projection based on what we deemed to be all of the requirements of the 2009 Act.  As members will be aware, the Act introduces a range of new statutory requirements.  Many of these legislative requirements are time-bound, in other words, they must be undertaken relatively quickly.  The budget was set at approximately €1.2 million higher than the standard budget of the Broadcasting Commission of Ireland to reflect this additional workload.  When we, at executive level, were constructing the 2010 budget, we decided to include all these additional elements.  As the legislation required the commission to perform certain functions, we decided to try to do these within the specified timeframes.  For this reason, everything we believed to be relevant was included in the budget we constructed.</p>
+          <p eId="para_44">At a meeting with the Broadcasting Authority of Ireland in December we presented the outline work plan in draft form.  While the authority approved the plan in principle, it asked us to refine it and produce a more detailed version.  It also requested that we review the budget and reduce expenditure, where possible, subject to the constraints imposed by the need to meet legislative requirements.  In doing so, it was cognisant of the position in which the sector finds itself.  We have been undertaking this exercise and at the meeting with the authority on 22 February we finalised the work plan and secured its approval for it.  We are in the middle of an exercise to review the budget in the context of the finalised plan.  This will be completed in the coming weeks.</p>
+          <p eId="para_45">As I noted, we set the budget based on what we believed we were required to do.  At all times the Broadcasting Authority of Ireland strives to keep costs low.  During the years the outturn has been lower than the budget because, as a general principle, we require that expenditure be kept to a low level.  We are committed to this principle at all times.  Once we have completed the current exercise, we will be able to provide clarity.</p>
+          <p eId="para_46">On Ms Craig's point that the levy is a cost recovery mechanism, income that is not required will be recouped to the sector.  That is the principle to which we operate.  We do not take in money for the sake of building a war chest.  The authority has given a commitment that any money not expended will be returned to the sector.</p>
+          <p eId="para_47">A number of other commitments have been given.  The Act requires the Broadcasting Authority of Ireland to have in place a three year budget for the years 2011 to 2013 by September this year.  This should create a greater degree of certainty than at present.  The Act also requires the authority to review administrative burdens and examine areas where we can reduce the regulatory burden on broadcasting entities with a view to reducing the impositions on broadcasters.  We have given a commitment to the sector in this regard.  We will examine the reduction of costs and expenditures in the context of the need for cost reductions in the public service.  That is the commitment we gave on our budget.</p>
+          <p eId="para_48">Before I take questions, I will give members a flavour of some of the elements of the work plan.  Our costs are broken down in a range of areas.  Most of the additional costs in the current year relate to operational activities arising from the Act.  The most obvious of these is in public service broadcasting.  A number of activities relate to the regulation of public broadcasters, a function the Broadcasting Authority of Ireland must undertake.  The public service broadcaster requirements emanate from a European Commission requirement on the independent regulation and verification of public service broadcasters' activities.  These activities must be carried out or we will not be in compliance with European directives in this area.</p>
+          <p eId="para_49">Programme codes and standards are an ongoing area of development.  We will be developing the right of reply scheme, programme standards and codes of advertising, all emanating from the revision of the audio-visual media services directive.  In the current year we will consider new codes on fairness, impartiality and objectivity.  As members might be aware, work is ongoing on election guidelines and other such issues.  We continuously undertake revisions of work in those areas.</p>
+          <p eId="para_50">A number of policy development areas emerge from the legislation.  We will look at phasing some of those depending on what we need to do.  Digital broadcasting is required within the Act.  I included complaints and compliance because the Act introduces a new regime on those areas.  It introduces investigation mechanisms and sanctions provisions.  Those are policies that must be developed.  There is a requirement we do that.</p>
+          <p eId="para_51">In the first year of the Act there is a requirement that we put a three-year statement of strategy in place.  Some of this arises from the levy.  There are significant financial reporting and management obligations.  For example, we have to do two sets of accounts in the first year to cover the previous BCI and the first three months of the BAI and then we have to do our ongoing financial work on the current year.  That is a flavour of what is happening.  I could have given a more detailed presentation on all those issues but I am conscious of time.  I would be happy to return to talk about matters at a later stage if that is required.  We are happy to answer questions as best we can.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_25">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_52">I welcome the delegates and thank them for attending at short notice.  I am pleased they are present as this is developing into a political issue as well as a funding issue for the new regulatory structures of which the delegates are in charge.</p>
+          <p eId="para_53">I will make one or two comments and then ask specific questions.  First, this is an unsatisfactory way to start out on a new levy process, that the Oireachtas is being asked to approve a levy order without having seen the detailed costings of the proposed expenditure estimate for 2010.  Mr. O'Keeffe has informed us today that he is doing a review of the 2010 budget in the next few weeks, yet we have until next Thursday to annul the levy order should we choose to do that.  That is the wrong way to do business.</p>
+          <p eId="para_54">The BAI is getting off to a poor start in regard to the levy.  I understand the delays and complications there have been with the setting up of the BAI and the delays in regard to the legislation.  That added to a difficult management transition exercise which had to be facilitated.  That said, it is not acceptable that a levy order would be before the Houses of the Oireachtas without the Members of the Oireachtas knowing the estimate.  The Minister stated on 26 January that in accordance with section 37(7) of the Act, the 2010 estimate of income and expenditure would be published shortly by the BAI on its website with his consent and that of the Minister for Finance.  As of last night there is no evidence of any estimate on the website.  Perhaps it is there today but I did not check this morning.</p>
+        </speech>
+        <speech by="#" eId="spk_26">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_55">No.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_27">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_56">We have a job to do as well.  We have radio station representatives and broadcasters coming to our offices saying they cannot afford to pay a €100,000 levy.  They could, but they would have to let two people go to do that.  We are expected to justify the levy process to fund a new regulatory model without even seeing the estimate of expenditure and the budget for the BAI for 2010.  The legislation has been approved and it is in place.  It is a futile exercise to start to undermine the principle around a levy and the industry paying for the new regulatory model.  Most people in the industry accept a levy is inevitable.  That is in the legislation and it will be implemented.  What I and they do not accept is that we would have a 27% increase in the budget from 2009 to 2010 without any detailed explanation to justify that.  Up to this morning we have not received an explanation.</p>
+          <p eId="para_57">Mr. O'Keeffe informed members he is reviewing the budget and will continue to review it after the levy order is passed by the Oireachtas.  That is not acceptable.  Why has the estimate not been published?  Even if Mr. O'Keeffe is continuing to review it, why has he not published the estimate that has been given to the Minister for Communications, Energy and Natural Resources, which I presume has also been seen by the Department of Finance?</p>
+          <p eId="para_58">Mr. O'Keeffe had a detailed and acrimonious meeting last week with independent broadcasters.  That was a difficult meeting for him.  I understand he tried to answer as many questions as he could but there are some outstanding.  For example, if he applies his own principles on issues such as fairness, objectivity and certainty, there is a great deal of uncertainty as to what qualifies as revenue for broadcasters.  Does it, for example, include taking the payment of royalties away from the revenue stream before reaching a figure on which to calculate the levy?  Local radio stations in particular have not received an answer to that question.</p>
+          <p eId="para_59">Will Mr. O'Keeffe provide a detailed answer on the role of PricewaterhouseCoopers, not so much in putting the levy structures together but the continuing role it appears to have as a consultant to the BAI?  Mr. O'Keeffe is in somewhat of a straitjacket, as are many other agencies in the State at present because of the recruitment ban, which I presume applies to the BAI as well.  Is Mr. O'Keeffe making up that shortfall by employing consultants such as PwC to do a lot of the work for it?  If that is the case, what percentage of the budget does that involve?  How much is being paid to PwC for the continuing role it is playing, not just in putting the structures together but also in the collection process?  My understanding is that PwC is writing to local radio stations and broadcasters giving information and seeking information in preparation for the collection of a levy.  I would like to know how that works.</p>
+          <p eId="para_60">Regarding the recruitment ban, will Mr. O'Keeffe indicate how many people are employed by the BAI on a full-time and part-time basis?  My understanding is that there are approximately 24 full-time staff and seven part-time staff, but that might be inaccurate.  It would be helpful to have that on record.</p>
+          <p eId="para_61">The inability to pay principle that is contained in the Act was raised.  How does the BAI intend to apply that to radio stations who might be struggling as we speak?  When that question was asked last week a somewhat ambiguous answer was given.  If a radio station is on a knife edge in terms of financing itself, how does it get treated under the fairness principle in the guidelines outlined by Mr. O'Keeffe?</p>
+          <p eId="para_62">It would be unreasonable to expect the BAI to come up with a three-year budgetary programme immediately on being set up.  It is not unreasonable to ask for it to be prepared by next September.  We are in an interim period at the moment.  That needs to be accepted and people should not make unreasonable demands of the BAI in terms of the three-year budgetary programme at this early stage.  However, because we are in an interim period as well as in the middle of a recession, the BAI has an obligation to apply the kind of cost cutting to itself that every radio station has had to apply to itself to survive.  I do not see evidence of that in a budget that proposes an increase from €6 million to €7.6 million despite the fact that some new responsibilities and structures have been added and have to be paid for.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_28">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_63">I thank the delegates for appearing before the committee at such short notice.  Their presence is very much appreciated.  It offers an opportunity to give an idea of the concerns raised.  I have received a wide range of detailed submissions, especially from local radio stations and the independent television sector.  All of them have raised deeply felt concerns about the levy.</p>
+          <p eId="para_64">The principle of paying for the regulator is not at issue, but neither does that mean a blank cheque approach was expected.  The Government has decided no longer to fund a particular structure through State revenues and has given that statutory responsibility to a sector which has been enormously impacted upon owing to a drop in advertising revenue.  We all supported the Broadcasting Act but some of us did raise concerns.  At many stages, I raised my concern – which has been proved right – that there should be one regulator across the board for communications and broadcasting, as recommended by Colm McCarthy.  However, we now have a levy scheme before the House.  I have tabled a motion to have it annulled.  The levy unusually is in the name of the Broadcasting Authority of Ireland when it usually would be in the name of a Minister.  If there is to be a serious review, the levy scheme will have to be annulled to provide a fresh start.  Otherwise, we are locked into the scheme.</p>
+          <p eId="para_65">When I first raised the issue of the cost of the levy, the Minister indicated he did not suspect there would be much of an increase.  He even used the analogy of two football teams paying for the referee.  As it has turned out, this is anything but a small charge.  Originally the figure was 1% of advertising revenue but now the broadcasters claim it is 1.7%.  Does Mr. O'Keeffe acknowledge there must be an annulment of the levy in order for a serious review to take place?  Mr. O'Keeffe referred to a work plan which we do not know about.  The committee is being asked to approve the spend of a not insignificant sum of money, €7.6 million, but it does not know how it will be spent.  The committee's main job is to go through the Department's Estimates item by item.  It is a concern to any politician to sign off on a spend of which he or she has no knowledge.  No one objects to the idea of paying for the regulator.  However, the banking sector does not pay in full for IFSRA's costs, just 59%.  The telecom companies pay for ComReg but there is no public service obligation in that sector.  The broadcasting levy is an anomaly.</p>
+          <p eId="para_66">Up to 15 British television stations avail of the Irish advertising market but they are not being asked to pay a cent to this levy.  If the Irish stations cannot get enough advertising to pay the levy, they are in serious trouble.  The advertising cake is also getting smaller because of digital platforms and alternatives to television.  We must examine the context of this proposed and flawed levy.</p>
+          <p eId="para_67">Why did the Broadcasting Authority of Ireland have to go outside to PricewaterhouseCoopers to get its expertise?  I understand the authority has a shortfall in its accountancy-financial officer capacity.  How much will it continue to pay for outside assistance if it does not have that capacity in-house?  I would have thought the Department would have been able to provide this capacity.  We cannot continue with Departments and State agencies availing of consultancies and paying them fortunes.  It might have been easy to explain it away in the good times but we are now in extremely hard times.  We have had good government in difficult times.  In the past 20 years, however, it is as if we have had such a paralysis in the Civil Service and the semi-State agencies that we need outside agencies.  We have the capacity as long as it is used wisely.</p>
+          <p eId="para_68">Filling the financial officer position may be explained away by the public sector recruitment embargo.  However, it is a necessary position and if it has to be addressed as part of the review by the Minister for Finance, then so be it.  That is the least that can be done for the sector which will have to pay the levy.  At the very least, it is entitled to that kind of service.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_29">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_69">Politicians have been justifiably criticised for failing to lay emphasis on competitiveness in the good times.  Then it may have been excused on the grounds there was plenty of money available.  In the deepest recession we have known in our lifetimes, not to apply competitiveness is unforgivable.  Is it correct that the authority's 2009 costs came to €5.2 million and that it is now seeking an almost 50% increase to €7.6 million for 2010?  Local and national radio stations have seen a 30% downturn in their advertising revenues.  If we are going to adhere to a competitive ethos, we should be telling the authority to give us its 2006 figures and reduce that by 30%.  I will be asking the BAI to give us its 2006-07 figures and come back with an estimate that is 30% under that.  Specifically, as PricewaterhouseCoopers was engaged by the BAI, did it do a full trawl through the authority's cost structure to identify savings?  Was that part of its brief or did any other consultancy firm do this?  What reduction has the BAI achieved in its cost base since 2006-07?</p>
+          <p eId="para_70">Given the pay cuts in the private sector and now in the public sector, what salary reductions were there for BAI staff within the last two years and can it quantify what rationalisation of numbers took place within the organisation?</p>
+          <p eId="para_71">What percentage of the smaller local stations' revenue, on average, would be their net profit target?  I expect senior executives of the BAI to know that figure off the top of their heads.  If the BAI is looking for 3%, I expect that most businesses operating, say, on a margin of 9% or 10% of turnover could be regarded as doing well.  If the authority is looking for a third of that – if that is their figure, and I have no idea what it is – I am surprised it is seeking such a high a proportion of their profits.  I believe this could have an enormous impact on their investment plans for the future.</p>
+          <p eId="para_72">The BAI says it has a regressive sliding scale as regards the levy model, but this impacts on the smaller operators to a greater extent.  I am wondering about the rationale behind that since it obviously favours the larger operator, not the smaller one.  I accept the principle of the BAI being funded by the broadcasting sector.  That is a requirement of the Act and I subscribe to it, since I believe the notion is good.  Unfortunately, the weakness in the whole structure is that there is no pressure on the authority to operate efficiently and cost effectively.  That is a trend right across the public sector because of the income and expenditure accounts model.  In fact, the BAI is only working on expenditure, so we need to see real management commitment.  This is a test of management.  It is about operating effectively at the lowest possible cost base.  I would like evidence of that before we approve anything.</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_30">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_73">Like the other speakers, I welcome the delegates and thank them for briefing us on this very important matter.  The word "fairness" caught my eye under the BAI's guiding principles in the presentation.  I wish to dwell on that, based on correspondence that I and other members have received from independent radio and television stations, at the risk of repeating what has been said already.  It strikes me that at a time when every other sector in the country is trying to reduce costs, and take cuts, the BAI is proposing a whopping 27% increase, amounting to an extra €1.6 million, in an era when we are being told to tighten our belts and be competitive.  In brief, I am led to believe the primary reason for this is the inclusion of the regulation of RTE.  If a significant proportion of that increase is due to regulating RTE, would it not be fair if the national broadcasting station was to carry that burden itself?  It would help the committee if the authority could clarify its formula which states that if the levy ends up at 3%, an organisation such as RTE would be paying in the region of 1.25% of net income, whereas a local radio station such as TippFM, which provides a very valuable service in my area, should pay something in the region of 2.75% of its income.  Is that so, and would the BAI describe that as fair, in the event?   Bearing in mind the impact of fairness, it is worth considering that RTE is cushioned by the licence fee, whereas independent radio stations derive no benefit from it.</p>
+          <p eId="para_74">I share the concern of the other members of the committee as regards PricewaterhouseCoopers and I want to ask the straight question: what has the authority paid PricewaterhouseCoopers to date and what will it continue to cost in the times ahead?</p>
+          <p eId="para_75">I want to emphasise that it seems the extra cost is due to the inclusion of RTE, so what should the small stations do, at a time when their revenue has declined by an estimated 25% and the predicted decline for this year is an extra 5% to 7%?  The authority is increasing its levy by 27% when the revenue of the local radio stations is in decline by more than 30%.  That does not seem fair to me and perhaps the BAI will clarify the position.</p>
+        </speech>
+        <speech by="#PeterKellyFF" eId="spk_31">
+          <from>Deputy Peter Kelly</from>
+          <p eId="para_76">I welcome Mr. Michael O'Keeffe and Ms Celine Craig.  I visited the BAI premises recently with colleagues and I thank them for the courtesy and welcome extended to us.  I was very impressed with the operation.  I found it very complicated, but it was world class.</p>
+          <p eId="para_77">There seems to be controversy in relation to the levy as regards local radio stations.  We would support local radio stations, since this imposition is being described as "a huge levy".  My local radio station is ShannonSide Northern Sound, and I must emphasise that the national broadcaster had no real interest in rural Ireland whatsoever until the local radio stations came along.  Then we started to get coverage for the whole country rather than from the capital and international news.</p>
+          <p eId="para_78">It is accepted that the levy has to be funded by the broadcasting sector.  I want to know whether discussions took place with the local radio stations regarding the levy, what the costs will be and whether they can afford it.  Regulation was mentioned, and I have a thing about regulators.  I have no problem with ComReg, which is doing a good job, but as regards international regulation, I would prefer not to have to take advice from any international regulator after the debacle of the banking system and the financial crisis we experienced having followed advice from international institutions.  I believe we got very bad advice, but in any event we should have enough expertise and commonsense in this country to be able to take advice from somebody here in Ireland, and cut the cloth according to measure.</p>
+          <p eId="para_79">The difference in scale between the national and local radio stations has already been pointed out.  A sliding model is acceptable as long as it is fair.  I am delighted that fairness has been mentioned.  I heard one radio station recently proclaim a ban on politicians talking.  I am not sure what was meant by "politicians" in that context, because they immediately let someone on for half an hour who was promoting a political party, although he was not an elected public representative.  I do not know whether he was a politician, but that is the only crib I ever had with a radio station.  I could not believe how emphatic the presenter was.  He was having no Dáil Deputies, no Senators, no county councillors and then he let in a political activist who was a politician in all but title, who rambled on for half an hour and gave us all his views.</p>
+          <p eId="para_80">My main concern is job losses.  I do not want to see job losses, especially in local radio stations.  There are three or four local radio stations in the midlands.  Shannonside Radio is the local station in Longford, and it is based in the Mastertech Business Park in Longford.  The administrative staff there are the most helpful and courteous people one could meet.  They are fair and unbiased in the newsroom.  It varies on talk shows, because people have different ideas one way or the other, but talk is talk.  Everybody seems to have a thing about the levy in respect of local radio stations, and the bottom line is that I am concerned about job losses.  I am sure the delegates will review it and tell us next week that they will only levy the national broadcaster and that they have abolished the levy for local radio stations.  That would solve the problem.</p>
+        </speech>
+        <speech by="#MaryMWhite" eId="spk_32">
+          <from>Senator Mary M. White</from>
+          <p eId="para_81">I welcome Mr. O'Keeffe and Ms Craig.  I do not want to repeat what everybody else has said, but there is no question that the broadcasters do not have a problem in principle with paying a levy.  However, there has been about a 46% increase in the BAI's budget over the past quarter.  I accept that implementing the legislation will have an effect, but this levy could amount to €2,000 per week for some independent radio stations.  A bill like that out of the blue would come as a shock.  If this is pursued, then the quality of the broadcasting could be diluted and could amount to job losses.</p>
+          <p eId="para_82">One of the first effects of the recession was the collapse in advertising.  I remember wondering how the television stations that were not funded by taxpayers would get by.  We must have transparency and scrutiny of the BAI's budget for 2010.  I am not a member of this committee, but as a business person, I am constantly talking about job creation and job retention.  It is bad enough to read about companies going out of business, but we must hold on to existing jobs.</p>
+          <p eId="para_83">The small independent radio stations around the country are lifelines to people.  They are a form of social networking and they draw communities together.  Any time I have been on a local radio, people have called in from that area.  Local radio is a fundamental part of community life across the country.  I am here to support independent broadcasters.  The BAI will present a three year budget plan to the Minister, but because of the recession, they should remove the increase in the levy.</p>
+        </speech>
+        <speech by="#JoeMcHugh" eId="spk_33">
+          <from>Deputy Joe McHugh</from>
+          <p eId="para_84">I will be brief because most of the areas have been covered at this stage.  How thorough was consultation with the stakeholders, assuming that independent radio stations were part of that?  Did it take place in the form of correspondence, or was it an in-depth consultation that examined how radio stations have had to restructure in the past year?  Have they looked at the different restructuring models?  Most radio stations faced a choice of either laying off staff or taking wage reductions.  Some of the radio stations would have opted taking wage reductions to keep staff.  Has the BAI or PricewaterhouseCoopers undertaken a thorough examination on an individual basis of how these restructuring models have come into operation?</p>
+          <p eId="para_85">Every radio station in the past 12 to 18 months has seen a reduction in advertising revenue.  The irony is that many local independent radio stations have increased listening figures, but decreased revenues and an increased cost base.  They are faced with a savage levy which will contribute to more cost increases.  How will these stations balance their restructuring model when the BAI puts this levy on them?</p>
+        </speech>
+        <speech by="#MaryMWhite" eId="spk_34">
+          <from>Senator Mary M. White</from>
+          <p eId="para_86">One of the biggest reasons for the loss of competitiveness between 2000 and 2009 was the outrageous costs charged by accountancy firms, taxation firms, consultants and legal firms.  I dealt with a legal firm on two occasions between 2000 and 2005, and I felt the charges were immoral.  We would like to know the price charged by PricewaterhouseCoopers.  We will have to go back to people in organisations doing it themselves.  These consultants creamed off the money and they added to our loss of international competitiveness.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_35">
+          <from>Chairman</from>
+          <p eId="para_87">I add my support to the contributions made.  In a very difficult trading climate, it is important that all statutory bodies recognise what is going on out there.  Companies are trading with a 30% loss in revenue, while costs of rent, rates and salaries are coming down.  It is important that this committee defends a sector which is under serious threat.  It will be heard from all sides of the House that we are genuinely concerned about the local, regional and national independent radio sector.  Perhaps Mr. O'Keeffe would address the points raised.  I am conscious we are tight on time.</p>
+        </speech>
+        <speech by="#" eId="spk_36">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_88">I thank the chairman and all the members who contributed.  I will try to headline some of the issues as there is a range of questions.  Members should come back to me if I have not covered specific issues they have raised.</p>
+          <p eId="para_89">The first heading is the levy order.  Deputy McManus in particular asked whether the order is fair.  I draw the distinction between the levy order, on the one hand, and the budget of the BAI, on the other, because they are two separate matters.  The way we structured the levy order is that if our budget was €1 million, the levy order would apply on a particular basis, and if it was €10 million, it would apply on the same basis.  It is designed to be fair to all parties concerned.  That is the structure of the order, whereas many of the issues raised by the Deputy relate to the budget and why the costs of the BAI are where they are.  The order itself——</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_37">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_90">The BAI has some control over the order.</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_91">I accept that.  However, my key point on the levy order is that we have set it in a way that tries to be fair.  A number of issues have been raised around the regressive sliding scale and a number of other elements.  To give an example, given the way it is structured, the public service broadcasters will pay close to 50% of the total costs, although we have not done the final calculations.  What we were trying to do with the order was to reflect the fact there was a certain level of regulation——</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_39">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_92">What is the percentage the public service broadcaster gets in terms of revenue stream?  That is the only issue.  The issue is not how much they are paying in actual terms but in relative terms.</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_93">Let me be clear.  If we did not operate a regressive sliding scale and we just set a flat fee, the public service broadcasters — the larger broadcasters, if one likes — because of their level of income, would pay a greater level of the levy.  There is no question about that.  In terms of——</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_41">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_94">What is the percentage of overall revenue stream that goes to the public service broadcasters in Ireland?  Do the witnesses have a figure for that?</p>
+        </speech>
+        <speech by="#" eId="spk_42">
+          <from>Ms Celene Craig</from>
+          <p eId="para_95">The approach is to consider the amount of regulated activity.  What we are seeing associated with the public service broadcasters, approximating to about 50% of the levy, is that about 50% of the activity will be with public service broadcasters.  The model is designed to reflect the amount of regulated activity that goes with particular sectors of broadcasting.  That is the principle of fairness as opposed to simply seeing it as a flat percentage of anybody's revenue.  There is a point beyond which, regardless of the amount of revenue a broadcaster earns, the level of regulation and regulated activity is not linked to the amount of revenue of broadcasters.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_43">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_96">Under the ability to pay principle, the higher the revenue stream, the higher the ability to pay.  That is the only point I make.</p>
+        </speech>
+        <speech by="#" eId="spk_44">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_97">The main television commercial broadcaster would disagree fundamentally with that.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_45">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_98">I am sure it would.</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_99">That is a model one could operate but, in terms of the level of regulation, one would have to question whether it would be a fair system.  That is the system we operated in the past for the local radio sector.  The stations paid a flat fee of 3% of gross revenue for the first 12 years of their existence but this did not take into account whether a station was doing well, badly or otherwise.  It simply stated that when a broadcaster was calculating its revenue for the year, it had to set 3% aside irrespective of other considerations.  This model, which is a little more complex, is designed to try to reflect fairness in terms of the actual level of regulation we would undertake with the different entities.  One could have a different model but it would not comply with that principle.</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from>Ms Celene Craig</from>
+          <p eId="para_100">The ability to pay principle is not based on whether there is enough money left in the pot to pay.  Instead, it is linked to the type of sector and industry.  For example, to take community stations which are by and large funded by very small grants and are largely voluntary, their ability to pay on a level of regulation would not be the same as the ability of a commercial station.  The ability to pay principle applies in that situation.  It is not absolute.</p>
+        </speech>
+        <speech by="#" eId="spk_48">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_101">We believe the model is fair in terms of what we do and what we are trying to achieve.</p>
+          <p eId="para_102">The second major issue the committee has raised concerns the budget.  One of the questions asked is whether the reason for the increase was the extra activities with public service broadcasters.  Much of it related to these extra activities but much of it is related to other activities dealt with in the statute.  There is a whole range of new requirements in the statute.</p>
+          <p eId="para_103">Our budgets going back a number of years were in the region of €6.4 million, primarily to regulate the commercial broadcasting sector.  The BAI is a new entity which is regulating the entire sector and, inevitably, there are additional costs in this regard.  It is an important point.  There are a range of additional responsibilities.  We are obliged to deal with those under the statute and a cost is inevitably associated with that.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_49">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_104">Can the BAI not phase them in?</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_105">That is one of the issues we are examining.  The Deputy asked about the budget.  We could have published a budget of €7.6 million.  We submitted that information to the Department.  When I say we have committed to a review, I mean we have committed to a review downwards and we will not be coming back with a budget of €7.8 million or €8 million.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_51">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_106">There should be more pressure in this regard.  This is typical public service utility speak.  It sticks in my craw given the number of people who are unemployed and the number working within the industry who could be unemployed simply because the BAI is not radically scrutinising its own cost base.  I get no sense of recognition of this from Mr. O'Keeffe.</p>
+        </speech>
+        <speech by="#" eId="spk_52">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_107">I appreciate that but I must disagree.  We are doing that.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_53">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_108">I expected he would say that.</p>
+        </speech>
+        <speech by="#BeverleyCooperFlynn" eId="spk_54">
+          <from>Deputy Beverley Flynn</from>
+          <p eId="para_109">Chairman, while I am not a member of the committee——</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_55">
+          <from>Chairman</from>
+          <p eId="para_110">We are caught for time.  We will let Mr. O'Keeffe complete and we will then let Deputies Dooley and Flynn comment.</p>
+        </speech>
+        <speech by="#" eId="spk_56">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_111">In terms of setting the budget for the current year, we were doing it in the absence of an authority being in place.  We have had the authority in place from November.  As it is a brand new authority, it is important that it is clear on what it is doing in terms of setting out its work programme.  We have worked very closely with it to do that.  We have committed to engaging with the industry.  While it was certainly a robust and tough discussion, I would never categorise our engagement with the sector as "acrimonious".  We gave a commitment at that meeting to continue to engage with the sector and we will do so.</p>
+          <p eId="para_112">With regard to some of the questions the committee raised around qualifying income and various other elements, we have addressed those and have been addressing them in the past week.  We are providing clarity on an ongoing basis with the various stations.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_57">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_113">What about us?  Where is the clarity for the people who approve a scheme on behalf of the public?</p>
+        </speech>
+        <speech by="#" eId="spk_58">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_114">I will attempt to answer the questions members have raised with us.  I am talking about specific questions they raised around qualifying income and we have given clarity to them in that regard in the past week.  We are giving that clarity to them and we will continue to do that but it is an ongoing process and it is the first year of the authority's existence.  As members know, the first meeting of the full authority with all nine members in place was last week.  They have approved a work plan and told us that is the work plan they want us to proceed with, and they told us we should refine our budget further.  That is the exercise we are undertaking.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_59">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_115">Why is it not on the website, as was promised?</p>
+        </speech>
+        <speech by="#" eId="spk_60">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_116">It will be up on the web once it is completed.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_61">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_117">That was promised back in January.</p>
+        </speech>
+        <speech by="#" eId="spk_62">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_118">We gave an undertaking that we would cut the budget.  We can do that but we are anxious to complete this exercise.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_63">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_119">Does Mr. O'Keeffe, in all sincerity, expect Members of the Houses of the Oireachtas to allow a levy order go through which is a first for the new body?  Does he expect us to do so without even seeing a work programme?  In the current climate we must be able to stand over every area of expenditure, particularly in the context of a proposal that will exert significant financial pressure on a major sector.  Does Mr. O'Keeffe expect us to stand over a situation where the authority is applying to impose a levy that it has been calculated will raise some €7.6 million on the basis that the authority will review broadcasters' income at year end and possibly refund some of the money if it does not use it all?  In the meantime, local radio stations will have to lay people off.</p>
+        </speech>
+        <speech by="#BeverleyCooperFlynn" eId="spk_64">
+          <from>Deputy Beverley Flynn</from>
+          <p eId="para_120">As I am not a member of the committee, I thank the Chairman for allowing me to participate in this debate.  This issue is of great interest to me because there is a large commercial radio station in my constituency.  I am concerned about the lack of control radio stations will have in regard to the proposed levy.  In a situation where the authority's costs are rising, the levy will represent an increasing cost to radio stations and one over which they will have absolutely no control.  Despite the arguments made by Mr. O'Keeffe in regard to the sliding scale, the charge will inevitably have a disproportionate effect on smaller commercial radio stations.  At a time when income receipts for radio stations are falling, the levy will put great pressure on them to retain jobs and remain viable.  No commercial entity should be put in a position where it will have absolutely no control over a particular cost.  That is madness in the current economic climate and must be addressed.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_65">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_121">Like Deputy Flynn. I thank the Chairman for allowing me, as a non-member of the committee, to participate in this debate.  My local radio station, Clare FM, provides an excellent service.  I am not sure what problem the authority is seeking to solve by developing a work plan with an open-ended budget that starts from the top down.  Surely it would make more sense to work through the issues that need to be resolved — we all recognise the need for regulation — and on this basis bring forward a cost model in line with current circumstances and the difficulties facing radio stations as a consequence of reduced revenues from advertising and so on.  Many of them are already struggling to survive, with most having put staff on a three or four-day week.  As I understand it, for stations like Clare FM, the levy will represent an additional cost of €60,000 a year.  That probably equates to the cost of two jobs.  In essence, what Mr. O'Keeffe is saying is that improved or increased regulation will reduce the quality of programming output.  It is as simple as that.  The authority is regulating stations out of existence.  Surely the delegates will agree that this is unacceptable, given the difficulty in which stations find themselves in grappling with the economic crisis.  Ultimately, it is listeners who will be at a great disadvantage.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_66">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_122">Will Deputy Dooley vote against the proposal if he feels so strongly about it?</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_67">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_123">I will deal with that.  We are trying to discuss the issue in a non-partisan way.</p>
+        </speech>
+        <speech by="#MichaelWDArcy" eId="spk_68">
+          <from>Deputy Michael D’Arcy</from>
+          <p eId="para_124">Deputy Dooley brought it up.  It is typical of him to feign indignation.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_69">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_125">I ask the delegates to go back and review the budget in line with the ability of stations to pay.  We can play politics like my friend, Deputy D'Arcy, or we can work together to address the problem in a practical and non-partisan way.  The latter is the way to go.</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_70">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_126">Mickey Mouse is in Dáil Éireann.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_71">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_127">Deputy Coonan would know all about that.  He has delivered nothing and Deputy Lowry is running rings around him.</p>
+        </speech>
+        <speech by="#NoelCoonan" eId="spk_72">
+          <from>Deputy Noel J. Coonan</from>
+          <p eId="para_128">Deputy Lowry is in the Government's pocket.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_73">
+          <from>Chairman</from>
+          <p eId="para_129">I ask Mr. O'Keeffe to sum up because we are short of time.</p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_130">I would hate an impression to be created that we are not aware of the challenges.  Senator Walsh asked about our awareness of——</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_75">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_131">I am not looking for awareness, rather I am asking the authority to take action.  Awareness is not enough.</p>
+        </speech>
+        <speech by="#" eId="spk_76">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_132">We are aware of stations' finances.  We deal with them on a daily basis and are aware of the downturn in the economy in recent years.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_77">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_133">My question was whether Mr. O'Keeffe could give the percentage profit or loss with which stations are working.</p>
+        </speech>
+        <speech by="#" eId="spk_78">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_134">The problem we have in giving specifics is that we——</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_79">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_135">I am just looking for an average percentage.</p>
+        </speech>
+        <speech by="#" eId="spk_80">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_136">We have specific details for 2008, but data for 2009 have not been submitted.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_81">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_137">Will Mr. O'Keeffe give us the average percentage for local radio stations in 2008?</p>
+        </speech>
+        <speech by="#" eId="spk_82">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_138">They were profitable in 2008.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_83">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_139">What was their percentage profit?  That is my specific question.  I suspect Mr. O'Keeffe does not know the answer, which is alarming.</p>
+        </speech>
+        <speech by="#" eId="spk_84">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_140">No, we have all of that detail.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_85">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_141">What is the percentage?</p>
+        </speech>
+        <speech by="#" eId="spk_86">
+          <from>Ms Celene Craig</from>
+          <p eId="para_142">It is highly variable as between stations.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_87">
+          <from>Senator Jim Walsh</from>
+          <p eId="para_143">Yes, I am asking for the average percentage, not the figure for a particular company.</p>
+        </speech>
+        <speech by="#" eId="spk_88">
+          <from>Ms Celene Craig</from>
+          <p eId="para_144">It was in a range between 10% and 30% up to that period.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_89">
+          <from>Chairman</from>
+          <p eId="para_145">We have run out of time.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_90">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_146">There were specific questions on how much the authority was paying PricewaterhouseCoopers for its services.  To be fair, I would like get a sense of the impact the embargo is having on the authority's ability to deliver on its statutory obligations.  How much is the bill to PricewaterhouseCoopers?</p>
+        </speech>
+        <speech by="#" eId="spk_91">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_147">We have outsourced levy collection to PricewaterhouseCoopers.  We have been caught by the embargo in that we were not in a position to employ an additional person to deal with it.  However, the cost of the outsourcing is less than the cost of recruiting a full-time person for that purpose.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_92">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_148">Does the authority not have a financial controller?</p>
+        </speech>
+        <speech by="#" eId="spk_93">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_149">We do, but that is also an outsourced position and separate from the levy issue.  I referred specifically to the outsourcing of levy collection because that was the issue that had been raised.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_94">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_150">In other words, there are two bills, one for levy collection and one for the financial controller.  What company provides the latter service?</p>
+        </speech>
+        <speech by="#" eId="spk_95">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_151">That is also provided by PricewaterhouseCoopers.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_96">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_152">Therefore, PricewaterhouseCoopers is receiving two payments, one for collecting the levy and one for performing the financial controller function.</p>
+        </speech>
+        <speech by="#" eId="spk_97">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_153">That is correct.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_98">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_154">How much is the total bill?</p>
+        </speech>
+        <speech by="#" eId="spk_99">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_155">We have two separate arrangements.  As I said, the cost of outsourcing of levy collection to PricewaterhouseCoopers has come in at less than the cost of recruiting an additional person.</p>
+        </speech>
+        <speech by="#SimonCoveney" eId="spk_100">
+          <from>Deputy Simon Coveney</from>
+          <p eId="para_156">It is the combined figure that matters.  Presumably, if one had a financial officer, that person would also look after the collection of the levy.  PricewaterhouseCoopers is providing two services.</p>
+        </speech>
+        <speech by="#" eId="spk_101">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_157">I assure members I am not trying to fob off the question.  The combined figure for both services is €125,000.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_102">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_158">The authority could employ somebody for less than that figure.  Could a civil servant not perform this function?</p>
+        </speech>
+        <speech by="#" eId="spk_103">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_159">I am not sure we could.  We need two people to perform two separate functions.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_104">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_160">Surely that will not be necessary once the levy scheme is up and running.</p>
+        </speech>
+        <speech by="#" eId="spk_105">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_161">The first function is that of financial controller and the second involves levy collection.  The two could not be done by one person.  The financial controller is also managing the sound and vision scheme, for example, which has a budget of €14 million per annum.  We have one financial controller position to cover all of these elements.  The outsourcing of levy collection is a separate matter.</p>
+        </speech>
+        <speech by="#LizMcManus" eId="spk_106">
+          <from>Deputy Liz McManus</from>
+          <p eId="para_162">To clarify, in the first year the authority will have to put in place a levy scheme.  If we do our job, it may even be a fair levy scheme.  After that, however, there will not be a large job of work to be done because it will be up and running.</p>
+        </speech>
+        <speech by="#" eId="spk_107">
+          <from>Ms Celene Craig</from>
+          <p eId="para_163">There will be ongoing work such as invoicing, debt collection and calculating the levy.  At the start of each year there will be a requirement to undertake a recalculation based on stations' actual revenue during the year and to forecast for the following year on that basis.  Therefore, there will be a requirement for ongoing work, even past the establishment of the levy.</p>
+        </speech>
+        <speech by="#BeverleyCooperFlynn" eId="spk_108">
+          <from>Deputy Beverley Flynn</from>
+          <p eId="para_164">Is it the case that all the stations must engage their own auditors to certify their qualifying income?</p>
+        </speech>
+        <speech by="#" eId="spk_109">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_165">There is a requirement for stations to audit their material.</p>
+        </speech>
+        <speech by="#BeverleyCooperFlynn" eId="spk_110">
+          <from>Deputy Beverley Flynn</from>
+          <p eId="para_166">In other words, the authority will be aware of their certified income.  How difficult can it be after that to apply the levy?</p>
+        </speech>
+        <speech by="#" eId="spk_111">
+          <from>Ms Celene Craig</from>
+          <p eId="para_167">What we have tried to do with the certification process is to ensure that not all revenue is captured but only that revenue which arises from regulated activity.  Many broadcasters have other sources of revenue and their audited accounts capture more than we intend to capture.</p>
+        </speech>
+        <speech by="#BeverleyCooperFlynn" eId="spk_112">
+          <from>Deputy Beverley Flynn</from>
+          <p eId="para_168">I am certain the auditors they employ will reflect that very accurately to the authority because it will impact directly on the levy to be charged.  Why, after all that has been done, if the authority accepts the audited figures, does it need to employ PricewaterhouseCoopers to collect the levy?</p>
+        </speech>
+        <speech by="#" eId="spk_113">
+          <from>Mr. Michael O’Keeffe</from>
+          <p eId="para_169">As I said, the cost of the arrangement for outsourcing levy collection is less than the cost of employing an additional person.</p>
+        </speech>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_114">
+          <from>Chairman</from>
+          <p eId="para_170">We must bring the meeting to a close.  We have been accommodated by the Joint Committee on Agriculture, Fisheries and Food in availing of the room at short notice.</p>
+          <p eId="para_171">While many questions still have not been answered, we must bring proceedings to a conclusion.  We will invite Mr. O'Keeffe and his colleagues to appear before the joint committee again.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_4">
+        <heading>Proposed Annulment of Statutory Instrument: Motion. </heading>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_115">
+          <from>Chairman</from>
+          <p eId="para_172">Given what has happened, I wish to propose the following motion that I believe reflects the views of the joint committee.  I move:</p>
+          <p class="indent_1" eId="para_173">That the Joint Committee on Communications, Energy and Natural Resources recommends the annulment of the Broadcasting Act 2009 (section 33) Levy Order 2010, SI 7 of 2010, in respect of the levy scheme to fund the Broadcasting Authority of Ireland, to allow for scrutiny by this joint committee of the estimates, with a view to reviewing the cost effectiveness of the service in light of its impact on the industry in the current serious economic recession.</p>
+        </speech>
+        <summary eId="sum_7" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#dbsect_4"/>
+                </summary>
+        <speech by="#MJNolan" as="#Chairman" eId="spk_116">
+          <from>Chairman</from>
+          <p eId="para_174">That was agreed unanimously.  I apologise for the short notice and for the need to adjourn so early.  We will invite the delegates to appear before the joint committee again.</p>
+          <p eId="para_175">I propose that the agreed motion be reported to the Houses of the Oireachtas.  Is that agreed?  Agreed.</p>
+        </speech>
+        <summary eId="sum_8">The joint committee adjourned at 11.22 a.m. until 9.45 a.m. on Wednesday, 24 March 2010.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

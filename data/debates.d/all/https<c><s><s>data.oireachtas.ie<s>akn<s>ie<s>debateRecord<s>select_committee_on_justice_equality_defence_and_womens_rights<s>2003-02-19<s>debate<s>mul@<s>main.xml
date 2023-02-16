@@ -1,0 +1,710 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-02-19/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-02-19/debate"/>
+          <FRBRdate date="2003-02-19" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/select_committee_on_justice_equality_defence_and_womens_rights"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-02-19/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-02-19/debate/mul@"/>
+          <FRBRdate date="2003-02-19" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-02-19/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2003-02-19/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_11">
+            <count eId="vote_1-count_1" value="3" refersTo="#ta" href="#qty_1"/>
+            <count eId="vote_1-count_2" value="7" refersTo="#nil" href="#qty_2"/>
+          </voting>
+          <voting eId="vote_2" href="#sum_13">
+            <count eId="vote_2-count_1" value="3" refersTo="#ta" href="#qty_3"/>
+            <count eId="vote_2-count_2" value="7" refersTo="#nil" href="#qty_4"/>
+          </voting>
+        </parliamentary>
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference showAs="Vol. 1" href="ie/oireachtas/debateRecord/vol/1" eId="#vol_1"/>
+          <oir:numberReference showAs="No. 9" href="ie/oireachtas/debateRecord/vol/1/no/9" eId="#no_9"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCEvent eId="bill.2001.26.dail.3" href="/ie/oireachtas/bill/2001/26/dail/3" showAs="European Convention on Human Rights Bill 2001: Dáil Committee Stage"/>
+        <TLCEvent eId="bill.2001.26.dail.3.amd_10" href="/ie/oireachtas/bill/2001/26/dail/3/amd_10" showAs="European Convention on Human Rights Bill 2001: Dáil Committee Stage - Amendment No. 10"/>
+        <TLCEvent eId="bill.2001.26.dail.3.amd_9" href="/ie/oireachtas/bill/2001/26/dail/3/amd_9" showAs="European Convention on Human Rights Bill 2001: Dáil Committee Stage - Amendment No. 9"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="CharlieOConnorFF" href="/ie/oireachtas/member/id/Charlie-O'Connor.D.2002-06-06" showAs="Charlie O'Connor"/>
+        <TLCPerson eId="DennisODonovan" href="/ie/oireachtas/member/id/Denis-O'Donovan.S.1989-10-01" showAs="Denis O'Donovan"/>
+        <TLCPerson eId="FinianMcGrath" href="/ie/oireachtas/member/id/Finian-McGrath.D.2002-06-06" showAs="Finian McGrath"/>
+        <TLCPerson eId="JimOKeeffe" href="/ie/oireachtas/member/id/Jim-O'Keeffe.D.1977-07-05" showAs="Jim O'Keeffe"/>
+        <TLCPerson eId="JoeCallananFF" href="/ie/oireachtas/member/id/Joe-Callanan.D.2002-06-06" showAs="Joe Callanan"/>
+        <TLCPerson eId="JoeCostelloLAB" href="/ie/oireachtas/member/id/Joe-Costello.S.1989-10-01" showAs="Joe Costello"/>
+        <TLCPerson eId="MarieHoctorFF" href="/ie/oireachtas/member/id/Máire-Hoctor.D.2002-06-06" showAs="Máire Hoctor"/>
+        <TLCPerson eId="MichaelMcDowellPD" href="/ie/oireachtas/member/id/Michael-McDowell.D.1987-03-10" showAs="Michael McDowell"/>
+        <TLCPerson eId="PaulMcGrath" href="/ie/oireachtas/member/id/Paul-McGrath.D.1989-06-29" showAs="Paul McGrath"/>
+        <TLCPerson eId="PeterPowerFF" href="/ie/oireachtas/member/id/Peter-Power.D.2002-06-06" showAs="Peter Power"/>
+        <TLCPerson eId="SeanArdagh" href="/ie/oireachtas/member/id/Seán-Ardagh.D.1997-06-26" showAs="Seán Ardagh"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Justice,_Equality,_and_Law_Reform" href="/ie/oireachtas/role/minister/justice__equality___law_reform" showAs="Minister for Justice, Equality, and Law Reform"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>ROGHCHOISTE UM DHLÍ AGUS CEART, COMHIONANNAS, COSAINT AGUS CEARTA NA mBAN</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON JUSTICE, EQUALITY, DEFENCE AND WOMEN’S RIGHTS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2003-02-19">Dé Céadaoin, 19 Feabhra 2003</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2003-02-19">Wednesday, 19 February 2003</docDate>
+      </block>
+      <block name="volume">
+        <docNumber refersTo="#vol_1">Vol. 1</docNumber>
+      </block>
+      <block name="number">
+        <docNumber refersTo="#no_9">No. 9</docNumber>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 5.15 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">Members Present:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JoeCallananFF">Deputy J. Callanan,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PaulMcGrath">Deputy P. McGrath,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JoeCostelloLAB">Deputy J. Costello,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#CharlieOConnorFF">Deputy C. O’Connor,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MarieHoctorFF">Deputy M. Hoctor,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#DennisODonovan">Deputy D. O’Donovan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MichaelMcDowellPD">Deputy M. McDowell (<i>Minister for Justice, Equality and Law Reform</i>),</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#JimOKeeffe">Deputy J. O’Keeffe,*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#FinianMcGrath">Deputy F. McGrath,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#PeterPowerFF">Deputy P. Power.*</person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Deputies S. Ó Fearghaíl and D. McGinley, respectively.</summary>
+          <summary eId="sum_4">In attendance: Deputy A. Ó Snodaigh.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#SeanArdagh">
+   DEPUTY S. ARDAGH in the chair.
+  </person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Select Committee.</heading>
+        <speech by="#" eId="spk_1">
+          <from>Clerk of the Committee</from>
+          <p eId="para_11">In the unavoidable absence of the Chairman and the Vice-Chairman, a temporary Chairman will take this meeting. Pursuant to Standing Order 88(3), I now call for nominations for a temporary Chairman for this meeting.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_2">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_12">I propose Deputy O'Donovan.</p>
+        </speech>
+        <speech by="#MarieHoctorFF" eId="spk_3">
+          <from>Ms Hoctor</from>
+          <p eId="para_13">I second that.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3" refersTo="#bill.2001.26.dail.3">
+        <heading>European Convention on Human Rights Bill 2001: Committee Stage (Resumed).</heading>
+        <summary class="Center" eId="sum_6">NEW SECTIONS.</summary>
+        <speech by="#JimOKeeffe" eId="spk_4">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_14">I move amendment No. 9:<entity refersTo="#bill.2001.26.dail.3.amd_9" name="amendment"/>
+                    </p>
+          <p eId="para_15">In page 4, before section 2, to insert the following new section:</p>
+          <p eId="para_16">"2.-(1) Subject to the Constitution, the Convention provisions shall have the force of law in the State and everyone within the jurisdiction of the State shall enjoy the rights and freedoms specified therein.</p>
+          <p eId="para_17">(2) Subject to Article 15.2.1° and 15.2.2° of the Constitution, the Minister for Foreign Affairs may, by order, amend the <i>Schedule</i> to this Act so as to include therein a provision or provisions of any Protocol to the Convention to which the State is a party.”.</p>
+          <p eId="para_18">This amendment is the centrepiece of the Fine Gael and Labour Party approach to the Bill, and where there is a fundamental difference between our approach and that of the Minister.</p>
+          <p eId="para_19">The purpose of introducing amendment No. 9 is to provide that subject to the Constitution, the convention provisions would have the force of law in the State and that everyone within the jurisdiction of the State shall enjoy the rights and freedoms specified therein. Essentially I am providing thereby for direct incorporation of the convention into the law of the State. The second subsection merely provides for the future protocols being similarly capable of incorporation.</p>
+          <p eId="para_20">In reflecting on some of what the Minister stated yesterday about the Constitution, I want to make quite clear that this proposal is subject to the Constitution. It is also quite clear that the Constitution itself recognises the possibility of such direct incorporation. In fact, under Article 29.6 there is a clear reference to international agreements being part of the domestic law of the State "as . . . determined by the Oireachtas." Of course this committee is a creature of the Oireachtas and if the Minister were to accept my amendment, we would be reporting back to the House that there should be direct incorporation of the European Convention on Human Rights into domestic law.</p>
+          <p eId="para_21">It is fair to say that everything I have read to this question of incorporation supports the case for direct incorporation. I am not talking about the views of those from whom one would expect this kind of approach, although I respect the views from that quarter. People of the eminence of Mr. Justice Barrington, who is pressing strongly and arguing strongly for direct incorporation, cannot be dismissed. The views of the Human Rights Commission should not be dismissed. The views of the bodies dealing with human rights generally, such as Irish Council for Civil Liberties and Amnesty International, should not be dismissed lightly. The views of a body like the NUJ should not be dismissed.</p>
+          <p eId="para_22">If the Minister is looking for an objective view, he should at least listen to the views expressed by bodies such as the Law Society and the Bar Council. I do not say that those bodies have any exceptional wisdom, but clearly they have considered this issue. It is significant that both bodies have strongly urged direct incorporation.</p>
+          <p eId="para_23">The Minister might have been a bit facile yesterday when he spoke about how representative they are of 1,000 lawyers. A thousand lawyers have not examined the issue or directed their thoughts as to what should be done. The Law Society has, and it has come up with a view which clearly favours direct incorporation. The Bar Council has examined the issue carefully and expresses its strong preference for the legislative incorporation of the convention into domestic law in substitution for the minimalist approach adopted in the present Bill. This requires not simply that the detailed provisions of the Bill as initiated be amended in a piecemeal fashion, but that as a matter of Irish law, the convention be placed in a superior position to ordinary law, subject only to the Constitution, and that it be capable of direct enforcement by means of all appropriate judicial remedies before the Irish courts.</p>
+          <p eId="para_24">I do not bow down in homage to the wisdom of the Bar Council but neither would I ignore it. It has considered the matter carefully and come to that clear view. Every recognised body with an interest in the development of law favours direct incorporation and standing in the gap is the Minister, unsupported by anyone. He said yesterday that he is supported by his colleagues in the Oireachtas who voted on Second Stage. I do not ignore that.</p>
+        </speech>
+        <speech by="#PeterPowerFF" eId="spk_5">
+          <from>Mr. P. Power</from>
+          <p eId="para_25">Will the Deputy take a point of information? He said that every recognised body in the country is in favour of direct incorporation. Will he not accept that the one body which is not in favour of direct incorporation is the body which was specifically charged with reviewing this entire area, namely, the constitutional review group? In a very reasoned paper, it argued both for and against direct incorporation. In its expert wisdom, being the body specifically charged to consider this area, it came up with the proposal that it would be unwise and imprudent to allow direct incorporation. Whether the Deputy agrees or not, it is not correct to say that every person or body in the country proposes direct incorporation.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_6">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_26">I thank the Deputy, but I do not accept fully his point. First, the constitutional review group has not recently considered the issue. The report was published in 1996. Second, when it considered the issue, it made it clear that "having regard to the provisions of Article 40, the review group does not favour the replacement of the fundamental rights provisions of the Constitution by the European Convention on Human Rights and Fundamental Freedoms". Its recommendation was not to replace the rights in the Constitution with the European Convention, with which I agree. I am not in favour of replacing the rights in the Constitution. It is one of the points on which I am in total agreement with the Minister. Of course, we should not replace what we have because what we have is good. What I want is to add to it.</p>
+        </speech>
+        <speech by="#PeterPowerFF" eId="spk_7">
+          <from>Mr. P. Power</from>
+          <p eId="para_27">It did not recommend that.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_8">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_28">If I recall correctly, the latest paper from Professor Hogan stated that the issue now before the House was not directly considered and the approach by the Minister was not considered by the CRG at the time. The issue is now referred——</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" as="#Minister_for_Justice,_Equality,_and_Law_Reform" eId="spk_9">
+          <from>Minister for Justice, Equality, and Law Reform (Mr. McDowell)</from>
+          <p eId="para_29">If we are going to quote Professor Hogan, let us quote him for the reasons briefly outlined - I do not agree with the criticisms offered of the present Bill. If the Deputy is going to quote scripture, he should be very careful who he is quoting.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_10">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_30">Quite careful.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_11">
+          <from>Mr. Costello</from>
+          <p eId="para_31">Another point of order or information might put the contrary position. Dr. Hogan said:</p>
+          <p eId="para_32">The CRG analysis was probably incomplete in a number of respects. It concentrated on the suggestion of incorporation of the ECHR by replacement but did not sufficiently examine other options. In particular, we did not examine the option of legislative incorporation at all.</p>
+        </speech>
+        <summary eId="sum_7">(Interruptions).</summary>
+        <speech by="#JoeCostelloLAB" eId="spk_12">
+          <from>Mr. Costello</from>
+          <p eId="para_33">I would say to the Minister that the point is made.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_13" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_34">In a submission to a recent committee, he said he rejected the criticisms of the Bill. I do not know what Deputies are talking about.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_14">
+          <from>Mr. Costello</from>
+          <p eId="para_35">I am referring to his speech to the Law Society conference on——</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_15" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_36">I am quoting from the submission to this committee.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_37">What date is it?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_17" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_38">It was January this year.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_39">We will beg to differ on that. There is a problem.</p>
+        </speech>
+        <summary eId="sum_8">(Interruptions).</summary>
+        <speech by="#JimOKeeffe" eId="spk_19">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_40">As the Minister said, the devil can quote scripture. Professor Hogan has written a number of articles.</p>
+        </speech>
+        <summary eId="sum_9">(Interruptions).</summary>
+        <speech by="#JimOKeeffe" eId="spk_20">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_41">That may be unfair. I do not want to say that about Professor Hogan, for whom I have a lot of respect. I do not think we should get into naming individual people.</p>
+          <p eId="para_42">Institutions generally, including human rights institutions, the Law Society and the Bar Council oppose the approach adopted by the Minister. I know of no institution which has supported him, and all of them agree with the approach I am proposing in the amendment. That is the background to the amendment. I am not sure whether Deputy Costello and I are wasting our sweetness in the desert air. Since there is such a huge body of opinion that wants to follow our approach, it is important to argue the points fully. I get a feeling that the Minister is not for turning on the issue. However, we have a job to do. If the force of reason is on our side, I want to argue this point. I want to put the proposal to a vote and I will give a commitment that, on a change of Government, there will be direct incorporation of the convention into our domestic law.</p>
+        </speech>
+        <speech by="#PeterPowerFF" eId="spk_21">
+          <from>Mr. P. Power</from>
+          <p eId="para_43">Is it a major plank of the Fine Gael manifesto?</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_22">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_44">The Deputy can treat that lightly also. However, if it is right, it is right. If it is right now, it should be changed now, but, if it is not right now, it will be changed in a few years' time when there is a change of Government.</p>
+          <p eId="para_45">The case has been well made by the various institutions. I am sure members have read all the submissions, therefore, I will not waste the time of the committee going through them. It is clear that the proposed method of giving greater effect to the Bill is less than the optimum, mainly because it is lacking in remedies for the applicant. In the event that a statutory provision is found to be an infringement of the convention, in making the finding the court cannot give the applicant a direct remedy. Given that the Minister, like myself, believes in the Constitution and the separation of powers, it seems incredible to be insisting on this when he does not allow the courts to give a direct remedy. Even in section 3 which refers to an action against a public body, the remedy is confined to damages. We will talk about remedies more extensively at a later stage.</p>
+          <p eId="para_46">If the convention were to be directly incorporated into Irish law it would be open to a court, on finding that a statutory provision or rule of law was an infringement of the convention, to declare the offending provision or rule to be invalid. In such a situation it would not be necessary for an applicant to wait for discretionary damages or for permission to take a case to Strasbourg. There would also be a greater onus on the Government to deal with the provision straight away. That is another weakness in the Bill.</p>
+          <p eId="para_47">If there is a finding of incompatibility or if a provision of law is overridden by the convention there should be an onus on the Government to deal with the matter straight away, as there is when the Supreme Court finds a measure to be unconstitutional. I am not sure what the outcome of today's Supreme Court decision in relation to drink driving will be. However, if a problem arises which requires a change in the law it will be dealt with immediately. The same should apply if there was a finding by the Supreme Court that some ruling, regulation or law was contrary to the convention. I am wholly committed to the idea that the convention should have the force of law here. It is compatible with the Constitution to do so. On that basis I move this amendment.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_23">
+          <from>Mr. Costello</from>
+          <p eId="para_48">Amendment No. 10 proposes that the provisions of the convention be part of the laws of the State.</p>
+          <p eId="para_49">The Minister cited the views of Dr. Gerard Hogan. I will not refer to his views. He is, after all, just another constitutional lawyer and lawyers have their individual opinions.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_24" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_50">The Law Society of Ireland regards his opinions as important.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_25">
+          <from>Mr. Costello</from>
+          <p eId="para_51">He is a very good lawyer, of course. As the Minster says himself, lawyers are two a penny and we are getting all sorts of recommendations and submissions from various legal institutions. The Minister is not paying attention to any of them. However, we have mentioned Dr. Gerard Hogan, for whom I have the greatest respect. He says the constitutional review group analysis is probably incomplete in a number of respects. He says, "In particular, we did not examine the option of legislative incorporation at all". The group did not even examine this question and it is, therefore, irrelevant to this discussion. It did not examine direct incorporation into law, which is what we are proposing here. It is amazing that the review group did not consider this matter. What terms of reference was it given?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_26" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_52">It was established by a Fine Gael - Labour Government so I did not have to deal with that.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_27">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_53">It was established to examine the Constitution.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_28">
+          <from>Mr. Costello</from>
+          <p eId="para_54">It was broader at the time.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_29">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_55">One of the questions that were to be discussed was constitutional change.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_30" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_56">Maybe the two Deputies will sort out this over a saucer of tea.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_31">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_57">The Minister should not merely answer with snide remarks. He will be let get away with nothing.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_32">
+          <from>Mr. Costello</from>
+          <p eId="para_58">It was the constitutional review group. It was not the incorporation of the human rights convention into Irish law group. It is not relevant in that respect.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_33">
+          <from>Chairman</from>
+          <p eId="para_59">Members' questions will be answered later and not immediately.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_34">
+          <from>Mr. Costello</from>
+          <p eId="para_60">The Human Rights Commission is the body which directly considered this matter and is the body which should have the greatest weight in terms of how we should proceed. The Human Rights Commission was not in existence during previous deliberations on this matter or when this legislation was formulated. It came into existence under the aegis of the Good Friday Agreement to enhance human rights in this country and to ensure there would be complementary arrangements between human rights in Northern Ireland and here. There is also an obligation on the United Kingdom as a whole to ensure there is a common basis of human rights to which all parts of this island could accede.</p>
+          <p eId="para_61">The recommendations of the Human Rights Commission are along the lines of the human rights Bill which was passed in Britain and would give greater cohesion to the implementation of the human rights convention in both sides of this island. That is a relevant point. The Human Rights Commission is probably the body to which most credence could be given.</p>
+          <p eId="para_62">Other human rights agencies and bodies include the Law Society of Ireland, the Irish Council for Civil Liberties and Amnesty International. All of these have made recommendations regarding direct incorporation. The Human Rights Commission has said:</p>
+          <p eId="para_63">In so far as coherence of philosophies is concerned, in point of fact the fundamental rights section of the Constitution and the European Convention on Human Rights do adhere well and could be taken as two complementary expressions of one foundational philosophy.</p>
+          <p eId="para_64">The commission warns against the line taken by the Minister:</p>
+          <p eId="para_65">It is, in the commission's view, quite unconvincing to argue that the infusion into domestic law of the convention would contaminate our law so as to render the legislation unconstitutional.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_35" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_66">I did not make that argument.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_36">
+          <from>Mr. Costello</from>
+          <p eId="para_67">I do not say the Minister did.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_37" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_68">The Deputy said the extract was dealing with a criticism of mine. It has nothing to do with me. I never argued on a contamination basis.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_38">
+          <from>Mr. Costello</from>
+          <p eId="para_69">I am not saying that. I am referring to the Minister's approach to the matter.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_39" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_70">I did not mention contamination.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_40">
+          <from>Mr. Costello</from>
+          <p eId="para_71">I am proposing a direct infusion into domestic law. The Human Rights Commission states that this would not give rise to concerns about the contamination of our law. The Minister has not put forward the idea that our law would be polluted but he is warning strongly against it at every turn. His particular argument seems to be that legal action could be taken and that the State could be sued. He argues that there is unlimited ability and greed among the legal profession which would turn this legislation around if we did not introduce it in an indirect interpretative fashion rather than by direct incorporation.</p>
+          <p eId="para_72">The Minister's arguments do not convince me that his approach would be more beneficial to the Irish citizen. If, after 50 years, we are gradually getting around to dealing with this matter how can the Minister say that what he is proposing will give easier, quicker and less expensive remedies to the Irish citizen once it goes beyond the existing constitutional imperatives? If there is any element of incompatibility we will be back into the morass and complexity of the various legal processes involving not the District Court but the High Court and the Supreme Court. The chain of bureaucracy places redress and remedy on the long finger. The purpose of incorporation was to bring redress and remedy into the domestic arena, to deal with cases quickly and cheaply and to ensure justice was provided in cases where human rights were breached.</p>
+          <p eId="para_73">We are getting, in terms of incorporating international treaties, a new departure from the Minister in every instance. Why this new departure? Why cannot we deal with the issue in the manner in which we deal with our international obligations when we ratify them abroad under the United Nations? Why cannot we incorporate the legislation into our law? Let it stand the test of time in relation to our Constitution and whether it is in accordance with it.</p>
+          <p eId="para_74">The Bill starts "subject to the Constitution". That is the phraseology used by the Minister. It would remain the same when incorporated. It is my view that the Minister is making the provision weaker and more bureaucratic. He is denying the remedies which should be immediately available and is not enhancing the corpus of rights in a domestic sense as was envisaged under the convention. That is the view held by the bodies listed. There is strong opposition to the manner in which the Minister is proposing this legislation. He has not presented any credible argument that we will find ourselves in a better situation than currently exists regarding the European Convention on Human Rights. Going through this process to seek redress will be just as tedious. I cannot understand why the Minister will not include an amendment along the lines I have tabled, namely, that the convention provisions shall be part of the law of the State. They should be part of the law of every state in the Council of Europe. We are the last country to introduce them. I urge the Minister to reconsider the matter at this late stage and to take on board what is being said by the Human Rights Commission, give full weight and strength to the European Convention on Human Rights and make it part and parcel of our domestic legislation.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_41">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_75">I echo what has been said so far by previous Deputies. That there is a consensus among human rights groups, civil liberties groups, the Bar Council and the Law Society on this issue means serious consideration should be given to direct incorporation of the convention into our law. The Minister should, at this late stage, consider the approach he is taking in this regard. He should swallow the Department's pride and admit they got it wrong and that they are willing to accept the advice given by various groups. We should incorporate this convention into our law.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_42" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_76">I listened to the views of the first two speakers and to Deputy Ó Snodaigh who echoed their sentiments. I wonder in what world they are living. In so far as this is an implied criticism of the validity of arguments offered by others, so be it. We must look at the practical outcome of accepting either of the amendments. Very little of the commentary offered by the bodies concerned and by Deputies' remarks addresses any of the obvious massive holes in the thinking that goes with it. I will provide a simple example in this regard.</p>
+          <p eId="para_77">Acceptance of these amendments would mean nothing more than what is contained in the Government's Bill unless it stated that laws already in existence which are inconsistent with the convention are automatically amended. The Government is proposing that every law and every rule of common law shall be interpreted in so far as that is possible in a manner which is compatible with the convention. Deputies are saying this is totally deficient even though it is what pertains in Northern Ireland. I received a going-over yesterday for not slavishly imitating the British in every respect. I am now told I should do something radically different from the UK situation in Northern Ireland. I do not mind that.</p>
+          <p eId="para_78">Let us suppose there is an Act - I will again take the Criminal Assets Bureau Act, something to which we are all attached and consider to be important - and it was accepted that convention provisions had the effect of law in the State or incorporated in the State then either that Act is or is not compatible with the convention. That is a fact. The result of the Bill being changed to incorporate what the Deputies wish, on the unhappy day when their parties are returned to power, would be as follows.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_43">
+          <from>Mr. Costello</from>
+          <p eId="para_79">That day is not far off.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_44">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_80">It will not be long coming.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_45" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_81">A District Court or Circuit Court judge could look at any legislation or rule of common law and say it is amended by Deputy O'Keeffe's Bill passed in 2015.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_46">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_82">Does it not——</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_47" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_83">No. The Deputy wishes this to have the force of law in the State and is saying, therefore, that it amends all previous law and knocks it out so that it is inconsistent with it. That is what is being argued by the Human Rights Commission, the Law Society and the Bar Council. It is bad enough to find out Acts have been ruled unconstitutional but it would be different if every day I had to monitor the activity of every District Court, Circuit Court and High Court throughout the country and find quite apart from the Constitution they were finding in the course of cases that previous law enacted by the Oireachtas had fallen by the wayside by reference to a case decided in Strasbourg or by reference to their own view of what the court in Strasbourg would find if a case was brought before it. That is what Deputies are arguing for and they should not imagine they are arguing for anything different. If this becomes the rule of law in the State, it will automatically amend all other inconsistent legislation <i>pro tanto.</i> If that is the case, Deputies are suggesting that all pre-existing law which is inconsistent with the convention is hereby amended and is repealed to the necessary extent. If Deputies are saying our courts should be given that function not only in respect of past law but in respect of future law and not simply in respect of past cases decided in Strasbourg but future cases decided there, they would reduce this country to a system of intellectual freefall in law where any judge at any time could, by reference to this convention, say that any prior legislation had, by inference, been repealed. That is, I believe, unconstitutional.</p>
+          <p eId="para_84">I draw Deputies' attention to what Dr. Hogan said to this committee as recently as last month in the context of this Bill. He stated:</p>
+          <p eId="para_85">As I understand it the present Bill has been criticised on the grounds (a) that the Bill does not go as far as the Human Rights Act 1998 in the UK and (b) that the present Bill ought to go further by providing for a system of invalidation. The main purpose of my address is to rebut these criticisms. As to (a) the 2001 Bill follows the UK model of incompatibility contained in the Human Rights Act, 1998. In addition the citizen continues to enjoy the full protection of the Constitution. Frankly, unless I have overlooked something, I cannot quite understand the criticisms on this score.</p>
+          <p eId="para_86">I say hallelujah and amen to that. He goes on further in regard to (b) which concerns the suggestion that there should be a system of invalidation in Ireland which is what Deputy O'Keeffe is arguing for and claiming he will bring in when returned to power in a decade or so. Let us be clear about this. Dr. Hogan stated:</p>
+          <p eId="para_87">As to (b), it must be recalled that the 2001 Bill cannot seek to replicate, by ordinary legislation, the system of constitutional protections contained in the Constitution itself. I frankly doubt that the 2001 Bill could go further and provide for a system whereby the courts could declare one piece of legislation invalid by reference to another ordinary piece of legislation, namely the 2003 Act as the present Bill would have become. If that happened there would be a very large risk that the ECHR Bill would be found unconstitutional, as amounting <i>de facto</i> to giving the ECHR a status equivalent to the Constitution itself without a corresponding constitutional amendment. Indeed there is already some risk with the present Bill that its more diluted declaration of incompatibility regime would be found unconstitutional on the same ground.</p>
+          <p eId="para_88">I want to go back to a fundamental point which both Deputies must address because it is what their amendment is about. If the amendment has the effect of actually changing any prior inconsistent law we will be faced with the position that any court, on any day of the week, could look at any provision of the European Convention on Human Rights and declare any piece of law enacted by this Parliament to be inconsistent with it. It could then turn it down and repudiate it. It could do the same with any rule of common law. If that happened our law would become a chaotic jungle in which individual judges could strike down laws by reference to a convention whose meaning is not decided solely in Ireland but in Strasbourg by the European Court of Human Rights.</p>
+          <p eId="para_89">Furthermore, one could say a Bill is consistent for the moment but if a case in Strasbourg is decided differently after that it will have become inconsistent. Therefore, by reason of a judgment to be given at some point in the future, laws which we in Ireland are confident are valid laws expressed by our Constitution could, by reference to a decision made in Strasbourg and applied by an Irish court, be found to be invalid without further Act of the Oireachtas.</p>
+          <p eId="para_90">This leaves apart the issue of the margin of appreciation. Under the Strasbourg convention the European Court of Human Rights accords to each state a margin of appreciation as to how the acts guaranteed in section 1 of the convention are applied and what effect they have in individual states. The extent of the margin of appreciation depends on the subject matter of the particular case. For instance, there is no margin of appreciation on torture or in regard to the privilege against self-incrimination. However, in regard to something such as privacy, it is quite possible for the Swedish Government or the Italian Government to have totally different laws. These might relate to the rights of paparazzi to take photographs of people on the beach. In Italy they might have the right to take pictures of people at a private party on the beach while in Sweden that could be considered unlawful or an intrusion into the lives of those people. The corollary of that right, which is the right of the freedom of the press, could also be decided differently in two societies both of which are members of and adhere to the European Convention on Human Rights. The reason this margin of appreciation is given is that the European convention is not a constitution for every state. It does not have a single meaning in every state and it is up to each to decide, within its broad parameters and subject to the margin of appreciation, how it will be transposed into law in the individual state.</p>
+          <p eId="para_91">If we give this margin of appreciation to our courts we take it away from our Parliament. In this House we have the right to exercise our judgment within that margin of appreciation. We could, for instance, bring in a Bill declaring beyond doubt the right of newspaper photographers to take photographs on beaches as a proper exercise of press freedom and still be within the European convention. Alternatively, we could decide the taking of photographs on beaches is a massive intrusion on privacy and cannot be published. Either decision would be consistent with the European Convention on Human Rights. If, however, an Irish court puts itself in the position of Strasbourg, it will have to say something is within the margin of appreciation or not or it will have to make up its own mind as to the margin of appreciation that is afforded to Ireland in that particular case. This will take from the legislature and give to the courts the right to make decisions which are the prerogative and within the discretion of the Legislature.</p>
+          <p eId="para_92">Where does this leave us? Does this amendment amend the force of law within the State in regard to past legislation, past rules of law and historical rules of law? If it does amend it I ask the two Deputies to face up to the implications that the Judiciary at any given stage can pick up the convention and knock down any law, practice or rule of law that it finds invalid. There would be nothing the Oireachtas could do about it because we would have given it a licence to do so, if it was constitutional to so do, which Dr. Hogan suggests is not the case. In relation to future laws, how will this operate? If having passed this Bill we then pass another Bill which has a plain and straightforward meaning and the court in Strasbourg decides that this Bill is inconsistent with the Constitution will we then hand over to our courts the right to strike down our own legislation? For example, will we allow the Irish courts, of their own motion or based on some decision in Strasbourg, to strike down the CAB legislation some morning in the courts in reference to the ECHR? That would elevate this to the status of a constitution.</p>
+          <p eId="para_93">This is what our Bill studiously avoids as a possibility but what this amendment studiously ignores. It seeks to create a situation which would be chaotic. I have had the privilege of speaking to the Human Rights Commission privately and of attending the seminars at which these documents have been produced. I have yet to hear one decent argument put up by way of contrary argument to any of those. These people, in a miasma of good faith, put forward this proposition but will not face up to its consequences. I must face its consequences. We cannot incorporate into Irish law a statute which has the effect of potentially invalidating future statutes under Irish law. That would be a surrender by the Legislature to the courts of the right to make laws for the State. The only exception to that in our law is the right for the Legislature to strike down Acts which are inconsistent with our Constitution.</p>
+          <p eId="para_94">We are not in the business of giving to the courts additional powers to strike down legislation by reference to a legislative incorporation such as is proposed here. If the two Deputies will not face up to the weakness of this proposal, and are simply fortified by the fact that other people have fallen into the same error as they have, I can do nothing for them. I can do nothing until they tell me how some statute can be declared invalid and cease to have effect by a court decision because of their amendment. How can it happen that at any level, District Court, Circuit Court or High Court, a judge can be in a position to invalidate an Irish law?</p>
+          <p eId="para_95">How am I to run the system of law reform if every day a District Court judge is competent to tell me that any law that I have enacted falls foul of his view of the convention?</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_48">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_96">The Minister has asked me and my colleague what world we are living in. I will bounce that question back to him because while he has argued a case in defence of his own position very well he also mentions that he has been making these arguments consistently over the past 12 or 18 months. He has been doing so to groups that have been considering this issue, groups of legal experts and groups with an interest in the area of human rights. He has failed utterly to convince any one of them of the merit of his argument.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_49" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_97">I have convinced Dr. Hogan at least.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_50">
+          <from>Mr. Costello</from>
+          <p eId="para_98">The Minister has a hot line to Dr. Hogan.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_51">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_99">I will not have anything said against Dr. Hogan. I have read two of his papers but I have not been at these various seminars and I have not seen the other paper. I was very impressed when Dr. Hogan said that we are the only member state in the Council of Europe which has not incorporated the convention into domestic law. He said that this is truly a lamentable state of affairs and I certainly agree with him on that.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_52" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_100">Will the Deputy accept that the implication of that is that the British have incorporated it and if that is the case, what we are doing is the same as the British and it amounts to incorporation, so what is the Deputy talking about?</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_53">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_101">It does not amount to direct incorporation.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_54" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_102">That is the point and the British have not directly incorporated it either.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_55">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_103">Why do we have to follow the British?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_56" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_104">Because the Deputy asked me yesterday at great length why I was deviating from the British model and he kept on talking about the necessity to have the same system North and South of the border.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_57">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_105">The Minister cannot have it both ways. Is he following the British or not? There seems to be a remarkable similarity, excluding some areas where the Irish legislation is weaker——</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_58" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_106">The Deputy spent hours yesterday telling me that I was failing the Good Friday Agreement——</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_59">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_107">I believe that strongly.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_60" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_108">——and now he is saying that I should do something radically different from the British and what they have done does not amount to incorporation. I do not know what way the Deputy wishes to have it.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_61">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_109">The Minister has not answered my question. Is he following the British or not?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_62" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_110">I told the Deputy at the very beginning of this meeting that the mere fact that we are using an interpretative system does not mean we are slavishly following the British. The false statement that this is because they are stuck with the notion of parliamentary sovereignty and we are not, is not the explanation for the approach we adopted. It is that we have constitutional sovereignty and I cannot create a situation whereby the Irish courts invalidate any law enacted by the Oireachtas other than by reference to the Constitution. That is the constitutional position and there is no middle ground on this. No matter how much the Human Rights Commission or the Law Society or the Bar Council may like to think it, there is no middle ground. I have argued the toss with them on many occasions.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_63">
+          <from>Mr. Costello</from>
+          <p eId="para_111">The Minister is making a virtue of being out of step with every other person on this issue. It is a case of everybody being wrong except "my Johnny". He has also painted a scenario where the sky will fall in if we do anything different to his proposals. The reality is that we are talking about human rights, not about the whole gamut of human experience. We are talking about how best to ensure that a body of human rights that has been accepted by the Council of Europe and based on the United Nations Convention on Human Rights can best be incorporated into our domestic legislation so that the citizen will benefit.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_64" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_112">Can the Deputy offer me one instance of where somebody will be failed by the Government's Bill and made happy by his Bill?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_65">
+          <from>Mr. Costello</from>
+          <p eId="para_113">I can. Let us say some incompatibility arises where somebody, like Nicky Kelly in the past, is in detention. He is offered some damages but not a mechanism to be freed from detention. They are very limited and very expensive remedies. If we are to ensure that all the organs of the State operate in accordance with the provisions of the European Convention on Human Rights and that it is directly incorporated into our legislation, then we must have a human rights body that will be referred to at all times in all matters. Our citizens will have that protection. Some of those rights are in the Constitution and there is an overlap in some areas of the Constitution and the convention. We are turning aside the European Convention on Human Rights rather than trying to find where our law and the convention are complementary and ensure a fusion of the convention in our domestic law so that we can benefit from its provisions. The Minister is saying we shall not have the direct incorporation because he is scared that legally the sky will fall and people will sue and we cannot cope with that.</p>
+          <p eId="para_114">I asked the Minister earlier to look at the alternative scenario. Does he honestly think this legislation will make any difference to the ability of citizens to remedy matters relating to human rights? It will still be a vastly legalistic, bureaucratic procedure which is very expensive.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_66">
+          <from>Chairman</from>
+          <p eId="para_115">We have devoted more than an hour to this discussion. I ask the Deputies to make their comments and the Minister will respond.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_67" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_116">The Government's Bill is being talked down by a group of people who do not understand its huge effect. They are attracted to this notion of direct incorporation but are ignoring all the problems and the unconstitutionality attached to that. We have three areas of law comprising the Constitution, statute law and common law rules of law. The Government's Bill is saying that everything which is not in the Constitution, that is, all common law and all statute law will, once this Bill is enacted, be interpreted in a manner which is consistent with the European convention and every institution of State will carry out its functions in a manner consistent with the convention. That is the breadth of the Government's proposal. From now on every bit of law, from rule of court to statute to statutory instrument to rule of common law in relation to hearsay, stands to be interpreted and applied in a manner which is consistent with the convention, unless it is manifestly inconsistent with the convention in which case it is for the Oireachtas to remedy the situation. That is what this Bill means. It is radical and far-reaching in its effect and what is more, it is constitutional. The proposals against it and the criticisms being made of it, which Dr. Hogan has examined and on which he has advised the committee, are misconceived because they believe that somehow it is possible to say this has the effect of law in the State, without dealing with the fact that if we do that we are amending all inconsistent law. If we amend inconsistent law in a blanket way in this manner we would hand a licence to our courts to invalidate any Act of the Oireachtas where they are of the opinion that it conflicts with the European Convention on Human Rights. That process is fundamentally and undeniably unconstitutional.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_68">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_117">I have two questions and I would like the answers before I make my final comment.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_69">
+          <from>Chairman</from>
+          <p eId="para_118">Keep the questions short.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_70">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_119">My colleague, Deputy Costello, made a point about remedy. Based on the provisions in section 3, a person in jail who brings an action against a public body or organ of State can only get damages. Why are the remedies restricted to damages? Why should a person not be able to get the normal remedies that can be given by any court including an injunction or release from jail for someone who is imprisoned? Why are the remedies confined to damages?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_71">
+          <from>Chairman</from>
+          <p eId="para_120">Does Deputy Costello have a question relevant to this?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_72">
+          <from>Mr. Costello</from>
+          <p eId="para_121">No, but I will ask my question at this stage. The impetus for this came from the Good Friday Agreement, as did the Human Rights Commission here and its equivalent in Northern Ireland. Has the Minister spoken to the chairman of the commission in Northern Ireland about how we might synchronise our provisions in law when implementing and incorporating the European Convention on Human Rights?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_73" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_122">In answer to Deputy Costello's question, no I have not. What we are doing is at least as significant as the UK legislation in Northern Ireland and better in some respects. The only difference that has been pointed to is the question of the courts, which we discussed at great length yesterday and I do not propose to repeat myself now. If I accepted either of the Deputies' amendments, the situation in relation to the Strasbourg convention north and south of the Border would be radically different. They argue for it to be different on the one hand and then every so often they ask me to make sure it is the same. In so far as the Constitution will allow, I am doing as close to what the United Kingdom Government has done in Northern Ireland.</p>
+          <p eId="para_123">In answer to Deputy O'Keeffe's question, section 3(1) casts a duty on every body to which it applies to discharge its functions in a particular way. Section 3(2) gives a right of damages to people who suffer injury, loss, etc., as a result of non-compliance. Sections 3(1) and 3(2) do not exclude other equitable relief such as injunctive relief or declarations being given. Nothing in those two sections says they are excluded.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_74">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_124">The section only mentions damages.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_75" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_125">A clear, clean straightforward duty is cast in section 3(1).</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_76">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_126">We can come back to it when we come to deal with section 3, but many people have asked me about it and complete clarification on it will be important. The second question I wish to raise——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_77">
+          <from>Chairman</from>
+          <p eId="para_127">Can you conclude now and include your second question in it? The Minister will then respond to everything.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_78">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_128">I am genuinely seeking information, as I was on the question of damages and injunctive relief.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_79">
+          <from>Chairman</from>
+          <p eId="para_129">You have had your opportunity. I thought you were going to ask the questions.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_80">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_130">The Minister has mentioned the situation in relation to the CAB a number of times. If the Minister has fears concerning the CAB, under the existing right of individual petition, is it not possible for somebody to go through the process here and not go to Strasbourg in an effort to have such legislation declared incompatible with the convention? That has not happened, but if that is true, why has the Minister such fears about existing law being deemed to be incompatible in every court, given that there is currently an entitlement to go to Strasbourg and it has not happened except in a small number of cases? As it happens, those cases were quite meritorious. Is the Minister pointing to the possibility of freefall, which I think was the word he used? Does he believe a significant amount of our legislation will be declared to be incompatible even though somebody could have raised this issue already but that has not happened? Are the Minister's fears totally unfounded?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_81" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_131">No. Under our system every citizen has the right to challenge legislation. In case some people are labouring under an illusion, this is a rare right in Europe. Most countries in Europe do not accord their citizens the right to challenge legislation by reference to their constitution. An ordinary citizen in France cannot wander into any court and ask for an Act that is being used against him to be declared unconstitutional. France has a particular constitutional court and its own system, but its ordinary citizens do not have the right that we give to our citizens and the American Constitution gives to American citizens to bring the legislature to book in any court. We are not unique but we are unusual in affording people that right.</p>
+          <p eId="para_132">People, who feel that any law in Ireland infringes their rights, should first approach it from the point of view of the Constitution, which guarantees freedom of speech, due process in trial, etc. If that process ends at the Supreme Court, which determines the law is perfectly constitutional, the option exists to go to Strasbourg and make a final attempt to have the Irish State found to be in breach of the European Convention on Human Rights. At the moment the courts established under the Irish Constitution are used to achieve the results concerning challenges to legislation.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_82">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_133">Everything said here reinforces my view that the proper approach is to have direct incorporation. That view is supported by every responsible body that has examined this. I know the Minister has argued his point with such bodies, but has failed to convince any of them. My amendment is based on the supremacy of the Constitution. As of now, the Constitution is supreme and after this Act, whether by indirect incorporation or by direct incorporation, after the change of Government, the Constitution will still be supreme. That is not radically different to what exists now, except that we will have a much better system. We will have the development of a convention culture, which is good. The Minister's fears echo, to some degree, the fears that were expressed prior to the UK legislation. On all the evidence, those fears were unjustified. However, the Minister has proved my point in answer to the last question in that, in terms of prior law being overturned by the convention, the opportunity already exists for people to go to Strasbourg in relation to existing law. That has only happened in a few cases and those were quite meritorious, including the Norris, Keegan and Croke cases. I do not anticipate, in relation to our existing law which is subject to the Constitution - which covers some 95% of fundamental rights in any event - that there will be any huge development of incompatibility as far as the convention is concerned, irrespective of whether we proceed directly or indirectly.</p>
+          <p eId="para_134">Direct incorporation is the proper approach and the Minister's fears in that regard, which are totally unfounded, are not accepted by any body which has examined the issue carefully. It is unfair to those bodies that the Minister should dismiss them so lightly. They have not arrived at these views without serious consideration by people whose constitutional knowledge is far greater than mine and may, dare I say, be even greater than that of the Minister. We cannot seriously ignore all those views which have consistently urged direct incorporation of the convention into our law, subject to the Constitution. For that reason, I will press this amendment.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_83">
+          <from>Mr. Costello</from>
+          <p eId="para_135">We appear to be reaching a conclusion on this matter without a meeting of minds. We have scarcely discussed the question of a constitutional amendment. I refer to what was done in Sweden in 1995 in terms of a simple amendment stating that no law or other regulation may be enacted contrary to Sweden's obligations following from the European Convention on Human Rights. The sky did not fall in when Sweden made that constitutional amendment and we are not proposing to go even as far as that. The Minister seems to have an enormous fear of what might happen if we incorporate the European Convention on Human Rights in a robust fashion in our <i>corpus </i>of laws by direct incorporation. I do not know whether the Minister’s fears are in relation to the Strasbourg court, the possibility of lawyers taking cases or whatever. Other countries do not appear to have the same fear of the unknown, as the Minister has put it. We should remember that the issue involves basic, fundamental human rights of our citizens - not investment, business, property or other such matters. If one country, such as Sweden, can amend its constitution by making it explicit that no other law may be enacted contrary to Sweden’s obligations that follow from the European Convention on Human Rights, why can we not go down that road to some degree without being afraid of what might happen, in legal terms or otherwise?</p>
+        </speech>
+        <speech by="#PeterPowerFF" eId="spk_84">
+          <from>Mr. P. Power</from>
+          <p eId="para_136">I reiterate the points I made yesterday, having listened carefully to Deputy O'Keeffes points in particular. In his summation, he spoke of making "a better and simpler system." My fear is that, by going down the road suggested by Deputy O'Keeffe, one would not create a better and simpler system but, rather, a system which would compete with our constitutional <i>corpus </i>of law. I do not accept that as the right way to proceed, having regard to all of the arguments which have been set out by the Minister in relation to the constitutionality of Deputy O’Keeffe’s suggested Bill. We should approach the matter on the basis that if some individuals argue in our courts that their fundamental rights have been breached, they will first knock on the door of our Constitution which has been developed in a very sophisticated manner over the past 30 years in particular. They will be aware, in some detail, of the type of rights we have developed here and can assess whether their grievance falls within those rights.</p>
+          <p eId="para_137">I ask Deputies to accept that what we are doing now allows the courts to take judicial notice of all the provisions of the European Convention on Human Rights. Rather than one <i>corpus </i>of law supplanting the other - as I believe the convention would do and as the Minister has articulated better than I could - I would like to think that the convention would fill the very few gaps that might exist in our laws, rather than having the rights to which we in Ireland subscribe supplanted and overthrown by a body of law which, under Deputy O’Keeffe’s proposal, would have superior power in the hierarchy of rights. I do not agree with that approach, for the reasons which the Minister has set out.</p>
+          <p eId="para_138">While I accept Deputy O'Keeffe's bona fides in quoting the views of various organisations, it is preferable that those matters should be argued out in this committee room. After all, we are the legislators here, if not necessarily the experts in this area although we bring some degree of knowledge to it. Rather than quoting experts or bodies who may have various agendas of which we are not aware, we should argue the points clearly and cogently in this committee and come to a conclusion.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_85">
+          <from>Chairman</from>
+          <p eId="para_139">I call the Minister to make a brief concluding statement.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_86" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_140">The argument for "direct incorporation" - which is a waffle phrase of intellectual confusion arising from enthusiasts who are not willing to deal with the issue - falls on constitutional grounds. Second, in all the flak directed at me, the two Deputies concerned have not answered my simple question as to whether the District Court would have the right to declare a previous Act of the Oireachtas invalid or repealed. I suggest the answer is too frightening for them to think through. That is the reality of the matter.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_87">
+          <from>Mr. Costello</from>
+          <p eId="para_141">The District Court is not being given any powers in this Bill, which does not even recognise the District Court.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_88" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_142">Neither of the Deputies has attempted to deal with the issue. I have to deal——</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_89">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_143">The Minister is obviously unwilling to allow for cases to be stated in the High Court.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_90">
+          <from>Chairman</from>
+          <p eId="para_144">The Minister should not chase hares. The time for this debate has expired.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_91" as="#Minister_for_Justice,_Equality,_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_145">If the Deputies are now proposing that the High Court should have jurisdiction to determine whether any particular law is incompatible with the convention, that is already provided for in the Government's Bill. However, if they are proposing that the High Court could invalidate a Bill, having found it to be incompatible, it is manifestly clear to even a first year law student that that is unconstitutional. What the Houses of the Oireachtas provide as law, as long as it complies with the Constitution, must remain law unless and until those Houses change it. That is what the Constitution provides and we cannot surrender to the courts the right to amend, edit, detract or subtract from our laws whenever it may suit them. That is a simple rule of constitutional law and constitutional parliamentary sovereignty. I award the Opposition Deputies three faults for refusal to jump that fence. They know very well that they have been caught out.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_92">
+          <from>Chairman</from>
+          <p eId="para_146">Is the amendment being pressed?</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_93">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_147">Yes.</p>
+        </speech>
+        <summary eId="sum_10">Amendment put.<entity refersTo="#bill.2001.26.dail.3.amd_9" name="amendment"/>
+                </summary>
+        <debateSection name="division" eId="dbsect_4">
+          <summary title="division" eId="sum_11">The Committee divided: Tá, <quantity normalized="3" refersTo="#ta" eId="qty_1">3</quantity>; Níl, <quantity normalized="7" refersTo="#nil" eId="qty_2">7</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_5">
+            <p eId="para_148">Tá</p>
+            <p eId="para_149">
+              <person refersTo="#JoeCostelloLAB">Costello, Joe.</person>
+            </p>
+            <p eId="para_150">
+              <person refersTo="#PaulMcGrath">McGrath, Paul.</person>
+            </p>
+            <p eId="para_151">
+              <person refersTo="#JimOKeeffe">O’Keeffe, Jim.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_6">
+            <p eId="para_152">Níl</p>
+            <p eId="para_153">
+              <person refersTo="#SeanArdagh">Ardagh, Seán.</person>
+            </p>
+            <p eId="para_154">
+              <person refersTo="#JoeCallananFF">Callanan, Joe.</person>
+            </p>
+            <p eId="para_155">
+              <person refersTo="#MarieHoctorFF">Hoctor, Máire.</person>
+            </p>
+            <p eId="para_156">
+              <person refersTo="#MichaelMcDowellPD">McDowell, Michael.</person>
+            </p>
+            <p eId="para_157">
+              <person refersTo="#CharlieOConnorFF">O’Connor, Charlie.</person>
+            </p>
+            <p eId="para_158">
+              <person refersTo="#DennisODonovan">O’Donovan, Denis.</person>
+            </p>
+            <p eId="para_159">
+              <person refersTo="#PeterPowerFF">Power, Peter.</person>
+            </p>
+          </debateSection>
+        </debateSection>
+        <speech by="#JoeCostelloLAB" eId="spk_94">
+          <from>Mr. Costello</from>
+          <p eId="para_160">I move amendment No. 10:<entity refersTo="#bill.2001.26.dail.3.amd_10" name="amendment"/>
+                    </p>
+          <p eId="para_161">In page 4, before section 2, to insert the following new section:</p>
+          <p eId="para_162">2.-"The Convention provisions shall be part of the law of the State.".</p>
+        </speech>
+        <summary eId="sum_12">Amendment put.<entity refersTo="#bill.2001.26.dail.3.amd_10" name="amendment"/>
+                </summary>
+        <debateSection name="division" eId="dbsect_7">
+          <summary title="division" eId="sum_13">The Committee divided: Tá, <quantity normalized="3" refersTo="#ta" eId="qty_3">3</quantity>; Níl, <quantity normalized="7" refersTo="#nil" eId="qty_4">7</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_8">
+            <p eId="para_163">Tá</p>
+            <p eId="para_164">
+              <person refersTo="#JoeCostelloLAB">Costello, Joe.</person>
+            </p>
+            <p eId="para_165">
+              <person refersTo="#PaulMcGrath">McGrath, Paul.</person>
+            </p>
+            <p eId="para_166">
+              <person refersTo="#JimOKeeffe">O’Keeffe, Jim.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_9">
+            <p eId="para_167">Níl</p>
+            <p eId="para_168">
+              <person refersTo="#SeanArdagh">Ardagh, Seán.</person>
+            </p>
+            <p eId="para_169">
+              <person refersTo="#MarieHoctorFF">Hoctor, Máire.</person>
+            </p>
+            <p eId="para_170">
+              <person refersTo="#MichaelMcDowellPD">McDowell, Michael.</person>
+            </p>
+            <p eId="para_171">
+              <person refersTo="#JoeCallananFF">Callanan, Joe.</person>
+            </p>
+            <p eId="para_172">
+              <person refersTo="#CharlieOConnorFF">O’Connor, Charlie.</person>
+            </p>
+            <p eId="para_173">
+              <person refersTo="#DennisODonovan">O’Donovan, Denis.</person>
+            </p>
+            <p eId="para_174">
+              <person refersTo="#PeterPowerFF">Power, Peter.</person>
+            </p>
+          </debateSection>
+        </debateSection>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_95">
+          <from>Chairman</from>
+          <p eId="para_175">The select committee will resume consideration of the European Convention on Human Rights Bill 2001 on Wednesday, 5 March. The joint committee will meet on Tuesday, 25 February and will receive a briefing on justice and home affairs matters prior to a meeting of the Council of Ministers later that week.</p>
+        </speech>
+        <summary eId="sum_14">The select committee adjourned at 7 p.m. until 5.15 p.m. on Wednesday, 5 March 2003.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

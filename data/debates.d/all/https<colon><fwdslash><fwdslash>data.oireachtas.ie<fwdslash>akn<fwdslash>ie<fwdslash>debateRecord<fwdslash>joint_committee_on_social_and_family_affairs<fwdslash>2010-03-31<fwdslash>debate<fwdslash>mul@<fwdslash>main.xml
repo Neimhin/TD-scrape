@@ -1,0 +1,707 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_social_and_family_affairs/2010-03-31/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_social_and_family_affairs/2010-03-31/debate"/>
+          <FRBRdate date="2010-03-31" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_social_and_family_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_social_and_family_affairs/2010-03-31/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_social_and_family_affairs/2010-03-31/debate/mul@"/>
+          <FRBRdate date="2010-03-31" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_social_and_family_affairs/2010-03-31/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_social_and_family_affairs/2010-03-31/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" eId="#vol_None" showAs="Vol. None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" eId="#no_None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="CatherineByrne" href="/ie/oireachtas/member/id/Catherine-Byrne.D.2007-06-14" showAs="Catherine Byrne"/>
+        <TLCPerson eId="CharlieOConnorFF" href="/ie/oireachtas/member/id/Charlie-O'Connor.D.2002-06-06" showAs="Charlie O'Connor"/>
+        <TLCPerson eId="JackieHealyRae" href="/ie/oireachtas/member/id/Jackie-Healy-Rae.D.1997-06-26" showAs="Jackie Healy-Rae"/>
+        <TLCPerson eId="JohnPaulPhelan" href="/ie/oireachtas/member/id/John-Paul-Phelan.S.2002-09-12" showAs="John Paul Phelan"/>
+        <TLCPerson eId="MattieMcGrath" href="/ie/oireachtas/member/id/Mattie-McGrath.D.2007-06-14" showAs="Mattie McGrath"/>
+        <TLCPerson eId="MichaelCreed" href="/ie/oireachtas/member/id/Michael-Creed.D.1989-06-29" showAs="Michael Creed"/>
+        <TLCPerson eId="NickyMcFadden" href="/ie/oireachtas/member/id/Nicky-McFadden.S.2007-07-23" showAs="Nicky McFadden"/>
+        <TLCPerson eId="OlwynEnrightFG" href="/ie/oireachtas/member/id/Olwyn-Enright.D.2002-06-06" showAs="Olwyn Enright"/>
+        <TLCPerson eId="PaulBradford" href="/ie/oireachtas/member/id/Paul-Bradford.S.1987-04-25" showAs="Paul Bradford"/>
+        <TLCPerson eId="RoisinShortall" href="/ie/oireachtas/member/id/Róisín-Shortall.D.1992-12-14" showAs="Róisín Shortall"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Sean Sherlock"/>
+        <TLCPerson eId="SeymourCrawford" href="/ie/oireachtas/member/id/Seymour-Crawford.D.1992-12-14" showAs="Seymour Crawford"/>
+        <TLCPerson eId="TerryLeyden" href="/ie/oireachtas/member/id/Terry-Leyden.D.1977-07-05" showAs="Terry Leyden"/>
+        <TLCPerson eId="ThomasByrne" href="/ie/oireachtas/member/id/Thomas-Byrne.D.2007-06-14" showAs="Thomas Byrne"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM GHNÓTHAÍ SÓISIALACHA AGUS TEAGHLAIGH</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON SOCIAL AND FAMILY AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2010-03-31">Dé Céadaoin, 31 Márta 2010</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2010-03-31">Wednesday, 31 March 2010</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 11 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#CatherineByrne">Deputy Catherine Byrne,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#TerryLeyden">Senator Terry Leyden,*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#ThomasByrne">Deputy Thomas Byrne,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#NickyMcFadden">Senator Nicky McFadden.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#SeymourCrawford">Deputy Seymour Crawford,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#OlwynEnrightFG">Deputy Olwyn Enright,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MattieMcGrath">Deputy Mattie McGrath,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#CharlieOConnorFF">Deputy Charlie O’Connor,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#RoisinShortall">Deputy Róisín Shortall,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Senator Martin Brady.</summary>
+          <summary eId="sum_4">In attendance: Deputies Michael Creed, Timmy Dooley and Seán Sherlock, and Senators Paul Bradford and John Paul Phelan.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#JackieHealyRae">DEPUTY JACKIE HEALY-RAE IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Joint Committee.</heading>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_10">Apologies have been received from Senator Martin Brady.  The minutes of the meeting of 13 March have been circulated to members.  Are they agreed?  Agreed.  I propose that the committee should go into private session to deal with housekeeping matters before we hear the presentation by the IFA and the Departments.  Is that agreed?  Agreed.</p>
+          <p eId="para_11">The joint committee went into private session at 11.07 a.m. and resumed in public session at 11.15 a.m.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Contributory State Pension for Farm Spouses: Discussion with IFA.</heading>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_2">
+          <from>Chairman</from>
+          <p eId="para_12">We will have a presentation from the Irish Farmers Association, IFA, on the decision by the Department of Social and Family Affairs to rescind the contributory State pension to spouses over 66 who successfully applied for retrospective partnership status and had been approved a contributory pension.  From the Irish Farmers Association I welcome Mr. John Bryan, president, Ms Margaret Healy, chairperson of the farm family and social affairs committee, Mr. Pat Smith, general secretary, and Ms Geraldine O'Sullivan, executive secretary.</p>
+          <p eId="para_13">I draw witnesses' attention to the fact that members of the committee have absolute privilege but the same privilege does not apply to witnesses appearing before the committee.  Members are reminded of the long-standing parliamentary practice to the effect that members should not comment on, criticise or make charges against a person outside the House or an official by name or in such a way as to make him or her identifiable.</p>
+          <p eId="para_14">We agreed the session would last for 40 minutes as we have important briefings from two Departments.  I intend to adhere strictly to the schedule.  I ask the IFA members to limit their opening remarks to five minutes, as requested in the letter of invitation.  I urge members to be brief and concise in their questions.  In that context I suggest we agree to limit question time to five minutes for the Opposition spokespersons and two minutes for all other members.  The IFA can then make a single response to all questions.  Is that agreed?  Agreed.  I invite Mr. Bryan to commence his presentation.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Mr. John Bryan</from>
+          <p eId="para_15">I thank the committee for the opportunity to outline our opposition to the decision taken by Department of Social and Family Affairs to backtrack on an agreement reached in good faith with the IFA.  This agreement allowed farm spouses to establish self-employed partnership status retrospectively and apply for a contributory State pension.</p>
+          <p eId="para_16">I am accompanied today by Margaret Healy, chairwoman of the IFA farm family and social affairs committee, Pat Smith, IFA general secretary, and Geraldine O'Sullivan, farm family and social affairs executive.  There are several representatives from the farm family committee also present.</p>
+          <p eId="para_17">Let me set out the factual background.  The Department of Social and Family Affairs has received 1,077 applications to establish self-employed partnership status retrospectively since June 2008.  Some 60% of the applicants are over 66 years old.  Some 913, or 85% of the applications, relate to farm spouses applying for farm business partnership status retrospectively.  Approximately 600 applications have been processed to date and 510 were deemed to have a partnership.  Of the 510 applicants that were granted business partnership status, 268 pensions were disallowed as a result of the then Minister's decision in January 2010.  The other 332 are considered eligible for the contributory State pension.  Some 500 applications are still to be processed by the Department.</p>
+          <p eId="para_18">The IFA is here today to represent the 268 farm women who, without warning, had their pensions stopped.  The average age of the women concerned is 72 years old, but some are in their 80s.  For the past 14 weeks they have been without a pension and have been living in the main off their husband's pension.  Others are dependent on savings or charity from family and friends.  I have met many of these women and their families.  They are very aggrieved and upset at the injustice of the decision taken by the Department of Social and Family Affairs to disallow the pension.</p>
+          <p eId="para_19">This decision to deprive farm women of a pension is a heartless move against a hidden workforce who had finally gained some recognition for decades of work on the farm.  This decision does not sit well with the Department's mission statement, "to promote a caring society through income and other support services, enabling active participation in society, promoting social inclusion and supporting families".  I doubt very much that stopping a person's only source of income promotes social inclusion.  I would say social exclusion is the more likely outcome.</p>
+          <p eId="para_20">The women concerned who applied for partnership status entered into an agreement with the Government in good faith.  They honoured their part of the agreement, applied to establish self-employed partnership retrospectively and paid all relevant PRSI contributions which entitled them to a contributory State pension.  The agreement was negotiated with Government over a long period within the framework of the social partnership agreement Towards 2016, which aims as part of the life cycle framework articulated in the vision statement for older people, that they be able to have access to an income which is sufficient to sustain an acceptable standard of living.</p>
+          <p eId="para_21">Based on the agreement reached with the Department of Social and Family Affairs and the Revenue Commissioners in 2008, the IFA encouraged these women to change their legal status and apply for business partnership status retrospectively.  This agreement accepted that PRSI contributions paid by the farmer on the income earned on the farm should have been paid in the names of the farmer and his wife on the basis of the farm partnership.  The outcome of the negotiations with the Department and Revenue Commissioners was that spouses working in partnership in previous years, but who did not claim so when making annual tax returns, could claim partnership status retrospectively.  If approved, they were brought into the social insurance system, provided they met any outstanding PRSI liabilities.</p>
+          <p eId="para_22">The application process reflects the terms of the agreement.  The Revenue Commissioners split the income earned on the farm according to the terms of the business partnership and create a full PRSI history for both parties.  Any PRSI contributions owing are paid and a full PRSI record is created for both parties.  I wish to bring to your attention the wording of the 2008 agreement with the Department of Social and Family Affairs, which states, "spouses who were effectively working in partnership in previous years, but who did not claim so when making their annual tax returns, will have the opportunity to claim for a spouses partnership status retrospectively".</p>
+          <p eId="para_23">The Government has a responsibility to these women, whom it actively encouraged to apply.  A recent IFA survey of the women concerned shows that 34% of them had worked prior to getting married and going to work on the farm in partnership with their husbands.  The average PRSI back-payment was €3,300 per farm spouse.  Typically, this money was borrowed on the basis of getting the contributory State pension.  An estimated €900,000 has been paid to the State in back-dated PRSI contributions.  Some 30% of the women concerned were in receipt of some pension prior to establishing a farm business partnership retrospectively.  They were typically in receipt of a qualified adult or private pension.  The average weekly pension rate was €173.  The additional liability to the State is estimated at less than €570,000 per annum to honour the agreement and pay the contributory State pension to the 268 farm women.</p>
+          <p eId="para_24">The background to the agreement was to provide recognition to the women who had worked and managed the farm in partnership with their husbands, having in some instances been forced to resign from jobs when they got married.  Today, more than 50% of farms have at least one off-farm income and most farm spouses have an independent PRSI record.</p>
+          <p eId="para_25">In conclusion, I would like to put it on the record, that the women affected have a legitimate expectation to the contributory State pension.  The Government cannot abandon its agreement with IFA on farm spouse pensions</p>
+          <p eId="para_26">Chairman and members, I have welcomed the appointment of Deputy Éamon Ó Cuív as Minister for Social Protection.  I want to acknowledge that the Minister, Deputy Ó Cuív, has always shown a genuine interest in rural and community affairs and has recognised the importance of social protection.  I trust that he will move quickly to recognise the legitimate cases of the women whose farm partnerships were approved by the then Department of Social and Family Affairs, and I put on record that the IFA will work constructively with him and his officials in this regard.</p>
+          <p eId="para_27">The Chairman is very well aware that a serious injustice has been done to these women and we would appreciate any help that he can give the IFA to work with the Minister to solve the problem.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_4">
+          <from>Chairman</from>
+          <p eId="para_28">Thank you very much.</p>
+        </speech>
+        <speech by="#OlwynEnrightFG" eId="spk_5">
+          <from>Deputy Olwyn Enright</from>
+          <p eId="para_29">I welcome the president and members of the IFA.  I wish Mr. Bryan well during his presidency.</p>
+          <p eId="para_30">The president and members will be aware that the former Minister for Social and Family Affairs appeared before the joint committee a number of weeks ago when we raised this issue.  Indeed Ms Margaret Healy and Ms Geraldine O'Sullivan were present at that meeting.  We teased out the issues with the Minister, Deputy Hanafin, but did not get a positive response.  I think the case has been outlined quite clearly this morning.  Members have been told at all times that an administrative error was made and that was the line which the then Minister firmly put forward.</p>
+          <p eId="para_31">It is quite clear and when one reads the press release from 2008, as many have done, that negotiations had been entered into and the press release effectively celebrates the reaching of an agreement between the Department, the Government and the IFA on this issue and that agreement at all times amounted to allowing people to back pay the PRSI contributions to allow them to receive a contributory State pension.</p>
+          <p eId="para_32">The president has outlined the difficulties, but what I would like to see is a resolution from the committee to the new Minister for Social Protection, Deputy Éamon Ó Cuív, asking him to honour the original agreement that was made.  There was a legislative change in the Social Welfare Bill prior to Christmas.  A new Social Welfare Bill will come before the Dáil after Easter and I would think<b> </b>that if legislation is needed to honour the agreement, the Government should change this decision and allow the 268 women to receive the pension.  It boils down to the fact that each woman was working with her spouse in a partnership on the farm.  They earned this and paid for it and the Department knowingly calculated pages of figures to allow them to make the PRSI payment, which they did and it should be honoured.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_6">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_33">I welcome Mr. Bryan and his colleagues to the committee.  I would like to offer my own support and the support of the Labour Party for the campaign that is under way.  I agree with Deputy Enright.  It is the job of the committee to assist the IFA in whatever way it can to get a satisfactory resolution of its campaign.  The farm women concerned have been treated in a very shoddy manner by the Government.  The understanding was that there was an agreement in place and people made the back payments in good faith under the terms of the agreement as set out to them, yet it now seems the Government is welching on that agreement.  This represents a terrible slap in the face for those farm women who have contributed so much to the local economy over the years.  It is only right that such a contribution should be properly recognised through our social welfare system.</p>
+          <p eId="para_34">Can the witnesses provide some detail on the information given to them by the Department at the time, including any written undertakings?  I assume that several of the 268 cases are under appeal at the moment.  How many are being appealed?  If the case was made under the social welfare appeals system or through the Office of the Ombudsman, then a very good case could be made.  This committee is very keen to support the witnesses, but it would help us if any written advice or undertakings provided by the Department were given to us.</p>
+        </speech>
+        <speech by="#MattieMcGrath" eId="spk_7">
+          <from>Deputy Mattie McGrath</from>
+          <p eId="para_35">I welcome the president of the IFA, his colleagues and his many supporters who are very concerned about this issue.  On behalf of the Fianna Fáil Deputies, I can say that we are wholeheartedly supporting Deputy Enright's suggestion that we table an amendment and talk to the Minister at a committee meeting.  We are upset about this.  It was a deal that was done in good faith.  It was worked out and people were advised to back-pay their PRSI contributions.  I come from a farming family and my mother is still alive.  I know well the work that spouses do on these farms.  A long time ago there were big families on farms, but now they are very lonely institutions, so spouses are all the more important.</p>
+          <p eId="para_36">We all have a copy of Deputy Moynihan's letter.  It is a very serious situation and we will insist that it be rectified.</p>
+        </speech>
+        <speech by="#NickyMcFadden" eId="spk_8">
+          <from>Senator Nicky McFadden</from>
+          <p eId="para_37">I welcome Mr. Bryan and his colleagues.  This is a serious issue and I warmly welcome Deputy McGrath's contribution and that of Fianna Fáil, but I wonder why they did not have any influence over the Minister if they still feel so strongly about the issue.  Apart from the agreement with the IFA, it seems that the Government had a contract with these women but that it has reneged on this contract.  That is very serious.  It is not acceptable to enter into a contract and then break a promise.  The witnesses are right to quote the mission statement.  These women have made contributions all of their lives, and now they are getting a kick in the teeth.  We should remember that this would cost the State only €570,000, when compared with the billions of euro that have been put into NAMA.  It is an outrage that 268 women will be sacrificed for €570,000.</p>
+          <p eId="para_38">I fully agree with this campaign and I will do anything I can to support it.</p>
+        </speech>
+        <speech by="#CharlieOConnorFF" eId="spk_9">
+          <from>Deputy Charlie O’Connor</from>
+          <p eId="para_39">I welcome the IFA delegation and I wish Mr. Bryan well in his term of office.  There is a myth that there are no farmers in Tallaght.  I appreciate the briefings that we get from the IFA through the Dáil liaison officer, Ms Elaine Farrell.  They are very helpful for people like me, as I am not an expert on farming issues.  I agree with Deputy Enright's suggestion.  The new Minister with responsibility for this area, Deputy Ó Cuív, should be brought here as soon as possible to deal with this and other matters.  We should clearly signal the concerns that have been expressed by all parties this morning.</p>
+          <p eId="para_40">I wish the IFA delegation well, and if they want to do any campaigning in Tallaght, I welcome them.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_10">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_41">I welcome my colleagues from the IFA.  I worked at national level with the IFA and I know the effort they put into these issues.  I congratulate Mr. Bryan for providing clear and succinct information to this meeting.  It is an extremely serious issue.</p>
+          <p eId="para_42">I was one of those back in the 1970s who promoted the idea of farmers paying PRSI.  It started in April 1988, but the spouse issue was only detected 20 years later.  I dealt with a case recently of a spouse who applied but was told by Department officials that she was not entitled to the pension.  In this case, it was the spouse who ran the farm while her husband worked in a full-time job.  That gives us some idea of the lack of information that was denied the inspectorate over the years.</p>
+          <p eId="para_43">These women went through a rigorous investigation by the Department of Social and Family Affairs.  This was not dealt with just by one person in the Department, but by the local inspector, the deciding officers and by all others.  To blame the individual women is not just wrong, but illegal.  That message has to go out loud and clear.</p>
+          <p eId="para_44">I welcome the tremendous support today from my Fianna Fáil colleagues, although they are few and far between here.  I welcome what Deputy McGrath and Deputy O'Connor said, because I respect them as individuals.  The problem is that when the Minister, Deputy Hanafin, was in charge, we did not get that support.  She completely denied any responsibility for it.  I welcome the appointment of Deputy Ó Cuív to this Department and I believe that he will be more realistic and more sympathetic.  We will rely on the Fianna Fáil backbenchers to ensure that this actually happens, because if it has to go to a vote in the Dáil, then the decision will be made there.</p>
+          <p eId="para_45">I was involved with Ms Mary Sherry as the former chairperson of this committee.  She put tremendous effort into it and it is extremely disappointing that the Minister should walk away from this and suggest that it was just a mistake.  We must remember it is not just that the money was stopped.  There is actually a demand to repay money they had been paid previously.  That is an outrage and completely unacceptable.</p>
+          <p eId="para_46">While I apologise for taking so much time, I am very emotional about this issue.  It is legally wrong.  We must get that message across clearly to the Minister that if he does not do this in a co-operative and political way, he will have to face the rigours of the law.</p>
+        </speech>
+        <speech by="#JohnPaulPhelan" eId="spk_11">
+          <from>Senator John Paul Phelan</from>
+          <p eId="para_47">I welcome the representatives of the IFA, including my neighbour, Mr. John Bryan, and thank them for their succinct presentation in which they outlined their case strongly.  I place on record my support for their campaign.</p>
+          <p eId="para_48">It was Mr. Séamus Brennan, when Minister for Social and Family Affairs prior to the 2007 general election, who, upon the questioning of a number of Government and Opposition Members, seriously took up the idea of pensions for farmers' spouses for the first time.  This was followed on by the Minister, Deputy Mary Hanafin, when the Department of Social and Family Affairs reached agreement with the IFA in 2008.  The Government is trying to put this down to an administrative error.  It is not an administrative error.  It is an agreement that was clearly entered into by the Department at the time and it is now being reneged upon.</p>
+          <p eId="para_49">It is an issue which is very close to my heart.  I grew up in a household where my mother had no income.  She worked all her life on farms, whether where she was reared in Inistioge, Mr. Bryan's home area, or where she lives now.  She is not getting fair treatment and there are hundreds of people like her who are not getting fair treatment.</p>
+          <p eId="para_50">Some 268 women have been accepted into the scheme.  As Deputy Crawford pointed out, it is not just a case of stopping the money but the Department is seeking that money paid would be paid back.  This is completely morally unjustifiable and, as Deputy Crawford pointed out, illegal.  Yesterday, we were talking about billions of euro to invest in our banks.  Today, we are talking about little more than €500,000 to give some sort of justice and recognition for the efforts these women have put into running a family business, which is what a farm is, over many years.  It is not good enough.</p>
+          <p eId="para_51">I do not doubt the sincerity of Deputies Charlie O'Connor and Mattie McGrath in terms of what they want to see happen in this situation.  However, it is time to put up, not just talk about it.  The Minister, Deputy Hanafin, was at the committee a number of weeks ago and there was no support from the Government benches to put pressure on her to change her position.  Now, with a new Minister, who I believe will be more sympathetic towards rural Ireland, it is time to put pressure from the Fianna Fáil backbenches and from all quarters to ensure the agreement that was entered into in 2008 is honoured.  If the Minister reneges on that commitment, I would be glad to have support from the Fianna Fáil side, for example, if a Private Members' motion were tabled by Fine Gael or the Opposition sought for this money to be reinstated to where it rightly belongs.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_12">
+          <from>Senator Paul Bradford</from>
+          <p eId="para_52">I welcome the delegation.  Unfortunately, what they have said today is nothing new to me as I know the story inside out and upside down.  Despite the efforts of the past seven or eight years, including prior to the agreement we thought was reached with the Department and which I pursued very vigorously with previous Ministers, I came to the sad conclusion following the brief discussions I had with the former Minister, Deputy Hanafin, that she clearly did not understand the foundation of the scheme which had been agreed.</p>
+          <p eId="para_53">People have received letters stating they are disqualified from the pension on the basis that a PRSI contribution had not been made before they had reached the age of 66.  As the delegation will know, and I am bemused that people see this as complicated, the genesis of the scheme and the debate over the past decade was to put in place a scheme for people who had not paid PRSI before they reached 66 but who had been eligible and entitled to do so.  We all know that if one was 67 years of age and it was found that one had a tax bill owing to the Revenue Commissioners, they would collect it.  We debated the prospect of putting in place a scheme for people who had not paid PRSI before they were 66 but who had been eligible to do so, and that was the basis of the agreement.  The late Minister, Mr. Séamus Brennan, God rest his soul, clearly understood what he was putting in place.  It seems the decision made two months ago stemmed from the fact the then Minister, Deputy Hanafin, did not understand the scheme which had been negotiated.</p>
+          <p eId="para_54">I wish the delegation well in their endeavours.  I look forward to engaging with the new Minister.  This is a matter of natural justice.  The current position is unsustainable.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_13">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_55">I apologise for missing the submissions as I was attending a meeting of the Joint Committee on Agriculture, Fisheries and Food.  The issue is one of equity.  It also speaks to the fact of how women are treated <i>vis-à-vis</i> the pensions system as a whole in this country.  The issue is very simple in that if the terms of a scheme are agreed, people buy into the scheme in good faith and the bona fides of the scheme are clearly established, as a matter of equity and fairness it is necessary that the obligations of the scheme are met.  These women signed up to the scheme in good faith and the State should honour its commitments in that regard.  There is also the wider issue of the treatment of women who are atypical workers, if I can use that phrase, and how we are to deal with their pensions provision into the future.  I welcome the submissions.  I have been in touch with the IFA on the issue and welcome the fact it is represented here today.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_56">I will allow Deputy Creed one minute to address the meeting, although it should only be one minute as he misbehaved at a previous meeting.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_15">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_57">I congratulate the Chairman on his initiative after we crossed swords on the last day.  He reacted and we are making progress today.</p>
+          <p eId="para_58">The one change I welcome since we met last is that there is a new Minister for Social and Family Affairs.  I hope the new Minister will take up this issue on its merits.  It is not exclusively confined to the farming community, although it is predominantly an issue for farmers' spouses.</p>
+          <p eId="para_59">While I do not want to go over old ground, given that people in their advanced years received the kind of correspondence which they did with all its connotations in respect of moneys paid and dreams denied in terms of expectations, there is really only one course of action.  Everybody present, including those sitting behind me more than most, knows the country is broke.  However, we are not talking about a lot of money and we are talking about a real injustice perpetrated on vulnerable people.</p>
+          <p eId="para_60">From an actuarial perspective, I have not done the maths but from the replies to parliamentary questions, the Minister seemed repeatedly to confirm that we are talking about a small number of people.  I have seen nothing to suggest there is a dam about to burst and that a huge number of financial liabilities will be exposed if the Minister does not continue with this line of action.  This is a good step on the road to recovery but it is based on the premise that everybody approaches it from the point of view of problem fixing.  If this is the case, the issue can be resolved.</p>
+          <p eId="para_61">I hope the IFA will continue to lobby on the issue.  At a political level, I understand the committee has agreed a course of action in respect of pursuing this with the Minister.  I hope the Minister will come to the issue with clean hands.</p>
+        </speech>
+        <speech by="#" eId="spk_16">
+          <from>Ms Margaret Healy</from>
+          <p eId="para_62">I welcome the wholehearted support of the speakers for our campaign.  As Deputy Creed said, receiving these letters was very difficult.  For example, there is an 82 year old woman who is afraid she will go to jail because she cannot pay back the money she got, and the Department is looking for 18 months to two years of pension back.  Many of these women had to borrow the money to pay back their PRSI contributions.  We must bear in mind how this has affected people individually.  These women should not be subjected to such treatment at their age.  They followed all the rules, ticked all the boxes and did everything that was asked of them.  They did nothing wrong and should not have to appeal the decision that was made.  It takes two to three months for appeals to be processed and the women concerned are without money since January.  They got a letter on a Tuesday informing them there would be no pension for them on Friday.  I know a couple in Kerry who are surviving on €115 per week between them.  It would be impossible for them to get by without support from their family.  I welcome wholeheartedly the support expressed by members but it must extend beyond this room.  Support must translate into action.</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from>Mr. John Bryan</from>
+          <p eId="para_63">I appreciate the contributions from members.  It is clear they have a good understanding of the issue.  This was an agreement freely entered into between the women concerned and the Department of Social and Family Affairs.  Letters were issued setting out that agreement and it was approved at senior level within the Department.  Nothing gets done in that Department without the approval of senior staff.  Everything was done as it should be and the women concerned began receiving their payments.  It is totally unjust for the Department to seek now to reclaim that money.</p>
+          <p eId="para_64">I appreciate the strong commitment given by the Chairman that not only will the committee lobby the Minister, Deputy Ó Cuív, but, if necessary, will recommend an amendment to the Social Welfare Bill.  It is essential that justice be done.  These people have worked all their lives and have made a significant contribution.  I am sure the Chairman, like other members, knows some of those affected.  It is a problem that must be solved and it should not take legislation to do it.  The Minister, Deputy Hanafin, agreed a deal and reversed it with the stroke of a pen; it should only take the stroke of a pen to reverse it.  These are elderly people who cannot afford to wait indefinitely.  We would appreciate the committee's help in urging the Minister, Deputy Ó Cuív, to resolve this as soon as possible.</p>
+        </speech>
+        <speech by="#OlwynEnrightFG" eId="spk_18">
+          <from>Deputy Olwyn Enright</from>
+          <p eId="para_65">Will the Chairman clarify that it is proposed that the committee will write to the Minister?</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_19">
+          <from>Chairman</from>
+          <p eId="para_66">That is exactly what I am proposing.  We will write to the Minister with a transcript of the meeting, asking him to reconsider the decision in this matter.</p>
+        </speech>
+        <speech by="#OlwynEnrightFG" eId="spk_20">
+          <from>Deputy Olwyn Enright</from>
+          <p eId="para_67">That was not the proposal.  We are asking him not to reconsider but to rescind the decision.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_21">
+          <from>Chairman</from>
+          <p eId="para_68">Yes, and we will ask to discuss the matter with him at the meeting on 24 April.</p>
+        </speech>
+        <speech by="#OlwynEnrightFG" eId="spk_22">
+          <from>Deputy Olwyn Enright</from>
+          <p eId="para_69">To clarify, the proposal that was supported by all members was that we would ask the Minister, Deputy Ó Cuív, to rescind the decision, to reinstate the pension and if legislation is necessary, that an amendment be made to the Social Welfare Bill.  There was a proposal that we invite the Minister to the next meeting.  I do not want another discussion on this because the witnesses will not be there and the atmosphere could be quite different, as it was the last day when the Minister, Deputy Hanafin, was here.  There is a clear proposal to which everybody agreed.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_23">
+          <from>Chairman</from>
+          <p eId="para_70">We will clarify that in a moment in private session.  I thank the delegates from the IFA, particularly Mr. Bryan.  I wish him well in his post and assure him that I, as Chairman of the committee, will do my level best to assist him in this matter.  I thank the delegates for briefing us so comprehensively on the issue.  Their concerns will be raised with the Minister, Deputy Ó Cuív, at the meeting on 24 April when he comes before the committee to brief us on the national pensions framework.  The delegates are welcome to sit in the Visitors Gallery for that meeting, in which case they should contact the clerk in advance with the names of those wishing to attend.</p>
+          <p eId="para_71">The joint committee went into private session at 11.55 a.m. and resumed in public session at 12.05 p.m.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_4">
+        <heading>Rental Accommodation Scheme: Discussion.</heading>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_24">
+          <from>Chairman</from>
+          <p eId="para_72">I welcome from the Department of the Environment, Heritage and Local Government, Mr. Michael Layde, assistant secretary, Mr. Eddie Lewis, principal officer, and Ms Rosalind Carroll, assistant principal officer; and from the Department of Social and Family Affairs, Ms Orlaigh Quinn, assistant secretary, Mr. Kieran O'Dwyer, principal officer, and Mr. Joseph Meehan, assistant principal officer.</p>
+          <p eId="para_73">I draw witnesses' attention to the fact that members of the committee have absolute privilege but the same privilege does not apply to witnesses appearing before the committee.  Members are reminded of the long-standing parliamentary practice to the effect that members should not comment on, criticise or make charges against a person outside the House or an official by name or in such a way as to make him or her identifiable.</p>
+          <p eId="para_74">I ask Ms Quinn to commence her briefing on proposals to ensure the rates of transfer from the rent supplement scheme to the rental accommodation scheme improve significantly.  I understand Mr. Layde will conclude the opening statement.</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from>Ms Orlaigh Quinn</from>
+          <p eId="para_75">I thank the committee for the opportunity to address it on the rate of transfer of clients from rent supplement to the rental accommodation scheme, RAS.  While the RAS is the responsibility of the Department of Environment, Heritage and Local Government, the Department of Social and Family Affairs plays a key role in ensuring RAS's continuing success by offering the necessary support.</p>
+          <p eId="para_76">I propose to present a brief overview of the rent supplement scheme.  Rent supplement is administered on behalf of my Department by the Health Service Executive as part of the supplementary welfare allowance scheme.  The purpose of the rent supplement scheme is to provide short-term income support to eligible people living in private rented accommodation where their means are insufficient to meet their accommodation costs and they do not have access to accommodation by other means.  The rent supplement scheme has experienced a significant increase in the numbers of people benefitting from it over the past two years.  Currently more than 94,000 claimants benefit from rent supplements, an increase of 52% since the end of 2007.</p>
+          <p eId="para_77">The main purpose of the scheme is to address eligible people's short-term needs for accommodation.  However, more than half the current recipients on rent supplement have now been in receipt of payments for more than one year, with almost 35,000 receiving payments for more than 18 months.  The scheme has to be viewed in the context of overall housing policy and it is accepted that it is not the solution to long-term housing needs.  In response to this situation, in July 2004 the Government introduced new rental assistance arrangements, including the rental accommodation scheme, to give local authorities specific responsibility for meeting on a phased implementation basis the longer term housing needs of people receiving rent supplement for 18 months or more.</p>
+          <p eId="para_78">My colleague from the Department of the Environment, Heritage and Local Government will supply figures on RAS transfers.  It suffices for me to say that the targets set for the scheme since its inception have largely been achieved.  The target set for this year is an additional 8,000 households to be transferred to rent supplement.</p>
+          <p eId="para_79">As has already been noted, my Department works closely with the Department of the Environment, Heritage and Local Government and is represented on a number of RAS implementation groups.  The latter Department is provided with quarterly updates of persons on long-term rent supplement for use by local authorities in targeting tenants for transfer to RAS.  Significant changes to the means test for rent supplement were implemented in 2007 to allow people to return to work and retain their entitlements as long as they have been approved for RAS accommodation.  Changes have also been made in the 2009 budget and the supplementary 2009 budget to better align the minimum weekly contribution required by rent supplement tenants with rents payable under RAS tenancies.  This is aimed at encouraging people to take up RAS offers from local authorities.  My Department continues to work closely with the Department of the Environment, Heritage and Local Government in ensuring RAS meets its objectives while enabling rent supplement to return to its original role of a short-term income support.</p>
+        </speech>
+        <speech by="#" eId="spk_26">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_80">The rental accommodation scheme resulted from a Government decision taken in July 2004.  The rationale for the scheme arose out of issues relating to the rent supplement scheme, specifically including the dependence on it by persons with long-term housing needs, the costs involved and the sometimes sub-optimal standards of accommodation.  The two key objectives of the new scheme were the elimination of dependence on rent supplement by persons assessed as needing housing assistance on a long-term basis and the enhancement of the capacity of local authorities to respond to long-term housing need.</p>
+          <p eId="para_81">At the inception of the scheme a target was set to transfer all eligible rental accommodation scheme cases, which at the time stood at approximately 19,000 households, over a three-year implementation period.  However, in the ensuing period the number of such households continuously increased.  As a consequence, a decision was taken to reformulate targets away from the absolute RAS eligible group to annual national and individual authority targets.</p>
+          <p eId="para_82">Since 2006, which was the first full year of the scheme, the number of transfers out of rent supplement into either the rental accommodation scheme or other forms of social housing has met or exceeded the increasingly ambitious targets set at the beginning of each year.  These targets were 5,000 per annum in the period 2006 to 2008, increasing to 7,000 for 2009 and 8,000 for 2010.  In consequence, by the end of February 2010 a total of 25,623 cases had been transferred to either RAS or social housing following assessment by local authorities.  To put this in context, in 2005, the first year of the scheme, only 606 cases were transferred out of rent supplement.  This had risen to just short of 7,000 in 2009, a tenfold increase in annual transfer levels.  It demonstrates that subsequent to the initial challenges and adjustment period that is experienced with the introduction of all new schemes, the scheme is responding effectively in meeting the objectives set for it.  Notwithstanding this, we are acutely aware of the challenge posed by the rapidly growing number of households on rent supplement.  In the last two years alone, this number has jumped by 50%, which has major implications for the service provided under both rent supplement and the rental accommodation scheme, RAS.  As of the end of 2009, the figure for the number of households that had reached the 18-month threshold stood at 35,133.</p>
+          <p eId="para_83">The challenge for the future is to have in place a scheme that is both expeditious and thorough in processing the volume of cases that need to be addressed.  There are a number of ways in which this challenge is being met.  First, provision under the scheme has been subsumed under, and become a component of, the broader social housing leasing initiative.  This offers local authorities the opportunity to source accommodation from a wider number of private sectors providers, including those who possess new unoccupied units.  This potentially increases significantly the number of units available.  In this context it is hoped that as NAMA becomes fully operational, a social dividend in terms of additional social housing units will result.</p>
+          <p eId="para_84">Second, the local authorities and community welfare officers continue to work closely to examine ways to improve the flow of information and reporting between the two to facilitate the more efficient processing of cases.  One of the aims is the identification of priority cases where households have been a particularly long time on rent supplement.</p>
+          <p eId="para_85">Finally, the Department has approved a number of pilot programmes in different authorities to increase the flow of transfers.  These include allowing applicants for RAS to seek out their own properties which, subject to compliance with the normal conditions and the agreement of the landlord, may then be taken into the leasing programme.  Approved housing bodies under the leasing initiative have also been advised that they can seek applicants for social housing support directly from households in long-term receipt of rent supplement as part of a choice-based lettings approach to allocations.</p>
+          <p eId="para_86">I trust the above is of assistance to the committee and my colleagues and I will be pleased to answer any questions and deal with any particular issues of concern.</p>
+        </speech>
+        <speech by="#OlwynEnrightFG" eId="spk_27">
+          <from>Deputy Olwyn Enright</from>
+          <p eId="para_87">I welcome the delegation.  The issue has been discussed in this committee and the Dáil Chamber a number of times.  Our real concern in Fine Gael is the number of people on rent supplement, which the witnesses have indicated has risen dramatically in the past two years.  It costs the State €500 million and it does not look like changing or improving in the short to medium term.</p>
+          <p eId="para_88">The general perception of RAS was that it would be the solution or part of the solution to a problem.  The figures have improved from a year ago, when they were really poor, but there still seems to be a barrier to people progressing.  I have spoken to community welfare officers, who do not have direct responsibility on the RAS end but who are a point of contact for the public, and single people seem to have been hit hardest by the cut in rent supplement.  They are one of the biggest components in the scheme.  The type of accommodation used by them tends to be of poorer quality, particularly within built-up areas.  The type of accommodation suitable for single people does not seem to come into RAS with the same level of frequency as other types of accommodation.  That could be contradicted but it is the impression I have got in speaking to people.  Single people are finding the cut difficult to deal with.</p>
+          <p eId="para_89">Speaking as a constituency Deputy, there is a barrier in people's minds to going on RAS.  They feel they will not be assessed fairly for local authority housing because they are in good quality accommodation.  If people are in a decent RAS apartment and somebody down the road is living in a hovel that should not be rented in the first place — that is still part of the problem — the person in the hovel will be given a higher weighting by the local authority.  That seems to be the main barrier to people moving to RAS.  How do we address the problem?</p>
+          <p eId="para_90">Up until the last two years, there was an element of people seeing what they wanted and picking it when it came to local authority housing.  I still come across people turning down local authority housing, although sometimes there may be a good reason.  A single parent with small children in school would face significant upheaval if change were required.  I have spoken about this to people in the two local authorities I deal with.  What is the level of interaction between local authorities and the Department of Social and Family Affairs with regard to notification that somebody has refused local authority housing while on rent supplement or going on to RAS?</p>
+          <p eId="para_91">If the council is making people aware there is RAS-type accommodation available, what kind of communication is made to the Department on the rent supplement end?  Is there an indication of availability and are questions being asked as to why people are not considering the issue?</p>
+          <p eId="para_92">There appear to be other barriers.  RAS is better from the poverty trap perspective.  If a person is on rent supplement and has been assessed for RAS, he or she may still work but people do not seem to have the assessments done.  Unless people know RAS accommodation is available, they will not go through the process.  What plans are in place to address the issue?</p>
+          <p eId="para_93">I made a freedom of information request on some of these issues.  Consideration was given last year to cutting the amount payable to landlords under RAS.  I know there have been many cuts in rent supplement and the option of a 10% cut in RAS was considered.  There is a concern in the Department about the State supporting an overall level in the property market and that prices for the public would come down more if the State was not running RAS and the rent supplement scheme.  I am in no way suggesting this should be done.  What analysis has been done in both Departments since this discussion took place this time last year?  Is this State support keeping prices at a certain level and would rental market prices be lower if the State support did not exist or if more people were moved from rent supplement to RAS?</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_28">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_94">I thank Ms Quinn, Mr. Layde and their colleagues and welcome them to the committee.  This issue has been of concern to the committee for some time.  It seems to be a no-brainer as it is in everybody's interest for people to move from rent supplement to RAS.  The Department of Social and Family Affairs is not a housing authority and there is no basis for having rent supplement in that Department.  It is fine as a temporary measure of short-term housing intervention but it is not what the scheme is in reality.  I resent the fact that successive Ministers keep referring to it as such because it is quite different.  It was originally intended for people in short-term need of housing for fewer than 18 months.  My understanding is that the majority of people now in receipt of rent supplement have had it for more than 18 months.  It is an enormous drain on public resources and the bill this year is in excess of €600 million, with 94,000 people on rent supplement.  It is unsustainable and it seems to make eminent sense for people to change to the RAS.  That system is organised through housing authorities — the local authorities — and responsibility for housing should rest in the Department of the Environment, Heritage and Local Government.  The tenant would be much better off in RAS accommodation because it is, by and large, of a better quality and more secure.  They have the safety net of having the local authority involved.  They are not left on their own at the mercy of often unscrupulous landlords.  The poverty traps are removed.  It makes absolute sense from a tenant's point of view.</p>
+          <p eId="para_95">From the point of view of the State, there is potential for very significant savings to be made, if it takes on its responsibility in respect of housing and takes it out of the Department of Social and Family Affairs and puts it into the local authorities.  At any time the local authorities are in a position to get much better value from the private sector because they operate from a position of strength in the market for large numbers of housing units.  If local authorities are involved there can be an adequate inspection system in operation.  There is also much tighter oversight of tax compliance of landlords.  We would not have an arm's length situation whereby €600 million of public money goes to landlords.  There is a very loose system in place in terms of accounting for that for tax purposes.  It would be much tighter in terms of tax compliance and there would be savings for the Exchequer in that regard.  It would also be better for people who are neighbours of such housing units because with the involvement of the local authority, there is some control over them.  In my experience that is a huge factor in terms of anti-social activity in housing estates.  I am very conscious that the situation which I experienced in sprawling urban areas is quite different from what pertains in rural areas.  The RAS is very popular in urban areas.  I cannot understand why we are not using it more widely.</p>
+          <p eId="para_96">Mr. Layde referred in his presentation to meeting the targets which are set.  The targets are extraordinarily conservative.  I hope the purpose of this session is to get the root of why so few people transfer from rent supplement to RAS.  What is the reason for the blockage?  Is it a budget issue?  There is a large budget for the Department of Social and Family Affairs and there is need for agreement at ministerial or Cabinet level to transfer the budget.  Why are the targets so low?  We know the target for this year is approximately 8,000.  At the current time, to qualify for RAS one has to be in accommodation for 18 months.  I am not sure why that is a requirement.  Under that requirement some 35,000 people qualify to transfer to RAS.  Why are we not encouraging them all to do so as quickly as possible?</p>
+          <p eId="para_97">How are the targets set and why are they so conservative?  Why, when the rent supplement numbers are increasing, are we not trying to meet the increase in demand by vastly increasing the number of RAS places?  I was amused to hear the comment about waiting for NAMA.  There is no need to wait for NAMA.  We know that throughout the country there are vast numbers of vacant units.  At the current time there is great value available.  Why are local authorities not being empowered to go out and drive a good deal for the taxpayer?  Can the delegation explain the reason for that?  Is there a cashflow issue?  Is there staff resistance in local authorities?</p>
+          <p eId="para_98">Is there an element of tenant resistance?  Deputy Enright seemed to indicate there was.  In my experience in urban areas there is no tenant resistance to that.  Is there landlord resistance?  What work has been done in both Departments to try to identify the root cause of this problem?  It seems to be a no-brainer.  Why can we not move towards a situation whereby everybody moves off rent supplement, except for a small number of emergency cases, and onto RAS?  Everybody is a winner in such circumstances.  Why is it not happening?</p>
+        </speech>
+        <speech by="#CharlieOConnorFF" eId="spk_29">
+          <from>Deputy Charlie O’Connor</from>
+          <p eId="para_99">I would like to be associated with the welcome extended to our colleagues from the two Departments.  This is an important discussion.  I wish to pick up a point made by Deputy Shortall on the resistance to RAS.  To add another element — I do not wish to be controversial — I have found in some of the communities I represent that there is a resistance from current residents and parts of the community to having large numbers of local vacant apartments occupied.  It is an issue in parts of my constituency.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_30">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_100">Did Deputy O'Connor say there is a problem with apartments being occupied?</p>
+        </speech>
+        <speech by="#CharlieOConnorFF" eId="spk_31">
+          <from>Deputy Charlie O’Connor</from>
+          <p eId="para_101">Yes.  I could bring the Deputy to a place in my town where there are quite a number of vacant apartments.  It is another issue.  The Deputy referred to the people who resist local authorities acquiring and using such apartments and mentioned Deputy Enright's comments.  There is a strong element of the local communities——</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_32">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_102">It is better for neighbours.</p>
+        </speech>
+        <speech by="#CharlieOConnorFF" eId="spk_33">
+          <from>Deputy Charlie O’Connor</from>
+          <p eId="para_103">——saying, "Nice people but we do not want them here".</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_34">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_104">There is control when local authorities are involved.</p>
+        </speech>
+        <speech by="#CharlieOConnorFF" eId="spk_35">
+          <from>Deputy Charlie O’Connor</from>
+          <p eId="para_105">I want to be very careful how I say that but nevertheless it is another element.  I agree it is important that we examine different and innovative ways, even in these difficult recessionary times and challenging economic times, of dealing with the housing crisis which is still in place.  The rent figures released last week showed there are still large numbers in the system.  It is true in urban areas which is reflected in my contribution and those of Deputies Shortall and Byrne.  It is something which we have to examine.</p>
+          <p eId="para_106">Reference was also made to anti-social behaviour, which is another element that often comes to our desks.  A tenant in a local authority estate may cause trouble which is eventually dealt with through the courts or other means.  One cannot leave such people on the side of the road and they find themselves in so-called private estates and are in one or other of the schemes.  Local residents say they cannot control anti-social behaviour.  Many such issues arise.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_36">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_107">There is control if RAS and the local authority are involved.</p>
+        </speech>
+        <speech by="#CharlieOConnorFF" eId="spk_37">
+          <from>Deputy Charlie O’Connor</from>
+          <p eId="para_108">I am coming to that point.  It is true in Tallaght and elsewhere that there is strong support for RAS.  I wonder, as colleagues have, why more is not being done to use RAS.  It creates a more sound, secure environment for the families in the area.  They feel a greater sense of ownership, even though they do not own the accommodation, than they do with sub-standard rental accommodation.  I am sure it is the case in my community and in many others.  What is stopping us doing something more effective or innovative about the issue?  It seems to be clear that it is the way forward.  It is a better system and it would be better for everybody, including the local authority.  What is holding it up?  It is good to have such a meeting and I am glad we have the opportunity to express the concerns we have.  I hope the officials in their responses today and later on will be able to return to us and say what will be done about a system which I stand by.</p>
+        </speech>
+        <speech by="#SeymourCrawford" eId="spk_38">
+          <from>Deputy Seymour Crawford</from>
+          <p eId="para_109">I, too, welcome the delegations and thank them for their information.  The first issue was touched on by Deputy O'Connor, namely, the problems with flats and things like that.  I am aware of a person who was living in very bad accommodation.  He was offered a flat which was in an area which had a problem with drugs and he refused it on that basis.  A few months later he was offered accommodation in an area which had serious anti-social problems.  The fact he refused the two houses resulted in him losing rent allowance.  It is a serious situation and one which needs some common sense and a realisation that people cannot be put anywhere.  They are entitled to an understanding that these other issues will be cleared up before people are expected to move into such areas. Can the witnesses give the committee an update on the number of people in receipt of RAS payments on a county-by-county basis?  Obviously the scheme has much potential and it is a pity it is not more ambitious.</p>
+          <p eId="para_110">Mr. Layde referred to NAMA.  Regardless of NAMA there are many small builders below the €5 million threshold who are being forced to sell or dispose of property.  While I do not know the specific details of a well-publicised sale last week in Mullingar where one to three-bedroom flats were being disposed of at €75,000 to €100,000, there is obviously tremendous value out there.  Small builders who will never come under NAMA are under major pressure to lease, rent or whatever.  There is an unprecedented opportunity to have people moved off rent supplement.  I encourage everybody to examine that issue.  While rent supplement is vital in the short term it should not be provided long-term because it is money being burned.  I thank the witnesses for their work in this area and encourage them to work with the Department of the Environment, Heritage and Local Government on the whole issue of availability of property and how that vacant property could be better utilised and save money for the State.</p>
+        </speech>
+        <speech by="#NickyMcFadden" eId="spk_39">
+          <from>Senator Nicky McFadden</from>
+          <p eId="para_111">Most of my questions have been asked earlier.  I thank the witnesses for their presentations.  I wish to make two comments on the reasons tenants do not take up RAS.  The majority of accommodation being offered in urban areas is apartments.  Heretofore local authority tenants had an option to buy out their houses.  Irish people have an affinity with buying out their own home, even if they cannot do so immediately.  Last year, Athlone Town Council had a budget of €3 million but this year it has a budget of €800,000 for building houses.  We can forget about providing local authority housing.  I believe the only way forward is RAS.  That there has been a 50% increase in two years by those taking up RAS is welcome.  Landlords do not appear to be aware they can get their property rented through RAS.  The idea that we are waiting for NAMA is a joke.  Why would landlords wait and leave their properties lying idle when local authorities could use them?</p>
+        </speech>
+        <speech by="#CatherineByrne" eId="spk_40">
+          <from>Deputy Catherine Byrne</from>
+          <p eId="para_112">I was reading a reply to a parliamentary question I received from the Minister on 24 February 2010 in respect of my constituency, Dublin 8, 10 and 12, where there are almost 4,000 people on rent supplement.  Dublin 8 would be regarded as inner city while Dublin 10 and 12 include Drimnagh, Ballyfermot, Bluebell and Inchicore.  I am not surprised by those figures because most of those who call me have housing queries.  In fairness to those who seek accommodation and rent supplement, they do not really want supplement but rather to be housed.  They want decent accommodation where they can rear their children and live out their lives in the long term.  I do not necessarily agree that RAS should be the only option available.  RAS should be provided on a short-term basis only.  I know of people who are in receipt of RAS for four years and who have been told they will have to stay there for another four years because there is no other accommodation available.  When those people were originally accepted for RAS, they were told to stay for four years and that they would be housed by the local authority.  Now those people are being told by the local authority that it has no accommodation for them and that they must remain for another four years or alternatively find another place.</p>
+          <p eId="para_113">Less than five minutes walk from my house there are 90 apartments lying idle, all of which are completely finished.  The only reason they cannot be allocated to people is that the developer did not own some of the land on which they were built, yet he received planning permission.  The developer still owns them but he cannot sell them.  Thirty of them had been allocated under the affordable housing initiative but had to be withdrawn.  It is a ludicrous situation.  As Deputy Charlie O'Connor said, less than two minutes walk from a certain apartment block, there are three blocks with more than 250 apartments, 15 are privately occupied while the remainder are in receipt of social welfare.  There are serious problems there.  I am not condemning people on rent supplement.</p>
+          <p eId="para_114">We talk about balance in terms of tenure and mix and giving people proper accommodation.  No housing problem will be solved without going back to basics, that is, building houses in which people can live.  We should not build dog boxes and expect people to live in them under RAS.  There is a solution to this problem and it has been stated here.  It is very simple.  We have thousands of apartments and thousands of houses throughout the country — more than 200,000.  I do not believe in the NAMA solution.  The Department should take over the 90 apartments and allocate them to people who want to live in a home of their own and who want to pay money to the local authority on a regular basis, even if it is only €50 per week.  In this way they have a key in their hand which is theirs and that is what most people want.  They do not want to be subject to any conditions under the Department of Social and Family Affairs.  They want to have their own key and know they can live there in comfort.  All around inner city Dublin many apartment blocks lie idle.  The solution is in the hands of the Department and the local housing authorities.  There is a real opportunity to save on the €381 million paid out under social welfare in 2009.  I do not know what the figures are now.</p>
+        </speech>
+        <speech by="#" eId="spk_41">
+          <from>A Speaker</from>
+          <p eId="para_115">Almost €600 million.</p>
+        </speech>
+        <speech by="#CatherineByrne" eId="spk_42">
+          <from>Deputy Catherine Byrne</from>
+          <p eId="para_116">There is an opportunity to save much of this money and provide people with decent accommodation.  People with young families call to my clinic.  All they want is to settle down in a place, rear their children, send them to a local school and be part of a community.  They cannot do that in rented accommodation.  Neither can they do it under RAS.  All we are doing is making people with property wealthy and we continue to do it on a daily basis.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_43">
+          <from>Chairman</from>
+          <p eId="para_117">Before I ask the witnesses to reply, I should say that I feel there is something terribly wrong.   As numerous speakers have said there are hundreds of thousands of brand new properties, fully fitted out, lying idle.  I cannot understand how the local authorities cannot purchase these properties under, say, a tenant purchase scheme, for people in need of housing.  It is a scandal and we cannot continue to pay rent supplement for 94,000 people.  Money is going down the drain while many properties are lying idle.  There should be some scheme on some level.  I ask the powers that be who are in attendance to make something happen in order that we can get light into empty houses.  They are no good to anybody.  If the houses were occupied, people would be paying a water charge in some places and electricity charges and there would be light in the houses.  I appeal to the departmental officials at the top to do something about it as they would do the country a great deal of justice.  I thank the witnesses and ask them to reply to the questions.</p>
+        </speech>
+        <speech by="#" eId="spk_44">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_118">I thank the Chairman.  I want to make some comments and will invite my colleagues from the Department of the Environment, Heritage and Local Government and the Department of Social and Family Affairs to comment further.</p>
+          <p eId="para_119">By way of initial comment, we have to examine RAS in the broader context of the current approach to social housing and in the specific context of the current economic difficulties which the country faces.  The approach now being adopted to the provision of social housing is founded on the basis of identifying and meeting need, and understanding that the needs of individuals will change over the course of their lives.  The accommodation which is provided for people must be appropriate for them at a given stage in their lives.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_45">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_120">I have no idea what Mr. Layde means by that.  We are all dealing with long waiting lists.  We know the current economic circumstances.  What does Mr. Layde mean by that?  The local authorities are not meeting or getting anywhere close to meeting the demand which exists.  Will Mr. Layde address the question of why he is not taking on more RAS cases?</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_121">I will come to RAS in a moment.  We are dealing with the issue of housing provision in the round and it is important to say that.  The emphasis has moved away from the traditional approach of constructing and acquiring houses to one in which leasing property is a key and growing component of the response to social housing need.  Social housing need will be met in a number of ways, including in the traditional manner through people acquiring a house provided for them by the local authority, having been constructed by it or otherwise acquired, through people being accommodated on a long-term basis under the leasing initiative, through RAS and through the continuing need for rent supplement.</p>
+          <p eId="para_122">Rent supplement is an income support and it is about dealing with people who have a short term requirement for housing, in particular if they have become unemployed.  Obviously, the number of people who fall into that cohort has risen very significantly in the recent past and much more significantly than was anticipated when RAS was put in place.  The scheme has met the original targets which were set for it.  The difficulty we face is that the numbers of people who potentially fit within that category has grown exponentially.</p>
+          <p eId="para_123">At the same time there is a need to source appropriate property.  Some of the points made by members concerned the availability of property.  The process required to ensure appropriate property is acquired, vetted and made available to people under RAS is necessarily more complex than under the rent supplement scheme, yet it does provide the type of accommodation which the scheme is designed to deliver, that is, accommodation of a high quality in which people can live over a longer period.  The intention is to arrive at a situation whereby rent supplement will be used solely for its original intention, which is to deal with people with a short-term housing need, and that the needs of others will be met through RAS or other schemes under the broad social housing programme.  That is the goal towards which we are working.  There are supply side issues in terms of the availability of property.  There is an abundance of unused property but it does not follow that it is immediately available to us or the local authorities.  There is a process to be followed, issues of ownership and so on.</p>
+        </speech>
+        <speech by="#NickyMcFadden" eId="spk_47">
+          <from>Senator Nicky McFadden</from>
+          <p eId="para_124">There has to be a will, though.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_48">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_125">What does Mr. Layde mean by that?</p>
+        </speech>
+        <speech by="#" eId="spk_49">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_126">There is a will, in terms of acquiring property and interesting landlords in leasing property to the local authorities, for example.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_50">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_127">Why are the targets so conservative?</p>
+        </speech>
+        <speech by="#" eId="spk_51">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_128">The targets are not conservative by reference to the numbers of people in receipt of rent supplement when the scheme was established.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_52">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_129">Wait now——</p>
+        </speech>
+        <speech by="#" eId="spk_53">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_130">I accept that situation has now changed and the numbers of people receiving rent supplement has grown exponentially, which has created new housing need.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_54">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_131">In light of that, I am asking Mr. Layde why the targets are so conservative.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_55">
+          <from>Chairman</from>
+          <p eId="para_132">Deputy, please.</p>
+        </speech>
+        <speech by="#" eId="spk_56">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_133">The objective is to ensure those who will have a continuing need for housing will have it addressed under RAS.  It is to be hoped that many people within the rent supplement group as a result of being made unemployed will acquire alternative employment before they reach the 18-month threshold.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_57">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_134">There are 35,000 people availing of the scheme.</p>
+        </speech>
+        <speech by="#" eId="spk_58">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_135">There are 35,000.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_59">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_136">Why is the Department not accommodating them?</p>
+        </speech>
+        <speech by="#" eId="spk_60">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_137">We are not currently accommodating them because we are ramping up a new scheme which involves local authorities taking a different and more proactive approach to moving large numbers of people from a particular scheme with particular criteria attaching to it to a different scheme which is a completely different approach in terms of the role of the accommodation provider, that is, the local authority, and in terms of ensuring the accommodation is of the requisite standard and is dispersed through communities in a way which ensures there is sustainable use of the available accommodation.  It is a process of response to a need which is accelerating even as we are responding to it.  That, fundamentally, is the difficulty we have faced.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_61">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_138">Are long-term leasing schemes taking priority over RAS?</p>
+        </speech>
+        <speech by="#" eId="spk_62">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_139">No.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_63">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_140">What about the developer scheme?</p>
+        </speech>
+        <speech by="#" eId="spk_64">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_141">The long-term leasing scheme is not taking priority.  The responses we have developed are designed to address housing need.  That involves sourcing accommodation and ensuring it is provided appropriately, in other words, to people who are in need.  The accommodation which is provided must be appropriate to that need.  Traditionally that has been done in large measure through local authorities constructing or acquiring housing.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_65">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_142">We know that.  I ask Mr. Layde to explain the current situation.</p>
+        </speech>
+        <speech by="#" eId="spk_66">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_143">The current situation is that a very considerable effort is being made to acquire large numbers of properties.  The target this year for social housing provision is approximately 9,000, of which some 4,500 would come under the leasing scheme.  On top of that there are people transferring from rent supplement.  A broad-based approach is being taken to address the identified housing need.  The numbers of properties which have become available for leasing is not what we would wish, something which we and the Minister have acknowledged.  We have engaged with the financial institutions and NAMA to try to ensure the numbers of properties which become available accelerate as the year progresses.  The funding and willingness exists on the part of the Department and the local authorities.  We need to bridge that gap in order that the supply of property——</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_67">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_144">There is absolutely no evidence of that, Mr. Layde.  The meagre targets the Department has set are met.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_68">
+          <from>Chairman</from>
+          <p eId="para_145">Deputy Shortall, a number of points are being answered.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_69">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_146">We have a right to have our questions responded to.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_70">
+          <from>Chairman</from>
+          <p eId="para_147">Deputy, you are engaging in a conversation.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_71">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_148">There is no point in being here unless the interaction is meaningful.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_72">
+          <from>Chairman</from>
+          <p eId="para_149">Deputy, will you please allow the witnesses to answer the questions put by the members of the committee?</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_73">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_150">We are waiting some time now for answers.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_74">
+          <from>Chairman</from>
+          <p eId="para_151">Do not keep interrupting them in a continuous manner, please.</p>
+        </speech>
+        <speech by="#" eId="spk_75">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_152">I accept there is a difficulty in terms of bridging the gap which I acknowledge exists.  There is a growing demand for social housing.  It is growing as a consequence of the unique economic circumstances the country is in.  Schemes which were put in place, including RAS, prior to the downturn now have to be ramped up very considerably to meet demand which was not foreseen.  The reason we are before the committee today is RAS, a scheme which was predicated on moving, within a three or four-year period, all those who fell into the category of being in receipt of rent supplement for 18 months or more across to RAS.  It would have been achieved had the situation not been compounded by the huge increase in demand resulting from the economic downturn.  We are now, in turn, trying to address that need.  We are also, in parallel——</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_76">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_153">Mr. Layde, you are not because your targets are so miserable.</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_154">The targets have grown each year.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_78">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_155">By 1,000.</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_156">Each year the percentage increase and the target have been very substantial.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_80">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_157">By 1,000.</p>
+        </speech>
+        <speech by="#" eId="spk_81">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_158">In percentage terms that is a significant increase.  However, the number of people going onto the rent supplement scheme and, crucially, those who are crossing the 18-month barrier has caused an increase in demand.  We need to arrive at a situation where there is equilibrium and where it is possible to move people from rent supplement to the rental accommodation scheme, RAS, as their circumstances make them eligible for that scheme.  That is the goal.  We hope that will be met by us continually ramping up the capacity of the system to provide homes for people under the rental accommodation scheme and, more broadly, under the social leasing initiative.  At the same time we hope economic recovery will reduce demand.  There are push-pull factors at work.  We are contending with increased demand at present but over the next year or two, as we ramp up our capacity to respond to it, we hope that demand will level off and begin to reduce as the economy improves.  It is a question of arriving at an equilibrium, which we do not have at present, in housing or in many other areas of public policy.</p>
+          <p eId="para_159">I raised the issue of value for money, which is very important in this context.  The evidence available to us is that we are achieving value for money, for example, by reference to monthly rentals as computed by the <i>www.daft.ie</i> website and local authorities.  We are achieving value for money, ramping up the schemes and arriving at a situation where people in need of social housing will be appropriately housed, whether in the short or long term, and will also continue to have the potential to become home owners.  Under schemes such as our incremental purchase scheme nothing can act as a barrier to home ownership for those who wish to progress in that direction.</p>
+          <p eId="para_160">My colleagues may wish to make some further points.</p>
+        </speech>
+        <speech by="#" eId="spk_82">
+          <from>Mr. Eddie Lewis</from>
+          <p eId="para_161">Deputy Shortall listed her reasons for thinking RAS was a good thing.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_83">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_162">They were questions.</p>
+        </speech>
+        <speech by="#" eId="spk_84">
+          <from>Mr. Eddie Lewis</from>
+          <p eId="para_163">We fully endorse all she said about quality and so on.  That is why RAS exists.  There is no resistance on our part.  We really want to see this scheme work.</p>
+          <p eId="para_164">What are the factors which create barriers to moving across?  The first is money.  Deputy Shortall asked if there is a limit on the amount of money.  The answer is, effectively, no.  We have not had a money constraint.  It is neutral between our Department and the Department of Social and Family Affairs.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_85">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_165">There are, in fact, savings to be made for the Exchequer.</p>
+        </speech>
+        <speech by="#" eId="spk_86">
+          <from>Mr. Eddie Lewis</from>
+          <p eId="para_166">Exactly.  Deputy Shortall can be assured that if we could take more into the scheme, there would not be a financial barrier.  More money would come from the Department of Social and Family Affairs to meet that demand.  Money is not the issue.</p>
+          <p eId="para_167">The second factor is the tenant.  Some members suggested that there may be a reluctance on the part of certain tenants to transfer.  We have refusals, which is normal in social housing.  We have had significant refusals by tenants to move from the rent supplement scheme to RAS.  We can address this in a number of ways.  We can reduce the number of refusals which are acceptable, and this has happened.  Two refusals are now allowed.  This is a harsh policy and is not something we like to do.  We would prefer if people could transfer to RAS and get the residential units they want.  However, there may be a series of factors.  They may feel they would lose their entitlement to further social housing, which they do not.  They may feel they will be given a lesser priority, which may happen if they are well accommodated and someone else has a greater need.  They may feel their real priority is to purchase property.</p>
+          <p eId="para_168">We have tried to address many of these factors.  For example, we have ensured that anyone transferring to RAS retains any rights they have under tenant purchase and will be able to purchase an alternative property under the new incremental purchase scheme.  We are trying to explain and sell this to the parties concerned.  There remains some reluctance on the tenants' side to transfer.  We try to address it.</p>
+          <p eId="para_169">There are more significant factors on the landlords' side.  When RAS was set up, the expectation was that the bulk of transfers would be of tenants with their landlords.  That did not happen.  Landlords did not buy in for a considerable period.  They are doing so now to a greater extent.  Local authorities do not have to sell the whole scheme, as they had to do for many years.  We are getting more landlords who are willing to transfer across.  There remain a number who do not feel the need.  We cannot force them into the scheme and we do not try to do so.  We tell them the benefits, remembering that we are always offering them less rent than they would otherwise get because the risk has been transferred to the State and that is appropriate.  Sometimes they do not see it like that.</p>
+          <p eId="para_170">Although they are not there, I believe, at present, we may also have the legacy of under-the-counter payments.  We believe that was a significant factor in certain areas.  It is much less so now because the market has changed but there is still a legacy of that.  Landlords like what they call the freedom.  Members will understand what I am saying.  They are reluctant and we cannot question why they are reluctant.  Other landlords do not like the idea that local authorities have nomination rights.  They would like to choose their own tenants.  There is still a reluctance.  There are 94,000 tenants and properties within the rent supplement scheme.  Unless we can encourage a significant number of those properties to transfer we have a difficulty.</p>
+          <p eId="para_171">I hope I will give some answers in a moment but I am trying to explain some of the difficulties.  The next area of difficulty is the accommodation itself.  We may have a willing landlord and tenant but accommodation which does not meet appropriate standards.  One of the real benefits of the scheme has been the improvement in the quality of accommodation.  We wish to ensure that continues.  In the initial years of the scheme in particular, many properties were not of the standard we expect.  This did not necessarily mean that enforcement procedures were necessary.  They were simply not good enough.  We saw bedsits in many parts of Dublin which we considered absolutely unacceptable.  None the less, thousands of rent supplement tenants live in bedsits legitimately.  That will change with the new private rented regulations but, none the less, the accommodation was there.</p>
+          <p eId="para_172">Some members also alluded to the blocks of apartments and the number of units transferring.  We have tried to ensure the principle of sustainable communities.  In this context, that means ensuring there is not a mass concentration of deprived families, whether on social housing or rent supplement, in an area, perhaps without the necessary supports.  There are now numerous vacant properties.  If someone offers us, for example, 70 units in an apartment block, we must ask whether we would build an estate of 70 units in this area or whether we would prefer to do things another way.  That is one reason we are cautious about taking over some properties.</p>
+          <p eId="para_173">The last factor relates to capacity within local authorities to take across the numbers we are talking about.  When the scheme was designed there were, through redeployment and new posts agreed, approximately 90 posts across local authorities.  They have been maintained within the local authorities despite considerable pressure on staff, of which members are aware.  One of the problems is that as we take on more units, the management of stock increases even though the units are owned by a private landlord.  I refer, for example, to the preparation involved in a lease coming to an end after two years.  If an issue arises, inevitably the local authority is involved even if it is not the landlord.  The local authority becomes involved in cases of anti-social behaviour.  The amount of time available to the local authority to get new properties and introduce new schemes has reduced as more time is spent on dealing with the existing cohort of units.  It would be the same if they were social housing; it is just that the stock in that respect has increased.</p>
+          <p eId="para_174">We are doing what we can to address the issue.  Much of it will involve not so much a reprioritisation of RAS but a greater integration of it within local authority housing services.  Too often RAS has been placed at the side which means in a sense it has been vulnerable so that if anyone is missing or there is a shortage then RAS has suffered.  In the future RAS will be absolutely integral to the organisation within the local authority so that we can get best value and that the allocation is done to RAS, social housing and everything else at the same time.  That is a work in progress.  The committee understands the transformation difficulties that have plagued us for some months now.  We are hoping that recent developments will make it easier for improvements at a local level to commence.</p>
+          <p eId="para_175">A couple of other issues were mentioned which are important in this context.  One is whether there is any barrier to communication between community welfare officers and local authorities.  It is probably fair to say that in the early years it took a while for the scheme to get started.  Most people recognise that.  Some local authorities were faster to get started than others.  Some community areas might have communicated better than others and they had better systems at a local level.  What is in place now generally involves good communication at local level.  We also have communication at national level.  Last year we introduced a layer between the two which was more focused on ensuring consistency at a regional level to try to make the numbers come across more effectively.  We are doing what we can within the organisational context.</p>
+          <p eId="para_176">The real problem, as has been clearly indicated, is the numbers and targets which have been set.  Mr. Layde has explained where they came from originally.  We are now facing a new environment and we are faced with not incrementally increasing the numbers, which we have been doing, but trying to change completely the game plan.  That is not easy to do.  There is potential to resolve that in terms of the number of vacant units that are around the country.  Whether they come from leasing money, RAS money or whatever other source they will still take people off rent supplement and we would still treat them as such.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_87">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_177">Is there potentially a difference in value for the taxpayer depending on which scheme the concentration is on?</p>
+        </speech>
+        <speech by="#" eId="spk_88">
+          <from>Mr. Eddie Lewis</from>
+          <p eId="para_178">I will conclude my point and return to the question later.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_89">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_179">Certainly.</p>
+        </speech>
+        <speech by="#" eId="spk_90">
+          <from>Mr. Eddie Lewis</from>
+          <p eId="para_180">There is great potential in terms of the vacant numbers.  One could ask why we have not taken in more of those vacant units.  The same question that was applied to leasing could be applied to RAS.  One could ask why the numbers are not being achieved.  We have been beating the bush.  We have talked to financial institutions, developers, private landlords and representative bodies.  We have asked them to send us the units.  Local authorities do that on a daily basis.  Advertisements are placed in newspapers.  The only answer we seem to get is that things are so uncertain in terms of what the value of the property will be in the future that landlords are not prepared to make a move at this point and they are going to wait until they see where all of this falls, which we might have seen in recent days, and then they will make a decision.  That is the only explanation I can give.  I do not understand why landlords with vacant property have not responded when we have approached them with a request to rent units.  We said we would take them in any form for social welfare recipients, RAS or leasing, provided they met the standards.  We said we would agree rents but we have not been getting a response.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_91">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_181">They obviously expect to do better with NAMA.</p>
+        </speech>
+        <speech by="#" eId="spk_92">
+          <from>Mr. Eddie Lewis</from>
+          <p eId="para_182">Some people might have expected that.  Others might be disappointed in recent days but that is a separate issue.  It is not my area.  Deputy Shortall could be right; some people did expect to do better and perhaps held off.  We have involved the voluntary approved housing bodies that are becoming much more active in this area.  That is another positive area where we might be able to step up the game considerably.  With individual local authorities we are also considering other ways in which we can make the process work better.  That includes even going to tenants and asking them to find landlords and come back to us with a property of their choice, which gets around the problem of putting tenants into properties they might not like.  Deputy Crawford alluded to that point.  We are happy for social welfare recipients to go to a local authority with a landlord.  We will accept such an arrangement if we can agree a price, which should be straightforward.  That approach is experimental as it is not the way the system has worked, which has generally been based on waiting lists.  We are willing to explore all the options to try to move from an incremental approach to one that will get us more, but it will take a bit of time.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_93">
+          <from>Chairman</from>
+          <p eId="para_183">Does Senator McFadden wish to ask a question?</p>
+        </speech>
+        <speech by="#NickyMcFadden" eId="spk_94">
+          <from>Senator Nicky McFadden</from>
+          <p eId="para_184">No, my questions have been answered.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_95">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_185">I thank Mr. Lewis for his comprehensive response, which is most helpful.  It is clear that the committee has more work to do in this regard.  I accept what was said about the reluctance of landlords.  The Department has been meeting its targets each year.  While the targets might be conservative there does not appear to be any difficulty in meeting them.  What will it take in order to ramp it up to meet the scale of the demand that exists so that it is not just a case of baby steps but that there is a whole new approach on a different scale?  I have been trying to pursue the matter with both of the relevant Ministers in recent months.  The Department of Social and Family Affairs was keen to progress the issue but the Minister of State with responsibility for housing did not engage.  It is important that the committee would try to pursue the issue because it is a win-win situation for everyone.  We are not talking about additional Government expenditure.  We are talking about significant potential savings for the Exchequer and a whole lot of pluses for everyone else as well.  It makes absolute sense to gear up to meet the demand that exists.</p>
+          <p eId="para_186">It is ten minutes past one o'clock.  I have many more questions to ask of both Departments.  I do not wish to hold up the meeting but I wonder whether we could have a commitment that if we submit the questions in writing that we would get a response to them.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_96">
+          <from>Chairman</from>
+          <p eId="para_187">We could do that through the clerk.  We will try to get answers.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_97">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_188">It is important that the committee would try to bring the matter to a conclusion and make recommendations on it.  I am sure other members have questions as well.</p>
+        </speech>
+        <speech by="#NickyMcFadden" eId="spk_98">
+          <from>Senator Nicky McFadden</from>
+          <p eId="para_189">I do.</p>
+        </speech>
+        <speech by="#" eId="spk_99">
+          <from>Mr. Michael Layde</from>
+          <p eId="para_190">We are happy to do that.  I am sure I can speak for my colleagues in the Department of social protection as well.  We are happy to answer questions put to us by the committee and to meet the committee subsequently, by which time the volatile situation which my colleague has described will have evolved.  We would be happy to engage again with the committee.  The issue has been the subject of regular discussion with the Minister of State, Deputy Finneran.  He is committing to resolving this issue.  The resources are available but the difficulties which my colleague has gone through in considerable detail arise in bridging the gap and meeting the level of ambition we have for this scheme.  The funding is there to achieve that, the difficulty is sourcing the appropriate properties and ensuring they can become available to us.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_100">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_191">The concern is that the Minister of State,<b/>Deputy Michael Finneran<b>, </b>seems to be interested in the long-term leasing scheme.  Many people would have serious concerns about the potential for abuse of that scheme.  </p>
+        </speech>
+        <speech by="#" eId="spk_101">
+          <from>Ms Orlaigh Quinn</from>
+          <p eId="para_192">Most of the questions have been answered by my colleagues.  However, let me comment on some of the issues raised.  We see rent supplement payments as a short-term scheme and obviously we are more than happy to do anything we can do to assist our colleagues.  It is important to bear in mind that the rent supplement scheme continues to be a short-term measure.</p>
+          <p eId="para_193">Let us look at the claims we processed last year.  We have 94,000 cases on our books but we processed 150,000 claims last year.  People are moving in and out and changing properties.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_102">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_194">I understand that a significant number of claimants were claiming for 18 months and more.</p>
+        </speech>
+        <speech by="#" eId="spk_103">
+          <from>Ms Orlaigh Quinn</from>
+          <p eId="para_195">The number claiming for 18 months is 35,000 and we are very concerned about these claimants.  However, the number of claimants in receipt of rent allowance for two years decreases to 17,000.  It is very important that those who have been in receipt of rent allowance for long periods are moved to other schemes.  I share the Deputy's concerns about the need to make other provisions for that group.</p>
+          <p eId="para_196">The provision for expenditure on rent supplement is €509 million.  I would be happy to follow up any other questions.</p>
+        </speech>
+        <speech by="#CatherineByrne" eId="spk_104">
+          <from>Deputy Catherine Byrne</from>
+          <p eId="para_197">May I make a short comment?</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_105">
+          <from>Chairman</from>
+          <p eId="para_198">A final comment.</p>
+        </speech>
+        <speech by="#CatherineByrne" eId="spk_106">
+          <from>Deputy Catherine Byrne</from>
+          <p eId="para_199">We all experience frustration.  I would never suggest that 90 apartments should be taken over.  I live in an area that has gone through three processes of regeneration for the simple reason that the same category of people were put into an area and it did not work out.  The city council could not manage the situation.</p>
+          <p eId="para_200">When I ask landlords why they will not participate in the rental accommodation scheme, they tell me that they do not get the same amount of money from RAS as they would from private tenants.  I did not realise until a few weeks ago that was the case.  A few people came to me and told me they were not interested in participating in the rental accommodation scheme because they would get less than they would receive from renting to private tenants or from tenants in receipt of social welfare.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_107">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_201">Exactly.  The State is prepared to dish it out so why should they take a reduction?</p>
+        </speech>
+        <speech by="#" eId="spk_108">
+          <from>Mr. Eddie Lewis</from>
+          <p eId="para_202">The Department pays market rents, but there is a difference.  If one is a private landlord, one must expect to have voids and have the property vacant for periods of the year.  If the State is taking that risk and taking responsibility for guaranteeing the landlord a payment, we should get something in return.  What we get in return is one month's rent, which is how it is calculated.  We take multiple units, although it may not apply in this particular case, and normal business practice would suggest that we would get a discount and we would look for it.  We would tell local authorities to try to get the best deal they can.  We do not think we are giving the landlords any less value but we feel we must get less than market rent because that is the real rent they should get.  Some landlords do not see it like that, but perhaps there are other factors.</p>
+        </speech>
+        <speech by="#RoisinShortall" eId="spk_109">
+          <from>Deputy Róisín Shortall</from>
+          <p eId="para_203">May I suggest that the joint committee should consider producing a report, as this is a significant issue with large sums of money involved and there are a great many issues to pursue.</p>
+        </speech>
+        <speech by="#JackieHealyRae" as="#Chairman" eId="spk_110">
+          <from>Chairman</from>
+          <p eId="para_204">We will discuss that suggestion at a further meeting.</p>
+          <p eId="para_205">I thank the officials from the Department of the Environment, Heritage and Local Government and from the Department of Social and Family Affairs for briefing us so comprehensively on the issue.  I thank the members for their attendance.</p>
+        </speech>
+        <summary eId="sum_6">The joint committee adjourned at 1.15 p.m. until 11 a.m. on Wednesday, 21 April 2010.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

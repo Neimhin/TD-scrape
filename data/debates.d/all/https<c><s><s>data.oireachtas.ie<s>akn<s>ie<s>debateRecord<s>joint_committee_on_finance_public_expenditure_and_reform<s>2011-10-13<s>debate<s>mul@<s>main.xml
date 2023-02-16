@@ -1,0 +1,602 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-10-13/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-10-13/debate"/>
+          <FRBRdate date="2011-10-13" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/31/joint_committee_on_finance_public_expenditure_and_reform"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-10-13/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-10-13/debate/mul@"/>
+          <FRBRdate date="2011-10-13" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-10-13/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_finance_public_expenditure_and_reform/2011-10-13/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AideenHayden" href="/ie/oireachtas/member/id/Aideen-Hayden.S.2011-05-25" showAs="Aideen Hayden"/>
+        <TLCPerson eId="AlexWhite" href="/ie/oireachtas/member/id/Alex-White.S.2007-07-23" showAs="Alex White"/>
+        <TLCPerson eId="ArthurSpring" href="/ie/oireachtas/member/id/Arthur-Spring.D.2011-03-09" showAs="Arthur Spring"/>
+        <TLCPerson eId="HeatherHumphreys" href="/ie/oireachtas/member/id/Heather-Humphreys.D.2011-03-09" showAs="Heather Humphreys"/>
+        <TLCPerson eId="KieranODonnell" href="/ie/oireachtas/member/id/Kieran-O'Donnell.D.2007-06-14" showAs="Kieran O'Donnell"/>
+        <TLCPerson eId="MichaelCreed" href="/ie/oireachtas/member/id/Michael-Creed.D.1989-06-29" showAs="Michael Creed"/>
+        <TLCPerson eId="MichaelMcGrath" href="/ie/oireachtas/member/id/Michael-McGrath.D.2007-06-14" showAs="Michael McGrath"/>
+        <TLCPerson eId="MichaelWDArcy" href="/ie/oireachtas/member/id/Michael-D'Arcy.D.2007-06-14" showAs="Michael D'Arcy"/>
+        <TLCPerson eId="OliviaMitchell" href="/ie/oireachtas/member/id/Olivia-Mitchell.D.1997-06-26" showAs="Olivia Mitchell"/>
+        <TLCPerson eId="PearseDoherty" href="/ie/oireachtas/member/id/Pearse-Doherty.S.2007-07-23" showAs="Pearse Doherty"/>
+        <TLCPerson eId="PeterMathews" href="/ie/oireachtas/member/id/Peter-Mathews.D.2011-03-09" showAs="Peter Mathews"/>
+        <TLCPerson eId="RichardBoydBarrett" href="/ie/oireachtas/member/id/Richard-Boyd-Barrett.D.2011-03-09" showAs="Richard Boyd Barrett"/>
+        <TLCPerson eId="SeanDBarrett" href="/ie/oireachtas/member/id/Sean-D-Barrett.S.2011-05-25" showAs="Sean D. Barrett"/>
+        <TLCPerson eId="SeanFleming" href="/ie/oireachtas/member/id/Seán-Fleming.D.1997-06-26" showAs="Sean Fleming"/>
+        <TLCPerson eId="StephenDonnelly" href="/ie/oireachtas/member/id/Stephen-Donnelly.D.2011-03-09" showAs="Stephen S. Donnelly"/>
+        <TLCPerson eId="ThomasByrne" href="/ie/oireachtas/member/id/Thomas-Byrne.D.2007-06-14" showAs="Thomas Byrne"/>
+        <TLCPerson eId="TommyBroughan" href="/ie/oireachtas/member/id/Thomas-P-Broughan.D.1992-12-14" showAs="Thomas P. Broughan"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM AIRGEADAS, CAITEACHAS POILBÍ AGUS ATHCHÓIRIÚ</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON FINANCE, PUBLIC EXPENDITURE AND REFORM</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2011-10-13">Déardaoin, 13 Deireadh Fómhair 2011</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2011-10-13">Thursday, 13 October 2011</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 2.30 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#RichardBoydBarrett">Deputy Richard Boyd Barrett,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#SeanDBarrett">Senator Sean D. Barrett,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#TommyBroughan">Deputy Thomas P. Broughan,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#ThomasByrne">Senator Thomas Byrne,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelCreed">Deputy Michael Creed,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#MichaelWDArcy">Senator Michael D’Arcy,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#PearseDoherty">Deputy Pearse Doherty,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#AideenHayden">Senator Aideen Hayden.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#StephenDonnelly">Deputy Stephen Donnelly,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#SeanFleming">Deputy Sean Fleming,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#HeatherHumphreys">Deputy Heather Humphreys,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#MichaelMcGrath">Deputy Michael McGrath,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#PeterMathews">Deputy Peter Mathews,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#OliviaMitchell">Deputy Olivia Mitchell,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_15">
+                  <person refersTo="#KieranODonnell">Deputy Kieran O’Donnell,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_16">
+                  <person refersTo="#ArthurSpring">Deputy Arthur Spring,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#AlexWhite">DEPUTY ALEX WHITE IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Private Session</heading>
+        <summary eId="sum_4">The joint committee met in private session until 3.40 p.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Scrutiny of Legislative Proposals</heading>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_17">Due to the number of European Union measures to be dealt with, it has been agreed to group them into related categories, to read the proposal numbers and a short summary into the record and to publish a list on the committee's web page.  The publication will include the full titles of the measures.  The clerk to the committee has circulated a list of the 59 EU legislative proposals received by the secretariat since the dissolution of the previous Dáil.  In addition, the clerk has circulated a briefing document compiled by the Oireachtas policy unit on the individual EU proposals received.</p>
+          <p eId="para_18">The following proposals have been forwarded to the committee for scrutiny: COM (2011) 121, proposal for a Council directive on a common consolidated corporate tax base, CCCTB; COM (2011) 142, proposal for a directive of the European Parliament and of the Council on credit agreements relating to residential property; COM (2011) 452, part I, proposal for a regulation of the European Parliament and of the Council on prudential requirements for credit institutions and investment firms, and, part II, proposal for a regulation of the European Parliament and of the Council on prudential requirements for credit institutions and investment firms; and COM (2011) 453, proposal for a directive of the European Parliament and of the Council on access to the activity of credit institutions and the prudential supervision of credit institutions and investment firms, and amending Directive 2002/87/EC of the European Parliament and of the Council on the supplementary supervision of credit institutions, insurance undertakings and investment firms in a financial conglomerate.  Do members have any questions arising from any of the proposals?  No.  Is it agreed to scrutinise COM (2011) 121, COM (2011) 142, COM (2011) 452 and COM (2011) 453 at a later date?  Agreed.</p>
+          <p eId="para_19">We now move onto the proposals in part 2 of the briefing, where no further action is proposed.  The legislative measures are as follows: COM (2010) 168; COM (2010) 601; COM (2010) 691; COM (2010) 804; COM (2011) 34; COM (2011) 154; COM (2011) 169; COM (2011) 295; COM (2011) 510; COM (2010) 031; COM (2010) 172; COM (2010) 627; COM (2010) 778; COM (2010) 815; COM (2011) 59; COM (2011) 155; COM (2011) 219; COM (2011) 296; COM (2011) 374; COM (2011) 511; COM (2010) 032; COM (2010) 598; COM (2010) 628; COM (2010) 784; COM (2011) 8; COM (2011) 135; COM (2011) 158; COM (2011) 226; COM (2011) 372; COM (2011) 375; COM (2011) 512; COM (2010) 033; COM (2011) 182; COM (2011) 302; COM (2011) 312; COM (2011) 360; COM (2010) 034; COM (2010) 038; COM (2010) 041; COM (2010) 045; COM (2010) 158; COM (2010) 167; COM (2010 )035; COM (2010) 039; COM (2010) 042; COM (2010) 156; COM (2010) 161; COM (2010) 641; COM (2011) 188; COM (2010) 037; COM (2010) 040; COM (2010) 044; COM (2010) 157; COM (2010) 166; COM (2011) 134; and COM (2011) 235.</p>
+          <p eId="para_20">Do members have any questions arising from any of these proposals?  No.  Is it agreed that they do not require further scrutiny?  Agreed.</p>
+          <p eId="para_21">We will suspend for a short period to allow the representatives from the Irish Bank Officials Association to enter the room.</p>
+        </speech>
+        <summary eId="sum_5">Sitting suspended at 3.45 p.m. and resumed at 3.50 p.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_4">
+        <heading>Changing the Culture of Irish Banking: Discussion with IBOA</heading>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_2">
+          <from>Chairman</from>
+          <p eId="para_22">I welcome the following from the Irish Bank Officials Association: Mr. Larry Broderick, general secretary; Ms Jessie Doherty, president; Mr. Tommy Kennedy, honorary secretary; Mr. David Keane, Bank of Ireland; Ms Claire Walsh, AIB Group; and Mr. Séamus Shiels, communications manager.  The meeting will begin with an opening statement by Mr. Broderick, to be followed by a question and answer session.  When all members have had an opportunity to question the delegates, I will call upon Members present who are not members of the committee to put questions to the delegates.</p>
+          <p eId="para_23">I advise the witnesses that by virtue of section 17(2)(<i>i</i>) of the Defamation Act 2009, they are protected by absolute privilege in respect of their evidence to this committee.  However, if a witness is directed by the committee to cease giving evidence in regard to a particular matter and he or she continues to do so, he or she is entitled thereafter only to qualified privilege in respect of that evidence.  Delegates are directed that only evidence connected with the subject matter of these proceedings should be given and are asked to respect the parliamentary practice to the effect that, where possible, they should not criticise or make charges against any person, persons or entity by name or in such a way as to make him, her or it identifiable.</p>
+          <p eId="para_24">Members and witnesses are requested to turn off their mobile telephones because, apart from the normal inconvenience, they interfere with the broadcast signal in the room and cause huge difficulties in terms of sound production.  Members are reminded of the long-standing ruling of the Chair to the effect that they should not comment on, criticise or make charges against a person outside the House or an official by name or in such a way as to make him or her identifiable.  I invite Mr. Broderick to make his opening statement.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_25">If it is acceptable, I will ask the president of the association to make an introductory statement.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_4">
+          <from>Chairman</from>
+          <p eId="para_26">Very well.</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from>Ms Jessie Doherty</from>
+          <p eId="para_27">I thank the joint committee for its kind invitation to appear before it today.  It is important that its deliberations on the banking crisis include perspectives from the bottom up, as well as from the top down, not least because events have demonstrated that it is not always possible to rely on those who occupy senior positions in Irish banking to be aware of the consequences of their actions, either at the macro or micro level.  Our submission places a certain focus on the culture of banking and, in particular, the tradition of discretion.  When applied to staff, this effectively means silence.  It is evident that without a change in the culture of Irish banking, including statutory protection for whistleblowers, staff will continue to be fearful of highlighting concerns in the public interest.</p>
+          <p eId="para_28">It is a sad reflection on the way the banking sector has developed that the significant scandals uncovered over many years have largely been brought to public attention not through regulatory bodies or others charged with responsibility for the oversight of the activities of those in the sector but rather through the media working on information supplied anonymously by concerned interests.  A review of the banking crisis not only requires a focus on the big ticket items such as liquidity, capitalisation and risk management but also on the culture which permeates the sector in order that we might ensure the notion of prudent banking will be prioritised in a transparent and open working environment.  This would be in the interests of the State, customers, taxpayers, the few remaining shareholders and employees.</p>
+          <p eId="para_29">Mr. Broderick will now comment on some of the key issues we have highlighted in our submission.</p>
+        </speech>
+        <speech by="#" eId="spk_6">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_30">I am aware that a number of weeks ago the joint committee was addressed by senior representatives from AIB, Bank of Ireland and Anglo Irish Bank.  Examining the transcripts and feedback from that meeting, it is clear to us that many of the questions raised by members went unanswered or were answered in an unsatisfactory fashion.  We sympathise with the committee's predicament because we are involved in discussions with senior management right across the industry on a regular basis.  We are frustrated at the lack of information being provided in addressing what we believe to be serious concerns regarding the future of the industry and our members' ongoing employment within it.  Despite endless rounds of meetings, the IBOA, as the main union representing the workers, has not obtained transparent information on EU restructuring plans and the implications thereof for staff, customers and the economy.</p>
+          <p eId="para_31">As Ms Doherty stated, we recognise the need for change in the industry.  The IBOA has been an advocate for change from as long ago as 2004 when it addressed a previous incarnation of this committee on the subject.  Our members have a vital role to play in delivering that change and contributing to the programme, not only in respect of a narrow self-interest but also with regard to addressing the wider concerns of customers and taxpayers.</p>
+          <p eId="para_32">Our members are anxious to discover what will be the future of Irish banking in general and the institutions for which they work, in particular.  They are also interested in identifying the role they will have to play in that future.  They have experienced many things during the past three years, including the profession in which they previously took pride being reduced to pariah status, the shares in which their employers encouraged them to invest becoming worthless and the devastation of the economy, the institutions for which they work and the savings of customers.  These developments were all due to reckless behaviour on the part of senior management.  Our members have a passionate belief in the industry.  They want to be part of and contribute to its future.  However, our experience is that their commitment is not being reciprocated from the very top, nor is it being reciprocated by the Government at large.</p>
+          <p eId="para_33">The Department of Finance and industry leaders appear to be of the view that, in effect, banking employees are collateral damage and that they have no right to be treated with the due respect they deserve, have no role in shaping the future of the sector and no right to be consulted about their own personal futures, either in the context of redundancy or with regard to the restructuring of the industry.  The staff of some institutions are being invited to make potentially life-changing decisions while being provided with very little information in order that they might assess the merits of the options available to them.  If a credit institution were to treat its customers in that way, it would be subjected to public censure.  In such circumstances, we hope that the very least that would happen would be that the regulatory authorities would conduct an investigation.  However, it does not appear this <i>modus operandi</i> obtains within the industry.</p>
+          <p eId="para_34">There is a need for a passionate review of the industry in the context of identifying a structure that can deliver for taxpayers, customers and our members.  Three years into the financial crisis and a picture is finally beginning to emerge of the shape of Irish banking in the context of the corporate structures which obtain.  Larger questions remain about how the banking sector can best serve economic and social development.  What are the implications of State ownership of five of the six covered financial institutions?  What are the implications for competition and diversity in the industry?  What is the role of foreign banks, some of which are state-owned in their home jurisdictions?  These are issues which must be addressed in a constructive fashion.</p>
+          <p eId="para_35">There is also a need for a discussion on the kind of banking sector we wish to see in the future.  We are concerned that in the absence of an agreed public policy framework for the sector, what may finally emerge from the wreckage of the banking system could be even worse than what existed in the past.  Preserving branch networks is key and there is a need to rebuild the connection between local staff and customers.  What is required is a delivery of service which will involve change and place customers and staff at the centre of that change.  The type of relationship once between branch managers and customers, the loss of which Senator Barrett lamented at a recent meeting of the committee, may not be completely restored.  However, we must refocus on this relationship in the context of recent statements by the chief executives of the various banks.</p>
+          <p eId="para_36">The new model of banking beginning to emerge on a pilot basis may represent only one way to address certain aspects of the sector.  There may be alternatives to this model.  Customers, in particular, may have views on the quality of their current relationship with their banks and how they would like this to develop in the future.  No one is consulting or engaging with customers or staff on the form the model to which I refer should take.  A conversation on these issues should take place among all stakeholders.  In the past we called for the establishment of a forum on banking to which customers, the State, taxpayers, the Financial Regulator and staff would contribute.  Such a forum would consider the paradigm on which we should focus in the future.  What we are seeking for our members - that is, a clear vision for the banking sector - would not only be of benefit to them but also to the people.</p>
+          <p eId="para_37">Staff need to know where they stand.  Since the crisis began, over 4,000 jobs have disappeared from the two pillar banks.  Thankfully, these were shed mainly through natural wastage and the non-replacement of retiring and resigning staff.  In addition, over 1,000 people were made redundant by Ulster Bank.  When Halifax closed down, 700 jobs were lost.  Further job losses have occurred in National Irish Bank, Anglo Irish Bank and Permanent TSB.  This provides a grim backdrop to what is happening to the industry.  It gets worse, however, because our outlook, with which other analysts are in agreement, is that over 6,000 jobs in the industry may be lost during the next 18 months.  These are only estimates.  What our members require is clarity and an indication that some action plan relating to examining employment options will be put in place.</p>
+          <p eId="para_38">If job losses on the scale to which I refer were occurring at a multinational company, an inter-agency task force to deal with the problem would probably already have been created and a Minister or a Minister of State would have been assigned to consider what might be done in addressing the need to retain employment.  In addition, a training programme would probably have been put in place and a State agency tasked with evaluating how such job losses might be avoided.  No such engagement has taken place in respect of the banking sector.  This mirrors the difficulties in respect of engagement with some of the major institutions.</p>
+          <p eId="para_39">In April AIB announced 2,000 job losses, but six months later the position on this matter is no clearer.  The areas in which these job losses will take place have not been identified; we do not know what terms will be offered to our members and we are not too sure about the nature of the redundancies.  From their exchanges last month with the executive chairman of AIB, members will have observed that there is a lack of clarity at the highest level within that organisation on how this matter will be dealt with.  What shocks us - I hope it will also shock members - is what Deputy Doherty managed to extract on foot of the exchanges to which I refer, namely, that the 2,000 job losses in question represent a balance sheet reduction.  No justification was provided for how they would impact on services or how the matter had been dealt with in the context of engagement and there was no clarity regarding the model to be put in place.  Apart from the serious concerns that raises about this approach to business it also represents an appalling way to treat staff.  Employees in AIB have been told on a number of occasions in the past 18 months that the bank would be smaller, which we all recognise, but there is no clarification regarding the sacrifices staff are prepared to make to restructure the industry against a vacuum in engagement.  What they want, and what we believe they are entitled to, is real engagement which allows them make an input into shaping the future of the bank.  That applies both to those staff members who may want to leave as well as the staff who want to stay and whose stay will be vital to expediting the recovery of AIB which in turn will be pivotal to the rebuilding of the economy as well as the banks.</p>
+          <p eId="para_40">Many Deputies and Senators rightly identified concerns about the plight of staff in Aviva who have been put through the wringer in terms of their future employment but their uncertainty lasts two months.  The uncertainty for staff in AIB has been going on for at least six months and lingering.  Given that it is now a State bank, we do not believe that is the right way to proceed.  From our perspective the systematic lowering of the morale of staff across the industry is not in the interests of the bank, the customers or the economy.  The best interests of taxpayers is to have a prompt and substantial return to supporting a structure for the future of Irish banking where this union can play a key role.</p>
+          <p eId="para_41">A similar situation applies in Anglo Irish Bank where the Irish Bank Officials Association, IBOA, recently began to represent staff and although it is winding down our argument is that staff in Anglo Irish Bank have an entitlement to try to influence that wind down in their interests as well as in corporate terms.  It is disappointing that much of the information to allow real engagement is being denied to the union in that situation.  Interestingly, and not coincidentally, Anglo Irish Bank and Irish Nationwide were anti-union for many years and were converted to the role of the unions only in the recent past.  If members examine the practices in those two institutions I suggest that if there had been union representation some of the extraordinary developments that have now emerged at least would have been brought to public attention.</p>
+          <p eId="para_42">In fairness to Bank of Ireland, while the relationship with it can be difficult at times at least there is a plan and there has been engagement, a sharing of information and an agreement on the way it processes, and the union has a particular role to play in that regard.  We suggest that if there is a model on how this can be done it would be useful to guide everybody in terms of the way it can be approached.</p>
+          <p eId="para_43">I was struck, as I am sure were many members, by the claims by both management teams in AIB and Bank of Ireland, in their discussions with the committee, that they intend to implement a new culture in the sector.  AIB spoke of new values and new behaviours being developed at the highest level in the bank, and Bank of Ireland conceded that it needed to be mindful and determined to learn from the mistakes of the past.  Those are laudable sentiments which we support but it is important that members are aware, and we have shown it in the submission, that this is not being reflected on the ground as we speak.</p>
+          <p eId="para_44">In most of its key characteristics we believe the culture in Irish banking has remained unchanged.  In a recent survey undertaken of our members they told us in no uncertain terms the following striking manifestations: the pursuit of sales still goes on; the intensity and pressure on staff through performance targets is still part of the structure, notwithstanding that they are not receiving pay increases; and such is that pursuit it is reducing staff levels and increasing the pressure on staff to gather deposits, all of which we argue must be having an impact in terms of customers.  The competing nature of that in terms of a number of State-owned banks that are competing among themselves to try to achieve goals in the absence of an overall plan is not in the interests of anybody concerned.</p>
+          <p eId="para_45">Our concern is that many of the aspects we have identified have not changed, that is, the focus is still short-termism rather than looking at the broader perspective.  That is something we believe this committee must advance through whatever structures in terms of the entire industry.</p>
+          <p eId="para_46">Members will be aware also of the difficulty in trying to ensure that banking leaders face up to their responsibilities in terms of the past three years.  It is commonly accepted now that in various degrees they are in denial of the problem and therefore unwilling and unable in some cases to develop alternative approaches in dealing with the problem.  At the same time it is galling for the ordinary staff and customers who see bank bosses walk away with golden parachutes and apparently iron-clad contractual entitlements.  Our members contrast that with attempts made to undermine their contractual rights in a number of areas.  Instead of gold-plated pensions they will suffer, in terms of the maximum sacrifice, as a result of losing their jobs.</p>
+          <p eId="para_47">What is disappointing is that there is no visible sign of accountability.  We hear a great deal of rhetoric about various procedures in place but unless that changes I do not believe any lesson for senior management coming into the sector will change behaviours in any way, and that must be encouraged in a particular manner.</p>
+          <p eId="para_48">While there has been some evidence of new thinking, the members' exchanges with the banking leaders last month show that many issues are not unresolved.  They will not be resolved if those institutions are left to their own devices.  The State has a particular role.  It owns the vast majority of the industry.  It has a key role in terms of influencing strategy but there appears to be a dichotomy in that on the one hand it allows institutions operate as normal while at the same time not being in a position to address these issues.  That is the reason a central public policy on the golden aspirations of the industry and the way we manage that in the context of managing staff is key.  That is the reason we are gratified with the opportunity to address the committee.</p>
+          <p eId="para_49">I will conclude by making the key points in terms of what we believe must happen.  We must have a complementary series of initiatives that strengthen regulation, raise customer confidence, safeguard the public investment, improve the morale of bank employees and ensure that real lending is available to generate jobs.  If we can put those measures in place complementary with changing the industry, we will achieve the goal.  To do that we need diversity in boardrooms and not the same boardroom structure that existed previously.  We need protection for whistleblowers.  That is key because there is evidence there is huge fear in our industry.  We need codes of employment practice which eliminate the climate of fear.  We need a major redesign of remuneration practices.  As we speak, performance related pay from the top to the bottom is the strategy for pay in this industry.  Has nobody learned the lesson in that regard, not that there is much payment to staff at this time but in terms of a future strategy?  We need engagement in terms of the way we will manage the transformation of the industry that will result in thousands of job losses, which are inevitable, and the principles we must put in place to ensure that the staff perspective can be taken on board in a manner that recognises the social implications of that.  I thank the Chairman for the opportunity to address the committee.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_50">I thank Mr. Broderick.  I invite questions from members.</p>
+        </speech>
+        <speech by="#RichardBoydBarrett" eId="spk_8">
+          <from>Deputy Richard Boyd Barrett</from>
+          <p eId="para_51">I commend Mr. Broderick and Ms Doherty on their presentation.  It is important that they came before the committee and gave us the view from the bottom, so to speak.  I agree strongly with what they stated.  They spelled out in general their view that we needed a public policy in terms of banking but I ask them to flesh that out in more detail.  I understood them to say that shareholder value, that is, profitability and so, being the driving force behind the banking system, and the profit and bonus culture that went with that, was at the heart of the problem that led to the crash in our financial system.  They may not have added, but I do so now, that it was actively facilitated by the political culture of the time.  They might spell out in more detail what they believe the alternative view of banking should be because it seems to me, and they might indicate whether they agree with this, that banking must be about social and macro-economic goals and not just about the short-term return for shareholders.  Issues such as employment and ensuring that people have homes are the type of goals that should be central to a public policy on banking.</p>
+          <p eId="para_52">I note in that regard, despite my ideological left wing leanings, that even in the United States, which would hardly be described as the most left-wing place in the world, the Federal Reserve has a mandate that goes beyond simple financial or profit maximisation.  It is a regulatory requirement that maintaining full employment, or almost full employment, and providing housing be objectives of the American banking system.  That thinking was absent in our banking sector and, from what I can ascertain based on measures taken domestically and at EU level, there is no sign of efforts to effect change so as to include such social, macro-economic and other economic developmental objectives.  These must be part of creating a different banking culture that will not result in a recurrence of the problems that got us into our current fix.</p>
+          <p eId="para_53">I strongly endorse what was said about bank branches.  Members will probably feel the same as me on this.  I refer to returning banking to a level that involves good interaction between local banking staff and clients looking for loans or seeking to do business.  When I went into a bank to talk to local staff with a view to getting a small loan - this has changed since my becoming a Deputy - the local official would tell me I had a good credit history and accept that I always repaid my loans, yet, when my application passed up the line, I would be told I would not get the loan.  That is part of the problem.  The people at the top have a completely different set of priorities from the ordinary bank worker, who knows his area and customers and can look somebody in the eye and recognise whether he is a good bet for a loan.  With the massacre of jobs in the banking sector, we are moving in exactly the opposite direction to the one in which we need to go.  Will the IBOA state whether this is true?</p>
+          <p eId="para_54">Irrespective of how correct it has been to be very critical of what the banking system has done in contributing to the economic crisis, most members and I do not attribute the crisis to the ordinary bank staff.  They are part of the solution.  We need a banking system that works.  One that works is one with more front line bankers and fewer bankers chasing performance-related bonuses at the top.  We often use the term "front line" in terms of public services.</p>
+          <p eId="para_55">Will the association elaborate in a little more detail on its views on the measures being put in place under the new State-owned banks, and on the measures of the European Union and Government?  The credit institutions Bill, which has just passed through the Dáil, falls very short in defining the sort of regulation we need and providing new objectives that would ensure the viability and sustainability of the banking system.</p>
+          <p eId="para_56">The delegates made a very interesting point on the coincidence - perhaps it is not a coincidence - that Anglo Irish Bank and Irish Nationwide, two of the worst offenders in terms of sharp practice in the banking sector, are the two banks that were most anti-union.  Consequently, ordinary bank workers had the least say in how those banks were run.  Perhaps the delegates will agree.  The corollary is that we need more people at the lower levels in the banking sector with representatives on the boards of banks to scrutinise what is occurring and to bring the perspective from below to bear on the running of the system.</p>
+          <p eId="para_57">The current policy of restoring the banking sector to health seems to be a question of the State stepping in to nationalise the sector temporarily out of necessity and then handing it back to the private sector after we, with our money and through the sacrifice of ordinary bank workers' jobs, have nursed it back to health.  We will be handing it back to the same characters who got us into the mess in the first place.  These circumstances are absolutely crazy.  Do the delegates, as representatives of the employees, have a view on that?  We should take the view that the aforementioned policy is wrong for the banking industry.  If we are to reform and restructure the banking system, requiring vast sums of public money, we should retain public control of it when it is put back on its feet.</p>
+        </speech>
+        <speech by="#" eId="spk_9">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_58">There are many questions to be answered and I am conscious of time so I will try to be succinct.</p>
+          <p eId="para_59">With regard to our vision, the Government has determined there will be two pillar banks.  We must first establish how we can work together to deliver a vision for those two pillar banks.  From our perspective, it is a question of determining where all the money is going and how it can best be got back into the economy.  We want to ascertain the function of these banks.  We need to focus on prudential lending based on customer needs, bespoked to meet the needs of the economy, including the local economy.</p>
+          <p eId="para_60">On this issue, I agree with Deputy Boyd Barrett.  Our concern has been that, once discretion was taken away from people at local level, strategies that focused on short-termism and maximising profit drove the crisis.  We recognise that banks need to be profitable but our fear over restructuring concerns the consequences of investing loads of money and lowering the cost base by getting rid of thousands of staff to ensure profitability.  The Deputy rightly questions where this policy will leave us in a number of years.</p>
+          <p eId="para_61">It is appropriate and opportune to consider a number of principles, including prudent lending and the nature of the State's future role in banks.  It is unclear whether public policy is to sell off both banks, one, or none.  We must ascertain how to manage the job reductions.  Much work needs to be done on engagement in this respect.  As Deputy Boyd Barrett rightly said, we also need to consider putting the customer at the centre.  It is alarming that restructuring is taking place without engagement with the employees or customers in terms of what is right for them.  I agree with many of the Deputy's points and they will be picked up in the submission in broad terms.</p>
+        </speech>
+        <speech by="#MichaelMcGrath" eId="spk_10">
+          <from>Deputy Michael McGrath</from>
+          <p eId="para_62">I welcome Ms Doherty, Mr. Broderick and all their colleagues.  It is very important that we have this discussion.  As was pointed out, we met the heads of the various banks.  Some of the meetings were satisfactory.  The lack of answers was certainly an issue regarding a number of questions asked.  It is critical that we hear the witnesses' perspective in a very genuine and open way, particularly on the human cost of the banking crisis.  I refer to those who continue to work in the industry and those who have lost their jobs.</p>
+          <p eId="para_63">The figures on jobs and employment are quite startling.  According to some estimates in the delegation's submission, up to 6,000 jobs have already been lost and there is a possibility of another 6,000 losses over the next 18 months.  I am concerned to hear about the lack of engagement between the IBOA, as the employees' representative body, and management on downsizing.  It has been very difficult for public representatives to obtain information through parliamentary questions or debates in the Dáil.  There is very little information forthcoming.  Mr. Broderick rightly highlighted Mr. Hodgkinson's recent response to this joint committee when he more or less admitted the figure of 2,000 was a starting point, rather than an assessment of the actual needs of the bank from which a figure could be built up thereafter.  What engagement is there, if any, apart from the announcement of the headline figure in AIB?  I note further redundancies also will take place in the Anglo Irish Bank-Irish Nationwide Building Society entity.  What is the present status of the discussions on the package?  It would be helpful were Mr. Broderick to provide some details on the negotiations.  Mr. Broderick made one comment that concerned me when he contrasted the treatment of some departing executives with iron-clad contractual entitlements, as he put it, with attempts to undermine the contractual rights of ordinary bank employees.  He should elaborate on this point and perhaps he could provide members with some examples as to what has happened in this regard.</p>
+          <p eId="para_64">I thank the Irish Bank Officials Association, IBOA, for the comprehensive and excellent submission it made in advance.  It contained some strong language, which is to be welcomed as it was honest and forthright, but I note that both the submission and Mr. Broderick in his verbal contribution referred to the climate of fear within the workplace in that submission.  The submission states "the IBOA has effectively become the only vehicle through which staff concerns can be expressed".  Moreover, the submission goes on to state "the general culture within banking is as oppressive as ever", which is a pretty strong term to use.  The submission continues by referring to the extreme pressure to meet targets in respect of the totally unrealistic sales figures.  He should provide members with a sense of what it is like for employees to work in that environment in reality as this is a matter about which members would be concerned.</p>
+          <p eId="para_65">As for the issue of employee representatives on the board, has the IBOA raised this with the Minister and the Government and is the association getting a sympathetic ear to that request?  I also am interested in the association's views on the public interest directors and the role they are playing, given they first and foremost have a fiduciary duty as board members.  The overall question is whether the culture has changed.  Reading between the lines of Mr. Broderick's comments, he does not appear to believe it has changed at senior levels in the banks.  This issue is of concern to me and while the information about changes at board level is in the public domain and there has been a high degree of turnover of board members, perhaps Mr. Broderick can provide the joint committee with information regarding the level immediately below board level, that is, the senior executives across the banks.  What level of change in personnel has there been since the crisis emerged back in 2008?  I will leave it at that for now because I am conscious other members have many questions.</p>
+        </speech>
+        <speech by="#" eId="spk_11">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_66">I thank Deputy Michael McGrath for his questions.  To respond to the last question first, there has been very little if any change, other than at chief executive or key personnel level, under senior executive level at the banks.  While this is not a disparaging remark directed towards anyone working in the industry, the problem with this is that when there was an ethos in an industry to go in a particular direction for ten years, the absence of clear, visible restructuring and a clear change in direction in respect of culture makes it hard for people to go into work today and perceive the person to whom they report as having changed the spots on his or her body.  This is part of the huge difficulty with which we are faced.  There has been no realistic change across the board in the industry.</p>
+          <p eId="para_67">As for the negotiations, members can appreciate our frustration.  One bank, namely, Bank of Ireland, has shown the restructuring plan to us and has gone through it with us.  We have talked about terms and we know where it will go and this is the kind of model or paradigm to which we should be looking.  We recognise there will be significant losses within our industry and our members are not unmindful of that.  However, in the case of AIB, for example, six months after the event the company is telling us it is not in a position to tell us where the 2,000 redundancies will fall.  Members can visualise an AIB staff member waking up each morning and wondering whether he or she will be affected in this regard.  Consequently, there is frustration.  Moreover, if the bank is not in a position to identify this information and must take more time, I would much prefer honesty, candour and openness.  It would be preferable were the bank to state it had put forward this figure but had got it wrong or was unsure about it and that it would take another three months or six months.  However, there is uncertainty and lack of engagement instead.  Moreover, we have not progressed the negotiations.  Although we hope to be in a position to refer the outstanding issues to a third party in a matter of days, we have not seen the restructuring plan in AIB.  Similarly, we have not seen the restructuring plan in Anglo Irish Bank and there is a reluctance to share that information with us.  It appears as though the reduction of cost numbers is the priority, rather than building a structure based on asking what service does the bank wish to deliver, through what vehicle does it wish to release the billions the Government has provided to it and through what vehicle does it wish to try to ensure the related issues are dealt with.</p>
+          <p eId="para_68">Deputy McGrath mentioned the strong language used and while the IBOA thought seriously about it, one may as well be realistic and reflect what one hears on a daily basis.  There was a good example yesterday of what our members are saying to us, when someone telephoned us to say an office had a particular problem with the manner in which overtime was being paid and the manner in which that office was being managed.  We acknowledged it was a genuine problem and asked whether we could raise it directly with the employer.  However, in response we were told we were not allowed to raise the matter with the employer.  The staff concerned were afraid that were they identified, they would lose their jobs and would be picked on.  This is now widespread in the industry.  It is an appalling admission but it is widespread.  I have been in this industry for more than 20 years and it is a sad reflection, even on this union, that people were afraid to bring to our attention many of the issues that arose.  Instead, they put information into bins in order that certain journalists could get it or gave information anonymously to the media to identify the practices that existed.  The IBOA does not consider that this perception or fear has been eroded in any way.  As this is what is missing, it was a very good question.  While it is very difficult to address this issue, it must be addressed from the top down with very clear signals.</p>
+          <p eId="para_69">Deputy McGrath asked for examples, and this problem is not helped by telling people in call centres they have two or three targets per day, such as how many credit cards they can sell to those who call them.  I refer to practices such as providing scripts to officials to enable them to use the opportunity presented when people call to sell to them and then ringing back on a Friday to find out how successful those officials have been in selling.  I acknowledge there are regulated scripts that enable people to have available to them what to say but can members imagine the pressure felt by someone working in a call centre that he or she must achieve this target?  As a trade union, we recognise one must sell products if one works in the banking industry and one must have issues in respect of compliance but one cannot drive this in the same way that performance-related pay was driven.  This is the kind of problem to which our members wake up.  People in the industry tell me they experience a great sense of relief on Fridays.  They know they are going home and will get away from it for a couple of days.  Moreover, the worst nightmare is the thought on Sunday mornings that one must go back into the industry on Monday morning and face it all again.  The IBOA recognises these are banks and that they must produce and sell products.  However, we do not believe this entire sales culture has been removed.  The IBOA is serious when it states that from its perspective, it genuinely believes it is as bad as ever.  The emphasis is a bit different in that it is not on selling products to maximise profit but on selling issues in respect of compliance, following deposits and any opportunity to sell.  It is a big issue and we use the term "culture" as a focus on where we want to go.</p>
+          <p eId="para_70">Another relevant point identified by Deputy McGrath pertains to what is lacking in respect of Government policy.  We have engaged with the Government regarding employees on the boards of the banks and the Deputy asked about the role of the public directors in that regard.  They are caught in this complex situation, namely, who do they actually serve?  If one considers the practices in the banks over the past two years, who may ask who authorised bonuses to be paid for the last three years?  Who authorised someone to walk away because of a contract of employment?  Where was the role of the public service directors?  In fairness to the latter, they will argue they are caught in this fiduciary difficulty.  The question is whether they are there to represent the institution or to represent the public interest.  As one of the Deputy's colleagues noted earlier, this is the reason a change in the board structure is required.  Five of the banks are now State-owned.  There should not be a conflict any more but matters should be clear.  Public directors should be there to take the public interest.  Employees should be there as safeguards and that is all.  We do not believe we have a monopoly of wisdom.  Customers should be on the boards of the banks and the regulator should have someone on the boards of the banks, rather than going away in secret to talk to the auditors behind the scenes about something.  This should be a balanced structure to ensure these interests are reflected on the boards.  Hopefully, I have addressed those questions through the Chair.</p>
+        </speech>
+        <speech by="#TommyBroughan" eId="spk_12">
+          <from>Deputy Thomas P. Broughan</from>
+          <p eId="para_71">I thank the IBOA for its submission, which I read carefully.  Some of the comments contained therein are pretty shocking when one looks back at the history of the past eight or ten years.  The IBOA states its members suffered injustice and betrayal in silence in an oppressive regime.  During the height of the boom and up to the collapse, as a union did the IBOA complain formally to the regulator?  Did the IBOA seek to meet the Governor of the Central Bank to put the issues formally before him?  There was no whistleblower legislation that could have protected Mr. Broderick's colleagues but he is essentially saying that all the way through, the officials were not listened to.</p>
+          <p eId="para_72">Mr. David McWilliams wrote an interesting article recently in which he stated that 70% of bank officials are women.  In addition, one woman worker in 28 employed in the Republic is a bank official.  That is a significant concentration of women workers.  Mr. Broderick said that this short-termism, bonus culture - which was identified by Vickers and other reports as being the key to the disaster that befell international and Irish banking - is continuing.  That seems astonishing.  Is it the case as of now in call centres?  For example, what percentage of IBOA members have the QFA advice?  I understand Mr. Broderick calls it the MCR, or minimum currency requirement.  I presume they are the membership which would be under the most intense pressure, so what is happening there?</p>
+          <p eId="para_73">I note that just over 10,000 banking workers of the 30,000 total workforce are in the IFSC, which makes an enormous contribution.  It amounts to 7.5% of GDP.  What percentage of the IBOA's membership is in the IFSC?</p>
+          <p eId="para_74">How can we change this incredible culture?  A <i>Financial Times</i> study said the ideal thing would be if we were all Canadians because the investigations that have been done show that the Canadians’ character is different from ours.  They went through this a long time ago and learned the lesson.  The result of the study was that immensely strong and proficient regulation seemed to be the secret.  Has the IBOA examined foreign banking regimes where things work better?  I commend Mr. Broderick for attending the committee and I look forward to hearing his response to those points.</p>
+        </speech>
+        <speech by="#" eId="spk_13">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_75">I am not renowned for being silent.  The record shows that this union has been very vocal over the last ten years on that.  I would not be in any way arrogant in saying that we predicted it, because nobody predicted it.  I was appointed general secretary in 2001 and at the first IBOA conference we said the Irish banking model, which was focused on profit at the expense of staff and customers, was wrong.  Throughout the process of setting up the IFSRA, we have been engaging with the Government and political parties at all levels to identify the main shortcomings.  In 2004, we appeared before this committee's predecessor and identified many of the problems, which in our view are systemic.  There was a hands-off approach to the industry.  When 100% lending was coming in we had our path tracked in to the Central Bank's previous Governor and the IFSRA to identify that this was causing problems for us on the ground and would ultimately cause problems for the customer.  At the time, nobody anticipated that or evaluated it.  We can say with some confidence that we always believed the principles that were operated could lead to this but nobody foresaw that we would get to where we did, which was extraordinary.</p>
+          <p eId="para_76">The Deputy touched on the bonus culture.  I want to make it clear that nobody in our industry is getting any payment whatsoever at the moment.  Things are no different than in a lot of other industries.  The concept of a performance appraisal - how one is evaluated for no pay - is still evaluated on the basis of how many sales one made and what one did to push insurance products.  I am referring about frontline staff.  I find it extraordinary, given all that we have gone through.  I recognise that banks have to function but the IBOA finds it extraordinary that the kind of concepts that are there are still being used as an appraisal process to examine and evaluate people.  The engagement we are trying to have with the industry includes asking what they expect of bank officials and how one deals with customers, while not referring the matter to head office.</p>
+          <p eId="para_77">Our members are in the front line dealing with customers who are literally crying because of the situation they are faced with - having to deal with a serious scenario where they cannot repay debt.  I believe those concepts, which contributed to the demise of the industry, are still being put up there as the kind of paradigm we need to address.  We need to get a balance as to what a functioning banking structure looks like.  In addition, what do we do with State-owned banks to facilitate putting money into the economy, and how do we balance customer needs?  We must also be realistic in recognising that there are customers who have difficulties and cannot afford to repay debts.</p>
+          <p eId="para_78">All our members are working towards the QFA and most of them have it.  It is a relevant qualification in which we strongly believe.  We have had a good interaction with the regulator on it.  It is important that people are thus qualified in future.  Our fear is that management will use the regulation to manage people out of the organisation.  We have agreed to having a kind of grand-parenting process where people will have difficulty getting to certain levels but are not directly in line.  Where customers interact, we are a strong union that has a great belief in the need for standards to be maintained.  Staff have stepped up to the mark in that regard.</p>
+          <p eId="para_79">As to how one can change it, the problem must be learned from the industry.  The State has a great opportunity to set down parameters on how State banks function.  If it is about doing it in one's own way and each one succeeds as much as one can to reduce costs and sell it off, one needs to be honest with the taxpayer and say that is where one wants to go.  I believe that is a missed opportunity, however.  There is an opportunity to put up some safeguards that would allow banks to sell off in the future if they want to, but also to have a strong base in order to use the moneys the State has invested in the economy for everybody's best interests.</p>
+          <p eId="para_80">What we found shocking was the debate around the level of chief executives' pay and whether that should be €500,000, €1 million or €2 million.  All the attention was on that while we should focus on how we can rectify the system and get it right.  Hopefully those comments will provide some clarification for the committee.</p>
+        </speech>
+        <speech by="#StephenDonnelly" eId="spk_14">
+          <from>Deputy Stephen Donnelly</from>
+          <p eId="para_81">I thank the delegation for attending the committee today.  The submission made for interesting reading.  I would like to discuss three areas.  Deputy Shane Ross, who is a member of the Technical Group, has a whistleblowers' Bill ready to go.  We are waiting for space from the Government to introduce that, so hopefully it will be of some use.</p>
+          <p eId="para_82">Distressed mortgages are one of the topical areas at the moment.  Mr. Broderick made several references to the senior management teams who attended this committee over the last few weeks.  I was horrified by what I heard.  I have consulted senior executives across a range of industries both here and abroad over a number of years, and I was horrified by what I heard in terms of raw capitalism.  It was blind to any morality or responsibility.  I have never heard it before and I have dealt with some arch-capitalists in my time.</p>
+          <p eId="para_83">From individual cases, I hear about customers who are very upset in dealing with different staff and a serious power imbalance.  They have to deal with things like bank staff beginning to read through their grocery bills and saying "Do you really need two tubes of toothpaste or that haircut?" and "Maybe you don't need that pair of shoes".  That must be a horrendous situation for bank staff to have to go through.  They may be in the same situation themselves, and have friends and families in those situations.    As the representatives of these, is the IBOA getting complaints and reports that lead it to believe that staff members are really being put in unfair and distressing situations?</p>
+          <p eId="para_84">My third question will sound like a challenge and I do not mean it as such.  I am interested to know why Mr. Broderick states that the bank staff are "in no way responsible for what happened".  I do not mean to suggest that I do not believe it.  I am genuinely interested in his views as to what went on.  Essentially, I think he is asserting that the command model was such that they had no choice but I would like to hear why he says that.</p>
+        </speech>
+        <speech by="#" eId="spk_15">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_85">I thank Deputy Donnelly for the questions.</p>
+          <p eId="para_86">I very much welcome the whistleblower charter.  It is extraordinary, given what has happened in this industry, dating back many years ago to the ICI, that nobody has ever thought to put this in place.  It needs to be robust.  There are one or two who were whistleblowers but it was not a good experience.  Once staff have been whistleblowers they have been taken out of banking and have never worked in banking again.  We must provide a robust structure that can allow people to deal with the kind of issues Deputy Donnelly mentioned.  If a person is dissatisfied with how management is dealing with an issue he or she must be confident of security of tenure if he or she raises it and that he or she will not be bullied into submission.  There are many examples in that regard.  I very much welcome that.</p>
+          <p eId="para_87">On the distressed mortgage issue, we are caught in a dilemma.  I have heard in the past two months two different senior executives say two different things.  One recommended addressing the issue of debt quickly, and the other totally disagreed stating that is not where the industry should be.  The industry does not want debt forgiveness as part of a strategy.  A report published yesterday will lead to further debate on the issue.</p>
+          <p eId="para_88">Deputy Donnelly is correct in what he identified.  The bank officials are not trained to deal with the kind of circumstances of which he spoke.  One of the questions we asked is what training is being put in place to deal with somebody who is in such financial difficulty that he or she is on the verge of taking action he or she should not even contemplate.  That is an alarming situation in which to place a bank official.  Our experience has been that it is difficult and there does not seem to be a clear strategy for that.  It seems the strategy is in the short-term to see how one can maximise from the bank's perspective whatever moneys can be got as quickly as possible.  That is a concern to us.  There is a lack of consistency.  We need a strong direction to banks on this matter.  We know about the moratorium that was put in place.  It was initially a year and it was extended to two years and three years, but how does one deal with this difficult situation?  I can state clearly that we are getting more calls that this is an issue for bank officials in the front line to try to deal with.</p>
+          <p eId="para_89">The answer also is that sometimes it needs that human touch where on a balance sheet an SME has not got enough money.  We heard many stories about overdrafts of €3,000, €4,000 or €5,000 withdrawn and putting businesses in jeopardy.  Without asking the question, by doing the opposite and by giving that support with some strict guidelines around, what could that add in that regard?  There is a fear now beginning to build up among bank officials because of the criticism of their role in the past that maybe it is safer to turn down the support.  It is easier.  If one turns it down, one will not be questioned, quizzed or interrogated and if it goes wrong, one will not be held accountable.</p>
+          <p eId="para_90">When I say we are in no way responsible, that is not shirking responsibility.  I welcome the question.  What we are saying is that there was the prevailing ethos at the time and our members were properly doing their jobs as laid out before them.  We, as a union, challenged the organisations and Government that such was not the right way to go about it and that it had implications.  Many at the time did not listen to us.  I am comfortable that what our members did was right.  The difficulty for them was that if they were asked to sell somebody a 100% mortgage and did not sell it, the possibility they could face was losing their jobs or not getting a pay increase.  Many faced moral difficulties on a daily basis to address that, but there was nowhere to debate it if one raised that as an issue because that was the policy, not only in one bank but right across the industry.</p>
+          <p eId="para_91">Of the problems of the industry, the major recapitalisation of the banking industry arose fundamentally through approximately 100 customers across the banks who got billions of euros.  Those decisions were made in credit committees in bank centres and in head offices.  They were not made by our individual members.  What individual members did was provide the loans at local level that met the criteria and their job is trying to work with those customers through it.  I welcome the challenge but I am happy in the response that I cannot see that we could be held responsible for senior mismanagement of the industry.</p>
+        </speech>
+        <speech by="#AideenHayden" eId="spk_16">
+          <from>Senator Aideen Hayden</from>
+          <p eId="para_92">I welcome all of the members of the IBOA who are before us today.</p>
+          <p eId="para_93">On Mr. Broderick's last point, and in response to the question of Deputy Donnelly and my colleague, Deputy Broughan, this topic is changing the culture of Irish banking and the question was raised in terms of their role, as an organisation, in the evolution of the culture of banking that we have today.  Mr. Broderick gave a robust response to Deputy Donnelly about the role of the IBOA and bank officials in the culture as it evolved.  He basically stated that, ultimately, his organisation did not shirk its responsibilities.  I will be a little provocative today because the kind of people whom I am here to defend are those who are being hassled and harassed by bank officials on a daily basis.  Mr. Broderick is an able advocate.  He is an extremely capable person.  As someone who has many dealings with the banking sector, I am quite astounded that I have not heard this type of condemnation of the practices that were going on in the years 2004 to 2008.  Mr. Broderick may raise his eyebrows to heaven but that is my experience.  I am happy to be disabused of it but, as somebody who is involved at the forefront of a housing organisation, that has been my experience.</p>
+          <p eId="para_94">This is an important issue and I am glad to have the opportunity today to speak to Mr. Broderick's organisation.  For example, the IBOA's document states that the public perception that ordinary staff appear to have closed ranks behind their respective management has not only added to the tensions at the front line but is ultimately impeding the prospects of recovery, and that furthermore, as long as none of the elite bankers who bear most of the responsibility for the collapse of Irish banking have been held to account for their actions then the finger of suspicion will continue to be pointed at all bank employees, however unjustly.  I fully accept that.  I have banked with the same bank, dare I say, to my eternal shame, all of my adult life.  In fact, most Irish people do.  The suspicion, supported by all records, is that Irish people really are desperately loyal to their banks.  They are desperately loyal to the staff at the front desk.  The bottom line, whether one likes it or not, is that the public at the front desk trusted the officials in local banks.  I am being provocative here.  The IBOA has disassociated itself almost entirely from what has gone on in the banking sector for the past decade.  Frankly, it is a little disingenuous.</p>
+          <p eId="para_95">The bottom line is that I did not hear any of this when Bank of Ireland shares were trading at roughly €20 a share.  I accept that ordinary workers in Bank of Ireland have suffered extremely because of the current banking crisis, but I must make the following statement, which is a fair one for every ordinary person out there.  The bank manager or official whom they trusted is the same person who lent them the money they cannot afford to repay-----</p>
+        </speech>
+        <speech by="#SeanDBarrett" eId="spk_17">
+          <from>Senator Sean D. Barrett</from>
+          <p eId="para_96">Hear, hear.</p>
+        </speech>
+        <speech by="#AideenHayden" eId="spk_18">
+          <from>Senator Aideen Hayden</from>
+          <p eId="para_97">----- and who sent them the letter announcing they had been pre-approved to receive a loan of €15,000.  I appreciate that our guests are here to defend their members' interests, but my role is to defend the victims of Irish banking.  They have already responded to the questions put by two of my colleagues, but I would like a real answer to the question of why members of the banking profession were not to the forefront in 2005 or 2006 when people were taking out mortgages they could not afford.  More than 100,000 face the loss of their homes.  I would like to know why the committee should take heed of the representations made.  In the banking sector in the 1970s and 1980s a borrower needed to have a record of his or her First Holy Communion money before a bank would even think of offering a loan.  In local towns and villages the bank manager was on a par with the priest or teacher.  One had to earn one's way to a mortgage.  A positive development since the 1980s is that borrowers no longer need to play golf with their bank manager in order to receive a mortgage.</p>
+          <p eId="para_98">The substance of the IBOA's submission advocates a change of culture.  Given the distressing circumstances in which we find ourselves, how will anybody ever get a loan from a bank again?  What are our guests' views on the need for a third or social banking force which will represent the needs of real people who cannot return to the time where one had to save one's First Holy Communion money in order to get a foot in the door of the bank?</p>
+        </speech>
+        <speech by="#" eId="spk_19">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_99">I thank the Senator for her questions.  I never intended to be disingenuous.  Our record from 2004 and as far back as 2001 is clear.  As a union, we have argued that the practices and culture of the industry need to change.  That was stated every time we held a biennial delegate conference or engaged in a major dispute with our employers.  We repeatedly identified performance related pay and restructuring banks and banking models as the wrong way to go.  Unfortunately, despite setting out these views before committees such as this, to political parties and at governmental level, nobody said it was a great idea to change the culture of Irish banking.  We were clearly told to use the industrial relations process to sort out our problems, which we did.  It is, therefore, disingenuous of the Senator to suggest we are peddling something about which we did not feel passionately for several years.  Even in recent years we have resisted performance related pay.  Our members have not been the beneficiaries of the bonuses that created the problem.  As a union representing staff in the industry, we have clearly demonstrated that we are not responsible for the difficulties the industry faces.</p>
+        </speech>
+        <speech by="#SeanDBarrett" eId="spk_20">
+          <from>Senator Sean D. Barrett</from>
+          <p eId="para_100">I utterly disagree.</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_101">The Senator is entitled to his opinion.</p>
+        </speech>
+        <speech by="#SeanDBarrett" eId="spk_22">
+          <from>Senator Sean D. Barrett</from>
+          <p eId="para_102">Thank you.</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_103">On Senator Hayden's point about what bank officials were doing, most of the predetermined measures to which she referred did not come from local branch managers or staff.  Part of what we want in devising a future structure is a return to the traditional approach to banking which focused on prudent lending and evaluating customers and companies at local level.</p>
+        </speech>
+        <speech by="#AideenHayden" eId="spk_24">
+          <from>Senator Aideen Hayden</from>
+          <p eId="para_104">Mr. Broderick accused me of being disingenuous.</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_105">No, the Senator accused me of being disingenuous.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_26">
+          <from>Chairman</from>
+          <p eId="para_106">I will allow Mr. Broderick to conclude.  Senator Hayden may respond afterwards if she wishes.</p>
+        </speech>
+        <speech by="#" eId="spk_27">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_107">From our perspective as a union, we have highlighted these issues internally with the banks and drawn attention on an ongoing basis to the difficulties that have arisen in respect of practices and procedures.  Our members evaluated and made judgments to give loans to customers.  The problem we now face is that many customers are in difficult circumstances because of a series of miscalculations, not only of individual circumstances but also property values.  This has to be factored into any structure we devise.</p>
+          <p eId="para_108">We have no objection to the establishment of a social bank.  It is appropriate in the context of the new scenario whereby five institutions are State-owned to develop a bank which could build on the concepts outlined by the Senator.  Our members are working with customers to solve their problems rather than making things more difficult.  The question that arises, however, concerns the ethos at the top.  That question has been addressed in our submission.</p>
+        </speech>
+        <speech by="#AideenHayden" eId="spk_28">
+          <from>Senator Aideen Hayden</from>
+          <p eId="para_109">I acknowledge that Mr. Broderick is an able advocate.  I am stunned, however, that his ability did not come to the forefront in the years between 2004 and 2008.  People trusted bank officials.  We are not a fickle nation.  International statistics indicate that we do not bank online or shop around.  Irish people trusted the members of the IBOA.  I have many friends who work in banks and fully understand the arguments.  The fact remains, however, that the officials in whom such trust was placed need to ask themselves whether they let the people down.</p>
+        </speech>
+        <speech by="#SeanDBarrett" eId="spk_29">
+          <from>Senator Sean D. Barrett</from>
+          <p eId="para_110">Hear, hear.</p>
+        </speech>
+        <speech by="#PearseDoherty" eId="spk_30">
+          <from>Deputy Pearse Doherty</from>
+          <p eId="para_111">I welcome the delegates and thank them for their presentation.  Unfortunately, I missed the previous questions because the economy was not the only thing that needed a jump start.  My car also needed a jump start and I had to go to the parking lot to borrow cables from one of my colleagues.  I am glad the committee was able to facilitate the IBOA in making a presentation.</p>
+          <p eId="para_112">Mr. Broderick has referred to some of the questions committee members raised with the heads of banks, as well as my own questions related to AIB restructuring.  It appears AIB plucked its figure for savings from the sky instead of conducting a detailed analysis.  Do the delegates see a need for Government intervention, given the number of employees and the bank's State ownership?  Should the relevant Minister advise the CEO or the board of the bank not to treat staff in this manner?  The announcement is now old and there is no detail in respect of how lay-offs among the bank's 2,000 employees will be managed.</p>
+          <p eId="para_113">Mr. Broderick has pulled no punches and some of what he has had to say is shocking.  Some 73% of those surveyed by the IBOA believe that since 2008 they have come under increased pressure to meet targets.  Mr. Broderick has referred to the checklist which staff are asked to complete on a Friday, but he has also noted that officials are offering products and services which they know are unsuitable for their clients.  How can we bring to an end such practices?  This was one of the problems that arose.  Irrespective of who was responsible, loans and credit were being extended to people who could not afford to repay their debts.  I have a joint account with my wife and we were continually getting phone calls from the bank offering to increase our credit card limit.  It ended up at €6,500 and we had to tell the bank to stop phoning us and extending the credit card limit.  It was keeping us in the red all the time.  Are we back to the position where products or services are being offered to people and we know they are unsuitable?  What must be done to stop that practice immediately?  This was partly responsible for creating the bust leading up to 2008 and it could lead to another bust if we are asking people to avail of services not suited to them.</p>
+          <p eId="para_114">There was mention of bonuses at the top level, with some senior officials walking away with golden handshakes.  I am sure that causes much anger across the membership base.  There was also mention of public interest directors, and I have asked the Minister on numerous occasions what the public interest directors were doing on the boards of these banks when they signed off on some remuneration packages and golden handshakes for senior personnel in the past.  The reality is these directors have done nothing for the public interest and they act as just another director.  That is unfortunate and I welcome the proposal from the delegation to look at company law in this regard.  If we are to have public interest directors, they should stand up for the public interest.  As we own a number of these banks, all the directors should be public interest directors.</p>
+          <p eId="para_115">I apologise if the witnesses have dealt with mortgages in more detail when I was not here.  The Keane report was published yesterday.  As a union, members of the delegation addressed issues that affect the banking sector not only in the interests of members, but also with regard to how the banking sector would work.  The delegation is at the coal face dealing with people in mortgage distress, with the number of affected people having the potential to fill Croke Park a number of times.  We deal with the people as public representatives and just yesterday I spoke to somebody who had suicidal tendencies arising not from a mortgage, but a very small debt, relatively speaking, of approximately €1,200.  I am sure the people represented by the witnesses have confronted the same problem as public representatives of people who thought about taking their own life because they cannot see a way out.</p>
+          <p eId="para_116">I am sure the witnesses have a view on what should be done with regard to mortgage distress.  My own view is that the Keane report is a bitter disappointment to me and many people out there.  What is the union's view and has it suggested any solutions or proposals to the Government or those who put the Keane report together?  Has anything been put in the public domain?</p>
+          <p eId="para_117">Another issue relates to culture.  The witnesses have given a very detailed and lengthy presentation.  If they took the role of the Minister for Finance, what three actions would they take to change the culture of the banking sector?  What three instructions would be given to the staff of the Department of Finance to be actioned immediately?  What would have the greatest impact on the banking sector?</p>
+          <p eId="para_118">We have heard from the heads of the banks that there is a new culture of change and the boards of directors have been removed to be replaced by new directors and public interest directors in particular.  We delved deeper and I posed a question to Mr. Alan Dukes which he took over a fortnight to respond to.  The only reason he responded was because I put the same question to the Minister for Finance, who is duty bound to give me the answer within three days.  On the day the Minister for Finance gave me an answer, Mr. Alan Dukes responded as well.  The question was how many of the 50 senior employees in Anglo Irish Bank before the crash and nationalisation are still employed in the bank, and how many earn over €175,000.  We found that 22 of those people, or nearly half, are still employed in the bank.</p>
+          <p eId="para_119">We have touched on the issue of whistleblowers.  I and others would welcome getting information from within the banking sector, such as anonymous correspondence letting us know what is happening, as it helps to better inform our position.  How do the members in Anglo Irish Bank view Mr. Niall Tuite, who is one of the most senior people in Anglo Irish Bank and has been director of lending, chairman of the group credit committee and director of credit risk for Ireland and the USA?  Every Thursday he chaired the credit risk committee and approved the big loans signed off by Anglo Irish Bank.  He was involved directly in the "Maple 10" deals and he was involved with Seán FitzPatrick and Seán Quinn's loans.  What is that fellow doing today?  He is heading up the NAMA unit at Anglo Irish Bank, with 200 staff under him.  He is a member of the group credit committee for NAMA loans, meaning he is a member of the current senior leadership with Mr. Mike Aynsley.</p>
+          <p eId="para_120">What is his responsibility?  What he does is completely perverse.  He has 200 staff and a salary of approximately €220,000, and he makes recommendations to NAMA on loans that he approved as chairperson of the credit risk committee before 2008.  How can we change the culture of the banks when this happens?  He is one banker but there is a list of 22 senior officials in Anglo Irish Bank who are still in high positions and earning serious salaries.  They have not been shown the door but rather given senior positions in a very perverse restructuring within the bank.  The idea that somebody at the centre of making these decisions, which have incurred massive losses on the Irish people, is heading up the NAMA end of Anglo Irish Bank and advising the body on what to do with those loans is wrong.</p>
+          <p eId="para_121">How does this filter to ordinary staff who see practices in Anglo Irish Bank and may want to blow the whistle?  They may have witnessed past practices and see many of the people who made decisions at that time still in position and being coveted with large salaries, responsibilities and a significant staff under their control.</p>
+        </speech>
+        <speech by="#" eId="spk_31">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_122">There are a number of points.  The first element required is a particular vision of the role of each institution, and that vision must be one of providing a service with money that can be returned to the economy.  A second element would create a position focusing on prudential lending rather than the idea of maximising profit, which is what happened before.  A third element relates to changing the culture, which we must tackle by modifying behaviour.  Part of the behavioural change that must be in place would implement legislative frameworks, with differently structured boards and a move away from the concept of performance-related pay.  That would feed into the evaluation of people doing their job.  Strong supports would also have to be pulled in, with more of a focus on customer needs while recognising the need to run a bank.  Those are the core elements which must change.  If these are seen as the way forward, people and bank officials will on a daily basis be more assured and protected.  That did not happen in the past and we must achieve a specific vision.</p>
+          <p eId="para_123">There was a question of how did staff view senior management.  There has been very little change and it is very difficult for people to be told, in the context of the bank's future direction, that the ultimate sacrifice must be made of losing a job in order to restructure the industry.  That is most unfair and people are very angry and bitter about it.  There is no accountability from the people who created this problem.  One of the committee members spoke about accountability and if one of our members makes a mistake, he or she would face the possibility of losing his or her job.  People at a very senior level seem to have the luxury of making mistakes and if they lose their job, they are well catered for.  Unless there is visible action from the Government to address the accountability issue or implementation of structures to do this in future, there will be a lack of trust in the industry and in the Government in any attempts to tackle the industry's problems.</p>
+          <p eId="para_124">On the issue of distressed mortgages, the expectation was that there would be something different to try to address it.  The disappointment for all of us, including IBOA is that it is not visible.  We are hearing that we might look at some structural changes allowing people to keep the debt, but rent the property and other things of that nature.  The penny needs to drop that this will not be good enough.  It is like what is going on in Europe with the discussions on how to address the financial crisis.  It is a problem if we keep deluding ourselves that it will go away or if we promise to do something without addressing the key problem.  The expectation of bank officials was that more would be done to address debt forgiveness in some way and structure it, but that is not in place yet.  In fairness to the Government, no final decisions are made.  The report has been published which offers a useful opportunity to give input.  We will also reflect on it and will give feedback on our position.</p>
+        </speech>
+        <speech by="#SeanDBarrett" eId="spk_32">
+          <from>Senator Sean D. Barrett</from>
+          <p eId="para_125">I want to take up the point that other Members made about the claims from those opposite that they were not responsible for the appalling catastrophe.  I do not accept that.  They were in place and were just as culpable as other organisations which have fallen in the public esteem.  As Senator Hayden has said, no organisation has fallen as much in the public esteem as banks.  The bankers are the people who brought the country down and bankrupted it.  They are the reason special needs assistants cannot be hired and students need to pay fees.  They should not come in here with victimhood written all over themselves.</p>
+          <p eId="para_126">The opinion poll business mentioned on page 11 of the submission is bizarre.  It states "Only 25% of respondents in the survey believe that the new regulatory regime will be effective in policing the industry".  I am sure Professor Honohan was happy as a colleague of mine in Trinity. He had to go across to the Central Bank. He is a man of the highest qualifications, unlike the people running Irish banks at any level when they bankrupted the country. The submission also stated "Even fewer - 11% - believe that the political establishment has the capacity to address the sector's problems". We gave the banks €67 billion and bankrupted the country for this sector. They got rid of a Government, whose main component party had been in power for most of the period since 1932 and the delegates are still not satisfied. They complain that people are worried that if they ask for overtime their names will put in a book or something - they hate Sundays. Unemployment has gone from 4% to 14% because of the costs the Exchequer had to bear in rescuing bankrupt banks. The pose of victimhood is completely inappropriate as are the criticisms of the previous Government and this one - they rescued the banks at the cost of their own political careers. I could well imagine why the present Government is reluctant to engage too much - as the delegates call it - lest it suffers the same fate.</p>
+          <p eId="para_127">There should be some apology from the banking sector - from staff, as represented here, and the management.  They do not seem to understand the damage they have done to so many aspects of the country.  If Mr. Broderick thinks the staff were treated appallingly, what about the taxpayers and the banks' shareholders?  The banks have a record of treating everybody appallingly.  IBOA members bear responsibility.  They cannot say if they had been in a fast-food chain and knew that toxic food was being served, they would have reported it had there been whistle-blower legislation.  That defence by IBOA members is not good enough.  The attitude that only 11% feel the Government is capable of dealing with the problem is inappropriate.  It has occupied every working day.  The banks have destroyed so much of the Irish economy and disrupted so much of the political system.  I would like to see some sign of acknowledgement of what has happened.</p>
+          <p eId="para_128">I am a relatively new Member of the House and will certainly not vote for any further assistance or expenditure on Irish banks.  I do not believe I should sit here and allow those who bailed out the banks be attacked in this most unfair way.  The delegates should acknowledge what they have done to the wider society.  That kind of Nuremberg defence we have heard did not work and is not acceptable.  The entire sector has done serious damage to the rest of our society and economy.  Relative to the cost of the bailout to GDP, we have the worst bankers in the world and they cannot come in here and blame everybody else for that difficulty.  It has been an appalling performance at all levels and that should be acknowledged.  The pleading of victimhood is inappropriate as are the criticisms of the Government.</p>
+          <p eId="para_129">The banks survive as a result of transfers from the public representatives in this House and from the ECB.  They are the people who have been making the sacrifices.  The alternative - which might in retrospect have been correct - would have been to allow the system go broke and it would not be 78% of the people who would be experiencing problems, but the entire 100%.  Some 73% felt under pressure to meet the targets which has grown since 2008.  Some 100% of the rest of us are under pressure - we have taken major cuts in incomes and there is less public expenditure to go around.  The bank officials ought to realise the damage they have done to the country.</p>
+        </speech>
+        <speech by="#" eId="spk_33">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_130">I thank the Senator and note his position.  It is not a Nuremberg defence and we are not here to not acknowledge that this industry has caused untold damage to the economy and to the taxpayer.  If the Senator reads the document which he has obviously done in some detail, he will see the prognosis from our point of view is first of all an evaluation of how we got to this place.  It is clear that the policies endorsed by the bank management created this difficulty and that is why we have this problem.  It is extremely unfair to point to the bank officials and say they were responsible for this.  I am surprised that somebody with the Senator's background would be so limited in that focus.  Every bank official is a taxpayer and we recognise that we have an enormous responsibility to change this industry around - that is why we are in here.  We are not critical of Government in the context of saying it got it all wrong.  We are trying to expose to this committee our observations of how we got here and hopefully put forward reasonable strategies to try to address it.  They are things like changing the culture in the industry and trying to recognise that thousands of our members will lose their jobs and try to do it in a structured way.  I can understand and appreciate where the Senator is coming from, but I fundamentally disagree with the view he takes.</p>
+          <p eId="para_131">On a daily basis our members engage with customers and feel very embarrassed and find it difficult.  They apologise on an ongoing basis to customers over the situation in which they find themselves.  However that is not to say they are responsible.  As the Senator knows from the information available to him, this industry is the way it is because 180 customers have generated billions of euro of cross-collateral loans which created this difficulty.  The subsequent impact is that many people are in difficulty, as our members are in the difficulties the Senator mentions.  I understand where he is coming from.  We are very clear that we need to be part of the solution.  It is not coming in and saying everybody has got it wrong and we have got it right.  The Senator's colleague criticises us saying that we did not speak up; we spoke up and did so on an ongoing basis.  It is on the record on numerous occasions.  The Senator claims never to have heard it; I am surprised and can send on all the transcripts.</p>
+        </speech>
+        <speech by="#AideenHayden" eId="spk_34">
+          <from>Senator Aideen Hayden</from>
+          <p eId="para_132">I am surprised it was so ineffectual, Mr. Broderick.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_35">
+          <from>Chairman</from>
+          <p eId="para_133">Please, Senator Hayden, that is not fair.</p>
+        </speech>
+        <speech by="#" eId="spk_36">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_134">It was not ineffectual.  Maybe the Senator was ineffectual in her ability to grasp the representations at the time.  The bottom line is that we recognise the point Senator Barrett has made and we are here to try to put a structure on how we can play a role in addressing those issues in the future.  Ultimately it will be how we can maximise the number of jobs.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_37">
+          <from>Chairman</from>
+          <p eId="para_135">Before I let Senator Barrett come back in, if Mr. Broderick has documents he believes would be of assistance to the committee, he should send them to the clerk, who will arrange to have them distributed.</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_136">I will do that.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_39">
+          <from>Chairman</from>
+          <p eId="para_137">That would be the best way to proceed.</p>
+        </speech>
+        <speech by="#SeanDBarrett" eId="spk_40">
+          <from>Senator Sean D. Barrett</from>
+          <p eId="para_138">Unemployment has grown from 4% to 14% and a very small percentage of the increase has comprised bank officials.  They have done untold damage to the country and we are trying to remedy that here.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_41">
+          <from>Chairman</from>
+          <p eId="para_139">The Senator has made his point.</p>
+        </speech>
+        <speech by="#SeanDBarrett" eId="spk_42">
+          <from>Senator Sean D. Barrett</from>
+          <p eId="para_140">The fact that only 11% of people working in banks have any confidence in our ability to address the problem is bizarre, given what they have cost the Members of this House and the taxpayers in general.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_43">
+          <from>Chairman</from>
+          <p eId="para_141">The Senator has made his point.  Does Mr. Broderick have anything to add?</p>
+        </speech>
+        <speech by="#" eId="spk_44">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_142">Senator Barrett has correctly picked up on a survey of members.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_45">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_143">I thank the delegates for coming before the committee and for their patience during this long afternoon's work.  This is a serious issue and much pain is being suffered by everybody in the country as a result of the collapse of what should have been a societies and utility infrastructure.  I will not dwell on the matter for long but it happened because people at boardroom level in regulators and banks throughout the industry became complacent and arrogant and were bullies to all around them.  Senior management also bullied all around them.</p>
+          <p eId="para_144">The Irish Bank Officials Association was also remiss and limp even though it is on the record as making representations in 2003 and 2004 that the behaviour and ethical <i>modus operandi</i> of the banks was less than satisfactory.  As the Senator stated, it was ineffective so the association should have upped the volume.  In the world of medicine it would be like the boards of hospitals becoming sloppy and introducing new ethics, outlooks and philosophies so that standards drop and the consultants and registrars in the medical world becoming self-centred and greed driven in their work while the nurses and paramedics, who are unionised and in associations, went along with it with weak objections.</p>
+          <p eId="para_145">I was surprised when I read Professor Patrick Honohan's report on the banking collapse.  In particular, one phrase from between pages 20 and 30 stood out.  The report stated that it would have taken courage for some of the people in the regulator's office to follow through and do a bit of root canal work, or raise to root canal level some of what was happening in the banking industry.  This is what echoes from all of the presentations we have heard, whether from the banks and senior management recently or from the delegates before us today.  This country needs a wake-up call - a clarion call -  to courage and truthfulness, whereby if something does not sound right people report it and are acknowledged for carrying out their duty for reporting it with no buts, ands or ifs.</p>
+          <p eId="para_146">I worked in ICC bank, a semi-State bank, for 20 years.  The "go go" bankers began to look on ICC bank as the slow coach bank.  It had been the academy of banking but it had become a bit slow coach as we entered the new millennium because it was not at the cutting edge of capital markets.  The old word for this was "funding" because it involves the resources of the entire business.  There are only three resources in banking.  These are management and direction which is competent, capable and reliable; money from depositors who can trust the people; and licence and reputation, that is a licence to take deposits.  With these deposits one would lend prudentially.</p>
+          <p eId="para_147">Then, the so-called "strong people of banking" grouped themselves into capital markets and created new products.  Earlier, I heard the delegate mention credit card products.  Even now, after the collapse, banks advertise and sell mortgages.  One does not buy a mortgage; one enters an arrangement for 25 or 30 years based on an assessment of one's capability at present and in future to carry out the obligations of repayment.  On the other side of this transaction and relationship is the bank, ultimately the management and, interfacing with the client, the bank officials.</p>
+          <p eId="para_148">From 2000 onwards even my profession, namely accountants, spoke about the organisations to emulate and cost-income ratios.  The banks with the best cost-income ratios were at the top of the table.  These were Irish Nationwide Building Society, followed by Anglo Irish Bank, AIB and finally by Bank of Ireland which had a culture which was more akin to the Civil Service than any of the other banks.  It is extraordinary that the banks most lauded for their free-market energies and ways of behaviour were those which have been most costly.  Today, Mr. Broderick stated that Bank of Ireland is showing the best amenability to redress the shortcomings and fix the problem even with regard to how to deal with staff reallocation and redundancies.  This is because it is the bank which most recently ditched the good old principles.  It probably has a corporate memory which can attach back to where it was before it threw off the reins for six or seven years.</p>
+          <p eId="para_149">Much can be learned, and the association should insist on suggesting there should be oversight by a Government-appointed strategy force.  Mr. Broderick stated that the entire industry is rudderless at present.  Does Mr. Broderick know how many people were in the banking industry in the Irish owned institutions, namely, AIB, Bank of Ireland, Anglo Irish Bank, Irish Nationwide and Irish Life &amp; Permanent, when it all collapsed in 2008?  It was approximately 50,000.  This number of bank officials and staff would fill the Aviva Stadium.  Of these, 15,000 were employed in Poland in a subsidiary of AIB.  This means 35,000 were in Ireland.  Mr. Broderick mentioned that 6,000 will leave the industry.  These are the headline figures and the parameters of what is going on.</p>
+          <p eId="para_150">On the financial side there is a mess.  I am speaking personally and professionally, so I ask that no one attaches to me any type of Government or non-Government labels.  Approximately 35% of Bank of Ireland is owned by a quintet of investors who do not have much in common except that they have a great deal of money.  Their business strategies and provenance are all very different each with a different tempo of doing business.  I did not follow the logic of this and I do not follow the logic of the Government - that is the people - owning only 15% while we are underwriting and safety-netting virtually the entire liabilities of the balance sheet.  It is madness, but there we are.</p>
+          <p eId="para_151">It is up to the bank officials as well as management to articulate these observations.  The infrastructure is not working.  Even the credit position review and the financial framework for businesses to continue and operate are not right.  Pulling sizeable overdrafts and turning term loans into demand loans is not working.  As Deputy Doherty stated, it is nuts that people at the top senior level in banks are now hewing wood and drawing water at the senior level in NAMA.  I stated previously that the corners of the entire industry should be power-hosed.  We need to know the near-term goals, and carefully put the foot on the accelerator to get an action follow-through on the Keane report.  It is a soggy piece of cardboard that will not hold what needs to go into it.  Someone from the regulator's office in the Central Bank needs to be placed on the boards of the banks immediately, as do two people from the customers' side, two from the Government's side who are language-proficient in financial matters, robust, independent and have not been members of boards all over the place for the past ten years, and some bright junior officials in the banks who would be given the specific instruction to speak up and not be afraid.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_46">
+          <from>Chairman</from>
+          <p eId="para_152">I thank the Deputy for his interesting comments.  Does Mr. Broderick wish to respond?</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_47">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_153">I have a technical question about the Irish Bank Officials Association.  When a person who has been a member of the organisation since leaving school or college moves into management, must he or she surrender his or her union membership?  This is an important demarcation line.  People should be entitled to remain union members right up until they reach the level of chief executive.</p>
+        </speech>
+        <speech by="#" eId="spk_48">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_154">I thank the Deputy.  The expected norm is for people to resign their union membership on moving beyond manager rank.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_49">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_155">Is that a good idea?</p>
+        </speech>
+        <speech by="#" eId="spk_50">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_156">No, it is a bad idea.  We have major discussions with senior management in the banks.  Some people hold onto their membership, but it has not been the thing to do these past five years.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_51">
+          <from>Chairman</from>
+          <p eId="para_157">Is there a separate representative group for managers in the banks?</p>
+        </speech>
+        <speech by="#" eId="spk_52">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_158">No, we represent staff from managers down.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_53">
+          <from>Chairman</from>
+          <p eId="para_159">I appreciate that.  Apart from the IBOA, is there a managers association in the banks?</p>
+        </speech>
+        <speech by="#" eId="spk_54">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_160">No.  Some of Deputy Mathews' points share our vision.  Our role is to provide analysis and opinion - people can agree or disagree, we understand everyone has a right to his or her own view on the matter - and learn from that analysis in seeking to put structures in place for the future.  We subscribe to the Deputy's point and it is the purpose of our attendance.  There are no plans or short-term goals; some of the structural issues identified are not being addressed.  It has been a case of putting in the money, letting management do what it needs to do and possibly selling the bank in five years time, which might or might not be a good outcome.  Instead, this should be viewed as an opportunity to take many actions to put matters right in the short term and radically change the industry in a better way, even if someone was to buy the banks in five years time.  We have an opportunity to address some of the issues raised.  There is no better time, given the amount of money the State has invested.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_55">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_161">On the €1 billion invested by the quintet, something keeps nagging me and suggesting we would be better off if we gave the quintet its money back, kept transparent control of the banks and engaged in a comprehensive rehabilitation or mending of the industry.  What is Mr. Broderick's opinion?</p>
+        </speech>
+        <speech by="#" eId="spk_56">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_162">Answering that question is difficult.  The Government's role in the banks it controls is to use the opportunity to maximise the return in the best interests of the organisation in question.  I am conflicted, as my job is to try to protect my members and their best interests.  For example, someone might invest a significant sum in the Bank of Ireland which has secure tenure in the short term and is engaging with us on the issue of restructuring.  The committee needs to provide the Government with guidance on what is in the best interests of the taxpayer and the Government.  These would, undoubtedly, be best served by maximising opportunities with the institutions instead of taking short-term actions.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_57">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_163">We had a gun to our heads when we discussed the matter with the troika on 31 July.</p>
+        </speech>
+        <speech by="#" eId="spk_58">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_164">Yes.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_59">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_165">I asked our people to press the pause button, not the proceed button, because the landscape had changed.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_60">
+          <from>Chairman</from>
+          <p eId="para_166">Mr. Broderick is not inclined to address this specific matter-----</p>
+        </speech>
+        <speech by="#" eId="spk_61">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_167">No.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_62">
+          <from>Chairman</from>
+          <p eId="para_168">-----and I cannot press him to do so.  However, it is a reasonable issue for the Deputy to raise.</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_63">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_169">I sense that Mr. Broderick is not afraid to let me see inside his head, even if he is not going to say it.</p>
+        </speech>
+        <speech by="#" eId="spk_64">
+          <from>Mr. Larry Broderick</from>
+          <p eId="para_170">Absolutely.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_65">
+          <from>Chairman</from>
+          <p eId="para_171">Unless Mr. Broderick or Deputy Mathews wish to add anything, I thank-----</p>
+        </speech>
+        <speech by="#PeterMathews" eId="spk_66">
+          <from>Deputy Peter Mathews</from>
+          <p eId="para_172">I apologise for the forcefulness of my delivery.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_67">
+          <from>Chairman</from>
+          <p eId="para_173">There was no difficulty in that regard.  This has been an interesting afternoon.  I thank Mr. Broderick and his colleagues for taking the time to present to the committee and answer our questions.  Does anyone have other business to discuss?</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Mr. Tommy Kennedy</from>
+          <p eId="para_174">I welcome the way Senator Hayden challenged us.  Like other members, she has given us matters to consider.  My colleagues and I represent the foot soldiers and are mindful of her comments.  Excellent ideas have been suggested.  While many of them had occurred to us, some were new.  We want to have a successful industry, while the people want this to be a good country in which to work.  They have sons and daughters.  Since those of us at the top of the organisation are taxpayers also, we will not shirk our obligations.</p>
+        </speech>
+        <speech by="#AideenHayden" eId="spk_69">
+          <from>Senator Aideen Hayden</from>
+          <p eId="para_175">I appreciate that.</p>
+        </speech>
+        <speech by="#AlexWhite" as="#Chairman" eId="spk_70">
+          <from>Chairman</from>
+          <p eId="para_176">I thank Mr. Kennedy, Mr. Broderick and the other attendees.  I am sure we will have further engagement in the months ahead.</p>
+        </speech>
+        <summary eId="sum_6">The joint committee adjourned at 5.40 p.m. until 1 p.m. on Wednesday 19 October 2011.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

@@ -1,0 +1,1553 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/committee_of_public_accounts/2011-10-20/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/committee_of_public_accounts/2011-10-20/debate"/>
+          <FRBRdate date="2011-10-20" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/31/committee_of_public_accounts"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/committee_of_public_accounts/2011-10-20/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/committee_of_public_accounts/2011-10-20/debate/mul@"/>
+          <FRBRdate date="2011-10-20" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/committee_of_public_accounts/2011-10-20/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/committee_of_public_accounts/2011-10-20/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AnneFerris" href="/ie/oireachtas/member/id/Anne-Ferris.D.2011-03-09" showAs="Anne Ferris"/>
+        <TLCPerson eId="AodhanORiordan" href="/ie/oireachtas/member/id/Aodhán-Ó-Ríordáin.D.2011-03-09" showAs="Aodhán Ó Ríordáin"/>
+        <TLCPerson eId="DerekNolan" href="/ie/oireachtas/member/id/Derek-Nolan.D.2011-03-09" showAs="Derek Nolan"/>
+        <TLCPerson eId="EoghanMurphy" href="/ie/oireachtas/member/id/Eoghan-Murphy.D.2011-03-09" showAs="Eoghan Murphy"/>
+        <TLCPerson eId="JohnDeasyFG" href="/ie/oireachtas/member/id/John-Deasy.D.2002-06-06" showAs="John Deasy"/>
+        <TLCPerson eId="JohnMcGuinness" href="/ie/oireachtas/member/id/John-McGuinness.D.1997-06-26" showAs="John McGuinness"/>
+        <TLCPerson eId="MaryLouMcDonald" href="/ie/oireachtas/member/id/Mary-Lou-McDonald.D.2011-03-09" showAs="Mary Lou McDonald"/>
+        <TLCPerson eId="MichaelMcCarthy" href="/ie/oireachtas/member/id/Michael-McCarthy.S.2002-09-12" showAs="Michael McCarthy"/>
+        <TLCPerson eId="PaschalDonohoe" href="/ie/oireachtas/member/id/Paschal-Donohoe.S.2007-07-23" showAs="Paschal Donohoe"/>
+        <TLCPerson eId="PaulConnaughtonJnr" href="/ie/oireachtas/member/id/Paul-Connaughton.D.2011-03-09" showAs="Paul Connaughton"/>
+        <TLCPerson eId="ShaneRoss" href="/ie/oireachtas/member/id/Shane-PN-Ross.S.1981-10-08" showAs="Shane Ross"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COISTE UM CHUNTAIS PHOIBLÍ</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>COMMITTEE OF PUBLIC ACCOUNTS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2011-10-20">Déardaoin, 20 Deireadh Fómhair 2011</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2011-10-20">Thursday, 20 October 2011</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Committee met at 10.00 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#PaulConnaughtonJnr">Deputy Paul J. Connaughton,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#MaryLouMcDonald">Deputy Mary Lou McDonald,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JohnDeasyFG">Deputy John Deasy,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#EoghanMurphy">Deputy Eoghan Murphy,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#PaschalDonohoe">Deputy Paschal Donohoe,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#DerekNolan">Deputy Derek Nolan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#AnneFerris">Deputy Anne Ferris,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#ShaneRoss">Deputy Shane Ross.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#MichaelMcCarthy">Deputy Michael McCarthy,</person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#JohnMcGuinness">DEPUTY JOHN MCGUINNESS IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Private Session</heading>
+        <summary eId="sum_4">The committee met in private session until 10.55 a.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Business of Committee</heading>
+        <summary eId="sum_5">Mr. John Buckley (An tArd Reachtaire Cuntas agus Ciste) called and examined.</summary>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_10">Are the minutes of the meeting of 13 October agreed?  Agreed.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_2">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_11">Have the correspondence and minutes been sent to the Irish Red Cross?</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_12">We have written to the Irish Red Cross arising from our examination of the organisation last week.  It will have an opportunity to present evidence to the committee.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_4">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_13">On that point, Mr. Wardick has written to the committee requesting that he be allowed to attend the relevant meeting and address the committee.  Should we address that matter now?</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from>Clerk to the Committee</from>
+          <p eId="para_14">Mr. Wardick has written to the committee and it is a matter for it to decide, when it examines this issue, whether it needs to hear evidence from him.  Perhaps the appropriateness or otherwise of having Mr. Wardick before the committee should be discussed in private session once we take counsel from the Comptroller and Auditor General.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_6">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_15">Is the meeting in private session now?</p>
+        </speech>
+        <speech by="#" eId="spk_7">
+          <from>Clerk to the Committee</from>
+          <p eId="para_16">No, we are in public session.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_8">
+          <from>Chairman</from>
+          <p eId="para_17">Correspondence dated 12 October 2011 has been received from Mr. Paul O'Toole, director general of FÁS, forwarding correspondence from Mazars regarding inaccurate information given to the Committee of Public Accounts.  Deputies will note that FÁS has, via Mazars, submitted a reason for the 18 inaccuracies in the evidence given by its officials in 2008.  To avoid wasting the committee's time, I propose that, as substantive issues relative to FÁS will be considered at our meeting on 1 December 2011, we read each of the explanations into the record at this meeting.  Unless members have ongoing concerns or believe the information provided is not sufficient, I propose that we accept these explanations as corrections of the public record.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_9">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_18">While I do not disagree with the Chairman's proposal, the correspondence received from Mazars is interesting in respect of the statement at the end of the letter about the preparations made by FÁS officials before appearing before the committee.  Mazars makes some important and pertinent points regarding how FÁS prepared for the meeting and the respect or lack thereof shown to the committee in its preparations.  This information may also be pertinent for other witnesses coming before the committee.  While I understand that there was a great deal happening in FÁS at the time and this would have made matters difficult for the witnesses, it is extremely important that this committee is treated appropriately, particularly by bodies such as FÁS and especially at a time when so much attention is focused on the organisation.  Having been requested to appear before us to be asked serious questions, FÁS officials should be prepared to answer our questions and afford the committee respect.  This is an important point.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_10">
+          <from>Chairman</from>
+          <p eId="para_19">The two points made in respect of FÁS are the issue I covered and the matter the Deputy has just raised.</p>
+          <p eId="para_20">That one, in particular, can be taken up in December when FÁS appears before the committee and it is a legitimate point to make in its presence.  As for the record, I must ask the members for agreement in terms of the suggestion about correcting that record and how we propose to do it.  Is that agreed?  Agreed.</p>
+        </speech>
+        <speech by="#" eId="spk_11">
+          <from>Clerk to the Committee</from>
+          <p eId="para_21">There were two occurrences of incorrect references to the timing and the use of suppliers and suppliers' names.  It gave the wrong name of the suppliers.  Can we take that as a correction?</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_22">Agreed.</p>
+        </speech>
+        <speech by="#" eId="spk_13">
+          <from>Clerk to the Committee</from>
+          <p eId="para_23">In the case of one occurrence responsibility for the launch of a specific initiative which related to the complainant was incorrectly attributed as it was the former responsibility of a senior colleague.  That is straightforward.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_24">Agreed.</p>
+        </speech>
+        <speech by="#" eId="spk_15">
+          <from>Clerk to the Committee</from>
+          <p eId="para_25">There were two occurrences which referred to instances whereby procurement processes were not initially followed but retrospective approval was secured.  Is that agreed?</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_26">Agreed.</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from>Clerk to the Committee</from>
+          <p eId="para_27">Partially in the case of one and fully in the case of another, our investigation found that the FÁS officer who attended the Committee of Public Accounts did not present, in response to questioning by members of the committee relating to a FÁS website and a FÁS event, a fully accurate sequence of events in so far as they related to the complainant.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_28">Agreed.</p>
+        </speech>
+        <speech by="#" eId="spk_19">
+          <from>Clerk to the Committee</from>
+          <p eId="para_29">Four occurrences of incorrect details regarding the individual to whom the complainant reported in FÁS at a specific point in time.  This just gave the wrong-----</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_20">
+          <from>Chairman</from>
+          <p eId="para_30">Agreed.</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from>Clerk to the Committee</from>
+          <p eId="para_31">Four occurrences of incorrect details regarding the timing and terms of the complainant's employment.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_22">
+          <from>Chairman</from>
+          <p eId="para_32">Agreed.</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from>Clerk to the Committee</from>
+          <p eId="para_33">One occurrence of information on controls that was inconsistent with the details contained in a FÁS report in so far as it related to the complainant.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_24">
+          <from>Chairman</from>
+          <p eId="para_34">Agreed.</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from>Clerk to the Committee</from>
+          <p eId="para_35">Partially in the case of one occurrence relating to the reasons for the initiation of an investigation and three occurrences relating to participation in internal FÁS employment processes, that is, recruitment and promotion of the complainant.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_26">
+          <from>Chairman</from>
+          <p eId="para_36">Agreed.  Item 4.2 is correspondence received  on 13 October 2011 from Mr. Dermot Quigley, chief executive and Commissioner of Valuation, providing updated information on matters scheduled for examination at this meeting on 20 October 2011, as previously requested by the committee, to be noted and published.</p>
+          <p eId="para_37">Item 4.3 is correspondence dated 13 October 2011 from Mr. Dermot Quigley, Commissioner of Valuation and Accounting Officer, Valuation Office, re his opening statement to be noted and published.</p>
+          <p eId="para_38">Item 4.4 is correspondence dated 17 October 2011 from Mr. Noel Wardick, former head of the international department at the Irish Red Cross, re the Irish Red Cross.  We have dealt with that issue and will deal with it at the beginning of the meeting next week.</p>
+          <p eId="para_39">Item 4.5 is correspondence dated 19 October 2011 from Mr. William Beausang, assistant secretary, Department of Public Expenditure and Reform re the Houses of the Oireachtas (powers of inquiry) Bill 2011.  We have dealt with that issue in private session.</p>
+          <p eId="para_40">Item 4.6 is correspondence dated 19 October 2011 from Mr. Ray Mitchell, parliamentary and regulatory affairs, Health Service Executive, re providing information requested at the meeting of 29 September 2011 to be noted and published.</p>
+          <p eId="para_41">Under the heading of reports and statements, 4.1 - National Treatment Purchase Fund, 4.2 - the Broadcasting Authority of Ireland, 4.3 - the Broadcasting Commission of Ireland, 4.4 - the Legal Aid Board, and 4.5 the National Library, all of these to be noted.  We will defer the notation of the National Library accounts as we will deal with Chapter 9, public procurement, in the new year and will examine the reasons for the commissioning and subsequent withdrawal of a book that cost the taxpayer €98,000.</p>
+          <p eId="para_42">No. 6 is the work programme.  This is to be noted.  I will take note of the earlier arrangement in regard to the Pensions Board and I have asked the clerk to liaise with the committee in regard to dates and so on of that meeting.  Do members wish to raise any other issue before we go into public session?  No.</p>
+          <p eId="para_43">The agenda for Wednesday, 26 October 2011 is NAMA and the annual report and financial statements for 2010.</p>
+        </speech>
+        <speech by="#AodhanORiordan" eId="spk_27">
+          <from>Deputy Aodhán Ó Ríordáin</from>
+          <p eId="para_44">If the Pensions Board is to come in that day would it not conflict with that meeting?</p>
+        </speech>
+        <speech by="#" eId="spk_28">
+          <from>Mr. John Buckley</from>
+          <p eId="para_45">I think NAMA should be given a full meeting and we could have the Pensions Board at a subsequent meeting.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_29">
+          <from>Chairman</from>
+          <p eId="para_46">NAMA is such a big issue it would be difficult to share the time with another group so we will work our way around that and try to get them into a separate meeting.</p>
+          <p eId="para_47">In regard to correspondence, the previous Committee of Public Accounts made 22 recommendations to the Minister, to which we did not receive a reply.  I suggest we write formally to the Minister requesting an update on those 22 matters to bring us up to date from the last committee.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_4">
+        <heading>2010 Annual Report of the Comptroller and Auditor General and Appropriation Accounts</heading>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_5">
+        <heading>Vote 15 - Valuation Office</heading>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_6">
+        <heading>Chapter 20 - Financial Control and Governance</heading>
+        <summary eId="sum_6">Mr. Dermot B. Quigley (Acting Commissioner of Valuation and Accounting Officer) called and examined.</summary>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_30">
+          <from>Chairman</from>
+          <p eId="para_48">Before we begin I remind members and those in attendance to switch off mobile telephones as they interfere with the transmission of the meeting.  I advise witnesses that they are protected by absolute privilege in respect of the evidence they give to the committee.  If they are directed by the committee to cease giving evidence on a particular matter and continue to do so, they are entitled thereafter only to qualified privilege in respect of their evidence.  They are directed that only evidence connected with the subject matter of these proceedings is to be given and they are asked to respect the parliamentary practice to the effect that, where possible, they do not criticise or make charges against a Member of either House, a person outside the Houses, or an official by name or in such a way as to make him or her identifiable.</p>
+          <p eId="para_49">Members are reminded of the provision within Standing Order 158 that the committee shall refrain from inquiring into the merits of a policy or policies of the Government or a Minister of the Government, or the merits of the objectives of such policy or policies.</p>
+          <p eId="para_50">I welcome Mr. Dermot B. Quigley, acting Commissioner of Valuation, and invite him to introduce his officials.</p>
+        </speech>
+        <speech by="#" eId="spk_31">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_51">I am accompanied by Mr. Patrick Cooney, the manager of valuation services, and Ms Mary Smyth,  manager of HR and finance.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_32">
+          <from>Chairman</from>
+          <p eId="para_52">I welcome the representative from the Department of Public Expenditure and Reform.</p>
+        </speech>
+        <speech by="#" eId="spk_33">
+          <from>Ms Mary McLaughlin</from>
+          <p eId="para_53">I am Mary McLaughlin, principal officer in the Department of Public Expenditure and Reform dealing with this Vote.</p>
+          <p eId="para_54">The full text of Chapter 20 can be found in the Annual Report of the Comptroller and Auditor General or on the website of the Comptroller and Auditor General at www.audgov.gov.ie</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_34">
+          <from>Chairman</from>
+          <p eId="para_55">The full text of Chapter 20 can be found in the Annual Report of the Comptroller and Auditor General or at the website of the Comptroller and Auditor General at www.audgen.gov.ie.  I invite Mr. Buckley, Comptroller and Auditor General, to introduce today's examination.</p>
+        </speech>
+        <speech by="#" eId="spk_35">
+          <from>Mr. John Buckley</from>
+          <p eId="para_56">The Valuation Office is responsible for the valuation of industrial and commercial property in the State.  These valuations are, in turn, used as a base for the levying of rates by local authorities.  The office has two major streams of work, first ongoing revisions of rateable valuations based on existing valuation norms and, second, a revaluation programme designed to bring the valuation of properties into line with current rental values.</p>
+          <p eId="para_57">Previous work reported in November 2007 outlined these programmes in detail and drew attention to the slow pace of the revaluation programme.  The subsequent follow-up suggested that if certain operational inflexibilities could be eliminated, the programme could be completed at a quicker pace.</p>
+          <p eId="para_58">Previous reporting also drew attention to the need to improve the office's performance reporting by classifying outputs by resource intensity so as to report outputs on a consistent basis at the level of individuals, teams and the organisation.  The Accounting Officer will be in a position to update the committee on developments in those areas.</p>
+          <p eId="para_59">Turning to 2010, the office cost €10.2 million to run and it recovered €2.7 million in fees and other receipts.  The management and governance of the office in 2010 is the focus of a chapter in my latest annual report.  From a financial control perspective the office was not administered in a controlled fashion in that, first, the accounting and bank records were not reconciled at month end during the course of the year, second, there were gaps in the authorisation of accounting records, third, transactions posted to the accounts had a high error rate and, fourth, the transfer of the organisation's records onto a new accounting system was not done in a controlled way.  At the same time, governance did not operate effectively in that financial reports were not regularly submitted to the management committee of the office and no internal audits were completed in 2010.</p>
+          <p eId="para_60">The Accounting Officer has outlined the steps taken to address these shortcomings and these are set out at paragraph 20.5 of the report.  Overall, based on extended testing by my office, I was in a position to conclude that the accounts as adjusted and finally adopted properly presented the transactions of the office.  However, I felt it necessary to draw attention to the internal control and governance deficiencies since a range of similar matters had been brought to the attention of management in previous years and these had not been addressed.  The ongoing completeness and accuracy of accounting records depends on the operation of a range of controls that include the approval, supervision and reconciliation of transactions processed by the organisation and the effective running of the organisation depends, in turn, on regular management accounting and review by its governance organs.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_36">
+          <from>Chairman</from>
+          <p eId="para_61">I invite Mr. Quigley to make his opening statement.</p>
+        </speech>
+        <speech by="#" eId="spk_37">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_62">I thank the Chairman for the opportunity to make these opening remarks.</p>
+          <p eId="para_63">I want to refer first to the matter just referred to by the Comptroller and Auditor General, namely, chapter 20 of his report, which details various shortcomings in the financial controls and governance arrangements in the Valuation Office in 2010.  While the comptroller was satisfied that the appropriation account of the office for 2010 properly presents the transactions for the year, the fact remains that significant shortcomings arose in regard to financial control and bookkeeping and to certain aspects of the governance of the office.  As Accounting Officer, I accept the need for us to put matters right without delay.  This we are determined to do and I welcome the Comptroller and Auditor General's view that the measures being taken should strengthen the office's financial management.</p>
+          <p eId="para_64">The expenditure detailed in the appropriation account underpins the work of the office on our valuation arrangements.  These comprise the national programme for a revaluation of all commercial properties in the country and the ongoing programme for revision of valuations of properties on the existing lists, and addition of new properties to those lists, at the request of local authorities or ratepayers.  Most interest in recent years has centred on the revaluation programme.  The Comptroller and Auditor General has referred to the concern expressed previously in his report of 2007-08 about the speed of that programme.  The programme aims to provide up-to-date valuations for properties that are subject to local authority rates.  It is an important programme, especially given the significant changes in values and rents following the economic downturn of recent years.</p>
+          <p eId="para_65">The purpose of a revaluation is to redistribute commercial rates liabilities among ratepayers based on up-to-date values.  There are unrealistic expectations in some quarters that every business in the country will benefit from the revaluation.  This cannot happen.  There will be losers as well as winners.  In the areas revalued so far, the number of winners has tended to exceed the number of losers.  However, the essential point is that by bringing values up to date, the revaluation programme is clearly important to securing greater equity, fairness and transparency in the local authority rating system.  Following revaluation, there will be a much closer relationship between the current rental values of properties and their commercial rates liability.</p>
+          <p eId="para_66">There is a desire among businesses, particularly in the current difficult economic and financial climate, that the office should speed up the revaluation programme.  It is taking longer than expected.  While the extension of the project to Dublin city earlier this year represents an important advance, after an enforced delay caused by conditions in the property market, I am concerned that the present rate of progress may not allow us to complete the job nationally within the ten years from 2008 to which the office previously committed.  We need to redouble our efforts.</p>
+          <p eId="para_67">We are tackling the issue on two fronts.  We are taking steps to improve our productivity and we are looking at new ways and methodologies to undertake the revaluation.  Let me indicate a number of steps we have already taken: we have completed the integration of the revision and revaluation teams and have reorganised them so as to ensure that all the teams can be involved in the Dublin city work; we have adopted more flexible operating procedures; we have set up a new central market analysis unit to carry out in-depth analysis of market trends, so as to assist valuers in their work; we have established a revaluation board to oversee the project and ensure standards and quality; we have completed the integration of the separate computer databases in the office into one system and added new market analysis and benchmarking capabilities; and we have made proposals to the Department of Public Expenditure and Reform for the streamlining of the Valuation Act 2001, including the appeals procedures, which place heavy demands on resources.  We are in ongoing discussions with staff on how to best use these developments to increase productivity from current levels.  A determined effort by both management and staff will be required.</p>
+          <p eId="para_68">The second line of approach was to consider whether there were different ways of doing things that might help us to speed up the work.  Following detailed examination of various possibilities over the past few months, we have concluded that it may be feasible to introduce a self-assessment approach, accompanied by appropriate controls, and that it might be possible also to outsource some of the work.  As well as helping to speed up the national programme, an element of outsourcing, if it proves practicable, would help us to compare our own efforts and costs with those in the private sector here and abroad.  The enabling provisions to allow for these changes are included in our proposals for amending legislation.  Preparatory work is continuing in advance of the progress of the legislation and, subject to its enactment and the availability of the necessary resources, our intention would be to initiate pilot revaluations in two local authority areas using these methodologies.  We are looking too at ways of speeding up the capture of data on properties throughout the country in advance of revaluation in particular areas.</p>
+          <p eId="para_69">As part of our efforts to identify new ways of doing things, we are examining the possibility of devising an indexation technique or other statistical methodology that could be used to update the old values on the existing lists to current market values.  The indications from the work to date are that such an approach might be more useful for keeping the lists up to date after the first full modern revaluation has been completed and anomalies in the current lists have been eliminated.</p>
+          <p eId="para_70">Finally, we have further work to do in measuring our output and performance in a more systematic way.  I note the Comptroller and Auditor General's comments on that.  We have participated in the piloting of the performance budgeting initiative this year as part of the Finance group of Votes, with Vote material presented on a programme basis and related outputs specified.  We are also about to introduce an electronic work return that will help to refine our approach to measurement of performance, but we have more work to do in this area.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_38">
+          <from>Chairman</from>
+          <p eId="para_71">Thank you.  May we publish that statement and the up-to-date information provided?</p>
+        </speech>
+        <speech by="#" eId="spk_39">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_72">Yes.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_40">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_73">I welcome Mr. Quigley and all the witnesses to this meeting.  My questions broadly fall into two areas, the position with regard to the valuation process currently and internal governance and the changes that have been made there.</p>
+          <p eId="para_74">However, before I get to those questions, I want to begin with something that caught my eye as I was preparing for this meeting in the document prepared for us which provides details of the appropriation accounts for 2010.  It covers the provisions, the outgoings and how money was spent and what was due to be spent in quite a detailed fashion.  What caught my eye relates to section 5 which deals with employee numbers and pay.  The column for 2009 shows the office had 152 staff and the one for 2010 shows that staff reduced to 149, a 2% reduction.  However, wages across that period fell by 8%, from €8.3 million to €7.65 million.  I am interested to know what the office did that enabled it to reduce wages on a stronger basis than head count was reduced.</p>
+        </speech>
+        <speech by="#" eId="spk_41">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_75">I am not sure I am looking at the same figures as the Deputy.  The trend in the pay bill is clearly down.  There is a slight increase in 2011, as compared with our estimated provision, simply because there was a difference of view and calculation about the number of people who might retire during the year.</p>
+          <p eId="para_76">I do not have a ready answer for the Deputy.  I do not think we have found any magic formula, but we have implemented fully all the measures taken by the Government to deal with the current economic situation.  The reductions in pay and so on are clearly reflected in these figures.  I am sure that is a factor in the trend which is showing.</p>
+          <p eId="para_77">Our numbers have not reduced drastically, although retirements have reduced them somewhat.  Like other Departments and offices, we have been given an employment control framework number within which we have to operate.  We respect all the other measures that have necessarily been taken by the Government to control the public finances.  These are the main factors involved.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_42">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_78">So there were no additional changes made on top of the central wage cutting mechanisms-----</p>
+        </speech>
+        <speech by="#" eId="spk_43">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_79">We would have implemented all those changes, but there were no additional changes.  There is a variability of numbers from year to year.  The number I have is 146 staff, so the figure in front of the Deputy may not reflect fully the reduction which has taken place.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_44">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_80">The figure I had was for 2010.  The figure to which Mr. Quigley refers is probably this year's figure.</p>
+        </speech>
+        <speech by="#" eId="spk_45">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_81">Yes.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_46">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_82">When the valuation process was put in place, what was the target date for its completion?</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_83">We have to go right back to 2001, when the new legislation was enacted.  That legislation put in place the provisions and the framework for a revaluation which had not existed before.  A revaluation had not taken place in this country since the middle of the 19th century.  There had been a consultancy report around the time of the 2001 legislation, and this put a timeline of about five years to undertake a full revaluation.  With hindsight, that timeline was not regarded as realistic.  It did not take account sufficiently of the fact that we were proposing to undertake a revaluation in this country, where there had not been a revaluation.  It assumed levels of productivity and achievement performance in other jurisdictions where there had been periodic revaluations.  We moved forward and did not effectively start the revaluation programme until 2005.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_48">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_84">It started it 2005.  When did Mr. Quigley and his colleagues think it would finish?</p>
+        </speech>
+        <speech by="#" eId="spk_49">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_85">I am not sure there was a specific date put on it at that time, but I do not want to dodge the Deputy's question.  By 2008, when evidence was given before this committee, there was a timeline of ten years mentioned as the time required to undertake the national programme.  That would bring us to 2018, and that is abstracting from the difficulties which had happened.  These difficulties were the unrealistic initial prognosis, difficulties getting staff in the office during the property boom, and some IR issues which we had to sort out before we could get going on the programme.  A commitment was certainly given in 2008.  It was a commitment, but it was also an estimate because we had not done the work.  We were only doing one or two areas at that time in south Dublin and Fingal.  The estimated time period was ten years for completion of the national programme.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_50">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_86">When did the programme itself actually start?</p>
+        </speech>
+        <speech by="#" eId="spk_51">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_87">The programme itself got under way in 2005.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_52">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_88">I just want to get the timeline in my head.  It started in 2005 and we estimated approximately that it would take five years on the basis of a report.  In 2008, we said that it would take ten years from that date.</p>
+        </speech>
+        <speech by="#" eId="spk_53">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_89">That is right.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_54">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_90">I completely understand all the factors that have changed things.</p>
+        </speech>
+        <speech by="#" eId="spk_55">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_91">I do not believe that in December 2005, a specific timeline of five years was mentioned publicly, because there would have been an internal assessment of the practicality of doing it over five years and the doubts to which I alluded earlier would have already have been acknowledged.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_56">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_92">The ten year figure was reasserted in 2008.  As we stand now, the target is 2018.</p>
+        </speech>
+        <speech by="#" eId="spk_57">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_93">The announced target is 2018.  I have already said in my opening comments that there is uncertainty about achieving that target.  I can tell the Deputy what we have done.  We have done south Dublin, Fingal, and Dún Laoghaire Rathdown.  The appeals process to the valuation tribunal in the latter area is ongoing, so we cannot say that is fully complete.  We have launched the revaluation of Dublin city, which was postponed for 18 months due to the difficulties in the property market.  I satisfied myself that this could go ahead and we made the order in May 2011 to do that.  We will produce the revised list based on Dublin city in December 2013, having allowed a full period for representations and so on by people affected by these valuations.  When that is done, we will have completed 26% of the 170,000 properties in the State, and 50% of the overall valuation database by value.  We will have made significant progress in the Dublin element of the project, which is very demanding, because there are 25,000 properties to be done in Dublin.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_58">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_94">The process started in December 2005 and as things stand, three local authority areas are fully completed and a fourth is on the way.  By the time we get to 2013, eight years after the start of the process, 26% of the total number of properties will be done.</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_95">That is correct.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_60">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_96">There is another 74% to be done in the following five years.</p>
+        </speech>
+        <speech by="#" eId="spk_61">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_97">That is correct.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_62">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_98">I do not think the office will hit the 2018 figure, based on the-----</p>
+        </speech>
+        <speech by="#" eId="spk_63">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_99">That is a reasonable conclusion and I am not satisfied with that position.  It is precisely because I am not satisfied that I have asked whether there are different ways of doing this.  We cannot be assured we are going to do this.  In fact, the Deputy's conclusion that we will not do it is as good as any other, if we go on like this.  The issue that I have explored with my colleagues in the office is that we need to change things.  We can change things within our current <i>modus operandi </i>and achieve better productivity, something I hope we will do, but in addition we should try something new. </p>
+          <p eId="para_100">Part of the impetus with public sector reform is to examine new ways of doing things.  This is a case in point where we have to do something differently.  In my opening statement I outlined what we are examining, such as self-assessment.  It is more difficult in an area like this.  There is survey data on property, such as measurements and market value.  We are going to have a good shot at it seeing if we can work up a self-assessment programme.  If we succeed in piloting a self-assessment programme we could roll it out to other areas very quickly.  We have put forward proposals for legislation which are with the Minister.  He indicated he hopes to bring those proposals to Government very soon.</p>
+          <p eId="para_101">In the meantime, I am working with colleagues on the scheme.  We are not waiting for the legislation.  Self-assessment is more complicated and has to have checks and balances to assure the majority of ratepayers that it would be a fair system with quality assurance and audits.  We are building those things in.  It is not impossible and we are going to try.</p>
+          <p eId="para_102">The second main option we have is outsourcing.  It is something one has to consider.  We will propose to go out to tender for a pilot project to outsource a reasonably defined area to suit the pilot.  If we get the legislative authority to do that, the outcome would be a useful check against what we are doing, in terms of cost and productivity.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_64">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_103">I want to talk to Mr. Quigley about the measures put in place to change the direction in which the office is going, which is great to hear.</p>
+          <p eId="para_104">Mr. Quigley will be aware of the pressure many people paying rates are under.  Many want to see rate reductions and, as was fairly pointed out, not everybody will be with us during the process.  The first part of getting clarity on what future rates are going to be is the completion of the valuation process.  It strikes me that it is quite late in the day to make these adjustments, given that we are now six years down the line and only three local authority areas out of 32 have been completed.</p>
+        </speech>
+        <speech by="#" eId="spk_65">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_105">I cannot quarrel with the Deputy's assessment.  It is very slow.  As the acting commissioner I am faced with having to do something.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_66">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_106">Sure.</p>
+        </speech>
+        <speech by="#" eId="spk_67">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_107">What I proposed is the best we can come up with.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_68">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_108">Okay.</p>
+        </speech>
+        <speech by="#" eId="spk_69">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_109">I accept the Deputy's assessment that it is late.  A lot of work has been done in the office by my colleagues.  The staff have agreed to new flexibilities.  Demarcation arrangements have been ended.  We have made a lot of progress in some areas.  Having said that, change is not happening speedily enough and we have to do better.  It is for that reason we have come up with these options.  It is better to do it now-----</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_70">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_110">Than never.</p>
+        </speech>
+        <speech by="#" eId="spk_71">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_111">-----than never.  It is better to have a go, even if one is not absolutely assured that self-assessment will work, and try to deliver on the programme.  The Deputy is right to underline the point about winners and losers to which I alluded.  There is an overwhelming case for having an up-to-date list which would be more transparent and equitable.</p>
+          <p eId="para_112">In the south Dublin revaluation, 49% of property occupiers had a reduced liability, 39% had an increased liability and 12% were not previously rated.  In Fingal, 65% had a reduced liability, 30% had an increased liability and 5% were not previously rated.  In Dún Laoghaire-Rathdown, 54% had a reduced liability and 46% had an increased liability.  They are the indicative figures.  I have spoken to businesses and we are getting representations from them.</p>
+          <p eId="para_113">Businesses, in particular small and medium ones, want the possibility to benefit.  They also want to see a system based on up-to-date property values.  We made a change in Dublin revaluations.  The three previous revaluations had a valuation date of September 2005.  The valuation date for Dublin city is 7 April 2011.  People want to see current values reflected in the valuations and this is what we are trying to do.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_72">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_114">That is why I am pushing the point on time.  I applaud all the efforts Mr. Quigley is making to accelerate the process and I will discuss them in a moment.  I am struck by the fact he has acknowledged that by the time we get to 2013, progress will have been made to increase the figure to 26% but 74% still need to be completed.  The measures he has put in place are designed to do that.</p>
+        </speech>
+        <speech by="#" eId="spk_73">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_115">I cannot mislead the committee and I acknowledged in my opening statement that there is uncertainty, because of the current way of doing it, about the 2018 date.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_74">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_116">Of course.  I want to refer to a report we received from the Comptroller and Auditor General for November 2007.  Does Mr. Quigley have a copy?</p>
+        </speech>
+        <speech by="#" eId="spk_75">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_117">Yes.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_76">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_118">There is a very interesting table on page 24, figure 2.8, which refers to organisational performance compared with targets from 2001-06.  In the material that we have from the last report a similar table was not available.  Is Mr. Quigley in a position to give us an update on what the target number of valuations were this year and last year and the number of requests processed?</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_119">Yes.  I see the table the Deputy is referring to.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_78">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_120">The table refers to setting annual targets for output at the level of organisation, team and individual valuers.</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_121">Does the Deputy want me to cover 2010-11?</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_80">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_122">Yes, if Mr. Quigley has the figures.</p>
+        </speech>
+        <speech by="#" eId="spk_81">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_123">I may not have it in exactly the same format but I will give the Deputy the components I have.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_82">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_124">I thank Mr. Quigley.</p>
+        </speech>
+        <speech by="#" eId="spk_83">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_125">In 2010 the request intake was 7,380.  The requests processed were 7,526.  The new records associated with those requests were 4,367 and the total outcomes were 11,893.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_84">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_126">The main figure that appears to be comparable with the table I have is the request process.</p>
+        </speech>
+        <speech by="#" eId="spk_85">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_127">The figure is 7,380.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_86">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_128">I thought it was 7,526.</p>
+        </speech>
+        <speech by="#" eId="spk_87">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_129">The number of requests processed were 7,526.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_88">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_130">Does Mr. Quigley have an indication as to what the figure would be for 2011?</p>
+        </speech>
+        <speech by="#" eId="spk_89">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_131">Yes.  The Deputy should bear in mind that we said in the updating material and publicly that we restricted somewhat the revision work in 2011 in order to make room for the major effort needed to relaunch the revaluation in Dublin city.  The figures for 2011 to date show a request intake of 4,538, the number of requests processed were 4,644, new records totalled 2,212 and total outcomes were 6,856.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_90">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_132">When Mr. Quigley refers to the year to date for the requests processed, is it up to date for October?</p>
+        </speech>
+        <speech by="#" eId="spk_91">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_133">Yes.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_92">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_134">That illustrates the point we discussed and emphasises the need to put in place the measures to which Mr. Quigley referred to try to speed the process up.  The 2010 figure of 7,526 is probably an average.  It is consistent with the average across 2001-06.  If we include the figures to the end of October the figure is 4,624.  If we include November and December the figure will probably total approximately 5,500.  Would that be fair?</p>
+        </speech>
+        <speech by="#" eId="spk_93">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_135">We would be approaching 6,000 for the year.  We have met some local authorities and they want new buildings to be valued as a priority in order that they can earn some money in the current year.  We are trying to meet those requests.  We have put some constraints on that element of the work in 2011 in order to try to crank up a more speedy performance on re-evaluations and in particular to start the project in Dublin city.  It was postponed for about 18 months because of the property market.  It took a major effort to launch it and required a major reorganisation within the office to make the Valuation teams compatible with 25,000 properties.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_94">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_136">How much time do I have left?  I should not have asked that question.  I could have spoken for another half an hour if I kept going.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_95">
+          <from>Chairman</from>
+          <p eId="para_137">The Deputy is in a grey area.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_96">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_138">I cannot believe I was naive enough to ask that question.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_97">
+          <from>Chairman</from>
+          <p eId="para_139">The Deputy should not ask a question if he does not know the answer.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_98">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_140">Indeed.  I will not do it again.  I will draw to a close.  Another table in the report issued in 2007, figure 2.4, focused on productivity valuation work.  It details the output per staff member.  I assume the staff members are those involved in front line valuations.  Does Mr. Quigley have comparative figures for the current situation?</p>
+        </speech>
+        <speech by="#" eId="spk_99">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_141">It is now more difficult to produce comparable figures because we initiated the revaluation programmes which were not active at the time of the Comptroller and Auditor General's 2007 report.  I have to be open with the Deputy.  Despite our best efforts, productivity has not changed overall across the office.  There is better performance in some elements of work.</p>
+          <p eId="para_142">The revaluation work in Dún Laoghaire-Rathdown, where we are trying new methods such as not trying to inspect every property and having greater flexibility, yields a higher figure.  There is no dramatic change in productivity as of now.  The average output per valuer is in the order of 300, as best we can calculate.  There is a slight variability.  That is the situation.</p>
+          <p eId="para_143">The steps we are taking, which I outlined in my opening statement, such as computerisation, integrating databases and providing valuers with online market analysis tools in order that they can benchmark properties in an area without having to value each one separately, will help with productivity.  The proposals in the legislation are very relevant.  It is not simply a question of producing a value for a property.</p>
+          <p eId="para_144">If one takes account of the time and resources expended in processing appeals to the commissioner and then the valuation tribunal, the same valuer is doing that work.  I proposed that the first appeal should be done away with.  It would still give two chances to the ratepayer.  We have suggested a representation phase that is somewhat longer than the current 28 day period, such as 40 days.  There could be an appeal to the valuation tribunal, an independent body, which would rule on it.</p>
+          <p eId="para_145">The legislation is a matter for the Minister and Government.  If the proposal was agreed and implemented it would make a difference for our productivity.  We have to do what the rest of the public service is doing, namely improve productivity with very tight resources.  The efforts of the management team are centred on trying to achieve that.</p>
+        </speech>
+        <speech by="#PaschalDonohoe" eId="spk_100">
+          <from>Deputy Paschal Donohoe</from>
+          <p eId="para_146">I exhort the management team to do all it can to continue with the work because it is essential.  The figure is stark.  By the end of 2013 26% of properties will be valued and the office is doing all it can to ensure the remaining 74% is done quickly, which is essential.  I thank the witnesses for their contribution.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_101">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_147">I welcome Mr. Quigley.  Is he the permanent or temporary Accounting Officer?  I apologise.  I missed the comments of Deputy Donohoe.  I ask the Chairman to tell me if I repeat his questions.</p>
+        </speech>
+        <speech by="#" eId="spk_102">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_148">I do not believe there is a concept of acting Accounting Officer.  I am the Accounting Officer and responsible for assisting the committee in its deliberations.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_103">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_149">When I telephoned the Department of Finance yesterday I was told Mr. Quigley is working <i>pro bono</i>.  Is that correct?</p>
+        </speech>
+        <speech by="#" eId="spk_104">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_150">That is correct.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_105">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_151">Why, in the name of God, would he do that?  It is tremendous.</p>
+        </speech>
+        <speech by="#" eId="spk_106">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_152">I would prefer not to comment.  There are plenty of people doing <i> pro bono</i> work in the public interest.  I offered to do <i>pro bono</i> work in the public interest and was subsequently asked to do this job on a temporary acting basis, and I said yes.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_107">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_153">I would like to congratulate Mr. Quigley.  It is a tremendous gesture.  How long has he been doing it for?</p>
+        </speech>
+        <speech by="#" eId="spk_108">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_154">I have been doing it for the past eight or nine months, which would not have been the original expectation because it is clearly a temporary appointment.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_109">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_155">For how long is he going to do the job?</p>
+        </speech>
+        <speech by="#" eId="spk_110">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_156">I do not know but I am happy to make a contribution in the current circumstances if I can.  They are matters for the Minister and not me.  I am still doing the job.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_111">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_157">I am not casting aspersions on Mr. Quigley's abilities.  What he is doing is tremendous, from what I can see.  Is there any plan to hire a permanent chief executive?</p>
+        </speech>
+        <speech by="#" eId="spk_112">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_158">I cannot comment on that.  I am not in a position to comment.  I am not trying to be unhelpful.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_113">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_159">Has the last chief executive retired?</p>
+        </speech>
+        <speech by="#" eId="spk_114">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_160">Again, Deputy, I cannot comment.  It is not a matter for me.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_115">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_161">Is the last chief executive being paid?</p>
+        </speech>
+        <speech by="#" eId="spk_116">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_162">I cannot comment on those areas.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_117">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_163">It is important to know how-----</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_118">
+          <from>Chairman</from>
+          <p eId="para_164">Mr. Quigley is the Accounting Officer for the section we are discussing, the figures and so on.  Perhaps the Department representative can comment on it.</p>
+        </speech>
+        <speech by="#" eId="spk_119">
+          <from>Ms Marie McLaughlin</from>
+          <p eId="para_165">I do not know if I can say anything further to what Mr. Quigley said.  He was appointed under section 10 of the Valuation Act in a situation where the commissioner was temporarily unable to discharge his functions and that remains the position.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_120">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_166">Is a chief executive who is semi-retired being paid when an acting chief executive is not?</p>
+        </speech>
+        <speech by="#" eId="spk_121">
+          <from>Ms Marie McLaughlin</from>
+          <p eId="para_167">Other than saying that this is a human resources matter which is confidential, I cannot comment any further.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_122">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_168">Ms McLaughlin can tell us who is being paid and whether there is an active campaign to recruit someone.</p>
+        </speech>
+        <speech by="#" eId="spk_123">
+          <from>Ms Marie McLaughlin</from>
+          <p eId="para_169">Unfortunately, I am not in a position under the circumstances to make any further comment.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_124">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_170">It is a matter of expenditure.  Is there a chief executive who is not active being paid?</p>
+        </speech>
+        <speech by="#" eId="spk_125">
+          <from>Ms Marie McLaughlin</from>
+          <p eId="para_171">I regret that I cannot comment further other than to say that Mr. Quigley is there in a temporary capacity under section 10 of the Valuation Act.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_126">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_172">Ms McLaughlin does not want to enlighten us.</p>
+        </speech>
+        <speech by="#" eId="spk_127">
+          <from>Ms Marie McLaughlin</from>
+          <p eId="para_173">Unfortunately, I cannot.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_128">
+          <from>Chairman</from>
+          <p eId="para_174">The point is that the commissioner was unable to discharge his duties and that Mr. Quigley is, as he says, performing the function of Accounting Officer - not the acting Accounting Officer - on a <i>pro bono</i> basis.  Beyond that it is a HR matter.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_129">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_175">I merely wished to address the item of expenditure, to ascertain whether money is being saved in that area.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_130">
+          <from>Chairman</from>
+          <p eId="para_176">I am sure money is being saved on foot of Mr. Quigley's presence.  He is to be commended for it.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_131">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_177">Yes, it is fantastic.  He is doing an excellent job.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_132">
+          <from>Chairman</from>
+          <p eId="para_178">It is quite the opposite to what we usually see at this committee.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_133">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_179">Indeed.  It is quite remarkable and we should applaud it.  I understand it is unprecedented.</p>
+        </speech>
+        <speech by="#" eId="spk_134">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_180">I assure the Deputy that as well as being Accounting Officer, I have the full powers of the commissioner under subsection 10(2) of the Valuation Act.  This means I am in a position to act in the office and do the business of the office.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_135">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_181">That is fine.  In his opening statement Mr. Quigley indicated that it may be feasible to introduce a self-assessment approach, accompanied by appropriate controls.  Does he envisage a similar set-up to the situation in the Revenue, with which he is so familiar?</p>
+        </speech>
+        <speech by="#" eId="spk_136">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_182">Self-assessment has not been tried in respect of commercial property.  It is a demanding concept in the sense that there are two aspects to a valuation, namely, the survey data such as property measurements, location, type of retail facility and so on and, second, there is the question of what market value one places on a property.  We envisage that in order to make the system effective, we would have to provide assistance, templates and so on to businesses.  Some businesses already employ professional advice to deal with their rates business and valuations, and will continue to do so under the proposed system.  However, we would provide assistance by doing the market analysis, putting out guidelines, bands of values and so on.  We would also assist by providing templates for the measurements.</p>
+          <p eId="para_183">That is what must be done at a minimum, and I am confident we can do it effectively, using modern technology.  In our approach to technology thus far, we perhaps have not gone as far as we could.  In Dublin city, when we begin a revaluation of an area we send out requests for information, the so-called section 45 reports.  Some 21% of those reports are now being submitted online.  That is very effective because the data go immediately into the system and no further work is required to capture information in the relevant fields for further analysis.</p>
+          <p eId="para_184">The first element in our proposal is that we do the maximum to help people by clearly communicating what is required of them.  The second element is an assurance to rate payers in general that it will not be a case of write your own valuation.  Third, some of our resources will be transferred from valuation work to quality assurance. <i>Post factum</i>, we envisage there will be a good audit capacity whereby, based on risk, we will select certain properties where the valuation will be audited.  Fourth, there must be a penalty for those who do not make a reasonable effort to comply.</p>
+          <p eId="para_185">We have to try something new, and that is what we are doing.  I cannot guarantee the committee that it will work, but we can give it a good shot if we set it up properly.  What we propose is to set up a pilot area, comprising perhaps 3,500 to 4,000 properties so that it is manageable.  Underpinned by the legislation, those valuations would have effect.  That is how we plan to proceed.  While we are waiting for the legislation, we are working on the various elements of the scheme.  Self-assessment has been tried on many fronts and has been developed into successful systems.  In regard to commercial property, however, it is not quite the same as dealing with income or with a capital value which might be known to one immediately.  Rather, we are dealing with a concept, enshrined in the legislation, of the net annual value, which is not the same as a straightforward rent.  That value takes account of the different elements that go into calculating the rent, including rent-free periods, inducements, contributions towards fitting out a premises and so on.  We have to come up with a uniform estimation based on those variables.</p>
+          <p eId="para_186">Despite the difficulties, I am confident we can make a success of this.  The pilot provides an opportunity to see what works best.  If we do the pilot reasonably quickly - in respect of the 2018 deadline or any other deadline -  and it proves successful, we could roll out the scheme more quickly on a general basis.  That is what we are trying to do, in the context of having to do something different.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_137">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_187">To whom would the work be outsourced?</p>
+        </speech>
+        <speech by="#" eId="spk_138">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_188">Given that it would be a very sizeable contract, we would be looking for the outsourcer to do the entire job, from start to finish, subject to our quality assurance process.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_139">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_189">Who would be the outsourcer?</p>
+        </speech>
+        <speech by="#" eId="spk_140">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_190">We would have to put out a tender.  This would be an EU-wide procurement exercise because of the size of the contract.  I cannot say whether it would be awarded to a domestic or foreign firm.  That is part of the challenge, to see whether we can successfully hire an outsourcer to carry out the project from A to Z, dealing with the representations, appeals process and so on, as well as the valuations.  We will not know the cost of that until we do it.  Given the very difficult situation for the Government, we must cut our cloth to suit, just as all other offices and agencies must do.  If the legislation is in place and we have the necessary funding, we would run the outsourcing and the self-assessment in parallel.  We will learn a great deal from that and, with the co-operation of our own staff, work on what we have learnt in order to enhance the efficiency, productivity and value for money of the Valuation Office.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_141">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_191">Is Mr. Quigley saying that legislation is required in order to allow him to proceed?</p>
+        </speech>
+        <speech by="#" eId="spk_142">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_192">Yes, because all of the legislation is constructed in reference to the Commissioner of Valuation.  Specifically, we also need an enabling provision in respect of the self-assessment process, which will have to include all the issues I mentioned, including quality assurance, audit, the right to demand that the rate payer submit the information and so on.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_143">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_193">On the issue of outstanding fees from local authorities, how did that situation come about?</p>
+        </speech>
+        <speech by="#" eId="spk_144">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_194">Local authorities pay us after the work is done.  In many cases, the invoices go out at the end of the year because the work would be done in the second half of the year.  I understand the figure outstanding was of the order of €400,000 at the end of 2010.  The invoices are sent out straight away, there is follow-up in the form of letters and there is penalty interest, facilitated by the legislation on prompt payments.  I understand the interest rate is approximately 8%.  We send reminders after 14 days and follow up with further letters.</p>
+          <p eId="para_195">Of the €400,000 which would have been outstanding at the end of the year, some €370,000 would have been collected.  This means that approximately €32,000 remains outstanding.  In some instances, those fees are in dispute.  A local authority may dispute the number of units in respect of which it should be charged, particularly if there are new units accompanying a request.  An authority might make a request for one area and the valuer might find that there are five, six or seven commercial or industrial units attaching to that request.  Arguments might arise as a result.  However, we follow up on these matters quite well.</p>
+          <p eId="para_196">I am not convinced that we are not as up to date as we should be.  We instituted a new internal audit system in order to try to deal with some of the difficulties to which the Comptroller and Auditor General draws attention in chapter 20.  We contracted out our internal audit duties to a particular firm, which has produced its first report.  The latter has provided us with valuable insights which are quite similar to the messages we received from the Comptroller and Auditor General.  The firm to which I refer indicated that perhaps we should elevate our credit control and follow-up functions.  It even suggested that legal action should be pursued.  That is a new area for us.  We are of the view that the problem is manageable.  However, as with all the matters under discussion at this meeting, there is scope for improvement.  We will be giving consideration to that matter.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_145">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_197">How late were the payments?</p>
+        </speech>
+        <speech by="#" eId="spk_146">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_198">I do not have precise details in respect of the distribution of those.  However, the Deputy can take it that there was a reasonable distribution over a period.  Some of them would have been late but others would have been made quite quickly.  The first €200,000 would have been repaid within a reasonable period - a couple of months after the end of 2010 - but I do not have precise information on the distribution of the other receipts up to the present.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_147">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_199">This issue is interesting because it would be unusual for the Valuation Office to take action against local authorities.</p>
+        </speech>
+        <speech by="#" eId="spk_148">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_200">Yes.  We have never done so.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_149">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_201">Does that not mean that the local authorities have the office over a barrel to some extent?</p>
+        </speech>
+        <speech by="#" eId="spk_150">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_202">We provide a very important service to local authorities and some 25% of their income is derived from the commercial rates system.  The figure involved is €1.35 billion and this is an extremely important source of income for them.  We provide them with a service and I am of the view that we could do more in the context of ensuring that the payments in question are made more promptly.  We will certainly give consideration to this matter.  I agree with the Deputy's assessment to the effect that legal action would not be apposite.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_151">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_203">It would be counter-cultural.  Various reports, including that of the Comptroller and Auditor General, refer to inflexibilities being an obstruction to greater productivity.  Will Mr. Quigley elaborate on this?</p>
+        </speech>
+        <speech by="#" eId="spk_152">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_204">Our office employs a mix of professional, technical and administrative staff.  Including at management level, there are approximately 82 valuers in the office at present.  Seven technical staff are involved in mapping.  The remainder are administrative staff.</p>
+          <p eId="para_205">On the valuation side, there were difficulties in the period up to 2008.  In the first instance, we tried to improve the capacity of the office by taking on contract staff.  Those staff were doing certain things but not others.  There were demarcation problems across the office.  I referred to some of these when answering questions posed by Deputy Donohoe.  In 2008, a former commissioner of valuation from Northern Ireland was brought in to compile a report.  That report proved to be very useful.  The individual in question stated the office would be obliged to box more cleverly and had to be more flexible in its approach.  He also indicated that it would have to use benchmarking techniques and engage in a better use of information and carry out better analysis in respect of such information.  We established a central market analysis unit this year and that is moving in the direction he suggested.</p>
+          <p eId="para_206">In the aftermath of the report to which I refer, a very important agreement aimed at ending demarcation was reached with the union which represents the valuation staff.  A number of agreements were reached over a period and all were aimed at ending demarcation and providing the necessary flexibilities.  Those flexibilities are in place.  However, that is not to say that specific ways of carrying out the work are not problematic.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_153">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_207">What does Mr. Quigley mean by that?</p>
+        </speech>
+        <speech by="#" eId="spk_154">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_208">It might mean-----</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_155">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_209">Does it mean that the flexibilities are in place but that they are not being implemented?</p>
+        </speech>
+        <speech by="#" eId="spk_156">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_210">-----for example, that although agreements have been reached, people might have different views when it comes to not inspecting a building or whatever.  People will have their own standards which they will say should apply in particular cases.  We must work with the staff and that is what we have been doing.  We have reorganised the teams and they are all fully integrated.  There are no contract staff on the books and everyone involved is a member of staff of the Valuation Office.  We are providing support for the teams through the central market analysis unit and the use of better technology.  Not to put too fine a point on it for the Deputy but it is obvious that we have a lot more work to do in order to achieve the kind of productivity required to speed up the programme.  It is a work in progress and I am not going to inform the Deputy that it is easy.</p>
+          <p eId="para_211">I am aware of the issues with the staff and I respect both their views and the standards they apply.  We are involved in intensive discussions and we established better communication channels within the office.  This takes the form of an open forum and the staff are participating in respect of this.  However, I can only report progress.  I am not in a position to inform the Deputy that we have achieved the productivity that is required.  We clearly have not done so.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_157">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_212">Are there still inflexibilities in existence which are preventing the office from achieving this productivity?</p>
+        </speech>
+        <speech by="#" eId="spk_158">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_213">There are some work practices or changes thereto which are relevant to measurement of performance -  I refer to the type of electronic methods of measuring the work and the inputs that are very prevalent in the private sector - and which can still cause friction.  Acceptance of such practices, etc., takes longer to achieve.  I referred earlier to the electronic work return, which will be an important element in the context of, as the Comptroller and Auditor General has suggested, obtaining a better idea on what we are spending time on.  Agreement has been reached on this with the union and we will be introducing it very soon.  Discussions with the unions and the staff can be difficult but we are obliged to take part in them.  We are involved in such discussions.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_159">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_214">Would it be fair to state that there is a certain resistance to change?</p>
+        </speech>
+        <speech by="#" eId="spk_160">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_215">There is a culture within the office and things were done in a certain way previously.  Obviously, this imposes constraints on some people.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_161">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_216">Which unions are involved?</p>
+        </speech>
+        <speech by="#" eId="spk_162">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_217">There are a number of unions involved, including IMPACT and the PSEU.  We work with the unions and we also have a partnership committee.  We are continuing to work with all the unions.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_163">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_218">Is it fair to state that the office has in place what is required but that everything is not being implemented?</p>
+        </speech>
+        <speech by="#" eId="spk_164">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_219">To a significant extent the Deputy has interpreted correctly what I said, namely, that we have the agreements in place.  We need to be more assiduous in respect of delivering on them.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_165">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_220">Is it correct that agreements have been reached with the unions but some people are not actually adhering to them?</p>
+        </speech>
+        <speech by="#" eId="spk_166">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_221">I would not put it like that.  However, some people are perhaps more attached than others to the previous way of doing things and the culture must be changed.  In fairness, it is a two-way street.  Management, as well as the staff and the unions, are all responsible for this.  We have to manage, that is our responsibility.  The staff must co-operate under the agreements and we want to ensure that they do.  We must, however, manage, follow up and deliver.  I am of the view that we need to do more of that.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_167">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_222">Is there also resistance among some members of management to change?</p>
+        </speech>
+        <speech by="#" eId="spk_168">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_223">No, I would think there is a fairly solid view on the management side with regard to what needs to be done but we may not have always followed up as quickly as we might have done.  We have to do more to drive this programme and to do whatever is needed, with the co-operation of the staff, to achieve a more credible timeline for completion.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_169">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_224">I presume the witnesses are not members of IBEC.</p>
+        </speech>
+        <speech by="#" eId="spk_170">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_225">No.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_171">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_226">I wish to ask Mr. Quigley about a few other matters.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_172">
+          <from>Chairman</from>
+          <p eId="para_227">I remind the Deputy of the time.  I will allow him to ask another question.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_173">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_228">I have 11.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_174">
+          <from>Chairman</from>
+          <p eId="para_229">The Deputy should pick the best one he has.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_175">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_230">In the Comptroller and Auditor General's report fairly strong language is used about an inappropriate accounting trail.  It states: "There was an unsatisfactory level of erroneous and incorrectly processed accounting entries which had not been detected in a timely manner."  It also states there was a failure to maintain "an accurate register of assets and controls were not in place to ensure that assets were only disposed of or scrapped after due authorisation".  The report goes on in that vein which is very strong language for anybody coming from the Civil Service.  Can Mr. Quigley tell us what those erroneous and incorrectly processed accounting entries were?  That language used in the report is pretty strong.  Did they have any serious consequences and how did they happen?</p>
+        </speech>
+        <speech by="#" eId="spk_176">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_231">It certainly was not satisfactory.  The bottom line was that the Comptroller and Auditor General, as he indicated in his opening remarks, was satisfied about the account and that transactions were properly represented.  There was a good deal of work to be done by the audit staff to reconcile the bookkeeping.  The findings of that report are confirmed in the separate internal audit we have done, namely, that we needed to do more to reconcile transactions to make sure that the banking side was correct with the general ledger in terms of the accounting.</p>
+          <p eId="para_232">As to how this happened, it does not make pleasant reading and it suggests a weak financial environment in the office.  To be frank, that has been there for a while.  There has not been sufficient rigour in the bookkeeping and reconciliation work and there is no point in saying otherwise.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_177">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_233">They were just wrong.</p>
+        </speech>
+        <speech by="#" eId="spk_178">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_234">They may have occurred because of a double entry or because of being posted to the wrong book.  That is what we are talking about. The tying up of the different elements of a transaction and making sure that the books are reconciled was not strong in the office.  In fairness, it is a small office and there has been a significant rotation of staff and transfers of staff to other Departments and that has not helped.  During the past year, from 2010 onwards, we transferred to a new computer system to deal with these transactions and it produced many difficulties.  The process is completed now but transferring from one system to the other produced many difficulties and caused problems in terms of there being a lack of reconciliation.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_179">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_235">Mr. Quigley is happy with-----</p>
+        </speech>
+        <speech by="#" eId="spk_180">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_236">I am happy that we have made progress.  We are following through a programme very deliberately.  When I initially set up a new audit committee with external representatives, we contracted out the internal audit function which, as the Comptroller and Auditor General pointed out, was not operating in accordance with the requirements, which devolve responsibility to Accounting Officers to make sure that the transaction is done properly. The Comptroller and Auditor General was dealing with 2010.  We are doing a full reconciliation in the current year up to end of August and then we will reconcile every month after that.  We are providing more training and support for staff.  We are in the process of writing a new manual to ensure the closing off procedures at the end of each month are correct and are understood by the staff.  Again management has a role to play in supporting the staff who are doing this work and making sure that they have the training and the proper facilities to do it.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_181">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_237">There were honest errors.</p>
+        </speech>
+        <speech by="#" eId="spk_182">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_238">Yes.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_183">
+          <from>Deputy Shane Ross</from>
+          <p eId="para_239">That is okay.  That is the end of my questions.  This is a value for money committee and we are getting very good value out of Mr. Quigley as far as I can see.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_184">
+          <from>Chairman</from>
+          <p eId="para_240">Mr. Quigley should take note of that from Deputy Ross, as he does not often say things like that.  We do not come across people like Mr. Quigley very often either.</p>
+          <p eId="para_241">I note that two of Mr. Quigley's retired colleagues were employed at a cost of €24,000.  For what were they employed?</p>
+        </speech>
+        <speech by="#" eId="spk_185">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_242">Yes.  These are the figures mentioned in the appropriation accounts.  These were people who were contracted to do specific jobs in which they had a valuation expertise, an expertise that I do not have.  They were brought back to do specific jobs, write reports and analyse data about particular cases which had important implications for the office.  We get good value for money from these colleagues but they are former members of staff who were asked to do that.  That is why the transactions are mentioned specifically in the accounts.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_186">
+          <from>Chairman</from>
+          <p eId="para_243">In terms of financial control and governance, given that we are reflecting on 2010, I will ask the Comptroller and Auditor General, as he has reflected on 2010, what was the position in 2009, 2008 and 2007, or did this all just happen in 2010?</p>
+        </speech>
+        <speech by="#" eId="spk_187">
+          <from>Mr. John Buckley</from>
+          <p eId="para_244">No.  We had written management letters about similar issues in previous years.  What happened in 2010 is that it moved to a different level.  The level of error and so on we encountered, with duplicating and triplicating, was such that we felt we had to bring it to attention in a public accountability environment.</p>
+          <p eId="para_245">I should probably have explained that in the public service, following the Mullarkey reports, there are audit committees, internal audits, statements of internal financial control and risk assessment processes.  What we tend to do is to work through the institutions that have been put in place under those reforms.  Our initial point of call when we find problems is to write a management letter and we normally expect that the audit committee and various other organs of the institution will deal with it and that we will not need to bring it further.  However, in this case that did not happen and because it did not happen and it accelerated a little, we felt we had to bring it up in a public accountability framework through an audit report in 2010.  It was complicated also by the switching to a new accounting system and the fact that it also had its problems. The management letters that are issued can be regarded as sort of warning shots but if they are not heeded in a public institution, my policy is then to move on to public accounting and accountability.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_188">
+          <from>Chairman</from>
+          <p eId="para_246">How many of those warning letters would have been issued?</p>
+        </speech>
+        <speech by="#" eId="spk_189">
+          <from>Mr. John Buckley</from>
+          <p eId="para_247">I would say that the previous two years had content that was similar in toll to the content in the report but not of the same scale.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_190">
+          <from>Chairman</from>
+          <p eId="para_248">That is what I find difficult to understand in the public sector.  We have to accept that things go wrong but in the private sector one would move quickly to re-establish the correct position because one would lose money, be threatened with closure or be threatened by the banks.  In this case in the public sector it seems that despite the warning letters in the two previous years, things trundled on in the same vein and resulted in this chapter in terms of financial control and governance.</p>
+          <p eId="para_249">The other issue is that the computer is always blamed.  I accept that happens in the private sector but not to the same extent as in the public sector.  The changeover from one simple system of accountancy to another is blamed.  I find it hard to comprehend or believe that in this modern day and age that can happen to the extent it happens across the public sector.</p>
+          <p eId="para_250">I accept Mr. Quigley is now correcting matters within the Valuation Office but I am shocked that it continued for that length of time without it being corrected and without any consideration of what the Comptroller and Auditor General was saying in terms of his warning letters.  The reason it shocks me is because during the course of those years one would have had complaints from every single county about the rateable valuation and the cost of rates, in particular on small businesses throughout the country and yet the very office that was supposed to be dealing with that in terms of the re-evaluation was not in good nick, to say the least.  If I was to judge it I would say that it was certainly almost in turmoil in terms of its own accounting procedures and governance.</p>
+          <p eId="para_251">Now we are at a point which brings me to the question raised by Deputy Donohoe of how we can be absolutely sure about efficiencies and changes in work practices in terms of current valuations of properties.  As we look towards the next ten years and the completion of the project the Valuation Office is now undertaking, currently, businesses throughout the country - through new national organisations representing them - are highlighting the fact that they cannot pay their rates.  The only comfort we can give them is that the mayhem in the Valuation Office has been arrested somewhat and a new regime is in place but that the system will not be completed for ten years.</p>
+          <p eId="para_252">I admire Mr. Quigley for the fact that he is doing the job without pay.  He is a breath of fresh air in terms of the suggestions about how he would deal with the issue and how management should respond in terms of leadership within the public sector to get beyond the difficulties of the past and to develop new work practices.  In spite of that, assurances cannot be given that the scheme of work can be completed in time to save small businesses.  That is at the kernel of the problem.  It is not something on which we can wait for ten years.  If, in terms of his analysis, Mr. Quigley cannot deliver within the ten years and he is suggesting other methods of delivery and perhaps legislation with which the political masters have to deal, then they should be encouraged to deal with it.  Does Mr. Quigley accept that?</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_191">
+          <from>Deputy John Deasy</from>
+          <p eId="para_253">Is it possible to contribute at this point?</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_192">
+          <from>Chairman</from>
+          <p eId="para_254">Yes.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_193">
+          <from>Deputy John Deasy</from>
+          <p eId="para_255">I apologise if I have delayed proceedings.  The Chairman referred to reports from 2007.  I was on the committee in 2004 which is seven years ago.  The issues then relating to the Valuation Office were a lack of output, productivity and the lethargy with regard to the pace of work.  Nothing has changed.</p>
+          <p eId="para_256">I reiterate what the Chairman said about business and the effect it is having on small businesses in particular that are failing.  I agree with what he said but where I depart from his perspective is that there are public bodies which have valued properties efficiently even in recent years.  NAMA is one of them.  They do so with haste.  They have proven that they can do that efficiently but the Valuation Office has never kept pace with events occurring in the economy.  If it is the case, as the Chairman said, that it is not possible to carry out the schedule of events within ten years, should the Valuation Office be abolished and a new agency set up by Government?  If the conclusion is that the current approach is not working and is not going to work in the future, have we reached the point where we must look at the agency and completely deconstruct it and reconstruct another?  I put that question to Mr. Quigley because if I go back seven years it was the case that we were hearing the same thing.  Perhaps we need to take the nuclear option and look at the future of the Valuation Office.</p>
+        </speech>
+        <speech by="#" eId="spk_194">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_257">The Chairman raised two issues, the financial position as described in chapter 20 and the overall progress or lack thereof in the revaluation programme.  The organisational issue has been raised by Deputy Deasy.</p>
+          <p eId="para_258">On the financial problems that were described in the Comptroller and Auditor General's report, in fairness to that office, there were management letters to which the Comptroller and Auditor General has referred.  Those letters became available to me when I went into the office and when I asked for a description of the financial controls.  On foot of that, prior to the undertaking or certainly the completion of the audit, we had already moved in the Valuation Office to re-establishing the audit committee and to contracting out the work of the internal audit so as to produce quick results for us.</p>
+          <p eId="para_259">I accept what has been said, that it was not speedy enough.  I would like to see issues such as that dealt with quickly and that is what I, with my colleagues, am determined to do.  We had a situation where the audit threw up what has been described in the report and as well as the measures which I had already initiated we had to take the further steps which I outlined in the report.  I assure the Chairman that those measures which I outlined are being followed up.  They must be followed up.  We must look to producing a better result in terms of the accounting record and set-up for the future.  I give a commitment that we are following up on those measures.  That is the least commitment I can give.</p>
+          <p eId="para_260">It is not satisfactory that the revaluation programme is taking so long.  While it is not a solution for small businesses as a general solution to the problem of rates, it is a correct demand from small businesses that they should have up to date valuations, albeit in many instances that they will not benefit from that, but at least the system will be up to date and be fairer and more transparent.  I hope I have been upfront in that regard.  We cannot guarantee the 2018 date.  We must change something.  I hope I have indicated clearly to the committee that we are going to try to change things and produce a revaluation programme over a period.  To some extent the guarantee will depend on the outcome of the legislation which we definitely sought and which we are seeking to progress, subject to a decision by the Minister who is responsible.  We would like to see that progressed and to set about implementing the pilot schemes and it is hoped to improve the situation and then on foot of that the committee would be entitled to look for a new timetable to see how the thing would be done.</p>
+          <p eId="para_261">I should not comment on policy and organisational matters.  It is for others to decide about the Valuation Office.  The office is there to do a job. It has been given the resources to do a job and it must do it.  We have to do it better.  There have been proposals to amalgamate organisations in the property area.  I do not know what will happen in that regard because they are policy decisions.  We are open to looking at organisational changes within the office or in conjunction with other offices but I emphasise that they are not matters that have been decided and they are not for decision by me.  I am trying to deal with the questions as best I can-----</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_195">
+          <from>Deputy John Deasy</from>
+          <p eId="para_262">Yes.  That is fair enough.</p>
+        </speech>
+        <speech by="#" eId="spk_196">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_263">-----because the policy issues are definitely for Ministers.  The Deputy is as aware as I am that proposals for change have been made.  It is a time of change.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_197">
+          <from>Deputy John Deasy</from>
+          <p eId="para_264">I thank Mr. Quigley.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_198">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_265">I refer to something Mr. Quigley referred to and what may be a misperception on the part of business.  In terms of the day-to-day operations of a business or potential small new business, we know the rates constitute a significant drain on resources.  It is a fixed cost that businesses cannot seem to deal with, in addition to Revenue and other costs.  They hear of a revaluation process and that the rates will come down as a result.  They then hear that the revaluation process in some places started in 2005, which is of no use because it is meant to be based on rent costs and rents in 2005 were completely different.  Then they hear that in Dublin city they will be based on 2011 rents but it may not apply to their areas until 2014.  Businesses are of the view that the current revaluation will result in a significant rate reduction in what they pay to local authorities.  Can Mr. Quigley speak about that perception and whether that is the case?</p>
+        </speech>
+        <speech by="#" eId="spk_199">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_266">I commented earlier that in the areas where revaluation has taken place there has tended to be more winners than losers from the revaluation.  I gave the figures we have which is that more than 50% come out on the right side.  It is about relative movements in properties but the local authorities still have to finance the activities and services they provide for the community.  We could not end up with a position where everybody would gain from a revaluation.  The same amount of income must be raised for the local authorities to do their business.  In terms of what we do get, by moving to up-to-date values as we have done in Dublin - April 2011 is the valuation date - we capture the shifts between sectors and between different types of properties.  Arising from that we get winners and losers but the total valuation and the total requirement for rates by the local authorities - it is a matter for the local authorities and not for my office - does not change.  They must still raise the relevant amount of money and they strike what used to be known as the rate in the pound, the annual rate on valuation, and determine the rates paid by each property.</p>
+          <p eId="para_267">I am aware of the matter to which the Deputy has referred. It is in line with what the Chairman and other speakers said about credibility and businesses wanting to know what is happening.  I expect to be making an order for the revaluation of Waterford city and county and Dungarvan town council before the end of the year.  We have also initiated a process of consultation, required by law, with Limerick city and county.  There may be an issue about precise timing in that regard because of the proposed amalgamation but I expect that order will be made by the end of the year or early next year.</p>
+          <p eId="para_268">As well as trying to plough new ground with the self-assessment option and the outsourcing option, I am trying to see what we can do as we make progress in Dublin, where there is heavy demand, to shake free the resource to undertake the revaluation in Waterford and Limerick and to push out in other areas.  If we get sufficient momentum there would be greater acceptability by business that we are making a reasonable effort to do the overall job in a reasonable time.  I know the views of business on rates and the need for this programme.  Individual sectors have approached us also about their anxiety that it be speeded up.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_200">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_269">I appreciate the point Mr. Quigley is making.  He mentioned that 49% are winners.</p>
+        </speech>
+        <speech by="#" eId="spk_201">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_270">Yes.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_202">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_271">The perception on the part of businesses is that their rates will come down significantly when that will not happen because the valuation, as determined by Mr. Quigley's office, would be slight and the local authority will make the decision on the final-----</p>
+        </speech>
+        <speech by="#" eId="spk_203">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_272">The valuation will look different but in terms of local authorities' financing, for which I am not responsible, they still have to raise the money.  They are constrained in the year following a revaluation.  They can only raise the basic amount plus an allowance for inflation.  They cannot go further than that.  There is an allowance for new buildings from the previous year but it is the previous year's rates plus an allowance, and that is it.  The revaluation, in a sense, is neutral financially.  It is a redistribution of the rates burden to reflect relative shifts in property values and rents over the period and, as a result of that, a significant number of businesses may gain but-----</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_204">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_273">Not a significant amount.</p>
+        </speech>
+        <speech by="#" eId="spk_205">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_274">They may not gain a significant amount but it depends on the relative shifts in their property prices versus others and what the revaluation yields for them.  At every opportunity we tell people and business interests that it would be wrong to represent revaluation as a reduction in rates generally but it is still a comfort for businesses who see prices having moved dramatically.  They would take the view that the history of this shows that many businesses gain from that and therefore they might gain from it.  I would not like to appear to be undermining the importance of that.  Revaluation is very important for businesses and they will take comfort from the idea that an up-to-date revaluation is taking place.  There is no question about that.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_206">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_275">Of course but what I am trying to discover is that separation between Mr. Quigley's role and the local authority's role when it comes to the rates levied on the businesses.</p>
+        </speech>
+        <speech by="#" eId="spk_207">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_276">Yes.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_208">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_277">We know how important rates are as a source of funding to local authorities and when other streams are seeing a decrease, businesses justly believe that the city councils are over-compensating by penalising them when in effect they are losing other forms of revenue by keeping the rates high.  When businesses contact their local authorities to complain about the rates the local authority, in my experience, will say that is a problem because of the valuation of their building and they must determine it on that basis.  In effect, they pass the blame on to Mr. Quigley's office.  When they then hear that a revaluation is taking place they expect the local authority in turn to make a significant reduction in their rates.  That is an unfair expectation because they will lose out as a result of what they expect is coming down the line.</p>
+          <p eId="para_278">That brings me to my question about Mr. Quigley's office.  Which Department does it come under?</p>
+        </speech>
+        <speech by="#" eId="spk_209">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_279">The parent Department is the Department of Public Expenditure and Reform.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_210">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_280">It moved to that Department recently-----</p>
+        </speech>
+        <speech by="#" eId="spk_211">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_281">From the Department of Finance.  The Minister responsible is the Minister for Public Expenditure and Reform.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_212">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_282">Is there any interaction between Mr. Quigley's office and local authorities?</p>
+        </speech>
+        <speech by="#" eId="spk_213">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_283">Yes.  I recently met the finance committee of the County &amp; City Managers Association.  There is good liaison among the team leaders in the office, the senior management and the local authorities.  It can be improved because they have to understand better what we are trying to do with the revaluation.  They have an interest in having the maximum number of properties revised in a current year.  We must do that as best we can and meet their priorities but we also have to try to push this revaluation to a greater extent.</p>
+          <p eId="para_284">On the question of communication, the Deputy is right.  There is not clarity and we may have to do a better job in communicating but the local authorities must do that also.  We are clear.  Our job is a valuation job, pure and simple.  We provide an important service, the first element of the two elements required to raise the rates - the valuation of the properties.  The responsibility for raising the rates in accordance with the law and the requirements of the Minister for the Environment, Community and Local Government is with the local authorities.  They strike the annual rate on valuation under the statutory procedures and putting the two together one gets the rates payable by the individual business.</p>
+          <p eId="para_285">These things sometimes get conflated and the Valuation Office Ireland is responsible.  The Valuation Office has work to do, which is validly its own responsibility.  Therefore, I should not comment on rates, the amount of rates or the work to be done by local authorities.  They must deal with that issue.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_214">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_286">What about the office's interaction with politicians or public representatives?</p>
+        </speech>
+        <speech by="#" eId="spk_215">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_287">Public representatives may write to us or make representations about cases.  We will deal with those like any Department.  We would meet Ministers, those responsible for the office and officials in the Department of Public Expenditure and Reform or other Departments.  We have a lot of contact with the Department of the Environment, Community and Local Government.  When we are proposing to initiate consultation about a revaluation order, we have to secure agreement under the legislation of the Minister for the Environment, Community and Local Government.  We keep closely-----</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_216">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_288">Does Mr. Quigley's office deal with individual cases, such as when an individual business requests a revaluation?</p>
+        </speech>
+        <speech by="#" eId="spk_217">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_289">We are independent.  The Commissioner of Valuation is independent in the performance of his or her functions.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_218">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_290">What secures that independence?</p>
+        </speech>
+        <speech by="#" eId="spk_219">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_291">It is enshrined in the legislation.  If one looks at the replies the Minister gives to parliamentary questions, one will see he constantly emphasises that.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_220">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_292">The office must come under some political-----</p>
+        </speech>
+        <speech by="#" eId="spk_221">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_293">Public representatives are entitled to write about cases, as they do.  We examine them and tell the representatives the position.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_222">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_294">Does the office come under political pressure from local councillors or Deputies, for example, about a particular business or site in respect of which a revaluation has been requested?  Do they call and say-----</p>
+        </speech>
+        <speech by="#" eId="spk_223">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_295">No. I have not come under any such pressure.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_224">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_296">Does the office not receive those kinds of telephone calls from politicians?</p>
+        </speech>
+        <speech by="#" eId="spk_225">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_297">Not that I am aware of.  It is generally accepted that the office is independent in the performance of its duties.  That is a very important element.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_226">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_298">It is incredibly important but I am amazed to hear the office does not receive telephone calls.  People would telephone me and say they need help in respect of a revaluation and that they need me to contact the Valuation Office.  I say to them I will not do as requested as it is not my job but they tell me they heard someone else had contacted the office and was successful.  I know this is not evidence but I assumed, given that I was hearing about telephone calls quite a lot, that they were being made.</p>
+        </speech>
+        <speech by="#" eId="spk_227">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_299">I could not tell the Deputy that telephone calls are not made at some level in the office but I know the way we deal with cases.  Certainly, the calls have not been made at my level.  We deal with cases properly.  If I receive representations, my responsibility is to look at the case diligently and determine whether it is being handled properly.  If so, that is satisfactory.  If not, I need to ask for a review.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_228">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_300">Are there procedures in place for when a politician contacts the office?</p>
+        </speech>
+        <speech by="#" eId="spk_229">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_301">Yes.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_230">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_302">If someone were to write to the office in support of a revaluation application, what weight would it have in coming to a decision on the revaluation?</p>
+        </speech>
+        <speech by="#" eId="spk_231">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_303">It would not have any.  If information were supplied that had not been supplied previously, I would want to be satisfied it is taken into account.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_232">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_304">Information is taken into account, not any type of influence or the fact a certain letter is written.</p>
+        </speech>
+        <speech by="#" eId="spk_233">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_305">We are an independent office and proceed in that way.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_234">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_306">That is incredibly important and I do not doubt it.  It is important to state my point because there is a perception in some quarters that political influence can be brought to bear on revaluations.</p>
+        </speech>
+        <speech by="#" eId="spk_235">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_307">I am not aware of that or of any case in that regard.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_236">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_308">I am just making sure.</p>
+        </speech>
+        <speech by="#" eId="spk_237">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_309">I am not aware of that.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_238">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_310">I wanted to clarify that aspect.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_239">
+          <from>Chairman</from>
+          <p eId="para_311">To return to the original question asked by Deputy Murphy, whose time is up for questioning, I am a ratepayer and have a keen interest in this matter.  The expectation that there would be a reduction in rates comes from the fact that rental values have decreased by 50%.  There is a legitimate expectation among ratepayers owing to the market.  Part of the Valuation Office's formula is to consider rental values when valuing property.</p>
+        </speech>
+        <speech by="#" eId="spk_240">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_312">That is right.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_241">
+          <from>Chairman</from>
+          <p eId="para_313">Therefore, people who would make a case are looking at rental values that have decreased by 50% and, therefore, the expectation is that the actual valuation would be affected by that, depending on when it was made.  Many up-to-date valuations, that is, those for 2011, should reflect the decrease.  This is where the expectation comes from.</p>
+        </speech>
+        <speech by="#EoghanMurphy" eId="spk_242">
+          <from>Deputy Eoghan Murphy</from>
+          <p eId="para_314">It is a legitimate expectation but-----</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_243">
+          <from>Chairman</from>
+          <p eId="para_315">The other part of the question is that the rate in the pound is a political issue for each local authority.  Each must apply what it considers to be the rate in the pound to keep its finances in order.  I am concerned by the fact that on two occasions this morning, Mr. Quigley referred to the importance of the local authority finances.  We must consider the importance of the finances of small businesses and the office's task should be conducted in a way that has no regard for local authority finances.  It is a factual exercise based on market values.  In one sense, it is a matter of setting aside local authorities.  Deputy Murphy made a point on political representation but the office should not receive representation from local authorities either.  Their requests to the office to prioritise new buildings should be treated like every other such request.  They should take the office's valuations like everybody else.</p>
+          <p eId="para_316">To return to Deputy Deasy's point, there is now a valid argument that the desired transition time from one system to another, or one valuation to another, cannot be achieved to the satisfaction of those who are under pressure, namely, the 170,000 businesses paying rates.  Therefore, I agree with the argument that the system itself should be abolished and replaced with a more equitable one based on one's ability to pay.  If we can do so in terms of second-home legislation, bearing in mind the concept of self-compliance, we should be able to do so in this area.  That is the argument that is beginning to emerge and be debated nationally on foot of the aforementioned expectation.</p>
+          <p eId="para_317">Mr. McCarthy stated the Valuation Office should be amalgamated with Ordinance Survey Ireland and the Property Registration Authority so there would be common back-office supports and value for money.  Since the Valuation Office has an open, positive view on taking a risk in this regard to see how it works out, in the hope that it will, we should be prepared to consider different systems and recommend them, as the office is doing, for new legislation or for a new departure in this area.</p>
+        </speech>
+        <speech by="#" eId="spk_244">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_318">Absolutely.  I have said what I have said about the new proposals and the consideration of other proposals, be they concerned with an organisation or otherwise that might come to us.  I should make it clear I am not commenting on the rate system or what might happen.  That would not be appropriate for me.  The Chairman has mentioned policy issues and I am not commenting on them in one way or another.  My point on local authorities was that, under the valuation legislation, local authorities have the right to request revisions of property valuations.  They provide the bulk of the requests that come to the Valuation Office.  Under the existing policy, that is an important source of money for them.  The onus should be on the Valuation Office to provide those valuations in as efficient and effective a way as possible.  My comments were on what we are doing and what we need to do by looking at the new methodologies to which the Chairman referred to ensure we are providing a good service.  I would not like my comments to be interpreted in any sense as comments on the rating system because I would be going beyond my mandate if I were to do so in one way or another.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_245">
+          <from>Chairman</from>
+          <p eId="para_319">Does Deputy Deasy want to comment?</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_246">
+          <from>Deputy John Deasy</from>
+          <p eId="para_320">While I appreciate Mr. Quigley's response to the question on the future of the Valuation Office and understand the restraints he is under, the priority must be the reality that we face in the domestic economy.  Is the Valuation Office providing and will it provide the requisite service for the taxpayer over the next seven or eight years?  I believe it will not.  For that reason, I brought up the issues of amalgamation and abolition.  A hard decision needs to be made in this regard.  I do not mean to be patronising in any way in saying I sense a very high degree of reality from Mr. Quigley regarding the role of the Valuation Office that I have not perceived before.  Mr. Quigley is prepared to make hard decisions regarding what comes down the line if it dawns on everybody that this is not going to work in the next seven or eight years.  However, this decision must be considered now, given the reality facing small businesses and taxpayers, as well as the past history.  I will leave it at that, as I understand the constraints Mr. Quigley is under.</p>
+          <p eId="para_321">With regard to Waterford, it was mentioned specifically in the progress report on the valuation programmes and Mr. Quigley mentioned it here today when he stated the order will be made possibly at the end of the year or early next year.  I have asked parliamentary questions in this regard over the last 18 months and have asked for the timeline and the schedule involved.  While it has been somewhat vague, perhaps Mr. Quigley can indicate the timeline he envisages in respect of Waterford city and county councils, as well as Dungarvan Town Council.  I have spoken to the local authority officials in Waterford, who are in consultation with the Valuation Office as far as the revaluation process is concerned.  Perhaps Mr. Quigley can provide an idea as to what schedule the local authorities and, more essentially, the small businesses in Waterford, can expect in the coming years.</p>
+        </speech>
+        <speech by="#" eId="spk_247">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_322">I have a strong feeling that we will make the order for Waterford city and county councils, as well as Dungarvan Town Council, before the end of the year.  We have done a lot of advance work on Waterford and much of the collecting and loading of the survey data about the properties onto the computer system has been done.  We are in the consultation phase with Waterford, which was initiated last year.  We need to finalise this by having meetings with the councils to agree on the timetable and what needs to be done.  These meetings will happen between now and December, probably within the next few weeks, and while this is not a commitment, the timeline that is now emerging in respect of Waterford, subject to the office reviewing just how it is doing in Dublin and its resources generally, is for an order in December 2011 and after all the representations and so on, a new list being published in December 2013.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_248">
+          <from>Deputy John Deasy</from>
+          <p eId="para_323">Two years.</p>
+        </speech>
+        <speech by="#" eId="spk_249">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_324">That is the likely timetable but I will not make a firm commitment on it, pending in particular the consultations and the review of our progress in Dublin, before I make the order.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_250">
+          <from>Deputy John Deasy</from>
+          <p eId="para_325">As I missed part of the meeting, perhaps my final question has already been answered.  I refer to the winners and losers issue in respect of the revaluation.  Has the Valuation Office put figures in terms of a percentage reduction?</p>
+        </speech>
+        <speech by="#" eId="spk_251">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_326">I am unsure whether I can give the Deputy a percentage reduction.  I can give him the figures, in terms of numbers, for south Dublin, where 49% had a reduced rates liability and 39% had an increased rates liability.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_252">
+          <from>Deputy John Deasy</from>
+          <p eId="para_327">To what does that equate with regard to the differential between the 49% and 39%?</p>
+        </speech>
+        <speech by="#" eId="spk_253">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_328">Does the Deputy refer to the actual reduction in rates?</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_254">
+          <from>Deputy John Deasy</from>
+          <p eId="para_329">Yes.</p>
+        </speech>
+        <speech by="#" eId="spk_255">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_330">I am not sure I have that figure offhand.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_256">
+          <from>Deputy John Deasy</from>
+          <p eId="para_331">What is interesting to me is that the Government needs money right now.</p>
+        </speech>
+        <speech by="#" eId="spk_257">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_332">Yes.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_258">
+          <from>Deputy John Deasy</from>
+          <p eId="para_333">The process the Valuation Office is undertaking effectively will reduce the amount of money that will go to the Government if there are more winners than losers.  Is there a reticence within the Department of Public Expenditure and Reform to involve itself in a process that effectively would accelerate this trend throughout the country?</p>
+        </speech>
+        <speech by="#" eId="spk_259">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_334">It will not result in a reduction.  It is about the distribution of the burden and without getting into the policy on rates, about which the Chairman has spoken, this is about redistributing the burden of the rates.  When I mention winners and losers, I refer to the number of people who had a reduction in liability or <i>vice versa</i> but the total burden remains the same.  Without entering into policy matters, the starting position is that the base for the rates must be there.  The local authorities, albeit on different valuations, must raise the same amount of money, other things being equal.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_260">
+          <from>Deputy John Deasy</from>
+          <p eId="para_335">I understand that.  However, when in Mr. Quigley's own words, one is talking about the closer relationship between the current values of properties and their commercial rates liability-----</p>
+        </speech>
+        <speech by="#" eId="spk_261">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_336">Yes.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_262">
+          <from>Deputy John Deasy</from>
+          <p eId="para_337">----- nothing changes.  It is just that some individuals will pay less while others will pay more.</p>
+        </speech>
+        <speech by="#" eId="spk_263">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_338">That is right, because of the relative shifts in their properties or sectors.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_264">
+          <from>Deputy John Deasy</from>
+          <p eId="para_339">Right, so as far as the baseline is concerned, nothing changes.</p>
+        </speech>
+        <speech by="#" eId="spk_265">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_340">That is correct under the revaluation.  Moreover, the law has that provision.  The Valuation Act 2001 limits the amount of an increase in the rates that can take place in the year following the revaluation because it wants to make clear that this is a neutral exercise.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_266">
+          <from>Deputy John Deasy</from>
+          <p eId="para_341">Absolutely.  I believe there is a misconception abroad about it being a neutral exercise.  Quite a few small businesses will experience a rates reduction and ultimately there will be far more winners than losers.  However, it is a neutral exercise and the baseline will remain the same.  It is simply a question of who else will pay for it if some people experience a reduction.</p>
+        </speech>
+        <speech by="#" eId="spk_267">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_342">It is a redistribution to reflect in a fairer way the movements of properties.  One property may have moved differently to another and one sector may have moved differently to another and all this comes into the revaluation on an up-to-date base.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_268">
+          <from>Deputy John Deasy</from>
+          <p eId="para_343">I thank Mr. Quigley.</p>
+        </speech>
+        <speech by="#PaulConnaughtonJnr" eId="spk_269">
+          <from>Deputy Paul J. Connaughton</from>
+          <p eId="para_344">I have two brief questions to take up the point made by Deputy Deasy.  In an area in which there are few differences in property changes, how will the Valuation Office square that up in respect of winners and losers?  How will it explain to people that while they will get a valuation reduction, X down the road, who may be doing the same thing, will have a valuation increase to square it all off?</p>
+        </speech>
+        <speech by="#" eId="spk_270">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_345">We are trying to communicate as best we can.  We were very upfront in the leaflets we used in Dublin and went out of our way to explain the points we have just been discussing.  We explained there were not uniform winners in this regard and that some people would lose out.  However, we must work at explaining what we are doing.  We are producing up-to-date valuations that do not look like the old rateable values, RVs, because they are up-to-date modern market and rental values.  We must explain this and we are very upfront in stating they will affect different businesses and different sectors in different ways.  Perhaps we could do a bit more to improve our explanation but we certainly are putting that message out.  We put it out in Dublin and at the launch of the Dublin project, which was attended by representative businesses and so on, we explained this clearly.</p>
+        </speech>
+        <speech by="#PaulConnaughtonJnr" eId="spk_271">
+          <from>Deputy Paul J. Connaughton</from>
+          <p eId="para_346">So in the case of some of the businesses who will contact me looking for a valuation recheck, it may not be worth their while at all?</p>
+        </speech>
+        <speech by="#" eId="spk_272">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_347">There is a revision issue at present.  Under the existing regime, if a building is altered with a new structure or if demolition takes place, there can be an application for revision and this is done under the law.  However, as it is done by reference to the existing list and the properties thereon, it is not revaluation.  With revaluation, one re-examines everything from first principles and one revalues the entire area.  I was discussing with Deputy Deasy what was the impact on businesses of doing this.  Obviously, it is a relative impact because while we know, as the Chairman observed, that we can put a number on the total fall in property prices or in rental values, we cannot state the relative shifts within the sector and we must do the work to find this out.</p>
+        </speech>
+        <speech by="#PaulConnaughtonJnr" eId="spk_273">
+          <from>Deputy Paul J. Connaughton</from>
+          <p eId="para_348">It is more a case of being careful of what one wishes for.</p>
+          <p eId="para_349">After the Valuation Office makes a valuation, an appeals process is available for those affected.  How long does an appeal take and what is the success rate in this regard?</p>
+        </speech>
+        <speech by="#" eId="spk_274">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_350">An appeal must be decided within a six-month period.  If I may explain, there are three phases in this regard.  First, there is a representation phase before the valuation is finalised.  We produce a draft certificate of valuation, that is, the value we propose to put on the property.  We send that out to the ratepayer, who has 28 days to make comments or representations.  We take them on board and finalise the certificate, after which the list is published.  When the list is published, two appeal possibilities are available at present.  The first is an appeal to the commissioner.  Such an appeal comes to the Valuation Office and we have procedures with an appeal officer and so on being involved in the case.  The success rate in respect of such cases is quite high, at between 40% and 50%.  They would receive a reduction of between 6% and 8% of the total.  We have to do this with integrity and properly take account of mistakes.  If the business or person is dissatisfied after this process, they can go to the valuation tribunal, the next appeals step.  Again, a relatively small number of cases, between 3% and 5%, go to the tribunal but there is a high success rate.  Those cases can be quite time-consuming with the possibility of legal issues being raised or representation by counsel.  A ballpark figure for the reductions so far is between 9% and 11%.</p>
+        </speech>
+        <speech by="#PaulConnaughtonJnr" eId="spk_275">
+          <from>Deputy Paul J. Connaughton</from>
+          <p eId="para_351">Mr. Quigley said the office was looking into new proposals as to how it could change the system in the future, a welcome development.  What ideas has the office come up with bar self-assessment?  If the legislation was changed to opt for the self-assessment option, how equipped is the office to get to a self-assessment mode?  If not, how long would it take to get to such a stage?</p>
+        </speech>
+        <speech by="#" eId="spk_276">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_352">Our objective is to get to this stage quickly.  We are working in parallel with the Minister's consideration of adopting such a legislative option.  I hope we can implement self-assessment.  Outsourcing will take some time because we have to put it out to tender and so on.  Again, we are working on the scheme in advance of the legislation being introduced.  My objective is to move on this in a matter of months after the legislation has been passed.  If we work sufficiently well, this can be achieved.</p>
+          <p eId="para_353">We are also arranging for more of our staff to have more project management training because these will be major projects.  We will need to have a trained staff to bring together the different elements of these kinds of projects.</p>
+        </speech>
+        <speech by="#PaulConnaughtonJnr" eId="spk_277">
+          <from>Deputy Paul J. Connaughton</from>
+          <p eId="para_354">Are there any other ideas or is self-assessment the only option?</p>
+        </speech>
+        <speech by="#" eId="spk_278">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_355">We had an idea of using an indexation multiplier technique to raise the existing rateable values to the current values by doing a market analysis with existing rateable valuations.  Unfortunately, in the work done to date on this, it appears the anomalies in the existing system which have grown over a long time are not good for using such a technique.  We did a "what if" analysis on some of the revaluation already done in south Dublin.  There were wide variations in these results compared to the reality of what emerged in the revaluation.  We have concluded that we should continue our work on mass appraisal mathematical modelling techniques as used in other countries such as Australia and New Zealand.</p>
+          <p eId="para_356">Even if we were in a position to say that this job would be done in five or ten year's time, the question remains as to what will be done in the future.  There is a dynamic in the property market that does not wait for anybody.  The law envisages that revaluation can take place between five and ten years after the first valuation.  Having updated the list to modern values and eliminated the anomalies,  there is a good prospect of working up an indexation technique that could do the five-yearly interval job.  We are not abandoning it but the initial results from this revaluation process in which we are engaged were not promising.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_279">
+          <from>Chairman</from>
+          <p eId="para_357">I call on Deputy McDonald.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_280">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_358">Last but not least.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_281">
+          <from>Chairman</from>
+          <p eId="para_359">The best wine until last.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_282">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_360">I am struck that Mr. Quigley was asked to comment on the shortcomings of the funding system for local government.  That is a matter for members.  It is problematic and there is the legitimate expectation of business and that of citizens that services will be delivered for them.  We need to square that circle.</p>
+          <p eId="para_361">The deficiencies in the control systems as listed in the report make for poor reading.  The level at which basic checks and balances were not in place is mind-boggling.  I am glad Mr. Quigley is pursuing this matter.  When will we have a progress report on this matter?</p>
+        </speech>
+        <speech by="#" eId="spk_283">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_362">We are happy to update the committee in whatever format it believes appropriate.  We are working on remedying the defects this year as best we can.  We have put some structural changes in place but we need more training and support.  I hope the 2011 picture that emerges will be significantly improved.  The Comptroller and Auditor General will send his teams in again.  He will provide a management letter on the shortcomings this year of which we will have to take a serious note.  The audit committee will discuss these shortcomings.  We have also invited the Comptroller and Auditor General to send a representative to the next meeting of the audit committee in December.  I am anxious that the audit committee, which has external and internal members, will be fully appraised of the work we are doing.</p>
+          <p eId="para_363">The audit of the 2011 accounts is not far away.  We will have to gear up to respond to the requests for information and improvements from the Comptroller and Auditor General.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_284">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_364">I appreciate that.  Would it be reasonable to say that come the new year we could have some form of even initial feedback?</p>
+        </speech>
+        <speech by="#" eId="spk_285">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_365">I would not have any problem with that.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_286">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_366">Who is on the revaluation board?</p>
+        </speech>
+        <speech by="#" eId="spk_287">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_367">The board is chaired by Mr. Patrick Cooney, manager of the valuation services.  It comprises the two managing valuers who report directly to Mr. Cooney, plus all the eight team leaders.  These teams correspond to geographical areas but all have a foot in the Dublin project because of its sheer size comprising 25,000 properties.  The board also has representatives from IT.  The board, in turn, reports to the management committee which I chair.  We take note of progress and issues that arise.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_288">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_368">Who is in the central markets analysis unit?</p>
+        </speech>
+        <speech by="#" eId="spk_289">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_369">That is a group of five people.  It emerged from an idea implemented this year.  The valuers have to see what the market is saying about the values.  They have to do market analysis.  We got the idea that instead of all the valuers proceeding individually - there would be some standard setting all right - we should have a central capacity to analyse the market as it was going on.  They would spread the outcome of that right throughout the teams and would assist with the revaluation board in setting out the standards for further analysis that each team or valuer might do.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_290">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_370">Is the unit similar to the revaluation board?  Does it consist of team leaders?</p>
+        </speech>
+        <speech by="#" eId="spk_291">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_371">No, it is just a unit.  It is a line unit reporting to a team leader and to a managing valuer.  They are doing the analysis and spreading it around, but they are represented on the revaluation board through the managing valuer.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_292">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_372">We have had much discussion on productivity which is a key issue, not least in the public sector and in the Valuation Office.  What are the Valuation Office's productivity targets?  If, as Mr. Quigley stated, the average output per valuer is in the order of 300, does he have a benchmark to which he is working?</p>
+        </speech>
+        <speech by="#" eId="spk_293">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_373">The committee was informed on a previous occasion, in the context of the estimated timetable for the revaluation, of an output figure of about 450.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_294">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_374">Is that reasonable?  Is it attainable?</p>
+        </speech>
+        <speech by="#" eId="spk_295">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_375">We have not achieved it.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_296">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_376">I see that.</p>
+        </speech>
+        <speech by="#" eId="spk_297">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_377">It remains to be seen how high our output figures can go.  We have to press this and we have to use the supports that have been put in place - the technology and all the rest of it - to raise that figure.</p>
+          <p eId="para_378">Obviously, if we could achieve that kind of productivity, it would change significantly the timetable we would be able to talk about to the committee, and we would do that in parallel with looking at the new methodology.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_298">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_379">Was that a target to which the unions signed up?</p>
+        </speech>
+        <speech by="#" eId="spk_299">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_380">It was not a target.  There has not been a target, as such, to which the union signed up.  It was an estimate at the time-----</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_300">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_381">From the consultancy report, was it?</p>
+        </speech>
+        <speech by="#" eId="spk_301">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_382">It took account of the consultancy.  The consultancy report, unfortunately, looked at mature revalued areas where they just repeated revaluation because they had kept the whole system up to date and the figures on output per valuer were quite unrealistic, and that is the case.  It was the assessment in the office.  The Comptroller and Auditor General commented on these kind of figures also in his 2007 report.  It was the best assessment at the time, the estimated output that we could achieve.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_302">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_383">Does Mr. Quigley intend putting that to the trade unions?</p>
+        </speech>
+        <speech by="#" eId="spk_303">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_384">What I intend to do-----</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_304">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_385">It strikes me that if there is a realistic target, if 450 is a reasonable figure by Mr. Quigley's reckoning, that without delay that discussion should occur with the workers through their trade unions.  It seems sensible.</p>
+        </speech>
+        <speech by="#" eId="spk_305">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_386">I thank Deputy McDonald.  Discussions are taking place all the time about measurement and improvement.  In fairness to my staff, some of them would find the targets which are being achieved quite challenging.  We must proceed in a reasonable way.</p>
+          <p eId="para_387">What we intend to do immediately is to get this electronic work return in place.  That will give us a much better handle on where time is being spent by valuers because they have competing demands between the revision, the revaluation and servicing the appeals to the commissioner.  If we get a better handle on that,  we will be in a better position-----</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_306">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_388">Absolutely.</p>
+        </speech>
+        <speech by="#" eId="spk_307">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_389">-----to decide on the realistic target.  I do not want to kick to touch on Deputy McDonald's question, which is a fair question.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_308">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_390">Mr. Quigley is not.  I want him to understand that I ask the question because it is essential, if, as it seems, productivity is an issue, that where targets are set, they are realisable and bought into.  I am not criticising any staff member.  I am saying that the Valuation Office has a considerable project to undertake, there is clearly a backlog, there is time pressure, there is public expectation and the productivity targets must be shared and then they must be delivered.</p>
+        </speech>
+        <speech by="#" eId="spk_309">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_391">That is correct.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_310">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_392">It is not to in any way under-estimate the competing demands on Mr. Quigley's staff, in fact, far from it.</p>
+        </speech>
+        <speech by="#" eId="spk_311">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_393">I completely agree with the process Deputy McDonald outlines.  We are in constant touch with the staff who we meet in general meetings and with the trade unions.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_312">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_394">Excellent.</p>
+          <p eId="para_395">On the self-assessment model, which has been discussed here, the Valuation Office has bought in thoroughly to the outsourcing model.  In other parts of the public sector, in particular, the HSE, outsourcing has proved incredibly expensive.  Has Mr. Quigley considered the notion of increased in-house capacity in terms of delivering the big project.  Has he crunched the numbers on that rather than looked automatically to the outsourcing route?  Does Mr. Quigley understand what I am saying?</p>
+        </speech>
+        <speech by="#" eId="spk_313">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_396">I understand Deputy McDonald perfectly.  In the outsourcing, we are not nailing our colours firmly to the mast.  What we are saying is: "We are going out to test the market."  Our attitude to the future and to using outsourcing mode more extensively will depend very much on the price, the quality, our ability to avoid conflicts of interests and our ability to quality assure the outcome of those valuations.  In a situation where the timetable has to be tightened up, we are saying, "This is worth a try.", but it will only be good if it works.  Our attitude will be determined by the outcome.</p>
+          <p eId="para_397">We are not really just saying, "Outsourcing is the-----</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_314">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_398">Panacea.</p>
+        </speech>
+        <speech by="#" eId="spk_315">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_399">-----end, the panacea that will do the job."  In a situation where we are tightly controlled, our resources are controlled also.  We are rightly subject to the same norms as the rest of the public service and we all must make the same effort.  We are saying, "Yes, this is worth a shot.  Let us see how it works and if it works well, fine."</p>
+          <p eId="para_400">Outsourcing has good and bad experience, as Deputy McDonald correctly stated.  It is part of what has been suggested as part of the public sector reform.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_316">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_401">I am conscious of that.</p>
+        </speech>
+        <speech by="#" eId="spk_317">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_402">It perhaps has a merit of nailing, for once and for all, in different areas what the public sector to which I am committed can do and what the private sector can do for the same money.  We should have a better handle on that because public servants will justify their work and make a great effort, but we should also compare costs and progress.  It is in that context that it is of interest.</p>
+        </speech>
+        <speech by="#MaryLouMcDonald" eId="spk_318">
+          <from>Deputy Mary Lou McDonald</from>
+          <p eId="para_403">My preference would always be to have work done in the public interest carried out by public servants.</p>
+          <p eId="para_404">I am conscious also that people have a concern.  Obviously, there is clear expertise in the Valuation Office, whatever about the financial control issues and the productivity challenges.  There is concern that outsourcing should not be a back door for casualisation of work or for cuts in numbers.  I will not even ask Mr. Quigley to comment on that because it will be a policy issue for the Minister in the final instance.</p>
+          <p eId="para_405">Mr. Quigley's evidence has been frank.  I thank him for coming here for one really important reason.  He has nailed the lie that to get good quality staff, and to get expertise and commitment in the public service, one must pay out big bucks.  I commend him most heartily for that.</p>
+        </speech>
+        <speech by="#" eId="spk_319">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_406">I thank Deputy McDonald.  She rightly referred to the staff.  I must say, in balance, that there is huge experience and great expertise in the Valuation Office.  What we are about is trying to tap into that and at the same time change so that we can do the job better.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_320">
+          <from>Chairman</from>
+          <p eId="para_407">Earlier Deputy McDonald mentioned the progress report.  If it is agreeable, perhaps in January or February, or early next year, Mr. Quigley might send us on that report, just to keep the committee informed.</p>
+        </speech>
+        <speech by="#" eId="spk_321">
+          <from>Mr. Dermot B. Quigley</from>
+          <p eId="para_408">Yes.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_322">
+          <from>Chairman</from>
+          <p eId="para_409">I ask Mr. Buckley to make his final comments on the chapter.</p>
+        </speech>
+        <speech by="#" eId="spk_323">
+          <from>Mr. John Buckley</from>
+          <p eId="para_410">In the interests of balance too, it is important for me to state that in all years the accounts got a true and fair certificate.  As an organisation that spends €10 million, it is reasonably easy to monitor and manage.  When we go in as auditors, we are capable of doing extended testing, which allows us to assure ourselves that the accounts are correct, and put through any adjusting entries that are necessary.  That would not be possible in a much larger organisation, where the scale would militate against it.  In a public organisation, one needs systematisation.  The larger it gets, the more difficult it becomes to give a true and fair certificate in circumstances where these kinds of issues arise.  We will in future follow up on management issues and how the new self-assessments system and outsourcing are working out.  In the coming year we will also take another look at the financial management of the office.</p>
+          <p eId="para_411">We should not have unrealistic expectations, however.  As the same issues existed until August, they are still there.  It is unlikely that I will reporting on them again.  I have reported now and we have the picture but in doing the follow up which the Chairman requested I will keep the committee informed on how these matters are being addressed.</p>
+        </speech>
+        <speech by="#JohnMcGuinness" as="#Chairman" eId="spk_324">
+          <from>Chairman</from>
+          <p eId="para_412">Does the committee agree to note Vote 15, Valuation Office, and dispose of chapter 20, Financial Control and Governance?  Agreed.</p>
+          <p eId="para_413">I thank the witnesses for attending.  In particular I thank Mr. Quigley for the contribution he is making.  Other members have commented on that and rightly so.  I also thank him for the open and frank way in which he dealt with questions.  He is an example to other Accounting Officers.</p>
+          <p eId="para_414">The witnesses withdrew.</p>
+        </speech>
+        <summary eId="sum_7">The committee adjourned at 1.25 p.m. until 10 a.m. on Wednesday, 26 October 2011.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

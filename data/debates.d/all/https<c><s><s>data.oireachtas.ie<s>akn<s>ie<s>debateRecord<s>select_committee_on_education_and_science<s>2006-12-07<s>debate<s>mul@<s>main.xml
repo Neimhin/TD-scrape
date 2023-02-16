@@ -1,0 +1,332 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_education_and_science/2006-12-07/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_education_and_science/2006-12-07/debate"/>
+          <FRBRdate date="2006-12-07" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/select_committee_on_education_and_science"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_education_and_science/2006-12-07/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_education_and_science/2006-12-07/debate/mul@"/>
+          <FRBRdate date="2006-12-07" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_education_and_science/2006-12-07/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_education_and_science/2006-12-07/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None" eId="#vol_None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None" eId="#no_None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="CharlieOConnorFF" href="/ie/oireachtas/member/id/Charlie-O'Connor.D.2002-06-06" showAs="Charlie O'Connor"/>
+        <TLCPerson eId="DamienEnglishFG" href="/ie/oireachtas/member/id/Damien-English.D.2002-06-06" showAs="Damien English"/>
+        <TLCPerson eId="JanOSullivan" href="/ie/oireachtas/member/id/Jan-O'Sullivan.S.1993-02-17" showAs="Jan O'Sullivan"/>
+        <TLCPerson eId="JoeCallananFF" href="/ie/oireachtas/member/id/Joe-Callanan.D.2002-06-06" showAs="Joe Callanan"/>
+        <TLCPerson eId="MaryHanafin" href="/ie/oireachtas/member/id/Mary-Hanafin.D.1997-06-26" showAs="Mary Hanafin"/>
+        <TLCPerson eId="MichaelMoynihan" href="/ie/oireachtas/member/id/Michael-Moynihan.D.1997-06-26" showAs="Michael Moynihan"/>
+        <TLCPerson eId="OlwynEnrightFG" href="/ie/oireachtas/member/id/Olwyn-Enright.D.2002-06-06" showAs="Olwyn Enright"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Education_and_Science" href="/ie/oireachtas/role/minister/education__science" showAs="Minister for Education and Science"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>ROGHCHOISTE UM OIDEACHAS AGUS EOLAÍOCHT</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON EDUCATION AND SCIENCE</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2006-12-07">Déardaoin, 7 Nollaig 2006</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2006-12-07">Thursday, 7 December 2006</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 11.30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JoeCallananFF">Deputy J. Callanan,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#CharlieOConnorFF">Deputy C. O’Connor,*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#DamienEnglishFG">Deputy D. English,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#JanOSullivan">Deputy J. O’Sullivan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#OlwynEnrightFG">Deputy O. Enright,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#AengusOSnodaighSF">Deputy A. Ó Snodaigh.*</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MaryHanafin">Deputy M. Hanafin <i>(Minister for</i>
+                                    </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <i>Education and Science),</i>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Deputies T. McEllistrim, S. Haughey and S. Crowe, respectively.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#MichaelMoynihan">DEPUTY M. MOYNIHAN IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Estimates for Public Services 2006.</heading>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Vote 26 — Education and Science (Supplementary).</heading>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_9">On 29 November the Dáil ordered that the Supplementary Estimate for the following Vote be referred to the committee for consideration, Vote 26 — Education and Science.  A proposed timetable for today's meeting was circulated to members.  It allows for the opening statement by the Minister and Opposition spokespersons and then an open discussion on the Vote by way of a question and answer session.  Is that agreed?  Agreed.</p>
+          <p eId="para_10">On behalf of the select committee, I welcome the Minister, Deputy Hanafin, and her officials.  Briefing material provided by the Department has been circulated to members.  I call on the Minister to make her opening statement.</p>
+        </speech>
+        <speech by="#MaryHanafin" as="#Minister_for_Education_and_Science" eId="spk_2">
+          <from>Minister for Education and Science (Ms Hanafin)</from>
+          <p eId="para_11">The Department of Education and Science requires a Supplementary Estimate of €47 million this year and I welcome this opportunity to meet the members of the select committee to discuss the matter.  The Supplementary Estimate is mainly required to meet additional superannuation and pay costs, and to obtain approval for some other smaller supplementaries and additional receipts.  Approval for additional gross spending of €132 million is being sought but I am declaring savings of just over €72 million on a number of subheads, as well as seeking approval for extra receipts likely to account for an additional €13 million, resulting in a net supplementary requirement of €47 million.</p>
+          <p eId="para_12">I will now outline in more detail the basis for the amounts sought in the case of the individual elements of the supplementary.  I am seeking a supplementary of €1.36 million under miscellaneous subhead B17.  This is to meet the costs of further education courses undertaken in Northern Ireland by students from the South.  As a new service, this requires Dáil approval and so I would like to explain the background.</p>
+          <p eId="para_13">Notification was received in July last from the Department of Employment and Learning in Northern Ireland  that students who are resident in the South but attending further education courses in the North are ineligible for funding under their Department's residency requirements.  The net effect of that Department's decision would have been that southern resident students would have been required to pay a fee to access further education courses in the North.</p>
+          <p eId="para_14">I was of the view that such a fundamental change at such short notice to the existing arrangements, which had applied for a number of years, could cause serious difficulties for the students concerned.  In view of the extremely short timeframe and the fact students were in the process of applying to and registering with further education colleges, we decided an urgent interim solution was required.</p>
+          <p eId="para_15">A decision in principle was taken in August 2006 by my Department and the Department of Enterprise, Trade and Employment that, subject to Dáil approval, a joint once-off contribution would be made to the Department of Employment and Learning in Northern Ireland in respect of southern resident students attending further education courses in colleges of further education in Northern Ireland for the 2006-07 academic year.  Accordingly, and subject to certain details being finalised, Dáil approval is now being sought in the Supplementary Estimates for this payment of €1.36 million by my Department to the Department of Employment and Learning  in accordance with this agreement.</p>
+          <p eId="para_16">In taking this course of action, it was recognised it would be necessary subsequently to resolve the conflicting legal opinion on both sides about whether charging southern students would be in conformity with EU regulations.  Accordingly, the payment is being made as a once-off good faith gesture to ensure the previous arrangements would remain unaltered for the 2006-07 academic year, and students would not be charged fees.  A matching contribution of £1.5 million will be made by the Department of Employment and Learning.  As part of this process it is also envisaged, in the event of not being able to find resolution to the differing legal opinions, that we will have recourse to the European Commission for an opinion.  Discussions are ongoing with a view to ensuring clarity in this area before the next academic year.</p>
+          <p eId="para_17">The Supplementary Estimate of €27.6 million under subhead C1, for which I am now seeking approval, is in respect of additional costs which have arisen in regard to primary teacher salaries.  The additional funding is necessary to enable my Department to continue to honour the commitment to the provision of additional resources for disadvantaged pupils, children with special needs and newcomer pupils, to reduce the pupil-teacher ratio and to reduce class sizes.  Additional funding is also required to meet the cost of arrears owed to casual and non-casual teachers under the Protection of Employees (Part-Time Work) Act 2001.</p>
+          <p eId="para_18">Since 1997, almost 7,000 additional primary teaching posts have been created.  Provision had been made in the 2006 Estimates for additional posts to continue the Government's unprecedented investment in primary education.  However, an additional €10 million is required to meet the full cost of posts created over the course of the 2005-06 school year and during the current school year.  An additional €17.6 million is also required to meet the cost of arrears owed to casual and non-casual teachers.  These arrears arose as a result of the implementation of the terms of the Protection of Employees (Part-Time Work) Act 2001, which has been effective from December 2001.</p>
+          <p eId="para_19">A Supplementary Estimate of €56 million for subheads C11 and D4 is in respect of additional pension and lump sum costs which cannot be met from the original allocation in the Estimates.  Over recent years the annual number of teacher retirements has in general shown a marked increase, and we have experienced some difficulty with the estimated and actual number of retirements.  The number of annual retirements of teachers who will reach age 65 is relatively easy to predict, although the number will of course vary from year to year.  In recent years these compulsory retirements have accounted for between 11% and 18% of annual retirements.  It is much more difficult to predict the numbers who will retire on a voluntary basis, and this category generally accounts for the majority of annual retirements.  We can experience an increase when a particular pay event occurs and this can be followed by a decline.</p>
+          <p eId="para_20">Teachers may retire voluntarily at any time from age 55 to age 65 provided they have the requisite service.  A teacher is normally required to give three months prior notice to the school.  Many retire on completion of the necessary service for maximum pension — 40 years.  Other teachers opt to retire when they have achieved the minimum thresholds for retirement.  Teachers aged 55 may retire immediately they have completed 35 years reckonable service, while those aged 60 or over may retire on pension provided they have completed a minimum of two years pensionable service.  Taking these factors into account, precise estimation of the numbers who may retire in any year is difficult.</p>
+          <p eId="para_21">Over the period 2000-06, annual voluntary retirements have ranged from 39% to 60% of overall retirements.  The actual yearly number of these voluntary retirements has likewise fluctuated from a low of 309 to a high of 745.  In view of the estimating difficulties, it has been agreed with the Department of Finance to conduct an in-depth study to facilitate better predictions of future voluntary retirements.</p>
+          <p eId="para_22">The purpose of subhead D7 is to recoup to local authorities the cost of pensions and retirement gratuities paid by them to former education sector staff employed by the institutes of technology and vocational education committees under the vocational teachers' superannuation scheme and the education sector superannuation scheme.  As details of ages, salary levels and so on are not readily available to my Department, it is not possible to project with certainty the number of pensions from year to year.  A supplementary allocation of €16 million is being sought for subhead D7 to meet the expected additional costs that will arise from the number of additional pensions and gratuities being greater than provided for in the original Estimate.</p>
+          <p eId="para_23">I am seeking an additional €47,000 in respect of subhead E3 which deals with the expenses of the Higher Education Authority.  As a grant-in-aid subhead, I am required to obtain Dáil approval for any increase in the subhead.  This sum of €47,000 is required to cover the costs of a recently sanctioned increase in the level of fees paid to members of State boards.</p>
+          <p eId="para_24">Subhead E4 is another grant-in-aid subhead which again requires Dáil approval for any increase.  I am seeking an additional allocation of €31.5 million, mainly to cover the costs of a number of pay awards to staff in the higher education sector.  The funds in this subhead are allocated to the Higher Education Authority for disbursement to the institutions of higher education designated under the Higher Education Authority Act 1971 in respect of their current expenditure.</p>
+          <p eId="para_25">A sum of €31.5 million is being sought by way of Supplementary Estimate to cover costs which have arisen in 2006 which cannot be met from within the existing allocation.  An additional €9.8 million is required in respect of pay awards, including arrears, to the grades of professors and academic dental consultants.  An amount of €17.8 million is required to pay for pay increases and arrears to technicians.  These awards were approved recently with arrears, including benchmarking arrears, going back to the year 2000.  The Towards 2016 pay increase due from 1 December 2006 will cost in the region of €1.8 million.  An additional amount of €2.1 million is required to meet the additional costs of pensions, including lump sum payments.</p>
+          <p eId="para_26">I am also seeking an increase in the level of appropriations-in-aid to be applied to the Education and Science Vote.  The increase comprises €25 million in additional ESF funds and €8 million in pay related receipts, partially offset by the non-receipt of €20 million dormant account funds, resulting in a request for a net increase in appropriations-in-aid of €13 million.  The anticipated ESF increase is due to increased ESF claims submitted by my Department.  The amount of EU aid to be brought in under this subhead in 2006 was just over €44 million.</p>
+          <p eId="para_27">ESF claims in the amount of €88.23 million were submitted to the ESF managing authority by my Department in September 2006.  Not all of this amount will be received, but my Department expects to receive payments from the European Commission amounting to approximately €69 million before the end of 2006.  Additional pay related receipts of €8 million, for which I am now seeking approval, are in respect of increased superannuation contributions for primary teachers and increased recoupment of secondment costs at primary level.  In addition, €20 million in receipts will not be received from the dormant account fund as projects have not reached the stage where funding is approved.</p>
+          <p eId="para_28">As I indicated earlier, I am also declaring savings under several subheads and I will explain briefly the position in each case.  In the case of subhead B19, which relates to the Commission to Inquire into Child Abuse, I am declaring savings of a little more than €20 million.  While the commission has commenced the examination and payment of legal costs associated with its investigation, it has not to date reached agreement on the bulk of these costs.  This resulted in a significant saving on the budget allocation for 2006.  It is likely that the finalisation of these costs will not be fully achieved in 2007 and will continue into 2008.</p>
+          <p eId="para_29">The various measures under the 2006 educational disadvantage dormant accounts programme are still being finalised and rolled out.  Following this process, Government approval will be sought for the lists of applicants recommended for funding under each measure, in accordance with the provisions of the Dormant Accounts Act.  Consequently, no expenditure will be incurred during 2006.  The net impact of dormant accounts on the Department's Vote, therefore, is nil.  This is because any moneys disbursed from subhead B26 are matched by receipts from the National Treasury Management Agency in the same fiscal year.  As I indicated, these will not be received in 2006.  It is important to bear in mind, however, that the amount of €20 million will be available to fund approved projects in 2007.</p>
+          <p eId="para_30">An additional €32 million was included in this year's Estimate to meet the cost of arrears owed to casual and non-casual teachers.  These arrears arise as a result of the implementation of the terms of the Protection of Employees (Part-Time Work) Act 2001, which is effective from December 2001.  Trained casual and non-casual post-primary teachers who work more than 150 hours are entitled to be paid at their personal scale point for work exceeding these limits.  The expected cost of the arrears owed to these teachers will not now be paid out during 2006.  Instead, they will be paid at an early stage in 2007, thereby providing a saving of €32 million in 2006.</p>
+          <p eId="para_31">The co-funding of the national digital research centre, NDRC, was to be made from this subhead in 2006, in conjunction with the Department of Enterprise, Trade and Employment and the Department of Communications, Marine and National Resources.  The amount of Exchequer funding required for the operation of the NDRC is €1.5 million for 2006, which amounts to €500,000 from each of the three Departments involved.  The Department of Communications, Marine and National Resources has sufficient funding to cover the cost for the three Departments in 2006.  Accordingly, my Department is declaring a saving of €500,000 under this subhead.</p>
+          <p eId="para_32">I have outlined the reasons for my Department's Supplementary Estimate.  The bulk of it is required to cover the demand led area of superannuation payments, costs of additional primary teachers and some pay increases not provided in the original Estimates.  I hope I have explained the reasons for the additional sums required, as well as the basis for the small number of savings.  I commend the Supplementary Estimate to the committee and will be pleased to respond to any question members may have.</p>
+        </speech>
+        <speech by="#OlwynEnrightFG" eId="spk_3">
+          <from>Ms Enright</from>
+          <p eId="para_33">I welcome the Minister.  I apologise that I must leave shortly to speak in the debate on the budget in the Dáil.  I will not go into all the issues that might be discussed because we will have an opportunity to do so when the full Estimates are presented.</p>
+          <p eId="para_34">Since the introduction of top-up fees in the North, students from the South who attend third level institutions from this jurisdiction have experienced problems.  This causes difficulties for students from the Border counties in particular, for whom there is sometimes a tradition of attending colleges and universities in the North.  I understand this is a difficult issue to address.  Has the Minister any views on it and has she discussed it with her counterpart in the North or, given the current political situation in that jurisdiction, the relevant British Government Minister?</p>
+          <p eId="para_35">The Minister outlined what may or may not happen after 2007 in regard to further education, depending on various discussions and so on.   Although the Estimates provide for some improvements in this area, I reiterate the need for a serious investment in the further education sector.</p>
+          <p eId="para_36">The Minister referred to the arrears that will be paid to casual teachers.  Will she give some consideration to the position of school secretaries in this regard?  Some part-time secretaries endure poor terms and conditions of work in that they are only employed on an hourly basis.  Is there a possibility that rural schools could cluster part-time secretaries?  I know of some secretaries who serve several schools but are employed only on a part-time basis in each of them.  This means, for example, that they are not paid if the schools close for a day.  I welcome the improved conditions for special needs assistants, but their changed situation is in contrast to that of school secretaries, who may believe their important role in the system is not acknowledged.</p>
+          <p eId="para_37">How many State boards come under the auspices of the Department of Education and Science?  I presume the payment relating to the Commission to Inquire into Child Abuse is merely postponed and will have to be made next year or in 2008.  Is 2008 the deadline for the completion of its work or is it possible it will continue after that?  Will the €20 million dormant account funding be carried forward to next year?</p>
+        </speech>
+        <speech by="#JanOSullivan" eId="spk_4">
+          <from>Ms O’Sullivan</from>
+          <p eId="para_38">I too welcome the Minister and her officials.  They will be pleased to hear that I plan to follow Deputy Enright's example in referring only to those issues which are relevant to this Supplementary Estimate.  I have one question, however, not immediately applicable but which I always raise at this time of year.  Does the Minister expect the full amount allocated for the schools building fund to be spent before the end of the year?</p>
+          <p eId="para_39">Deputy Enright referred to the problems encountered by third level students who attend colleges in Northern Ireland.  I participated in the debate on a Bill which passed all Stages in the Dáil late on Tuesday.  I wonder whether this Bill, which relates specifically to North-South bodies, might, in future, serve to address some of these issues.  I understand the Minister may not have an immediate response in this regard.</p>
+          <p eId="para_40">I am concerned at the increasing numbers of teachers who retire early.  Many of the subheads relate to payments arising from such earlier than expected retirements.  The Minister said she intends to undertake an in-depth study of this phenomenon in conjunction with the Department of Finance.  I presume this will be concerned solely with estimating the amount of funding required.</p>
+        </speech>
+        <speech by="#MaryHanafin" eId="spk_5" as="#Minister_for_Education_and_Science">
+          <from>Ms Hanafin</from>
+          <p eId="para_41">No.</p>
+        </speech>
+        <speech by="#JanOSullivan" eId="spk_6">
+          <from>Ms O’Sullivan</from>
+          <p eId="para_42">We must examine this serious issue sooner rather than later.  The trend is worrying because it suggests teachers are increasingly exhausted by the job at an early age.  I know teachers of my own age who are contemplating early retirement because of the pressures of the job.  I am not one of them, however.  It is a pity that good teachers with extensive experience may be lost to the education system.</p>
+          <p eId="para_43">Such teachers may require additional supports in the classroom.  In the wake of the task force on student discipline, €2 million was allocated for such measures.  In a reply to a parliamentary question, however, the Minister seemed to indicate that all this money was spent on administration, including the establishment of regional offices and the appointment of regional staff.  It is vitally important that teachers can avail of supports in schools, including in-service training and so on, especially in disadvantaged areas.  These figures appear to bear out the fact that teachers are under pressure, as they are obliged to take on the burden of all the additional tasks society asks of them.  It is vital that members give them the requisite support.</p>
+          <p eId="para_44">In respect of the Protection of Employees (Part-Time Work) Act, the reimbursement of arrears to teachers appears to be taking a long time.  This issue has been brought to my attention by union representatives and appears to have been pushed out into the distance again.  Why has it not been possible to pay the arrears this year from this year's budget?</p>
+          <p eId="para_45">I have a question on special needs.  Obviously, I do not have a problem with the allocation of additional moneys to special needs teachers.  While this may be incidental, I also have a query on the employment of psychologists in the National Educational Psychological Service, NEPS.  While the service has been allocated some additional moneys for next year, is there a reason this cannot be rolled out faster to ensure all schools will have access to NEPS psychologists?  Is this affected by a cap on public service numbers?  I have received correspondence indicating that plenty of people appear to be available for interview for such jobs.  Is there any reason not to increase expenditure significantly to ensure all schools will have access to NEPS psychologists, as well as to the private panels?</p>
+          <p eId="para_46">I am unsure whether my next question on universities is appropriate.  Are the salaries of those at the apex of the university payroll determined by the Department of Education and Science?  Can individual institutions decide to pay a president or vice president whatever they wish, or are they governed by central decision-making processes?</p>
+          <p eId="para_47">In respect of the delay in determining legal costs, why is it taking so long to decide how much these rich lawyers should be paid for working with the Commission to Inquire into Child Abuse?  Do they believe they are not being paid enough?</p>
+          <p eId="para_48">The position on research and development is self-explanatory.  Members must welcome the fact that the other Department has sufficient funding to give back money to the Department of Education and Science which can be well spent in other educational areas.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_7">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_49">I have some minor points to make and wish to seek clarification on one or two issues.  The Minister stated the Department expected to receive payments from the European Commission amounting to approximately €69 million before the end of the year.  I refer to appropriations-in-aid under subhead G.  Has it been confirmed that the actual sum will not be €67 million, thus obliging members to approve another Supplementary Estimate to make up the shortfall?  Is this simply a tidying up exercise in the Commission?</p>
+          <p eId="para_50">In respect of the dormant accounts fund, €20 million in receipts will not be received because projects have not reached the stage where funding is approved.  Are they likely to be approved within the next year?  Have they reached the assessment stage?  Is it possible that members will return next year to hear the same story?  Projects under way should have a timeline for evaluation in order to reach their targets or the stage at which funding can be approved.</p>
+          <p eId="para_51">While the Minister may have explained this previously, I found strange the co-funding of the National Digital Research Centre.  It was to be paid for by three Departments, which is fine.  Obviously, the Department of Communications, Marine and Natural Resources carried the burden this year and paid the sum of €1.5 million.  Will it be the turn of the Department of Education and Science to cover costs of €1.5 million next year, or will it simply pay €500,000?</p>
+          <p eId="para_52">My final query concerns the number of teachers who retire early.  In the past week I have received two queries from teachers who opted for early retirement, the first on medical grounds and the second on reaching the age of 55 years.  The latter is now 57 years old and has come to regret her decision.  Is there a facility to enable those who have retired on such grounds to return to teaching?  It was noted that in the absence of such a facility, their experience would be lost.  A mechanism could be put in place to deal with the annual retirement payments which could be offset during the years in which such teachers worked before reaching the maximum age.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_8">
+          <from>Mr. English</from>
+          <p eId="para_53">I only have two quick comments to make, as I was absent for most of the meeting.  I apologise for being late.</p>
+          <p eId="para_54">I compliment the Minister on her rapid decision regarding further education costs in Northern Ireland.  It is good to see that such decisions can be taken when necessary.  However, the issue of supports for students on both sides of the Border must be examined.  I presume members will have an opportunity to debate the matter when they deal with the forthcoming Bill which is due before Christmas because many questions must be asked in this regard.  However, I will not go through it now.</p>
+          <p eId="para_55">I cannot allow the subject of dormant accounts pass without commenting that the failure to spend the money involved until 2007 was never in doubt.  I am sure it will be well spent, or at least well announced, by April or May 2007.  The problem with the dormant accounts fund was highlighted during the debate on the Dormant Accounts (Amendment) Bill last year.  It does not concern this Department alone, as the issue has also been discussed with the Department of Community, Rural and Gaeltacht Affairs.  I am disappointed by the manner in which the fund is being used.  The purpose is obvious, about which I am annoyed.  I will leave it at that, unless another logical reason can explain why moneys from the fund have not been dished out before now.</p>
+        </speech>
+        <speech by="#MaryHanafin" eId="spk_9" as="#Minister_for_Education_and_Science">
+          <from>Ms Hanafin</from>
+          <p eId="para_56">I thank members for their interest.  The further education issue which everyone has mentioned jumped up and slapped us in the face during the summer.  In fairness, at the most senior levels in Northern Ireland and the Department, telephone calls were made from beaches across Europe to ensure the matter was dealt with.  I still contend students from south of the Border were entitled to free fees and will continue to avail of legal advice in this regard.  Obviously, such advice will dictate the future position.</p>
+          <p eId="para_57">The position on higher education is more difficult.  I appreciate fully the difficulties experienced by Border county students, particularly those from counties such as Donegal.  They have a tradition of attending the university closest to them, which happens to be across the Border.  The top-up fees pose a problem for them.  The Department's difficulty is that such issues must be examined in a European, rather than simply a North-South, context.  If one pays fees for students in the North, how can one not pay fees for Irish medical students in Hungary or Irish dental students in Prague?  The Department is considering various mechanisms to ascertain whether there is a way around this problem because it has sympathy for students who find themselves in this position.  While it has been unable to so do, a way may be found as matters develop in North-South relations.  However, no solution is available as of now.  I am anxious to improve participation rates in some Border counties.  Participation rates in County Donegal in higher education appear low until one takes into account the participation rate in higher education in the North of Ireland.  It is actually above the national average which can skew the figures.  Members will be aware that while the Department is conscious of the issue, it simply does not have a solution.</p>
+          <p eId="para_58">I refer to casual employment and the length of time it has taken to process arrears under the Protection of Employees (Part-Time Work) Act.  This takes a long time because it involves industrial relations procedures and the rights commissioner who works with the Department and the unions.  This is the reason the process is slow.  Many of the cases covered by the Estimates were back-dated.  Consequently, the individuals in question will, at least, have their payments back-dated.  This takes a long time because it is a cumbersome process.</p>
+          <p eId="para_59">There are different schemes for the employment of secretaries.  Under the old scheme, they were actually employed, while under the new scheme the support services grant is paid.  Members will have noted the substantial increase in the support services grant in the 2007 Estimates.  There has been an accumulative increase of €48 in capitation and support services grants, giving an aggregate grant of more than €500 per pupil from 1 January.  This is a substantial sum of money that should give better comfort to school secretaries.</p>
+          <p eId="para_60">Deputy Enright asked a question about State boards, to which the answer is very few.  We have a number of boards for appointment, such as the boards of the institutes of technology, which will contain a couple of members.  There are very few boards which give any remuneration to their members, among them the Higher Education Authority.  The chairman of the Grangegorman Development Agency also receives remuneration.  When one thinks of the number of people throughout the education system who give voluntarily of their time on boards, these members are the only ones who receive remuneration.  There may be one or two other State boards which provide remuneration, but I believe that remuneration is only provided by these two boards.</p>
+          <p eId="para_61">In respect of legal costs relating to the Commission to Inquire into Child Abuse, bearing in mind that it would have been this time last year when we submitted for our Estimates and set aside the money, we anticipated that the costs would have been worked out.  However, the commission has only just begun to work out the costs so there is no finality in respect of this.  It is only looking at the legal costs rather than anything else related to how much money we spent.</p>
+          <p eId="para_62">In respect of dormant accounts, I reiterate that this money is carry-forward money.  In some ways, it is not surprising because the dormant accounts money for education, which is €20 million, was going towards projects such as parents' rooms and libraries that might need to be built.  Disadvantaged schools have been invited to apply for the funding so it is very targeted and focused to ensure those schools which need it most can receive it.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_10">
+          <from>Mr. English</from>
+          <p eId="para_63">It is certainly very targeted.</p>
+        </speech>
+        <speech by="#MaryHanafin" eId="spk_11" as="#Minister_for_Education_and_Science">
+          <from>Ms Hanafin</from>
+          <p eId="para_64">It is aimed at disadvantaged schools and the state of schools in order on the list.  Obviously, they are the ones with whole school community——</p>
+        </speech>
+        <speech by="#JanOSullivan" eId="spk_12">
+          <from>Ms O’Sullivan</from>
+          <p eId="para_65">Can we expect a few announcements in the next few months?</p>
+        </speech>
+        <speech by="#MaryHanafin" eId="spk_13" as="#Minister_for_Education_and_Science">
+          <from>Ms Hanafin</from>
+          <p eId="para_66">They have already been invited to apply.  For every school that gets a parents' room, there will be others who say they also want one.</p>
+          <p eId="para_67">The salaries of senior people in universities are determined by the Review Body on Higher Remuneration in the Public Service and subject to benchmarking by it.</p>
+        </speech>
+        <speech by="#JanOSullivan" eId="spk_14">
+          <from>Ms O’Sullivan</from>
+          <p eId="para_68">So they cannot just determine——</p>
+        </speech>
+        <speech by="#MaryHanafin" eId="spk_15" as="#Minister_for_Education_and_Science">
+          <from>Ms Hanafin</from>
+          <p eId="para_69">They cannot just determine salaries on their own.</p>
+        </speech>
+        <speech by="#JanOSullivan" eId="spk_16">
+          <from>Ms O’Sullivan</from>
+          <p eId="para_70">An issue surfaced in the media which related to whether one of the universities could decide to pay much more to recruit more high-flying individuals for senior posts.</p>
+        </speech>
+        <speech by="#MaryHanafin" eId="spk_17" as="#Minister_for_Education_and_Science">
+          <from>Ms Hanafin</from>
+          <p eId="para_71">The Review Body on Higher Remuneration in the Public Service deals with presidents, vice presidents, secretaries and registrars so universities cannot just offer €1 million to somebody coming in.</p>
+          <p eId="para_72">In respect of the National Educational Psychological Service, there are 127 psychologists in the system and it is our intention to recruit more for each of the next three years.</p>
+        </speech>
+        <speech by="#JanOSullivan" eId="spk_18">
+          <from>Ms O’Sullivan</from>
+          <p eId="para_73">Are these appointments capped?</p>
+        </speech>
+        <speech by="#MaryHanafin" eId="spk_19" as="#Minister_for_Education_and_Science">
+          <from>Ms Hanafin</from>
+          <p eId="para_74">It is not so much that they are capped.  We determine in advance each year with the Department of Finance how many psychologists we will employ.  There will be more psychologists employed for each of the next three years.</p>
+        </speech>
+        <speech by="#JanOSullivan" eId="spk_20">
+          <from>Ms O’Sullivan</from>
+          <p eId="para_75">Could this not be done more quickly?</p>
+        </speech>
+        <speech by="#MaryHanafin" eId="spk_21" as="#Minister_for_Education_and_Science">
+          <from>Ms Hanafin</from>
+          <p eId="para_76">It is also tied in with the numbers we will appoint to the National Educational Welfare Board.  When one is spending money on heads as opposed to projects, it obviously must have approval.  When one considers that we will also appoint 800 more primary school teachers next year and whatever additional resource teachers that will be needed on foot of that, a considerable amount of new employment will come into the education sector from next year.</p>
+        </speech>
+        <speech by="#JanOSullivan" eId="spk_22">
+          <from>Ms O’Sullivan</from>
+          <p eId="para_77">There is also considerable need.</p>
+        </speech>
+        <speech by="#MaryHanafin" eId="spk_23" as="#Minister_for_Education_and_Science">
+          <from>Ms Hanafin</from>
+          <p eId="para_78">Nobody can gripe about the additional teachers, special needs assistants, psychologists and NEWB personnel who have been appointed in recent years.</p>
+          <p eId="para_79">In respect of the European Social Fund, the matter is always a bit uncertain.  In some years, we have sought a Supplementary Estimate from the committee and within a couple of months, it looked like we had not spent money because, for example, it arrived on New Year's Eve.  What we are doing is predicting more receipts.</p>
+          <p eId="para_80">An interesting feature of teachers retiring is that there is no pattern.  In some years, more primary than second level teachers retire, while in others, it is <i>vice versa</i>.  There is no pattern as to whether they all work in disadvantaged schools or teach particular age groups, which is why we need to conduct this study.  When one considers that a retiring teacher who has put in the service will get a lump sum of €90,000 and probably a pension of approximately €30,000 a year, a number of people will decide to retire on that once they reach that point.  Our study will not just look at the financial implications of it but will examine the raw data and profile of people retiring and carry out a survey of recent and prospective retirees.  An interesting feature is that no pattern exists.</p>
+        </speech>
+        <speech by="#JanOSullivan" eId="spk_24">
+          <from>Ms O’Sullivan</from>
+          <p eId="para_81">Is there a timescale for when this study might be completed?</p>
+        </speech>
+        <speech by="#MaryHanafin" eId="spk_25" as="#Minister_for_Education_and_Science">
+          <from>Ms Hanafin</from>
+          <p eId="para_82">It will be completed before the Estimates are produced in 2007.</p>
+        </speech>
+        <speech by="#DamienEnglishFG" eId="spk_26">
+          <from>Mr. English</from>
+          <p eId="para_83">I presume it will look at incentives to retain teachers.</p>
+        </speech>
+        <speech by="#MaryHanafin" eId="spk_27" as="#Minister_for_Education_and_Science">
+          <from>Ms Hanafin</from>
+          <p eId="para_84">At the same time, we have plenty of young graduates leaving university whose needs for employment we are meeting.  With so much employment coming into the system, there is a turnover.  We have sought a Supplementary Estimate from this committee each year for the past three years because there has been an under-estimate.  We thought initially it was related to benchmarking and that people were waiting to get benchmarking increases and then retire, which they did.  One could normally have anticipated a decline after that, but this never happened.  People are retiring.  It is to be hoped this kind of profiling will give us more information with a view to looking at the future.</p>
+          <p eId="para_85">The range of options for teachers within the school system, especially primary schools, is now much wider than it was previously in so far as one has the classroom teacher, the resource learning support teacher and the home-school-community liaison officer.  Even within the school system, there is considerable flexibility as to how a teacher might work.</p>
+          <p eId="para_86">Deputy O'Sullivan also asked me about the National Behaviour Support Service.  Next year, the Estimate for this service is €8 million.  Behavioural support teams are being set up and have been in touch with schools.  Obviously, we are very anxious that schools come forward and work with the teams.  We anticipate that during the school year, we will have behavioural support classrooms and other supports that schools need in place.  This is what the €8 million will be going towards next year.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_28">
+          <from>Chairman</from>
+          <p eId="para_87">I thank the Minister and her officials for attending today's meeting.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_4">
+        <heading>Message to Dáil.</heading>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_29">
+          <from>Chairman</from>
+          <p eId="para_88">In accordance with Standing Order 85, the following message will be sent to the Dáil:</p>
+          <p class="indent_1" eId="para_89">The Select Committee on Education and Science has completed its consideration of the following Estimates for the Public Service for the service of the year ending 31 December 2006: Vote 26 — Education and Science (Supplementary).</p>
+        </speech>
+        <summary eId="sum_5">The select committee adjourned at 12.20 p.m. <i>sine die</i>.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

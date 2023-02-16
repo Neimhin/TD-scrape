@@ -1,0 +1,900 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2009-04-09/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2009-04-09/debate"/>
+          <FRBRdate date="2009-04-09" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_economic_regulatory_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2009-04-09/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2009-04-09/debate/mul@"/>
+          <FRBRdate date="2009-04-09" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2009-04-09/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_economic_regulatory_affairs/2009-04-09/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="CiaranCuffeGP" href="/ie/oireachtas/member/id/Ciarán-Cuffe.D.2002-06-06" showAs="Ciarán Cuffe"/>
+        <TLCPerson eId="FergusODowdFG" href="/ie/oireachtas/member/id/Fergus-O'Dowd.S.1997-09-17" showAs="Fergus O'Dowd"/>
+        <TLCPerson eId="JoeBehan" href="/ie/oireachtas/member/id/Joe-Behan.D.2007-06-14" showAs="Joe Behan"/>
+        <TLCPerson eId="KieranODonnell" href="/ie/oireachtas/member/id/Kieran-O'Donnell.D.2007-06-14" showAs="Kieran O'Donnell"/>
+        <TLCPerson eId="MichaelMoynihan" href="/ie/oireachtas/member/id/Michael-Moynihan.D.1997-06-26" showAs="Michael Moynihan"/>
+        <TLCPerson eId="NedOKeeffe" href="/ie/oireachtas/member/id/Ned-O'Keeffe.S.1982-05-13" showAs="Ned O'Keeffe"/>
+        <TLCPerson eId="PaulCoghlan" href="/ie/oireachtas/member/id/Paul-Coghlan.S.1997-09-17" showAs="Paul Coghlan"/>
+        <TLCPerson eId="PeterKellyFF" href="/ie/oireachtas/member/id/Peter-Kelly.D.2002-06-06" showAs="Peter Kelly"/>
+        <TLCPerson eId="SeamusKirk" href="/ie/oireachtas/member/id/Seamus-Kirk.D.1982-12-14" showAs="Seamus Kirk"/>
+        <TLCPerson eId="SeanArdagh" href="/ie/oireachtas/member/id/Seán-Ardagh.D.1997-06-26" showAs="Seán Ardagh"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Sean Sherlock"/>
+        <TLCPerson eId="ShaneRoss" href="/ie/oireachtas/member/id/Shane-PN-Ross.S.1981-10-08" showAs="Shane Ross"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM GHNÓTHAÍ RIALÁLA GEILLEAGAIR A BHUNÚ</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON ECONOMIC REGULATORY AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2009-04-09">Déardaoin, 9 Aibreán 2009</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2009-04-09">Thursday, 9 April 2009</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 10.30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#SeanArdagh">Deputy Seán Ardagh,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PaulCoghlan">Senator Paul Coghlan,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JoeBehan">Deputy Joe Behan,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#ShaneRoss">Senator Shane Ross.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#CiaranCuffeGP">Deputy Ciarán Cuffe,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#PeterKellyFF">Deputy Peter Kelly,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#SeamusKirk">Deputy Seamus Kirk,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#KieranODonnell">Deputy Kieran O’Donnell,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#FergusODowdFG">Deputy Fergus O’Dowd,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#SeanSherlock">Deputy Seán Sherlock,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">In attendance: Deputy Edward O'Keeffe.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#MichaelMoynihan">DEPUTY MICHAEL MOYNIHAN IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_5">The joint committee met in private session until 10.35 a.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Financial Matters: Discussion with Irish Financial Services Regulatory Authority. </heading>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_11">I welcome from the Irish Financial Services Regulatory Authority Mr. Jim Farrell, chairman, Ms Mary O'Dea, acting chief executive, Mr. George Treacy, head of consumer protection codes, and Mr. Donncha Connolly, deputy head of domestic credit institutions.</p>
+          <p eId="para_12">Before we begin, I draw the witnesses' attention to the fact that members of the committee have absolute privilege but the same privilege does not apply to witnesses appearing before the committee.  Members are reminded of the long-standing parliamentary practice that they should not comment on, criticise or make charges against a person outside the Houses or an official by name or in such a way as to make him or her identifiable.  I propose to hear a short presentation by Mr. Farrell followed by questions from the committee.  Each member will have approximately ten minutes for questions.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_13">I thank the Chairman and members of the committee for the invitation to meet them today.  I am joined by my colleagues, acting chief executive and consumer director, Ms Mary O'Dea, Mr. George Treacy, head of the legal and consumer departments, and Mr. Donncha Connolly, deputy head of domestic credit institutions.</p>
+          <p eId="para_14">I have already written to the Chairman on certain matters regarding the evidence presented to the committee two weeks ago by the former head of group internal audit in AIB, Mr. Eugene McErlean.  It is very important that we put on the record today the facts regarding the allegations made by Mr. McErlean.  In this statement I will address the roles and powers of the various regulatory authorities during the period in question, from 2001 to 2004, and the regulatory responses to the issues under discussion.  I will also outline current developments in regulation, in particular the changes we have made in response to the pressing issues which have arisen in the continuing financial markets crisis and in relation to corporate governance issues.</p>
+          <p eId="para_15">Mr. McErlean made serious allegations that have been the subject of much comment.  In particular, he claimed that "the Financial Regulator knew about overcharging in AIB in 2001 and conducted its own investigation in 2002 but failed to act to protect consumers."  He claimed that "in 2005 the regulator failed to inform an Oireachtas inquiry about its investigation and in fact gave the false impression that it was unaware of overcharging until 2004."  He also raised issues relating to Goodbody Stockbrokers and trading in AIB shares.</p>
+          <p eId="para_16">I will deal with each of these three claims.  First, I will address Mr. McErlean's claim that "the Financial Regulator knew about overcharging in AIB in 2001 and conducted its own investigation in 2002 but failed to act to protect consumers."  The Financial Regulator did not exist in 2001.  For the period up to May 2003 the Central Bank was the prudential supervisor for banks and the Office of the Director of Consumer Affairs, ODCA, had responsibility for approval and monitoring of bank charges.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_3">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_17">On a point of order, the Financial Regulator at the time was the Central Bank.  It is not correct to say there was no Financial Regulator.</p>
+        </speech>
+        <speech by="#" eId="spk_4">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_18">I have said here that "the Central Bank was the prudential supervisor for banks and the ODCA had responsibility for approval and monitoring of bank charges."  Charging is an issue under scrutiny here.  This matter deals with overcharging customers at AIB.  The ODCA had responsibility for approval and monitoring of bank charges.  The Financial Regulator took over these responsibilities when it was set up on 1 May 2003.  Nevertheless, let me put the facts on the record here today.</p>
+          <p eId="para_19">In April 2001, before the Financial Regulator was established, and following reports in the media of overcharging by AIB of certain customers, the Central Bank called in AIB and sought explanations to establish the facts and ascertain the steps AIB was taking to address the matter.  The area to which this issue related was administration time charges.  This process involved meetings with AIB, which included group compliance and group internal audit.  The Central Bank made it clear to AIB that it expected AIB internal audit to investigate fully this overcharging matter to determine whether there was an administration time overcharging issue across branches and to provide it with the findings of its work as soon as these were available.  Regular contact by the Central Bank with AIB on this issue continued from April 2001 up to the conclusion of this matter at the end of February 2003.  As part of this process AIB was instructed by the Central Bank to report the matter to the Office of the Director of Consumer Affairs, which had specific responsibility for the regulation of bank charges at that time.</p>
+          <p eId="para_20">Having heard Mr. McErlean's evidence at the committee meeting of 24 March, committee members might question the size of the final figure on the administration time overcharging issue.  I wish to clarify the facts for the committee.  Central Bank records show that initial work on administration time charging was completed by AIB internal audit in mid-2001 based on a sample of branches.  These records show that there was an issue regarding overcharging for administration management time in respect of business customers.  Internal audit did not quantify the amounts involved at that time.  The only figure we are aware of that matches any amount raised before the committee is that in the first half of 2002 Mr. McErlean included a figure in his legal claim against AIB for failing to properly record in their 2001 accounts the potential liability arising from overcharging and estimated by him at that time to be in the region of €50 million to €75 million.  Notwithstanding that Mr. McErlean subsequently settled his legal claim with AIB, the matters raised were pursued by the Central Bank.  In Mr. McErlean's testimony to this committee he stated clearly that he did not know the exact position of the claim of a figure of €50 million to €75 million for this overcharging issue.  We have no understanding of the basis of Mr. McErlean's guesstimate and no such amount was offered in any internal audit report.  The gross revenue, as distinct from the amount of overcharging generated by this administration time charge by AIB was confirmed in an AIB internal audit report to be €30.4 million in 1996-2001.</p>
+          <p eId="para_21">The detailed work on the administration time charging issue was progressed by AIB in 2002 and concluded in the second half of 2002, by which time Mr. McErlean was no longer working in AIB.  This work was subject to verification procedures undertaken by AIB internal audit.  This verification process by AIB internal audit was considered by the Central Bank to be an essential control in providing assurances that the guidelines for identification and refund of affected customers were adhered to by AIB branches.  The conclusion by AIB internal audit, which was advised to the Central Bank at the time, was that while some minor issues were identified and addressed, the refunding of administration time charges was completed in accordance with the guidelines that had been issued by AIB management.</p>
+          <p eId="para_22">AIB advised that the initial sample of branches and business units tested by internal audit had been selected for testing because their recorded level of administration time charges were above the norm.  This could form the basis of why, ultimately, the amount of overcharging finally identified when it carried out its more detailed review was not as widespread or significant as initially envisaged.  In summary, the wider audit established that the administration time overcharging issue was not as widespread as the initial branch sample testing undertaken by AIB internal audit in 2001 may have indicated.  The actual figure only emerged once the detailed programme of work was completed.  The final figure for refunds by AIB to its customers amounted to €255,000 and this figure was notified by AIB to the Office of the Director of Consumer Affairs in February 2003.  The Office of the Director of Consumer Affairs welcomed the fact that the matter had been concluded and customers refunded.  The administration time charge was abolished by AIB in 2001.</p>
+          <p eId="para_23">Having provided this detailed information, I ask that the committee recognise the importance of distinguishing clearly between matters that Mr. McErlean discussed with the Central Bank in 2002 and subsequent foreign exchange overcharging issues that were first brought to the attention of the Financial Regulator by a whistle blower in 2004.  It is important to distinguish between these two matters.  The overcharging matters discussed with Mr. McErlean in 2002 were known to the Central Bank from 2001 and were investigated and concluded in February 2003, as I have set out.  The other matters only became known in 2004.  This is a critically important distinction.</p>
+          <p eId="para_24">I refer to the second allegation, that in 2005 the Financial Regulator failed to inform an Oireachtas committee about its investigation and gave the false impression that it was unaware of overcharging until 2004.  By way of background, one of the reasons for the establishment of the new consumer-focused regulator was a series of failures in consumer and customer related banking issues such as those detailed in the High Court inspector's report on National Irish Bank.  Before our establishment the then consumer regulator, the Director of Consumer Affairs, had emphasised the need for new consumer powers.  On our establishment the legislative emphasis of putting the consumer at the centre of financial regulation was evidenced by the fact that the consumer director position was a statutory one with a place on the statutory authority board.</p>
+          <p eId="para_25">In April 2004, a whistle blower brought to the attention of the Financial Regulator an entirely different and separate AIB charging issue, mainly concerning foreign exchange rates.  This issue had not been reported to, and was not known by, the regulatory authorities before 2004.  As distinct from the 2001 overcharging issues that related to management time overcharging, the issue reported by the whistle blower in 2004, related to charging customers beyond what was approved under the Consumer Credit Act.  As the 2004 allegations of overcharging by AIB were investigated, serious allegations emerged of a cover-up at AIB and the Financial Regulator decided to widen the investigation to cover all other major charges.  These investigations were reported publicly, including to the Joint Committee on Finance and Public Service, and resulted in repayments of more than €65 million by AIB.</p>
+          <p eId="para_26">The investigation ordered by the Financial Regulator, was carried out by Deloitte and independently verified by a former Comptroller and Auditor General, Lauri McDonnell.  At that time the Financial Regulator had no powers to sanction.  We could not publish the Deloitte report as this would be in breach of our legal powers.  The Financial Regulator has taken much criticism from the media and from other quarters on the question of secrecy.  Our confidentiality requirements restrict our ability to disclose information to third parties.  We must operate within the law.  If the law is changed and we are permitted to make additional disclosure, then we would be glad to do so.  The Financial Regulator and previous regulators should not be blamed for what is in essence compliance with the law.  If the law changes we will change what we do.  We published two reports that contained as much detailed information as we were permitted to disclose.  Key findings included that AIB had failed to notify regulators about foreign exchange charges over a prolonged period despite having opportunities to do so and AIB had weak controls in monitoring customer charges.  Escalation procedures at AIB had not worked effectively and its compliance function was insufficiently resourced to monitor customer charges.  These were all important findings.</p>
+          <p eId="para_27">I assure the committee that since our establishment, reflecting our mandate with a strong emphasis on consumer protection, we have given a high priority to consumer charging issues.  Our investigations were wide ranging across the banking and insurance industry.  These examinations into overcharging concluded in 2007, and of the total amount of more than €180 million recovered, overcharging by banks accounted for €136 million with a total of 469 separate charging issues.  AIB has refunded its own customers more than €65 million.  Sanctions could not be imposed as these matters predated our sanctioning powers.</p>
+          <p eId="para_28">It is totally unacceptable that any financial institution fails to have in place strong robust control systems to identify customer issues and to ensure they are comprehensively dealt with.  Banks failed their customers by not doing this.  However, there has been significant progress in recent years in compliance on customer charging.  That is evidenced by the amount we have recovered.  While human or systems errors sometimes lead to overcharging, we now require in our statutory code all financial institutions to have procedures and systems in place to deal effectively with these and ensure that customers are properly informed and compensated.  Our statutory consumer code came into full effect in 2007 and is backed up by our administrative sanctions powers.  We are not aware of any comparable consumer protection code elsewhere.  Firms are now statutorily obliged to act in their clients' best interests and to handle errors speedily and effectively.  In the interests of ensuring that customers are aware of the propensity of their provider to make mistakes, institutions are required to communicate directly with their customers and to refund them with interest where they have overcharged.  If they do not do this, they will be subject to sanction.</p>
+          <p eId="para_29">The facts I have placed before the committee show clearly the Financial Regulator dealt with the matter of overcharging in a robust and professional way and in a way that reflected our new legislative mandate, albeit without our full powers.  The amount recovered answers the allegation that the Financial Regulator was in some way taking a soft approach towards the banks.</p>
+          <p eId="para_30">I will now deal with the third allegation which concerns issues at Goodbody Stockbrokers.  In October 2001 AIB Capital Markets, in accordance with the obligations imposed in the Central Bank's handbook for investment and stockbroking firms, submitted to the Central Bank and stock exchange a copy of an AIB group internal audit report entitled "Special Investigation Goodbody Stockbrokers — Trading in AIB Shares" and a copy of a management letter addressed to the internal audit committee of the board of AIB.  The work related to this report had been undertaken from May to September 2001.</p>
+          <p eId="para_31">The report stated that the arrangements that Goodbody had put in place to allow it to trade in AIB shares as a principal to facilitate meeting the needs of its clients had not operated in accordance with those previously communicated to the Central Bank and the Irish Stock Exchange which had been notified of the arrangement in July 2000.  The original arrangements presented were designed to allow Goodbody, in its stockbroking role, to trade in AIB shares as a principal in compliance with the provisions of the Companies Act 1990 which restricted trading by a company in the shares of its holding company.  The practice ceased in July 2001.  The Companies Acts were subsequently amended with effect from 4 August 2001 enabling Goodbody, as stockbroking subsidiary of AIB, to trade AIB shares.</p>
+          <p eId="para_32">The failures on the part of Goodbody to comply with the original arrangements presented to the bank were as follows: the information provided in relation to the regulatory status and control of the third party account was misrepresented; measures were introduced to maximise the ability of Goodbody to reclaim stamp duty arising on transactions undertaken for the third party account.  In particular a further third party client incorporated in Nevis was introduced to the arrangement; transactions undertaken by Goodbody between the two third party clients designed to maximise stamp duty reclaim were not undertaken on an "arms length basis" and involved clear conflicts of interest; high levels of operational failure in settlements and dealing resulted in Goodbody's funding the third party accounts when not doing so was a key requirement of the arrangement; laxity in following up on client documentation; and failure in compliance monitoring and controls procedures in Goodbody which did not identify and address the changes and weaknesses arising in the arrangements.</p>
+          <p eId="para_33">Subsequent to the submission of the report, the Central Bank met senior personnel in AIB, as part of its examination of this matter.  Significant personnel and operational changes took place in Goodbody.  The obligation at the time, in accordance with the provisions of the Criminal Justice Act 1994, was for suspicions of money laundering identified by the Central Bank to be reported to the Garda.  We can confirm that this was done.</p>
+          <p eId="para_34">These are the facts regarding the 2001 management time charging issue and the Goodbody issue.  In view of these facts, the suggestions and allegations made at this committee last month that the Financial Regulator, which did not even exist at the time, was involved in a cover up, that the Financial Regulator was negligent and that the Financial Regulator misled another Oireachtas committee are absurd.  We completely and utterly reject these ill-informed and damaging allegations.</p>
+          <p eId="para_35">I would like to outline some current developments in regulation and the changes we have now put in place.  Before moving on to regulation, I want to set out briefly some important matters with regard to the disclosure of information.  As was confirmed by the decision of the Data Protection Commissioner, and affirmed by the decision of Judge Linnane in the Circuit Court on 10 June 2008, the Financial Regulator provided Mr. McErlean with copies of all of the personal data to which he was entitled under the Data Protection Acts and, where documents were redacted before release, such redaction was in accordance with the Data Protection Act.  These redactions related, for example, to confidential information in respect of third party individuals and entities.  In this respect, the Financial Regulator had to ensure that any disclosure of information was not inconsistent with its obligations under section 33AK of the Central Bank Act 1942, EU law obligations of professional secrecy and the Data Protection Acts to any third party.</p>
+          <p eId="para_36">The Financial Regulator is subject, under EU and Irish law, to strict obligations in relation to all confidential information it receives in the course of its supervisory functions.  The disclosure by the Financial Regulator, including any employee or former employee, of confidential information in breach of its obligation of professional secrecy is a criminal offence.  In addition, as the committee has previously indicated, whilst the members of the committee have the benefit of absolute privilege, this does not extend to witnesses appearing before it.</p>
+          <p eId="para_37">Turning to the present, I am certain that in today's regulatory environment, many of the issues raised by Mr. McErlean would have been dealt with differently.  The Financial Regulator now has powers that the Central Bank and Office of the Director of Consumer Affairs did not have at the time of the earlier charging issues at AIB and trading issues at Goodbody.  We now have administrative sanction powers that mean we can, and do, name and shame firms and impose heavy fines on both firms and individuals for regulatory breaches.  We can also remove people from senior positions and have moved to disqualify individuals for a period from the industry.  We can take market abuse actions where heretofore there were no such powers in this area and we have open lines with other supervisory authorities where issues are their remit for further examination and possible prosecution.</p>
+          <p eId="para_38">I will update the committee on our progress towards reforming the banking supervisory model.  I do not have to remind this committee of the importance of confidence in its regulatory system.  This is important now more than ever as we deal with the most serious global financial crisis.  The worldwide system of regulation is being restructured and it is essential that a more systemic approach is taken to both national and cross-border regulation.  It is important that as regulators we carry out appropriate reform to ensure the continued viability of the Irish financial sector, which is a major contributor to our economy.</p>
+          <p eId="para_39">There are approximately 60,000 people employed in banks, building societies and insurance companies in Ireland.  The international financial services industry employs 26,000 of these people.  The industry is also a substantial contributor to the tax revenues of the State.  As a regulator of some 13,000 financial services providers, the financial regulator has a critical role in ensuring that people can do business with these entities in a well regulated market.  We have intensified our supervision of banks, which are under far more scrutiny than ever before.  Our approach is far more intrusive, we have applied extra resources and hired additional risk experts, increasing our on site presence in covered institutions.  We have recruited 20 additional staff to date and will recruit a further 20 specialists.  Principles-led supervision has clearly not worked effectively in recent times, not just in Ireland but across the globe, so a new approach is necessary and is under way.  We are focused on ensuring that where there is imprudent business practices or wrongdoing, we can identify it in a pre-emptive manner and deal with it.</p>
+          <p eId="para_40">We are also engaged in a number of investigations and have set up a special investigations unit to expedite these inquiries.  A special enforcement unit will also be established with our new resources.  We want to ensure there will be accountability in respect of any issues that arise, such as the absence of governance, principles or appropriate practices in financial institutions.  Root and branch reform must happen, is happening and it is important for public confidence that it happens.</p>
+          <p eId="para_41">While the purpose of this meeting has been to provide a response to Mr. McErlean's allegations, I emphasise that we are fully committed to taking the necessary steps, working with our colleagues in the Central Bank, to ensure that the Irish financial system operates to the highest of standards and to the benefit of all its customers and stakeholders.  We recognise that this is a very difficult time for consumers here.  It is essential that depositors and borrowers can continue to have confidence in their banking system so they can carry on their normal business.  As at the broader level, where changes are being introduced to tackle the serious economic challenges, so too at the regulatory level are changes taking place.  For our part, as I have outlined, we have introduced new operational processes, bringing in new skills and applying new resources and new approaches as necessary in response to the environment we are in.</p>
+          <p eId="para_42">It has been widely acknowledged that the consumer directorate has worked extremely well for consumers and it is important that this level of consumer protection is maintained.  In our consumer role, we have today issued a statement warning lenders to treat their customers fairly when a mortgage holder contacts them to address issues before they become problematic.</p>
+          <p eId="para_43">The Minister for Finance announced this week the Government's plans for reforming regulation and we very much welcome this.  With the Central Bank, the Financial Regulator, in a submission to the Minister, recognised that the architecture of financial regulation and supervision, both here and internationally, required broad-ranging review.  The Government announcement reflects international trends by creating much closer links between financial stability and prudential supervision.  In addition, the new model will allow for a much more intensive regulation of financial institutions such as that which we have recently adopted in the regulation of financial institutions covered by the Government guarantee scheme.  We will work closely together with the Central Bank to ensure that the new arrangements are implemented speedily and smoothly.</p>
+          <p eId="para_44">Again, I thank the committee for this opportunity to clarify a number of issues and we are happy to take any questions.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_5">
+          <from>Chairman</from>
+          <p eId="para_45">I thank Mr. Farrell.  We will now take questions from members.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_6">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_46">Because there are so many serious issues, could we deal with them in sequence?</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_47">We can proceed in that fashion.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_8">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_48">I welcome the submission but the only conclusion I can draw from it is that there is now a change in culture in the regulatory regime here.  Since the appointment of Sir Andrew Large, what potential for sanctions now exists other than for administrative sanctions?  If there was a culture of overcharging, which is the same as theft, the only recourse in law is an administrative sanction or a fine.  The banks knew that was the case and carried on with the practice.  We must change from administrative to other sanctions and change the law so that where overcharging occurs on a systematic basis, those responsible do time.  If we are to effect change in the regulatory regime, that is necessary.</p>
+          <p eId="para_49">I would like to hear more about the Minister's announcement that Sir Andrew Large has been appointed to look at the prudential supervision regime and the regulatory regime.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_9">
+          <from>Chairman</from>
+          <p eId="para_50">Will Mr. Farrell respond to those questions?</p>
+        </speech>
+        <speech by="#" eId="spk_10">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_51">I understand he will assist with the recruitment of a head of prudential regulation.  That process will start immediately; we must have a head of prudential supervision in place.  We have an acting chief executive, Mary O'Dea, who is doing an excellent job, but we must move on and Sir Andrew Large will assist in that process.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_11">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_52">It is one thing to assist in the appointment of a chief but given his experience, is there not a greater role for him?</p>
+        </speech>
+        <speech by="#" eId="spk_12">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_53">When I say "assist", he will be part of a group in that process — clearly he is a man of great ability and experience.  What he has to bring to this process will be of immense value.  When I use the word "assist", I mean that clearly he will be a very important part of that process.  Ultimately the Minister will be the final arbiter.  Sir Andrew Large is a key man.  It is a very good decision to have a man like that involved.  It should help tremendously.  I will ask Ms O'Dea to respond on the sanctions issue.</p>
+        </speech>
+        <speech by="#" eId="spk_13">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_54">Deputy Sherlock is right.  In the context of the world in which we now live, it is very appropriate that we should review both the powers and the sanctions available.  At the time they were the sanctions considered appropriate.  It is time to review those.  It is time to look at what can be sanctioned, how codes are set out and what specifically are the codes with which institutions must comply, not just in consumer areas such as charging issues, but right across the whole prudential area.  It is time for a full review.  I am certain that within the context of the legislation the Minister for Finance will look at those issues.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_14">
+          <from>Senator Shane Ross</from>
+          <p eId="para_55">I thank the Chairman of IFSRA for attending and giving us his responses to Mr. McErlean's claims.</p>
+          <p eId="para_56">I am conscious that IFSRA differentiates between itself and the Central Bank, but I find it unconvincing.  The difference between the Financial Regulator and the Central Bank is a kind of father-son relationship with personnel changing frequently.  In fact they are the same people in the same jobs switched around in many cases.</p>
+          <p eId="para_57">I find what Mr. Farrell says deeply unconvincing.  I will tell him why and he may respond to me.  I do not need to give him a history lesson on the Central Bank and regulation, but there is a history on the part of the Central Bank and the Financial Regulator which is pitiful and pathetic, to say the least, in discovering, and in its willingness to discover and unearth overcharging or other banking scandals.  I do not want to take this back too far.  However, Mr. Farrell would be aware that the Central Bank was warned about the Des Traynor situation, Guinness &amp; Mahon and the Cayman Islands.  It came under immense criticism from Government inspectors at that time and it failed to respond.  It was damned by those inspectors for its willingness to accept the word of Mr. Traynor rather than investigate the issue properly.  That was the finding.  That would be historic if that bank had not continued for 19 years after that happened, right up to about 1989.</p>
+          <p eId="para_58">The pattern continues in much more modern times.  Mr. Farrell makes a great deal of hay with the foreign exchange overcharging and IFSRA intervening and getting back €64 million.  Did IFSRA find out about it?  How is it that every single overcharging scandal or other scandal that comes to the attention of the Financial Regulator is brought to it not by itself but by the media or by somebody else?  Mr. Farrell says, about 2004, that it was a whistle blower who came to the regulator about the overcharging in Forex.  The Financial Regulator did not know about it.  There was overcharging to the tune of €35 million going on under its nose and for some reason it did not know anything about it.  However, when this guy, whoever he was, came in, the regulator still did not do anything for six or seven weeks apparently.  The whistle blower went to RTE and it was only when RTE forced the regulator to do something about it that it came out with all guns blazing and, in a public relations exercise, which would make President Obama look timid, said it would investigate and get the money back.</p>
+          <p eId="para_59">An identical situation arose in regard to National Irish Bank.  That was another media blown story which the regulator and its people did not rumble or investigate.  The submission it has given us here today is full of apologies for the fact that it relied upon the Office of the Director of Consumer Affairs; it relied upon AIB.  What was the regulator doing?  How could it rely on AIB for an internal investigation about itself?  Why was it not in there examining forensically what was going on?</p>
+          <p eId="para_60">What I see here today, and what I see in the 2001 submission from Mr. McErlean and the two 2002 meetings which he had with Mr. Liam O'Reilly, is the same pattern of a complete reluctance on the part of the regulator to accept any charges against any banks here unless it is forced to investigate them.  In Mr. McErlean's case, it does not matter whether it was in 2002 or 2001, of which Mr. Farrell makes great play, Mr. McErlean said that he estimated the overcharging was €50 million to €75 million.  That could not be about administrative management charges because the whole administrative management charges of AIB per annum are only €30 million.  How could it be that?  It could not possibly be just about that?</p>
+          <p eId="para_61">I will ask Mr. Farrell a question now, and it is an important one.  Is he aware of the fact — I can produce documentation to support it — that there was an abuse in categorising under management time all sorts of other abuses at the time, that a lot of the overcharging abuses which came under Forex were charged to management time?  If he was not aware of that, he should have been.  That is what was going on.  I am sure Mr. McErlean made him aware of that.  There was a well known case in 2001 in the Ballyshannon branch of AIB where there was a foreign exchange overcharge of €5,000 to a client.  This is something Mr. Farrell can investigate if he does not know about, but it is absolutely true.  That was then not charged as a foreign exchange overcharge, it was headed straight for the management charge account.  For Mr. Farrell to say it was an administrative management charge and to try to differentiate is either ignorant or disingenuous.  This is what was going on and these charges were quite obviously levelled by Mr. McErlean when he said there was overcharging of €50 million to €75 million.  If Mr. Farrell did not know about it, he should have known about it.  I do not want to go on with the pattern but it went on with Irish Life &amp; Permanent and it went on with Anglo Irish Bank and the regulator did not know about that for some extraordinary reason.  It did not know about Seán FitzPatrick's loans.  I suggest it is because it did not want to know because it was inconvenient for it to find out anything which was embarrassing to the banks.</p>
+          <p eId="para_62">I have asked about management time and maybe IFSRA could come back to me about that.  Apparently there were two meetings between Mr. McErlean and Mr. O'Reilly in 2002.  In the first meeting in 2002 Mr. McErlean made all those charges about overcharging of which IFSRA is aware and which have come into the public arena.  A dispute seems to have arisen about what happened at the second meeting.  Mr. Farrell is saying those charges were withdrawn.  Why would Mr. McErlean withdraw those charges?  Facts are facts.  What had happened in between — what Mr. Farrell is doing is confusing the issues, I hope not deliberately — was that Mr. McErlean left AIB between those two meetings, and so his dispute on those charges with AIB was over and no longer being pursued.  That is correct.  However, when he came back in 2002 to meet Mr. O'Reilly he was asked — it was not even necessary — whether those charges were being withdrawn.  Even if he had said they were being withdrawn, that €50 million to €75 million figure should have been fully investigated by the regulator and the regulator should have pursued it and asked him where he got this figure from.  It was an enormous incredible figure.  Coincidentally, the regulator referred it to the ODCA, which came out, after a figure of nearly €75 million was in the air, and stated it was only €255,000.  Would it have dawned on the regulator that there is a difference in these figures and there was something strange happening, where one guy states it is nearly €75 million and the ODCA states it is €255,000?  It seems that the regulator was not very active or particularly interested in the figure Mr. McErlean produced and was happy that the ODCA, which I presume reports to the regulator, came up and stated that it was alright and it was only €255,000, mainly on management charges.  There was no pursuit.  There was no willingness to pursue this.  There was a tremendous alacrity to bury it.  The years 2001 and 2002 were brushed out of history in terms of what the Central Bank was doing about overcharging and the only time they were brought back into history was when they were forced to by Mr. George Lee, Mr. Charlie Bird and others when it was blazed all over RTE television.  It is a sorry story.</p>
+          <p eId="para_63">I want to ask about Goodbody Stockbrokers.  It appears that there was what IFSRA calls, in the extraordinary language which it uses which is almost impossible to decipher, personnel changes in Goodbody Stockbrokers as a result of this series of episodes, which is not one in which the Financial Regulator covers itself in glory because, once again, it does not seem to have discovered anything.  Is it true that one of the personnel involved in these activities was later approved by the Financial Regulator-Central Bank to become an owner-director-operator of a hedge fund?  That is a question to which I seek a specific answer.</p>
+          <p eId="para_64">IFSRA speaks of confidentiality.  Its organisation has not helped itself and this has become ever more apparent to me by it being possibly the most secretive organisation in the State for no reason.  I will cite a personal incident and ask why it happened.  Last summer I met Mr. McErlean and he told me that he had a case under the Data Protection Act which was in midstream at the time and which went in favour of the Financial Regulator, which did not want to give him information about himself for reasons which are inexplicable but which are in keeping with the behaviour of the Financial Regulator.  I rang the Financial Regulator when the case had just ended asking what was its case.  That seemed a reasonable question.  There is no confidentiality about this.  This was something fought in open court.  I was told, "No, certainly not", that I had my chance to go down to the court and the Financial Regulator would not tell me its case.  IFSRA is a public body and people are entitled to know what it states in open court.  I asked could I speak to the barrister, if nobody in the Central Bank wanted to explain to me — nobody in the Central Bank ever wants to explain anything — and the answer to that was "No".  As a Member of the Oireachtas, I was in the position of looking at an issue that had been given to me by one side, but the Central Bank or the Financial Regulator, so paranoid about the case which it had made, about not telling the public anything and about its own history, refused to reveal facts which should be in the public arena.</p>
+          <p eId="para_65">The history of this body is shameful but it does itself no favour today by coming out and trying to confuse us with mumbo-jumbo and disingenuous stuff about management time.  Management time deliberately embraced other charges, and IFSRA ought to know that.  It gave us mumbo-jumbo about management charges and then referred us to the ODCA when IFSRA has the ultimate responsibility for what happened and for the total unwillingness of the Central Bank and IFSRA to investigate this issue because they did not want to know the answer.  They did not want Mr. McErlean to be right.</p>
+        </speech>
+        <speech by="#" eId="spk_15">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_66">I want to respond to some of these comments.  The first point I would make, on behalf of the staff working hard in the Financial Regulator, is we are neither ignorant nor disingenuous.  It is important to say this.  I already alluded to the size of the financial services business in Ireland and the work we do, and it appears that is being lost sight of here.</p>
+          <p eId="para_67">There is an allegation here that we relied on AIB.  First, the Office of the Director of Consumer Affairs is a separate body and perhaps it should be called in here to account for what it did.  It is a bit much to ask me — I have been chairman of IFSRA for ten months — about what happened in 2001 in another statutory body.</p>
+          <p eId="para_68">Second, with regard to the point of relying on other parties' reports, relying on AIB reports, on the foreign exchange investigations we did not so rely.  We got Deloitte, we got Mr. Lauri McDonnell, who is a former Comptroller and Auditor General, to do these investigations.  I ask Senator Ross to remember that.  We did not rely on AIB.  I refer to the Financial Regulator as currently constituted.</p>
+          <p eId="para_69">There is much confusion about this amount of charging and I have made it quite clear here.  We have gone over the records, which date back seven or eight years.  We have identified — this is per AIB's internal audit reports — the total amount of these management fees over a five-year period, not an annual period, was €30.6 million.  It was over several years.  That was the total revenue and is validated by the internal audit, where Mr. McErlean worked for a while.  I am not saying that Mr. McErlean was party to this or not.</p>
+          <p eId="para_70">The internal audit department in a bank reports to the chairman of audit, who is a non-executive board member.  It has a certain credibility and independence within an organisation.  We should not give the message here today to impugn the internal audit function within a bank because it has a particular status within an organisation.  It reports independently to a non-executive director who chairs that function.  It has credibility.  It is also subject to scrutiny by the external auditors of the bank.</p>
+          <p eId="para_71">On the foreign exchange transactions, we, the Financial Regulator at which the committee is looking today, sought the report of Deloitte of London separately and independently.  We involved Mr. Lauri McDonnell, a former Comptroller and Auditor General and that is neither ignorant nor disingenuous.  Regarding the individual at Goodbody Stockbrokers, AIB will come in here next week and we cannot answer that question for confidentiality reasons.</p>
+        </speech>
+        <speech by="#" eId="spk_16">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_72">AIB will be here the following week.</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_73">Whenever AIB comes in, that question is best put to its representatives.  I am speaking to law-makers here today.  If the law is changed to allow us to disclose more information, we will.  The members are frustrated by this.  I am also frustrated.  I would like to be able to say more today but I do not want to end up in court on a criminal offence under section 33AK of the Central Bank Act 1942.  This is a very serious matter.  My colleagues and I take our jobs very seriously and we are not hiding behind anything.  We must comply with the law.  If the Government changes the law we will be very happy.  I worked in the private sector for approximately 30 years and I know how matters should operate.  I have been in the public sector for a while also.  We are a regulatory body.  Imagine if we ended up in court.  We must deal with the real world.</p>
+        </speech>
+        <speech by="#" eId="spk_18">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_74">I want to respond to some of the matters the Senator raised regarding the FX overcharging issue.  The distinction between the Central Bank and the regulator is critically important because of the powers and because of how the regulator was established.  At the time, the legislature decided that the role of the consumer was very important in the new organisation, so much so that it established the statutory post of consumer director, which I had the privilege to be the first to hold, and continue to hold.  Therefore our strategic plan as laid before the Houses was very different to that adopted by a Central Bank with different powers.  It was very clear that one of the reasons we were established was perceived failures in the consumer area in the previous regulatory regime.  That is a matter of record.  That distinction is important for that reason.</p>
+          <p eId="para_75">The Senator is correct to say the initial FX issue was brought to our attention by the whistle blower.  It is untrue to say that nothing was done about it until it was raised by the media.  It was being followed up by the regulator.  We do not go out on the public airwaves every time we pursue a matter, but we pursue it.  Our actions were not in the public domain, but it is wrong to say we were not pursuing it.  The whistle blower subsequently went to the media and played a very important role in assisting us in our investigations.  We could not share the detail of our investigations with the whistle blower at every step.</p>
+          <p eId="para_76">Let us reflect on what we did.  This is very important.  When the FX overcharging happened, we had no powers of sanction and no specific administrative sanction powers.  We had no powers to force AIB to pay back customers as we did.  Somebody could have argued that there was a statute of limitations going back just five years, so somebody could legitimately have argued that we need not have gone back any further.  We used our endeavours to go back to 1996 in some cases to ensure every customer who could be found got his or her money back, was told why and received interest on the money.  That exercise was very extensive.</p>
+          <p eId="para_77">We did not stop there.  We were shocked that a major financial institution would not have systems and controls, and we said this at the time.  We expected major financial institutions to have very good systems and controls for their customers.  When we discovered they had not, we required AIB to carry out a very detailed exercise, which went on over many years, and to invest money in ensuring the systems were right and every time an overcharging is found out, transparently, the customer is told about it.  The reason the customer is told about it is that in our statutory code we required that customers be told how much they were overcharged and they must get their money back.  I know of no jurisdiction or regulator in the world that has statutory protection built into a code.  If I were asked five years ago if I thought that would be necessary I probably would have thought it was not, but that was before we saw the extent of the overcharging practices.</p>
+          <p eId="para_78">We did not stop there.  We thought if this was taking place in one major institution there was a possibility it was taking place in other institutions, so we required a full review of all these matters across all financial institutions.  As a result of that, €180 million went back to customers.  Although some people take the view that those customers were entitled to that money anyway, they would not have got the money back were we not doing our job as we did.  We did not have the powers to sanction or take any further action then, so I strongly believe we did everything we possibly could, including putting into our new code a stipulation that for the future, banks must have systems of control that ensure customers who are overcharged are refunded.  That might be stating the obvious, but at least now when we find that this is not happening we have a statutory code and powers we can use in respect of it.</p>
+          <p eId="para_79">For those reasons I take great exception to any suggestion that there is wrongdoing we do not want to know about, or that we would deliberately want to do something that favoured institutions.  I totally reject that on behalf of all the staff of the regulator who act in the public interest, whose job it is to police these issues.  This policing is preventative as much as anything else and including things in statute, as we have included in the statutory consumer protection code, is a significant preventative mechanism to ensure such practices cannot happen in the future.</p>
+          <p eId="para_80">We operate in a regime of secrecy.  Nevertheless, given the consumer protection mandate we adopted under the Financial Regulator with our new legislation, we published not one but two reports into the AIB issue.  We published an interim report because the issues were being played out in the public domain and consumers were rightly worried about the financial institutions they were dealing with and how the issues were being dealt with.  Although we did not have <i>carte blanche</i> to publish the details of this information, we used our best endeavours to publish two reports so the information could come into the public domain.</p>
+          <p eId="para_81">One of the issues we made public at that time was our concern about how the matter had been dealt with.  Financial institutions, like any other businesses, will make mistakes and those mistakes may be in overcharging, but the real issue is how they are dealt with.  If the financial institution has a system that spots those mistakes, whether through internal audit or systems checks, finds the errors, rectifies them and refunds the customers, that is as it should be.  If, on the other had, when these breaches are identified, they do not appropriately bring those to the attention of the regulator, that is a different matter.  One of the issues that came to light during the FX review was how the issue had not been brought to the regulator's attention.  AIB was required to notify the regulator of its charges and charge accordingly.  It had not done that, and there were several opportunities where it could have done it but did not.  That is why we took the approach we did on this issue.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_19">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_82">I welcome the delegates from the Office of the Financial Regulator.  I commend its website <i>www.itsyourmoney.ie</i>, although perhaps the regulator should change its name to <i>www.itwasyourmoney.ie</i> because there is much pain and suffering.  I accept that changes have occurred.  The fundamental issue is the veracity and truthfulness of the evidence given by Mr. McErlean and to refute in its entirety Mr. Farrell’s saying Mr. McErlean’s allegations were “ill-informed and damaging”.  I want to go through the timeline.</p>
+          <p eId="para_83">I am not nitpicking but the report on the regulator's website says media reports initially alerted the Central Bank to the overcharging in April 2001.  While Ms O'Dea stated it was a whistle blower, the presentation to the joint committee stated that reports in the media alerted the Central Bank initially to the reports of overcharging.  That was in April 2001.</p>
+        </speech>
+        <speech by="#" eId="spk_20">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_84">I can clarify that.  That was in respect of the 2001 issue, at which time an article on that issue appeared in <i>Business and Finance</i>.  The matter to which I referred a moment ago was in respect of the foreign exchange issue that arose in 2004.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_21">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_85">I am simply reading from the witnesses' presentation as I want to get this right.  It notes the Financial Regulator was established in 2003 and that in April 2001, following allegations in the media of overcharging by AIB in that year, the Central Bank contacted AIB.  The allegation made by Mr. McErlean is that the Central Bank knew about it, conducted its own investigation and failed to act to protect consumers.  That is what the presentation refutes.  The point is that this issue was in the papers in April 2001.  By October 2001, however, the Central Bank had dynamite in its hands, namely, the report on insider trading in respect of Goodbody Stockbrokers and Allied Irish Banks.  This was absolute dynamite because it involved allegations of money laundering for which, on indictment in the Circuit Court, any officer of the bank who knew about this matter could face two years in jail.  They could face such sanctions and this is extremely serious stuff.</p>
+          <p eId="para_86">Mr. McErlean only met representatives of the Central Bank subsequently or, in other words, Mr. McErlean came in when all the alarm bells must have been ringing and all the red flags flying.  As he was the group auditor of AIB and was an important man, what he had to say would have been highly important and would have to be taken seriously.  I am drawing on the records given by the Financial Regulator to Mr. McErlean, rather than his own records.  The minutes of the meeting that took place on 14 May stated that Mr. McErlean advised that an issue regarding overcharging of fees, which had been identified in AIB branches, was brought to the audit committee in 2001 and that a decision was taken that all the customers affected should be reimbursed.</p>
+          <p eId="para_87">However, as for the actual work on quantifying the amount, Mr. McErlean did not state, as has Mr. Farrell, that it was €255,000 but that he did not know what was the actual amount.  As Mr. Farrell already stated, Mr. McErlean's legal documentation refers to a possible amount of €50 million to €70 million.  Whatever the amount was, Mr. McErlean's message to the financial authorities was that the identification of customers had not commenced.  This was an extremely serious issue because even after all the information the Central Bank had at that time, he was telling it that the bank in question was not doing its business.  Moreover, at that time, Mr. McErlean was talking to the Central Bank as the group internal auditor.  He was seriously concerned and worried and I believe he was doing a public service.  He was demonstrating there are honest people of integrity within the banking system and as group auditor, he was standing up and telling the authorities what was wrong.  This is the point he made.</p>
+          <p eId="para_88">The second point is that according to the witnesses' records, the second meeting took place in October 2002.  At that time, Mr. McErlean had left the bank, was no longer its employee and consequently could not know what was going on.  While he might have had hearsay evidence, he was not there.  The witnesses' records state that at the aforementioned meeting, Mr. McErlean withdrew the allegations regarding his legal proceedings or, in other words, his legal proceedings had ceased.  As for the overcharging issue, however, the records state Mr. McErlean agreed that these had been or were being addressed by AIB.  How could he have known that when he no longer worked there?  He did not know that.</p>
+          <p eId="para_89">However, although everything else was excised, the data protection information given to him by the Financial Regulator contained the following words:</p>
+          <p class="indent_1" eId="para_90">At this meeting in October 2002, he confirmed he had withdrawn all of his allegations in relation to the legal proceedings.  He continued however to raise the issue of ... Mr. McErlean also raised a fourth issue at this meeting.</p>
+          <p eId="para_91">Mr. McErlean was raising further and other issues with the witnesses, the nature of which is not recorded in the aforementioned documentation.  However, his assertions are true, namely, there was overcharging and it was not being addressed.  His legal proceedings state it amounted to up to €70 million and effectively nothing happened until 2004, when all this information came into the public domain.</p>
+          <p eId="para_92">At the meeting of the Oireachtas joint committee, I believe Dr. O'Reilly stated that neither the senior people within the bank nor the regulator knew about it.  However, Mr. McErlean has total and absolute right, truth and conviction on his side.  While the financial authorities may have been unsure about this issue, at that time the Central Bank knew the most incredible illegal offshore dealings were going on with Goodbody and AIB on an island called Nevin.  It is unacceptable that any financial business would be going on there at all.  While I do not direct these remarks personally at anyone, I simply do not accept the witnesses' presentation and the credibility of Mr. McErlean is absolutely proven.  He is the sort of person that we need to run the office of the Financial Regulator, that is, a person who stood up in the bank, told the truth and tried to insist that wrongs would be righted.  Mr. Farrell's commentary that he was ill-informed and damaging in his comments is self-serving.  While we have very few heroes these days, he is one of the top ones we need. He is a man who suffered greatly as a result of what he did.  I understand he has not worked since 2002 because of his integrity.  What happened to him is disgraceful but I believe his allegations are true and that the Financial Regulator did not act.  During the second part of this meeting, members will go through what did not happen over Goodbodys and will deal with it separately.  My point is I reject the witnesses' comments in this regard.</p>
+          <p eId="para_93">I have to hand a letter from the Irish Stock Exchange, to which I wrote seeking the audit report.  Interestingly, the reply does not talk about the audit report but about reports from the AIB group.  How many reports, if any, did Mr. Farrell receive?  Was there more than one?  While the information is that there was one report and a letter, the Stock Exchange has stated there was more than one report and they should be named.</p>
+          <p eId="para_94">I wish to deal with a second and most important issue, namely, what is contained in the aforementioned reports and how it could be put into the public domain.  While I wonder whether this also is applicable to the Financial Regulator, according to the Irish Stock Exchange the law prevents it from disclosing information concerning the affairs of any member firm, except in certain financial circumstances such as under compulsion of law, providing it for the Financial Regulator or, where consent from the parties involved has been given to disclose the information concerned.  Is the Financial Regulator prepared to write to AIB, which is Goodbody's parent, to ask for its consent to issue these reports? I would have no problem with excising the names of all people from them.</p>
+        </speech>
+        <speech by="#" eId="spk_22">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_95">As there are a number of questions, I will ask my colleague, Mr. George Treacy, to respond with regard to the dates and so on in respect of Mr. McErlean, if that is all right.  Mr. Donncha Connolly will respond on the Goodbody issues as he has all the details.</p>
+        </speech>
+        <speech by="#" eId="spk_23">
+          <from>Mr. George Treacy</from>
+          <p eId="para_96">The Deputy may still be confusing the dates in respect of the two separate and distinct items as we perceive it.  The time management charges and the——</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_24">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_97">I did not mention time management charges.</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from>Mr. George Treacy</from>
+          <p eId="para_98">These are the issues that were discussed.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_26">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_99">No, the issues I raised were the meetings the Central Bank had with Mr. McErlean, what it knew when it met him the first time, the dynamite it had in its hands and whether Mr. McErlean would not be the most important person to believe.</p>
+        </speech>
+        <speech by="#" eId="spk_27">
+          <from>Mr. George Treacy</from>
+          <p eId="para_100">The issues that were raised in respect of overcharging in 2001 and 2002 related to the time management charges.  This is what our records clearly indicate.  The investigations, on foot initially of the whistle blower in 2004, related at first to the foreign exchange overcharging issues.  We subsequently broadened that investigation and the Deputy is correct that this was raised by the whistle blower.  However, the other charging incidences that were uncovered in the following investigations were not on foot of whistle blowers but on foot of the investigation.</p>
+          <p eId="para_101">To return to the other item, I believe Mr. McErlean formally stepped down in late 2002.  The initial item on overcharging in respect of time administration was brought to our attention through the <i>Business and Finance</i> article.  The Central Bank approached AIB, not the reverse.  Discussions were held with AIB, including Mr. McErlean in his then role.  I believe AIB under Mr. McErlean or, at least his department, commenced an investigation on foot of the article.  I agree that the recommendations made by internal audit were not pursued with sufficient alacrity but that does not take away from the fact that the programme was completed by AIB in late 2002.  We were of the opinion at the time that internal audit should conduct a review of the refunding process and that was done.  Members can discuss these matters when they meet representatives of the bank.  The quality check revealed certain small issues which were resolved but internal audit basically signed off on the process.</p>
+          <p eId="para_102">In regard to the total revenue of €30.4 million from this source, I take on board the comments by Senator Ross that several items were included but if they were so treated surely they would be shown as revenue for that category of charges.  There is a clear discrepancy between the figure that appeared in the statement of claim by Mr. McErlean of €50 million to €75 million in overcharging and the figure of €255,000.  That is a vast difference but we are not able to reconcile Mr. McErlean's figures from our review of the data.  Senator Ross seems to suggest that all the other charges were lumped together but that is not supported by our records.  We are, therefore, in a difficult position whereby figures are being thrown at the Financial Regulator.  The facts as we have deduced them from our review of all the files are set out in the statement.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_28">
+          <from>Senator Shane Ross</from>
+          <p eId="para_103">I am saying that the claim of €50 million to €75 million obviously represented a general figure for overcharging.  One would have to be a nut case to claim that a sum within that range was solely based on management charges because we know it was not possible.  This is evidence that it was a general overcharging figure and that Mr. McErlean did not mean it to be restricted to administrative or management charges.  He was simply stating that there was a culture of overcharging at the bank, including in foreign exchange.  The figure provides the circumstantial evidence to support that claim.</p>
+        </speech>
+        <speech by="#" eId="spk_29">
+          <from>Mr. George Treacy</from>
+          <p eId="para_104">A review of our records found that the essential allegation in regard to overcharging pertained to time management.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_30">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_105">No.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_31">
+          <from>Senator Shane Ross</from>
+          <p eId="para_106">It was one of them.  We know it could not be the total.</p>
+        </speech>
+        <speech by="#" eId="spk_32">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_107">We have to rely on our records which extend back to 2001.  If Senator Ross has alternative records, perhaps he should produce them.  To be clear, what was raised per the records was time overcharging.  This issue was resolved to the satisfaction of the Office of the Director of Consumer Affairs, a separate body which at that time had a mandate in these matters.  It may be the case that the wrong people are being questioned at present because we have to proceed on the basis of what is written down.  Nobody on this side of the room was present for the events in question.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_33">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_108">The delegation has a corporate responsibility to be accountable and transparent.  That is what we want.</p>
+        </speech>
+        <speech by="#" eId="spk_34">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_109">Yes.  We cannot report to the committee something other than what the record shows.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_35">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_110">The truth.</p>
+        </speech>
+        <speech by="#" eId="spk_36">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_111">The Deputy would not expect us to do any more or less.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_37">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_112">I am not making any such suggestion.  When the report was received on the Goodbody trading issue——</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_113">I will deal with that presently.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_39">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_114">Given the credibility of Mr. McErlean, it was possible these people could go to jail.</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_115">May I respond to Goodbody?</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_41">
+          <from>Chairman</from>
+          <p eId="para_116">Allow one voice at a time.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_42">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_117">These charges would have to be taken very seriously.</p>
+        </speech>
+        <speech by="#" eId="spk_43">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_118">The Goodbody report referred to——</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_44">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_119">I am saying that when he raised the issue of overcharging, the other allegation was already known.  A critical person with whom the Financial Regulator requested a meeting gave it information about overcharging, and that would further enhance the known accusations about the practices of AIB and Goodbody.  This man cannot be rubbished.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_45">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_120">I want to make a brief point on bank charges.  A reply issued on 15 June to letters received from Mr. McErlean on 4 and 7 June regarding the disputed claim that he withdrew his allegations at a meeting in October 2002.  A whistle blower came forward in April 2004 in respect of foreign exchange charges and Deloitte was appointed in August 2004 to conduct an investigation.  In August 2004 the Financial Regulator would have been aware that Mr. McErlean had raised his concerns about overcharging with that body rather than with the Office of the Director of Consumer Affairs.  The regulator's awareness of the nature of the problem is revealed in its statement that the total amount in administrative charges raised by AIB was €30 million between 1996 and 2001.  That should have set off alarm bells.</p>
+          <p eId="para_121">When serious allegations emerged of a cover-up at AIB, I cannot understand why the Deloitte investigation was not widened to cover all major charges at the bank.  Were the specific allegations made by a former internal auditor with AIB addressed?  Mr. Farrell clearly believes the internal audit function is highly important.  This matter had nothing to do with the Office of the Director of Consumer Affairs.</p>
+          <p eId="para_122">Mr. McErlean stated that he gave evidence to Deloitte on these issues.  No mention was made of these allegations in a subsequent press statement or by Mr. O'Reilly in his appearance before an Oireachtas committee.</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from>Mr. George Treacy</from>
+          <p eId="para_123">Mr. McErlean has a copy of his testimony to Deloitte which he may be free to disclose if he so wishes.  A number of allegations were made against named individuals.  Those who presented their testimony, including Mr. McErlean, sought confidentiality and were given assurances in this regard.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_47">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_124">Did the Financial Regulator broaden its investigation to take that into account?  That is the key.</p>
+        </speech>
+        <speech by="#" eId="spk_48">
+          <from>Mr. George Treacy</from>
+          <p eId="para_125">Yes.  In regard to the Deloitte report, the initial allegation concerned foreign exchange overcharging and allegations that AIB knew about the practice but did not inform us.  That investigation was subsequently widened to cover all section 149 notification charges and later all charging issues.  This was to determine if there were overcharging categories there.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_49">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_126">Were management charges included?  AIB discontinued management charges from 2001, which coincides with the time Mr. McErlean made the allegations.  Did this not set off alarm bells?  Did the regulator not think there were problems?</p>
+        </speech>
+        <speech by="#JoeBehan" eId="spk_50">
+          <from>Deputy Joe Behan</from>
+          <p eId="para_127">May we hear some of the answers before we take more questions?</p>
+        </speech>
+        <speech by="#" eId="spk_51">
+          <from>Mr. George Treacy</from>
+          <p eId="para_128">Much of the very serious and significant overcharging in AIB related to FX overcharging, so much of the initial investigation and inquiries by Deloitte and us were on that issue, and they were then broadened.  I will answer one of the background questions that has not been asked, that is, whether the FX overcharging issue was reported to us at any stage before the whistle blowing.  No, we were not aware of that.  In our questioning of individuals subsequently — members may wish to refer to Mr. McErlean directly on that — there was no question of our being informed of that charge.  That would be demonstrated in the testimonies given if members wish to examine those.</p>
+          <p eId="para_129">We did not request that the time management charge be specifically examined.  We asked for a broad sweep of all outstanding charges and a review of those charges.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_52">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_130">Were management charges included in that?</p>
+        </speech>
+        <speech by="#" eId="spk_53">
+          <from>Mr. George Treacy</from>
+          <p eId="para_131">I think I have answered that question.  No.  I am not sure we would have consciously said not to do that because that issue is closed.  That issue was closed in late 2002 or early 2003.  The whole investigation at that time was into amounts owing to customers and overcharging that was taking place at that time.  There may be other overcharging incidences that were closed in 2001 and 2002, but that report did not cover that.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_54">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_132">Why not?</p>
+        </speech>
+        <speech by="#" eId="spk_55">
+          <from>Mr. George Treacy</from>
+          <p eId="para_133">Because that investigation was into overcharging and refunds due to customers at that time.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_56">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_134">As Mr. McErlean brought specific allegations would the regulator not have felt it warranted being specifically included as an item in the terms of reference of Deloitte?</p>
+        </speech>
+        <speech by="#" eId="spk_57">
+          <from>Mr. George Treacy</from>
+          <p eId="para_135">That matter was dealt with in our statement.  The issue was followed up by the Central Bank and the ODCE at the time, and it was closed off in early 2003.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_58">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_136">Not according to Mr. McErlean.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_59">
+          <from>Chairman</from>
+          <p eId="para_137">To go back on the Goodbody issues, we have doubled up on questions.  We want to clarify that point and return to members.</p>
+        </speech>
+        <speech by="#" eId="spk_60">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_138">There were a couple of questions about Goodbody Stockbrokers, first on the number of reports.  This matter was first brought to our attention on 19 October 2001 in the AIB group internal audit report we referred to in our statement.  We received one subsequent report on this matter from AIB, entitled AIB Group Compliance Investigation into AIB Share Dealing.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_61">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_139">Why did the regulator not refer to that in its statement?</p>
+        </speech>
+        <speech by="#" eId="spk_62">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_140">Because we were explaining how the matter was brought to our attention.  This just built on the original report identifying some compliance weaknesses that had been identified in Goodbody Stockbrokers by group compliance.  It was not left out for any sinister reason.  It was just that the main issues were addressed in the group internal audit.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_63">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_141">I want to go over that again.  The regulator received two reports from AIB and a management letter.</p>
+        </speech>
+        <speech by="#" eId="spk_64">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_142">We received a management letter in conjunction with the submission of the internal audit report which set out some of the measures AIB and Goodbody were taking to address the weaknesses that had been identified in the internal audit report.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_65">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_143">What was the summary of the second report?  What was the result of that?</p>
+        </speech>
+        <speech by="#" eId="spk_66">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_144">The summary of the second report was on compliance issues.  Problems had arisen relating to the original arrangements put in place and how they were subsequently operated.  Concerns were raised on how these matters were overseen by compliance within Goodbody Stockbrokers and the changes that needed to be made in Goodbody's compliance to ensure these matters would not arise in the future in terms of strengthening its resources, putting in place better monitoring plans, compliance plans and such matters.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_67">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_145">That is a very serious, important and definitive document on how a wholly-owned subsidiary stockbroker of a bank should operate.</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_146">Yes, it is very important.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_69">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_147">Why does Mr. Connolly not refer to it in his statement today?  He has a summary of the first report, or is that part of the second report?  I am confused.  I am not trying to trap Mr. Connolly, I am just trying to understand what exactly we do not know that the regulator knows and has not told us about.</p>
+        </speech>
+        <speech by="#" eId="spk_70">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_148">I do not think there is anything in the second report that is shocking or that is not in the first report.  The first report sets out what the problems were regarding how the arrangements——</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_71">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_149">That is the summary we heard today.  What is different in the second report?</p>
+        </speech>
+        <speech by="#" eId="spk_72">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_150">The second report deals with compliance within Goodbody Stockbrokers, the weaknesses in compliance, the failure to pick up the issues found in the AIB internal audit report and the changes necessary to ensure that would not happen in the future.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_73">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_151">What was the date of that report?</p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_152">It was November 2001, but I cannot remember the exact date.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_75">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_153">It is very important.  Could Mr. Connolly get me that date because it is critical?</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_76">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_154">It is obvious that the legislation was not in place to sort out many of these issues and the regulator fell between two stools after the 2003 Act brought the whole thing into being.  We are discussing an historical matter today, and for the past ten years we have been getting bogged down in bank charges.  I sat on the finance committee when this came up and we had this all sorted out and Ms O'Dea came in to us regularly.</p>
+          <p eId="para_155">Was Mr. McErlean dismissed or did he resign?  What contact and how many meetings did the regulator have with him while he was in the bank?  Ireland is in great financial difficulty and we regularly try to discredit our banking system around the committee tables of this House.  We did not talk about the recapitalisation of our banks, or the reckless lending that went on for half a decade.  We should discuss these issues and not get the British and American press to discredit the Irish financial business across the world and put us further into difficulty.  We are destroying the credibility of Ireland's financial business.  I have views on that but in principle I have to say we are doing no good to ourselves and the banking institutions.  We will further upset the liquidity of our institutions and foreign business coming in here.</p>
+          <p eId="para_156">I appeal to the members of the Opposition, who might see a vote or two on this issue, to be more prudent in their judgment of arguments on banking issues around this and other tables.  I agree thoroughly with the witnesses, who do an excellent job on behalf of the State and work within the legislative framework given to them.  I have come here to many meetings.  I ask that common sense prevail and that we be more honest with ourselves and not try to hype up something that is a bit ridiculous and historical.</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_157">I could not have said it much better myself.  I thank the Deputy; it needs to be said.  I do not mind coming in here and taking constructive criticism.  We are a public body and are accountable to the public.  I have been chairman of this body since May 2008 and see it as a privilege to represent it.  We have some 400 people who are working hard, regulating some 13,000 entities in this country, which employ in total more than 60,000 people.  I am not asking for special treatment.  I fully agree with the Deputy that where criticism is warranted it should be given but we have to be conscious of this.  As somebody who worked in international banking for many years, I agree with Deputy Ned O'Keeffe's sentiments on this matter.</p>
+          <p eId="para_158">I am not taking the line that this should be a shield to protect us from questioning in a rational and orderly manner.  However, it is vital that we remember these factors when we have these discussions.  While we have to be accountable, we are discussing something that happened seven or eight years ago and we must look to the future and see how we can fix the things that are wrong.  Things went wrong and we are still in fixing mode.  We must get on and do that.  It is important for the country and the industry that we go about fixing these matters and that involves not just the regulator but the legislators.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_78">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_159">I asked whether Mr. McErlean was dismissed or resigned and what contact the regulator had with him during his time as internal auditor in the bank.  How many years did he serve as internal auditor?  How many times did Mr. Treacy or someone else talk to him?</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from>Mr. George Treacy</from>
+          <p eId="para_160">I cannot give numbers but Mr. McErlean was the head of group internal audit for four and a half years.  I stand to be corrected.  He stepped down in March 2002 and resigned later that year.  It is not for me to say.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_80">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_161">People have talked to me and written to me.  They have a chip on their shoulders about banks because they were threatened with legal proceedings when they had not paid overdrafts and long-standing debts.  If we are to adhere to this, dishonesty must go out the window.  Many people are now taking advantage of the situation we are in.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_81">
+          <from>Senator Paul Coghlan</from>
+          <p eId="para_162">I welcome the Financial Regulator.  I worked in banking for several years and I would not do anything to damage our banking institutions.  Without restoring stability to the banking system we will not have the economic recovery we wish for.  I apologise if there was a remark I am picking up on that suggests Mr. McErlean was ill-informed because I was not present for that part of the meeting.  I do not know Mr. McErlean personally and never met him when I was in banking.  He struck me as a highly credible witness.  I do not want to say anything against that man or his character.  He spoke very honestly before the committee.  While we do not want to get involved in a damaging exercise against the banks, we must protect people's reputation, as the Chairman stated.  We must be respectful and must compartmentalise matters.</p>
+          <p eId="para_163">At the moment we are dealing with this and Mr. Farrell has written us a letter and spoken this morning.  As legislators, we must operate in the full light of day and believe in openness, transparency and accountability, which is a new god.  I refer to Mr. Farrell's statement, in which he refers to widening the review, initiating an industry-wide review to check compliance with sections 149 and 149A of the Consumer Credit Act in respect of all institutions.  What were these other institutions?  How much compensation was offered?  In an answer given by Ms Mary O'Dea, was the figure €180 million?  Was that fully refunded?  With respect, there is no way we want to perpetuate problems and it would be great if we can close the book on matters that are in the past.  I ask for a commentary on the industry-wide review because we have no detail on it.</p>
+        </speech>
+        <speech by="#" eId="spk_82">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_164">The term "ill-informed" means that all the facts were not known to Mr. McErlean as far as we understand.  When we refer to ill-informed allegations, it is not intended to reflect on Mr. McErlean's good faith.  I do not know what we can say about the other institutions involved.</p>
+        </speech>
+        <speech by="#" eId="spk_83">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_165">There were 249 separate charges.  I cannot recall the number of institutions but we published it in our annual report.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_84">
+          <from>Senator Paul Coghlan</from>
+          <p eId="para_166">Is it on the record?</p>
+        </speech>
+        <speech by="#" eId="spk_85">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_167">It is on the record.  At that time, as we moved forward——</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_86">
+          <from>Senator Paul Coghlan</from>
+          <p eId="para_168">The Financial Regulator probably named every other bank if it went through all banks.  I presume some of the practices were not confined to one institution.  All banks were probably listed.</p>
+        </speech>
+        <speech by="#" eId="spk_87">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_169">Let us be clear that it is not just banks but insurance companies and other entities that were engaged in these practices.  We saw the real issue being the systems that banks use.  For example, where a customer gets a discount on a particular product, the IT system is set up for that discount.  Some years later, the IT system is changed but the controls are not set so that the system continues to give the customer the discount.  People are busy and do not notice these items on their statements.  They are effectively being overcharged and many cases we have seen relate to how IT systems pick up discounts as described.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_88">
+          <from>Senator Paul Coghlan</from>
+          <p eId="para_170">It is probably on the record but can Ms O'Dea tell me if this applies to all financial institutions?  It was industry-wide.  Can Ms O'Dea confirm this?  I imagine the Financial Regulator must have found fault in all of them.</p>
+        </speech>
+        <speech by="#" eId="spk_89">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_171">I do not know if it is true to say all but it is true to say almost all because of the number involved.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_90">
+          <from>Senator Paul Coghlan</from>
+          <p eId="para_172">It was prevalent industry-wide.</p>
+        </speech>
+        <speech by="#" eId="spk_91">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_173">Yes, but the scale is important.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_92">
+          <from>Senator Paul Coghlan</from>
+          <p eId="para_174">Is Ms O'Dea telling me the scale was different between different banks?</p>
+        </speech>
+        <speech by="#" eId="spk_93">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_175">Absolutely.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_94">
+          <from>Senator Paul Coghlan</from>
+          <p eId="para_176">Some banks might be almost white knights.</p>
+        </speech>
+        <speech by="#" eId="spk_95">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_177">One might expect the scale to be larger where there are vast amounts of retail transactions on the books.  One would expect that but equally one would expect control systems to pick this up.</p>
+        </speech>
+        <speech by="#PaulCoghlan" eId="spk_96">
+          <from>Senator Paul Coghlan</from>
+          <p eId="para_178">Can Ms O'Dea refer me to a publication?  Where can I get the further detail I seek if she cannot provide it off the top of her head?</p>
+        </speech>
+        <speech by="#" eId="spk_97">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_179">We have published tables in the various annual reports dealing with the overcharging issues.  We can write to the Senator to extract that information for him.</p>
+        </speech>
+        <speech by="#JoeBehan" eId="spk_98">
+          <from>Deputy Joe Behan</from>
+          <p eId="para_180">It is vital that people have confidence in their banking system and in the ability of the regulatory authority to oversee the banking and financial system.  On that basis, it is important that those with legitimate questions are answered.  That is what is happening today and I hope it will continue.</p>
+          <p eId="para_181">We must have a reality check today.  There are tens of thousands of mortgage holders worried about whether they will be able to pay their mortgages over the next couple of years.  I refer to the regulator's statement: "In our consumer role, we have today issued a statement warning lenders to treat their customers fairly when a mortgage holder contacts them to address issues before they become problematic."  I welcome that warning but I have not seen the text of it.  We must not let the opportunity pass without the chairman or chief executive indicating what that warning is and how it will be policed.  Given the number of people losing jobs and seriously concerned about maintaining a roof over their heads, it is important that the regulator can act so that this fairness applies.</p>
+          <p eId="para_182">An issue that is coming more and more to the fore is the number of people on fixed rate mortgages, who understandably felt this was the right thing to do at the time.  They are being absolutely penalised and put to the pin of their collars because they are on a fixed rate and banks are charging huge penalties to get out of that.  Can that issue be addressed by the regulator?  This committee should consider inviting each bank separately to ask how it intends to comply with the warning issued today.  It is vital for those suffering and worried that we get to grips with this issue to give the same protection as is being offered by the Government to others who have difficulties with the banks on a much larger scale and have done more damage to the country by their actions in the past.</p>
+        </speech>
+        <speech by="#" eId="spk_99">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_183">Ms O'Dea can respond to that.</p>
+        </speech>
+        <speech by="#" eId="spk_100">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_184">The Deputy is correct that people find themselves in serious circumstances in respect of the affordability of their mortgages and how they can continue to make payments, especially if one has hours cut or loses a job.  It is a difficult time for consumers.  The website <i>www.itsyourmoney.ie</i> was mentioned.  One thousand consumers come to us every week for information about financial products.  The information they seek understandably concerns the Government guarantee and how their savings are protected.  They also ask how they can manage in this situation.  We have updated information on our website in connection with this warning to help people manage in these difficult times.   We have introduced a statutory code covering how to handle mortgage arrears.  When people find themselves in arrears the institution must work through the code on how to handle this.</p>
+          <p eId="para_185">There may be a lacuna in the code regarding somebody who while actively managing his or her situation approaches the institution before getting into arrears.  We have information from consumers and mortgage advisers to the effect that when some consumers have approached the institutions they have said they can help but the consumers must switch out of their advantageous tracker mortgages.  A tracker mortgage is now a special product because it has a great advantage for consumers, while they cost financial institutions that sold them in the first place.  We tell consumers that their tracker mortgages are advantageous and they should think very carefully if they are tempted to move out of them to change their repayments.  We warn the financial institutions that they should not have to wait until the person gets into arrears before dealing with the problem.  If somebody comes to them in advance we would like to see them act in the customer's best interests, as the statutory code requires them to do.  That is important.</p>
+          <p eId="para_186">The fixed mortgage issue is more difficult.  The customers who entered into this did so with a view to having certainty about their payments.  Nobody knew what would happen.  In many of those cases the institution has funded and offset the fixed mortgage with a high level of financing so switching out of it involves a large cost to the institution.  We expect the financial institution to recognise and acknowledge that a person is having difficulty in meeting his or her repayments and to work with that person to come up with a solution to help him or her to pay it over time.</p>
+          <p eId="para_187">Mr. Treacy may wish to say something more about the fixed mortgage.</p>
+        </speech>
+        <speech by="#" eId="spk_101">
+          <from>Mr. George Treacy</from>
+          <p eId="para_188">That unfortunately is a difficulty and I am not sure how it can be resolved without some legislation.</p>
+        </speech>
+        <speech by="#JoeBehan" eId="spk_102">
+          <from>Deputy Joe Behan</from>
+          <p eId="para_189">It is interesting that the chief executive has indicated that the banks are asking people to switch out of a tracker mortgage which is advantageous to the consumer but not to the bank.  They seem to apply pressure on people to get that kind of concession on the basis that they will treat them more generously but they apply the full penalty when a consumer is trapped in a fixed mortgage.  Is there nothing the regulator or this committee can do to talk to the banks about helping these people who are in a dire position?</p>
+        </speech>
+        <speech by="#" eId="spk_103">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_190">We are collecting data from the institutions and part of the letter I have sent them is to collect data regarding this matter.  When we receive the consumer complaints we are not sure whether they are representative of a population or if the practice is widespread.  We need to ascertain the facts surrounding it but we wanted to move quickly to warn consumers and financial institutions that this is not an acceptable practice.</p>
+        </speech>
+        <speech by="#" eId="spk_104">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_191">Moving borrowers off tracker mortgages if there is a problem is a very serious matter and should be tackled.  We are of the view that banks should not take advantage of consumers by moving them off the low rate tracker mortgages when they get into difficulty.  The fixed rate issue is more difficult but moving people off tracker mortgages should be a no-no.  I agree that banks should be called to account before the committee as we are.  Why not?</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_105">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_192">Companies like Start Mortgages are extremely hard on customers and their interest rates are probably higher than those on some credit cards.  People borrowed from them because they could not borrow from anybody else and they are suffering because Start is really a sub-prime lender.  Either the Government needs to intervene or the regulator needs to make a report to the effect that people on these mortgages could shift on to traditional ones because it would be a significant saving for them.  I know people who would save maybe €1,000 per month if they changed.</p>
+          <p eId="para_193">Some of my constituents have been quoted €20,000 or €14,000 as a penalty for moving from a fixed to variable rate mortgage.  Everybody expects a penalty but it should be fixed and involve some fairness and equity.</p>
+        </speech>
+        <speech by="#" eId="spk_106">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_194">I agree with the Deputy.  There has to be an agreed methodology.  If somebody fixed a mortgage three years ago for five years the bank has positioned its funding arrangements to lock in this funding on the other side, in the forward futures market.  If the borrower wants to opt out there is a loss for the bank or the borrower and somebody must pay.  We do not want the bank to apply a methodology that is not even-handed.  Recouping the loss is one thing but capitalising on a problem is another.  The regulator has a role in ensuring that the methodology that banks apply in such cases is fair.  The Deputy's point is very good.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_107">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_195">I want an answer to my question about what the stock exchange has told me, that with the agreement of the parties involved, it can release the reports.  I asked the regulator if it would be prepared to write to AIB Goodbody to release, without naming the persons concerned, those two reports and the letter.</p>
+        </speech>
+        <speech by="#" eId="spk_108">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_196">Absolutely, or the Stock Exchange may well give them directly.  If it gives consent to us I do not see why it would not give them directly to the committee.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_109">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_197">Will Ms O'Dea undertake to write to the stock exchange today and to send the reports to the committee?</p>
+        </speech>
+        <speech by="#" eId="spk_110">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_198">Yes.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_111">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_199">I am not a lawyer but there is a saying to the effect that justice must be done even though the heavens fall, in other words, the truth must come out no matter what it costs for the people concerned.  I acknowledge the regulator's comments about Mr. McErlean, that he always acted with integrity.  When he was called to the meetings he told the truth as he saw it.  He sought records from the regulator which he did not get.  I am not criticising the regulator.  He went to the Data Protection Commissioner and finally to the Circuit Court to be vindicated.  Only after that process did he come here.  He continued that process only because he believes that the Financial Regulator did not tell the truth about him in 2004 when it said at the time that the matter was not reported in AIB.  He was aggrieved about that.</p>
+          <p eId="para_200">The other side of the story is that the heavens have fallen because the country is in hock for up to probably €90 billion.  Unless we know what happened we will never be able to change it.  We must get to the root of these issues.  Until we get the process clean and weed the crooks out of our banks and politics we will not have a stable system with integrity.  People do not believe that the banks have acted with integrity.  The evidence today is that they ripped people off left, right and centre and did not give a bloody damn about it.  We must go through this process and those who are accountable must be named and shamed.  If bringing them before this committee and putting them through the hoops is part of that process that has to happen.  Making them accountable, getting at the truth and finding out what shenanigans were going on at Goodbody Stockbrokers and AIB and what was going on in the regulator's office does not do down the banking system.  That is the purpose of this process.  We are determined to follow this through to the end so that when it does change it will change forever.  If it was not for people like Eugene McErlean, we would not know anything about this, particularly the Goodbody issue and the two reports that we will hopefully get now.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_112">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_201">I want to go back to the investigation by Deloitte.  A total of €65 million was repaid.  What was the breakdown between overcharging for foreign exchange and general overcharging?</p>
+          <p eId="para_202">We spoke about the banks and mortgages.  The former regulator, Patrick Neary, appeared before the Joint Committee on Finance and the Public Service on 14 October, perhaps the same day as Mary O'Dea.  He referred to the speculative lending to the construction and property development sector in Ireland of €39.1 billion.  He stated that €24 billion of that is supported by additional collateral or alternative sources of cash-flow, leaving a balance of €15 billion secured directly on the underlying property.  He also stated that this means the Irish banks covered by the scheme have a total regulator capital base of €42 billion.  What is the difference between the €39.1 billion that Patrick Neary mentioned on 14 October and the €90 billion figure that has been given for the national asset management agency?  Of the six Irish banks that are covered, what is the current capital base?</p>
+        </speech>
+        <speech by="#" eId="spk_113">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_203">Before we come to that I would like to respond to Deputy O'Dowd.  We are not implying that Mr. McErlean acted other than in good faith.  I assure the committee that we are here to tell the truth</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_114">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_204">I accept that.</p>
+        </speech>
+        <speech by="#" eId="spk_115">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_205">The point we want to make clear here is that we have nothing to hide.  We have gone back to the records and have done a thorough job to get to the truth of these matters and to bring it here today in our report.  There will be a difference of opinion but I assure the committee that we have brought the facts as we have uncovered them in the files on these matters.  On behalf of those working for the regulator, I have never found them to act with anything but integrity and fairness in their dealings.  They are constrained in terms of confidentiality to the frustration of everyone here but in no way have I ever found anyone who did not act with integrity and fairness in their dealings with people.  What we have brought is our honest appraisal of the facts.</p>
+        </speech>
+        <speech by="#" eId="spk_116">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_206">Deputy O'Dowd mentioned sub-prime mortgages.  That type of mortgage lending was unregulated and we approached the Department of Finance to say that the protections set out in the consumer protection code for other consumers should apply to those entities.  They have been brought within our regulatory net since the start of 2008.  We gave no grace period and immediately applied the consumer protection code, including a suitability requirement.  Since 2007, when anyone gets a loan of any kind, the lender is obliged to give a loan that is suitable and must be able to demonstrate after the fact that it was suitable.  With hindsight, that provision should have been in place 20 years ago — we must take into account the person's circumstances at the time.  People may have had two incomes and not have expected to lose one of them.  It was a significant achievement for the regulator to have included those requirements and I do not know of anywhere else that has such requirements in place.</p>
+          <p eId="para_207">On our website, which Deputy O'Dowd kindly plugged, we have a great deal of information on sub-prime lending, particularly how to switch from it because a person's credit history has a lifetime.  After a period of years, usually five years, if a person has met his repayments on a sub-prime mortgage, he will probably get a mortgage elsewhere.  We advocate that change.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_117">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_208">I accept that but I found constituents who defaulted on one payment, were told they were reported and were then told by the bank that they cannot get a loan.  They are screwed to the wall.  Fairness should be an issue, where someone who defaults on a sub-prime mortgage should be able to get out of it.  The penalties are fierce because they are stuck for at least a year.</p>
+        </speech>
+        <speech by="#" eId="spk_118">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_209">We have applied the mortgage code to sub-prime lenders.  The code that applied to banks was set out by the Irish Bankers Federation and did not apply to them.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_119">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_210">The Irish Credit Bureau records the non-payment automatically.  The banks will not then give the consumer a loan he can pay because he has defaulted on the loan he cannot pay.</p>
+        </speech>
+        <speech by="#" eId="spk_120">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_211">A key aspect of suitability is the ability of the customer to pay back the loan.  Hard as it is, sometimes a consumer is better off not getting a loan he cannot afford to pay back.  We expect the banks to exercise that judgment, to say that a consumer cannot afford to pay a loan back.  We need that information and encourage consumers to be honest in the information they provide for the assessment.  The code also applies to brokers.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_121">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_212">Some brokers seem to be tied to certain lenders.  Poorer people might go to a particular place to get a loan but cannot pay it back because it was a con job but they are destroyed by a system that sucks them in and bleeds them dry.  It is like going to a money lender except it says on the door that the company is regulated by the Financial Regulator.</p>
+        </speech>
+        <speech by="#" eId="spk_122">
+          <from>Mr. George Treacy</from>
+          <p eId="para_213">Mortgage brokers are required by law to have appointments and some of them will have only one but they must make that clear.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_123">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_214">There should be an independent audit of what they are doing.</p>
+        </speech>
+        <speech by="#" eId="spk_124">
+          <from>Mr. George Treacy</from>
+          <p eId="para_215">We do that.</p>
+        </speech>
+        <speech by="#" eId="spk_125">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_216">Sometimes consumers think brokers are brokering the entire market, leading them to think it is a one stop shop but it may not be.  We require that brokers make that clear.  Even if it is clear, however, if a consumer is looking for a mortgage, he may not be taking all of that information into account.  We are trying to make people aware of this through our information campaigns and encourage people not to have all their products with one broker.  One broker might be good for one product but no so good for another.  Our website has live and up to date quotations on many products.</p>
+        </speech>
+        <speech by="#" eId="spk_126">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_217">The €90 billion figure being discussed in the context of NAMA relates to €62 billion in land and development loans outstanding to the banks then €20 billion or €30 billion of investment property loans to large developers.  The figures quoted by Mr. Neary related to land and development figures that were considered to be speculative on the basis that there was no contracted money due to the developers for those loans.  The only repayment would rely on the underlying property being sold or other collateral the developer may have had.  There was no contracted sale in regard to that loan.  It was a subset of the total figure for land and development.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_127">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_218">I would like clarification on that point.  Mr. Connolly states that the figure provided by Mr. Neary was a subjective figure that IFSRA took to be loans in regard to which no development had taken place.  That needs to be clarified because we were told that the capital base was €42 billion and the figure for speculative loans was €39 billion.  I asked Mr. Neary how he would react if those loans of €39 billion could not be repaid and he replied that there was an adequate base of €42 billion to cover that.  Looking at this now, those figures did not represent the position at the time because clearly the amount of property-related loans was of the order of €62 billion.  Am I not correct?  It was virtually double the figure.</p>
+        </speech>
+        <speech by="#" eId="spk_128">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_219">I think — this is subject to confirmation — that the €90 billion talked about now extends beyond the six banks.  That may be where the divergence arises.  I will have to check that because I have not seen the National Asset Management Agency press release.</p>
+        </speech>
+        <speech by="#" eId="spk_129">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_220">No it does not.  The €90 billion relates to the loans of the six covered institutions and €60 billion of that relates to land and development loans.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_130">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_221">The information we were given, which would have been in the public domain, was that the speculative loans were covered by the capital base of the banks.  That does not appear to have been the case.  Mr. Connolly states that €62 billion is in respect of land related loans.  That is effectively €20 billion more than the figure of €39.1 billion given at the time.  We are moving into uncharted territory here.  What is the current capital base of the six institutions?</p>
+        </speech>
+        <speech by="#" eId="spk_131">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_222">With regard to the figures, I understand that the €39 billion was taken from figures from the Central Bank back in June.  That figure was deemed to be speculative.  It was a subset of a larger figure, which is the €62 billion to which the Deputy refers.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_132">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_223">Were they figures indicated by the Central Bank or figures extracted by the Financial Regulator?  It is highly important and highly significant.  We are now in a situation whereby the Government seeks to set up a vehicle through the National Treasury Management Agency and borrow and potentially increase our national debt in the long term to a level of €200 billion plus.  It is extremely important that we know what the capital base of the banks is, and they fall under the regulation of the Financial Regulator.  The sum of €39.1 billion was the figure at the time.  What should the current figure be?</p>
+        </speech>
+        <speech by="#" eId="spk_133">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_224">The €39 billion relates to speculative lending to construction and property development in Ireland, of which €24 billion is supported by additional collateral or alternative sources of cash flow and realisable security.  The €80 billion to €90 billion is a guideline from the Government which is subject to further analysis and scrutiny.  I am reading now from a briefing.  Regarding the €62.6 billion in respect of land and development, plus another €20 billion to €30 billion of large cases attached to land and development customers and large risky investments, the €39 billion is the speculative lending to construction and property development.  That is the lowest category.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_134">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_225">The issue is that the capital base happened to be just short of €3 billion higher in speculative lending.  I asked Mr. Neary a specific question and he effectively restated that the speculative lending was covered by the capital base.  We are now finding that the level of speculative lending to construction is far higher in the Irish banks and I believe the figure at the time should have dealt with the full position rather than a confined position.  What I want to know is the current capital base of the six covered institutions.  Can Mr. Connolly elaborate on that figure?</p>
+        </speech>
+        <speech by="#" eId="spk_135">
+          <from>Mr. Donncha Connolly</from>
+          <p eId="para_226">I do not know the exact figure.  I can get it for the Deputy.  It would be slightly less than €42 billion because it has come down as a result of provisions the banks have taken in regard to their loans in the interim period.  The additional €3.5 billion the Bank of Ireland has received from the Government and the €3.5 to AIB are currently going through a due diligence process.  That position has only changed as a result of the provisions taken on by the banks.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_136">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_227">Has Mr. Bacon asked for IFSRA's views on the National Asset Management Agency as a body?  What are IFSRA's views?</p>
+        </speech>
+        <speech by="#" eId="spk_137">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_228">This project has been led by Mr. Peter Bacon and there has been some contact with the regulator on this matter.  The regulator believes it is important that the balance sheets be cleaned up.  There is a great deal of debate as to the best way to do this.  The advantage of this proposal is that it brings a certain finality as opposed to an insurance scheme.  It has greater transparency.  It is not without challenges, to put it mildly.  However, it is important, and the regulator believes it is important, that the balance sheets be cleaned up, and this seems to be the best way to go about it.  It is a big project.  It is a big logistical task, but it is being addressed by a good agency with many competent people.  It will need many more competent people because it is a very big project.  It is essential for the country that this project be embarked on without delay.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_138">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_229">People struggling to repay their mortgages are seeing developers being bailed out.  Has IFSRA put any proposal to Mr. Peter Bacon and the Government to address the problems of people falling into arrears or difficulty with their repayments?  The biggest worry for working families and single people who are under pressure in terms of mortgage repayments is that their houses will be repossessed, that they will lose their homes.  Ms O'Dea mentioned the issue of people who, having taken out mortgages they could ill afford, are now losing their jobs.  Families where there might have been two incomes now have only one.  Would IFSRA like to see any proposal incorporated in the scheme to deal with people who are having difficulty keeping up with the repayments on their home?</p>
+        </speech>
+        <speech by="#" eId="spk_139">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_230">The short answer is that we have not yet because this is at a very early stage.  The announcement has only recently been made.  In terms of bailing out developers, that is not the objective.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_140">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_231">That is the public perception.  I take the point that we need a healthy and sound banking system.  What I am asking is whether IFSRA intends to put a proposal to Mr. Bacon and his team which would address the problem of people falling into arrears with their mortgage repayments.</p>
+        </speech>
+        <speech by="#" eId="spk_141">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_232">We have worked with the Department in addressing one aspect of that, which is what happens when a person falls into arrears and how long there is to work with that and the obligations of lenders.  There is now a statutory obligation, via the code just introduced, on all of the lenders to ensure they work with their customers, not just those covered by the scheme.  Lenders outside the banking system, the non-deposit lenders, also have this code applied to them.  In that context they are obliged to work with the family in the home to make sure that affordability is an issue so that they may, perhaps, pay interest only for a while or enter whatever arrangement suits best so as not to move to repossession straightaway.  They must also consider, if ultimately repossession becomes necessary, the best way of doing that and the legal mechanisms behind that.</p>
+          <p eId="para_233">The first scenario is where people find themselves in arrears and it is anticipated that this situation may last for a period. Clearly, if further time goes by and people are not able to meet their mortgages, that is a different issue.  One of the issues being explored by IFSRA is, what will happen to consumers ultimately if in time they do not find another job or get additional hours.  The solution in place is a temporary one to get consumers over a period until, IFSRA hopes, the economy picks up and people will be back in employment and able to meet their mortgages again.  As that economic situation changes, so IFSRA's input will change.  IFSRA is very much scanning that horizon to see what input it needs to give, as advisers in this role rather than having a statutory responsibility.</p>
+        </speech>
+        <speech by="#" eId="spk_142">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_234">I am not sure that the NAMA will have a portfolio of individual personal mortgages.  My sense is — clearly, IFSRA will have much contact with NAMA as it develops — it will be commercial property, offices, land banks, and so on.  Therefore, NAMA may not be involved at all in having portfolios where at the end of the line there is somebody with a personal mortgage.  We just do not know.  If NAMA does, however, clearly we would want it to apply the principles to which Ms O'Dea alluded.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_143">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_235">My point is a simple one.  The economy is in uncharted waters.  There are people with mortgages who are under enormous pressure.  Ultimately, the largest amount of loans of the banks are with ordinary persons who have mortgages.  Those people must be looked after as well through uncertain times and be given a chance to retain their homes.</p>
+          <p eId="para_236">I welcome what has been said by the delegation.  I hope it will come to fruition.  We must do something in that regard.</p>
+        </speech>
+        <speech by="#" eId="spk_144">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_237">Yes.</p>
+        </speech>
+        <speech by="#KieranODonnell" eId="spk_145">
+          <from>Deputy Kieran O’Donnell</from>
+          <p eId="para_238">The key point is that we could lose sight of what we are about here.  We are about to represent all people.  The worry here is that the person who will get overlooked is the small person under severe pressure with a family who has bought a house and who is running into difficulty with his or her job.  One would hope the economy would revive and that person can regain his or her job.</p>
+          <p eId="para_239">On the final point, in the context of Mr. McErlean's points, I want to hear how IFSRA quantifies the €65 million in terms of overcharging as distinct from foreign exchange.</p>
+        </speech>
+        <speech by="#" eId="spk_146">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_240">That we will do.</p>
+        </speech>
+        <speech by="#" eId="spk_147">
+          <from>Mr. George Treacy</from>
+          <p eId="para_241">Subject to checking the data, my understanding from recollection is that of the €65 million, which includes compensatory interest to people, approximately €27 million related to foreign exchange, but I stand to be corrected.</p>
+        </speech>
+        <speech by="#" eId="spk_148">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_242">We will get back to the committee.</p>
+        </speech>
+        <speech by="#ShaneRoss" eId="spk_149">
+          <from>Senator Shane Ross</from>
+          <p eId="para_243">Those are the figures I have read somewhere as well.  It may not be €35 million, but it is very close to that.</p>
+          <p eId="para_244">I will make one or two points in response, mainly to Mr. Farrell.  I do not dispute for one moment what he stated about IFSRA's customer service post-discovery of these activities and I note that he is on much more comfortable ground when he speaks of IFSRA providing a good service for consumers.   That is not the issue.  People will not be critical of that today.  That is not the job.</p>
+          <p eId="para_245">The problem here is IFSRA's supervisory role and the two should not be confused.  The point I made earlier is that IFSRA is great when it comes in afterwards when somebody else has found out about it.  Where were IFSRA's squads of people sitting in the banks finding out what was going on?  They do not seem to have existed.  IFSRA is tremendous at coming in afterwards and stating it will do this, that and the other when it must, but it is feeble when it comes to finding out or standing up to the banks.  The record is there in case after case.</p>
+          <p eId="para_246">What I have not got today, and what I hoped we would have, is any explanation of the extraordinary difference between the €50 million to €75 million, which Mr. McErlean produced as the figure for the culture of overcharging in the bank, and IFSRA's result which was €255,000.  IFSRA did not investigate the difference between those two figures.  That is what is so extraordinary to me.  I can understand the instinctive reaction — because of the traditions in which he works — to send it off to the ODCA and get it off IFSRA's books.  When ODCA comes back stating the figure is €255,000, and Mr. McErlean is the internal auditor of AIB who ought to know what he is talking about, IFSRA states he said it was €70 million and asks for the next matter of business.</p>
+          <p eId="para_247">It seems that there is an almost inevitable conclusion here, if one looks at the logic and history of the Central Bank, that it was not prepared to accept Mr. McErlean's evidence because he had a gag on him and would not create too much trouble afterwards.  Mr. McErlean had a confidentiality clause with AIB which, unfortunately, he still refuses to break.  I wish he would break it properly.  It was safe for IFSRA to say that is all over and is past history, he has settled with AIB and it did not have to go any further.</p>
+          <p eId="para_248">An allegation of that sort is far more serious than one from a whistle blower.  I do not know how the whistle blower did it, but apparently an anonymous guy came to IFSRA in 2004 stating there had been overcharging in AIB of an enormous amount and IFSRA states it investigated the matter, and we must take IFSRA's word for it.  However, when the internal auditor of AIB comes in and states there was overcharging of between €50 million to €75 million, IFSRA sends the matter off to the ODCA and finds it is only €255,000.  This does not make sense to me.  It simply does not add up.</p>
+          <p eId="para_249">I have not got replies on that differential and on the crucial issue of management charges.  I showed it to them and I can show them more evidence if they need it.  I think they accepted that many other overcharging issues including foreign exchange were buried in management charges.  How come that was not taken into account or acknowledged?  How come IFSRA is sitting back and stating it was only on management and administration charges when we know, as Mr. Treacy said, many other matters were involved as well?  Those questions are not answered.  They must lead me to the conclusion that the Financial Regulator did not want to know what Mr. McErlean had to tell.  I am sorry but that is the way I feel about it on the evidence I have heard today.</p>
+        </speech>
+        <speech by="#" eId="spk_150">
+          <from>Mr. Jim Farrell</from>
+          <p eId="para_250">I have nothing to hide.  My colleagues have nothing to hide.  There is a difference of view here about a statement of a range of charges.  IFSRA is being brought here eight years later, after the fact, to deal with the matter which was the remit of another agency of State.</p>
+          <p eId="para_251">The internal audit report within AIB states that the total charges collected over a five-year period were €30.4 million.  There seems to be a bias here towards one side of the story to the detriment of the other witnesses here, my colleagues, and that is something I find hard to accept.  We come here in good faith.  We have taken every possible step to investigate this matter based on files, and so on, and we have brought our story about this matter to the committee in good faith.  I will not accept comments of this tone at this meeting.  We have brought this here in good faith and that is our story.  I do not know how one can get to the bottom of this.  My colleagues may wish to add to this because this is a serious matter.</p>
+        </speech>
+        <speech by="#" eId="spk_151">
+          <from>Ms Mary O’Dea</from>
+          <p eId="para_252">Senator Ross is quite correct to point to culture issues and he is correct in stating we are much more comfortable talking about consumer issues in an era where there are powers, resources and a focus on consumer issues.  When the Financial Regulator was established it was clear — it was stated at the time — that the culture within financial institutions was not one which was customer focussed.  One of the first things we did under our new powers was to set up our statutory consumer protection code and ask what protection the consumer needed to ensure he or she can do business with banks in a safe environment.  Some of the protection is surprising.  It is surprising that we must include a requirement that financial institutions should deal with errors appropriately and pay back customers.  It is equally surprising that we must include a section on how complaints should be dealt with.  We found it hard to believe how complaints were dealt with in financial institutions and that there was not an across the board method of dealing with those complaints that allowed the person to have it dealt with within a certain period.</p>
+          <p eId="para_253">There was no statutory ombudsman at that time.  The world is a different place for consumers of financial institutions and there has rightly been a focus on those issues.  Today, the issues we face are very different.  Governance issues and how financial institutions monitor and manage risk here and internationally are such that we must review and revise our approach.  We have changed the way we do business in the Financial Regulator and have devoted additional resources to these issues.</p>
+          <p eId="para_254">I reject the suggestion that we only do these things when we read about it in the press.  One only has to read the annual report to see the work we do and the outcome.  One of the most important parts is the preventative role we play in stopping things happening.  Once something is in the public domain something has already happened to the detriment of the consumer.  Our inspections highlight the matters we will examine and the systems we expect businesses to have.  We introduce statutory codes when these work.  It is unfortunate that some items must be in a statutory code but that is how it must operate for the system to work.</p>
+        </speech>
+        <speech by="#" eId="spk_152">
+          <from>Mr. George Treacy</from>
+          <p eId="para_255">I do not want to go over the same ground but we have reviewed all internal audits, before and after Mr. McErlean was in charge of internal audit.  In none of these reports is there a figure anywhere close to €50 billion.</p>
+          <p eId="para_256">The functions of the Office of the Director of Consumer Affairs were amalgamated with the Financial Regulator when the latter was established.  I worked with a number of these people when the whistle blower allegation was investigated and the investigation exploded into a wealth of other areas.  I was very impressed with the commitment of those staff but they laboured under a resources shortage and had no real enforcement powers at the time.  Ms Carmel Foley, the then director of consumer affairs, made these points, probably before an Oireachtas joint committee, and fed them to the implementation body.  This feedback resulted in the Financial Regulator having wider powers.  I had the pleasure of working with those people.</p>
+          <p eId="para_257">My serious problem is the allegation made at this committee, not necessarily by Mr. McErlean, that my staff or I were involved in a cover-up or colluded with AIB in any fashion, which is outrageous.  The two reports made were at a level of disclosure previously unheard of.  I refer to the idea that €65 million was repaid by a bank to its customers, covering a range of charges that were discovered by our investigation.  The whistle blower allegation referred only to foreign exchange overcharging.  This investigation was widened to all other banks and eventually to insurers and others, resulting in a sum of €180 million.  The facts suggest the accusation is absurd.  I am proud to work with people from the consumer protection division at that time and they did a good job.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_153">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_258">The sixth Oireachtas Joint Committee on Finance and the Public Service report records: "The Regulator's investigation showed that over charging had occurred from 1996 to 2004, that some personnel were aware of it and that neither the Regulator was informed nor was the matter passed up the line to top management".  Mr. McErlean makes the case that he did inform the regulator and, as group internal auditor of AIB, he told the regulator this.  That is the truth of the matter.</p>
+        </speech>
+        <speech by="#" eId="spk_154">
+          <from>Mr. George Treacy</from>
+          <p eId="para_259">The allegations related to foreign exchange overcharging.  If the question was addressed to Mr. McErlean of whether he reported on foreign exchange overcharging——</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_155">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_260">He referred to significant overcharging, the extent of which he was not aware.  The audit had to be done.  He told the regulator that the audit was done but there was no action.</p>
+        </speech>
+        <speech by="#MichaelMoynihan" as="#Chairman" eId="spk_156">
+          <from>Chairman</from>
+          <p eId="para_261">These are matters we will continue to probe.  It is vitally important that the Oireachtas committees continue to have the Financial Regulator appear before them.  If this had been done over the past seven or eight years, with regard to a range of issues in banking, there would have been more accountability.  I thank the witnesses for appearing.</p>
+        </speech>
+        <summary eId="sum_6">The joint committee adjourned at 1.05 p.m. until 4 p.m. on Tuesday, 28 April 2009.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

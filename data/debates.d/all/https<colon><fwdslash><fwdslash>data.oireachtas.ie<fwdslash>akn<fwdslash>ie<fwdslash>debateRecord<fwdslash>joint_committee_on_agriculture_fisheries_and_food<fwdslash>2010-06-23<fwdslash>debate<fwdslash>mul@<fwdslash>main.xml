@@ -1,0 +1,636 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2010-06-23/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2010-06-23/debate"/>
+          <FRBRdate date="2010-06-23" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_agriculture_fisheries_and_food"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2010-06-23/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2010-06-23/debate/mul@"/>
+          <FRBRdate date="2010-06-23" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2010-06-23/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_agriculture_fisheries_and_food/2010-06-23/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" eId="#vol_None" showAs="Vol. None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" eId="#no_None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AndrewDoyle" href="/ie/oireachtas/member/id/Andrew-Doyle.D.2007-06-14" showAs="Andrew Doyle"/>
+        <TLCPerson eId="BobbyAylward" href="/ie/oireachtas/member/id/Bobby-Aylward.D.2007-06-14" showAs="Bobby Aylward"/>
+        <TLCPerson eId="ChristyOSullivan" href="/ie/oireachtas/member/id/Christy-O'Sullivan.D.2007-06-14" showAs="Christy O'Sullivan"/>
+        <TLCPerson eId="FrancisOBrien" href="/ie/oireachtas/member/id/Francis-O'Brien.S.1989-10-01" showAs="Francis O'Brien"/>
+        <TLCPerson eId="JohnCartyFF" href="/ie/oireachtas/member/id/John-Carty.D.2002-06-06" showAs="John Carty"/>
+        <TLCPerson eId="JohnnyBrady" href="/ie/oireachtas/member/id/Johnny-Brady.D.1997-06-26" showAs="Johnny Brady"/>
+        <TLCPerson eId="MartinFerrisSF" href="/ie/oireachtas/member/id/Martin-Ferris.D.2002-06-06" showAs="Martin Ferris"/>
+        <TLCPerson eId="MichaelCreed" href="/ie/oireachtas/member/id/Michael-Creed.D.1989-06-29" showAs="Michael Creed"/>
+        <TLCPerson eId="NedOKeeffe" href="/ie/oireachtas/member/id/Ned-O'Keeffe.S.1982-05-13" showAs="Ned O'Keeffe"/>
+        <TLCPerson eId="PJSheenan" href="/ie/oireachtas/member/id/P-J-Sheehan.D.1981-06-30" showAs="P. J. Sheehan"/>
+        <TLCPerson eId="PaulBradford" href="/ie/oireachtas/member/id/Paul-Bradford.S.1987-04-25" showAs="Paul Bradford"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Sean Sherlock"/>
+        <TLCPerson eId="TomSheahan" href="/ie/oireachtas/member/id/Tom-Sheahan.D.2007-06-14" showAs="Tom Sheahan"/>
+        <TLCRole eId="Acting_Chairman" href="/ie/oireachtas/role/position/acting_chairman" showAs="Acting Chairman"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM THALMHAÍOCHT, IASCAIGH AGUS BIA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON AGRICULTURE, FISHERIES AND FOOD</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2010-06-23">Dé Céadaoin, 23 Meitheamh 2010</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2010-06-23">Wednesday, 23 June 2010</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 11.30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#BobbyAylward">Deputy Bobby Aylward,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PaulBradford">Senator Paul Bradford,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#MichaelCreed">Deputy Michael Creed,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#JohnCartyFF">Senator John Carty,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#AndrewDoyle">Deputy Andrew Doyle,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#FrancisOBrien">Senator Francis O’Brien.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MartinFerrisSF">Deputy Martin Ferris,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#NedOKeeffe">Deputy Edward O’Keeffe,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#ChristyOSullivan">Deputy Christy O’Sullivan,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#TomSheahan">Deputy Tom Sheahan,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#PJSheenan">Deputy P. J. Sheehan,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#SeanSherlock">Deputy Seán Sherlock,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#JohnnyBrady">DEPUTY JOHNNY BRADY IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_4">The joint committee met in private session until 12.10 p.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Greyhound Industry: Discussion with Bord na gCon </heading>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_13">I welcome Mr. Adrian Neilan, chief executive of Bord na gCon, and Mr. Tony McKenna and Mr. Tim Gilbert, directors of Bord na gCon.</p>
+          <p eId="para_14">Before calling on them to make their opening statement, members are reminded of the long-standing parliamentary practice to the effect that Members should not comment on, criticise or make charges against a person outside the House or an official either by name or in such a way as to make him or her identifiable.</p>
+          <p eId="para_15">By virtue of section 17(2)(<i>l</i>) of the Defamation Act 2009, witnesses are protected by absolute privilege in respect of the evidence they give to this committee. If you are directed by the committee to cease giving evidence in relation to a particular matter and you continue to so do, you are entitled thereafter only to a qualified privilege in respect of your evidence.  You are directed that only evidence connected with the subject matter of these proceedings is to be given and you are asked to respect the parliamentary practice to the effect that, where possible, you should not criticise nor make charges against any person(s) or entity by name or in such a way as to make him, her or it identifiable.</p>
+          <p eId="para_16">I understand that Mr. McKenna will introduce the other speakers.  I welcome him as a former Member of the House.  It is great to have him here today.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_17">Ar an gcéad dul síos, ar son an bord ba mhaith liom fíorbhuíochas a ghabháil leis an gCathaoirleach agus na baill eile as ucht cuireadh a thabhairt dúinn chun teach os comhair an choiste agus gnóthaí Bord na gCon a phlé.  Tá bród orm as an méid atá déanta ag an mbord tríd na blianta, atá á dhéanamh ag an mbord faoi láthair agus a bheidh le déanamh ag an mbord, le cúnamh Dé, sna blianta atá romhainn.  Mar is eol do gach éinne, tá ról an-thábhachtach ag an mbord ar fud na tíre.  Tá súil agam go leanfaidh an obair atá le déanamh ag an mbord sna blianta ata romhainn.  Gabhaim leithscéal ar son cathaoirleach an bhoird, Mr. Dick O'Sullivan, atá as láthair.  Tá díomá air nach bhfuil sé in ann teacht os comhair an choiste inniu.</p>
+          <p eId="para_18">Chairman, it is a great privilege for me, particularly as a former Member, to appear before this committee on behalf of Bord na gCon.  I thank the committee for the opportunity to put our case before the members.  The board is very proud of the achievements that have taken place over the last number of years, that are taking place at present and, I hope, will continue into the future.  Mr. Adrian Neilan is the chief executive officer of the board.  I am also accompanied by Mr. Tim Gilbert, who is a member of the board.</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Mr. Adrian Neilan</from>
+          <p eId="para_19">I will give a short overview of the industry and discuss the key achievements of the industry in the last few years.  I will also discuss some current concerns.</p>
+          <p eId="para_20">There are 17 greyhound stadia in the Irish Republic, nine owned directly by Bord na gCon and eight privately owned.  These provide the nucleus of the greyhound industry ecosystem which is spread throughout rural Ireland.  Approximately 11,000 people derive employment both directly and indirectly from the industry in Ireland.  It is responsible for over €500 million in economic turnover.  Most of these jobs are rural based and in some locations the greyhound industry provides the only level of meaningful employment.  In 2010 the greyhound industry will receive €11.8 million via the horse and greyhound fund.  However, during this period Bord na gCon will return over €5.5 million in direct and indirect taxes to the Government.  In addition, based upon 2009 figures, Bord na gCon will receive €6.2 million directly via the fund from off-course bookmakers as a result of the 20% split the sport receives from the 1% levy on off-course betting.  Therefore, at current levels of funding, the Irish greyhound board costs virtually nothing to taxpayers while providing nearly 11,000 jobs.</p>
+          <p eId="para_21">Clearly that level of input is not sustainable and policy makers must understand that to protect this level of employment, meaningful long-term investment must be put in place.  We are all aware of the level of ongoing investment the IDA and Enterprise Ireland make in companies which do not provide a fraction of the employment levels the greyhound industry supports.  With moneys received from the horse and greyhound fund we have delivered on a well-structured capital development programme which has meant that we now have 11 fully developed facilities nationwide.  The level of investment comes to over €90 million during this period.  Developing our facilities means we can market our stadia to a wider audience that allows our stadia to go from loss making to delivering a positive cash contribution to the industry.  Taking Cork and Mullingar as recent examples, our capital investment programme in these locations has yielded over 10% per annum without considering the wider economic benefits to the community of having developed facilities.</p>
+          <p eId="para_22">Our current capital development programme in Limerick has enabled over 250 people to gain employment over the course of construction of the stadium and will result in over 100 people being employed during the course of its operation.  Its construction is a very clear example of effective regeneration in the entire mid-west region.  The level of local interest from schools, hospitals and clubs with regard to running community and fund-raising events at the stadium has exceeded all expectations.  This again shows the value and economic benefit of the greyhound industry to Ireland.</p>
+          <p eId="para_23">Bord na gCon contributed €7.9 million to overall industry prize money in 2009.  Based upon 21,370 races, this corresponds to an allocation of €369 per race.  This level of investment is very prudent given the cost to the greyhound owners in getting six runners entered and ready for competition.  Each year the cost to greyhound owners of keeping the "greyhound pipeline" in operation is €257 million.  This is a significant return to local rural economies.  However, during this time the greyhound owners compete for approximately €11 million in overall prize money.  It is clear from these figures that this is not a good "financial" investment for the greyhound owners.  It is clearly the passion for the sport and the dream of winning a derby that keeps people engaged with the industry.  For that reason, we must ensure that any new legislation, such as the Dog Breeding Establishments Bill which I will discuss later, cannot derail this level of "emotional" investment.</p>
+          <p eId="para_24">Accordingly, nobody can reasonably state that Bord na gCon is paying too much in prize money grants to fund racing.  The opposite is the case.  Following the significant reduction in the 2010 horse and greyhound fund we had to reduce prize money grants to compensate for this reduction.  Given the significant level of employment, this clearly is not the right economic thing to do, but we had no choice with the reduced level of funding from the fund in 2010.  The industry cannot sustain any further cuts in the horse and greyhound fund in 2011.  The fund has already been reduced by 23.6% since 2008.  We have taken those reductions on board.  The industry simply cannot take any further reduction.  To do so would mean dramatic reductions in employment which will ultimately cost the taxpayer more in social welfare payments.</p>
+          <p eId="para_25">The greyhound industry has been enormously successful in helping various clubs, social groups, schools and social causes in raising over €7 million a year in funding via the use of its stadia.  This ensured that the needs of these very necessary causes are met but also ensured that Central Government did not have to foot the bill.  Over the past 12 months, for example, Mourne Abbey Community Development Centre in Cork raised €34,000, Edenderry GAA raised €25,000 and Templeogue soccer club in Dublin raised €25,000.  It is an important source of funds for such worthy causes.</p>
+          <p eId="para_26">While trying to encourage wider industry growth Bord na gCon has also been very focused on running a streamlined commercial operation and trying to ensure that high levels of capital surplus can be delivered each year to fund capital developments and pay down capital debt.  In both 2007 and 2008, we delivered a surplus of over €5 million each year as against a surplus of €2.2 million in 2006.</p>
+          <p eId="para_27">In 2009, we have again been very much focused on cost controls given the drop in funding and consumer spending and we have reduced our labour costs by €1.3 million.  This, in combination with other reductions in 2008, represents a reduction of almost 25% over 2007 labour figures.  In addition, we have reduced our operating and administration costs by more than 23% from €72.6 million in 2007 to €55.8 million in 2009.  There are not many other semi-State companies which can show this level of cost focus.  However, this has been a necessary approach for us to survive and be able to continue to support the wider industry.  We plan to continue this focus on operational efficiency in 2010 and beyond.</p>
+          <p eId="para_28">Not only do we face many funding pressures as a result of the reduction in the fund, we continually need to invest in welfare and integrity programmes to safeguard the industry.  These investments clearly are significant with more than €6 million a year being provided for this purpose.  Integrity is a key cornerstone of our industry and this needs continuous investment and review.</p>
+          <p eId="para_29">Bord na gCon has put significant effort into full compliance with corporate governance guidelines.  This has resulted in overall improved organisational performance.  This then allows more focus on industry development and growth.</p>
+          <p eId="para_30">It is very clear from what I have said that the greyhound industry has been an outstanding success story in recent years, especially in terms of how it has transformed itself into a widespread exciting consumer brand.  Based on inquiries from other countries, they too want to replicate the Irish success story that is greyhound racing.</p>
+          <p eId="para_31">The greyhound community is currently at serious risk from the Dog Breeding Establishments Bill due before the Dáil in the very near future.  We made clear that the regulation and management of the greyhound industry was already fully legislated for under the 1958 Greyhound Industry Act.  We have secured legal advice which shows that under the 1958 Greyhound Industry Act, we can visit and inspect any establishment where greyhounds are kept.  This conflicts with the concern that we have no right to visit and inspect.  This legal position was proved in 2010 by a High Court ruling which upheld, without reservation, the right of officers authorised by the Irish Greyhound Board to visit and inspect any premises where greyhounds are kept.</p>
+          <p eId="para_32">Furthermore, our legal advice indicates that the 1958 Act can be easily amended by way of a suitable regulation to confer legal power on the Irish Greyhound Board to support the welfare and proper treatment of greyhounds by enforcing legal sanction to our findings.  Accordingly, we believed this removed the one concern officials suggested as lessening the validity of the 1958 legislation in the context of the proposed Bill.</p>
+          <p eId="para_33">This is a clear and efficient path to a workable solution to the current concerns the Irish Greyhound Board has with the current Dog Breeding Establishments Bill.  Current proposed amendments by the Department of the Environment, Heritage and Local Government simply do not address the genuine fears of the greyhound industry.  We have the legal power to visit and inspect any place where greyhounds are kept.  For the past 50 years we have been making these inspections and where any breaches of welfare conditions have been found, we have made recommendations which the greyhound people have implemented.  However, if we want to make any breaches of welfare concerns amenable to law, there is an opportunity to do so by way of our own regulation.  That is the most efficient way of doing that.</p>
+          <p eId="para_34">The measures being introduced for other breeds have been in place for greyhounds since 1958 and our record on welfare is exemplary.  The welfare initiatives introduced by the industry are looked on around the world as a model of best practice.  We are now being asked to submit to dual registration and double inspection systems.  We will be saddled with unworkable definitions pertaining to the greyhound breeding cycle.  We recognise the benefits of the legislation to outlaw puppy farming but we simply cannot allow the misguided extension of it to effectively destroy the greyhound industry in Ireland, whether this is the intention or not.  It is a well-run industry driven by continuous improvements in welfare standards and populated by people who care deeply about the animals in their care.  It is not too late to resolve this issue but we need more meaningful engagement and allowances to avoid this hammer blow to this industry.</p>
+          <p eId="para_35">The Irish Greyhound Board would like to see any necessary legislation being adopted out of a careful consideration of all the industry facts.  There is some suggestion that this Dog Breeding Establishments Bill in its current format will improve the industry.  Unfortunately, the consistent view from all industry stakeholders is that this view is an idealised one.  However, let us consider some facts.  More than 91% of breeding in Ireland is done by small breeders with three litters or fewer.  Furthermore, 76% of the breeding in Ireland is done by small breeders with a single litter.  Asking people who clearly would not consider themselves to be breeding establishments to pay an annual fee of €400 as well as submitting themselves to another inspection routine with unspecified standards which would mean significant additional cost will be the inflexion point for these people to leave the industry.</p>
+          <p eId="para_36">Furthermore, many smaller breeders would in the past have stayed in the breeding industry because if they had a good line, they would be able to keep breeding to recover costs.  Now with the maximum number of litters set at six, this eliminates this outlet.  Consequently, considering all these facts, we will have a massive reduction in the number of people choosing to participate in greyhound breeding.  This will mean the destruction of this industry.</p>
+          <p eId="para_37">We will also witness a situation where breeders will not want female pups because once one has six or more bitches capable of breeding, one is considered a breeding establishment which will mean extra costs.  Thus, the Bill in it current state will lead to the creation of welfare problems for the greyhound industry.  The introduction of micro-chipping will cost the industry more than €1 million a year at a time when we are being asked to survive on significantly less funding.  This will mean more costs for the greyhound owner.  All considered, the assertion recently that this Bill will ensure that the vast majority of people who race their greyhounds will not be affected does not bear scrutiny.</p>
+          <p eId="para_38">Furthermore, one needs to consider the logic behind the article in last Sunday's edition of the <i>Sunday Independent</i> which had as its main thrust that overlapping bureaucracy needs to be reduced to have a more streamlined Ireland.  Therefore, in light of the focus on efficient use of public resources, it is very hard to explain or defend a double inspection system in this modern age.</p>
+          <p eId="para_39">The list of modifications currently proposed is meaningless and betrays the lack of any willingness to recognise ours as a well-run industry.  For example, allowing the Irish Greyhound Board to accompany the new duplicate proposed inspection without a clear role in the decision-making process is futile and does not give any comfort.  This is presented as a concession but it is a folly of wasted human and financial resource.  I cannot see the difference between the previously proposed one litter every 12 months and the new concession of a maximum of three litters every 36 months in terms of the ability of a small breeder to earn a living.  I am sure members will all agree that this is not a concession.  The final concession of a 12-month review clause with no clear parameters and scope is meaningless.  Furthermore, within 12 months of this Bill being enacted in its current form, the industry will have already haemorrhaged too much talent and energy to ever regain its position as a world leader.</p>
+          <p eId="para_40">Regardless of whether it is intended, enactment of this Bill without further engagement with those who will suffer from its consequences will lead to the destruction of a fine traditional Irish industry.  This industry is acutely aware of and educated on welfare issues and its loss would be a mortal blow to rural Ireland.  We acknowledge the willingness of the Department of the Environment, Heritage and Local Government to begin discussions with the greyhound industry but much more engagement, flexibility and understanding of the greyhound industry is needed to ensure the greyhound industry is not undermined.</p>
+        </speech>
+        <speech by="#MichaelCreed" eId="spk_4">
+          <from>Deputy Michael Creed</from>
+          <p eId="para_41">I welcome the delegation from Bord na gCon and thank it for the presentation.  I recognise it is a very worrying time for the industry which is substantially, but not exclusively, rural based and which gives very valuable employment at a time when employment is the number one challenge for the economy.  Major questions hang over the future sustainability of the industry because of what can only be described as "own goals" which are about to be inflicted on it.  I know from speaking to people in my constituency and to people whose families have been involved in the industry for generations that they are very upset by what is being considered.  I understand that the Dog Breeding Establishments Bill will come before the Dáil shortly.  I concur almost entirely with what has been outlined here.  In respect of the future of the industry, the Fine Gael Party will not tolerate the Bill in its current form and will table amendments to uphold the highest standards in respect of animal welfare which will recognise the structures that Bord na gCon has put in place and policed, and will enable the industry to continue to prosper.  I have spoken to my colleague, Deputy Phil Hogan, who, as it is a Department of the Environment, Heritage and Local Government Bill, will take it on behalf of the party.  I assure the delegation that we will propose amendments if the current dialogue in which Bord na gCon is engaged with the Minister and the Government parties does not bear fruit.  This Bill as it stands is an unnecessary threat to an industry that is of huge importance.  It is not just that people have invested money.  There is a huge element of commitment to the industry.  That is hard to articulate to people who simply do not understand where the industry is coming from and who do not understand its genuine commitment to the animals it breeds and races and where any diminution of standards, in terms of animal welfare, is something it would rail against and be the most ardent of critics.</p>
+          <p eId="para_42">This is a regrettable unnecessary debate in which we are engaged at a time when we should focus on protecting employment.  That, perhaps, goes without saying.  I hope that common sense will prevail on this issue which I will park, because it will be dealt with in the Dáil.  Obviously, we will be forced into the division lobbies if we cannot get a satisfactory conclusion and the mathematics are stacked against us in respect of voting intentions.  I see some chinks in the armour in respect of where the Minister for the Environment, Heritage and Local Government is coming from and I hope we can make progress on that issue.</p>
+          <p eId="para_43">I come now to the horse and greyhound fund.  I would like to know the views of the delegation in respect of the horse and greyhound fund which was administered previously by the Department of Tourism, Culture and Sport.  As a consequence of restructuring Departments, it now falls within the remit of the Department of Agriculture, Fisheries and Food.  Before the meeting commenced in public session we had a brief discussion on this matter and probably will meet officials from the Department of Agriculture, Fisheries and Food shortly.  This is of huge significance.  Can the delegation give the committee an outline of the financial situation?  It gave us the income stream from the horse and greyhound race fund but I would like to know more about the current finances of Bord na gCon, for example, the capital investment it has made in stadia, which all of us have seen and compliment the delegation and its predecessors on the foresight involved.  What is the level of indebtedness in respect of that capital investment?  What is the likely scenario to emerge in respect of the horse and greyhound fund and how it should be financed in the years ahead?</p>
+          <p eId="para_44">A debate is taking place between the bookies in respect of whether it is possible to tap into on-line and off-shore betting and the legal problems to which that gives rise.  Has Bord na gCon given any consideration to that issue?  It is obviously a very complex issue.  Has it made a submission to the Department and, if so, perhaps it is something we could have as a committee.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_5">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_45">I welcome the gentlemen appearing before the committee.  In regard to the funding stream, what is the net financial position for Bord na gCon which includes the horse and greyhound fund of €11.8 million, the €5.5 million which is ploughed back in, and the delegation stated that it received €6.2 million directly from off-course bookmakers at the end of the year?</p>
+          <p eId="para_46">My second question relates to what I would regard as some degree of semantics being employed by the Minister for the Environment, Heritage and Local Government in respect of litters.  In regard to point 20 of its submission, will the delegation outline  the permutations?  The submission states:</p>
+          <p class="indent_1" eId="para_47">This is presented as a concession but is in fact a folly of wasted human and financial resource.  [That is strong language, it is vociferous and direct.]  I cannot see the difference between the previously proposed one litter every 12 months and the new concession of a maximum of three litters every 36 months in terms of the ability of a small breeder to earn a living.</p>
+          <p eId="para_48">I can see the sense of what the delegation is saying there. I do not understand what the Minister is at and perhaps we need to see some common sense being employed.</p>
+          <p eId="para_49">If I am not mistaken I understand the Minister may have written to the Taoiseach outlining some of the concerns and he may have said that part of his justification is that it will address concerns relating to situations where a bitch might not fall pregnant within a 12-month period.  The Minister said he proposed a minor modification to the definition of a dog breeding establishment, allowance of three litters over three years, subject to veterinary advice, providing that the provision of a maximum of six litters in the lifetime of a bitch would be retained, and, second, that he would alter the definition of breeding establishments and extend the four-month age threshold to six months.  He further stated that the change of the definition to six months will allow further time for owners of a new born litter of pups to decide whether to sell or retain the pups.  He stated also that, heretofore, once the pups reached four months of age and were capable of breeding, each bitch pup would have been reckonable for registration purposes and that his amendment effectively extends this period to six months.</p>
+          <p eId="para_50">I would like to get a view from Bord na gCon on that proposal because it speaks for itself.</p>
+          <p eId="para_51">The third issue relates to the inspection regime, the persons who are envisaged to be nominated as inspectors.  In this regard the Minister stated that to allay this concern he proposes to provide a facility whereby representatives of IBG ICC would accompany local authority veterinary inspectors on their visits.  He also proposes to restrict the personnel who are authorised to issue an improvement order to local authority veterinary inspectors.  The authorisation process is the nub of this issue and the ability to issue an improvement order to local authority veterinary inspectors.  Is it the view of the delegation that it will only be local authority veterinary inspectors or could there be other such persons as designated by the Minister who may not have the necessary qualifications, medical or otherwise to be able to make proper inspections?  There are concerns within the industry particularly among small breeders and owners as to how that might pan out.  Is there still concern that animal welfare groups could become part of that process and that there is still scope through ministerial direction or secondary legislation to effect that?</p>
+        </speech>
+        <speech by="#MartinFerrisSF" eId="spk_6">
+          <from>Deputy Martin Ferris</from>
+          <p eId="para_52">I welcome the three gentlemen and thank them for the presentation.  I concur with what is stated in the presentation regarding the huge benefit of the greyhound industry to rural Ireland, in particular, to the more marginalised areas of rural Ireland.  It generates its own economy and is very beneficial to many areas and to those involved in the greyhound industry.  The people involved in the greyhound industry in my area are usually small farmers or people with only a haggard.  By their work they provide a major service.</p>
+          <p eId="para_53">I am very conscious that community groups, hospitals and other deserving causes benefit from fund-raising events at greyhound stadia.  Funds were raised for cancer facilities in Tralee hospital and for the hospice.  The Kerry football team had an event in the Tralee stadium last weekend, the biggest night ever.  I am very conscious of the social aspect of the greyhound industry.  The number of people involved in the industry is significant in rural areas at this time and any loss of employment in this field will make the economic conditions worse.  If people are laid off or become unemployed that is a burden on the taxpayer and on the State.</p>
+          <p eId="para_54">Mr. Adrian Neilan says that a ministerial regulation can allay the concern members may have on what is proposed in the Dog Breeding Establishments Bill.  Will he elaborate on that please?  It was stated that to insert a microchip in the dog's ear would cost breeders €1 million.  There is concern about the lack of microchip identity and if there was a mechanism of the industry financing the breeders, would that be acceptable to Bord na gCon?  There are people in the industry who have concerns about the lack of transparency and the need for microchip identification.</p>
+          <p eId="para_55">One thing that worries me is that if all this goes ahead, effectively it will drive much activity underground and it will have a mattress effect on what the intention, however laudable the intention may be or may be drawn up by people who have no concept of the industry and the benefits and the social aspect of it to rural communities.</p>
+          <p eId="para_56">Sinn Féin will oppose this Bill as it stands.  We will table amendments and if they are not agreed to we will oppose the Bill on the floor at every Stage.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_7">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_57">I welcome the delegation.  I have several concerns, the major one being that Bord na gCon owns nine of the 17 greyhound stadia in the country but all are licensed by the Bord na gCon.  In my part of north Cork, we have more greyhounds than in any part of Ireland.  Open coursing and par coursing are part of our tradition.  We can go back many decades to the time when the Waterloo Cup was won by Master McGrath, a Waterford dog — born and bred in the Cork area.  That is history.  I am concerned about the way Bord na gCon operates the stadia and I have major concern about the stadium in Youghal which is a feeder track to other tracks in Cork and elsewhere.  There has been no investment in this track, even though it was instructed to make an investment.  The track will practically close.  The operation of the stadium has been damaged by taking one of its race days and giving it to the Cork stadium.  Dogs from north Kerry, west Waterford, County Cork and many other areas come to Youghal.  I want an explanation for the transfer of investment which was earmarked for Youghal to the Limerick stadium.  If one wants to have corporate entertainment, one cannot have dogs.  Bord na gCon is concerned about the Dog Breeding Establishments Bill.  There is no need to worry about it, that is Government policy.  The Youghal track is part of the fabric of the greyhound industry in Ireland.  It has been there a long time.  I am telling the chief executive and the two member of the board of Bord na gCon to take their hands off the money that was earmarked for investment in Youghal, invest in the Youghal track, and protect it as has always been protected.  There has been no investment in the Youghal track since an exceptionally small sum invested in the 1990s.  It is in need of investment, not major investment, or the €2 million to €4 million required for glasshouses for corporate entertainment.</p>
+          <p eId="para_58">People in north Cork are in the dog business.  I ask the delegation to explain why there is no investment in this stadium?  If it is the policy of Bord na gCon to close the Youghal track, let me state clearly that it will not close that track.  I have told Bord na gCon that before on another occasions.  I have a special interest in the Youghal track because many of my constituents are involved in it and feel very aggrieved and annoyed about the way it is managed.</p>
+          <p eId="para_59">The Dog Breeding Establishments Bill will not be needed, if Bord na gCon continues on this route.  The delegation boasted about the 2009 figures but I would like to see the figures for the end of 2010 to see where this industry like every other industry is going.</p>
+          <p eId="para_60">I seek an explanation why the investment earmarked for Youghal is not being made.  I have been in contact with two Ministers.  Bord na gCon will not close the stadium in Youghal.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_8">
+          <from>Chairman</from>
+          <p eId="para_61">There is another vote and after that I will call Deputies Christy O'Sullivan, P. J. Sheehan, Bobby Aylward and Senator Paul Bradford.</p>
+        </speech>
+        <summary eId="sum_5">Sitting suspended at 12.45 p.m. and resumed at 1.05 p.m.</summary>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_9">
+          <from>Chairman</from>
+          <p eId="para_62">The delegates have agreed to answer the questions of all members in a block.</p>
+        </speech>
+        <speech by="#ChristyOSullivan" eId="spk_10">
+          <from>Deputy Christy O’Sullivan</from>
+          <p eId="para_63">I welcome the members of Bord na gCon and thank them for their presentation.  The greyhound industry is of great economic benefit to local communities.  The activity of the industry is wide ranging, in terms of both coursing and racing.</p>
+          <p eId="para_64">The social side to the industry is very important.  This includes walking dogs, a pastime with health benefits.  For those who are farming during the week, the two nights out at the dogs are of great importance.  In this regard, the industry is of great benefit and has a lot to offer.  How did Bord na gCon achieve its savings?</p>
+          <p eId="para_65">I agree with the view that the industry is already fully regulated.  I have serious problems with the Bill being introduced, not only in regard to the greyhound industry but also in regard to hunting and other activities.  We need much more time to thrash out the issue.  We need to discuss the nuts and bolts of the legislation because it has many provisions.  Where does one get the authority to suggest a breeding bitch can only have six litters?  I do not understand this because, if it were adhered to, the Minister could suggest in a month that a cow could only have so many calves or a mare so many foals.  The legislation has not yet been thought through properly.</p>
+          <p eId="para_66">When the legislation was mooted first, it was to regulate puppy farming.  We are all in agreement with this.  Puppy farming has not been regulated to date.  The greyhound industry has been regulated since 1958 and it has shown that it can operate in a proper manner.  I cannot agree with further regulation for the industry.</p>
+          <p eId="para_67">The definition of "breeding bitch" is serious.  My definition is such that a breeding bitch is not a breeding bitch until she has a litter.  A neutered bitch is obviously not a breeding bitch.  There are other reasons a bitch might not have a litter.  The legislation in this regard needs to be teased out.  It would help if it were addressed.</p>
+          <p eId="para_68">The greyhound industry is of value to the small breeder in many ways.  I am not saying the small breeder gains financially all the time but there are those who do if they sell the pups from a good breeding bitch.  By and large, small farmers and others who work every day get a few extra bob.  They are not fools and have been in the scene for a long time and, therefore, will not use for breeding a bitch that has no proven record.  It costs money to keep and feed a breeding bitch and register pups.  The industry must have a greater input into any legislation that comes forward.</p>
+          <p eId="para_69">I thank the delegates.  They outlined their position in very simple, straightforward terms.  How did they make the savings they referred to?</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_11">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_70">I welcome Mr. Adrian Neilan, Mr. Tony McKenna and Mr. Tim Gilbert and congratulate them on their presentation.  It demonstrates that the greyhound industry is on a very sound footing in the view of Bord na gCon.  Over the years, I have been very impressed by the way the board brought the industry to its current position.  I hope common sense will prevail and that the Minister will accept the proposals of the board, which represents the greyhound racing industry.</p>
+          <p eId="para_71">No body could deal with the industry better than the board, which has years of experience.  It has built up a very valuable industry for the country.  The industry is a money-spinner for the Exchequer.  Bord na gCon states approximately 11,000 people are employed directly and indirectly in the greyhound industry.  The industry is responsible for a turnover of €500 million.  An industry with such a turnover and with such magnificent racing tracks and stadia throughout the country should be complimented.  I compliment Bord na gCon on the magnificent way it was developed Curraheen Greyhound Park in Cork which is a novel institution so far as greyhound racing is concerned.  On the few occasions I have been there I have been impressed by the manner in which the industry is being run.  I do not know why my colleague, Deputy Ned O'Keeffe, suggests that more money be spent on Youghal greyhound racing stadium.  I agree that more money should be spent on Youghal but it is only 30 miles from Curraheen park.  People from Bantry, Skibbereen and Schull who travel to Curraheen park and Castletownbere every week speak highly of the facilities there.</p>
+          <p eId="para_72">Mr. Adrian Neilan stated that "at current levels of funding, the Irish greyhound board costs virtually nothing to taxpayers while providing nearly 11,000 jobs."  That is a clear indication of the way the industry is being run.  Any Minister who finds fault with an industry run in this way should re-examine his conscience.</p>
+          <p eId="para_73">It is evident that each year the cost to greyhound owners of keeping the "greyhound pipeline" in operation is €257 million.  This is a significant return to local rural economies.  By and large it appears Bord na gCon has spearheaded and brought to fruition an industry that is second to none.  As well as that it plans to continue this focus on operational efficiencies in 2010.  Mr. Neilan went on to state that in 2007 and 2008 Bord na gCon delivered a surplus of more than €5 million each year as against a surplus of €2.2 million in 2006.  In 2009 Bord na gCon has again been much focused on cost controls given the drop in funding and consumer spending and has reduced its labour costs by more than €1.3 million.  This is a significant reduction at an opportune time.  Bord na gCon is facing up to its responsibilities in that respect.  He also stated that greyhound racing has been an outstanding success story in recent years, especially in terms of how it has transformed itself into a widespread exciting consumer brand.  The Irish greyhound industry is the envy of many other nations in Europe because it has not penny-pinched to safeguard the industry but has built it up to be a successful industry.  Mr. Neilan further states that the greyhound community is currently at serious risk from the Dog Breeders Bill——</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_74">We have already heard the presentation.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_13">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_75">Yes, but I want to outline certain points in my contribution and I am entitled to do that.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_76">Yes, but not to read it.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_15">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_77">I am only reading the headlines.  It is of paramount importance that the greyhound industry is not muzzled by any provocative law that may be introduced by the Government.  It will scuttle the industry if allowed get away with it.  The time is right for commonsense to prevail, and the sooner the better, because those who are making these recommendations to the Minister know nothing about the greyhound industry here.  The Minister should be led by the experience of the people concerned, Mr. Tony McKenna, Mr. Adrian Neilan and Mr. Tim Gilbert, who have appeared before the committee and have produced an excellent paper on which I congratulate them.  When the Dog Breeding Establishments Bill comes before the House, Deputies should stand up and be counted because, without a shadow of doubt, its contents will prove negative for the greyhound industry.  I thank the gentlemen for their contribution.</p>
+        </speech>
+        <speech by="#BobbyAylward" eId="spk_16" as="#Acting_Chairman">
+          <from>Deputy Bobby Aylward</from>
+          <p eId="para_78">I welcome the members of Bord na gCon and congratulate them on the way they run and regulate the industry across the board, from job creation, financial and taxation points of view.  I appreciate that it is putting a good deal of money into greyhound racing.  I welcome the fact that Bord na gCon has made some investment in my area of Kilkenny and will do likewise in Clonmel and when the finances are available it will upgrade those facilities.  I have been in contact with Bord na gCon on several occasions and have always found it to be positive.  As Deputy O'Keeffe has said, there is general support for small tracks.  That is important given the number of people involved in the industry, particularly in Kilkenny and Cork.  As a young lad I was involved with greyhounds as my father had greyhounds and raced greyhounds.</p>
+          <p eId="para_79">The present conflict arises from the new legislation and as a member of Government I have a problem with it and have said so from the beginning.  Discussions have been ongoing with the Minister for the past two months.  I have met him on occasion and have tried to reason with him at the parliamentary party meeting on aspects of the Bill.  I would prefer if Bord na gCon would continue to operate under the Greyhound Industry Act 1958 but the Minister is not taking that option.  Unfortunately, we are in a coalition Government and we are trying to negotiate the best deal possible for the industry and dogs in general.</p>
+          <p eId="para_80">We all agree that legislation is required to deal with puppy farming but the issue has broadened out and taken on a new life, with which I am not happy.  The Taoiseach is a hands-on individual, has raced greyhounds since he was knee-high and is involved in the negotiations with the Minister.  Even after last night's parliamentary party meeting we are still going back to him for more clarification on definitions.  It is difficult for me to say anything.  I can say so much but I am tied because I am in a coalition Government and we cannot bring down a Government over dog legislation.  There are bigger issues to be dealt with and bigger fish to be caught than this issue.  I do not think we should interfere with nature.  Under veterinary supervision we should not define how many litters a bitch should have, nature will define that.  Under veterinary supervision, where the welfare of the bitch and the dog are foremost, some bitches are well capable of having three, four, six, or eight litters without any adverse effect.</p>
+          <p eId="para_81">I do not have a problem with the €400 pack or general licence.  That is one concession we have got, under which a dog breeder can get a general licence for €400.  However, I have a problem with the progressive charge, as it is called.  We are trying to get information on the charge for, say, six bitches up to 20 or 30 bitches.  It is wrong that a breeder who has six bitches should pay €400 for a pack licence while another breeder can get a general licence for €400.  Like Deputy O'Sullivan, I have a problem with the definition of "bitch".  In my humble opinion, a bitch is not a bitch until she goes in pup.  There is a loophole there where he is giving concessions to people who are only racing dogs, or not breeding, and they are exempt.  I have hunt packs around me at home.  I have one next door and they have 16 females and 16 dogs.  However, they only breed from four of those bitches.  They hunt them for two or three years, note the best four bitches for hunting and then breed from them.  We shall need clarification in that regard, whether they will have to pay for the 16, the 14 or the 12 that will never be used for breeding purposes.  Everyone here has made particular points and we are trying to thrash these things out before these matters come before the Dáil.  I believe this Bill will be introduced in the Lower House next week.  It will be passed before the summer recess on 8 July, so time is running out.</p>
+          <p eId="para_82">There are issues to be ironed out.  I just want to ask the Bord na gCon delegates whether they met the Minister, and in the event what kind of response they got.  Did he listen to them?  I do not say this with any disrespect to the Minister, but sometimes I do not believe he understands the greyhound industry or any industry to do with dogs — and he is introducing legislation without understanding the effect it will have on the industry.  I am a Government Deputy and I must be careful what I say because of the negotiations, but I am not happy about the Bill.</p>
+          <p eId="para_83">I wish the delegates well and I hope we get to a happy medium on the legislation and that we get some satisfaction so that the industry may grow and progress as it has been doing.  We can all be proud of tracks such as Kilkenny,  Clonmel and Youghal, where there is entertainment to be had from a leisure and a business point of view.  That is what it is about.  A great deal of pleasure has been derived from greyhounds and long may it continue.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_17">
+          <from>Senator Paul Bradford</from>
+          <p eId="para_84">I have listened with interest to Deputy Aylward.  When he talked about supporting the natural cycle of life, it struck me that about 20 or 25 years ago the late Deputy Charles J. Haughey introduced what he termed "an Irish solution to an Irish problem" in relation to family planning.  Deputy Gormley, the Minister for the Environment, Heritage and Local Government is now bringing in the equivalent for the greyhound industry, which is something we shall have to reflect upon.</p>
+          <p eId="para_85">I welcome the delegation, particularly my former colleague, Mr. Tony McKenna whose presentation is very interesting.  I congratulate him on the work he has done over the past decade or so to make the greyhound industry the success story it is, and in particular to make greyhound racing an attractive night out for non-greyhound fans.  That has been one of the great successes of the industry.  The advertising and the marketing has been very successful.</p>
+          <p eId="para_86">We have had discussions in this committee with people from the horse racing sector and I have often made the point that people who are not horse racing fans can feel somewhat uncomfortable at meetings because they do not know the lingo or know enough, so to speak.  Non-greyhound people, on the other hand, are comfortable at greyhound race meetings and see them as entertainment and a night out rather than a punter's experience.  Efforts will have to be redoubled in that regard, particularly in a time of recession, because it is cheap to go greyhound racing.  Nobody is an expert, so to speak, and if someone backs dog No. 1, say, in every race he or she will minimise his or her losses in any event.  The television advertising in particular——</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_18">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_87">There are more working class pursuits.</p>
+        </speech>
+        <speech by="#PaulBradford" eId="spk_19">
+          <from>Senator Paul Bradford</from>
+          <p eId="para_88">Deputy Sherlock knows there is no working class any longer.  We are all middle class now.  Welcome to the club.  As a greyhound owner I welcome him.  The marketing has been very successful.</p>
+          <p eId="para_89">Perhaps the delegates might comment on the current status of Bord na gCon thinking on the horse and greyhound fund, the levies and all that.  In this committee and at the tourism and sport committee there has been substantive discussion on the future funding of horse and greyhound racing, the betting levies and so on.  We have heard all sides of the argument, so perhaps the delegates might have some views on that.</p>
+          <p eId="para_90">On the dog breeding Bill, it has been given an enormous amount of time in the Seanad.  The time it has taken in the Upper House has been more significant than that given to any other debate over the past 12 months, I believe.  The Minister came in last Friday, before the Bill was finalised in the Seanad and gave an outline of what he will introduce in the Dáil next week by way of amendment.  I note and appreciate the concerns of the delegates.  I trust they are making ongoing representations and having meetings with the Minister.  While certain concessions were given last week, some profound difficulties still remain.  An issue confusing and worrying many people is the definition of a four-month old pup, basically, as Deputy Aylward has mentioned, as a breeding animal.  Our Dáil colleagues will have to redouble their efforts to try to change that, but it is quite bizarre.</p>
+          <p eId="para_91">The delegates will appreciate the way politics works.  We cannot achieve everything they want in the debate on this Bill, but they might indicate one or two central points of worry and concern that should be addressed, and we shall see what can be done.  It was a Seanad Bill originally, and after it goes through the Dáil it will be back in the Seanad again for final consideration.  Perhaps we have been somewhat repetitive, Chairman, but I concur with what Deputy Ned O'Keeffe had to say about Youghal, but perhaps in a calmer fashion.</p>
+          <p eId="para_92">We need answers on what is being proposed and the type of investment to occur at Youghal, and the sooner the better.  It is an interesting track because Youghal is not just a type of midlands town.  For many months of the summer it obviously does a booming tourism trade, and the track is a focal point in attracting tourists to the town and  keeping them there so that money is spent in Youghal and its surrounding regions.  I do not claim to be an expert, but it is a very homely type of track which we need to retain.  It is great to see the work that has been done in places such as Cork, Galway, Clonmel and so on.  It is somewhat akin to GAA or soccer stadiums across the country.  They will not all be 50,000 or 60,000 all-seater stadiums, and there are different grades.  Youghal certainly needs the investment to bring it up to the next level.</p>
+          <p eId="para_93">I look forward to the assurance of Bord na gCon that it has positive plans for Youghal, so that it may thrive.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_20">
+          <from>Chairman</from>
+          <p eId="para_94">I want to be associated with what has been stated.  I attend Mullingar racetrack regularly and Dundalk.  Bord na gCon has made many improvements at Mullingar, which is a fabulous track and the facilities are great.  It would have put investment into Dundalk, I appreciate, but that is privately owned.  Longford is another place I go to occasionally, and there are great facilities there.  Occasionally I have a dog running, when he is not injured.  Certainly, I like going and it is a great night out.  It is a great family occasion also, especially if one has a dog running.  Deputy Ferris mentioned that a great many organisations use the dog track to raise funds.  It is a great facility for such organisations, and I concur with everybody on the Dog Breeding Establishments Bill.  I did not anticipate such a discussion on it here today.  Perhaps it took away from the overall difficulties the board has and the work it is doing.  It might be important to invite the delegates in again to talk specifically about the tremendous work Bord na gCon is doing, quite apart from any legislation.</p>
+          <p eId="para_95">We are all very concerned about the Bill and the regulations being introduced by the Minister in respect of bitches not having pups and so forth.  I believe that is going against nature and it is not a good thing.  The 1958 Act has stood the test of time for many years.  In any event we are still negotiating, as Deputy Aylward has said and we shall continue to fight our case.  Ultimately all we can do is our best, but certainly, like my colleagues I would like to see enormous changes taking place.</p>
+          <p eId="para_96">I have to be part of a delegation to the Department of Finance.  Is it agreed that Deputy Aylward takes the Chair?  Agreed.  On my behalf I thank the delegates very much for attending today's meeting of the committee.</p>
+        </speech>
+        <speech by="#" eId="spk_21">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_97">I thank the Chairman for affording us the opportunity to present our case to the committee.  It is very much appreciated.</p>
+        </speech>
+        <speech by="#JohnnyBrady" as="#Chairman" eId="spk_22">
+          <from>Chairman</from>
+          <p eId="para_98">I thank Mr. McKenna, and I hand the Chair over to Deputy Aylward.</p>
+          <p eId="para_99">Deputy Bobby Aylward took the Chair.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_23">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_100">Who will answer all those questions?</p>
+        </speech>
+        <speech by="#" eId="spk_24">
+          <from>Mr. Adrian Neilan</from>
+          <p eId="para_101">I shall take the financial questions and my colleague, Mr. McKenna, will deal with the questions on Youghal and other matters of integrity that were raised.</p>
+          <p eId="para_102">A question was asked about what our net position at the end of this year.  At the end of this financial year we shall have a debt level of €24.7 million.  That level is due to the investment we are making in Limerick track at the moment, which will basically be a beacon for regeneration in the entire mid-west region, and it has already been applauded as such.  It was probably one of the key cornerstones in allowing a recent decision for Limerick city to be dubbed a "sporting capital" for 2011 in terms of what we have going on there.  It was probably one of the key cornerstones in allowing a recent decision for Limerick city itself to be denoted as a sporting capital for 2011.</p>
+          <p eId="para_103">We receive €11.8 million from the horse and greyhound fund.  We effectively return €5.5 million to the Government via taxes and loans and €6.2 million comes directly from the bookmakers.  We effectively cost nothing to taxpayers, but we have 11,000 jobs as a result of the fund.  We believe the greyhound industry provides excellent value for money with resources received from the horse and greyhound fund, and I will let my colleagues involved in the horse industry talk about the value for money they provide.</p>
+          <p eId="para_104">We need to capture the tax lost on telephone and on-line betting.  Many bookmaking chains are offering promotions on their on-line operations because this is the more efficient way of getting money quickly and it is where they make the greatest margin.  We believe that a tax or levy should be put on that, as happens in other countries.  Given that some of these bookmakers are sponsors at some of our stadia, we need to be mindful that this is balanced.  Non-Irish based operators should get the same crack of the whip and the Irish-based operators should not be disadvantaged in any way.</p>
+          <p eId="para_105">In 2001, a 10% levy was charged on consumers who placed a bet.  It is now down to 1%, so there is no reason that levy cannot improve.  All members here might be talking about this morning's betting coup on some horse in Kilbeggan.  Everyone is talking about it and it shows that there is a great appetite for betting in Ireland.  People would not mind paying 2% of the amount they bet on a levy.</p>
+          <p eId="para_106">In terms of the net position for 2010, we are forecasting a surplus level of €500,000 to €600,000.  Much will depend on our Christmas campaign.  We market as well as possible, while still ensuring a prudent spend.  We had 30,000 people booked in last year for corporate parties and other parties during the Christmas campaign.  Our year end is where we make most of our money and we are hoping this year will be no different.</p>
+          <p eId="para_107">The principal amount of savings has come from our labour savings.  In 2007, we had a labour cost of €10.2 million.  At the end of this year, that cost will be down to about €7.3 million.  Much of the reduction in labour costs has been driven by the implementation of technology, the re-organisation of roles and questioning the value we get from some roles.  We have lost some very good people who were with us for a long time, but funding has been reduced by 23%.  We are dependent on discretionary consumer spending, people coming through the gate and spending their money.  That is also falling and we had to let people go to survive.  We are no different from any commercial entity, even though people regard us as a semi-State.  We had to make those choices.  The balance of the savings of around €2 million would come from an overall cost focus.  Our chairman, Dick O'Sullivan, trained extensively with Kerry Group and everyone is aware of the success of that company.  We have been implementing his approaches on how to look at spending, questioning the value of our spending and reducing anything that is arbitrary.</p>
+          <p eId="para_108">By reducing our own costs, we can put more money aside for prize money and for capital development programmes.  We support the stadia we have in Ireland.  If we can get the good stadia like Cork making as much money as possible, it allows us to keep stadia like Youghal open for as long as possible.  Mr. McKenna will specifically handle the question about Youghal.</p>
+          <p eId="para_109">Over 90% of breeding in Ireland is done by owners with thee litters or fewer.  An extra cost of €400 per month is to be bestowed on them under this Bill, as well as an inspection system the parameters of which are undefined.  I am from a farming background and we have seen how milking parlours have had to be improved, and no doubt this will apply to people who are inspected in the greyhound industry.  This will mean that people will see more costs for improving their facilities.  This assertion is based on our experience of 50 years in policing the sport, making sure we look after our greyhounds and implementing all our welfare programmes.  As we spend €6 million every year on such programmes, there is no doubt that there will be extra costs as a result of this inspection system.  Those inspection parameters could change and who carries out the inspection could ultimately change over time as well.  The real concern is the fear of the unknown, especially when the unknown is not specified.</p>
+          <p eId="para_110">If 90% of our breeding does not take place, we will not have enough dogs to race around the track.  I concur with Deputy O'Keeffe's comment that all our stadia are important, but if we do not have the raw material to race around them, people will not come for a night out.</p>
+        </speech>
+        <speech by="#" eId="spk_25">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_111">I will preface my remarks by saying that we are not being political.  We are here in the best interests of the industry and we want to ensure this industry survives, thrives and continues to develop the way it has done in recent years.  We are here to give any assistance we can to the Minister or anyone else to ensure that happens.  We are here to state the facts as they are.  Anything we have been stating here or any presentation made is not something that has come down from the sky but contains the facts about how our industry is run and how we see it operating.</p>
+          <p eId="para_112">I regret that Deputy Ferris is not here because there was a magnificent night in Tralee last Friday.  It was extraordinary to see all the communities coming together there.  It provided great evidence of the support that a dog racing track can give to a community.  The place was buzzing and it was a magnificent night.  That is replicated throughout the country.  Deputy Ferris asked a question about the expense incurred by microchipping.  We see it as a further unnecessary expense on the industry.  When a litter is born, they are immediately earmarked.  We also have DNA testing.  When the greyhound is named at 12 or 13 months, it gets an identity card.  It is foolproof from that point of view because once a dog has an identity card, it must measure up to the identity on the dog's ear.  That cannot be taken away, so it is foolproof.</p>
+          <p eId="para_113">Microchipping relates to establishments, but it does not relate to greyhound racing.  One can remove a microchip from one dog and put it onto another, but one cannot remove the earmark from one and put it onto another.  It cannot be done.  Once the earmark is on the greyhound's ear, that is it.  Microchipping is duplication at best, but it leaves itself open to many of things that we ensure would not happen in our industry.  It will be an extra burden on the industry, but it certainly is not the foolproof system we have in operation at the moment.</p>
+          <p eId="para_114">We are highly regulated.  We have a control committee that is independent of the board, headed up by Kevin Heffernan.  There are veterinary surgeons and senior counsel on that control committee and they deal with all control issues before them in respect of any irregularities in greyhound racing.  It is under the auspices of the board but we certainly do not interfere in its operations.  Its findings are independent.  Anyone who reads the sporting press will see the results of the findings of that control committee.  It does a magnificent job, and it must be acknowledged it is done on a voluntary basis.  It is fantastic that such eminent people are prepared to do this because of their love of the industry.  This is unique in terms of how a system works and how well controlled we are.  It is important that I put this on record.</p>
+          <p eId="para_115">I understand Deputy O'Keeffe's anger about the track at Youghal and I take the points made by Senator Bradford and Deputy Aylward in regard to Kilkenny.  I assure Deputy O'Keeffe that there is no intention that the track at Youghal would close.  It has not been discussed and has never been an issue.  That is not the game we are in.  Our game is to keep the industry alive and to keep greyhounds running.  I regularly visit Youghal because my family are among the biggest racers there.  Therefore, if I wanted to be personal about it, it would not be in our interest that this would happen.</p>
+          <p eId="para_116">The Deputy is correct that a development came before the board.  No money was specifically laid aside for any particular track at any time.  Everything is viewed on the basis of how we intend to develop the different types of tracks.  When one considers the situation, one has to consider the funding.  We, in conjunction with the people in Youghal, came up with a plan to redevelop for a figure of €1.6 million.  When that came back to the board, we, like any semi-State body, had to adhere to corporate governance controls.  Unless we can prove that the return for the €1.6 million is adequate and assured, we are caught, and all of the proposals we make are viewed by others.  We had to go back to the drawing board, which is where the plan is at present.</p>
+          <p eId="para_117">The decision to put a new track in Limerick stadium was made 15 years ago and it is now coming to fruition.  Many people said it would never happen but it is happening.  Because that decision was made on the Limerick track, the Markets Field in Limerick was not touched — anyone going greyhound racing in the Markets Field at present would understand exactly what I am talking about.  It was not developed and not a penny was spent on the Markets Field in the past 15 years, in a centre which was one of the most important greyhound tracks in the country.  The whole mid-west region, as far down as Deputy O'Keeffe's area, contained people who raced greyhounds at Limerick track.  That no development took place there in the past 15 years meant it was crying out for development.</p>
+          <p eId="para_118">We fully intend to develop the Youghal track.  The change in racing nights was made in agreement with the people at Youghal.  We do not use the big whip and impose our decisions.  We consult all of our people on what they think would be the best way to proceed.  That was done in consultation with the people in Youghal.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_26">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_119">It must have been done <i>in camera</i>.</p>
+        </speech>
+        <speech by="#" eId="spk_27">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_120">We acknowledge it is a difficult issue with Waterford so close by.  However, the only intention in regard to Youghal is to develop it at the first available opportunity.  Our hands are tied at present in terms of funding.  There are other locations throughout the country that we need to develop but we just do not have the funding at present.  I guarantee Deputy O'Keeffe that, as soon as money becomes available, we will do the work on Youghal.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_28">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_121">I understand the point with regard to the dog breeding Bill.  The Fianna Fáil-Labour Government muzzled greyhounds some years ago and there was a big furore at that time also, so I am sure this will work out as well.  We will get compromise on this Bill from the Minister, Deputy Gormley, and the Taoiseach is working hard on that.  I would like to allay the fears in this regard.  Deputy P. J. Sheehan made the good point that common sense will prevail, which of course it will.</p>
+          <p eId="para_122">I do not accept Mr. McKenna's point on Youghal.  The Youghal track only needs a small contribution.  I am familiar with the Youghal people.  I know that Bord na gCon took the day from them and they had no choice but to give up that day.  Perhaps it was Mr. McKenna's predecessor who was involved.  Youghal has been a problem.  I live midway between Limerick and Cork, and I have sold cars in Markets Field in Limerick.  While I may not look it, I am moving towards 70 years of age so I have been around a while.  Before the year's end, according to Mr. McKenna, Bord na gCon will put money into Youghal but all it wanted was €200,000 or €300,000.  Mr. McKenna should not give me any grandiose ideas because these people telephone me regularly and I am at the track regularly because I have friends who race dogs there and we have a couple of dogs in my family.  Mr. McKenna mentioned the grand sum of €1.6 million.  That will never be spent.  Bord na gCon has a debt of €20 million and although it gets a contribution from the Government, there is no guarantee it will get the same contribution this year as it got last year given the Government is looking for €3 billion in cuts because the economy is in crisis.  We cannot sell this to people in need and those on social welfare who must also take adjustments.</p>
+          <p eId="para_123">Let us clear the air.  Bord na gCon took the day off them and Mr. McKenna should not tell me it did not.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_29">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_124">We are not going to get bogged down on Youghal.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_30">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_125">I am bogged down.  It is a small country track but Bord na gCon has favoured big business.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_31">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_126">The Deputy has made his point.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_32">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_127">I want to emphasise the point.  Bord na gCon could find €200,000 for that track.</p>
+        </speech>
+        <speech by="#" eId="spk_33">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_128">I can understand Deputy O'Keeffe's point.  The €1.6 million plan was developed in conjunction with the people in Youghal.  It was basically their proposal that was coming through in regard to what needed to be done there.  We took all of that development on board.  There is a difficulty in regard to the stand in Youghal, which is a problem that must be dealt with.  We can understand that.  At the end of the day, it might be €300,000 that is spent but the full intention of the board is to develop Youghal and I would not do anything other than develop it.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_34">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_129">I offer to meet Mr. McKenna with the supporters club in Youghal and the management of the track.  I do not accept what has been said.  I have——</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_35">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_130">We cannot have a personal meeting about Youghal.  This is about the operations of Bord na gCon.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_36">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_131">It is part of the fabric of the greyhound industry and always has been.  Let us be straight about it.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_37">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_132">We have got the message.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_38">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_133">I cannot get the message across.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_39">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_134">We will have a final comment on Youghal and we will then move on.</p>
+        </speech>
+        <speech by="#" eId="spk_40">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_135">I make the point that there is no intention on the part of the board to close Youghal.  It is one of our 17 tracks.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_41">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_136">They will close it by choking it.</p>
+        </speech>
+        <speech by="#" eId="spk_42">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_137">It is as important to us as any other track.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_43">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_138">They are trying to choke off——</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_44">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_139">The Deputy cannot intervene like that.  We must have order.  The Deputy has made his point.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_45">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_140">They are trying to choke it.</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_141">When we have the money available, we will do the job on Youghal.</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from>Mr. Adrian Neilan</from>
+          <p eId="para_142">With regard to Youghal, we came before this committee to talk about the broader industry and the issues at large but I recognise the passion of Deputy O'Keeffe.  That type of passion is great for the greyhound industry because we all want that industry to improve.  The reality is that our greyhound fund has been reduced by €3.6 million over two years.  Our education programmes are continuing and will cost the taxpayer nothing.  However, we recognise the constraints within which the Government is working.  Moving the racing at Cork to Friday means more money will be made, and that money will be ploughed back into developing facilities.  That is the prudent approach to take.</p>
+          <p eId="para_143">To clarify, I am the management of Bord na gCon and I am the management of Youghal track.  I know exactly what is going on at Youghal track.  There is a great supporters club there and we want to work with it to make sure Youghal is progressed.  As Deputy Stanton noted in the Dáil last year, the only industry in Youghal is the greyhound industry.  If we proffer ourselves to run the industry,  there is no reason that we would ignore a comment like that.  We very much take it on board.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_48">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_144">On what Mr. McKenna said about Youghal track, I will meet him down there with the supporters club and the management of the track and we will see what happens.  I will sit in on that meeting.  The offer is on the table.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_49">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_145">The meeting is being taken over by matters relating to Youghal track.  We must move on.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_50">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_146">Will the delegates take up my offer?</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_51">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_147">Deputy O'Keeffe can talk to the delegates privately after the meeting.  We will not have this discussion in a public forum.  The Deputy can talk about Youghal after the meeting.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_52">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_148">Youghal track is as important to me as the Dog Breeding Establishments Bill is to the Acting Chairman.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_53">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_149">I accept that.  I am simply asking the Deputy to continue his discussion with the delegates after the meeting.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_54">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_150">It is important to decent people in north Kerry and west Waterford as well as to those in my constituency.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_55">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_151">We accept that but we must move on.  I invite Mr. McKenna to continue.</p>
+        </speech>
+        <speech by="#" eId="spk_56">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_152">In regard to codes of practice, codes of conduct, ethics, corporate governance and so on, these were alien concepts to many people not many years ago but are now part and parcel of the world we live in.  I am chairperson of the audit sub-committee of the Irish Greyhound Board, as is Mr. Gilbert.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_57">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_153">Corporate governance collapsed in the banks.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_58">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_154">Will Deputy O'Keeffe allow Mr. McKenna to continue?  We must move on.</p>
+        </speech>
+        <speech by="#" eId="spk_59">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_155">I want to prove to Deputy O'Keeffe that there are exceptions.  Teresa Wall, who is an accountant, is another member of the sub-committee.  The late Frank O'Connell, who was a powerhouse in greyhound racing, was also a member of the sub-committee.  The other members are Mr. Neilan and our internal auditor.  We started from zero some years ago on the development of a corporate governance policy.  We began by availing of the expertise of a person from Deloitte to make sure we were doing everything correctly.  We entirely overhauled our articles and memoranda of association.  We made sure proper conduct in respect of the regulations was in place in all 17 tracks throughout the country.  They are now 100% governed by the corporate governance policy and are responsible in their own way to ensure there is adherence to the code of ethics and code of governance.</p>
+          <p eId="para_156">That took a great deal of work.  We have worked very closely with the Office of the Comptroller and Auditor General in this regard; we have met it on several occasions and it is more than happy with how we conduct our business.  That is extremely important to us because we want to be sure that what we are doing is correct and above board.  If we need advice we contact the Comptroller and Auditor General to make sure we are taking the correct approach.  We are an exception to what Deputy O'Keeffe has described.  Our house is totally in order and we are very proud of that.  This was all done under the guidance of Dick O'Sullivan, the chairman of the board.  We are not perfect in every way but we are certainly doing a good job.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_60">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_157">Do the delegates wish to respond to any other points that were raised?</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_61">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_158">I have a question for Mr. McKenna.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_62">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_159">I ask Deputy O'Keeffe not to return to the matter of Youghal.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_63">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_160">No, I will discuss that with the delegates when we meet down at the track.</p>
+        </speech>
+        <speech by="#PJSheenan" eId="spk_64">
+          <from>Deputy P. J. Sheehan</from>
+          <p eId="para_161">The Deputy will be looking for money.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_65">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_162">We are only looking for a small amount of money.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_66">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_163">I have asked the Deputy not to continue on that subject.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_67">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_164">I could not let Deputy Sheehan away with that.  How many meetings of the audit sub-committee does Mr. McKenna attend?</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_165">We meet four times per year, as required under the regulations, although we met five times last year.  If there is a requirement for additional meetings we hold them.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_69">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_166">Did the audit sub-committee report its findings to the board?</p>
+        </speech>
+        <speech by="#" eId="spk_70">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_167">Absolutely.  Every time——</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_71">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_168">The problem is that corporate governance is not worth the paper it is written on.</p>
+        </speech>
+        <speech by="#" eId="spk_72">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_169">Will the Acting Chairman assist me?</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_73">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_170">Deputy O'Keeffe must allow the delegate to answer his questions.</p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_171">Every time the audit sub-committee meets, a report goes back to the board for consideration.  That is what corporate governance is all about.  We abide totally by the regulations of corporate governance.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_75">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_172">Does Mr. Gilbert wish to respond?</p>
+        </speech>
+        <speech by="#" eId="spk_76">
+          <from>Mr. Tim Gilbert</from>
+          <p eId="para_173">Yes.  The first point I would make to Deputy O'Keeffe is that we are not the banks, and I am glad we are not.  I am confident we can stand over our corporate governance process.  We have come a long way from where we started in that regard.  The process was only beginning when I joined the board but we have got there now.  As Mr. McKenna said, the audit sub-committee reports back to the board after every meeting.</p>
+          <p eId="para_174">Mr. McKenna spoke about tagging of dogs.  Every dog has a passport which provides clear identification that is not transferable.  As Mr. McKenna said, the control committee acts at arms length and with complete and utter independence.  I do not believe any of us has ever asked a question of the committee; it carries on with its business unimpeded.  On corporate social responsibility, our tracks are ideally suited for those types of events and our fund-raisers are a great fillip to local communities.  We have a programme coming up with Macra na Feirme to bring people who are experiencing loneliness to our tracks on a regular basis.  That is the type of thing we do.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_77">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_175">Is the board audited by a private firm of auditors or by the Comptroller and Auditor General?</p>
+        </speech>
+        <speech by="#" eId="spk_78">
+          <from>Mr. Adrian Neilan</from>
+          <p eId="para_176">We are audited by the Comptroller and Auditor General.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_79">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_177">That is because it receives a State contribution.</p>
+        </speech>
+        <speech by="#" eId="spk_80">
+          <from>Mr. Adrian Neilan</from>
+          <p eId="para_178">Correct.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_81">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_179">Mr. McKenna referred to Deloitte.</p>
+        </speech>
+        <speech by="#" eId="spk_82">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_180">I mentioned that when the audit sub-committee was set up we received advice from a person in Deloitte to make sure we were on the right path.</p>
+        </speech>
+        <speech by="#NedOKeeffe" eId="spk_83">
+          <from>Deputy Edward O’Keeffe</from>
+          <p eId="para_181">How much did it cost to avail of the services of that consultant?</p>
+        </speech>
+        <speech by="#" eId="spk_84">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_182">I do not recall off the top of my head.  It was more than worth the money.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_85">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_183">I ask Mr. Neilan to sum up.</p>
+        </speech>
+        <speech by="#" eId="spk_86">
+          <from>Mr. Adrian Neilan</from>
+          <p eId="para_184">We thank the Acting Chairman for allowing us to attend this meeting to inform the committee of the status of the greyhound industry.  We do not seek to claim all the credit for the transformation that has taken place in the industry; it  was started by a previous chairman, Paschal Taggart, and continued by the current chairman, Dick O'Sullivan.  What we have brought to bear is in keeping with the times, namely, a focus on cost control and ensuring we maximise the return to the industry so that we can promote places like Youghal and support the wider industry.  Good corporate governance ensures a more efficient use of resources.  In other words, if one applies the rules, one is less likely to waste resources on legal issues and matters of that sort.  We are concentrating on efficiencies the whole time.</p>
+          <p eId="para_185">I hope the members will see how well we run our industry.  I hope the members will see our deep concerns about the Dog Breeding Establishments Bill 2009.</p>
+          <p eId="para_186">Equally, I hope the members will see that we introduced a strategic plan in 2006.  We are open to change.  We need to keep changing.  On that facet, we are very much open to consulting with the Department of the Environment, Heritage and Local Government, and the Minister.  We are well aware the Minister has a significant brief and that it is difficult to be an expert in all areas, but we will work with him to ensure that our fears are allayed.  We are being practical here.  The number one priority in this economy at time is jobs, and that is what we are all about.</p>
+        </speech>
+        <speech by="#" eId="spk_87">
+          <from>Mr. Tony McKenna</from>
+          <p eId="para_187">I thank the Acting Chairman and all of the members for attending and giving us the opportunity to make our presentation.  It is a privilege to be here.  I hope the committee got an overview of exactly how we operate.  We will be here in the future again.</p>
+        </speech>
+        <speech by="#BobbyAylward" as="#Acting_Chairman" eId="spk_88">
+          <from>Acting Chairman (Deputy Bobby Aylward)</from>
+          <p eId="para_188">There is nothing left for me to do only to thank Mr. Neilan, Mr. McKenna and Mr. Gilbert for coming in here.  I thank them for their insight on the matter.  Unfortunately, they got side-tracked on the Dog Breeding Establishments Bill 2009, which is going through the Houses at present.  Naturally, it was going to come up.</p>
+          <p eId="para_189">I would like to see them coming back again, as they stated.  Bord na gCon has been assumed into the Department of Agriculture, Fisheries and Food.  We have already written to that Department and we received a presentation from the officials.  We hope to bring them before the committee in the future to discuss progress on Bord na gCon coming under the Department, and perhaps we will get the Minister as well.  I hope the delegation will come back at a future date when we will have another get-together and chat on how matters are progressing.  I thank them most sincerely and wish them the very best.</p>
+        </speech>
+        <summary eId="sum_6">The joint committee adjourned at 2.02 p.m. until 11.30 a.m. on Wednesday, 30 June 2010.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

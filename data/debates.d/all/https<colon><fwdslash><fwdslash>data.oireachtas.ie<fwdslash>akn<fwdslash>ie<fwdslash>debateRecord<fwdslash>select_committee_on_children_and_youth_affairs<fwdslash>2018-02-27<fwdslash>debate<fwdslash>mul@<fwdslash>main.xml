@@ -1,0 +1,1173 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_children_and_youth_affairs/2018-02-27/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_children_and_youth_affairs/2018-02-27/debate"/>
+          <FRBRdate date="2018-02-27" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/32/select_committee_on_children_and_youth_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_children_and_youth_affairs/2018-02-27/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_children_and_youth_affairs/2018-02-27/debate/mul@"/>
+          <FRBRdate date="2018-02-27" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_children_and_youth_affairs/2018-02-27/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_children_and_youth_affairs/2018-02-27/debate/mul@.akn"/>
+          <FRBRdate date="2020-02-12" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_31" outcome="#carried" refersTo="#sum_30">
+            <count eId="vote_1-count_1" href="#qty_1" refersTo="#ta" value="5"/>
+            <count eId="vote_1-count_2" href="#qty_2" refersTo="#nil" value="3"/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#debates">
+        <TLCConcept eId="#lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#carried" href="/ie/oireachtas/ontology#DeclaredCarried" showAs="Declared Carried"/>
+        <TLCConcept eId="#staon" href="/ie/oireachtas/ontology#StaonVote" showAs="Staon Vote"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCPerson eId="AlanFarrell" href="/ie/oireachtas/member/id/Alan-Farrell.D.2011-03-09" showAs="Alan Farrell"/>
+        <TLCPerson eId="AnneRabbitte" href="/ie/oireachtas/member/id/Anne-Rabbitte.D.2016-10-03" showAs="Anne Rabbitte"/>
+        <TLCPerson eId="DeniseMitchell" href="/ie/oireachtas/member/id/Denise-Mitchell.D.2016-10-03" showAs="Denise Mitchell"/>
+        <TLCPerson eId="KatherineZappone" href="/ie/oireachtas/member/id/Katherine-Zappone.S.2011-05-25" showAs="Katherine Zappone"/>
+        <TLCPerson eId="KathleenFunchion" href="/ie/oireachtas/member/id/Kathleen-Funchion.D.2016-10-03" showAs="Kathleen Funchion"/>
+        <TLCPerson eId="LisaChambers" href="/ie/oireachtas/member/id/Lisa-Chambers.D.2016-10-03" showAs="Lisa Chambers"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Seán Sherlock"/>
+        <TLCPerson eId="TomNeville" href="/ie/oireachtas/member/id/Tom-Neville.D.2016-10-03" showAs="Tom Neville"/>
+        <TLCEvent eId="bill.2017.153.dail.3" href="/ie/oireachtas/bill/2017/153/dail/3" showAs="Childcare Support Bill 2017: Committee Stage (Dáil)"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole eId="Minister_for_Children_and_Youth_Affairs" href="/ie/oireachtas/role/minister/children__youth_affairs" showAs="Minister for Children and Youth Affairs"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN ROGHCHOISTE UM LEANAÍ AGUS GNÓTHAÍ ÓIGE</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Select Committee on Children and Youth Affairs</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2018-02-27">Dé Máirt, 27 Feabhra 2018</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2018-02-27">Tuesday, 27 February 2018</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Tháinig an Roghchoiste le chéile ag 01:30 p.m.</summary>
+        <summary class="Center" eId="sum_2">The Select Committee met at 01:30 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_3">Comhaltaí a bhí i láthair / Members present:</summary>
+          <table>
+            <tr>
+              <th>
+                <p eId="para_1">Teachtaí Dála / Deputies</p>
+              </th>
+              <th>
+                <p eId="para_2"/>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#LisaChambers">Lisa Chambers</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#KathleenFunchion">Kathleen Funchion</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#DeniseMitchell">Denise Mitchell</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#TomNeville">Tom Neville</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#AnneRabbitte">Anne Rabbitte</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#SeanSherlock">Sean Sherlock</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#KatherineZappone">Katherine Zappone (Minister for Children and Youth Affairs).</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#AlanFarrell">Teachta / Deputy Alan Farrell sa Chathaoir / in the Chair.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Select Committee<recordedTime time="2018-02-27T13:30:00+00:00"/></heading>
+        <speech by="#AlanFarrell" eId="spk_1">
+          <from> Chairman<recordedTime time="2018-02-27T13:35:00+00:00"/></from>
+          <p eId="para_10">I welcome and thank members and the Minister. They are very welcome to the Select Committee on Children and Youth Affairs. The Dáil referred the affordable child care Bill 2017 to our committee on 1 February. Today's meeting of the select committee will consider the Bill on Committee Stage and report back to the Dáil. Before proceeding with the business, I remind members and those in the Public Gallery that mobile phones should be switched off completely or to aeroplane mode for the duration of this meeting as they interfere with our broadcasting systems. Even when on silent mode they tend to do so.</p>
+          <p eId="para_11"> I also remind Members of the long-standing parliamentary practice to the effect that they should not comment on, criticise or make charges against a person or body outside the House or an official either by name or in such a way as to make him, her or it identifiable.</p>
+          <p eId="para_12"> I welcome the Minister for Children and Youth Affairs, Deputy Zappone, and the officials from her Department. In advance of the Minister's opening statement, I wish to bring a matter of correspondence to the attention of the committee and the Minister because it relates to Scouting Ireland. As the Minister, Deputy Rabbitte and I will be aware, this matter entered the public domain at the end of last week. All three Members of the Oireachtas present made statements to express concern about the matter. I wish to bring it to members' attention that I received correspondence from Scouting Ireland's chief executive officer, Dr. John Lawlor, yesterday and have had conversations with him since. I have formally requested, with the agreement of members of the committee, to write to Scouting Ireland and request a copy of its child protection procedures for the consideration of this committee. I have no doubt but that this will also be circulated to the Minister. I will make arrangements for this letter to be circulated to all members of the committee because it is addressed to me as Chairman of the committee. I just wanted to put that into the public domain. Whether we consider requesting Scouting Ireland to come before us is a matter which we can consider at a later date. While we do not have compellability powers in respect of Scouting Ireland as an organisation, I have spoken with the organisation and Dr. Lawlor indicated he would not be averse to attending to discuss the matter in the future. I understand matters are under investigation within the organisation. This is no secret; Dr. Lawlor himself has put it on the public record. Therefore, we would not wish to pre-empt or predetermine any of these matters but I wanted to put that on the record for the members present because I was not able to reach a number of members last week. I was out of the country on business pertaining to another committee. I think that concludes that part.</p>
+        </speech>
+        <speech by="#DeniseMitchell" eId="spk_2">
+          <from>Deputy Denise Mitchell<recordedTime time="2018-02-27T13:35:00+00:00"/></from>
+          <p eId="para_13">I agree with the Chairman because my understanding is that Scouting Ireland itself is undertaking a review-----</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_3">
+          <from> Chairman<recordedTime time="2018-02-27T13:35:00+00:00"/></from>
+          <p eId="para_14">Correct.</p>
+        </speech>
+        <speech by="#DeniseMitchell" eId="spk_4">
+          <from>Deputy Denise Mitchell<recordedTime time="2018-02-27T13:35:00+00:00"/></from>
+          <p eId="para_15">-----and it will take a few months. Therefore, it would probably be best, if we were to call them in, to do so afterwards-----</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_5">
+          <from> Chairman<recordedTime time="2018-02-27T13:35:00+00:00"/></from>
+          <p eId="para_16">At a later stage.</p>
+        </speech>
+        <speech by="#DeniseMitchell" eId="spk_6">
+          <from>Deputy Denise Mitchell<recordedTime time="2018-02-27T13:35:00+00:00"/></from>
+          <p eId="para_17">-----because they may come in and not be able to answer anything.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_7">
+          <from> Chairman<recordedTime time="2018-02-27T13:35:00+00:00"/></from>
+          <p eId="para_18">I concur with Deputy Mitchell. I think for us to get involved in matters of such importance to the organisation would predetermine them. While I have the greatest of respect for members, a question might be asked in a particular way and answered in a particular way that might prejudice Scouting Ireland's internal findings on the matter.</p>
+          <p eId="para_19">Once a copy of the child protection policy within Scouting Ireland is provided to the committee, I will circulate it to all members and the Minister. I will also copy the Minister on the letter for her information.</p>
+        </speech>
+        <speech by="#KatherineZappone" as="#Minister_for_Children_and_Youth_Affairs" eId="spk_8">
+          <from>Minister for Children and Youth Affairs (Deputy Katherine Zappone)<recordedTime time="2018-02-27T13:40:00+00:00"/></from>
+          <p eId="para_20">I very much welcome the interest of the committee in the issues the Chairman has identified and raised. As the committee, I am sure, is aware I have also sought an urgent report. I welcome the interest of the committee and it can only help us move forward on the matter.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_9">
+          <from> Chairman<recordedTime time="2018-02-27T13:40:00+00:00"/></from>
+          <p eId="para_21">I thank the Minister.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3" refersTo="#bill.2017.153.dail.3">
+        <heading>Childcare Support Bill 2017: Committee Stage<recordedTime time="2018-02-27T13:40:00+00:00"/></heading>
+        <speech by="#KatherineZappone" as="#Minister_for_Children_and_Youth_Affairs" eId="spk_10">
+          <from>Minister for Children and Youth Affairs (Deputy Katherine Zappone)<recordedTime time="2018-02-27T13:40:00+00:00"/></from>
+          <p eId="para_22">I am pleased to have an opportunity to bring the Childcare Support Bill to Committee Stage. When I introduced the Bill to the House on Second Stage I was very grateful for the strong support I received from all sides of the House and the very constructive tone contained in all suggestions made. I acknowledge and thank Deputies and the Chairman for their support of the Bill and especially for the detailed attention they have given to preparing amendments. In particular, I note in advance that I am pleased to accept in principle an amendment to Schedule 2 to the Bill on the purpose of referrals for child care support from Tusla, the Child and Family Agency. Similar amendments on the issue were proposed by Deputies Rabbitte, Mitchell and Funchion. We can discuss the detail later in the meeting but I want to signal at the outset that I accept the amendments in principle and I thank the Deputies for their valuable contribution.</p>
+          <p eId="para_23"> I also want to signal in advance that I plan to propose a small number of further amendments on Report Stage. These amendments will principally involve minor changes to the Child Care Act 1991 to facilitate the registration of school-aged child care services with Tusla. As such, they result from my announcement last December that I planned to introduce the regulation and registration of school-aged child care providers during this year in order that these providers can take part in the affordable child care scheme at the outset. To achieve this outcome, I plan to propose a number of amendments to the definition of school-aged services, which are set out in the Child Care Act 1991, so as to clarify more precisely the scope of such services and to expand the definition to include children up to 15 years of age. The definition is currently limited to primary school children, and the proposed amendment will ensure it aligns instead with the age limit of 15 years as set out in the affordable child care scheme.</p>
+          <p eId="para_24"> The introduction of school-aged child care regulations will also have knock-on implications for the exemptions from registration for childminders, which are also set out in the Child Care Act at section 58L. Therefore, I intend to propose two related amendments to section 58L to ensure unintended consequences for childminders do not arise. At the same time, I want to confirm that all registered childminders will be eligible to participate in the affordable child care scheme. We will not only seek to maintain but to grow over time the number of registered childminders. The report of the expert group on childminding, which I commissioned, was submitted to me last month and will be published by the group shortly. I intend to develop an action plan setting out short-, medium- and long-term actions in response to the report to support the childminding sector on a path towards registration.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_11">
+          <from> Chairman<recordedTime time="2018-02-27T13:40:00+00:00"/></from>
+          <p eId="para_25">I note full attendance and I thank the Deputies for their attendance. I intend to try to conclude business on this matter this afternoon. For the information of members, the following amendments are being grouped for the purposes of debate: amendments Nos. 1, 2, 6 and 22; amendments Nos. 5 and 9; amendments Nos. 8 and 26; amendments Nos. 11 and 32; amendments Nos. 12 to 14, inclusive, and 30; amendments Nos. 16 to 18, inclusive; and amendments Nos. 20, 21 and 23. As the members who proposed amendments Nos. 15, 19, 25 and 27 are aware, they have been declared out of order. Other amendments that are not grouped can be discussed individually and as all members are aware, there will be an opportunity to discuss each section. I thank the Minister for her opening remarks.</p>
+        </speech>
+        <summary eId="sum_5">SECTION 1</summary>
+        <speech by="#AlanFarrell" eId="spk_12">
+          <from> Chairman<recordedTime time="2018-02-27T13:45:00+00:00"/></from>
+          <p eId="para_26">Amendments Nos. 1, 2, 6 and 22 are related and may be discussed together.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_13" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T13:45:00+00:00"/></from>
+          <p eId="para_27">I move amendment No. 1:</p>
+          <p class="indent_1" eId="para_28">In page 5, to delete line 26 and substitute the following:</p>
+          <p class="indent_1" eId="para_29">" "civil partner" shall be construed in accordance with section 3 of the Act of 2010;".</p>
+          <p eId="para_30">These amendments are technical drafting amendments. Amendments Nos. 1 and 2, which clarify the definitions of "civil partner" and "cohabitant", are required by virtue of the fact that the definitions of "civil partner" and "cohabitant" in the Civil Partnership and Certain Rights and Obligations of Cohabitants Act 2010 are implicit in the sections of the Act to which the amendments refer, rather than explicit. </p>
+          <p eId="para_31"> Amendment No. 6 to section 6 relates to the outsourcing arrangements for the school scheme administrator. While subsection (1) of amendment No. 6 allows outsourcing of functions conferred on the scheme administrator, subsection (2) specifies that these functions may include the making of payments. However, in subsection (2) there are no particular specified payments to which "the payments" refers. Amendment No. 6, which is purely a drafting amendment, therefore proposes to delete the word "the".</p>
+          <p eId="para_32"> Amendment No. 22 is also a technical drafting amendment to provide clarity that the child to whom the paragraph refers is the child for whom an application is being made for financial support under the scheme.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_14">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T13:45:00+00:00"/></from>
+          <p eId="para_33">I liked the original wording on line 29, which states, "two persons who are married to each other". Perhaps the Minister will clarify the reason for this change as the section as drafted seemed reasonable and in keeping with the idea of simplifying the language around legislation.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_15" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T13:45:00+00:00"/></from>
+          <p eId="para_34">Whereas I appreciate the Deputy's sentiment the phrasing used in the published Bill would be appropriate if the definitions in the 2010 Act took the form of '"X" means etc.'.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_16">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T13:45:00+00:00"/></from>
+          <p eId="para_35">I thank the Minister.</p>
+        </speech>
+        <summary eId="sum_6"> Amendment put and declared carried.</summary>
+        <speech by="#KatherineZappone" eId="spk_17" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T13:45:00+00:00"/></from>
+          <p eId="para_36">I move amendment No. 2:</p>
+          <p class="indent_1" eId="para_37">In page 5, to delete line 27 and substitute the following:</p>
+          <p class="indent_1" eId="para_38">" "cohabitant" shall be construed in accordance with section 172(1) of the Act of 2010;".</p>
+        </speech>
+        <summary eId="sum_7"> Amendment put and declared carried.</summary>
+        <speech by="#KatherineZappone" eId="spk_18" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T13:45:00+00:00"/></from>
+          <p eId="para_39">I move amendment No. 3:</p>
+          <p class="indent_1" eId="para_40"> In page 6, lines 2 to 4, to delete all words from and including "at" in line 2 down to and including "<i>section 15</i>" in line 4.</p>
+          <p eId="para_41">This amendment ensures that the definition of a couple and, therefore, of a partner, continues to apply at all relevant times and not just at the two points in time specified in the published Bill, namely, when making an application or when commencing payments. While those two points in time are critical, as the definition of a couple determines whose income is assessed when an application is made the current wording omits any reference to the timing of reviews under section 17. If a couple separates after the time they were awarded a subsidy and the applicant then seeks a review of the income, it is the applicant's current status as a lone parent that should matter and not his or her status at the time the application was made, namely, when they were still a couple. By deleting any reference to points in time the proposed amendment ensures that the definition will apply at all relevant times.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_19">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T13:45:00+00:00"/></from>
+          <p eId="para_42">I welcome this proposal. It makes sense because entitlement to various schemes is based on previous income and if a couple separates one of them ends up having to argue his or her case in that regard. I welcome the common sense approach being applied to this legislation.</p>
+        </speech>
+        <summary eId="sum_8"> Amendment put and declared carried.</summary>
+        <summary eId="sum_9"> Section 1, as amended, agreed to.</summary>
+        <summary eId="sum_10">SECTION 2</summary>
+        <speech by="#KatherineZappone" eId="spk_20" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T13:45:00+00:00"/></from>
+          <p eId="para_43">I move amendment No. 4:</p>
+          <p class="indent_1" eId="para_44">In page 7, line 9, to delete "2018" and substitute "2019".</p>
+          <p eId="para_45">Section 2 provides for the establishment of the affordable childcare scheme and for the scheme to be funded out of moneys provided by the Oireachtas. As payments under the scheme will not be made in 2018, it is proposed to amend this section to provide that the payments will be made in the first year in which the Oireachtas shall make moneys available to the Minister for the purpose of paying subsidies under the scheme.</p>
+        </speech>
+        <summary eId="sum_11"> Amendment put and declared carried.</summary>
+        <summary eId="sum_12"> Section 2, as amended, agreed to.</summary>
+        <summary eId="sum_13">SECTION 3 </summary>
+        <summary eId="sum_14"> Question proposed: "That section 3 stand part of the Bill."</summary>
+        <speech by="#SeanSherlock" eId="spk_21">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_46">Forgive my ignorance on this one if I have missed something in the discourse or in the Minister's Second Stage speech but who does the Minister anticipate will be the body to administer the scheme?</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_22" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_47">It will be Pobal.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_23">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_48">Okay. I thank the Minister for that.</p>
+        </speech>
+        <summary eId="sum_15"> Question put and agreed to. </summary>
+        <summary eId="sum_16"> Section 4 agreed to. </summary>
+        <summary eId="sum_17">SECTION 5 </summary>
+        <summary eId="sum_18"> Question proposed: "That section 5 stand part of the Bill."</summary>
+        <speech by="#SeanSherlock" eId="spk_24">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_49">I wish to give notice that I may submit an amendment to this section on Report Stage.</p>
+        </speech>
+        <summary eId="sum_19"> Question put and agreed to. </summary>
+        <summary eId="sum_20">SECTION 6 </summary>
+        <speech by="#AlanFarrell" eId="spk_25">
+          <from> Chairman<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_50">Amendments Nos. 5 and 9 are related and may be discussed together.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_26" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_51">I move amendment No. 5:</p>
+          <p class="indent_1" eId="para_52">In page 8, line 23, to delete “in writing”.</p>
+          <p eId="para_53">This amendment relates to section 6, which concerns the outsourcing arrangements for the scheme administrator. Amendment No. 9 relates to section 8, which limits participation in the scheme to approved child care service providers that have signed a scheme contract with the Minister for Children and Youth Affairs. While references to communications throughout the Bill refer to communications in writing or by electronic means, the references to contracts in sections 6 and 8 refer only to agreements in writing. They do not, therefore, allow for the possibility of contracts that are solely held in electronic form and signed by means of a certified digital signature. To allow for this possibility and to ensure consistency in the approach throughout the Bill, amendments Nos. 5 and 9 delete the words "in writing" and, as a result, a contract would be described simply as an agreement. </p>
+          <p eId="para_54"> At a practical level, I would note that current contracts in place between my Department and child care providers are solely in electronic form. Therefore, this is an important point in terms of administrative efficiency for both child care providers and the State.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_27">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_55">On the wider section, I wish to give notice that I may submit an amendment on Report Stage.</p>
+        </speech>
+        <summary eId="sum_21"> Amendment put and declared carried. </summary>
+        <speech by="#KatherineZappone" eId="spk_28" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_56">I move amendment No. 6:</p>
+          <p class="indent_1" eId="para_57">In page 8, line 28, to delete “the”.</p>
+        </speech>
+        <summary eId="sum_22"> Amendment put and declared carried. </summary>
+        <summary eId="sum_23"> Section 6, as amended, agreed to. </summary>
+        <summary eId="sum_24">SECTION 7</summary>
+        <speech by="#AnneRabbitte" eId="spk_29">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_58">I move amendment No. 7:</p>
+          <p class="indent_1" eId="para_59">In page 9, line 11, after “parent” to insert “or guardian”.</p>
+          <p eId="para_60"> In light of the number of children who are cared for outside of the home, whether in foster care or other family situations, the insertion of the word "guardian" is prudent. </p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_30" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_61">I can confirm that the definition of parent in section 1 of the Bill states that for the purposes of this scheme, parent includes "a person acting in loco parentis". As a guardian is acting <i>in</i>
+						<i>loco parentis</i>, any reference in the Bill to parent must be understood, therefore, to include a guardian. As the proposed amendment is already provided for in the Bill, I will not be accepting it.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_31">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_62">As the Minister has clearly outlined that this is already provided for in section 1 of the Bill, I am happy to withdraw my amendment.</p>
+        </speech>
+        <summary eId="sum_25"> Amendment, by leave, withdrawn. </summary>
+        <speech by="#AlanFarrell" eId="spk_32">
+          <from> Chairman<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_63">Amendments Nos. 8 and 26 are related and will be discussed together.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_33" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T13:50:00+00:00"/></from>
+          <p eId="para_64">I move amendment No. 8:</p>
+          <p class="indent_1" eId="para_65">In page 9, line 30, after “<i>section 14</i>” to insert “in respect of that child”.</p>
+          <p eId="para_66">Amendments Nos. 8 and 26 both aim to ensure that the referral of a child by a sponsorship body named in Schedule 2 will not create an obstacle to other relevant applications for financial support under the scheme.</p>
+          <p eId="para_67">Amendment No. 8 provides for amendment to section 7(1)(f) to ensure that, where only one child in a family benefits from a referral by a sponsorship body under section 14, parents may still apply for financial supports under the scheme for other children in the family in the normal way. The wording in the published Bill does not allow for this possibility as it implies that applicants may not apply for financial support if they are benefitting from free child care under section 14 in respect of any child. The amendment therefore proposes to address what is effectively an unintended consequence.</p>
+          <p eId="para_68"> Amendment No. 26 relates to section 15(2)(d), the purpose of which is to stipulate that section 14 referrals for child care are an alternative route to support under the scheme. There is no need for subsidised child care in cases where a referral for free child care has already been made. Amendment No. 26 is needed to ensure that, in cases where one parent benefits from free child care as a result of a referral under section 14, the other parent of the child can still apply for financial support under the scheme in the normal way, particularly if the parents are separated and each has care of the child at different times of the week. In other words, while one parent to whom the section 14 referral applies cannot apply for financial support in the normal way, the other parent can apply for financial support on his or her own behalf in the normal way. The amendment therefore proposes to address any unintended negative consequence that could arise for the second parent in this example as a result of a referral arrangement being in place.</p>
+        </speech>
+        <summary eId="sum_26"> Amendment agreed to.</summary>
+        <summary eId="sum_27"> Section 7, as amended, agreed to.</summary>
+        <summary eId="sum_28">SECTION 8</summary>
+        <speech by="#KatherineZappone" eId="spk_34" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_69">I move amendment No. 9:</p>
+          <p class="indent_1" eId="para_70">In page 10, line 3, to delete “in writing”.</p>
+        </speech>
+        <summary eId="sum_29"> Amendment agreed to.</summary>
+        <speech by="#KathleenFunchion" eId="spk_35">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_71">I move amendment No. 10:</p>
+          <p class="indent_1" eId="para_72">In page 10, line 20, to delete “section.” and substitute the following:</p>
+          <p class="indent_2" eId="para_73">“section,</p>
+          <p class="indent_2" eId="para_74">(i) the inclusion of Tusla-registered non-centre-based childminding services.”</p>
+          <p eId="para_75">The amendment speaks for itself. We have had much discussion in the committee about childminders and including them in this new scheme. It would be good if they were mentioned in the legislation. This amendment proposes to delete the word "section" and substitute “section, (i) the inclusion of Tusla-registered non-centre-based childminding services.” Given that we are trying to encourage childminders into the scheme, it would be good to include specific reference to them in the Bill.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_36">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_76">Before the Minister responds, I would like to ask whether this provision would have cost implications for the administration of the scheme.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_37">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_77">It is already covered because Tusla-registered childminders can apply for the scheme.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_38" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_78">It is a policy objective.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_39">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_79">For the purposes of the amendment to the Bill, the answer is "No".</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_40">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_80">I thank the Deputies and the Chair.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_41" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_81">I thank Deputies Funchion and Mitchell. I certainly agree with their intentions and sentiment but the aim of the proposed amendment is effectively already provided for in the Bill and as a result, I am not accepting the amendment. Let me explain. The definition of “childcare services provider” in section 1 is a "provider of a pre-school service or a school age service whose name is entered in the register of prescribed early years services established and maintained in accordance with section 58C of the Child Care Act 1991". Every childminder registered with Tusla is named on the register established under section 58C of the 1991 Act and is therefore already included within the definition of "childcare services provider" for the purposes of this Bill. Every childminder registered with Tusla who signs a contract with the Minister for Children and Youth Affairs under section 8 of this Bill would therefore be an approved child care services provider for the purposes of the scheme. While I am pleased to assure the Deputies that the Bill will allow all registered childminders to take part in the affordable child care scheme - which is what I am indicating - I am also conscious that very few childminders are currently registered with Tusla.</p>
+          <p eId="para_82">The Deputy is aware than in 2016 I established a working group to examine future options for the regulation and development of childminding. The working group, which was chaired by Childminding Ireland, submitted its report to me on 15 January. I subsequently met representatives of the working group. Following that very positive meeting, my Department is currently considering the report with a view to developing an action plan setting out short-, medium- and long-term actions. </p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_42">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_83">I do not see the difficulty with including this if we are trying to encourage childminders to come on board. When I read the Bill it was not clear to me that it included childminders. Including the measure will not increase costs. We will call a vote on the amendment.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_43">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_84">For the purpose of illustration, I refer the Deputy to line 25 of the Bill, which the Minister has kindly read into the record.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_44">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_85">I have heard that.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_45">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_86">That is fine. Is the amendment agreed?</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_46">
+          <from>Deputy Tom Neville<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_87">What is the question?</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_47">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_88">We are voting on Deputy Funchion's amendment, which is amendment No. 10. The Minister has inferred it is already in the Bill on page 1, line 25.</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_48">
+          <from>Deputy Tom Neville<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_89">The Minister has inferred that it is in the Bill.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_49">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_90">It is in the Bill. We are voting on amendment No. 10, from the Sinn Féin members.</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_50">
+          <from>Deputy Tom Neville<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_91">Is it the same thing?</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_51">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_92">The Minister said it is already contained in the Bill in section 1.</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_52">
+          <from>Deputy Tom Neville<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_93">I am very confused.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_53">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_94">It does not state-----</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_54">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_95">The interpretation-----</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_55">
+          <from>Deputy Tom Neville<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_96">I am extremely confused.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_56">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_97">It depends on how one interprets it.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_57">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_98">I accept the point.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_58">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_99">The vote has been called, as I understand it.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_59">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_100">I will provide the information to which Deputy Neville is entitled.</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_60">
+          <from>Deputy Tom Neville<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_101">For clarity.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_61">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_102">Yes.</p>
+        </speech>
+        <speech by="#TomNeville" eId="spk_62">
+          <from>Deputy Tom Neville<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_103">I refer to the interpretation of what it is in the Bill. We are voting on Deputy Funchion's amendment.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_63">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_104">Yes.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_4">
+          <summary eId="sum_30">Amendment put: </summary>
+          <summary title="division" eId="sum_31">The Committee divided: Tá, <quantity refersTo="#ta" normalized="5" eId="qty_1">5</quantity>; Níl, <quantity refersTo="#nil" normalized="3" eId="qty_2">3</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_5">
+            <p eId="para_105">Tá</p>
+            <p eId="para_106">
+              <person refersTo="#LisaChambers">Chambers, Lisa.</person>
+            </p>
+            <p eId="para_107">
+              <person refersTo="#KathleenFunchion">Funchion, Kathleen.</person>
+            </p>
+            <p eId="para_108">
+              <person refersTo="#DeniseMitchell">Mitchell, Denise.</person>
+            </p>
+            <p eId="para_109">
+              <person refersTo="#AnneRabbitte">Rabbitte, Anne.</person>
+            </p>
+            <p eId="para_110">
+              <person refersTo="#SeanSherlock">Sherlock, Sean.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_6">
+            <p eId="para_111">Níl</p>
+            <p eId="para_112">
+              <person refersTo="#AlanFarrell">Farrell, Alan.</person>
+            </p>
+            <p eId="para_113">
+              <person refersTo="#TomNeville">Neville, Tom.</person>
+            </p>
+            <p eId="para_114">
+              <person refersTo="#KatherineZappone">Zappone, Katherine.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_32"/>
+          <summary title="decision" refersTo="#carried" eId="sum_33">Amendment declared carried.</summary>
+        </debateSection>
+        <summary eId="sum_34"> Section 8, as amended, agreed to.</summary>
+        <summary eId="sum_35">SECTION 9</summary>
+        <speech by="#AlanFarrell" eId="spk_64">
+          <from> Chairman<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_115">Amendments Nos. 11 and 32 have been grouped and will be discussed together.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_65" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:00:00+00:00"/></from>
+          <p eId="para_116">I move amendment No. 11:</p>
+          <p class="indent_1" eId="para_117">In page 11, to delete lines 1 and 2 and substitute the following:</p>
+          <p class="indent_2" eId="para_118">“(f) specify the class in which the child is enrolled at school or whether he or she is enrolled in a pre-school programme funded by the Minister or the Minister for Education and Skills,”.</p>
+          <p eId="para_119">Amendments Nos. 11 and 32 relate to the way in which the Bill refers to the ECCE preschool programme. Amendment No. 11 relates to section 9, which sets out the information which must be included in an application for financial support. Section 9(f) requires information on the child's stage in the education system as it is necessary to determine how the hours of child care support will wrap around the hours of school or the ECCE preschool programme. This amendment changes the language from the class the child attends at school and whether he or she participates in preschool to the class in which the child is enrolled at school and whether he or she is enrolled in preschool. The change ensures consistency with language to be used elsewhere in the Bill through the proposed amendments to section 13 and provides clarity that it is a child's enrolment in a class which matters, rather than a child's attendance as attendance may vary, for example, as a result of illness. </p>
+          <p eId="para_120">The amendment also adds a reference to preschool programmes funded by the Minister for Education and Skills as some children take part in the Early Start programme that is funded by the Minister for Education and Skills, rather than the early childhood care and education, ECCE, preschool programme. </p>
+          <p eId="para_121"> Amendment No. 32 relates to the wording of Schedule 2 on HSE referrals, which is intended to allow for section 14 referrals for children who need child care on developmental grounds, who are too young to benefit from free provision either through the ECCE preschool programme or the Early Start programme and who would otherwise not attend a child care service. This amendment is consequential to the amendments to section 13, which seek, effectively, to future-proof the legislation for possible future changes to ECCE rules as a result of which parents could be given flexibility to choose when to take up the ECCE entitlement. To provide this flexibility, instead of referring to the qualifying age for participation in the ECCE, the amendment refers to whether a child is enrolled in a preschool programme, either the ECCE preschool programme or the Early Start programme. The upper age limit of four years for HSE referrals reflects the two-year entitlement to the ECCE preschool programme and the compulsory school starting age of six years old.</p>
+        </speech>
+        <summary eId="sum_36"> Amendment agreed to.</summary>
+        <speech by="#AlanFarrell" eId="spk_66">
+          <from> Chairman<recordedTime time="2018-02-27T14:05:00+00:00"/></from>
+          <p eId="para_122">Amendment Nos. 12 to 14, inclusive, and amendment No. 30 are related and will be discussed together.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_67" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:05:00+00:00"/></from>
+          <p eId="para_123">I move amendment No. 12:</p>
+          <p class="indent_1" eId="para_124">In page 11, line 4, after "employer" to insert "or education".</p>
+          <p eId="para_125">Amendments Nos. 12 and 13 relate to information that is to be provided by applicants in the application form, while amendments Nos. 14 and 30 relate to the verification of the identity of applicants. Amendments Nos. 12 and 13 are minor technical drafting amendments. They amend section 9, which specifies the process by which parents may make applications for financial support under the scheme and the details they must provide. One such detail is the name and address of the parent's employer or education and training provider, as appropriate. However, the word "education", which is included in the reference to an employer or education and training provider in section 10, is accidentally omitted in similar references in section 9. These amendments simply rectify that omission. </p>
+          <p eId="para_126"> Unfortunately, following submission of the list of amendments for Committee Stage, a third such omission was identified in the phrase "employer or training provider" in section 9(4)(c). I hope to correct that by proposing a similar minor technical amendment on Report Stage.</p>
+          <p eId="para_127"> Moving to amendments Nos. 14 and 30, they both relate to the verification of identity and allow for the inclusion or reference to children alongside existing references to the applicant and his or her partner. The Bill already allows for the possibility of checks to confirm that an application does not involve fraud or misrepresentation and such checks may involve checks on the identity of the applicant and the applicant's partner. These two amendments would allow the possibility that such checks may include the identity of children who have been named in the application.</p>
+        </speech>
+        <summary eId="sum_37"> Amendment agreed to.</summary>
+        <speech by="#KatherineZappone" eId="spk_68" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:05:00+00:00"/></from>
+          <p eId="para_128">I move amendment No. 13:</p>
+          <p class="indent_1" eId="para_129">In page 11, line 7, after "employer" to insert "or education".</p>
+        </speech>
+        <summary eId="sum_38"> Amendment agreed to.</summary>
+        <speech by="#KatherineZappone" eId="spk_69" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:05:00+00:00"/></from>
+          <p eId="para_130">I move amendment No. 14:</p>
+          <p class="indent_1" eId="para_131">In page 11, line 24, after "identity" to insert "or as to the identity of any children named in the application for financial support".</p>
+        </speech>
+        <summary eId="sum_39"> Amendment agreed to.</summary>
+        <summary eId="sum_40"> Section 9, as amended, agreed to.</summary>
+        <summary eId="sum_41"> Section 10 agreed to.</summary>
+        <summary eId="sum_42">SECTION 11</summary>
+        <speech by="#AlanFarrell" eId="spk_70">
+          <from> Chairman<recordedTime time="2018-02-27T14:05:00+00:00"/></from>
+          <p eId="para_132">Amendment No. 15 in the name of Deputy Rabbitte has been ruled out of order on the basis that it poses a potential charge on the Exchequer. The Deputy will be aware of that as that will have been brought to her attention.</p>
+        </speech>
+        <summary eId="sum_43"> Amendment No. 15 not moved.</summary>
+        <summary eId="sum_44"> Question proposed: "That section 11 stand part of the Bill".</summary>
+        <speech by="#AnneRabbitte" eId="spk_71">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:05:00+00:00"/></from>
+          <p eId="para_133">This relates to section 11.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_72">
+          <from> Chairman<recordedTime time="2018-02-27T14:05:00+00:00"/></from>
+          <p eId="para_134">It does and amendment No. 15 is the amendment in question.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_73">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:05:00+00:00"/></from>
+          <p eId="para_135">In this amendment I sought to introduce a specific provision for lone parents.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_74">
+          <from> Chairman<recordedTime time="2018-02-27T14:05:00+00:00"/></from>
+          <p eId="para_136">Correct.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_75">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:05:00+00:00"/></from>
+          <p eId="para_137">While I understand it has been ruled out of order on revenue grounds, that is unfortunate.</p>
+          <p eId="para_138">The purpose of my submitting this amendment was to support lone parents and identify the conundrum they would find themselves in between education and training and the support element. A lone parent in training represents 100% of the workforce in that house and for that person to engage and get back to employment, there is a space in which they would need additional support. I submitted the amendment to ensure that lone parents would be mandated and that there would be a practice in place to support them to get back into employment or to further education. I was trying to get a balance between finishing training and getting back into the workforce. It is unfortunate it has been ruled out on revenue grounds. I would have like to have seen it accepted. A good deal of the conversation that took place in the past 18 months on the affordable child care Bill was around the most vulnerable and those who need to get back into a particular pathway of self-development for themselves and in terms of the workforce. Lone parents and Single Parents Acting for the Rights of our Kids, SPARK, would have lobbied me on that and it is regrettable that the Department has not seen its way to including it. I would love to hear the Minister's explanation as to the reason it has been ruled out.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_76">
+          <from> Chairman<recordedTime time="2018-02-27T14:10:00+00:00"/></from>
+          <p eId="para_139">Does any other member wish to contribute? In that case, from my perspective, given the nature of what Deputy Rabbitte is trying to achieve in her amendment, I wonder whether a definition change within the Bill enabling the Intreo scheme, although obviously in a different Department, might resolve the issue the Deputy has highlighted and whether that might be considered because it is an eligibility matter. I would agree broadly with the sentiment of Deputy Rabbitte's amendment. It is out of order. We are discussing the section, but I would ask that it is something the Minister might consider with her Cabinet colleague.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_77" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:10:00+00:00"/></from>
+          <p eId="para_140">Again, I appreciate very much the intention of the amendment and also the Chairman's comments. Clearly, he would be aware of that in light of the fact that as the Minister who is both the sponsor of the scheme and now the Bill, with a focus on those who have the least resources or are in situations where they require a significant amount of support in terms of child care - lone parents being one of the clearest examples of that - there is a need to provide them with the maximum support possible to ensure they get back to work or training. I appreciate the intention of the amendment.</p>
+          <p eId="para_141"> The Bill, as the Chairman said, gives the Minister the power to make regulations specifying definitions of "work" and "study". I will be defining "work". It will include within the definition not only employment and self-employment but also State-sponsored labour market activation programmes, in which lone parents would no doubt be participating in many instances. I expect that any lone parent taking part in an Intreo employment activation scheme who is eligible for financial support will be awarded the maximum of up to 40 hours of support. In addition, given their expected income level, a lone parent on such a scheme typically would be awarded the highest rate of subsidy per hour. My initial point is that they will more than likely receive the highest level of subsidy and support during that period of time.</p>
+          <p eId="para_142"> I appreciate the intention of the question. I could also indicate, as we may get to in some of the other amendments, that within the Bill we would be reviewing the operations of the scheme after a certain period of time. This may be one to which it might be helpful to bring a focus.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_78">
+          <from> Chairman<recordedTime time="2018-02-27T14:10:00+00:00"/></from>
+          <p eId="para_143">I will call Deputy Sherlock and then Deputy Rabbitte.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_79">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:10:00+00:00"/></from>
+          <p eId="para_144">I will come in after Deputy Rabbitte.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_80">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_145">I welcome the final comment of the Minister. She said she may periodically review the impact of the affordable child care scheme on lone parents. This, in particular, is what I seek. I will withdraw my amendment but that is not to say that, between now and Report Stage, I will not decide to come forward with another amendment or proposal on lone parents. The Chairman has made a valuable point on the focus on job activation in respect of lone parents. With Intreo, there has to be some means by which matters cannot be left to chance. The phrase "more than likely" is not good enough for me. I need to ring-fence and protect.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_81">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_146">I was just going to suggest that if the Minister could revert to us with her own amendment or additional wording regarding the Schedule in terms of the income elements, it might be helpful to us. I, too, reserve the right to introduce an amendment on Report Stage on this issue.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_82" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_147">We will be doing some research on the work and study issue. That is relevant. Let me clarify whether I understand the amendment and what is being recommended. It suggests that where there is a period between the conclusion of the lone parent activation experience and getting a job-----</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_83">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_148">There ought to be a bridge there.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_84" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_149">Exactly. I am wondering whether, if there is no work or study in the relevant period, normally meaning a move to the standard rate of subsidy, dependent on the income, it would still enable the maximum subsidisation but-----</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_85">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_150">Let me state where I am coming from. I propose that when one finishes education or training, in respect of which 40 hours would have been allocated to one, and where one is trying to get back into the workforce-----</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_86" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_151">Looking for a job.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_87">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_152">-----there should be a bridge to meet the shortfall where one might not have the family support and the other adult support. I refer to the shortfall between the 15 hours, for which there would be an allocation, and the 40 hours. In order for there to be flexibility to allow one to attend appointments or interviews, or even prepare for interviews, there should be guidance issued from the Department stating how the support could be offered and how the gap might be bridged. Thus, someone who has engaged in training or further education might be put on the right path, with the support. It is in the final furlong, when all the other steps have been taken, that we need the support for the family.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_88" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_153">Well said, Deputy. It is worth looking at some bridging or transition mechanisms, in light of the Deputy’s recommendation, and it is also worth considering the specification of Deputy Sherlock.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_89">
+          <from> Chairman<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_154">We would not want to pass a prescriptive section with unintended consequences. This has happened in the past, regrettably. It is important to thrash these things out. I thank the Minister.</p>
+        </speech>
+        <summary eId="sum_45"> Question put and agreed to.</summary>
+        <summary eId="sum_46">SECTION 12</summary>
+        <speech by="#AlanFarrell" eId="spk_90">
+          <from> Chairman<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_155">Amendments Nos. 16 to 18, inclusive, are related and may be discussed together.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_91" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:15:00+00:00"/></from>
+          <p eId="para_156">I move amendment No. 16:</p>
+          <p class="indent_1" eId="para_157">In page 12, line 32, after “determination” to insert “(including a statement of any variation in the maximum number of hours or the rate per hour)”.</p>
+          <p eId="para_158">Amendments Nos. 16, 17 and 18 would allow the scheme administrator, when notifying an applicant of a subsidy award, to specify known changes to the subsidy in advance so as to allow the parent and child care provider to plan ahead. These amendments address situations when a forthcoming change in circumstances is known in advance. For example, the children's dates of birth will be specified in the application form. It will, therefore, be known in advance when a change in a child’s age will result in a change to the level of financial support. These amendments provide clarity that the initial determination of the amount of financial support to be provided over the next 12 months can include references to known changes in that amount. It should be noted that the Bill already allows for the amount of subsidy to be changed when the applicant notifies the scheme administrator of a change in his or her circumstances at the time the change of circumstances occurs.</p>
+        </speech>
+        <summary eId="sum_47"> Amendment agreed to.</summary>
+        <summary eId="sum_48"> Section 12, as amended, agreed to.</summary>
+        <summary eId="sum_49">SECTION 13</summary>
+        <speech by="#KatherineZappone" eId="spk_92" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:20:00+00:00"/></from>
+          <p eId="para_159">I move amendment No. 17:</p>
+          <p class="indent_1" eId="para_160">In page 13, line 7, after "amount" to insert "(if any)".</p>
+        </speech>
+        <summary eId="sum_50"> Amendment agreed to.</summary>
+        <speech by="#KatherineZappone" eId="spk_93" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:20:00+00:00"/></from>
+          <p eId="para_161">I move amendment No. 18:</p>
+          <p class="indent_1" eId="para_162">In page 13, line 8, to delete "(if any)" and substitute "(including any variation in any such amount)".</p>
+        </speech>
+        <summary eId="sum_51"> Amendment agreed to.</summary>
+        <summary eId="sum_52"> Amendment No. 19 not moved.</summary>
+        <speech by="#AlanFarrell" eId="spk_94">
+          <from> Chairman<recordedTime time="2018-02-27T14:20:00+00:00"/></from>
+          <p eId="para_163">Amendments Nos. 20, 21 and 23 are related and may be discussed together by agreement.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_95" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:20:00+00:00"/></from>
+          <p eId="para_164">I move amendment No. 20:</p>
+          <p class="indent_1" eId="para_165">In page 13, line 19, to delete "and".</p>
+          <p eId="para_166">Section 13 requires the Minister for Children and Youth Affairs to have regard when making regulations on the number of hours of financial support awarded to whether an applicant and his or her partner are engaged in work or study. The provision is intended to support families to get out of poverty through labour market participation by enabling full-time child care whenever a parent is engaged in work or study and ensuring, at the same time, that a certain level of child care support is available for all families regardless of the labour market situation. Amendments Nos. 21 and 23 will permit exemptions to be made to this work-study test in prescribed situations where the applicant or the applicant's partner is unavailable to care for a child for reasons unrelated to work or study by allowing the possibility of full-time child care support in those situations. Examples of situations which may be prescribed include situations in which an applicant's partner is in prison or hospital in the long term. In such cases, the applicant's partner will not satisfy the definitions of work or study but the applicant should still be eligible for full-time child care support if he or she is engaged in work or study. To provide for this possibility, amendment No. 23 requires the Minister to have regard to the unavailability of the applicant or his or her partner to care for the child and amendment No. 21 enables the Minister to make regulations defining the meaning of the term "unavailable" for the purposes of the scheme.</p>
+          <p eId="para_167"> In addition to the above amendment, I intend to undertake focused research in the coming months on the work-study test, the exemptions proposed in these amendments and their potential collective impact in disadvantaged communities. This research will inform the regulations to be made under section 13. In particular, the work will inform the definitions of "work" and "study", the situations in which the exemptions from work and study test will apply and both the standard and enhanced hours of child care subsidy to be provided.</p>
+          <p eId="para_168"> In addition, amendment No. 23 also addresses the way in which the scheme will wrap around the ECCE preschool programme and school hours. Section 13(6)(c) of the Bill requires the Minister when making regulations on the hours of financial support available to have regard to the period of time each week the child qualifies to participate in pre-school programmes. This wording is consistent with current ECCE rules in which eligibility for ECCE is determined simply by the child's age. It would also be consistent with certain changes to ECCE rules, including those planned for this coming September, which will create two full years' of entitlement. However, it is important to further future-proof the legislation to accommodate potential changes to the ECCE rules to offer parents some flexibility around choosing when to take up an ECCE entitlement. This possibility would require the affordable child care scheme to wrap around ECCE from the time the child is actually enrolled in that programme rather than from a single age at which the child qualifies for ECCE. In order to allow for this possibility, amendment No. 23 seeks to require the Minister to have regard to either eligibility to enrol in ECCE or to a child's actual enrolment in ECCE.</p>
+          <p eId="para_169"> As to school hours, the amendment requires the Minister to have regard both to enrolment in school and to eligibility to enrol in school. Enrolment is relevant to children aged four and five years, for whom school is not compulsory. Once children have reached the compulsory school age of six years, the affordable child care scheme will wrap around school hours for all children. As such, it is eligibility to enrol in school that matters.</p>
+          <p eId="para_170">I must also stress that these are technical amendments. They do not alter the policy of the affordable child care scheme itself, rather they future-proof the scheme so that it is sufficiently flexible to wrap around ECCE in both its current format and in future potential scenarios.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_96">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_171">I have a question. Forgive me if I am out of order. The Chairman or clerk can correct me. It strikes me that in article 13(3) states "In making the regulations under subsection (2), the Minister shall have regard to the availability of resources." It says "shall have regard to availability", so it will not be a demand-led scheme at all, will it?</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_97" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_172">I am sorry, what is the Deputy saying it will not be?</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_98">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_173">It will not be a demand-led scheme. In other words, the budget will be available to meet the demand.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_99" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_174">Obviously we hope that will be the case. The resources are sought on the estimate of demand and so far I think we have been very accurate.</p>
+        </speech>
+        <summary eId="sum_53"> Amendment agreed to.</summary>
+        <speech by="#KatherineZappone" eId="spk_100" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_175">I move amendment No. 21:</p>
+          <p class="indent_1" eId="para_176">In page 13, line 20, to delete “Scheme.” and substitute the following:</p>
+          <p class="indent_2" eId="para_177">“Scheme; and</p>
+          <p class="indent_2" eId="para_178">(g) the circumstances in which an applicant and his or her partner shall be deemed to be unavailable to care for the child the subject of the application.”.</p>
+        </speech>
+        <summary eId="sum_54"> Amendment agreed to.</summary>
+        <speech by="#KatherineZappone" eId="spk_101" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_179">I move amendment No. 22:</p>
+          <p class="indent_1" eId="para_180">In page 14, line 5, after “child” to insert “the subject of the application”.</p>
+        </speech>
+        <summary eId="sum_55"> Amendment agreed to.</summary>
+        <speech by="#KatherineZappone" eId="spk_102" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_181">I move amendment No. 23:</p>
+          <p class="indent_1" eId="para_182">In page 14, lines 7 to 10, to delete all words from and including “and” where it secondly occurs in line 7 down to and including line 10 and substitute the following:</p>
+          <p class="indent_2" eId="para_183">“(c) in the case of income-related financial support, the unavailability of the applicant and his or her partner to care for the child,</p>
+          <p class="indent_2" eId="para_184">(d) the period of time each week that the child the subject of the application is enrolled in a pre-school programme funded by the Minister or the Minister for Education and Skills, or the period of time each week that the child is eligible to be enrolled in such a programme, and </p>
+          <p class="indent_2" eId="para_185">(e) the period of time each week that the child the subject of the application is enrolled in a school or is eligible to be enrolled in a school.”.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_103">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_186">We are proposing to accept this but with the proviso that we may revisit the amendment on Report Stage.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_104">
+          <from> Chairman<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_187">There is no proviso in the actual amendment, but members may revisit it.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_105">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_188">It is on the record. I thank the Minister.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_106">
+          <from> Chairman<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_189">Yes, it is.</p>
+        </speech>
+        <summary eId="sum_56"> Amendment agreed to. </summary>
+        <speech by="#KathleenFunchion" eId="spk_107">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_190">I move amendment No. 24:</p>
+          <p class="indent_1" eId="para_191">In page 14, between lines 10 and 11, to insert the following:</p>
+          <p class="indent_2" eId="para_192">“(7) The Minister shall conduct a review of <i>section 13 </i>and its associated regulations six months after the roll-out of the Affordable Childcare Scheme, which shall be brought before the relevant Oireachtas Committee for debate.”.</p>
+          <p eId="para_193">The amendment provides for a review which would be undertaken after six months of the scheme commencing operation. We see it as good practice and something that might be worthwhile for many schemes. We want to enshrine the review of this section in the legislation in order to ensure the financial support and associated rules and regulations work well. </p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_108">
+          <from> Chairman<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_194">Do members have any comments or contributions on this amendment?</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_109">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_195">I support the amendment. I refer to the Minister's Second Stage speech where she said that the legislation is designed to "improve outcomes for children by providing access to quality, affordable child care ... help parents transition from welfare to employment," as well as supporting lifelong learning, advancing gender equality and so on. I support the amendment. We might seek to get an assessment from the Minister as to how she herself plans to kick the tyres of the scheme, one might say, using quantitative and qualitative methods to ensure the legislation is working. I am not sure but I suggest that six months might be too short a timeframe, although I have an open mind on that. Will the Minister give us an idea how she plans to kick the tyres on her own legislation?</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_110">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:25:00+00:00"/></from>
+          <p eId="para_196">I also support the amendment. Deputy Sherlock has put it well. We must test the legislation to see how robust it is and whether it needs to be tweaked, and see what we might learn from the results. It will be two years before the affordable childcare scheme is up and running in its entirety. Checks and balances are good. If there were more checking and balancing featured in legislation as it came before the Houses, we might learn a lot. As this work is monumental in the area of child care and its future provision, I favour checking it as it goes along and tweaking it, making amendments where needs be, and learning from the good parts. To continuously review it under a timeframe, whether it is six or 12 months, is good practice.</p>
+          <p eId="para_197">I compliment Deputies Funchion and Mitchell.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_111" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:30:00+00:00"/></from>
+          <p eId="para_198">I thank the Deputies. I recognise and agree with the need to review the operation of the scheme once it is established. I believe that there is an allowance for that review incorporated into the Bill as it stands. It will take place. My primary concern about the amendment is that the six-month time period is too short to practically ensure that it is done well, that it is relevant and that we can get the appropriate data required in order to ultimately make a decision. We need to have a review of the operation. Section 25 provides for a review of the operation of the scheme at any time, and for reports on such reviews to be made to the Oireachtas. In addition, Standing Order 164A requires me to carry out a review of the functioning of the legislation 12 months after its enactment and to lay that review before the Oireachtas as well. I believe 12 months is a more appropriate time than six months because of all of the aspects that are required to be reviewed in the context of section 13. Initially it will be a good opportunity to review it and find out what the impact of section 13 - and its associated regulations - has been, in the context of the overall operation of the legislation.</p>
+          <p eId="para_199"> I am concerned that a review of the scheme six months after its roll-out would not give enough time to let the scheme bed in. It would not allow enough time for reliable and useable time series data to be generated which could inform any necessary changes to the scheme. In short, we would lack the evidence to make an evidence-informed policy decision. I intend to carry out a full evaluation of the operation of the scheme once it has been running for a sufficient period of time. For these reasons I cannot accept the amendment.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_112">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:30:00+00:00"/></from>
+          <p eId="para_200">I accept the point about the six month time period. I do not believe it is possible for us to change that to 12 months. We will bring forward that amendment on Report Stage.</p>
+        </speech>
+        <summary eId="sum_57"> Amendment, by leave, withdrawn.</summary>
+        <summary eId="sum_58"> Section 13, as amended, agreed to.</summary>
+        <summary eId="sum_59">SECTION 14</summary>
+        <speech by="#AlanFarrell" eId="spk_113">
+          <from> Chairman<recordedTime time="2018-02-27T14:30:00+00:00"/></from>
+          <p eId="para_201">Amendment No. 25 seeks to automatically extend financial support to the end of the scheme year if a person has received three months support, potentially increasing financial support provided. It has been ruled out of order on this basis. The Deputy may speak on the section if she so wishes.</p>
+        </speech>
+        <summary eId="sum_60"> Amendment No. 25 not moved.</summary>
+        <summary eId="sum_61"> Question proposed: "That section 14 stand part of the Bill."</summary>
+        <speech by="#AnneRabbitte" eId="spk_114">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:30:00+00:00"/></from>
+          <p eId="para_202">I am not having much luck with my amendments today.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_115" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:30:00+00:00"/></from>
+          <p eId="para_203">The Deputy had some luck with her earlier amendment.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_116">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:30:00+00:00"/></from>
+          <p eId="para_204">This amendment sought to specify the period for which financial support shall be paid in respect of a child identified by a body under the section. The reason I wanted to extend it is that when a child is embedded in a particular environment and some time has passed, they have made friends and key developmental milestones are being reached. They have stability and friendships have been garnered. I was looking at what was best for the child. Sometimes we have to forget about the financial side of things and consider what is best for the child. The fact is that we are talking about two and half, three and a half and four and a half year olds. If those children were placed and settled for more than three months it would be unsettling to remove them from that environment. I know that there is a financial implication and that is one of the reasons it has been ruled out. I was considering what is best for the child. I know the Minister also is focused on what is best for the child.</p>
+          <p eId="para_205"> I tabled my amendment because I wanted to ensure that children could finish a term. Even if the period is not as long as three months, I would like children to finish the session at the next definite break - be it the mid-term break, Christmas or Easter - and thus not feel like they had left something behind. Does my explanation make sense? I hope I have been clear.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_117">
+          <from> Chairman<recordedTime time="2018-02-27T14:35:00+00:00"/></from>
+          <p eId="para_206">On section 14, Deputy Sherlock.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_118">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:35:00+00:00"/></from>
+          <p eId="para_207">Yes. I support Deputy Rabbitte. I am aware of one facility in my constituency where children are admitted to the after-school care programme when they are only a few months old and right up to the age of nine. The Deputy wants to ensure that such care is continued and that any transition is as seamless as possible, which I support. I would like to hear the Minister's ideas, knowledge or wisdom on the matter. It would very useful to make the transition less onerous for the people concerned.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_119">
+          <from> Chairman<recordedTime time="2018-02-27T14:35:00+00:00"/></from>
+          <p eId="para_208">As no other members wish to comment, I call the Minister.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_120" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:35:00+00:00"/></from>
+          <p eId="para_209">I thank the Deputies for their comments. I very much agree with their intentions and objectives and the sentiments they have expressed. How Deputy Rabbitte articulated, at length, her concerns and rationale for ensuring that a process of providing support and care for the children, particularly in the context of section 14, must be done in a way that is child-centred and supports the child was very helpful. It is really helpful for the remarks made by the Deputies to be on record as we move towards enacting the Bill. The reason I say so is because these are procedures that relate to the referrals by statutory bodies under section 14. They will be dealt with in the agreements to be made with each body. These agreements will include the criteria and duration for referrals.</p>
+          <p eId="para_210"> I recognise the value of a graduated withdrawal of supports for families who are in need of additional child care support. Again, I suggest that the Bill already provides the flexibility to provide for this through the referral procedures to be agreed with each relevant statutory body. For example, a referral could provide for a full 12 months of support, which could then be renewed for a further 12-month period, if required. In addition, the current schemes operate on a year-by-year basis and are renewed each September but the affordable child care scheme will operate on a rolling basis. Most successful applicants will receive a 12-month award, at whatever time they apply, to be renewed 12 months later. However, referral agreements will be flexible enough to allow an alternative duration for referrals, which may vary between different statutory bodies.</p>
+          <p eId="para_211"> I will not accept the amendment because the principle of it will be dealt with in the agreements negotiated with the individual statutory bodies. We will ensure that there will be a child-centred approach in the agreements under section 14.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_121">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:35:00+00:00"/></from>
+          <p eId="para_212">The Minister will forgive me if I do not fully understand what she has said. In terms of section 14(1) and Schedule 2, the agreements will be made with each of the following entities: the local authorities; the HSE; the Child and Family Agency, CFA; the Minister for Justice and Equality; and the Minister for Education and Skills. The Minister for Children and Youth Affairs has said that the flexibilities which need to be added to the scheme will be negotiated with the listed entities. Have I interpreted what she said correctly?</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_122" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:35:00+00:00"/></from>
+          <p eId="para_213">Correct.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_123">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:35:00+00:00"/></from>
+          <p eId="para_214">I may go a bit off message now but I am sure that the Chairman will let me know if I go too far. There is a scheme administrator. Is there anything built into the legislation that allows for flexibility in terms of the cost of the overhead to the provider?</p>
+          <p eId="para_215">I have not seen anything about the new scheme in the language of the legislation. Again, I may have missed something when I read the legislation. That is why I mentioned that plain English was used, which is very helpful, when we started to discuss this legislation. </p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_124" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_216">Yes.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_125">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_217">I have been around Leinster House for ten years yet I still find the language used in legislation challenging.</p>
+          <p eId="para_218"> In terms of the drafting of this Bill, is there any provision that the Minister can make, or has already made within the wording of this legislation, that allows for flexibility in terms of the overhead? Can the increasing cost of the overhead or flexibilities be built into the administration aspect?</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_126" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_219">For the statutory provider. Sorry, for the statutory both-----</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_127">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_220">Or to give guidance to-----</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_128" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_221">Does the Deputy mean for all of them?</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_129">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_222">Yes. One has the scheme administrator or administrators, Pobal, various statutory bodies and various Departments. I would like the Minister to allow some flexibility whereby some percentage is built in that allows for increasing costs.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_130" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_223">Okay.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_131">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_224">We know that the-----</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_132" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_225">Is the Deputy referring to section 14?</p>
+        </speech>
+        <summary eId="sum_62">(Interruptions).</summary>
+        <speech by="#AlanFarrell" eId="spk_133">
+          <from> Chairman<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_226">I know where Deputy Sherlock is coming from on this matter.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_134">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_227">That is why I asked for guidance from the Chair earlier.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_135">
+          <from> Chairman<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_228">The Deputy's questions are more appropriate for section 13.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_136">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_229">The language used translates right across the whole body of the legislation.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_137">
+          <from> Chairman<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_230">I accept the point made by Deputy Sherlock.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_138">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_231">We are quickly moving through the sections and I decided that I had better get my spake in now in this section before the clock ticks down.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_139">
+          <from> Chairman<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_232">The questions are more appropriate for section 13. I understand where the Deputy is coming from.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_140">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_233">The administrators are finding it increasingly difficult. They have told me, and they have said the same to all of us, that their costs have increased.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_141">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_234">Yes. Increasing costs is a big issue.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_142">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_235">Can the new scheme be designed to include a flexibility to meet the cost of overheads?</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_143" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_236">The overall subsidy rates can be adjusted in the context of the Bill and the ministerial setting of those regulations. Our intention is, and our hope is, that they would be based on the cost of provision, which is why we are conducting an independent review of the costs. I, as Minister, want flexibility more than anything else in the world. We need to work towards that and the first step is to determine, in an independent fashion, what the current costs are. Perhaps the Deputy is seeking an ongoing review of that to ensure the providers can continue to do the work at that level.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_144">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_237">Forgive me for being a bit wordy, in terms of my language. Is the starting point 2019?</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_145" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_238">Yes.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_146">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_239">In other words, the Minister can fund the new scheme in 2019. This is February 2018 so the timeframe for the run-in is quite short. Given that we have reached Committee Stage, I want the Minister to build a new scheme that caters for the costs that exist for providers in terms of their overheads. I thank the Chairman for his latitude in terms of allowing me to speak to many sections and none at the same time.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_147">
+          <from> Chairman<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_240">In fairness to the Deputy, it is the Clerk to the Committee who has been very helpful. This aspect is referred to in section 15 as well.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_148" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_241">One of my departmental officials has helpfully reminded me of something that might help me to answer the question. The independent review of costs will provide evidence that will assist us to move forward in terms of all of our combined intentions. This spring, some interim data will be available that will inform the 2019 Estimates. Maybe such information will help to answer part of his question.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_149">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:40:00+00:00"/></from>
+          <p eId="para_242">I thank the Minister for her earlier response. I want to press this issue. I have read section 14 that outlines the provision for vulnerable children and, unfortunately, I must walk away from this provision with a heavy heart because everybody will use this legislation as a guide, particularly in terms of vulnerable families.</p>
+          <p eId="para_243">I am articulating the case for children in difficult family circumstances to be allowed to remain in child care services until the next natural break. I am winding on from where I started when I sought financial support for a child to remain in the child care services for a period of three months to a proposal that he or she remain until there is a natural break in the cycle. In the child care setting it is all about the ritual from Halloween, Christmas parties, the spring break to Easter. There is a sense of completion and finality in remaining until the end of term and not leaving at the end of a week. I know that it is a 38 week cycle. I am not looking for a child to remain for the total cycle but to finish when there is a natural break. We all know of the psychological impact of achievement which enables families to say they finished the term, as opposed to walking away mid-stream which in the long term has a detrimental effect.</p>
+          <p eId="para_244"> I will withdraw the amendment, but I will be looking to see what the Minister will do to address the issue on Report Stage.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_150" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:45:00+00:00"/></from>
+          <p eId="para_245">In the light of the issues raised by the Deputy, we will look at the provision again and, if we can, come back with something positive.</p>
+        </speech>
+        <summary eId="sum_63"> Question put and agreed to.</summary>
+        <summary eId="sum_64">SECTION 15</summary>
+        <speech by="#KatherineZappone" eId="spk_151" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:45:00+00:00"/></from>
+          <p eId="para_246">I move amendment No. 26:</p>
+          <p class="indent_1" eId="para_247">In page 15, to delete line 22 and substitute the following:</p>
+          <p class="indent_2" eId="para_248">“(d) the applicant is in receipt of financial support under <i>section 14 </i>in respect of that child.”.</p>
+        </speech>
+        <summary eId="sum_65"> Amendment agreed to.</summary>
+        <speech by="#AlanFarrell" eId="spk_152">
+          <from> Chairman<recordedTime time="2018-02-27T14:45:00+00:00"/></from>
+          <p eId="para_249">Amendment No. 27 in the names of Deputies Denise Mitchell and Kathleen Funchion has been ruled out of order as it would make automatic provision for the retention of supports for the remainder of the year without the need to reapply, potentially causing increased costs and thus a charge on the Exchequer.</p>
+        </speech>
+        <summary eId="sum_66"> Amendment No. 27 not moved.</summary>
+        <summary eId="sum_67"> Section 15, as amended, agreed to.</summary>
+        <summary eId="sum_68"> Sections 16 to 18, inclusive, agreed to.</summary>
+        <summary eId="sum_69">SECTION 19</summary>
+        <speech by="#DeniseMitchell" eId="spk_153">
+          <from>Deputy Denise Mitchell<recordedTime time="2018-02-27T14:45:00+00:00"/></from>
+          <p eId="para_250">I move amendment No. 27:</p>
+          <p class="indent_1" eId="para_251">In page 18, line 3, to delete “at all reasonable times” and substitute “during reasonable working hours”.</p>
+          <p eId="para_252">Section 19 refers to the powers of authorised officers to conduct inspections. We all know that child care centres operate at different hours from the regular workplace. This minor amendment to the section proposes that authorised officer conduct inspections during reasonable working hours. We think it is respectful of the staff who work in child care centres and hope the Minister will accept it.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_154" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:45:00+00:00"/></from>
+          <p eId="para_253">The phrase “at all reasonable times” in relation to the ability of authorised officers to enter premises for the purposes of carrying out an inspection is the standard wording. Section 55(1) of the Child Care Act 1991 contains this wording to allow an authorised person, a Tusla preschool inspector, to enter at all all reasonable times any premises where a registered preschool service is being provided. While I envisage "all reasonable times" normally being interpreted as implying working hours or "during reasonable working hours" as stated by the Deputies in their amendment, it is still important to provide for the possibility, even if it very unlikely to occur that an authorised officer will need to have access at very short notice to a premises where child care records are kept. For example, it might come to the attention of an authorised officer that there is a case of suspected fraud and that there is a possibility that the person in possession of the records might seek to destroy them. That is the reason I am not proposing to accept the amendment.</p>
+          <p eId="para_254">I do not anticipate that would happen very often, if at all, but at the same time if we took the amendment in the names of Deputies Mitchell and Funchion "during reasonable working hours", there would be no possibility, should there be a suspicion, or a need to check outside of reasonable working hours for the authorised officer to be able to do so.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_155">
+          <from> Chairman<recordedTime time="2018-02-27T14:50:00+00:00"/></from>
+          <p eId="para_255">How stands the amendment?</p>
+        </speech>
+        <speech by="#DeniseMitchell" eId="spk_156">
+          <from>Deputy Denise Mitchell<recordedTime time="2018-02-27T14:50:00+00:00"/></from>
+          <p eId="para_256">I will withdraw the amendment.</p>
+        </speech>
+        <summary eId="sum_70"> Amendment, by leave, withdrawn. </summary>
+        <summary eId="sum_71"> Section 19 agreed to.</summary>
+        <summary eId="sum_72"> Sections 20 to 22, inclusive, agreed to.</summary>
+        <summary eId="sum_73"> SECTION 23 </summary>
+        <speech by="#AlanFarrell" eId="spk_157">
+          <from> Chairman<recordedTime time="2018-02-27T14:50:00+00:00"/></from>
+          <p eId="para_257">Amendment No. 29 is in the names of Deputies Mitchell and Funchion.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_158">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:50:00+00:00"/></from>
+          <p eId="para_258">I move amendment No. 29:</p>
+          <p class="indent_1" eId="para_259">In page 21, line 24, after “purpose” to insert the following:</p>
+          <p class="indent_1" eId="para_260">“and shall be in compliance with Irish and European data protection regulations as they exist at that time”.</p>
+          <p eId="para_261">We feel it is important to ensure that all data are used in accordance with European and Irish data protection laws, which are constantly evolving. Perhaps there is such a provision already in the Bill, however, we tabled the amendment on the off chance that there was no such provision.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_159" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:50:00+00:00"/></from>
+          <p eId="para_262">I fully agree with the necessity to treat data protection issues with the utmost care and attention. Any existing regulations in this regard, both Irish and European, will be complied with as a matter of course.</p>
+          <p eId="para_263"> This is the crucial part. As both Irish and EU data protection regulations, including the EU general data protection regulation, which will come into force in May 2018, will have the force of law, there is no need to require adherence to them in this Bill. Indeed, there is a risk that if we were to do so, we might unintentionally imply that these regulations have less force in other statutory contexts than they do in the context of the affordable child care scheme.</p>
+          <p eId="para_264"> Let me assure the Deputies that my Department continues to work closely with the Data Protection Commissioner to ensure that the scheme will meet all general data protection rules, GDPR requirements and a data protection strategy has been developed and as part of that a privacy impact assessment has been undertaken. The peer review group, reviewing the business case for the scheme's IT system has commended my Department in this regard.</p>
+          <p eId="para_265"> We are really focused on the issues. Section 23(5) specifically requires me to consult with the Data Protection Commissioner before making regulations on the processing of personal data in relation to the scheme. I am suggesting that the amendment is already provided for in law and that is why I am not accepting it.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_160">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:50:00+00:00"/></from>
+          <p eId="para_266">I thank the Minister for her reply. We had been doing so much on social media and data as they relate to children. I will withdraw the amendment.</p>
+        </speech>
+        <summary eId="sum_74"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#AlanFarrell" eId="spk_161">
+          <from> Chairman<recordedTime time="2018-02-27T14:50:00+00:00"/></from>
+          <p eId="para_267">Amendment No. 30 has been discussed already with amendment No. 12.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_162" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:50:00+00:00"/></from>
+          <p eId="para_268">I move amendment No. 30:</p>
+          <p class="indent_1" eId="para_269">In page 22, line 15, after “partner” to insert “and any children named in the application for financial support”.</p>
+        </speech>
+        <summary eId="sum_75"> Amendment agreed to.</summary>
+        <summary eId="sum_76"> Section 23, as amended, agreed to.</summary>
+        <summary eId="sum_77"> Sections 24 to 29, inclusive, agreed to.</summary>
+        <summary eId="sum_78">SCHEDULE 1</summary>
+        <summary eId="sum_79"> Question proposed: "That Schedule 1 be Schedule 1 to the Bill."</summary>
+        <speech by="#SeanSherlock" eId="spk_163">
+          <from>Deputy Sean Sherlock<recordedTime time="2018-02-27T14:50:00+00:00"/></from>
+          <p eId="para_270">Chairman, I may table an amendment on Report Stage.</p>
+          <p eId="para_271"> Question put and agreed to.</p>
+        </speech>
+        <summary eId="sum_80">SCHEDULE 2</summary>
+        <speech by="#AlanFarrell" eId="spk_164">
+          <from> Chairman<recordedTime time="2018-02-27T14:50:00+00:00"/></from>
+          <p eId="para_272">Amendment No. 31 is in the names of Deputies Mitchell, Funchion and Rabbitte. I will call Deputy Rabbitte after Deputy Mitchell's contribution.</p>
+        </speech>
+        <speech by="#DeniseMitchell" eId="spk_165">
+          <from>Deputy Denise Mitchell<recordedTime time="2018-02-27T14:50:00+00:00"/></from>
+          <p eId="para_273">I move amendment No. 31:</p>
+          <p eId="para_274">In page 25, to delete lines 17 to 22 and substitute the following:</p>
+          <p eId="para_275">“</p>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_276">Child and Family Agency </p>
+              </td>
+              <td>
+                <p eId="para_277">To enable participation in a childcare service</p>
+                <p eId="para_278">as part of the provision of child care and</p>
+                <p eId="para_279">family support services by the Child and</p>
+                <p eId="para_280">Family Agency to promote the welfare of</p>
+                <p eId="para_281">children who are in need of additional care</p>
+                <p eId="para_282">or protection.</p>
+              </td>
+            </tr>
+          </table>
+          <p eId="para_283">"</p>
+          <p eId="para_284">I understand the Minister has indicated he will accept this amendment, which is very welcome. From my reading of Schedule 2, I formed the impression that there had to be some sort of failure on behalf of a parent. I am happy the Minister will accept our amendment.</p>
+          <p eId="para_285">.</p>
+          <p eId="para_286"> It seems to be a more proactive decision in respect of children. I thank the Minister.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_166">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_287">I agree. I thank the Minister. Her opening statement related to this particular section. It is very welcome.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_167" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_288">As I have already stated, I agree in principle with the amendment. I will consult with the Attorney General's office on the precise wording to be adopted and I hope the Deputies will appreciate that. We will then propose an amendment on Report Stage along the lines which the Deputies have suggested. The proposed amendment is, of course, in line with the policy intention set out in the heads of Bill last year, which was that referral procedures from Tusla should support referrals both on the grounds of child welfare or protection and on the grounds of family support or early intervention. The wording in the published Bill was not intended to limit referrals only to cases of child welfare and child protection. The phrase "not receiving adequate care and protection" was used as it explicitly refers to Tusla's purposes as set out in the Child and Family Agency Act 2013. I accept that the wording in the proposed amendment is more positive in tone than the current wording and I welcome that. I thank the Deputies for proposing it.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_168">
+          <from> Chairman<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_289">For clarity, the Minister is accepting amendment No. 31 but it might need to be looked at on Report Stage.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_169" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_290">We have to check the wording.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_170">
+          <from> Chairman<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_291">The problem is not with the sentiment but with the legal wording.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_171" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_292">Sorry?</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_172">
+          <from> Chairman<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_293">The Minister is accepting the amendment but with the proviso that she might have to look at its wording, as opposed to its sentiment, on Report Stage.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_173" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_294">I want to have the time to check and to come back on Report Stage to ensure that the wording is acceptable to the Office of the Attorney General. If it is not, we will slightly amend it while keeping it effectively the same as the amendment the Deputies have proposed.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_174">
+          <from> Chairman<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_295">I will leave it to the members. It is their amendment.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_175">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_296">If we are unhappy with what the Minister comes back with, we can amend it at that stage.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_176">
+          <from> Chairman<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_297">Are the Deputies withdrawing the amendment?</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_177">
+          <from>Deputy Kathleen Funchion<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_298">Yes, but we may come back on Report Stage.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_178">
+          <from> Chairman<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_299">Okay.</p>
+        </speech>
+        <summary eId="sum_81">(Interruptions).</summary>
+        <speech by="#AlanFarrell" eId="spk_179">
+          <from> Chairman<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_300">I heard that Deputy Sherlock.</p>
+        </speech>
+        <speech by="#AnneRabbitte" eId="spk_180">
+          <from>Deputy Anne Rabbitte<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_301">We are getting the advice of the Attorney General, which is the best advice one can get.</p>
+        </speech>
+        <speech by="#AlanFarrell" eId="spk_181">
+          <from> Chairman<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_302">Exactly. Well said. The amendment is withdrawn and will be revisited by the Minister with advice on Report Stage.</p>
+        </speech>
+        <summary eId="sum_82"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#AlanFarrell" eId="spk_182">
+          <from> Chairman<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_303">Amendment No. 32 has already been discussed with amendment No. 11.</p>
+        </speech>
+        <speech by="#KatherineZappone" eId="spk_183" as="#Minister_for_Children_and_Youth_Affairs">
+          <from>Deputy Katherine Zappone<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_304">I move amendment No. 32:</p>
+          <p class="indent_1" eId="para_305">In page 25, to delete lines 23 to 31 and substitute the following:</p>
+          <p class="indent_1" eId="para_306">“</p>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_307">Health Service Executive</p>
+              </td>
+              <td>
+                <p eId="para_308">To enable participation in a childcare service</p>
+                <p eId="para_309">where there is an identified need for childcare</p>
+                <p eId="para_310">as an additional support to the home</p>
+                <p eId="para_311">environment to meet child development needs</p>
+                <p eId="para_312">for a child who is under the age of 4 years and</p>
+                <p eId="para_313">who is not enrolled in a pre-school programme</p>
+                <p eId="para_314">funded by the Minister or the Minister for</p>
+                <p eId="para_315">Education and Skills and who would</p>
+                <p eId="para_316">otherwise not attend a childcare service.</p>
+              </td>
+            </tr>
+          </table>
+          <p class="indent_1" eId="para_317">".</p>
+        </speech>
+        <summary eId="sum_83"> Amendment put and declared carried.</summary>
+        <summary eId="sum_84"> Schedule 2, as amended, agreed to.</summary>
+        <summary eId="sum_85"> Schedule 3 agreed to.</summary>
+        <summary eId="sum_86"> Title agreed to.</summary>
+        <summary eId="sum_87"> Bill reported with amendments.</summary>
+        <speech by="#AlanFarrell" eId="spk_184">
+          <from> Chairman<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_318">As the Bill has now completed Committee Stage it is recommended that members submit Report Stage amendments to the Bills Office without delay as Report Stage may be taken at short notice. I thank the members and the Minister for the speed with which we have managed to get through this. It took less than an hour and a half.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_7">
+        <heading>Message to Dáil<recordedTime time="2018-02-27T14:55:00+00:00"/></heading>
+        <speech by="#AlanFarrell" eId="spk_185">
+          <from> Chairman<recordedTime time="2018-02-27T14:55:00+00:00"/></from>
+          <p eId="para_319">In accordance with Standing Order 90, the following message will be sent to the Dáil:</p>
+          <p class="indent_1" eId="para_320">The Select Committee on Children and Youth Affairs has completed its consideration of the Childcare Support Bill 2017 and has made amendments thereto.</p>
+          <p eId="para_321">I thank the Minister and her officials. The meeting is adjourned until 9.30 a.m. on Wednesday, 7 March when the select committee will consider the Revised Estimates for 2018.</p>
+        </speech>
+        <summary eId="sum_88"> The select committee adjourned at 3 p.m. until 9.30 a.m. on Wednesday, 7 March.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

@@ -1,0 +1,834 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2005-05-12/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2005-05-12/debate"/>
+          <FRBRdate date="2005-05-12" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/select_committee_on_justice_equality_defence_and_womens_rights"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2005-05-12/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2005-05-12/debate/mul@"/>
+          <FRBRdate date="2005-05-12" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2005-05-12/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_justice_equality_defence_and_womens_rights/2005-05-12/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_34">
+            <count eId="vote_1-count_1" value="5" refersTo="#ta" href="#qty_1"/>
+            <count eId="vote_1-count_2" value="7" refersTo="#nil" href="#qty_2"/>
+          </voting>
+          <voting eId="vote_2" href="#sum_38">
+            <count eId="vote_2-count_1" value="7" refersTo="#ta" href="#qty_3"/>
+            <count eId="vote_2-count_2" value="5" refersTo="#nil" href="#qty_4"/>
+          </voting>
+        </parliamentary>
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference showAs="Vol. None" href="ie/oireachtas/debateRecord/vol/None" eId="#vol_None"/>
+          <oir:numberReference showAs="No. 54" href="ie/oireachtas/debateRecord/vol/None/no/54" eId="#no_54"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCConcept eId="lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="withdrawn" href="/ie/oireachtas/ontology#Withdrawn" showAs="Withdrawn"/>
+        <TLCConcept eId="agreed" href="/ie/oireachtas/ontology#Agreed" showAs="Agreed"/>
+        <TLCConcept eId="notmoved" href="/ie/oireachtas/ontology#NotMoved" showAs="Not Moved"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCEvent eId="bill.2004.39.dail.3" href="/ie/oireachtas/bill/2004/39/dail/3" showAs="Disability Bill 2004: Dáil Committee Stage"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_327" href="/ie/oireachtas/bill/2004/39/dail/3/amd_327" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 327"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_327.withdrawn" href="/ie/oireachtas/bill/2004/39/dail/3/amd_327/withdrawn" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 327 (Withdrawn)"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_328" href="/ie/oireachtas/bill/2004/39/dail/3/amd_328" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 328"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_328.withdrawn" href="/ie/oireachtas/bill/2004/39/dail/3/amd_328/withdrawn" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 328 (Withdrawn)"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_329" href="/ie/oireachtas/bill/2004/39/dail/3/amd_329" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 329"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_329.withdrawn" href="/ie/oireachtas/bill/2004/39/dail/3/amd_329/withdrawn" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 329 (Withdrawn)"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_330" href="/ie/oireachtas/bill/2004/39/dail/3/amd_330" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 330"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_330.agreed" href="/ie/oireachtas/bill/2004/39/dail/3/amd_330/agreed" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 330 (Agreed)"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_331" href="/ie/oireachtas/bill/2004/39/dail/3/amd_331" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 331"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_331.agreed" href="/ie/oireachtas/bill/2004/39/dail/3/amd_331/agreed" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 331 (Agreed)"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_332.notmoved" href="/ie/oireachtas/bill/2004/39/dail/3/amd_332/notmoved" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 332 (Not Moved)"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_333" href="/ie/oireachtas/bill/2004/39/dail/3/amd_333" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 333"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_333.lost" href="/ie/oireachtas/bill/2004/39/dail/3/amd_333/lost" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 333 (Lost)"/>
+        <TLCEvent eId="bill.2004.39.dail.3.amd_334.notmoved" href="/ie/oireachtas/bill/2004/39/dail/3/amd_334/notmoved" showAs="Disability Bill 2004: Dáil Committee Stage - Amendment No. 334 (Not Moved)"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="BreedaMoynihanCronin" href="/ie/oireachtas/member/id/Breeda-Moynihan-Cronin.D.1992-12-14" showAs="Breeda Moynihan-Cronin"/>
+        <TLCPerson eId="DavidStanton" href="/ie/oireachtas/member/id/David-Stanton.D.1997-06-26" showAs="David Stanton"/>
+        <TLCPerson eId="FinianMcGrath" href="/ie/oireachtas/member/id/Finian-McGrath.D.2002-06-06" showAs="Finian McGrath"/>
+        <TLCPerson eId="FrankFahey" href="/ie/oireachtas/member/id/Frank-Fahey.D.1982-03-09" showAs="Frank Fahey"/>
+        <TLCPerson eId="GerardMurphy" href="/ie/oireachtas/member/id/Gerard-Murphy.D.2002-06-06" showAs="Gerard Murphy"/>
+        <TLCPerson eId="JoeCallananFF" href="/ie/oireachtas/member/id/Joe-Callanan.D.2002-06-06" showAs="Joe Callanan"/>
+        <TLCPerson eId="JoeCostelloLAB" href="/ie/oireachtas/member/id/Joe-Costello.S.1989-10-01" showAs="Joe Costello"/>
+        <TLCPerson eId="KathleenLynch" href="/ie/oireachtas/member/id/Kathleen-Lynch.D.1994-11-10" showAs="Kathleen Lynch"/>
+        <TLCPerson eId="MarieHoctorFF" href="/ie/oireachtas/member/id/Máire-Hoctor.D.2002-06-06" showAs="Máire Hoctor"/>
+        <TLCPerson eId="PatCarey" href="/ie/oireachtas/member/id/Pat-Carey.D.1997-06-26" showAs="Pat Carey"/>
+        <TLCPerson eId="PeterPowerFF" href="/ie/oireachtas/member/id/Peter-Power.D.2002-06-06" showAs="Peter Power"/>
+        <TLCPerson eId="SeanArdagh" href="/ie/oireachtas/member/id/Seán-Ardagh.D.1997-06-26" showAs="Seán Ardagh"/>
+        <TLCPerson eId="SeanOFearghaillFF" href="/ie/oireachtas/member/id/Seán-Ó-Fearghaíl.S.2000-06-09" showAs="Seán Ó Fearghaíl"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform" href="/ie/oireachtas/role/minister_state/justice__equality__law_reform" showAs="Minister of State at the Department of Justice, Equality and Law Reform"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN ROGHCHOISTE UM DHLÍ AGUS CEART, COMHIONANNAS, COSAINT AGUS CEARTA NA mBAN</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON JUSTICE, EQUALITY, DEFENCE AND WOMEN’S RIGHTS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2005-05-12">Déardaoin, 12 Bealtaine 2005</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2005-05-12">Thursday, 12 May 2005</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 10.30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#FrankFahey">
+                Deputy F. Fahey <i>(Minister of</i>
+                                    </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#FinianMcGrath">
+                Deputy F. McGrath,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#FrankFahey">
+                    <i>State at the Department of</i>
+                  </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#GerardMurphy">
+                Deputy G. Murphy,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#FrankFahey">
+                    <i>Justice, Equality and Law</i>
+                  </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#SeanOFearghaillFF">
+                Deputy S. Ó Fearghaíl,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#FrankFahey">
+                    <i>Reform),</i>
+                  </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#PeterPowerFF">
+                Deputy P. Power,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#MarieHoctorFF">
+                Deputy M. Hoctor,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#DavidStanton">
+                Deputy D. Stanton.*
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#KathleenLynch">
+                Deputy K. Lynch,*
+              </person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Deputies J. Costello and J. O'Keeffe, respectively.</summary>
+          <summary eId="sum_4">In attendance: Deputy A. Ó Snodaigh.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#SeanArdagh">
+   DEPUTY S. ARDAGH IN THE CHAIR.
+  </person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_12">Is it agreed that we suspend for 20 minutes to attend the forthcoming vote in the Dáil? Agreed.</p>
+        </speech>
+        <summary eId="sum_6">Sitting suspended at 10.30 a.m. and resumed at 10.55 a.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3" refersTo="#bill.2004.39.dail.3">
+        <heading>Disability Bill 2004: Committee Stage (Resumed).</heading>
+        <summary class="Center" eId="sum_7">SECTION 52.</summary>
+        <summary eId="sum_8">Question again proposed: "That section 52 stand part of the Bill."</summary>
+        <speech by="#DavidStanton" eId="spk_2">
+          <from>Mr. Stanton</from>
+          <p eId="para_13">I welcome the Minister of State and his officials. This is probably the final session in what has been a marathon Committee Stage debate.</p>
+          <p eId="para_14">Section 52 deals with the amendment of the Broadcasting Act and the provision of sign language, teletext and subtitling services, a matter on which a submission has been received from TV3. I considered tabling an amendment but it would have been ruled out of order. TV3 is concerned that this provision will have a direct impact on Irish jobs, investment and competitiveness in the broadcasting sector. It submits that while the Bill refers to the public sector in general terms and specific sectors in particular, it also proposes that the Broadcasting Commission of Ireland, BCI, implement "access rules", the term used to describe the provision of services for people with disabilities, in this case those with a sight and-or hearing impediment. It also submits that there is an interesting difference between the sections controlling Government expenditure on providing services for people with disabilities and the provisions governing broadcasting. It further submits that the State should explicitly limit its expenditure to what each Department considers it can reasonably provide which can only be challenged in court following a complex internal review mechanism.</p>
+          <p eId="para_15">TV3 submits that, in direct contrast, the BCI will be under a rigid obligation to impose new codes without consideration of cost. The submission is dated November 2004. TV3 submits that consultation is ongoing on a code which will require it to apply the provisions to 60% of its output within a ten year framework. The other stations, including RTE, will also have significant targets. TV3 maintains that all broadcasters will find it difficult to meet these targets. While it wants to co-operate, it makes a number of interesting points. It maintains that Irish channels are competing with ten other television stations undertaking advertising in the Irish market which are UK based opt-out channels with no programming or access requirements. As the UK position was only confirmed in June, it is not about to be altered.</p>
+          <p eId="para_16">The BCI mandating rules on quotas for services such as subtitling, sign language and audio description, this being the provision of a narrative describing the action on screen, are primarily aimed at digital broadcasting for peak time viewing in news and current affairs programmes, in particular, which programmes are the most expensive for the Irish based broadcasters. TV3 estimates that widespread subtitling would increase costs by more than one fifth on affected programming. It maintains that in the case of audio description and sign language services which would be required under the provisions of the 2004 Bill the cost per hour would increase by approximately 200%. Has the Minister of State done any costings on this matter?</p>
+          <p eId="para_17">No cost model is available to European commercial free-to-air broadcasters that would make this increase in costs sustainable. TV3 maintains that the Government undertook no review of the possible impact of these regulations on the Irish broadcasting sector. I ask the Minister of State to advise whether this occurred. It believed it was Government policy that no regulation would be introduced without a review of its impact on the competitiveness of Irish industry as laid out in the Government's White Paper on better regulation. It claims these provisions will render the Irish broadcasting landscape one of the most unattractive in Europe.</p>
+          <p eId="para_18">In its current consultation the BCI admits that subtitling is not common in Europe other than in the United Kingdom. Subtitling is imposed on commercial stations only in German and French markets and done in an incremental fashion. Sign language requirements are minimal even in these jurisdictions which are much bigger and factors of economy of scale come into play.</p>
+          <p eId="para_19">TV3 maintains that audio description, AD, only works with digital services which have yet to be fully rolled out in Europe. The United Kingdom and Germany are the only countries with AD requirements which only apply to state broadcasting stations receiving multi-billion euro subsidies from licence fees. In similar markets which are close to a much larger same language neighbour, Austria, Switzerland and Luxembourg, the state funded channels carry the burden of access while the commercial sector does what it can when it can on a voluntary basis. For the sake of competitiveness in the Irish broadcasting market and to ensure consumers have an Irish choice in their viewing habits, TV3 asks that section 52 of the Bill be modified in order that the BCI could decide what a broadcaster should do, having regard to the financial implications for its activities.</p>
+          <p eId="para_20">TV3 proposed an amendment, which I understand the Chairman has. It proposes that the commission should in making such rules have consideration for the cost of such steps required under any rules made under this section and that it may reduce or remove any steps from the said rules should this be required because of financial hardship for any broadcaster. It also suggests that it would be appropriate to investigate the State funding of all broadcasters in providing these services for the disabled. It maintains that if the Bill is passed unaltered, the Irish broadcasting sector will shrink and be replaced by UK based opt-out broadcasters with no service access requirements. It maintains that this would benefit nobody. It also maintains that this issue is very important for its existence and respectfully requests that it be considered.</p>
+          <p eId="para_21">I understand that in other countries a fund is available, as is the case here. The Broadcasting (Funding) Act 2003 provides for the establishment of a fund to support certain television and radio productions and projects from an amount of 5% of net receipts from television licence fees. TV3 calls for this scheme to be administered by the BCI. The Act provides that 5% of the net proceeds from television licence fees be paid into the fund with effect from January 2003. Up to last November there was €16.2 million in the fund. A scheme to administer grants from it has yet to be established. I understand that in other countries this fund may be used to assist in the provision of access as specified in this section of the Bill.</p>
+          <p eId="para_22">I am not highlighting all this because I do not want to see subtitling or audio descriptions — I certainly do. However, I am concerned about the impact this provision might have on existing broadcasting stations. I do not know whether the Minister of State had discussions with the various companies involved, including RTE, TV3, etc. to ascertain whether they could practicably do this. The Bill, as drafted, seems to imply they will be required to do so, regardless of cost. Interestingly it is full of belts and braces ensuring the State will be insulated where cost is concerned and contains frequent references to resource implications. There is a fund established under the Broadcasting (Funding) Act 2003 which could conceivably be used in this regard. At the same time people with disabilities require the assistance of subtitling and audio descriptions. However, if television stations would run the risk of being put out of business or could not afford to do this, we would have a problem. Does the Minister of State agree with this proposal?</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_3">
+          <from>Ms Lynch</from>
+          <p eId="para_23">We can now receive broadcasts from stations throughout the world. I was recently advised of a system allowing viewers to receive 44 stations, which seems incredible. However, we only have control over four. I wonder whether it is practicable to implement this proposal. Would the Minister of State consider encouraging the establishment of a centralised system of subtitling? It may not be possible for each station to do this for itself but it might be far more practicable if the cost was shared. Perhaps a company similar to the centre for excellence in universal design, or "design for all" as it is to be called, should be established. Carrying out subtitling centrally for all stations would reduce the cost dramatically.</p>
+          <p eId="para_24">I know the regulation will deal with this matter. I hope the 40% of programmes with subtitles, signing and audio descriptions will not be broadcast at 1 a.m. I often get home late and when I turn on the television, I see someone at the side of the screen signing a programme. Most people are not up at 1 a.m. any more. We have become far more continental in our attitudes and lifestyle.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_4">
+          <from>Mr. F. McGrath</from>
+          <p eId="para_25">Some of us watch"Oireachtas Report".</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_5">
+          <from>Ms Lynch</from>
+          <p eId="para_26">Perhaps we should have subtitles for that programme.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_6">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_27">A slow motion replay.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_7">
+          <from>Ms Lynch</from>
+          <p eId="para_28">Now that we have 24 hour broadcasting I hope the figure of 40% or whatever it ends up at will not be limited to programmes after midnight. The Minister of State should ensure the regulation will cover the programmes we normally watch. While we may pretend we do not watch "Coronation Street", we do. We could get over this issue if the Minister of State determined that we should have a centralised mechanism for subtitling and audio descriptions which would make it far more affordable.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_8">
+          <from>Mr. F. McGrath</from>
+          <p eId="para_29">I must take a harder line on this issue which is a very important one in terms of communication for people with disabilities. For thousands of people signing, subtitles and teletext represent their world. Regardless of the lobbying by television stations, we need to take a strong line. While we are all concerned about the funding implications for television stations, my vested interest in this matter is to represent the views of people with disabilities.</p>
+          <p eId="para_30">I do not want to cry crocodile tears over the funding of any of these organisations which is a separate issue. It annoys me that we need to have big debates about funding and resources every time we discuss the provision of services for people with disabilities. People always ask whether Departments and companies can afford to provide certain services. We need to challenge those putting up barriers in this regard. While I understand TV3 intends to make a submission, I do not know whether RTE has done so.</p>
+          <p eId="para_31">I would like to speak about the proposal to provide subtitles for 40% of television programmes. We should ensure subtitling services are provided for those who need them for quality, mainstream programming. I agree with Deputy Lynch that it would be wrong to concentrate such services on programmes broadcast at 2 a.m. or 3 a.m. I have noticed that some broadcasters adopt such an approach. I encourage people to watch "Oireachtas Report", an interesting programme often broadcast at such times.</p>
+          <p eId="para_32">When one considers that most people spend a great deal of time watching television or listening to the radio, it is clear that the enactment of section 52 of the Bill is important if we are serious about upholding the rights of people with disabilities and including them in mainstream society. I do not apologise for stating clearly that people with disabilities are entitled to the level of service outlined in this important section of the Bill. Public representatives should look after all citizens, including people with disabilities.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform" eId="spk_9">
+          <from>Minister of State at the Department of Justice, Equality and Law Reform (Mr. Fahey)</from>
+          <p eId="para_33">I appreciate what the three Deputies have said. I am as keen as them to ensure services such as subtitling, sign language, teletext and audio description are made available to people with disabilities in an adequate way. I accept that the case made by Deputies Stanton and Lynch has some merit. Therefore, I am prepared to examine the possibility of amending section 52 with officials from the Department of Communications, Marine and Natural Resources.</p>
+          <p eId="para_34">Section 52 of the Bill amends section 19 of the Broadcasting Act 2001. It imposes additional obligations on the Broadcasting Commission of Ireland to ensure broadcasts are accessible to people with sensory impairments. TV3 has made the reasonable point that it is the only Irish broadcaster which will have to carry the additional costs which may accrue from the new rules. RTE will be able to meet any additional costs from its television licence receipts, or even by seeking an increase in the licence fee. I understand TV3 has argued — it is a fair point — that satellite channels will not have to bear the costs in question because their broadcasts are beamed in from other jurisdictions.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_10">
+          <from>Mr. F. McGrath</from>
+          <p eId="para_35">TV3 knew when it entered the Irish market that it was a tough commercial world but now its officials are whinging. It wants to be in the same position as RTE.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_11" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_36">That is acceptable. Like all members of the committee, I am concerned that we should ensure as many as possible of the services I have mentioned are provided.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_12">
+          <from>Ms Lynch</from>
+          <p eId="para_37">We need to get the services.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_13" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_38">That is what we all want to do.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_14">
+          <from>Ms Lynch</from>
+          <p eId="para_39">Yes.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_15" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_40">I do not doubt that everybody in this room shares the desire of Deputy McGrath in this regard. We want to ensure subtitling, sign language, teletext and audio descriptions are provided as widely as possible. People involved in the television industry have said to me that if we make it compulsory for Irish television stations to provide a sign language service on a programme like "Coronation Street", many viewers will choose to watch it on an English television station.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_16">
+          <from>Ms Lynch</from>
+          <p eId="para_41">That does not apply in the case of subtitles.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_17" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_42">I am talking about sign language.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_18">
+          <from>Ms Lynch</from>
+          <p eId="para_43">Yes.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_19" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_44">Lobbyists in the television sector have also argued that while it is not difficult for the industry to provide subtitling services on a widespread basis, it may be difficult to provide audio description or sign language services. Such matters can be dealt with by the Broadcasting Commission of Ireland which is obliged under section 52 to:</p>
+          <p class="indent_1" eId="para_45">require a broadcaster of audio-visual material to provide adequate access to that material by persons who are deaf or have a hearing impairment by means of specified services including—</p>
+          <p class="indent_1" eId="para_46">(I) sign language,</p>
+          <p class="indent_1" eId="para_47">(II) teletext services, and</p>
+          <p class="indent_1" eId="para_48">(III) subtitling.</p>
+          <p eId="para_49">The use of the word "including" suggests that the commission will have a certain degree of flexibility when imposing requirements on broadcasters. The three services mentioned in the Bill are among the ones which must be provided but they will not have to be provided all the time. The commission will have a certain level of choice. It will not have to require broadcasters to provide all three all the time. Section 52 also provides that when it is drawing up its rules, the commission must have regard to certain features of the provision of services.</p>
+          <p eId="para_50">Contrary to how some have interpreted this part of the legislation, the commission will not be faced with an absolute compulsion. It will need to ensure certain services, including the three forms of service I have mentioned, are provided and to have regard to certain guidelines mentioned in section 52. It will have to draw up its regulations on the basis of the provisions of the section.</p>
+          <p eId="para_51">I appreciate what the Deputies have said. We should legislate for fairness across the broadcasting spectrum. We would like all television stations to provide as many subtitling, sign language, teletext and audio description services as possible. We should ensure it is not the case that satellite channels which are beamed into Ireland do not have any obligations in this regard. We should not make impossible demands on domestic television stations, as to do so might mean they cannot provide the level of services we would like them to provide. We need to adopt a sensible approach. In that context, I will revisit this section on Report Stage.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_20">
+          <from>Ms Lynch</from>
+          <p eId="para_52">We should provide as many services as possible for people with disabilities, particularly sensory disabilities such as hearing impairment. It is important to facilitate such persons' ease of communication in every way we can. The proposal to require that 40% of television programmes be subtitled is reasonable as a starting point, although I would like the relevant percentage to be somewhat higher. As I am sure TV3 would like to increase its audience share, it should bear in mind that a sizeable community relies on the provision of services of this nature. If such services are provided on RTE One, RTE Two and TG4, the people in question will watch television programmes on such stations rather than on TV3. I would like the State to establish a centralised bureau to provide subtitling, teletext and audio-visual description services, although I am not sure how it can be done. I estimate that it would be a relatively lucrative business. If television stations are sharing the cost of providing such services, they will not have any excuse for any failures in this area.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_21" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_53">I am sure the practical reality is that television stations prefer to acquire such services in the most cost-efficient way. The most cost-efficient way would probably be to contract specialist companies to provide services across the spectrum.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_22">
+          <from>Ms Lynch</from>
+          <p eId="para_54">My concern is that a wealthy television station such as RTE would be able to buy in such services without worrying about cost, whereas companies such as TV3 would not buy them in. This would create a gap in the service to people with disabilities.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_23" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_55">We can depend on the commercial television stations to make arrangements to provide the services in the most cost-efficient way. The Deputy's idea is a good one; if these stations find the most cost-efficient approach is to employ specialist companies to provide these services on a common basis, I have no doubt they will go down that route.</p>
+          <p eId="para_56">I can provide the relevant part of the documentation for the select committee. According to the published rules of the Broadcasting Commission of Ireland, different levels of service, for example, in the area of subtitles, are to be provided on an ongoing basis over ten years. RTE, for instance, will have a target of subtitling 55% of programmes in year one rising to 100% in year ten.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_24">
+          <from>Ms Lynch</from>
+          <p eId="para_57">When does year one begin?</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_25" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_58">The Broadcasting Commission of Ireland launched the scheme in February.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_26">
+          <from>Ms Lynch</from>
+          <p eId="para_59">I suggest RTE get its skates on.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_27" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_60">In addition, RTE Two is to subtitle 24% of programmes in year one rising to 90% in year ten; TG4 would subtitle 24% of programmes in year one rising to 80% in year ten while TV3, taking into account the factor I mentioned, would subtitle 12% of programmes in year one rising to 60% in year ten. I will make the document available to the select committee.</p>
+          <p eId="para_61">Deputies referred to programmes with subtitles being scheduled late at night. I understand part of the reason is that broadcasting a programme late at night enables people with disabilities and others to record it for viewing at a later stage. Programmes are not broadcast late at night in the hope a large number of viewers will watch them at that point. If that is the case, it is not such a bad idea and may have benefits.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_28">
+          <from>Ms Lynch</from>
+          <p eId="para_62">While I have no doubt this is the excuse given by the broadcasters, it is rubbish. If one records it during the night, when does one watch it?</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_29" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_63">My remarks relate to some of the programmes the Deputy mentioned. The reason given is that rather than not broadcast a programme, it is better to do so late at night. I am not defending the practice or suggesting it is right or wrong but pointing out that the reason given is that the programmes in question would not otherwise feature in the schedule.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_30">
+          <from>Ms Lynch</from>
+          <p eId="para_64">Is it possible for the Minister of State to address this issue by regulation and ensure programmes are mainstreamed rather than shown after midnight?</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_31" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_65">We are making a small change to the way in which the Broadcasting Commission of Ireland operates. Section 52 provides for a tighter regime which, under regulation, the BCI will introduce. The detail of implementing the change is a matter for the commission.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_32">
+          <from>Mr. F. McGrath</from>
+          <p eId="para_66">Leaving aside the targets and the debate about RTE and TV3 on issues such as level of service and objectives, while we all whinge about RTE One, RTE Two and TG4, they are our national stations and provide quality services for all sectors of society. We may disagree with RTE at times — I am always complaining about it — but it is the national broadcaster, focuses on current affairs and has a good record in meeting its responsibilities towards people with disabilities, including in terms of employment policy. TV3 which has been making demands of us and whinging about its funding is hostile to current affairs and cynical towards politicians. I am concerned that it is whinging to us about the competition on the pitch. Market forces are at work and if the company wants to be involved in the broadcasting game, it will have to compete. At the same time, it has responsibilities towards people with disabilities. I do not accept the rationale for allowing it to lag behind other broadcasters in this respect. Section 52 addresses important issues for people with disabilities, notably teletext and subtitling, and we must stick by it.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_33">
+          <from>Mr. Stanton</from>
+          <p eId="para_67">Did the Minister of State consult or discuss the matter with RTE? If so, what was the outcome of the discussions? Has consideration been given to using the fund established under the Broadcasting (Funding) Act 2003 to help finance these essential new services?</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_34" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_68">The Department has entered into discussions with the Department of Communications, Marine and Natural Resources which would represent the views of television stations but has had no direct discussions with RTE. The Bill simply strengthens current provisions to ensure services are provided and it is a matter for the Broadcasting Commission of Ireland to implement the changes. Nevertheless, I acknowledge the points made by Deputies.</p>
+          <p eId="para_69">To respond to Deputy Finian McGrath, the weighting system I outlined reflects market forces. The BCI, therefore, is making every effort to ensure a level playing pitch. My concern was to ensure the legislation did not disrupt the weighted approach. While I have views on various television stations, I do not propose to express them here. From my discussions with individuals in all the relevant organisations, I am aware that all Irish television stations are anxious to try to make available the best possible service. We wish to ensure RTE, TG4 and TV3 adopt a proactive approach as opposed to having to be forced to take action. There is a genuine desire among all three stations to move in this direction.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_35">
+          <from>Mr. Stanton</from>
+          <p eId="para_70">I asked whether consideration had been given to using the fund established under the Broadcasting (Funding) Act 2003 to help provide this service. Is this possible?</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_36" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_71">I am afraid I do not know the answer to the Deputy's question but will arrange to have the matter checked.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_37">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_72">There is a great disparity in what the television stations hope to achieve in year ten. RTE Two is at a figure of 90%, TG4, 80% and TV3, around 60%. Different targets were listed in year ten for the three channels. Is there a reason we do not ask all of them to achieve the same target?</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_38" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_73">These are the rules launched by the BCI in February and they largely reflect what is contained in the Bill. There has been a great deal of communication between both sides. My understanding is the different levels are based on the ability of each station to provide. I have not had discussions with the BCI on the matter but I am sure we can have a further briefing before Report Stage, if necessary.</p>
+        </speech>
+        <summary eId="sum_9" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_8"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_10" title="decision">Section 53 agreed to.<entity refersTo="#bill.2004.39.dail.3.sec_53.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_11">SECTION 54.</summary>
+        <summary eId="sum_12">Question proposed: "That section 54 stand part of the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_39">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_74">On section 54(4) which refers to the bodies which can take proceedings for prosecutions for summary offences under the legislation, I suggest that the Equality Authority also be included after the words "the Ombudsman".</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_40">
+          <from>Chairman</from>
+          <p eId="para_75">That is notice of a Report Stage amendment. Is it agreed that section 54 should stand part of the Bill?</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_41">
+          <from>Mr. Stanton</from>
+          <p eId="para_76">We are still dealing with the Petty Sessions (Ireland) Act 1851.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_42">
+          <from>Chairman</from>
+          <p eId="para_77">It is crazy.</p>
+        </speech>
+        <summary eId="sum_13" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_12"/>
+                </summary>
+        <summary class="Center" eId="sum_14">SECTION 55.</summary>
+        <summary eId="sum_15">Question proposed: "That section 55 stand part of the Bill."</summary>
+        <speech by="#DavidStanton" eId="spk_43">
+          <from>Mr. Stanton</from>
+          <p eId="para_78">When will the number involved in the authority be reduced? When will the section take effect?</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_44" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_79">As soon as the Bill comes into being.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_45">
+          <from>Mr. Stanton</from>
+          <p eId="para_80">As soon as it is passed.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_46">
+          <from>Chairman</from>
+          <p eId="para_81">Does the Minister not have to——</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_47" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_82">When the current board lapses — in June.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_48">
+          <from>Mr. Stanton</from>
+          <p eId="para_83">A new and smaller board will be appointed in June.</p>
+        </speech>
+        <summary eId="sum_16" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_15"/>
+                </summary>
+        <summary class="Center" eId="sum_17">SECTION 56.</summary>
+        <speech by="#DavidStanton" eId="spk_49">
+          <from>Mr. Stanton</from>
+          <p eId="para_84">I move amendment No. 327:<entity refersTo="#bill.2004.39.dail.3.amd_327" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_85">In page 49, between lines 20 and 21, to insert the following subsection:</p>
+          <p class="indent_2" eId="para_86">"(2) (<i>a</i>) Nothing in this Act, shall be taken to contravene, or constitute any alteration, to the rights and protections prescribed in the Equal Status Acts 2000 to 2004.</p>
+          <p class="indent_2" eId="para_87">(<i>b</i>) Nothing in this Act, shall be taken to contravene, or constitute any alteration, to the rights and protections prescribed in the European Convention of Human Rights Act 2003.</p>
+          <p class="indent_2" eId="para_88">(<i>c</i>) Nothing in this Act, shall be taken to contravene, or constitute any alteration, to the rights and protections prescribed in the Employment Equality Acts 2000 to 2004.”.</p>
+          <p eId="para_89">We have existing legislation such as the Equal Status Acts, the European Convention on Human Rights Act and the Equality Acts. I note that the Minister of State is repealing two sections of the Equal Status Act. Will he explain the reason for this and whether there is anything in the proposed legislation that impinges on the legislation to which I referred?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_50">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_90">I agree with Deputy Stanton. There should also be an amendment to delete the statutory exemption under section 14 of the Equal Status Act. I intend to table an amendment to this effect on Report Stage.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_51">
+          <from>Mr. F McGrath</from>
+          <p eId="para_91">I support the amendment which is an important one. While this is part of the broader debate, it is important to remind ourselves about the rights of people with disabilities and their guaranteed protection in the Equal Status Acts 2000 to 2004. The rights of people with disabilities are also protected under the European Convention on Human Rights Act 2003. The amendment would be strong and effective and add strength to the legislation. In it it would bring us closer to a recognition of people with disabilities. We must constantly remind ourselves that their rights must be protected in all walks of life, in terms of rights to services, not just in legislation.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_52">
+          <from>Chairman</from>
+          <p eId="para_92">We all agree with those sentiments. The question is if it is required.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_53" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_93">I do not think it is. While the amendment is well intentioned, I am concerned it may not achieve the intended purpose. Provisions of this nature are best avoided unless they bring beneficial clarity to the interpretation of the relevant enactments. I will outline my concerns in regard to each element of the amendment.</p>
+          <p eId="para_94">The amendment has three elements, the first of which would require that "Nothing in this Act, shall be taken to contravene, or constitute any alteration, to the rights and protections prescribed in the Equal Status Acts 2000 to 2004." The Equal Status Act 2000 provides at section 14 that nothing in that Act "shall be construed as prohibiting the taking of any action that is requiredby or under any enactment". As a result, the positive measures contained in this Bill which amount to statutory obligations on public bodies will be applicable, even though less onerous anti-discrimination provisions are contained in the Equal Status Acts 2000 to 2004. The first point to note is that the content of this legislation is not directly germane to the Bill, save section 33 which contains an exclusion stating that nothing in the legislation shall render unlawful positive employment measures for persons, including people with disabilities. The Bill takes up on this provision and requires public bodies to adopt the employment measures for people with disabilities.</p>
+          <p eId="para_95">Turning to the third element of the amendment, section 3 of the European Convention on Human Rights Act places an obligation on every organ of the State, as defined in section 1 of the Act, to perform its functions in a manner compatible with the State's obligations under the convention. Section 4 of the Act requires that all statutory provisions or rules of law in force before or after the commencement of the Act must be interpreted and applied in a manner which is compatible with the State's obligations under the European Convention on Human Rights and Fundamental Freedoms. As a result, I see absolutely no advantage in including the third element of the proposed amendment in the Bill. It is clear from the European Convention on Human Rights Act 2003 that every court, in considering or interpreting any section of any Act, statutory instrument or rule of common law, must seek to do so in a manner which is compatible with the European Convention on Human Rights and Fundamental Freedoms, unless it is impossible to do so.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_54">
+          <from>Ms Lynch</from>
+          <p eId="para_96">Is it human rights proofed?</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_55">
+          <from>Mr. Stanton</from>
+          <p eId="para_97">The big question is whether the Bill in any way changes or undermines the legislation outlined.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_56" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_98">The answer is no.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_57">
+          <from>Mr. Stanton</from>
+          <p eId="para_99">If that is the advice, I will withdraw the amendment.</p>
+        </speech>
+        <summary eId="sum_18" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2004.39.dail.3.amd_327.withdrawn" name="amendment"/>
+                </summary>
+        <summary refersTo="#agreed" eId="sum_19" title="decision">Section 56 agreed to.<entity refersTo="#bill.2004.39.dail.3.sec_56.agreed" name="section"/>
+                </summary>
+        <summary class="Center" eId="sum_20">SECTION 57.</summary>
+        <summary eId="sum_21">Question proposed: "That section 57 stand part of the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_58">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_100">The exclusion is too broad, such that it could potentially undermine most provisions in Part 3. I will be tabling an amendment on Report Stage to tighten the legislation.</p>
+        </speech>
+        <summary eId="sum_22" refersTo="#agreed" title="decision">Question put and agreed to.<entity name="reference" refersTo="#sum_21"/>
+                </summary>
+        <summary class="Center" eId="sum_23">NEW SECTIONS.</summary>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_59">
+          <from>Chairman</from>
+          <p eId="para_101">Amendment No. 328 has already been discussed with amendment No. 35 in the name of the Minister of State.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_60">
+          <from>Mr. Stanton</from>
+          <p eId="para_102">I move amendment No. 328:<entity refersTo="#bill.2004.39.dail.3.amd_328" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_103">In page 49, before the Schedule, to insert the following new section:</p>
+          <p class="indent_2" eId="para_104">"58.—The Minister shall—</p>
+          <p class="indent_3" eId="para_105">(<i>a</i>) carry out a review of this Act, in particular the definition of disability, within a maximum period of 2 years of operation or 3 years of enactment, whichever is the soonest,</p>
+          <p class="indent_3" eId="para_106">(<i>b</i>) for the purpose of assisting him or her in making such a review under this section, consult any such organisations or representatives as he or she considers appropriate,</p>
+          <p class="indent_3" eId="para_107">(<i>c</i>) where a review is carried out under subsection (a), cause a copy of the review to be laid before each House of the Oireachtas and the changes proposed in the review shall not be made until a resolution approving the changes has been passed by each House.”.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_61" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_108">Amendment No. 35 reads, "The Minister shall, not later than 5 years after the commencement of this Act, carry out a review of the operation of this Act". I am not accepting Deputy Stanton's amendment.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_62">
+          <from>Ms Lynch</from>
+          <p eId="para_109">When we were discussing the amendment, I believed the Minister of State indicated he would be prepared to consider a period of three years.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_63" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_110">I am prepared to consider it in respect of the other issue but not in respect of amendment No. 328.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_64">
+          <from>Mr. Stanton</from>
+          <p eId="para_111">I will withdraw the amendment.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_65">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_112">As Deputy Stanton is withdrawing his amendment, I will table a similar one on Report Stage. It will include specific organisations and allow the Minister to consult any other organisations he believes should be consulted.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_66" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_113">I said "five years". In all honesty, this is a reasonable timescale. The review can begin within five years. As I explained, this means it could commence after three or four years.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_67">
+          <from>Chairman</from>
+          <p eId="para_114">Amendment No. 35 which was agreed proposed that "The Minister shall, not later than 5 years after the commencement of this Act, carry out a review of the operation of this Act".</p>
+        </speech>
+        <summary eId="sum_24" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2004.39.dail.3.amd_328.withdrawn" name="amendment"/>
+                </summary>
+        <speech by="#DavidStanton" eId="spk_68">
+          <from>Mr. Stanton</from>
+          <p eId="para_115">I move amendment No. 329:<entity refersTo="#bill.2004.39.dail.3.amd_329" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_116">In page 49, before the Schedule, to insert the following new section:</p>
+          <p class="indent_2" eId="para_117">"58.—Within 3 months of the passing of this Act, the Minister shall cause to be published a statute law restatement in respect of each of the Acts or sets of Acts amended by this Act.".</p>
+          <p eId="para_118">This is a technical amendment which would affect many Acts. The Minister of State may or may not accept it.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_69">
+          <from>Chairman</from>
+          <p eId="para_119">The 1851 Act is included.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_70">
+          <from>Mr. Stanton</from>
+          <p eId="para_120">That could very well be the case.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_71" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_121">The Government is committed to regulatory reform in conformity with the principles outlined in the White Paper on better regulation. As part of this commitment, it promoted the Statute Law (Restatement) Act 2002 which makes legislation more user-friendly and accessible and vests the power of restating any statute, including Acts of the Oireachtas, with the Attorney General acting on suggestions of Ministers.</p>
+          <p eId="para_122">It would be inappropriate to compel, by statute, the Minister for Justice, Equality and Law Reform to be responsible for restatement within a very short period. Flexibility in defining restatement projects is essential if the maximum benefit is to be derived from the process. While I am prepared to undertake a restatement of the National Disability Authority Act arising from the provisions of this Bill, I envisage no purpose being served by the amendment before us. The 2002 Act already provides the appropriate law on this matter. Therefore, I do not propose to accept the amendment.</p>
+        </speech>
+        <summary eId="sum_25" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2004.39.dail.3.amd_329.withdrawn" name="amendment"/>
+                </summary>
+        <summary class="Center" eId="sum_26">SCHEDULE.</summary>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_72">
+          <from>Chairman</from>
+          <p eId="para_123">Amendment No. 331 is related to amendment No. 330 while amendment No. 332 is an alternative. They may be discussed together.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_73" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_124">I move amendment No. 330:<entity refersTo="#bill.2004.39.dail.3.amd_330" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_125">In page 49, paragraph 1, lines 35 to 40, to delete all words from and including "Civil" in line 35 down to and including "position." in line 40 and substitute the following:</p>
+          <p class="indent_2" eId="para_126">"Public Service Management (Recruitment and Appointments) Act 2004, and a person shall not be appointed to be the appeals officer unless he or she has been selected for appointment to the position following a competition under that Act.".</p>
+          <p eId="para_127">Amendments Nos. 330 and 331 take account of the enactment of the Public Service Management (Recruitment and Appointments) Act 2004 which is now the relevant legislation under which the selection process for the appeals officer will be managed. Amendment No. 331 is a technical amendment consequential on amendment No. 330.</p>
+          <p eId="para_128">Opposition amendment No. 332 is not relevant because of the changes implemented by the two Government amendments. Therefore, I do not propose to accept it. However, I thank the Deputy for her detailed research in this regard.</p>
+        </speech>
+        <summary eId="sum_27" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2004.39.dail.3.amd_330.agreed" name="amendment"/>
+                </summary>
+        <speech by="#FrankFahey" eId="spk_74" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_129">I move amendment No. 331:<entity refersTo="#bill.2004.39.dail.3.amd_331" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_130">In page 50, lines 21 to 32, to delete paragraph 7.</p>
+        </speech>
+        <summary eId="sum_28" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2004.39.dail.3.amd_331.agreed" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_29" title="decision">Amendment No. 332 not moved.<entity refersTo="#bill.2004.39.dail.3.amd_332.notmoved" name="amendment"/>
+                </summary>
+        <summary eId="sum_30">Question proposed: "That the Schedule, as amended, be the Schedule to the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_75">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_131">I am opposed to the system of appeals, as currently laid out. I will table an amendment on Report Stage to address this.</p>
+        </speech>
+        <summary eId="sum_31" refersTo="#carried" title="decision">Question put and declared carried.<entity name="reference" refersTo="#sum_30"/>
+                </summary>
+        <summary class="Center" eId="sum_32">TITLE.</summary>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_76">
+          <from>Chairman</from>
+          <p eId="para_132">Amendments Nos. 333 and 334 and related and may be discussed together.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_77">
+          <from>Ms Lynch</from>
+          <p eId="para_133">I move amendment No. 333:<entity refersTo="#bill.2004.39.dail.3.amd_333" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_134">In page 5, lines 5 to 12, to delete all words from and including "THE" in line 5 down to and including "NEEDS," in line 12 and substitute the following:</p>
+          <p class="indent_2" eId="para_135">"CERTAIN RIGHTS FOR PEOPLE WITH DISABILITIES, INCLUDING THE RIGHT TO THE ASSESSMENT OF NEEDS OCCASIONED TO THEM BY THEIR DISABILITIES, AND TO A STATEMENT OF SERVICES COMMENSURATE WITH THOSE NEEDS, TO ENABLE MINISTERS OF THE GOVERNMENT TO MAKE PROVISION FOR THOSE SERVICES,".</p>
+          <p eId="para_136">When one is dealing with any Bill, one tables one's amendments in the hope they will be reflected in the Long Title but that has not happened in respect of the Disability Bill which has been scrutinised by more people and at greater length than any other Bill of which I know. It was not scrutinised only by politicians and lawyers. People with disabilities know it back to front and are equally familiar with each section and how it will affect their lives.</p>
+          <p eId="para_137">The Title should reflect the content of the Bill. My amendment would make a significant change to the Bill. My proposed Title reflects what the Bill should be about. I commend the Minister of State and his officials for their work on the Bill, despite our little arguments. Clearly, a Bill of this nature requires a great deal of work and it is important that it be done. However, I still believe it requires considerable improvement and that it will not achieve what it was designed to achieve. It will definitely not achieve what people with disabilities expected it to achieve.</p>
+          <p eId="para_138">While listening to "Morning Ireland" this morning, I was very sad to hear three groups had walked away from the consultative process which the Minister of State hopes will remain in place. I genuinely felt the people in question had nothing to gain other than rights for their children and siblings or members of society as a whole. Having listened to them, they feel deeply hurt and used. They believe they have wasted a great deal of time on legislation they believed would provide entirely different services for them. The change to the Title would make a significant difference to the Bill. It refers to the right to assessment, to needs and to ensuring that Ministers put in place the mechanisms whereby services will be available to people with disabilities. I am pressing the amendment because it is a good and necessary one.</p>
+          <p eId="para_139">I regret the conclusion of this Stage of the debate on the Bill because it could have been an excellent Bill. It could have been revolutionary and enabled people with disabilities to participate fully in society in the same way as we expect able-bodied children to participate. This Bill will not further that aim.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_78">
+          <from>Mr. F. McGrath</from>
+          <p eId="para_140">I support amendment No. 333 and strongly agree with Deputy Lynch's comments. This proposed amendment to the Title is part of the broader equality debate and agenda. We are debating the rights of a section of our population. I support all people with disabilities and their advocacy groups which have worked with Deputies, the Minister and the Department of Justice, Equality and Law Reform on this Bill. We have serious differences with the Government but that is part of politics.</p>
+          <p eId="para_141">I am concerned, however, that the issues of equality and people's rights are not fully embraced. Only a certain percentage of rights and citizenship issues are guaranteed. This Bill afforded an opportunity to change that and support people with disabilities. These people form 8% of the population and have made a great contribution to the State and to society. There should be no debate or division about providing services to people with disabilities as a right. Amendment No. 333 deals with this issue, confronts the reality and would make this legislation positive and constructive.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_79">
+          <from>Mr. Stanton</from>
+          <p eId="para_142">Amendment No. 334 is similar to amendment No. 333. I acknowledge the hard work of everyone involved in developing this strategy. The problem, however, is in the philosophy underlying the Bill and that is why the advocacy groups decided to withdraw from the debate. I received a report last night and heard an interview on radio this morning to the effect that these groups have decided to resign from the disability legislation consultation group. In effect, the disability legislation consultation group no longer exists, which is a shame.</p>
+          <p eId="para_143">The Minister of State has failed to bring the end users, the people who should benefit from the legislation, with him. They have put a great deal of effort into reviewing this Bill. It requires much more effort for a person with a disability to engage to that extent than it does for someone with no disability. This Bill is rooted in the medical model. The full Title states it is an:</p>
+          <p class="indent_1" eId="para_144">"ACT TO ENABLE PROVISION TO BE MADE FOR THE ASSESSMENT OF HEALTH AND EDUCATION NEEDS OCCASIONED TO PERSONS WITH DISABILITIES BY THEIR DISABILITIES".</p>
+          <p eId="para_145">This implies that the disabilities create the health and education needs. It blames people for having disabilities instead of recognising that many of the restrictions experienced by people with disabilities are caused by the social infrastructure.</p>
+          <p eId="para_146">We must recognise that society creates many of the barriers facing people with disabilities. Society is organised to cater for the average person who can walk and has no sensory impairment or mental disability. The Long Title of the Bill does not acknowledge that. I propose the Title be changed by the insertion after "HEALTH AND EDUCATION NEEDS" of the phrase "OF PERSONS WITH DISABILITIES, TO ENABLE MINISTERS OF THE GOVERNMENT TO MAKE PROVISION" and the deletion of the phrase "OCCASIONED TO PERSONS WITH DISABILITIES BY THEIR DISABILITIES". It is crucial to remove the latter phrase because it refers to the old medical model. Most thinking has moved beyond the medical model to a social or human rights model. We have not even got as far as the human rights issue.</p>
+          <p eId="para_147">The other superfluous part of the Title I propose be deleted is the phrase "CONSISTENT WITH THE RESOURCES AVAILABLE TO THEM AND THEIR OBLIGATIONS IN RELATION TO THEIR ALLOCATION." That is present in many sections of the Bill and is unnecessary in the Long Title. The Long Title should be clearer than that. It should move away from the medical model to a social model or even into a human rights model which the thinking behind this Bill has not attained. The reference to resources in the Long Title underpins the repeated reference in the Bill to services being resource-based.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_80">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_148">I agree with the sentiment of these amendments. The amendment I will propose on Report Stage will go even further than amendment No. 333 because the Bill we have discussed is not the Bill for which we hoped although the Minister of State has made slight amendments. This is a resource-based Bill, despite all the debate on Second and Committee Stages, and during the consultation period.</p>
+          <p eId="para_149">Those who drew up the Bill worked hard but, by approaching it on the wrong basis, achieved the wrong results. My suggestion for a Long Title would start from the Short Title, Disability Bill, which does not mention that we are trying to achieve equality for people with disabilities. The Long Title should reflect the need for an Act to protect and vindicate the equal rights of people with disabilities and to allow for positive action measures to enable people with disabilities reach their full potential, live with maximum independence, autonomy, privacy and dignity, and to participate in and contribute to society on an equal basis. It should guarantee the minimum standard for the provision of disability specific services and the progressive realisation of the right to equal access to all buildings and services and provide for related matters. In the alternative, I suggest these are the rights and guarantees. After all the debate on this issue, people with disabilities have not managed to get those guarantees in this Bill.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_81" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_150">Amendments Nos. 333 and 334 propose to insert a new Long Title. The amendments have the effect of providing that persons being assessed would be entitled to all services identified in the assessment process. The approach in amendment No. 333, is based on the idea of justiciable rights as the starting point for improving the position of people with disabilities. Amendment No. 334 has a similar intent. We have discussed these fundamental differences between the Government's position and that of the Opposition in the course of the committee's deliberations. It will not, therefore, come as a surprise that I do not intend to accept these amendments. I will retain the Long Title which adequately describes the Bill's intent and purpose.</p>
+          <p eId="para_151">I appreciate the constructive approach taken on Committee Stage by all Opposition Members. Deputy Finian McGrath's comment of giving total support to people with disabilities springs to mind. I fully support people with disabilities. While I came into this ministerial position after the Bill was published, I examined every aspect of it from a personal point of view. The issue of justiciable rights is the one fundamental difference between the Government and the Opposition. I considered if it would be in people's best interests to have such rights. I examined legislation in other jurisdictions. After much thought I decided that it would not be. I am satisfied that the future for the people with disabilities is best protected and served by the Bill. While we can agree to disagree on this, I have no doubts.</p>
+          <p eId="para_152">I appreciate the frustrations of people with disabilities. My heart went out to Mary Keogh on the radio this morning. That frustration is based, however, on the experience of the past. When this Bill is enacted, the experience will be better. This is the important message the Taoiseach and the Government wish to get across. The Bill is designed to underpin the national strategy for people with disabilities. I am satisfied that the Bill's provisions will give the rights to people with disabilities that they did not have in the past. It will not be necessary for them to go to court to establish those rights. The way the Bill will be implemented will ensure those rights are available in an effective and efficient manner.</p>
+          <p eId="para_153">We had a good meeting yesterday with the Health Service Executive, the Department of Health and Children and the Department of the Taoiseach. On Report Stage I hope to be able to inform Members about the progress being made on the regulations and standards. While I will not be able to give details, Members will see a significant body of work is being done in anticipating the passage of the Bill and the preparation for its implementation.</p>
+          <p eId="para_154">While I reject these amendments, I appreciate the Opposition's position and their arguments. I have listened carefully to what has been said. We are all agreed that the Bill, the disability strategy and the significant input of the Opposition will bring us forward. All parties are clearly committed to the provision of proper services for people with disabilities. While there are some medical elements to the model, it is predominantly a socio-economic one. I am convinced it is good legislation. The only way this will be proved is over the next two years when it is implemented.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_82">
+          <from>Mr. Stanton</from>
+          <p eId="para_155">As services will be provided for people with disabilities, there will be no need for people to go to court. If that is the case, why are they stopped from going to the courts? If the Minister of State is so sure that the legislation and the disability strategy will deliver, what is he afraid of? If people do not need to resort to the courts, then the section barring them from doing so should not be included. There is a paradox in his thinking.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_83" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_156">The Oireachtas and the Government should run the State, not the Four Courts.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_84">
+          <from>Ms Lynch</from>
+          <p eId="para_157">We all agree with that.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_85">
+          <from>Mr. Stanton</from>
+          <p eId="para_158">Of course, but people also should have rights</p>
+        </speech>
+        <summary eId="sum_33">Amendment put.<entity refersTo="#bill.2004.39.dail.3.amd_333" name="amendment"/>
+                </summary>
+        <debateSection name="division" eId="dbsect_4">
+          <summary title="division" eId="sum_34">The Committee divided: Tá, <quantity normalized="5" refersTo="#ta" eId="qty_1">5</quantity>; Níl, <quantity normalized="7" refersTo="#nil" eId="qty_2">7</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_5">
+            <p eId="para_159">Tá</p>
+            <p eId="para_160">
+              <person refersTo="#KathleenLynch">Lynch, Kathleen.</person>
+            </p>
+            <p eId="para_161">
+              <person refersTo="#FinianMcGrath">McGrath, Finian.</person>
+            </p>
+            <p eId="para_162">
+              <person refersTo="#BreedaMoynihanCronin">Moynihan-Cronin, Breeda.</person>
+            </p>
+            <p eId="para_163">
+              <person refersTo="#GerardMurphy">Murphy, Gerard.</person>
+            </p>
+            <p eId="para_164">
+              <person refersTo="#DavidStanton">Stanton, David.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_6">
+            <p eId="para_165">Níl</p>
+            <p eId="para_166">
+              <person refersTo="#SeanArdagh">Ardagh, Seán.</person>
+            </p>
+            <p eId="para_167">
+              <person refersTo="#JoeCallananFF">Callanan, Joe.</person>
+            </p>
+            <p eId="para_168">
+              <person refersTo="#PatCarey">Carey, Pat.</person>
+            </p>
+            <p eId="para_169">
+              <person refersTo="#FrankFahey">Fahey, Frank.</person>
+            </p>
+            <p eId="para_170">
+              <person refersTo="#MarieHoctorFF">Hoctor, Máire.</person>
+            </p>
+            <p eId="para_171">
+              <person refersTo="#SeanOFearghaillFF">Ó Fearghaíl, Seán.</person>
+            </p>
+            <p eId="para_172">
+              <person refersTo="#PeterPowerFF">Power, Peter.</person>
+            </p>
+          </debateSection>
+        </debateSection>
+        <summary eId="sum_35" title="decision" refersTo="#lost">Amendment declared lost.<entity refersTo="#bill.2004.39.dail.3.amd_333.lost" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_36" title="decision">Amendment No. 334 not moved.<entity refersTo="#bill.2004.39.dail.3.amd_334.notmoved" name="amendment"/>
+                </summary>
+        <summary eId="sum_37">Question put: "That the Title be the Title to the Bill."</summary>
+        <debateSection name="division" eId="dbsect_7">
+          <summary title="division" eId="sum_38">The Committee divided: Tá, <quantity normalized="7" refersTo="#ta" eId="qty_3">7</quantity>; Níl, <quantity normalized="5" refersTo="#nil" eId="qty_4">5</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_8">
+            <p eId="para_173">Tá</p>
+            <p eId="para_174">
+              <person refersTo="#SeanArdagh">Ardagh, Seán.</person>
+            </p>
+            <p eId="para_175">
+              <person refersTo="#JoeCallananFF">Callanan, Joe.</person>
+            </p>
+            <p eId="para_176">
+              <person refersTo="#PatCarey">Carey, Pat.</person>
+            </p>
+            <p eId="para_177">
+              <person refersTo="#FrankFahey">Fahey, Frank.</person>
+            </p>
+            <p eId="para_178">
+              <person refersTo="#MarieHoctorFF">Hoctor, Máire.</person>
+            </p>
+            <p eId="para_179">
+              <person refersTo="#SeanOFearghaillFF">Ó Fearghaíl, Seán.</person>
+            </p>
+            <p eId="para_180">
+              <person refersTo="#PeterPowerFF">Power, Peter.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_9">
+            <p eId="para_181">Níl</p>
+            <p eId="para_182">
+              <person refersTo="#JoeCostelloLAB">Costello, Joe.</person>
+            </p>
+            <p eId="para_183">
+              <person refersTo="#FinianMcGrath">McGrath, Finian.</person>
+            </p>
+            <p eId="para_184">
+              <person refersTo="#BreedaMoynihanCronin">Moynihan-Cronin, Breeda.</person>
+            </p>
+            <p eId="para_185">
+              <person refersTo="#GerardMurphy">Murphy, Gerard.</person>
+            </p>
+            <p eId="para_186">
+              <person refersTo="#DavidStanton">Stanton, David.</person>
+            </p>
+          </debateSection>
+        </debateSection>
+        <summary eId="sum_39" refersTo="#carried" title="decision">Question declared carried.<entity name="reference" refersTo="#sum_37"/>
+                </summary>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_86">
+          <from>Chairman</from>
+          <p eId="para_187">I thank the Minister of State and his officials who have worked so intensively over recent weeks but also over recent years on this matter. In particular I thank Deputies Stanton, Lynch, Finian McGrath, Ó Snodaigh and Hoctor who have spent so many days at this committee in consideration of this Bill. I am grateful to all of them for the co-operation they have given to me as Chairman.</p>
+        </speech>
+        <speech by="#DavidStanton" eId="spk_87">
+          <from>Mr. Stanton</from>
+          <p eId="para_188">I wish to be associated with the remarks made by the Chairman and to recognise the great deal of work done by the officials, in particular by the committee staff and the staff of the House who have remained for many hours to help us with the debate. It was essential for us to tease out the points we did. Although we did not agree on many matters, I also pay tribute to the Minister of State for his attention to what we were saying and for taking on board at least one or two of the points we made.</p>
+          <p eId="para_189">This is a very important issue. I hope the Bill will work and that it will provide services for the people who badly need them. We in the Opposition will monitor the impact of the legislation and will push the Government, for the short time it has left in office, to ensure that the Bill is fully resourced and that the moneys which must be refunded to people in nursing homes will not have any adverse impact on the resources required for this strategy. That is the bottom line. If sufficient resources are provided, the strategy should work.</p>
+          <p eId="para_190">The Minister of State should also look at the bureaucracy which might build up around this Bill. Part of the criticism of the health service is that it involves a great deal of bureaucracy which feeds on itself. We do not want the same happening with the new strategy. That is why we were anxious to ensure that the complaints mechanism would be as streamlined as possible and that extra costs would not be involved in running the services. We need to ensure too that those providing the assessments and services will be trained, funded and made available as soon as possible.</p>
+          <p eId="para_191">This is only the beginning and there is much more to be done. Although we have some misgivings, I wish the strategy well and hope it works for the sake of those who badly need back-up, support and assistance. I think we all agree that is required, and long overdue.</p>
+        </speech>
+        <speech by="#KathleenLynch" eId="spk_88">
+          <from>Ms Lynch</from>
+          <p eId="para_192">I thank the Chairman, who has been very fair. He might have had an inclination to be biased, but was not. He was very fair, gave us all the time we needed and allowed us to tease out points. I also thank the excellent committee staff. I thank the Minister of State and his staff, who were excellent. I am sure that they could have committed murder on some occasions when they felt that proceedings were going on too long and becoming too tedious. Nevertheless, the Minister of State, his staff and everyone involved in the entire process did their best. In particular, we should mention people with disabilities who have engaged in the process and spent much more time than anyone on this side on the legislation and strategy.</p>
+          <p eId="para_193">I know that the Minister of State is convinced, but I am not as convinced, as must be obvious from the discussion that we have had over recent weeks. For their sakes, I hope that the strategy works in the way that the Minister of State says. I hope that the funding comes through to build the capacity since it is clearly not in place at present. That is essential. I hope for people with disabilities that we will be able to look back on this and say that I may have been right to point out the misgivings we had and the different amendments that we tabled but that all else went well. I wish everyone well in the process and hope that what the Minister of State has said will happen will be realised. I wish him the very best, and for the sake of people with disabilities, I hope that we will have an equal society that includes everyone.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_89">
+          <from>Mr. F. McGrath</from>
+          <p eId="para_194">On behalf of the Independent Members of the Oireachtas, I thank the Chairman for the open and flexible way in which he has chaired the meetings and sessions. He gave everyone a fair opportunity to contribute to the Bill, and I thank him for that. I also thank the Minister of State and his staff for their work on these issues. I know that we have had very strong disagreements on points of principle, but the bottom line is that the debate was about people with disabilities, and we have a shared objective. The disability sector should also realise that it has moved very high up this State's political agenda. We have come a long way in the last four or five years, and that has been due to the effective campaigning and work of people with disabilities. They have worked with all Members of the Oireachtas, including both the Seanad and the Dáil. That is very important and should be said today. We have all been impressed by their professionalism and effectiveness. Ultimately, they want to ensure that they are included in mainstream society. We are moving down that road. We have differences, but we are getting nearer to that day. It is important we recognise that fact.</p>
+          <p eId="para_195">I also pay tribute to all the different groups which work with people with disabilities. I know that we deal with many problems regarding waiting lists and respite care, but there are people — staff and others — who provide an excellent service and work hard every day. I speak as the parent of a daughter with Down's syndrome. I appreciate the work they do, and it is important that we say that too. We can have rows and differences, but I strongly believe in rights for all people, particularly those with disabilities. However, this debate over recent weeks has shown that people are moving and that people with disabilities now top the political agenda, as they should.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_90">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_196">I want to be associated with the sentiments and comments of the other Deputies. I too hope that I am proven wrong. Having said that, I have not given up the fight, and I hope that the Minister of State will have a change of heart next week and accept all the amendments we table. Great numbers of people depend on us to get things right this time. Many of them have taken the time to advise us, trawling through the legislation, the amendments and everything else. They have campaigned on this for many a long year. They believed that they were going to get something, and I hope the Minister of State will deliver what I have been fighting for, thus proving me wrong.</p>
+          <p eId="para_197">A great amount of work was done at the committee. Much of the work done by the Chairman and the committee officials advising the Minister of State and us goes unnoticed by the media and the public in general. However, it has not gone unnoticed by those directly affected by disabilities. Their groups have been monitoring matters, and one hopes that it will help in future, since they now know that they have a voice in this House and that we can continue to build on our achievements over the last two weeks or so.</p>
+        </speech>
+        <speech by="#MarieHoctorFF" eId="spk_91">
+          <from>Ms Hoctor</from>
+          <p eId="para_198">I thank the Chairman for allowing me the opportunity to address the committee during the Bill's final moments on Committee Stage. As we know, the legislation has had a long history. It was not accepted on the first occasion a few years ago, but now we have reached this stage. The Bill's merits will be borne out in the Government's commitment to funding, which was recently announced in the budget by the Minister for Finance, Deputy Cowen. We also clearly recognise the need for further review, tabled for five years hence. As the Minister of State said, that is no different from a county development plan. The review begins in the third or fourth year so that, in the fifth year, weaknesses and anything else to be addressed, and the experiences of the people whom this Bill will serve will be fully recognised. We all accept that this has been and will continue to be a process.</p>
+          <p eId="para_199">I thank the Chairman, Ms Mairéad McCabe and Mr. Gerald Gavin for their personal assistance to me. As Government convenor, I thank my own colleagues, including, by no means least, the Minister of State and his staff who were available for briefings when I sought them to bring us to this Committee Stage. I sincerely thank them for their efforts, along with the staff of the House who stayed with us through the long hours spent on this Bill.</p>
+          <p eId="para_200">Let us remember the considerably more than 40 groups that met the committee and relayed their experiences, and whom we will welcome again as the process continues until we reach a clearer realisation of the word "equality". Let us recall that the Bill was with this Select Committee on Justice, Equality, Defence and Women's Rights rather than with the Select Committee on Health and Children. That in itself has been a statement.</p>
+        </speech>
+        <speech by="#FrankFahey" eId="spk_92" as="#Minister_of_State_at_the_Department_of_Justice,_Equality_and_Law_Reform">
+          <from>Mr. Fahey</from>
+          <p eId="para_201">As Deputy Finian McGrath said, people with disabilities are now at the top of the political agenda. We may differ on the way in which we want to see that agenda and its objectives achieved. However, we are all agreed that right now, across the political spectrum, there is a desire to ensure that people with disabilities are recognised for their abilities and given equal status to everyone else. I will not go back over the discussion other than to thank the Opposition for the way in which it has conducted the debate in the committee.</p>
+          <p eId="para_202">I thank the Chairman and his officials for the efficient manner in which they have conducted business. This is the first time that I have been involved in any significant legislation since the new committee system started. The last time was a few years ago, and it was as part of the old Dáil system. It is definitely a revelation to debate legislation in this type of forum instead of in the old way. I thank my own officials, particularly Ms Anne Doyle and Ms Siobhán Barron, Edel and the others. I believe that there are eight or nine people in the section of our Department responsible for what I consider this most amazing work, as I said when we opened the debate. This legislation involved many Departments. It was very complex in itself, but it was further complicated by the fact that other Departments had to be satisfied that they agreed with everything in it. We are very lucky in this country with our public servants, and those dealing with this Bill epitomised all that is best in them. I concur with what has been said in that respect.</p>
+          <p eId="para_203">It has been a very good experience for me, and I greatly appreciate the engagement of the four Deputies present for everything and who led the debate on Second Stage. They certainly did a forensic analysis of everything in the legislation and put forward many constructive amendments. The amount of time and effort put into this Bill is a tribute to each of the four spokespersons. As Minister of State, I have great back-up. The Opposition does not. I compliment each of the Opposition spokespersons on the enormous amount of work they have put in. In an era when parish pump politics is as strong and as good as it ever was, there are not too many votes for people who put in many hours of effort into making good legislation. I genuinely appreciate the effort that has been put in by the Opposition. It certainly has contributed to good legislation. While they are not happy with some aspects of it, we have done a good day's work and we will see it through to the end over the coming weeks.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_93">
+          <from>Chairman</from>
+          <p eId="para_204">I thank the Minister of State. The select committee meets again on Tuesday next, at 9.30 a.m. to consider the Garda Síochána Bill 2004.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_10">
+        <heading>Message to Dáil.</heading>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_94">
+          <from>Chairman</from>
+          <p eId="para_205">In accordance with Standing Order 85, the following message will be sent to the Dáil:</p>
+          <p class="indent_1" eId="para_206">The Select Committee on Justice, Equality, Defence and Women's Rights has completed its consideration of the Disability Bill 2004 and has made amendments thereto.</p>
+          <p eId="para_207">The select committee adjourned at 12.30 p.m. until 9.30 a.m. on Tuesday, 17 May 2005.</p>
+        </speech>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

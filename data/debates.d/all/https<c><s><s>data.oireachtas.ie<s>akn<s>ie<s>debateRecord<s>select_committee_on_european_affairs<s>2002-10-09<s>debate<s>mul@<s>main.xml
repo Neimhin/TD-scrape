@@ -1,0 +1,509 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_european_affairs/2002-10-09/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_european_affairs/2002-10-09/debate"/>
+          <FRBRdate date="2002-10-09" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/select_committee_on_european_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_european_affairs/2002-10-09/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_european_affairs/2002-10-09/debate/mul@"/>
+          <FRBRdate date="2002-10-09" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_european_affairs/2002-10-09/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_european_affairs/2002-10-09/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/1" showAs="Vol. 1" eId="#vol_1"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/1/no/5" showAs="No. 5" eId="#no_5"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="BarryAndrewsFF" href="/ie/oireachtas/member/id/Barry-Andrews.D.2002-06-06" showAs="Barry Andrews"/>
+        <TLCPerson eId="GayMitchell" href="/ie/oireachtas/member/id/Gay-Mitchell.D.1981-06-30" showAs="Gay Mitchell"/>
+        <TLCPerson eId="JimOKeeffe" href="/ie/oireachtas/member/id/Jim-O'Keeffe.D.1977-07-05" showAs="Jim O'Keeffe"/>
+        <TLCPerson eId="MaeSextonPD" href="/ie/oireachtas/member/id/Mae-Sexton.D.2002-06-06" showAs="Mae Sexton"/>
+        <TLCPerson eId="MichaelMcDowellPD" href="/ie/oireachtas/member/id/Michael-McDowell.D.1987-03-10" showAs="Michael McDowell"/>
+        <TLCPerson eId="MichaelMulcahyFF" href="/ie/oireachtas/member/id/Michael-Mulcahy.S.1994-12-13" showAs="Michael Mulcahy"/>
+        <TLCPerson eId="PatCarey" href="/ie/oireachtas/member/id/Pat-Carey.D.1997-06-26" showAs="Pat Carey"/>
+        <TLCPerson eId="SeamusKirk" href="/ie/oireachtas/member/id/Seamus-Kirk.D.1982-12-14" showAs="Seamus Kirk"/>
+        <TLCPerson eId="SeanHaughey" href="/ie/oireachtas/member/id/Seán-Haughey.S.1987-04-25" showAs="Seán Haughey"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Justice,_Equality_and_Law_Reform" href="/ie/oireachtas/role/minister/justice__equality__law_reform" showAs="Minister for Justice, Equality and Law Reform"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>ROGHCHOISTE UM GHNÓTHAÍ EORPACHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON EUROPEAN AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2002-10-09">Dé Céadaoin, 9 Deireadh Fómhair 2002</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2002-10-09">Wednesday, 9 October 2002</docDate>
+      </block>
+      <block name="volume">
+        <docNumber refersTo="#vol_1">Vol. 1</docNumber>
+      </block>
+      <block name="number">
+        <docNumber refersTo="#no_5">No. 5</docNumber>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 2 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">Members Present:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#BarryAndrewsFF">Deputy B. Andrews,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#MichaelMulcahyFF">Deputy M. Mulcahy,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#PatCarey">Deputy P. Carey,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#JimOKeeffe">Deputy J. O’Keeffe,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#SeanHaughey">Deputy S. Haughey,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#AengusOSnodaighSF">Deputy A. Ó Snodaigh,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#SeamusKirk">Deputy S. Kirk,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#MaeSextonPD">Deputy M. Sexton.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#MichaelMcDowellPD">Deputy M. McDowell (<i>Minister for Justice, Equality and Law Reform</i>),</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#GayMitchell">
+   DEPUTY G. MITCHELL in the chair.
+  </person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Justice and Home Affairs Council: Ministerial Presentation.</heading>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_10">The draft agenda for the meeting of the Justice and Home Affairs Council has been circulated along with a briefing note on the topics that will be discussed. I thank the Minister for this material and for coming to the committee to discuss this meeting. Members are concerned that the briefing information arrived late. This is the first time the Minister for Justice, Equality and Law Reform has appeared before the committee but if we are to exercise our responsibility to examine Ministers before they attend Council meetings, we need the documentation well in advance.</p>
+          <p eId="para_11">I propose to group the agenda items for the purposes of questions as follows: category (a), agenda items 4 to 9, dealing with criminal law legislation; category (b), agenda items 10 and 11, dealing with police and crime matters; category (c), agenda items 12 to 23, dealing with asylum and immigration and category (d), agenda item 3, civil law matters. I welcome the Minister to the meeting and invite him to make his presentation.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" as="#Minister_for_Justice,_Equality_and_Law_Reform" eId="spk_2">
+          <from>Minister for Justice, Equality and Law Reform (Mr. McDowell)</from>
+          <p eId="para_12">On the arrival of the material, my Department only received the draft agenda late last week and that caused a problem in making briefing material available at short notice to members of the committee. As we speak, COREPER, the committee that fixes the agenda, is sitting in Brussels to decide on it. Even the agenda we have now is not the final version and I ask the committee to bear that in mind. The routine followed in relation to these Council meetings does not make it easy for my Department to come before the committee with a finalised agenda or timely briefing materials. We are given very little notice ourselves. In that context, the Danish Presidency has sought to create space between the COREPER meeting and the Council meeting. Clearly, it is in everybody's interest that the period be as long as possible and if there is improvement on that front I will be in a position to improve the timeliness of the briefing material I can give to the committee on these matters.</p>
+          <p eId="para_13">I am, as Members will know, a very strong advocate of improved Oireachtas scrutiny of our European agenda and I therefore welcome this first real opportunity for me to discuss aspects of that agenda with this committee in the context of the forthcoming JJC meeting. I look forward to meeting the committee on a regular basis in the coming year to provide substantial support to Oireachtas scrutiny of EU policy and legislation as they affect the justice and law reform functions of my Department, particularly with regard to the impact of the activities of the EU on my Department and on the lives of citizens. Increasingly, domestic scrutiny will complicate the day-to-day lives of Ministers and their officials but that is a small price to pay - if it is a price at all - for ensuring the democratic deficit in terms of the Legislature's examination of EU instruments and policies is addressed in a meaningful way. Deeper engagement with EU activities will also place a burden on Members of the Oireachtas if proposals for EU policy and law are to receive timely and effective scrutiny, but that is a challenge they will rise to with enthusiasm.</p>
+          <p eId="para_14">Again, I express my thanks to those on the committee who were able to contribute to the debates in the House in July regarding justice and home affairs matters. I said at that time that I would prefer to have such debates in committee as the less rigid format allows for a more meaningful exchange of views and deeper engagement with the important issues under scrutiny. I have already made a plea to the media to recognise its role in bringing home that process of scrutiny to the individual citizen. If the media properly call for accountability and if the Legislature delivers, it then has a duty to support with coverage the political process which results. I repeat my plea here and invite representatives of the media, those who work in the Oireachtas and those who exercise editorial functions in the head offices of media organisations, to ensure the important work done by this committee is fully reported. These meetings are the best possible way to inform members of the public of what is being discussed in Europe and done in their name, but the co-operation of all parties is required if that is to happen. We know that public interest in the European Union is at a high level and as politicians we are anxious that the public be fully informed of our activities. This committee has a central role in this work and I wish the chairman and his colleagues every success.</p>
+          <p eId="para_15">The committee has received a considerable amount of documentation for this meeting reflecting the number of items proposed for discussion by the Danish Presidency. As I said earlier, the committee of ambassadors, COREPER, is meeting in Brussels today after which a final agenda will be issued. At this stage it is not certain that all of the items on our agenda will be discussed, if only for reasons of time. Members will have noted that there is to be a meeting with the Justice and Home Affairs Ministers of the candidate countries during the course of which it is hoped agreement will be reached on the text of a declaration, a draft of which has been made available and does not present any difficulties for Ireland. There will be a working lunch with Carla del Ponte, the prosecutor at the war crimes tribunal at the Hague and the agenda with regard to that aspect of the meeting contains nothing to present problems from an Irish perspective. Essentially, it calls on member states to ensure maximum co-operation is extended to that tribunal.</p>
+          <p eId="para_16">One Deputy raised the matter of the outcome of the Copenhagen informal Council for discussion. The committee will be aware that no decisions can be taken at informal Councils which are intended to allow for less structured debate and a more open exchange of views than is possible during formal debates in Council. A copy of the statement issued by the Presidency has been given to the committee outlining the discussions which took place. I was not able to be present for all of the meeting due to other commitments, but I was present for a portion of it and the presidency document is a fair reflection of the discussions.</p>
+          <p eId="para_17">It is worth recalling for the information of the committee that work in this area represents a considerable amount of the overall work of the Council of Ministers. Even before the events of 11 September last year there was recognition that work to combat transnational crime, be it terrorism, trafficking in people and drugs, money laundering, child pornography or other forms of crime, required closer co-operation among states. Ireland has played a full role in these matters and will continue to do so. Some have expressed the view that more should be done more quickly and have argued for more simplified procedures to allow changes to be made more quickly. It is far more important that the decisions are correct rather than hasty. The sensitivity of areas like asylum, immigration, possible harmonisation of laws and police co-operation means that more consultation and reflection on proposed changes rather than less is required. The fight against transnational crime has not been impeded by the need for proper periods of reflection and discussion. I am firmly of the view that the Houses of the Oireachtas need to be more closely involved in this work and my Department has consulted more closely with the Oireachtas than a number of others. I envisage the level of consultation increasing in the years ahead.</p>
+          <p eId="para_18">The committee has been provided with an amount of information on each of the agenda items. I am in the Chairm</p>
+          <p eId="para_19">an's hands and am prepared to deliver a commentary on each item, but in the limited time available for today's proceedings it might be of more interest to the committee and more accountable to the public if I were to respond to issues of particular interest to Members.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_20">For the information of the press and members of the public present, this meeting is part of a new procedure whereby Ministers appear at Oireachtas committees before going to Council of Ministers meetings. It is to allow the Oireachtas to influence the framing of legislation at a European level. This also entails a process of scrutiny in which a sub-committee of this committee scrutinises all draft regulations and directives and these can be considered by other committees of the Oireachtas, enabling us to influence the making of the legislation in advance. This new procedure was put in place in July of this year.</p>
+          <p eId="para_21">I thank the Minister for his contribution. I have a technical and a substantive question. Item 4 deals with a framework decision on corruption in the private sector, item 5 deals with a framework decision on confiscation of crime related proceeds, item 6 deals with a framework decision on the sexual exploitation of children and with child pornography, item 7 deals with a framework decision relating to penalties in the field of drug trafficking and item 8 deals with a framework decision on the application of the principle of mutual recognition of financial penalties. Will the Minister confirm that a framework decision sets out the broad parameters and that it is then up to each member state to implement the details? Item 9 is a Council decision which apparently does not have any implication for us because we have a national Garda force. The substantive question relates to item 4. This is a framework decision and, therefore, the detail will be a matter for the Government and the Legislature. Is the Minister considering a corruption assets bureau or is it possible that the criminal assets bureau could have its remit extended into the area of corruption?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_4" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_22">The Government wants to extend the battle against corruption to the maximum possible degree to recover assets created by such means. In recent times the Government Chief Whip made a detailed announcement on proposals to create a corruption assets agency. I am engaging in a dialogue with the criminal assets bureau to find out to what extent its existing powers are adequate to discharge that function and to what extent, if any, further powers and amendments of the law are necessary to bring about what is set out in the programme for Government in this area. That is at an early stage and I do not want to create new institutions solely for the sake of doing so, but I want to ensure there is no loophole or gap in our laws which allows people to benefit from corruption instead of being held accountable as are those who benefit from other crimes. We are at a preliminary stage in relation to the corruption assets agency issue. I want to arrive at a serviceable and workable outcome rather than be seen to do something for its own sake.</p>
+          <p eId="para_23">As most members of the committee know, framework decisions are made under the third pillar of the European Union treaties. A number of instruments can be taken under that and common positions can be adopted. There are decisions which are not framework decisions and there are conventions. There is a category of measures which the JHA Council can take in relation to justice and home affairs issues within the third pillar. They are done on the basis of unanimity and, therefore, every member state must agree to any framework decision before it can be enacted. The framework decisions are for the purpose of approximating the laws and regulations of the member states and they are binding on member states in terms of the result to be achieved. They leave to the national authorities the choice of form and methods and they do not have any direct effect.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_5">
+          <from>Chairman</from>
+          <p eId="para_24">All these must go before the Oireachtas under Article 29.4.6.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_6" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_25">That is correct. Even when I get to the point of political agreement, I will signal to the Council that there is a parliamentary scrutiny reservation.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_26">We are on items 4 to 9. There is also an A list item, which must be noted at the Minister's meeting.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_8">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_27">The brief mentioned was late, but it was well presented. I compliment those involved in the presentation. Can the Minister tell us more about the extent to which there will be Dáil involvement? I note six of the items refer to Article 29 approval by the Dáil. At what stage in the proceedings is that likely to happen? While it has been signalled, there has not been any attempt to table a motion on any of them at this stage. Perhaps the Minister might outline his approach to the justice and home affairs matters at European level. Does he intend to deal with the proposal emanating from the Commission? Does he intend to take a positive pro-active approach to amending the Commission's proposals or is it a question of reacting to these important items of criminal law legislation? Does he feel strongly about amending any aspects of the proposals?</p>
+          <p eId="para_28">I note the Minister's comments about corruption and how to deal with it. I encourage the Minister to examine the merits of extending the remit of the Criminal Assets Bureau rather than immediately creating another body. It seems to have worked extraordinarily well in the area in which it has been involved. The way to deal with the problem of corruption might be to extend the role of the bureau rather than set up another body.</p>
+          <p eId="para_29">As regards item 4, the draft Council framework decision on combating corruption in the private sector, the brief outlines the legislation which is on the Statute Book. There is a cryptic reference to the fact that a common law offence of bribery also exists. Since there is much discussion about that issue at present, does the Minister propose to develop a statutory framework on bribery? Does he consider it appropriate to take such an initiative at this stage? I encourage him to take positive action in that regard.</p>
+          <p eId="para_30">The protocol to the EU convention on mutual legal assistance provides for mutual legal assistance in relation to requests for information on bank accounts and banking transactions. I presume our reaction to the proposals if they go far enough is positive. We should be to the fore in seeking to have in place the strongest European legislation to deal with money laundering and illegal overseas accounts.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_9">
+          <from>Mr. Andrews</from>
+          <p eId="para_31">As regards item 4, one of the problems identified in the Flood tribunal report was that the standard of proof required to satisfy the tribunal might not satisfy a criminal court. In other words, a case would have to be proven beyond reasonable doubt. How will we overcome that problem in the context of what is expected following the European Union decision? What standard will be expected for the proposed corruption assets bureau? Will the common law offence of bribery be developed on its own rather than adding more layers of enforcement if adequate layers are already in place?</p>
+          <p eId="para_32">As regards item 9, war crimes, genocide and crimes against humanity, you, Chairman, said that does not affect us.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_10">
+          <from>Chairman</from>
+          <p eId="para_33">It is a draft Council decision rather than a framework decision. The Deputy is free to ask a question on it.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_11">
+          <from>Mr. Andrews</from>
+          <p eId="para_34">The International Criminal Court is fast collapsing around our ears because some of the member states are making bilateral agreements with the United States on immunity from its provisions. What is the Minister's view on that, particularly on the accession states, such as Romania, which have already signed bilateral agreements with the United States?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_12" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_35">Deputy Jim O'Keeffe asked me to explain how Article 29 and scrutiny by both Houses will relate to the material with which we are dealing and similar measures in the future. Framework decisions come within the rubric of Article 29 because a framework decision obliges Ireland to have a law, once it is adopted, which conforms with it. It is not generally appreciated that that is of constitutional significance.</p>
+          <p eId="para_36">Our obligations under the EU treaties are to modify, as required, constitutional arrangements in this country. If the Minister for Justice, Equality and Law Reform goes to a JHAC meeting and concurs in the making of a framework decision which imposes thereafter on Ireland an obligation to conform with it, it prevents the Oireachtas from having a law which is inconsistent with the framework decision. That circumscribes the operation of the Oireachtas. It also requires the State in certain cases to bring its law into conformity with the framework decision. It is important to understand that framework decisions, as opposed to other decisions, are binding upon the State as to their outcome, if not as to the exact method of implementation. This is the reason it is important that both Houses and the committees appreciate that a framework decision is not entered into by me lightly because it curtails domestic discretion in the area covered by it.</p>
+          <p eId="para_37">When framework decisions are in draft form, as is the case with the ones we are now considering, I scrutinise them very carefully as do my departmental officials with a view to determining whether we are satisfied with their terms. I am conscious in that process that in the last analysis under Article 29 my capacity to indicate Ireland's agreement and thereby effectively to join in a unanimous decision will require bringing each of the Houses with me. For this reason, resolutions will have to be tabled in each House to approve the terms of any framework decision we propose to enter into.</p>
+          <p eId="para_38">It may well be that in some cases the issues concerned are fairly straightforward and non-controversial. In those circumstances, I do not envisage them being debated at great length in either House. It may well be that a report produced following consideration of a proposal by this or another committee to which it has been referred, for example, the Committee on Justice, Defence, Equality and Women's Rights once it is established, will satisfy parties in the Oireachtas to the extent that a lengthy debate on the issue will not be required when the proposal comes before each House. Effectively, this would mean that the Houses would be in a position to note that the Committee on European Affairs has already examined the matter, reported on it and recorded no objection to it. In such circumstances, the debate could well be fairly short.</p>
+          <p eId="para_39">In other areas, for instance, the European arrest warrant which was considered in a very rushed manner and into which the Houses, at committee level at any rate, were not given an opportunity to inquire, there may be justification for much lengthier consideration. It is a matter of horses for courses as to the degree, nature and location of scrutiny.</p>
+          <p eId="para_40">On Deputy Jim O'Keeffe's question regarding my general attitude to framework decisions, since they are instruments which are binding upon us and have the effect of requiring us to conform to them as a matter of constitutional duty from now on, I must clearly signal them both at national and European level. I will not enter into agreements on framework decisions lightly, nor simply for window dressing purposes or because they contain obvious measures. In the last analysis I am only interested in framework decisions which are necessary to advance the issue they address. I am also very conscious of the principle of subsidiarity. This means that if there is no problem, I do not want to be offered a solution. In that context, I am clearly signalling that we will not go through the hoops of debating framework decisions unless they are clearly necessary for the approximation of laws among the member states of the European Union.</p>
+          <p eId="para_41">The Deputy asked me whether Ireland would adopt a constructive approach to measures emanating from the Commission and if we would be in a position to offer amendments. I assure him this will most certainly be the case. The first thing we will consider at governmental and departmental level with regard to any proposal for a framework decision is whether it is necessary and within the competence of the European Commission. However, allowing that there will be cases where the issue does lie within the competence of the Commission, we will then decide whether it is something we believe is best left unregulated or for the member states to decide through their own laws.</p>
+          <p eId="para_42">I emphasise that two different systems of criminal law operate in the European Union, our system of common law and the continental civil law or <i>Code Napoleon</i> system. Frequently, one size does not fit all. Our system of criminal justice is substantially different from the continental model and, therefore, one must make allowance for that difference when one sets out on the task of creating some system of approximation. This difference is not just a matter of history. In many cases it is a matter of fundamental values, an issue to which I will return in a moment when I address the question raised by Deputy Andrews.</p>
+          <p eId="para_43">I assure Deputy Jim O'Keeffe that this is an area to which I pay the closest possible attention. It is of constitutional importance from our point of view. There is no question of Ireland being pushed or pressurised into doing something we do not consider sensible, reasonable or in our interests. As this area is governed by unanimity - I envisage it will remain such - Ireland makes a free choice and decides whether to opt in or out.</p>
+          <p eId="para_44">The European Commission has between 200 and 300 staff working on justice and home affairs issues. From time to time they hold seminars, produce position papers, Green Papers, White Papers and so on. Monitoring what is happening and assessing the desirability of what is or is not proposed at any given stage requires this country to expend a considerable amount of resources. I assure the Deputy that in so far as we participate in preliminary discussions, behind the scenes negotiations, seminars and working groups these matters will be given very serious consideration. Ireland is not likely to go down a particular path on the basis that it is more convenient than not to do so, it would be embarrassing to do otherwise or we would stand out if we stood up for what we believed to be our own interests in respect of criminal law.</p>
+          <p eId="para_45">Turning to Deputy Andrews's comments, while I do not want to discuss the Flood tribunal here, I take his point. He is talking about standards of proof and it is the case that tribunals operate according to the civil standard of proof, which is proof on the balance of probabilities. It is also the case that the Criminal Assets Bureau legislation operates on that same standard, in other words, if it is alleged in court that assets which are the subject of a dispute before the court are or are not the proceeds of crime, the standard of proof under the Criminal Assets Bureau legislation is proof on the balance of probabilities.</p>
+          <p eId="para_46">In the context of criminal law, Ireland requires and always will require proof beyond reasonable doubt. No framework decision will change our position on this cornerstone of our system of law. We will not put people in prison on the basis of balance of probabilities. We will not allow by the back door any measure from the European Union to dilute that fundamental guarantee that no Irish citizen spends a day in jail unless it is proved beyond reasonable doubt that he or she is guilty. While I accept that is a high standard of proof, nonetheless it is a standard from which we do not intend to deviate.</p>
+          <p eId="para_47">Likewise, the presumption of innocence is a constitutional value here, subject to the fact that in certain cases presumptions can be made. Proof beyond reasonable doubt under our Constitution and the presumption of innocence are two sides of one coin. We do not intend to dilute either of those principles as a matter of Irish constitutional law, domestically or through the back door of any EU instruments.</p>
+          <p eId="para_48">In relation to the common law offence of bribery, I will not invent new crimes where old ones will do. This process is part of the programme for Government. I will begin the process in the next number of weeks to bring about that common law offences and statutory offences will form part of a single criminal code. To the extent that things are lost in the swirling mists of common law history, it is my intention to initiate the process during the life of this Government whereby all Irish criminal law is put on a statutory basis.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_13">
+          <from>Chairman</from>
+          <p eId="para_49">We are still on Category A, items 4 to 9, and there are three other categories.</p>
+        </speech>
+        <speech by="#SeanHaughey" eId="spk_14">
+          <from>Mr. Haughey</from>
+          <p eId="para_50">I seek clarification on a technical matter. I thank the Minister for his overview. Given that this is a new process on which we are embarking, members will need time to read themselves into their brief, so to speak. Is the Minister saying the framework decision will have to come before both Houses of the Oireachtas by way of motion——</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_15" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_51">Yes.</p>
+        </speech>
+        <speech by="#SeanHaughey" eId="spk_16">
+          <from>Mr. Haughey</from>
+          <p eId="para_52">——and that subsequent legislation that may be required will be a separate matter?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_17" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_53">It is a constitutional rule in Ireland that only the two Houses of the Oireachtas can enact legislation. Since the framework decision leaves it to the member state to decide how compliance is achieved, in nearly every case it will require substantive legislation by both Houses of the Oireachtas. Effectively, there is a two stage process. First, in order for us to undertake the obligation at European level, which is involved in accepting a framework decision, we will have to get the permission of both Houses of the Oireachtas. Second, once we have committed ourselves to complying with the framework decision and implementing it, the Government will have to come back to the Houses of the Oireachtas with substantive legislation. It is obvious that there will be considerable room for manoeuvre as to how to comply with the framework decision.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_54">I emphasise that we will have seen these well in advance of a decision being taken by the Council of Ministers, as part of the scrutiny procedure.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_19" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_55">That is right.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_20">
+          <from>Chairman</from>
+          <p eId="para_56">That completes items Nos. 4 to 9. There is a possible A item under that heading. An A item is an item for noting by the Council of Ministers. That is a possible item for noting, dealing with mutual legal assistance.</p>
+          <p eId="para_57">On category B, agenda items Nos. 10 and 11 deal with police and criminal matters. Item No. 10 is a draft Council decision establishing a mechanism for evaluating the legal systems in relation to the fight against terrorism. Item No. 11 is a proposal for amending the Europol staff regulation. Are there any questions on these items?</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_21">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_58">There is nothing terribly controversial in these items, but there is a reference in item No. 3.6, the annual accounts of the network, to the fact that the cost of the system was shared by each participating country. This relates to the Schengen information system operated by France on behalf of the Commission. There is also a reference to the fact that Ireland's application to join Schengen was approved by Council in 2002, which is not a matter of direct concern to Ireland. Did something happen about which we should be aware? Will the Minister indicate what has occurred in relation to Schengen that gave rise to this note?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_22" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_59">The Dáil and Seanad have already approved Ireland's signing up to the police co-operation aspects of Schengen, but we have not fully become part of the Schengen process. This is one of the options and discretions under Article 29, to which we have already signed up.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_23">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_60">Will the Minister explain the extent to which we have agreed to involve ourselves in Schengen and, more importantly in light of such agreement, why the Schengen information system is not a matter of direct concern to Ireland? Is it not something in which we should be interested and involved?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_24" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_61">Our adherence to Schengen is only partial, as we are not yet party to the use or non-use of the system to which the Deputy referred.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_25">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_62">So we have no historical cost.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_26" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_63">We are not in a position, effectively, to start objecting to systems to which we are not a party.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_27">
+          <from>Chairman</from>
+          <p eId="para_64">Are there any other questions on these items? There are a number of A listed items in this category.</p>
+        </speech>
+        <speech by="#SeanHaughey" eId="spk_28">
+          <from>Mr. Haughey</from>
+          <p eId="para_65">May I address one of the A listed items?</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_29">
+          <from>Chairman</from>
+          <p eId="para_66">Yes. They are only for noting by the Council of Ministers. They will not be discussed by them, but the Deputy may raise questions on them.</p>
+        </speech>
+        <speech by="#SeanHaughey" eId="spk_30">
+          <from>Mr. Haughey</from>
+          <p eId="para_67">I wish to raise the issue of Europol and the suggestion that agreements will be reached with some of the countries listed. In the context of the current debate on the Nice treaty and the enlargement process to include central and eastern European states, it is interesting to note that in due course these countries will become part of the Europol process. That will benefit us all. Are the applicant countries from central and eastern Europe well advanced in taking on board the Europol process? Is it a priority for them? Would that benefit this country in any special way, having regard to various crimes?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_31" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_68">I noted while listening to the radio today, and it is worthwhile repeating it, that negotiations with the ten candidate states are at an advanced stage and it is hoped that they will be concluded by December this year. Each of those candidate states is undertaking to internalise into their law the European Union <i>acquis,</i> part of which will involve the internationalisation of the existing provisions in relation to Europol organisation. It is appropriate that arrangements should be put in place now with those states and that they should be involved in negotiations about the future of Europol and that is currently proceeding.</p>
+          <p eId="para_69">As to the benefit to Ireland of those countries' involvement, Europol is a mechanism effectively for co-operation among police forces of member states. I stress that it is not the creation of a European police force. It is effectively an inter-state co-operative mechanism. Some people are apt on occasion to portray it as something more than it is. The tangible, practical benefits of inter-police co-operation are massive in terms of exchanging information.</p>
+          <p eId="para_70">In the fullness of time there will be joint investigations where members of Europol will be in a position to operate on joint investigations that cross national boundaries. Even in the case of simple matters such as missing persons and the investigation of people in Ireland, their backgrounds, records and so on, major benefit will accrue to Ireland from co-operative structures of this kind. This is not a European police force, a type of FBI or anything like that in case anyone thinks it is. It is a mechanism for co-operation and the interchange of information at police level. From that point of view it is no threat but a major advantage to this State. The European Union involves free movement of goods and services, the right of establishment and a common right to travel, which carries an obligation on the part of member states to give their domestic police services every advantage in terms of making sure those new freedoms guaranteed under European law do not become a problem or a means whereby crime moves ahead of the capacity of individual member states to deal with it.</p>
+          <p eId="para_71">I agree with the Deputy. There are tangible benefits and it is desirable that the member states and the applicant countries should discuss this as early as possible, bearing in mind that there are ten countries which, from the beginning of next year, will want to join the European Union. If I may say so without being unduly partisan, under existing law only five could join. There will be ten fully qualified applicants and I want to make sure no obstacles are put in their way.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_32">
+          <from>Chairman</from>
+          <p eId="para_72">Under item No. 10, where do we stand on other international agreements on terrorism, human rights and criminal law? Is there a number of those outstanding for implementation here?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_33" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_73">There is. My Department is now putting together an omnibus terrorism Bill which I hope to publish during the course of this legislative session. It is on the A list for Government legislation to be published and will deal with a range of matters to do with international obligations which we have undertaken at EU and UN level in relation to terrorism. It is also proposed to amend the Offences Against the State Act, 1939 to make sure that all the powers under it are fully effective against international terrorism. The Offences Against the State Act is primarily concerned with offences against the Irish State. However, international terrorism has moved to the point where it is possible to use one state of the European Union or of the United Nations as a base for planning and supporting terrorism internationally and, since terrorism has effectively become capable of being globalised, the 1939 Act is no longer sufficient to deal with the terrorist threat in Ireland. We must deal with broader categories of terrorism, and that will be addressed in the legislation.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_34">
+          <from>Chairman</from>
+          <p eId="para_74">No terrorists will miss the omnibus. Thank you, Minister. We now come to category C, Nos. 12 to 23 on the agenda in relation to asylum and immigration matters.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_35">
+          <from>Mr. Kirk</from>
+          <p eId="para_75">Is it the ultimate intention to have a directive at Community level dealing with the points made under this category?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_36" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_76">Yes. The ultimate intention is to have a common law, if I may use that phrase, across the European Union member states, and minimum standards for according or withdrawing refugee status and determining how those seeking asylum in any member state are dealt with. That is the decision of the Council of Ministers and it is being negotiated and implemented at the moment.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_37">
+          <from>Mr. Kirk</from>
+          <p eId="para_77">Is there a timescale for the eventual production of the directive? What is the position in regard to the contentious issue of Irish citizenship for children of asylum seekers who are born in Ireland, in the context of the directive?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_38" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_78">I will deal with the second point first. Irish-born children are at the moment accorded citizenship regardless of the nationality or legality of their parents' presence in Ireland. Lest people think that is unusual, it is similar to the situation in the United States of America. Under the American Constitution, people born in America to parents who are there even temporarily are entitled in the fullness of time to citizenship of the United States of America. It does not mean their family is entitled to stay with them in America throughout their infancy or childhood. Under the programme for Government, the Government parties have undertaken to consult the Opposition parties in Dáil Éireann about the options which exist in relation to Irish-born children. There is undoubtedly a problem. I do not want to say very much at this stage for reasons that I will make clear in a moment. There is undoubtedly a problem of people deliberately targeting Ireland as a place to come for the purpose of giving birth to a child in order to avail of the right of citizenship which follows from being born in Ireland. My Department is currently engaging in a very considerable review and is consulting with the Office of the Attorney General so that we can go to the Opposition parties with a thoroughly worked out set of options for dealing with the abuse of the entitlement to Irish citizenship which is implicit in people deciding to come here solely for the purpose of having a child.</p>
+          <p eId="para_79">It is also the case - I do not want to say much about this for reasons which are obvious - that the High Court has recently ruled, in a case which is now coming before the Supreme Court on appeal, in respect of the entitlement of the State to require people who are the parents of a child born in Ireland to leave Ireland with their child if they are not entitled to remain legally in Ireland themselves. That will be before the Supreme Court in the near future, and I do not want to say anything which could be misinterpreted as an attempt to comment on it in a way which would be undesirable. However, when we have the documentation on the options available, considered by my Department and thought through by the Office of the Attorney General, and if at that stage we have a decision from the Supreme Court on the issue which will clarify the legal entitlements of people, I propose to deal with it either at a legislative or a constitutional level as appropriate. The committee can rest assured that it is currently receiving very close and active attention in my Department.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_39">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_80">In regard to No. 15, the proposal for the Council regulation establishing the criteria for determining the member state responsible for examining an asylum application, I understand the proposed regulation will replace the Dublin Convention. I would like to hear more from the Minister on this proposal. Why has the Dublin Convention not been operating successfully? I understood that the Dublin Convention prescribed that an asylum seeker should be dealt with in the member state of the European Union where he or she first landed - I am not sure whether that is a short résumé of the Dublin Convention - which seemed a very sensible way of dealing with such applications. Why has it not worked? Why have we so many applicants here who patently originated in another member state of the European Union? I do not want to be seen as pandering to the Francophobes, but it seems that an awful lot of them emanate from France. Did the Dublin Convention not envisage that all such asylum seekers would have their applications dealt with in France? Why did that not happen?</p>
+          <p eId="para_81">The proposed new regulation is to replace the Dublin Convention and is based on the principle that the responsibility for dealing with an application should lie with the country which issued a visa in the first instance or was negligent in border control. How does the Minister see that as being more effective, for example, in our situation? Let us say it was shown the asylum seeker first landed in France, with or without a visa, and then came to Ireland. What would change the position if the new regulation is adopted? I am interested in hearing more from the Minister on that. What is our position on that proposal?</p>
+          <p eId="para_82">I wish to raise a procedural point on agenda item No. 17. Ireland was not in a position to exercise our title four option because of time constraints. The Houses of the Oireachtas were in recess for a considerable part of the opt-in period. While it does not seem that we have lost any ground on that proposal, is there any suggestions as to how we might avoid that happening in the future?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_40">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_83">I wish to raise a point on item No. 22. The way it is worded is a little objectionable in that it states that the grounds asylum seekers give for leaving their countries, in terms of processing, are largely manifestly unfounded. That is taking away a presumption of innocence which we talked about earlier. It states that applicants coming from candidate countries place a major burden on member states and that the grounds these applicants give for leaving their countries are largely manifestly unfounded. It is wrong to state that. We talked about a presumption of innocence and it should be extended to people applying for asylum, whether they come from existing member states or the applicant countries. Citizens from those countries should enjoy full rights throughout the European Union from the date of accession. We should not say that victimisation, state oppression or whatever grounds these people give in their asylum applications are manifestly unfounded.</p>
+        </speech>
+        <speech by="#SeanHaughey" eId="spk_41">
+          <from>Mr. Haughey</from>
+          <p eId="para_84">When the Minister was appointed earlier this year he highlighted the area of asylum applications as one in need of attention. Is it not fair to say the Dublin Convention is not being implemented? Will the Minister comment on how that can be improved, particularly in the context of this discussion? The Minister also discussed the automatic right to Irish citizenship of anybody born on the island of Ireland and the review he is undertaking on that. Without meaning to be contentious, must such a review also include an examination of the Good Friday Agreement? The Minister highlighted the question of deportations during the summer. Can he give us a progress report on his aim to bring about effective deportations? Since he came to office there has been a number of high profile raids.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_42">
+          <from>Mr. Andrews</from>
+          <p eId="para_85">At the last Justice and Home Affairs Council the Minister brought up the issue of tying aid to countries which do not comply with EU standards in preventing trafficking, illegal immigration and accepting the return of those deported for not being legitimate asylum applicants. Is that a view the Minister proposes to pursue? Has he had any discussion with his fellow Ministers on it? It is not something this country has embarked on before and it is not something with which I agree.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_43">
+          <from>Chairman</from>
+          <p eId="para_86">The note with item No. 14, regarding re-admission agreements, states that they are intended to enhance the deportation process. What safeguards will be in place to protect the rights of persons in regard to those agreements? Other Members have raised the issue but it is one on which we need to put down some markers. The main aim of item No. 16 is the proposal to ensure a minimum level of protection is available in all member states for those genuinely in need of such protection. Has the word "minimum" been defined? Is it left up to each member states or have guidelines been laid down?</p>
+          <p eId="para_87">Item No. 17 states that the text of the proposal is, among other things, to introduce new arrangements in relation to access to employment by asylum seekers after 12 months in the asylum process where they have not received the first instance decision. What determines the period of 12 months? It is an improvement on the current position, but why 12 months?</p>
+          <p eId="para_88">Item No. 19 deals with granting certain rights to third country nationals. It states these rights include approximate treatment with EU nationals in the areas of access to labour markets, social housing, education, social welfare and public health services. It also states that the directive provides for greater protection against expulsion for those granted long-term resident status. What period of cover is required? Why does the five year period apply? Why would someone have to wait five years to have these rights?</p>
+          <p eId="para_89">The Minister mentioned the question of social, cultural and civil life of the host country under item No. 20 and an induction course or integration process for immigrants. Does he see any benefit in having a Minister of State co-ordinate immigrant issues? I realise that is a decision for the Taoiseach. This sets out a wide variety of issues that affects immigrants. What is the Minister's observations on that? Who would co-ordinate these issues if not a Minister of State?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_44" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_90">I first wish to deal with the question of the Dublin Convention as raised by Deputy O'Keeffe. The Dublin Convention is broadly as the Deputy describes it. The first safe port of call is supposed to be the jurisdiction that deals with any person seeking asylum status. The convention improved the clarity of the asylum system, particularly by ensuring that no asylum seeker was left in a position where he or she was unable to pursue an asylum claim. It has not been a success in terms of clarifying the member state responsible for processing a claim or transferring persons. There is a general view among member states that the Dublin Convention is not operating successfully and that the system needs to be adjusted.</p>
+          <p eId="para_91">Deputies will be interested to note that, in practice, there has been a very low level of transfer of asylum applicants between member states and that the procedures in place are extremely cumbersome. The Commission assessed the position <i>vis-à-vis</i> the period 1998-99 and it was discovered that less than 2% of asylum applicants were transferred to another member state during that time. This means the Dublin Convention had no effect in respect of the consideration of the status of 98% of asylum applicants. It may surprise Members that in the two years in question, Ireland received twice as many returns from other member states as we transferred to other member states. This happened despite our geographical position and the fact that there are very limited direct transport connections between most countries of origin and Ireland. It is clear the Dublin Convention, when viewed in isolation, is of little interest to us because under its terms, over a two year period, returns out-numbered transfers by two to one.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_45">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_92">The Minister's point is well made. I am surprised, if not shocked, to hear that the level of inward traffic is double that of outward traffic. I would have thought that most people who seek asylum here would have landed in another member state in the first instance. From that point of view and in terms of the Dublin Convention, their applications should have been received and processed in other member states. Why is that not the case?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_46" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_93">Common sense would suggest that the position should be as the Deputy outlines because the there is only a tiny number of direct flights into Ireland from places other than the United States, Canada and other countries which are not points of origin for asylum seekers and there are few sea ports at which people seeking asylum status might arrive. Logic indicates that the majority of people who come to Ireland to seek asylum must have travelled through other member states to get here. The difficulty is that people entering the country through Dublin Airport, Rosslare or the Border crossing outside Dundalk do not approach the nearest State official they encounter and indicate that they want to seek asylum. These people are well versed in different methods. They come here and, after a period, present themselves for consideration under the asylum process in Dublin or wherever. They claim asylum status effectively when they are not fresh off the boat or plane. These people have also frequently discarded their travel documents which may have been stamped and shown that they travelled through Orly, Charles de Gaulle or Heathrow Airports. The evidence of their journey is, therefore, lost and we never see it.</p>
+          <p eId="para_94">When these people are asked in the course of the asylum process to provide a description of how they got here, few of them provide information which would give rise to Dublin Convention considerations coming into play. They say they do not know how they got here and that they were in the hands of traffickers or the like. Clarity departs the interview at that point. Unless we have evidence that they travelled through Britain, France, Brussels, Geneva or wherever, under current circumstances, for the foreseeable future, we must deal with them ourselves. That is one of our most significant problems. If, as the Deputy implies, matters were otherwise, there would be only a handful of asylum applicants in Ireland. If the Dublin Convention operated as it should and we were in a position to chart the means of access of asylum seekers to Ireland, there would be only a tiny number of such people here because they would have been obliged to seek asylum in some other member state.</p>
+          <p eId="para_95">The EURODAC fingerprinting regulations are coming into operation in January 2003. These will provide a much more effective framework for the exchange and taking of asylum seekers' fingerprints and will help in the more effective application of the Dublin Convention. If, therefore, a person has sought asylum anywhere else in Europe, their fingerprints will be listed on a common database and if they present themselves at Mount Street in Dublin to claim asylum status, that database will show they have already claimed asylum status in another member state. This will facilitate the more effective implementation of the Dublin Convention.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_47">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_96">Is there evidence that other member states encourage the onward transmission of these people to our shores or that they at least do not go out of their way to discourage such practices?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_48" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_97">The United Kingdom certainly does not do so and we have a common travel area with that country. However, other countries might be completely indifferent with regard to whether people intend to seek asylum status in Ireland. That does not apply to the United Kingdom or France. We have had extensive bilateral discussions and we have put in place arrangements to monitor the situation <i>vis-à-vis</i> the Cherbourg, Rosslare and Roscoff ferries and we have received excellent co-operation from the French authorities. In general, however, a member state will not be concerned about the point of origin of a person’s journey or his or her eventual destination, particularly if it means that state will not have to take on a further burden. That is one of the matters we want to address in the process of co-operation.</p>
+          <p eId="para_98">What we are discussing here is the right to repatriate a person and the duty of that person to return to a country where he or she ought to have claimed asylum. Our problem is that if people turn up in Dublin without having come through a border control point at which they were identified, it is extremely difficult for us to assemble proof which will allow us to invoke the Dublin Convention. The Deputy will appreciate that the difficulty with the current system is that it encourages and permits traffickers to target countries into which they can bring people and to brief those involved in trafficking in those countries on the best tactics to use to avoid the application of the Dublin Convention to their cases if their activities are detected.</p>
+          <p eId="para_99">The draft regulations to replace the Dublin Convention will contain a hierarchy of criteria for determining the responsible member state. Whereas these are broadly similar to those outlined in the Dublin Convention, a number of new factors will be brought into play. A provision for unaccompanied minors to be reunited with family members is being introduced and other provisions involve the notion of reunification with family members who have already lodged an asylum claim in another member state. At present, the Dublin Convention allows for reunification only in the case of people who have been granted refugee status. If, therefore, one member of a family has claimed asylum status in Britain, for example, the new draft regulation envisages that the entire family should be reunited in Britain. This is to ensure we do not have - as is currently the case - a ridiculous situation where various members of the same family pursue applications in different member states and, if refugee status is granted in any one of these states, the successful applicant states that he or she wants the family to be reunited and that the family members who are having no success elsewhere with their applications should be allowed to join them.</p>
+          <p eId="para_100">Ireland fully supports the replacement of Dublin l with a Dublin ll. The new regulations contemplate more streamlined procedures, particularly in terms of including EURODAC data in the process.</p>
+          <p eId="para_101">Deputy O'Keeffe inquired about item 17.</p>
+        </speech>
+        <speech by="#JimOKeeffe" eId="spk_49">
+          <from>Mr. J. O’Keeffe</from>
+          <p eId="para_102">Is there some way we could avoid this inability——</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_50" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_103">To put it in context, there was pressure at EU level to deal with many agenda items which could be dealt with only in a limited five year period. Accordingly, some material was dealt with at the last moment, when the Houses of the Oireachtas were not in session. We were faced with whether to opt in and thereby compromise scrutiny by the Houses of the Oireachtas or, alternatively, not to opt in and allow the other member states to proceed. We opted for the safer course of not presuming that we could go ahead without Oireachtas authority. In future, because of the new scrutiny arrangements, we will have to signal to our partners in Europe that we will not be in a position to proceed on issues presented to us at a time when the Houses of the Oireachtas are not in session. In this instance, we had a three month period within which to opt in and as matters developed, particularly in an election year, we were not in a position to do so. However, while we are not prejudiced by that - we can opt in at a later stage once the other states have completed the measure - we lose out by not being full negotiating partners during those lost windows of opportunity, if I may so describe it.</p>
+          <p eId="para_104">On Deputy Ó Snodaigh's point, it has been the case, since the Treaty of Amsterdam, that member states were entitled to refuse to accept asylum applications in respect of other member states. That is because we all accord to each other in the EU something analogous to the American "full faith and credit", that is, we believe each other's institutions are upright and that the other member states of the European Union do not persecute their citizens. However, it is still possible for, say, a UK national to make a claim for asylum in Ireland even though, under EU law, we could amend our laws to make that impossible.</p>
+          <p eId="para_105">We would find, however, that the majority of such claims for asylum were manifestly unfounded.</p>
+          <p eId="para_106">Regarding claims for asylum from within candidate countries for EU membership, most of those countries are now within months of completing the negotiation process. During the remaining period prior to their accession, we have to consider whether we can say that a country which is fit for accession to the European Union is, at the same time, persecuting its citizens. We have to take a reasonable approach. I am considering bringing forward a measure which will enable such countries to be listed as safe places of origin, in respect of which there will be only a very summary process for anybody who claims asylum. Where a person coming from a functioning democracy, for example, Canada, claims asylum in Ireland, there will be a very short and swift determination. Effectively, the claimant will be sent back or refused status within 24 or 48 hours. That is our plan.</p>
+          <p eId="para_107">It was implied that it was somehow wrong to point out that there are countries from which asylum claims are manifestly unfounded and that there should be a presumption of innocence. I do not accept the analogy with the presumption of innocence in the context of criminal charges. Under criminal law, there is a requirement that people should not be convicted unless and until the case against them has been proven beyond reasonable doubt - that is the basis of the presumption of innocence. In the context of asylum seeking, it would be wholly impractical to require Ireland to prove matters beyond reasonable doubt before granting asylum status to an applicant. We have no intention whatsoever of changing the onus of proof which currently lies on applicants to satisfy Ireland of their entitlement to protection and to assist in any way in the determination of their applications.</p>
+          <p eId="para_108">Deputy Haughey raised the question of Irish born children and, in that context, referred to the Good Friday Agreement. My strong preference is that we should not interfere in any way with the provisions that were inserted in the Constitution - the new Articles 2 and 3 - unless there is some compelling case for doing so. If we were to embark on a revision, review or restatement of that cornerstone of the Agreement, others might seize on it as a pretext to do other things of which we would not approve. In any event, on a practical level, my view is that problems should be solved at a sub-constitutional level if possible and there should only be recourse to a constitutional solution if that is forced upon us by a clear statement from the courts to the effect that that is the only way to deal with a particular problem. For that reason, in the context of Irish-born children, I am following a process which will carefully analyse the options open to us to take a sub-constitutional path in preference to a constitutional solution.</p>
+          <p eId="para_109">The Chairman referred to re-admission agreements. We have a number of such agreements, including those with Romania and Nigeria. Re-admission agreements do not, of themselves, mean Ireland does not consider asylum applications from those countries. It means that, having determined an applicant for asylum status is not entitled to that status in Ireland, there are workable arrangements for travel and the supply of documentation so that a person who is refused that status is readmitted to the country in question. Re-admission agreements do not, in any sense, compromise the protection of human rights which are fully protected under our Constitution and within our arrangements in relation to asylum seeking. It is only when it is determined, in the first instance, that an applicant is ineligible for asylum status and, second, that a deportation order should be made in respect of that person, that the issue of re-admission would come into play.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_51">
+          <from>Chairman</from>
+          <p eId="para_110">I regret to interrupt the Minister. My question was, since this is a procedure to enhance deportation, is the Minister satisfied there are sufficient safeguards in place?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_52" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_111">I was about to address that point. After the issue is considered as to whether a person is entitled to asylum status, there is then a separate stage in the process whereby each unsuccessful applicant is notified that he or she can apply to the Minister on a discretionary basis on humanitarian grounds to remain in Ireland. Accordingly, even if a person does not comply technically with the requirements of the 1951 convention, he or she can still make a case, regardless of those requirements, that there is some compelling reason for not proceeding with repatriation to the country of origin. In that context, I would certainly take into account any threat to the person's civil or political liberties or any threat to their physical integrity or welfare. <i>Refoulement</i> is also considered in each case. In the final analysis, there comes a time, say, in relation to Romania, Nigeria or Hong Kong, when the State must send a person back because it is unlawful for them to remain. It is one thing to say it is a crime for those people to remain - which it is - but a different one to actually get them home.</p>
+          <p eId="para_112">The purpose of the repatriation and re-admission agreements is to provide a workable system so we can liaise with the country of origin to inform them we are sending back a number of people, and they will readmit them. For example, if an asylum seeker travels from Dublin to London and then takes a flight to Lagos, we do not want an immigration officer to say the person is not properly documented and return them to Ireland. We must avoid that. The liaison system must be capable of certifying that the person in question is someone we are sending back and someone they have agreed to receive. The human rights issues do not arise at this point because they have already been cleared off the table.</p>
+          <p eId="para_113">The rate of deportations is greater in 2002 than in 2001. Up to the end of September, 439 people had been deported from Ireland compared to 365 for the whole of 2001. In addition, there are voluntary returns which the Government facilitates which are running at 354 to the end of September 2002, compared with 356 for 2001, so the number of deportations is increasing steadily.</p>
+          <p eId="para_114">The rate at which the Refugee Applications Commissioner is dealing with cases has dramatically improved recently. The backlog is evaporating significantly and the number of cases over six months old with that Office of the Refugee Applications Commissioner to the end of September 2001 was 5,700 while the number before the appeal tribunal was 800, giving a total of 6,500. At the end of August 2002, the number of six month old cases before the commissioner was down to 1,090 and the number before the tribunal was down to 741, giving 1,831 cases. Soon, applicants for asylum will be dealt with within a six month period and eventually we hope to reduce that to three months. This will mark a significant turn around in dealing with the backlog.</p>
+          <p eId="para_115">The staff in the Office of the Refugee Applications Commissioner have done a tremendous job and are working very hard. I visited their premises recently and was taken on a tour of their facility and if members wish to see how they are proceeding with their work they should do likewise. It is enlightening. The work is carried out to a high standard - it not merely about processing arrangements. The amount of care taken to ensure interpreters with the right language are there to deal with particular applicants is phenomenal and the amount of work being done in Mount Street is a credit to the people involved. I wish to publicly recognise the work they have done.</p>
+          <p eId="para_116">Regarding the provisions for 12 months and five years, we want to have a system whereby all applications will be dealt within three months, therefore these limits should only be relevant to exceptional cases. People who have been here for more than five years become entitled to apply for the right to remain in Ireland and to citizenship. We are dealing with the long-term residents' directive which relates to legal residents, not unsuccessful asylum seekers, therefore people who apply and fail to get asylum status and who disappear into the woodwork are not subject to this proposal. The intention is to give entitlements approximating to those of citizens in the period up to five years. They have a range of entitlements but not at the level envisaged for the long-term. It is not true to say that people do not have rights in Ireland. If one is legally here, one is subject to constitutional and legal protection.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_53">
+          <from>Mr. Andrews</from>
+          <p eId="para_117">I asked the Minister about aid.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_54" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_118">A proposal was made in Seville that aid should be made contingent upon co-operation with re-admissions. It came from other member states, not Ireland. We regard aid as something one gives depending on it being necessary. To say to a state in Africa that we will not send aid because it is not co-operating on re-admissions would be morally suspect and is not a position Ireland would adopt.</p>
+          <p eId="para_119">On an EU level, there are many states which receive economic aid and it is legitimate to say that if a country wants us to aid economic development or engage in aid programmes which are not humanitarian, its actions must be in accordance with those of civilised states, ie if a national of that country is found in another state illegally, it should repatriate the national if asked to do so. I differentiate between the emotional level of humanitarian aid where it would be wrong to blackmail a country and refuse aid because of inefficiency or lack of co-operation on immigration laws, and economic aid programmes. A state which lines up economic aid should accord to another member of the EU the same level of respect. If one of their nationals in unlawfully present in that EU country then, subject to whatever exceptions are reasonable in the circumstances, the country should take them back rather than engaging in non-co-operation.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_55">
+          <from>Mr. Kirk</from>
+          <p eId="para_120">Does the Minister anticipate any change to the standards and procedures we have been implementing here when the new directives or combination of directives and regulations are in place?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_56" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_121">In the near future I will bring to Government a package of measures in the area of asylum and immigration and I do not wish to anticipate the Government decision in that respect. I believe Ireland was taken by surprise by the asylum seeking phenomenon and it took us some time to get our act together. The figures I mentioned earlier about the rate at which the accumulated arrears in dealing with applications is reducing is evidence that we are getting on top of the issue. It costs €200 million per annum to deal with the asylum seeking phenomenon. That is a lot of money even in a country doing well economically. As every Deputy knows, those resources are hard to come by. It is my intention to ensure, in so far as I can, that we improve and constantly refine our laws and procedures to distinguish between economic migrants who are jumping the queue and genuine asylum seekers.</p>
+          <p eId="para_122">This country has a significant and well-run legal migration system. The €200 million I mentioned is not money that is going to people who are coming to work in Ireland but to the asylum seeking process. That is a considerable economic cost and penalty arising from the asylum seeking process. We are adherents to the 1951 Convention on Asylum and we do not intend to resile from our obligations in that regard. However, we must prevent our adherence being abused especially when the consequence is the application of our resources to a flow of applicants, the great majority of whom prove not to be well founded in their applications. Lest people think this is a Dickensian view, I will put it in context. All those moneys could be available for Third World aid. Members of this committee will appreciate that there is always pressure on the Government in regard to such aid. I would prefer to help people in Third World countries than to expend substantial funds in Ireland dealing with a problem, most of which turns out to be unfounded.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_57">
+          <from>Chairman</from>
+          <p eId="para_123">Separate to the asylum question, I asked about a person to co-ordinate the various issues in regard to the immigrant question.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_58" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_124">I was conscious when answering the last question that I had forgotten that point. Yes, we will have to face up to the need to put in place a system for integrating not just successful asylum seekers but also immigrants. North County Dublin horticulture has benefited hugely from immigrant labour. It is not good enough to say, especially to people from EU candidate and member countries, that we thank them for their labour but we will make no effort to let them function as EU citizens or as non-nationals in Irish society. I agree with the Chairman that we will have to face up to expanding the notion of an integrated service to non-nationals, regardless of whether they are asylum seekers.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_59">
+          <from>Chairman</from>
+          <p eId="para_125">Has anybody any further questions on these items?</p>
+          <p eId="para_126">There is one item under section D dealing with civil law matters. It is a draft Council directive to improve access to justice in cross-border disputes by establishing minimum common rules relating to legal aid and other financial aspects of civil proceedings. There are also possible A points there for consideration by the Ministers but they will be only for noting at the Council meeting.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_60">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_127">The Minister mentioned the Copenhagen informal Council in his opening address. I accept his view that no formal decision can be taken at those informal Council meetings. I have not received or seen a copy of the president's statement so I cannot refer to it or see whether it answers my questions. This Council meeting was unprecedented in that the US Attorney General was in attendance. There is an onus on us to open to scrutiny the discussions that took place. This is in the public interest because of the nature of the issues and measures being discussed and the attempt to formulate what amounts to a secret deal or agreement between the EU and the US on judicial co-operation. To my knowledge, the measures include the facilitation of extradition, joint undercover police operations, search and seizure of bank accounts and the interception of communications. What is the Government's stance on these talks and negotiations? Although it is not on the agenda in front of us, because the meetings are held in private, is a draft agreement to be submitted to the next Justice and Home Affairs Council? Could these negotiations lead to an agreement without recourse to parliamentary debate because they were initiated under Articles 24 and 38 of the Treaty of Europe? There is an opt-out under article 24 which means we could opt out if the result of these agreements did not comply with our Constitution.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_61">
+          <from>Chairman</from>
+          <p eId="para_128">The Chair will allow the question on the grounds that the Minister addressed the issue in his opening comments.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_62" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_129">I remind the Deputy that the US is one of Ireland's oldest allies. It is not a hostile government. It has been the arsenal of democracy on many occasions. Deputy ÓSnodaigh knows how generous Irish Americans have been in support of politics in this country, particularly in support of his party from time to time. I do not regard America as a hostile state and I do not regard co-operation with America on terrorism matters as a matter on which I should be reticent or slow to act.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_63">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_130">That was not implied.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_64" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_131">Of course some aspects of inter-state co-operation against terrorism will not be carried out in a transparent goldfish bowl. Any general agreement between the EU states and the United States of America to share information and to take common action against the terrorist threat is subject to the Constitutions of the member states of the European Union and the Constitution of the United States. Agreements are subject to the normal level of scrutiny for international arrangements. It would not make much sense if all anti-terrorist steps and the detailed substance of them were to be the subject of maximum publicity.</p>
+          <p eId="para_132">The Deputy said he had not got the presidency note. If we are looking at the same document, he will find it immediately under the agenda, in item No. 1. The informal JHA presidency note is the document to which reference is made. The Deputy will see on pages 6 and 7——</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_65">
+          <from>Chairman</from>
+          <p eId="para_133">I do not think the Deputy has that.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_66">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_134">No.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_67" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_135">I can make it available to the committee; there is nothing secret about it.</p>
+        </speech>
+        <speech by="#SeanHaughey" eId="spk_68">
+          <from>Mr. Haughey</from>
+          <p eId="para_136">Item No. 3 deals with cross-border disputes and legal aid. Without going intothe whole area, would that relate to child abduction?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_69" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Mr. McDowell</from>
+          <p eId="para_137">Off the top of my head, it could. There are many other areas where legal aid could be a requirement. If there is to be a common travel area in which rights are accorded to EU citizens, it is clearly desirable in cross-border disputes that people should not find themselves unable to participate in the judicial process for want of resources. It should not result in significant difficulties for Ireland but I am anxious to avoid over-elaborate arrangements in this regard. Comparing the experience of the UK with that of Ireland, it might be argued that in Ireland we were unduly parsimonious in relation to the provision of civil legal aid. The United Kingdom found that its civil legal aid budget went through the roof and it had to be substantially curtailed. I am simply anxious to provide legal aid to EU nationals in Ireland or to Irish persons engaged in transnational litigation on the same basis as they would be entitled to legal aid in an Irish court. I do not intend to create an elaborate or expensive legal aid structure.</p>
+        </speech>
+        <speech by="#GayMitchell" as="#Chairman" eId="spk_70">
+          <from>Chairman</from>
+          <p eId="para_138">I thank the Minister for dealing with the questions comprehensively and I thank him and his officials for the brief. It is important, if we are to engage in scrutiny, that briefs are available to Oireachtas committees in a timely fashion. Perhaps the clerk of the committee and the Minister's officials could have a discussion on that. The committees hope that when Ministers are raising issues at the Council of Ministers they will bear in mind the questions and concerns of Members of the Oireachtas. This has been a very useful meeting. I thank the Minister and his colleagues.</p>
+        </speech>
+        <summary eId="sum_4">The Select Committee adjourned at 3.57 p.m. until 2.30 p.m. on Tuesday, 15 October 2002.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

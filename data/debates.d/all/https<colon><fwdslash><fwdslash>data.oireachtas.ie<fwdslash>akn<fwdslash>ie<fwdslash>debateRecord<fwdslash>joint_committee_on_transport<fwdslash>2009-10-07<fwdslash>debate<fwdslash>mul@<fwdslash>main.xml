@@ -1,0 +1,589 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_transport/2009-10-07/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_transport/2009-10-07/debate"/>
+          <FRBRdate date="2009-10-07" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/30/joint_committee_on_transport"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_transport/2009-10-07/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_transport/2009-10-07/debate/mul@"/>
+          <FRBRdate date="2009-10-07" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_transport/2009-10-07/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_transport/2009-10-07/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AndrewDoyle" href="/ie/oireachtas/member/id/Andrew-Doyle.D.2007-06-14" showAs="Andrew Doyle"/>
+        <TLCPerson eId="FergusODowdFG" href="/ie/oireachtas/member/id/Fergus-O'Dowd.S.1997-09-17" showAs="Fergus O'Dowd"/>
+        <TLCPerson eId="FrankFahey" href="/ie/oireachtas/member/id/Frank-Fahey.D.1982-03-09" showAs="Frank Fahey"/>
+        <TLCPerson eId="FrankFeighan" href="/ie/oireachtas/member/id/Frank-Feighan.S.2002-09-12" showAs="Frank Feighan"/>
+        <TLCPerson eId="MartinBrady" href="/ie/oireachtas/member/id/Martin-Brady.D.1997-06-26" showAs="Martin Brady"/>
+        <TLCPerson eId="MichaelKennedy" href="/ie/oireachtas/member/id/Michael-Kennedy.D.2007-06-14" showAs="Michael Kennedy"/>
+        <TLCPerson eId="MichaelLowry" href="/ie/oireachtas/member/id/Michael-Lowry.D.1987-03-10" showAs="Michael Lowry"/>
+        <TLCPerson eId="NoelAhern" href="/ie/oireachtas/member/id/Noel-Ahern.D.1992-12-14" showAs="Noel Ahern"/>
+        <TLCPerson eId="PaulConnaughton" href="/ie/oireachtas/member/id/Paul-Connaughton.S.1977-10-27" showAs="Paul Connaughton"/>
+        <TLCPerson eId="SeanFleming" href="/ie/oireachtas/member/id/Seán-Fleming.D.1997-06-26" showAs="Sean Fleming"/>
+        <TLCPerson eId="SeanSherlock" href="/ie/oireachtas/member/id/Seán-Sherlock.D.2007-06-14" showAs="Sean Sherlock"/>
+        <TLCPerson eId="ThomasByrne" href="/ie/oireachtas/member/id/Thomas-Byrne.D.2007-06-14" showAs="Thomas Byrne"/>
+        <TLCPerson eId="TimDooley" href="/ie/oireachtas/member/id/Timmy-Dooley.S.2002-09-12" showAs="Timmy Dooley"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM IOMPAR</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON TRANSPORT</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2009-10-07">Dé Céadaoin, 7 Deireadh Fómhair 2009</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2009-10-07">Wednesday, 7 October 2009</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 3.45 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#NoelAhern">Deputy Noel Ahern,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#MartinBrady">Senator Martin Brady.</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#PaulConnaughton">Deputy Paul Connaughton,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#TimDooley">Deputy Timmy Dooley,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#FrankFeighan">Deputy Frank Feighan,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#MichaelKennedy">Deputy Michael Kennedy,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#MichaelLowry">Deputy Michael Lowry,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#FergusODowdFG">Deputy Fergus O’Dowd,</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">In attendance: Deputies Thomas Byrne, Andrew Doyle, Seán Fleming and Seán Sherlock.</summary>
+          <summary eId="sum_4">
+            <person as="#Chair" refersTo="#FrankFahey">DEPUTY FRANK FAHEY IN THE CHAIR.</person>
+          </summary>
+          <summary eId="sum_5">The joint committee met in private session until 4 p.m.</summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Drogheda Port: Discussion with Drogheda Port Company. </heading>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_9">The next item on the agenda is a discussion about Drogheda Port Company.  I draw witnesses' attention to the fact that members of the committee have absolute privilege but the same privilege does not apply to witnesses appearing before the committee.  Members are reminded of the long-standing parliamentary practice to the effect that they should not comment on, criticise or make charges against a person outside the House, or an official by name or in such a way as to make him or her identifiable.</p>
+        </speech>
+        <speech by="#" eId="spk_2">
+          <from>Mr. Paddy Traynor</from>
+          <p eId="para_10">I am chairman of Drogheda Port Company.  I thank the members of the joint committee for inviting us to attend today.  It is a very important time in the development of our ports, particularly in these challenging times.  The economic well-being of our economy is very closely linked to the performance of our ports and our challenge is to provide world class port facilities to support our trading economy.  We have prepared an opening statement for you today and I will ask our CEO, Mr. Paul Fleming, to take the members through it.  It is our intention to commence with an overview of Drogheda Port and to discuss our development strategy and the key drivers shaping it</p>
+        </speech>
+        <speech by="#" eId="spk_3">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_11">I welcome the opportunity to speak to the members today about our port and our development plans going forward.  Hopefully this will be of assistance to the committee in its oversight role and we are happy to discuss any particular issues the members may wish to raise.  We have circulated to the committee a more detailed overview of our current operation and development plans to assist with the process.</p>
+          <p eId="para_12">Drogheda Port is one of Ireland's premier multi-modal ports strategically located on the east coast with direct motorway access to the country's key industrial and commercial centres.  The port is continuing to develop and expand by offering its customers a strategic locational advantage in an increasingly competitive marketplace.</p>
+          <p eId="para_13">We have built a solid reputation on our high levels of customer service, flexibility and the rapid turnaround of vessels.  Few ports boast such a prime position for taking advantage of the ever increasing opportunities in European and Scandinavian trades, in addition to the emerging markets of eastern Europe and the ever changing patterns of short-sea container trade.</p>
+          <p eId="para_14">The port is also Ireland's major distribution and logistics centre for newsprint.  Our throughputs had been building steadily over the years until the current world economic downturn.  Ports tend to be a reflection of general economic activity and it is quite clear that trading activity is down.</p>
+          <p eId="para_15">The company provides port facilities for all modes of cargo except ro-ro and has a wide product base with a balance of trade at approximately 75% import and 25% export.  We are a natural choice for a wide range of customers and trades, with facilities to handle virtually any type of cargo.  Imports include containers, paper, steel, timber, fertiliser, grains, petroleum and liquefied petroleum gas.  Exports include containers, magnesite, zinc concentrate and timber.</p>
+          <p eId="para_16">Geographically, the port is situated on the historic River Boyne on Ireland's east coast with direct access to both Dublin and Belfast on the M1 motorway.  The port's position on the east coast of Ireland provides a major geographical advantage for transport links into and out of Ireland.  As a result, the port has very strong short-sea trade links with Europe, Scandinavia and the Baltic states.</p>
+          <p eId="para_17">The global economic downturn reflected itself in Drogheda Port Company's trading position for 2008.  Considerable decreases were noted particularly in construction industry imports.  Other income streams remained steady or increased during the period.  The company's financial performance for 2008 was down on the previous number of years, with operating profits on continuing activities decreasing to €353,090 which represents 14.3% of revenue.</p>
+          <p eId="para_18">Overall throughputs for 2008 were down on previous years due primarily to the global economic downturn and the slowdown in the level of construction activity in Ireland.  The company expects that throughputs are likely to remain at best static for the next 12 to 24 months and consolidation of existing activity a priority.  A number of new income streams, however, are currently being explored in addition to stimulating additional throughputs.  For example, the company is currently seeking expressions of interest from companies or individuals to construct and operate a port-related warehouse and distribution centre within the port by joint venture or otherwise.  There has been considerable interest in this proposal.</p>
+          <p eId="para_19">The company also continues to develop its joint venture deep-water port at Bremore in order to secure the future of Drogheda Port and the future of Ireland's port infrastructure.  The port supports over 100 jobs directly, with the company itself employing currently employing 16 people.</p>
+          <p eId="para_20">Drogheda Port Company's long-term strategic development strategy for 2004-24 was formally approved by the board of the company on 10 September 2004.  The strategy contains three main development strands and intends to position Drogheda Port Company as one of the most progressive, modern and efficient ports in Ireland over that period.  The three main strands are the expansion and development of existing port and facilities; the redevelopment of the North Quays "Merchants Wharf project"; and the development of a new deep-water port at Bremore.</p>
+          <p eId="para_21">Recent development of existing facilities included the expansion at Tom Roes Point terminal of a storage and paving area.  The project was part-funded under the seaports measure of the local infrastructure sub-programme, Border, Midland and Western Regional Operational Programme, National Development Plan 2000-2006 at a cost of approximately €1.3 million.</p>
+          <p eId="para_22">A further investment of €1.2 million was made in 2005 part-funded under the European Union INTERREG IIIA Programme Ireland-Northern Ireland 2000-2006, with the introduction of a vessel traffic management system.  The main aim of the proposed system is to improve the navigational safety for commercial shipping and pleasure craft and to provide continuous coastal surveillance for the entire port area.  In addition, the introduction of this equipment to Drogheda Port will help to protect the environment and minimise the risk of accident.</p>
+          <p eId="para_23">The port company has an objective to make the most effective and efficient use of its land bank on the North Quays cognisant of the potential that this strategic site can make to the urban environment of Drogheda whilst taking best advantage of its attractive riverside location.  The successful development of this site will assist in supporting the long-term economic development of the town and create an environment conducive to the attraction of inward investment and to fostering enterprise.</p>
+          <p eId="para_24">The Drogheda Borough Council Draft Development Plan 2005-2011 zones the north quay area as "Inner Quays Development Area" and is identified specifically to accommodate new town centre functions in accordance with a local area plan.  With a growing emphasis on sustainability and sustainable land use management, Drogheda Port Company recognises the need to strike an appropriate balance between the need to facilitate development and the need to apply certain control measures to the physical expansion of towns and cities.  Central to this philosophy is the effective use and management of land within and close to the existing urban structure.</p>
+          <p eId="para_25">The Bremore Ireland Port proposal comprises the construction on a phased basis of an entirely new integrated multi-modal deepwater port to cater for up to 50 million tonnes of annual cargo.  The proposed new port will cater for load-on/load-off, lo-lo, and roll-on/roll-off, ro-ro, bulk and passenger traffic.  The new port will have the deepest shipping berths on the east coast of Ireland and will therefore be suitable to accommodate the increasing demands for new generation deeper drafted freight ships.  Vehicular access to the new port will be via a new link road from the M1 motorway with the rail access via a new rail spur which will directly connect to the Dublin-Belfast mainline.</p>
+          <p eId="para_26">The new port will be designed and operated to the highest environmental standards and respect for the local community.  A diverse associated business and logistics district will be created around the port bringing wide ranging economic and social benefits to the Bremore, Balbriggan, Drogheda and the east Meath area.</p>
+          <p eId="para_27">The proposed ultimate traffic volume of 50 million tonnes per annum will constitute a significant share of total Irish port traffic.  However, it is considered of critical importance that any proposed port development takes place on a site which has significant expansion potential available to be realised as and when required, and is part of an overall design which allows, from an engineering perspective, for future port expansion.</p>
+          <p eId="para_28">If I was to highlight one item to the members today that perhaps constitutes the single most important issue in planning and designing our future port infrastructure it would be the phenomenon of larger vessels replacing and sidelining smaller vessels.  This is known in the industry as the cascade effect.  Maximum ship sizes have grown steadily for decades but what is different now are the quantum leaps in size and how quickly these changes are coming.  While maximum vessel sizes of the future will be determined by economic conditions the fact remains that ever larger container vessels will profoundly change our industry.  Currently a chain reaction is under way where the new generation of container vessels of 12,500 teu and more are forcing 4,000-6000 teu vessels down one step in the hierarchy and they in turn are pushing 2,000-4,000 teu vessels down one level and so on.  At the lowest levels the smallest vessels will be squeezed out as they will no longer be economically viable.  The current economic downturn is accelerating this process where economies of scale are being sought by the shipping lines, and larger vessels provide this.  These larger vessels will require suitable draft on a 24 hour basis.  In our view a minimum of 11 m is required with an ability to increase to 14 m in the future.</p>
+          <p eId="para_29">A draft strategic business plan for Bremore Ireland Port has now been submitted to the key Departments.  The draft plan proposes the development of Bremore Port on a phased basis to respond to market demand.  The success of the business will be measurable not only in terms of the financial strength and growth of the business itself but more importantly by its impact on the Irish economy.</p>
+          <p eId="para_30">The three partners, Drogheda Port Company, Castle Market Holdings and Hutchison bring a wealth of national and international expertise as required to deliver a project of this magnitude and complexity.  In particular Bremore Port presents a unique opportunity for Ireland to attract a world class terminal operator.</p>
+          <p eId="para_31">Since the signing of the joint venture letter, Drogheda Port Company and Castle Market Holding, together with Hutchison, have been engaged in various activities to advance the project.  A team consisting of CDM, Moffatt &amp; Nichol, and DH1 has developed the port design including the modelling of coastal operational conditions.  The work has established the overall geometry of the port, including navigational channel and turning basin, dredging requirements, reclamation volumes, breakwater and quay geometry, and updated cost estimates.  The design has been informed by archaeological, hydrographical and geophysical surveys.  The optimisation process undertaken by the consultant team has resulted in the final proposed location of the port being to the north of Bremore Head, to significantly reduce rock dredging costs and avoid sites of archaeological importance located on the headland.  Other important changes to the original HR Wallingford design include the inclusion of a second breakwater to alleviate operational downtime and more efficient design of the quays.</p>
+          <p eId="para_32">BIP envisage that the planning process for the Bremore project will involve both SID and SDZ applications in a timeframe of 2010 to 2011.  A detailed appraisal of route corridor options for the primary port access road from the M1 motorway is also being undertaken by transport consultants in addition to rail connectivity.</p>
+          <p eId="para_33">As the Chairman mentioned in his opening remarks the well-being of our economy is very closely linked to the performance of our ports and going forward our challenge is to provide world class port facilities to support our trading economy.  Notwithstanding the current downturn and its associated effects in terms of decreased traffic volumes, the ports sector is one that demands long-term forward planning and analysis and there will be a future capacity constraint unless new facilities are developed.</p>
+          <p eId="para_34">The development of Bremore Ireland Port presents a unique opportunity for Ireland in the maritime transport sector and will provide a platform for new direct foreign investment opportunities which currently do not exist.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_4">
+          <from>Chairman</from>
+          <p eId="para_35">I thank the delegates for their contribution.  Drogheda Port Company is very small, with 21 million tonnes of freight traffic going through Dublin and 694,000 tonnes going through Drogheda, and 675,000 lo-lo freight movements in Dublin and 7,000 in Drogheda.  The potential for Bremore is significant.  While I will leave the matter to the two local Deputies, is this realistic?  How will it be funded and who will pay for it?  Do we need another major port in addition to Dublin Port?  If it were to be funded and was to proceed can the delegates prove that it would have a synergy with Dublin either by replacing part of the Dublin Port traffic and how would it contribute to the economic development of the east coast and the entire country?</p>
+        </speech>
+        <speech by="#" eId="spk_5">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_36">It was clear to the board of Drogheda Port Company very early on in the process in terms of taking forward such a major development that we would require assistance in terms of the correct joint venture partners so we engaged in an open process around 2004 and invited expressions of interest for the development of the project going forward.  Arising from that we have procured a world class development partner in Castle Market Holdings and the second largest terminal operator in the world, Hutchison.  Both of those parties came in on that process and we have formulated a detailed project team process which involves the three parties going forward.</p>
+          <p eId="para_37">The board of Drogheda Port Company is comfortable in terms of the ability of the project team to develop this port as and when required.  Our view is that it will be required within the next few years in terms of the capacity issues.  It differentiates itself from Dublin Port in terms of it being a green field scenario for a port to be created.  It will be the first time in an Irish context that this will have happened in a long number of years.  The key issue identified by Drogheda Port Company is the draft issue.  It is essential that this is addressed.</p>
+          <p eId="para_38">The difficulty for Drogheda Port and other city ports is that we would have developed on an <i>ad hoc</i> basis in a location that, traditionally, may have been suitable for port activity but for varying reasons that suitability had ebbed over the years.  Residential encroachment becomes an issue in terms of operation and so on but the industry is moving forward and there is a clear trend on a European and worldwide basis for ports to move to find the suitable draught<b> </b>conditions for the larger ships.  From the board’s perspective it is clear that Bremore is essential.  It differentiates itself from Dublin in terms of the draught.  We will have the deepest quays in an Irish context on the east coast.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_6">
+          <from>Chairman</from>
+          <p eId="para_39">How will the company pay for it?</p>
+        </speech>
+        <speech by="#" eId="spk_7">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_40">The business model has been developing from 2005 when the board of Drogheda Port Company engaged Goodbody Economic Consultants to produce a detailed business plan for us.  That has been updated in recent months in terms of the project team work.  Our indication is that the port cost will be approximately €600 million to €700 million but that must be viewed in the context of the scale and size of the facility being put in place.  There will be up to 1.5 kilometres of quays, two breakwaters and an initial throughput capacity of up to 10 million to 15 million tonnes of cargo.</p>
+          <p eId="para_41">The funding of it is part of the joint venture process between the three parties.  Most of that discussion remains confidential but it will be project financed and the three parties currently involved will be part of the financing of the ultimate project.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_8">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_42">I welcome Mr. Traynor, the chairman, and Mr. Paul Fleming to the meeting.  Coming from Drogheda I am very much aware of the work and commitment of the port authority to the development of the port.  I would like to mention also a former chairman, Mr. Seamus Davis, who, like Mr. Traynor, had the interests of the port at heart and had some excellent ideas.  As a local Deputy I am aware that the citizens of Drogheda are proud of the work he has done.  While I note the absence of Deputy Kennedy, who I am sure is on other business, all of us in County Meath and north County Dublin are agreed this development is essential.  Mr. Traynor referred to the future size of vessel using the port and to the greenfield site.  All of those issues are critical to your future success.</p>
+          <p eId="para_43">I have spoken to people who live in the city of Dublin and it is clear that ports must be located away from centres of population but on transport corridors.  The key is how quickly one can get on the transport corridor, how quickly the goods can be distributed and how efficient is that process.  A good deal of time and money is saved by locating ports outside of cities.</p>
+          <p eId="para_44">I acknowledge the difference between Dublin Port's strategy and that of Drogheda Port Company.  While the transport infrastructure is excellent, and we all know the M1 is probably the best motorway in the country, I would like the witnesses to comment on the impact the company's port business will have on it.  I am not concerned about it but if one travels on the M1 at, say, 6.30 a.m., when one reaches the Malahide Estuary the traffic is at a standstill and one cannot move any further.  With the volume the company proposes to carry, a key issue will be the distribution network.  A key point will be the Leinster outer orbital route, which was a proposal to build a new motorway from near Bremore across to Navan, Kildare and so on to ensure traffic can get around the city and thereby provide a much better distribution network.  Will the witnesses comment on that?  What will be the impact of their port activity on the existing M1 and how important is the Leinster orbital route to their plans?</p>
+        </speech>
+        <speech by="#" eId="spk_9">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_45">The maritime transport chain relies heavily not only on the maritime side but also on the landward side.  It is critical, in terms of putting in place a world class port facility, that the landward links can accommodate the efficiencies of throughput being created at the port.</p>
+          <p eId="para_46">On the tonnage throughputs, the 50 million tonnes would be the long-term position in terms of capacity.  It will build up over many years.  Our transport consultants are in discussion with the National Roads Authority in terms of the linkages.  We are doing research work on current traffic volumes on the M1 motorway, the interchange and also the M50.  We are also examining the potential benefits of that outer orbital link road, part of which is tentatively planned to be located somewhere between Drogheda and Gormanston.  Bremore would create an impetus for that greater orbital route to feed into the new port infrastructure.  We are examining all those issues.  It is critical from the port operation's perspective that on the landward side we do not create congestion or any pinch points.  That will form part of the overall development.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_10">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_47">It seems to be a critical part of the process that this outer orbital route will be built.  Part of the problem is current Government policy which is that the outer orbital route will be examined in 2013 or 2014 but issues also arise in terms of Green Party policy — I do not expect the witnesses to make a political comment — which is that we will cease building our road network.  I am in favour of this project but the Leinster orbital route is essential for it.</p>
+          <p eId="para_48">I laud the work Mr. Fleming is doing.  It is a dynamic port compared to other ports, which are very small operations but Mr. Fleming and his colleagues have big ideas and have moved them a long way.  I congratulate the witnesses on what they have done to date.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_11">
+          <from>Deputy Thomas Byrne</from>
+          <p eId="para_49">I welcome Mr. Traynor and Mr. Fleming to the meeting.  Like the Drogheda Port Company I have moved from Drogheda to County Meath but I grew up with the port.  My father's office was beside the port and he had many run-ins with them on the street over parking issues but I suppose they were minor.</p>
+          <p eId="para_50">The port is important for the economy of Drogheda but particularly for east Meath.  When I alerted my constituents in the Stamullen area about this project many of them would not have been aware of it but they were favourably disposed to and excited by it in terms of investment in the area.</p>
+          <p eId="para_51">I wish to raise with Mr. Fleming a general point on two concerns which were raised with me, one of which is concerned with the issue of archaeology.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_52">I am sorry to interrupt the Deputy but I ask Deputy Feighan to take the Chair briefly.</p>
+          <p eId="para_53">Deputy Frank Feighan took the Chair.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_13">
+          <from>Deputy Thomas Byrne</from>
+          <p eId="para_54">There has been much talk about the apparent major archaeological potential of the site in question.  That concerns me in terms of the project as this issue has in the past delayed projects.</p>
+          <p eId="para_55">A more surprising concern was from people in the Army who felt — I do not know the nature of the witnesses' contacts with the Department of Defence — there was insufficient contact with the port.  I spoke to officers and not Department of Defence officials.  What are the company's contacts with the Department of Defence and the Army in the context of Gormanston Army camp, which is beside the proposed port?</p>
+        </speech>
+        <speech by="#" eId="spk_14">
+          <from>Mr. Patrick Traynor</from>
+          <p eId="para_56">To deal with the last point, the contact with the Army is ongoing.  Brigadier General Dennis Murphy is the top man in the Army.  He lives in Beach Park, Laytown.  I meet him regularly.  I have conveyed to him that nothing has been finalised because we have not got to the planning permission stage yet and until such time as that is in the arena, they should not be too concerned about what will happen at the site.  There is no question about that.</p>
+          <p eId="para_57">Deputy Frank Fahey resumed the Chair.</p>
+        </speech>
+        <speech by="#" eId="spk_15">
+          <from>Mr. Patrick Traynor</from>
+          <p eId="para_58">It is only a matter of time when Gormanston will probably be eliminated from their plans. I cannot be sure of this because it will be the last shooting range for practice.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_16">
+          <from>Deputy Thomas Byrne</from>
+          <p eId="para_59">That is what they are worried about.  Is Ben Head and the practice that takes place there under threat from the port?</p>
+        </speech>
+        <speech by="#" eId="spk_17">
+          <from>Mr. Patrick Traynor</from>
+          <p eId="para_60">All the people in the port are aware of Gormanston Camp.  While we would not like to see it go, it was zoned originally by Meath County Council for housing but that was not accepted by the members of the council.  I agree with them because it would have ended up as an isolated area on the other side of the old main road.  Gormanston Camp is now zoned for industrial use and light industry, supporting the port facility.  That is the main object of Meath County Council.  It is between the council and others to sort it out.</p>
+        </speech>
+        <speech by="#" eId="spk_18">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_61">The key strategic element of the operation at the Army camp is the firing range, both the landward firing range and particularly the marine one, which is unique in an Irish context.  There are not many opportunities to create additional marine firing ranges.</p>
+          <p eId="para_62">With regard to the port operation, we are operating with the firing range <i>in situ</i> at Drogheda Port.  There is a co-operative arrangement between the Department of Defence and the port regarding shipping arrangements.  Bremore Port ultimately will not impact on the ability of Gormanston Camp to retain that strategic usage.  That is different from the rest of the site, about which there are probably other questions.  However, on the important element, the strategic firing range, the port could operate with it still <i>in situ</i>.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_19">
+          <from>Deputy Thomas Byrne</from>
+          <p eId="para_63">The committee should be aware that the facilities at the Army camp at Gormanston which is adjacent to the proposed port are very important for Army training, particularly if personnel are to go on European missions.  We cannot over-emphasise its importance to the area.  I hope the port authorities continue their dialogue with the Department of Defence and the Army and that both facilities will co-exist as best they can.  Having spoken to various officers there, I am aware that is what the Army wants.</p>
+          <p eId="para_64">The other question was on the archaeology.</p>
+        </speech>
+        <speech by="#" eId="spk_20">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_65">The archaeology is obviously very important for the development.  We are approaching the matter in an up-front and professional manner.  We have very good people on board.  It has already been factored in as regards the location of the port.  As I mentioned in my opening statement, the port has moved forward north of the head where the key archaeology is to be found.  The development of the port and the development of the cultural aspects of the archaeology <i>in situ</i> are not mutually exclusive; we intend to ensure both are protected as we proceed.  We are undertaking an appraisal of the archaeology in order that we will have detailed knowledge of what is there.  It is a little sketchy in places, apart from what is recorded in terms of national monuments.  However, we have employed a world class truthing system called LiDAR which has been used once or twice previously in Ireland.  It is very detailed methodology used in looking at the landscape in archaeological terms.  All the information will be assessed in the next couple of months and will feed back into the position and layout of the port which obviously must be sensitive to the archaeology of the area.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_21">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_66">I have not been involved with the defence issue but understood it was policy to sell the lands in Gormanston which were originally zoned for affordable housing.  I recall talking to the affordable housing partnership about them but it did not proceed.  I was not aware of the military issue.  Is it Government policy to maintain a military presence in the area?</p>
+        </speech>
+        <speech by="#" eId="spk_22">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_67">I do not know if it is Government policy but it is clear from our discussions that there are two elements to the operation.  A small part of the site is distinctly used as a specific military range, on the landward side and the marine side.  Personnel at the Army camp have told us that it is an important strategic element of Army training.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_23">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_68">However, it is a firing range and nothing else.</p>
+        </speech>
+        <speech by="#" eId="spk_24">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_69">It is.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_25">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_70">Therefore, it could be replicated.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_26">
+          <from>Deputy Thomas Byrne</from>
+          <p eId="para_71">There are other facilities at the camp, for example, the bomb disposal team for the north side of Dublin.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_27">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_72">I am not trying to be political.  If it has been Government policy for some years that the camp should no longer be located there and if it is a question of a shooting range or job creation, one cannot move the port inland but one can move the shooting range.  That is my opinion.  The other issue is archaeology.  We have no wish to see a repetition of what happened in other places.  Is the company interacting with interested groups such as Julitta Clancy of Meath Archaeological and Historical Society?  The company will have to ensure it has people on-side who have an interest in the site and its preservation by recording what is there or preservation <i>in situ</i> if that is possible.  I believe it encompasses early history and doubt there would have been much settlement on top of what was there originally.  However, it is important that, if and when the company gets the go-ahead, the project is not delayed, as happened in County Meath.</p>
+        </speech>
+        <speech by="#" eId="spk_28">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_73">Yes.</p>
+        </speech>
+        <speech by="#PaulConnaughton" eId="spk_29">
+          <from>Deputy Paul Connaughton</from>
+          <p eId="para_74">I welcome our guests.  I am at a disadvantage as I do not know the area as well as my two colleagues.  Drogheda Port Company is the ninth or tenth port company whose representatives have appeared before the committee and that, in itself, gives us an insight into what will happen nationally.</p>
+          <p eId="para_75">I recall visiting the site of Dublin Port, with the Chairman and many other members.  There is an ongoing debate about that port.  Some tell us it should eventually be closed down and replaced by Bremore Port, if it has the capacity.  I am not an expert but I cannot envisage it being closed down for a very long time.  Drogheda is a small but efficiently run port.  Would it be possible to have a business connection with Dublin Port in the future?  I assume that, as with most other aspects of Irish commercial life, things will never be the same again and that during the years of the Celtic tiger economy Drogheda Port Company was unable to foresee what is happening now.  Does it throw the company's plans into disarray, or will the company simply proceed with its plans irrespective of what happens?</p>
+          <p eId="para_76">The committee must take an overall look at what is happening in all the ports.  If Mr. Fleming were an outsider sitting in my position, he would wonder what future Drogheda Port has.  I will play devil's advocate.  It might well be the case that the Bremore project will develop but will Mr. Fleming give us some indication of the likely cost?  I listened carefully to his submission and it appears it will be a very costly business, regardless of where the money comes from.  Can Mr. Fleming give the committee some indication of where his company's thoughts are regarding all that?</p>
+        </speech>
+        <speech by="#" eId="spk_30">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_77">Certainly.<b/>I will commence with the first issued raised by the Deputy.  It is important to state that the strategic plan of Drogheda Port Company is twofold: to ensure the survival of Drogheda Port in future and to address the national capacity deficit.  In dealing with Drogheda Port’s future, the direction in which the industry is moving has been quite clear to us for some time.  Drogheda is a tidal port with certain restrictions in terms of vessel and draught size.  Over the years, we have watched vessels getting larger, so fewer of them can be accommodated within the port.  It is essential for Drogheda Port therefore to increase the deep water berths that are available.  That is the core of the Bremore project.  It is a slightly different location to the port because we commenced the process with an open vision as to how Drogheda Port should move forward.</p>
+        </speech>
+        <speech by="#PaulConnaughton" eId="spk_31">
+          <from>Deputy Paul Connaughton</from>
+          <p eId="para_78">This may sound like an innocent question, but what will the company do with the existing facilities once Bremore is up and running?  What plans does the company have for them?</p>
+        </speech>
+        <speech by="#" eId="spk_32">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_79">The port can be divided into two areas, as it operates at the moment.  There is the Tom Roes Point terminal, which is the deeper water part of the port, and there are also the traditional old quays in the town.  Our development strategy is twofold in terms of the two separate parts of the port.  The first part of the port is going to be redeveloped in order to assist the capitalisation of development in future.  It is quite clear that fewer vessels are using the town quays.  Tom Roes Point is the focus at the moment for the majority of our vessel calls.  In a number of years therefore the old part of the port will become defunct as a port <i>per se</i>.</p>
+          <p eId="para_80">The Tom Roes Point terminal has deeper water and it will have a niche in future in terms of certain trades based on its current draught.  However, it will not be able to accommodate the container trade in particular because that market is accelerating quickly in terms of draught.</p>
+          <p eId="para_81">Bremore is focused on the unitised part of the business.  Some 80% of the business through Bremore will be unitised, while 20% will be bulk and general cargo.  As it is now, Drogheda Port will operate using deep water quays at Tom Roes Point for certain niche trades, such as bulk, general and paper.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_33">
+          <from>Chairman</from>
+          <p eId="para_82">I have one final question.  We have encountered problems among some of the other ports concerning foreshore and dredging licences.  Can Mr. Fleming comment on any difficulties his company may have in that respect?  The committee sent a questionnaire seeking detailed information on wages, which we need for comparative purposes with other ports.  We also need details of any contracts awarded.  We would like to have that data back as soon as possible.</p>
+        </speech>
+        <speech by="#" eId="spk_34">
+          <from>Mr. Patrick Traynor</from>
+          <p eId="para_83">I raised that point in my statement of 31 December 2008, as follows:</p>
+          <p class="indent_1" eId="para_84">On behalf of the board I would like to bring to the attention of the shareholder the unacceptable and unsatisfactory foreshore application process.  It is the view of the board that this process requires immediate reform as it is having a detrimental impact on the company's ability to progress development at a commercial pace.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_35">
+          <from>Chairman</from>
+          <p eId="para_85">Can Mr. Traynor give the committee a written resumé of the company's experiences in this area, so that we can put that to the departmental officials?  I am aware of events since my own time as a Minister, and of the frustrations that exist.</p>
+        </speech>
+        <speech by="#" eId="spk_36">
+          <from>Mr. Patrick Traynor</from>
+          <p eId="para_86">It is not good because that Department was moved to Clonakilty in County Cork.  The people who were put into it came from all walks of life and were nearing retirement.  That offer was made to people who wanted to move to other Departments.  They would not have a profound knowledge of the port industry.  Despite the fact the CEO and harbour-master were down there with them and made their views known, we heard absolutely nothing.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_37">
+          <from>Chairman</from>
+          <p eId="para_87">Mr. Traynor should spell out some of those details, including the company's applications for various approvals, the length of time it has taken, the general procrastination and the bureaucracy that surrounds this situation.  We want to try to deal effectively with this issue in the context of our report.</p>
+        </speech>
+        <speech by="#" eId="spk_38">
+          <from>Mr. Paul Fleming</from>
+          <p eId="para_88">On a final note, there is a clear view from the majority of ports that the foreshore issue should be addressed by the Government in terms of the ports being able to control the foreshore within their jurisdictions.  Legislatively, we have control of all other geographical elements of the port, <i>per se</i>, but outside of that it is the foreshore which is used commercially.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_39">
+          <from>Chairman</from>
+          <p eId="para_89">Mr. Fleming should give the committee a proposal on what he feels would be beneficial and we will take it on board.</p>
+          <p eId="para_90">I thank the delegation for attending and we wish them the best of luck.  I support the principle of a development in Bremore, which should have a synergy with Dublin.  Dublin Port will continue to have a key role in many respects, but future development should take place outside Dublin for a variety of reasons.  There should be a careful synergy in that respect.  We are due to get a report from the Department on that matter, which will be interesting when it becomes available.  We look forward to debating that at a later stage.</p>
+          <p eId="para_91">We will adjourn for a few minutes to allow the witnesses to leave and members of the Rural Transport Network delegation to take their places.</p>
+        </speech>
+        <summary eId="sum_6">Sitting suspended at 4.50 p.m. and resumed at 5 p.m.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Rural Transport Programme: Discussion with Rural Transport Network and Department of Transport. </heading>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_40">
+          <from>Chairman</from>
+          <p eId="para_92">I welcome the Rural Transport Network group.  I draw witnesses' attention to the fact that members of the committee have absolute privilege but this same privilege does not apply to witnesses appearing before the committee.  Members are reminded of the parliamentary practice that they should not comment on, criticise or make charges against a person outside the House or an official by name or in such a way as to make him or her identifiable.  Members are also reminded that civil servants, while giving evidence to the committee, may not question or express an opinion on the merits of any Government policy, produce or send the committee any document in which a civil servant, a member of the Defence Forces or a member of the Garda Síochána questions or expresses an opinion on the merits of any Government policy or policy objectives.</p>
+          <p eId="para_93">I welcome Mr. Tommy Kenny, Mr. Jack Roche, Ms Kathleen Grennan, and Mr. Brian Bonham, and Mr. Des Coppins from the Department of Transport.  I propose that we hear a short presentation from Mr. Bonham and Mr. Coppins followed by a question and answer session.</p>
+        </speech>
+        <speech by="#" eId="spk_41">
+          <from>Mr. Brian Bonham</from>
+          <p eId="para_94">I am currently the treasurer of the Rural Transport Network and I am joined by my three colleagues who sit on the network's steering committee.  The Rural Transport Network exists as a representative body of the 36 local companies which run the rural transport programme, RTP, a Department of Transport programme.  It is managed and administered by Pobail on behalf of the Department of Transport.  As we speak, there are 36 local companies operating the programme in all 26 counties and their representative body, Rural Transport Network, has a ten person steering committee.</p>
+          <p eId="para_95">I draw the committee's attention to the figures for 2008, the most recently published ones.  In 2008, there was RTP funding of €8.3 million allocated to local companies at ground level, 72% of which was directly put into operations, and there were 1.2 million passenger trips.  A simple calculation, €8.3 million divided by 1.2 million, gives €6.92 per passenger trip in 2008 which, we argue, is extremely good value for money.</p>
+          <p eId="para_96">On other facts and figures, the programme has over 1,300 volunteers, contracts 326 private operators and has 737 drivers associated.  Some 76% of our passengers in 2008 used door-to-door services.  That is a key figure because it is the key aspect of the rural transport programme.  No other public transport service provides that.  If my house is 500 yards from an excellent hourly Portlaoise to Dublin service, for example, and I cannot travel that 500 yards, that service is no good to me.  There are numerous reasons I might not be able to access that 500 yards such as reduced mobility and the need of aids.</p>
+          <p eId="para_97">To explain how all of these high figures were achieved I will start with the structures and policies at a higher level.  It all started in 2002 with the rural transport initiative, which covered seven pilot areas.  In 2003, the programme was extended to cover 34 areas.  In 2005, the pilot programme was reviewed and Fitzpatrick Associates produced its report.  Subject to that report, the programme was mainstreamed in 2006.  At that stage it was envisaged that the rural transport programme be encompassed into the national development plan and there would be increments in funding over the lifetime of that plan to reach €18 million by the end of the national development plan.  Presently, the RTP is striving for national coverage with 36 local companies across the country.</p>
+          <p eId="para_98">On what happened at local level, it is widely accepted that the availability of transport is an essential part to sustaining life, especially in rural areas.  Given that in those areas population density is low and dispersed, the transport provision must be innovative and people centred.  It will never be commercially viable.  The key is that as we have people out there and we know they need access to transport, how we can best meet that need.  That need was met by local companies.  Those companies grew organically.  How one must do it was not pre-described.  It was organically growing at local level.</p>
+          <p eId="para_99">Typically, board members on these local companies are representative of both statutory bodies and local communities, and that mix is vital to getting the correct rural transport services in local areas.  What has happened is those in local companies are the best placed to identify the gaps in their own areas but, in addition, they are the best placed to provide local solutions to local needs.  As evidence of that, over the past six years the RTP has touched on the lives of all sections of society such as the elderly, school children, third level students, commuters, lone parents, persons with disabilities — the list is endless.  The reason we have been able to touch on all of these people's lives is that we are flexible and locally based.</p>
+          <p eId="para_100">As I stated, there were 1.2 million passenger trips recorded in 2008.  That tells us three main points.  First, it tells us that there is a significant need in rural areas for public transport.  It also tells us that the local approach is meeting the need at local level.  Third, it tells us that there is considerable expertise and experience at local level, at planning, designing and operating local transport services.</p>
+          <p eId="para_101">On what others have to say about it, Mr. Declan Carey, an external consultant who had six months' experience of dealing with projects on the ground, stated that the RTP is a success story, it adds significant value to the lives of a numerous but scattered population who are difficult to reach, it is a strategic enabler of a range of services from health care to active citizenship, its value lies in its flexibility to respond, and its future potential lies in its ability to integrate, co-ordinate and innovate.  This raises two key points.  He was able to identify easily that the provision of rural transport gave people access to other front-line services, and the one he named was health care.  In any RTP survey of passengers, health care seems to be a top priority for people in rural areas.  The bus coming to their door gives them the certainty to be able to make and keep a health care appointment.</p>
+          <p eId="para_102">Sam Smyth, the journalist, wrote that the RTP is probably the best value for money project ever initiated by central Government and the people who run it are unsung heroes, that those who have seen the work they do providing a lifeline to older people who live in remote areas inaccessible to public transport can only gasp in admiration and gratitude.</p>
+          <p eId="para_103">Those are the big boys.  On what the people on the ground have to say, for example, one lady stated in a passenger survey that thanks to the rural bus service she can get the main bus to Limerick to visit family.  What this passenger referred to as a main bus was a Bus Éireann service from Portlaoise to Limerick.  No one suggested to that lady that if she wanted to visit somebody in Limerick she could make the connection.  What she saw was that she had a bus coming to her door on Tuesday, her family lives in Limerick and there is a Bus Éireann bus leaving Portlaoise on the hour for Limerick.  She herself made the connection and headed in to Portlaoise on the rural transport service.  Some 20 minutes later she was on the Bus Éireann service to Cork where she stayed for a number of days.  She returned to Portlaoise on the Bus Éireann service on the Friday and then travelled home on the rural transport service.  The reason I know this is I am the manager in County Laois and the story came up in our passenger survey.  Another passenger stated, "I go on the bus on Fridays.  At least Friday is one day of the week that I don't have to eat alone."  I do not believe I need comment further on that observation because it speaks for itself.</p>
+          <p eId="para_104">The Rural Transport Network has a short-term goal which is to secure current levels of funding for the RTP into 2010 and beyond.  The medium to long-term goal is to explore and develop the many ways in which the RTP can add value to other front-line public services.</p>
+        </speech>
+        <speech by="#" eId="spk_42">
+          <from>Mr. Des Coppins</from>
+          <p eId="para_105">I circulated an opening statement and will proceed on the basis that members have read it.  For those who might not have had time to do so, I am in a position to state Mr. Bonham's presentation covers most of what I had intended to say.  We are very much at one in respect of this matter.</p>
+          <p eId="para_106">There are a few points which might be emphasised from the Department's perspective, the first of which is that the policy context is to address social exclusion caused by unmet public transport needs.  It is not primarily just about transport, it is also about the quality of life of those who live in rural areas.  The second point relates to the need for the rural transport programme.  Some work was done in the Fitzpatrick report, which formed the basis for mainstreaming the former rural transport initiative, on identifying likely needs.  Depending on how one defines these needs, the number involved varies between 200,000 and 400,000 people.  Even if one takes it to be the former, in the absence of a rural transport programme the needs of those 200,000 people would have grown by almost 100% by 2021.  These are two important policy contexts which should be borne in mind.</p>
+          <p eId="para_107">With regard to the amount of money saved, on the basis of the figures available, we estimate that the cost of keeping a person in care is between 15 and 20 times the cost of providing him or her with rural transport.  I refer to a person who is relatively self-sufficient but who cannot go shopping, collect his or her pension, etc., because there is no rural transport available.  He or she will eventually become a customer of the Department of Health and Children and be placed in community care.  It is here that the additional costs accrue.</p>
+          <p eId="para_108">The elephant in the corner is the McCarthy report recommendation.  We are all in the same boat.  The recommendations have been made and considered by the Departments and the Joint Committee on Finance and the Public Service.  It will eventually be the responsibility of the Government to make a decision.  All I can say is there is not a single comment Mr. Bonham made with which the Department would disagree.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_43">
+          <from>Chairman</from>
+          <p eId="para_109">As Deputy Feighan requested that the deputation attend, perhaps he might pose his questions first.</p>
+        </speech>
+        <speech by="#FrankFeighan" eId="spk_44">
+          <from>Deputy Frank Feighan</from>
+          <p eId="para_110">I welcome our guests and thank them for their informative presentations.  Most Senators and Deputies are of the view that the rural transport programme provides value for money.  I had occasion to use the service between Kilmore and Carrick-on-Shannon and must state it was probably one of the most pleasant journeys I have ever been on.  It is only when one experiences the service first hand that one realises its value.  Mr. Coppins and Mr. Bonham have highlighted the value of the programme to rural communities such as those located in my constituency of Roscommon-South Leitrim.  In its absence, people would be obliged to seek assistance which, as Mr. Coppins stated, would cost 15 to 20 times more to provide.</p>
+          <p eId="para_111">The number of passenger journeys has risen from 150,000 to 1.2 million.  What was the budget for the programme in 2003 and 2008?  I do not want to delay proceedings but, as Sam Smyth stated, "The RTP is probably the best value-for-money project every initiated by central government".  If anything can be done to ensure funding for the programme can be maintained or even increased, such an development would enjoy cross-party support.  I again thank our guests for their presentations on this badly needed service.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_45">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_112">I welcome our guests.  I am familiar with the Rural Transport Network.  There is a very successful transport network in the area in which I live in County Clare.  The network began life as East Clare Accessible Transport, ECAT, and such was its level of success, it became Clare Accessible Transport, CAT.  It has been an example for other services, particularly in the context of the initiatives those responsible for it have put in place.</p>
+          <p eId="para_113">The money the entire network receives from the State — approximately €11 million — is relatively small by comparison to the overall amount it generates.  A fair amount of local fund-raising is carried out in respect of the programme.  In addition, the voluntary effort to which Mr. Bonham referred cannot be underestimated.  Effectively, it is the seed which gives rise to so much other activity.  A collection is carried out in County Clare in respect of the capital infrastructure.  CAT has its own buses — either eight or nine — all of which are funded separately.  The funding, as currently constituted, does not cover capital costs.  The funding to which I refer provides immense benefits for the young, the elderly and those whose mobility is challenged.</p>
+          <p eId="para_114">People often become confused with regard to the level of isolation in rural areas.  In some instances, a person who lives on the periphery of a larger town can be quite isolated.  He or she might live only one or two miles outside such a town but if he or she cannot travel to the centre, he or she is, to all intents and purposes, isolated.  While isolation occurs in rural areas, it is also prevalent much closer to centres of population.  It is for this reason that the rural transport programme must be protected.  There is a great deal of cross-party support.  We recognise that cuts must be made but the rural transport programme should be the last to be cut, particularly as the lives of the elderly and those with disabilities would be affected to a phenomenal degree.  The programme has thrown these individuals a lifeline.  The comments of users that Mr. Bonham read into the record reflect those other members and I have heard from our constituents.  We will work to support the programme in every way possible.</p>
+          <p eId="para_115">If Mr. Coppins's Department does not make the cut recommended in the McCarthy report, it will be obliged to identify an alternative cut in some other area.  A large proportion of the report appears to involve cuts identified within the Department.  Is this one such cut or was it identified separately by an bord snip nua?  Did Mr. Colm McCarthy examine this?  Clearly, Mr. Bonham is a strong advocate of the programme but are there officials within the Department who do not recognise its value?</p>
+        </speech>
+        <speech by="#" eId="spk_46">
+          <from>Mr. Brian Bonham</from>
+          <p eId="para_116">I do not have the exact figure for the budget in 2003 to hand but from recollection it was €3 million and there were steady increments to the present figure.  From a network point of view, the key thing we need to stress is the value to people's lives.  This single programme has changed thousands of lives.  Let no one leave the room today without fully understanding that.  People have changed the way they interact within their communities, locally, regionally and nationally based on the first step, which is from their door to a rural transport bus service.  The rural transport programme exists because there is no public transport alternative in rural Ireland.</p>
+          <p eId="para_117">In 2008 the budget that hit ground level was €8.3 million and that is the amount our groups are answerable for.  In return, the 36 groups have provided 1.2 million passenger trips in that 12-month period.  I hope that clarifies the question on funding.</p>
+        </speech>
+        <speech by="#" eId="spk_47">
+          <from>Mr. Des Coppins</from>
+          <p eId="para_118">Deputy Feighan wanted clarification on two points.  The figure for 2005 was €4.5 million.  I do not have an exact figure for the budget in 2003.  My recollection is that it was about €3 million but that is subject to correction.  I am quite happy to tell the committee when I confirm the exact figure.</p>
+          <p eId="para_119">The Deputy's concern about maintaining the budget is widely shared.  The only comfort I can give is that both Towards 2016 and the national development plan contain firm commitments to ongoing increased funding for the programme.  That was before the present economic disaster hit.  It is also an important feature of the Department's sectoral plan under the Disability Act 2005 and, therefore, there are strong reasons to continue funding it.  It is anyone's guess whether we will be able to do that.</p>
+          <p eId="para_120">Deputy Dooley referred to other funds.  The scheme was given €11 million from the Department's Vote this year and approximately 90% goes directly on the costs of the groups providing the funds.  Pobal's costs and the cost of technical assistance amount to €1 million.  Of the total funding for rural transport, Government funding programmes account for 44%; local fund raising accounts, 4%; the HSE, 19%; other Government agencies, including grants from the Department of Community, Rural and Gaeltacht Affairs, 16%; and miscellaneous, 7%, which is often unsourced such as fares collected on buses and contributions from passengers using the buses.  Slightly less than half comes directly from the Department of Transport's Vote.</p>
+          <p eId="para_121">The Deputy asked a difficult question about the origins of the McCarthy recommendation.  The only thing I can say to reassure him regarding the Department's perspective on this is that when the Minister launched Smarter Travel, the Government's policy on sustainable travel and transport for the next 20 years, rural bus transport and the rural transport programme were a key element of the policy going forward.  Clearly, if we were thinking in those terms at that stage, we were not, at the same time, thinking of offering it up to the McCarthy board.</p>
+        </speech>
+        <speech by="#TimDooley" eId="spk_48">
+          <from>Deputy Timmy Dooley</from>
+          <p eId="para_122">For that reason, I wonder where along the line the programme was introduced as having potential for a cutback.  Was this just an observation by the McCarthy group based on the line items they saw in the budget?</p>
+        </speech>
+        <speech by="#" eId="spk_49">
+          <from>Mr. Des Coppins</from>
+          <p eId="para_123">My understanding is that the McCarthy committee took each Department's Vote and worked its way through them before deciding what would survive and what it would recommend should not survive.  It would have been clear in that context that the rural transport programme was a stand alone programme.  I am speculating but that is my understanding of how the committee operated.</p>
+        </speech>
+        <speech by="#PaulConnaughton" eId="spk_50">
+          <from>Deputy Paul Connaughton</from>
+          <p eId="para_124">I welcome the delegation.  This subject is close to my heart.  We had a great day out with Mr. Joe Greeley, the programme co-ordinator in Galway, who is in the public gallery.  He runs an excellent outfit in County Galway and this is replicated everywhere else.</p>
+          <p eId="para_125">Of all the debates the committee is likely have, nobody will be out of step on this.  We need to hold on to this programme for rural Ireland.  I have 60 letters on file that were sincerely written by people who were used to the service and they had the fear of God instilled in them when they heard the McCarthy report saying something that was so important in their lives was likely to be taken away.  I forwarded copies of the letters, which were not part of a chain mail campaign, to the Minister for Transport.  They were handwritten and it was evident this service was a lifeline for these people.</p>
+          <p eId="para_126">The rural transport scheme has been in operation in south Galway for years but it only arrived in north Galway last April and I hope it will not be the shortest transport service in history.  The scheme is good value for money for people who we hope can remain in their own homes for as long as possible.  I have yet to meet a man or woman who has reached the golden age who if given a quarter of a chance would not live in his or her own home rather than in a nursing home or under somebody else's feet.  That has not changed with the generations.  The bus service greatly helps for the reasons outlined by Mr. Bonham.  However, there is another aspect of it about which I was not fully aware until I witnessed the Galway system in action.  Voluntary activity is a significant element and that is why many people are present in the public gallery.  Voluntary organisations and resource centres in various towns and villages where the service operates act as contact points and as messengers to organise the routes and so on.  People are picked up by a bus, for example, on a Friday to collect their pension, have a jar if they like, do a little shopping and do all the things that make their lives happier.</p>
+          <p eId="para_127">Mr. McCarthy does not know much about rural transport but it was listed in the report and a price tag was attached to it.  Unfortunately, many people, including a number of Oireachtas Members, do not have a clue what rural transport is about nor could one expect them to.  When something is right and represents value for money; that is all the more reason to maintain it.  Mr. Coppins alluded to the connection between the programme and the health of the elderly people using the service which they should be able to access and which should provide good value.  This is the advantage of a committee such as this.  There may only be seven or eight Deputies in attendance here out of a total of 166.  However, this committee refers its views to the relevant Minister.  The delegation can be assured that after today's meeting, what has been said here will be conveyed directly to the Minister for Transport and hopefully also to the Minister for Finance.  This is a service that was not well known nationally but which was hugely influential locally.  We want to avoid a situation where just because it was not featured on the nine o'clock news every night it would be one of the easiest schemes to axe and there would be less squealing about it.  This is an attitude that some of us have spent a lifetime fighting, an attitude that those fighting for rural Ireland have had to put up with all our lives.  This is one fight I hope we will not lose.</p>
+          <p eId="para_128">There is a fair bit of organisation involved in the rural transport scheme.  I have seen at first-hand the professionalism involved.  If for any reason the McCarthy report wins out and this scheme is axed, we can imagine the problem there would be reintroducing it in the future.  As sure as there is a God in heaven — and that is fairly sure — somebody will reintroduce it because it will be needed. It will be reintroduced at a much higher cost than the cost of the current system in place where the people know what they are doing.</p>
+          <p eId="para_129">I hope that everything said here today will be conveyed to the higher authority.  Our unanimous view as a transport committee is that we certainly do not want to lose this war.</p>
+        </speech>
+        <speech by="#MichaelLowry" eId="spk_51">
+          <from>Deputy Michael Lowry</from>
+          <p eId="para_130">I also welcome the representative group and thank them for their concise and precise presentation.  I am heartened and encouraged by the attitude and the comments of the principal officer in the Department of Transport with responsibility for the implementation of this programme.  This service operates in north and south Tipperary and it is very much valued and appreciated by those who use it.  The service in Tipperary is run by very competent and efficient administrators at a very low ratio to the overall cost of the scheme as against the administrative cost.  County Tipperary has a fantastic voluntary input by many people who have a sense of community, who care for those who are disadvantaged or isolated in their community.  This scheme is not just about transport.  It facilitates those with no other means of transport but what it really does is ensure there is social inclusion.  Many people who would otherwise be unable to interact within their community are able to do so as a result of this transport facility.  It improves the quality of life of the individual who has that service at his or her disposal.  It helps people maintain their independence and their confidence.</p>
+          <p eId="para_131">I have made my views known on this matter, as has my colleague, Deputy Healy-Rae.  As recently as yesterday we met representatives of the Government and conveyed to them our dismay and our concern that there would be any attempt by the Department of Finance to implement the McCarthy recommendation that this service be abolished.  So far as I am concerned, this is a worthy service; it deserves support and it fulfils a very important function and role in rural Ireland.  I will be doing everything I can to ensure its protection.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_52">
+          <from>Chairman</from>
+          <p eId="para_132">Three other Deputies are offering.  I will allow Deputy O'Dowd first.  When I see such big vote-getters in here it shows that this must be a great service.</p>
+        </speech>
+        <speech by="#PaulConnaughton" eId="spk_53">
+          <from>Deputy Paul Connaughton</from>
+          <p eId="para_133">I apologise but I must leave the meeting as there is a meeting of the Western Commission and I would not be surprised if this matter was being discussed there in the next few minutes.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_54">
+          <from>Chairman</from>
+          <p eId="para_134">Please inform the commission meeting that I will be along later.</p>
+        </speech>
+        <speech by="#PaulConnaughton" eId="spk_55">
+          <from>Deputy Paul Connaughton</from>
+          <p eId="para_135">I thought the Chairman would not be too far behind.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_56">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_136">I live in an urban area in a town of 30,000 people.  However, I have looked at the rural transport initiative as it operates in County Louth and I have travelled on the bus from Togher to Dundalk.  I can affirm that elderly people are being looked after.  One social benefit I noticed was that if a person was not waiting at the door for the bus the bus driver would check on them and ring a neighbour.  It is a very important service for elderly people in particular.</p>
+          <p eId="para_137">I fully support the retention of the rural transport service.  However, one never defeats an argument by shouting at it; it is more effective to rationally address the issues.  I have no doubt that part of the response from the representative organisation will be to look in a new way at how the service is organised.  I welcome the support of the Department of Transport for the scheme at principal officer level.</p>
+          <p eId="para_138">Has the organisation considered working with An Post?  An Post has a network of collecting from letter-boxes all over rural Ireland on a daily basis.  I suggest a postal service could be linked in with a small transport vehicle carrying eight or ten people.  Would it make sense to consider putting people into the van or perhaps a people-carrier?  I accept that many of those who use the system are pensioners.  It is important to consider interacting with paying passengers.  For instance, every morning in County Louth, many people drive to the intersection with the motorway.  There is no park and ride facility but they park their cars at the intersection.  I know Bus Éireann is not providing this form of service in County Louth so I suggest that the rural transport scheme could drive commuters to work.</p>
+          <p eId="para_139">The HSE spends €80 million a year on providing taxis for those who need transport to hospitals.  There are issues to do with the HSE transport system to and from hospitals.  We are fortunate in County Louth to have two acute hospitals.  Is there room for interaction between the HSE to provide transport to and from hospital appointments?  I am sure money could be saved and more passengers would be carried.</p>
+          <p eId="para_140">I have spoken to private operators who are commercial operators in County Louth.  Matthews coaches is a successful private operator.  Has the delegation considered linking with existing routes operated by private operators?  Mr. Bonham told us about the lady who got the bus to Limerick.  Bus Éireann has an efficient fleet but many of the routes are losing money because of the PSO, the public service obligation.  I acknowledge the PSO should apply to rural transport on the principle that it is will not make money but it is an essential service.  Could the system be made more efficient?  If there are 36 organisations in 26 counties, is there room for efficiencies?  I do not want to start a war between one parish and another but in the context of what McCarthy recommends, can the delegation put up a cogent argument in favour of continuing the service, to increase activity on routes and to earn extra income?  Can the Rural Transport Network's services be extended?  How relevant are the points I am making to the way the members of the delegation are thinking?  Can they respond to some or all of my points?</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_57">
+          <from>Chairman</from>
+          <p eId="para_141">I remind members that we are due to finish at 6 p.m.</p>
+        </speech>
+        <speech by="#SeanSherlock" eId="spk_58">
+          <from>Deputy Seán Sherlock</from>
+          <p eId="para_142">I will be brief.  I apologise for missing the beginning of the presentation.  Along with Deputy Broughan, who sends his apologies, I have already met Mr. Roche and Mr. Bonham.  As a representative of a rural constituency that has seen the benefits of this programme, I would like to restate the Labour Party's support for it.  The intergenerational solidarity that existed when people lived in tighter and smaller communities has diminished over the years as people have dispersed.  Many older people who reside on their own are unable to drive or have stopped driving over recent years — their children may have flown the nest to live in Dublin and other far-flung places — and therefore depend on rural transport services.</p>
+          <p eId="para_143">If one considers this matter rationally, it is clear that the budgetary provision of €11 million that has been made is no more than a drop in the ocean in the grand scheme of things.  One of the benefits of the existence of the rural transport scheme is the social solidarity it engenders.  I had the good fortune to travel on the Blackwater-Avondhu service last Thursday morning, in the company of a bunch of the finest people one is ever likely to meet.  Such country people, who are the salt of the earth, could be described as our own people.  They benefit from their interaction with similar people as they access services which they would not have been able to access before now.  Common sense says that it is practical and worthwhile to defend such services.</p>
+          <p eId="para_144">As someone with a background in economics, I am aware that it is sometimes called "the dismal science".  I suppose there is a sense in which economists apply a certain rationale to how things are done.  They sometimes extract the human benefit from that rationale.  I suggest that the production of the McCarthy report was a very academic exercise, which did not take account of the need to protect our strong rural population and provide the services that are needed in rural areas.  The diminution of services advocated in the report must be fought at a political level.  I am here to support that fight.</p>
+        </speech>
+        <speech by="#AndrewDoyle" eId="spk_59">
+          <from>Deputy Andrew Doyle</from>
+          <p eId="para_145">As a Deputy who is not a member of this committee, I appreciate the opportunity to speak about this issue.  The McCarthy report, which was mentioned by Deputy Sherlock, did not suggest that rural people do not need to be transported.  Mr. McCarthy's rationale for abolishing this scheme was that there is a high proportion of vehicle ownership in rural areas and alternative forms of public transport are available.  I suggest that he was incorrect in using those reasons to identify this service as one that could be dropped.  Like other Deputies, I have written to the Minister on this issue.  As a representative of County Wicklow, I appreciate the value of the dispersed rural communities in the south, south east and west of the county.  The urban areas on the east coast of the county have a significant hinterland of scattered rural communities, the value of which I understand.</p>
+          <p eId="para_146">We need to focus on the rationale underpinning the recommendation to abolish this scheme.  I hope the elected Members of the Oireachtas can influence the Minister correctly as he considers that rationale.  The dismal science of economics involves taking statistics and using them for a particular purpose.  In this instance, the statistic taken was the number of cars owned in rural areas.  A mistake was made when it was then assumed that a car, or alternative means of transport, is available to everybody who avails of the rural transport service.  Our efforts should be concentrated on dealing with this as a political issue.  In fairness to Mr. McCarthy, he does not claim to have considered social factors in his cost-benefit analysis, which was purely an economic overview.  While we all acknowledge that cuts have to happen, this is where we have to draw the line.  Having listened to Mr. Coppins, I am fairly certain that his Department did not recommend this proposal.</p>
+        </speech>
+        <speech by="#SeanFleming" eId="spk_60">
+          <from>Deputy Seán Fleming</from>
+          <p eId="para_147">I thank the Chairman for allowing me to speak even though I am not a member of the committee.  When I saw the agenda, I wanted to attend this meeting.  I acknowledge the presence of Mr. Bonham of Laois Trip.  I am personally acquainted with Mr. Roche.  I watched their presentation on my monitor before I came here.  I would like to confirm that I will do anything I can to bring a bit of balance to this aspect of the McCarthy report.</p>
+          <p eId="para_148">Over recent weeks, I have been surprised by the number of hand-written letters I have received on the subject of this service from people in rural areas.  Deputies often get blanket or anonymous e-mails, but in this case we have been sent letters by real people with genuine stories.  It is very different from what we normally get.  The rural transport initiative gives independence and dignity to many people, especially older people, in rural areas.  When we made a presentation in Portlaoise, we met many widows who live alone following the death of their husbands and do not have alternative means of transport available to them.</p>
+          <p eId="para_149">The free travel scheme that is available to senior citizens is fine if one lives in an urban area that is served by public transport, but it is a meaningless concept for people in the Slieve Bloom Mountains, for example, because such a facility does not exist there.  I will not mention all the different places in that area.  The excellent rural transport scheme, which is very well-managed and efficient, was the first attempt to provide some type of service in such areas.  It would be mean-spirited to take it away from older people, who might not be in a position to pay taxi fares of €20 or €30 to travel to and from large towns.  We will all be old someday.  As Irish country villages do not have as many shops as they did 20 or 30 years ago — most rural post offices are closed as well — many rural people have no option other than to travel to the nearest large town to do their shopping or collect their pensions.</p>
+          <p eId="para_150">I am happy to speak in support of the delegation.  I thank its members for their excellent presentation.  We will do everything we can to bring a little balance to Mr. McCarthy's economic views, which do not take account of social issues.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_61">
+          <from>Chairman</from>
+          <p eId="para_151">I would like to ask a quick question.  The State makes grant aid available to a wide spectrum of groups — those involved in disability issues and the HSE, for example — so that they can provide minibus services in rural Ireland.  Does the Rural Transport Network have links with the various service providers?  There is a need for greater synergies, as Deputy O'Dowd said when he spoke about post offices.  I do not think there is any rural transport in the Carna area, for example, now that the local bus service has been withdrawn.  It would make eminent good sense for this isolated area of Connemara to have a rural transport connection with the Bus Éireann buses that run regularly between Clifden and Galway.</p>
+        </speech>
+        <speech by="#" eId="spk_62">
+          <from>Mr. Brian Bonham</from>
+          <p eId="para_152">If integration is deemed to be one of the local needs assessed by local groups at local level, the Chairman can be assured that the groups have knocked on the relevant doors to ascertain the best way of making integration happen.  In the case of community-owned vehicles, it is a question of how each vehicle is licensed.  In other words, each community-owned vehicle is licensed separately to a public vehicle.  One might be able to avail of a beautiful 2008-registered, community-owned, fully-accessible vehicle, but it will not be licensed to provide a public transport service.  One cannot decide to use such a vehicle to pick people up in rural Ireland and drop them from door to door.  This area needs to be examined and legislation provided, if appropriate.  That cannot be done at local level.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_63">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_153">We are asking if it would be possible for the network to provide a better service if the various legal barriers were to be removed by the Dáil.  That is the key question.</p>
+        </speech>
+        <speech by="#" eId="spk_64">
+          <from>Mr. Brian Bonham</from>
+          <p eId="para_154">Those of us in Laois Trip are currently involved in the brokerage of a community-owned vehicle, even in the absence of legislation, so that it can be used for dual purposes.  It can be used for dual purposes.  That is widespread across all the groups.  The key the Deputy has identified is that there is a bigger picture that is beyond our control locally.  The same applies to the likes of An Post.  In that context one has licence and insurance issues that cannot be tackled.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_65">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_155">My point is if they are all dealt with.</p>
+        </speech>
+        <speech by="#" eId="spk_66">
+          <from>Mr. Brian Bonham</from>
+          <p eId="para_156">If they are all dealt with there are endless possibilities.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_67">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_157">I am trying to get Mr. Bonham thinking in that mode.  I am not being rude.  My question is whether it is possible to do a better and more efficient job if all those things were to happen.  It is our job to push those buttons for the network.  I am trying to get Mr. Bonham to think differently.</p>
+        </speech>
+        <speech by="#" eId="spk_68">
+          <from>Mr. Brian Bonham</from>
+          <p eId="para_158">I would not necessarily say we could do it better.  The figures speak for themselves.  A few Deputies have identified the fact that people do not hop on to a bus for the sake of it, they have better things to do.  Yet, thousands of people in rural Ireland did it 1.2 million times in 12 months in 2008.  They were doing it for a reason.</p>
+          <p eId="para_159">Reference was made to the level of integration.  The last point in our presentation is that the medium to long-term goal is to explore and develop the many ways in which the RTP can add value to other front line public services.  The six years experience and knowledge at group level is the best place to plan, design and operate rural public transport.  That encompasses whoever wants to travel and wherever they want to go.  The beauty of the RTP is that it has that flexibility.  We sub-contract much of our work to private operators.  They are the backbone of the service, but they do not see rural areas as a viable option in terms of doing private licence work.  There is no point in them licensing such a route, as they would not be able to do the door to door, long service offered by the RTP.</p>
+          <p eId="para_160">Three points were made in the McCarthy report, as outlined by Deputy Doyle.  His first one was about the high level of car ownership.  It is clear that while he spoke to numerous people, he did not speak to the people on the ground.  If there is a high level of car ownership in rural areas why were there 1.2 million passenger trips on the RTP service in a 12-month period?  If a car leaves a household at 7.40 a.m. the people left behind have no access.  If two cars in a household leave at 7.40 a.m. in the morning there are still dependants left in the house.  They are the people whom the RTP is serving.</p>
+          <p eId="para_161">Mr. McCarthy referred to the number of private operators who are licensed in the country.  I accept that hundreds of private operators are licensed but the reason we exist is that they have not provided services in areas where the population is scattered and the density is low due to a lack of viability.</p>
+          <p eId="para_162">His third point, which made the most sense, was about integration of services.  The Chairman referred to that issue.  The network is willing and able to bring about that integration, but it needs doors to be opened for us at a higher level than is possible for the groups on the ground.  If those doors are open legislation can be tweaked to enable rural public transport.  We believe the existing structures are best positioned to achieve that.</p>
+        </speech>
+        <speech by="#FrankFeighan" eId="spk_69">
+          <from>Deputy Frank Feighan</from>
+          <p eId="para_163">We had a submission from the Western Development Commission in which it highlighted the importance of the rural transport initiative.  It contested some of the figures in the McCarthy report and suggested that the figures on car ownership were flawed.  The network has cross-party and cross-agency support for the worthwhile work it does.  I am sure the Chairman will agree that it has the full support of the committee.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_70">
+          <from>Chairman</from>
+          <p eId="para_164">I will allow Mr. Roche and Mr. Coppins to contribute.  If anyone wishes to add a comment they are welcome do so.</p>
+        </speech>
+        <speech by="#" eId="spk_71">
+          <from>Mr. Jack Roche</from>
+          <p eId="para_165">I thank the committee for meeting us today.  The point about An Post was an interesting suggestion.  As far as I am aware a pilot project was carried out.  Deputy Dooley has left the committee room.  That project was based in County Clare.  An Post carried out a pilot project long before the rural transport programme came into existence but it was dropped after a short time as it was not considered to be workable for various reasons.</p>
+          <p eId="para_166">It is impossible for us to understand the fear that came into the hearts of so many rural people following publication of the McCarthy report.  As Deputy Fleming and others are aware, I have been involved in rural development for 40 years.  I never saw such shock and fear brought into the hearts of so many people.  They wanted to know what they could do.  The one thing they thought of was to write to their local politicians, which they did.  They are still living in considerable fear.</p>
+          <p eId="para_167">One of the things the rural transport programme achieved was to bring a little element of equality, in so far as thousands of people in this country who had a free travel pass were not able to use it.  My mother died a few years ago.  She had a free travel pass for 27 years but never once did she have an opportunity to use it.  The rural transport programme solved that problem and it brought a tiny bit of equality in so far as the people concerned were happy to have a service once a week.  Their counterparts in urban areas can use public transport several times a day.  That is something we need to bear in mind.</p>
+          <p eId="para_168">Deputy Feighan indicated that the Western Development Commission is questioning the conclusions of the McCarthy report.  The figures on car ownership compiled by Professor Seamus Caulfield call into question the figures produced in the McCarthy report.</p>
+        </speech>
+        <speech by="#FrankFeighan" eId="spk_72">
+          <from>Deputy Frank Feighan</from>
+          <p eId="para_169">He attended that meeting as well.</p>
+        </speech>
+        <speech by="#" eId="spk_73">
+          <from>Mr. Jack Roche</from>
+          <p eId="para_170">I heard Professor Caulfield refer to his figures only the other day.  There are elements of this issue that we forget.  There are 364 small contractors who are not affiliated to any big organisations.  They are dispersed all over rural areas.  Times are difficult for them.  Collectively, they employ approximately 1,000 people.  They have become extremely dependent on the rural transport service and they are most anxious that it would continue.</p>
+          <p eId="para_171">We have done our utmost.  Rural transport has changed the lives of so many people in rural areas.  We almost forget how new the service is.  It was introduced in 2002.  It is an achievement that voluntary groups around the country have brought the service to the level it is at today.  I agree there is huge room for expansion.  We have tried to meet our obligations with limited finance.  We were delighted that we were to receive an allocation of approximately €16 million between now and the end of the period of the current national development plan.</p>
+        </speech>
+        <speech by="#" eId="spk_74">
+          <from>Mr. Des Coppins</from>
+          <p eId="para_172">It was €18 million.</p>
+        </speech>
+        <speech by="#" eId="spk_75">
+          <from>Mr. Jack Roche</from>
+          <p eId="para_173">Yes, €18 million.  What we are looking for is a continuation of the current funding.  If things improve we will be able to do more.  It would be cruel to withdraw a service that has brought happiness and interaction between people.  Mr. Coppins referred to the cost of keeping people in institutions as being approximately €40,000 per person.  Those sums put the cost of rural transport into context.  I am delighted there is so much support for the programme in the committee today.  I hope the fruits of all our debates will result in the continuation of the service, at a minimum, at its present level.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_76">
+          <from>Chairman</from>
+          <p eId="para_174">I have no doubt it will.</p>
+        </speech>
+        <speech by="#" eId="spk_77">
+          <from>Mr. Des Coppins</from>
+          <p eId="para_175">I wish to respond to Deputy O'Dowd's questions.  I will summarise them under the heading of "new ways of doing things".  This is an area in which the Minister for Transport has taken a personal interest.  As a result, we are approaching the question of integrating services from the opposite perspective of Mr. Bonham.  We have set up a working group involving the HSE, Bus Éireann and organisations representing the disabled.  We have two pilot schemes under way, one in the north west and the other in the north east, both of which are to determine the possibility of integration.</p>
+        </speech>
+        <speech by="#FergusODowdFG" eId="spk_78">
+          <from>Deputy Fergus O’Dowd</from>
+          <p eId="para_176">That is the current position.</p>
+        </speech>
+        <speech by="#" eId="spk_79">
+          <from>Mr. Des Coppins</from>
+          <p eId="para_177">We hope to build on this.</p>
+          <p eId="para_178">The philosophy of the rural transport programme is to have a collect and connect service.  It is a matter of collecting people and connecting them with the service they need, be it to the local post office or an inter-urban bus service to bring them to another destination.  That is the idea that informs the programme rather than the concept of providing a complete transport service.  The pilot schemes about which I have spoken operate on this basis.  In that regard, consider the example of Stamullen where commuters who wish to travel to and from Dublin are experiencing difficulties because of the problem on the railway line.  A rural transport programme service started there yesterday with a view to helping commuters to connect with mainline services.</p>
+        </speech>
+        <speech by="#" eId="spk_80">
+          <from>Mr. Brian Bonham</from>
+          <p eId="para_179">I have two points.  The figures that have not been questioned are the CSO figures.  The CSO's recent report outlined that in rural areas 51% of people had difficulty in accessing public transport.  However, the next four issues identified by people concerned GP, postal and banking services and groceries.  The network operators are convinced that if they can tackle the issue of access to public transport in rural areas, they will automatically tackle the latter four issues.  I ask the committee not to underestimate the positive influence the programme has had on daily life in rural Ireland.</p>
+        </speech>
+        <speech by="#FrankFahey" as="#Chairman" eId="spk_81">
+          <from>Chairman</from>
+          <p eId="para_180">I thank the delegation for its contribution.  Mr. Jack Roche has a long history of achievements and the latest is no exception.  I thank Mr. Coppins, in particular, for the good support he has received in the Department.  I hope we will see a continuation of this very good service.  I thank all the Oireachtas Members in attendance, including those who are not members of the committee.</p>
+        </speech>
+        <summary eId="sum_7">The joint committee adjourned at 5.55 p.m. until 3.45 p.m. on Wednesday, 21 October 2009.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

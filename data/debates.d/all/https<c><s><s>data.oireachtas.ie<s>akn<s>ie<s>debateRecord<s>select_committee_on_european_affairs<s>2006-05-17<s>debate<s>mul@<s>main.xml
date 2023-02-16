@@ -1,0 +1,544 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_european_affairs/2006-05-17/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_european_affairs/2006-05-17/debate"/>
+          <FRBRdate date="2006-05-17" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/select_committee_on_european_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_european_affairs/2006-05-17/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_european_affairs/2006-05-17/debate/mul@"/>
+          <FRBRdate date="2006-05-17" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_european_affairs/2006-05-17/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_european_affairs/2006-05-17/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None" eId="#vol_None"/>
+          <oir:numberReference href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None" eId="#no_None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="BarryAndrewsFF" href="/ie/oireachtas/member/id/Barry-Andrews.D.2002-06-06" showAs="Barry Andrews"/>
+        <TLCPerson eId="BernardAllen" href="/ie/oireachtas/member/id/Bernard-Allen.D.1981-06-30" showAs="Bernard Allen"/>
+        <TLCPerson eId="DanWallace" href="/ie/oireachtas/member/id/Dan-Wallace.D.1982-12-14" showAs="Dan Wallace"/>
+        <TLCPerson eId="JoeCostelloLAB" href="/ie/oireachtas/member/id/Joe-Costello.S.1989-10-01" showAs="Joe Costello"/>
+        <TLCPerson eId="JohnDeasyFG" href="/ie/oireachtas/member/id/John-Deasy.D.2002-06-06" showAs="John Deasy"/>
+        <TLCPerson eId="MichaelMulcahyFF" href="/ie/oireachtas/member/id/Michael-Mulcahy.S.1994-12-13" showAs="Michael Mulcahy"/>
+        <TLCPerson eId="NoelTracey" href="/ie/oireachtas/member/id/Noel-Treacy.D.1982-07-20" showAs="Noel Treacy"/>
+        <TLCPerson eId="PaudgeConnolly" href="/ie/oireachtas/member/id/Paudge-Connolly.D.2002-06-06" showAs="Paudge Connolly"/>
+        <TLCPerson eId="SeamusKirk" href="/ie/oireachtas/member/id/Seamus-Kirk.D.1982-12-14" showAs="Seamus Kirk"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Foreign_Affairs" href="/ie/oireachtas/role/minister_state/foreign_affairs" showAs="Minister of State at the Department of Foreign Affairs"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN ROGHCHOISTE UM GHNÓTHAÍ EORPACHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON EUROPEAN AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2006-05-17">Dé Céadaoin, 17 Bealtaine 2006</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2006-05-17">Wednesday, 17 May 2006</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at noon.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#BernardAllen">
+                Deputy B. Allen,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#MichaelMulcahyFF">
+                Deputy M. Mulcahy,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#BarryAndrewsFF">
+                Deputy B. Andrews,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#AengusOSnodaighSF">
+                Deputy A. Ó Snodaigh,
+              </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#PaudgeConnolly">
+                Deputy P. Connolly,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#NoelTracey">
+                Deputy N. Treacy <i>(Minister of State at</i>
+                                    </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#JoeCostelloLAB">
+                Deputy J. Costello,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#NoelTracey">
+                    <i>the Department of Foreign Affairs),</i>
+                  </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#SeamusKirk">
+                Deputy S. Kirk,
+              </person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#DanWallace">
+                Deputy D. Wallace.
+              </person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#JohnDeasyFG">DEPUTY J. DEASY IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Accession to EU of the Republic of Bulgaria and Romania: Motion.</heading>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_11">On 9 May, the Dáil referred to the Select Committee on European Affairs the proposal that Dáil Éireann approve the terms of the treaty concerning the accession of the Republic of Bulgaria and Romania to the European Union, completed at Luxembourg on 25 April 2005, copies of which were laid before Dáil Éireann on 17 March 2006.  We will now proceed with the proposal.</p>
+          <p eId="para_12">I welcome the Minister of State at the Department of Foreign Affairs with special responsibility for European affairs, Deputy Treacy, and his officials to our meeting for the purpose of assisting our consideration of the proposal.  I thank the Department for providing briefing material in advance.  This has been circulated to the members.  The Minister of State may make a short presentation and we will then take questions.</p>
+        </speech>
+        <speech by="#NoelTracey" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs" eId="spk_2">
+          <from>Minister of State at the Department of Foreign Affairs (Mr. Treacy)</from>
+          <p eId="para_13">The motion under discussion today has been moved in the context of Ireland's ratification of the accession treaty for Bulgaria and Romania.  Our ratification process consists of three steps.  The adoption of this motion and the passage of a Bill amending the European Communities Act will be followed by the signature and deposition of a formal instrument of ratification.</p>
+          <p eId="para_14">Our ratification legislation was debated last week on Europe Day.  It was gratifying to find such strong support on all sides of the House for the accession of Bulgaria and Romania.  A number of Deputies signalled their support for accession to take place as planned in January 2007.  The debate was adjourned and is set to resume on 25 May, after which the Bill will move on to Committee Stage.</p>
+          <p eId="para_15">The debate on the Bill provided a useful occasion to reflect on the forthcoming accession of Bulgaria and Romania, as well as on the more substantive issues surrounding enlargement.  As the Joint Committee on European Affairs was briefed by both the Bulgarian and Romanian ambassadors in advance of the debate, I will not revisit all the ground covered in recent weeks.</p>
+          <p eId="para_16">In the context of the motion, I will speak briefly on the treaty and update the committee on the European Commission's most recent monitoring report which was issued yesterday.</p>
+          <p eId="para_17">Negotiations with Bulgaria and Romania commenced early in 2000.  Following the formal closure of negotiations with them in December 2004, a treaty-drafting group was charged with the responsibility of examining the legal text proposed by the European Commission and giving effect to what had been agreed politically.  The accession treaty was approved by the European Parliament on 13 April 2005 and signed by Bulgaria and Romania and the 25 EU member states on 25 April of that year.  It was agreed at the outset that the accession treaty in respect of the ten countries that joined the EU in 2004 would form the basis of the drafting work.  That simplified matters, allowing the group to focus on specific measures negotiated with Bulgaria and Romania and the important possibility that the European constitutional treaty might be in force at the time of accession.</p>
+          <p eId="para_18">The most significant change from 2003 was that the current accession treaty had to provide for the possibility that the proposed EU constitution would be in force on the date of accession.  Consequently, the treaty provides for accession by way of a protocol to the constitution and for the more traditional Act of accession allowing for accession under the existing treaty arrangements.  Unfortunately, as a result of the delay in bringing the new constitution into force, Bulgaria and Romania will now join the Union through an Act of accession.</p>
+          <p eId="para_19">Another departure from the 2003 treaty is a provision for delaying the accession of Bulgaria or Romania for one year.  That can be done if the European Council decides, on the basis of a recommendation from the EU Commission, that either country cannot meet the obligations arising from EU membership by 1 January 2007.  That Council decision would need to be taken unanimously in the case of Bulgaria and by qualified majority vote in the case of Romania.  The difference in procedure relates to the fact that, when the treaty was negotiated, Bulgaria was perceived as being the better prepared of the two.</p>
+          <p eId="para_20">The accession treaty also provides for the same transitional measures regarding the free movement of Bulgarian and Romanian workers as was the case for those countries that acceded in 2004.  Under the terms of the treaty, member states can choose to apply national measures for co-ordinating access to the labour markets for up to two years after the date of accession.  Thereafter, member states can opt to inform the European Commission of their intention to maintain restrictions for a further three years.  We have recently seen four more countries open their labour markets to the ten new member states.  It is disappointing that more member states did not choose to follow Ireland in that regard.</p>
+          <p eId="para_21">Ireland's decision on the free movement of workers from Bulgaria and Romania will be taken later in the year, when we will have a clearer picture of the coming needs of our labour market and other member states' intentions.  Whatever decision we take, we cannot be accused of any lack of generosity or EU solidarity, given that we have accommodated a very significant number of workers from the countries that joined in May 2004.</p>
+          <p eId="para_22">Yesterday, Commissioner Olli Rehn presented the European Commission's comprehensive monitoring report on Bulgaria and Romania to the European Parliament and announced that the Commission's final recommendation on the date of accession would not now be made until after the Commission's final monitoring report in the autumn.  It had been expected that a recommendation would have been made based on yesterday's report.</p>
+          <p eId="para_23">While a final decision on the date of accession has been postponed until the autumn, I am pleased that the Commission has concluded that the target date of 1 January 2007 remains possible for both countries.  This reflects the intensive efforts by the two since the Commission's last monitoring report in October 2005.  Both countries have significantly reduced the number of issues that must be addressed before accession.  Bulgaria has reduced the number of so-called "red flag" issues from 16 to six and Romania has reduced them from 14 to four.</p>
+          <p eId="para_24">Some problem areas are common to the two countries, particularly putting in place the necessary arrangements for the disbursement of EU funds.  In agriculture, both must establish a proper, integrated administration and control system.  There is a need to build up rendering, collection and treatment facilities.  However, while both countries must sustain their efforts in reforming their judiciaries and fighting corruption, Bulgaria has been singled out as needing to devote urgent attention to the area.  According to the Commission, Bulgaria must show tangible results in investigating and prosecuting organised crime networks, more efficient and systematic implementation of laws to fight fraud and corruption and intensified enforcement of anti-money laundering provisions.</p>
+          <p eId="para_25">The most important comment by Commissioner Rehn yesterday was that the date of 1 January 2007 remains achievable for both countries as long as they address the issues that remain outstanding.  While obviously less positive than a green light, the delay in finally confirming the date of accession will maximise the incentive for reform in the coming months.  The Commission has also alluded to the possibility of post-accession safeguards in sectors with particular difficulties.  I am sure that both Romania and Bulgaria will strive to go the extra mile in addressing those remaining issues so that they can join the European Union on 1 January 2007.  Both will enjoy Ireland's continued support in their efforts.</p>
+          <p eId="para_26">I wish to refer to the point made by Commission President Barroso yesterday.  He emphasised the fact that by urging Bulgaria and Romania to fulfil all the requirements of membership, member states should also fulfil their own obligations by ratifying the accession treaty.  To date, Bulgaria, Romania and 14 current member states have done so.  It will be important for Ireland to keep pace with the other member states in ratifying the treaty.  I hope that this motion and our ratification legislation will be passed during the summer session, thereby allowing for formal ratification to be completed in the autumn.</p>
+          <p eId="para_27">We are required to ratify the treaty by the end of this year, irrespective of whether the accession date is confirmed as 1 January 2007 or deferred for up to a year.  We must play our part in the completion of the Union's historic fifth enlargement, which has put an end to divisions that plagued our continent for decades following the Second World War.  Bulgaria and Romania are two countries that suffered greatly from Europe's past divisions.  Notwithstanding the problems with which the two continue to grapple, I believe that they will be welcome additions to the European Union.  I commend this motion to the committee for its approval.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_28">The Institute for Public Policy Research in Britain has estimated that 41,000 Romanians and 15,000 Bulgarians will come to work there in the first year after the two countries become EU members.  Migration Watch in Britain claims that this is a "back-of-the-envelope" calculation which assumes that immigration from Bulgaria and Romania will be similar to that which obtained in respect of other eastern European countries.  It contends that as many as 300,000 Romanian and Bulgarian workers could come to Britain by the end of 2008 if the UK's previous policy is adopted regarding those two countries.  How many workers would the Minister of State expect to come to Ireland upon accession if a decision were made in favour of the free movement of Romanian and Bulgarian workers?  Have any estimates been made in this regard?  Was the research relating to any analysis that may have been conducted similar to that carried out in the UK?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_4" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_29">The Department of Enterprise, Trade and Employment and the various State agencies, including FÁS and others involved in labour market operations, are carrying out an analysis of its requirements over the next few years.  Based on an analysis that they are also conducting on the number of resident workers from the ten new countries that joined us after 1 May 2004, they will make a final report on the situation later this year that will go to the Government for a decision.  The exact detailed figures are not yet available.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_5">
+          <from>Chairman</from>
+          <p eId="para_30">Having listened to the Taoiseach in recent weeks, it seems that he is sending out strong signals regarding the free movement of workers from Bulgaria and Romania.  Surely some analysis has been carried out in respect of potential migration from the two countries.  Is the Minister of State indicating that no such analysis has been conducted?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_6" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_31">I did not say that.  The Department of Enterprise, Trade and Employment and the various agencies with responsibility in this area are working on the situation at this time.  They are putting together the detailed information on what we would require in the future, based on our economic forecast for expansion within the employment base and on what we believe might be the requirements to accommodate workers from the two countries if a decision is taken.</p>
+          <p eId="para_32">If one listened carefully to the Taoiseach, he made a qualified statement that Ireland has led the way in allowing the accession of workers into this country.  He was very disappointed with other member states which did not follow suit and very pleased with those which took the decision to follow the example we have given.  He is calling on the larger states which have not yet opened their markets to ensure they do so and he hopes that they will.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_33">We made a recommendation with regard to a Minister or Department considering the issue of immigration.  The basis for this was that we do not have the figures to make these decisions.  We have asked the Departments time and again whether they have accurate figures but we get different answers.</p>
+          <p eId="para_34">With regard to Bulgaria and Romania, has an analysis been undertaken such as was undertaken in Britain?  Will the Minister provide an analysis with regard to projections of the numbers of workers who will come from those two countries?  This is a key issue for our economy.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_8">
+          <from>Mr. Kirk</from>
+          <p eId="para_35">We are working on a best guess estimate.  What scientific basis can there be for such a calculation?</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_9">
+          <from>Chairman</from>
+          <p eId="para_36">We are guessing.  The UK has at least made a projection.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_10">
+          <from>Mr. Andrews</from>
+          <p eId="para_37">We should concentrate on Ireland's needs rather than the intentions of thousands of Romanians and Bulgarians.  Is the Chairman suggesting that we should analyse those intentions?</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_11">
+          <from>Mr. Kirk</from>
+          <p eId="para_38">With regard to carrying out a survey in Romania and Bulgaria, how can there be a scientific basis for a calculation?  Surely we must be working on a best guess estimation.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_39">The Deputy is answering the question.  The answer is "No".  That is my point.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_13">
+          <from>Mr. Kirk</from>
+          <p eId="para_40">Do we base it on the number of Romanians and Bulgarians who are in Ireland at this point?</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_41">The Deputy is answering the question.  The answer is "No".  If that is the case, that is fine.</p>
+        </speech>
+        <speech by="#SeamusKirk" eId="spk_15">
+          <from>Mr. Kirk</from>
+          <p eId="para_42">That is a personal view but I am sure somebody may wish to——</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_16">
+          <from>Chairman</from>
+          <p eId="para_43">Can members tell me that it has happened?  They cannot.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_17">
+          <from>Mr. Costello</from>
+          <p eId="para_44">In the debate in the Dáil on Europe Day, the Minister for Enterprise, Trade and Employment stated that approximately 135,000 people had come into our workforce from the ten accession countries since May 2004 but that the number had since decreased to approximately 62,000, which is roughly equivalent to the number of workers expected in the coming 12 months.  He noted that this constituted 2% of the total workforce.  The Minister of State, Deputy Treacy, subsequently told the Dáil it constituted 3% of the workforce.</p>
+          <p eId="para_45">The following day, the newspapers suggested that 200,000 people from the European accession countries were in or around the workforce, with no certainty as to where they were.  At the same time, there was an announcement from the Minister for Enterprise, Trade and Employment that NESC or NESF was carrying out a migration management study into all of these issues which would be ready by the end of May.  I do not know whether the Minister of State knows anything about that study.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_46">Let me ask the Minister of State a different question.  Will he explain the research that is being undertaken to determine the numbers?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_19" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_47">The Chairman and Deputy Costello raise many issues.  I agree with my colleagues that we cannot invent figures that pre-empt the decision by the Commission in its final recommendation on accession.  We have to respond and react to that decision when it is taken.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_20">
+          <from>Chairman</from>
+          <p eId="para_48">The Minister of State cannot just go off on a tangent.  This is a key issue.  What kind of research is the Minister of State undertaking to determine the number of Romanians and Bulgarians who might come to Ireland?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_21" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_49">I will answer on that if the Chairman allows.  I will respond to Deputy Costello first because this is the second time he has used this point since our debate last week.  If one analyses what was said on that day——</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_22">
+          <from>Mr. Costello</from>
+          <p eId="para_50">I do not want the Minister of State to analyse it; I just want the statistics.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_23" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_51">The Deputy should allow me to answer.  Deputy Martin made a clear statement that 2% of our workforce came from accession states.  I stated that up to 3% were non-nationals — I did not suggest they were all from accession states.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_24">
+          <from>Mr. Costello</from>
+          <p eId="para_52">Up to 9% are non-nationals.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_25" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_53">Up to 3% are.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_26">
+          <from>Mr. Costello</from>
+          <p eId="para_54">No, up to 9% are non-nationals.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_27" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_55">The Deputy should allow me to finish.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_28">
+          <from>Chairman</from>
+          <p eId="para_56">Allow the Minister of State to continue.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_29">
+          <from>Mr. Costello</from>
+          <p eId="para_57">Some 2% are from accession countries.  The Minister of State does not have a clue what is going on.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_30">
+          <from>Chairman</from>
+          <p eId="para_58">Allow the Minister of State to continue.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_31" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_59">Some 200,000 PPS numbers have been issued.   The household survey has shown that only 62,000 of those people are working.  People come to Ireland, get a PPS number, work for a period and then leave.  The national census has just concluded.  All of that information will be available in the autumn.  As we work towards the autumn, the State agencies and the Department of Enterprise, Trade and Employment are carrying out an analysis of the <i>de facto</i> situation in collaboration with our embassies to ensure we have an accurate picture when a final decision or recommendation is made by Commissioner Rehn, through the Commission, next autumn.  When all of that information is available, the Government, on behalf of the people, will take a final, conclusive decision.</p>
+          <p eId="para_60">All of the information is being worked on.  We will take into account the census, PPS numbers and the situation pertaining to work permits granted to non-Europeans before a final decision is taken in the interests of equity and fairness, the economy and the Union.  Everything will be taken on board before a final decision is reached.  To suggest we have not carried out an analysis is wrong.  We do not have a concluding analysis but this matter is being worked on constantly by various State agencies and Departments, in co-operation with our embassies, based on the requirements that will pertain when a final recommendation is made on accession for these two countries.</p>
+          <p eId="para_61">We cannot and should not, because it would be unfair to the two countries, pre-empt any situation and it would be unfair to the Commission and the European Parliament if we went ahead of them in making decisions.  We must make our decisions based on the need to do so.  When a legal binding decision is made on accession at the right time, it should be based on the most up-to-date information.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_32">
+          <from>Mr. Allen</from>
+          <p eId="para_62">I expected that we would be allowed to respond to the Minister and put our parties' views on this issue, and that we would then have a question and answer session.  I hoped we would deal with all aspects of the matter, although that is not to take away from the importance of the Chairman's question.</p>
+          <p eId="para_63">It seems obvious that the Department is groping in the dark on this issue and it is obvious to the committee, having listened to many State agencies in recent months in regard to migration and related issues, that many of them do not know what is going on.  All of us know that many of the people coming in have PPS numbers and that some of them go home.  However, there are many people in this country who do not have PPS numbers.  The PPS number is not the absolute criteria for estimating or guesstimating how many people are in the country.</p>
+          <p eId="para_64">The State agencies should be in a position by now to provide the figures as we are just three or four months from having to make a decision on whether we open up to Romania and Bulgaria when they accede.  The census will not tell us all of what we want to know.  The Chairman's question is valid.  Before any decision is made by Government, the committee should be allowed to reconsider the issue, equipped with the information to allow us to make a rational decision, which we have been unable to obtain to date.  Yesterday's decision was important.  The Commissioner's report set out a number of reasons why the decision on the accession of both Bulgaria and Romania has been deferred for a few months.</p>
+          <p eId="para_65">The Minister of State quite correctly stated that in the case of Bulgaria, the report set out six criteria, which I will not read into the record.  When the committee dealt with the ratification legislation last week, I set out my party's views on this matter in a fairly detailed manner and I will not waste the committee's time by repeating what I said.  The Bulgarian ambassador appeared before the committee, made a credible submission and was frank with members.  However, I had concerns in respect of anti-money laundering provisions, fraud and corruption, and an issue which is not included among those criteria, namely, the question of the safety of nuclear installations.  Can the Minister of State indicate what he knows about the safety of some of the older nuclear installations in Bulgaria?  Members have been informed that there would be no cost liabilities to the European Union after Bulgaria's accession.  However, I want more information on that issue before we make decisions.  It is only right and proper to state that the criteria and standards for accession should be kept as high as possible.  There should be no lowering of the bar for political considerations.</p>
+          <p eId="para_66">I will not refer to the five issues set out in the case of Romania.  However, I was surprised that one issue was not referred to at all, namely, human trafficking.  Last Monday week, members saw a shocking "Prime Time Investigates" programme on RTE on human trafficking.  At the committee's meeting last week, I raised the issue of the porous system that appears to be in operation in Ireland in respect of people who come here from non-EU countries.  Bulgaria and Romania are still non-EU countries.  How can the system allow teenagers, mainly women and girls — most of whom obviously enter the sex trade here — into Ireland?  Has there been any interaction between the Foreign Ministers of the respective countries or their deputies in the context of dealing with this issue?  I am surprised that it is not one of the issues on which the European Union is holding out.  I raise this matter because I am concerned about the lack of controls.  What controls will be in place after Romania's accession?</p>
+          <p eId="para_67">I also welcome the proviso in yesterday's report to the effect that even if both countries were admitted in January 2007, there would be safeguard clauses in respect of decisions being made by the Bulgarian courts and that any decisions would not be recognised until reforms of the courts take place.  It is important to note that point.</p>
+          <p eId="para_68">More generally, the European Union has entered discussions with Macedonia, which essentially have been put on hold until after the July elections there, and with Croatia and Turkey.  At this point, it would be opportune to conduct a review as to developments with regard to Macedonia, Croatia and Turkey.  The committee should be informed of developments in this regard.  Specifically, I ask the Minister of State whether any pressure has been exerted on Turkey since the decision to open negotiations was made?  Have any talks taken place with Turkey in respect of the recognition——</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_33">
+          <from>Chairman</from>
+          <p eId="para_69">What is the third country?</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_34">
+          <from>Mr. Allen</from>
+          <p eId="para_70">Croatia.  Have any discussions been held regarding the ongoing non-recognition of the rights of one of the European Union's member states, namely, Cyprus?  Has any progress been made in that regard?  Unless this issue will be dealt with sooner rather than later, the entire negotiation process with Turkey will have been built on quicksand.  The committee should be kept informed in this regard.  In general, my point is that with regard to the progress, or lack thereof, made by these countries, the committee should receive reports on a regular basis.</p>
+          <p eId="para_71">The Minister of State kindly appears before the committee on a monthly basis to discuss the meetings he attends.  However, a system must be put in place whereby Ministers report back to the committee regarding decisions taken at such meetings.  While I will digress somewhat, the matter to which I wish to refer, namely, the decision to cut EU aid to Palestine, is relevant.  I find it difficult to obtain information on our Minister's stance during the relevant negotiations.  I have been given a simplistic answer to the effect that since no vote was taken, the stance is irrelevant.  However, it is relevant.  I want to know what input our Minister made to that appalling decision, which is causing so much hardship and heartache to the Palestinian people and which is a negative development in the context of the situation in the Middle East.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_35">
+          <from>Chairman</from>
+          <p eId="para_72">We should try to keep our comments germane.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_36" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_73">It is important to put this matter in context.  The motion before the committee purely pertains to the accession of Bulgaria and Romania to the European Union.  We must focus on that issue and assist the process in every way possible.  Ireland has been absolutely consistent in supporting both countries to achieve membership of the Union as quickly as possible.</p>
+          <p eId="para_74">Deputy Allen raised a number of issues.  As for nuclear safety and radiation protection, Commissioner Olli Rehn's report yesterday noted that legislation has been adopted on the shipment of radioactive waste and medical exposure.  Administrative capacity is largely in place, except for the enforcement of aspects relating to medical exposure.  Preparations in this area must be stepped up.</p>
+          <p eId="para_75">The Commissioner made specific reference to the Kozloduy protocol, which consolidates Bulgaria's closure, in line with its commitments, of units 1 and 2 of the Kozloduy nuclear power plant before 2003.  This has been done and there is a commitment to close units 3 and 4 of this plant in 2006.  He gives a firm commitment that the Union will support Bulgaria with financial assistance in support of its effort to decommission these units and to address the consequences of the closure and decommissioning.  It has been recommended that Bulgaria will receive support from the Union between 2007 and 2009, up to a maximum of €210 million, to conclude the decommissioning of the operation there.</p>
+          <p eId="para_76">The Deputy also referred to human trafficking.  This is an issue of serious concern and we condemn it entirely.  This issue has been the subject of close scrutiny throughout the accession process for both Bulgaria and Romania.  While both countries have fulfilled the political criteria for membership, the EU has continually stressed the need for both countries to take additional measures to address the remaining issues in this regard.  The Commission's comprehensive monitoring report for Romania states:</p>
+          <p class="indent_1" eId="para_77">[It] remains a country of transit and to a lesser extent a country of origin and destination ... Overall, certain progress has been made in fighting trafficking in human beings [but] ... administrative and operational capacities remain weak.</p>
+          <p eId="para_78">As stated, Ireland also takes this matter seriously.  Further legislation is in preparation in the Department of Justice, Equality and Law Reform that will primarily provide for compliance with two EU framework decisions on combating trafficking in human beings and the sexual exploitation of children and child pornography.  The legislation will also take into account a number of international conventions in this area, including the protocol to prevent, suppress and punish trafficking in persons, particularly women and children, supplementing the United Nations Convention against Transnational Organised Crime.  The Minister for Justice, Equality and Law Reform will bring this draft legislation before the Government shortly, with a view to publishing the Bill before the end of the year.  Hence, we are committed to ensuring that progress on this serious issue will be made as rapidly as possible and priority has been given to it.</p>
+          <p eId="para_79">The Deputy also raised a number of other issues pertaining to Turkey and Cyprus.  While formal recognition of the Republic of Cyprus was not a prerequisite for the opening of negotiations, the negotiating framework for Turkey's accession negotiations makes clear that its accession will be measured against a number of requirements, including progress in the normalisation of bilateral relations between it and all EU member states, including the Republic of Cyprus.  In our bilateral and multilateral discussions on this issue with Turkey, we have consistently made it clear that no country can join the EU unless it fully recognises the sovereignty of each member state.  The screening process in respect of Turkey and Croatia has been under way on the various chapters since October 2005.  Macedonia has been given candidate status but no date for the opening of negotiations has been set.  There is light at the end of the tunnel.  Obviously, Macedonia has a certain expectation that is a medium-term objective.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_37">
+          <from>Mr. Allen</from>
+          <p eId="para_80">I asked a question that has not been answered.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_38" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_81">What question?</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_39">
+          <from>Chairman</from>
+          <p eId="para_82">Deputy Andrews is next to speak.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_40">
+          <from>Mr. Allen</from>
+          <p eId="para_83">If I cannot obtain an answer to my question——</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_41">
+          <from>Chairman</from>
+          <p eId="para_84">This matter has been discussed for the past 15 minutes.  Deputy Andrews is next to speak.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_42">
+          <from>Mr. Allen</from>
+          <p eId="para_85">I am entitled to ask a question.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_43">
+          <from>Mr. Andrews</from>
+          <p eId="para_86">I support the motion before the committee.  We are getting sidetracked by issues that are not relevant.  Every member has plenty of matters to which he or she wishes to attend and will have other opportunities to raise particular matters.  The issues were thrashed out last——</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_44">
+          <from>Mr. Allen</from>
+          <p eId="para_87">Which issues are not relevant?</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_45">
+          <from>Mr. Andrews</from>
+          <p eId="para_88">——week on Europe Day, which was very successful.  I congratulate the Chairman and every member of staff for their work in connection with it.  Perhaps, we should have begun the meeting by congratulating everyone involved in the arrangements for Europe Day.  The day grabbed people's imagination and the presence of the Commissioner added greatly to it.</p>
+          <p eId="para_89">We seem to be forgetting that when a country joins the EU, it is entitled to the basic freedoms that accompany membership.  I refer here, for example, to the free movement of workers.  The latter is a basic freedom that we should never have offered as an <i>à la carte</i> measure out of which countries could opt.  I argued in the Dáil that the Taoiseach showed great leadership and vision in extending access to our labour market to all ten accession countries.  I agree with the Chairman’s argument that there is a gap in terms of knowledge of figures in this country but we know that we allow countries to join the EU because they fulfil the <i>acquis communautaire</i>.  We need a very good reason to exclude such countries from our labour market, having accepted their membership of the EU.  We should also recognise that within a few years and regardless of what we do, all of these countries — whether they join the EU in 2007 or 2008 or whether we adopt our national restrictions for two years — will have access to our labour markets.</p>
+          <p eId="para_90">These decisions are demand led.  We can calculate the demand in this country without any difficulty.  We need only examine the situations vacant sections in newspapers to see that the unemployment rate in this country is so low that we need overseas workers.  During our debate on migration, we heard arguments, particularly from FÁS, that 500,000 workers will be required in this country over the next ten years if we are to keep the economy operating at its current rate of growth.  I make these comments in support of the motion.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_46">
+          <from>Chairman</from>
+          <p eId="para_91">Does the Minister of State wish to respond?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_47" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_92">Deputy Andrews put it very well and I endorse his comments.  I congratulate the Chairman, the committee and everyone involved in the genesis, construction and execution of an outstanding week, particularly, the Europe Day events in the Dáil on Wednesday.  We learned much from Europe Day, which communicated Europe to the people through our national Parliament.  It has much potential and can be fine tuned. It can become an annual event.  This will ensure that we have an excellent opportunity to engage, in a positive and exciting way, with European affairs on a national basis in the future.  I congratulate the Chairman and everyone involved in Europe Day.  We received excellent co-operation from everyone.</p>
+          <p eId="para_93">The arguments put forward by Deputy Andrews are correct.  The economy is growing and we are very proud and happy about this.  We are confident about the economy's prospects over the next seven to ten years.  All the figures show that there is a serious requirement for additional workers.  We must bear in mind the various sectors and their requirements and take into account the position of indigenous interests.  When all the figures are available, taking into account my earlier comments pertaining to matters such as the census, a decision will ultimately be taken.  This decision will be made when there is a clear indication from the European Commission that we must proceed.  We fully support the accession of Bulgaria and Romania into the EU and are confident they will reach the target date of 1 January 2007.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_48">
+          <from>Chairman</from>
+          <p eId="para_94">The way in which the Minister of State articulated the matter is probably accurate.  However, there is a gap.  For example, if the Romanian ambassador had not been as forthright and frank as she was and if somebody plucked out of the air a figure of 100,000 — as opposed to 20,000 — in respect of the number of Romanians living here, we would probably have gone along with it because nobody really knows what is the situation.  Indeterminate facts are floating around.  There does not appear to be an ongoing analysis.  Statements are being made but the regimented analysis of figures and data that is required to make these decisions in the first instance is not being carried out.  My concerns were shared by the committee when it compiled its migration report.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" eId="spk_49">
+          <from>Mr. Andrews</from>
+          <p eId="para_95">This is not a sufficient reason to deny a member of an organisation the basic freedom that comes with membership.  It is similar to telling someone that he or she can become a citizen of Ireland but that he or she will be denied the protection of Articles 41, 42 or 46 of the Constitution.  The EU can be a strange entity but this kind of measure requires a much higher burden of proof.  We do not, and never will have, a crystal ball.  There will be a certain amount of assessment based on the slide rule.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_50">
+          <from>Chairman</from>
+          <p eId="para_96">That is fair enough but statements should not be made before an analysis has been carried out.  According to the Minster of State, this analysis is being carried out.  Deputy Andrews is putting the cart before the horse.  I have never received a realistic answer regarding the process used for collecting data and statistics of that kind.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_51">
+          <from>Mr. Costello</from>
+          <p eId="para_97">There are two issues involved.  On the one hand, Commissioner Rehn is making a statement about his monitoring and analysis of the European side of the equation, which involves all EU member states.  On the other, there are our domestic arrangements.  According to Commissioner Rehn, considerable progress has been made by both countries, particularly Bulgaria since the formation of its new government ten months ago.  Bulgaria has made progress on providing structures on laws and has carried out a substantial amount of work.  Commissioner Rehn's preferred date is 1 January 2007 but his decision to postpone the final decision until the autumn does not necessarily dispense with this accession date.  However, his actions acknowledge that certain issues remain to be addressed.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_52">
+          <from>Chairman</from>
+          <p eId="para_98">Commissioner Rehn stated that if the accession date of 1 January 2007 is not met, the next likely date will be 2008.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_53">
+          <from>Mr. Costello</from>
+          <p eId="para_99">Yes, but a decision on the date will not be reached until the autumn.  What is our position on the matter?  My party believes that, if possible, the earlier date should be sought.  I argued this point in the Dáil debate on the ratification legislation.  The Labour Party believes that it is unfinished business following on from the accession of the other ten countries in 2004 and that the sooner the situation is stabilised and Romania and Bulgaria brought into the EU, the better.</p>
+          <p eId="para_100">The president of the European Parliament stated last week that he favours the earlier date and that we should move on it.  From the European side of the equation, there appears to be strong support for the earlier date.  However, the final decision will be made in the autumn.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_54">
+          <from>Chairman</from>
+          <p eId="para_101">This is the Labour Party's perspective.  The Government has made it clear that it will look to Commissioner Rehn's report.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_55">
+          <from>Mr. Costello</from>
+          <p eId="para_102">I would prefer if I was given the opportunity to make a contribution without interruption from the Chair.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_56">
+          <from>Chairman</from>
+          <p eId="para_103">Fair enough, does the Deputy have a question?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_57">
+          <from>Mr. Costello</from>
+          <p eId="para_104">I understand that one can make a comment as well as ask questions.  This committee is meeting to try to address certain issues.  If I have something to say, I would like to say it.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_58">
+          <from>Chairman</from>
+          <p eId="para_105">What is the Deputy's point?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_59">
+          <from>Mr. Costello</from>
+          <p eId="para_106">I was in the middle of making it when the Chairman interrupted.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_60">
+          <from>Chairman</from>
+          <p eId="para_107">The Deputy is welcome to the committee, by the way.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_61">
+          <from>Mr. Costello</from>
+          <p eId="para_108">I always understood that if a Chair invited someone to speak, he or she would allow that person to contribute without intervening or conducting a dialogue, which is not the function of a Chair.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_62">
+          <from>Chairman</from>
+          <p eId="para_109">Does the Deputy have a question?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_63">
+          <from>Mr. Costello</from>
+          <p eId="para_110">I will finish my comment and then ask questions.  If the Chairman wants me to stay, I will, but I will leave if this the level of his behaviour.</p>
+          <p eId="para_111">Of serious concern to my party and I are money-laundering and the trafficking of drugs, children, women and weapons in this country.  Terrorism is also a concern.  Interestingly, the Select Committee on Justice, Equality, Defence and Women's Rights, of which I was a member, spent much time dealing with directives and framework legislation in respect of these issues.  While more measures are on the horizon, there seems to be a void in the implementation of those that have been passed.  Ireland never had more problems than it does at present and these continue to grow.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_64">
+          <from>Chairman</from>
+          <p eId="para_112">Does the Deputy have a question?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_65">
+          <from>Mr. Costello</from>
+          <p eId="para_113">Are Bulgaria and Romania major contributors in this regard?  Even now, when they are not members of the Union, we have significant problems.  Will the Minister of State respond?</p>
+          <p eId="para_114">Clearly, we do not have sufficient information in respect of the labour market issue.  Will the Minister of State indicate whether it is true that a migration management survey is being conducted by the National Economic and Social Forum?  Such a survey would provide much more information than we possess at present.  What are the positions of the large countries that have not joined our group?  Of the 15 countries in the EU prior to accession, seven have opened their labour markets to all of the ten accession countries.  However, Germany, France and Italy have not done so.  What are their intentions?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_66" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_115">I agree with Deputy Costello.  If possible, the Government is anxious to accommodate the two countries in question with the earlier date.  While we will be guided by the Commissioner's autumn report to the Commission and the European Parliament, we will not pre-empt it.  According to the report published last October, both countries have made considerable strides in meeting the criteria for full membership.  Commissioner Rehn has made a detailed report on all of the factors and has clearly flagged the areas where improvements must take place.</p>
+          <p eId="para_116">I also agree with the Deputy that it is critically important to eliminate the corruption, money-laundering and human trafficking to which my colleagues and Deputy Allen referred.  As progress is being made and both countries are committed to membership, they will rapidly improve the situations pertaining to these problems.  However, it cannot be possible to eliminate them totally.  Permitting them to join the Union on 1 January 2007 will allow them to accelerate their commitment to the justice and home affairs pillar to ensure that the Union can support them in rapidly eliminating these illegalities.  We will await the autumn report.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_67">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_117">Some of the ground with which I wished to deal has already been covered.  The Minister of State's comments on how good it would be to have Bulgaria and Romania fully co-operating in the justice and home affairs area is interesting.  The reason cited in the Commissioner's report for denying them entry on 1 January 2007 — it is possible that this decision will be reversed in the autumn — is that they have not addressed home affairs issues.  However, the Minister of State said that if they are allowed to become members, they can address these issues at a greater pace.  The logic does not work.</p>
+          <p eId="para_118">If the Commission is examining post-accession safeguards, we should do so at the earliest possible date rather than postponing for another year and allowing the problems mentioned by Deputy Costello to continue.  Any country that has complied with the Copenhagen criteria of democracy and respect for human rights and taken the bold steps of Romania and Bulgaria in terms of the <i>acquis communautaire</i> should be brought on board.  In light of regional stability, we should encourage the Commission to waive the final ten issues, put in place safeguards and set a positive tone in the autumn.  The European Council can give the Commission this instruction because it is the body that allows accession to take place.  We should not put this matter in the hands of the commissioners only.</p>
+          <p eId="para_119">Regarding the free movement of workers, does the Minister of State believe that there should be a statement of intent from enlightened countries in this matter, such as Ireland, England, Sweden and the others that recently opened their markets, to the effect that there should be no restrictions and all of the rules should apply across the board?  We have granted similar free movement rights to citizens of other EU countries.  I welcome the Taoiseach's criticism of member states that have not lifted their restrictions.  Should we intensify our negotiations with them to remove their restrictions?  Would a statement of intent help the Romanian and Bulgarian Governments in selling their new domestic legislation changes to their populations?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_68" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_120">The Deputy is correct.  In the final analysis, the Heads of State and Government at the European Council will make the final decision.  However, they can only do so based on Commissioner Rehn's report.  The report he presented to the European Parliament yesterday contains a structured logic.  It identifies the progress made between October 2005 and May 2006, what needs to be done before next autumn and what options are available to the European Council <i>vis-à-vis</i> the early date of January 2007 or the late date of January 2008.  The Commissioner made it clear, in a logical fashion, that certain sectors could be identified as not having met the qualifying criteria.  In this case, certain actions will not be taken unless conditions are met subsequent to accession.</p>
+          <p eId="para_121">The governments of both countries are aware of this and know what they must do in order to achieve a positive decision for the earlier date.  If they do not, they must wait for the second date.  Members are unanimous in believing that this is the residue of the last enlargement process, a point made by Deputy Costello.  As such, this is a strategic decision on the conclusion of the previous enlargement and, in so far as possible, both countries should be allowed to join at the earlier date.  We are confident that they have the ability to make the improvements and create the structures and systems necessary to allow Commissioner Rehn to make a favourable recommendation in his monitoring report.  I welcome the support of this committee for that position.</p>
+        </speech>
+        <speech by="#MichaelMulcahyFF" eId="spk_69">
+          <from>Mr. Mulcahy</from>
+          <p eId="para_122">I apologise for being late but I have been following the debate on the monitor.  I strongly support the proposed membership of Bulgaria and Romania.  The Irish Government has been consistent on this issue for many years.  Ireland has nothing to fear and everything to gain from enlargement of the EU.  The date of accession is another issue.  We must not be shy in stating that we need to protect our national interest and our consumers.  That is why we have the criteria, namely, the <i>acquis communautaire</i> and the Copenhagen criteria.  These ensure that there are no shocks to the system, that the internal market functions properly and that communities are not unduly disturbed.  We should be proud of the system that has been put in place.  I would like Bulgaria and Romania to join as quickly as possible.  However, I do not want them to join one day before they are ready.  We must be careful that the EU is not pressured into making a decision on the accession date.</p>
+          <p eId="para_123">Is 1 January 2008 a guaranteed date for full accession or could this be postponed if the criteria have not been met?  Much progress has been made in Bulgaria and Romania and the people have a genuine desire to join the Union.  If resources are a problem, could the EU could make financial and other assistance available in advance of full accession to help them to comply with the criteria?  These countries have had a difficult time for decades and perhaps they need more help than other countries, even though there is strong political will to allow them to join.  Are we providing assistance and, if not, should we do so?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_70" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_124">I welcome Deputy Mulcahy's contribution and the forthright way he has specified his personal position.  The date of 1 January 2008 is dependent on all member states agreeing to ratification.  Enlargement must, as it always has in the past, confer mutual benefits.  We are confident that this will be the case.  The EU must take a measured, focused approach.</p>
+          <p eId="para_125">Accession assistance has already been made available to these countries and Ireland has made assistance to them, including training members of the public service of Romania and Bulgaria.  Members of the IPA assisted in this.  Some €1.5 million is spent each year on pre-accession assistance and we are proud to provide such assistance.  Countries that have benefited from this programme value Ireland's contribution to the pre-accession process and the confidence building measures undertaken.  These ensure that they are ready for accession and that they will rapidly benefit post-accession.  This benefits accession countries and the entire EU.  We are committed to playing our part to assist these countries.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_71">
+          <from>Mr. Allen</from>
+          <p eId="para_126">May I ask my question now?</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_72">
+          <from>Chairman</from>
+          <p eId="para_127">The Deputy may proceed.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_73">
+          <from>Mr. Allen</from>
+          <p eId="para_128">When a motion comes before the committee, the relevant Minister or Minister of State is entitled to present it and spokespersons are entitled to respond.  If necessary, they may ask questions and I reserve the right to do so at all times.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_74">
+          <from>Chairman</from>
+          <p eId="para_129">The Deputy had the opportunity to do so.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_75">
+          <from>Mr. Allen</from>
+          <p eId="para_130">Yes, but I was interrupted.</p>
+          <p eId="para_131">I would have posed a question on human trafficking if I had been given the opportunity.  How are young Romanians involved in the sex trade getting past passport control in this country?  These may be young ladies travelling alone or with adults to whom they are not related.  They do not possess EU passports.  Is our system porous and have investigations taken place?  If investigative reporters from RTE can uncover this, what are the Garda Síochána and passport control officials doing?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_76" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_132">My information on this matter suggests that these people have visas.  The RTE programmes made it clear that these unfortunate, innocent young people possess visas and are entering Ireland through the official system.  They were promised jobs by those who befriended them but instead they were taken into situations of which they were not aware.  The Garda Síochána and the State would not be aware of this.  These women enter the country legitimately but are then put into criminal activity.  It is at this point that the intelligence services and the Garda Síochána must target such activity and eliminate it.  A major effort has been made and new legislation will be produced soon.  The Minister for Justice, Equality and Law Reform and his officials are working assiduously to ensure that it will be published before the summer and passed this year.  This would be make it more difficult for the situation described by Deputy Allen to continue.  We want it to end the activity to which he refers as quickly as possible.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3">
+        <heading>Message to Dáil.</heading>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_77">
+          <from>Chairman</from>
+          <p eId="para_133">In accordance with Standing Order 85, the following message will be sent to the Dáil:</p>
+          <p class="indent_1" eId="para_134">The Select Committee on European Affairs has completed its consideration of the motion regarding approval by Dáil Éireann of the treaty covering the accession of the Republic of Bulgaria and Romania to the EU.</p>
+          <p eId="para_135">The select committee adjourned at 1.10 p.m. <i>sine die</i>.</p>
+        </speech>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

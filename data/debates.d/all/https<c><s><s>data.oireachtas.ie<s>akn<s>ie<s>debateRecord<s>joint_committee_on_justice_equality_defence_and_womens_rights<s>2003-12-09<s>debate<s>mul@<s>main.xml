@@ -1,0 +1,963 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-09/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-09/debate"/>
+          <FRBRdate date="2003-12-09" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/joint_committee_on_justice_equality_defence_and_womens_rights"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-09/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-09/debate/mul@"/>
+          <FRBRdate date="2003-12-09" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-09/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/joint_committee_on_justice_equality_defence_and_womens_rights/2003-12-09/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference showAs="Vol. 1" href="ie/oireachtas/debateRecord/vol/1" eId="#vol_1"/>
+          <oir:numberReference showAs="No. 46" href="ie/oireachtas/debateRecord/vol/1/no/46" eId="#no_46"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="FinianMcGrath" href="/ie/oireachtas/member/id/Finian-McGrath.D.2002-06-06" showAs="Finian McGrath"/>
+        <TLCPerson eId="JimWalsh" href="/ie/oireachtas/member/id/Jim-Walsh.S.1997-09-17" showAs="Jim Walsh"/>
+        <TLCPerson eId="JoeCostelloLAB" href="/ie/oireachtas/member/id/Joe-Costello.S.1989-10-01" showAs="Joe Costello"/>
+        <TLCPerson eId="JohnDeasyFG" href="/ie/oireachtas/member/id/John-Deasy.D.2002-06-06" showAs="John Deasy"/>
+        <TLCPerson eId="MarieHoctorFF" href="/ie/oireachtas/member/id/Máire-Hoctor.D.2002-06-06" showAs="Máire Hoctor"/>
+        <TLCPerson eId="MichaelMcDowellPD" href="/ie/oireachtas/member/id/Michael-McDowell.D.1987-03-10" showAs="Michael McDowell"/>
+        <TLCPerson eId="PaulMcGrath" href="/ie/oireachtas/member/id/Paul-McGrath.D.1989-06-29" showAs="Paul McGrath"/>
+        <TLCPerson eId="PeterPowerFF" href="/ie/oireachtas/member/id/Peter-Power.D.2002-06-06" showAs="Peter Power"/>
+        <TLCPerson eId="SeanArdagh" href="/ie/oireachtas/member/id/Seán-Ardagh.D.1997-06-26" showAs="Seán Ardagh"/>
+        <TLCPerson eId="SheilaTerry" href="/ie/oireachtas/member/id/Sheila-Terry.S.2002-09-12" showAs="Sheila Terry"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_for_Justice,_Equality_and_Law_Reform" href="/ie/oireachtas/role/minister/justice__equality__law_reform" showAs="Minister for Justice, Equality and Law Reform"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>COMHCHOISTE UM DHLÍ AGUS CEART, COMHIONANNAS, COSAINT AGUS CEARTA NA mBAN</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>JOINT COMMITTEE ON JUSTICE, EQUALITY, DEFENCE AND WOMEN’S RIGHTS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2003-12-09">Dé Máirt, 9 Nollaig 2003</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2003-12-09">Tuesday, 9 December 2003</docDate>
+      </block>
+      <block name="volume">
+        <docNumber refersTo="#vol_1">Vol. 1</docNumber>
+      </block>
+      <block name="number">
+        <docNumber refersTo="#no_46">No. 46</docNumber>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Joint Committee met at 9.30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">Members Present:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#JoeCostelloLAB">Deputy J. Costello,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PaulMcGrath">Deputy P. McGrath,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JohnDeasyFG">Deputy J. Deasy,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#PeterPowerFF">Deputy P. Power,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MarieHoctorFF">Deputy M. Hoctor,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#SheilaTerry">Senator S. Terry,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#FinianMcGrath">Deputy F. McGrath,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#JimWalsh">Senator J. Walsh.</person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">*In the absence of Deputy D. McGinley.</summary>
+          <summary eId="sum_4">In attendance: Deputy A. Ó Snodaigh.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#SeanArdagh">
+   DEPUTY S. ARDAGH in the chair.
+  </person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Review of Criminal Justice System: Presentations.</heading>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_9">I welcome our guests who appear before the joint committee today. I also welcome back the viewers of TG4 who are following this series of hearings over six days as part of our legislative and administrative review of the criminal justice system. This is the sixth and final hearing. These meetings have been organised in the context of real public concern at recent developments and questions being asked as to whether there is a need for reform of certain areas of the criminal justice system.</p>
+          <p eId="para_10">To date, the joint committee has met Victim Support; the probation and welfare service; Dr. Gerard Hogan, an academic; the Law Society of Ireland; Dr. Paul O'Mahony, Trinity College; the Irish Prisons Service; the Irish Human Rights Commission; the Bar Council; the Irish Council for Civil Liberties; the Courts Service; Professor Ivana Bacik, a barrister and Reid Professor of Criminal Law, Trinity College; the Director of Public Prosecutions, Mr. James Hamilton; the Association of Garda Sergeants and Inspectors; Mr. Barry Galvin, former legal officer, Criminal Assets Bureau; and Professor Finbarr McAuley, acting director, Institute of Criminology, University College Dublin.</p>
+          <p eId="para_11">Today, we are meeting the Minister for Justice, Equality and Law Reform, Deputy McDowell, and the Commissioner of the Garda Síochána, Mr. Noel Conroy. Following the hearings, a report will be presented to the Minister containing the text of the relevant submissions received and the recommendations of the joint committee as to what legislative and-or other changes are necessary to bring about an improvement of the current situation. The intention is that the Minister and the Garda Commissioner will each make a brief presentation. After the Minister has spoken, a number of members of the joint committee will put questions. We will conclude, following a brief general discussion, before 11.30 a.m.</p>
+          <p eId="para_12">Before the Minister begins, I emphasise that we want to ensure we do not in any way jeopardise legal proceedings. The Garda Commissioner will be joining us at approximately 10.20 a.m. before which he must deal with an important matter.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" as="#Minister_for_Justice,_Equality_and_Law_Reform" eId="spk_2">
+          <from>Minister for Justice, Equality and Law Reform (Deputy McDowell)</from>
+          <p eId="para_13">I thank the joint committee for the invitation to come before it today. I also express my sense of gratitude and obligation to its members for all of the work they have done over the period in listening to, considering and questioning a number of people on the valuable contributions they made. It would be wrong of me to allow this occasion go by without stressing the importance, before any changes are made in our criminal procedures and criminal law, of taking a rounded view and that all sides of the argument should be heard and all points of view taken into account.</p>
+          <p eId="para_14">As members will be aware, I have already submitted to the joint committee a document which, I think, most of them have received. It is not my intention to read it out this morning because members have had more than enough time to consider it and draw their own conclusions. I also do not want to take up too much time which I presume the committee would prefer to spend on questions and answers and interaction on the subject rather than on me simply setting out my stall.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_3">
+          <from>Chairman</from>
+          <p eId="para_15">I thank the Minister for the comprehensive submission. Members have had a copy for a number of days and all of its contents will be fully taken into account when we consider and make recommendations.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_4" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_16">Although most criminal activity is generally well covered by the existing extensive criminal law, due to the nature and inventiveness of criminals and the changing pattern in crime in society, it is necessary to constantly review our criminal law. For that reason I stress that I am open to constructive suggestions for its modernisation, strengthening and improvement.</p>
+          <p eId="para_17">On the debate which has been going on in recent weeks on this subject, a number of suggestions have been made on which the joint committee will be required to focus in the course of the deliberations leading to its report. One of these suggestions is that the Minister for Justice, Equality and Law Reform should provide for an offence of membership of a criminal gang, having regard, in particular, to the provisions which can be used against subversive organisations in the context of the Offences Against the State Acts, on which I understand the Director of Public Prosecutions gave the committee useful material yesterday. I do not propose, therefore, to repeat what he said, except generally to indicate my agreement with the line he took. If the committee is examining this issue, it is important to understand the difficulties presented by any attempt to simply outlaw membership of a criminal gang.</p>
+          <p eId="para_18">Organisations such as the IRA are well known, have a clear agenda and a certain fixity of organisation and structure, although, as a member of the joint committee stated on a previous occasion and I agree, they do not publish minutes or put advertisements in the newspapers for their AGMs. In reality, however, it is a matter of fact whether a person is a member of such a paramilitary organisation.</p>
+          <p eId="para_19">Some criminal gangs are structured to the point of constituting criminal organisations. I note that the European Union and the Council of Europe, in their view of the organised crime issue, differentiate between structured and unstructured criminal gangs. It is important that we bear this in mind. Most criminal gangs are not likely to have permanency of organisation or any particular agenda apart from the enrichment of their members. Those who come together to commit a particular offence may part company at any stage and there may or may not be a fixed relationship between the parties. If there is, it may be impossible to prove. If the person with whom a criminal is known to associate regularly is a member of his or her family, are such relatives to be counted as members of a gang? According to the best information available to me, relationships in criminal gangs are fluid. Alliances are temporary. People float in and out of connection with each other in the pursuit of crime. These gangs are not like organised crime structures such as the Mafia and triads, and do not attempt to own assets in the corporate sense. I say this, in particular, regarding the relatively recent phenomenon of younger members of gangs involved in the drugs trade. They do not have joint assets or any structure. They do not have any permanency of membership. They are, in effect, <i>ad hoc </i>alliances which come and go.</p>
+          <p eId="para_20">In the context of subversive organisations and the provisions of the Offences Against the State Acts, it is obviously easier to prove that a person is a member of an illegal organisation if that organisation has been proscribed by law, in other words, under the Acts, there is an elaborate procedure for the declaration of an organisation as unlawful. Where this happens, notices are published in the newspapers. Where that happens, the organisation is given the opportunity to challenge its proscription in the courts. Where this happens, its assets effectively become forfeit to the State.</p>
+          <p eId="para_21">Clearly, these concepts are not applicable to three, four or five people who have no joint assets, no joint organisation and who just are collaborating together casually to commit crime. It is much more difficult to prove membership of a group which has no permanency, which groups and regroups over time, and where its membership depends on circumstances and changing relationships.</p>
+          <p eId="para_22">Recently the European Union, in a joint action on participation in a criminal organisation adopted in 1998, and the United Nations, in the convention on transnational organised crime, have established a definition in this respect. Both definitions are similar and are also similar to a Canadian provision to which Deputy Deasy referred on a number of occasions in Dáil Éireann. The EU joint action and the UN convention require that the organisation must in some sense be structured or structural, as I have said.</p>
+          <p eId="para_23">In general the international instruments provide that parties to the instrument should deal with organised crime in their legislative provisions either by making it an offence for a person to agree with others to carry out certain serious crimes or by making it an offence to actively take part in the activities of a criminal organisation or other activities with intent and knowledge of either the aim or general criminal activity of the group. Deputy Deasy mentioned the Canadian criminal code, which is a very interesting precedent in that regard.</p>
+          <p eId="para_24">It should be remembered that in our system the prosecution must prove the essential ingredients of an offence beyond reasonable doubt. In the case of an illegal organisation under the Offences Against the State Act, such as the IRA, the status and existence of an illegal organisation is proved beyond reasonable doubt by the legal powers of prescription. The same could not apply to loose alliances. I am examining the definitions in the EU and UN instruments with a view to bringing forward legislation to give effect to those instruments. I will of course be interested in considering the Canadian definition and in ascertaining whether a similar approach would be useful to us in dealing with our own brand of home-grown, organised criminal gangs.</p>
+          <p eId="para_25">There is a very considerable corpus of criminal law now. Members of this committee will be aware from the hearings over the last couple of weeks, but sometimes members of the general public are not so aware, that we have been constantly modernising our law. In the wake of the Omagh bombing, for instance, very serious offences were created in regard to persons who subvert justice.</p>
+          <p eId="para_26">One area of the law which I have long believed requires strengthening is the substantive criminal law in regard to people found in possession of items, documents or things which could have a reasonable explanation but from which, in particular circumstances, it is reasonable to draw an inference that the possession is for the purpose of committing a criminal act. I have personal knowledge of a person who was found with detailed drawings of another's home and route to and from work. All the circumstances of the documentation made it clear that a kidnap attempt was being planned.</p>
+          <p eId="para_27">To be in possession of those kinds of documents should be a serious, indictable offence where the only reasonable inference is that they are being held for the purpose of committing a serious offence. Likewise, consider where people are found in possession of, say, boiler suits, walkie-talkies, balaclavas and plastic tie-ups. None of those in themselves, viewed separately, are, by definition, evidence of a criminal intent but taken together, and finding them, say, in a van, would give rise in most cases to the reasonable inference that the person was planning a serious, indictable offence.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_5">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_28">It could be a journalist.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_6" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_29">Yes, I accept that it could be a journalist or could be an electrician who just liked balaclavas and walkie-talkies. Bearing in mind, however, that the onus of proof is on the prosecution, offences of that kind should be put on the Statute Book. The criminal law is weak in that respect and could be strengthened.</p>
+          <p eId="para_30">There has been mention of use of the Special Criminal Court, and I wish to say one or two things about that. Under our existing law the Director of Public Prosecutions is given the independent, quasi-judicial function of selecting the Special Criminal Court as a venue for a criminal trial where he is of the opinion that the ordinary courts are inadequate for the due administration of justice. As far as I know, virtually no indictable crime of any seriousness could not in principle be tried before the Special Criminal Court.</p>
+          <p eId="para_31">Some people have said that all criminal gang cases should be sent to the Special Criminal Court. However, a very significant proportion of bank robberies and ordinary day to day crime involve more than one or two participants. It would not be possible under the Constitution for the Director of Public Prosecutions to make a categorical decision that all of those cases go to the Special Criminal Court. His motive for sending a case to the Special Criminal Court is that the ordinary courts are inadequate to discharge the constitutional function of administering justice. He cannot be motivated by a desire to improve his prospects of conviction because he thinks his case might be less acceptable to juries. This power must only be used where there are some objective grounds for considering that a jury trial is not possible in the particular circumstances of the case.</p>
+          <p eId="para_32">People have suggested that the opinion of a chief superintendent should be allowed into evidence on the basis that he could say it was his opinion that somebody was a member of a gang. To go down that road, however, would require the fulfilment of a number of criteria. He must have a clear view of what the gang was and who all its members were. The gang would have to be more than just a temporary alliance of people to commit a particular offence. Very serious questions would arise if we were to take this approach and make this a general provision of our law, not least of which would be a likely challenge on constitutional grounds and in the European Court of Human Rights. In those circumstances we might risk doing more damage than good to our criminal justice system in a number of ways.</p>
+          <p eId="para_33">Powers of investigation have been mentioned. On foot of a report submitted to the Department of Justice, Equality and Law Reform, I have prepared the general scheme of a criminal justice Bill to deal with powers of arrest. It will extend this power to certain common law offences so that conspiracy, for instance, which frequently arises in the context of joint actions and gang activities, should become a fully arrestable offence. That will be contained in the new Bill which will come before the House in the next session. Search powers need to be significantly strengthened, and that will also be addressed in the Bill.</p>
+          <p eId="para_34">Detention powers are a bit of a mosaic at present. For suspected drug trafficking there can be a detention for up to seven days, with judicial supervision of later extensions. Section 30 of the Offences Against the State Act allows for detention for up to 48 hours, made up of an initial 24-hour detention and a subsequent 24-hour detention. Section 10 of the Offences Against the State (Amendment) Act 1998 provides for a further extension of 24 hours on the authority of a District Court judge.</p>
+          <p eId="para_35">Ordinary, run of the mill arrestable offences are dealt with under the Criminal Justice Act 1984. In those cases there are 12 hours of detention, made up of a six-hour initial period for detention with scope for a further six-hour period on the authority of a senior member of the Garda Síochána. In that context, the committee of experts established by my predecessor recommended a lengthier period of detention that 12 hours. It suggested a 48-hour period of detention for a serious offence punishable by more than ten years' imprisonment. To put it in context, that would mean that a mugging offence, which is a form of robbery or assault with intent to rob and which carries a potential sentence of life imprisonment, would fall into the 48-hour category. In this area we need to balance civil liberties with the proper investigative needs of a society dealing with criminal activity. I have proposed to the Government that we should set 24 hours as the period of detention under the 1984 Act, which can be amended to that effect. That is in the scheme of a Bill which has been approved by the Government for presentation to the Oireachtas next term. The committee members might have different views. Some might believe we should go further and revisit the proposal made by the committee chaired by Eamon Leahy that it be 48 hours. However, having spoken to senior gardaí, I believe the second period of 24 hours is little used and has implications for civil liberties. I am interested in hearing the committee's views on that subject.</p>
+          <p eId="para_36">The Criminal Justice (Forensic Evidence) Act 1990 provided for the taking of certain bodily samples, something we have discussed previously with the committee. They are samples such as blood, which are taken with written consent, and are referred to as "intimate samples". Other samples can be taken without consent. They are hair, other than pubic hair. These are referred to as "non-intimate samples". In the forthcoming criminal justice Bill I will propose a number of amendments to that Act. I propose to reclassify saliva from an intimate to a non-intimate sample. In other words, it will be removed from the category of blood, which requires consent, and put into the same category as hair combings. I have described the way saliva samples are taken on a number of occasions to the House and this committee. It involves introducing an item resembling a large cotton bud into the area of one's mouth between the teeth and the cheeks and rubbing the inside of the cheek. That removes enough skin cells and saliva to give a good and reliable DNA test.</p>
+          <p eId="para_37">The Bill proposes to extend the period during which such samples can be retained without being destroyed from six to 12 months. I am wholly unimpressed by the notion of destroying samples. If I am arrested for an offence, I do not believe my civil liberties are in any way improved by my saliva sample being kept in a fridge or on a wall somewhere or by being destroyed. My civil liberties do not suddenly improve because the sample is taken away and destroyed. There have been cases, and a clear one quite recently, where old samples have been used to prove serious crimes.</p>
+          <p eId="para_38">My preliminary view is that we should reconsider the question of destroying samples. My preference is to remove limits on the preservation of samples and fingerprints. I do not believe any useful civil liberties interest is served by the destruction of fingerprints or samples taken in the course of criminal investigations. Again, however, I would be guided by a consensus view of this committee. It may be that I am being cavalier with civil liberties on that account and I have asked the Law Reform Commission to examine the issue as well. Once a sample has been taken, there has been interference with one's liberty. What happens to it after that, whether it is destroyed or preserved, is not a proper civil liberties issue.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_7">
+          <from>Chairman</from>
+          <p eId="para_39">The Minister has five minutes to conclude.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_8" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_40">A DNA data bank is currently being considered by the Law Reform Commission. I have set out in the paper the present situation on the issue of unco-operative witnesses. There is scope for amending the law to bring it into line with the Canadian system. That means that when witnesses make a formal statement in verifiable circumstances of their potential testimony as to factual matters, the statement should, in certain circumstances and with adequate safeguards, be capable of being put to them in court and relied on as evidence of its own facts, not merely as evidence tending to subvert the credibility of the witness.</p>
+          <p eId="para_41">The committee heard the views of the Director of Public Prosecutions yesterday on the witness security programme. My view is no different. Both witnesses and jurors can be better protected in our court system. We are a little casual about that. The Director of Public Prosecutions mentioned, and I strongly support him on this, that our courts and the procedure with witnesses facilitate a great deal of informality. People are allowed to crowd into the courts and to mingle with others in circumstances where the scope for intimidation exists. In a neighbouring island, a witness in a court case is not allowed to loiter around the court and listen to what happens before and after giving evidence. Witnesses are, as a matter of course, kept out of the court and in a protected situation.</p>
+          <p eId="para_42">I endorse the director's comments about the design of our court rooms and the access to certain portions of them. We could do a great deal more to make both witnesses and jurors more secure by taking a tougher approach to who gets access to what part of the court room. We should use the public galleries which are, in my experience, largely unused in most courthouses. All the jury courts in the Four Courts have a gallery which is generally kept locked and from which the public could watch proceedings without necessarily rubbing shoulders with witnesses. The time has come, particularly in Dublin, for the establishment of a proper, dedicated criminal court building, where this segregation could be better achieved. The Courts Service is in discussions with the Department of Finance about the provision of such a building.</p>
+          <p eId="para_43">I have given the committee my views on the protection of jurors. Many of the issues that arise in this area are complex but can be easily overcome. America, for example, is much more protective of its juries than this country. I agree with the Director of Public Prosecutions about a right of appeal for the prosecution and I intend to include that in the criminal justice Bill to be introduced next year.</p>
+          <p eId="para_44">My final point relates to the acceleration of the prosecution process across the board. This involves speeding up Garda investigations, making decisions on them at Director of Public Prosecutions level, the initial process of getting accused persons to court and the trials. I take the director's point, and the same point was made privately to me by the Judiciary, that we need more criminal judges to deal with serious cases. That is bad news for the Department of Finance but it must be done. It does not come out of my Department's budget because judges are paid out of the central fund. I am interested in hearing the views of the committee on the number of judges we need to devote to the criminal justice process.</p>
+          <p eId="para_45">It is wholly unacceptable that there should be substantial waiting lists such as those we have at present. I have said as much privately and publicly on many occasions. It is unfair to both the accused and the victims of crime that they should have to wait lengthy periods before cases are prosecuted. It is unnecessary. The United Kingdom has a similar system but criminal trials take place much quicker there than here. It has a better management system.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_9">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_46">The Minister has been in office for 18 months.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_10">
+          <from>Chairman</from>
+          <p eId="para_47">We have a system here as well.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_11" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_48">I am not in charge of the Judiciary or, despite Deputy McGrath's comments, of the Director of Public Prosecutions. I am not in a position personally to order the speeding up of the prosecution process. That process requires a number of interested parties, the Judiciary, the wholly independent constitutional office of the Director of Public Prosecutions and the Garda Síochána, to co-operate in a measure together.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_12">
+          <from>Chairman</from>
+          <p eId="para_49">Will the Minister, please, complete the points made in his initial submission?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_13" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_50">When I took office, I discovered a pattern of the parole service beginning the process of the review of life sentences after seven years. It was frequently the case that people were let out on temporary release after serving nine or ten years of a life sentence for murder. That is wholly unacceptable, and I have said so, both privately and publicly. I am indicating yet again that no person sentenced to life in prison should be released in less than 12 years and that the great majority of murder cases should not result in a temporary release programme taking effect less than 15 to 20 years into the sentence. This is necessary because there is a public perception that a life sentence is not substantial. The time has come for everyone who uses or contemplates using violence to understand that if he or she takes the life of another citizen, he or she should expect to spend the great majority of his or her adult years in prison.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_14">
+          <from>Chairman</from>
+          <p eId="para_51">I have some questions for the Minister. A question that has exercised all members, as well as those who made submissions, is that of the delay in getting cases to trial. The Minister said he would look at speeding up the process of investigation and preparing the file for the Director of Public Prosecutions. Is the reason for the tardiness in the investigative and DPP process the fact that it will take two years to get a case to trial and that even at that point the case may be adjourned? The Director of Public Prosecutions said the allocation of three judges to the Central Criminal Court would help to reduce the caseload significantly and bring it back on track. All of the submissions highlight this obvious need but when will it be done?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_15" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_52">The analysis of the Director of Public Prosecution is correct in so far as it goes but it missed one point, that is, there is not a significant delay in the Circuit Court which deals with the vast majority of indictable crime. The Circuit Court is on top of its job——</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_16">
+          <from>Deputy P. McGrath</from>
+          <p eId="para_53">What about extra judges?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_17" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_54">Generally, the Circuit Court is on top of its job, there are not significant delays. It may be that in some places that is not the case but as a general rule, the Courts Service has reported to me——</p>
+        </speech>
+        <summary eId="sum_6">(Interruptions).</summary>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_18">
+          <from>Chairman</from>
+          <p eId="para_55">The Minister will be asked questions and will answer them. Members will have an opportunity to ask him questions.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_19" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_56">I do not expect courtesy on this occasion but I expect members——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_20">
+          <from>Chairman</from>
+          <p eId="para_57">Members of the committee have been courteous to all those who have attended. I am sure they will be courteous to the Minister.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_21" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_58">I would have expected that when the Chairman asked a question, he was entitled to an answer. I will answer his questions in spite of the interruptions.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_22">
+          <from>Chairman</from>
+          <p eId="para_59">I do not need protection, I want an answer.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_23" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_60">I reiterate - I say this clearly in case there should be any doubt about it - that it is not the case that the present culture of delay is wholly ascribable to the absence of judges. I make that point very clearly. There are courts that are well on top of their business. In their case there are nonetheless very significant delays between the time of arrest and when the person is put forward for trial. It is a systemic problem which has to be addressed between the Director of Public Prosecutions and the Garda Síochána. Whereas I agree with the Director of Public Prosecutions on extra judges being required for the Central Criminal Court, there is an unacceptable delay between people being detected for offences and a decision being made to charge and prosecute them and putting them on trial.</p>
+          <p eId="para_61">The delay in Ireland is significantly longer than in the United Kingdom. One of the reasons is that we have a much more relaxed bail regime and that there is not so much pressure from within the system for early trials. In the United Kingdom bail is much more restricted than in Ireland. As a consequence, lawyers for the accused are always trying to get a trial date quickly and there is pressure on the system because the accused is very frequently being kept in prison pending trial. In Ireland people are released on bail on a liberal basis compared with most common law countries. As a consequence, we have a more relaxed culture in the preparation of the book of evidence and its being brought forward for trial.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_24">
+          <from>Chairman</from>
+          <p eId="para_62">It is obvious from the committee hearings that there is a general need to speed it up. On the question of pre-trial hearings, another matter addressed by the Director of Public Prosecutions as well as by a number of those who made submissions, is the length of time juries are spending in court twiddling their thumbs while lawyers argue items that should have been argued prior to the trial commencing. Is a system of pre-trial hearings contemplated?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_25" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_63">I agree strongly with the Chairman. It is a waste of a jury's time to empanel it and then send it away for a fortnight while lawyers argue whether the confession of the accused is admissible. If the sequence was put in a different order and the determination of admissibility was made first, in those circumstances prolonged absences of the jury from the trial process could be avoided. It is not necessary to provide for this in statute but in so far as the Judiciary believes a statutory arrangement would be of assistance in reversing that order, I will be happy to oblige.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_26">
+          <from>Chairman</from>
+          <p eId="para_64">On the question of witness protection - I am not talking about protecting witnesses from murder or death - witnesses may be intimidated by people looking at them; eyeing them up; passing their houses and so on, and also by the fact that they do not have a separate area from the accused in the courthouse. The Laganside Courthouse in Belfast was mentioned. There is a question of travelling on trains from rural areas to Dublin where the witness and the accused meet on the train, which can be very intimidating. There is the question of what happens around the courthouse. In a number of submissions various people commented on the architecture of courthouses and the fact that there are not separate rooms for witnesses and the accused. How will the Minister deal with these issues?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_27" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_65">I certainly agree with the Chairman. My experience as a barrister for more than 25 years is to the effect that there is a scrum in most courthouses of witnesses, potential jurors, gardaí, members of the accused's family and the potential list of witnesses. In most courts the situation is chaotic. There is no reason we should not have a system which segregates people by category and which protects and keeps separate prosecution witnesses. This does not require any type of statute to be put in place but an agreement between those in charge of prosecutions such as the Director of Public Prosecutions, the Garda and the Courts Service.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_28">
+          <from>Chairman</from>
+          <p eId="para_66">As regards the constitutional rights of the defendant and the victim, it has been stated the constitutional rights of the defendant far outweigh those of the victim in so far as the defence can outline at the trial in court the reasons the client should not be found guilty, while such advance notice is not given to the prosecution which must tell the defence what is happening. This seems to suggest that an inquisitorial rather than an adversarial position has been adopted. A balance must be struck between the inquisitorial and adversarial systems. The constitutional rights of the defendant should be balanced against those of the victim.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_29" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_67">Constitutional rights cannot be changed, except by amending the Constitution. It is not a matter of me coming up with a proposal to change people's constitutional rights. Bearing in mind the constitutional right of everyone under Article 40 to have his or her right to life, liberty and property protected, the State is getting the balance wrong within the constitutional framework.</p>
+          <p eId="para_68">As regards the proposition about the right of the accused to ambush the prosecution with witnesses and facts not drawn to the prosecution's attention, that is a serious issue. It arises because the accused is not obliged to give evidence in an Irish system as the State undertakes to offer proof beyond reasonable doubt on its own account. Heretofore in Irish law we have not had a situation where the accused is bound at any point to outline to the jury or the prosecution the grounds of his or her proposed defence. There is no constitutional reason we should not amend the law to require an accused person to indicate the substance of his or her defence in advance. This is done in a limited way in the context of alibi evidence. If the nature of one's defence is that one was not at the scene of the crime but somewhere else, one is not allowed to bring this evidence to one's trial unless prior notification has been given to the prosecution. That is one clear case in which the Oireachtas has provided by its law that there should be an exception to the general proposition that the accused does not need to reveal his or her hand in the trial process.</p>
+          <p eId="para_69">It would greatly shorten the trial process if the accused was required to submit some type of written defence rather than just a plea of not guilty. It should be clearly indicated in a formal and binding manner whether he or she is admitting that he or she was at the scene of the crime and challenging the evidence of identification before the court or whether he or she is admitting that he or she was involved in a fracas and the defence in the case will be self-defence or provocation in order that the prosecution knows going into a court case what type of case it will meet. I do not believe this would breach anyone's constitutional rights in principle. However, we must bear in mind, as a counter-balancing measure, that if we place on the accused the obligation to outline his or her defence to the Garda or the Director of Public Prosecutions, it will be later alleged that the Garda pressurised the witnesses due to be called in support of a defence. This has already happened in my experience. People have made this accusation in respect of alibi evidence. They said they had good alibi witnesses but when the Garda checked the story, the witnesses were frightened and would not go to court.</p>
+          <p eId="para_70">I am interested to hear the views of the members of the joint committee on the argument that one should require an accused person to outline all the evidence for examination by the Garda in advance. The Garda has significant powers of investigation. It can call on people and check out their stories. It can put them through the ringer in terms of their credibility by interviewing them in advance of a case. The lawyers for the accused argue in many cases that they do not have the right to go to the prosecution witnesses and ask them to repeat everything again.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_30">
+          <from>Deputy Deasy</from>
+          <p eId="para_71">The Minister has said many things are unacceptable. However, when asked what he will do about it, he passes the buck to the Garda, the Director of Public Prosecutions and the Courts Service. We need leadership on these issues. People have repeatedly said at these hearings over the past two weeks that the issue is not about introducing new legislation but about enforcing existing laws. We are talking about good policing. The AGSI said yesterday that regular units offering a front line response service to the public were reduced to skeleton staffing levels. Mr. Barry Galvin said crime levels were unacceptably high and that resourcing the Garda was the issue. The Minister has concentrated on passing legislation since he took office. He has not prioritised the issue of policing. The people who have come here for the past two weeks have reinforced the fact that the Minister is out of touch and has missed the point. This has little to do with new legislation. If the Minister concentrated on enforcing existing laws rather than on trying to pass a raft of new legislation, we would all be better off.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_31">
+          <from>Chairman</from>
+          <p eId="para_72">The Deputy should ask a question because we are trying to review the system.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_32">
+          <from>Deputy Deasy</from>
+          <p eId="para_73">What will the Minister do? Is he out of touch? Has he missed the point? That is what the people who have come here for the past two weeks have said.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_33" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_74">I express my regret but I am not surprised that Deputy Deasy is taking this opportunity to trade remarks rather than ask questions.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_34">
+          <from>Deputy Deasy</from>
+          <p eId="para_75">That is what the people said.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_35" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_76">As regards the points the Deputy raised, since my appointment as Minister, I have been engaged full time in the process of Garda reform. I have an ongoing and close relationship with the previous and present Commissioner. I encourage them to use the resources they have and discuss with them on a day by day basis the needs of the Garda Síochána. I have not refused them any financial resources for which they have asked.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_36">
+          <from>Deputy Deasy</from>
+          <p eId="para_77">Did the Minister read the submission from the AGSI?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_37" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_78">I am telling the Deputy the truth.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_38">
+          <from>Deputy Deasy</from>
+          <p eId="para_79">Did the Minister read it?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_39" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_80">I am telling the Deputy the truth.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_40">
+          <from>Deputy Deasy</from>
+          <p eId="para_81">Is the AGSI lying?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_41" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_82">I am not suggesting anyone is lying. I am telling the Deputy the truth. I have at every stage sought to bring forward a modernisation programme within the Garda Síochána which does not entirely depend on legislation but which requires a legislative underpinning. The Garda Síochána has not had the level of resourcing it is getting and will get next year. It has not had more members or technical facilities available to it. It is doing a good professional job. I am tired of people constantly running it down. When I told members of the joint committee and the Dáil that the crime figures were down, as they have been, the constant refrain I got was that the figures were not credible, that people were under-reporting crime. I must deal with the figures I get from the Garda Síochána and, as far as I am concerned, they are winning the fight against crime and the figures show it. The doubting Thomases opposite distrust the figures the gardaí are supplying. I do not; I believe the figures are genuine and the trends are good.</p>
+          <p eId="para_83">We are here for a number of reasons, to see how, on an administrative and legislative basis, the tide can be turned more firmly in favour of the forces of law and order and against those who breach the criminal law. In this battle I will not let one front down and concentrate totally on the other. The Garda does need extra powers and I intend bringing them in. The structure of the Garda Síochána needs modernisation and I intend doing that. However, I do not intend flinging resources at an organisation which needs reform without addressing my responsibility to reform it. Nor do I intend to send out gardaí with inadequate laws, for instance, on the preservation of evidence, as they are required to do at present. That is why I am bringing forward the Criminal Justice Bill.</p>
+          <p eId="para_84">I reject completely Deputy Deasy's superficial and glib approach, which is constant in all of these matters, that somehow I am being academic or operating at a legislative basis, and not providing the gardaí with the resources they need on the ground. I have endeavoured at Cabinet to get the Garda every last cent I can get for them and as next year's Estimates show,——</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_42">
+          <from>Deputy Costello</from>
+          <p eId="para_85">Can we have a few extra gardaí?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_43" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_86">——I have been extremely successful. I have given the Garda resources which none of my predecessors have ever done.</p>
+          <p eId="para_87">I have taken every possible step to promote, and give every possible encouragement to, the deployment of gardaí from non-essential tasks to essential tasks. If one looks around the streets of our cities - in Cork and Dublin, in particular, and in Limerick - one will see that there are more gardaí now on the street doing the job of policing.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_44">
+          <from>Deputy Costello</from>
+          <p eId="para_88">That is not what we were told yesterday.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_45">
+          <from>Senator Terry</from>
+          <p eId="para_89">The Minister should——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_46">
+          <from>Chairman</from>
+          <p eId="para_90">Deputy Deasy is in possession. Let us make this inquisitorial rather than adversarial.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_47">
+          <from>Deputy Deasy</from>
+          <p eId="para_91">On that question, the AGSI quoted the following figures yesterday: 455 in 1985; and 371 in August 2003. That is a reduction of 85. The Minister's point is nonsense.</p>
+          <p eId="para_92">My second question is about the state of morale within the Garda Síochána. The Minister has made a pathetic attempt over the past couple of weeks to point the finger at Opposition spokespersons when it comes to the lowering of Garda morale. It was a most ill-judged attack on them. When one asks the gardaí themselves who they blame for the lowering of morale, they say it is the Minister. This is a major issue of law enforcement and policing in Ireland. When I find young gardaí telling me that they are talking about getting out and when one looks at the retirement rate figures, there is a massive fleeing from the Garda.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_48" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_93">That is not true.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_49">
+          <from>Deputy Deasy</from>
+          <p eId="para_94">It is true.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_50">
+          <from>Deputy P. McGrath</from>
+          <p eId="para_95">It is, and there is something wrong.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_51">
+          <from>Chairman</from>
+          <p eId="para_96">Deputies, can you put that in the form of a question to which the Minister can reply?</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_52">
+          <from>Deputy Deasy</from>
+          <p eId="para_97">This is the issue. The fact of the matter is that because of ill-judged, ill-advised statements——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_53">
+          <from>Chairman</from>
+          <p eId="para_98">Deputy,——</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_54">
+          <from>Deputy Deasy</from>
+          <p eId="para_99">Excuse me, Chairman, you cannot censor what I am going to ask. I am going to ask a question.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_55">
+          <from>Chairman</from>
+          <p eId="para_100">——please ask the question. We are here to review of the criminal justice system.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_56">
+          <from>Deputy Deasy</from>
+          <p eId="para_101">The Minister went on for 45 minutes.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_57">
+          <from>Chairman</from>
+          <p eId="para_102">We are not here just to have a political war between the spokesman for Fine Gael and the Minister.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_58">
+          <from>Deputy Deasy</from>
+          <p eId="para_103">This is the issue. The issue is to do with policing.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_59">
+          <from>Chairman</from>
+          <p eId="para_104">Do you have a question?</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_60">
+          <from>Deputy Deasy</from>
+          <p eId="para_105">The people who came in here over the past two weeks say this is the issue.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_61">
+          <from>Chairman</from>
+          <p eId="para_106">The committee agreed to ask questions. Please ask a question, Deputy Deasy.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_62">
+          <from>Deputy Deasy</from>
+          <p eId="para_107">What is the Minister doing about the retirement rate and the lowering of morale within the Garda Síochána? The fact is that many gardaí, once they get the benchmarking, will leave the Garda Síochána and morale has never been as low. The reason is because——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_63">
+          <from>Chairman</from>
+          <p eId="para_108">I do not want to hear the Deputy's reason.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_64">
+          <from>Deputy Deasy</from>
+          <p eId="para_109">——of ill-advised statements which the Minister has made recently.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_65">
+          <from>Chairman</from>
+          <p eId="para_110">Minister, can you please reply to the question that was put about the retirement of gardaí?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_66" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_111">Every garda is entitled to retire from the Garda Síochána on full pension when he or she has completed 30 years' service and reached the age of 50. They are not obliged to do so until they reach the age of 57. That is their legal entitlement and they are free to make their own decision, between the ages of 50 and 57, as to when they want to go. If I were to interfere with that unilaterally, Deputy Deasy would be the first to realise it and I would be inundated with accusations of changing the rules of the game against their interest.</p>
+          <p eId="para_112">I can tell the Deputy that in the course of the next 12 months the Garda Síochána will achieve a record full-time strength of 12,200. The recruitment is - I am assured by the Garda Síochána that this is correct - adequate to ensure that, notwithstanding the projected rate of retirement, the number of gardaí in the service by the end of 2004 will be an all-time record high of 12,200.</p>
+          <p eId="para_113">I did not come here for an adversarial barney with Deputy Deasy but I want to say this: morale in the Garda Síochána can be talked down by people in public. I prefer to support the Garda Síochána and to see the positive side.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_67">
+          <from>Deputy Deasy</from>
+          <p eId="para_114">There is no use——</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_68" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_115">When, in the House recently, I reported that public order offences were down by one third in Cork, for instance, I was told that my figures were wrong. They are not. Good policing in Cork has achieved very significant results and I commend the gardaí for it. I do not talk down Garda morale. I do not report constantly what young gardaí or old gardaí are saying on a bar stool beside me. I speak by reference to what the Garda Síochána is doing.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_69">
+          <from>Deputy Deasy</from>
+          <p eId="para_116">The Minister needs to start talking to a few of them. If he did, it might do him some good.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_70" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_117">It is a professional force.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_71">
+          <from>Deputy Deasy</from>
+          <p eId="para_118">Excuse me, that is insulting.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_72" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_119">The Deputy's behaviour here is nothing short of scandalous.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_73">
+          <from>Deputy Deasy</from>
+          <p eId="para_120">May I ask three questions or two?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_74">
+          <from>Chairman</from>
+          <p eId="para_121">I am afraid that took over 14 minutes.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" eId="spk_75">
+          <from>Deputy Deasy</from>
+          <p eId="para_122">You allowed the Minister to go on for 45 minutes and I would suggest that you allow an extra quarter of an hour for all the members to ask the Minister a question.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_76">
+          <from>Chairman</from>
+          <p eId="para_123">Deputy Costello will ask questions of the Minister and then we will go to the Garda. Then there will be a general discussion to which Deputy Power, Senator Terry, Deputy Finian McGrath and Deputy Paul McGrath will contribute.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_77">
+          <from>Deputy Costello</from>
+          <p eId="para_124">I welcome the Minister. Deputy Deasy was correct to focus on the issue of policing and enforcement. It is wrong of the Minister to counterattack by blaming the Opposition and, indeed, Deputy Deasy, for in some way undermining the morale of the Garda. The Minister is on record stating that gardaí have taken bribes and that he will not tolerate them leaking to the media. Let us not have the Minister saying that it is the Opposition who undermine the Garda. We have always spoken out strongly in favour of the Garda.</p>
+          <p eId="para_125">My question relates to the other side of the criminal justice system, the administration of justice. Over the past number of days, people have come here effectively stating that the Minister is presiding over a system chaotic in the manner in which it does its business. The gardaí who addressed the committee outlined the way they must operate when it dealing with the courts. It is incredible. In their evidence to the committee, the DPP and a delegation from the Courts Service have criticised the system. Everybody who is a client of, or consumer in, the system referred to the delays in the courts and to the scrum that takes place there. Why should a system like that continue in such a manner? Where is the guiding hand that will bring together the main participates and say that we will not waste time with pre-trial, where everybody is collected and which involves the time and resources of the State?</p>
+          <p eId="para_126">The issue of witnesses and victims who must come face to face with the people about whom they must speak in a short while must be addressed. This is not a criminal justice system that is fair, impartial or effective.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_78">
+          <from>Chairman</from>
+          <p eId="para_127">The Deputy must put a question.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_79">
+          <from>Deputy Costello</from>
+          <p eId="para_128">The question inherent in all of this is why does the Minister continue to preside over such a system where he does not need to introduce any new law? All he need do is bring everybody together and develop a package for dealing with the matter.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_80">
+          <from>Chairman</from>
+          <p eId="para_129">There is no point in asking a question if the Deputy has already given the answer. I think that was a comment on what the Deputy feels about the system.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_81">
+          <from>Deputy Costello</from>
+          <p eId="para_130">No.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_82">
+          <from>Chairman</from>
+          <p eId="para_131">Does the Deputy have a relevant question to ask?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_83">
+          <from>Deputy Costello</from>
+          <p eId="para_132">It is a very relevant question. The Minister is in charge. Why is he not doing this?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_84">
+          <from>Chairman</from>
+          <p eId="para_133">All right. The Minister will respond to that. Minister, you are in charge and there is a delay in the system. What are you doing about it?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_85">
+          <from>Deputy Costello</from>
+          <p eId="para_134">It is not about a delay; it is a total mess.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_86" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_135">The fundamentals of our criminal justice system are good. They are among the best in the world.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_87">
+          <from>Deputy Costello</from>
+          <p eId="para_136">It is the administration——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_88">
+          <from>Chairman</from>
+          <p eId="para_137">I have just brought calm to the proceedings. Will the Deputy please allow that to continue while the Minister answers?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_89" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_138">The fundamentals of our criminal justice system are good. They are better than most in the world. The system is as good as one is likely to find in any other civilised country. It has its faults, and it is my responsibility to deal with those rather than talk the system down in the same way as the Deputy when he describes it as unfair, partial and ineffective. It is certainly impartial and is generally effective in dealing with the case load that comes before it. It deals with a huge amount of criminal work, and if the Deputy cares to look at the Courts Service reports he will see that it does so effectively. The great majority of cases end up with guilty pleas and the imposition of sentences.</p>
+          <p eId="para_139">I am addressing the particular difficulties with which we are dealing during a process of reform. The Deputies opposite like to engage in point scoring, but it must be repeatedly said to them that I am not the chief of police. I do not, for instance, allocate gardaí between Limerick and Dublin. I have no function——</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_90">
+          <from>Deputy Costello</from>
+          <p eId="para_140">It is the Minister's function. He is responsible for the allocation of gardaí.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_91" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_141">I ask the Deputy to stop shouting me down——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_92">
+          <from>Chairman</from>
+          <p eId="para_142">Please allow the Minister to continue.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_93" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_143">Deputy Costello is shouting me down again.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_94">
+          <from>Deputy Costello</from>
+          <p eId="para_144">Through the Chair, what the Minister has said——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_95">
+          <from>Chairman</from>
+          <p eId="para_145">I shall move on to somebody else unless Deputy Costello asks a specific question and allows the Minister to respond.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_96">
+          <from>Deputy Costello</from>
+          <p eId="para_146">The Minister is telling us an untruth.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_97">
+          <from>Chairman</from>
+          <p eId="para_147">I will allow the Deputy to comment after the Minister has responded.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_98" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_148">I am not telling the Deputy an untruth. I do not allocate resources within the Garda Síochána. The Deputy has been his party's spokesperson on justice for long enough to know that the Garda Commissioner makes independent operational decisions of that kind and is not subject to direction by me on those issues. I make that very clear.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_99">
+          <from>Deputy Costello</from>
+          <p eId="para_149">It is not true.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_100" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_150">I am sorry but it is true, and the more the Deputy says it is untrue the more he demonstrates his ignorance of his portfolio.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_101">
+          <from>Deputy Costello</from>
+          <p eId="para_151">I know it chapter and verse.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_102" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_152">It is not and never has been the function of the Minister for Justice, Equality and Law Reform to allocate gardaí around the country.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_103">
+          <from>Deputy Costello</from>
+          <p eId="para_153">It is the Minister's function to determine the deployment of gardaí to the various stations.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_104">
+          <from>Chairman</from>
+          <p eId="para_154">I acknowledge the presence of the Garda Commissioner, Mr. Noel Conroy, the Deputy Commissioner, Mr. Fachtna Murphy, and the Assistant Commissioner, Mr. Joe Egan. I am sure the allocation of gardaí around the country can be addressed on questioning the Garda Commissioner.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_105" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_155">I have been accused twice of misleading this committee, and I reiterate that it is not my function to allocate gardaí around the country. I do not do so, have never been asked to do so and have never attempted to do so. That is the first thing——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_106">
+          <from>Chairman</from>
+          <p eId="para_156">Deputy Costello had a question on another matter.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_107" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_157">Regarding Deputy Costello's other point, I am not the Director of Public Prosecutions and problems within his bailiwick are for him to deal with. Regarding the time lags between the Garda Síochána presenting a case to the DPP and that case coming to court, there are three partners in that process. One is the Courts Service and the Judiciary, the second is the Garda Síochána and the other is the Director of Public Prosecutions. I must be careful not to interfere with individual cases and tell the Director of Public Prosecutions how to do his work. The Deputy may be happy to hear, however, that it is my publicly stated intention to get the three players together to discuss this issue because to some extent they have been operating in three separate channels. The time has come for the three of them to sit down and discuss this.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_108">
+          <from>Deputy P. McGrath</from>
+          <p eId="para_158">It is 18 months too late.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_109">
+          <from>Chairman</from>
+          <p eId="para_159">Does Deputy Costello have a question on a different topic?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_110">
+          <from>Deputy Costello</from>
+          <p eId="para_160">I am glad the Minister is agreeing now to do what he should have done ages ago by bringing the main players together and having a guiding hand in the administration of justice. I have a specific question which, Chairman, you will be glad to hear is short. The Minister has a responsibility for introducing legislation for the appointment of judges. Yesterday, the DPP said three extra High Court judges were required, however, the House has only recently passed amending legislation to appoint two High Court judges. We argued then that the Minister should have more flexibility in terms of the number of judges to be appointed. Various delegations to the committee have indicated that there are inordinate delays in the courts process and that there should be more High Court judges. Will the Minister obtain the necessary financial backing in this regard and introduce further amending legislation? There is no good in us talking about this in general terms unless he does something specific to deal with it.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_111" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_161">The forthcoming courts and civil liability legislation will provide for the appointment of judges. The question of the number of judges should be capable of being dealt with more flexibly than has been the case heretofore, whereby every time I wish to appoint an extra judge I must pass a separate Bill through Parliament.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_112">
+          <from>Deputy P. McGrath</from>
+          <p eId="para_162">It is madness.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_113" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_163">I agree with the Deputy. The only problem is that, having given to the Government the power to increase the size of the Judiciary without recourse to legislation, I do not want it said thereafter that the Government is acting without the say so of the Oireachtas or acting improperly. I accept that we need extra judges and I have consulted with the Attorney General on that issue. I intend to bring a memorandum to the Government to point out the need for extra judges.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_114">
+          <from>Chairman</from>
+          <p eId="para_164">I move on to the Garda Commissioner, who will make a presentation. After that there will be two lead questioners and we will then, time permitting, open it up to all members to address questions to either the Minister or the Garda Commissioner. I thank the Garda Commissioner for coming in and invite him to make a brief submission of about ten minutes.</p>
+        </speech>
+        <speech by="#" eId="spk_115">
+          <from>Commissioner Noel Conroy</from>
+          <p eId="para_165">I thank the committee for affording me the opportunity to address it. The importance of witnesses in criminal justice systems cannot be overstated. Without witnesses there can be no prosecution and no justice. As a society we are dependent on witnesses to crimes coming forward and providing evidence of fact related to what they know and saw.</p>
+          <p eId="para_166">There is a very good record of witness co-operation with the Garda Síochána. Our consistently high detection rate of over 80% for murders in recent years is testament to this. In my experience witness and jury intimidation is not widespread in this jurisdiction. Many thousands of successful prosecutions are taken before the courts each year without any suggestion of witness intimidation. Unfortunately, the problem does arise on occasions. For example, as far back as the early 1980s the director of a forensic science laboratory was the victim of a horrific attack.</p>
+          <p eId="para_167">Recent developments prompted the Minister to ask this committee to look at this matter, and it is a cause of concern for my colleagues and I in the Garda Síochána and for all members of the community with an interest in seeing our criminal justice system operate effectively. However, it is important to be careful not to discourage potential witnesses from coming forward and giving evidence by anything we say here. In making this submission I trust the committee will understand that, arising from the recent collapse of a trial, certain actions taken by the Garda Síochána following this collapse and the resultant directions from the Director of Public Prosecutions, a number of parties are currently before the courts. Accordingly, I must be extremely careful not to touch on any specific issue which would prejudice or otherwise interfere with these proceedings.</p>
+          <p eId="para_168">The primary investigating agency for criminal offences is the Garda Síochána, and it is important to outline briefly the role of the Garda Síochána in the gathering of witness evidence. When a serious crime occurs and the Garda Síochána seeks witnesses from whatever source available, potential witnesses are identified, interviewed and invited to make statements. This can be done at their home, place of work, Garda station or other convenient place. It is most important that a witness is interviewed in an environment in which he or she feels comfortable and at ease. The taking of a detailed witness statement, which is recorded in writing, can be a long and laborious process.</p>
+          <p eId="para_169">When all lines of inquiry have been exhausted and a suspect or suspects identified and processed, an investigation file is prepared and submitted to the Director for Public Prosecutions for directions as to criminal proceedings. Following directions to prosecute, the Garda Síochána has responsibility for the arrest and charging of the accused. The Garda also has responsibility for the service of witness orders and it is now usual to provide a copy of his or her statement of evidence to the witness.</p>
+          <p eId="para_170">As the trial date approaches, the senior investigating officer appoints a member of his team to deal with necessary requirements to facilitate the witnesses' attendance. Witnesses who have no previous court experience are briefed on the processes involved, including the court layout and so forth. In some cases, at the request of the victim, the Victim Support organisation provides certain supports. The Garda victims charter sets out certain commitments to the public on the standard of service we undertake to deliver. That can be seen in appendix 1.</p>
+          <p eId="para_171">I will now turn to certain issues raised in the letter to me on 7 November 2003, from the Clerk to the joint committee, upon which I consider it appropriate to comment. The first is current best practice in other legal jurisdictions to prevent witness intimidation and secure successful criminal prosecutions, including, for example, the Canadian model. In preparing this submission, one of the jurisdictions looked at by the Garda Síochána was the United Kingdom, which enjoys a somewhat similar criminal justice system to this jurisdiction. In May 2003, an inter-agency working group report on witnesses in the criminal justice system in the United Kingdom was published. The task of the working group was to consider the issues that might discourage witnesses from reporting offences and giving evidence in court and to make recommendations as to how to remedy these and on how to increase the satisfaction of witnesses with the support given to them by the criminal justice system.</p>
+          <p eId="para_172">The report recognises the requirement for a multi-agency approach to the co-ordination of witnesses services, namely, the court services, the Home Office, victims support, the Crown Prosecution Service and the police. Key areas addressed in the report include: responsibility and accountability for witnesses; making it easier for witnesses to give evidence; witness intimidation and good practice. With regard to making it easier for witnesses to give evidence, the main practical improvements recommended in the report for implementation were: the identification of vulnerable or intimidated witnesses and the provision of relevant support, including the use of TV live link; the development of a youth witness information pack aimed at providing relevant information and pre-trial support; the development of a best practice approach to domestic violence and sexual assault cases; the identification and examination of issues surrounding minority groups; the tackling of age related issues such as intimidation and physical disability; parking, child care, transport and expenses; and addressing the issue of over harsh cross examination of witnesses.</p>
+          <p eId="para_173">The report emphasised that witnesses must feel secure in the court environs and stated that this could be achieved by the provision of proper security in and about the courts; the provision of separate entrances for the prosecution and defence; the display of notices in the court environs defining the offence of witness intimidation, the penalties, and details of contact persons in the event of intimidation; and by the police waiting in witness areas. The emphasis throughout the report is on a multi-agency approach. While it is accepted that each jurisdiction has unique characteristics, I believe many issues identified in this report are relevant to this jurisdiction and are worthy of consideration. The report can be accessed on the Internet at www.homeoffice.gov.uk</p>
+          <p eId="para_174">The second issue is the steps which need to be taken to speed up criminal trials. Delay in getting cases to court can impact on the trial process. The more speedily a trial can be brought before the courts and finalised, the less opportunity there is for the intimidation of witnesses. Equally, the longer the legal process, the more likely that a witness will become fearful and reluctant to give evidence. It is only human nature that as time passes, interest wanes. For these reasons, it is important that the process of getting accused persons before the courts and cases disposed of should be as speedy as possible.</p>
+          <p eId="para_175">There is no established tradition in this jurisdiction for pre-trial hearings. The Fennelly committee report, at chapter 2 of paragraph 85, recommended the introduction of a pre-trial mechanism to facilitate the clarification and resolution of problems that might affect the trial. I support this recommendation. Such preliminary hearings could be introduced in all cases on arraignment and would discharge a number of functions, including the identification of evidence which could be agreed or admitted under the Criminal Justice Act 1984, the consideration of expert reports and the disposal of issues relating to the admissibility of certain evidence, that is, warrants, legal documents and so forth.</p>
+          <p eId="para_176">It would help in resolving evidential issues in advance of the trial and reduce the instances of what have become known as "trials within trials" which delay and lengthen many trials considerably. Uncontested documents could be read into the record. From a Garda point of view, it has the potential of freeing up valuable human resources otherwise unnecessarily deployed in court awaiting the giving of evidence, often on issues on which there is no contest.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_116">
+          <from>Chairman</from>
+          <p eId="para_177">Perhaps you could conclude now and we will deal with videotaped interviews, resourcing and the witness protection programme during the questions.</p>
+        </speech>
+        <speech by="#" eId="spk_117">
+          <from>Mr. Conroy</from>
+          <p eId="para_178">During questions I can address the witness security programme, which is most important in securing witnesses to give evidence in court. My conclusion is that while there is a problem in this area, it is not as bad as it is painted. A number of major criminal investigations have gone through the courts without any suspicion of intimidation, be it of witnesses or jurors.</p>
+          <p eId="para_179">Naturally, we are aware in some investigations, particularly in certain areas of the country, that when the book of evidence is served on an accused person or persons, they will see the prosecution evidence against them. If they see it is down to one or two individuals, they might hone in on those people. We are conscious of that and our investigators pay particular attention to ensuring, if possible, that they are protected. It is impossible to protect people in their home but special patrols are provided. At present, we are protecting a witness in his home in a certain city. That will continue until the threat abates.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_118">
+          <from>Chairman</from>
+          <p eId="para_180">Are you in favour of videotaping evidence?</p>
+        </speech>
+        <speech by="#" eId="spk_119">
+          <from>Mr. Conroy</from>
+          <p eId="para_181">Yes, very much.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_120">
+          <from>Senator J. Walsh</from>
+          <p eId="para_182">In his earlier career, the commissioner served in New Ross and we welcome the fact that he has achieved such high office. The commissioner said that 80% of murder cases are brought to justice by the gardaí and, yesterday, the Director of Public Prosecutions said that 95% of all criminal cases brought before the courts result in convictions. However, Dr. O'Mahony told the committee about a survey carried out in Britain which showed that only 7% of crimes were brought to court and only 3% resulted in convictions. He made the point that our system would not differ enormously from that. Given that in some instances drug handlers well identified in the community do not appear to be brought to justice - the murder of Brian Fitzgerald was referred to - what changes are necessary to tilt the balance more evenly in favour of society as against the accused? Is the right to silence an impediment to successfully prosecuting cases? Should we look at facilitating change to improve the system, whereby an inference could be drawn by the judge where the accused failed to give evidence?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_121">
+          <from>Chairman</from>
+          <p eId="para_183">We will have a reply first.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_122">
+          <from>Senator J. Walsh</from>
+          <p eId="para_184">There are two addendums, one of which is the power of detention which the joint committee has been considering. What are the Commissioner's views on the optimum period in that regard? The current provision is cumbersome, whereby one must go back to court to seek extensions. Apparently, there are many anomalies in the system.</p>
+          <p eId="para_185">There was a suggestion that we should look at having a new legal caution, perhaps along the lines of the British model, whereby if defendants neglected to say something, on which the defence later relied, it could harm the defence, in other words, they would have to be up-front with their excuses early on rather than come in with them later in the trial process.</p>
+        </speech>
+        <speech by="#" eId="spk_123">
+          <from>Mr. Conroy</from>
+          <p eId="para_186">Of course, it would make police work much easier if the accused did not have the right to silence. However, it must be borne in mind that an accused person is innocent in the eyes of the law until the process is dealt with in the courts. The situation was that this matter was dealt with by section 52 of the Offences Against the State Act, which in recent years has been struck down, in the sense that one cautioned an individual not to say anything unless he or she wished to do so and at the same time demanded him or her to answer and account for his or her movements. On that basis it was found to be unconstitutional. I am not a legal expert - I am sure there are many others here who are more qualified to answer - but I think there would be a problem in that area if we were to go down that road.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_124">
+          <from>Senator J. Walsh</from>
+          <p eId="para_187">What about my question on detention and legal caution?</p>
+        </speech>
+        <speech by="#" eId="spk_125">
+          <from>Mr. Conroy</from>
+          <p eId="para_188">On that front, somebody involved in, say, firearms offences can be detained under the provisions of the Offences Against the State Act, section 30 of which allows for a 24 hour period of detention followed by an extension for a further 24 hour period and a further 24 hours with the permission of the courts - 72 hours in total.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_126">
+          <from>Chairman</from>
+          <p eId="para_189">What about a person murdered with a knife?</p>
+        </speech>
+        <speech by="#" eId="spk_127">
+          <from>Mr. Conroy</from>
+          <p eId="para_190">I was going to come to that. If somebody is murdered with a knife, the position is as follows. One detains the person or persons involved under the provisions of section 4 of the Criminal Justice Act 1984 which allows for six hours detention initially, with power for a superintendent to extend the period of detention for a further six hours. There are rest periods involved. For instance, if after a particular time at night the suspect detained is asked whether he or she wishes to take time out to rest and if he or she consents, this happens. If he or she does not consent, questioning continues until the period of his or her time of detention expires. On the other hand, if he or she is released and new information becomes available to the investigators that they did not have prior to his or her arrest, they can go before the courts and seek a warrant for the detention of the individual concerned for a further period for the particular crime involved.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_128">
+          <from>Senator J. Walsh</from>
+          <p eId="para_191">There appears to be evidence that some paramilitaries, both republican and loyalist, have become involved in serious organised crime. What is the Commissioner's view on the extent of this activity and how serious is the threat? Would he like to comment on whether provision for an offence of membership of an organised criminal gang should be considered? It was suggested in a recent television programme that the concentration on this matter was not as diligent for fear of damaging the peace process.</p>
+        </speech>
+        <speech by="#" eId="spk_129">
+          <from>Mr. Conroy</from>
+          <p eId="para_192">On the question of involvement by terrorists, the dissident organisations are very heavily involved in criminality at this time in three of our cities and in Border areas. They are involved in extortion, smuggling and in some cases providing guns for criminals in certain cities. There is no doubt but that their involvement has brought a new element to criminality in the areas in which where they are operating. I am talking specifically about dissidents. The other groups, which may very well be referred to, are not to my knowledge involved in criminality in those cities. As I see it, the unfortunate part is that when I use the word "extortion", I mean they are dealing with and extorting money from those involved in the trafficking of drugs, which is a disturbing outcome.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_130">
+          <from>Senator J. Walsh</from>
+          <p eId="para_193">As regards best management practices within the Garda, the experience is that where there are good superintendents or chief superintendents, the Garda functions demonstrably better. In that regard, I wonder whether there is an over-reliance on witness evidence as against covert surveillance and forensic evidence. Statistics show that there is a garda for every 306 members of the population, as compared with a figure of 241 in Britain and about half this number in Finland. At the same time, the perception is that there is not the same presence on the beat as previously. Are there structural changes which need to be made? For example, is too much time spent in court? Is there too much paper work, to which the Commissioner alluded in his presentation? Is traffic control an area in which gardaí are usefully deployed or would it be better for them to concentrate on more serious crime and to have a dedicated force for that task?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_131">
+          <from>Chairman</from>
+          <p eId="para_194">A municipal police force.</p>
+        </speech>
+        <speech by="#JimWalsh" eId="spk_132">
+          <from>Senator J. Walsh</from>
+          <p eId="para_195">Perhaps.</p>
+        </speech>
+        <speech by="#" eId="spk_133">
+          <from>Mr. Conroy</from>
+          <p eId="para_196">No matter what one does with resources, there are always people making demands in specific areas. From my point of view, community policing is the cornerstone to success. If we are out with, talking and relating to the community and taking on their concerns, as they take on ours, there will be a much better society. We strive very hard to ensure we keep community gardaí in place.</p>
+          <p eId="para_197">If one looks at organised crime and compares what is happening in Ireland with what is happening in other jurisdictions, one will find that we are ahead or high up the league table when it comes to detection but down the league table in terms of crimes committed. Crime is a very emotive issue. It causes lots of problems in society and hurts and traumatises a lot of people. I accept this. However, if one looks at the overall context of crime, in particular organised crime, we are actually in the second division.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_134">
+          <from>Deputy Costello</from>
+          <p eId="para_198">I welcome Mr. Conroy, Mr. Murphy and Mr. Egan. My first question relates to the briefing note which refers to the deployment of resources. It states the deployment of resources continues to be reviewed by the Garda Commissioner in conjunction with his deputy and assistant commissioners and in consultation with divisional officers in the various Garda divisions and specialist sections.</p>
+          <p eId="para_199">That brings us back to the point I made to the Minister. Section 6(1) of the 1924 Act states the Garda Síochána shall "be distributed and stationed throughout the State in such manner as the Minister shall from time to time direct". Does the Commissioner consult the Minister when deploying resources? The Minister said he did not have a function in this matter while the Commissioner stated in his submission that he did not consult him. What happens when resources are being deployed? The Minister mentioned the closure of Garda stations as if it was not his function. Does the Garda make such decisions?</p>
+          <p eId="para_200">When they were here yesterday representatives from the Association of Garda Sergeants and Inspectors said there were a number of valuable specialist units in place but that the regular units throughout the country were understaffed. They gave the figures for inner city stations such as Pearse Street, Coolock and Store Street and said that because the numbers were so small, any calls from the public could only be dealt with on the basis of priority. They said the force in Limerick was in dire need of extra staff.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_135">
+          <from>Chairman</from>
+          <p eId="para_201">The Deputy should ask a question to enable him to get a response.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_136">
+          <from>Deputy Costello</from>
+          <p eId="para_202">How are resources deployed and who is responsible for their deployment? One arm of the Garda states they are badly deployed, yet the Minister says he does not have any role in the matter.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_137">
+          <from>Chairman</from>
+          <p eId="para_203">We will get the man with whom the buck stops to answer the question.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_138">
+          <from>Deputy Costello</from>
+          <p eId="para_204">Perhaps the Garda Commissioner could tell us how resources are deployed.</p>
+        </speech>
+        <speech by="#" eId="spk_139">
+          <from>Mr. Conroy</from>
+          <p eId="para_205">As I outlined in my submission, I have regular meetings with my management team. We consult the divisional officers throughout the country about resources. There is a weighting model in terms of the number assigned to each district. We take many factors into the equation when allocating personnel such as the number of calls and crimes and whether it is a 24 hour station. Where there is a specific problem, we move away from this model and put extra resources into the areas concerned. The Deputy mentioned Limerick into which we have put extra resources in recent months. We will continue to do so if there is a need for such numbers. I read only one article recently which stated there were too many gardaí in one area. I was amazed to read this because everywhere I go, people are looking for more gardaí.</p>
+          <p eId="para_206">As regards the regular units and what other groups said, we have specialised units. We try to have our resources available when demand is greatest. There would not be any point in having 24 or 25 gardaí out between 3 a.m. and 6 a.m. They would be on the street but would we want them there? We want them at times when demand is greatest. That is what we have been doing. I understand some might say the regular unit has changed. It has changed because society has changed as have the demands on the Garda Síochána. We must change with them. If people, particularly in community areas, want gardaí to talk to them at 5 p.m. or 6 p.m., that is when we want them.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_140">
+          <from>Deputy Costello</from>
+          <p eId="para_207">It is not only the AGSI which states calls from the public are dealt with on the basis of priority. There is also a perception among the public that gardaí are less visible. It is difficult to find a garda when a crime is committed. Perhaps the Commissioner will address this.</p>
+          <p eId="para_208">As regards modern technology, is the Commissioner in favour of videotaping all suspects in all stations where interviews take place and witnesses when making statements? As regards computers, it appears the PULSE system has slowed down and has, therefore, put an enormous burden on Garda time because it is either not working or not working efficiently. All crimes must be reported on the system. As regards modern communications, it has been reported that many gardaí must use their own mobile phones because either the existing equipment is accessible to the criminal and the public or it is not working effectively.</p>
+          <p eId="para_209">These are some of the issues which have been raised. There is a serious administrative problem which must be addressed.</p>
+        </speech>
+        <speech by="#" eId="spk_141">
+          <from>Mr. Conroy</from>
+          <p eId="para_210">I support the videotaping of all interviews with suspects. I have a certain view on how the information or evidence contained on the tapes should be used. The video of an interview with a suspect or an accused person, if he or she is in the court system, is served on the individual at his or her request. His or her defence team has the ability to produce it in court if it is felt it is favourable to the defendant. However, the prosecution does not have the same right. As I stated in the document, we take down the interview in long hand, although it is recorded on video. I would be in favour in a pre-trial situation of allowing the prosecution and the defence to view the video and agree on the evidence which should go forward to the trial. If there was disagreement about what should go forward, a judicial figure would decide. That would free up the courts and our personnel who attend court.</p>
+          <p eId="para_211">There is a system in a number of stations in Dublin city where the arresting garda does not have to attend court to give evidence of arrest, charge and caution. That is done by way of certificate. As the information technology programme is rolled out, we hope each Dublin metropolitan station will come within its ambit. That would mean that 30 or 40 gardaí would not be required to go to court in Dublin every morning, that they could be out on the beat or doing whatever it is they are supposed to do during their period of duty. We are making strides in that direction.</p>
+          <p eId="para_212">As regards communications technology, we have rolled out a new system in the Deputy's constituency. That system, which is good, is evolving and will take time. We are looking at it in terms of how it will operate in the centre of Dublin because there is a new ongoing policing initiative between south-central and north-central for which we will use a new radio system.</p>
+        </speech>
+        <speech by="#PeterPowerFF" eId="spk_142">
+          <from>Deputy P. Power</from>
+          <p eId="para_213">I preface my remarks by apologising to the joint committee and the Minister for being late. While the Kildare bypass is a wonderful achievement, it is still not perfect.</p>
+          <p eId="para_214">Those following today's hearing will be disappointed at the trading of insults. They are looking for concrete and substantive proposals as to how we might deal with the criminal justice system. I would like to put two positions to the Minister.</p>
+          <p eId="para_215">Last Friday, Dr. Ivana Bacik, a respected criminologist and Reid Professor of Criminal Law at Trinity College Dublin, presented a detailed paper on the criminal justice system. I would like the Minister's opinion on one point that I put to her and on which I disagreed with her strongly. I put it to her that sentencing was no longer the deterrent it was in years gone by. I put to her the suggestion on which the Minister touched that serious crime such as murder and rape should carry greatly increased minimum sentences in terms of time served before the Parole Board could review the situation. In that regard, she said the American experience, with long sentences, was not a happy one and did not act as a deterrent. I did not agree with her. I believe sentences for murders should be greatly increased.</p>
+          <p eId="para_216">As regards DNA sampling, I heard no convincing reasons the DNA databank should not be expanded. The horrific murder committed by John Crerar could have been solved in 18 months rather than 18 years. Will the Minister assuage the fears of the Irish Council for Civil Liberties and Professor Bacik in that regard?</p>
+          <p eId="para_217">I will comment briefly——</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_143">
+          <from>Chairman</from>
+          <p eId="para_218">I am going to ask the Minister to respond.</p>
+        </speech>
+        <speech by="#PeterPowerFF" eId="spk_144">
+          <from>Deputy P. Power</from>
+          <p eId="para_219">I support the Minister's views on the submission of a written defence rather than just an oral address. This would be reasonable.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_145">
+          <from>Chairman</from>
+          <p eId="para_220">Fine. Will the Minister take up the points raised by the Deputy?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_146" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_221">Sentencing has a number of functions. First, it is designed to have a deterrent effect. Second, it is designed to have a rehabilitative effect. Third, it is designed to satisfy public opinion that the criminal has been adequately dealt with and appropriately punished. It contains these three elements.</p>
+          <p eId="para_222">The recipe as between Ireland and the United States of America is different. In some states, as regards repeat felonies, it is a case of "three strikes and you are out". This means that the offender will never again see liberty. That is a view they are entitled to take as regards their societies. It is not one that would be generally accepted in Irish society, for example, the notion that someone who commits three thefts should spend the rest of his or her life in jail. That is an extreme view practised in some states in America.</p>
+          <p eId="para_223">I do not agree with the suggestion that sentences do not have a deterrent effect. Those engaged in criminality have an eye on the likely consequences of their offences if convicted. In that context, the changed policy I have signalled to the Parole Board as regards long sentences will have an effect if clearly understood by the public. The notion that life sentences began to unravel after seven years as the process of review began with a view to temporary release was deeply corrosive of the strong value our society placed on life. The mandatory prison sentence of life was a substitute for capital punishment when first brought forward. However, it is a clear message that in the case of somebody who commits a very serious crime such as murder and rape thereafter the question of release will be a matter for the State which will have discretion. The approach I have announced, that no person convicted of murder will be entitled to release except in the most extraordinary of circumstances before 12 years and that crimes of violence should be visited by a stay in prison of 15 to 20 years, will get across to those who carry knives and engage in criminality that the State is no longer willing to see them out of jail after serving a sentence of between seven and 11 years, as was the case.</p>
+          <p eId="para_224">As regards the DNA databank, I do not know whether the Deputy was present when I dealt with that matter. I have expressed my view - this is subject to the report of the Law Reform Commission - that the destruction of samples is not an aid to civil liberties. Samples should be kept indefinitely when lawfully taken, unless there is a good reason to the contrary.</p>
+          <p eId="para_225">People talk about DNA databanks. Some go the whole way. I notice one newspaper article by Dr. David McConnell suggests that everyone in the country should give a sample of blood. I do not agree with this view but believe anyone from whom a sample is lawfully taken should be in a position to know that it will be kept indefinitely as an aid to good police work.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_147">
+          <from>Senator Terry</from>
+          <p eId="para_226">I thank the Minister, the Garda Commissioner, Mr. Murphy and Mr. Egan for appearing before the joint committee today and their presentations. We have found during this process that many organisations or groups hold the same views. This will be helpful when we are compiling our report.</p>
+          <p eId="para_227">I would like to deal with the causes of crime or tackling crime at base in order that later crises in court may be avoided. Will the Minister and the Commissioner say whether gardaí are put to good use in tackling crime when chasing motorists? Last night, for instance, I was coming back from RTE, through Leeson Street, at 11.30 p.m when I was stopped. There were six gardaí on the street, and few cars. They were just checking insurance and motor tax discs. They did not check to see whether I or anyone else had any drink taken. I travelled on towards Christchurch where I met four more gardaí. While this in itself is good, I question the reason six gardaí were needed in Leeson Street.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_148">
+          <from>Chairman</from>
+          <p eId="para_228">Will the Senator now ask a substantive question?</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_149">
+          <from>Senator Terry</from>
+          <p eId="para_229">Why do we not see gardaí tackling crimes on the street - petty crime and anti-social behaviour - from which more serious crimes grow? We have not tackled this.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_150">
+          <from>Chairman</from>
+          <p eId="para_230">We will ask the Commissioner to respond. On the allocation of gardaí, will he say why he gets it right or wrong?</p>
+        </speech>
+        <speech by="#" eId="spk_151">
+          <from>Mr. Conroy</from>
+          <p eId="para_231">We have allocated quite a number of extra gardaí to the Dublin metropolitan area to deal with the issue of traffic for the Christmas period. That is why one sees large increases in the number of personnel.</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_152">
+          <from>Senator Terry</from>
+          <p eId="para_232">Is tackling crime not more serious than checking motor tax discs?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_153">
+          <from>Chairman</from>
+          <p eId="para_233">I am sure the Commissioner is also going to answer that question. He has not been given the opportunity.</p>
+        </speech>
+        <speech by="#" eId="spk_154">
+          <from>Mr. Conroy</from>
+          <p eId="para_234">A police force has to do many things. The Senator probably found that the gardaí with whom she dealt last night were young, that perhaps they were being trained in the job rather than involved in the frontline investigation of serious crime. If one looks at the shoulder pads, one will find that——</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_155">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_235">Yellow packs.</p>
+        </speech>
+        <speech by="#" eId="spk_156">
+          <from>Mr. Conroy</from>
+          <p eId="para_236">They were. They are now blue in colour.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_157">
+          <from>Chairman</from>
+          <p eId="para_237">The Deputy should withdraw the remark, "yellow packs", because gardaí in training——</p>
+        </speech>
+        <speech by="#SheilaTerry" eId="spk_158">
+          <from>Senator Terry</from>
+          <p eId="para_238">They were also being trained in tackling crime.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_159">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_239">It is not meant as a criticism.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_160">
+          <from>Chairman</from>
+          <p eId="para_240">Fine.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_161">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_241">As regards intimidation, I would like to direct a question at both the Commissioner and the Minister. Having listened to the Minister, he seems to think that he is winning the war on crime. The Commissioner says the picture is not as bad as it is painted. Is it accepted that the reality for many is that intimidation is widespread? This was confirmed yesterday by the AGSI which supported my view. Do the Commissioner and the Minister accept that this is part of the reality for many communities?</p>
+          <p eId="para_242">Many believe Brian Fitzgerald, the young doorman murdered in Limerick, was an example of someone who had stood up to the drug barons. He pleaded for help, but he was ignored by society and by the justice system. He died. Many people feel that we, as a society, let that man and his family down. What can we do to prevent similar situations from developing in the future?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_162">
+          <from>Chairman</from>
+          <p eId="para_243">I ask the Minister to give a brief answer because a number of Deputies want to ask questions and we have only six minutes left.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_163" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_244">When I say the gardaí are winning the war against crime, I look at the figures for the rate of detection and compare them with other police forces around the world. I look at the recorded crime rates and whether the trend is going up or down. I also look at issues such as public order. I remind the committee that this time last year public order was the issue. I was told I had to do something to abate crime on our streets which meant people were unwilling to travel home at night and some people were being kicked to death. I brought forward initiatives to deal with public order and intoxication under the Intoxicating Liquor Bill. Despite all the things one reads in the newspapers, there has been significant progress on those fronts. Public order offences are significantly down across the country because of the measures the Garda Síochána is taking to enforce the new law.</p>
+          <p eId="para_245">I will give the committee one example. I was in Cork recently where I visited the chief superintendent. He was in the happy position of being able to tell me that in the past year the gardaí have reduced public order offences in the city by one third. That is progress. People speak glibly about low morale in the Garda Síochána, but they have not said anything to the Commissioner.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_164">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_246">The Minister should deal with the gangland killings. I asked the Minister about intimidation, not about anti-social behaviour. The Minister is avoiding the question.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_165" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_247">I will answer the Deputy's question.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_166">
+          <from>Chairman</from>
+          <p eId="para_248">The Minister will not have time to do so because I call Deputy Ó Snodaigh.</p>
+        </speech>
+        <speech by="#FinianMcGrath" eId="spk_167">
+          <from>Deputy F. McGrath</from>
+          <p eId="para_249">The Minister did not answer my question.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_168">
+          <from>Chairman</from>
+          <p eId="para_250">There was disorder. I call an orderly Deputy.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_169">
+          <from>Deputy Ó Snodaigh</from>
+          <p eId="para_251">I regret the earlier remark which was not meant as a slur on trainee gardaí. I welcome the fact that people are prepared to do dangerous jobs. People are frustrated that trainee gardaí are used for such activities rather than for tackling crime. I was interested in the Minister's comments on perjury which are included in his report. He stated that the maximum imprisonment of seven days for obstructing justice is short. Perhaps he could expand on that a little. There have been cases where the judge has found that the evidence contained faults or lies. Sometimes the gardaí have been at fault. Is there a mechanism whereby such evidence could be referred to the DPP and to the Garda Commissioner if someone lied on oath? Will the Minister increase the sentence?</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_170">
+          <from>Chairman</from>
+          <p eId="para_252">The DPP raised the issues of perjury, contempt and perverting the course of justice. There is not a good statutory basis; it is common law.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_171" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_253">It is common law. As I stated about other matters relating to false insurance claims, the perjury law is poor in this country. It is one of the issues on the agenda to be dealt with in the context of the codification of criminal law. We will bring in a new law of perjury. As regards false claims in motor cases, I had to bring in a special statutory offence because the law of perjury was not as robust as it should have been. I agree with the Director of Public Prosecutions. We must bring from the mists of common law into modern statutory form offences against justice. Perjury and interfering or conspiring to interfere with the course of justice are offences against justice. Intimidation is a serious offence and should not be left on a vague common law basis.</p>
+        </speech>
+        <speech by="#MarieHoctorFF" eId="spk_172">
+          <from>Deputy Hoctor</from>
+          <p eId="para_254">As regards the negotiations between the Minister, the Department and the Garda Commissioner's office, how seriously have we addressed the possibility of highly qualified civilians becoming involved in the areas of investigation and forensics, in which many uniformed gardaí are involved at present behind closed doors? That would allow more gardaí to be put on the streets where they are needed.</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_173" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_255">Civilians should carry out as many functions as they are capable of carrying out. Significant progress can be made, whether that involves processing firearms licences, stamping passport applications, collecting fines or inputting data into the PULSE system. I want to make one point, but it is not disloyal to Government policy. I have a major difficulty progressing civilianisation within the Garda Síochána because of the freeze on public sector numbers. There is no point in me removing a member of the Garda Síochána from behind a desk where he or she is carrying out one of these functions and putting him or her on the street if that function is not carried out by someone else. There are many areas, such as that relating to speed cameras, where, in association with the Minister for Transport, Deputy Brennan, I am exploring every possible opportunity to bring in the private sector to carry out functions in support of the Garda Síochána so that I can both live with Government policy on public service numbers and assist the Commissioner in making available to him the greatest number of gardaí for core police duties.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_174">
+          <from>Deputy P. McGrath</from>
+          <p eId="para_256">As regards intimidation, yesterday the Association of Garda Sergeants and Inspectors told us that some witnesses, who had been through the court system and had been intimidated, would not report anything again. Has the Commissioner enough gardaí to ensure such intimidation does not happen? Can he comment on the difficulties, including the technicalities, associated with getting search warrants? Does he see any possibility of improving the legislation in that regard?</p>
+        </speech>
+        <speech by="#MichaelMcDowellPD" eId="spk_175" as="#Minister_for_Justice,_Equality_and_Law_Reform">
+          <from>Deputy McDowell</from>
+          <p eId="para_257">Search warrants are part of the new Criminal Justice Act. The law will be changed and they will be easier to obtain.</p>
+        </speech>
+        <speech by="#" eId="spk_176">
+          <from>Mr. Conroy</from>
+          <p eId="para_258">As regards intimidation, it is not right to call it intimidation. People who have been witnesses in court and have been subjected to severe cross-examination tell me they do not want to go back. However, that is the reality of discovering the truth in a criminal trial to ensure that mistakes are not made in terms of the innocence or guilt of an individual. Sometimes when people talk about intimidation they mean that people sit in certain places and stare. However, that is not intimidation in itself as a comment is not made, although the individual, who is a witness or is about to give evidence, may feel intimidated.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_177">
+          <from>Deputy P. McGrath</from>
+          <p eId="para_259">Are there enough gardaí to deal with that?</p>
+        </speech>
+        <speech by="#" eId="spk_178">
+          <from>Mr. Conroy</from>
+          <p eId="para_260">I would love more gardaí.</p>
+        </speech>
+        <speech by="#PaulMcGrath" eId="spk_179">
+          <from>Deputy P. McGrath</from>
+          <p eId="para_261">That is what I wanted the Commissioner to say.</p>
+        </speech>
+        <speech by="#SeanArdagh" as="#Chairman" eId="spk_180">
+          <from>Chairman</from>
+          <p eId="para_262">That concludes our discussion today and the series of hearings held over six days. I thank all our guests, including those who appeared today, the Minister for Justice, Equality and Law Reform, Deputy McDowell, and the Garda Commissioner, Mr. Noel Conroy, and his colleagues. The joint committee will note all of the comments made today and take them into account when deliberating further and preparing its report. Should anyone have additional points to make, will they, please, forward them to the committee? I thank everybody for attending. I also thank the viewers of TG4.</p>
+          <p eId="para_263">At the outset of our hearings on 28 November I highlighted the importance of reminding ourselves that the criminal justice system dealt successfully on a daily basis with a huge number of cases, including those that would be regarded as involving organised crime. I also stated it would be disproportionate, because of difficulties in particular cases, to suggest that the system had suddenly collapsed or that its constitutional and legal basis had been discredited.</p>
+          <p eId="para_264">In the six days of hearings the joint committee has engaged in discussions with a wide range of experts. In particular, we have heard what can be done to improve the situation of the victims of crime, witnesses and their families involved with the criminal justice system. We have to consider the details of the various submissions and review, as suggested by the Minister, "the adequacy of legislative provisions, resource allocations and administrative practice to see whether and what changes are required". We have held formal and informal meetings.</p>
+          <p eId="para_265">The committee intends to compile a workable set of recommendations and conclusions with a view to focusing on the priority areas that may need to be changed in the criminal justice system. In this way we hope to highlight the areas in which the system should keep pace with new positive and negative developments and respond to emerging challenges, including any matters that might require specific legislation. The committee acknowledges the high level of co-operation forthcoming during our discussions over the six days of hearings and the extremely high quality of material contained in all of the submissions. That completes our discussions in public session.</p>
+        </speech>
+        <summary eId="sum_7">The joint committee adjourned at 11.30 a.m. until 2 p.m. on Wednesday, 10 December 2003.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

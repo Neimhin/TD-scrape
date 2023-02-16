@@ -1,0 +1,1982 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_education_and_skills/2017-11-15/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_education_and_skills/2017-11-15/debate"/>
+          <FRBRdate date="2017-11-15" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/32/select_committee_on_education_and_skills"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_education_and_skills/2017-11-15/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_education_and_skills/2017-11-15/debate/mul@"/>
+          <FRBRdate date="2017-11-15" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_education_and_skills/2017-11-15/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_education_and_skills/2017-11-15/debate/mul@.akn"/>
+          <FRBRdate date="2020-02-04" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_17" outcome="#carried" refersTo="#sum_16">
+            <count eId="vote_1-count_1" href="#qty_1" refersTo="#ta" value="3"/>
+            <count eId="vote_1-count_2" href="#qty_2" refersTo="#nil" value="2"/>
+          </voting>
+          <voting eId="vote_2" href="#sum_69" outcome="#lost" refersTo="#sum_68">
+            <count eId="vote_2-count_1" href="#qty_3" refersTo="#ta" value="3"/>
+            <count eId="vote_2-count_2" href="#qty_4" refersTo="#nil" value="5"/>
+          </voting>
+          <voting eId="vote_3" href="#sum_89" outcome="#lost" refersTo="#sum_88">
+            <count eId="vote_3-count_1" href="#qty_5" refersTo="#ta" value="2"/>
+            <count eId="vote_3-count_2" href="#qty_6" refersTo="#nil" value="3"/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#debates">
+        <TLCConcept eId="#lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#carried" href="/ie/oireachtas/ontology#DeclaredCarried" showAs="Declared Carried"/>
+        <TLCConcept eId="#staon" href="/ie/oireachtas/ontology#StaonVote" showAs="Staon Vote"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCPerson eId="CatherineMartin" href="/ie/oireachtas/member/id/Catherine-Martin.D.2016-10-03" showAs="Catherine Martin"/>
+        <TLCPerson eId="FionaOLoughlin" href="/ie/oireachtas/member/id/Fiona-O'Loughlin.D.2016-10-03" showAs="Fiona O'Loughlin"/>
+        <TLCPerson eId="JoanBurtonLAB" href="/ie/oireachtas/member/id/Joan-Burton.D.1992-12-14" showAs="Joan Burton"/>
+        <TLCPerson eId="JosephaMadigan" href="/ie/oireachtas/member/id/Josepha-Madigan.D.2016-10-03" showAs="Josepha Madigan"/>
+        <TLCPerson eId="KathleenFunchion" href="/ie/oireachtas/member/id/Kathleen-Funchion.D.2016-10-03" showAs="Kathleen Funchion"/>
+        <TLCPerson eId="MaryMitchellOConnor" href="/ie/oireachtas/member/id/Mary-Mitchell-O'Connor.D.2011-03-09" showAs="Mary Mitchell O'Connor"/>
+        <TLCPerson eId="RobertTroy" href="/ie/oireachtas/member/id/Robert-Troy.D.2011-03-09" showAs="Robert Troy"/>
+        <TLCPerson eId="ThomasByrne" href="/ie/oireachtas/member/id/Thomas-Byrne.D.2007-06-14" showAs="Thomas Byrne"/>
+        <TLCPerson eId="TonyMcLoughlin" href="/ie/oireachtas/member/id/Tony-McLoughlin.D.2011-03-09" showAs="Tony McLoughlin"/>
+        <TLCEvent eId="bill.2015.121.dail.3" href="/ie/oireachtas/bill/2015/121/dail/3" showAs="Technological Universities Bill 2015: Committee Stage (Dáil)"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Education_and_Skills" href="/ie/oireachtas/role/minister_state/education__skills" showAs="Minister of State at the Department of Education and Skills"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>AN ROGHCHOISTE UM OIDEACHUS AGUS SCILEANNA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Select Committee on Education and Skills</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2017-11-15">Dé Céadaoin, 15 Samhain 2017</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2017-11-15">Wednesday, 15 November 2017</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">Tháinig an Roghchoiste le chéile ag 05:00 p.m.</summary>
+        <summary class="Center" eId="sum_2">The Select Committee met at 05:00 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_3">Comhaltaí a bhí i láthair / Members present:</summary>
+          <table>
+            <tr>
+              <th>
+                <p eId="para_1">Teachtaí Dála / Deputies</p>
+              </th>
+              <th>
+                <p eId="para_2"/>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JoanBurtonLAB">Joan Burton,*</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#ThomasByrne">Thomas Byrne</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#KathleenFunchion">Kathleen Funchion</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#JosephaMadigan">Josepha Madigan</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#CatherineMartin">Catherine Martin</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#TonyMcLoughlin">Tony McLoughlin</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#MaryMitchellOConnor">Mary Mitchell O'Connor (Minister of State at the Department of Education and Skills).</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_4">* In éagmais / In the absence of Deputy Jan O'Sullivan.</summary>
+          <summary eId="sum_5">I láthair / In attendance: Deputy Robert Troy.</summary>
+          <summary eId="sum_6">
+            <person as="#Chair" refersTo="#FionaOLoughlin">Teachta / Deputy Fiona O'Loughlin sa Chathaoir / in the Chair.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Select Committee<recordedTime time="2017-11-15T17:00:00+00:00"/></heading>
+        <speech by="#FionaOLoughlin" eId="spk_1">
+          <from> Chairman<recordedTime time="2017-11-15T17:10:00+00:00"/></from>
+          <p eId="para_10">All mobile phones should be switched off as we know they cause interference with the recording equipment in the committee rooms even if they are in silent mode. Apologies have been received from Deputy Tony McLoughlin but I understand he will join us at a later stage when Deputy Madigan leaves to attend another meeting.</p>
+          <p eId="para_11"> This meeting has been convened to consider Committee Stage of the Technological Universities Bill 2015. The Bill provides for the merger of institutes of technology and for the process of merged institutes to apply for designation as a technological university. The Bill was introduced in 2015. I welcome the Minister of State at the Department of Education and Skills, Deputy Mary Mitchell O'Connor, who has special responsibility for higher education, and her officials to this meeting. I understand she will make an opening statement.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" as="#Minister_of_State_at_the_Department_of_Education_and_Skills" eId="spk_2">
+          <from>Minister of State at the Department of Education and Skills (Deputy Mary Mitchell O'Connor)<recordedTime time="2017-11-15T17:10:00+00:00"/></from>
+          <p eId="para_12">This legislation is a high priority for the Government and is important and ground-breaking legislation. The Bill is seeking to establish technological universities for the first time in Ireland and that constitutes a step change for the institute of technology sector and will underpin the development of a new type of higher education institution. The Bill had been agreed on Committee Stage previously but following the dissolution of the Thirty-first Dáil my colleague, the Minister, Deputy Bruton, undertook to consult with stakeholders on the provisions in the Bill and the rationale for the approach to the development of technological universities. As part of that process a clarification document was subsequently agreed between the Department, the Teachers' Union of Ireland, TUI, and the Technological Higher Education Association. TUI members voted to accept the agreement in June 2017 and suspended its industrial action in relation to the development of the technological universities. A clarification document was also provided to IMPACT as part of this process. The establishment of the technological universities will strengthen the skills, research and innovation capacity in the regions and support economic and social development.</p>
+          <p eId="para_13"> Before we discuss the amendments circulated for today I would like to notify the committee that I am also finalising additional amendments which I propose to table on Report Stage. With the permission of the Chair and in the interests of ensuring fairness and respect to the committee I will mention them briefly. I intend on Report Stage, subject to the advice of the Attorney General and Government approval, to bring forward amendments to provide the Minister for Education and Skills with a new power to appoint an investigator to publicly funded higher education institutions. The provision will also require a consequential amendment to the Long Title of the Bill.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_3">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T17:10:00+00:00"/></from>
+          <p eId="para_14">I welcome the Minister of State and her officials to the committee today. I thank the officials for the information they provided when I asked for it. That is very welcome. I acknowledge that much work has gone on in recent years to get this right. I acknowledge the work of the various institutions, the officials, Ministers and trade unions. The TUI has been key. It is very important that as politicians we do not interfere in any of the industrial relations matters that pertain to the Bill.</p>
+          <p eId="para_15"> I look forward to going through the Bill in detail. It is very welcome. It needs to happen fairly quickly. The Minister of State mentioned that she will table amendments on Report Stage on the investigators and I fully support that. There is some resistance from certain people but we think it needs to happen. However, I would not like to see the Bill delayed because of that. I got slightly nervous when the Minister of State mentioned the Attorney General's advice and the approval of the Government. We want to see the Bill go forward and for the institutions that are ready to start moving to make progress. One institution will be ready to start the process in March. We do not want anything to hold that up.</p>
+          <p eId="para_16"> Given that the Minister of State is introducing amendments to the Universities Act I will bring forward amendments to allow the Royal College of Surgeons to designate itself as a university within the jurisdiction and not just abroad, as has been the case in recent years. That is a bit of an anomaly. I mention that now but it will be for discussion on Report Stage.</p>
+        </speech>
+        <speech by="#JosephaMadigan" eId="spk_4">
+          <from>Deputy Josepha Madigan<recordedTime time="2017-11-15T17:10:00+00:00"/></from>
+          <p eId="para_17">I welcome the Minister of State and congratulate her on the work she has done on the Bill, which can be a key driver of economic and social progress. The rationale behind the Bill is to strengthen the talent pool in the regions, including Dublin, and that is to be welcomed. I also very much welcome that the Government wants to treble the number of apprenticeships available. We are looking at approximately 73 new areas. I also welcome that there will be 11 major STEM-based projects. Am I allowed to ask a question?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_5">
+          <from> Chairman<recordedTime time="2017-11-15T17:10:00+00:00"/></from>
+          <p eId="para_18">Not at this point. We are only having statements.</p>
+        </speech>
+        <speech by="#JosephaMadigan" eId="spk_6">
+          <from>Deputy Josepha Madigan<recordedTime time="2017-11-15T17:10:00+00:00"/></from>
+          <p eId="para_19">That is fine. I very much welcome the Bill and all the hard work the Minister of State has done.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_7">
+          <from> Chairman<recordedTime time="2017-11-15T17:10:00+00:00"/></from>
+          <p eId="para_20">Do either of the remaining members wish to make a statement? No, okay, we will move on.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_8">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_21">I wish to comment.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_9">
+          <from> Chairman<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_22">I beg Deputy Joan Burton's pardon. I had written the Deputy's name down.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_10">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_23">It is all right.</p>
+          <p eId="para_24"> Like others, I welcome the Minister of State here today. This is an enormously important Bill for the institutes of technology around the country, for the Dublin Institute of Technology and the Cork Institute of Technology which are two of the larger institutes of technology and where mergers with other institutes of technology have also been part of the proposals. As someone who worked for a significant period of time as a senior lecturer in the Dublin Institute of Technology, I was heavily involved in the original move to the concept of technological universities and I want to declare my interest.</p>
+          <p eId="para_25"> The issues for the institute of technology sector are that nowadays, the prerequisite is to have something that has very clearly a university status. The work that is done in the colleges, in terms of allowing access to third level education all over Ireland, is an important social asset in this country but it is also important to employers in terms of identifying people who will have, in particular, not only broad educational development but professional development, for example, in engineering, in accounting and in other specific professional fields. That has always been recognised as a strong merit point with technological universities.</p>
+          <p eId="para_26"> I want to mention a couple of issues which I hope the Minister of State will address in the course of the discussion on this. I note there are a number of amendments being put forward on the status of the trade unions in the governance of the university and the students' union.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_11">
+          <from> Chairman<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_27">This is not Second Stage. We must get into the specific sections.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_12">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_28">I merely want to mention one issue to the Minister of State.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_13">
+          <from> Chairman<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_29">Is this in regard to one of the amendments?</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_14">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_30">Yes.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_15">
+          <from> Chairman<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_31">The Deputy must wait until we get to that.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_16">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_32">Can I just finish my sentence? I want to raise the poor terms and conditions under which staff, such as assistant lecturers, are recruited. As these are the principal prized postgraduate qualified staff in Ireland, the way they are being treated makes no sense from the State's point of view. As things stand many of them will get up and leave. They are not being treated in a fair and equal way.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_17">
+          <from> Chairman<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_33">I will move on to the Bill.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3" refersTo="#bill.2015.121.dail.3">
+        <heading>Technological Universities Bill 2015: Committee Stage<recordedTime time="2017-11-15T17:20:00+00:00"/></heading>
+        <summary eId="sum_7">SECTION 1</summary>
+        <speech by="#FionaOLoughlin" eId="spk_18">
+          <from> Chairman<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_34">It is proposed that we group a number of the amendments together. Amendments Nos. 1, 14, 24, 63, 145, 180 and 199 are related and will be discussed together.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_19">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_35">I move amendment No. 1:</p>
+          <p class="indent_1" eId="para_36">In page 9, line 19, to delete "2015" and substitute "2017".</p>
+          <p eId="para_37">The purpose of amendment No. 1 is to amend the Short Title of the Bill by deleting "2015" and inserting "2017".</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_20">
+          <from> Chairman<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_38">Does any other member wish to speak to this amendment or the other amendments that I have referred to? There will be no further opportunity to refer to them.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_21">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_39">Are these all the same?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_22">
+          <from> Chairman<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_40">They are all related.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_23">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_41">Are they all related to that point?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_24">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_42">Amendments Nos. 1, 14, 24, 63, 145, 180 and 199 are all technical amendments. This includes a number of technical amendments required to delete references to certain sections of the Bill that are being deleted due to the change of the process for designation. Institutes of technology are no longer required to merge in advance of making an application to the Minister for technological university designation.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_25">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_43">Have a number of the institutes of technology specifically requested that? There were a series of mergers mentioned previously as a possibility. At this stage, is the Minister of State aware of which institutions continue to seek collective status and which want go-alone status?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_26">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_44">First, there will be no go-alone status. The whole idea is that there is to be consortia. It is to be that two, three or four institutes of technology are to come together. For example, DIT, Blanchardstown and Tallaght are interested in coming together as a consortium. Kerry and Cork are also. We have been told that Athlone is not interested at present.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_27">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_45">Are the institutions being left to their own devices as to whether to go into consortia or is there any incentive or encouragement from the Government or the HEA as to where to go or whom to go with?</p>
+          <p eId="para_46"> My colleague, Deputy Troy, will raise the programme for Government commitment. We are deleting from this Bill, probably correctly, the specific provisions about Cork and Tralee, and Dublin and Blanchardstown and Tallaght. That would have given legislative guidance as to what was to happen whereas now we are leaving the institutions to their own devices. My question is similar to Deputy Burton's. What knowledge has the Minister of State of where everything is going and what the regions can expect from this?</p>
+          <p eId="para_47"> The high-profile institutes are Dublin and Cork-Tralee. Even there, people are asking questions about it. There are a lot of questions about Waterford and Carlow, and doubts have been raised. There are a lot of questions about the western alliance too. People are interested. People value their local institute of technology and in many cases hope for it to become a technological university. What is the Minister of State saying to those around the country? Is she organising this or are the colleges being left to do as they themselves see fit?</p>
+        </speech>
+        <speech by="#RobertTroy" eId="spk_28">
+          <from>Deputy Robert Troy<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_48">I am somewhat alarmed at what the Minister of State has said in regard to the proposed mergers and the ability of certain institutions to go it alone. The programme for Government states:</p>
+          <p class="indent_1" eId="para_49">Technological Universities</p>
+          <p class="indent_1" eId="para_50"> The new Government will support the creation of Technological Universities. These regional institutions will have greater links to industry and will have an enormous impact on our capacity to create and retain jobs in regions. We will prioritise those institutions with clear ambitions and plans for the furthering of industry-relevant technological research and education. The requirement of a mandatory merger of existing institutions can be reviewed, if a case can be proven, that for geographical reasons, a merger isn't feasible.</p>
+          <p eId="para_51">That last line is emphasised, underlined and in bold print in the programme for Government.</p>
+          <p eId="para_52"> I am here very much speaking parochially from the perspective of Athlone Institute of Technology. Athlone Institute of Technology has sought to go alone. The reason it has sought to go alone is because of its geographical position in the country and it does not have a natural ally. I wonder why the clear commitment given in the programme for Government is not being honoured by the Minister of State here today.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_29">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:20:00+00:00"/></from>
+          <p eId="para_53">Deputy Byrne asked are the institutes of technology going alone, is the Government helping them or are we allowing them to decide themselves. For the main part, they have intimated consortia that they would like to be in. They are not going alone without any support. Even yesterday, I announced a budget. They had a budget last year. There will be budgets built in to support the formation of the technological universities, TUs, throughout the country.</p>
+          <p eId="para_54"> I have met many of the institutes of technology, IoTs, and their management.</p>
+          <p eId="para_55">Of course, there are questions. This is a whole new merger and project. Of course, there are many questions to be answered and solutions to be found and ironed out when a merger happens. Deputy Troy asked specifically about Athlone. It is clearly Government policy to consolidate institutes of technology in a technological universities sector. We will be building scale and capacity to make it attractive for students and staff in the regions where the technological universities are located. Deputy Troy mentioned to me often when I was Minister for Jobs, Enterprise and Innovation, as did others, that it is very important to have skills and students in the regions. That is one of the reasons we are strongly working to ensure students have opportunities to gain a technological university education within their region instead of having to move from the places they reside to a certain city and never going back. We believe it will really strengthen the sector by creating universities. We were advised by the OECD in 2004 as well as in the Hunt report about maintaining the binary divide. We are seeking to ensure that consolidated institutes of technology bring students together and create strong universities. We would have a critical mass of students and lecturers in an area. That will be an add-on for students.</p>
+        </speech>
+        <speech by="#RobertTroy" eId="spk_30">
+          <from>Deputy Robert Troy<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_56">I appreciate the Chairman giving me the opportunity to speak as I am not a member. I have no intention of hogging the committee's meeting this evening. The Minister of State referenced the Hunt report and another report, both of which were available prior to the negotiations for the programme for Government. What I read out at the outset was a clear and unambiguous commitment in the programme for Government in relation to the mandatory need for a merger. The Minister of State has reiterated in her feedback to me that this is no longer going to be honoured. That is a straight question. Is the Government rowing back on the commitment given in the programme for Government? That is my first question.</p>
+          <p eId="para_57"> I agree that there is an urgent need to advance this critical legislation. That the first amendment is to change its date from 2015 to 2017 indicates the length of time this has been ongoing. I do not want it to get out there that I am trying to say, "Athlone deserves it". It is up to Athlone or any other institute of technology to make its case based on the required areas of research and the level of doctoral or equivalent training among its teaching staff. If an institute does not meet the high test set down, it will not be able to apply for university status. If it does meet that, however, it should not be prevented. I am making the case strongly because this was inserted in the programme for Government with Athlone Institute of Technology in mind. Given its location, there are no nearby institutes with which it can merge. The only benefit of a merger for Athlone would simply relate to scale and the number of students. It would have nothing to do with the quality of the education being provided. The Minister of State might clarify whether it is now the Department's position that it is rowing back from the commitment in the programme for Government or if it is something that can be looked at further down the line?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_31">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_58">I ask for time because this is important even though I think it was amendment No. 107. I am happy to deal with it now.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_32">
+          <from> Chairman<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_59">We will get to that when we get to it but, to be fair to everybody, we are only going to deal with the amendments in the group. I allowed Deputy Troy to raise it, but we are not going to deal with the specific amendment within this group. Otherwise, we will be jumping all over the place.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_33">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_60">I am very willing to answer that.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_34">
+          <from> Chairman<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_61">I thank the Minister of State.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_35">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_62">Clarifying this is very important for every institute of technology. Is the Minister of State suggesting there is a timeline over which she wishes to see this completed? Is there a transition period and how long is it likely to be? Is there a numbers threshold? That might be what affects Athlone. Does it mean, in effect, that unless an institute is in a consortium or group, it will not have a pathway to university status, notwithstanding the fact that it may meet the other requirements? This is very important. As Deputy Troy said, the issue has been around for well over a decade. It was dealt with in the Houses extensively during the period in office of the last Government. It is key for students to know whether they are selecting courses in an institute with the option of becoming a technological university by meeting the requirements in the Hunt report and the others down the years. That is very significant and it needs to be clarified.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_36">
+          <from> Chairman<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_63">There are specific questions which I will ask the Minister of State to reply to but this is not Second Stage. We are dealing with amendments. When the Minister of State responds to the general questions the Deputy raises, we will go back to the amendments and start to take them in order. We will not be taking any general questions after that.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_37">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_64">I am at the committee's disposal. I am very willing. I was told we would start with the amendments and go through them, but I notice now that we have skipped to amendment No. 107. I have no problem whatsoever in-----</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_38">
+          <from> Chairman<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_65">We are not dealing with amendment No. 107.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_39">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_66">It is amendment No. 107 because Deputy Burton has asked me to clarify. First, there is no transition period. Second, there must be more than two institutes of technology in a consortium before-----</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_40">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_67">Two or more than two?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_41">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_68">Does the Deputy want to hear the answer?</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_42">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_69">Sorry, yes.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_43">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_70">It is two or more in a consortium before we can approve technological university status. That is clearly the Government's policy. We have spoken to many of the institutes. I refer again to critical mass. DIT, Tallaght IT and Blanchardstown IT together have approximately 27,000 students. Further down, it is 13,000 or 14,000. In the case of Athlone IT, there are approximately 5,500 students, which means we do not have that critical mass for a technological university. In any event, there must be two or more institutes merging as part of a consortium before we will approve technological university branding.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_44">
+          <from> Chairman<recordedTime time="2017-11-15T17:30:00+00:00"/></from>
+          <p eId="para_71">That has been clarified and I am going to move on.</p>
+          <p eId="para_72"> Amendment agreed to.</p>
+          <p eId="para_73"> Section 1, as amended, agreed to.</p>
+          <p eId="para_74">SECTION 2</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_45">
+          <from> Chairman<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_75">A number of amendments are grouped. They are amendments Nos. 2, 3, 6 and 8 to 12, inclusive.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_46">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_76">I move amendment No. 2:</p>
+          <p class="indent_1" eId="para_77">In page 10, to delete lines 4 to 8 and substitute the following:</p>
+          <p class="indent_2" eId="para_78">“ “applicant college” has the meaning assigned to it by <i>section 35</i>;</p>
+          <p class="indent_2" eId="para_79">“applicant institutes” has the meaning assigned to it by <i>section 26</i>;</p>
+          <p class="indent_2" eId="para_80">“applicant technological university” has the meaning assigned to it by <i>section 35</i>;”.</p>
+          <p eId="para_81">Institutes of technology will no longer be required to merge in advance of making an application to the Minister for technological university designation. Only two or more institutes of technology defined as applicant institutes in section 39 may apply for such designation. However, under section 48, one institute of technology, defined as an applicant college, may apply to be incorporated into an existing technological university. In the context, amendment No. 2 defines an applicant college, applicant institutes and an applicant technological university by relevance to the sections of the Bill.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_47">
+          <from> Chairman<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_82">Amendments Nos. 9 and 12 are in the names of Deputies Funchion and Catherine Martin. Do they wish to address them now?</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_48">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_83">My amendment relates to the student union and its definition. The wording currently indicates it as a representative body recognised by the institute. Student unions are currently independent and given a mandate by students, and it is really important for them to have autonomy from a university. It is similar to a trade union in the workplace that would have autonomy from an employer and be given a mandate from members of the union. My amendment, which is similar to Deputy Martin's amendment, provides a more detailed indication of what is a student union. Importantly, it stresses the independence of the union from the institution. Having it as another representative body "recognised by the institute" is far too vague and I would have serious concerns about what the representative body would be and if students want it to represent them. Students give a mandate to a student union and want that body to represent them.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_49">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_84">I will be happy to withdraw amendment No. 9. My amendment No. 11 would define a student union as an independent body representing students. The concern is that it must be recognised by the institute to be a student union, as per the Government amendment. The student union should be an independent body elected by the students, as there is a risk it could be left out of procedures if it is not something recognised by the institute.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_50">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_85">I support the objectives of what Deputies Funchion and Martin are seeking but I wonder if it is necessary. I will reserve my position until I hear the Minister of State's comments and a case has been made. What is the procedure or precedent for this? Has this been legislated for in the universities Acts or the Dublin Institute of Technology legislation? If it is not, is it necessary to do it in this case?</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_51">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_86">I want to ask the Minister of State a similar question. In this legislation, is there not an implication that the existing institutions within the institutes of technology travel with the institute to the new technological university? If a student union already exists, as it does in all the institutes of technology, would it not carry over to the technological university?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_52">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_87">The definition in the Bill, subject to amendment No. 8, provides clarity on the roles relating to the consultation on disputes resolution procedures and nominations to governing bodies. The definition also includes a reference to other student representatives bodies, ensuring the definition includes the possibility of there being more than one student representative body in an institution in question. For example, this might occur for postgraduate students.</p>
+          <p eId="para_88"> In terms of the proposed definition, the entire statement relates to the independence of the student union with no corresponding insertions relating to governance or accountability for the funding channelled to the student union. We cannot have a position whereby there is not an appropriate balance between autonomy and accountability, particularly when we are seeking to strengthen the governance and accountability framework for higher education institutions. The officials have discussed this matter with representatives of the Union of Students in Ireland and intend to engage further on the matter, which is important.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_53">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_89">I do not see why there is a need to engage further if the amendment is agreed today. There is no point in engaging further if it is already written. The wording of my amendment and that of Deputy Martin does not indicate there can only be one student union. It means "an independent body established by students, with a written constitution ratified by students in a referendum". For argument's sake, there could be two student unions. This is not about having one body with all the say for students. The concern is that it is very vague to have it as an "other representative body recognised by the institute". It does not state that it must be recognised by students, the student union or student bodies. It does not state what is the representative body. It is disingenuous to say officials will engage further if the decision is made today as there is no point in engaging further because we will have it in black and white. Our amendment is more than reasonable. It would be a progressive addition to the legislation. We should look to press it.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_54">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_90">I am still not content with the Government's definition of a student union. It could lead to a position where a student union exists and is accepted and elected by students but ignored by an institute. It is a key point. I am still not convinced by the Government's definition of student union.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_55">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_91">I am not convinced by my colleagues, although they make a good case. I would like to wait until Report Stage to further consider the matter. If they call a vote, I would abstain at this point. I certainly look forward to further discussion on Report Stage. They are valid points.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_56">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_92">What the student union would seek is, to some degree, consequent on the fact that it may be nervous that in a new constitution its autonomous power could be diminished. For example, it might have to have constant reference to whoever is head of the institution. Some of the institutions have a history of being patriarchal. We need clarity on the Minister of State's approach because, overall, I am quite supportive of Deputy Funchion's proposed amendment. What is the Minister of State's attitude to it? Does she accept it?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_57">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_93">No, I reject the proposed amendment. The entire statement relates to the independence of the student union and no corresponding insertions are needed relating to governance or accountability for the funding channelled to the student union. We have spoken with the Union of Students in Ireland and we will continue to speak with them.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_58">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T17:40:00+00:00"/></from>
+          <p eId="para_94">It is my understanding that this is the wording that the USI would like to see in the Bill.</p>
+        </speech>
+        <summary eId="sum_8"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_59">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:50:00+00:00"/></from>
+          <p eId="para_95">I move amendment No. 3:</p>
+          <p class="indent_1" eId="para_96">In page 10, to delete lines 9 to 14 and substitute the following:</p>
+          <p class="indent_2" eId="para_97">" "Director", other than in the definition of "statutory body", means, in relation to a college within the meaning of the Act of 1992, a person appointed under section 9 of that Act;". </p>
+        </speech>
+        <summary eId="sum_9"> Amendment agreed to. </summary>
+        <speech by="#FionaOLoughlin" eId="spk_60">
+          <from> Chairman<recordedTime time="2017-11-15T17:50:00+00:00"/></from>
+          <p eId="para_98">Amendments Nos. 4, 5, 7, 13, 15, 16, 18, 67 and 69 to 82, inclusive; 84 to 91, inclusive; 93, 94 and 96 to 105, inclusive, 113, 116, 117, 119 and 121 to 143, inclusive; and 149, 150 and 171 are related and may be discussed together.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_61">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:50:00+00:00"/></from>
+          <p eId="para_99">I move amendment No. 4:</p>
+          <p class="indent_1" eId="para_100">In page 10, line 31, to delete "an institute, a merged institute or a technological university" and substitute "an institute or a technological university".</p>
+          <p eId="para_101">Amendment No. 4 is a consequential technical amendment which deletes the term "merged institute" and substitutes "applicant institute". An applicant institute is defined in section 26 as two or more institutes that jointly may apply to the Minister for an order under section 46. The technical amendments in this group arise because of the changes to the application process for designation as a technological university. This approach was decided upon following consultations with stakeholders, some of whom had expressed concern that institutes of technology could merge, subsequently fail to obtain technological university status and then effectively become stuck in that process. </p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_62">
+          <from> Chairman<recordedTime time="2017-11-15T17:50:00+00:00"/></from>
+          <p eId="para_102">Deputies Byrne and Lawless have amendments. Deputy Lawless is not here.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_63">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T17:50:00+00:00"/></from>
+          <p eId="para_103">Are there any amendments in this group that are in my name only? The main changes that the Minister of State is putting forward here concern the halfway house that was originally proposed. It was very unfortunate. I do recognise the work that has been done to allay our concerns and the concerns of many within the sector, the TUI and the institutions themselves that institutions could merge, apply for technological university status and then find they did not get it. There would have been huge uncertainties there about the status of degrees or other certification and the status of the institutions themselves. This was a significant point of worry around the time this legislation came through. For the record, it was a significant point of concern and objection on the part of Fianna Fáil at the time so we are very happy that it is proposed to change this as part of these amendments. We think this is the right and sensible way to do it. On that basis, we have encouraged the Minister to proceed with the legislation and agreed to facilitate it so we welcome that and think the framework in the Bill is probably the best way to allow institutions to fulfill their ambitions to become technological universities or to achieve university status.</p>
+        </speech>
+        <summary eId="sum_10"> Amendment agreed to. </summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_64">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:50:00+00:00"/></from>
+          <p eId="para_104">I move amendment No. 5:</p>
+          <p class="indent_1" eId="para_105">In page 10, line 38, to delete "or a merged institute established under <i>section 10(2)(b)</i> or <i>section 18(2)(b)</i>".</p>
+        </speech>
+        <summary eId="sum_11"> Amendment agreed to. </summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_65">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:50:00+00:00"/></from>
+          <p eId="para_106">I move amendment No. 6:</p>
+          <p class="indent_1" eId="para_107">In page 11, to delete lines 1 and 2 and substitute the following:</p>
+          <p class="indent_2" eId="para_108">" "institute" means—".</p>
+        </speech>
+        <summary eId="sum_12"> Amendment agreed to. </summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_66">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:50:00+00:00"/></from>
+          <p eId="para_109">I move amendment No. 7:</p>
+          <p class="indent_1" eId="para_110">In page 11, to delete lines 7 to 14.</p>
+        </speech>
+        <summary eId="sum_13"> Amendment agreed to. </summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_67">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:50:00+00:00"/></from>
+          <p eId="para_111">I move amendment No. 8:</p>
+          <p class="indent_1" eId="para_112">In page 12, to delete lines 2 to 6 and substitute the following:</p>
+          <p class="indent_2" eId="para_113">" "student", in relation to an institute or technological university, means—</p>
+          <p class="indent_2" eId="para_114">(a) a person registered as a student by the institute or technological university, or </p>
+          <p class="indent_2" eId="para_115">(b) a full-time officer of the student union who was first elected to his or her office while he or she was registered as a student by the institute or technological university;".</p>
+        </speech>
+        <summary eId="sum_14"> Amendment put and declared carried. </summary>
+        <summary eId="sum_15"> Amendment No. 9 not moved. </summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_68">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T17:50:00+00:00"/></from>
+          <p eId="para_116">I move amendment No. 10:</p>
+          <p class="indent_1" eId="para_117">In page 12, to delete lines 7 to 9 and substitute the following:</p>
+          <p class="indent_2" eId="para_118">" "student union", in relation to an institute or technological university, means the student union or other student representative body recognised by the institute or technological university;".</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_4">
+          <summary eId="sum_16">Amendment put: </summary>
+          <summary title="division" eId="sum_17">The Committee divided: Tá, <quantity refersTo="#ta" normalized="3" eId="qty_1">3</quantity>; Níl, <quantity refersTo="#nil" normalized="2" eId="qty_2">2</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_5">
+            <p eId="para_119">Tá</p>
+            <p eId="para_120">
+              <person refersTo="#JosephaMadigan">Madigan, Josepha.</person>
+            </p>
+            <p eId="para_121">
+              <person refersTo="#TonyMcLoughlin">McLoughlin, Tony.</person>
+            </p>
+            <p eId="para_122">
+              <person refersTo="#MaryMitchellOConnor">Mitchell O'Connor, Mary.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_6">
+            <p eId="para_123">Níl</p>
+            <p eId="para_124">
+              <person refersTo="#KathleenFunchion">Funchion, Kathleen.</person>
+            </p>
+            <p eId="para_125">
+              <person refersTo="#CatherineMartin">Martin, Catherine.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_18"/>
+          <summary title="decision" refersTo="#carried" eId="sum_19">Amendment declared carried.</summary>
+        </debateSection>
+        <summary eId="sum_20"> Staon: Deputy Thomas Byrne and Deputy Fiona O'Loughlin. </summary>
+        <summary eId="sum_21"> Amendments Nos. 11 and 12 not moved.</summary>
+        <summary eId="sum_22"> Question proposed: "That section 2, as amended, stand part of the Bill."</summary>
+        <speech by="#CatherineMartin" eId="spk_69">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:00:00+00:00"/></from>
+          <p eId="para_126">I wish to raise an issue relating to definitions in section 2 on Report Stage.</p>
+        </speech>
+        <summary eId="sum_23"> Question put and agreed to.</summary>
+        <summary eId="sum_24">SECTION 3</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_70">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:00:00+00:00"/></from>
+          <p eId="para_127">I move amendment No. 13:</p>
+          <p eId="para_128">In page 12, line 13, to delete “<i>18</i>,”.</p>
+        </speech>
+        <summary eId="sum_25"> Amendment agreed to.</summary>
+        <summary eId="sum_26"> Section 3, as amended, agreed to.</summary>
+        <summary eId="sum_27"> Sections 4 and 5 agreed to.</summary>
+        <summary eId="sum_28">NEW SECTION</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_71">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:00:00+00:00"/></from>
+          <p eId="para_129">I move amendment No. 14:</p>
+          <p eId="para_130">In page 12, to delete lines 27 to 36, and in page 13, to delete lines 1 to 23 and substitute the following:</p>
+          <p class="indent_1" eId="para_131"><b>“6. </b>(1) Other than where <i>subsection (2) </i>applies, on the day appointed by order under <i>section 33 </i>or <i>40</i>, the First Schedule to the Act of 1992 is amended by the deletion from column 1 of, as the case may be, the names of the dissolved applicant institutes or the name of the applicant college specified in the order.</p>
+          <p class="indent_2" eId="para_132">(2) Where the Dublin Institute of Technology is specified in an order under <i>section 33</i>, or <i>section 40</i>, the following Acts are repealed on the day appointed by that order—</p>
+          <p class="indent_3" eId="para_133">(a) the Dublin Institute of Technology Act 1992;</p>
+          <p class="indent_3" eId="para_134">(b) the Dublin Institute of Technology (Amendment) Act 1994.”.</p>
+        </speech>
+        <summary eId="sum_29"> Amendment agreed to.</summary>
+        <summary eId="sum_30"> Section 6 agreed to.</summary>
+        <summary eId="sum_31"> Sections 7 to 17, inclusive, deleted.</summary>
+        <summary eId="sum_32">SECTION 18</summary>
+        <summary eId="sum_33"> Amendments Nos. 15 and 16 not moved.</summary>
+        <summary eId="sum_34"> Question, "That section 18 be deleted", put and agreed to.</summary>
+        <summary eId="sum_35"> Section 19 deleted.</summary>
+        <summary eId="sum_36">SECTION 20</summary>
+        <speech by="#FionaOLoughlin" eId="spk_72">
+          <from> Chairman<recordedTime time="2017-11-15T18:10:00+00:00"/></from>
+          <p eId="para_135">Amendments Nos. 17 and 19 are related and will be discussed together.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_73">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:10:00+00:00"/></from>
+          <p eId="para_136">I move amendment No. 17:</p>
+          <p class="indent_1" eId="para_137">In page 18, line 6, to delete “In” and substitute the following:</p>
+          <p class="indent_2" eId="para_138">“(1) In”.</p>
+          <p eId="para_139">Amendments Nos. 17 and 19 clarify that a region includes more than one region if the campuses of the technological university or applicant institutes in question are located in more than one region. As such, they strengthen the regional mission of a technological university. This clarification was agreed with stakeholders during the consultation process held earlier this year.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_74">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:10:00+00:00"/></from>
+          <p eId="para_140">I wish to raise a number of issues. Does the term "campus" need to be defined in the legislation? I do not think it is defined. Many campuses in various regions are very important to people. There are also campuses that will close down at some point or change when the Grangegorman campus in Dublin opens. There are some campuses such as Castlebar, part of the Galway-Mayo Institute of Technology, GMIT, that I am very concerned to protect. There are other Dublin Institute of Technology, DIT, campuses that will move to Grangegorman.</p>
+          <p eId="para_141"> I want some legislative protection for the campuses that it is intended will stay. I have tried to provide for this in some of my amendments and I will come back on Report Stage with more detail in this regard. I want a provision in the Bill to the effect that Castlebar will remain part of GMIT, or whatever institution that body would eventually become part of, and any other offshoots around the country. The regional provision and regional location of campuses in the institute of technology, IT, sector is equally critical in the technological university, TU, sector if an IT is to become a TU. It is an absolute precondition, a <i>sine qua non</i>, of Fianna Fáil's support for the Bill that not only the regional identity and regional focus, but also the actual physical location of campuses and the multidisciplinary range of courses provided in those various campuses are retained, while obviously not legislating for the exact courses provided in universities. A little more work needs to go into this, and I think there needs to be a definition of "campus" that acknowledges that some in Dublin are to move to Grangegorman but that others very badly need to be protected and maintained in the legislation.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_75">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T18:10:00+00:00"/></from>
+          <p eId="para_142">Going back to the earlier discussion, I would be grateful if the Minister of State clarified the following. If, for instance, an institution in some part of the country is on its own and does not have an obvious partner, or has a partner indicated by the Department but does not want to join with that particular partner, will the Minister of State confirm that the institution is free to put forward a proposal to join with an institution, for instance, in Dublin or Cork, even though they may not be in the one region, if it is the desire of those institutions to so merge? For the sake of example, suppose Dundalk, Athlone or Carlow wanted to join the Dublin technological university. I know it is a bit of an extreme example, but the Minister of State laid a lot of emphasis on the fact that there must be two or more institutions. Can those institutions be selected nationally? I was a little taken aback that in her reference to Athlone IT, which is a significant institution with particular specialisations, the Minister of State implied in her previous statement, as I understood it, that its numbers were not sufficient to merit an application as one of the two or more institutions. The same may well apply to Carlow IT if, for instance, it were not able to address the ongoing discussions between it and Waterford IT. When the Minister of State uses the term "region", does that mean there are options with other parts of the country where there are institutions with which they might well wish to be associated?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_76">
+          <from> Chairman<recordedTime time="2017-11-15T18:10:00+00:00"/></from>
+          <p eId="para_143">Again, we will not get into amendment No. 106 but it has raised its head again. I would appreciate the Minister of State's response after all Deputies have spoken. Has anyone else indicated? Does Deputy Byrne wish to come back in before the Minister of State-----</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_77">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:10:00+00:00"/></from>
+          <p eId="para_144">I do, very briefly, before the Minister of State comes back in. Obviously, Blanchardstown and Tallaght are not moving to Grangegorman. They are also a key reason the campuses need protection. The regional focus applies equally in Tallaght and Blanchardstown as it does in Castlebar and Tralee, etc., and I would like the Minister of State to address that as well.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_78">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:10:00+00:00"/></from>
+          <p eId="para_145">Campuses are not defined in the Bill. However, they are dealt with in the strategic plan in section 30 of the Bill. To clarify, ITs can at any stage be stand-alone or apply to join a TU. For the record, in case anyone thinks otherwise, I have the highest regard for Athlone IT. I have visited it not only as the Minister of State with responsibility for higher education, but also in my last role. In any of the messages I got from industries and businesses that opened in and around Athlone, Roscommon or Mullingar in particular, I heard the highest of praise for Athlone Institute of Technology, so I am a huge fan of AIT. I did not put the critical mass numbers on the record. TU4Dublin will be 27,880 students; Munster TU, approximately 13,495: the Connacht-Ulster technological university alliance, 15,910; and TU south east, 14,612. We believe having a critical mass is really important. According to the figures for Athlone IT that I have before me, there was a student cohort of 4,890 in 2015-16, while Dundalk's was 4,999. Our plan is to put the colleges and ITs together and create a critical mass and a choice for students in order that they can go from level 6 right up to doctorate level if they so wish. As I said, at any stage single ITs can apply for technological university recognition, but they must be a consortium.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_79">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T18:10:00+00:00"/></from>
+          <p eId="para_146">This is very important. Deputy Byrne asked the Minister of State earlier - and I would like it confirmed - whether the Government is actually committing to the retention of all the institutes of technology and the campuses in the diverse locations in which they exist around the country. For instance, in Blanchardstown, and similarly in Tallaght, the student population is relatively small compared to the mass of DIT. Many institutions are small but absolutely vital in terms of third level educational access for the people who live in the catchment areas. For instance, Blanchardstown attracts not just, as one might expect, a significant number of students from the north west of Dublin, but also a very significant number of students from Meath, and that has always been the case. Therefore, I would like the Minister of State to give an undertaking that the campuses will remain and that there will not be another agenda of slimming down the institutions as a consequence of the merger. This is a legitimate issue for local areas where, particularly if they are trying to attract foreign direct investment, having an institute of technology or being part in the future of a technological university is a really significant and important draw when trying to attract investment to the area.</p>
+          <p eId="para_147">The reason IBM came to west Dublin in the early 1990s was because people like me were campaigning to have an institute of technology, which did happen. Although small in terms of access to third-level education in the area, it has been very important.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_80">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_148">The Bill will give that Government support. If we think back to budget 2018, we saw the Government gave a commitment of €200 million in public private partnerships to 11 projects in institutes of technology throughout the country, including Blanchardstown. I am happy there is absolute Government support. This was the budget where we showed intent and that we are really serious about making sure we bring into the technological sector those institutes of technology that want to do so. We have also announced further budgets and the largest ever for education. I want Deputy Burton to understand this and I assure her Institute of Technology Blanchardstown has also been given grants under public private partnerships, which shows our support. It is real money on the table and real support. It is not talk.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_81">
+          <from> Chairman<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_149">It is good to hear the Government commitment to the regional authority of the various campuses.</p>
+        </speech>
+        <summary eId="sum_37"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_82">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_150">I move amendment No. 18:</p>
+          <p class="indent_1" eId="para_151">In page 18, line 16, to delete "dissolved merged institute" and substitute "dissolved applicant institutes".</p>
+        </speech>
+        <summary eId="sum_38"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_83">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_152">I move amendment No. 19:</p>
+          <p class="indent_1" eId="para_153">In page 18, between lines 17 and 18, to insert the following:</p>
+          <p class="indent_2" eId="para_154">"(2) A reference in this Part to a region includes, if the campuses of the technological university, or, as the case may be, applicant institutes, are located in more than one region, a reference to each of those regions.".</p>
+        </speech>
+        <summary eId="sum_39"> Amendment agreed to.</summary>
+        <summary eId="sum_40"> Section 20, as amended, agreed to.</summary>
+        <summary eId="sum_41"> Section 21 agreed to.</summary>
+        <summary eId="sum_42">SECTION 22</summary>
+        <speech by="#FionaOLoughlin" eId="spk_84">
+          <from> Chairman<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_155">Amendments Nos. 20, 21, 25, 28 to 41, inclusive, 60 and 61 are related.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_85">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_156">I move amendment No. 20:</p>
+          <p class="indent_1" eId="para_157">In page 19, between lines 10 and 11, to insert the following:</p>
+          <p class="indent_2" eId="para_158">"(iii) contributes to the promotion of the economic, cultural and social development of the State,</p>
+          <p class="indent_2" eId="para_159">(iv) respects the diversity of values, beliefs and traditions in Irish society,</p>
+          <p class="indent_2" eId="para_160">(v) promotes critical and free enquiry, informed intellectual discourse and public debate within the technological university and in wider society.".</p>
+          <p eId="para_161">This is to address the functions of the technological universities as set out on page 19 of the Bill, and that we try to promote critical thinking in public debate. Diversity of debate and values are key aspects of third level education and I see them as core. The language used in section 22 outlines the functions of the universities as collaborating with business, enterprise, professions, the community and related stakeholders in the region to ensure that in so far as possible innovation activity and research undertaken by technological universities will reflect the needs of those stakeholders. This is in direct contrast with the weak language on page 20 on promoting broader aims. The language regarding critical thinking, diversity, free speech, and the economic, social and cultural development of the State is only "where practicable" rather than "in so far as possible". The amendment is to place more emphasis on these being key and core aspects of third level education.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_86">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_162">I support Deputy Martin's amendment No. 20. Amendments Nos. 21 and 25 are fairly self-explanatory. Amendment No. 21 seeks to include the word "learners" because it is absent from the section and amendment No. 25 seeks to include reference to students and staff.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_87">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_163">Deputy Martin proposes to insert a new provision into section 22 of the Bill. This wording is already provided for in section 22(k)(iii) of the Bill. The amendment is therefore not accepted.</p>
+          <p eId="para_164"> Amendment No. 21 proposes to insert a reference to learners into section 22 of the Bill, which deals with the functions of the technological university. I am of the view that the term "citizens" includes all learners and a reference to flexible means of learning is also of assistance in broadening the reach of the programmes, so we will not accept this amendment.</p>
+          <p eId="para_165"> Amendment No. 25 was submitted by Deputies Byrne and Funchion. It proposes to insert a reference to learners in section 22. The section is fundamentally about engagement with external stakeholders. Staff and students are strongly represented on the governing body and academic council. Their roles on these structures are provided for elsewhere in legislation. Therefore, it is not necessary or appropriate to include references here. Therefore, the amendment is not accepted.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_88">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_166">I thank the Minister of State for her response. If students and staff are so represented I do not see why we cannot include the words "students" and "staff". It is literally two words. It is the same with regard to learners. Surely one of the main functions of any institution where people learn is for learners. I do not think these are big asks. It is only two words.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_89">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_167">In reply to what the Minister of State said on amendment No. 20, I see the provision in section 22(k)(iii) which states "where practicable in the performance of its functions". This is my exact point. I believe this is weak wording and I wanted to place a bigger emphasis on it as being a core part of the university. My issue is with the language in section 22(k)(iii). I knew it was there, but I have an issue with the weakness of the language as I feel it should be a core function of a university.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_90">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_168">We all have different concerns about the functions of a technological university, and it would be fantastic if we could all, even privately or in a public session that is not part of the legislative process, sit around and go through it.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_91">
+          <from> Chairman<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_169">Have a debate about it.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_92">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:20:00+00:00"/></from>
+          <p eId="para_170">The Minister of State will come in with her responses to all of our amendments. Committee members have raised good issues, and perhaps there is something to which we could all agree on Report Stage that could be drafted by the Government. This is what I suggest. Deputies Martin and Funchion have raised issues. It is not a function of a technological university in this section to promote gender equity, for example. I know there is provision regarding gender equality slightly further on. As far as I know, it is a function of the DIT legislation that gender equity is promoted. Perhaps someone can highlight it if I am wrong and I would be delighted to hear it. It is something that has to be included.</p>
+          <p eId="para_171"> There is huge emphasis, and perhaps it is proper emphasis, on business and enterprise and developing an entrepreneurial culture, but there are many courses which do not relate to business and enterprise and a lot of academic disciplines that do not, such as social care, social work and education. There are many areas. I am thinking in particular about art and design also. As far as I know, the institute of art and design would qualify under this legislation to seek to be part of a consortium. There is art for art's sake, and design for design's sake and they are very important. They should not necessarily have to be about the needs of business. There is also culture agus an Gaeilge freisin. Some of this can be part of a strategic plan, but we need to give more of an emphasis. The cultural and social development of the State is mentioned, but business and enterprise are emphasised and they seem to be what hit one and what come out.</p>
+          <p eId="para_172"> There is another amendment in my name and that of my colleague, Deputy Lawless. My understanding of his proposal, and he is our science spokesperson, is there such a thing as science discovery for the sake of science discovery. It might not necessarily be directly relevant to a local employer in Blanchardstown but it could benefit the State hugely.</p>
+          <p eId="para_173"> I have a slight concern with the reference to the community in the region. I spoke to the officials and they helpfully advised that this wording came from the Parliamentary Counsel. There seems to be many communities in the regions that these institutions are serving. That relates to amendment No. 29. I urge the Government to reconsider that. The purpose of Committee Stage is for us to go through the Bill line by line but it would be helpful for the Government to at least consider the points we are making and come forward with an amendment on Report Stage which we could hopefully all buy into. Issues have been raised and the legislation has been lying around, as it were, for quite some time. There are many functions of a technological university that are not listed or emphasised. We would be doing well to do that bit of work.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_93">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_174">We are possibly at a disadvantage because we are coming to this not having had the opportunity to discuss it at an earlier Stage-----</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_94">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_175">Second Stage.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_95">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_176">Yes, on Second Stage.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_96">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_177">With respect to section 22(1)(b), I would like an assurance from the Minister of State that citizens-----</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_97">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_178">We have not reached amendment No. 22 yet. We are dealing with amendments Nos. 20, 21, 25 and 28 to 41.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_98">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_179">No, I am referring to section 22.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_99">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_180">The Deputy has a question on the section, not on an amendment to the section.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_100">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_181">No, it is on the section. I seek an assurance from the Minister of State on an aspect of it. The section refers to, "education and training that reflect the needs of citizens, business, enterprise", and so on. Will she give an assurance that citizens within that meaning include people who are residents of the area as opposed to some precise constitutional meaning of a passport holder. The institutes of technology have a long tradition of catering for people who are residents of Ireland and who may well one day become citizens. They may be people who have refugee status, leave to remain in Ireland or another status but they are not technically a citizen. I seek reassurance that the word "citizen" in this context does not mean a passport-holding citizen of the Republic. I believe that must be the case because, under European law, these institutions would have to be open to people from other European Union countries.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_101">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_182">Strictly speaking, the Deputy's query should be answered at the end of section 22 and the amendments to it should be dealt with first. The Minister of State might respond to the amendments.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_102">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_183">I had read my speaking notes to the amendments down as far as amendment No. 25. Regarding amendments Nos. 20 and 21 in the names of Deputies Catherine Martin and Funchion, respectively, we are very willing to consider those for Report Stage.</p>
+          <p eId="para_184"> Deputy Thomas Byrne spoke about us sitting down and discussing the different issues. The Department officials will talk to the Deputy about his various issues. We will definitely come back on Report Stage, with the officials having talked about those two particular amendments. Deputy Thomas Byrne went on to speak about amendment No. 28. I did not yet respond to it but I can do so. </p>
+          <p eId="para_185"> Deputy Burton spoke on section 22 and raised the matter of the definition of a citizen. A citizen is not defined in the Bill. We used the word "citizens" because that was the word the Parliamentary Counsel advised us to use. </p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_103">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_186">The Minister of State is confirming that it is a generic term that applies.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_104">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_187">I absolutely am.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_105">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_188">That is fine. I thank the Minister of State for that.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_106">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_189">The Deputy can be comfortable in that respect. We want everyone to get the very best from this education provision.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_107">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_190">I suggest that the Minister of State and her officials would take on board what has been said and the various points that have been raised here. In the context of Deputy Burton's question, the word "people" is probably a better one to use.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_108">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_191">I am not a lawyer at the Bar, so I will leave that to the Deputy.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_109">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_192">One voice at a time, please.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_110">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_193">I suggest the Minister of State would take on board the various issues we have raised and show us a draft proposed Report Stage amendment before the Bill is taken on Report Stage. Once the Government has issued its amendments, it is almost a case of game over because the decision has been made. If the Minister of State's draft proposed amendment for Report Stage could be issued to all members of the select committee we would revert to her on it. We should not be dividing on an issue related to the functions of a technological university.</p>
+        </speech>
+        <speech by="#JosephaMadigan" eId="spk_111">
+          <from>Deputy Josepha Madigan<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_194">We could consider certain amendments.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_112">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_195">To clarify-----</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_113">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_196">I was not finished.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_114">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_197">The Deputy should hurry up.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_115">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_198">We are creating universities here. It is probably one of the most important tasks we will ever do as Members of the Oireachtas.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_116">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_199">Absolutely. I completely agree with the Deputy but we are dealing with the amendments.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_117">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_200">Yes, but I am proposing a way to deal with all the amendments and the issues we have all raised regarding them and that pertain to the section. We cannot ignore the section and the specific items that have been raised by individuals. I propose that the Government, having discussed the amendments with the Parliamentary Counsel and the officials, would come back to us with a draft proposal that we all buy into. That is all I am suggesting.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_118">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_201">I will ask the Minister of State to take that on board. I will return to the amendments, unless the Minister of State wants to respond to a particular issue.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_119">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_202">I am taking that on board. I have said that we will look at amendments Nos. 20 and 21. That is what I am saying. I am taking on board what the Deputy proposed but we do not want to unravel everything that has been put together here. The function of this select committee meeting is for us to through the Bill amendment by amendment. I am willing to deal with Deputy Thomas Byrne's amendment where he proposes the inclusion of the words "scientific discovery", if he so wishes.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_120">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_203">How stands Deputy Martin's amendment No. 20?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_121">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_204">We will revert to the Deputies on amendments Nos. 20 and 21.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_122">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_205">I will withdraw amendment No. 20 on the basis of what the Minister of State has said.</p>
+        </speech>
+        <summary eId="sum_43"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#KathleenFunchion" eId="spk_123">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_206">I move amendment No. 21:</p>
+          <p class="indent_1" eId="para_207">In page 19, line 11, after "of" where it secondly occurs to insert "learners,".</p>
+          <p eId="para_208">The Minister of State indicated that she would come back to us on this amendment for Report Stage.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_124">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_209">Yes.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_125">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_210">I will withdraw the amendment until we come to deal with this matter on Report Stage.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_126">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_211">I thank the Deputy for that.</p>
+        </speech>
+        <summary eId="sum_44"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#FionaOLoughlin" eId="spk_127">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_212">Amendments Nos. 22, 23, 26, 27, 59, 68, 83, 92, 95 and 144 are related and may be discussed together. The first amendment in this grouping, amendment No. 22, is in the name of the Minister of State. Does she wish to speak to this amendment?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_128">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_213">I move amendment No. 22:</p>
+          <p class="indent_1" eId="para_214">In page 19, line 12, to delete "the professions and other stakeholders" and substitute "the professions, the community and other stakeholders".</p>
+          <p eId="para_215">Amendment No. 22 inserts a reference to the "community" in section 22.</p>
+          <p eId="para_216"> Amendment No. 23 in Deputy Funchion's name proposes to insert a reference to the "social, cultural and community activities". I am amending this provision to include "the community" which is broad enough to include, social, community and cultural activities. The Deputy's amendment is therefore not accepted.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_129">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_217">This amendment is similar to the earlier amendments, in that it expands it. As we are dealing with new legislation covering higher education and third level learning, we should try to make it as progressive and inclusive as we can. I do not see a major difficulty with the inclusion of words such as "students" and "learners". I do not see why it would have to be looked at again. The amendment proposes that the provision would expand to include "those involved with social, community and cultural activities". I consider that is more than reasonable and that it is being as broad and as inclusive as possible, which is what we should be trying to achieve in all aspects of learning, particularly at third level. The amendment proposes a few extra words with respect to the Minister of State's own amendment. I ask the committee to accept this amendment.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_130">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_218">Deputy Thomas Byrne has amendments tabled in this grouping.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_131">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_219">Deputy Funchion has just spoken to amendment No. 23, has she not?</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_132">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_220">Yes, only on amendment No. 23.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_133">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_221">My concern with all these individual amendments is that we are all ticking the boxes with individual sectors that we all have been talking to people in, and they are all very good in their own way, but, with respect to the point I made regarding the previous grouping of amendments, we need to have a comprehensive approach. I have no difficulty with Deputy Funchion's amendment. I have an amendment tabled covering the area of science. The problem is that I am losing track of all of these amendments.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_134">
+          <from> Chairman<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_222">Amendment No. 27 is in the Deputy's name.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_135">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:30:00+00:00"/></from>
+          <p eId="para_223">We have proposed a deal on the area of science. The earlier point I made about communities is relevant here as well. The Parliamentary Counsel may have advised the use of the word "community" but they are communities and perhaps the phrase to be used should be "the diverse communities", which would cover nearly everybody.</p>
+          <p eId="para_224">It is almost as if professions, business and enterprise are first, which is perhaps as it should be, but it seems to relegate everyone else. I do not have a difficulty in this regard. The only issue I do not want to change is the criteria for selection of the university, which are set out later in the Bill. It would be unfair to change these. The proposal in respect of the functions would not affect any of the current plans. We must get this important section right. Deputies have different perspectives on the Bill and various ideas will have occurred to all of us. We have also been lobbied on various issues. It would not do any harm if the Minister of State were to listen to the points we make, examine the amendments and revert to us with a composite change on Report Stage. If she listens to the views of the Deputies, we will solve many of the issues that have arisen. </p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_136">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_225">We will consider the issue the Deputy raises and consult Deputies before Report Stage.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_137">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_226">On a point of clarification, did the Minister of State agree to consider amendments Nos. 23 and 27 before Report Stage?</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_138">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_227">I ask that all the amendments, including those proposed by the Minister, be withdrawn on the basis that the Minister of State has agreed to table further amendments on Report Stage. If we agree to withdraw our amendments on the basis that the Minister will table an amended text on Report Stage, the Minister of State should also withdraw her amendments. Deputy Funchion and I have already withdrawn some of our amendments.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_139">
+          <from> Chairman<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_228">I must deal with all the amendments in order.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_140">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_229">While it is a matter for the Minister of State, my view is that none of the amendments to this section should be passed at this stage on the basis that she has agreed to table a comprehensive amendment on Report Stage.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_141">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_230">I agree with the Deputy.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_142">
+          <from> Chairman<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_231">I must still deal with the amendments in sequence. It will be a matter for the Minister of State to decide whether to press or withdraw them.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_143">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_232">I oppose the amendment because it conflicts with my amendment.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_144">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_233">I, too, oppose the amendment on the basis that all amendments to the section should be withdrawn.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_145">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_234">On a point of clarification, the Minister of State indicated she will engage with Deputies on this matter. When or how will this be done? Will she appear before the committee again?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_146">
+          <from> Chairman<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_235">The engagement will not be on Committee Stage. It is a matter for the parties involved to decide how it will be done.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_147">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_236">If the engagement is to be meaningful, the Minister's amendments should also withdrawn, as Deputy Byrne has proposed. Otherwise, our amendments will be withdrawn and the Minister's will pass.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_148">
+          <from> Chairman<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_237">That is a matter for the Minister of State to decide. She indicated she would press amendment No. 22.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_149">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_238">I will withdraw amendment No. 22. I have agreed to discuss amendments Nos. 21, 23, 27, 59, 68, 83, 92 and 95, all of which are to section 22.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_150">
+          <from> Chairman<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_239">Amendment No. 144 also belongs to this group.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_151">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_240">I suggest that the Office of the Parliamentary Counsel take account of all the comments made on the proposed amendments, including Government amendments. I ask that we be shown a draft of a new section 22 before Report Stage. The parties could then agree to support the section and avoid any hassle.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_152">
+          <from> Chairman<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_241">I still have to deal with the amendments in sequence.</p>
+        </speech>
+        <summary eId="sum_45"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#KathleenFunchion" eId="spk_153">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_242">I move amendment No. 23:</p>
+          <p class="indent_1" eId="para_243">In page 19, line 12 to delete "the professions and other stakeholders" and substitute "professions, and other stakeholders including those involved with social, community and cultural activities".</p>
+        </speech>
+        <summary eId="sum_46"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_154">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_244">I move amendment No. 24:</p>
+          <p class="indent_1" eId="para_245">In page 19, line 32, to delete "sectors, as it sees fit, of" and substitute "sectors of".</p>
+        </speech>
+        <summary eId="sum_47"> Amendment agreed to. </summary>
+        <speech by="#ThomasByrne" eId="spk_155">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_246">I move amendment No. 25:</p>
+          <p class="indent_1" eId="para_247">In page 19, line 34, after "with" to insert "students, staff,".</p>
+        </speech>
+        <summary eId="sum_48"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_156">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_248">I move amendment No. 26:</p>
+          <p class="indent_1" eId="para_249">In page 19, line 34, to delete "the professions and related stakeholders" and substitute "the professions, the community and related stakeholders".</p>
+        </speech>
+        <summary eId="sum_49"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#ThomasByrne" eId="spk_157">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_250">I move amendment No. 27:</p>
+          <p class="indent_1" eId="para_251">In page 19, line 34, after "professions" to insert ", the Irish language, cultural, artistic community".</p>
+        </speech>
+        <summary eId="sum_50"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#ThomasByrne" eId="spk_158">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_252">I move amendment No. 28:</p>
+          <p class="indent_1" eId="para_253">In page 19, line 40, after "stakeholders" to insert "with due regard to the opportunities presented by basic research for scientific discovery".</p>
+        </speech>
+        <summary eId="sum_51"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_159">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_254">I move amendment No. 29:</p>
+          <p class="indent_1" eId="para_255">In page 20, between lines 10 and 11, to insert the following:</p>
+          <p class="indent_2" eId="para_256">"(i) developing and promoting strong social and cultural links between the technological university and the community in the region in which the campuses of the technological university are located,".</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_160">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_257">I agree with Deputy Burton that a definition of the term "citizens" is required. In the same way, a definition of the term "community" is also necessary as it is used frequently in the text. I do not know whether that should be noted or if I need to make a request to that effect.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_161">
+          <from> Chairman<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_258">The Deputy's point is noted and we can deal with it on Report Stage.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_162">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_259">We will withdraw the amendment and revert to Deputies with a definition of the term "community".</p>
+        </speech>
+        <summary eId="sum_52"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#ThomasByrne" eId="spk_163">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_260">I move amendment No. 30:</p>
+          <p class="indent_1" eId="para_261">In page 20, line 11, after "<i>subsection (4)</i>" to insert "and <i>section 23</i>".</p>
+        </speech>
+        <summary eId="sum_53"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_164">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_262">I move amendment No. 31:</p>
+          <p class="indent_1" eId="para_263">In page 20, line 24, to delete "and".</p>
+        </speech>
+        <summary eId="sum_54"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_165">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_264">I move amendment No. 32:</p>
+          <p class="indent_1" eId="para_265">In page 20, line 25, after "education" to insert "and training".</p>
+        </speech>
+        <summary eId="sum_55"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_166">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_266">I move amendment No. 33:</p>
+          <p class="indent_1" eId="para_267">In page 20, line 26, after "located," to insert "and".</p>
+        </speech>
+        <summary eId="sum_56"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_167">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_268">I move amendment No. 34:</p>
+          <p class="indent_1" eId="para_269">In page 20, between lines 26 and 27, to insert the following:</p>
+          <p class="indent_2" eId="para_270">"(V) organisations representing the social and cultural interests of the community in the region in which the campuses of the technological university are located,".</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_168">
+          <from> Chairman<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_271">Does the Minister of State propose to press the amendment?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_169">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_272">No, I will withdraw it.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_170">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_273">Why does the Minister of State wish to withdraw the amendment given that it appears to be broad and positive? It makes a commitment to the regions in which the campuses are located. Does the Minister of State intend wording this provision more broadly?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_171">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_274">I am withdrawing the amendment on the basis of what we have agreed. The purpose of the amendment was to insert a requirement on technological universities to serve the community and public interest. We will define the word "community" by introducing an additional requirement to foster close and effective relationships. We will review the provision and define the term "community".</p>
+        </speech>
+        <summary eId="sum_57"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#CatherineMartin" eId="spk_172">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_275">I move amendment No. 35:</p>
+          <p class="indent_1" eId="para_276">In page 20, line 28, to delete "where practicable" and substitute "promotes".</p>
+        </speech>
+        <summary eId="sum_58"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#ThomasByrne" eId="spk_173">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:40:00+00:00"/></from>
+          <p eId="para_277">I move amendment No. 36:</p>
+          <p class="indent_1" eId="para_278">In page 20, line 29 to delete "and social" and substitute ", social, scientific and technological".</p>
+        </speech>
+        <summary eId="sum_59"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#CatherineMartin" eId="spk_174">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_279">I move amendment No. 37:</p>
+          <p class="indent_1" eId="para_280">In page 21, to delete lines 21 and 22 and substitute the following:</p>
+          <p class="indent_2" eId="para_281">“(i) be established following consultation with trade unions and staff associations representing employees of the technological university where the matters in dispute relate to staff, or with the student union where the matters in dispute relate to students,”.</p>
+        </speech>
+        <summary eId="sum_60"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_175">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_282">I move amendment No. 38:</p>
+          <p class="indent_1" eId="para_283">In page 21, line 21, to delete “a trade union” and substitute “each trade union”.</p>
+          <p eId="para_284">The purpose of the amendment is to provide that technological universities will be required to consult with each trade union on the development of dispute resolution procedures.</p>
+        </speech>
+        <summary eId="sum_61"> Amendment agreed to.</summary>
+        <speech by="#CatherineMartin" eId="spk_176">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_285">I move amendment No. 39:</p>
+          <p class="indent_1" eId="para_286">In page 21, line 26 after “appropriate” to insert “as agreed by all parties listed at <i>subparagraph (i)</i> above”.</p>
+        </speech>
+        <summary eId="sum_62"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_177">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_287">I move amendment No. 40:</p>
+          <p class="indent_1" eId="para_288">In page 21, to delete lines 33 to 37 and substitute the following:</p>
+          <p class="indent_2" eId="para_289">“(8) For the purposes of <i>subparagraph</i> (i) of <i>subsection (1)(h)</i> “involvement”, in relation to a programme may include—</p>
+          <p class="indent_2" eId="para_290">(a) developing, with the technological university, the curriculum of the programme,</p>
+          <p class="indent_2" eId="para_291">(b) contributing to assessment, as required by the programme, of the progress of the</p>
+          <p class="indent_2" eId="para_292">student, or</p>
+          <p class="indent_2" eId="para_293">(c) providing a work placement for a student registered on the programme.”.</p>
+          <p eId="para_294">This is a technical amendment to insert a better definition of “involvement” as advised by the Office of the Attorney General during the drafting process.</p>
+        </speech>
+        <summary eId="sum_63"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_178">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_295">I move amendment No. 41:</p>
+          <p class="indent_1" eId="para_296">In page 21, between lines 37 and 38, to insert the following:</p>
+          <p class="indent_2" eId="para_297">“(9) In <i>subsection (1)</i> “providers” has the same meaning as it has in section 2 of the Act of 2012.”.</p>
+        </speech>
+        <summary eId="sum_64"> Amendment agreed to. </summary>
+        <summary eId="sum_65"> Question proposed: "That section 22, as amended, stand part of the Bill."</summary>
+        <speech by="#CatherineMartin" eId="spk_179">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_298">Is it the case that the amendments we have withdrawn will be engaged with by the Minister of State and her officials?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_180">
+          <from> Chairman<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_299">Amendments were withdrawn on the basis of having further engagement with the Minister and officials on them.</p>
+        </speech>
+        <summary eId="sum_66"> Question put and agreed to.</summary>
+        <summary eId="sum_67">SECTION 23</summary>
+        <speech by="#FionaOLoughlin" eId="spk_181">
+          <from> Chairman<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_300">Amendments Nos. 42, 53, 54 and 151 to 157, inclusive, are related and may be discussed together.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_182">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_301">I move amendment No. 42:</p>
+          <p class="indent_1" eId="para_302">In page 22, line 12, after “staff” to insert “, or a student”.</p>
+          <p eId="para_303">This is an important section on academic freedom and my amendment seeks to include students. If the Minister of State believes students should not be included, I am willing to hear the case. The case has been made by the students’ unions that they need this provision. I can see arguments for it, but I understand students are subject also to disciplinary regulations. I do not want to legislate for something that is not necessary or could be counter-productive.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_183">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_304">There is currently no protection for student academic freedom in the legislation. That is why I tabled this amendment. I may table an amendment on Report Stage to protect collective academic freedom.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_184">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_305">It is important that students are mentioned in this provision. Several of us had a similar thought process. I hope the committee will support this amendment.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_185">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_306">Deputies Thomas Byrne, Catherine Martin and Funchion propose to insert “or a student” after staff regarding academic freedom. The principle of academic freedom is a defining characteristic of high-quality higher education and research across the world. The Bill rightly ensures academic freedom will apply in technological universities in the same manner as it applies in universities. However, it is understood internationally that academic freedom applies to the academic staff of higher education institutions. Both this and the Universities Act 1997 reflect that understanding. Extending academic freedom to students would put technological universities in a different position from their peers, both within the State and internationally. It is believed this would not be appropriate.</p>
+          <p eId="para_307"> In addition, the whole doctrine of academic freedom is based on protecting the security of employment of academics’ tenure. As students are not employees, their time in a higher education institution is, by definition, limited. There are appropriate policies in place in institutions to protect students. There are separate policies and procedures which govern students’ rights to expression and to offer them protection in this regard. This includes the right of free expression. Any claim that this right is being restricted or the fear that voicing a contrarian opinion would invite academic retribution can be better challenged through the existing charters and policies which set out a detailed process for consideration and redress where necessary. Such policies and processes have already been agreed with student representatives at local level and have been adopted formally by each of the academic councils.</p>
+          <p eId="para_308"> Amendment No. 54 relates to the suspension or dismissal of a member of staff of a technological university. This is drafted in accordance with similar provisions which apply to universities, institutes of technology and the Dublin Institute of Technology under the relevant legislation. It provides that a technological university may suspend or dismiss a member of staff only in accordance with procedures established, following consultation with the relevant trade unions and staff associations.</p>
+          <p eId="para_309"> The purpose of amendments Nos. 151 and 152 is to mirror the provisions contained in the Water Services Act 2014 and the Roads Act 2015, which relate to the terms and conditions of service of staff members. This wording was sought and agreed with the trade unions and stakeholders during the consultation process.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_186">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_310">I accept the Minister of State's response. It would be a bit odd if the Universities Act was different in this regard and I see the Minister of State’s point. I do not see the need for the amendment. If someone can point me to international examples between now and Report Stage I will reconsider, but the Minister of State has made a convincing case.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_187">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_311">I want to press my amendment.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_188">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_312">I too want to press my amendment.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_189">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T18:50:00+00:00"/></from>
+          <p eId="para_313">Since the Bill was drafted, at institute of technology and university levels, there has been the development of a whole cadre of postgraduate students of various kinds who also may be in employment positions, giving tutorials or lectures in their respective institutions. A feature of their situation is that they may lack protection because they may not be staff <i>per se</i> or students <i>per se</i>. Their status is a difficulty for many of these young people. Adding the word “student”, as proposed in this amendment, may provide some extra provision for this category of person. There might be an opportunity to discuss this later, as the Minister of State has agreed to discuss other items.</p>
+          <p eId="para_314"> It is a technical area. I worked for a long time as a senior staff member in an institute of technology. I am concerned at the conditions under which some postgraduates are working, their status and the fact that they may have little protection.</p>
+          <p eId="para_315">For example, in regard to campus companies, they may have very little protection in terms of their status. The Minister of State may be able to reassure us that all of this is accounted for but it is a newer and concerning development in the context of third level institutions. Will the Minister take a look at this provision with a view to advising us on how student staff will be affected by it because as things stand they tend to have a very low threshold of rights in all the third level institutions?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_190">
+          <from> Chairman<recordedTime time="2017-11-15T19:00:00+00:00"/></from>
+          <p eId="para_316">I invite the Minister of State to comment on amendment No. 42.</p>
+        </speech>
+        <speech by="#JoanBurtonLAB" eId="spk_191">
+          <from>Deputy Joan Burton<recordedTime time="2017-11-15T19:00:00+00:00"/></from>
+          <p eId="para_317">The point I am making is that I support amendment No. 42 because it seeks to add the words "a student" and this is a category of people both studying and working.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_192">
+          <from> Chairman<recordedTime time="2017-11-15T19:00:00+00:00"/></from>
+          <p eId="para_318">We understand the point the Deputy is making.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_193">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T19:00:00+00:00"/></from>
+          <p eId="para_319">I am rejecting the proposal to insert "a student". I will examine the issue raised by Deputy Burton in regard to the institutions of technology but I am not prepared to water down the principle of academic freedom.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_194">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T19:00:00+00:00"/></from>
+          <p eId="para_320">Trinity College and, perhaps, the institutes of technology, have policies on academic freedom which go into some detail on the issues of students' responsibilities and rights and also the fact that postgraduate students inevitably will have more rights than other students. In my view, it is too complex to provide for this in legislation. I do not know if it is stated anywhere in legislation that technological universities, TUs, are required to state their policy on academic freedom in their strategic documents. Perhaps it is in those documents that all these sorts of issues could be thrashed out.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_195">
+          <from> Chairman<recordedTime time="2017-11-15T19:00:00+00:00"/></from>
+          <p eId="para_321">Is the amendment being pressed?</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_196">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T19:00:00+00:00"/></from>
+          <p eId="para_322">Yes.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_7">
+          <summary eId="sum_68">Amendment put: </summary>
+          <summary title="division" eId="sum_69">The Committee divided: Tá, <quantity refersTo="#ta" normalized="3" eId="qty_3">3</quantity>; Níl, <quantity refersTo="#nil" normalized="5" eId="qty_4">5</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_8">
+            <p eId="para_323">Tá</p>
+            <p eId="para_324">
+              <person refersTo="#JoanBurtonLAB">Burton, Joan.</person>
+            </p>
+            <p eId="para_325">
+              <person refersTo="#KathleenFunchion">Funchion, Kathleen.</person>
+            </p>
+            <p eId="para_326">
+              <person refersTo="#CatherineMartin">Martin, Catherine.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_9">
+            <p eId="para_327">Níl</p>
+            <p eId="para_328">
+              <person refersTo="#ThomasByrne">Byrne, Thomas.</person>
+            </p>
+            <p eId="para_329">
+              <person refersTo="#JosephaMadigan">Madigan, Josepha.</person>
+            </p>
+            <p eId="para_330">
+              <person refersTo="#TonyMcLoughlin">McLoughlin, Tony.</person>
+            </p>
+            <p eId="para_331">
+              <person refersTo="#MaryMitchellOConnor">Mitchell O'Connor, Mary.</person>
+            </p>
+            <p eId="para_332">
+              <person refersTo="#FionaOLoughlin">O'Loughlin, Fiona.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_70"/>
+          <summary title="decision" refersTo="#lost" eId="sum_71">Amendment declared lost.</summary>
+        </debateSection>
+        <summary eId="sum_72"> Section 23 agreed to.</summary>
+        <summary eId="sum_73"> Section 24 agreed to.</summary>
+        <summary eId="sum_74">SECTION 25</summary>
+        <speech by="#FionaOLoughlin" eId="spk_197">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_333">Amendments No. 43, 45 to 47, inclusive, 49 to 52, inclusive, 181 and 182 are related and may be discussed together.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_198">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_334">I move amendment No. 43:</p>
+          <p class="indent_1" eId="para_335">In page 22, lines 25 and 26, to delete all words from and including “A” in line 25 down to and including line 26 and substitute the following:</p>
+          <p class="indent_2" eId="para_336">“A governing body, where the technological university concerned was established by an order under section 33* on an application by not more than 3 applicant institutes, shall have not fewer than 14 and not more than 22 members and shall consist of—”.</p>
+          <p eId="para_337">Amendment No. 43 and the related amendments will provide that the minimum membership of a governing body will be 14 and the maximum 22. In the case of four or more institutes of technology merging to become a technological university, the minimum membership will be 15 and the maximum 26. The provisions also set out the composition of governing bodies and include a competency framework for external appointments.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_199">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_338">Does the Minister of State wish to speak on any of the other amendments grouped with amendment No. 43?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_200">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_339">No, I am happy enough. I will perhaps wait until I have heard the contributions of the members.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_201">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_340">Deputy Catherine Martin has an amendment in this group.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_202">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_341">I am sorry, is that the amendment on greater student representation on the governing body?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_203">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_342">No. Amendment No. 44 is not included in this grouping.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_204">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_343">Amendment No. 44 is ruled out of order, is it not?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_205">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_344">Yes. The Deputy's amendment is No. 47.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_206">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_345">Yes, but on amendment No. 43 I want to bring a query to Report Stage. Will there be four academic staff on these larger governing bodies of 15 to 26 members? I would also like to ask about the need for community representatives on the governing body. I know in Waterford Institute of Technology there is a counsellor on the governing body to represent the community. I will be raising that on Report Stage.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_207">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_346">Do any other members wish to speak?</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_208">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_347">On a point of clarification, why was amendment No. 48 ruled out of order? As I understand it, it should have been in this group of amendments.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_209">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_348">The Deputy would have received a letter explaining the decision.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_210">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_349">The letter only said it was ruled out of order because of a potential cost to the Exchequer. Can we get more detail than that?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_211">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_350">We cannot deal with amendments which would result in a charge or potential charge on the Revenue. Amendment No. 48 sought to provide that “at least two but not more than 3” undergraduate students would be members of the governing body of a technological university. The amendment has the potential to change the overall membership of the body. Members of the body may be paid allowances in respect of remuneration and expenses as the Minister may determine, therefore any increase in membership could impose a charge on the Revenue and the amendment is therefore ruled out of order.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_212">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_351">Is the difference between my own amendment and that of Deputy Martin that she has specified “at least one but not more than 3” and I specified “at least two but not more than 3”? Is that why it has been ruled out of order, because that is the only difference? Is "at least two" the section that results in the amendment being deemed a potential cost to the Exchequer?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_213">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_352">Deputy Martin's amendment is No. 47 but she also had amendment No. 44 which was also ruled out of order.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_214">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_353">I know that but, with the exception of that word, amendments Nos. 47 and 48 are exactly the same.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_215">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_354">My amendment, No. 44, was ruled out of order but my other amendment, No. 47, is quite similar to Deputy Funchion's but has not been ruled out of order while hers has been.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_216">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_355">The numbers are lesser.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_217">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_356">Deputy Martin's specifies "at least one". I am happy to accept that, I just wanted to be clear on the reason. I will support Deputy Martin's amendment.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_218">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_357">Every extra member on a governing body adds to the cost in terms of expenses. We had this discussion earlier and it is important to bear in mind that we cannot accept amendments which pose even a potential charge. Is that okay?</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_219">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_358">Yes. I will therefore support Deputy Martin's amendment.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_220">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_359">We will keep going for another six minutes when there will be a vote in the Dáil. We will return to amendment No. 43.</p>
+        </speech>
+        <summary eId="sum_75"> Amendment agreed to.</summary>
+        <speech by="#FionaOLoughlin" eId="spk_221">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_360">Amendment No. 44 has been ruled out of order.</p>
+        </speech>
+        <summary eId="sum_76"> Amendment No. 44 not moved.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_222">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_361">I move amendment No. 45:</p>
+          <p class="indent_1" eId="para_362">In page 22, line 31, to delete “elected” and substitute “the number of whom shall be determined, and who shall be elected,”.</p>
+        </speech>
+        <summary eId="sum_77"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_223">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_363">I move amendment No. 46:</p>
+          <p class="indent_1" eId="para_364">In page 22, between lines 34 and 35, to insert the following:</p>
+          <p class="indent_1" eId="para_365">“(e) one member of the academic or non-academic staff of the technological university, elected by the academic and non-academic staff of the technological university,”.</p>
+        </speech>
+        <summary eId="sum_78"> Amendment agreed to.</summary>
+        <speech by="#FionaOLoughlin" eId="spk_224">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_366">Does Deputy Martin wish to move amendment No. 47?</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_225">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_367">There is a vote in the Dáil.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_226">
+          <from> Chairman<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_368">We can hold on for another minute or two.</p>
+        </speech>
+        <speech by="#CatherineMartin" eId="spk_227">
+          <from>Deputy Catherine Martin<recordedTime time="2017-11-15T19:10:00+00:00"/></from>
+          <p eId="para_369">I move amendment No. 47:</p>
+          <p class="indent_1" eId="para_370">In page 22, line 35, to delete “at least one but not more than 2” and substitute “at least one but not more than 3”.</p>
+        </speech>
+        <summary eId="sum_79"> Amendment put and declared lost. </summary>
+        <speech by="#FionaOLoughlin" eId="spk_228">
+          <from> Chairman<recordedTime time="2017-11-15T19:20:00+00:00"/></from>
+          <p eId="para_371">Amendment No. 48 has been ruled out of order.</p>
+        </speech>
+        <summary eId="sum_80"> Amendment No. 48 not moved.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_229">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T19:20:00+00:00"/></from>
+          <p eId="para_372">I move amendment No. 49:</p>
+          <p class="indent_1" eId="para_373">In page 22, line 36, to delete “nominated” and substitute “the number of whom shall be determined, and who shall be nominated,”.</p>
+        </speech>
+        <summary eId="sum_81"> Amendment agreed to.</summary>
+        <summary eId="sum_82">
+          <i> Sitting suspended at 7.20 p.m. and resumed at 7.35 p.m.</i>
+        </summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_230">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T19:30:00+00:00"/></from>
+          <p eId="para_374">I move amendment No. 50:</p>
+          <p class="indent_1" eId="para_375">In page 23, line 6, to delete "2 external members" and substitute "3 external members".</p>
+        </speech>
+        <summary eId="sum_83"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_231">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T19:30:00+00:00"/></from>
+          <p eId="para_376">I move amendment No. 51:</p>
+          <p class="indent_1" eId="para_377">In page 23, between lines 9 and 10, to insert the following:</p>
+          <p class="indent_2" eId="para_378">"(2) A governing body, where the technological university concerned was established by an order under section 33 on an application by not fewer than 4 applicant institutes, shall have not fewer than 15 and not more than 26 members and shall consist of—</p>
+          <p class="indent_3" eId="para_379">(a) the president,</p>
+          <p class="indent_3" eId="para_380">(b) a chairperson, (in this section and Schedule 1 referred to as the "chairperson") who shall be an external member, appointed by the governing body,</p>
+          <p class="indent_3" eId="para_381">(c) at least one but not more than 3 members of the academic staff of the technological university, the number of whom shall be determined, and who shall be elected, by the academic staff of the technological university,</p>
+          <p class="indent_3" eId="para_382">(d) one member of the non-academic staff of the technological university, elected by the non-academic staff of the technological university,</p>
+          <p class="indent_3" eId="para_383">(e) at least one but not more than 3 members of the academic or non-academic staff of the technological university, the number of whom shall be determined, and who shall be elected, by the academic and non-academic staff of the technological university,</p>
+          <p class="indent_3" eId="para_384">(f) at least one but not more than 2 undergraduate students of the technological university, the number of whom shall be determined, and who shall be nominated, by the student union in accordance with its own procedures,</p>
+          <p class="indent_3" eId="para_385">(g) one post-graduate student of the technological university, nominated by the student union in accordance with its own procedures,</p>
+          <p class="indent_3" eId="para_386">(h) at least 3 but not more than 9 external members, at least one of whom has expertise in standards and practice in higher education outside the State, nominated by a committee of the governing body comprising the chairperson and 2 other external members of the governing body formed for that purpose,</p>
+          <p class="indent_3" eId="para_387">(i) 4 external members nominated by the Minister, and</p>
+          <p class="indent_3" eId="para_388">(j) one external member nominated, in accordance with its or their own procedures, by the education and training board or boards in whose education and training board areas the campuses of the technological university are located.".</p>
+        </speech>
+        <summary eId="sum_84"> Amendment put and declared carried.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_232">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T19:30:00+00:00"/></from>
+          <p eId="para_389">I move amendment No. 52:</p>
+          <p class="indent_1" eId="para_390">In page 23, line 17, after "(1)(g)" to insert "or (2)(h)".</p>
+        </speech>
+        <summary eId="sum_85"> Amendment agreed to.</summary>
+        <summary eId="sum_86"> Section 25, as amended, agreed to.</summary>
+        <summary eId="sum_87">SECTION 26</summary>
+        <speech by="#KathleenFunchion" eId="spk_233">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T19:30:00+00:00"/></from>
+          <p eId="para_391">I move amendment No. 53:</p>
+          <p class="indent_1" eId="para_392">In page 24, between lines 12 and 13, to insert the following:</p>
+          <p class="indent_2" eId="para_393">"(7) Unless he or she resigns, retires or is removed from office, a president shall hold office for such a period as the governing body, with the consent of the Minister, determines but the period shall not exceed 10 years from the date of the president's first appointment.".</p>
+          <p eId="para_394">It would be good practice if we were to provide that the period in office of the president of a technological university were not to exceed ten years. Apart from that, the amendment is self-explanatory.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_234">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T19:30:00+00:00"/></from>
+          <p eId="para_395">I disagree with the Deputy. Therefore, I will vote against this amendment.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_235">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T19:30:00+00:00"/></from>
+          <p eId="para_396">I agree that term limits should apply to the presidents of these institutions. Some people have suggested that the limit should be seven years. This amendment proposes a limit of ten years. I think there are good reasons for this proposal. Term limits are standard practice in the original universities. I think the Provost of Trinity College has a term of ten years, which is considered to be lengthy enough. I think this should be looked at again. There are issues about other senior management personnel remaining in place for lengthy terms. We will have to come back to this issue.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_236">
+          <from> Chairman<recordedTime time="2017-11-15T19:30:00+00:00"/></from>
+          <p eId="para_397">I remind Deputies that this amendment was discussed with amendment No. 42.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_237">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T19:30:00+00:00"/></from>
+          <p eId="para_398">I am sorry.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_238">
+          <from> Chairman<recordedTime time="2017-11-15T19:30:00+00:00"/></from>
+          <p eId="para_399">I will put the question.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_239">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T19:30:00+00:00"/></from>
+          <p eId="para_400">Okay. We will come back to the matter on Report Stage.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_10">
+          <summary eId="sum_88">Amendment put: </summary>
+          <summary title="division" eId="sum_89">The Committee divided: Tá, <quantity refersTo="#ta" normalized="2" eId="qty_5">2</quantity>; Níl, <quantity refersTo="#nil" normalized="3" eId="qty_6">3</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_11">
+            <p eId="para_401">Tá</p>
+            <p eId="para_402">
+              <person refersTo="#KathleenFunchion">Funchion, Kathleen.</person>
+            </p>
+            <p eId="para_403">
+              <person refersTo="#CatherineMartin">Martin, Catherine.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_12">
+            <p eId="para_404">Níl</p>
+            <p eId="para_405">
+              <person refersTo="#JosephaMadigan">Madigan, Josepha.</person>
+            </p>
+            <p eId="para_406">
+              <person refersTo="#TonyMcLoughlin">McLoughlin, Tony.</person>
+            </p>
+            <p eId="para_407">
+              <person refersTo="#MaryMitchellOConnor">Mitchell O'Connor, Mary.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_90"/>
+          <summary title="decision" refersTo="#lost" eId="sum_91">Amendment declared lost.</summary>
+        </debateSection>
+        <summary eId="sum_92"> Staon: Deputies Thomas Byrne and Fiona O'Loughlin.</summary>
+        <summary eId="sum_93"> Section 26 agreed to.</summary>
+        <summary eId="sum_94">SECTION 27</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_240">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T19:40:00+00:00"/></from>
+          <p eId="para_408">I move amendment No. 54:</p>
+          <p class="indent_1" eId="para_409">In page 24, between lines 29 and 30, to insert the following:</p>
+          <p class="indent_2" eId="para_410">"(5) A technological university may, in accordance with procedures established by the technological university following consultation with each trade union or staff association recognised by it, suspend or dismiss a member of its staff.".</p>
+        </speech>
+        <summary eId="sum_95"> Amendment agreed to.</summary>
+        <summary eId="sum_96"> Section 27, as amended, agreed to.</summary>
+        <summary eId="sum_97">SECTION 28</summary>
+        <speech by="#FionaOLoughlin" eId="spk_241">
+          <from> Chairman<recordedTime time="2017-11-15T19:40:00+00:00"/></from>
+          <p eId="para_411">As amendments Nos. 55 to 58, inclusive, are related, they may be discussed together.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_242">
+          <from> Chairman<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_412">I stated that after the vote we would go into private session to discuss whether we will carry on this evening or regroup. We will now go into private session.</p>
+        </speech>
+        <summary eId="sum_98">
+          <i>The select committee went into private session at 8.04 p.m. and resumed in public session at 8.06 p.m.</i>
+        </summary>
+        <speech by="#FionaOLoughlin" eId="spk_243">
+          <from> Chairman<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_413">We will move to amendment No. 57 in the name of Deputy Funchion.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_244">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_414">I move amendment No. 57:</p>
+          <p class="indent_1" eId="para_415">In page 25, line 25, after "appropriate" to insert ", not fewer than two to be nominated by the students' union".</p>
+        </speech>
+        <summary eId="sum_99"> Amendment put and declared lost.</summary>
+        <speech by="#ThomasByrne" eId="spk_245">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_416">I move amendment No. 58:</p>
+          <p class="indent_1" eId="para_417">In page 25, between lines 25 and 26, to insert the following:</p>
+          <p class="indent_4" eId="para_418">"(c) in making regulations under <i>section 28(2)</i> the governing body shall have regard to the objective that at least 40 per cent of members of the academic council shall be women and at least 40 per cent shall be men.".</p>
+        </speech>
+        <summary eId="sum_100"> Amendment agreed to.</summary>
+        <summary eId="sum_101"> Section 28, as amended, agreed to.</summary>
+        <summary eId="sum_102">SECTION 29</summary>
+        <speech by="#FionaOLoughlin" eId="spk_246">
+          <from> Chairman<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_419">Amendment No. 59 has already been discussed with amendment No. 22.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_247">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_420">I move amendment No. 59:</p>
+          <p class="indent_1" eId="para_421">In page 26, lines 14 and 15, to delete "the professions and related stakeholders" and substitute "the professions, the community and related stakeholders".</p>
+          <p eId="para_422">I will withdraw the amendment because the word "community" has already been inserted in the Bill by means of amendment No. 22.</p>
+        </speech>
+        <summary eId="sum_103"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_248">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_423">I move amendment No. 60:</p>
+          <p class="indent_1" eId="para_424">In page 26, to delete lines 34 to 38 and substitute the following:</p>
+          <p class="indent_3" eId="para_425">"(4) In <i>subsection (3)</i>, "involvement" shall be construed in accordance with <i>section 9(8)</i>.".</p>
+        </speech>
+        <summary eId="sum_104"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_249">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_426">I move amendment No. 61:</p>
+          <p class="indent_1" eId="para_427">In page 26, after line 38, to insert the following:</p>
+          <p class="indent_3" eId="para_428">"(5) In <i>subsection (3)</i>, "programme" means a programme of education and training.".</p>
+        </speech>
+        <summary eId="sum_105"> Amendment agreed to.</summary>
+        <summary eId="sum_106"> Section 29, as amended, agreed to.</summary>
+        <summary eId="sum_107">SECTION 30</summary>
+        <speech by="#FionaOLoughlin" eId="spk_250">
+          <from> Chairman<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_429">Amendments Nos. 62, 64 and 65 are related and will be discussed together.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_251">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_430">I move amendment No. 62:</p>
+          <p class="indent_1" eId="para_431">In page 27, to delete line 18.</p>
+          <p eId="para_432">An insertion is being made into section 30 which provides for strategic plans of a technological university to strengthen the regional links between a technological university and the area in the strategic development plan for a technological university in line with views expressed by stakeholders during the consultation process.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_252">
+          <from> Chairman<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_433">Deputy Thomas Byrne has an amendment in this group, namely, amendment No. 64.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_253">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:00:00+00:00"/></from>
+          <p eId="para_434">I acknowledge that the Minister of State's amendment No. 65 goes some way towards dealing with the issue. I have raised some of the points relating to this matter previously. The word "community" is in there somewhere as well. The point is that the plans of the technological university, TU, to provide programmes of education and training should meet the needs of citizens - Deputy Burton made a fair point about that word - business, enterprise and the professions. I am a member of a profession. Where do the arts and culture, particularly courses not of a business, enterprise or professional nature, fit in?</p>
+          <p eId="para_435"> I will not press my amendment because it includes a flaw but I will speak on it. In the amendment, I have added in the plans of the TU "to retain, maintain and develop the existing campuses of its applicant institutes including but not limited to its existing programmes of education, training and research". I have not taken account of campuses that may well be closing in the city of Dublin but I want to ensure that there is some protection for Blanchardstown, Tallaght and the regional institutions. This is my party's main point.</p>
+          <p eId="para_436"> In this amendment, I am probably too restrictive in the context of the programmes relating to education, training and research.</p>
+          <p eId="para_437">I do not want to legislate to retain an exact range of courses as universities should have the academic freedom to provide the courses it wants to provide. Can the Minister of State assure us that if an institution becomes a TU, a multidisciplinary range of courses will be available? Can she assure us that institutions such as that in Blanchardstown will not turn into a specialised college for a specialised subject but will be similar to now, with a range of courses provided to meet the needs of the community in the surrounding area?</p>
+          <p eId="para_438"> Paragraph (g) of amendment No. 64, to which I will return on Report Stage, concerns what we want to be included in the strategic plan. It is proposed that the plans of the TU will ensure the geographic names of its various campuses are maintained in its nomenclature relating to each campus. This means the Blanchardstown institution will be called the TU for Dublin at Blanchardstown, with the other the TU for Dublin at Tallaght, similar the TUs in Tralee or Cork. This is the case for the various campuses of the University of Ulster. Deputy Lahart raised the issue in respect of Tallaght and pointed out that some people want it to be called TU Tallaght. That is not going to happen because it is going to be part of one body. The name "Tallaght" should be retained somewhere, however.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_254">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_439">TU4Dublin is committed to fully-serviced campuses. There is a commitment in budget 2018 for €200 million regarding a PPP project in this regard. The institutions of technology need to come together to decide on a name. We are not imposing a name but I think it is very important that the different institutes - Tallaght, Blanchardstown, etc. - keep their names. We want them to progress and we do not want to freeze everything. I hope the TUs can improve their offers of programmes because we want them to be more attractive. We want them to be centres of excellence and we want students to choose to go to TUs.</p>
+        </speech>
+        <summary eId="sum_108"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_255">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_440">I move amendment No. 63:</p>
+          <p class="indent_1" eId="para_441">In page 27, line 20, to delete “2012.” and substitute “2012,”.</p>
+        </speech>
+        <summary eId="sum_109"> Amendment agreed to.</summary>
+        <speech by="#ThomasByrne" eId="spk_256">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_442">I move amendment No. 64:</p>
+          <p class="indent_1" eId="para_443">In page 27, between lines 20 and 21, to insert the following:</p>
+          <p class="indent_3" eId="para_444">“(d) the plans of the technological university to provide programmes of education and training that meet the needs of citizens, business, enterprise, the professions, the community and other stakeholders in the region in which the campuses of the technological university are located,</p>
+          <p class="indent_3" eId="para_445">(e) the plans of the technological university to develop and promote strong social and cultural links between the technological university and the community in the region in which the campuses of the technological university are located,</p>
+          <p class="indent_3" eId="para_446">(f) the plans of the technological university to retain, maintain and develop the existing campuses of its applicant institutes including but not limited to its existing programmes of education, training and research, and</p>
+          <p class="indent_3" eId="para_447">(g) the plans of the technological university to ensure the geographic name of its various campuses is maintained in its nomenclature relating to each campus.”.</p>
+        </speech>
+        <summary eId="sum_110"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_257">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_448">I move amendment No. 65:</p>
+          <p class="indent_1" eId="para_449">In page 27, between lines 20 and 21, to insert the following:</p>
+          <p class="indent_3" eId="para_450">“(d) the plans of the technological university to provide programmes of education and training that meet the needs of citizens, business, enterprise, the professions, the community and other stakeholders in the region in which the campuses of the technological university are located, and</p>
+          <p class="indent_3" eId="para_451">(e) the plans of the technological university to develop and promote strong social and cultural links between the technological university and the community in the region in which the campuses of the technological university are located.”.</p>
+        </speech>
+        <summary eId="sum_111"> Amendment agreed to.</summary>
+        <summary eId="sum_112"> Section 30, as amended, agreed to.</summary>
+        <summary eId="sum_113"> Sections 31 and 32 agreed to. </summary>
+        <summary eId="sum_114">SECTION 33</summary>
+        <summary eId="sum_115"> Question proposed, "That section 33 stand part of the Bill." </summary>
+        <speech by="#ThomasByrne" eId="spk_258">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_452">How does the position on borrowing for a TU compare with the current position? At present, there is an unsatisfactory arrangement in that, under the fiscal rules, the institutes of technology cannot borrow for, say, housing, whereas the universities can and this is holding the institutes back.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_259">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_453">As the Deputy knows, there is a difference between the institutes of technology and TUs but we will need to agree a borrowing framework into the future.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_260">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_454">Will there be a difference?</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_261">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_455">We need to agree it. I am not saying what will be the outcome. TUs may be able to borrow but that has not been agreed.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_262">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_456">I presume the Minister will discuss this matter with the Minister for Finance.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_263">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_457">We certainly will. We have already been in discussions with him.</p>
+        </speech>
+        <summary eId="sum_116"> Question put and agreed to.</summary>
+        <summary eId="sum_117"> Sections 34 to 37, inclusive, agreed to.</summary>
+        <summary eId="sum_118">SECTION 38 </summary>
+        <speech by="#FionaOLoughlin" eId="spk_264">
+          <from> Chairman<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_458">Amendments Nos. 66, 106 to 112, inclusive, 115, 118 and 120 are related and may be discussed together.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_265">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_459">I move amendment No. 66:</p>
+          <p class="indent_1" eId="para_460">In page 32, lines 4 to 6, to delete all words from and including “(1) The” in line 4 down to and including line 6 and substitute the following:</p>
+          <p class="indent_2" eId="para_461">“(1) The applicant institutes concerned shall, in relation to an application for an order under <i>section 33</i>, jointly comply with the following criteria (in this chapter referred to as “eligibility criteria”):”.</p>
+          <p eId="para_462">Amendment No. 66 provides that eligibility criteria shall be jointly complied with in an application for an order under section 46 for TU designation on which application is made jointly by two or more applicant institutes. Therefore, the various numerically-based criteria - such as the requirement that at least 4% of students be registered on a programme which leads to an award of at least honours bachelor's degree level or research students be registered on a programme which leads to at least master's degree level - are required to be met jointly by the consortium rather than by individual institutions within the consortium. These amendments are required in light of the fact that applicant institutes will not have merged at this stage in the process, whereas previously they would have had to merge before proceeding to apply for designation.</p>
+          <p eId="para_463"> Does the Chairman wish me to discuss amendments Nos. 106 and 108?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_266">
+          <from> Chairman<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_464">Deputy Troy is not present to move amendment No. 107.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_267">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_465">Which amendment is mine?</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_268">
+          <from> Chairman<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_466">I am not sure.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_269">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_467">I have received many representations, including from party colleagues, to make substantial amendments to section 38. I have also received well-meaning representations from many academics to change it. However, I have considered it very carefully from a Fianna Fáil point of view and we are not putting amendments forward. The eligibility criteria were set down a number of years ago and TUs, in particular the TU for Dublin and that for Munster, have been working towards implementing them and if we were to put amendments down now and they were passed, it would knock the whole thing on its head. I did not think it fair to change the eligibility criteria though I thank the people who made submissions to my party on it. It is too late to change it now.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_270">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_468">We will accept amendments Nos. 111 and 112, which were tabled by Deputy Thomas Byrne.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_271">
+          <from> Chairman<recordedTime time="2017-11-15T20:10:00+00:00"/></from>
+          <p eId="para_469">Those are the two amendments to be moved by Deputy Thomas Byrne.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_272">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_470">I discussed this matter with the Minister of State's officials. I forgot about those amendments. They are not to change the criteria but, rather, to consider the internationalisation of the advisory body and ensure that there would be two international suggestions from the HEA and QQI. As I should have said earlier, that will hopefully satisfy some of those with concerns about eligibility. The eligibility criteria are very strong but the more the process is internationalised, the more seriously people will take it and the more respect the institutions will attract, which is what universities are all about.</p>
+        </speech>
+        <summary eId="sum_119"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_273">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_471">I move amendment No. 67:</p>
+          <p class="indent_1" eId="para_472">In page 32, line 7, to delete “merged institute” and substitute “applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_120"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_274">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_473">I move amendment No. 68:</p>
+          <p class="indent_1" eId="para_474">In page 32, line 18, to delete “professions and” and substitute “professions, the community and”.</p>
+        </speech>
+        <summary eId="sum_121"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_275">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_475">I move amendment No. 69:</p>
+          <p class="indent_1" eId="para_476">In page 32, line 19, to delete “the merged institute” and substitute “the applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_122"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_276">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_477">I move amendment No. 70:</p>
+          <p class="indent_1" eId="para_478">In page 32, line 21, to delete “the merged institute has a plan” and substitute “the applicant institutes have a plan”.</p>
+        </speech>
+        <summary eId="sum_123"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_277">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_479">I move amendment No. 71:</p>
+          <p class="indent_1" eId="para_480">In page 32, line 22, to delete “it would” and substitute “they would”.</p>
+        </speech>
+        <summary eId="sum_124"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_278">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_481">I move amendment No. 72:</p>
+          <p class="indent_1" eId="para_482">In page 32, line 24, to delete “its research” and substitute “their research”.</p>
+        </speech>
+        <summary eId="sum_125"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_279">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_483">I move amendment No. 73:</p>
+          <p class="indent_1" eId="para_484">In page 32, line 26, to delete “merged institute” and substitute “applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_126"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_280">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_485">I move amendment No. 74:</p>
+          <p class="indent_1" eId="para_486">In page 32, line 39, to delete “the merged institute has” and substitute “the applicant institutes have”.</p>
+        </speech>
+        <summary eId="sum_127"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_281">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_487">I move amendment No. 75:</p>
+          <p class="indent_1" eId="para_488">In page 33, line 1, to delete “it would” and substitute “they would”.</p>
+        </speech>
+        <summary eId="sum_128"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_282">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_489">I move amendment No. 76:</p>
+          <p class="indent_1" eId="para_490">In page 33, line 3, to delete “proportion of its” and substitute “proportion of their”.</p>
+        </speech>
+        <summary eId="sum_129"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_283">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_491">I move amendment No. 77:</p>
+          <p class="indent_1" eId="para_492">In page 33, line 5, to delete “staff of the merged institute” and substitute “staff of the applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_130"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_284">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_493">I move amendment No. 78:</p>
+          <p class="indent_1" eId="para_494">In page 33, line 10, to delete “merged institute” and substitute “applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_131"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_285">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_495">I move amendment No. 79</p>
+          <p class="indent_1" eId="para_496">In page 33, line 23, to delete “merged institute provides” and substitute “applicant institutes provide”.</p>
+        </speech>
+        <summary eId="sum_132"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_286">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_497">I move amendment No. 80:</p>
+          <p class="indent_1" eId="para_498">In page 33, line 25, to delete “merged institute” and substitute “applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_133"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_287">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_499">I move amendment No. 81:</p>
+          <p class="indent_1" eId="para_500">In page 33, lines 26 and 27, to delete “a merged institute demonstrates” and substitute “the applicant institutes demonstrate”.</p>
+        </speech>
+        <summary eId="sum_134"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_288">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_501">I move amendment No. 82:</p>
+          <p class="indent_1" eId="para_502">In page 33, line 28, to delete “it carries out innovation activity and conducts” and substitute “they carry out innovation activity and conduct”.</p>
+        </speech>
+        <summary eId="sum_135"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_289">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_503">I move amendment No. 83:</p>
+          <p class="indent_1" eId="para_504">In page 33, line 31, to delete “the professions and” and substitute “the professions, the community and”.</p>
+        </speech>
+        <summary eId="sum_136"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_290">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_505">I move amendment No. 84:</p>
+          <p class="indent_1" eId="para_506">In page 33, line 32, to delete “merged institute” and substitute “applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_137"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_291">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_507">I move amendment No. 85:</p>
+          <p class="indent_1" eId="para_508"> In page 33, line 33, to delete “merged institute” and substitute “applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_138"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_292">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_509">I move amendment No. 86:</p>
+          <p class="indent_1" eId="para_510">In page 33, line 39, to delete “merged institute has” and substitute “applicant institutes have”.</p>
+        </speech>
+        <summary eId="sum_139"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_293">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_511">I move amendment No. 87:</p>
+          <p class="indent_1" eId="para_512">In page 33, line 40, to delete “it would” and substitute “they would”.</p>
+        </speech>
+        <summary eId="sum_140"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_294">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_513">I move amendment No. 88:</p>
+          <p class="indent_1" eId="para_514">In page 34, line 3, to delete “the merged institute demonstrates” and substitute “the applicant institutes demonstrate”.</p>
+        </speech>
+        <summary eId="sum_141"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_295">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_515">I move amendment No. 89:</p>
+          <p class="indent_1" eId="para_516">On page 34, line 4, to delete “merged institute has, at the time it applies” and substitute “applicant institutes have, at the time they apply”.</p>
+        </speech>
+        <summary eId="sum_142"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_296">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_517">I move amendment No. 90:</p>
+          <p class="indent_1" eId="para_518">I, page 34, line 6, to delete “demonstrates” and substitute “demonstrate”.</p>
+        </speech>
+        <summary eId="sum_143"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_297">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_519">I move amendment No. 91:</p>
+          <p class="indent_1" eId="para_520">In page 34, line 7, to delete “it has” and substitute “they have”.</p>
+        </speech>
+        <summary eId="sum_144"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_298">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_521">I move amendment No. 92:</p>
+          <p class="indent_1" eId="para_522">In page 34, line 9, to delete “that it has strong links with business, enterprise, the professions and” and substitute “that they have strong links with business, enterprise, the professions, the community and”.</p>
+        </speech>
+        <summary eId="sum_145"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_299">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_523">I move amendment No. 93:</p>
+          <p class="indent_1" eId="para_524">In page 34, line 10, to delete “merged institute” and substitute “applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_146"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_300">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_525">I move amendment No. 94:</p>
+          <p class="indent_1" eId="para_526">In page 34, line 12, to delete “it has” and substitute “they have”.</p>
+        </speech>
+        <summary eId="sum_147"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_301">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_527">I move amendment No. 95:</p>
+          <p class="indent_1" eId="para_528">In page 34, to delete lines 18 to 21 and substitute the following:</p>
+          <p class="indent_3" eId="para_529">“(iv) that they develop, and have procedures in place to further develop programmes that respond to the needs of business, enterprise, the professions, the community and other stakeholders in the region in which the campuses of the applicant institutes are located,”.</p>
+        </speech>
+        <summary eId="sum_148"> Amendment put and declared carried.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_302">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_530">I move amendment No. 96:</p>
+          <p class="indent_1" eId="para_531">In page 34, line 22, to delete “that it” and substitute “that they”.</p>
+        </speech>
+        <summary eId="sum_149"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_303">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_532">I move amendment No. 97:</p>
+          <p class="indent_1" eId="para_533">In page 34, line 23, to delete “provides opportunities for staff and students of the merged institute” and substitute “provide opportunities for staff and students of the applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_150"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_304">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_534">I move amendment No. 98:</p>
+          <p class="indent_1" eId="para_535">In page 34, line 27, to delete “provides” and substitute “provide”.</p>
+        </speech>
+        <summary eId="sum_151"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_305">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_536">I move amendment No. 99:</p>
+          <p class="indent_1" eId="para_537">In page 34, line 29, to delete “merged institute” and substitute “applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_152"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_306">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_538">I move amendment No. 100:</p>
+          <p class="indent_1" eId="para_539">In page 34, line 30, to delete “collaborates” and substitute “collaborate”.</p>
+        </speech>
+        <summary eId="sum_153"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_307">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_540">I move amendment No. 101:</p>
+          <p class="indent_1" eId="para_541">In page 34, line 32, to delete “programmes.” and substitute “programmes;”.</p>
+        </speech>
+        <summary eId="sum_154"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_308">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_542">I move amendment No. 102:</p>
+          <p class="indent_1" eId="para_543">In page 34, between lines 32 and 33, to insert the following:</p>
+          <p class="indent_3" eId="para_544">“(l) that they develop and promote and if an order is made under <i>section 33</i> have procedures in place to further develop and promote, as a technological university, strong social and cultural links between the technological university and the community in the region in which the campuses of the technological university will be located.”.</p>
+        </speech>
+        <summary eId="sum_155"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_309">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_545">I move amendment No. 103:</p>
+          <p class="indent_1" eId="para_546">In page 35, line 8, to delete “with the merged institute,” and substitute “with one or, as the case may be, more than one of the applicant institutes concerned,”.</p>
+        </speech>
+        <summary eId="sum_156"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_310">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_547">I move amendment No. 104:</p>
+          <p class="indent_1" eId="para_548">In page 35, lines 13 and 14, to delete “a merged institute” and substitute “the applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_157"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_311">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_549">I move amendment No. 105:</p>
+          <p class="indent_1" eId="para_550">In page 35, line 17, to delete “a merged institute” and substitute “the applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_158"> Amendment agreed to.</summary>
+        <summary eId="sum_159"> Section 38, as amended, agreed to.</summary>
+        <speech by="#FionaOLoughlin" eId="spk_312">
+          <from> Chairman<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_551">I propose that the committee now adjourn. We will consult the Minister of State's office. It is better to conclude on the section in order to avoid any confusion. We will confirm that. The committee will resume proceedings at 5 p.m. on Wednesday next.</p>
+        </speech>
+        <speech by="#MaryMitchellOConnor" eId="spk_313">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_552">There are five minutes remaining should the Chair wish to continue.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_314">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_553">I am willing to stay if the Minister of State, the Chairman and Deputy Funchion are also willing to do so. If the Chairman and the staff------</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_315">
+          <from> Chairman<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_554">The Deputy need not worry about that.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_316">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_555">Another 30 minutes would allow us to complete the amendments. I know the Chair has somewhere to go. I would be happy to take her place as, I am sure, would either of the other Deputies. I am not trying to take her job.</p>
+        </speech>
+        <speech by="#TonyMcLoughlin" eId="spk_317">
+          <from>Deputy Tony McLoughlin<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_556">I propose that Deputy Thomas Byrne take the Chair and that we continue.</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_318">
+          <from> Chairman<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_557">Can we have agreement that Deputy Thomas Byrne will take the Chair?</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_319">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_558">We made an agreement when Deputies Catherine Martin and Madigan were in attendance that we would adjourn. Now that they have left, I think it would be fair to them if-----</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_320">
+          <from> Chairman<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_559">That is a fair point.</p>
+        </speech>
+        <speech by="#ThomasByrne" eId="spk_321">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_560">Deputy Funchion is correct.</p>
+        </speech>
+        <speech by="#KathleenFunchion" eId="spk_322">
+          <from>Deputy Kathleen Funchion<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_561">I do not mind staying until 8.30 p.m., as agreed, but in fairness to Deputies Catherine Martin and Madigan-----</p>
+        </speech>
+        <speech by="#FionaOLoughlin" eId="spk_323">
+          <from> Chairman<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_562">That is only four minutes away. I thought it would be easier to adjourn when there was a break between sections but we will continue.</p>
+        </speech>
+        <summary eId="sum_160">SECTION 39</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_324">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_563">I move amendment No. 106:</p>
+          <p class="indent_1" eId="para_564">In page 35, line 24, to delete “(1) A merged institute may apply to the Minister for an order under section 46.” and substitute the following:</p>
+          <p class="indent_2" eId="para_565">“(1) Two or more institutes (in this section referred to as “applicant institutes”) may jointly apply to the Minister for an order under <i>section 33</i>.”.</p>
+        </speech>
+        <summary eId="sum_161"> Amendment agreed to.</summary>
+        <summary eId="sum_162"> Amendment No. 107 not moved.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_325">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_566">I move amendment No. 108:</p>
+          <p class="indent_1" eId="para_567">In page 35, line 25, after “application” to insert “by applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_163"> Amendment agreed to.</summary>
+        <summary eId="sum_164"> Amendment No. 109 not moved.</summary>
+        <summary eId="sum_165"> Section 39, as amended, agreed to.</summary>
+        <summary eId="sum_166">NEW SECTION</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_326">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_568">I move amendment No. 110:</p>
+          <p class="indent_1" eId="para_569">110. In page 35, between lines 26 and 27, to insert the following:</p>
+          <p class="indent_2" eId="para_570">
+            <b>“Requirements on application under </b>
+            <b>
+              <i>section 26</i>
+            </b>
+          </p>
+          <p class="indent_2" eId="para_571"><b>40.</b> An application by applicant institutes under <i>section 26</i> shall include information—</p>
+          <p class="indent_3" eId="para_572">(a) demonstrating compliance by the applicant institutes with the eligibility criteria,</p>
+          <p class="indent_3" eId="para_573">(b) demonstrating that plans and arrangements are in place for managing academic, financial and administrative matters arising on the making of an order under <i>section 33</i>, and</p>
+          <p class="indent_3" eId="para_574">(c) to enable the Minister and advisory panel to have regard to the matters referred to in <i>section 31(2)</i>.”.</p>
+        </speech>
+        <summary eId="sum_167"> Amendment agreed to.</summary>
+        <summary eId="sum_168"> Section 40 deleted</summary>
+        <summary eId="sum_169">SECTION 41</summary>
+        <speech by="#ThomasByrne" eId="spk_327">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_575">I move amendment No. 111:</p>
+          <p class="indent_1" eId="para_576">In page 35, line 38, to delete “at least one” and substitute “at least two”.</p>
+        </speech>
+        <summary eId="sum_170"> Amendment agreed to.</summary>
+        <speech by="#ThomasByrne" eId="spk_328">
+          <from>Deputy Thomas Byrne<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_577">I move amendment No. 112:</p>
+          <p class="indent_1" eId="para_578"> In page 36, line 8, to delete “at least one” and substitute “at least two”.</p>
+        </speech>
+        <summary eId="sum_171"> Amendment agreed to.</summary>
+        <speech by="#MaryMitchellOConnor" eId="spk_329">
+          <from>Deputy Mary Mitchell O'Connor<recordedTime time="2017-11-15T20:20:00+00:00"/></from>
+          <p eId="para_579">I move amendment No. 113:</p>
+          <p class="indent_1" eId="para_580">In page 36, line 13, to delete “merged institute” and substitute “applicant institutes”.</p>
+        </speech>
+        <summary eId="sum_172"> Amendment agreed to.</summary>
+        <summary eId="sum_173"> Amendment No. 114 not moved.</summary>
+        <summary eId="sum_174"> Section 41, as amended, agreed to.</summary>
+        <summary eId="sum_175"> Progress reported; Committee to sit again.</summary>
+        <summary eId="sum_176"> The select committee adjourned at 8.30 p.m. until 5 p.m on Wednesday, 22 November 2017.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

@@ -1,0 +1,1015 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd ">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#source">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_european_affairs/2007-03-07/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_european_affairs/2007-03-07/debate"/>
+          <FRBRdate date="2007-03-07" name="#generation"/>
+          <FRBRauthor href="/ie/oireachtas/committee/dail/29/select_committee_on_european_affairs"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_european_affairs/2007-03-07/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_european_affairs/2007-03-07/debate/mul@"/>
+          <FRBRdate date="2007-03-07" name="#reported"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_committee_on_european_affairs/2007-03-07/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_committee_on_european_affairs/2007-03-07/debate/mul@.akn"/>
+          <FRBRdate date="2020-06-25" name="#publication"/>
+          <FRBRauthor href="/ie/oireachtas/role/debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_10">
+            <count eId="vote_1-count_1" value="7" refersTo="#ta" href="#qty_1"/>
+            <count eId="vote_1-count_2" value="3" refersTo="#nil" href="#qty_2"/>
+          </voting>
+          <voting eId="vote_2" href="#sum_20">
+            <count eId="vote_2-count_1" value="7" refersTo="#ta" href="#qty_3"/>
+            <count eId="vote_2-count_2" value="3" refersTo="#nil" href="#qty_4"/>
+          </voting>
+        </parliamentary>
+        <otherAnalysis xmlns:oir="https://data.oireachtas.ie/ns/1.0" source="#source">
+          <oir:volumeReference eId="#vol_None" href="ie/oireachtas/debateRecord/vol/None" showAs="Vol. None"/>
+          <oir:numberReference eId="#no_None" href="ie/oireachtas/debateRecord/vol/None/no/None" showAs="No. None"/>
+        </otherAnalysis>
+      </analysis>
+      <references source="#source">
+        <TLCOrganization eId="source" href="" showAs="Houses of the Oireachtas"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="notmoved" href="/ie/oireachtas/ontology#NotMoved" showAs="Not Moved"/>
+        <TLCConcept eId="withdrawn" href="/ie/oireachtas/ontology#Withdrawn" showAs="Withdrawn"/>
+        <TLCConcept eId="agreed" href="/ie/oireachtas/ontology#Agreed" showAs="Agreed"/>
+        <TLCConcept eId="lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCConcept eId="carried" href="/ie/oireachtas/ontology#DeclaredCarried" showAs="Declared Carried"/>
+        <TLCConcept eId="generation" href="/ie/oireachtas/ontology#Generation" showAs="Generation"/>
+        <TLCConcept eId="reported" href="/ie/oireachtas/ontology#Reported" showAs="Reported"/>
+        <TLCConcept eId="publication" href="/ie/oireachtas/ontology#Publication" showAs="Publication"/>
+        <TLCEvent eId="bill.2006.61.dail.3" href="/ie/oireachtas/bill/2006/61/dail/3" showAs="European Communities Bill 2006: Dáil Committee Stage"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_1" href="/ie/oireachtas/bill/2006/61/dail/3/amd_1" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 1"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_1.agreed" href="/ie/oireachtas/bill/2006/61/dail/3/amd_1/agreed" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 1 (Agreed)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_10" href="/ie/oireachtas/bill/2006/61/dail/3/amd_10" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 10"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_10.lost" href="/ie/oireachtas/bill/2006/61/dail/3/amd_10/lost" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 10 (Lost)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_11.notmoved" href="/ie/oireachtas/bill/2006/61/dail/3/amd_11/notmoved" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 11 (Not Moved)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_12" href="/ie/oireachtas/bill/2006/61/dail/3/amd_12" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 12"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_12.withdrawn" href="/ie/oireachtas/bill/2006/61/dail/3/amd_12/withdrawn" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 12 (Withdrawn)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_13" href="/ie/oireachtas/bill/2006/61/dail/3/amd_13" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 13"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_13.lost" href="/ie/oireachtas/bill/2006/61/dail/3/amd_13/lost" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 13 (Lost)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_14" href="/ie/oireachtas/bill/2006/61/dail/3/amd_14" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 14"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_14.lost" href="/ie/oireachtas/bill/2006/61/dail/3/amd_14/lost" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 14 (Lost)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_15" href="/ie/oireachtas/bill/2006/61/dail/3/amd_15" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 15"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_15.agreed" href="/ie/oireachtas/bill/2006/61/dail/3/amd_15/agreed" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 15 (Agreed)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_2" href="/ie/oireachtas/bill/2006/61/dail/3/amd_2" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 2"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_2.carried" href="/ie/oireachtas/bill/2006/61/dail/3/amd_2/carried" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 2 (Carried)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_3.notmoved" href="/ie/oireachtas/bill/2006/61/dail/3/amd_3/notmoved" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 3 (Not Moved)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_4.notmoved" href="/ie/oireachtas/bill/2006/61/dail/3/amd_4/notmoved" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 4 (Not Moved)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_5" href="/ie/oireachtas/bill/2006/61/dail/3/amd_5" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 5"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_5.lost" href="/ie/oireachtas/bill/2006/61/dail/3/amd_5/lost" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 5 (Lost)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_6" href="/ie/oireachtas/bill/2006/61/dail/3/amd_6" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 6"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_6.lost" href="/ie/oireachtas/bill/2006/61/dail/3/amd_6/lost" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 6 (Lost)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_7" href="/ie/oireachtas/bill/2006/61/dail/3/amd_7" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 7"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_7.carried" href="/ie/oireachtas/bill/2006/61/dail/3/amd_7/carried" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 7 (Carried)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_8.notmoved" href="/ie/oireachtas/bill/2006/61/dail/3/amd_8/notmoved" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 8 (Not Moved)"/>
+        <TLCEvent eId="bill.2006.61.dail.3.amd_9.notmoved" href="/ie/oireachtas/bill/2006/61/dail/3/amd_9/notmoved" showAs="European Communities Bill 2006: Dáil Committee Stage - Amendment No. 9 (Not Moved)"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="BarryAndrewsFF" href="/ie/oireachtas/member/id/Barry-Andrews.D.2002-06-06" showAs="Barry Andrews"/>
+        <TLCPerson eId="BernardAllen" href="/ie/oireachtas/member/id/Bernard-Allen.D.1981-06-30" showAs="Bernard Allen"/>
+        <TLCPerson eId="DanWallace" href="/ie/oireachtas/member/id/Dan-Wallace.D.1982-12-14" showAs="Dan Wallace"/>
+        <TLCPerson eId="JoeCallananFF" href="/ie/oireachtas/member/id/Joe-Callanan.D.2002-06-06" showAs="Joe Callanan"/>
+        <TLCPerson eId="JoeCostelloLAB" href="/ie/oireachtas/member/id/Joe-Costello.S.1989-10-01" showAs="Joe Costello"/>
+        <TLCPerson eId="JohnDeasyFG" href="/ie/oireachtas/member/id/John-Deasy.D.2002-06-06" showAs="John Deasy"/>
+        <TLCPerson eId="JohnDennehy" href="/ie/oireachtas/member/id/John-Dennehy.D.1987-03-10" showAs="John Dennehy"/>
+        <TLCPerson eId="MaeSextonPD" href="/ie/oireachtas/member/id/Mae-Sexton.D.2002-06-06" showAs="Mae Sexton"/>
+        <TLCPerson eId="MartinBrady" href="/ie/oireachtas/member/id/Martin-Brady.D.1997-06-26" showAs="Martin Brady"/>
+        <TLCPerson eId="MichaelMulcahyFF" href="/ie/oireachtas/member/id/Michael-Mulcahy.S.1994-12-13" showAs="Michael Mulcahy"/>
+        <TLCPerson eId="NoelTracey" href="/ie/oireachtas/member/id/Noel-Treacy.D.1982-07-20" showAs="Noel Treacy"/>
+        <TLCPerson eId="OllieWilkinsonFF" href="/ie/oireachtas/member/id/Ollie-Wilkinson.D.2002-06-06" showAs="Ollie Wilkinson"/>
+        <TLCPerson eId="PaudgeConnolly" href="/ie/oireachtas/member/id/Paudge-Connolly.D.2002-06-06" showAs="Paudge Connolly"/>
+        <TLCPerson eId="PeterKellyFF" href="/ie/oireachtas/member/id/Peter-Kelly.D.2002-06-06" showAs="Peter Kelly"/>
+        <TLCRole eId="Chair" href="/ie/oireachtas/role/position/chair" showAs="Chair"/>
+        <TLCRole eId="Chairman" href="/ie/oireachtas/role/position/chairman" showAs="Chairman"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Foreign_Affairs" href="/ie/oireachtas/role/minister_state/foreign_affairs" showAs="Minister of State at the Department of Foreign Affairs"/>
+        <TLCRole eId="Vice_Chairman" href="/ie/oireachtas/role/position/vice_chairman" showAs="Vice Chairman"/>
+        <TLCRole eId="author" href="/ie/oireachtas/role/role/author" showAs="author"/>
+        <TLCRole eId="editor" href="/ie/oireachtas/role/role/editor" showAs="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>ROGHCHOISTE UM GHNÓTHAÍ EORPACHA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>SELECT COMMITTEE ON EUROPEAN AFFAIRS</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2007-03-07">Dé Céadaoin, 7 Márta 2007</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2007-03-07">Wednesday, 7 March 2007</docDate>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <heading>Prelude</heading>
+        <summary class="Center" eId="sum_1">The Select Committee met at 10.30 a.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#BernardAllen">Deputy B. Allen,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#PeterKellyFF">Deputy P. Kelly,+</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#BarryAndrewsFF">Deputy B. Andrews,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#MichaelMulcahyFF">Deputy M. Mulcahy,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MartinBrady">Deputy M. Brady,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#AengusOSnodaighSF">Deputy A. Ó Snodaigh,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#JoeCallananFF">Deputy J. Callanan,+</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_8">
+                  <person refersTo="#MaeSextonPD">Deputy M. Sexton,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_9">
+                  <person refersTo="#PaudgeConnolly">Deputy P. Connolly,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_10">
+                  <person refersTo="#NoelTracey">Deputy N. Treacy <i>(Minister of State at the Department of Foreign Affairs),</i>
+                                    </person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_11">
+                  <person refersTo="#JoeCostelloLAB">Deputy J. Costello,</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_12">
+                  <person refersTo="#DanWallace">Deputy D. Wallace,</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_13">
+                  <person refersTo="#JohnDennehy">Deputy J. Dennehy,*</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_14">
+                  <person refersTo="#OllieWilkinsonFF">Deputy O. Wilkinson.+</person>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <summary eId="sum_3">* In the absence of Deputies S. Kirk and J. Walsh, respectively.</summary>
+          <summary eId="sum_4">+ In the absence of Deputies M. Brady, M. Mulcahy and J. Dennehy, respectively, for part of meeting.</summary>
+          <summary eId="sum_5">
+            <person as="#Chair" refersTo="#JohnDeasyFG">DEPUTY J. DEASY IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Select Committee.</heading>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_1">
+          <from>Chairman</from>
+          <p eId="para_15">I wish to thank those members who attended the joint committee yesterday.  It was important to have a reasonable attendance for our meeting with the Commissioner.  We had a very useful meeting.</p>
+          <p eId="para_16">I welcome the Minister of State at the Department of Foreign Affairs, Deputy Treacy, to this meeting to debate Committee Stage of the European Communities Bill.  I have to leave in approximately 15 minutes and Deputy Andrews will take over until my return.</p>
+        </speech>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_3" refersTo="#bill.2006.61.dail.3">
+        <heading>European Communities Bill 2006 [Seanad]: Committee Stage.</heading>
+        <summary class="Center" eId="sum_6">SECTION 1.</summary>
+        <speech by="#NoelTracey" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs" eId="spk_2">
+          <from>Minister of State at the Department of Foreign Affairs (Mr. Treacy)</from>
+          <p eId="para_17">I move amendment No. 1:<entity refersTo="#bill.2006.61.dail.3.amd_1" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_18">In page 3, to delete lines 18 to 20 and substitute the following:</p>
+          <p class="indent_1" eId="para_19">" "European act" means-</p>
+          <p class="indent_2" eId="para_20">(<i>a</i>) a provision of the treaties governing the European Communities, or</p>
+          <p class="indent_2" eId="para_21">(<i>b</i>) an act, or provision of an act, adopted by an institution of the European Communities or any other body competent under those treaties;”.</p>
+          <p eId="para_22">I would like to give an overview of the situation thus far and indicate how we can proceed together to take on board the views expressed by members.</p>
+          <p eId="para_23">I am pleased to bring the European Communities Bill 2006 before the Select Committee on European Affairs and look forward to a positive, fruitful exchange with committee members.  We had a substantive debate in the Dáil and, before Christmas, in the Seanad.  Discussion on this important Bill is now entering its fourth month.  I appreciate the genuine concerns expressed by some Members.  The Government has taken them seriously and has moved to address them.</p>
+          <p eId="para_24">The purpose of the Bill is straightforward.  We seek to put in place revised arrangements to implement European Community measures via secondary legislation so that we can abide by our treaty obligations.  Secondary legislation has been used to implement European Community measures by all Governments since 1973.  Arising from the Browne and Kennedy judgments, the Supreme Court has found a gap in the way we do this.  The Bill will ensure that the implications of these Supreme Court judgments are dealt with in a proper and legally sound way.  It will not change the practice whereby major legislative changes required by European Community law are introduced by primary legislation after full debate in both Houses.  Furthermore, it does not mean any reduction in Oireachtas scrutiny arrangements.  I will return to this point later.</p>
+          <p eId="para_25">I pay tribute to the work of the Oireachtas Sub-Committee on European Scrutiny under the chairmanship of Deputy Allen.  On behalf of colleagues, the Government and the public, I thank him for his leadership and thank him and his colleagues for their work on that important sub-committee.</p>
+          <p eId="para_26">The Attorney General's clear advice to the Government was that the Bill is essential as a response to the serious implications of the Supreme Court judgments.  As legislators, we cannot ignore these judgments.  We have the responsibility to resolve the issues highlighted by the Supreme Court.  The Government has reflected carefully on the substantive points made by Members during Second Stage debate.  I said at the conclusion of that debate that we stood ready to consider reasonable suggestions put forward with a view to enhancing the involvement of the Dáil in European Union-related secondary legislation.  As a legislator and politician I am a man of my word.</p>
+          <p eId="para_27">As Deputies know, I have tabled an amendment for discussion today which provides for a standard 21-day scrutiny procedure for those statutory instruments made under section 3(3) of the 1972 Act, as inserted by section 2 of this Bill, that create indictable offences.  This new procedure will require Ministers, having made the regulations, to lay them before the Houses of the Oireachtas.  The regulations would have immediate effect and would continue in force, unless within 21 sitting days of the regulations having been laid before the Houses either House passes a resolution stating the regulations should be annulled.  This amendment will satisfy the genuine concerns expressed in both Houses regarding the role of the Oireachtas.  I urge Deputies to accept it in the positive and co-operative spirit in which the committee and the Oireachtas as a whole have always approached European business.</p>
+          <p eId="para_28">I will also introduce two small drafting amendments to provide for greater clarity in the Bill.  Amendment No. 1 contains two changes we wish to make to section 1 of the Bill.  Section 1 is the section which sets out the definitions which provide the foundation for the Bill as a whole.  The first change is to include the term "provision of an act".  I have been advised by the Attorney General that this is necessary because the earlier drafting was too limited to meet some particular situations outlined.  The second change is to introduce the term "body competent".  This change is necessary to provide authority for the implementation of regulations that may in future be made by the European Central Bank.  Both of these changes are regular technical drafting changes.</p>
+          <p eId="para_29">The addition of the words "provision of an act" is aimed at allowing us to transpose European Community measures when those measures give rise to more than one obligation in Ireland and where transposition by secondary legislation can be achieved under a number of different Acts of the Oireachtas rather than just one.  This change reflects the fact that a single European Community measure can sometimes contain different distinctive obligations that must be transposed using provisions of different Acts of the Oireachtas.  For example, the European Community regulation agreed by member states to impose sanctions against Zimbabwe gives rise to four distinct obligations on member states of the European Union. First, member states have agreed to prohibit financial dealings with the Government of Zimbabwe.  Second, member states must prohibit any person from exporting arms to Zimbabwe.  Third, they must freeze the assets of named Zimbabwean individuals.  Fourth, they must introduce a travel ban in relation to listed officials.</p>
+          <p eId="para_30">Our people here in Ireland would want us to be among the first to put the squeeze on such an unjust regime.  Doing so, however, means we would have to use different Acts of the Oireachtas.  In this case it would be expected that, first, the Financial Transfers Act 1992 could be used to give effect to the financial sanctions; second, the Control of Exports Act 1983 would give effect to the embargo on arms sales; and third, the Criminal Justice (Terrorist Offences) Act 2005 could provide for the freezing of individual assets.</p>
+          <p eId="para_31">Without this amendment, it would not be possible to use the different Acts mentioned above to meet our distinct obligations under this European Community regulation.  As originally drafted, section 3(1) can only be used where the complete European Community regulation or directive fell fully within the terms of a single domestic Act, one stand-alone piece of parliamentary legislation signed by the President of Ireland.  This would clearly not be an efficient way in which to proceed.  I am sure this committee will agree that Ireland needs to be able to respond in a prompt and comprehensive way when sanctions and travel bans are imposed on countries and we are called on to ensure that neither money nor arms can flow to these corrupt regimes.  This provides a clear example of why we must continue to use secondary legislation based on powers already approved by the Oireachtas to meet our European Community obligations while using primary legislation for new and major policy issues.</p>
+          <p eId="para_32">The second minor drafting change was requested by the Department of Finance.  It introduces the phrase "body competent under those treaties" into the definition of the term "European Act" and, later, into section 2 of this Bill.</p>
+          <p eId="para_33">These amendments simply reflect the terms of the European Communities (Amendment) Act 1992.  They provide that measures taken under the treaties by a body which is not an institution of the European Communities but which has certain legislative powers conferred on it by the treaties can be implemented in Ireland.  The existing body covered is the European Central Bank.  There is nothing new in this.  We are simply bringing this Bill into line with the European Communities (Amendment) Act 1992 which was passed following the ratification of the Maastricht treaty.</p>
+          <p eId="para_34">Some Deputies oppose this section in its entirety.  I have difficulty in understanding why a section consisting essentially of definitions of terms should meet with such opposition.  Is this because of the Government amendment I have introduced or because of a blanket opposition to this Bill?  If it is the former, I trust the explanations I have given will have reassured the Opposition and all members of this committee.  The sole aim of these technical amendments is to ensure Ireland will be in a position to meet its European obligations properly.  It would be wrong if, for example, we were unable to give effect to a future European Central Bank regulation.  If this section is being contested on account of blanket opposition to this Bill I hope the amendment I have introduced to provide for appropriate Oireachtas oversight of statutory instruments will make this Bill acceptable to those who have previously opposed it.</p>
+          <p eId="para_35">The amendments to section 2 arise for the same reasons we have made changes to the definitions in section 1.  Members of the committee will know this section of this Bill provides for Ministers to create indictable offences by means of statutory instruments where this is necessary to fulfil our European Community obligations.  Both the term "provision of an act" and the term "body competent" under those treaties—</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_3">
+          <from>Mr. Costello</from>
+          <p eId="para_36">What are we dealing with?  Is the Minister of State going through the whole Bill?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_4" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_37">I was giving an overview of the position.  I can take it section by section, if the Deputy wishes.  I was coming to good news.  Perhaps it can wait.  I can go back to section 1.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_5">
+          <from>Chairman</from>
+          <p eId="para_38">What does Deputy Costello want to do?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_6">
+          <from>Mr. Costello</from>
+          <p eId="para_39">I do not know what the Minister of State is doing.  He is stressing specifics.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_7" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_40">I am giving a general response to the debate we have had thus far and, based on that, we could focus on each section.</p>
+        </speech>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_8">
+          <from>Chairman</from>
+          <p eId="para_41">We will deal with it section by section.</p>
+          <p eId="para_42">Deputy Andrews took the Chair.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_9">
+          <from>Mr. Costello</from>
+          <p eId="para_43">I will first respond to the initial remarks of the Minister of State.  He started on a bad note by saying some members expressed genuine concerns.  That implies that non-genuine concerns were expressed by other members.  I would like the Minister of State to clarify his remarks in that respect.</p>
+          <p eId="para_44">The Minister of State went on to state inaccurately the current situation.  He said that any changes being made are in accordance with current practice and that practice is not being changed.  Clearly the Minister of State has changed a major section.  The thrust of this legislation now is to create indictable offences by ministerial directive.  That is not encompassed by the European Communities Act 1972.  This is a new departure.  What the Minister of State said in that respect is inaccurate.</p>
+          <p eId="para_45">We have opposed this legislation in the context of democracy.  In the European Union at present there is a lack of democracy, the so-called democratic deficit.  We introduced the European Union (Scrutiny) Act 2002 so that all legislation from the European Union could be scrutinised because everybody agreed there was no Oireachtas scrutiny of what was happening in Europe and there was a vast quantity of legislation emanating from Europe.  We did this because we had voted against the Nice treaty and we had to take practical measures to ensure that the people of Ireland were satisfied we had democratic scrutiny of what was going on in Europe.</p>
+          <p eId="para_46">What the Minister of State is proposing is the elimination of democratic scrutiny to allow for measures coming from Europe to be implemented in this jurisdiction by means of ministerial diktat, and the line Minister will simply determine, with his or her officials by way of statutory instrument, how the matter will be transposed into Irish domestic law.  Not only that, the Minister is being given the power to create indictable offences with penalties of three years' imprisonment and fines of €500,000.  That is a new power.  It is not something that existed previously.  Indictable offences can now be created by statutory instrument.  That is not current practice.  The Minister of State cannot say he is adhering to the current practice.  He is not.  He is taking on vast new powers that will affect the life of every citizen in this country.  Let us be clear from the beginning that we are entitled to oppose legislation that transfers vast powers from the Oireachtas to the line Minister.  That is the nub of this issue.</p>
+          <p eId="para_47">The Minister of State stated he was adding a caveat.</p>
+        </speech>
+        <speech by="#BarryAndrewsFF" as="#Vice_Chairman" eId="spk_10">
+          <from>Vice Chairman (Mr. Andrews)</from>
+          <p eId="para_48">To be fair, there was some confusion at the beginning.  We are dealing with amendment No. 1.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_11">
+          <from>Mr. Costello</from>
+          <p eId="para_49">I was replying purely to the opening remarks of the Minister of State.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_12">
+          <from>Vice Chairman</from>
+          <p eId="para_50">I know.  However, I propose we go through this section by section.  Will the Deputy address the amendment that includes the words "body competent" and the issue of the European Central Bank?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_13">
+          <from>Mr. Costello</from>
+          <p eId="para_51">I have no problem with the Minister's amendment.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_14">
+          <from>Vice Chairman</from>
+          <p eId="para_52">The section is not opposed, then.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_15">
+          <from>Mr. Costello</from>
+          <p eId="para_53">The section is opposed.  However, the Minister of State has moved an amendment to it which I do not oppose.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_16">
+          <from>Vice Chairman</from>
+          <p eId="para_54">I understand.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_17">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_55">I will be opposing the section.</p>
+        </speech>
+        <summary eId="sum_7" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2006.61.dail.3.amd_1.agreed" name="amendment"/>
+                </summary>
+        <summary eId="sum_8">Question proposed: "That section 1, as amended, stand part of the Bill."</summary>
+        <speech by="#JoeCostelloLAB" eId="spk_18">
+          <from>Mr. Costello</from>
+          <p eId="para_56">The Minister of State seems flabbergasted that we could oppose all sections of the Bill.  I oppose all sections because I believe the Bill is wrong in principle for the reasons I have outlined.  For the same reasons, I also object to the definitions.  I oppose all sections of the Bill.  I am also putting down a marker that when defining and interpreting each section, we are defining and interpreting statutes that relate to the actual substance which the Minister will introduce later.  I believe we should commence by putting down a marker in respect of the definition of the statute in the first section.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_19">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_57">In a similar vein to Deputy Costello, I am opposing the Bill in its entirety.  While in fairness, the Minister of State has made an attempt to correct what I believe is a wrong approach by us to the Supreme Court judgment, I have not seen a list of the instruments or statutes that will be affected by this legislation.  Also, I do not know what changes it will bring about.  We should have before us information in respect of what will be superseded by this Bill.  If the Bill is rejected, I presume the Supreme Court judgement would be dealt with by way of legislative changes to plug the loopholes identified.  However, I do not believe the Government or the Opposition would wish this matter to be addressed in that way, despite the fact that we have passed emergency legislation to plug other loopholes, as happened only last night.</p>
+          <p eId="para_58">I am concerned in the main about the future powers the Minister and future Ministers will gain under this legislation.  I am also concerned that relevant pronouncements will not be discussed in the House.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_20">
+          <from>Mr. Allen</from>
+          <p eId="para_59">I did not table an amendment to this section nor did I oppose it because I expected that the Minister of State would take on board some of the concerns expressed on Second Stage.  While the Minister of State has put forward an olive branch, it is inadequate.  No law should be validated until such time as the Dáil has scrutinised it.  I believe the Minister of State's attitude is giving hostages to fortune to opponents of the European Union by proceeding in this manner.  I had hoped he would accept some of the proposals put forward by the Opposition in respect of laying the statutory instrument before the Dáil and that it would not become valid until the Dáil had offered its opinion on it or passed it without debate.  However, the Minister stated that such proposal will become law unless neutralised by way of vote in the Dáil.</p>
+          <p eId="para_60">I want to deal now with the retrospective nature of some of the proposals.  I am fearful that the manner in which this is being dealt with will give hostages to fortune in future debates on Europe.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_21" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_61">I thank members for accepting amendment No. 1.  I will now address Deputy Costello's reference to the words "genuine concerns have been expressed by some members", as used by me earlier.  As legislators, we have a fundamental responsibility in this area.  Deputy Costello used the word "democracy".  We have a democratic right to ensure that we get our views across when speaking to the legislation we are debating.</p>
+          <p eId="para_62">When I say "genuine concerns" I am referring to the legislative effect and concerns that some members expressed purely on the legislative impact of the Bill.  We took on board those genuine concerns.  We held serious consultations with all State Departments and staff of the Office of the Attorney General.  The Government has revisited the Bill based on the concerns expressed and has come back with the amendments before us.</p>
+          <p eId="para_63">Let us reflect on the European Communities Act 1972.  Since then, each successive Government of the Republic of Ireland has consistently introduced secondary legislation to deal with European issues.  All it was obliged to do was ensure they conformed with law, had clearance of the Parliamentary Counsel and were published.  We are making two changes by way of this legislation.  We are making it absolutely explicit that they shall be laid before the Oireachtas, which means they will appear on our agendas — 226 members of Parliament will have access to them once laid before the Oireachtas — and they will have the force of law once laid and any Member of Parliament may table a motion in either House within 21 days to have them annulled.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_22">
+          <from>Mr. Costello</from>
+          <p eId="para_64">That is standard policy.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_23" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_65">Yes, but the old system only required us to lodge them .  We will now have to lay them before the Oireachtas which means that the Oireachtas will have full and open notification of what is happening.  We are also providing that they can be scrutinised to obtain full clearance by Members on behalf of Parliament and the people.</p>
+          <p eId="para_66">We are ensuring that we protect the interests of the Irish people and the subsidiarity of the sovereign Parliament of our country by introducing indictable offences.  This means that what we take into law protects our legislation and that other European legislation will not impact on that except in respect of those indictable offences.  We are providing strong protection in terms of our management of this legislation.  We are performing responsibly in the interests of producing good legislation.</p>
+          <p eId="para_67">I have provided members with an example of how it will operate.  I could give them many other examples.  Were we to go the route of introducing primary legislation in respect of each piece of European law which we are required to incorporate into Irish law, no other legislation would be passed by Parliament.  We would be doing this daily because we would have to amend every piece of domestic legislation impacted on by a European directive.  That would be a bad way to run the country and it would negate our membership of the European Union and would make it almost impossible for us as parliamentarians to deal in a detailed manner with other legislation.</p>
+          <p eId="para_68">The Bill seeks to ensure we discharge our membership of the European Union in an efficient, effective and practical manner.  It will ensure we can pass legislation appropriate for a modern country proud to be a member of a European Union.</p>
+        </speech>
+        <summary eId="sum_9">Question put.<entity name="reference" refersTo="#sum_8"/>
+                </summary>
+        <debateSection name="division" eId="dbsect_4">
+          <summary title="division" eId="sum_10">The Committee divided: Tá, <quantity normalized="7" refersTo="#ta" eId="qty_1">7</quantity>; Níl, <quantity normalized="3" refersTo="#nil" eId="qty_2">3</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_5">
+            <p eId="para_69">Tá</p>
+            <p eId="para_70">
+              <person refersTo="#BarryAndrewsFF">Andrews, Barry.</person>
+            </p>
+            <p eId="para_71">
+              <person refersTo="#MartinBrady">Brady, Martin.</person>
+            </p>
+            <p eId="para_72">
+              <person refersTo="#JohnDennehy">Dennehy, John.</person>
+            </p>
+            <p eId="para_73">
+              <person refersTo="#PeterKellyFF">Kelly, Peter.</person>
+            </p>
+            <p eId="para_74">
+              <person refersTo="#MaeSextonPD">Sexton, Mae.</person>
+            </p>
+            <p eId="para_75">
+              <person refersTo="#NoelTracey">Treacy, Noel.</person>
+            </p>
+            <p eId="para_76">
+              <person refersTo="#DanWallace">Wallace, Dan.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_6">
+            <p eId="para_77">Níl</p>
+            <p eId="para_78">
+              <person refersTo="#BernardAllen">Allen, Bernard.</person>
+            </p>
+            <p eId="para_79">
+              <person refersTo="#JoeCostelloLAB">Costello, Joe.</person>
+            </p>
+            <p eId="para_80">
+              <person refersTo="#AengusOSnodaighSF">Ó Snodaigh, Aengus.</person>
+            </p>
+          </debateSection>
+        </debateSection>
+        <summary class="indent_0" eId="sum_11" refersTo="#carried" title="decision">Question declared carried.<entity name="reference" refersTo="#dbsect_3"/>
+                </summary>
+        <summary class="Center" eId="sum_12">SECTION 2.</summary>
+        <speech by="#NoelTracey" eId="spk_24" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_81">I move amendment No. 2:<entity refersTo="#bill.2006.61.dail.3.amd_2" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_82">In page 4, to delete lines 5 to 12 and substitute the following:</p>
+          <p class="indent_2" eId="para_83">"(<i>a</i>) make provision for offences under the regulations to be prosecuted on indictment, where the Minister of the Government making the regulations considers it necessary for the purpose of giving full effect to—</p>
+          <p class="indent_3" eId="para_84">(i) a provision of the treaties governing the European Communities, or</p>
+          <p class="indent_3" eId="para_85">(ii) an act, or provision of an act, adopted by an institution of the European Communities or any other body competent under those treaties,</p>
+          <p class="indent_2" eId="para_86">and".</p>
+          <p eId="para_87">Amendment No. 2 arises for the same reasons we were required to make changes to the definitions in section 1.  Section 2 provides for Ministers to create indictable offences by means of statutory instrument where it is necessary to do so to fulfil our European Community obligations.  The terms "provision of an Act" and "body competent under those treaties" are being included in the section for the sake of completeness.</p>
+          <p eId="para_88">The effect of section 2 is to introduce a new provision in the 1972 Act to allow Ministers to create indictable offences.  Ministers, where necessary, will have the power to introduce stringent penalties as the European Community requires, including on foot of decisions of the governing council of the European Central Bank.  To clarify, by virtue of the provisions of section 2, where an indictable offence is to be created by a Minister, the proposal will be laid before the Houses of the Oireachtas to alert all Members of it.  Unless a motion is tabled within 21 days annulling the proposed indictable offence or offences, the proposal will have the full, permanent force of law.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_25">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_89">The Minister of State's last comment was to the effect that regulations creating indictable offences would be laid before the Houses and given force of law unless a motion to annul were submitted by a Member.  If that were true I would not have a problem.  I could submit a motion annulling everything.  However, the motion would require the support of the House and the chance even of having such a motion discussed is almost non-existent.  Most motions are passed in the House without debate.  Regulations that create indictable offences should be subject to full scrutiny by the House.  They should not merely be laid before the House.  The Minister should place the motion before the House and request its support for the proposed changes.  Any other way of proceeding would cede some of the sovereignty of the Dáil to the Minister.  The House has a duty to make laws, impose sanctions and determine the effects of EU legislation.  Otherwise, we might as well not be here.  We might as well let the Minister for Justice, Equality and Law Reform set what sentences he wishes or the Minister for Agriculture and Food do whatever she wishes.  What would be the point of Deputies being here if that were the case?  Our ability to debate proposed changes would be hamstrung.</p>
+          <p eId="para_90">Approximately 80% of our legislation has a background in the various EU institutions, and this is set to increase.  Much of our legislation is initiated in the European Parliament, the EU Commission or the Council of Ministers.  We must ensure that the Oireachtas fully debates the impact of decisions taken at EU level.  By accepting the Minister's amendment or the Bill in its entirety, we would fail to do that.  Parliament must ensure that it retains as much power as possible in setting sentences and sanctions for indictable offences.  The Minister for Justice, Equality and Law Reform has been reluctant to cede power to the European Union in the area of criminal law.  I welcome that reluctance.  There has been a gradual move towards qualified majority voting in justice and home affairs issues.  This Bill removes from the Dáil the power to create indictable offences.  We must ensure that there is, at the very least, a full debate before a standard is set to remove a citizen's liberty.</p>
+          <p eId="para_91">The Minister of State claims this is an efficient way to deal with European legislation.  I did not hear him say it is an efficient way to deal with domestic legislation.  Why is all legislation not simply laid before the Dáil in the same manner and the Opposition ignored between one general election and another?  That would be an efficient way of dealing with legislation, but a dictatorial way of doing business.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_26">
+          <from>Mr. Costello</from>
+          <p eId="para_92">This proposal is at the heart of the legislation.  The Minister is assuming the power, not enshrined in legislation until now, to amend European Union legislation to create an indictable offence.  The Minister has powers under the 1972 Act but they do not include the power to create an indictable offence.  This Bill will give the Minister power which, heretofore, was at the core of primary legislation, which must be scrutinised by elected Members and passed by the Oireachtas.  The Minister will have the power to create an indictable offence.  This is ministerial diktat by statutory instrument and regulation.  The offence in question carries a maximum penalty of three years imprisonment and a fine of €500,000.  I have a principled objection to that measure.  Members cannot allow such enormous powers to be assumed by a Minister.  Whatever our opinion of the Bill as a whole, this power is a step too far.  I urge the Minister of State to reconsider it.  The principle underlying it is wrong.</p>
+          <p eId="para_93">To what extent would this power be used?  What issues have arisen to date that might have been dealt with in this way by the Minister of the day?</p>
+          <p eId="para_94">I oppose the amendment on principle.  I also oppose the proposed procedure.  It involves the mere shifting of paper.  Instead of laying legislation in the Oireachtas Library it is proposed that it be placed on the Order Papers of both Houses.  Members will read the list of indictable offences on their Order Paper and unless a motion is proposed to oppose a provision it will move to the Oireachtas Library three weeks later and that will be the end of it.</p>
+          <p eId="para_95">Deputy Allen's amendment would change the emphasis of a motion and make it a positive affirmation rather than a negative annulment.  That would be an improvement.</p>
+          <p eId="para_96">The Bill tarnishes the concept of primary legislation, which has always come through the Houses of the Oireachtas.  This will no longer be the case for primary legislation coming from Europe.  Domestic legislation will go through the Oireachtas in the proper fashion while provisions which originate in Europe will be subject to this short-circuited ministerial mechanism.  That raises serious questions about the role of the Oireachtas.  It will obviously be much easier and quicker.  If we were to do that in respect of all legislation the Dáil could sit much less.  It would never have to sit until 11.30 p.m. as it did last night.  The Minister for Justice, Equality and Law Reform, Deputy McDowell, could create an indictable offence carrying a penalty of three years imprisonment and a fine of half a million euro.  I am not sure that this is the right approach.  Important matters such as indictable offences and stiff penalties should be a matter for the Oireachtas and primary legislation.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_27">
+          <from>Mr. Allen</from>
+          <p eId="para_97">We have previously discussed what I would term the dangerous gap that now exists — at one stage we spoke about a developing gap — between the European citizen and the administration of the European Union, and the problem Ireland will have in ratifying any treaty by way of a referendum.  The current approach to implementing European regulations is giving hostages to fortune and ammunition to the opponents of the European Union.  In empowering the Minister to create indictable offences carrying heavy penalties by means of a statutory instrument we are reducing the Oireachtas to the level of a local authority.  We have seen the erosion of democracy at local level with the transfer of powers from elected representative to the manager.  Now we are seeing the transfer of powers from the Members of Dáil Éireann and Seanad Éireann to a Minister acting at the behest of the European Union.  I fear the consequences of this and its impact on citizens and their attitudes over a period.</p>
+          <p eId="para_98">I do not understand why my approach as set out in amendment No. 13 cannot be adopted, unless it is pure ministerial arrogance, although I do not like to use that word.  I would take some comfort if the line of action in my amendment were adopted to provide that no regulation or order shall have force of law under the principal Act save where a resolution of Dáil Éireann has been passed affirming the regulation or order within 21 sitting days after the day on which a regulation or order was laid before it in accordance with the section.  That would give Members of Dáil Éireann and Seanad Éireann the right to say "Stop" until we had examined the implications of any order.  It would defuse some of my anxiety about the way the European Union is going if the Minister of State agreed to consider that amendment.  I set out on Second Stage my party's stance on this issue and my fears in regard to how the Union is developing and how Irish citizens' attitudes are changing.  The Government's approach to this issue does not help.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_28" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_99">I have listened with interest to my colleagues.  Our Constitution is clear.  We live in an open democratic State whose citizens elect representatives to parliament, which then elects a government.  The will of the majority prevails.  That is democracy.  It is easy for Deputy Ó Snodaigh to allege there is a major shift of power into the hands of Ministers, but what he says is not true.  We are only continuing a system that has evolved since 1972.  Nothing has changed.  We are merely further enhancing our role as a member of the European Union to take account of what is required of us as a member state of the Union.</p>
+          <p eId="para_100">Since 1972 successive Governments have used statutory instruments to transpose European Community measures where necessary to meet our EU obligations.  There are standard procedures to publish and make the Houses of the Oireachtas aware of these statutory instruments, and the Supreme Court clearly accepts this approach is lawful and has adjudicated on it in a number of cases over the years.  Under the 1992 Act all such European Community decisions are subject to scrutiny.  It is a matter for the Oireachtas to decide which issues to focus on in the scrutiny process.  We should use the full potential of the existing arrangements and not introduce complicated affirming arrangements.</p>
+          <p eId="para_101">I accept Deputy Costello's principled objection.  He is entitled to object.  It is important to recognise, however, that Ministers introduce statutory instruments only where necessary.  Offences and penalties will be created where EU law and the measures contained therein require member states to do so.  We have always used secondary legislation to give effect to European Union law.  Examples include the Animal Remedies Act 1993 and the various environmental Acts.  All of the penalties in respect of those have been created by secondary legislation.  They include indictable offences created by secondary legislation.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_29">
+          <from>Mr. Allen</from>
+          <p eId="para_102">If the nitrates directive had been introduced in the manner in which it is proposed to introduce this, we would not have had a debate on its implications for agriculture.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_30" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_103">The nitrates directive was 14 years in gestation and on the stocks awaiting debate.  For various reasons successive Governments and other organisations with a direct interest in it were not anxious to visit the issue.  In the end we had no option but to do so and it was a very long and detailed process involving at least two Departments of State as well as the office of the Attorney General and the Government.  The balance that was struck is one that will serve our country well into the future.</p>
+          <p eId="para_104">Deputy Allen mentioned various decisions taken.  European Union decisions are taken democratically by elected Ministers, by the European Parliament.  Each government at the Council of Ministers has a democratic mandate with the full force of law of their sovereign countries behind it to represent their people and achieve a consensual conclusion as to how best the Union should proceed.  We all work for the common good.  That has been the hallmark of democracy since its foundation.  The European Parliament is fully involved.  The Oireachtas has a full role in scrutinising EU proposals.  It is a matter for the Oireachtas and the Members charged with responsibility for the scrutiny process to decide what should be scrutinised and how much scrutiny is warranted.  It is fully democratic.</p>
+          <p eId="para_105">EU treaties require that there be proportionate, effective and disuasive penalties for serious breaches of European law.  Ireland is required to ensure at national level that we meet that treaty obligation.  The Supreme Court judgments have meant that our current arrangements of transposing European Community law need to be reviewed and updated.  This Bill, in section 2, provides that a Minister may provide for a maximum fine of €500,000 and a maximum term of imprisonment of three years.  I stress that these are maximum penalties.  I underline that they will be imposed only after due process when the prosecution of an offence has taken its course in the higher courts in the land, that is, in either the Circuit Court or higher courts.  It is not a Minister who will make the decision.  He or she will create the necessary instrument to give full force to EU law.  It will be a matter for the courts to decide what is proportionate, correct and fair, and the courts will be constrained in terms of the penalties and cannot impose a penalty in excess of €500,000 or three years imprisonment.  It is right that we safeguard the common good and provide deterrents against breaking laws from which Irish people benefit so significantly as members of the European Union.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_31">
+          <from>Mr. Allen</from>
+          <p eId="para_106">The Minister of State did not answer my question.  Why can he not adopt the procedure proposed in amendment No. 13?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_32" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_107">I will deal with that later.  I have dealt in a general way with all of the amendments.  I will deal later with the specific points raised.  There was a slight objection to the style I was using when I was prepared to put all information before members so that we could have a broad debate but I was guided by the Chairman and stuck precisely to responding to each amendment.</p>
+        </speech>
+        <summary eId="sum_13" title="decision" refersTo="#carried">Amendment put and declared carried.<entity refersTo="#bill.2006.61.dail.3.amd_2.carried" name="amendment"/>
+                </summary>
+        <speech by="#" as="#Vice_Chairman" eId="spk_33">
+          <from>Vice Chairman</from>
+          <p eId="para_108">Amendments Nos. 3 and 4 in the names of Deputies Costello and Connolly have been ruled out of order as they are in conflict with the principle of the Bill under Standing Order 125 of the Houses of the Oireachtas.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_34">
+          <from>Mr. Costello</from>
+          <p eId="para_109">We had hoped to restore principle to the Bill.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_35">
+          <from>Vice Chairman</from>
+          <p eId="para_110">The Deputy's point is well made.</p>
+        </speech>
+        <speech by="#PaudgeConnolly" eId="spk_36">
+          <from>Mr. Connolly</from>
+          <p eId="para_111">Why have amendments Nos. 3, 4, 8 and 9 been ruled out of order?  I was asked by my colleague, Deputy Harkin to move these amendments.  I am very disappointed they have been ruled out of order.  I am concerned that we are giving to an individual Minister a great deal of power which should be given to the Oireachtas.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_37">
+          <from>Vice Chairman</from>
+          <p eId="para_112">The amendments seek to switch the power to make regulations to statutory instruments from the Minister to the Oireachtas.  This would defeat the principle of the Bill.  Acceptance of the amendments would be in contravention of Standing Order 125 of the Houses of the Oireachtas.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_38" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_113">What we are proposing is in line with best practice across Europe.</p>
+        </speech>
+        <speech by="#PaudgeConnolly" eId="spk_39">
+          <from>Mr. Connolly</from>
+          <p eId="para_114">It will give a great deal of power to individual Ministers which could be rather dangerous.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_40" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_115">It gives Ministers limited power rather than a great deal of power.</p>
+        </speech>
+        <summary refersTo="#notmoved" eId="sum_14" title="decision">Amendments Nos. 3 and 4 not moved.<entity refersTo="#bill.2006.61.dail.3.amd_3.notmoved" name="amendment"/>
+                    <entity refersTo="#bill.2006.61.dail.3.amd_4.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#" as="#Vice_Chairman" eId="spk_41">
+          <from>Vice Chairman</from>
+          <p eId="para_116">Amendment No. 11 is related to amendment No. 5, therefore, amendments Nos. 5 and 11 will be taken together by agreement.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_42">
+          <from>Mr. Costello</from>
+          <p eId="para_117">I move amendment No. 5:<entity refersTo="#bill.2006.61.dail.3.amd_5" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_118">In page 4, between lines 25 and 26, to insert the following:</p>
+          <p class="indent_1" eId="para_119">" "(5) Regulations under this section which create an indictable offence shall cease to have effect after 3 months unless confirmed by an Act of the Oireachtas which sets out in substantive form the terms of the offence.".</p>
+          <p eId="para_120">I remind the Minister of State that the explanatory memorandum, at the outset, states: "The purpose of this Bill is to amend the European Communities Act 1972 for the purpose of allowing offences under regulations made pursuant to that Act to be prosecuted on indictment...".  This is effectively a new power, even though the Minister of State says it is not and that it is in line with best practice.  Let us not forget that this is a new power.  It is not a power currently enshrined in the 1972 Act.  Let us be clear that what we are doing is amending that Act to provide the Minister with the power to create indictable offences.  The Minister of State has denied this.  However, that is what we are doing.</p>
+          <p eId="para_121">Amendments Nos. 5 and 11 seek to include in the Bill some caveats and protections that any indictable offence created by the Minister under this legislation will cease to have effect after three months unless confirmed by an Act of the Oireachtas.  The proper role of the Oireachtas would be to legislate on this matter by way of primary legislation.  We should ensure the Minister is prevented from introducing seriously flawed emergency provisions by providing that the Oireachtas will have three months within which to confirm or annul them.  This would be far better than the current proposal which seeks that such issues simply be placed on the Order Paper for 21 days before being annulled or confirmed.  Were the Minister of State to take on board this proposal, it would give added protection and would allow primary legislators a say in the matter.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_43" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_122">I have listened with great interest to Deputy Costello.  I accept that the provision is new to the 1972 Act.  However, it is not a new principle.  The proposal that regulations which make provision for indictable offences should cease to have effect after three months unless confirmed by an Act of the Oireachtas would mean that we would have to introduce a specific Act every three months where this situation arises.  This could not be done.  One would have to introduce primary legislation every three months resulting in the creation of a lengthy queue of issues to be dealt with.  I do not know how we would visit such matters or how we could ever meet our EU obligations.</p>
+          <p eId="para_123">This arrangement would be completely unworkable.  It would be a retrograde step which would complicate and delay unnecessarily the implementation of European Community law in Ireland.  It would leave us open to the damaging accusation of failing to live up to our EU obligations.  The status of regulations made in good faith by Ministers to give effect to EU law would be constantly in doubt.  There would be a question over their veracity and force of law.</p>
+          <p eId="para_124">Failure to pass the required Act of the Oireachtas within the three month period would cause a raft of statutory instruments to fall.  This would create a chaotic situation.  The passage of an unwieldy Act every three months, which would have to summarise a large number of statutory instruments, would be a nightmare for the Oireachtas.  We would be working seven days a week.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_44">
+          <from>Mr. Costello</from>
+          <p eId="para_125">I am talking about the creation of indictable offences which the Minister of State already stated will not happen very often.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_45" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_126">I suspect the amendment is inspired by the sunset clause contained in section 4 of the 1972 Act.  That clause proved to be completely unworkable and was removed by the Oireachtas shortly after the Act came into force.  The original section 4 arrangement was less impractical than Deputy Costello's suggestion.  It envisaged a sunset clause of six months and gave the Oireachtas far longer to assess and approve secondary legislation.  We should not return to a totally unworkable idea discarded more than 30 years ago.  We are confident that the amendment I have proposed will give the Oireachtas every opportunity to scrutinise the actions of the Executive whenever statutory instruments are being used to create indictable offences under the Bill.</p>
+          <p eId="para_127">The proposal contained in amendment No. 11 is similar to that proposed in amendment No. 5 but would apply to statutory instruments created under section 3 of the Bill.  I cannot accept amendment No. 11 as it would complicate, delay and generate uncertainty.  We as legislators cannot allow uncertainty to be generated.  Our citizens require us to enact solid law which stands the test in whatever court, be it the highest court in the land, the Supreme Court.  They deserve no less.  Furthermore, amendment No. 11 does not provide a safeguard regarding the legal effects of anything done under the statutory instrument during the period of its validity.</p>
+          <p eId="para_128">We are doing nothing that is not already enshrined in the principle of the Bill.  The power to create indictable offences already exists as does the power to introduce statutory instruments and secondary legislation.  We are updating our laws to take account of our position as one of 27 members of the European Union bearing in mind the corpus of law we are required to deal with and the obligations placed on us in that regard.  We must sure we deal efficiently and effectively with these matters.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_46">
+          <from>Mr. Costello</from>
+          <p eId="para_129">How does the Minister of State envisage the regulations will be put before both Houses?  Will the regulations in their entirety be placed on the Order Paper and spelled out in detail?</p>
+          <p eId="para_130">I did not speak to amendment No. 11, which refers to the statutory instruments.  Amendment No. 5 refers to the indictable offences.  In the section, the statutory instruments allow the Minister to amend any Act of the Oireachtas, not just Acts of the Oireachtas regarding our European commitments arising from the European Communities Acts.  Any Act of the Oireachtas can now be amended by a Minister under this proposal.</p>
+        </speech>
+        <summary eId="sum_15">(Interruptions).</summary>
+        <speech by="#JoeCostelloLAB" eId="spk_47">
+          <from>Mr. Costello</from>
+          <p eId="para_131">That is in section 3(2) which states: "... (including provisions repealing, amending or applying, with or without modification, other law, exclusive of this Act, the Act of 1972".  The Minister is giving himself even wider powers.  He can now amend primary legislation by way of a statutory instrument that has already been debated in the Oireachtas.  This is another power that has been included in this Bill.  The powers of the Minister are growing constantly and it behoves us to consider appropriate protections and safeguards.</p>
+          <p eId="para_132">I suggest a protection in the form of a three-month cooling off period to give the Oireachtas an opportunity to address the two issues of the indictable offences and the extraordinary powers the Minister has granted himself on statutory instruments beyond the competence of the European Communities Act.  We are doing something now that no other Dáil has ever done and we will not be thanked in the future for doing it.  The Minister is a reasonable and balanced Minister but there are other Ministers one would not want to let loose with legislation to amend or introduce indictable offences without having to refer it to the Dáil in a proper fashion.  My amendment may not be a perfect way of addressing this issue but the Minister has not suggested any safeguard to protect against abuse or over-use and to restore some oversight by the Oireachtas.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_48" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_133">I am grateful for Deputy Costello's description of me as reasonable and balanced.  I would always try to be reasonable and balanced in what I do because we all have a serious responsibility to discharge on behalf of the people who elect us.  I carry that reasonableness and balance from our predecessors in the 1970s who proposed the same powers to Parliament in the 1972 Act.  We have taken the exact wording from that Act.  Those powers were carried through in the past 34 years.  Secondary legislation, some of which included indictable offences, was passed through statutory instruments during that time.  The Browne and Kennedy case has highlighted a gap.  It behoves us as legislators to respond to that and it also gives us the opportunity to modernise our laws to take account of the enlargement of the European Union and our responsibility and obligations under the various treaties to ensure our laws are up to date with those requirements.</p>
+          <p eId="para_134">Section 3, with which we will deal later, is taken word for word from the 1972 Act.  We are not taking unto ourselves these new powerful instruments.  We are updating the law taking into account that the baseline legislation was in place in 1972.  We must modernise it now taking into account the Supreme Court judgments in two cases and our European Union responsibilities.  That is all we are asking to do.  It is very clear.</p>
+        </speech>
+        <summary eId="sum_16" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2006.61.dail.3.amd_5.lost" name="amendment"/>
+                </summary>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_49">
+          <from>Chairman</from>
+          <p eId="para_135">Amendment No. 6 is in the name of Deputy Costello.  Amendment No. 10 is related.  It is proposed to take amendments Nos. 6 and 10 together.  Is that agreed?  Agreed.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_50">
+          <from>Mr. Costello</from>
+          <p eId="para_136">I move amendment No. 6:<entity refersTo="#bill.2006.61.dail.3.amd_6" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_137">In page 4, between lines 32 and 33, to insert the following:</p>
+          <p class="indent_1" eId="para_138">"(6) Regulations under this section made after the enactment of the <i>European Communities Act 2007</i> may not repeal or amend or apply with or without modification any statute.”.”.</p>
+          <p eId="para_139">We have been over this ground.  The point is essentially the same in that regulations made under this section may not repeal or amend or apply with or without modification of any statute.  The Minister said that nothing has changed and that we are doing what has been done since 1972, but that is not true.  First, we are amending in this legislation the 1972 legislation.  That is the major thrust of this legislation and, therefore, the manner in which we proceed from now on will be statutorily different.</p>
+          <p eId="para_140">Second, I disagree with the Minister's comment about the statutory instrument amending the legislation.  Section 3(2) clearly states that the statutory instrument made by the Minister can amend and modify other law.  It refers to other law, not just the European Communities Acts.  It is exclusive of the Act of 1972 and the provision of statute.  The Minister does have wider powers and I would like him to clarify that.  The Bill does not just refer to legislation from Europe; it refers also to the granting surreptitiously of power to the Minister to amend other domestic Acts.  It states: "including provisions repealing, amending or applying, with or without modification, other law".</p>
+          <p eId="para_141">That is an extraordinary power which allows a Minister to repeal or amend any Act of the Oireachtas and I would like the Minister to clarify that before we proceed further.  If the Minister can amend or modify any Act of the Oireachtas by way of regulation, that subverts the purpose of the Oireachtas.  It is one thing to have the power to do it by way of forthcoming legislation from Europe and retrospection, but it is a different matter to be able to interfere with existing primary legislation by the line Minister of the day.  It would be impossible for us to know what is primary legislation and what is ministerial amendment and how those will work.  I fear that all our legislation will be tarnished by this power if it simply can be amended by the Minister of the day.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_51" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_142">Amendment No. 6 attempts to amend the existing provisions in the 1972 European Communities Act which clearly permit statutory instruments made under that Act to amend primary legislation.  This legislation, which was introduced and passed by the Oireachtas in 1972, made it explicit that statutory instruments could amend primary legislation.  That is nothing new.  It is the same instrument, the same force of law, the same primary legislation and the same system.</p>
+          <p eId="para_143">Amendment No. 10 is similar to amendment No. 6 in that it deletes the provision in this Bill which permits statutory instruments made for the purpose of giving effect to a European measure under other Acts of the Oireachtas to amend primary legislation.  The Attorney General advises me that neither of these amendments could be accepted.  The power to repeal, amend or apply is already contained in the 1972 Act.</p>
+          <p eId="para_144">It is worth recalling that section 3(2) is limited in its scope.  For example, it cannot be used to amend the 2006 Bill, the 1972 Act or the relevant section of the primary legislation being used to create the statutory instrument.  The constitutional validity of this approach was accepted by the Supreme Court in the landmark Meagher case from which I will quote.  The Supreme Court said it was absolutely satisfied that having regard to the number of Community laws, Acts done and measures adopted, which either have to be facilitated in their direct application to the law of the State of Ireland or have to be implemented by appropriate action into the law of the State, the obligation of EU membership would necessitate the facilitating of these activities, in some instances at least and possibly in the majority of instances by the making of ministerial regulations rather than by primary legislation.  That is a clear decision by the Supreme Court in the landmark Meagher case.</p>
+          <p eId="para_145">The Government believes this amending power continues to be essential if we are to give proper effect to European Community law.  No one needs to have anything to fear from a provision that has been in place in our legislation since 1972.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_52">
+          <from>Vice Chairman</from>
+          <p eId="para_146">As a division has been called in the Dáil, I propose that we suspend.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_53">
+          <from>Mr. Allen</from>
+          <p eId="para_147">Until what time are we permitted to proceed with the Bill?</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_54">
+          <from>Vice Chairman</from>
+          <p eId="para_148">There is no time limit.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_55">
+          <from>Mr. Allen</from>
+          <p eId="para_149">Will we break at some stage?</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_56">
+          <from>Vice Chairman</from>
+          <p eId="para_150">We will break for lunch between 1 p.m. and 2 p.m.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_57" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_151">I suggest 1.30 p.m. to 2.30 p.m.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_58">
+          <from>Mr. Costello</from>
+          <p eId="para_152">I need to be in the Dáil Chamber for oral questions to the Minister for Defence at 2.30 p.m.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_59" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_153">We need to facilitate Deputy Costello, as he is a Front Bench spokesperson.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_60">
+          <from>Vice Chairman</from>
+          <p eId="para_154">When we return from the Dáil division, we could keep going until 2.30 p.m.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_61" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_155">We should keep going until whenever Deputy Costello needs.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_62">
+          <from>Mr. Costello</from>
+          <p eId="para_156">Not later than 2 p.m.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_63" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_157">I would like a break from about 1.30 p.m. to 2.30 p.m.  We could break from 1.15 p.m. until 2.30 p.m.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_64">
+          <from>Vice Chairman</from>
+          <p eId="para_158">We will return straight after the division and keep going until 1.30 p.m.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_65" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_159">Together we shall succeed.</p>
+        </speech>
+        <summary eId="sum_17">Sitting suspended at 11.50 a.m. and resumed at 12.10 p.m.</summary>
+        <speech by="#" as="#Vice_Chairman" eId="spk_66">
+          <from>Vice Chairman</from>
+          <p eId="para_160">We were discussing amendment No. 6.  Is the amendment being pressed?</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_67">
+          <from>Mr. Costello</from>
+          <p eId="para_161">Yes.</p>
+        </speech>
+        <summary eId="sum_18" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2006.61.dail.3.amd_6.lost" name="amendment"/>
+                </summary>
+        <summary eId="sum_19">Question put: "That section 2, as amended, be agreed to."</summary>
+        <debateSection name="division" eId="dbsect_7">
+          <summary title="division" eId="sum_20">The Committee divided: Tá, <quantity normalized="7" refersTo="#ta" eId="qty_3">7</quantity>; Níl, <quantity normalized="3" refersTo="#nil" eId="qty_4">3</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_8">
+            <p eId="para_162">Tá</p>
+            <p eId="para_163">
+              <person refersTo="#BarryAndrewsFF">Andrews, Barry.</person>
+            </p>
+            <p eId="para_164">
+              <person refersTo="#JoeCallananFF">Callanan, Joe.</person>
+            </p>
+            <p eId="para_165">
+              <person refersTo="#JohnDennehy">Dennehy, John.</person>
+            </p>
+            <p eId="para_166">
+              <person refersTo="#MichaelMulcahyFF">Mulcahy, Michael.</person>
+            </p>
+            <p eId="para_167">
+              <person refersTo="#NoelTracey">Treacy, Noel.</person>
+            </p>
+            <p eId="para_168">
+              <person refersTo="#DanWallace">Wallace, Dan.</person>
+            </p>
+            <p eId="para_169">
+              <person refersTo="#OllieWilkinsonFF">Wilkinson, Ollie.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_9">
+            <p eId="para_170">Níl</p>
+            <p eId="para_171">
+              <person refersTo="#BernardAllen">Allen, Bernard.</person>
+            </p>
+            <p eId="para_172">
+              <person refersTo="#JoeCostelloLAB">Costello, Joe.</person>
+            </p>
+            <p eId="para_173">
+              <person refersTo="#AengusOSnodaighSF">Ó Snodaigh, Aengus.</person>
+            </p>
+          </debateSection>
+        </debateSection>
+        <summary class="indent_0" eId="sum_21" refersTo="#carried" title="decision">Question declared carried.<entity name="reference" refersTo="#sum_19"/>
+                </summary>
+        <summary class="Center" eId="sum_22">NEW SECTION.</summary>
+        <speech by="#NoelTracey" eId="spk_68" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_174">I move amendment No. 7:<entity refersTo="#bill.2006.61.dail.3.amd_7" name="amendment"/>
+                    </p>
+          <p class="indent_2" eId="para_175">In page 4, before section 3, to insert the following new section:</p>
+          <p class="indent_2" eId="para_176">3.—The Act of 1972 is amended by the insertion of the following section:</p>
+          <p class="indent_3" eId="para_177">"3A.—Every regulation to which subsection (3) (inserted by <i>section 2(a)</i> of the <i>European Communities Act 2007</i>) of section 3 of this Act applies shall be laid before each House of the Oireachtas as soon as may be after it is made and, if a resolution annulling the regulation is passed by either such House within the next 21 days on which that House sits after the regulation is laid before it, the regulation shall be annulled accordingly but without prejudice to the validity of anything previously done thereunder.”.”.</p>
+          <p eId="para_178">The amendment will provide for a standard 21-day scrutiny procedure for statutory instruments made pursuant to the provisions of section 2 of this Bill that create indictable offences, to which I alluded earlier.  This new procedure will require Ministers, having made the statutory instruments, to lay them before the Houses of the Oireachtas.  The regulations will have immediate effect and will continue in force unless within 21 sitting days of the regulations being laid, either House of the Oireachtas passes a resolution stating that the regulations should be annulled.</p>
+          <p eId="para_179">This procedure is the most commonly used method of laying statutory instruments before the Houses of the Oireachtas.  It will give the Oireachtas every opportunity to scrutinise the actions of the Executive in cases where indictable offences are being created using statutory instruments made under section 2 of this Bill.  This amendment responds to the key points made by various colleagues during the Second Stage debate.  It gives the Oireachtas the opportunity to have a final say when serious offences are being created for the purpose of implementing European Community law under the 1972 European accession Act, as amended by this Bill.  I formally recommend acceptance of the amendment.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_69">
+          <from>Vice Chairman</from>
+          <p eId="para_180">We have discussed much of the principle of this already but I am more than happy to allow for questions.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_70">
+          <from>Mr. Allen</from>
+          <p eId="para_181">I know I am jumping to amendment No. 13 but we may as well deal with the issue now.  Why will the Minister of State not accept my proposal in amendment No. 13?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_71" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_182">In order for legislation to be immediately effective and to have the force of law, and to meet our European obligations, it is vitally important that once the instrument is laid, it has that force of law and that in any adjudication thereon it would have the force of law unless subsequently, as the amendment outlines, it is negated by a vote of the Oireachtas.  It is for reasons of efficiency and to take a common sense approach to the matter.</p>
+          <p eId="para_183">The Government's amendment provides for a 21-day laying procedure for statutory instruments made under section 2 of this Bill that create indictable offences.  This addresses the legitimate concerns raised by Deputies, including Deputy Allen, while also ensuring the Government can continue to transpose European Community law effectively and efficiently.</p>
+          <p eId="para_184">We have treaty obligations to uphold and we need to find a balanced way of doing this while also affording the Oireachtas a full opportunity to scrutinise European legislation.  I am slightly confused as to how Deputy Allen's amendment could ever work in practice.  If his amendment were accepted, Ministers would have to lay all European Community-related measures before each House.  Deputy Allen wants an affirmative and a negative procedure to apply in each case and to every measure.  This type of arrangement would create chaos and confusion.  It would also depart from arrangements for implementing European Community law which have served us well for more than three decades.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_72">
+          <from>Mr. Allen</from>
+          <p eId="para_185">My amendment would in some small way go towards addressing the concerns of many Deputies in regard to the undermining of the Houses of the Oireachtas.  It is a bit rich for the Minister of State to refer to the need to deal with some directives speedily.</p>
+          <p eId="para_186">In reply to a parliamentary question I tabled last year, I was informed 128 European Union directives were awaiting transposition into Irish law.  As of 31 October 2006, 22 directives were overdue for transposition.  Last April, the Commission announced it would instigate legal proceedings against Ireland for failing to transpose European Union directives into Irish law.  In the last edition of the <i>Internal Market Scoreboard</i>, a publication which rates the speed with which European Union member states implement Internal Market directives, Ireland ranked an unimpressive 19th out of the 25 European Union member states for compliance.  The scoreboard listed Ireland as one of the eight EU member states that had not met the targets set for the implementation of Internal Market directives and faced 51 separate legal cases relating to its failure to adopt legislation in important areas.</p>
+          <p eId="para_187">The Minister of State might say that justifies the argument for his approach but it is a bit rich, given the abject neglect evident in terms of dealing with directives.  The current scrutiny mechanisms for directives are inadequate.  Some safeguard is required within the Oireachtas for dealing with the contents of directives.  A 21-day cooling-off period could not impact severely with the European Union nor would we face serious penalties because the sign of intent to implement directives would be in place by virtue of the information being laid before the Oireachtas.  I am trying to address some of the anxieties evident over the undermining of the role of the Oireachtas.  My amendment would be preferable to the Minister's amendment.  I urge the Minister of State not to dismiss it out of hand and take careful note of what I propose.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_73">
+          <from>Vice Chairman</from>
+          <p eId="para_188">Does Deputy Allen agree that amendment No. 13 should be taken with amendment No. 7?</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_74">
+          <from>Mr. Allen</from>
+          <p eId="para_189">Yes.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_75">
+          <from>Mr. Costello</from>
+          <p eId="para_190">The Minister of State argued that the effect of accepting Deputy Allen's amendment would be to require a long time to enact directives.  Both methods proposed require the same length of time — 21 sitting days.  Deputy Allen's approach is a more positive one than that proposed by the Minister.</p>
+          <p eId="para_191">How it is proposed to lay the regulations before both Houses?  Is it proposed to lay the entire substance of the regulations on the Order Paper of the day and leave it there for 21 successive sitting days?  Is it the intention to lay if before one House first then subsequently before the other House, or would a directive be laid simultaneously before both Houses of the Oireachtas?  Will the Minister of State outline how the nuts and bolts of his proposal would work?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_76">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_192">If we take the logic of what the Minister of State says, every justice Bill would be laid before the House for 21 days and would become law unless annulled.  The House should have the opportunity to debate these serious issues, which in some cases relate to criminal sanctions and imprisonment among other measures.  We do not have a list of the hundreds or thousands of ministerial orders which were consequential on EU directives which the Supreme Court stated were adopted using the incorrect procedure.  I am surprised there is no schedule to outline the orders we will retrospectively endorse.</p>
+          <p eId="para_193">Currently, many motions are put to the House referring issues to committees for discussion, whether they relate to defence, justice or whatever else.  I have difficulty with some of the motions but at least an opportunity is given for scrutiny by the Houses of the Oireachtas and subsequently the motion is confirmed by the Houses.  That would be the effect of Deputy Allen's amendment.</p>
+          <p eId="para_194">This is in line with procedures we already have in the House and I do not understand how the Minister of State can suggest it would be overtaxing or illogical.  By extension, that would also be the case with motions currently dealt with on the Order of Business.  We often object to motions being referred without debate, but at least there is some type of mechanism in the House which allows for debate.  We should have a debate.  One of the problems is the work that will be produced if we go down this road.  The German Chancellor stated that 80% of legislation is influenced by the EU, others suggest 75%.  Such work would be done in any case because our task as politicians is to ensure that any law passed in Ireland has the democratic stamp of the Houses of the Oireachtas.  That is not the case here.  Every day up to 100 documents are laid before the House and they do not see the light of day afterwards.  There is rarely debate on them.  When Whips try to organise debate on them we are told it is too late or there is insufficient time.  It is a practical issue if we do not sit for enough days.  The Houses of the Oireachtas pass legislation, not just the Government.  On Committee Stage the Opposition often spots loopholes and rectifies them.  The Houses should examine an issue and then it can be endorsed or rejected.  If that is overly taxing, we have a major problem.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_77" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_195">There is no erosion of the powers of the Oireachtas.  This Bill modernises existing arrangements, used by successive Governments since 1972 to rely on statutory instruments to transpose European Community obligations into national law.  When this Bill is passed Members will have a new scrutiny power.  They have the right to scrutinise European Community measures under the European Union (Scrutiny) Act.  Members of the House will have power to challenge ministerial statutory instruments that create indictable offences.  They can challenge Ministers with questions in debates and the lawfulness of ministerial statutory instruments is open to challenge in the courts.  This is open, accountable democracy governed by the rule of law.</p>
+          <p eId="para_196">Everything done has the democratic stamp of the Oireachtas.  The Minister consults Departments, the office of the Attorney General and relevant agencies.  The Minister is also guided by what happens in the body politic and, as a sovereign member of the Government elected by Parliament, will sign statutory instruments.  The Minister will be guided on the co-decision situation emanating from the European Parliament.  Dual democracy on this island and in the European Parliament is paramount.</p>
+          <p eId="para_197">Deputy Costello referred to how we propose to accomplish this.  The statutory instrument will be published and simultaneously laid before both Houses.  It will be available to Members on the Order Paper and they have 21 days to propose an annulling motion.  Passing this motion would render the statutory instrument ineffective.  If there is no such motion, the force of law continues.  Once laid before the House it has the force of law and will be signed by the Minister and published for the citizens.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_78">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_198">The reason we are here is one of the effects of the Supreme Court decision.  We are discussing this because what we relied on since 1972 is out of order.  The Supreme Court suggested that if statutory instruments are to be given effect it should be through primary legislation.  We were doing this the wrong way.  The Minister of State is trying to change the system, a major change to the normal practice of passing primary legislation.</p>
+          <p eId="para_199">The Minister of State proposes 21 days to annul the statutory instrument.  It is not always the case that Deputies are opposed to the statutory instrument, sometimes they have questions and seek clarity.  Laying this before the Houses does not allow questioning such as that on Second Stage, Committee Stage or Report Stage.  The responsibilities of Members are being eroded because we do not have the opportunity to debate these.  Statutory instruments can have a major effect on people's lives and we should not go down this road.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_79">
+          <from>Mr. Costello</from>
+          <p eId="para_200">The Minister refers to every regulation to which the section applies.  Will the section apply retrospectively or will this apply to forthcoming regulations?  Will all regulations be laid before the Houses?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_80" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_201">No.  The law does not apply retrospectively.  All indictable offences for the future, created by statutory instrument, will be laid before the Houses.  We dealt with them in two Acts.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_81">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_202">What about previous ones?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_82" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_203">They have been passed by our predecessors, our colleagues and ourselves.  We accept democracy and the wisdom of our predecessors.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_83">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_204">The criticism of the Supreme Court referred to the method in which these were passed.  Two Supreme Court judgments, Browne <i>v.</i> Attorney General and Kennedy <i>v.</i> Attorney General, found that a statutory instrument to give effect to European Community law can only be validly made when the Oireachtas specifically provided for it in primary legislation.  This obviously did not happen in all cases.  Do we retrospectively have to lay all those statutory instruments before the Houses for 21 days?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_84" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_205">No.  The 1972 Act was very explicit in that it gave the power to give effect to European law through statutory instruments created under primary legislation.  The Browne <i>v.</i> Attorney General and Kennedy <i>v.</i> Attorney General judgments referred to specific issues under the Fisheries (Amendment) Act.  On that basis the Supreme Court judged that the words in the 1972 Act were not explicit enough to include all primary legislation.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_85">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_206">I refer to the statement of the Minister of State to the House.  He said that hundreds of statutory instruments made in good faith over three decades may be in doubt.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_86" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_207">They may be.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_87">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_208">Is the Minister of State saying there is no doubt?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_88" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_209">I am saying that lest there be any doubt we have a responsibility as legislators, under the Constitution and accepting the Supreme Court decision, to ensure that there could be no doubt.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_89">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_210">In the future.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_90" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_211">Or in the past.  We are validly accepting the legitimate force of law of the statutory instruments created by successive Governments and Ministers under the powers emanating from the 1972 Act.  However, lest on a technical issue under the same Act there would be any doubt pertaining to the statutory instruments passed and signed into law before now, we are validly ensuring that they have the full force of law.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_91">
+          <from>Vice Chairman</from>
+          <p eId="para_212">Deputy Ó Snodaigh should let Deputy Costello speak.  Deputy Ó Snodaigh can respond later.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_92">
+          <from>Mr. Costello</from>
+          <p eId="para_213">The reason I raised this issue is that the second point in the summary of information for the committee regarding the Browne <i>v.</i> the Attorney General case on driftnets states that the ministerial order was made under the Fisheries (Consolidation) Act 1959 to provide for the creation of an indictable offence for breaches of the Council regulations.  That was struck down.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_93" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_214">That was because it was the 1959 Act prior to the 1972 Act.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_94">
+          <from>Mr. Costello</from>
+          <p eId="para_215">The point was that it provided for the creation of an indictable offence.  Now we are providing for the creation of an indictable offence into the future.  If there is a taint about any order or regulation made in the past, there can still be a challenge to those orders unless the Minister makes the process retrospective.  There might or might not be a challenge but the likelihood is that there will be.  Will the Minister of State re-examine this and determine whether it is sufficient to move on into the future on the basis of the Bill before the House if there will now be a new procedure for all proposed statutory instruments?  Regardless of whether they are indictable offences or otherwise, they are under section 3 and will all have to come before the House in that format.  The net point is that we need clarification.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_95" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_216">There is clarification.  The 1972 Act was specific in that it gave power to make statutory instruments under the Act for the absorption of European law into Irish domestic law from 1972 on.  Subsequently, in the Browne and Kennedy cases two people were prosecuted under indictable offences created under the 1959 fisheries Act.  The cases were taken to the Supreme Court.</p>
+          <p eId="para_217">As the 1972 Act was passed after the 1959 Act, the Supreme Court found that there might be a gap that was not satisfactorily covered in the 1972 Act.  The legislation before us is to ensure that we give the full force of law to the statutory instruments created under all primary legislation, and that in the case of all future indictable offences to be introduced in this country, Ministers will be obliged to publish them and lay them before the Houses of the Oireachtas so Members can adjudicate on them.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_96">
+          <from>Mr. Costello</from>
+          <p eId="para_218">This legislation is also retrospective.  However, it is not retrospective with regard to the new procedure the Minister is introducing.  That is our point.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_97" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_219">We are creating a new procedure for all future Acts.  It is also validly giving the force of law to all decisions taken previously.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_98">
+          <from>Mr. Costello</from>
+          <p eId="para_220">There might be a large number of other cases, aside from the two cases that were brought to the Supreme Court.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_99">
+          <from>Vice Chairman</from>
+          <p eId="para_221">The Deputy will have to accept the point.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_100">
+          <from>Mr. Costello</from>
+          <p eId="para_222">The Minister of State's answer is not—</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_101">
+          <from>Vice Chairman</from>
+          <p eId="para_223">I know the Deputy does not accept it or agree with it.  That is fine, but we have discussed it extensively.  The Deputy must be brief.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_102">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_224">I have asked my question twice already.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_103">
+          <from>Vice Chairman</from>
+          <p eId="para_225">I will let the Deputy ask it once more and then we will proceed.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_104">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_226">I have not been given an answer.  Is it not appropriate, if we are retrospectively validating legislation, that there should be a schedule of that legislation?  We do not know what we are validating retrospectively.  There is no list.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_105" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_227">It would never be the case that there would be a schedule of legislation that is on the Statute Book for a long period of time.  We are saying that based on the Supreme Court judgment we are constitutionally obliged to ensure everything is valid.  Those who dealt with previous legislation and debated it, after which statutory instruments were created, did so in good faith.  Lest there be any doubt, we are giving valid cover in law to that legislation.  For the future, we are introducing new indictable offences and there is a clear ceiling on penalties of €500,000 in fines and three years imprisonment.  However, these cannot be introduced in the future unless they are laid before the Houses of the Oireachtas.  They are two different things.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_106">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_228">I understand the two different things and what is to happen in the future.</p>
+        </speech>
+        <speech by="#" as="#Vice_Chairman" eId="spk_107">
+          <from>Vice Chairman</from>
+          <p eId="para_229">I have given the Deputies a great deal of latitude on this.  I must put the amendment.</p>
+        </speech>
+        <summary eId="sum_23" title="decision" refersTo="#carried">Amendment put and declared carried.<entity refersTo="#bill.2006.61.dail.3.amd_7.carried" name="amendment"/>
+                </summary>
+        <summary class="Center" eId="sum_24">SECTION 3.</summary>
+        <speech by="#" as="#Vice_Chairman" eId="spk_108">
+          <from>Vice Chairman</from>
+          <p eId="para_230">Amendments Nos. 8 and 9 are out of order.</p>
+        </speech>
+        <summary refersTo="#notmoved" eId="sum_25" title="decision">Amendments Nos. 8 and 9 not moved.<entity refersTo="#bill.2006.61.dail.3.amd_8.notmoved" name="amendment"/>
+                    <entity refersTo="#bill.2006.61.dail.3.amd_9.notmoved" name="amendment"/>
+                </summary>
+        <speech by="#JoeCostelloLAB" eId="spk_109">
+          <from>Mr. Costello</from>
+          <p eId="para_231">I move amendment No. 10:<entity refersTo="#bill.2006.61.dail.3.amd_10" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_232">In page 4, subsection (2), lines 42 to 45, to delete all words from and including "(including" in line 42 down to and including "made)" in line 45.</p>
+        </speech>
+        <summary eId="sum_26" refersTo="#carried" title="decision">Question, "That the words proposed to be deleted stand", put and declared carried.<entity name="reference" refersTo="#dbsect_3"/>
+                </summary>
+        <summary eId="sum_27" title="decision" refersTo="#lost">Amendment declared lost.<entity refersTo="#bill.2006.61.dail.3.amd_10.lost" name="amendment"/>
+                </summary>
+        <summary refersTo="#notmoved" eId="sum_28" title="decision">Amendment No. 11 not moved.<entity refersTo="#bill.2006.61.dail.3.amd_11.notmoved" name="amendment"/>
+                </summary>
+        <summary eId="sum_29" refersTo="#carried" title="decision">Question, "That section 3 stand part of the Bill", put and declared carried.<entity name="reference" refersTo="#dbsect_3"/>
+                </summary>
+        <summary class="Center" eId="sum_30">SECTION 4.</summary>
+        <summary eId="sum_31" refersTo="#carried" title="decision">Question, "That section 4 stand part of the Bill", put and declared carried.<entity name="reference" refersTo="#dbsect_3"/>
+                </summary>
+        <summary class="Center" eId="sum_32">NEW SECTIONS.</summary>
+        <speech by="#JoeCostelloLAB" eId="spk_110">
+          <from>Mr. Costello</from>
+          <p eId="para_233">I move amendment No. 12:<entity refersTo="#bill.2006.61.dail.3.amd_12" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_234">In page 5, before section 5, to insert the following new section:</p>
+          <p class="indent_2" eId="para_235">5. —The European Union (Scrutiny) Act 2002 is amended by the addition of the following section after section 2:</p>
+          <p class="indent_2" eId="para_236">"2A. -(1) Where a Minister of the Government proposed to make a statutory instrument under section 3 of the European Communities Act 1972 or under any other statute for a purpose referred to in <i>section 3(1)</i> of the<i> European Communities Act 2007</i>, he or she shall cause a copy of the draft of the text concerned to be laid before each House of the Oireachtas together with a statement of the Minister outlining the content, purpose and likely implications of the proposed text and including such other information as he or she considers appropriate.</p>
+          <p class="indent_2" eId="para_237">(2) The Minister shall have regard to any recommendations made to him or her from time to time by either or both Houses of the Oireachtas or by a committee of either or both such Houses in relation to a proposed statutory instrument.</p>
+          <p class="indent_2" eId="para_238">(3) Subsections (1) and (2) shall not apply, if in the opinion of the Minister, there is insufficient time for the carrying out of the procedures aforesaid and the performance of the functions of the Houses of the Oireachtas in relation to the text aforesaid.</p>
+          <p class="indent_2" eId="para_239">(4) Where, pursuant to subsection (3), a text of a proposed statutory instrument has not been laid before each House of the Oireachtas and the instrument concerned is made by the Minister, the Minister shall cause a copy of the text of the instrument to be laid before both Houses of the Oireachtas together with a statement outlining the implications of the measure and the circumstances of its making and including such other information as he or she considers appropriate.</p>
+          <p class="indent_2" eId="para_240">(5) Every Minister of the Government shall make a report to each House of the Oireachtas not less than twice yearly in relation to instruments and proposed instruments to which subsection (1) refers in relation to which he or she performs functions.".".</p>
+          <p eId="para_241">We have been over much of this ground.  This is an attempt to provide for scrutiny of the Minister's statutory instruments and proposals in that regard.  The amendment provides that a copy of the draft of the text concerned be laid before each House of the Oireachtas together with a statement of the Minister outlining the content.  The Minister, therefore, would go a step further.  It also proposes that the Minister would have regard to any recommendation made by either House of the Oireachtas or by a committee of the Houses.</p>
+          <p eId="para_242">The option should be available to refer it to a committee but the Bill does not provide for that.  The Minister might consider broadening his proposals to include these provisions.  It would be wise to extend the provision of the scrutiny Act of 2002 to some of the proposals in the statutory instruments.  It might be appropriate that they be referred to this committee to be examined.  That flexibility would be valuable as a safeguard.  So far, we have been unable to get the Minister to introduce the cast iron safeguards of primary legislation being dealt with by the primary legislators.  This amendment would, at least, provide greater flexibility.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_111" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_243">I have taken careful note of what the Deputy has said throughout this debate.</p>
+          <p eId="para_244">Amendment No. 12 cuts across the Government's proposal to lay statutory instruments creating indictable offences before both Houses of the Oireachtas.  The Government's substantive amendment addresses the fundamental concerns expressed about the role of the Oireachtas.  It is not appropriate to use the Bill to amend the European Union (Scrutiny) Act 2002, which has worked well.</p>
+          <p eId="para_245">The current arrangements for scrutiny require Departments to indicate the legislative implications of any European Community measure from the start of the scrutiny process.  Therefore, these arrangements, along with the Government amendments for Ministers to lay statutory instruments creating indictable offences, give the Oireachtas genuine influence when it comes to setting the level of penalties deemed necessary in particular instances.</p>
+          <p eId="para_246">As regards reporting, under the scrutiny legislation every Minister is required to report to the Oireachtas every six months on EU legislative and policy developments in their areas of responsibility.  For example, the reports from the Department of Foreign Affairs summarise all draft EU legislative proposals for the six months under review.  Other Departments do likewise.  It is open to the Houses to scrutinise these reports and to seek additional information on any draft EU measure or particular interest.  That said, it may be time to re-examine the way in which the scrutiny Act operates.  The Act has been in place for five years and the Government is open to a review of its operation.</p>
+          <p eId="para_247">I cannot accept this amendment.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_112">
+          <from>Mr. Costello</from>
+          <p eId="para_248">Will each Minister make a twice-yearly report to the Oireachtas?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_113" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_249">Every Minister is required to make a six-monthly report on EU legislative and policy developments in their areas of responsibility.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_114">
+          <from>Mr. Costello</from>
+          <p eId="para_250">To the Houses of the Oireachtas?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_115" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_251">They have to make a report to the Houses every six months on legislative policy developments in the European Union.  If statutory instruments are being introduced to incorporate EU law, any good Minister with an efficient Department behind him or her would ensure that is included in it.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_116">
+          <from>Mr. Costello</from>
+          <p eId="para_252">I do not recollect each Minister producing a biannual report on matters relating to statutory instruments.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_117" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_253">My interpretation is that each Minister is obliged under the scrutiny legislation to report to the scrutiny sub-committee every six months on legislative and policy developments in the EU on their areas of responsibility.  If that impinges on—</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_118">
+          <from>Mr. Costello</from>
+          <p eId="para_254">To each House?</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_119" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_255">Reporting to a committee is reporting to the Oireachtas.  I will clarify that point on Report Stage.</p>
+        </speech>
+        <summary eId="sum_33" title="decision" refersTo="#withdrawn">Amendment, by leave, withdrawn.<entity refersTo="#bill.2006.61.dail.3.amd_12.withdrawn" name="amendment"/>
+                </summary>
+        <speech by="#BernardAllen" eId="spk_120">
+          <from>Mr. Allen</from>
+          <p eId="para_256">I move amendment No. 13:<entity refersTo="#bill.2006.61.dail.3.amd_13" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_257">In page 5, before section 5, to insert the following new section:</p>
+          <p class="indent_1" eId="para_258">5.—No regulation or order shall have force of law under the Principal Act save where a resolution of Dáil Éireann has been passed affirming the regulation or order within 21 sitting days after the day on which a regulation or order was laid before it in accordance with this section.".</p>
+        </speech>
+        <summary eId="sum_34" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2006.61.dail.3.amd_13.lost" name="amendment"/>
+                </summary>
+        <speech by="#BernardAllen" eId="spk_121">
+          <from>Mr. Allen</from>
+          <p eId="para_259">I move amendment No. 14:<entity refersTo="#bill.2006.61.dail.3.amd_14" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_260">In page 5, before section 5, to insert the following new section:</p>
+          <p class="indent_1" eId="para_261">5.—(1) The Minister shall ensure that every regulation or order made by him or her under this Act, is laid before each House of the Oireachtas as soon as practicable after it is made.</p>
+          <p class="indent_1" eId="para_262">(2) Either House of the Oireachtas may, by resolution passed within 21 sitting days after the day on which a regulation or order was laid before it in accordance with this section, annul the regulation or order.</p>
+          <p class="indent_1" eId="para_263">(3) No regulation or order shall have force of law under this act save where a resolution of Dáil Éireann has been passed affirming the regulation or order within 21 sitting days after the day on which a regulation or order was laid before it in accordance with this section.".</p>
+        </speech>
+        <summary eId="sum_35" title="decision" refersTo="#lost">Amendment put and declared lost.<entity refersTo="#bill.2006.61.dail.3.amd_14.lost" name="amendment"/>
+                </summary>
+        <summary class="Center" eId="sum_36">SECTION 5.</summary>
+        <speech by="#JoeCostelloLAB" eId="spk_122">
+          <from>Mr. Costello</from>
+          <p eId="para_264">I move amendment No. 15:<entity refersTo="#bill.2006.61.dail.3.amd_15" name="amendment"/>
+                    </p>
+          <p class="indent_1" eId="para_265">In page 5, lines 20 and 21, to delete subsection (2) and substitute the following:</p>
+          <p class="indent_1" eId="para_266">"(2) The European Communities Acts 1972 to 2006 and this Act may be cited together as the European Communities Acts 1972 to 2007.".</p>
+          <p eId="para_267">This technical amendment proposes to update the citation to a standardised form.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_123" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_268">I accept the amendment and I salute Deputy Costello for bringing it forward.  I also salute all colleagues for the work they have done in ensuring that together we have focussed in a technical way on the importance of the Bill.  We are putting together solid legislation that will serve our people well into the future and ensure we fulfil our obligations in the EU.</p>
+        </speech>
+        <summary eId="sum_37" title="decision" refersTo="#agreed">Amendment agreed to.<entity refersTo="#bill.2006.61.dail.3.amd_15.agreed" name="amendment"/>
+                </summary>
+        <summary eId="sum_38" refersTo="#carried" title="decision">Question, "That section 5, as amended, stand part of the Bill", put and declared carried.<entity name="reference" refersTo="#dbsect_3"/>
+                </summary>
+        <summary class="Center" eId="sum_39">TITLE.</summary>
+        <summary eId="sum_40">Question proposed: "That the Title be the Title to the Bill."</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_124">
+          <from>Aengus Ó Snodaigh</from>
+          <p eId="para_269">This Bill will validate a body of law retrospectively.  The Minister of State laboured the point that the Government needs to validate these laws.  It is not, however, referred to in the Title.  A schedule should be included in the Bill listing the Acts that will be validated by this legislation.  It must also be included in the Title that we are dealing with law retrospectively as well as subsequently.  We have had an argument about how we will do this work in the future.  According to the Supreme Court, these laws were introduced in an improper way.  I am not saying we need to go through every Act and statutory instrument but there should be some citation of the particular legislation and it should be mentioned in the Title.</p>
+        </speech>
+        <speech by="#BernardAllen" eId="spk_125">
+          <from>Mr. Allen</from>
+          <p eId="para_270">From the start of this debate I have stated I am unhappy with this legislation.  It undermines the authority of the Oireachtas.  The Minister of State claims measures are in place to protect Irish interests but as Chairman of the EU scrutiny sub-committee I must point out that the resources available to it are inadequate to deal with the volume of work generated by EU scrutiny.  Last year, some 700 documents came before the committee.  The sub-committee has only two civil servants working for it.  God forbid if anything happened to any one of them, but if one goes we would have a serious problem.  I accept it is a matter for the next Dáil, and none of us may be here.  However, I warn that the system is stretched to the limit.  Until such time as adequate resources are available to the sub-committee we are skating on thin ice in meeting our obligations.</p>
+        </speech>
+        <speech by="#JoeCostelloLAB" eId="spk_126">
+          <from>Mr. Costello</from>
+          <p eId="para_271">Deputy Allen's point is well made.  The European Union (Scrutiny) Act was passed in 2002 and it has not been reviewed since.  Increasing resources to do a thorough job in scrutinising EU legislation is warranted.  The Title of this Bill, the European Communities Bill 2006, is something of a euphemism, since it sounds like we are doing something good regarding the European Communities.  Apart from the retrospective validation of matters that, according to the Supreme Court, were improperly dealt with, this legislation concerns ministerial statutory instruments.  It is not a European Communities Bill in the real sense and the title does not reflect the substance of the Bill.  We are therefore opposed to it.</p>
+        </speech>
+        <speech by="#NoelTracey" eId="spk_127" as="#Minister_of_State_at_the_Department_of_Foreign_Affairs">
+          <from>Mr. Treacy</from>
+          <p eId="para_272">I respect the sincerity with which members have expressed themselves regarding scrutiny.  I have no difficulty stating on the Government's behalf that there would be nothing wrong with our reviewing the scrutiny system after five years to gauge its success, focus and relevance and determine what resources are necessary to ensure that it remains an effective mechanism to deal with the great volume of European legislation that comes to us.</p>
+          <p eId="para_273">However, it would be unwise to revisit the historic commitment and sincerity of our predecessors, who in their competence and wisdom decided the systems for both primary and secondary legislation, which were relevant and appropriate at the time.  It behoves us to accept that in good faith and repay the trust bestowed on us and them.  Collectively, we can move forward and ensure that in future what we pass today will have the force of law, thus taking account of our requirements under the Constitution and European legislation.  We can be confident we are creating a vehicle to scrutinise such statutory instruments one by one as they are laid before the Houses of the Oireachtas.</p>
+        </speech>
+        <summary eId="sum_41" refersTo="#carried" title="decision">Question put and declared carried.<entity name="reference" refersTo="#sum_40"/>
+                </summary>
+        <summary eId="sum_42">Bill reported with amendments.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_10">
+        <heading>Message to Dáil.</heading>
+        <speech by="#JohnDeasyFG" as="#Chairman" eId="spk_128">
+          <from>Chairman</from>
+          <p eId="para_274">In accordance with Standing Order 85, the following message will be sent to the Dáil:</p>
+          <p class="indent_1" eId="para_275">The Select Committee on European Affairs has completed its consideration of the European Communities Bill 2006 and has made amendments thereto.</p>
+        </speech>
+        <summary eId="sum_43">The select committee adjourned at 1 p.m. <i>sine die</i>.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>

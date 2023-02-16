@@ -1,0 +1,880 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD13 ./akomantoso30.xsd">
+  <debate name="Official Report">
+    <meta>
+      <identification source="#debates">
+        <FRBRWork>
+          <FRBRthis value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2015-06-17/debate/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2015-06-17/debate"/>
+          <FRBRdate date="2015-06-17" name="#generation"/>
+          <FRBRauthor as="#author" href="/ie/oireachtas/committee/dail/31/select_sub-committee_on_social_protection"/>
+          <FRBRcountry value="ie"/>
+          <FRBRname value="debate"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2015-06-17/debate/mul@/main"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2015-06-17/debate/mul@"/>
+          <FRBRdate date="2015-06-17" name="#reported"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2015-06-17/debate/mul@/main.xml"/>
+          <FRBRuri value="/akn/ie/debateRecord/select_sub-committee_on_social_protection/2015-06-17/debate/mul@.akn"/>
+          <FRBRdate date="2018-12-18" name="#publication"/>
+          <FRBRauthor as="#editor" href="#debates"/>
+        </FRBRManifestation>
+      </identification>
+      <analysis source="#source">
+        <parliamentary>
+          <voting eId="vote_1" href="#sum_58" outcome="#lost" refersTo="#sum_57">
+            <count eId="vote_1-count_1" href="#qty_1" refersTo="#ta" value="3"/>
+            <count eId="vote_1-count_2" href="#qty_2" refersTo="#nil" value="4"/>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#debates">
+        <TLCConcept eId="#lost" href="/ie/oireachtas/ontology#DeclaredLost" showAs="Declared Lost"/>
+        <TLCConcept eId="#carried" href="/ie/oireachtas/ontology#DeclaredCarried" showAs="Declared Carried"/>
+        <TLCConcept eId="#staon" href="/ie/oireachtas/ontology#StaonVote" showAs="Staon Vote"/>
+        <TLCConcept eId="#nil" href="/ie/oireachtas/ontology#NílVote" showAs="Níl Vote"/>
+        <TLCConcept eId="#ta" href="/ie/oireachtas/ontology#TáVote" showAs="Tá Vote"/>
+        <TLCPerson eId="AengusOSnodaighSF" href="/ie/oireachtas/member/id/Aengus-Ó-Snodaigh.D.2002-06-06" showAs="Aengus Ó Snodaigh"/>
+        <TLCPerson eId="BrendanRyanDublin" href="/ie/oireachtas/member/id/Brendan-Ryan.S.2007-07-23" showAs="Brendan Ryan"/>
+        <TLCPerson eId="JoanCollins" href="/ie/oireachtas/member/id/Joan-Collins.D.2011-03-09" showAs="Joan Collins"/>
+        <TLCPerson eId="JoannaTuffy" href="/ie/oireachtas/member/id/Joanna-Tuffy.S.2002-09-12" showAs="Joanna Tuffy"/>
+        <TLCPerson eId="KevinHumphreys" href="/ie/oireachtas/member/id/Kevin-Humphreys.D.2011-03-09" showAs="Kevin Humphreys"/>
+        <TLCPerson eId="MichaelConaghan" href="/ie/oireachtas/member/id/Michael-Conaghan.D.2011-03-09" showAs="Michael Conaghan"/>
+        <TLCPerson eId="WillieODea" href="/ie/oireachtas/member/id/Willie-O'Dea.D.1982-03-09" showAs="Willie O'Dea"/>
+        <TLCEvent eId="bill.2014.116.dail.3" href="/ie/oireachtas/bill/2014/116/dail/3" showAs="Gender Recognition Bill 2014: Committee Stage (Dáil)"/>
+        <TLCRole href="role/chair" showAs="Chair" eId="Chair"/>
+        <TLCRole eId="Minister_of_State_at_the_Department_of_Social_Protection" href="/ie/oireachtas/role/minister_state/social_protection" showAs="Minister of State at the Department of Social Protection"/>
+        <TLCRole href="role/vice_chairman" showAs="Vice Chairman" eId="Vice_Chairman"/>
+        <TLCRole href="role/author" showAs="author" eId="author"/>
+        <TLCRole href="role/editor" showAs="editor" eId="editor"/>
+      </references>
+    </meta>
+    <preface>
+      <block name="title_ga">
+        <docTitle>DÍOSPÓIREACHTAÍ PARLAIMINTE</docTitle>
+      </block>
+      <block name="title_en">
+        <docTitle>PARLIAMENTARY DEBATES</docTitle>
+      </block>
+      <block name="proponent_ga">
+        <docProponent>TITHE an OIREACHTAS</docProponent>
+      </block>
+      <block name="proponent_en">
+        <docProponent>HOUSES OF THE OIREACHTAS</docProponent>
+      </block>
+      <block name="committee_ga">
+        <docCommittee>TBA</docCommittee>
+      </block>
+      <block name="committee_en">
+        <docCommittee>Select Sub-Committee on Social Protection</docCommittee>
+      </block>
+      <block name="status_ga">
+        <docStatus>TUAIRISC OIFIGIÚIL</docStatus>
+      </block>
+      <block name="status_en">
+        <docStatus>(OFFICIAL REPORT)</docStatus>
+      </block>
+      <block name="date_ga">
+        <docDate date="2015-06-17">Dé Céadaoin, 17 Meitheamh 2015</docDate>
+      </block>
+      <block name="date_en">
+        <docDate date="2015-06-17">Wednesday, 17 June 2015</docDate>
+      </block>
+      <block refersTo="#unrevised" name="version_en">
+        <docStatus/>
+      </block>
+      <block refersTo="#unrevised" name="version_ga">
+        <docStatus/>
+      </block>
+    </preface>
+    <debateBody>
+      <debateSection name="prelude" eId="dbsect_1">
+        <summary class="Center" eId="sum_1">The Select Committee met at 01:00 p.m.</summary>
+        <rollCall>
+          <summary class="Center" eId="sum_2">MEMBERS  PRESENT:</summary>
+          <table>
+            <tr>
+              <td>
+                <p eId="para_1">
+                  <person refersTo="#CatherineByrne">Deputy Catherine Byrne</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_2">
+                  <person refersTo="#AengusOSnodaighSF">Deputy Aengus Ó Snodaigh</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_3">
+                  <person refersTo="#JoanCollins">Deputy Joan Collins</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_4">
+                  <person refersTo="#WillieODea">Deputy Willie O'Dea</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_5">
+                  <person refersTo="#MichaelConaghan">Deputy Michael Conaghan</person>
+                </p>
+              </td>
+              <td>
+                <p eId="para_6">
+                  <person refersTo="#BrendanRyan">Deputy Brendan Ryan</person>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p eId="para_7">
+                  <person refersTo="#KevinHumphreys">Deputy Kevin Humphreys (Minister of State at the Department of Social Protection)</person>
+                </p>
+              </td>
+              <td/>
+            </tr>
+          </table>
+          <summary eId="sum_3">
+            <person as="#Chair" refersTo="#JoannaTuffy">DEPUTY JOANNA TUFFY IN THE CHAIR.</person>
+          </summary>
+        </rollCall>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_2">
+        <heading>Business of Select Committee<recordedTime time="2015-06-17T13:00:00+01:00"/></heading>
+        <speech by="#JoannaTuffy" eId="spk_1">
+          <from> Chairman<recordedTime time="2015-06-17T13:00:00+01:00"/></from>
+          <p eId="para_8">No apologies have been received. We have to turn our mobile phones onto safe or flight mode or switch them off. The meeting will be carried live on UPC channel 207, eVision channel 504 and Sky channel 574 from 2.30 p.m. We will now go into private session to deal with any other business.</p>
+        </speech>
+        <summary eId="sum_4">
+          <i> The select sub-committee went into private session at 1.07 p.m. and resumed in public session at 1.11 p.m.</i>
+        </summary>
+      </debateSection>
+      <debateSection name="debate" refersTo="#bill.2014.116.dail.3" eId="dbsect_3">
+        <heading>Gender Recognition Bill 2014: Committee Stage<recordedTime time="2015-06-17T13:10:00+01:00"/></heading>
+        <speech by="#JoannaTuffy" eId="spk_2">
+          <from> Chairman<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_9">This meeting has been convened for the purpose of consideration of the Gender Recognition Bill 2014 which was referred to the select sub-committee by order of the Dáil on 5 March. The Bill provides for legal recognition for all purposes of the preferred gender of transgender persons. Members may recall that the joint committee subjected the general scheme of the Bill to pre-legislative scrutiny and produced a report in January 2014. That took place after substantial consultation during which we invited written submissions. We then had, as far as I recall, two sessions of oral presentations, based on which the committee produced a report. The issues raised with us by stakeholders were very much reflected in the report and our recommendations. I thank the Minister of State, Deputy Kevin Humphreys; the Minister for Social Protection, Deputy Joan Burton, and the officials of that Department for taking on board much of what was contained in the report. It was probably one of our first pre-legislative scrutiny exercises. It was very good for us to see the result of the work we had put into it being taken on board by the Minister and the Minister of State and their officials. I thank everyone who contributed to the report, including the public who made a very important contribution. I welcome the Minister of State and his officials. My intention is for the committee to complete its consideration of Committee Stage of the Bill this afternoon. Is that objective agreed to? Agreed. I refer members to the groupings of amendments which have been circulated for the purposes of the debate.</p>
+        </speech>
+        <summary eId="sum_5">SECTION 1</summary>
+        <summary eId="sum_6"> Question proposed: "That section 1 stand part of the Bill."</summary>
+        <speech by="#JoannaTuffy" eId="spk_3">
+          <from> Chairman<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_10">No amendments have been tabled to the section.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_4">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_11">On the legal position, will the Minister of State clarify what is happening in terms of the Court of Appeal? I understand there has been a change of dates. Also, if the Government amendments are accepted, how will this affect the amendments we have tabled? Will they fall by the wayside? I seek clarity on which amendments will fall.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_5">
+          <from> Chairman<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_12">When we reach amendments, I will set out the position. I will explain what will happen which is very much related to Standing Orders. The Minister of State would not necessarily have the information.</p>
+        </speech>
+        <speech by="#KevinHumphreys" as="#Minister_of_State_at_the_Department_of_Social_Protection" eId="spk_6">
+          <from>Minister of State at the Department of Social Protection (Deputy Kevin Humphreys)<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_13">I thank members of the committee for engaging in pre-legislative scrutiny and the committee for its report which has been extremely useful. This has been a learning experience for everyone within the House and there has been a willingness on the part of the Government to respond to the concerns of Deputies and Senators and take on board amendments. We now have what is recognised broadly as the most progressive legislation in Europe, if not the world. The assistance of civil groups which engaged with me personally and every Member of the House has been extremely helpful.</p>
+          <p eId="para_14"> To deal directly with Deputy Joan Collins's queries, I acknowledge the amendments tabled. Some Government amendments are very similar, while some are the same. While I acknowledge the amendments tabled by Deputies Aengus Ó Snodaigh, Willie O'Dea and Joan Collins, for technical reasons and because the legislation is quite complicated, if Deputies are agreeable, I ask that we accept the Government amendments because they have been proofed and, if not the exact same, are in the same spirit. I acknowledge that they were influenced by the amendments tabled by members. </p>
+          <p eId="para_15"> There is a set of amendments with which we will have to deal and in respect of which the term "forced divorce" is being used. The Court of Appeal is due to sit on the 29th. I will deal with that matter further when we get to the specific issue, as well as the issue of medical validation. </p>
+          <p eId="para_16"> Deputies have a copy of the Government amendments and can see the similarities. Some are virtually the same, while others are in the spirit of the amendments tabled. I hope that clarifies the matter for Deputy Joan Collins. I again thank members for the constructive way in which, cross-party, they have engaged in dealing with the matter.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_7">
+          <from>Deputy Willie O'Dea<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_17">I also seek clarification. Section 1 states the Bill will come into operation on such day or days as may be appointed by the Minister. Different sections and Parts can commence on different days. Will the Minister of State give us some indication as to when the Government's intends to bring the Bill into operation?</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_8" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_18">We hope to bring it into opeation as soon as possible.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_9">
+          <from>Deputy Willie O'Dea<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_19">Will it be commenced this year?</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_10" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_20">Absolutely. The Deputy will be aware that it is a standard provision.</p>
+        </speech>
+        <summary eId="sum_7"> Question put and agreed to.</summary>
+        <summary eId="sum_8">SECTION 2</summary>
+        <speech by="#JoannaTuffy" eId="spk_11">
+          <from> Chairman<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_21">Amendments Nos. 1, 3 to 7, inclusive, 9a, 10, 16a, 17 to 20, inclusive, 21a, 26a, 26b, 26c, 27a, 27b, 28a, 28b, 36a, 37, 48a and 41 are related and will be discussed as a group. Amendment No. 7 is a physical alternative to amendment No. 6, while amendment No. 18 is a physical alternative to amendment No. 17. Amendments Nos. 26a and 26b are consequential on amendments Nos. 26c, while amendments Nos. 27b and 28a are consequential on amendment No. 28b.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_12">
+          <from>Deputy Willie O'Dea<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_22">I move amendment No. 1:</p>
+          <p class="indent_1" eId="para_23">In page 5, to delete line 20.</p>
+          <p eId="para_24">It was agreed that when we were dealing with a part of the Bill where the Government was making a substantive amendment, the Minister of State would lead with his amendment and that we would discuss our variations. In the circumstances, does the Minister of State want to move amendment No. 9a?</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_13">
+          <from> Chairman<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_25">It cannot be moved now, but it may be discussed with amendment No. 1.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_14">
+          <from>Deputy Willie O'Dea<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_26">If the Minister of State tells us what he is proposing, we will respond to it.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_15" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:10:00+01:00"/></from>
+          <p eId="para_27">I have acknowledged the contributions made by Deputies. I also acknowledge the Tánaiste's work on the Bill.</p>
+          <p eId="para_28"> As the committee is aware, the Bill, as it stands, requires an applicant for a gender recognition certificate to provide supporting statements from an endocrinologist or a psychiatrist and have already transitioned to his or her preferred gender. The amendment will remove the requirement for a supporting statement from a medical practitioner. We have listened carefully to the views of individual citizens, representative groups and public representatives as the Bill has progressed. In moving to a self-declaration model we are ensuring the legislation is in line with international best practice and the approach advocated by the Council of Europe and others. This change will have no impact on the treatment pathway for transgender people, which remains completely separate from the civil registration process. The amendment provides for self-declaration by an individual aged 18 years or older who applies for a gender recognition certificate and removes the requirement for a supporting medical statement from a medical practitioner. The requirement is also removed from the advocacy process. I am confident that these amendments, with consequential technical amendments, will be welcomed by members as a major improvement. </p>
+          <p eId="para_29"> On the requirement for a medical statement for persons aged 16 or 17 years, section 12 deals with applications to the court for an exemption to allow such individuals to apply for a gender recognition certification. This provision has not changed. The principle of self-declaration of gender was advocated for by TENI and many others.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_16">
+          <from>Deputy Willie O'Dea<recordedTime time="2015-06-17T13:20:00+01:00"/></from>
+          <p eId="para_30">I thank the Minister of State for making this significant change. The recommendations of the original committee were softened in the first draft of the Bill, but we have come a long way in the second draft. The reason I have tabled amendments to remove medical practitioners from the picture entirely is the Government has removed the requirement for a medical certificate only in respect of a person aged 18 years or older and I am anxious to provide the same concession for somebody aged 16 or 17 years. A recent study in the United Kingdom found that in only 4% of cases did individuals realise they belonged to a different gender after they had reached 18 years. In 76% of cases individuals were aware of it before they had left primary school. The absence of an age requirement in Argentina did not lead to dire social consequences. The organisation BeLonG To which represents bisexual and transgender young people in Ireland has expressed grave concern about this provision. Its transgender youth group, Individuality, has been offering support to young people and their families since 2007, but in recent years it has experienced a significant increase in the number of young people accessing the service, many of whom are under the age of 16 years. While I recognise that the Government has come a great distance, I urge it to go the extra mile by removing the requirement for a medical certificate for people over the age of 16 years.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_17">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T13:20:00+01:00"/></from>
+          <p eId="para_31">Some of the people in the Visitors Gallery were here two years ago when we began to discuss this legislation with departmental officials and medical experts. There was a hope at that stage that we would see sense as legislators. We have progressed more quickly than I expected in adopting best practice and becoming a torch bearer for other countries. However, while the Government's amendments are progressive, a number of issues remain to be addressed in the Bill. It is appropriate that the amendments move us away from the medical model because this is not a medical phenomenon. For many years people lived with what they felt was the wrong gender assignment, but with the issue now being seen from a human rights perspective in an increasing number of countries, we are hearing more positive stories across the globe about the treatment of transgender issues. In western countries there is no longer the same stigma attached to people who announce that they are of a different gender to the one assigned to them by their parents, the medical profession or schools. In the context of the recent referendum, it is a logical step for Ireland to enter the modern world by recognising such individuals. I agree with Deputy Willie O'Dea that if it is good enough for adults aged 18 years, it should be good enough for those aged 16. Society determines that 16 year olds are adults in certain ways, even though the courts treat the age of adulthood as being 18 years. A 16 year old should be allowed to make the same decisions an 18 year old can make under the Bill. While it is difficult to keep track of the amendments because they are spread across three lists, for the most part I am happy with the Government's amendments.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_18">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T13:20:00+01:00"/></from>
+          <p eId="para_32">I welcome the progress we have made on the Bill. The civil organisations involved in this area are delighted that we might be introducing one of the most progressive laws in this area internationally. However, it is wrong that the Bill does not give 16 and 17 year olds the same recognition as 18 year olds. We have an opportunity to reconsider whether we should close this gap. It is ironic that 16 and 17 year olds are not able to make these decisions, given that the Minister for Children and Youth Affairs has just launched a strategy to give children and young people a voice in decisions that affect their lives. That is a welcome strategy, but why are we not listening to children in this debate? The Minister of State, Deputy Kevin Humphreys, has been in contact with stakeholder organisations, but he has not been in direct contact with those aged under 18 years.</p>
+          <p eId="para_33">The 16 to 18 year olds should be the same as 18 year olds regarding self-declaration. Further down the line, I will urge the Government to consider interim gender recognition for those aged under 16. If we brought them in, we would have possibly the best legislation in the world, to which other countries would aspire.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_19" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_34">I have concerns about being so open regarding the Bill. We have undergone a process right from the very start, from Report Stage in the Seanad to moving from 18 down to 16 with safeguards on the recommendation of the Attorney General. We are really now talking about amendment No. 11 to section 9. We are jumping around the place.</p>
+          <p eId="para_35"> I have met and listened to parents. We have met representatives of BeLonG To and TENI. We have met a whole range of groups, children and parents. At some stage we need to get the Bill passed. We certainly have not carried out an in-depth study on how we might amend legislation regarding children or those aged under 18. I believe the Seanad had some discussion on it on Report Stage but there was not an in-depth study or consideration. It would not be appropriate to go below 18 without that level of consultation. There has been very in-depth consultation regarding those aged over 18.</p>
+          <p eId="para_36"> There is a built-in review after two years. Denmark introduced a model of self-declaration with a minimum age of 18. I do not think that justifies us keeping 18 there either. I am simply saying there is not a clear trend internationally. The Minister for Children and Youth Affairs, Deputy Reilly, has a key role in the children aspect of this matter. There may be a pathway for the committee to open up hearings for those aged under 18.</p>
+          <p eId="para_37"> I will not introduce legislation based on newspaper articles without that kind of in-depth study and without this committee examining recommendations on those aged under 18 in detail. I am very positively disposed to working with the committee in the short term in looking at a range of issues. Probably the person best positioned to have that discussion is the Minister for Children and Youth Affairs. I think he is quite open to having that.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_20">
+          <from> Chairman<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_38">That is probably a matter for the Joint Committee on Health and Children.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_21" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_39">I know. However, I would be quite happy to take that legislation if the Minister for Children and Youth Affairs wanted to give recommendations. I believe he is quite willing and open. Based on a note I saw today regarding <i>The Irish Times</i>, he is quite open to looking at that. Certainly, I would be quite supportive. We are coming very close to the summer recess and I am anxious to complete this Bill, which is one of the most progressive to come through the House. It has been done in an extremely constructive manner. We have listened to Members of the Seanad and Dáil, and the Bill has been amended as it progressed.</p>
+          <p eId="para_40"> I accept we will need to look at the issue of those aged under 18. The Minister for Children and Youth Affairs needs to engage and we need to have wider consultation and get evidence in committee to formulate that kind of legislation which we have not yet done. I would be open to and supportive of developing that sooner rather than later.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_22">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_41">We will now have very progressive legislation for those aged over 18. Transgender children aged 11, 12 or 13 in primary or secondary school will still be trying to deal with the gender difficulty they have if they are not recognised within the school education system, etc. The groups met the Minister for Education and Skills and there was an openness to discuss the matter with a view to putting protocols in place. What is the Minister of State saying here? Is he giving a commitment that the roundtable discussion, which were supposed to have taken place, will take place? When will those discussions involving civil society groups take place? I find it very difficult to agree with legislation that leaves an entire group of young people out in the cold.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_23" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_42">I know the Minister for Education and Skills, Deputy Jan O'Sullivan, is very committed to anti-bullying measures. Even when legislation is introduced, a change of culture is required in the education system. That is best led by the Minister for Education and Skills. That initial meeting took place. The changes in many educational issues relating to gender, etc., over the past four years have been very progressive. That has been recognised by TENI and BeLonG To, and I see further gains in that.</p>
+          <p eId="para_43"> I am saying to the Deputy, however, that lowering the age will need to be led by the Minister for Children and Youth Affairs. I would certainly be supportive of that. As has been acknowledged by the three speakers already, this Bill is widely recognised as one of the most progressive pieces of legislation. I am anxious to get it on to the Statute Book. We already have a built-in review. In many ways we are way ahead of ourselves in discussing amendment No. 11 to section 9. I do not know if we will discuss that amendment again later.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_24">
+          <from> Chairman<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_44">We will do so if people want to raise it at the time.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_25">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_45">Given that 30 amendments are grouped, we are going by the grouping rather than by the individual amendments. These amendments cover sections up to section 12 and perhaps beyond. We do not get the groupings long enough in advance.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_26" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_46">I did not mean that as a criticism. It is so technical now-----</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_27">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_47">We will come back to the one the Minister of State is talking about; it is not in this group.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_28" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_48">What we have been discussing for the past five minutes is amendment No. 11 to section 9, which reduces the age. I think we have broad agreement on the amendments in this grouping.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_29">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_49">We have broad agreement and it addresses key concerns allowing for deletions and additions in line with what we have discussed here in the past. I am happy enough that we deal with that. However, given the complexity, we may end up going back and forth.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_30" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_50">I am quite happy to jump whatever way committee members want to go.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_31">
+          <from> Chairman<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_51">That will be my decision.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_32" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_52">I am sorry, Chairman.</p>
+        </speech>
+        <summary eId="sum_9"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_33">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T13:30:00+01:00"/></from>
+          <p eId="para_53">I move amendment No. 2:</p>
+          <p class="indent_2" eId="para_54">In page 5, line 25, to delete “Circuit” and substitute “District”.</p>
+          <p eId="para_55">This relates to some of the points we already made. It proposes to change the court that one would approach from the Circuit Court to the District Court. I wanted to ensure I had captured all the courts. Even though it is on page 5, it comes back to the issue of amendment No. 11 so that if a person is applying to the court for a court exemption, it would be to the District Court.</p>
+        </speech>
+        <summary eId="sum_10">It is a lower threshold, as well as involving a lower expense. The situation in the courts system is absolutely chaotic, with a backlog in every court. From a practical point of view, the District Court is accessible to the normal citizen, but the Minister of State is now making it difficult by forcing people to go to the Circuit Court. I may be wrong, but one requires a barrister in the Circuit Court which does not sit as often. Also, Circuit Court venues are not as widespread as those of the District Court. The amendment seeks to make it easier for those who will get caught up in this legislation to have the quickest possible turnaround, rather than waiting months or years for a Circuit Court decision on their applications.</summary>
+        <speech by="#KevinHumphreys" eId="spk_34" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:40:00+01:00"/></from>
+          <p eId="para_56">Throughout the preparation of the legislation, where a court process has been deemed necessary, it has always been considered appropriate for the court to be involved to be the Circuit Court sitting as the Family Court. That is the advice of the Department of Justice and Equality.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_35">
+          <from>Deputy Willie O'Dea<recordedTime time="2015-06-17T13:40:00+01:00"/></from>
+          <p eId="para_57">I strongly support the amendment. The Government will not reduce the age from 18 years to 16, as we have suggested. Will the Minister of State recognise the obstacles that lie in the path of a 16 year old in such cases?</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_36">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T13:40:00+01:00"/></from>
+          <p eId="para_58">They will be 18 years of age by the time they have it dealt with in the Circuit Court.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_37">
+          <from>Deputy Willie O'Dea<recordedTime time="2015-06-17T13:40:00+01:00"/></from>
+          <p eId="para_59">Absolutely. He or she must produce proof of identity, proof of birth, a statutory declaration, a certificate from a medical practitioner, as well as an endocrinologist, parental consent and an order of the Circuit Court. A case in the Circuit Court is infinitely more expensive, as Deputy Aengus Ó Snodaigh said, than in the District Court. It is also a great deal slower. My experience is that backlogs have lengthened in recent times in the Circuit Court.</p>
+          <p eId="para_60"> The Minister of State has stated the advice of the Department is that it is more appropriate to have the matter dealt with in the Circuit Court sitting as the Family Court. The District Court also decides on many important family law matters. It can put somebody out of his or her house, decide on a person’s access to his or her children, etc. It already has substantive jurisdiction in family law cases. The amendment would not be a significant change but a welcome one. It would make what is a good Bill even better. The Minister of State should re-examine it again and accept it, if not today, then on Report Stage.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_38">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T13:40:00+01:00"/></from>
+          <p eId="para_61">Young people are dealt with in the Children Court which is the equivalent of the District Court. If one was to tell a young person with gender identity issues at the age of 16 years that he or she could not apply for a gender recognition certificate unless they stumped up €10,000 to approach the Circuit Court, he or she would not do so. I would be happy if the Minister of State assured me there would be no delays in dealing with this matter in the Circuit Court. However, my experience is that the higher the court, the higher the cost and the greater the delay. Once one involves courts, people tend to shy away as it is complicated and they have to depend on legal advice which is costly.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_39" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:40:00+01:00"/></from>
+          <p eId="para_62">Section 12 provides for no court fees to be charged in this case. The Attorney General has also given advice on the appropriateness of the court involved. How this is working will be examed in the two-year review.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_40">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T13:40:00+01:00"/></from>
+          <p eId="para_63">While there are no court fees, there are solicitor and barrister fees. I will discuss this issue with the legal practitioners and others involved. We want to ensure the process of gender recognition is not complicated without the onerous task of going to court, especially for those who are 16 years of age and going through the junior certificate programme and facing every other complication in their lives. I am happy to withdraw the amendment and come back to it on Report Stage.</p>
+        </speech>
+        <summary eId="sum_11"> Amendment, by leave, withdrawn.</summary>
+        <summary eId="sum_12"> Amendments No. 3 to 6, inclusive, not moved.</summary>
+        <speech by="#JoanCollins" eId="spk_41">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T13:40:00+01:00"/></from>
+          <p eId="para_64">I move amendment No. 7:</p>
+          <p class="indent_1" eId="para_65">In page 6, line 14, after “treating” where it secondly occurs to insert “general medical practitioner or”.</p>
+        </speech>
+        <summary eId="sum_13"> Amendment put and declared lost.</summary>
+        <summary eId="sum_14"> Section 2 agreed to.</summary>
+        <summary eId="sum_15"> Sections 3 to 5, inclusive, agreed to.</summary>
+        <summary eId="sum_16">SECTION 6</summary>
+        <speech by="#JoannaTuffy" eId="spk_42">
+          <from> Chairman<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_66">Amendments Nos. 8 and 45 to 48, inclusive, are related and may be discussed together.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_43">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_67">I move amendment No. 8:</p>
+          <p class="indent_1" eId="para_68">In page 7, between lines 19 and 20, to insert the following:</p>
+          <p class="indent_2" eId="para_69">"(3) A report prepared in accordance with <i>subsection (2)</i> shall not identify a person who has made an application under<i> Part 2</i> or otherwise provide information that would allow such a person to be identified.".</p>
+          <p eId="para_70">I feel very strongly that the amendment is important.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_44">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_71">Amendment No. 48 is quite substantial. The information obtained is quite sensitive and we have discussed the need for confidentiality. Recently, we saw a case of cyberbullying involving a group of people threatening a young fellow with disclosure. We have also heard of other cases and we probably know people who ended up very stressed or who took their own lives because their personal details or lifestyle were exposed through social media or newspapers. It is additional stress for them. I am trying to make the disclosure of information obtained about a person who has managed to obtain recognition of his or her gender an offence. It is quite an intrusive process at the end of the day and someone should not end up being abused because of the information. This information is very technical and this is the way it should be. It is between the person and the registration body and that is where it should stay. Nobody is entitled to get my birth certificate as far as I know. I must apply for it myself. Nobody should be entitled to disclose information.</p>
+          <p eId="para_72"> Other legislation probably covers this, but it is appropriate to outline somewhere in the Bill that this is an offence. The gender indicator on a form or passport is the business of the person involved, and nobody else is entitled to go into the background and disclose what one has put in any previous documentation and use it for a wrong purpose. The Official Secrets Act covers many of the people I have mentioned, but I am not sure whether that Act fully covers everything in the Bill. If it does, then perhaps rather than this amendment, all that is needed is a reference somewhere stating the Bill is compliant with the Official Secrets Act or that it falls under its guidelines. If the amendment goes too far, perhaps the Minister can look at something else on Report Stage. In this day and age, when information can be obtained with the press of a button, we have seen too often how quickly material goes around and how people have lost information. Some people are mischievous with the information they come across and the intention of the amendment is to prevent this.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_45" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_73">I thank the Deputy. As a private citizen I can get the Deputy's birth certificate. Most people can get another person's birth certificate.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_46">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_74">That is great.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_47" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_75">This is an extremely wide-ranging provision which would give rise to significant and unforeseen implications. It would have knock-on effects on various pieces of legislation which would have to be reviewed if we go down this road. The Official Secrets Act covers this, as does the Data Protection Act. The general registrar has been dealing with matters such as adoption records in a confidential way for a number of years. I do not see a need for the amendment. The knock-on effect of taking such a wide-ranging provision would be to have much more consideration and detailed consultation. I do not see the necessity for it. The Bill does not have to state specifically that it is covered by the Official Secrets Act because it is covered by it, and it is also covered by the Data Protection Act. There are already safeguards in this regard. If there were not, the Department would be quite cautious. We believe the Bill is robust enough to cover the eventualities outlined by the Deputy.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_48">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_76">I will withdraw the amendment and see whether this is good enough on Report Stage.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_49" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_77">Deputy Collins has the same concerns and I hope this reassures her also. We treat confidential data about sensitive issues such as these most seriously. The Bill is robust enough. I can see why the Deputies would table amendments to ensure these concerns are taken on board at every stage and to highlight them.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_50">
+          <from> Chairman<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_78">Will the Minister of State clarify what information is available to the public if someone has submitted a gender recognition certificate? What is publicly available to somebody looking for information?</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_51" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_79">It is quite limited. It would be just the number of people who have applied.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_52">
+          <from> Chairman<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_80">Not the individual names?</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_53" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_81">No, this is one of the elements of confidentiality.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_54">
+          <from> Chairman<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_82">A person's birth certificate is available. I was a solicitor and I know these documents can be obtained by law researchers but I was not sure of the details.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_55" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T13:50:00+01:00"/></from>
+          <p eId="para_83">The information will not identify the person. A birth certificate drawn from the registrar of gender recognition will not indicate it was drawn from the register and to all intents and purposes it will look identical to a birth certificate drawn from the registrar of births. We have a draft and we will be quite happy to show it to committee members if they are concerned. Only the person himself or herself, or his or her surviving next of kin, may apply for a birth certificate from the register of gender recognition. We are very cautious with regard to confidentiality. We looked at this quite closely at every stage to ensure we have protected the confidentiality of the individuals.</p>
+        </speech>
+        <summary eId="sum_17"> Amendment, by leave, withdrawn.</summary>
+        <summary eId="sum_18"> Section 6 agreed to.</summary>
+        <summary eId="sum_19">NEW SECTION</summary>
+        <speech by="#JoannaTuffy" eId="spk_56">
+          <from> Chairman<recordedTime time="2015-06-17T14:00:00+01:00"/></from>
+          <p eId="para_84">Acceptance of amendment No. 9, in the name of Deputy Ó Snodaigh, would involve the deletion of section 7.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_57">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:00:00+01:00"/></from>
+          <p eId="para_85">I move amendment No. 9:</p>
+          <p class="indent_1" eId="para_86">In page 7, between lines 19 and 20, to insert the following:</p>
+          <p class="indent_2" eId="para_87">
+            <b>“Review of Operation of Act</b>
+          </p>
+          <p class="indent_2" eId="para_88"><b>7. </b>The Minister shall, not later than 2 years after the date on which this Act is enacted, and again not later than 5 years after that date, carry out a review of the operation of this Act assessing, in particular, its consistency with international best practice in the field of gender recognition and its compliance with national, regional and international equality and human rights standards, and shall make a report to each House of the Oireachtas of his or her findings and conclusions resulting from the review.”.</p>
+          <p eId="para_89">There is a difference in emphasis between my proposal and that which the Minister of State has set down. The legislation refers to the commencement of a review of the operation of the Act not later than two years after its coming into operation and to the issuing of a report. A period of two years is fine in some ways but most peculiarities, problems or issues in respect of registration often arise a number of months later. My hope is that the Minster would allow a little more than two years in which to carry out a proper review of the legislation.</p>
+          <p eId="para_90"> The Minister of State mentioned that he hoped to have all this up and running by the summer, the end of the summer or, perhaps, the end of the year. Sometimes that does not happen. It can sometimes be months or years after enactment. We should give ourselves a little breathing space to ensure the review will be carried out in the fullest sense and that it will not be a short one just to tick a box with the sole purpose of being able to say a review was carried out after two years and that certain issues arose. I would be happy if the Minister made a commitment to ensuring the measures we have identified in respect of international best practice, towards which we are moving in part, are in compliance with the human rights standards abroad. In some ways, they are. Is the Minister happy that the two-year period is not too onerous to capture what I propose?</p>
+          <p eId="para_91"> We have talked about an annual report. That report should capture the issues and not just be a one-off review after two years. It should not be a matter of simply identifying three issues and saying everything is hunky-dory. The report should be able to identify all the relevant issues. I have seen reports concerning other legislation that were very black and white. For example, they might state a certain section was applied ten times and another five times. However, such reports do not necessarily identify the problems, difficulties or areas of concern. My references to two years and five years are to address this. If the Minister of State is happy with the period of two years, I still want the annual report to highlight concerns. This legislation has not gone far enough because we will come across practical issues and problems. When they arise, the Department and Deputies at the time will need to be in a position to address them quite quickly.</p>
+        </speech>
+        <speech by="#BrendanRyanDublin" eId="spk_58">
+          <from>Deputy Brendan Ryan<recordedTime time="2015-06-17T14:00:00+01:00"/></from>
+          <p eId="para_92">The section concerning the review of the operation of the legislation is very important. In the Minister of State's response to issues raised by Deputies, he has referred to this matter and suggested we can address it in two years as part of the review. Consider the wording of the section. It is stated the review will be carried out by the Minister and the conclusions drawn from the findings are to be presented. Is it possible to amend the legislation on Report Stage using wording that would allow this committee to be involved in the review process? This would be very important from the perspective of members in this room. It would be a minor amendment and it would be very useful.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_59" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:00:00+01:00"/></from>
+          <p eId="para_93">I will address Deputy Ryan's question first. There is actually no need to specify that because the committee can actually become involved itself and take evidence at hearings on the legislation within the two years.</p>
+          <p eId="para_94"> With regard to Deputy Ó Snodaigh's question, everybody concerned recognises that gender recognition involves an evolving set of circumstances. We have become better at understanding the issues that arise. I have gone on record very strongly in the Seanad, and am happy to go on record again here, in saying the review will not be a box-ticking exercise. The very fact that circumstances and our understanding are changing so quickly means it is important that the review be taken seriously. It is a question of determining how the legislation is operating and whether further change is to be made.</p>
+          <p eId="para_95"> Some areas concerning children will be examined much earlier than at the end of the two-year period. The Minister for Children and Youth Affairs will become involved in this. The Minister for Education and Skills, Deputy Jan O'Sullivan, has already had meetings with us. This is an evolving area. A lot will happen over the two years. It is important that we lay down a marker indicating that there should be a review. It is important that I have laid down a marker at this committee. I have said in the Dáil and Seanad that we want the review of how the legislation is operating to be comprehensive. I am certain that future members of this committee will take evidence and issue a report on the review. Members of this House who have been involved with the legislation have very much taken this issue to heart and nobody will be setting it aside. What Deputy Ó Snodaigh proposes does not have to be specified in the Bill but I believe the committee will have a role in the review. I would certainly welcome the help and assistance of the committee if I happen to be back in this position.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_60">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:00:00+01:00"/></from>
+          <p eId="para_96">I understand where the Minister of State is coming from and I am not a million miles away from his position. We have had discussions on the need for reviews. The charities legislation was passed circa 2005. My problem is that parts of it were commenced only last year. This meant it was very difficult to review legislation that was not in operation. I acknowledge that the Minister of State is committed to ensuring that this Bill, when passed, will become operational. This is all I am trying to capture. I hope that, in the two-year period, as many of the legislation's problems as possible will have been identified. Thus, after the first review, we will be able to produce amending legislation to address the problems. I realise how slowly the courts and other institutions work and therefore believe that, at the end of the two-year period, we will not have fully identified all the relevant issues. However, the Minister's existing wording does not prevent us from having our own review. I have outlined what my amendment is intended to capture.</p>
+          <p eId="para_97"> I will examine this again. Deputy Ryan proposed that the committee be central to the process. Perhaps it should be. Deputy Humphreys is the Minister of State at present but one could end up with the Minister who wants everything for himself in respect of the review. If it is specified in law that the committee will carry out the review on behalf of the Minister and that the Minister should report back to the committee, it might be useful. I will consider this for Report Stage. I am often concerned that the Houses are sometimes not included and that committees are not recognised. The committee works. We have proved ourselves at this committee. Everybody here and all those who have made a presentation to us have proven that the committee system works for legislation. It could serve Ministers better if they used it for reviews. Committees could hold hearings and give Ministers more time to do other work.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_61" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:10:00+01:00"/></from>
+          <p eId="para_98">I ask Deputy Ó Snodaigh to reconsider because I do not think it needs to be put into the Bill. To give the Deputy a stick with which to beat me, I can tell him I hope to be able to do this within a matter of weeks, rather than months. My officials and I have been very committed to this legislation and it has become a mission to make sure it is passed before the summer and then enacted.</p>
+        </speech>
+        <summary eId="sum_20"> Amendment, by leave, withdrawn.</summary>
+        <summary eId="sum_21"> Section 7 agreed to.</summary>
+        <summary eId="sum_22">SECTION 8</summary>
+        <speech by="#KevinHumphreys" eId="spk_62" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:10:00+01:00"/></from>
+          <p eId="para_99">I move amendment No. 9<i>a</i>:</p>
+          <p class="indent_1" eId="para_100">In page 8, to delete lines 3 to 8 and substitute the following:</p>
+          <p class="indent_2" eId="para_101">"(4) In considering an application under this section the Minister shall consider the information furnished by the applicant and may request further information from the applicant regarding any information or evidence furnished by the applicant or on his or her behalf.".</p>
+        </speech>
+        <summary eId="sum_23"> Amendment agreed to.</summary>
+        <speech by="#JoanCollins" eId="spk_63">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T14:10:00+01:00"/></from>
+          <p eId="para_102">I move amendment No. 10:</p>
+          <p class="indent_1" eId="para_103">In page 8, between lines 23 and 24, to insert the following:</p>
+          <p class="indent_2" eId="para_104">"(8) Notwithstanding the provisions of this Act, and in particular notwithstanding <i>section 9(1)(g)</i>, <i>section 11(4)(b)</i>, <i>section 11(4)(c) </i>and <i>section 14(8)(d)(iii)</i>, a person who makes an application under <i>section 8</i>, <i>section 10</i>, <i>section 11 </i>or <i>section 14 </i>shall not be required to provide any evidence or proof of a surgical procedure for total or partial genital reassignment, hormonal therapies or any other psychiatric, psychological or medical treatment as a precondition to obtaining the certificate referred to in <i>section (1)(g)</i>, <i>section 11(4)(b)</i>, <i>section 11(4)(c) </i>or <i>section 14(8)(d)(iii)</i>, or as a precondition to obtaining a gender recognition certificate.".</p>
+          <p eId="para_105">I think this is necessary. Perhaps the Minister will come back to me at a later stage to talk about the question of proof or evidence for those aged between 16 and 18.</p>
+        </speech>
+        <summary eId="sum_24"> Amendment, by leave, withdrawn.</summary>
+        <summary eId="sum_25"> Section 8, as amended, agreed to.</summary>
+        <summary eId="sum_26">SECTION 9</summary>
+        <speech by="#JoannaTuffy" eId="spk_64">
+          <from> Chairman<recordedTime time="2015-06-17T14:10:00+01:00"/></from>
+          <p eId="para_106">Amendments Nos. 11 and 22 to 32, inclusive, are related and will be discussed together. Amendments Nos. 23 and 24 are physical alternatives to amendment No. 22, which means that if amendment No. 22 passes they fall. Amendments Nos. 26 to 30, inclusive, are physical alternatives to amendment No. 25, and amendments Nos. 27 to 29, inclusive, are physical alternatives to amendment No. 26.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_65">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:10:00+01:00"/></from>
+          <p eId="para_107">I move amendment No. 11:</p>
+          <p class="indent_1" eId="para_108">In page 9, line 18, to delete "18 years" and substitute "16 years".</p>
+          <p eId="para_109">This relates to what we were discussing earlier in respect of the change by the Minister which some of us supported. So far we have not been able to persuade him to change the age from 18 to 16. As a result, the people in question would not need parental consent and it would not be as onerous. It would be a recognition of the change in society and, in some ways, its maturity. Even the Minister is looking at reducing the age to vote, but can we ask people to vote at age 16 or 17 if we do not recognise who they are? That is a very big statement to make and something about which we have had a big debate over the past two years. </p>
+          <p eId="para_110"> There was a bit of lobbying, not just from those with a vested interest but from young people's organisations, who told me that 18 was too high a threshold for quite a number of rights to kick in. They asked that we advocate that it be reduced to 16, given the maturity that many young people have expressed. Many people who are over 18 are immature, but the key part is that, at the age of 16, the vast majority of people who might benefit from this have already gone through life being recognised in a gender that is not their own. As things stand we are compounding that for an additional two years. Many of them will have struggled against what their bodies are telling them and it is only in their teenage years that they start to understand fully and become able to express to the adults around them that they are not of the gender that was prescribed to them. At the age of 16, most will have become aware, and if we allow them to do many other things at the age of 18 and grant them a whole range of rights and entitlements at 16, another one should be to decide on these issues. It is an onerous decision for a person to make - that this is not who they are but that they are of a different gender. They do not wish to hide it any longer and they want formal recognition by society that the gender on their birth certificate is wrong. </p>
+          <p eId="para_111"> I know Deputies have strongly held opinions. I have received lobbying on this legislation from both sides, in Irish and English, and there are very strong views, but the vast majority of people who have contacted me have gone through the trauma of living their teenage years in a gender that is not their own. It behoves us to look again at this, either now or, if the Minister is not prepared to move, in the next short period of time to change this provision to give proper recognition to the 16 and 17 year olds who are in this position.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_66">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T14:10:00+01:00"/></from>
+          <p eId="para_112">Deputy Ó Snodaigh has covered most of the area. These amendments propose deleting "18" and substituting "16" in the areas dealing with gender recognition certificates, the appeals process, etc. I appeal to the Minister to come back with something on this before Report Stage in a couple of weeks. I know he is to meet different groups over that period and listen to what they have to say. The amendments also relate to parental consent and self-declaration for 16 to 18 year olds, because by the time somebody goes through the court process for a report they will be 18 anyway, even if they start the process at 16. We would be better off dealing with the issue now. I appeal to the Minister to reconsider over the next couple of weeks between now and Report Stage.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_67">
+          <from>Deputy Willie O'Dea<recordedTime time="2015-06-17T14:10:00+01:00"/></from>
+          <p eId="para_113">I referred to a British study which indicated that 96% of people who want to change gender decide that they must do so before they have reached the age of 18. It is generally recognised that if somebody discovers they are living in the wrong gender they suffer a lot until such time as they can go through the process of getting formal recognition. We have been given examples of this. I ask the Minister to bear this in mind in his discussions with the various groups over the next couple of weeks. It would not damage the Bill to bring the age down to 16. Looking at the requirements that a person aged over 16 and under 18 has to fulfil, one can see that many people between 16 and 18 will not, from a practical point of view, be able to undertake this.</p>
+          <p eId="para_114">In practical terms, the procedure will not be open to many people between 16 and 18. They will not be able to undertake it from a practical point of view. In reality, therefore, it will only be open to people from 18 years onwards. What will be the net result of bringing it down to 16? We have the same requirements for people over 16 as currently apply to those over 18. It will relieve the suffering, angst and anxiety that a lot of those unfortunate young people have to go through between the ages of 16 and 18 when at last they can get formal recognition. Frankly, I think that would make it a better Bill.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_68">
+          <from> Chairman<recordedTime time="2015-06-17T14:20:00+01:00"/></from>
+          <p eId="para_115">The committee had some difference of opinion when it was examining this issue. When the Minister of State was doing up a separate section on the provisions for those aged 16 to 18, was the issue of children's rights in the Constitution a factor? Was that taken into account in terms of the interests of the child?</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_69" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:20:00+01:00"/></from>
+          <p eId="para_116">It was. Advice was also taken from the Attorney General at various stages. As regards Deputy O'Dea's comments, I have already said that there is a lack of research and information on the issue. It would take a lot of consideration concerning the age issue. In many ways, there is disagreement over the age cut-off and whether it should be 16 or 14. A serious body of work needs to be done on that. Deputy O'Dea has had the experience of being in government, so he knows it would take a considerable amount of time to re-examine this matter. It would probably knock it back to the autumn if we were to examine the age issue as the Deputy has sought. I will have ongoing discussions and considerations concerning the different groups. However, in order to amend the legislation before us today, which will hopefully be before the House by the summer, we would have to take it away. There would have to be a serious amount of consultation and possibly even another committee meeting here, as Deputy Ryan has outlined, for further evidence.</p>
+          <p eId="para_117"> During the pre-legislative scrutiny, the age issue was by no means clear given the various pieces of evidence. There were opposing views. Deputy Ó Snodaigh is quite right. I have started to receive lobbying on the Bill saying that we are going too far. Having looked at it, I think the lobbyists are wrong. I see that Deputies are also raising these issues, so I presume that on Report Stage we will debate, argue and discuss how far the Government has gone in changing the Bill. </p>
+          <p eId="para_118"> Advice was taken from the Attorney General. There is a huge gap concerning data on different ages. We have taken the pre-legislative scrutiny into consideration and that is why the Tánaiste reduced it to 16, with the safeguards as outlined in the Bill, and with the support of the Cabinet, including the Attorney General. It would be quite a lengthy procedure if we were to do it now before Report Stage. I feel there would be an onus on me to consult broadly on the matter. It would delay the legislation if we were to re-examine this part of the Bill at length.</p>
+          <p eId="para_119"> The Minister for Children and Youth Affairs will examine the whole area concerning children and under-18s. I will certainly look closely at whatever recommendations come from the Minister on this. I have always said that I will be proactive in that area.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_70">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:20:00+01:00"/></from>
+          <p eId="para_120">I welcome the Minister of State's commitment to being proactive. We have a number of months left in this Dáil term, but that is not to say that the next Minister will not be as proactive as the current one. It is our duty to ensure that whatever legislation comes before us to be passed is as robust as possible. We had a discussion concerning 16 and 18 year olds two years ago. In 2014, the Equality Authority said that we needed to revisit that area. The authority was glad that we had moved from one of the earlier positions to where we are now. The fact that the Bill is here now is progress.</p>
+          <p eId="para_121"> I still think we should examine this further, however. At the end of the day, it is not just about this Bill; it is about rights for young people. In this case, we have not granted them the full right to be of their preferred gender under the laws of the State. It must be onerous for somebody to be denied that gender by the State. We need more discussion on how to fully address those who are under 16. I do not have a problem with the cut-off of 16 because it is quite onerous asking them to get parental consent and jump through the hoops we have put in this Bill.</p>
+          <p eId="para_122"> At this stage, society needs to increase the responsibilities on young people and make them suffer the consequences if they break those responsibilities. At the same time, we must recognise that they are not necessarily as mature as we would like. However, there are 25-year-olds and older people who are not as mature as we would like either. Therefore, we should not always put an old head on every 16 year old. The same might apply in this case.</p>
+          <p eId="para_123"> Society is moving towards increasingly recognising the rights and responsibilities of young people. In many ways we are out of sync regarding the rights and responsibilities we give to 16-year-olds compared to other countries. Maybe that is something we can do between now and the two-year review the Minister of State mentioned, whereby we will address this matter once again, if there is no movement between now and Report Stage.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_71" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:20:00+01:00"/></from>
+          <p eId="para_124">We all have grave concerns about how transgender children are treated through education. It is not just about the certificate; it is also about how they are treated in the educational system and by society in general. The marriage equality referendum has created a major shift in how minorities in this State are treated. I welcome this very much, having been a campaigner over many decades for various rights.</p>
+          <p eId="para_125"> In making changes to this Bill at a later stage, if necessary, we will have a responsibility to do so based on evidence-based research. We must ensure that all children are protected, which is the common purpose for everyone at this committee. </p>
+          <p eId="para_126"> I have nothing further to add. All of us around the table are pretty much singing off the same hymn sheet on this. We all want to ensure that young people are protected. The Minister will examine this matter shortly.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_72">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:20:00+01:00"/></from>
+          <p eId="para_127">Okay.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_73">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T14:20:00+01:00"/></from>
+          <p eId="para_128">I am still not convinced that we have moved quickly enough on this. Is the Minister of State saying it is a no-no and that he will not go any further on the question of the cut-off age of 16 to 18? Where have we seen evidence that he is moving quickly to establish protocols in the education sphere, including bathroom facilities and all those things? What is happening with that process?</p>
+          <p eId="para_129">There is a feeling this has not been pushed in tandem with the Bill. If there was legislation covering 16 to 18 year olds and an interim measure, the Departments would have to respond to that change. However, if we are not going to deal with it, they will not have to. Will the Minister of State at least give us a timeline?</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_74" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:30:00+01:00"/></from>
+          <p eId="para_130">I cannot give a timeline. I have endeavoured to be as honest and frank as I can through this process. The Minister for Education and Skills has held the first consultative meeting. There is a record of what has happened in the Department of Education and Skills on these issues such as the movement towards anti-bullying and other policies for schools. It is not within my control, however, and it would be misleading of me to give a positive timeline.</p>
+        </speech>
+        <summary eId="sum_27"> Amendment, by leave, withdrawn.</summary>
+        <speech by="#JoannaTuffy" eId="spk_75">
+          <from> Chairman<recordedTime time="2015-06-17T14:30:00+01:00"/></from>
+          <p eId="para_131">Amendments Nos. 12 to 16, inclusive, 21, 38 to 40, inclusive, and 43 are related and will be discussed together.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_76">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:30:00+01:00"/></from>
+          <p eId="para_132">I move amendment No. 12:</p>
+          <p class="indent_1" eId="para_133">In page 9, to delete line 20.</p>
+          <p eId="para_134">This amendment proposes to remove section 9(2)(b) as one of the criteria for obtaining a gender recognition certificate. The Minister of State was meant to have amendments to deal with this provision regarding being married or a civil partner.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_77" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:30:00+01:00"/></from>
+          <p eId="para_135">I was.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_78">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:30:00+01:00"/></from>
+          <p eId="para_136">We do not have them on this Stage, but we live in hope. We should proceed with this amendment as the referendum on marriage equality has been passed. There is a danger in the Minister of State’s approach in that those appealing the decision in the referendum in the courts will find another mechanism to delay the introduction of marriage equality and, accordingly, the removal of this clause. While they are entitled to do so and that is the luxury of the system we have in place, the problem is that, as legislators, we must heed what happens in the courts if a constitutional case is taken. Also, one cannot make a law that could be struck down as being unconstitutional.</p>
+          <p eId="para_137"> While I am practical and would withdraw the amendment and resubmit it on Report Stage, I would not be happy with the Bill being passed without a guarantee that these odious criteria, some of which could involve people perjuring themselves by going through a sham divorce process in the courts, would be removed once the court case on the referendum had been settled. The marriage equality referendum was the get-out and the reason most of us accepted the legislation was not ready in March. The referendum which was overwhelmingly passed by the people is a side issue. It should not delay the removal of these criteria.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_79">
+          <from>Deputy Willie O'Dea<recordedTime time="2015-06-17T14:30:00+01:00"/></from>
+          <p eId="para_138">It is perverse that we will have gender recognition legislation which will require a person who is happily married to divorce his or her partner or terminate a civil partnership simply because of the fact he or she is changing gender. I recognise the Minister of State’s legal difficulties and that court proceedings are in train. However, I do not believe we should close down for the summer recess and have this Bill on the Statute Book as drafted. If that was to be the case, we would need the strongest possible guarantee that these criteria would be removed at the earliest possible moment. On Second Stage I argued that it would be possible to go ahead with this measure, even in the absence of the marriage equality referendum decision. However, the Government was like certain national media outlets which recently took an unduly cautious approach to the law. It is an anomaly and a blight on the legislation. Will the Minister of State give us a timeline for its removal?</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_80">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T14:30:00+01:00"/></from>
+          <p eId="para_139">It would be no harm if we pushed several of these amendments to a vote to let people know where we stand on this issue and that we are not supporting forced divorce under this legislation.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_81">
+          <from> Chairman<recordedTime time="2015-06-17T14:30:00+01:00"/></from>
+          <p eId="para_140">It will be the Deputy and Deputy Aengus Ó Snodaigh who will press the amendment.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_82">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_141">I look forward to hearing the Minister's response.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_83" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_142">In light of the outcome in the marriage equality referendum, I had intended to bring amendments forward on Committee Stage which would remove this requirement. The necessary amendments have been prepared by the Department and the Office of the Parliamentary Counsel. The committee would be aware, however, that the legal challenge to the outcome of the referendum is under consideration by the Court of Appeal and I understand it will take place on 29 June. The result of the referendum cannot be certified so the committee will understand that I am constrained from bringing amendments at this stage. Also, it would be inappropriate to presume the outcome of the court proceedings.</p>
+          <p eId="para_143"> I intend to bring the appropriate amendments forward on Report Stage if the outcome of the court proceedings allows the result of the referendum to be formally certified. The following is where I ask for the co-operation of the committee. As Report Stage had been scheduled for next Tuesday, 23 June, then I wish to provisionally schedule it to take place on Thursday, 9 July which puts us right up against it in terms of time. I cannot publish the amendments until a decision is taken by the courts which may not give the committee ample time. </p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_84">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_144">We now know what the issues are.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_85" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_145">With the committee's support, I would hope Report Stage could be held on Thursday, 9 July. In the interim, I ask members of the committee who have tabled amendments on this issue to agree to withdraw their amendments and to accept my absolute assurance in this regard. I am quite happy if members of this committee wish, next week, to sit down and discuss what amendments my Department proposes to table on Report Stage. I say that just in case members think I am trying to blindside anyone. Please believe me that I am being as open as possible but I am not in a position to publish amendments until court proceedings have been finalised.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_86">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_146">I am happy enough but I have not consulted the groups who are dependent on and have lobbied about an additional two weeks delay. I know the Minister of State is committed to this legislation and I am happy with what he intends to do but I have some concerns. I wish to signal that I shall table amendments on Report Stage and I will press them if we have not seen his amendments by 9 July.</p>
+          <p eId="para_147"> Around July there is usually a rush of work and I hope we have enough time. The Minister of State will have to recommit amendments and, therefore, we will have to discuss his amendment separate to Report Stage. I do not want a rush job and do not want the guillotine used. I will discuss the scheduling with the Whip. We have already dealt with a number of issues which jumped ahead. However, this issue must be dealt with. We shall place our trust in the Minister of State. There may be stuff in the amendments but hopefully not. I am happy enough to withdraw my amendment but if there is another delay we will demand that we go ahead regardless. I think there are mechanisms the Minister of State can put in place which will afford us that freedom but we can debate the option on the next day. </p>
+        </speech>
+        <summary eId="sum_28"> Amendment, by leave, withdrawn. </summary>
+        <speech by="#JoanCollins" eId="spk_87">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_148">I move amendment No. 13:</p>
+          <p class="indent_1" eId="para_149">In page 9, line 21, to delete “<i>section 10 </i>or <i>11.</i>” and substitute the following:</p>
+          <p class="indent_2" eId="para_150">“<i>section 10 </i>or <i>11</i>, provided that <i>paragraph (b) </i>shall cease to have effect in respect of an applicant who is in an existing marriage or civil partnership where either:</p>
+          <p class="indent_3" eId="para_151">(i) an Act to Amend the Constitution is passed the effect of which is to permit two persons of the same gender to marry or to allow or require the Oireachtas to pass legislation the effect of which is to permit two persons of the same gender to marry, or</p>
+          <p class="indent_3" eId="para_152">(ii) an Act of the Oireachtas is passed the effect of which is to permit two persons of the same gender to marry, whichever is earlier.”.</p>
+        </speech>
+        <summary eId="sum_29"> Amendment put and declared lost. </summary>
+        <summary eId="sum_30"> Section 9 agreed to. </summary>
+        <summary eId="sum_31">SECTION 10</summary>
+        <speech by="#JoannaTuffy" eId="spk_88">
+          <from> Chairman<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_153">Amendment No. 14 has already been discussed with amendment No. 12 and if it is agreed then amendments Nos. 15, 16 and 16<i>a</i> cannot be moved.</p>
+        </speech>
+        <summary eId="sum_32"> Amendments Nos. 14 to 16, inclusive, not moved. </summary>
+        <speech by="#KevinHumphreys" eId="spk_89" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_154">I move amendment No. 16<i>a</i>:</p>
+          <p class="indent_1" eId="para_155">In page 10, line 4, to delete “will;” and substitute “will.”.</p>
+        </speech>
+        <summary eId="sum_33"> Amendment agreed to.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_90">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_156">I move amendment No. 17:</p>
+          <p class="indent_1" eId="para_157">In page 10, to delete lines 5 to 12. </p>
+        </speech>
+        <summary eId="sum_34"> Amendment agreed to.</summary>
+        <summary eId="sum_35"> Amendments Nos. 18 to 20, inclusive, not moved. </summary>
+        <summary eId="sum_36"> Section 10, as amended, agreed to. </summary>
+        <summary eId="sum_37">SECTION 11</summary>
+        <summary eId="sum_38"> Amendment No. 21 not moved. </summary>
+        <speech by="#KevinHumphreys" eId="spk_91" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_158">I move amendment No. 21<i>a</i>:</p>
+          <p class="indent_1" eId="para_159">In page 10, line 29, to delete “and <i>section 10(1)(g)</i>”.</p>
+        </speech>
+        <summary eId="sum_39"> Amendment agreed to.</summary>
+        <summary eId="sum_40"> Section 11, as amended, agreed to. </summary>
+        <summary eId="sum_41">SECTION 12</summary>
+        <summary eId="sum_42"> Amendments Nos. 22 to 26, inclusive, not moved. </summary>
+        <speech by="#KevinHumphreys" eId="spk_92" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_160">I move amendment No. 26<i>a</i>:</p>
+          <p class="indent_1" eId="para_161">In page 11, line 26, to delete “and”.</p>
+        </speech>
+        <summary eId="sum_43"> Amendment agreed to. </summary>
+        <speech by="#KevinHumphreys" eId="spk_93" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_162">I move amendment No. 26<i>b</i>:</p>
+          <p class="indent_1" eId="para_163">In page 11, line 28, after “person,” to insert “and”.</p>
+        </speech>
+        <summary eId="sum_44"> Amendment agreed to. </summary>
+        <speech by="#KevinHumphreys" eId="spk_94" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:40:00+01:00"/></from>
+          <p eId="para_164">I move amendment No. 26<i>c</i>:</p>
+          <p class="indent_1" eId="para_165">In page 11, between lines 28 and 29, to insert the following:</p>
+          <p class="indent_2" eId="para_166">“(D) the child has transitioned or is transitioning into his or her preferred gender,”.</p>
+        </speech>
+        <summary eId="sum_45"> Amendment agreed to. </summary>
+        <summary eId="sum_46">Amendment No. 27 not moved.</summary>
+        <speech by="#KevinHumphreys" eId="spk_95" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_167">I move amendment No. 27<i>a</i>:</p>
+          <p class="indent_1" eId="para_168">In page 12, line 3, to delete “apply for gender recognition” and substitute “live in his or her original gender for the rest of his or her life”.</p>
+        </speech>
+        <summary eId="sum_47"> Amendment agreed to.</summary>
+        <speech by="#KevinHumphreys" eId="spk_96" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_169">I move amendment No. 27<i>b</i>:</p>
+          <p class="indent_1" eId="para_170">In page 12, line 5, to delete “and”.</p>
+        </speech>
+        <summary eId="sum_48"> Amendment agreed to.</summary>
+        <summary eId="sum_49"> Amendment No. 28 not moved.</summary>
+        <speech by="#KevinHumphreys" eId="spk_97" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_171">I move amendment No. 28<i>a</i>:</p>
+          <p class="indent_1" eId="para_172">In page 12, line 7, after “person,” to insert “and”.</p>
+        </speech>
+        <summary eId="sum_50"> Amendment agreed to.</summary>
+        <speech by="#KevinHumphreys" eId="spk_98" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_173">I move amendment No. 28<i>b</i>:</p>
+          <p class="indent_1" eId="para_174">In page 12, between lines 7 and 8, to insert the following:</p>
+          <p class="indent_2" eId="para_175">“(D) the child has reversed the transition or ceased transitioning into the preferred gender,”.</p>
+        </speech>
+        <summary eId="sum_51"> Amendment agreed to.</summary>
+        <summary eId="sum_52"> Amendment No. 29 not moved.</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_99">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_176">I move amendment No. 30:</p>
+          <p class="indent_1" eId="para_177">In page 12, line 15, after “consent” to insert “or refuses to give their consent to the request”.</p>
+        </speech>
+        <summary eId="sum_53"> Amendment put and declared lost.</summary>
+        <summary eId="sum_54"> Amendments Nos. 31 and 32 not moved.</summary>
+        <summary eId="sum_55"> Section 12, as amended, agreed to.</summary>
+        <summary eId="sum_56">NEW SECTIONS</summary>
+        <speech by="#JoannaTuffy" eId="spk_100">
+          <from> Chairman<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_178">Amendments Nos. 33 to 35, inclusive, are related and will be discussed together.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_101">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_179">I move amendment No. 33:</p>
+          <p class="indent_1" eId="para_180">In page 12, between lines 26 and 27, to insert the following:</p>
+          <p class="indent_1" eId="para_181">
+            <b>“Interim Gender Recognition Certificate</b>
+          </p>
+          <p class="indent_1" eId="para_182"><b>13. </b>(1) In this section—</p>
+          <p class="indent_2" eId="para_183">“educational institution” means a school, college or other educational institution, including an institution providing pre-school services as defined by Part VI of the Child Care Act 1991;</p>
+          <p class="indent_2" eId="para_184">“identified gender” means the gender in which the person to whom this section applies identifies;</p>
+          <p class="indent_2" eId="para_185">“person to whom this section applies” is a child under the age of 18 in respect of whom a gender recognition certificate has not been issued.</p>
+          <p class="indent_2" eId="para_186">(2) The parent or guardian of a person to whom this section applies may, on behalf of that person, apply to the Minister for an interim gender recognition certificate.</p>
+          <p class="indent_2" eId="para_187">(3) The Minister shall grant an interim gender recognition certificate if satisfied that the person to whom this section applies identifies as a person of a gender different from that listed in the relevant entry in the register of births made in respect of that person.</p>
+          <p class="indent_2" eId="para_188">(4) In determining whether a person should be granted an interim gender recognition certificate, the Minister shall have regard, in so far as is practicable, to the wishes of that person.</p>
+          <p class="indent_2" eId="para_189">(5) Where the Minister has granted an interim gender recognition certificate in respect of a person to whom this section applies, and where the person is a pupil at an educational institution, the educational institution shall permit (but not require) the person to—</p>
+          <p class="indent_3" eId="para_190">(a) be admitted to and attend an educational institution reserved to pupils of one gender only where that gender is the person’s identified gender;</p>
+          <p class="indent_3" eId="para_191">(b) use the name and gender designation listed on the interim gender recognition certificate;</p>
+          <p class="indent_3" eId="para_192">(c) wear such uniform or other clothing as is appropriate to the person’s identified gender;</p>
+          <p class="indent_3" eId="para_193">(d) use the bathroom and changing facilities at that school, college or educational institution appropriate to his or her identified gender, provided always that such facilities are as safe as can reasonably be expected for use for that person; and</p>
+          <p class="indent_3" eId="para_194">(e) participate in sporting activities appropriate to a person of the identified gender.</p>
+          <p class="indent_2" eId="para_195">(6) For the avoidance of any doubt, this section does not prevent or exempt any person from taking steps in respect of a person to whom this section applies where the person in respect of whom this section applies has not been issued with an interim gender recognition certificate.</p>
+          <p class="indent_2" eId="para_196">(7) The issue of an interim gender recognition certificate to a person in accordance with this section does not—</p>
+          <p class="indent_3" eId="para_197">(a) confer any right or entitlement on the person that is not connected with the purposes of this section, or</p>
+          <p class="indent_3" eId="para_198">(b) affect any right, entitlement, duty or obligation arising under statute or otherwise.</p>
+          <p class="indent_2" eId="para_199">(8) An interim gender recognition certificate issued under this section shall continue to be legally effective notwithstanding the fact that the person to whom this section applies has reached the age of 18.</p>
+          <p class="indent_2" eId="para_200">(9) A person in respect of whom the Minister has issued an interim gender recognition certificate may, if otherwise eligible to do so, apply for a gender recognition certificate notwithstanding the fact that he or she holds an interim gender recognition certificate, provided that the interim gender recognition certificate shall cease to have legal effect on the granting to that person of a gender recognition certificate.</p>
+          <p class="indent_2" eId="para_201">(10) The Minister, by regulations under this Act, shall specify the particulars to be included in an interim gender recognition certificate.”.</p>
+          <p eId="para_202">This amendment concerns the interim gender recognition certificate, the application for and registration of the gender certificate and the revocation of the interim certificate. The amendment points out the need for these provisions to be included in the legislation. It points out that in determining whether a person should be granted an interim gender recognition certificate, the Minister shall have regard to the wishes of that person, that he person to whom this section applies is identified as a person of a gender different from that listed in the relevant entry in the register of births made in respect of that person and that this can be done by parental declaration.</p>
+          <p eId="para_203"> The amendment also makes provisions in respect of educational institutions, sporting activities and other relevant issues and I believe it is an important part of what should be in the legislation. I intend to press this amendment and seek a vote on it, because I have not been convinced the various Departments, the Departments of Children and Youth Affairs, Education and Skills and Social Protection, are moving on this together. We should all support the interim gender recognition certificate.</p>
+          <p eId="para_204"> This amendment only concerns an interim certificate and does not make provisions in regard to medical treatment or surgery. All it does is recognise the person. I believe this will have a major impact on the person involved in regard to preferred or actual gender and I ask other Deputies to support the amendment.</p>
+        </speech>
+        <speech by="#WillieODea" eId="spk_102">
+          <from>Deputy Willie O'Dea<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_205">I would be broadly supportive of that. One of the issues that has been brought to my attention is the lack of provision for people under the age of 16. Correspondence I have received from the group representing this sector indicates their concern that increasing numbers of those they are dealing with are under the age of 16. This amendment would provide a partial solution, but perhaps the Minister of State is constrained for legal reasons from taking it on board. I believe he should give it careful consideration, because it would enhance the legislation.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_103" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_206">I accept and understand that people are concerned about the experience of transgender children in schools. Perhaps I am wrong, but I think this is why these amendments have been proposed. Issues regarding school admission policies are a matter for the Minister for Education and Skills and we discussed this earlier.</p>
+          <p eId="para_207"> The Deputy proposes that I introduce an interim gender recognition certificate for children of any age and the purpose behind that is essentially aimed at school admissions. This is a very complicated approach to the problem. Even if I was responsible for schools, I do not believe the amendment would be workable. Significant related work would need to be done. There is no provision in the amendment, for example, in regard to whether the interim certificate should be used after the age of 18. The amendment is a recipe for confusion in many ways. This goes back to the lack of quantitative research on this area and we talked about this at length earlier. While I understand where the Deputy is coming from on this, I am not in a position to accept her amendment. There is significant work to be done and information to be gathered on the transgender issue and it is not appropriate to deal with the issue at this stage in this Bill. However, I accept the Deputy's genuine intention.</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_104">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_208">The confusion I see in this regard is the confusion of the person, of the child aged eight, nine, 11 or 13 etc. who feels he or she is in a different body. This causes more problems for them in the long run. I believe that the provision of an interim gender recognition certificate would give that person a feeling that he or she is on the right road and heading in the right direction and that at age 18 they can get a full gender recognition certificate.</p>
+          <p eId="para_209"> People dealing with youth groups say and we hear Ministers say that children should have a voice and a say in their future, in legal and all other areas, but we have not recognised that transgender children are not recognised by the State. That is wrong. I understand we are not going to go further on this in this Bill and that the position will remain as it is. However, will the Minister of State give a commitment to a cross-Department approach to the issue, between the Departments of Education and Skills, Children and Youth Affairs and Social Protection, to try to move forward on this issue quickly in regard to the education protocols and so on that are to be put in place? Will he agree that we should be looking at something like that within three or six months time?</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_105" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_210">Between now and Report Stage, I will endeavour to talk to the Minister, Deputy James Reilly, on this issue.</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_106">
+          <from> Chairman<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_211">Does the Deputy wish to press the amendment?</p>
+        </speech>
+        <speech by="#JoanCollins" eId="spk_107">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T14:50:00+01:00"/></from>
+          <p eId="para_212">Yes.</p>
+        </speech>
+        <debateSection name="division" eId="dbsect_4">
+          <summary eId="sum_57">Amendment put: </summary>
+          <summary title="division" eId="sum_58">The Committee divided: Tá, <quantity refersTo="#ta" normalized="3" eId="qty_1">3</quantity>; Níl, <quantity refersTo="#nil" normalized="4" eId="qty_2">4</quantity>.</summary>
+          <debateSection name="ta" eId="dbsect_5">
+            <p eId="para_213">Tá</p>
+            <p eId="para_214">
+              <person refersTo="#JoanCollins">Collins, Joan.</person>
+            </p>
+            <p eId="para_215">
+              <person refersTo="#WillieODea">O'Dea, Willie.</person>
+            </p>
+            <p eId="para_216">
+              <person refersTo="#AengusOSnodaighSF">Ó Snodaigh, Aengus.</person>
+            </p>
+          </debateSection>
+          <debateSection name="nil" eId="dbsect_6">
+            <p eId="para_217">Níl</p>
+            <p eId="para_218">
+              <person refersTo="#MichaelConaghan">Conaghan, Michael.</person>
+            </p>
+            <p eId="para_219">
+              <person refersTo="#KevinHumphreys">Humphreys, Kevin.</person>
+            </p>
+            <p eId="para_220">
+              <person refersTo="#BrendanRyanDublin">Ryan, Brendan.</person>
+            </p>
+            <p eId="para_221">
+              <person refersTo="#JoannaTuffy">Tuffy, Joanna.</person>
+            </p>
+          </debateSection>
+          <summary title="tellers" eId="sum_59"/>
+          <summary title="decision" refersTo="#lost" eId="sum_60">Amendment declared lost.</summary>
+        </debateSection>
+        <summary eId="sum_61">Amendments Nos. 34 and 35 not moved.</summary>
+        <summary eId="sum_62">SECTION 13</summary>
+        <speech by="#JoannaTuffy" eId="spk_108">
+          <from> Chairman<recordedTime time="2015-06-17T15:10:00+01:00"/></from>
+          <p eId="para_222">Amendments Nos. 36, 42 and 44 are related and may be discussed together by agreement.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_109">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T15:10:00+01:00"/></from>
+          <p eId="para_223">I move amendment No. 36:</p>
+          <p class="indent_1" eId="para_224">In page 12, to delete line 32 and substitute the following:</p>
+          <p class="indent_1" eId="para_225">	"(c) an indication of the person's gender using the abbreviation M (male), F (female or X (indeterminate/unspecified/intersex).".</p>
+          <p eId="para_226">This amendment is about the indication on the certificate. The section provides that a gender recognition certificate shall specify the date on which it is issued, the person's forename and surname, the person's date of birth and the person's gender. It does not fully cover all of the people in society. The majority of people are male or female but there are those who are intersex, whether it is an indeterminate or unspecified sex. Sometimes it may take many years before a person discovers that he or she has a complicated DNA system. In recent years I have read more and more about cases where a man, in one case, discovered he had full operational female genitals. He had a womb and it was conceivable that he could give birth, if he was lucky enough. He had lived as a man for many years. The anomaly was spotted during a medical procedure.</p>
+          <p eId="para_227"> I recall the presentations on the Bill and the observations in the first instance in the case of some very young people, not many, where there are incidents in which it is more complicated for the medical profession to make a determination. This small amendment would allow us to capture those who do not have a male or female gender. The Minister may be correct in saying that in some ways we do not know enough. If we do not know enough, the easiest thing in the world would be not to allow that gap. It was one of the points that had been highlighted that most of the Bill deals specifically with transgender, those who have transitioned to their preferred gender, but in the case of intersex sometimes there is a complication that it is not necessarily the preferred gender, it is trying to be specific in terms or either of the genders that is being prescribed here. It is a minor technicality. I will not delay the House on it. If the Minister of State cannot take it on board, I hope he would reflect on it and see whether there is another mechanism which would allow us, with all the legal implications this would have, to have that extra box ticked on the certificate.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_110" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T15:10:00+01:00"/></from>
+          <p eId="para_228">I thank the Deputy. If it is the same case which I read about, when that gentleman discovered his situation he said he had no intention to trans because he saw himself as a man and as a male. I read the case with interest and how this whole area can become very complicated in the future. The purpose of this Bill is to address the need for provide a legal recognition for the position of transgender people and to cater also for intersex people who may wish to avail of the arrangement provided. The Bill is based on the principle set out in section 18. It will not provide for a third character alongside side male and female. I am aware that a small number of countries have made some changes to allow for the registration of a person of indeterminate gender. This is a very complicated area and any changes proposed in the amendment would need to be examined carefully and could have severe unintentional consequences that would also have to be considered throughout legislation. Just for one instance a third option, which is neither male nor female, could potentially accept the concept of guardianship children and several pieces of legislation would have to be considered carefully and examined. It would be unwise to accept what Deputy Ó Snodaigh said is a minor amendment, which could be quite radical when considered in terms of the legislation on the Statute Book. I do not propose to accept the amendment.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_111">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T15:10:00+01:00"/></from>
+          <p eId="para_229">I did not expect the Minister of State to accept it. He is correct in saying it could have profound implications in terms of other laws. One of the reasons this Bill took so long is that it challenged many of the rigid aspects of society. It challenged the pigeon holes we create as a society. In this amendment I am seeking, at the very least, a recognition that there are those in society who are intersex. In the case of the article which the Minister of State also read, the first step by the person in question, on medical advice, was to remove those organs because they might cause problems in later years. This individual was in his late thirties. He is not the only person in that position. It is a particular problem in some cases at a very young age. Sometimes the medical profession intervenes and sometimes it does not. Sometimes in later years, being intersex can force a person to make a decision rather than-----</p>
+        </speech>
+        <speech by="#JoannaTuffy" eId="spk_112">
+          <from> Chairman<recordedTime time="2015-06-17T15:10:00+01:00"/></from>
+          <p eId="para_230">Please conclude.</p>
+        </speech>
+        <speech by="#AengusOSnodaighSF" eId="spk_113">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T15:10:00+01:00"/></from>
+          <p eId="para_231">I understand. I will withdraw the amendment and table it on Report Stage. It is an issue that is not earth-shattering and could be facilitated in the future.</p>
+        </speech>
+        <summary eId="sum_63"> Amendment, by leave, withdrawn.</summary>
+        <summary eId="sum_64"> Section 13 agreed to.</summary>
+        <summary eId="sum_65"> Section 14 agreed to. </summary>
+        <summary eId="sum_66">SECTION 15</summary>
+        <speech by="#KevinHumphreys" eId="spk_114" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T15:20:00+01:00"/></from>
+          <p eId="para_232">I move amendment No. 36<i>a</i>:</p>
+          <p class="indent_1" eId="para_233">In page 14, to delete lines 32 to 37 and substitute the following: </p>
+          <p class="indent_2" eId="para_234">“(4) In considering an application under this section the Minister shall consider the information furnished by the applicant and may request further information from the applicant regarding any information or evidence furnished by the applicant or on his or her behalf.”.</p>
+        </speech>
+        <summary eId="sum_67"> Amendment agreed to.</summary>
+        <summary eId="sum_68"> Amendment Nos. 37 to 40, inclusive, not moved.</summary>
+        <speech by="#KevinHumphreys" eId="spk_115" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T15:20:00+01:00"/></from>
+          <p eId="para_235">I move amendment No. 40<i>a</i>:</p>
+          <p class="indent_1" eId="para_236">In page 15, line 27, to delete “will;” and substitute “will.”.</p>
+        </speech>
+        <summary eId="sum_69"> Amendment agreed to.</summary>
+        <speech by="#KevinHumphreys" eId="spk_116" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T15:20:00+01:00"/></from>
+          <p eId="para_237">I move amendment No. 41:</p>
+          <p class="indent_1" eId="para_238">In page 15, to delete lines 28 to 36.</p>
+        </speech>
+        <summary eId="sum_70"> Amendment agreed to.</summary>
+        <summary eId="sum_71"> Section 15, as amended, agreed to.</summary>
+        <summary eId="sum_72"> Sections 16 and 17 agreed to.</summary>
+        <summary eId="sum_73"> Amendment Nos. 42 and 43 not moved.</summary>
+        <summary eId="sum_74"> Section 18 agreed to.</summary>
+        <summary eId="sum_75">SECTION 19</summary>
+        <speech by="#AengusOSnodaighSF" eId="spk_117">
+          <from>Deputy Aengus Ó Snodaigh<recordedTime time="2015-06-17T15:20:00+01:00"/></from>
+          <p eId="para_239">I move amendment No. 44:</p>
+          <p class="indent_1" eId="para_240">In page 19, line 32, to delete “the father or mother” and substitute “parent”.</p>
+        </speech>
+        <summary eId="sum_76"> Amendment put and declared lost.</summary>
+        <summary eId="sum_77"> Section 19 agreed to.</summary>
+        <summary eId="sum_78"> Sections 20 to 26, inclusive, agreed to.</summary>
+        <summary eId="sum_79"> Amendment No. 45 not moved.</summary>
+        <summary eId="sum_80"> Sections 27 to 35, inclusive, agreed to.</summary>
+        <summary eId="sum_81"> Amendments Nos. 46 and 47 not moved.</summary>
+        <summary eId="sum_82"> Section 36 agreed to.</summary>
+        <summary eId="sum_83"> Amendment No. 48 not moved.</summary>
+        <summary eId="sum_84"> Section 37 agreed to.</summary>
+        <summary eId="sum_85">SECTION 38</summary>
+        <summary eId="sum_86"> Question proposed: "That section 38 stand part of the Bill."</summary>
+        <speech by="#KevinHumphreys" eId="spk_118" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T15:20:00+01:00"/></from>
+          <p eId="para_241">I intend to bring forward amendments to the Passports Act 2008 on Report Stage. It is just to acknowledge that applications for gender recognition certificates for persons aged 18 years or older do not have to be accompanied by a medical supporting statement.</p>
+        </speech>
+        <summary eId="sum_87"> Question put and agreed to.</summary>
+        <summary eId="sum_88"> Amendments Nos. 49 to 54, inclusive, not moved.</summary>
+        <summary eId="sum_89">TITLE</summary>
+        <speech by="#JoanCollins" eId="spk_119">
+          <from>Deputy Joan Collins<recordedTime time="2015-06-17T15:20:00+01:00"/></from>
+          <p eId="para_242">I move amendment No. 55:</p>
+          <p class="indent_1" eId="para_243">In page 5, line 5, to delete “to recognise change of gender” and substitute “to recognise for all legal purposes the preferred gender of persons to whom this Act applies”.</p>
+        </speech>
+        <speech by="#KevinHumphreys" eId="spk_120" as="#Minister_of_State_at_the_Department_of_Social_Protection">
+          <from>Deputy Kevin Humphreys<recordedTime time="2015-06-17T15:20:00+01:00"/></from>
+          <p eId="para_244">The effect of gender recognition is established in section 18 of the Bill, which sets out in detail the effects of the granting of a gender recognition certificate, so I do not see the need for the amendment and I do not accept it.</p>
+        </speech>
+        <summary eId="sum_90"> Amendment put and declared lost.</summary>
+        <summary eId="sum_91"> Title agreed to.</summary>
+        <summary eId="sum_92"> Bill reported with amendments.</summary>
+      </debateSection>
+      <debateSection name="debate" eId="dbsect_7">
+        <heading>Message to Dáil<recordedTime time="2015-06-17T15:20:00+01:00"/></heading>
+        <speech by="#JoannaTuffy" eId="spk_121">
+          <from> Chairman<recordedTime time="2015-06-17T15:20:00+01:00"/></from>
+          <p eId="para_245">In accordance with Standing Order 87, the following message will be sent to the Clerk of the Dáil:</p>
+          <p class="indent_1" eId="para_246">The Select Sub-Committee on Social Protection has completed its consideration of the Gender Recognition Bill 2014 and has made amendments thereto.</p>
+          <p eId="para_247">I thank the Minister and his officials, the committee members and those in the gallery.</p>
+        </speech>
+        <summary eId="sum_93"> The select committee adjourned at 3.28 p.m. <i>sine die</i>.</summary>
+      </debateSection>
+    </debateBody>
+  </debate>
+</akomaNtoso>
