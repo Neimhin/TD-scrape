@@ -11,6 +11,34 @@ list 		:= $(foreach url,$(shell cat data/debates_$(MID).list.txt | sed 's,:,<c>,
 TSV_DIR := $(DEBATE_DIR)/tsv
 tsv_list	:= $(foreach f,$(list),$(dir $f)tsv/$(notdir $f).tsv)
 
+
+data/debates.d/all-$(MEMBER_TAG_REF).csv:
+	for f in data/debates.d/all/*.csv; do
+		cat "$$f" | grep -P "#$(MEMBER_TAG_REF)\t"
+	done > $@
+
+all_xmls := $(wildcard data/debates.d/all/*.xml)
+all_xmls_to_tsv := $(foreach f, $(all_xmls), $f.csv)
+
+all_tsv: $(all_xmls_to_tsv)
+
+data/debates.d/all/%.csv:
+	./src/debate-xml-to-tsv "$(@D)/$*" > "$@"
+
+data/debates.d/all-sorted.csv: data/debates.d/all-raw.csv
+	cat $< | sort -u > $@
+
+xmls:
+	mkdir -p data/debates.d/all
+	for f in data/debates.d/*.d/*.xml; do
+		rsync $$f data/debates.d/all/`basename $$f`
+	done
+
+data/debates.d/all-raw.csv:
+	for f in data/debates.d/*.d/*.xml; do
+		./src/debate-xml-to-tsv $$f
+	done > $@
+
 everything: data/members_with_pId.tsv
 	while IFS= read -r line; do
 		tag_ref=`  echo $$line | awk '{print $$1}'`
