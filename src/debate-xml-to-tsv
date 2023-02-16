@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+from bs4 import BeautifulSoup as bs
+import sys
+import dateutil.parser
+import datetime
+import re
+import databases as db
+
+def mktext(ps):
+  text = ""
+  for p in ps:
+    text += " " + p.getText().strip()
+  return text
+
+def process_debate(d):
+    speeches = d.find_all("speech")
+
+
+def looks_like_answer(text):
+    if re.search(r"\s*I propose to (answer|take) Questions No",text):
+        return True
+    return False
+
+def resolve_forum(text):
+    if looks_like_answer(text):
+        return "answer"
+    else:
+        return "speech"
+
+def resolve_age(dob,compare_date):
+    if(isinstance(dob,str)):
+            return dob
+    return str((compare_date - dob).days)
+
+
+if "--head" in sys.argv:
+    print("name","party","age in days","constituency","forum","language","date","topic","cardinal number in debate", "text",sep="\t")
+
+f = sys.argv[1]
+with open(f) as fp:
+  soup = bs(fp, 'xml')
+  date = dateutil.parser.parse(soup.find("docDate")["date"])
+  debates = soup.find_all("debate")
+  for d in debates:
+      topic = d.find("heading").getText()
+      speech_number = 0
+      speeches = d.find_all("speech")
+      for s in speeches:
+          speaker_pid = s["by"]
+          speaker_name = speaker_pid[1:]
+          speaker_party = db.get("party",speaker_pid)
+          speaker_constituency = db.get("constituency",speaker_pid)
+          age_in_days = resolve_age(db.get("dob",speaker_pid),date)
+          ps = s.find_all("p")
+          text = mktext(ps)
+          forum = resolve_forum(text)
+          print(speaker_name, speaker_party, age_in_days,speaker_constituency, forum, "unknown-language", date, topic, speech_number, text,sep="\t")
+          speech_number += 1

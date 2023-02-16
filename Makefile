@@ -11,6 +11,9 @@ list 		:= $(foreach url,$(shell cat data/debates_$(MID).list.txt | sed 's,:,<c>,
 TSV_DIR := $(DEBATE_DIR)/tsv
 tsv_list	:= $(foreach f,$(list),$(dir $f)tsv/$(notdir $f).tsv)
 
+data/debates.d/all-$(MEMBER_TAG_REF)-sorted.csv: data/debates.d/all-$(MEMBER_TAG_REF).csv
+	cat $< | sort -s -k3 > data/temp
+	mv data/temp $@
 
 data/debates.d/all-$(MEMBER_TAG_REF).csv:
 	for f in data/debates.d/all/*.csv; do

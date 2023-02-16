@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+from bs4 import BeautifulSoup as bs
+import sys
+import dateutil.parser
+import datetime
+import re
+import databases as db
+
+def looks_like_answer(text):
+    if re.search(r"\s*I propose to (answer|take) Questions No",text):
+        return True
+    return False
+
+def resolve_forum(text):
+    if looks_like_answer(text):
+        return "answer"
+    else:
+        return "speech"
+
+def resolve_age(dob,compare_date):
+    if(isinstance(dob,str)):
+            return dob
+    return str((compare_date - dob).days)
+
+
+if "--head" in sys.argv:
+    print("name","party","age in days","constituency","forum","language","date","topic","cardinal number in debate", "text",sep="\t")
+
+f = sys.argv[1]
+
+with open(f,'r') as fh:
+    for l in fh.readlines():
+        [member_id,date_str,written_oral,house,text] = l.strip().split('\t')
+        text = text.strip()
+        cardinal = re.search(r"^\d+",text).group() or "unknownywowny"
+        pid_normal = db.get("code2pid",member_id)
+        if not pid_normal:
+            continue
+        else:
+            pid = "#" + pid_normal
+        party = db.get("party",pid)
+        consti = db.get("constituency",pid)
+        forum = "question-" + written_oral
+        date = dateutil.parser.parse(date_str)
+        age_in_days = resolve_age(db.get("dob",pid),date)
+        print(pid_normal,party,age_in_days,consti,forum,"unknown-language", date, "unknown",cardinal, text, sep="\t")
