@@ -62,18 +62,24 @@ data/questions/after-2010/compiled.tsv: data/questions/after-2010-meta
 	done
 	cat data/questions/after-2010/*.json.tsv | sort -k 1 | sort -u > $@
 
-data/questions.tsv: data/questions-meta
-	for f in data/questions-meta-*.json; do
-		./src/scrape-questions $$f > $$f.tsv
-	done
-	cat data/questions-meta-*.json.tsv | sort -k 1 | sort -u > $@
+data/questions-proper.tsv: data/questions.tsv ./src/question-tsv-to-proper-question-tsv
+	$(lastword $^) $< > $@
 
-data/questions-meta: $(foreach range, $(shell seq 1 2000 30000), data/questions-meta-$(range).json)
+data/questions.tsv: $(foreach range, $(shell seq 0 2000 30000), data/questions.d/questions-meta-$(range).json.tsv)
+	cat data/questions-meta-*.json.tsv | awk -F "\t" '{if (NF == 5) { print $$0}}' | uniq > $@
 
-data/questions-meta-%.json:
+.PRECIOUS: data/questions.d/questions-meta-%.json
+data/questions.d/questions-meta-%.json.tsv: $(foreach range, $(shell seq 0 2000 30000), data/questions.d/questions-meta-$(range).json)
+	./src/scrape-questions $(@D)/questions-meta-$*.json > $@
+
+data/questions.d/questions-meta-%.json: data/questions.d/
 	skip=`echo $* | grep -o '^[[:digit:]]\+'`
 	echo $$skip
 	curl -X GET --location "https://api.oireachtas.ie/v1/questions?date_start=2000-01-01&date_end=2099-01-01&limit=2000&skip=$${skip}" -H  "accept: application/json" > $@
+
+
+data/questions.d/:
+	mkdir -p $@
 
 data/questions/after-2010-meta: $(foreach range, $(shell seq 0 2000 30000), data/questions/after-2010/$(range).json)
 
